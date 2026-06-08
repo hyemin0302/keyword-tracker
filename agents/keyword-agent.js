@@ -139,17 +139,28 @@ function buildKeywordAliases(slug, nameKo) {
 }
 
 // ── 주가 조회 (Yahoo Finance) ─────────────────────────────
+// 한국 주식 6자리 코드는 .KS(코스피) → .KQ(코스닥) 순으로 폴백
+async function fetchYahoo(symbol) {
+  const r = await fetch(
+    `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1d&range=1d`,
+    { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(6000) }
+  );
+  if (!r.ok) return null;
+  const data = await r.json();
+  return data?.chart?.result?.[0]?.meta || null;
+}
+
 async function fetchStockPrices(tickers) {
   const results = {};
   await Promise.allSettled(tickers.map(async ticker => {
     try {
-      const r = await fetch(
-        `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?interval=1d&range=1d`,
-        { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(6000) }
-      );
-      if (!r.ok) return;
-      const data = await r.json();
-      const meta = data?.chart?.result?.[0]?.meta;
+      const isKR = /^\d{6}$/.test(ticker);
+      const candidates = isKR ? [`${ticker}.KS`, `${ticker}.KQ`] : [ticker];
+      let meta = null;
+      for (const sym of candidates) {
+        meta = await fetchYahoo(sym);
+        if (meta?.regularMarketPrice) break;
+      }
       if (meta?.regularMarketPrice) {
         results[ticker] = {
           px: meta.regularMarketPrice,

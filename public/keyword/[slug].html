@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title id="pageTitle">Market Radar</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0e14;--panel:#121a26;--panel2:#16202e;--line:#1e2c3d;--line2:#27384c;
+  --txt:#e6edf5;--muted:#8a9bb0;--dim:#5c6c80;
+  --up:#ff4d4f;--down:#3b82f6;--flat:#6b7c92;
+  --accent:#76b900;--gold:#e0b341;
+  --mono:ui-monospace,'SF Mono',Menlo,monospace;
+  --sans:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',-apple-system,sans-serif;
+}
+html,body{background:var(--bg);color:var(--txt);font-family:var(--sans)}
+a{color:inherit;text-decoration:none}
+
+/* nav */
+nav{position:sticky;top:0;z-index:100;background:rgba(10,14,20,.92);border-bottom:1px solid var(--line);padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
+.back-btn{font:600 12px var(--mono);color:var(--muted);background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:5px}
+.back-btn:hover{color:var(--accent)}
+.nav-title{font:700 14px var(--sans);color:var(--txt);display:flex;align-items:center;gap:7px}
+.nav-icon{font-size:18px}
+.live-badge{font:700 11px var(--mono);background:rgba(118,185,0,.2);color:var(--accent);padding:2px 7px;border-radius:5px}
+
+/* wrap */
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+section{padding:28px 0;border-top:1px solid var(--line)}
+
+/* 히어로 */
+.hero{padding:36px 0 24px}
+.hero-kick{font:600 11px var(--mono);letter-spacing:.15em;color:var(--accent);margin-bottom:8px}
+.hero-title{font-size:clamp(26px,6vw,44px);font-weight:800;letter-spacing:-.02em;margin-bottom:8px}
+.hero-sub{color:var(--muted);font-size:14px;max-width:580px;line-height:1.7}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.chip{font:500 12px var(--mono);background:var(--panel);border:1px solid var(--line);padding:5px 11px;border-radius:99px}
+
+/* 인사이트 카드 */
+.insight-card{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:12px;padding:18px 20px;margin-bottom:8px}
+.insight-label{font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent);margin-bottom:10px}
+.insight-summary{font-size:15px;line-height:1.75;color:var(--txt);margin-bottom:12px}
+.insight-points{display:flex;flex-wrap:wrap;gap:8px}
+.insight-pt{font:500 12px var(--sans);background:var(--panel2);border:1px solid var(--line2);padding:5px 10px;border-radius:8px;color:var(--muted)}
+.sentiment{display:inline-flex;align-items:center;gap:5px;font:700 12px var(--mono);padding:3px 9px;border-radius:6px;margin-left:8px}
+.bullish{background:rgba(118,185,0,.15);color:var(--accent)}
+.bearish{background:rgba(239,68,68,.15);color:#f87171}
+.neutral{background:rgba(107,124,146,.15);color:var(--flat)}
+
+/* 주가 그리드 */
+.stock-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.scard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.scard .sh{display:flex;align-items:baseline;justify-content:space-between;gap:6px;margin-bottom:8px}
+.scard .nm{font:700 14px var(--sans)}
+.scard .cd{font:500 11px var(--mono);color:var(--dim)}
+.scard .px{font:700 20px var(--mono)}
+.scard .ch{font:700 14px var(--mono)}
+.up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--flat)}
+.exbadge{font:700 9px var(--mono);padding:2px 5px;border-radius:4px}
+.ex-NASDAQ{background:rgba(16,185,129,.15);color:#34d399}
+.ex-NYSE{background:rgba(139,92,246,.15);color:#a78bfa}
+.ex-KRX{background:rgba(59,130,246,.15);color:#60a5fa}
+.market-state{font:500 10px var(--mono);color:var(--dim)}
+
+/* 뉴스 */
+.ncard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:8px}
+.ncard .ns{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+.src-badge{font:600 10px var(--mono);background:var(--panel2);border:1px solid var(--line2);padding:2px 7px;border-radius:5px;color:var(--muted)}
+.ntime{font:500 11px var(--mono);color:var(--dim);margin-left:auto}
+.ncard h4{font-size:15px;font-weight:700;line-height:1.4;margin-bottom:6px}
+.ncard h4 a:hover{color:var(--accent)}
+.ncard .nd{font-size:13px;color:var(--muted);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* 상태 */
+.loading{display:flex;align-items:center;justify-content:center;padding:60px;color:var(--dim);font:500 14px var(--mono)}
+.empty{color:var(--dim);font:500 13px var(--mono);padding:24px 0}
+.shead{display:flex;align-items:center;gap:10px;margin-bottom:6px;flex-wrap:wrap}
+.shead h2{font-size:20px;font-weight:700;display:flex;align-items:center;gap:8px}
+.shead h2 i{width:11px;height:11px;border-radius:3px;background:var(--accent);display:inline-block}
+.ssub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.tag{font:500 11px var(--mono);color:var(--dim);border:1px solid var(--line);padding:3px 8px;border-radius:6px}
+
+footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500 11px var(--mono);text-align:center}
+</style>
+</head>
+<body>
+<nav><div style="display:flex;align-items:center;gap:12px;width:100%;max-width:1040px;margin:0 auto">
+  <button class="back-btn" onclick="history.back()">← 검색</button>
+  <div class="nav-title"><span class="nav-icon" id="navIcon"></span><span id="navName">로딩 중...</span></div>
+  <span class="live-badge">LIVE</span>
+  <span id="updatedAt" style="font:500 11px var(--mono);color:var(--dim);margin-left:auto"></span>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="hero-kick" id="heroKick">MARKET RADAR · 투자 테마</div>
+  <div class="hero-title" id="heroTitle"><span id="titleIcon"></span> <span id="titleName">로딩 중...</span></div>
+  <div class="hero-sub" id="heroSub"></div>
+  <div class="chips" id="heroChips"></div>
+</div></header>
+
+<section id="sec-insight"><div class="wrap">
+  <div class="shead"><h2><i></i>AI 인사이트</h2><span class="tag" id="insightModel"></span></div>
+  <div id="insightBody"><div class="loading">인사이트 로딩 중...</div></div>
+</div></section>
+
+<section id="sec-stocks"><div class="wrap">
+  <div class="shead"><h2><i></i>관련 주가</h2><span class="tag" id="stockCount"></span></div>
+  <p class="ssub">관련 종목 실시간 가격 (Yahoo Finance · 방문 기준 % 변화율)</p>
+  <div class="stock-grid" id="stockGrid"><div class="loading">주가 로딩 중...</div></div>
+  <p style="font:500 11px var(--mono);color:var(--dim);margin-top:12px">※ 시세 지연 가능 · 투자 권유 아님</p>
+</div></section>
+
+<section id="sec-news"><div class="wrap">
+  <div class="shead"><h2><i></i>최신 뉴스</h2><span class="tag" id="newsCount"></span></div>
+  <div id="newsList"><div class="loading">뉴스 로딩 중...</div></div>
+</div></section>
+
+<footer>Market Radar · 30분마다 자동 업데이트 · <a href="/">← 다른 테마 검색</a> · <a href="https://jensen-realtime.vercel.app">젠슨황 트래커</a></footer>
+
+<script>
+// URL에서 slug 추출
+var slug = decodeURIComponent(location.pathname.replace('/keyword/', '').replace(/\/$/, ''));
+var keywordMeta = null;
+
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function cls(v){var n=parseFloat(v);return n>0?'up':n<0?'down':'flat';}
+function arr(v){var n=parseFloat(v);return n>0?'▲':n<0?'▼':'·';}
+function fmtPx(n,cur){
+  if(cur==='KRW'||!cur) return Math.round(n).toLocaleString('ko-KR')+'원';
+  return '$'+( n>=1000?n.toLocaleString('en-US',{maximumFractionDigits:0}):n.toFixed(2));
+}
+
+// 1. 키워드 메타 로드
+fetch('/data/keywords/index.json').then(r=>r.json()).then(function(d){
+  keywordMeta = d.keywords.find(k=>k.slug===slug);
+  if(!keywordMeta){document.body.innerHTML='<div style="padding:80px;text-align:center;color:#8a9bb0">키워드를 찾을 수 없습니다. <a href="/" style="color:#76b900">← 돌아가기</a></div>';return;}
+  renderMeta();
+  loadAll();
+});
+
+function renderMeta(){
+  document.title = keywordMeta.name.ko + ' — Market Radar';
+  document.getElementById('navIcon').textContent = keywordMeta.icon;
+  document.getElementById('navName').textContent = keywordMeta.name.ko;
+  document.getElementById('titleIcon').textContent = keywordMeta.icon;
+  document.getElementById('titleName').textContent = keywordMeta.name.ko;
+  document.getElementById('heroSub').textContent = keywordMeta.name.en + ' 테마의 실시간 뉴스·주가·AI 인사이트';
+  var chips = (keywordMeta.tickers||[]).map(t=>'<span class="chip">'+esc(t)+'</span>').join('');
+  document.getElementById('heroChips').innerHTML = chips;
+}
+
+function loadAll(){
+  var base = '/data/keywords/'+encodeURIComponent(slug)+'/';
+  // 인사이트
+  fetch(base+'insight.json?_='+Date.now()).then(r=>r.ok?r.json():null).then(renderInsight).catch(()=>renderInsight(null));
+  // 주가
+  fetch(base+'stock.json?_='+Date.now()).then(r=>r.ok?r.json():null).then(renderStocks).catch(()=>renderStocks(null));
+  // 뉴스
+  fetch(base+'news-live.json?_='+Date.now()).then(r=>r.ok?r.json():null).then(renderNews).catch(()=>renderNews(null));
+}
+
+function renderInsight(d){
+  var el = document.getElementById('insightBody');
+  if(!d||!d.summary){el.innerHTML='<div class="empty">인사이트 생성 중입니다. 30분 후 다시 확인하세요.</div>';return;}
+  var sentCls = d.sentiment==='bullish'?'bullish':d.sentiment==='bearish'?'bearish':'neutral';
+  var sentTxt = d.sentiment==='bullish'?'강세':d.sentiment==='bearish'?'약세':'중립';
+  document.getElementById('insightModel').textContent = d._model||'Llama';
+  var pts = (d.key_drivers||[]).concat(d.watch_points||[]).map(p=>'<span class="insight-pt">'+esc(p)+'</span>').join('');
+  el.innerHTML = '<div class="insight-card">'
+    +'<div class="insight-label">AI 투자 인사이트 <span class="sentiment '+sentCls+'">'+sentTxt+'</span></div>'
+    +'<div class="insight-summary">'+esc(d.summary)+'</div>'
+    +'<div class="insight-points">'+pts+'</div>'
+    +(d.disclaimer?'<div style="font:500 11px var(--mono);color:var(--dim);margin-top:12px">'+esc(d.disclaimer)+'</div>':'')
+    +'</div>';
+  if(d.updatedAt) document.getElementById('updatedAt').textContent = '업데이트 '+new Date(d.updatedAt).toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
+}
+
+function renderStocks(d){
+  var grid = document.getElementById('stockGrid');
+  if(!d||!d.data||!Object.keys(d.data).length){grid.innerHTML='<div class="empty">주가 데이터 준비 중입니다.</div>';return;}
+  var entries = Object.entries(d.data);
+  document.getElementById('stockCount').textContent = entries.length+'개';
+  var exMap = {KRW:'KRX',USD:'NASDAQ',TWD:'NYSE'};
+  grid.innerHTML = entries.map(function(e){
+    var code=e[0], s=e[1];
+    var ex = s.currency==='KRW'?'KRX':code.includes('.KS')?'KRX':'NASDAQ';
+    var chCls = cls(s.dayChange);
+    return '<div class="scard">'
+      +'<div class="sh"><span class="nm">'+esc(code)+'</span>'
+      +'<span class="exbadge ex-'+ex+'">'+ex+'</span></div>'
+      +'<div class="px">'+fmtPx(s.px,s.currency)+'</div>'
+      +'<div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px">'
+      +'<span class="ch '+chCls+'">'+arr(s.dayChange)+' '+(s.dayChange>=0?'+':'')+s.dayChange+'%</span>'
+      +'<span class="market-state">'+(s.state==='REGULAR'?'🟢 장중':'🔴 장외')+'</span>'
+      +'</div></div>';
+  }).join('');
+}
+
+function renderNews(d){
+  var list = document.getElementById('newsList');
+  if(!d||!d.items||!d.items.length){list.innerHTML='<div class="empty">뉴스 수집 중입니다. 30분 후 다시 확인하세요.</div>';return;}
+  document.getElementById('newsCount').textContent = d.items.length+'건';
+  list.innerHTML = d.items.slice(0,20).map(function(n){
+    return '<div class="ncard">'
+      +'<div class="ns"><span class="src-badge">'+esc(n.s)+'</span><span class="ntime">'+esc(n.m)+'</span></div>'
+      +'<h4>'+(n.u?'<a href="'+esc(n.u)+'" target="_blank" rel="noopener">'+esc(n.t)+' ↗</a>':esc(n.t))+'</h4>'
+      +(n.d?'<div class="nd">'+esc(n.d)+'</div>':'')
+      +'</div>';
+  }).join('');
+}
+
+// 3분마다 자동 갱신
+setInterval(loadAll, 3*60*1000);
+</script>
+</body>
+</html>

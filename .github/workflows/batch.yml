@@ -1,0 +1,42 @@
+name: 키워드 배치 업데이트
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # 30분마다 전체 실행
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: '실행할 tier (hot/warm/cold/all)'
+        required: false
+        default: 'all'
+
+jobs:
+  update-keywords:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node.js 20 셋업
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 키워드 배치 실행
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          RUN_TIER: ${{ github.event.inputs.tier || 'all' }}
+        run: node scripts/batch-runner.js
+
+      - name: 변경사항 커밋 & 푸시
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Keyword Bot"
+          git add public/data/
+          if ! git diff --staged --quiet; then
+            git commit -m "batch: 키워드 업데이트 $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
+            git push
+          fi

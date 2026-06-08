@@ -149,7 +149,7 @@ function goSearch(){
   if(match){ navigate(match.slug); return; }
   // 부분 매칭
   var partial = KEYWORDS.find(function(k){
-    return k.slug.toLowerCase().includes(q.toLowerCase()) || k.name.ko.includes(q);
+    return k.slug.toLowerCase().includes(q.toLowerCase()) || k.name.ko.includes(q) || (k.name.en||'').toLowerCase().includes(q.toLowerCase());
   });
   if(partial){ navigate(partial.slug); return; }
   alert('준비된 테마가 아닙니다. 아래 목록에서 선택해주세요.');

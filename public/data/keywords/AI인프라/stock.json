@@ -1,35 +1,45 @@
 {
-  "updatedAt": "2026-06-08T07:57:07.226Z",
+  "updatedAt": "2026-06-08T08:25:28.356Z",
   "data": {
-    "NVDA": {
-      "px": 205.1,
-      "dayChange": 0,
-      "currency": "USD",
-      "state": "CLOSED"
-    },
     "AMZN": {
+      "name": "아마존",
       "px": 246.03,
       "dayChange": 0,
       "currency": "USD",
-      "state": "CLOSED"
-    },
-    "GOOGL": {
-      "px": 368.53,
-      "dayChange": 0,
-      "currency": "USD",
-      "state": "CLOSED"
+      "state": "CLOSED",
+      "market": "US"
     },
     "034020": {
+      "name": "두산에너빌리티",
       "px": 85800,
       "dayChange": 0,
       "currency": "KRW",
-      "state": "CLOSED"
+      "state": "CLOSED",
+      "market": "KR"
     },
     "MSFT": {
+      "name": "마이크로소프트",
       "px": 416.67,
       "dayChange": 0,
       "currency": "USD",
-      "state": "CLOSED"
+      "state": "CLOSED",
+      "market": "US"
+    },
+    "GOOGL": {
+      "name": "알파벳(구글)",
+      "px": 368.53,
+      "dayChange": 0,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US"
+    },
+    "NVDA": {
+      "name": "엔비디아",
+      "px": 205.1,
+      "dayChange": 0,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US"
     }
   }
 }

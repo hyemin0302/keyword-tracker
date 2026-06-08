@@ -1,35 +1,45 @@
 {
-  "updatedAt": "2026-06-08T08:01:14.238Z",
+  "updatedAt": "2026-06-08T08:25:07.931Z",
   "data": {
-    "TSLA": {
-      "px": 391,
-      "dayChange": 0,
-      "currency": "USD",
-      "state": "CLOSED"
-    },
     "GM": {
+      "name": "GM",
       "px": 82.11,
       "dayChange": 0,
       "currency": "USD",
-      "state": "CLOSED"
+      "state": "CLOSED",
+      "market": "US"
+    },
+    "TSLA": {
+      "name": "테슬라",
+      "px": 391,
+      "dayChange": 0,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US"
     },
     "005387": {
+      "name": "현대차2우B",
       "px": 240000,
       "dayChange": 0,
       "currency": "KRW",
-      "state": "CLOSED"
-    },
-    "005380": {
-      "px": 639000,
-      "dayChange": 0,
-      "currency": "KRW",
-      "state": "CLOSED"
+      "state": "CLOSED",
+      "market": "KR"
     },
     "F": {
+      "name": "포드",
       "px": 14.9,
       "dayChange": 0,
       "currency": "USD",
-      "state": "CLOSED"
+      "state": "CLOSED",
+      "market": "US"
+    },
+    "005380": {
+      "name": "현대차",
+      "px": 639000,
+      "dayChange": 0,
+      "currency": "KRW",
+      "state": "CLOSED",
+      "market": "KR"
     }
   }
 }

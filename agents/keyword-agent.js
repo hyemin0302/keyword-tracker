@@ -88,7 +88,7 @@ function extractTag(xml, tag) {
   return (xml.match(cdataRe) || xml.match(plainRe) || [])[1]?.trim() || '';
 }
 
-function parseRSS(xml, src, keywords) {
+function parseRSS(xml, src, lowerKeywords) {
   const items = [];
   const re = /<item[^>]*>([\s\S]*?)<\/item>/gi;
   let m;
@@ -99,8 +99,8 @@ function parseRSS(xml, src, keywords) {
     const desc  = extractTag(b, 'description').replace(/<[^>]+>/g, '').slice(0, 400);
     const date  = extractTag(b, 'pubDate');
     if (!title) continue;
-    const text = title + ' ' + desc;
-    if (!keywords.some(kw => text.includes(kw))) continue;
+    const lowerText = (title + ' ' + desc).toLowerCase();
+    if (!lowerKeywords.some(kw => lowerText.includes(kw))) continue;
     items.push({
       s: src, t: title, d: desc, u: link,
       m: date ? new Date(date).toLocaleString('ko-KR', { month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' }) : '',
@@ -111,31 +111,24 @@ function parseRSS(xml, src, keywords) {
 }
 
 // ── 키워드 별칭 생성 ──────────────────────────────────────
-function buildKeywordAliases(slug, nameKo) {
-  const base = [slug, nameKo];
-  const extras = {
-    'HBM':        ['고대역폭메모리', 'HBM4', 'HBM3E', '광대역메모리'],
-    'AI반도체':   ['AI칩', 'AI 가속기', 'GPU', 'NPU', 'AI chip', 'AI semiconductor'],
-    '피지컬AI':   ['피지컬AI', 'Physical AI', '로보틱스', 'humanoid', '휴머노이드'],
-    '전기차':     ['EV', '전기차', '전기자동차', 'electric vehicle', 'BEV'],
-    'K배터리':    ['2차전지', '배터리', '리튬이온', 'LFP', 'NCM', '전고체'],
-    'AI인프라':   ['데이터센터', 'AI 인프라', 'AI infrastructure', '추론', 'inference'],
-    '자율주행':   ['자율주행', 'autonomous', 'FSD', '로보택시', 'robotaxi'],
-    '소버린AI':   ['소버린AI', 'Sovereign AI', '국가AI', '국산AI', 'AI주권'],
-    '반도체장비': ['반도체 장비', '노광', 'EUV', 'ASML', '식각', 'CVD', '웨이퍼'],
-    '클라우드':   ['클라우드', 'cloud', 'AWS', 'Azure', 'GCP', 'SaaS'],
-    '양자컴퓨팅': ['양자컴퓨터', 'quantum', 'qubit'],
-    '수소':       ['수소', 'hydrogen', '연료전지', 'fuel cell', '그린수소'],
-    '방산':       ['방산', 'defense', '우주', 'space', 'K9', '천무', 'KF-21'],
-    '바이오':     ['바이오', 'bio', '제약', 'pharma', '신약', '항암', 'FDA'],
-    '핀테크':     ['핀테크', 'fintech', '디지털금융', '블록체인', 'blockchain', 'DeFi'],
-    'TSMC파운드리':['TSMC', '파운드리', 'foundry', '대만 반도체', '삼성 파운드리'],
-    '엔비디아생태계':['엔비디아', 'NVIDIA', 'NVDA', 'Blackwell', '블랙웰', 'GTC'],
-    '신재생에너지':['태양광', '풍력', '신재생', 'renewable', 'solar', 'wind power'],
-    'AI에이전트': ['AI 에이전트', 'AI agent', 'LLM', '거대언어모델', 'GPT', 'Claude'],
-    '스마트팩토리':['스마트팩토리', '산업AI', 'smart factory', '제조AI', 'IIoT'],
-  };
-  return [...base, ...(extras[slug] || [])];
+// index.json의 각 키워드 항목에 정의된 aliases 필드를 우선 사용.
+// 기본 매칭 키: slug, name.ko, name.en + aliases.
+function buildKeywordAliases(keywordConfig) {
+  const { slug, name = {}, aliases = [] } = keywordConfig;
+  const base = [slug, name.ko, name.en].filter(Boolean);
+  return [...new Set([...base, ...aliases])];
+}
+
+// ── ticker → 표시 이름 매핑 ───────────────────────────────
+let _tickerNameCache = null;
+function loadTickerNames() {
+  if (_tickerNameCache) return _tickerNameCache;
+  try {
+    const p = path.join(ROOT, 'public/data/tickers.json');
+    const t = JSON.parse(fs.readFileSync(p, 'utf8'));
+    _tickerNameCache = { ...(t.kr || {}), ...(t.us || {}) };
+  } catch { _tickerNameCache = {}; }
+  return _tickerNameCache;
 }
 
 // ── 주가 조회 (Yahoo Finance) ─────────────────────────────
@@ -151,6 +144,7 @@ async function fetchYahoo(symbol) {
 }
 
 async function fetchStockPrices(tickers) {
+  const nameMap = loadTickerNames();
   const results = {};
   await Promise.allSettled(tickers.map(async ticker => {
     try {
@@ -162,11 +156,14 @@ async function fetchStockPrices(tickers) {
         if (meta?.regularMarketPrice) break;
       }
       if (meta?.regularMarketPrice) {
+        const fallbackName = (meta.shortName && !/^\d/.test(meta.shortName)) ? meta.shortName : ticker;
         results[ticker] = {
+          name: nameMap[ticker] || fallbackName,
           px: meta.regularMarketPrice,
           dayChange: +(meta.regularMarketChangePercent || 0).toFixed(2),
           currency: meta.currency || 'USD',
           state: meta.marketState || 'CLOSED',
+          market: isKR ? 'KR' : 'US',
         };
       }
     } catch {}
@@ -178,40 +175,66 @@ async function fetchStockPrices(tickers) {
 async function generateInsight(slug, nameKo, articles, stockData) {
   if (!process.env.GROQ_API_KEY || !articles.length) return null;
   const top5 = articles.slice(0, 5).map((a, i) => `[${i+1}] ${a.s}: ${a.t} — ${a.d?.slice(0,100)}`).join('\n');
-  const stockSummary = Object.entries(stockData).slice(0, 5)
-    .map(([code, s]) => `${code}: ${s.currency === 'KRW' ? '₩' : '$'}${s.px} (${s.dayChange >= 0 ? '+' : ''}${s.dayChange}%)`).join(', ');
+  const stockSummary = Object.entries(stockData).slice(0, 6)
+    .map(([code, s]) => `${s.name || code}(${code}): ${s.currency === 'KRW' ? '₩' : '$'}${s.px}`).join(', ');
+  const today = new Date().toISOString().slice(0, 10);
   try {
     const text = await callGroq('llama-3.3-70b-versatile', [{
       role: 'user',
-      content: `투자 테마 "${nameKo}" 관련 오늘 뉴스와 주가를 분석해서 JSON으로 반환해줘.
+      content: `투자 테마 "${nameKo}" 관련 뉴스·주가를 분석해 한국어 JSON으로 반환해줘. 오늘은 ${today}.
 
-최신 뉴스:
+뉴스:
 ${top5}
 
-관련 주가: ${stockSummary || '데이터 없음'}
+관련 종목: ${stockSummary || '데이터 없음'}
 
-JSON 형식:
+JSON 스키마:
 {
   "summary": "핵심 동향 2~3문장",
   "sentiment": "bullish|bearish|neutral",
-  "key_drivers": ["주요 동력 1", "주요 동력 2"],
-  "watch_points": ["주목 포인트 1", "주목 포인트 2"],
-  "disclaimer": "본 분석은 AI가 생성한 정보이며 투자 권유가 아닙니다."
-}`
-    }], 600);
+  "key_drivers": ["주요 동력 2~4개. 무엇이 테마를 움직이는지"],
+  "watch_points": ["관전 포인트 2~4개. 무엇을 지켜봐야 하는지"],
+  "risks": ["주요 리스크 1~3개. 하방 요인"],
+  "events": [
+    { "date": "YYYY-MM-DD 또는 YYYY-Qn 또는 'TBD'", "title": "예정 이벤트(실적 발표/제품 출시/상장/규제 등)", "impact": "positive|negative|neutral" }
+  ],
+  "key_players": ["테마를 주도하는 기업·인물 2~5개. 한글 표기 우선"],
+  "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다."
+}
+
+규칙:
+- events는 뉴스에서 명시적으로 언급된 예정 이벤트만 포함. 없으면 빈 배열.
+- key_players는 뉴스에 실제 등장한 기업·인물만. 추측 금지.`
+    }], 900);
     return { ...JSON.parse(text), generatedAt: new Date().toISOString(), _model: 'llama-3.3-70b' };
   } catch { return null; }
 }
 
+// ── 관련 테마 계산 ────────────────────────────────────────
+// ticker가 겹치는 다른 키워드를 유사도 순으로 반환.
+function findRelatedKeywords(currentSlug, currentTickers, allKeywords, topN = 4) {
+  const curSet = new Set(currentTickers);
+  return allKeywords
+    .filter(k => k.slug !== currentSlug)
+    .map(k => {
+      const overlap = (k.tickers || []).filter(t => curSet.has(t)).length;
+      return { slug: k.slug, name: k.name, icon: k.icon, tier: k.tier, overlap };
+    })
+    .filter(k => k.overlap > 0)
+    .sort((a, b) => b.overlap - a.overlap)
+    .slice(0, topN);
+}
+
 // ── 메인: 단일 키워드 처리 ───────────────────────────────
-export async function runKeywordAgent(keywordConfig) {
+export async function runKeywordAgent(keywordConfig, allKeywords = []) {
   const { slug, name, tickers = [] } = keywordConfig;
   const nameKo = name?.ko || slug;
-  const keywords = buildKeywordAliases(slug, nameKo);
+  const keywords = buildKeywordAliases(keywordConfig);
+  const lowerKeywords = keywords.map(k => k.toLowerCase());
   const dataDir = path.join(ROOT, 'public', 'data', 'keywords', slug);
   if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 
-  console.log(`[keyword-agent] "${nameKo}" 수집 시작`);
+  console.log(`[keyword-agent] "${nameKo}" 수집 시작 (별칭 ${keywords.length}개)`);
 
   // RSS 수집
   const all = [];
@@ -222,7 +245,7 @@ export async function runKeywordAgent(keywordConfig) {
         signal: AbortSignal.timeout(7000),
       });
       if (!r.ok) continue;
-      all.push(...parseRSS(await r.text(), src, keywords));
+      all.push(...parseRSS(await r.text(), src, lowerKeywords));
     } catch {}
   }
 
@@ -262,14 +285,19 @@ export async function runKeywordAgent(keywordConfig) {
     JSON.stringify({ updatedAt: new Date().toISOString(), data: stockData }, null, 2)
   );
 
-  // insight.json 저장
-  if (insight) {
-    fs.writeFileSync(
-      path.join(dataDir, 'insight.json'),
-      JSON.stringify({ updatedAt: new Date().toISOString(), ...insight }, null, 2)
-    );
-  }
+  // 관련 테마 (ticker 겹침 기반)
+  const related = allKeywords.length ? findRelatedKeywords(slug, tickers, allKeywords) : [];
 
-  console.log(`[keyword-agent] "${nameKo}" 완료: 뉴스 ${enriched.length}건, 주가 ${Object.keys(stockData).length}개, 인사이트 ${insight ? '✓' : '✗'}`);
+  // insight.json 저장
+  fs.writeFileSync(
+    path.join(dataDir, 'insight.json'),
+    JSON.stringify({
+      updatedAt: new Date().toISOString(),
+      related,
+      ...(insight || { summary: '', sentiment: 'neutral', key_drivers: [], watch_points: [], risks: [], events: [], key_players: [] }),
+    }, null, 2)
+  );
+
+  console.log(`[keyword-agent] "${nameKo}" 완료: 뉴스 ${enriched.length}건, 주가 ${Object.keys(stockData).length}개, 인사이트 ${insight ? '✓' : '✗'}, 관련테마 ${related.length}개`);
   return { slug, articles: enriched.length, stocks: Object.keys(stockData).length, insight: !!insight };
 }

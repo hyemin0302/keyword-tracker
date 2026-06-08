@@ -26,7 +26,7 @@ async function main() {
   const results = [];
   for (const kw of targets) {
     try {
-      const r = await runKeywordAgent(kw);
+      const r = await runKeywordAgent(kw, index.keywords);
       results.push({ ...r, ok: true });
     } catch (e) {
       console.error(`[batch-runner] ${kw.slug} 실패:`, e.message);

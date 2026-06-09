@@ -70,6 +70,38 @@ section{padding:28px 0;border-top:1px solid var(--line)}
 .players-list{display:flex;flex-wrap:wrap;gap:8px}
 .player-chip{font:600 13px var(--sans);background:linear-gradient(135deg,var(--panel),var(--panel2));border:1px solid var(--line2);padding:8px 14px;border-radius:99px;color:var(--txt)}
 
+/* 시간 축 전망 */
+.outlook-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.outlook-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;position:relative;overflow:hidden}
+.outlook-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent)}
+.outlook-card.mid::before{background:var(--gold)}
+.outlook-card.long::before{background:#a78bfa}
+.outlook-head{font:700 11px var(--mono);letter-spacing:.12em;color:var(--muted);margin-bottom:6px;display:flex;align-items:center;justify-content:space-between}
+.outlook-head .horizon{font:700 10px var(--mono);color:var(--accent);background:rgba(118,185,0,.12);padding:2px 7px;border-radius:5px}
+.outlook-card.mid .horizon{color:var(--gold);background:rgba(224,179,65,.12)}
+.outlook-card.long .horizon{color:#a78bfa;background:rgba(167,139,250,.12)}
+.outlook-title{font:700 15px var(--sans);color:var(--txt);margin-bottom:10px}
+.outlook-body{font-size:13.5px;color:var(--muted);line-height:1.72}
+
+/* 뉴스 활동도 */
+.activity-strip{display:flex;flex-wrap:wrap;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:14px;align-items:center}
+.activity-cell{display:flex;flex-direction:column;gap:2px;min-width:70px}
+.activity-cell .v{font:700 18px var(--mono);letter-spacing:-.01em}
+.activity-cell .l{font:600 10px var(--mono);letter-spacing:.08em;color:var(--dim);text-transform:uppercase}
+.activity-cell .v.up{color:var(--accent)}
+.activity-cell .v.flat{color:var(--muted)}
+.activity-cell .v.down{color:var(--dim)}
+.heat-badge{font:700 11px var(--mono);padding:4px 10px;border-radius:6px;margin-left:auto;letter-spacing:.05em}
+.heat-hot{background:rgba(255,77,79,.15);color:var(--up)}
+.heat-warm{background:rgba(224,179,65,.15);color:var(--gold)}
+.heat-cool{background:rgba(118,185,0,.15);color:var(--accent)}
+.heat-cold{background:rgba(107,124,146,.15);color:var(--flat)}
+
+/* 스파크라인 */
+.spark-wrap{margin-top:8px;display:flex;align-items:center;gap:10px}
+.sparkline{width:100%;height:30px;display:block}
+.spark-period{font:600 11px var(--mono);white-space:nowrap}
+
 /* 주가 그룹 */
 .market-group{margin-bottom:18px}
 .market-group:last-child{margin-bottom:0}
@@ -138,6 +170,12 @@ footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500
 <section id="sec-insight"><div class="wrap">
   <div class="shead"><h2><i></i>AI 인사이트</h2><span class="tag" id="insightModel"></span></div>
   <div id="insightBody"><div class="loading">인사이트 로딩 중...</div></div>
+</div></section>
+
+<section id="sec-outlook" style="display:none"><div class="wrap">
+  <div class="shead"><h2><i></i>시간 축 전망</h2></div>
+  <p class="ssub">AI가 단기 · 중기 · 장기로 분리해서 본 테마 시나리오</p>
+  <div class="outlook-grid" id="outlookGrid"></div>
 </div></section>
 
 <section id="sec-events" style="display:none"><div class="wrap">
@@ -255,9 +293,29 @@ function renderInsight(d){
 
   if(d.updatedAt) document.getElementById('updatedAt').textContent = '업데이트 '+new Date(d.updatedAt).toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
 
+  renderOutlook(d.outlook||{});
   renderEvents(d.events||[]);
   renderPlayers(d.key_players||[]);
   renderRelated(d.related||[]);
+}
+
+function renderOutlook(o){
+  var horizons = [
+    {k:'short_term', cls:'short', label:'SHORT-TERM', horizon:'1~2주', title:'단기 시나리오'},
+    {k:'mid_term',   cls:'mid',   label:'MID-TERM',   horizon:'1~3개월', title:'중기 시나리오'},
+    {k:'long_term',  cls:'long',  label:'LONG-TERM',  horizon:'6~12개월', title:'장기 시나리오'},
+  ];
+  var any = horizons.some(h => (o[h.k]||'').trim());
+  if(!any) return;
+  document.getElementById('sec-outlook').style.display='';
+  document.getElementById('outlookGrid').innerHTML = horizons.map(function(h){
+    var body = o[h.k] || '데이터 부족';
+    return '<div class="outlook-card '+h.cls+'">'
+      +'<div class="outlook-head"><span>'+h.label+'</span><span class="horizon">'+h.horizon+'</span></div>'
+      +'<div class="outlook-title">'+h.title+'</div>'
+      +'<div class="outlook-body">'+esc(body)+'</div>'
+      +'</div>';
+  }).join('');
 }
 
 function renderEvents(events){
@@ -317,6 +375,8 @@ function renderStocks(d){
     var ex = s.market==='KR'||s.currency==='KRW' ? 'KRX' : 'NASDAQ';
     var chCls = cls(s.dayChange);
     var nm = s.name || tickerName(code);
+    var pCls = cls(s.periodChange);
+    var spark = sparkline(s.prices||[], s.periodChange>=0);
     return '<div class="scard">'
       +'<div class="sh"><span class="nm">'+esc(nm)+'</span>'
       +'<span class="exbadge ex-'+ex+'">'+ex+'</span></div>'
@@ -325,7 +385,24 @@ function renderStocks(d){
       +'<div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px">'
       +'<span class="ch '+chCls+'">'+arr(s.dayChange)+' '+(s.dayChange>=0?'+':'')+s.dayChange+'%</span>'
       +'<span class="market-state">'+(s.state==='REGULAR'?'🟢 장중':'🔴 장외')+'</span>'
-      +'</div></div>';
+      +'</div>'
+      +(spark?'<div class="spark-wrap">'+spark+'<span class="spark-period '+pCls+'">30D '+(s.periodChange>=0?'+':'')+(s.periodChange||0)+'%</span></div>':'')
+      +'</div>';
+  }
+  function sparkline(prices, isUp){
+    if(!prices || prices.length<2) return '';
+    var w=140, h=30, pad=2;
+    var min=Math.min.apply(null,prices), max=Math.max.apply(null,prices);
+    var range = (max-min) || 1;
+    var pts = prices.map(function(p,i){
+      var x = pad + (i/(prices.length-1)) * (w - 2*pad);
+      var y = pad + (1 - (p-min)/range) * (h - 2*pad);
+      return x.toFixed(1)+','+y.toFixed(1);
+    }).join(' ');
+    var color = isUp ? 'var(--up)' : 'var(--down)';
+    return '<svg viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none" class="sparkline">'
+      +'<polyline fill="none" stroke="'+color+'" stroke-width="1.5" points="'+pts+'"/>'
+      +'</svg>';
   }
   function group(label, flag, items){
     if(!items.length) return '';
@@ -341,7 +418,25 @@ function renderNews(d){
   var list = document.getElementById('newsList');
   if(!d||!d.items||!d.items.length){list.innerHTML='<div class="empty">뉴스 수집 중입니다. 30분 후 다시 확인하세요.</div>';return;}
   document.getElementById('newsCount').textContent = d.items.length+'건';
-  list.innerHTML = d.items.slice(0,20).map(function(n){
+
+  // 활동도 strip
+  var strip = '';
+  if(d.stats){
+    var s = d.stats;
+    var heatLabel = {hot:'🔥 핫',warm:'🌤 활발',cool:'🌱 정상',cold:'💤 한산'}[s.heat]||'';
+    var deltaCls = s.today > s.yesterday ? 'up' : s.today < s.yesterday ? 'down' : 'flat';
+    var trend = s.today > s.yesterday ? '▲' : s.today < s.yesterday ? '▼' : '·';
+    strip = '<div class="activity-strip">'
+      +'<div class="activity-cell"><span class="v '+deltaCls+'">'+s.today+'</span><span class="l">오늘</span></div>'
+      +'<div class="activity-cell"><span class="v flat">'+s.yesterday+'</span><span class="l">어제</span></div>'
+      +'<div class="activity-cell"><span class="v flat">'+s.weekAvg+'</span><span class="l">7일 평균</span></div>'
+      +'<div class="activity-cell"><span class="v flat">'+s.sources+'</span><span class="l">매체 수</span></div>'
+      +'<div class="activity-cell"><span class="v '+deltaCls+'">'+trend+'</span><span class="l">vs 어제</span></div>'
+      +'<span class="heat-badge heat-'+s.heat+'">'+heatLabel+'</span>'
+      +'</div>';
+  }
+
+  list.innerHTML = strip + d.items.slice(0,20).map(function(n){
     return '<div class="ncard">'
       +'<div class="ns"><span class="src-badge">'+esc(n.s)+'</span><span class="ntime">'+esc(n.m)+'</span></div>'
       +'<h4>'+(n.u?'<a href="'+esc(n.u)+'" target="_blank" rel="noopener">'+esc(n.t)+' ↗</a>':esc(n.t))+'</h4>'

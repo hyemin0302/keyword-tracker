@@ -132,15 +132,19 @@ function loadTickerNames() {
 }
 
 // ── 주가 조회 (Yahoo Finance) ─────────────────────────────
-// 한국 주식 6자리 코드는 .KS(코스피) → .KQ(코스닥) 순으로 폴백
+// 한국 주식 6자리 코드는 .KS(코스피) → .KQ(코스닥) 순으로 폴백.
+// range=1mo로 호출하면 한 응답에 메타 + 30일 종가가 함께 옴 → sparkline용.
 async function fetchYahoo(symbol) {
   const r = await fetch(
-    `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1d&range=1d`,
-    { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(6000) }
+    `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1d&range=1mo`,
+    { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(7000) }
   );
   if (!r.ok) return null;
   const data = await r.json();
-  return data?.chart?.result?.[0]?.meta || null;
+  const result = data?.chart?.result?.[0];
+  if (!result) return null;
+  const closes = (result.indicators?.quote?.[0]?.close || []).filter(v => v != null);
+  return { meta: result.meta, closes };
 }
 
 async function fetchStockPrices(tickers) {
@@ -150,17 +154,25 @@ async function fetchStockPrices(tickers) {
     try {
       const isKR = /^\d{6}$/.test(ticker);
       const candidates = isKR ? [`${ticker}.KS`, `${ticker}.KQ`] : [ticker];
-      let meta = null;
+      let payload = null;
       for (const sym of candidates) {
-        meta = await fetchYahoo(sym);
-        if (meta?.regularMarketPrice) break;
+        payload = await fetchYahoo(sym);
+        if (payload?.meta?.regularMarketPrice) break;
       }
+      const meta = payload?.meta;
       if (meta?.regularMarketPrice) {
         const fallbackName = (meta.shortName && !/^\d/.test(meta.shortName)) ? meta.shortName : ticker;
+        const closes = (payload.closes || []).map(v => +v.toFixed(2));
+        // 30일 누적 변화율 (sparkline 시작값 대비)
+        const periodChange = closes.length >= 2
+          ? +(((closes[closes.length - 1] - closes[0]) / closes[0]) * 100).toFixed(2)
+          : 0;
         results[ticker] = {
           name: nameMap[ticker] || fallbackName,
           px: meta.regularMarketPrice,
           dayChange: +(meta.regularMarketChangePercent || 0).toFixed(2),
+          periodChange,
+          prices: closes,
           currency: meta.currency || 'USD',
           state: meta.marketState || 'CLOSED',
           market: isKR ? 'KR' : 'US',
@@ -199,12 +211,19 @@ JSON 스키마:
     { "date": "YYYY-MM-DD 또는 YYYY-Qn 또는 'TBD'", "title": "예정 이벤트(실적 발표/제품 출시/상장/규제 등)", "impact": "positive|negative|neutral" }
   ],
   "key_players": ["테마를 주도하는 기업·인물 2~5개. 한글 표기 우선"],
+  "outlook": {
+    "short_term": "단기(1~2주) 전망 2~3문장. 다음 캐털리스트, 즉시 주목할 변수.",
+    "mid_term":   "중기(1~3개월) 전망 2~3문장. 분기 실적·정책·경쟁구도 변화.",
+    "long_term":  "장기(6~12개월) 전망 2~3문장. 산업 구조적 트렌드, 주도권."
+  },
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다."
 }
 
 규칙:
+- 모든 텍스트는 순 한국어로 작성. 한자(延期 등) 금지. 불가피하면 괄호 병기.
 - events는 뉴스에서 명시적으로 언급된 예정 이벤트만 포함. 없으면 빈 배열.
-- key_players는 뉴스에 실제 등장한 기업·인물만. 추측 금지.`
+- key_players는 뉴스에 실제 등장한 기업·인물만. 추측 금지.
+- outlook은 각 시간 축마다 구체적 근거 1~2개와 함께 작성. 비어 있으면 안 됨.`
     }], 900);
     return { ...JSON.parse(text), generatedAt: new Date().toISOString(), _model: 'llama-3.3-70b' };
   } catch { return null; }
@@ -273,10 +292,26 @@ export async function runKeywordAgent(keywordConfig, allKeywords = []) {
   await new Promise(r => setTimeout(r, 1200)); // Rate limit 방어
   const insight = await generateInsight(slug, nameKo, enriched, stockData);
 
+  // 뉴스 활동도 집계 (오늘 / 어제 / 7일 평균 / 매체 다양성)
+  const now = Date.now();
+  const dayMs = 86400000;
+  const todayStart = new Date().setHours(0, 0, 0, 0);
+  const ydayStart = todayStart - dayMs;
+  const weekStart = now - 7 * dayMs;
+  const stats = (() => {
+    const tsValid = enriched.filter(a => a.ts);
+    const today = tsValid.filter(a => a.ts >= todayStart).length;
+    const yesterday = tsValid.filter(a => a.ts >= ydayStart && a.ts < todayStart).length;
+    const weekTotal = tsValid.filter(a => a.ts >= weekStart).length;
+    const sources = new Set(enriched.map(a => a.s)).size;
+    const heat = today >= 10 ? 'hot' : today >= 4 ? 'warm' : today >= 1 ? 'cool' : 'cold';
+    return { today, yesterday, weekAvg: +(weekTotal / 7).toFixed(1), sources, heat };
+  })();
+
   // news-live.json 저장
   fs.writeFileSync(
     path.join(dataDir, 'news-live.json'),
-    JSON.stringify({ updatedAt: new Date().toISOString(), count: enriched.length, items: enriched }, null, 2)
+    JSON.stringify({ updatedAt: new Date().toISOString(), count: enriched.length, stats, items: enriched }, null, 2)
   );
 
   // stock.json 저장
@@ -294,7 +329,7 @@ export async function runKeywordAgent(keywordConfig, allKeywords = []) {
     JSON.stringify({
       updatedAt: new Date().toISOString(),
       related,
-      ...(insight || { summary: '', sentiment: 'neutral', key_drivers: [], watch_points: [], risks: [], events: [], key_players: [] }),
+      ...(insight || { summary: '', sentiment: 'neutral', key_drivers: [], watch_points: [], risks: [], events: [], key_players: [], outlook: { short_term: '', mid_term: '', long_term: '' } }),
     }, null, 2)
   );
 

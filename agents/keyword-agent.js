@@ -91,6 +91,50 @@ function extractTag(xml, tag) {
   return (xml.match(cdataRe) || xml.match(plainRe) || [])[1]?.trim() || '';
 }
 
+// ── Google News RSS 전용 파서 ─────────────────────────────
+// title 끝의 " - 매체명"을 출처로 추출. description은 비어있음.
+function parseGoogleRSS(xml) {
+  const items = [];
+  const re = /<item[^>]*>([\s\S]*?)<\/item>/gi;
+  let m;
+  while ((m = re.exec(xml))) {
+    const b = m[1];
+    let title = extractTag(b, 'title');
+    const link = extractTag(b, 'link') || extractTag(b, 'guid');
+    const date = extractTag(b, 'pubDate');
+    const sourceTag = extractTag(b, 'source');
+    let src = sourceTag || 'Google';
+    const m2 = title.match(/^(.*) - ([^-]+)$/);
+    if (m2) { title = m2[1].trim(); if (!sourceTag) src = m2[2].trim(); }
+    if (!title) continue;
+    items.push({
+      s: src,
+      t: title,
+      d: '',
+      u: link,
+      m: date ? new Date(date).toLocaleString('ko-KR', { month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' }) : '',
+      ts: date ? new Date(date).getTime() : 0,
+    });
+  }
+  return items;
+}
+
+// 별칭별로 Google News 키워드 검색. 너무 많이 호출하지 않도록 상위 3개만.
+async function fetchGoogleNewsForAliases(aliases) {
+  const top = aliases.slice(0, 3);
+  const all = [];
+  await Promise.allSettled(top.map(async (kw) => {
+    try {
+      const url = `https://news.google.com/rss/search?q=${encodeURIComponent(kw)}&hl=ko&gl=KR&ceid=KR:ko`;
+      const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(8000) });
+      if (!r.ok) return;
+      const items = parseGoogleRSS(await r.text());
+      all.push(...items.slice(0, 30)); // 별칭당 최대 30건만
+    } catch {}
+  }));
+  return all;
+}
+
 function parseRSS(xml, src, lowerKeywords) {
   const items = [];
   const re = /<item[^>]*>([\s\S]*?)<\/item>/gi;
@@ -571,15 +615,18 @@ export async function researchKeywordOnDemand(query) {
   const keywords = buildKeywordAliases(config);
   const lowerKeywords = keywords.map(k => k.toLowerCase());
 
-  // 1. RSS 수집 (병렬)
-  const fetched = await Promise.allSettled(FEEDS.map(async ({ url, src }) => {
-    try {
-      const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(7000) });
-      if (!r.ok) return [];
-      return parseRSS(await r.text(), src, lowerKeywords);
-    } catch { return []; }
-  }));
-  const all = fetched.flatMap(x => x.status === 'fulfilled' ? x.value : []);
+  // 1. RSS 수집 (병렬) — 기존 16개 피드 + Google News 키워드 검색
+  const [feedResults, googleNews] = await Promise.all([
+    Promise.allSettled(FEEDS.map(async ({ url, src }) => {
+      try {
+        const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(7000) });
+        if (!r.ok) return [];
+        return parseRSS(await r.text(), src, lowerKeywords);
+      } catch { return []; }
+    })),
+    fetchGoogleNewsForAliases(expandedAliases),
+  ]);
+  const all = feedResults.flatMap(x => x.status === 'fulfilled' ? x.value : []).concat(googleNews);
 
   // 2. 중복 제거 + 최신순
   const seen = new Set();

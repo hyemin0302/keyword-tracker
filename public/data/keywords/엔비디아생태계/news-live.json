@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-06-10T17:46:47.442Z",
-  "count": 24,
+  "updatedAt": "2026-06-10T20:27:49.097Z",
+  "count": 23,
   "stats": {
-    "today": 9,
+    "today": 8,
     "yesterday": 1,
-    "weekAvg": 2.3,
+    "weekAvg": 2.1,
     "sources": 7,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "AI Data Firm DDN Eyeing a Fresh Funding Round by End of Year",
+      "d": "DDN, a data hardware and software provider that counts Nvidia Corp. as a partner and Alphabet Inc.’s Google and Salesforce Inc. as customers, is looking to raise additional funding by the end of the year, Chief Executive Officer Alex Bouzari said.",
+      "u": "https://www.bloomberg.com/news/articles/2026-06-10/ai-data-firm-ddn-eyeing-a-fresh-funding-round-by-end-of-year",
+      "m": "06. 10. PM 06:19",
+      "ts": 1781115561000,
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
@@ -17,24 +26,6 @@
       "m": "06. 10. PM 04:15",
       "ts": 1781108120000,
       "fullText": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI The new DiffusionGemma open model generates text in parallel — not one token at a time — and is optimized to run on the NVIDIA RTX PRO platform, NVIDIA DGX Spark systems and GeForce RTX GPUs. June 10, 2026 by Michael Fukuyama 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation. NVIDIA has optimized DiffusionGemma to run even faster across NVIDIA GeForce RTX GPUs, the NVIDIA RTX PRO platform and NVIDIA DGX Spark systems, from local PCs to the cloud. Rather than generating text one word at a time, DiffusionGemma generates multiple words in parallel to output whole blocks of text, opening a new, low-latency frontier for the kind of single-user workloads that developers, researchers and AI enthusiasts run every day. Features of the new model include: Parallel generation: DiffusionGemma denoises up to 256 tokens per step instead of predicting one at a time. Built on Gemma 4: DiffusionGemma is built on Gemma 4, a 26-billion-parameter mixture-of-experts model that activates just 3.8 billion parameters per step, pairing a diffusion head with Google’s Gemma 4 architecture. Up to 4x faster performance: The boost means fast text generation, where single-user generation usually stalls — on local hardware. Open and local: DiffusionGemma is open weights under a permissive Apache 2.0 license and runs entirely on RTX and DGX Spark — no cloud, no per-token cost — with day-zero support in Hugging Face Transformers , vLLM and Unsloth. A Different Way to Generate Text Almost every large language model (LLM) in wide use today is autoregressive — meaning it generates text one token at a time, with each new word depending on the one before it. That sequential process is what makes interactive AI feel like it’s typing. DiffusionGemma takes a different path. Built on the Gemma 4 26"
-    },
-    {
-      "s": "동아일보",
-      "t": "[단신]“인테리어 전 과정 투명하게”… 한샘, 앱 출시 外",
-      "d": "■ “인테리어 전 과정 투명하게”… 한샘, 앱 출시한샘은 인테리어 공사의 모든 과정을 모바일로 관리할 수 있는 애플리케이션(앱) ‘한샘 인테리어 플래너’를 선보인다고 10일 밝혔다. 소비자는 앱을 통해 견적서, 디자인 시안을 통합 관리할 수 있다. 전국 한샘 리하우스 매장 및 대리점에서 쓰는 제안서와 견적서 양식도 통일해 소비자가 일관되고 투명하게 상담을 받을 수 있도록 했다. 공사에 들어가면 작업 사진도 업로드되며, 담당 디자이너와 앱을 통해 대화하면서 공정에 대한 의견도 주고받을 수 있다.■ “젠슨 황 메뉴” BBQ ‘AI 세트’ 2종 한정 판매치킨 프랜차이즈 제너시스BBQ그룹은 ‘인공지능(AI) 황올(황금올리브치킨) 세트’와 ‘AI 시구 세트’를 선보인다고 10일 밝혔다. 젠슨 황 엔비디아 최고경영자(",
-      "u": "https://www.donga.com/news/Economy/article/all/20260610/134087592/2",
-      "m": "06. 10. PM 03:30",
-      "ts": 1781105400000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
-    },
-    {
-      "s": "동아일보",
-      "t": "젠슨 황, 이재용·최태원·정의선 중 ‘찐친’ 묻자 “너무 쉽다”",
-      "d": "젠슨 황 엔비디아 최고경영자(CEO)가 이재용 삼성전자 회장, 최태원 SK그룹 회장, 정의선 현대자동차그룹 회장 중에 가장 친한 사람을 묻는 말에 “너무 쉽다. 그들 모두와 친하다”며 애정을 드러냈다.황 CEO는 10일 오후 방송된 tvN 예능 프로그램 ‘유 퀴즈 온 더 블럭’(유퀴즈)에 출연해 이 회장과 최 회장, 정 회장을 두고 “믿을 수 없을 만큼 훌륭한 리더들”이라며 “모두가 성공하길 바란다”고 말했다.그는 5일 서울 마포구 홍대입구역 인근 고깃집에서 진행된 최 회장, 구광모 LG그룹 회장, 이해진 네이버 이사회 의장과의 ‘삼쏘’(삼겹살+소주) 회동에 대해선 “너무 좋았다. 삼겹살을 처음 먹어봤는데 놀랐다”고 회상했다.이어 “고기는 다 같이 구웠는데 KM(구 회장)이 가장 많이 구웠다. 나는 먹는 역",
-      "u": "https://www.donga.com/news/Culture/article/all/20260611/134088947/2",
-      "m": "06. 10. PM 03:08",
-      "ts": 1781104080000,
-      "fullText": "이혜원 기자 구독"
     },
     {
       "s": "한국경제",
@@ -88,7 +79,7 @@
       "u": "https://www.hankyung.com/article/2026061090811",
       "m": "06. 10. AM 08:49",
       "ts": 1781081369000,
-      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 삼성에 밀려 추락한 패배자…'젠슨 황도 1조 베팅' 대반전 입력 2026.06.10 17:49 수정 2026.06.11 02:14 지면 A1 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. STRONG KOREA FORUM 스마트폰 패배자에서 AI시대 승자로 6G 타고 노키아의 화려한 부활 통신&middot;네트워크 기술 결합 주가 16년 만에 최고 수준 세계 1위 휴대폰 제조사였지만 스마트폰 전환에 실패해 추락한 노키아가 부활하고 있다. 휴대폰사업부를 마이크로소프트(MS)에 넘기며 침몰을 예고한 지 13년 만이다. 인공지능(AI) 시대가 열리면서 피지컬 AI의 &lsquo;신경망&rsquo;인 6세대(6G) 통신과 AI무선접속망(AI-RAN) 장비회사로 전환한 전략이 주효했다. 9일(현지시간) 미국 뉴욕증시에서 노키아 주가는 13.85달러로 마감했다. 지난 3일 장중 17.45달러까지 오르며 52주 최고가를 쓴 뒤 조정받았지만 올해 들어 주가가 2010년 이후 최고 수준으로 올랐다. 부활 배경에는 AI산업의 &lsquo;패러다임 시프트&rsquo;가 있다. 지금까지 AI 인프라 경쟁은 데이터센터에 얼마나 많은 그래픽처리장치(GPU)를 확보하느냐에 집중됐다. 하지만 AI가 로봇, 드론, 자율주행차, 스마트팩토리 등 현실 세계의 기계를 움직이는 피지컬 AI로 확산하자 초저지연&middot;고신뢰 통신망의 중요성이 급격히 커지고 있다. AI가 데이터센터 밖으로 나오려면 연산 능력뿐만 아니라 현장 기기와 데이터를 실시간으로 연결하는 네트워크가 필수다. 노키아가 보유한 통신장비와 네트워크 기술은 이 같은 꿈을 가능하게 해준다. 특히 6G는 기존 통신망과 달리 처음부터 AI를 내장한 형태로 설계된다. 기지국이 AI 추론과 산업용 서비스까지 처리하는 데이터센터가 된다는 의미다. 엔비디아가 지난해 11월 노키아에 10억달러(약 1조5000억원)를 투자하며 지분 2.9%를 취득한 배경이다. 핀란드 에스포의 노키아 본사에서 만난 마크 앳킨슨 노키아 무선부문 총괄은 &ldquo;과거 통신망의 주요 트래픽이 음성, 비디오, 데이터였다면 앞으로는 거대한 규모의 AI 데이터가 새로운 트래픽이 될 것&rdquo;이라며 &ldquo;통신과 AI의 통합은 피할 수 없는 흐름&rdquo;이라고 말했다. 이미지 크게보기 핀란드 오울루에 있는 노키아 연구소 에서 한 연구원이 통신장비 제조 공정을 모니터링하고 있다(위 사진). 노키아 연구원이 피지컬 AI 구현을 위한 드론 실증 과정에서 기체를 조작하고 있다(오른쪽 사진). /노키아 제공 &quot;기지국이 AI 데이터센터 된다&quot;&hellip;엔비디아, 노키아에 10억弗 베팅 제지&rarr;휴대폰&rarr;통신장비로 무한변신&hellip;AWS&middot;MS&middot;삼성전자 등과 &#39;AI 동맹&#39; 결성 노키아에 지난해 11월 10억달러(약 1조5000억원)를 투자한 엔비디아는 노키아의 통신장비가 인공지능(AI) 데이터센터로 전환하고 있다는 점에 주목했다. 데이터센터로 바뀌는 기지국들은 엔비디아 주력 제품인 그래픽처리장치(GPU)의 새 수요처가 된다. 노키아도 5세대(5G) 통신에 이어 6세대(6G) 통신 시장을 주도하기 위해 엔비디아의 &lsquo;손짓&rsquo;을 거부할 이유가 없었다. 1865년 핀란드에서 제지회사로 출발한 노키아는 이후 고무장화&middot;케이블&middot;전자 사업으로 영역을 넓혔다. 1990~2000년대에는 휴대폰으로 세계를 장악했다. 하지만 애플이 몰고 온 스마트폰 시장에서 노키아는 머뭇거렸다. 결국 애플과 삼성의 판이 돼버리자 노키아는 2013년 휴대폰 사업을 정리해야만 했다. 노키아는 제지회사에서 전자회사로 전환한 것처럼 통신장비&middot;네트워크 기업으로 체질을 바꿔 나갔다. 결과는 대성공이었다. 지난해 이 회사의 통신"
+      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 삼성에 밀려 추락한 패배자…'젠슨 황도 1조 베팅' 대반전 입력 2026.06.10 17:49 수정 2026.06.11 02:52 지면 A1 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. STRONG KOREA FORUM 스마트폰 패배자에서 AI시대 승자로 6G 타고 노키아의 화려한 부활 통신&middot;네트워크 기술 결합 주가 16년 만에 최고 수준 세계 1위 휴대폰 제조사였지만 스마트폰 전환에 실패해 추락한 노키아가 부활하고 있다. 휴대폰사업부를 마이크로소프트(MS)에 넘기며 침몰을 예고한 지 13년 만이다. 인공지능(AI) 시대가 열리면서 피지컬 AI의 &lsquo;신경망&rsquo;인 6세대(6G) 통신과 AI무선접속망(AI-RAN) 장비회사로 전환한 전략이 주효했다. 9일(현지시간) 미국 뉴욕증시에서 노키아 주가는 13.85달러로 마감했다. 지난 3일 장중 17.45달러까지 오르며 52주 최고가를 쓴 뒤 조정받았지만 올해 들어 주가가 2010년 이후 최고 수준으로 올랐다. 부활 배경에는 AI산업의 &lsquo;패러다임 시프트&rsquo;가 있다. 지금까지 AI 인프라 경쟁은 데이터센터에 얼마나 많은 그래픽처리장치(GPU)를 확보하느냐에 집중됐다. 하지만 AI가 로봇, 드론, 자율주행차, 스마트팩토리 등 현실 세계의 기계를 움직이는 피지컬 AI로 확산하자 초저지연&middot;고신뢰 통신망의 중요성이 급격히 커지고 있다. AI가 데이터센터 밖으로 나오려면 연산 능력뿐만 아니라 현장 기기와 데이터를 실시간으로 연결하는 네트워크가 필수다. 노키아가 보유한 통신장비와 네트워크 기술은 이 같은 꿈을 가능하게 해준다. 특히 6G는 기존 통신망과 달리 처음부터 AI를 내장한 형태로 설계된다. 기지국이 AI 추론과 산업용 서비스까지 처리하는 데이터센터가 된다는 의미다. 엔비디아가 지난해 11월 노키아에 10억달러(약 1조5000억원)를 투자하며 지분 2.9%를 취득한 배경이다. 핀란드 에스포의 노키아 본사에서 만난 마크 앳킨슨 노키아 무선부문 총괄은 &ldquo;과거 통신망의 주요 트래픽이 음성, 비디오, 데이터였다면 앞으로는 거대한 규모의 AI 데이터가 새로운 트래픽이 될 것&rdquo;이라며 &ldquo;통신과 AI의 통합은 피할 수 없는 흐름&rdquo;이라고 말했다. 이미지 크게보기 핀란드 오울루에 있는 노키아 연구소 에서 한 연구원이 통신장비 제조 공정을 모니터링하고 있다(위 사진). 노키아 연구원이 피지컬 AI 구현을 위한 드론 실증 과정에서 기체를 조작하고 있다(오른쪽 사진). /노키아 제공 &quot;기지국이 AI 데이터센터 된다&quot;&hellip;엔비디아, 노키아에 10억弗 베팅 제지&rarr;휴대폰&rarr;통신장비로 무한변신&hellip;AWS&middot;MS&middot;삼성전자 등과 &#39;AI 동맹&#39; 결성 노키아에 지난해 11월 10억달러(약 1조5000억원)를 투자한 엔비디아는 노키아의 통신장비가 인공지능(AI) 데이터센터로 전환하고 있다는 점에 주목했다. 데이터센터로 바뀌는 기지국들은 엔비디아 주력 제품인 그래픽처리장치(GPU)의 새 수요처가 된다. 노키아도 5세대(5G) 통신에 이어 6세대(6G) 통신 시장을 주도하기 위해 엔비디아의 &lsquo;손짓&rsquo;을 거부할 이유가 없었다. 1865년 핀란드에서 제지회사로 출발한 노키아는 이후 고무장화&middot;케이블&middot;전자 사업으로 영역을 넓혔다. 1990~2000년대에는 휴대폰으로 세계를 장악했다. 하지만 애플이 몰고 온 스마트폰 시장에서 노키아는 머뭇거렸다. 결국 애플과 삼성의 판이 돼버리자 노키아는 2013년 휴대폰 사업을 정리해야만 했다. 노키아는 제지회사에서 전자회사로 전환한 것처럼 통신장비&middot;네트워크 기업으로 체질을 바꿔 나갔다. 결과는 대성공이었다. 지난해 이 회사의 통신"
     },
     {
       "s": "NVIDIA공식",

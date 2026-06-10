@@ -345,10 +345,13 @@ function sanitizeInsight(insight, articles) {
     if (!text || typeof text !== 'string') return text;
     const sentences = text.split(/(?<=[.!?다요])\s+/).filter(s => s.trim());
     const kept = sentences.filter(s => {
-      // 1. "경", "해" 단위 큰수는 한국 증시 뉴스에 거의 안 나옴 → 환각 가정해 차단
+      // 1. "경"/"해" 단위는 한국 단일종목 분석에 부적절 (한국 GDP가 ~2,400조 수준).
+      //    뉴스 corpus에 있어도 보통 클릭베이트/추정 오류라 무조건 차단.
       if (/\d+\s*경(?![도력기제])/.test(s)) return false;
-      if (/\d+\s*해(?![외당결군상기소운책약할제])/.test(s)) return false;
-      // 2. 큰 정량 표현이 뉴스 원문에 substring으로 없으면 그 문장 차단
+      if (/\d+\s*해(?![외당결군상기소운책약할제도])/.test(s)) return false;
+      // 2. "조" 단위인데 4자리 이상(1000조 이상)도 단일 종목엔 비현실적 → 차단
+      if (/[1-9]\d{3,}\s*조/.test(s)) return false;
+      // 3. 큰 정량 표현이 뉴스 원문에 substring으로 없으면 그 문장 차단
       const quants = s.match(/\d[\d,.]*\s*(?:%|배|조|억원|억|만원|만달러|만)/g) || [];
       for (const q of quants) {
         const qNorm = q.replace(/[\s,]/g, '');

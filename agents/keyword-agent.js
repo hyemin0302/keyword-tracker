@@ -562,39 +562,56 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
   return { slug, articles: enriched.length, stocks: Object.keys(stockData).length, insight: !!insight };
 }
 
-// ── 별칭 자동 확장 (LLM 1회 호출) ────────────────────────
-// 사용자가 "비트코인"만 입력해도 "Bitcoin", "BTC", "암호화폐" 같은 변형까지 매칭.
-async function expandAliases(query) {
-  if (!process.env.GROQ_API_KEY) return [query];
+// ── 별칭 + 관련 ticker 자동 추출 (LLM 1회 호출) ────────────
+// "테슬라" → aliases: [Tesla, TSLA, 머스크...] + tickers: [TSLA]
+async function expandKeywordContext(query) {
+  if (!process.env.GROQ_API_KEY) return { aliases: [query], tickers: [] };
   try {
     const text = await callGroq('llama-3.1-8b-instant', [{
       role: 'user',
-      content: `투자 키워드 "${query}"의 뉴스 검색용 별칭을 JSON으로 반환해줘.
+      content: `투자 키워드 "${query}"에 대해 뉴스 검색용 별칭과 관련 주식 ticker를 JSON으로 반환해줘.
 
-규칙:
-- 구별력 있는 *고유 명사* 위주: 영문 정식명, 약어/티커, 핵심 기업명, 핵심 인물명, 핵심 제품명
-- 일반 명사 절대 금지: "코인", "EV", "배터리", "에너지", "모빌리티", "투자", "시장", "가격", "거래소", "뉴스" 같은 광범위한 단어 제외
-- "코인" 단독 X. "비트코인", "Bitcoin", "BTC", "이더리움" 같은 *구체적 이름*만
-- 입력 키워드 자체는 제외 (자동 포함됨)
-- 3글자 미만 알파벳/한글 제외 (티커는 예외 허용)
+aliases 규칙:
+- 구별력 있는 *고유 명사* 위주: 영문 정식명, 약어, 핵심 기업명·인물명·제품명
+- 일반 명사 절대 금지: "코인", "EV", "배터리", "에너지", "모빌리티", "투자", "시장", "가격" 등
+- "코인" 단독 X. "비트코인", "Bitcoin", "BTC" 같은 *구체적 이름*만
+- 입력 키워드 자체는 제외. 최대 8개.
+
+tickers 규칙:
+- 미국 상장: 알파벳 대문자 ticker (예: TSLA, NVDA, AAPL, COIN, MSTR)
+- 한국 상장: 6자리 종목코드 (예: 005380, 000660, 035420)
+- 키워드와 *직접 관련된* 상장사만. 추측 X.
+- 비상장 회사·인덱스·암호화폐 자체 제외. 모르면 빈 배열.
+- 최대 5개.
 
 예시:
-"테슬라" → ["Tesla", "TSLA", "일론 머스크", "Elon Musk", "사이버트럭", "모델Y", "FSD"]
-"비트코인" → ["Bitcoin", "BTC", "비트코인 ETF", "마이크로스트래티지", "Coinbase", "업비트"]
-"엔비디아" → ["NVIDIA", "NVDA", "젠슨 황", "Jensen Huang", "Blackwell", "GTC", "쿠다"]
+"테슬라"  → {"aliases":["Tesla","TSLA","일론 머스크","Elon Musk","사이버트럭","FSD","로보택시"], "tickers":["TSLA"]}
+"비트코인" → {"aliases":["Bitcoin","BTC","비트코인 ETF","Coinbase","업비트","마이크로스트래티지"], "tickers":["COIN","MSTR","MARA","RIOT"]}
+"엔비디아" → {"aliases":["NVIDIA","NVDA","젠슨 황","Jensen Huang","Blackwell","GTC"], "tickers":["NVDA","TSM","000660"]}
+"현대차"  → {"aliases":["Hyundai","현대자동차","HMG","아이오닉","제네시스","E-GMP"], "tickers":["005380","005385","005387"]}
 
-JSON: {"aliases": ["..."]}
-최대 8개.`
-    }], 400);
+JSON 스키마: {"aliases": ["..."], "tickers": ["..."]}`
+    }], 500);
     const parsed = JSON.parse(text);
-    let arr = Array.isArray(parsed.aliases) ? parsed.aliases.filter(s => typeof s === 'string') : [];
-    // 후처리: 너무 짧거나 광범위 단어 차단
     const blocked = new Set(['코인','EV','배터리','에너지','모빌리티','투자','시장','가격','거래소','뉴스','반도체','자동차','기업','산업']);
-    arr = arr
+    let aliases = Array.isArray(parsed.aliases) ? parsed.aliases : [];
+    aliases = aliases
+      .filter(s => typeof s === 'string')
       .map(s => s.trim())
       .filter(s => s.length >= 2 && !blocked.has(s));
-    return [query, ...arr].slice(0, 10);
-  } catch { return [query]; }
+    let tickers = Array.isArray(parsed.tickers) ? parsed.tickers : [];
+    tickers = tickers
+      .filter(s => typeof s === 'string')
+      .map(s => s.trim().toUpperCase())
+      .filter(s => /^[A-Z]{1,5}$/.test(s) || /^\d{6}$/.test(s))
+      .slice(0, 5);
+    return {
+      aliases: [query, ...aliases].slice(0, 10),
+      tickers,
+    };
+  } catch {
+    return { aliases: [query], tickers: [] };
+  }
 }
 
 // ── 온디맨드 리서치 (사용자 입력 키워드, 파일 저장 없음) ──────
@@ -604,8 +621,8 @@ export async function researchKeywordOnDemand(query) {
   const q = (query || '').trim();
   if (!q) throw new Error('query empty');
 
-  // 1단계: LLM이 별칭 동적 생성 → 매칭 폭 확장
-  const expandedAliases = await expandAliases(q);
+  // 1단계: LLM이 별칭 + 관련 ticker 동적 추출
+  const { aliases: expandedAliases, tickers: extractedTickers } = await expandKeywordContext(q);
 
   const config = {
     slug: q,
@@ -615,8 +632,9 @@ export async function researchKeywordOnDemand(query) {
   const keywords = buildKeywordAliases(config);
   const lowerKeywords = keywords.map(k => k.toLowerCase());
 
-  // 1. RSS 수집 (병렬) — 기존 16개 피드 + Google News 키워드 검색
-  const [feedResults, googleNews] = await Promise.all([
+  // 1. 병렬 수집: RSS 16개 + Google News + (ticker 있으면) 주가 + 벤치마크
+  const hasTickers = extractedTickers.length > 0;
+  const [feedResults, googleNews, stockData, benchmarks] = await Promise.all([
     Promise.allSettled(FEEDS.map(async ({ url, src }) => {
       try {
         const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(7000) });
@@ -625,6 +643,8 @@ export async function researchKeywordOnDemand(query) {
       } catch { return []; }
     })),
     fetchGoogleNewsForAliases(expandedAliases),
+    hasTickers ? fetchStockPrices(extractedTickers) : Promise.resolve({}),
+    hasTickers ? fetchBenchmarks() : Promise.resolve(null),
   ]);
   const all = feedResults.flatMap(x => x.status === 'fulfilled' ? x.value : []).concat(googleNews);
 
@@ -649,9 +669,19 @@ export async function researchKeywordOnDemand(query) {
     };
   }
 
-  // 3. LLM 인사이트 (본문 크롤링·주가 생략, stockData 빈 객체)
-  let insight = await generateInsight(q, q, unique, {});
+  // 3. LLM 인사이트 (이제 stockData 활용 가능)
+  let insight = await generateInsight(q, q, unique, stockData);
   insight = sanitizeInsight(insight, unique);
+
+  // 4. 테마 지수 + 벤치마크
+  const themeIndex = computeThemeIndex(stockData);
+  const benchData = benchmarks && themeIndex.length
+    ? {
+        theme: themeIndex,
+        kospi: normalize(benchmarks.kospi, themeIndex.length),
+        sp500: normalize(benchmarks.sp500, themeIndex.length),
+      }
+    : null;
 
   return {
     query: q,
@@ -659,7 +689,9 @@ export async function researchKeywordOnDemand(query) {
     ok: true,
     count: unique.length,
     aliasesUsed: expandedAliases,
+    tickersUsed: extractedTickers,
     news: unique,
     insight,
+    stock: hasTickers ? { data: stockData, benchmark: benchData } : null,
   };
 }

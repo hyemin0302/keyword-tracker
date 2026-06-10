@@ -85,6 +85,48 @@ section:first-of-type{border-top:none}
 .branch.down .label{color:var(--rose)}
 .branch .text{font-size:12.5px;color:var(--muted);line-height:1.6}
 
+/* 종목 카드 */
+.market-group{margin-bottom:18px}
+.market-group:last-child{margin-bottom:0}
+.market-group-label{font:700 11px var(--mono);letter-spacing:.1em;color:var(--muted);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.market-group-label .flag{font-size:14px}
+.market-group-label .count{font:500 10px var(--mono);color:var(--dim);background:var(--panel);padding:2px 6px;border-radius:4px}
+.stock-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.scard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.scard .sh{display:flex;align-items:baseline;justify-content:space-between;gap:6px;margin-bottom:6px}
+.scard .nm{font:700 14px var(--sans);line-height:1.3}
+.scard .cd{font:500 11px var(--mono);color:var(--dim);margin-bottom:8px}
+.scard .px{font:700 21px var(--mono);letter-spacing:-.01em}
+.scard .ch{font:700 14px var(--mono)}
+.up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--flat)}
+.exbadge{font:700 9px var(--mono);padding:2px 5px;border-radius:4px}
+.ex-NASDAQ{background:rgba(16,185,129,.15);color:#34d399}
+.ex-KRX{background:rgba(59,130,246,.15);color:#60a5fa}
+.market-state{font:500 10px var(--mono);color:var(--dim)}
+
+/* 스파크라인 */
+.spark-wrap{margin-top:8px;display:flex;align-items:center;gap:10px}
+.sparkline{width:100%;height:30px;display:block}
+.spark-period{font:600 11px var(--mono);white-space:nowrap}
+
+/* 펀더멘털 */
+.fundamentals{display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line2)}
+.fund-cell{display:flex;justify-content:space-between;gap:6px;font:500 11px var(--mono)}
+.fund-cell .k{color:var(--dim)}
+.fund-cell .v{color:var(--txt);font-weight:600}
+.fund-cell .v.hi{color:var(--accent)}
+
+/* 벤치마크 차트 */
+.bench-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+.bench-legend{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:14px}
+.bench-legend .item{display:flex;align-items:center;gap:6px;font:600 12px var(--mono)}
+.bench-legend .item .swatch{width:12px;height:3px;border-radius:2px}
+.bench-chart{width:100%;height:260px;display:block}
+.bench-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.bench-stat{display:flex;flex-direction:column;gap:3px}
+.bench-stat .label{font:600 10px var(--mono);color:var(--dim);letter-spacing:.08em}
+.bench-stat .value{font:700 18px var(--mono);letter-spacing:-.01em}
+
 /* 뉴스 */
 .ncard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:8px}
 .ncard .ns{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
@@ -129,10 +171,10 @@ footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500
 
 <section><div class="wrap">
   <div class="steps" id="stepsBox">
-    <div class="step active" data-step="expand"><span class="ic spin">🔤</span><div class="body"><div class="lbl">키워드 별칭 확장</div><div class="desc">한↔영 변형, 관련 기업·제품·티커 자동 생성</div></div></div>
-    <div class="step" data-step="rss"><span class="ic">📡</span><div class="body"><div class="lbl">뉴스 수집</div><div class="desc">13개 매체 RSS 병렬 fetch</div></div></div>
-    <div class="step" data-step="filter"><span class="ic">🔍</span><div class="body"><div class="lbl">키워드 필터링</div><div class="desc">확장된 별칭으로 매칭</div></div></div>
-    <div class="step" data-step="ai"><span class="ic">🧠</span><div class="body"><div class="lbl">AI 인사이트 생성</div><div class="desc">Groq Llama · 환각 후처리 가드</div></div></div>
+    <div class="step active" data-step="expand"><span class="ic spin">🔤</span><div class="body"><div class="lbl">키워드 별칭·종목 추출</div><div class="desc">관련 기업·제품·티커 자동 추정</div></div></div>
+    <div class="step" data-step="fetch"><span class="ic">📡</span><div class="body"><div class="lbl">뉴스·주가 병렬 수집</div><div class="desc">16개 매체 + Google News + Yahoo + 네이버</div></div></div>
+    <div class="step" data-step="filter"><span class="ic">🔍</span><div class="body"><div class="lbl">필터링 + 펀더멘털</div><div class="desc">중복 제거, PER·외국인보유율 등 임베드</div></div></div>
+    <div class="step" data-step="ai"><span class="ic">🧠</span><div class="body"><div class="lbl">AI 인사이트 + 가드레일</div><div class="desc">summary·outlook·환각 후처리</div></div></div>
     <div class="step" data-step="done"><span class="ic">✅</span><div class="body"><div class="lbl">완료</div><div class="desc">결과 표시</div></div></div>
   </div>
 </div></section>
@@ -146,6 +188,18 @@ footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500
 <section id="sec-outlook" style="display:none"><div class="wrap">
   <div class="shead"><h2><i></i>시간 축 전망</h2></div>
   <div class="outlook-grid" id="outlookGrid"></div>
+</div></section>
+
+<section id="sec-stocks" style="display:none"><div class="wrap">
+  <div class="shead"><h2><i></i>관련 종목</h2><span class="tag" id="stockCount"></span></div>
+  <p class="ssub">AI가 추정한 관련 상장사 · 시세 + 펀더멘털</p>
+  <div id="stockGrid"></div>
+</div></section>
+
+<section id="sec-bench" style="display:none"><div class="wrap">
+  <div class="shead"><h2><i></i>시장 대비 위치</h2></div>
+  <p class="ssub">30일 누적 수익률 · 테마 vs KOSPI vs S&P500</p>
+  <div class="bench-card" id="benchCard"></div>
 </div></section>
 
 <section><div class="wrap">
@@ -192,9 +246,9 @@ async function startResearch(){
   // 모든 단계는 서버에서 한 번에 처리되므로 클라이언트는 시각적 단계 진행만 시뮬레이션
   var t0 = performance.now();
   // 시각적 단계 진행 시뮬레이션
-  setTimeout(function(){ markDone(['expand']); setStep('rss', 'active'); }, 2200);
-  setTimeout(function(){ markDone(['expand','rss']); setStep('filter', 'active'); }, 5500);
-  setTimeout(function(){ markDone(['expand','rss','filter']); setStep('ai', 'active'); }, 9000);
+  setTimeout(function(){ markDone(['expand']); setStep('fetch', 'active'); }, 2500);
+  setTimeout(function(){ markDone(['expand','fetch']); setStep('filter', 'active'); }, 9000);
+  setTimeout(function(){ markDone(['expand','fetch','filter']); setStep('ai', 'active'); }, 13000);
 
   try {
     var r = await fetch('/api/research?q=' + encodeURIComponent(q));
@@ -215,12 +269,15 @@ async function startResearch(){
         + '\n\n원인: 현재 RSS 13개 매체 중 이 키워드 관련 최신 기사가 없습니다. 시간대 영향일 수 있어요.');
       return;
     }
-    markDone(['expand','rss','filter','ai']);
+    markDone(['expand','fetch','filter','ai']);
     setStep('done', 'done');
     render(data);
     var meta = '소요 ' + ((performance.now() - t0)/1000).toFixed(1) + '초';
     if(data.aliasesUsed && data.aliasesUsed.length>1){
       meta += ' · 별칭 '+data.aliasesUsed.length+'개';
+    }
+    if(data.tickersUsed && data.tickersUsed.length){
+      meta += ' · 종목 '+data.tickersUsed.length+'개';
     }
     document.getElementById('updatedAt').textContent = meta;
   } catch (e) {
@@ -251,7 +308,137 @@ function render(data){
   var d = data.insight || {};
   renderInsight(d);
   renderOutlook(d.outlook||{});
+  if(data.stock) renderStocks(data.stock);
   renderNews(data.news||[]);
+}
+
+function cls(v){var n=parseFloat(v);return n>0?'up':n<0?'down':'flat';}
+function arr(v){var n=parseFloat(v);return n>0?'▲':n<0?'▼':'·';}
+function fmtPx(n,cur){
+  if(cur==='KRW'||!cur) return Math.round(n).toLocaleString('ko-KR')+'원';
+  return '$'+(n>=1000?n.toLocaleString('en-US',{maximumFractionDigits:0}):n.toFixed(2));
+}
+
+function renderStocks(s){
+  if(!s || !s.data || !Object.keys(s.data).length) return;
+  document.getElementById('sec-stocks').style.display='';
+  var entries = Object.entries(s.data);
+  document.getElementById('stockCount').textContent = entries.length+'개';
+  var kr=[], us=[];
+  entries.forEach(function(e){
+    var st = e[1];
+    var isKR = st.market==='KR' || st.currency==='KRW' || /^\d{6}$/.test(e[0]);
+    (isKR?kr:us).push(e);
+  });
+  function card(e){
+    var code=e[0], st=e[1];
+    var ex = st.market==='KR'||st.currency==='KRW' ? 'KRX' : 'NASDAQ';
+    var chCls = cls(st.dayChange);
+    var nm = st.name || code;
+    var pCls = cls(st.periodChange);
+    var spark = sparkline(st.prices||[], st.periodChange>=0);
+    var fund = renderFundamentals(st);
+    return '<div class="scard">'
+      +'<div class="sh"><span class="nm">'+esc(nm)+'</span><span class="exbadge ex-'+ex+'">'+ex+'</span></div>'
+      +'<div class="cd">'+esc(code)+'</div>'
+      +'<div class="px">'+fmtPx(st.px,st.currency)+'</div>'
+      +'<div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px">'
+      +'<span class="ch '+chCls+'">'+arr(st.dayChange)+' '+(st.dayChange>=0?'+':'')+st.dayChange+'%</span>'
+      +'<span class="market-state">'+(st.state==='REGULAR'?'🟢 장중':'🔴 장외')+'</span>'
+      +'</div>'
+      +(spark?'<div class="spark-wrap">'+spark+'<span class="spark-period '+pCls+'">30D '+(st.periodChange>=0?'+':'')+(st.periodChange||0)+'%</span></div>':'')
+      +fund
+      +'</div>';
+  }
+  function group(label, flag, items){
+    if(!items.length) return '';
+    return '<div class="market-group">'
+      +'<div class="market-group-label"><span class="flag">'+flag+'</span>'+label+'<span class="count">'+items.length+'</span></div>'
+      +'<div class="stock-grid">'+items.map(card).join('')+'</div>'
+      +'</div>';
+  }
+  document.getElementById('stockGrid').innerHTML = group('한국 종목','🇰🇷',kr) + group('미국 종목','🇺🇸',us);
+  if(s.benchmark) renderBenchmark(s.benchmark);
+}
+
+function sparkline(prices, isUp){
+  if(!prices || prices.length<2) return '';
+  var w=140, h=30, pad=2;
+  var min=Math.min.apply(null,prices), max=Math.max.apply(null,prices);
+  var range = (max-min) || 1;
+  var pts = prices.map(function(p,i){
+    var x = pad + (i/(prices.length-1)) * (w - 2*pad);
+    var y = pad + (1 - (p-min)/range) * (h - 2*pad);
+    return x.toFixed(1)+','+y.toFixed(1);
+  }).join(' ');
+  var color = isUp ? 'var(--up)' : 'var(--down)';
+  return '<svg viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none" class="sparkline">'
+    +'<polyline fill="none" stroke="'+color+'" stroke-width="1.5" points="'+pts+'"/></svg>';
+}
+
+function renderFundamentals(s){
+  var f = s.fundamentals;
+  if(!f) return '';
+  var isKR = s.market==='KR' || s.currency==='KRW';
+  var rows = [];
+  if(isKR){
+    if(f.marketCap) rows.push(['시총', esc(f.marketCap)]);
+    if(f.per) rows.push(['PER', esc(f.per)]);
+    if(f.pbr) rows.push(['PBR', esc(f.pbr)]);
+    if(f.foreignRatio) rows.push(['외국인','<span class="hi">'+esc(f.foreignRatio)+'</span>']);
+    if(f.divYield) rows.push(['배당', esc(f.divYield)]);
+    if(f.cnsPer) rows.push(['컨센PER', esc(f.cnsPer)]);
+  } else {
+    if(f.high52w!=null) rows.push(['52주 고','$'+(+f.high52w).toFixed(2)]);
+    if(f.low52w!=null) rows.push(['52주 저','$'+(+f.low52w).toFixed(2)]);
+    if(f.volume!=null) rows.push(['거래량',(+f.volume).toLocaleString('en-US')]);
+  }
+  if(!rows.length) return '';
+  return '<div class="fundamentals">'
+    + rows.map(r=>'<div class="fund-cell"><span class="k">'+r[0]+'</span><span class="v">'+r[1]+'</span></div>').join('')
+    + '</div>';
+}
+
+function renderBenchmark(b){
+  var theme = b.theme||[], kospi = b.kospi||[], sp = b.sp500||[];
+  if(theme.length<2) return;
+  document.getElementById('sec-bench').style.display='';
+  var len = Math.min(theme.length, kospi.length||theme.length, sp.length||theme.length);
+  theme = theme.slice(-len); kospi = kospi.slice(-len); sp = sp.slice(-len);
+  var w=860, h=240, padL=46, padR=18, padT=20, padB=28;
+  var all = theme.concat(kospi.length?kospi:[]).concat(sp.length?sp:[]);
+  var min=Math.min.apply(null,all), max=Math.max.apply(null,all);
+  if(min===max){min-=1;max+=1;}
+  var range = max-min;
+  function px(i){return padL + (i/(len-1)) * (w-padL-padR);}
+  function py(v){return padT + (1-(v-min)/range)*(h-padT-padB);}
+  function poly(series, color, name){
+    if(!series.length) return '';
+    var pts = series.map((v,i)=> px(i).toFixed(1)+','+py(v).toFixed(1)).join(' ');
+    return '<polyline fill="none" stroke="'+color+'" stroke-width="2" points="'+pts+'" data-name="'+name+'"/>';
+  }
+  var zeroY = py(0);
+  var gridY = '<line x1="'+padL+'" y1="'+zeroY+'" x2="'+(w-padR)+'" y2="'+zeroY+'" stroke="rgba(138,155,176,.25)" stroke-dasharray="3,3"/>';
+  function yLab(v,color){return '<text x="'+(padL-6)+'" y="'+py(v).toFixed(0)+'" fill="'+(color||'var(--dim)')+'" font-size="10" font-family="ui-monospace" text-anchor="end" dominant-baseline="middle">'+(v>0?'+':'')+v.toFixed(1)+'%</text>';}
+  var yLabels = yLab(max,'var(--muted)') + yLab(0,'var(--dim)') + yLab(min,'var(--muted)');
+  var svg = '<svg viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none" class="bench-chart">'
+    + gridY + yLabels
+    + (kospi.length ? poly(kospi,'#8a9bb0','KOSPI') : '')
+    + (sp.length ? poly(sp,'#a78bfa','S&P500') : '')
+    + poly(theme,'var(--accent)','Theme') + '</svg>';
+  var legend = '<div class="bench-legend">'
+    + '<div class="item"><span class="swatch" style="background:var(--accent)"></span>이 테마</div>'
+    + (kospi.length?'<div class="item"><span class="swatch" style="background:#8a9bb0"></span>KOSPI</div>':'')
+    + (sp.length?'<div class="item"><span class="swatch" style="background:#a78bfa"></span>S&P500</div>':'')
+    +'</div>';
+  function last(a){return a.length?a[a.length-1]:null;}
+  function stat(lbl,v){
+    if(v==null) return '';
+    var c = v>0?'up':v<0?'down':'flat';
+    return '<div class="bench-stat"><span class="label">'+lbl+' 30D</span><span class="value '+c+'">'+(v>0?'+':'')+v.toFixed(2)+'%</span></div>';
+  }
+  var stats = '<div class="bench-stats">'+stat('이 테마',last(theme))+stat('KOSPI',last(kospi))+stat('S&P500',last(sp))+'</div>';
+  document.getElementById('benchCard').innerHTML = legend + svg + stats;
 }
 
 function renderInsight(d){

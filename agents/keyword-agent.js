@@ -609,7 +609,7 @@ JSON 스키마: {"aliases": ["..."], "us_tickers": ["..."], "kr_companies": ["..
     }], 600);
     const parsed = JSON.parse(text);
     const blocked = new Set([
-      // 기존
+      // 기존 한글
       '코인','EV','배터리','에너지','모빌리티','투자','시장','가격','거래소','뉴스','반도체','자동차','기업','산업',
       // 금융 관련 일반어
       '뱅크','은행','증권','보험','금융','카드','페이','자산운용','펀드','ETF',
@@ -620,13 +620,21 @@ JSON 스키마: {"aliases": ["..."], "us_tickers": ["..."], "kr_companies": ["..
       // 시장/거래 일반어
       '주가','종목','관련주','테마','테마주','업종','분야','부문','상장',
       // 그 외 모호한 일반어
-      '제품','신제품','글로벌','국내','해외','한국','미국'
+      '제품','신제품','글로벌','국내','해외','한국','미국',
+      // 영문 일반어
+      'Bank','Group','Holdings','Inc','Corp','Co','Ltd','LLC',
+      'Tech','Pay','Card','Stock','Market','Fund','Securities',
+      'Global','Korea','Korean','US','USA','China','Chinese',
+      'Service','Services','Platform','System','Solution','Solutions',
+      'Industry','Sector','Product','Products','Network','Cloud'
     ]);
+    // 대소문자 무관 매칭을 위해 lowercase 비교도 추가
+    const blockedLower = new Set([...blocked].map(s => s.toLowerCase()));
     let aliases = Array.isArray(parsed.aliases) ? parsed.aliases : [];
     aliases = aliases
       .filter(s => typeof s === 'string')
       .map(s => s.trim())
-      .filter(s => s.length >= 2 && !blocked.has(s));
+      .filter(s => s.length >= 2 && !blocked.has(s) && !blockedLower.has(s.toLowerCase()));
 
     // 미국 ticker: 알파벳 1~5자만 통과
     let usTickers = Array.isArray(parsed.us_tickers) ? parsed.us_tickers : [];

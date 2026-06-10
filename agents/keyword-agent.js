@@ -305,8 +305,18 @@ JSON 스키마:
 규칙:
 - 모든 텍스트는 순 한국어. 한자(延期 등) 금지. 불가피하면 괄호 병기.
 - events·capital_flow.signals는 뉴스에 실제 언급된 것만. 추측 금지. 없으면 빈 배열.
-- outlook의 thesis는 4문장 미만이면 안 됨. 정량 데이터(숫자) 1개 이상 명시 강제.
-- key_players는 뉴스에 실제 등장한 기업·인물만.`;
+- outlook의 thesis는 반드시 4문장 이상. 정량 데이터(숫자/금액/%) 1개 이상 포함.
+- 단/중/장기 thesis는 *다른 시간 축이 다른 캐털리스트*를 강조. 같은 문장 반복 금지.
+- key_players는 뉴스에 실제 등장한 기업·인물만.
+
+예시 outlook(이 깊이·구조 모방):
+{
+  "short_term": {
+    "thesis": "SK하이닉스가 한미반도체에 442억원 규모 HBM4용 TC본더를 발주하면서 HBM4 양산 라인 증설이 가시화됐다. 같은 주에 삼성전자도 HBM4E 12단 글로벌 고객사 출하를 공식화해 경쟁 구도가 양강 체제로 굳어지는 모양새다. 다음 주 NVIDIA GTC 25 일정과 맞물려 양사 주가는 단기적으로 12~18% 변동성을 보일 가능성이 높다. 외국인 순매수가 5거래일 연속 들어오고 있어 모멘텀 자체는 우호적이다.",
+    "upside": "SK·삼성이 동시에 신규 고객 확보를 발표하면 강세 추세 강화.",
+    "downside": "NVIDIA가 가격 협상력 행사 시 마진 압박 우려."
+  }
+}`;
 
   // 70B → 429면 8B로 폴백. 429 외 오류는 즉시 중단.
   const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
@@ -383,8 +393,8 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
   // 주가 조회
   const stockData = await fetchStockPrices(tickers);
 
-  // LLM 인사이트 (Groq TPM 한도 방어: 호출 간 2.5초 + 모델 폴백)
-  await new Promise(r => setTimeout(r, 2500));
+  // LLM 인사이트 (Groq TPM 한도 방어: 호출 간 4초 + 70B 우선 + 8B 폴백)
+  await new Promise(r => setTimeout(r, 4000));
   const insight = await generateInsight(slug, nameKo, enriched, stockData);
 
   // 뉴스 활동도 집계 (오늘 / 어제 / 7일 평균 / 매체 다양성)

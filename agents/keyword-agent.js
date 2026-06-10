@@ -624,9 +624,11 @@ JSON 스키마: {"aliases": ["..."], "us_tickers": ["..."], "kr_companies": ["..
       // 영문 일반어
       'Bank','Group','Holdings','Inc','Corp','Co','Ltd','LLC',
       'Tech','Pay','Card','Stock','Market','Fund','Securities',
-      'Global','Korea','Korean','US','USA','China','Chinese',
+      'Finance','Financial','Insurance','Capital','Investment','Investments',
+      'Global','Korea','Korean','US','USA','China','Chinese','Asia','Asian',
       'Service','Services','Platform','System','Solution','Solutions',
-      'Industry','Sector','Product','Products','Network','Cloud'
+      'Industry','Sector','Product','Products','Network','Cloud',
+      'Company','Companies','Enterprise','Business','Tech', 'Technology','Technologies'
     ]);
     // 대소문자 무관 매칭을 위해 lowercase 비교도 추가
     const blockedLower = new Set([...blocked].map(s => s.toLowerCase()));

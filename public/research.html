@@ -129,8 +129,9 @@ footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500
 
 <section><div class="wrap">
   <div class="steps" id="stepsBox">
-    <div class="step active" data-step="rss"><span class="ic spin">📡</span><div class="body"><div class="lbl">뉴스 수집 중</div><div class="desc">13개 매체 RSS 병렬 fetch</div></div></div>
-    <div class="step" data-step="filter"><span class="ic">🔍</span><div class="body"><div class="lbl">키워드 필터링</div><div class="desc">대소문자 무관 + 별칭 매칭</div></div></div>
+    <div class="step active" data-step="expand"><span class="ic spin">🔤</span><div class="body"><div class="lbl">키워드 별칭 확장</div><div class="desc">한↔영 변형, 관련 기업·제품·티커 자동 생성</div></div></div>
+    <div class="step" data-step="rss"><span class="ic">📡</span><div class="body"><div class="lbl">뉴스 수집</div><div class="desc">13개 매체 RSS 병렬 fetch</div></div></div>
+    <div class="step" data-step="filter"><span class="ic">🔍</span><div class="body"><div class="lbl">키워드 필터링</div><div class="desc">확장된 별칭으로 매칭</div></div></div>
     <div class="step" data-step="ai"><span class="ic">🧠</span><div class="body"><div class="lbl">AI 인사이트 생성</div><div class="desc">Groq Llama · 환각 후처리 가드</div></div></div>
     <div class="step" data-step="done"><span class="ic">✅</span><div class="body"><div class="lbl">완료</div><div class="desc">결과 표시</div></div></div>
   </div>
@@ -190,9 +191,10 @@ function markDone(names){
 async function startResearch(){
   // 모든 단계는 서버에서 한 번에 처리되므로 클라이언트는 시각적 단계 진행만 시뮬레이션
   var t0 = performance.now();
-  // 시각적 단계: 1.5초 후 다음 단계로
-  setTimeout(function(){ markDone(['rss']); setStep('filter', 'active'); }, 2500);
-  setTimeout(function(){ markDone(['rss','filter']); setStep('ai', 'active'); }, 6000);
+  // 시각적 단계 진행 시뮬레이션
+  setTimeout(function(){ markDone(['expand']); setStep('rss', 'active'); }, 2200);
+  setTimeout(function(){ markDone(['expand','rss']); setStep('filter', 'active'); }, 5500);
+  setTimeout(function(){ markDone(['expand','rss','filter']); setStep('ai', 'active'); }, 9000);
 
   try {
     var r = await fetch('/api/research?q=' + encodeURIComponent(q));
@@ -206,10 +208,14 @@ async function startResearch(){
       showError('📭', '관련 뉴스 없음', data.message || '다른 키워드로 시도해보세요.');
       return;
     }
-    markDone(['rss','filter','ai']);
+    markDone(['expand','rss','filter','ai']);
     setStep('done', 'done');
     render(data);
-    document.getElementById('updatedAt').textContent = '소요 ' + ((performance.now() - t0)/1000).toFixed(1) + '초';
+    var meta = '소요 ' + ((performance.now() - t0)/1000).toFixed(1) + '초';
+    if(data.aliasesUsed && data.aliasesUsed.length>1){
+      meta += ' · 별칭 '+data.aliasesUsed.length+'개';
+    }
+    document.getElementById('updatedAt').textContent = meta;
   } catch (e) {
     setStep('ai', 'fail');
     showError('⚠️', '리서치 실패', e.message);

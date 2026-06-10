@@ -515,6 +515,24 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
   return { slug, articles: enriched.length, stocks: Object.keys(stockData).length, insight: !!insight };
 }
 
+// ── 별칭 자동 확장 (LLM 1회 호출) ────────────────────────
+// 사용자가 "비트코인"만 입력해도 "Bitcoin", "BTC", "암호화폐" 같은 변형까지 매칭.
+async function expandAliases(query) {
+  if (!process.env.GROQ_API_KEY) return [query];
+  try {
+    const text = await callGroq('llama-3.1-8b-instant', [{
+      role: 'user',
+      content: `투자 키워드 "${query}"의 뉴스 검색용 별칭을 JSON으로 반환해줘.
+포함할 것: 한국어/영어 표기, 약어, 관련 핵심 기업명·제품명·인물명·티커.
+{"aliases": ["별칭1", "별칭2", ...]}
+최대 10개. 일반적이고 자주 등장하는 표현 위주. 입력 키워드 자체는 제외.`
+    }], 300);
+    const parsed = JSON.parse(text);
+    const arr = Array.isArray(parsed.aliases) ? parsed.aliases.filter(s => typeof s === 'string' && s.trim()) : [];
+    return [query, ...arr].slice(0, 12);
+  } catch { return [query]; }
+}
+
 // ── 온디맨드 리서치 (사용자 입력 키워드, 파일 저장 없음) ──────
 // 카탈로그 외 임의 키워드에 대해 빠르게 결과 객체만 반환.
 // 본문 크롤링 생략 + 주가 호출 생략으로 15~25초 안에 끝남.
@@ -522,10 +540,13 @@ export async function researchKeywordOnDemand(query) {
   const q = (query || '').trim();
   if (!q) throw new Error('query empty');
 
+  // 1단계: LLM이 별칭 동적 생성 → 매칭 폭 확장
+  const expandedAliases = await expandAliases(q);
+
   const config = {
     slug: q,
     name: { ko: q, en: q },
-    aliases: [q],
+    aliases: expandedAliases,
   };
   const keywords = buildKeywordAliases(config);
   const lowerKeywords = keywords.map(k => k.toLowerCase());
@@ -554,7 +575,8 @@ export async function researchKeywordOnDemand(query) {
       updatedAt: new Date().toISOString(),
       ok: false,
       reason: 'no_news',
-      message: '관련 뉴스를 찾지 못했습니다. 다른 키워드로 시도해보세요.',
+      message: `"${q}" 관련 뉴스를 찾지 못했습니다.`,
+      aliasesUsed: expandedAliases,
       news: [],
       insight: null,
     };
@@ -569,6 +591,7 @@ export async function researchKeywordOnDemand(query) {
     updatedAt: new Date().toISOString(),
     ok: true,
     count: unique.length,
+    aliasesUsed: expandedAliases,
     news: unique,
     insight,
   };

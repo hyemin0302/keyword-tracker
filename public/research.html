@@ -205,7 +205,14 @@ async function startResearch(){
     var data = await r.json();
     if(!data.ok){
       setStep('rss', 'fail');
-      showError('📭', '관련 뉴스 없음', data.message || '다른 키워드로 시도해보세요.');
+      var aliasNote = '';
+      if(data.aliasesUsed && data.aliasesUsed.length){
+        aliasNote = '시도한 별칭: ' + data.aliasesUsed.slice(0,6).join(', ');
+        if(data.aliasesUsed.length > 6) aliasNote += ' 외 ' + (data.aliasesUsed.length-6) + '개';
+      }
+      showError('📭', '관련 뉴스 없음',
+        (data.message || '다른 키워드로 시도해보세요.') + (aliasNote ? '\n' + aliasNote : '')
+        + '\n\n원인: 현재 RSS 13개 매체 중 이 키워드 관련 최신 기사가 없습니다. 시간대 영향일 수 있어요.');
       return;
     }
     markDone(['expand','rss','filter','ai']);
@@ -225,11 +232,12 @@ async function startResearch(){
 function showError(ic, title, desc){
   document.getElementById('stepsBox').style.display = 'none';
   document.getElementById('errorBox').style.display = '';
+  var descHtml = esc(desc).replace(/\n/g, '<br>');
   document.getElementById('errorContent').innerHTML =
     '<div class="empty-card">'
     +'<div class="ic">'+ic+'</div>'
     +'<h3>'+esc(title)+'</h3>'
-    +'<p>'+esc(desc)+'</p>'
+    +'<p style="white-space:pre-line">'+descHtml+'</p>'
     +'<div class="actions">'
     +'<button class="btn primary" onclick="history.back()">← 홈으로</button>'
     +'<button class="btn" onclick="location.reload()">🔄 다시 시도</button>'

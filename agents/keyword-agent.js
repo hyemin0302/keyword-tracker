@@ -514,3 +514,62 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
   console.log(`[keyword-agent] "${nameKo}" 완료: 뉴스 ${enriched.length}건, 주가 ${Object.keys(stockData).length}개, 인사이트 ${insight ? '✓' : '✗'}, 관련테마 ${related.length}개`);
   return { slug, articles: enriched.length, stocks: Object.keys(stockData).length, insight: !!insight };
 }
+
+// ── 온디맨드 리서치 (사용자 입력 키워드, 파일 저장 없음) ──────
+// 카탈로그 외 임의 키워드에 대해 빠르게 결과 객체만 반환.
+// 본문 크롤링 생략 + 주가 호출 생략으로 15~25초 안에 끝남.
+export async function researchKeywordOnDemand(query) {
+  const q = (query || '').trim();
+  if (!q) throw new Error('query empty');
+
+  const config = {
+    slug: q,
+    name: { ko: q, en: q },
+    aliases: [q],
+  };
+  const keywords = buildKeywordAliases(config);
+  const lowerKeywords = keywords.map(k => k.toLowerCase());
+
+  // 1. RSS 수집 (병렬)
+  const fetched = await Promise.allSettled(FEEDS.map(async ({ url, src }) => {
+    try {
+      const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(7000) });
+      if (!r.ok) return [];
+      return parseRSS(await r.text(), src, lowerKeywords);
+    } catch { return []; }
+  }));
+  const all = fetched.flatMap(x => x.status === 'fulfilled' ? x.value : []);
+
+  // 2. 중복 제거 + 최신순
+  const seen = new Set();
+  const unique = all.filter(a => {
+    const k = a.t.slice(0, 25);
+    if (seen.has(k)) return false;
+    seen.add(k); return true;
+  }).sort((a, b) => b.ts - a.ts).slice(0, 15);
+
+  if (!unique.length) {
+    return {
+      query: q,
+      updatedAt: new Date().toISOString(),
+      ok: false,
+      reason: 'no_news',
+      message: '관련 뉴스를 찾지 못했습니다. 다른 키워드로 시도해보세요.',
+      news: [],
+      insight: null,
+    };
+  }
+
+  // 3. LLM 인사이트 (본문 크롤링·주가 생략, stockData 빈 객체)
+  let insight = await generateInsight(q, q, unique, {});
+  insight = sanitizeInsight(insight, unique);
+
+  return {
+    query: q,
+    updatedAt: new Date().toISOString(),
+    ok: true,
+    count: unique.length,
+    news: unique,
+    insight,
+  };
+}

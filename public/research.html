@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>리서치 — Market Radar</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0e14;--panel:#121a26;--panel2:#16202e;--line:#1e2c3d;--line2:#27384c;
+  --txt:#e6edf5;--muted:#8a9bb0;--dim:#5c6c80;
+  --up:#ff4d4f;--down:#3b82f6;--flat:#6b7c92;
+  --accent:#76b900;--gold:#e0b341;--rose:#f87171;
+  --mono:ui-monospace,'SF Mono',Menlo,monospace;
+  --sans:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',-apple-system,sans-serif;
+}
+html,body{background:var(--bg);color:var(--txt);font-family:var(--sans)}
+a{color:inherit;text-decoration:none}
+
+nav{position:sticky;top:0;z-index:100;background:rgba(10,14,20,.92);border-bottom:1px solid var(--line);padding:0 16px;height:52px;display:flex;align-items:center;gap:12px;backdrop-filter:blur(8px)}
+.back-btn{font:600 12px var(--mono);color:var(--muted);background:none;border:none;cursor:pointer}
+.back-btn:hover{color:var(--accent)}
+.nav-title{font:700 14px var(--sans);color:var(--txt)}
+.live-badge{font:700 11px var(--mono);background:rgba(118,185,0,.2);color:var(--accent);padding:2px 7px;border-radius:5px}
+
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+section{padding:28px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:none}
+
+.hero{padding:40px 0 24px}
+.hero-kick{font:600 11px var(--mono);letter-spacing:.15em;color:var(--accent);margin-bottom:8px}
+.hero-title{font-size:clamp(26px,6vw,42px);font-weight:800;letter-spacing:-.02em;margin-bottom:8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.hero-title .ic{font-size:1.1em}
+.hero-sub{color:var(--muted);font-size:14px;line-height:1.7}
+
+/* 진행 단계 */
+.steps{display:flex;flex-direction:column;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px;margin-top:24px}
+.step{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:10px;transition:all .25s;background:var(--panel2);border:1px solid var(--line)}
+.step.active{border-color:var(--accent);background:rgba(118,185,0,.06)}
+.step.done{opacity:.7;border-color:var(--line2)}
+.step.fail{border-color:var(--rose);background:rgba(248,113,113,.06)}
+.step .ic{font-size:22px;width:32px;text-align:center}
+.step .ic.spin{display:inline-block;animation:spin 1.2s linear infinite}
+@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.step .body{flex:1}
+.step .lbl{font:700 13px var(--sans);color:var(--txt);margin-bottom:2px}
+.step .desc{font:500 12px var(--mono);color:var(--dim)}
+.step.done .lbl{color:var(--muted)}
+.step.active .lbl{color:var(--accent)}
+.step.fail .lbl{color:var(--rose)}
+
+/* 인사이트 (요약) */
+.insight-card{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:12px;padding:20px 22px;margin-bottom:10px}
+.insight-label{font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.insight-summary{font-size:15px;line-height:1.75;color:var(--txt);margin-bottom:16px}
+.insight-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.insight-col h5{font:700 10px var(--mono);letter-spacing:.1em;color:var(--muted);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.insight-col.risks h5{color:var(--rose)}
+.insight-col ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.insight-col li{font:500 13px var(--sans);color:var(--muted);line-height:1.55;padding-left:14px;position:relative}
+.insight-col li::before{content:'';position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.insight-col.watch li::before{background:var(--gold)}
+.insight-col.risks li::before{background:var(--rose)}
+.sentiment{display:inline-flex;align-items:center;gap:5px;font:700 12px var(--mono);padding:3px 9px;border-radius:6px}
+.bullish{background:rgba(118,185,0,.15);color:var(--accent)}
+.bearish{background:rgba(248,113,113,.15);color:var(--rose)}
+.neutral{background:rgba(107,124,146,.15);color:var(--flat)}
+
+/* outlook */
+.outlook-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.outlook-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;position:relative}
+.outlook-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent)}
+.outlook-card.mid::before{background:var(--gold)}
+.outlook-card.long::before{background:#a78bfa}
+.outlook-head{font:700 11px var(--mono);letter-spacing:.12em;color:var(--muted);margin-bottom:6px;display:flex;justify-content:space-between}
+.outlook-head .horizon{font:700 10px var(--mono);color:var(--accent);background:rgba(118,185,0,.12);padding:2px 7px;border-radius:5px}
+.outlook-card.mid .horizon{color:var(--gold);background:rgba(224,179,65,.12)}
+.outlook-card.long .horizon{color:#a78bfa;background:rgba(167,139,250,.12)}
+.outlook-title{font:700 15px var(--sans);color:var(--txt);margin-bottom:10px}
+.outlook-body{font-size:13.5px;color:var(--muted);line-height:1.72}
+.outlook-branches{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line2);display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.branch{display:flex;flex-direction:column;gap:4px}
+.branch .label{font:700 9px var(--mono);letter-spacing:.1em}
+.branch.up .label{color:var(--accent)}
+.branch.down .label{color:var(--rose)}
+.branch .text{font-size:12.5px;color:var(--muted);line-height:1.6}
+
+/* 뉴스 */
+.ncard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:8px}
+.ncard .ns{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+.src-badge{font:600 10px var(--mono);background:var(--panel2);border:1px solid var(--line2);padding:2px 7px;border-radius:5px;color:var(--muted)}
+.ntime{font:500 11px var(--mono);color:var(--dim);margin-left:auto}
+.ncard h4{font-size:15px;font-weight:700;line-height:1.4;margin-bottom:6px}
+.ncard h4 a:hover{color:var(--accent)}
+.ncard .nd{font-size:13px;color:var(--muted);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* 빈 상태 / 에러 */
+.empty-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:48px 24px;text-align:center}
+.empty-card .ic{font-size:48px;margin-bottom:16px}
+.empty-card h3{font:700 18px var(--sans);margin-bottom:8px}
+.empty-card p{font:500 14px var(--mono);color:var(--muted);line-height:1.7}
+.empty-card .actions{margin-top:24px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.btn{font:600 13px var(--sans);background:var(--panel2);border:1px solid var(--line2);color:var(--txt);padding:10px 18px;border-radius:8px;cursor:pointer;transition:all .15s}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:#0a0e14;border-color:var(--accent)}
+.btn.primary:hover{background:#5fa800}
+
+.shead{display:flex;align-items:center;gap:10px;margin-bottom:6px;flex-wrap:wrap}
+.shead h2{font-size:20px;font-weight:700;display:flex;align-items:center;gap:8px}
+.shead h2 i{width:11px;height:11px;border-radius:3px;background:var(--accent);display:inline-block}
+.ssub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.tag{font:500 11px var(--mono);color:var(--dim);border:1px solid var(--line);padding:3px 8px;border-radius:6px}
+footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500 11px var(--mono);text-align:center}
+</style>
+</head>
+<body>
+<nav><div style="display:flex;align-items:center;gap:12px;width:100%;max-width:1040px;margin:0 auto">
+  <button class="back-btn" onclick="location.href='/'">← 검색</button>
+  <div class="nav-title">🔬 즉석 리서치</div>
+  <span class="live-badge" id="liveBadge">ON-DEMAND</span>
+  <span id="updatedAt" style="font:500 11px var(--mono);color:var(--dim);margin-left:auto"></span>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="hero-kick">MARKET RADAR · 즉석 키워드 리서치</div>
+  <div class="hero-title"><span class="ic">🔬</span> <span id="queryText">로딩 중...</span></div>
+  <div class="hero-sub">사용자 입력 키워드 기반 즉석 분석 · RSS 수집 + AI 인사이트 (15~40초)</div>
+</div></header>
+
+<section><div class="wrap">
+  <div class="steps" id="stepsBox">
+    <div class="step active" data-step="rss"><span class="ic spin">📡</span><div class="body"><div class="lbl">뉴스 수집 중</div><div class="desc">13개 매체 RSS 병렬 fetch</div></div></div>
+    <div class="step" data-step="filter"><span class="ic">🔍</span><div class="body"><div class="lbl">키워드 필터링</div><div class="desc">대소문자 무관 + 별칭 매칭</div></div></div>
+    <div class="step" data-step="ai"><span class="ic">🧠</span><div class="body"><div class="lbl">AI 인사이트 생성</div><div class="desc">Groq Llama · 환각 후처리 가드</div></div></div>
+    <div class="step" data-step="done"><span class="ic">✅</span><div class="body"><div class="lbl">완료</div><div class="desc">결과 표시</div></div></div>
+  </div>
+</div></section>
+
+<div id="results" style="display:none">
+<section><div class="wrap">
+  <div class="shead"><h2><i></i>AI 인사이트</h2><span class="tag" id="insightModel"></span></div>
+  <div id="insightBody"></div>
+</div></section>
+
+<section id="sec-outlook" style="display:none"><div class="wrap">
+  <div class="shead"><h2><i></i>시간 축 전망</h2></div>
+  <div class="outlook-grid" id="outlookGrid"></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="shead"><h2><i></i>최신 뉴스</h2><span class="tag" id="newsCount"></span></div>
+  <div id="newsList"></div>
+</div></section>
+</div>
+
+<div id="errorBox" style="display:none"><section><div class="wrap" id="errorContent"></div></section></div>
+
+<footer>Market Radar · 즉석 리서치는 캐시 10분 · <a href="/">← 카탈로그로 돌아가기</a></footer>
+
+<script>
+var params = new URLSearchParams(location.search);
+var q = (params.get('q') || '').trim();
+
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+if(!q){
+  document.getElementById('queryText').textContent = '키워드 없음';
+  showError('🤔', '검색어가 비어있습니다', '홈에서 키워드를 입력해주세요.');
+} else {
+  document.getElementById('queryText').textContent = '"' + q + '"';
+  document.title = '"' + q + '" 리서치 — Market Radar';
+  startResearch();
+}
+
+function setStep(name, status){
+  document.querySelectorAll('.step').forEach(function(el){
+    if(el.dataset.step === name){
+      el.classList.remove('active','done','fail');
+      if(status) el.classList.add(status);
+      var ic = el.querySelector('.ic');
+      if(status === 'active') ic.classList.add('spin');
+      else ic.classList.remove('spin');
+    }
+  });
+}
+function markDone(names){
+  names.forEach(function(n){ setStep(n, 'done'); });
+}
+
+async function startResearch(){
+  // 모든 단계는 서버에서 한 번에 처리되므로 클라이언트는 시각적 단계 진행만 시뮬레이션
+  var t0 = performance.now();
+  // 시각적 단계: 1.5초 후 다음 단계로
+  setTimeout(function(){ markDone(['rss']); setStep('filter', 'active'); }, 2500);
+  setTimeout(function(){ markDone(['rss','filter']); setStep('ai', 'active'); }, 6000);
+
+  try {
+    var r = await fetch('/api/research?q=' + encodeURIComponent(q));
+    if(!r.ok){
+      var err = await r.json().catch(function(){return {error:'unknown'};});
+      throw new Error(err.message || err.error || ('HTTP ' + r.status));
+    }
+    var data = await r.json();
+    if(!data.ok){
+      setStep('rss', 'fail');
+      showError('📭', '관련 뉴스 없음', data.message || '다른 키워드로 시도해보세요.');
+      return;
+    }
+    markDone(['rss','filter','ai']);
+    setStep('done', 'done');
+    render(data);
+    document.getElementById('updatedAt').textContent = '소요 ' + ((performance.now() - t0)/1000).toFixed(1) + '초';
+  } catch (e) {
+    setStep('ai', 'fail');
+    showError('⚠️', '리서치 실패', e.message);
+  }
+}
+
+function showError(ic, title, desc){
+  document.getElementById('stepsBox').style.display = 'none';
+  document.getElementById('errorBox').style.display = '';
+  document.getElementById('errorContent').innerHTML =
+    '<div class="empty-card">'
+    +'<div class="ic">'+ic+'</div>'
+    +'<h3>'+esc(title)+'</h3>'
+    +'<p>'+esc(desc)+'</p>'
+    +'<div class="actions">'
+    +'<button class="btn primary" onclick="history.back()">← 홈으로</button>'
+    +'<button class="btn" onclick="location.reload()">🔄 다시 시도</button>'
+    +'</div></div>';
+}
+
+function render(data){
+  document.getElementById('stepsBox').style.display = 'none';
+  document.getElementById('results').style.display = '';
+
+  var d = data.insight || {};
+  renderInsight(d);
+  renderOutlook(d.outlook||{});
+  renderNews(data.news||[]);
+}
+
+function renderInsight(d){
+  var el = document.getElementById('insightBody');
+  if(!d || !d.summary){
+    el.innerHTML = '<div class="empty-card"><div class="ic">🤖</div><h3>인사이트 생성 실패</h3><p>뉴스는 있지만 AI 분석에 실패했습니다.</p></div>';
+    return;
+  }
+  var sentCls = d.sentiment==='bullish'?'bullish':d.sentiment==='bearish'?'bearish':'neutral';
+  var sentTxt = d.sentiment==='bullish'?'강세 📈':d.sentiment==='bearish'?'약세 📉':'중립 →';
+  document.getElementById('insightModel').textContent = d._model||'Llama';
+
+  var cols = '';
+  if((d.key_drivers||[]).length){
+    cols += '<div class="insight-col drivers"><h5>🚀 핵심 드라이버</h5><ul>' + d.key_drivers.map(p=>'<li>'+esc(p)+'</li>').join('') + '</ul></div>';
+  }
+  if((d.watch_points||[]).length){
+    cols += '<div class="insight-col watch"><h5>👀 관전 포인트</h5><ul>' + d.watch_points.map(p=>'<li>'+esc(p)+'</li>').join('') + '</ul></div>';
+  }
+  if((d.risks||[]).length){
+    cols += '<div class="insight-col risks"><h5>⚠️ 리스크</h5><ul>' + d.risks.map(p=>'<li>'+esc(p)+'</li>').join('') + '</ul></div>';
+  }
+
+  el.innerHTML = '<div class="insight-card">'
+    +'<div class="insight-label">AI 투자 인사이트 <span class="sentiment '+sentCls+'">'+sentTxt+'</span></div>'
+    +'<div class="insight-summary">'+esc(d.summary)+'</div>'
+    +(cols?'<div class="insight-cols">'+cols+'</div>':'')
+    +(d.disclaimer?'<div style="font:500 11px var(--mono);color:var(--dim);margin-top:10px;border-top:1px solid var(--line);padding-top:10px">'+esc(d.disclaimer)+'</div>':'')
+    +'</div>';
+}
+
+function renderOutlook(o){
+  var horizons = [
+    {k:'short_term', cls:'short', label:'SHORT-TERM', horizon:'1~2주', title:'단기 시나리오'},
+    {k:'mid_term',   cls:'mid',   label:'MID-TERM',   horizon:'1~3개월', title:'중기 시나리오'},
+    {k:'long_term',  cls:'long',  label:'LONG-TERM',  horizon:'6~12개월', title:'장기 시나리오'},
+  ];
+  var any = horizons.some(function(h){
+    var v = o[h.k];
+    return v && (typeof v === 'string' ? v.trim() : (v.thesis||'').trim());
+  });
+  if(!any) return;
+  document.getElementById('sec-outlook').style.display='';
+  document.getElementById('outlookGrid').innerHTML = horizons.map(function(h){
+    var v = o[h.k];
+    var thesis = '', up = '', down = '';
+    if(typeof v === 'string'){ thesis = v; }
+    else if(v){ thesis = v.thesis||''; up = v.upside||''; down = v.downside||''; }
+    var branches = (up||down)
+      ? '<div class="outlook-branches">'
+        +(up?'<div class="branch up"><span class="label">▲ 상방</span><span class="text">'+esc(up)+'</span></div>':'')
+        +(down?'<div class="branch down"><span class="label">▼ 하방</span><span class="text">'+esc(down)+'</span></div>':'')
+        +'</div>'
+      : '';
+    return '<div class="outlook-card '+h.cls+'">'
+      +'<div class="outlook-head"><span>'+h.label+'</span><span class="horizon">'+h.horizon+'</span></div>'
+      +'<div class="outlook-title">'+h.title+'</div>'
+      +'<div class="outlook-body">'+esc(thesis||'데이터 부족')+'</div>'
+      +branches
+      +'</div>';
+  }).join('');
+}
+
+function renderNews(items){
+  document.getElementById('newsCount').textContent = items.length+'건';
+  document.getElementById('newsList').innerHTML = items.slice(0,15).map(function(n){
+    return '<div class="ncard">'
+      +'<div class="ns"><span class="src-badge">'+esc(n.s)+'</span><span class="ntime">'+esc(n.m)+'</span></div>'
+      +'<h4>'+(n.u?'<a href="'+esc(n.u)+'" target="_blank" rel="noopener">'+esc(n.t)+' ↗</a>':esc(n.t))+'</h4>'
+      +(n.d?'<div class="nd">'+esc(n.d)+'</div>':'')
+      +'</div>';
+  }).join('');
+}
+</script>
+</body>
+</html>

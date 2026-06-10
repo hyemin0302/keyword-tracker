@@ -113,19 +113,32 @@ var inp = document.getElementById('searchInput');
 var dd  = document.getElementById('dropdown');
 
 inp.addEventListener('input', function(){
-  var q = this.value.trim().toLowerCase();
+  var qRaw = this.value.trim();
+  var q = qRaw.toLowerCase();
   if(!q){dd.classList.remove('show');return;}
   var matches = KEYWORDS.filter(function(k){
-    return k.slug.toLowerCase().includes(q) || k.name.ko.includes(q) || (k.name.en||'').toLowerCase().includes(q);
+    return k.slug.toLowerCase().includes(q) || k.name.ko.includes(qRaw) || (k.name.en||'').toLowerCase().includes(q);
   });
-  if(!matches.length){dd.classList.remove('show');return;}
-  dd.innerHTML = matches.slice(0,8).map(function(k){
+  var items = matches.slice(0,7).map(function(k){
     return '<div class="dd-item" onclick="navigate(\''+k.slug+'\')">'
       +'<span class="dd-icon">'+k.icon+'</span>'
       +'<span class="dd-name">'+k.name.ko+'</span>'
       +'<span class="dd-tier tier-'+k.tier+'">'+k.tier.toUpperCase()+'</span>'
       +'</div>';
-  }).join('');
+  });
+  // 카탈로그에 정확 매칭 없으면 "즉석 리서치" 옵션 노출
+  var hasExact = matches.some(function(k){
+    return k.slug.toLowerCase()===q || k.name.ko===qRaw || (k.name.en||'').toLowerCase()===q;
+  });
+  if(!hasExact && qRaw.length>=2){
+    items.push('<div class="dd-item" onclick="window.location.href=\'/research?q=\'+encodeURIComponent(\''+qRaw.replace(/\'/g,"\\\\'")+'\')" style="border-top:1px dashed var(--line2)">'
+      +'<span class="dd-icon">🔬</span>'
+      +'<span class="dd-name">"'+qRaw+'" 즉석 리서치 (15~40초)</span>'
+      +'<span class="dd-tier" style="background:rgba(118,185,0,.15);color:var(--accent)">NEW</span>'
+      +'</div>');
+  }
+  if(!items.length){dd.classList.remove('show');return;}
+  dd.innerHTML = items.join('');
   dd.classList.add('show');
 });
 
@@ -152,7 +165,8 @@ function goSearch(){
     return k.slug.toLowerCase().includes(q.toLowerCase()) || k.name.ko.includes(q) || (k.name.en||'').toLowerCase().includes(q.toLowerCase());
   });
   if(partial){ navigate(partial.slug); return; }
-  alert('준비된 테마가 아닙니다. 아래 목록에서 선택해주세요.');
+  // 카탈로그에 없는 새 키워드 → 즉석 리서치 페이지로
+  window.location.href = '/research?q=' + encodeURIComponent(q);
 }
 </script>
 </body>

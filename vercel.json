@@ -1,11 +1,17 @@
 {
   "rewrites": [
-    { "source": "/keyword/:slug", "destination": "/keyword/[slug].html" }
+    { "source": "/keyword/:slug", "destination": "/keyword/[slug].html" },
+    { "source": "/research", "destination": "/research.html" }
   ],
   "headers": [
     {
       "source": "/data/(.*)",
       "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=60, stale-while-revalidate=300" }]
     }
-  ]
+  ],
+  "functions": {
+    "api/research.js": {
+      "maxDuration": 300
+    }
+  }
 }

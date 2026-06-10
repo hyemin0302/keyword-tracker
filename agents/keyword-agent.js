@@ -305,9 +305,17 @@ JSON 스키마:
 절대 규칙:
 - 모든 텍스트는 순 한국어. 한자(延期 등) 금지. 불가피하면 괄호 병기.
 - 모든 분석은 위에 제공된 뉴스에 *명시적으로 등장한 사실*만 사용. 등장하지 않은 기업명·수치·이벤트는 절대 추가하지 말 것. 모르면 "관련 뉴스 없음"이라 솔직히 적기.
-- 단기/중기/장기 thesis는 절대 동일 문장 반복 금지. 단기=임박 변수, 중기=분기 실적·정책, 장기=산업 구조 — 각각 다른 시간 차원과 다른 변수를 다뤄야 함.
-- outlook의 thesis는 반드시 4문장 이상. 가능하면 뉴스에 등장한 정량 수치(매출/투자금/%/주가 등)를 포함.
-- events·capital_flow.signals·key_players는 뉴스에 실제 언급된 것만. 추측·외부 지식 금지. 없으면 빈 배열.`;
+
+수치 인용 절대 규칙 (가장 중요 - 환각 방지):
+- 뉴스에 명시적으로 등장한 숫자만 인용. *원문 표기 그대로* 사용.
+- 뉴스에 없는 시총·매출·평가가치·목표주가를 *추정하거나 만들어내지 말 것*.
+- 절대 "조", "경", "해" 단위 큰수를 임의로 생성하지 말 것. 뉴스 원문에 같은 표현이 없으면 그 숫자 자체를 적지 말 것.
+- 정량 데이터가 뉴스에 없으면 정성적 표현으로만 작성. "예상된다", "전망이다" 같은 추정 표현으로 숫자를 끼워 넣지 말 것.
+
+기타:
+- 단기/중기/장기 thesis는 절대 동일 문장 반복 금지. 단기=임박 변수, 중기=분기 실적·정책, 장기=산업 구조.
+- outlook의 thesis는 4문장 이상. 정량 수치는 뉴스 원문에 등장한 것만.
+- events·capital_flow.signals·key_players는 뉴스 원문에 실제 등장한 것만. 추측·외부 지식 금지. 없으면 빈 배열.`;
 
   // 70B → 429면 8B로 폴백. 429 외 오류는 즉시 중단.
   const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
@@ -323,6 +331,54 @@ JSON 스키마:
     }
   }
   return null;
+}
+
+// ── 환각 후처리 가드레일 ──────────────────────────────────
+// LLM 응답의 정량 표현을 뉴스 원문과 대조해 환각 문장 제거.
+// 보수적 필터: 의심되면 잘라낸다 (false positive 허용, false negative 차단).
+function sanitizeInsight(insight, articles) {
+  if (!insight || !articles?.length) return insight;
+  const corpus = articles.map(a => (a.t || '') + ' ' + (a.d || '') + ' ' + (a.fullText || '')).join(' ');
+  const corpusNorm = corpus.replace(/[\s,]/g, '');
+
+  const clean = (text) => {
+    if (!text || typeof text !== 'string') return text;
+    const sentences = text.split(/(?<=[.!?다요])\s+/).filter(s => s.trim());
+    const kept = sentences.filter(s => {
+      // 1. "경", "해" 단위 큰수는 한국 증시 뉴스에 거의 안 나옴 → 환각 가정해 차단
+      if (/\d+\s*경(?![도력기제])/.test(s)) return false;
+      if (/\d+\s*해(?![외당결군상기소운책약할제])/.test(s)) return false;
+      // 2. 큰 정량 표현이 뉴스 원문에 substring으로 없으면 그 문장 차단
+      const quants = s.match(/\d[\d,.]*\s*(?:%|배|조|억원|억|만원|만달러|만)/g) || [];
+      for (const q of quants) {
+        const qNorm = q.replace(/[\s,]/g, '');
+        if (!corpus.includes(q) && !corpusNorm.includes(qNorm)) return false;
+      }
+      return true;
+    });
+    return kept.join(' ').trim();
+  };
+
+  if (insight.summary) insight.summary = clean(insight.summary);
+  if (insight.outlook && typeof insight.outlook === 'object') {
+    for (const k of ['short_term', 'mid_term', 'long_term']) {
+      const v = insight.outlook[k];
+      if (v && typeof v === 'object') {
+        v.thesis = clean(v.thesis);
+        v.upside = clean(v.upside);
+        v.downside = clean(v.downside);
+      }
+    }
+  }
+  if (insight.capital_flow && typeof insight.capital_flow === 'object') {
+    insight.capital_flow.summary = clean(insight.capital_flow.summary);
+    if (Array.isArray(insight.capital_flow.signals)) {
+      insight.capital_flow.signals = insight.capital_flow.signals
+        .map(s => clean(s))
+        .filter(s => s && s.length > 5);
+    }
+  }
+  return insight;
 }
 
 // ── 관련 테마 계산 ────────────────────────────────────────
@@ -386,7 +442,9 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
 
   // LLM 인사이트 (Groq TPM 한도 방어: 호출 간 4초 + 70B 우선 + 8B 폴백)
   await new Promise(r => setTimeout(r, 4000));
-  const insight = await generateInsight(slug, nameKo, enriched, stockData);
+  let insight = await generateInsight(slug, nameKo, enriched, stockData);
+  // 환각 후처리: 뉴스에 없는 정량 표현이 들어간 문장 제거
+  insight = sanitizeInsight(insight, enriched);
 
   // 뉴스 활동도 집계 (오늘 / 어제 / 7일 평균 / 매체 다양성)
   const now = Date.now();

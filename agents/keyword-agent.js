@@ -563,35 +563,50 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
 }
 
 // ── 별칭 + 관련 ticker 자동 추출 (LLM 1회 호출) ────────────
-// "테슬라" → aliases: [Tesla, TSLA, 머스크...] + tickers: [TSLA]
+// 한국 종목은 *회사명만* 받고 우리 사전(tickers.json)에서 코드 변환 (환각 차단).
+// 미국 종목은 알파벳 ticker 그대로 (LLM이 잘 알고 있음).
 async function expandKeywordContext(query) {
   if (!process.env.GROQ_API_KEY) return { aliases: [query], tickers: [] };
+  // 한국 회사명 → 코드 역방향 사전 (Closed-set 후처리)
+  const nameMap = loadTickerNames();
+  const krNameToCode = {};
+  try {
+    const t = JSON.parse(fs.readFileSync(path.join(ROOT, 'public/data/tickers.json'), 'utf8'));
+    for (const [code, name] of Object.entries(t.kr || {})) {
+      krNameToCode[name] = code;
+    }
+  } catch {}
+  const krCompanyList = Object.keys(krNameToCode);
+
   try {
     const text = await callGroq('llama-3.1-8b-instant', [{
       role: 'user',
-      content: `투자 키워드 "${query}"에 대해 뉴스 검색용 별칭과 관련 주식 ticker를 JSON으로 반환해줘.
+      content: `투자 키워드 "${query}"에 대해 뉴스 검색용 별칭과 관련 상장사를 JSON으로 반환해줘.
 
 aliases 규칙:
-- 구별력 있는 *고유 명사* 위주: 영문 정식명, 약어, 핵심 기업명·인물명·제품명
-- 일반 명사 절대 금지: "코인", "EV", "배터리", "에너지", "모빌리티", "투자", "시장", "가격" 등
-- "코인" 단독 X. "비트코인", "Bitcoin", "BTC" 같은 *구체적 이름*만
-- 입력 키워드 자체는 제외. 최대 8개.
+- 구별력 있는 *고유 명사* 위주: 영문 정식명, 약어, 핵심 기업·인물·제품명
+- 일반 명사 절대 금지: "코인", "EV", "배터리", "에너지" 등
+- 입력 키워드 자체 제외. 최대 8개.
 
-tickers 규칙:
-- 미국 상장: 알파벳 대문자 ticker (예: TSLA, NVDA, AAPL, COIN, MSTR)
-- 한국 상장: 6자리 종목코드 (예: 005380, 000660, 035420)
-- 키워드와 *직접 관련된* 상장사만. 추측 X.
-- 비상장 회사·인덱스·암호화폐 자체 제외. 모르면 빈 배열.
-- 최대 5개.
+us_tickers 규칙 (미국 상장):
+- 알파벳 대문자 ticker만 (TSLA, NVDA, COIN, MSTR 등)
+- 키워드와 *직접 관련된* 미국 상장사만. 추측 절대 금지.
+- 모르면 빈 배열. 최대 3개.
+
+kr_companies 규칙 (한국 상장):
+- 아래 *명단에서 정확한 회사명*만 선택. 명단 외 이름 절대 응답 금지.
+- 명단: ${JSON.stringify(krCompanyList)}
+- 키워드와 *직접 관련된* 회사만. 추측·유추 금지.
+- 명단에 없으면 빈 배열. 최대 3개.
 
 예시:
-"테슬라"  → {"aliases":["Tesla","TSLA","일론 머스크","Elon Musk","사이버트럭","FSD","로보택시"], "tickers":["TSLA"]}
-"비트코인" → {"aliases":["Bitcoin","BTC","비트코인 ETF","Coinbase","업비트","마이크로스트래티지"], "tickers":["COIN","MSTR","MARA","RIOT"]}
-"엔비디아" → {"aliases":["NVIDIA","NVDA","젠슨 황","Jensen Huang","Blackwell","GTC"], "tickers":["NVDA","TSM","000660"]}
-"현대차"  → {"aliases":["Hyundai","현대자동차","HMG","아이오닉","제네시스","E-GMP"], "tickers":["005380","005385","005387"]}
+"테슬라"  → {"aliases":["Tesla","TSLA","일론 머스크","Elon Musk","사이버트럭"], "us_tickers":["TSLA"], "kr_companies":[]}
+"비트코인" → {"aliases":["Bitcoin","BTC","Coinbase","마이크로스트래티지"], "us_tickers":["COIN","MSTR","MARA"], "kr_companies":[]}
+"삼성SDS" → {"aliases":["삼성에스디에스","Samsung SDS","스마트팩토리","Brity AI"], "us_tickers":[], "kr_companies":["삼성에스디에스"]}
+"엔비디아" → {"aliases":["NVIDIA","NVDA","젠슨 황","Blackwell"], "us_tickers":["NVDA","TSM"], "kr_companies":["SK하이닉스"]}
 
-JSON 스키마: {"aliases": ["..."], "tickers": ["..."]}`
-    }], 500);
+JSON 스키마: {"aliases": ["..."], "us_tickers": ["..."], "kr_companies": ["..."]}`
+    }], 600);
     const parsed = JSON.parse(text);
     const blocked = new Set(['코인','EV','배터리','에너지','모빌리티','투자','시장','가격','거래소','뉴스','반도체','자동차','기업','산업']);
     let aliases = Array.isArray(parsed.aliases) ? parsed.aliases : [];
@@ -599,12 +614,23 @@ JSON 스키마: {"aliases": ["..."], "tickers": ["..."]}`
       .filter(s => typeof s === 'string')
       .map(s => s.trim())
       .filter(s => s.length >= 2 && !blocked.has(s));
-    let tickers = Array.isArray(parsed.tickers) ? parsed.tickers : [];
-    tickers = tickers
+
+    // 미국 ticker: 알파벳 1~5자만 통과
+    let usTickers = Array.isArray(parsed.us_tickers) ? parsed.us_tickers : [];
+    usTickers = usTickers
       .filter(s => typeof s === 'string')
       .map(s => s.trim().toUpperCase())
-      .filter(s => /^[A-Z]{1,5}$/.test(s) || /^\d{6}$/.test(s))
-      .slice(0, 5);
+      .filter(s => /^[A-Z]{1,5}$/.test(s));
+
+    // 한국 회사명: 명단에 있는 것만 통과 → 우리 사전에서 코드로 변환 (환각 차단)
+    let krCompanies = Array.isArray(parsed.kr_companies) ? parsed.kr_companies : [];
+    const krCodes = krCompanies
+      .filter(s => typeof s === 'string')
+      .map(s => s.trim())
+      .filter(s => krNameToCode[s])
+      .map(s => krNameToCode[s]);
+
+    const tickers = [...usTickers, ...krCodes].slice(0, 5);
     return {
       aliases: [query, ...aliases].slice(0, 10),
       tickers,

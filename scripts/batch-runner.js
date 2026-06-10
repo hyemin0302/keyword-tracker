@@ -3,7 +3,7 @@
  * 배치 러너 — 20개 키워드를 tier별로 배치 처리
  * hot(즉시) → warm(지연 5초) → cold(지연 10초)
  */
-import { runKeywordAgent } from '../agents/keyword-agent.js';
+import { runKeywordAgent, fetchBenchmarks } from '../agents/keyword-agent.js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -23,10 +23,15 @@ async function main() {
 
   console.log(`[batch-runner] 대상 키워드: ${targets.length}개`);
 
+  // 벤치마크 (KOSPI, S&P500) 한 번만 fetch해서 모든 키워드에 재사용
+  console.log('[batch-runner] 벤치마크 fetch 중...');
+  const benchmarks = await fetchBenchmarks();
+  console.log(`[batch-runner] 벤치마크: KOSPI ${benchmarks.kospi.length}일, S&P500 ${benchmarks.sp500.length}일`);
+
   const results = [];
   for (const kw of targets) {
     try {
-      const r = await runKeywordAgent(kw, index.keywords);
+      const r = await runKeywordAgent(kw, index.keywords, benchmarks);
       results.push({ ...r, ok: true });
     } catch (e) {
       console.error(`[batch-runner] ${kw.slug} 실패:`, e.message);

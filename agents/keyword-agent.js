@@ -147,6 +147,74 @@ async function fetchYahoo(symbol) {
   return { meta: result.meta, closes };
 }
 
+// ── 펀더멘털 조회 ─────────────────────────────────────────
+// 한국: 네이버 m.stock /integration (PER·PBR·시총·외국인보유율·배당·52주 등 한 번에)
+// 미국: Yahoo가 인증 도입으로 막힘 → chart meta의 52주 고저·거래량만
+async function fetchValuationKR(code) {
+  try {
+    const r = await fetch(`https://m.stock.naver.com/api/stock/${code}/integration`,
+      { headers: { 'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json' }, signal: AbortSignal.timeout(6000) });
+    if (!r.ok) return null;
+    const d = await r.json();
+    const map = {};
+    for (const it of d.totalInfos || []) map[it.code] = it.value;
+    return {
+      marketCap: map.marketValue,
+      per: map.per,
+      pbr: map.pbr,
+      cnsPer: map.cnsPer,
+      divYield: map.dividendYieldRatio,
+      foreignRatio: map.foreignRate,
+      high52w: map.highPriceOf52Weeks,
+      low52w: map.lowPriceOf52Weeks,
+    };
+  } catch { return null; }
+}
+
+function valuationFromMeta(meta) {
+  if (!meta) return null;
+  return {
+    high52w: meta.fiftyTwoWeekHigh,
+    low52w: meta.fiftyTwoWeekLow,
+    volume: meta.regularMarketVolume,
+  };
+}
+
+// ── 벤치마크 (KOSPI / S&P500) 30일 종가 ───────────────────
+export async function fetchBenchmarks() {
+  const fetchOne = async (sym) => {
+    try {
+      const p = await fetchYahoo(sym);
+      return p?.closes || [];
+    } catch { return []; }
+  };
+  const [kospi, sp500] = await Promise.all([fetchOne('^KS11'), fetchOne('^GSPC')]);
+  return { kospi, sp500 };
+}
+
+// ── 테마 지수 (등가중 누적 변화율, %) ─────────────────────
+function computeThemeIndex(stockData) {
+  const series = Object.values(stockData).map(s => s.prices).filter(p => p && p.length >= 2);
+  if (!series.length) return [];
+  const len = Math.min(...series.map(s => s.length));
+  const out = [];
+  for (let i = 0; i < len; i++) {
+    let sum = 0;
+    for (const s of series) sum += (s[i] - s[0]) / s[0];
+    out.push(+(sum / series.length * 100).toFixed(2));
+  }
+  return out;
+}
+
+// 벤치마크를 테마와 같은 길이로 정규화(시작=0%, 일별 누적변화율)
+function normalize(closes, len) {
+  if (!closes?.length) return [];
+  const slice = closes.slice(-len);
+  const base = slice[0];
+  if (!base) return [];
+  return slice.map(c => +((c - base) / base * 100).toFixed(2));
+}
+
 async function fetchStockPrices(tickers) {
   const nameMap = loadTickerNames();
   const results = {};
@@ -163,10 +231,11 @@ async function fetchStockPrices(tickers) {
       if (meta?.regularMarketPrice) {
         const fallbackName = (meta.shortName && !/^\d/.test(meta.shortName)) ? meta.shortName : ticker;
         const closes = (payload.closes || []).map(v => +v.toFixed(2));
-        // 30일 누적 변화율 (sparkline 시작값 대비)
         const periodChange = closes.length >= 2
           ? +(((closes[closes.length - 1] - closes[0]) / closes[0]) * 100).toFixed(2)
           : 0;
+        // 펀더멘털: 한국은 네이버, 미국은 chart meta에서 추출 가능한 항목만
+        const fundamentals = isKR ? await fetchValuationKR(ticker) : valuationFromMeta(meta);
         results[ticker] = {
           name: nameMap[ticker] || fallbackName,
           px: meta.regularMarketPrice,
@@ -176,6 +245,7 @@ async function fetchStockPrices(tickers) {
           currency: meta.currency || 'USD',
           state: meta.marketState || 'CLOSED',
           market: isKR ? 'KR' : 'US',
+          fundamentals,
         };
       }
     } catch {}
@@ -201,26 +271,42 @@ JSON 스키마:
 {
   "summary": "핵심 동향 2~3문장",
   "sentiment": "bullish|bearish|neutral",
-  "key_drivers": ["주요 동력 2~4개. 무엇이 테마를 움직이는지"],
-  "watch_points": ["관전 포인트 2~4개. 무엇을 지켜봐야 하는지"],
+  "key_drivers": ["주요 동력 2~4개"],
+  "watch_points": ["관전 포인트 2~4개"],
   "risks": ["주요 리스크 1~3개. 하방 요인"],
   "events": [
-    { "date": "YYYY-MM-DD 또는 YYYY-Qn 또는 'TBD'", "title": "예정 이벤트(실적 발표/제품 출시/상장/규제 등)", "impact": "positive|negative|neutral" }
+    { "date": "YYYY-MM-DD 또는 YYYY-Qn 또는 'TBD'", "title": "예정 이벤트(실적/제품/상장/규제 등)", "impact": "positive|negative|neutral" }
   ],
   "key_players": ["테마를 주도하는 기업·인물 2~5개. 한글 표기 우선"],
   "outlook": {
-    "short_term": "단기(1~2주) 전망 2~3문장. 다음 캐털리스트, 즉시 주목할 변수.",
-    "mid_term":   "중기(1~3개월) 전망 2~3문장. 분기 실적·정책·경쟁구도 변화.",
-    "long_term":  "장기(6~12개월) 전망 2~3문장. 산업 구조적 트렌드, 주도권."
+    "short_term": {
+      "thesis":   "단기(1~2주) 본격 분석 4~6문장. 다음 캐털리스트, 임박 변수, 정량 근거 1개 이상(매출/투자/점유율/거래량 등 숫자) 포함.",
+      "upside":   "상방 시나리오 1~2문장. 어떤 조건이면 강해지는가.",
+      "downside": "하방 시나리오 1~2문장. 어떤 조건이면 약해지는가."
+    },
+    "mid_term": {
+      "thesis":   "중기(1~3개월) 본격 분석 4~6문장. 분기 실적·정책·경쟁구도. 정량 근거 포함.",
+      "upside":   "상방 시나리오 1~2문장.",
+      "downside": "하방 시나리오 1~2문장."
+    },
+    "long_term": {
+      "thesis":   "장기(6~12개월) 본격 분석 4~6문장. 산업 구조적 트렌드, 주도권, 진입장벽. 정량 근거 포함.",
+      "upside":   "상방 시나리오 1~2문장.",
+      "downside": "하방 시나리오 1~2문장."
+    }
+  },
+  "capital_flow": {
+    "summary": "자금 흐름 1~2문장 요약(외국인·기관 순매수, ETF 자금 유입, IPO 청약, 펀드 자금 등)",
+    "signals": ["뉴스에서 추출된 구체 시그널 2~4개. 예: '미래에셋 스페이스X 2차 청약 완판', '한투운용 우주테크 ETF 600억 순매수'"]
   },
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다."
 }
 
 규칙:
-- 모든 텍스트는 순 한국어로 작성. 한자(延期 등) 금지. 불가피하면 괄호 병기.
-- events는 뉴스에서 명시적으로 언급된 예정 이벤트만 포함. 없으면 빈 배열.
-- key_players는 뉴스에 실제 등장한 기업·인물만. 추측 금지.
-- outlook은 각 시간 축마다 구체적 근거 1~2개와 함께 작성. 비어 있으면 안 됨.`;
+- 모든 텍스트는 순 한국어. 한자(延期 등) 금지. 불가피하면 괄호 병기.
+- events·capital_flow.signals는 뉴스에 실제 언급된 것만. 추측 금지. 없으면 빈 배열.
+- outlook의 thesis는 4문장 미만이면 안 됨. 정량 데이터(숫자) 1개 이상 명시 강제.
+- key_players는 뉴스에 실제 등장한 기업·인물만.`;
 
   // 70B → 429면 8B로 폴백. 429 외 오류는 즉시 중단.
   const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
@@ -254,7 +340,7 @@ function findRelatedKeywords(currentSlug, currentTickers, allKeywords, topN = 4)
 }
 
 // ── 메인: 단일 키워드 처리 ───────────────────────────────
-export async function runKeywordAgent(keywordConfig, allKeywords = []) {
+export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmarks = null) {
   const { slug, name, tickers = [] } = keywordConfig;
   const nameKo = name?.ko || slug;
   const keywords = buildKeywordAliases(keywordConfig);
@@ -323,10 +409,20 @@ export async function runKeywordAgent(keywordConfig, allKeywords = []) {
     JSON.stringify({ updatedAt: new Date().toISOString(), count: enriched.length, stats, items: enriched }, null, 2)
   );
 
+  // 테마 지수 + 벤치마크 비교 (시장 대비 위치 차트용)
+  const themeIndex = computeThemeIndex(stockData);
+  const benchData = benchmarks && themeIndex.length
+    ? {
+        theme: themeIndex,
+        kospi: normalize(benchmarks.kospi, themeIndex.length),
+        sp500: normalize(benchmarks.sp500, themeIndex.length),
+      }
+    : null;
+
   // stock.json 저장
   fs.writeFileSync(
     path.join(dataDir, 'stock.json'),
-    JSON.stringify({ updatedAt: new Date().toISOString(), data: stockData }, null, 2)
+    JSON.stringify({ updatedAt: new Date().toISOString(), data: stockData, benchmark: benchData }, null, 2)
   );
 
   // 관련 테마 (ticker 겹침 기반)
@@ -339,8 +435,15 @@ export async function runKeywordAgent(keywordConfig, allKeywords = []) {
   if (!insight && fs.existsSync(insightPath)) {
     try { previous = JSON.parse(fs.readFileSync(insightPath, 'utf8')); } catch {}
   }
+  const emptyOutlook = { thesis: '', upside: '', downside: '' };
+  const emptyShape = {
+    summary: '', sentiment: 'neutral', key_drivers: [], watch_points: [], risks: [],
+    events: [], key_players: [],
+    outlook: { short_term: emptyOutlook, mid_term: emptyOutlook, long_term: emptyOutlook },
+    capital_flow: { summary: '', signals: [] },
+  };
   const insightBody = insight
-    || (previous && previous.summary ? { ...previous, _stale: true } : { summary: '', sentiment: 'neutral', key_drivers: [], watch_points: [], risks: [], events: [], key_players: [], outlook: { short_term: '', mid_term: '', long_term: '' } });
+    || (previous && previous.summary ? { ...previous, _stale: true } : emptyShape);
   fs.writeFileSync(
     insightPath,
     JSON.stringify({ updatedAt: new Date().toISOString(), related, ...insightBody }, null, 2)

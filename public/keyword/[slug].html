@@ -102,6 +102,42 @@ section{padding:28px 0;border-top:1px solid var(--line)}
 .sparkline{width:100%;height:30px;display:block}
 .spark-period{font:600 11px var(--mono);white-space:nowrap}
 
+/* 펀더멘털 메트릭 (종목 카드) */
+.fundamentals{display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line2)}
+.fund-cell{display:flex;justify-content:space-between;gap:6px;font:500 11px var(--mono)}
+.fund-cell .k{color:var(--dim)}
+.fund-cell .v{color:var(--txt);font-weight:600}
+.fund-cell .v.hi{color:var(--accent)}
+
+/* 벤치마크 비교 차트 */
+.bench-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+.bench-legend{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:14px}
+.bench-legend .item{display:flex;align-items:center;gap:6px;font:600 12px var(--mono)}
+.bench-legend .item .swatch{width:12px;height:3px;border-radius:2px}
+.bench-chart{width:100%;height:260px;display:block}
+.bench-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.bench-stat{display:flex;flex-direction:column;gap:3px}
+.bench-stat .label{font:600 10px var(--mono);color:var(--dim);letter-spacing:.08em}
+.bench-stat .value{font:700 18px var(--mono);letter-spacing:-.01em}
+.bench-stat .delta{font:600 10px var(--mono)}
+
+/* outlook thesis 강화 */
+.outlook-body p{margin-bottom:8px;font-size:13.5px}
+.outlook-branches{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line2);display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.branch{display:flex;flex-direction:column;gap:4px}
+.branch .label{font:700 9px var(--mono);letter-spacing:.1em}
+.branch.up .label{color:var(--accent)}
+.branch.down .label{color:var(--rose)}
+.branch .text{font-size:12.5px;color:var(--muted);line-height:1.6}
+
+/* 자금 흐름 시그널 */
+.cf-card{background:var(--panel);border:1px solid var(--line);border-left:3px solid #38bdf8;border-radius:12px;padding:18px 20px}
+.cf-summary{font-size:14.5px;line-height:1.7;color:var(--txt);margin-bottom:14px}
+.cf-signals{display:flex;flex-direction:column;gap:8px}
+.cf-signal{display:flex;align-items:flex-start;gap:10px;background:var(--panel2);border:1px solid var(--line2);border-radius:8px;padding:10px 14px}
+.cf-signal::before{content:'💰';flex-shrink:0}
+.cf-signal-text{font:500 13px var(--sans);color:var(--txt);line-height:1.55}
+
 /* 주가 그룹 */
 .market-group{margin-bottom:18px}
 .market-group:last-child{margin-bottom:0}
@@ -172,9 +208,21 @@ footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500
   <div id="insightBody"><div class="loading">인사이트 로딩 중...</div></div>
 </div></section>
 
+<section id="sec-bench" style="display:none"><div class="wrap">
+  <div class="shead"><h2><i></i>시장 대비 위치</h2></div>
+  <p class="ssub">30일 누적 수익률 · 테마 vs KOSPI vs S&P500</p>
+  <div class="bench-card" id="benchCard"></div>
+</div></section>
+
+<section id="sec-cf" style="display:none"><div class="wrap">
+  <div class="shead"><h2><i></i>자금 흐름 시그널</h2></div>
+  <p class="ssub">뉴스에서 추출한 외국인·기관·ETF·청약 등 정량 흐름</p>
+  <div id="cfBody"></div>
+</div></section>
+
 <section id="sec-outlook" style="display:none"><div class="wrap">
   <div class="shead"><h2><i></i>시간 축 전망</h2></div>
-  <p class="ssub">AI가 단기 · 중기 · 장기로 분리해서 본 테마 시나리오</p>
+  <p class="ssub">AI가 단기 · 중기 · 장기로 분리한 본격 분석 + 상방/하방 시나리오</p>
   <div class="outlook-grid" id="outlookGrid"></div>
 </div></section>
 
@@ -294,6 +342,7 @@ function renderInsight(d){
   if(d.updatedAt) document.getElementById('updatedAt').textContent = '업데이트 '+new Date(d.updatedAt).toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
 
   renderOutlook(d.outlook||{});
+  renderCapitalFlow(d.capital_flow||{});
   renderEvents(d.events||[]);
   renderPlayers(d.key_players||[]);
   renderRelated(d.related||[]);
@@ -305,17 +354,48 @@ function renderOutlook(o){
     {k:'mid_term',   cls:'mid',   label:'MID-TERM',   horizon:'1~3개월', title:'중기 시나리오'},
     {k:'long_term',  cls:'long',  label:'LONG-TERM',  horizon:'6~12개월', title:'장기 시나리오'},
   ];
-  var any = horizons.some(h => (o[h.k]||'').trim());
+  // 신스키마: {thesis, upside, downside} 객체. 옛스키마는 단순 문자열.
+  var any = horizons.some(function(h){
+    var v = o[h.k];
+    if(typeof v === 'string') return v.trim().length;
+    return v && (v.thesis||'').trim().length;
+  });
   if(!any) return;
   document.getElementById('sec-outlook').style.display='';
   document.getElementById('outlookGrid').innerHTML = horizons.map(function(h){
-    var body = o[h.k] || '데이터 부족';
+    var v = o[h.k];
+    var thesis = '', up = '', down = '';
+    if(typeof v === 'string'){ thesis = v; }
+    else if(v){ thesis = v.thesis||''; up = v.upside||''; down = v.downside||''; }
+    var branches = (up||down)
+      ? '<div class="outlook-branches">'
+        +(up?'<div class="branch up"><span class="label">▲ 상방</span><span class="text">'+esc(up)+'</span></div>':'')
+        +(down?'<div class="branch down"><span class="label">▼ 하방</span><span class="text">'+esc(down)+'</span></div>':'')
+        +'</div>'
+      : '';
     return '<div class="outlook-card '+h.cls+'">'
       +'<div class="outlook-head"><span>'+h.label+'</span><span class="horizon">'+h.horizon+'</span></div>'
       +'<div class="outlook-title">'+h.title+'</div>'
-      +'<div class="outlook-body">'+esc(body)+'</div>'
+      +'<div class="outlook-body">'+esc(thesis||'데이터 부족')+'</div>'
+      +branches
       +'</div>';
   }).join('');
+}
+
+function renderCapitalFlow(cf){
+  var hasSum = (cf.summary||'').trim().length;
+  var sigs = cf.signals||[];
+  if(!hasSum && !sigs.length) return;
+  document.getElementById('sec-cf').style.display='';
+  var html = '<div class="cf-card">';
+  if(hasSum) html += '<div class="cf-summary">'+esc(cf.summary)+'</div>';
+  if(sigs.length){
+    html += '<div class="cf-signals">';
+    html += sigs.map(s=>'<div class="cf-signal"><span class="cf-signal-text">'+esc(s)+'</span></div>').join('');
+    html += '</div>';
+  }
+  html += '</div>';
+  document.getElementById('cfBody').innerHTML = html;
 }
 
 function renderEvents(events){
@@ -377,6 +457,7 @@ function renderStocks(d){
     var nm = s.name || tickerName(code);
     var pCls = cls(s.periodChange);
     var spark = sparkline(s.prices||[], s.periodChange>=0);
+    var fund = renderFundamentals(s);
     return '<div class="scard">'
       +'<div class="sh"><span class="nm">'+esc(nm)+'</span>'
       +'<span class="exbadge ex-'+ex+'">'+ex+'</span></div>'
@@ -387,7 +468,31 @@ function renderStocks(d){
       +'<span class="market-state">'+(s.state==='REGULAR'?'🟢 장중':'🔴 장외')+'</span>'
       +'</div>'
       +(spark?'<div class="spark-wrap">'+spark+'<span class="spark-period '+pCls+'">30D '+(s.periodChange>=0?'+':'')+(s.periodChange||0)+'%</span></div>':'')
+      +fund
       +'</div>';
+  }
+  function renderFundamentals(s){
+    var f = s.fundamentals;
+    if(!f) return '';
+    var isKR = s.market==='KR' || s.currency==='KRW';
+    var rows = [];
+    if(isKR){
+      if(f.marketCap) rows.push(['시총', esc(f.marketCap)]);
+      if(f.per) rows.push(['PER', esc(f.per)]);
+      if(f.pbr) rows.push(['PBR', esc(f.pbr)]);
+      if(f.foreignRatio) rows.push(['외국인', '<span class="hi">'+esc(f.foreignRatio)+'</span>']);
+      if(f.divYield) rows.push(['배당', esc(f.divYield)]);
+      if(f.cnsPer) rows.push(['컨센PER', esc(f.cnsPer)]);
+    } else {
+      // 미국은 chart meta의 52주 고저·거래량만
+      if(f.high52w!=null) rows.push(['52주 고', '$'+(+f.high52w).toFixed(2)]);
+      if(f.low52w!=null) rows.push(['52주 저', '$'+(+f.low52w).toFixed(2)]);
+      if(f.volume!=null) rows.push(['거래량', (+f.volume).toLocaleString('en-US')]);
+    }
+    if(!rows.length) return '';
+    return '<div class="fundamentals">'
+      + rows.map(r=>'<div class="fund-cell"><span class="k">'+r[0]+'</span><span class="v">'+r[1]+'</span></div>').join('')
+      + '</div>';
   }
   function sparkline(prices, isUp){
     if(!prices || prices.length<2) return '';
@@ -412,6 +517,68 @@ function renderStocks(d){
       +'</div>';
   }
   grid.innerHTML = group('한국 종목','🇰🇷',kr) + group('미국 종목','🇺🇸',us);
+
+  if(d.benchmark) renderBenchmark(d.benchmark);
+}
+
+function renderBenchmark(b){
+  var theme = b.theme||[], kospi = b.kospi||[], sp = b.sp500||[];
+  if(theme.length<2) return;
+  document.getElementById('sec-bench').style.display='';
+
+  // 모든 시리즈를 같은 길이로 트림
+  var len = Math.min(theme.length, kospi.length||theme.length, sp.length||theme.length);
+  theme = theme.slice(-len); kospi = kospi.slice(-len); sp = sp.slice(-len);
+
+  var w=860, h=240, padL=46, padR=18, padT=20, padB=28;
+  var all = theme.concat(kospi.length?kospi:[]).concat(sp.length?sp:[]);
+  var min=Math.min.apply(null,all), max=Math.max.apply(null,all);
+  if(min===max){ min-=1; max+=1; }
+  var range = max-min;
+  function px(i){ return padL + (i/(len-1)) * (w - padL - padR); }
+  function py(v){ return padT + (1 - (v-min)/range) * (h - padT - padB); }
+  function poly(series, color, name){
+    if(!series.length) return '';
+    var pts = series.map((v,i)=> px(i).toFixed(1)+','+py(v).toFixed(1)).join(' ');
+    return '<polyline fill="none" stroke="'+color+'" stroke-width="2" points="'+pts+'" data-name="'+name+'"/>';
+  }
+  // 가로 기준선 (0%)
+  var zeroY = py(0);
+  var gridY = '<line x1="'+padL+'" y1="'+zeroY+'" x2="'+(w-padR)+'" y2="'+zeroY+'" stroke="rgba(138,155,176,.25)" stroke-dasharray="3,3"/>';
+
+  // Y축 라벨 (min/0/max)
+  function yLab(v, color){
+    return '<text x="'+(padL-6)+'" y="'+py(v).toFixed(0)+'" fill="'+(color||'var(--dim)')+'" font-size="10" font-family="ui-monospace" text-anchor="end" dominant-baseline="middle">'+(v>0?'+':'')+v.toFixed(1)+'%</text>';
+  }
+  var yLabels = yLab(max,'var(--muted)') + yLab(0,'var(--dim)') + yLab(min,'var(--muted)');
+
+  var svg = '<svg viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none" class="bench-chart">'
+    + gridY + yLabels
+    + (kospi.length ? poly(kospi, '#8a9bb0', 'KOSPI') : '')
+    + (sp.length ? poly(sp, '#a78bfa', 'S&P500') : '')
+    + poly(theme, 'var(--accent)', 'Theme')
+    + '</svg>';
+
+  var legend = '<div class="bench-legend">'
+    + '<div class="item"><span class="swatch" style="background:var(--accent)"></span>이 테마</div>'
+    + (kospi.length?'<div class="item"><span class="swatch" style="background:#8a9bb0"></span>KOSPI</div>':'')
+    + (sp.length?'<div class="item"><span class="swatch" style="background:#a78bfa"></span>S&P500</div>':'')
+    + '</div>';
+
+  // 30일 누적 수익률 통계
+  function last(a){ return a.length ? a[a.length-1] : null; }
+  function stat(lbl, v){
+    if(v==null) return '';
+    var c = v>0?'up':v<0?'down':'flat';
+    return '<div class="bench-stat"><span class="label">'+lbl+' 30D</span><span class="value '+c+'">'+(v>0?'+':'')+v.toFixed(2)+'%</span></div>';
+  }
+  var stats = '<div class="bench-stats">'
+    + stat('이 테마', last(theme))
+    + stat('KOSPI', last(kospi))
+    + stat('S&P500', last(sp))
+    + '</div>';
+
+  document.getElementById('benchCard').innerHTML = legend + svg + stats;
 }
 
 function renderNews(d){

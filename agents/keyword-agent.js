@@ -190,10 +190,7 @@ async function generateInsight(slug, nameKo, articles, stockData) {
   const stockSummary = Object.entries(stockData).slice(0, 6)
     .map(([code, s]) => `${s.name || code}(${code}): ${s.currency === 'KRW' ? '₩' : '$'}${s.px}`).join(', ');
   const today = new Date().toISOString().slice(0, 10);
-  try {
-    const text = await callGroq('llama-3.3-70b-versatile', [{
-      role: 'user',
-      content: `투자 테마 "${nameKo}" 관련 뉴스·주가를 분석해 한국어 JSON으로 반환해줘. 오늘은 ${today}.
+  const prompt = `투자 테마 "${nameKo}" 관련 뉴스·주가를 분석해 한국어 JSON으로 반환해줘. 오늘은 ${today}.
 
 뉴스:
 ${top5}
@@ -223,13 +220,22 @@ JSON 스키마:
 - 모든 텍스트는 순 한국어로 작성. 한자(延期 등) 금지. 불가피하면 괄호 병기.
 - events는 뉴스에서 명시적으로 언급된 예정 이벤트만 포함. 없으면 빈 배열.
 - key_players는 뉴스에 실제 등장한 기업·인물만. 추측 금지.
-- outlook은 각 시간 축마다 구체적 근거 1~2개와 함께 작성. 비어 있으면 안 됨.`
-    }], 2000);
-    return { ...JSON.parse(text), generatedAt: new Date().toISOString(), _model: 'llama-3.3-70b' };
-  } catch (e) {
-    console.warn(`[keyword-agent] LLM 인사이트 실패 (${slug}):`, e.message?.slice(0, 120));
-    return null;
+- outlook은 각 시간 축마다 구체적 근거 1~2개와 함께 작성. 비어 있으면 안 됨.`;
+
+  // 70B → 429면 8B로 폴백. 429 외 오류는 즉시 중단.
+  const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
+  for (const model of models) {
+    try {
+      const text = await callGroq(model, [{ role: 'user', content: prompt }], 2000);
+      return { ...JSON.parse(text), generatedAt: new Date().toISOString(), _model: model };
+    } catch (e) {
+      const msg = e.message || '';
+      console.warn(`[keyword-agent] LLM ${model} 실패 (${slug}):`, msg.slice(0, 120));
+      if (!msg.includes('429')) break;
+      await new Promise(r => setTimeout(r, 1500));
+    }
   }
+  return null;
 }
 
 // ── 관련 테마 계산 ────────────────────────────────────────
@@ -291,8 +297,8 @@ export async function runKeywordAgent(keywordConfig, allKeywords = []) {
   // 주가 조회
   const stockData = await fetchStockPrices(tickers);
 
-  // LLM 인사이트
-  await new Promise(r => setTimeout(r, 1200)); // Rate limit 방어
+  // LLM 인사이트 (Groq TPM 한도 방어: 호출 간 2.5초 + 모델 폴백)
+  await new Promise(r => setTimeout(r, 2500));
   const insight = await generateInsight(slug, nameKo, enriched, stockData);
 
   // 뉴스 활동도 집계 (오늘 / 어제 / 7일 평균 / 매체 다양성)

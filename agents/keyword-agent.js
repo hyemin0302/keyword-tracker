@@ -523,13 +523,30 @@ async function expandAliases(query) {
     const text = await callGroq('llama-3.1-8b-instant', [{
       role: 'user',
       content: `투자 키워드 "${query}"의 뉴스 검색용 별칭을 JSON으로 반환해줘.
-포함할 것: 한국어/영어 표기, 약어, 관련 핵심 기업명·제품명·인물명·티커.
-{"aliases": ["별칭1", "별칭2", ...]}
-최대 10개. 일반적이고 자주 등장하는 표현 위주. 입력 키워드 자체는 제외.`
-    }], 300);
+
+규칙:
+- 구별력 있는 *고유 명사* 위주: 영문 정식명, 약어/티커, 핵심 기업명, 핵심 인물명, 핵심 제품명
+- 일반 명사 절대 금지: "코인", "EV", "배터리", "에너지", "모빌리티", "투자", "시장", "가격", "거래소", "뉴스" 같은 광범위한 단어 제외
+- "코인" 단독 X. "비트코인", "Bitcoin", "BTC", "이더리움" 같은 *구체적 이름*만
+- 입력 키워드 자체는 제외 (자동 포함됨)
+- 3글자 미만 알파벳/한글 제외 (티커는 예외 허용)
+
+예시:
+"테슬라" → ["Tesla", "TSLA", "일론 머스크", "Elon Musk", "사이버트럭", "모델Y", "FSD"]
+"비트코인" → ["Bitcoin", "BTC", "비트코인 ETF", "마이크로스트래티지", "Coinbase", "업비트"]
+"엔비디아" → ["NVIDIA", "NVDA", "젠슨 황", "Jensen Huang", "Blackwell", "GTC", "쿠다"]
+
+JSON: {"aliases": ["..."]}
+최대 8개.`
+    }], 400);
     const parsed = JSON.parse(text);
-    const arr = Array.isArray(parsed.aliases) ? parsed.aliases.filter(s => typeof s === 'string' && s.trim()) : [];
-    return [query, ...arr].slice(0, 12);
+    let arr = Array.isArray(parsed.aliases) ? parsed.aliases.filter(s => typeof s === 'string') : [];
+    // 후처리: 너무 짧거나 광범위 단어 차단
+    const blocked = new Set(['코인','EV','배터리','에너지','모빌리티','투자','시장','가격','거래소','뉴스','반도체','자동차','기업','산업']);
+    arr = arr
+      .map(s => s.trim())
+      .filter(s => s.length >= 2 && !blocked.has(s));
+    return [query, ...arr].slice(0, 10);
   } catch { return [query]; }
 }
 

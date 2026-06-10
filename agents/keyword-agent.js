@@ -720,7 +720,13 @@ export async function researchKeywordOnDemand(query) {
 
   // 3. LLM 인사이트 (이제 stockData 활용 가능)
   let insight = await generateInsight(q, q, unique, stockData);
+  const _diag = {
+    hasGroqKey: !!process.env.GROQ_API_KEY,
+    groqKeyLen: (process.env.GROQ_API_KEY || '').length,
+    insightBeforeSanitize: insight ? { model: insight._model, summaryLen: (insight.summary||'').length } : null,
+  };
   insight = sanitizeInsight(insight, unique);
+  _diag.insightAfterSanitize = insight ? { summaryLen: (insight.summary||'').length } : null;
 
   // 4. 테마 지수 + 벤치마크
   const themeIndex = computeThemeIndex(stockData);
@@ -742,5 +748,6 @@ export async function researchKeywordOnDemand(query) {
     news: unique,
     insight,
     stock: hasTickers ? { data: stockData, benchmark: benchData } : null,
+    _diag,
   };
 }

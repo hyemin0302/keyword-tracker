@@ -224,9 +224,12 @@ JSON 스키마:
 - events는 뉴스에서 명시적으로 언급된 예정 이벤트만 포함. 없으면 빈 배열.
 - key_players는 뉴스에 실제 등장한 기업·인물만. 추측 금지.
 - outlook은 각 시간 축마다 구체적 근거 1~2개와 함께 작성. 비어 있으면 안 됨.`
-    }], 900);
+    }], 2000);
     return { ...JSON.parse(text), generatedAt: new Date().toISOString(), _model: 'llama-3.3-70b' };
-  } catch { return null; }
+  } catch (e) {
+    console.warn(`[keyword-agent] LLM 인사이트 실패 (${slug}):`, e.message?.slice(0, 120));
+    return null;
+  }
 }
 
 // ── 관련 테마 계산 ────────────────────────────────────────
@@ -324,13 +327,17 @@ export async function runKeywordAgent(keywordConfig, allKeywords = []) {
   const related = allKeywords.length ? findRelatedKeywords(slug, tickers, allKeywords) : [];
 
   // insight.json 저장
+  // LLM 실패 시 기존 인사이트 유지(빈 화면 방지). related만 갱신.
+  const insightPath = path.join(dataDir, 'insight.json');
+  let previous = null;
+  if (!insight && fs.existsSync(insightPath)) {
+    try { previous = JSON.parse(fs.readFileSync(insightPath, 'utf8')); } catch {}
+  }
+  const insightBody = insight
+    || (previous && previous.summary ? { ...previous, _stale: true } : { summary: '', sentiment: 'neutral', key_drivers: [], watch_points: [], risks: [], events: [], key_players: [], outlook: { short_term: '', mid_term: '', long_term: '' } });
   fs.writeFileSync(
-    path.join(dataDir, 'insight.json'),
-    JSON.stringify({
-      updatedAt: new Date().toISOString(),
-      related,
-      ...(insight || { summary: '', sentiment: 'neutral', key_drivers: [], watch_points: [], risks: [], events: [], key_players: [], outlook: { short_term: '', mid_term: '', long_term: '' } }),
-    }, null, 2)
+    insightPath,
+    JSON.stringify({ updatedAt: new Date().toISOString(), related, ...insightBody }, null, 2)
   );
 
   console.log(`[keyword-agent] "${nameKo}" 완료: 뉴스 ${enriched.length}건, 주가 ${Object.keys(stockData).length}개, 인사이트 ${insight ? '✓' : '✗'}, 관련테마 ${related.length}개`);

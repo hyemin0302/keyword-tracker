@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-11T08:52:27.873Z",
+  "updatedAt": "2026-06-11T12:52:26.511Z",
   "data": {
     "TSM": {
       "name": "TSMC",
       "px": 408.75,
-      "dayChange": -4.23,
-      "periodChange": 5.78,
+      "dayChange": -4.48,
+      "periodChange": 1.04,
       "prices": [
         404.54,
         397.28,
@@ -27,7 +27,8 @@
         444.92,
         415.17,
         426.8,
-        427.92
+        427.92,
+        408.75
       ],
       "dates": [
         "2026-05-11",
@@ -50,7 +51,8 @@
         "2026-06-04",
         "2026-06-05",
         "2026-06-08",
-        "2026-06-09"
+        "2026-06-09",
+        "2026-06-10"
       ],
       "volume": 12030856,
       "currency": "USD",
@@ -67,8 +69,8 @@
     "INTC": {
       "name": "인텔",
       "px": 107.04,
-      "dayChange": -2.93,
-      "periodChange": -16.63,
+      "dayChange": -0.82,
+      "periodChange": -17.31,
       "prices": [
         129.44,
         120.61,
@@ -90,7 +92,8 @@
         111.78,
         99.17,
         110.27,
-        107.92
+        107.92,
+        107.04
       ],
       "dates": [
         "2026-05-11",
@@ -113,7 +116,8 @@
         "2026-06-04",
         "2026-06-05",
         "2026-06-08",
-        "2026-06-09"
+        "2026-06-09",
+        "2026-06-10"
       ],
       "volume": 121541237,
       "currency": "USD",
@@ -180,7 +184,7 @@
         "2026-06-10",
         "2026-06-11"
       ],
-      "volume": 30074908,
+      "volume": 38735492,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -205,6 +209,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260611",
+            "foreigner": 549645,
+            "institution": -5437840,
+            "individual": 4721925,
+            "foreignRatio": "47.62%"
+          },
           {
             "date": "20260610",
             "foreigner": -3840270,
@@ -267,22 +278,15 @@
             "institution": -1613562,
             "individual": 6500347,
             "foreignRatio": "48.29%"
-          },
-          {
-            "date": "20260527",
-            "foreigner": -274173,
-            "institution": 1550904,
-            "individual": -1105685,
-            "foreignRatio": "48.39%"
           }
         ],
         "sum5d": {
-          "foreigner": -23266337,
-          "institution": -3214699
+          "foreigner": -10301948,
+          "institution": -11906351
         },
         "sum10d": {
-          "foreigner": -40973153,
-          "institution": 8957845
+          "foreigner": -40149335,
+          "institution": 1969101
         }
       },
       "consensus": null
@@ -340,7 +344,7 @@
         "2026-06-10",
         "2026-06-11"
       ],
-      "volume": 6363611,
+      "volume": 7995022,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -365,6 +369,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260611",
+            "foreigner": 260726,
+            "institution": -513455,
+            "individual": 230341,
+            "foreignRatio": "51.09%"
+          },
           {
             "date": "20260610",
             "foreigner": -273910,
@@ -427,22 +438,15 @@
             "institution": 22893,
             "individual": 725316,
             "foreignRatio": "51.50%"
-          },
-          {
-            "date": "20260527",
-            "foreigner": -18203,
-            "institution": 529897,
-            "individual": -481602,
-            "foreignRatio": "51.65%"
           }
         ],
         "sum5d": {
-          "foreigner": -1978110,
-          "institution": -231063
+          "foreigner": -1400941,
+          "institution": -858567
         },
         "sum10d": {
-          "foreigner": -4364008,
-          "institution": 1229360
+          "foreigner": -4085079,
+          "institution": 186008
         }
       },
       "consensus": null
@@ -470,7 +474,8 @@
       5.42,
       -3.9,
       5.32,
-      1.01
+      1.01,
+      0.05
     ],
     "kospi": [
       0,
@@ -493,6 +498,7 @@
       4.33,
       -4.32,
       3.51,
+      -1.17,
       -0.75
     ],
     "sp500": [
@@ -516,15 +522,16 @@
       2.31,
       -0.39,
       -0.1,
-      -0.35
+      -0.35,
+      -1.97
     ]
   },
   "etfs": {
     "SOXX": {
       "name": "iShares PHLX SOX Semiconductor ",
       "px": 541.51,
-      "dayChange": -5.24,
-      "periodChange": 5.51,
+      "dayChange": -3.67,
+      "periodChange": 1.64,
       "prices": [
         532.76,
         515.99,
@@ -546,7 +553,8 @@
         602.72,
         539.77,
         571.45,
-        562.14
+        562.14,
+        541.51
       ],
       "dates": [
         "2026-05-11",
@@ -569,7 +577,8 @@
         "2026-06-04",
         "2026-06-05",
         "2026-06-08",
-        "2026-06-09"
+        "2026-06-09",
+        "2026-06-10"
       ],
       "volume": 16494284,
       "currency": "USD",
@@ -586,8 +595,8 @@
     "SMH": {
       "name": "VanEck Semiconductor ETF",
       "px": 570.91,
-      "dayChange": -4.56,
-      "periodChange": 2.55,
+      "dayChange": -3.4,
+      "periodChange": -0.94,
       "prices": [
         576.31,
         561.25,
@@ -609,7 +618,8 @@
         627.53,
         569.69,
         598.16,
-        591.01
+        591.01,
+        570.91
       ],
       "dates": [
         "2026-05-11",
@@ -632,7 +642,8 @@
         "2026-06-04",
         "2026-06-05",
         "2026-06-08",
-        "2026-06-09"
+        "2026-06-09",
+        "2026-06-10"
       ],
       "volume": 12643877,
       "currency": "USD",

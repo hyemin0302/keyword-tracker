@@ -1037,7 +1037,16 @@ async function expandKeywordContext(query) {
   try {
     const text = await callGroq('llama-3.1-8b-instant', [{
       role: 'user',
-      content: `투자 키워드 "${query}"에 대해 뉴스 검색용 별칭과 관련 상장사를 JSON으로 반환해줘.
+      content: `투자 키워드 "${query}"에 대해 키워드 타입, 뉴스 검색용 별칭, 관련 상장사를 JSON으로 반환해줘.
+
+type 규칙 (셋 중 하나만):
+- "person": 사람 이름 (CEO, 정치인, 투자자 등). 예: 일론 머스크, 젠슨 황, 워런 버핏
+- "company": 단일 기업·종목 이름. 예: 테슬라, 삼성전자, 팔란티어
+- "sector": 산업·테마·기술. 예: 양자컴퓨팅, 2차전지, 로보틱스
+- 애매하면 "sector".
+
+person_role (type이 person일 때만, 아니면 빈 문자열):
+- 이 인물의 직책·소속 1문장. 모르면 빈 문자열.
 
 aliases 규칙:
 - 구별력 있는 *고유 명사* 위주: 영문 정식명, 약어, 핵심 기업·인물·제품명
@@ -1065,13 +1074,13 @@ kr_competitors (한국 경쟁사):
 명단: ${JSON.stringify(krCompanyList)}
 
 예시:
-"테슬라"  → {"aliases":["Tesla","TSLA","일론 머스크","사이버트럭"], "us_tickers":["TSLA"], "us_competitors":["F","GM"], "kr_companies":[], "kr_competitors":["005380","000270"]}
-"삼성화재" → {"aliases":["Samsung Fire","삼성화재해상보험"], "us_tickers":[], "us_competitors":[], "kr_companies":["삼성화재"], "kr_competitors":["삼성생명"]}
-"카카오뱅크"→ {"aliases":["Kakao Bank"], "us_tickers":[], "us_competitors":[], "kr_companies":["카카오뱅크"], "kr_competitors":["KB금융","신한지주"]}
-"엔비디아" → {"aliases":["NVIDIA","NVDA","Blackwell"], "us_tickers":["NVDA"], "us_competitors":["AMD","AVGO"], "kr_companies":["SK하이닉스"], "kr_competitors":["삼성전자"]}
+"테슬라"  → {"type":"company","person_role":"","aliases":["Tesla","TSLA","일론 머스크","사이버트럭"], "us_tickers":["TSLA"], "us_competitors":["F","GM"], "kr_companies":[], "kr_competitors":["005380","000270"]}
+"일론 머스크" → {"type":"person","person_role":"테슬라·스페이스X CEO","aliases":["Elon Musk","머스크","테슬라 CEO","xAI"], "us_tickers":["TSLA"], "us_competitors":["F","GM"], "kr_companies":[], "kr_competitors":[]}
+"카카오뱅크"→ {"type":"company","person_role":"","aliases":["Kakao Bank"], "us_tickers":[], "us_competitors":[], "kr_companies":["카카오뱅크"], "kr_competitors":["KB금융","신한지주"]}
+"로보틱스" → {"type":"sector","person_role":"","aliases":["robotics","휴머노이드","로봇","Figure","Optimus"], "us_tickers":["NVDA"], "us_competitors":[], "kr_companies":["두산로보틱스"], "kr_competitors":[]}
 
-JSON 스키마: {"aliases":["..."], "us_tickers":["..."], "us_competitors":["..."], "kr_companies":["..."], "kr_competitors":["..."]}`
-    }], 600);
+JSON 스키마: {"type":"person|company|sector", "person_role":"...", "aliases":["..."], "us_tickers":["..."], "us_competitors":["..."], "kr_companies":["..."], "kr_competitors":["..."]}`
+    }], 700);
     const parsed = JSON.parse(text);
     const blocked = new Set([
       // 기존 한글
@@ -1129,13 +1138,24 @@ JSON 스키마: {"aliases":["..."], "us_tickers":["..."], "us_competitors":["...
     const relations = {};
     tickers.forEach(t => { relations[t] = tickerMap.get(t); });
 
+    // 키워드 타입 분류 (검증 실패 시 sector로 강등)
+    const type = ['person', 'company', 'sector'].includes(parsed.type) ? parsed.type : 'sector';
+    const personRole = (type === 'person' && typeof parsed.person_role === 'string')
+      ? parsed.person_role.slice(0, 80) : '';
+    // 기업/인물의 기준 종목 = 첫 번째 직접 관련 ticker
+    const directTickers = tickers.filter(t => relations[t] === 'direct');
+    const primaryTicker = directTickers[0] || null;
+
     return {
       aliases: [query, ...aliases].slice(0, 10),
       tickers,
       relations,
+      type,
+      personRole,
+      primaryTicker,
     };
   } catch {
-    return { aliases: [query], tickers: [], relations: {} };
+    return { aliases: [query], tickers: [], relations: {}, type: 'sector', personRole: '', primaryTicker: null };
   }
 }
 
@@ -1146,8 +1166,21 @@ export async function researchKeywordOnDemand(query) {
   const q = (query || '').trim();
   if (!q) throw new Error('query empty');
 
-  // 1단계: LLM이 별칭 + 직접 관련 ticker + 경쟁사 ticker 동적 추출
-  const { aliases: expandedAliases, tickers: extractedTickers, relations: tickerRelations } = await expandKeywordContext(q);
+  // 1단계: LLM이 키워드 타입 + 별칭 + 직접 관련 ticker + 경쟁사 ticker 동적 추출
+  const {
+    aliases: expandedAliases, tickers: extractedTickers, relations: tickerRelations,
+    type, personRole, primaryTicker,
+  } = await expandKeywordContext(q);
+
+  // 인물: 직접 영향 / 생태계(경쟁·연관) 분리
+  const directTickers = extractedTickers.filter(t => tickerRelations[t] === 'direct');
+  const personInfluence = type === 'person'
+    ? { direct: directTickers, ecosystem: extractedTickers.filter(t => tickerRelations[t] !== 'direct') }
+    : null;
+  // 기업: 경쟁사 목록 (프론트 그룹핑·비교 테이블용)
+  const peers = type === 'company'
+    ? extractedTickers.filter(t => tickerRelations[t] === 'competitor')
+    : [];
 
   const config = {
     slug: q,
@@ -1156,6 +1189,11 @@ export async function researchKeywordOnDemand(query) {
   };
   const keywords = buildKeywordAliases(config);
   const lowerKeywords = keywords.map(k => k.toLowerCase());
+
+  // 기준 종목 컨센서스(목표주가·실적일): 기업=본체+경쟁사, 인물=직접 영향 1순위
+  const consensusFor = type === 'company'
+    ? [primaryTicker, ...peers].filter(Boolean)
+    : (type === 'person' ? directTickers.slice(0, 1) : []);
 
   // 1. 병렬 수집: RSS 16개 + Google News + (ticker 있으면) 주가 + 벤치마크
   const hasTickers = extractedTickers.length > 0;
@@ -1168,7 +1206,7 @@ export async function researchKeywordOnDemand(query) {
       } catch { return []; }
     })),
     fetchGoogleNewsForAliases(expandedAliases),
-    hasTickers ? fetchStockPrices(extractedTickers) : Promise.resolve({}),
+    hasTickers ? fetchStockPrices(extractedTickers, { consensusFor }) : Promise.resolve({}),
     hasTickers ? fetchBenchmarks() : Promise.resolve(null),
   ]);
   const all = feedResults.flatMap(x => x.status === 'fulfilled' ? x.value : []).concat(googleNews);
@@ -1189,6 +1227,7 @@ export async function researchKeywordOnDemand(query) {
       reason: 'no_news',
       message: `"${q}" 관련 뉴스를 찾지 못했습니다.`,
       aliasesUsed: expandedAliases,
+      type,
       news: [],
       insight: null,
     };
@@ -1201,9 +1240,26 @@ export async function researchKeywordOnDemand(query) {
     }
   }
 
-  // 3. LLM 인사이트 (이제 stockData 활용 가능)
-  let insight = await generateInsight(q, q, unique, stockData);
-  insight = sanitizeInsight(insight, unique);
+  // 기업: 본체 종목 변동성 기반 시나리오 가격 밴드
+  const primary = primaryTicker ? stockData[primaryTicker] : null;
+  const projection = (type === 'company' && primary)
+    ? computeProjection(primary.prices, primary.px)
+    : null;
+
+  // 컨센서스 실데이터 화이트리스트 (환각 가드가 잘라내지 않도록)
+  let extraFacts = '';
+  if (primary?.consensus?.targetMean) {
+    extraFacts = `목표주가 ${primary.consensus.targetMean} ${primary.consensus.targetMean.toLocaleString('en-US')} ${primary.consensus.targetMean.toLocaleString('ko-KR')}`;
+  }
+
+  // 3. LLM 인사이트 — 타입별 프롬프트 분기 (이제 stockData 활용 가능)
+  const pseudoConfig = {
+    primaryTicker,
+    peers,
+    person: personInfluence ? { title: personRole, influence: personInfluence } : null,
+  };
+  let insight = await generateInsight(q, q, unique, stockData, type, pseudoConfig);
+  insight = sanitizeInsight(insight, unique, { extraFacts, validTickers: extractedTickers });
 
   // 4. 테마 지수 + 벤치마크
   const themeIndex = computeThemeIndex(stockData);
@@ -1222,8 +1278,12 @@ export async function researchKeywordOnDemand(query) {
     count: unique.length,
     aliasesUsed: expandedAliases,
     tickersUsed: extractedTickers,
+    type,
+    primaryTicker,
+    peers,
+    person: personInfluence ? { title: personRole, influence: personInfluence } : null,
     news: unique,
     insight,
-    stock: hasTickers ? { data: stockData, benchmark: benchData } : null,
+    stock: hasTickers ? { data: stockData, benchmark: benchData, projection } : null,
   };
 }

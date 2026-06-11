@@ -445,34 +445,16 @@ JSON 스키마:
     "signals": ["뉴스에서 추출된 구체 시그널 2~4개. 예: '미래에셋 스페이스X 2차 청약 완판', '한투운용 우주테크 ETF 600억 순매수'"]
   },
   "scenarios": [
-    {
-      "case": "기본(Base)",
-      "probability": 60,
-      "thesis": "가장 가능성 높은 시나리오 2~3문장. 무엇이 그대로 흘러가면 이렇게 될지.",
-      "trigger": "*측정 가능한 정량 임계값*. 예: '외국인 5거래일 누적 +300K주', 'PER 25배 돌파', '다음 분기 영업이익 컨센서스 +10% 상향', '6월 FOMC 25bp 인상'. 모호한 '실적 개선'/'시장 호전' 금지.",
-      "watch_period": "다음 1~2주 / 다음 분기 등 관찰 기간"
-    },
-    {
-      "case": "강세(Bull)",
-      "probability": 20,
-      "thesis": "상방 시나리오 2~3문장",
-      "trigger": "강세 전환 *측정 가능한 트리거* (다른 시나리오와 절대 중복 금지)",
-      "watch_period": "관찰 기간"
-    },
-    {
-      "case": "약세(Bear)",
-      "probability": 20,
-      "thesis": "하방 시나리오 2~3문장",
-      "trigger": "약세 전환 *측정 가능한 트리거* (다른 시나리오와 절대 중복 금지)",
-      "watch_period": "관찰 기간"
-    }
+    {"case":"기본(Base)","probability":60,"thesis":"2~3문장","trigger":"*측정 가능 임계값*. 예: '외인 5일 +300K주', 'PER 25배 돌파', 'FOMC 25bp 인상'. 모호한 표현 금지.","watch_period":"1~2주/분기"},
+    {"case":"강세(Bull)","probability":20,"thesis":"2~3문장","trigger":"강세 트리거 (다른 시나리오와 중복 금지)","watch_period":"기간"},
+    {"case":"약세(Bear)","probability":20,"thesis":"2~3문장","trigger":"약세 트리거 (다른 시나리오와 중복 금지)","watch_period":"기간"}
   ],
   "pb_perspective": {
-    "valuation_assessment": "현재 밸류에이션 평가 2~3문장. PER/PBR 절대값 + 동종업계·과거 평균 대비 비싼지 싼지 판단. 뉴스에 숫자 있으면 인용, 없으면 정성적으로 솔직히 평가.",
-    "momentum_signals": "단기 매매 시그널 2~3문장. 외국인/기관 수급, 거래량, 모멘텀, 신고가/신저가 근접 등. 뉴스에 등장한 수급 정보 우선.",
-    "fundamental_strength": "펀더멘털 평가 2~3문장. 매출 성장성·마진·재무 안정성·경쟁 우위. 뉴스에 등장한 실적 수치 활용.",
-    "key_monitors": ["PB가 매주 모니터할 핵심 지표·일정 3~4개. 예: '다음 분기 영업이익 컨센서스 변화', 'FOMC 6월 결정(6/18)', '주요 경쟁사 신제품 발표 일정'"],
-    "position_sizing_view": "포지션 사이징 관점 1~2문장. 핵심 보유(Core)/위성(Satellite)/단기 트레이딩(Trade) 중 어느 성격에 적합한지 + 근거."
+    "valuation_assessment": "PER/PBR + 동종업계/과거 대비 평가 2~3문장",
+    "momentum_signals": "외인/기관 수급·모멘텀·신고가 근접 2~3문장",
+    "fundamental_strength": "성장·마진·재무 안정성 2~3문장",
+    "key_monitors": ["매주 모니터할 지표·일정 3~4개"],
+    "position_sizing_view": "Core/Satellite/Trade 중 어느 성격 + 근거 1~2문장"
   },
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다."
 }
@@ -495,29 +477,30 @@ JSON 스키마:
 - outlook의 thesis는 4문장 이상. 정량 수치는 뉴스 원문에 등장한 것만.
 - events·capital_flow.signals·key_players는 뉴스 원문에 실제 등장한 것만. 추측·외부 지식 금지. 없으면 빈 배열.`;
 
-  // 70B → 429면 8B로 폴백. 429 외 오류는 즉시 중단.
-  const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
-  const diag = [];
-  for (const model of models) {
+  // 70B → 429면 8B로 폴백. 8B에 413(too large) 나면 max_tokens 줄여 재시도.
+  const tries = [
+    { model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
+    { model: 'llama-3.1-8b-instant',    maxTokens: 3500 },
+    { model: 'llama-3.1-8b-instant',    maxTokens: 2500 }, // 413 대비 축소 재시도
+  ];
+  for (const { model, maxTokens } of tries) {
     try {
-      const text = await callGroq(model, [{ role: 'user', content: prompt }], 5000);
+      const text = await callGroq(model, [{ role: 'user', content: prompt }], maxTokens);
       try {
         const parsed = JSON.parse(text);
         return { ...parsed, generatedAt: new Date().toISOString(), _model: model };
-      } catch (parseErr) {
-        diag.push(`${model}:parse_err(len=${text.length},tail=${text.slice(-80).replace(/\s+/g, ' ')})`);
-        console.warn(`[keyword-agent] LLM ${model} JSON 파싱 실패 (${slug}):`, parseErr.message, '| tail:', text.slice(-100));
+      } catch {
+        console.warn(`[keyword-agent] LLM ${model} JSON 파싱 실패 (${slug}) — 응답 잘림 가능성`);
         continue;
       }
     } catch (e) {
       const msg = e.message || '';
-      diag.push(`${model}:${msg.slice(0, 80)}`);
-      console.warn(`[keyword-agent] LLM ${model} 실패 (${slug}):`, msg.slice(0, 120));
-      if (!msg.includes('429')) break;
+      console.warn(`[keyword-agent] LLM ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 100));
+      if (!msg.includes('429') && !msg.includes('413')) break;
       await new Promise(r => setTimeout(r, 1500));
     }
   }
-  return { _llmDiag: diag };
+  return null;
 }
 
 // ── 환각 후처리 가드레일 ──────────────────────────────────

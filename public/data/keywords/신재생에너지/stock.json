@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T00:00:35.962Z",
+  "updatedAt": "2026-06-11T03:37:32.008Z",
   "data": {
     "ENPH": {
       "name": "엔페이즈에너지",
@@ -30,6 +30,7 @@
         53.51,
         50.57
       ],
+      "volume": 6494122,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
@@ -37,7 +38,8 @@
         "high52w": 73.74,
         "low52w": 25.78,
         "volume": 6494122
-      }
+      },
+      "investorFlow": null
     },
     "FSLR": {
       "name": "퍼스트솔라",
@@ -68,6 +70,7 @@
         262.19,
         249.27
       ],
+      "volume": 2618217,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
@@ -75,7 +78,8 @@
         "high52w": 320.95,
         "low52w": 135.5,
         "volume": 2618217
-      }
+      },
+      "investorFlow": null
     },
     "NEE": {
       "name": "넥스트에라에너지",
@@ -106,6 +110,7 @@
         84.83,
         85.12
       ],
+      "volume": 7713366,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
@@ -113,13 +118,14 @@
         "high52w": 98.75,
         "low52w": 67.2,
         "volume": 7713366
-      }
+      },
+      "investorFlow": null
     },
     "009830": {
       "name": "한화솔루션",
-      "px": 36600,
+      "px": 35450,
       "dayChange": 0,
-      "periodChange": -15.24,
+      "periodChange": -17.91,
       "prices": [
         43182.24,
         40809.59,
@@ -141,20 +147,104 @@
         38400,
         34750,
         35550,
-        36600
+        36600,
+        35450
       ],
+      "volume": 956285,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "6조 2,913억",
+        "marketCap": "6조 1,280억",
         "per": "N/A",
-        "pbr": "0.66배",
-        "cnsPer": "15.59배",
+        "pbr": "0.64배",
+        "cnsPer": "15.19배",
         "divYield": "N/A",
         "foreignRatio": "15.40%",
         "high52w": "59,300",
         "low52w": "25,700"
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260610",
+            "foreigner": -705630,
+            "institution": -226375,
+            "individual": 916524,
+            "foreignRatio": "15.40%"
+          },
+          {
+            "date": "20260609",
+            "foreigner": 107464,
+            "institution": -146440,
+            "individual": 39793,
+            "foreignRatio": "16.20%"
+          },
+          {
+            "date": "20260608",
+            "foreigner": 132117,
+            "institution": -317308,
+            "individual": 181713,
+            "foreignRatio": "16.16%"
+          },
+          {
+            "date": "20260605",
+            "foreigner": -120965,
+            "institution": 137322,
+            "individual": -18516,
+            "foreignRatio": "16.17%"
+          },
+          {
+            "date": "20260604",
+            "foreigner": 90528,
+            "institution": -51823,
+            "individual": -8833,
+            "foreignRatio": "16.24%"
+          },
+          {
+            "date": "20260602",
+            "foreigner": 70011,
+            "institution": 192058,
+            "individual": -274812,
+            "foreignRatio": "16.20%"
+          },
+          {
+            "date": "20260601",
+            "foreigner": 247512,
+            "institution": 51035,
+            "individual": -304100,
+            "foreignRatio": "16.18%"
+          },
+          {
+            "date": "20260529",
+            "foreigner": 359917,
+            "institution": -196180,
+            "individual": -176189,
+            "foreignRatio": "15.97%"
+          },
+          {
+            "date": "20260528",
+            "foreigner": -145465,
+            "institution": -86176,
+            "individual": 230400,
+            "foreignRatio": "15.67%"
+          },
+          {
+            "date": "20260527",
+            "foreigner": 38200,
+            "institution": -30881,
+            "individual": -16307,
+            "foreignRatio": "15.79%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": -496486,
+          "institution": -604624
+        },
+        "sum10d": {
+          "foreigner": 73689,
+          "institution": -674768
+        }
       }
     }
   },
@@ -180,7 +270,8 @@
       23.98,
       9.88,
       10.01,
-      7.18
+      7.18,
+      3.26
     ],
     "kospi": [
       0,
@@ -202,30 +293,32 @@
       10.45,
       4.33,
       -4.32,
-      3.51
+      3.51,
+      -2.66
     ],
     "sp500": [
       0,
-      0.58,
-      1.35,
-      0.1,
-      0.03,
-      -0.64,
-      0.43,
-      0.6,
-      0.98,
-      1.6,
-      1.61,
-      2.2,
-      2.42,
-      2.69,
-      2.82,
-      2.06,
-      2.48,
-      -0.23,
-      0.06,
-      -0.19,
-      -1.81
+      -0.16,
+      0.42,
+      1.19,
+      -0.06,
+      -0.13,
+      -0.8,
+      0.27,
+      0.44,
+      0.82,
+      1.43,
+      1.45,
+      2.03,
+      2.26,
+      2.52,
+      2.66,
+      1.9,
+      2.31,
+      -0.39,
+      -0.1,
+      -0.35,
+      -1.97
     ]
   }
 }

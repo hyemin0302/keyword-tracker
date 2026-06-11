@@ -1,44 +1,6 @@
 {
-  "updatedAt": "2026-06-10T23:58:06.626Z",
+  "updatedAt": "2026-06-11T03:34:42.731Z",
   "data": {
-    "LRCX": {
-      "name": "램리서치",
-      "px": 321.8,
-      "dayChange": 0,
-      "periodChange": 8.7,
-      "prices": [
-        296.05,
-        289.24,
-        295.44,
-        299.15,
-        284.72,
-        277.96,
-        273.38,
-        292.09,
-        302.24,
-        305.35,
-        322.68,
-        318.93,
-        318,
-        318.18,
-        317.12,
-        334.41,
-        343.71,
-        336.41,
-        303.28,
-        324.45,
-        327.16,
-        321.8
-      ],
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 348.161,
-        "low52w": 87.75,
-        "volume": 13392569
-      }
-    },
     "KLAC": {
       "name": "KLA",
       "px": 2135.64,
@@ -68,6 +30,7 @@
         2139.37,
         2135.64
       ],
+      "volume": 1598042,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
@@ -75,7 +38,8 @@
         "high52w": 2304.406,
         "low52w": 832.24,
         "volume": 1598042
-      }
+      },
+      "investorFlow": null
     },
     "AMAT": {
       "name": "어플라이드머티리얼즈",
@@ -106,6 +70,7 @@
         499.21,
         497.01
       ],
+      "volume": 11373115,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
@@ -113,13 +78,54 @@
         "high52w": 534.44,
         "low52w": 154.47,
         "volume": 11373115
-      }
+      },
+      "investorFlow": null
+    },
+    "LRCX": {
+      "name": "램리서치",
+      "px": 321.8,
+      "dayChange": 0,
+      "periodChange": 8.7,
+      "prices": [
+        296.05,
+        289.24,
+        295.44,
+        299.15,
+        284.72,
+        277.96,
+        273.38,
+        292.09,
+        302.24,
+        305.35,
+        322.68,
+        318.93,
+        318,
+        318.18,
+        317.12,
+        334.41,
+        343.71,
+        336.41,
+        303.28,
+        324.45,
+        327.16,
+        321.8
+      ],
+      "volume": 13392569,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 349.09,
+        "low52w": 87.75,
+        "volume": 13392569
+      },
+      "investorFlow": null
     },
     "000660": {
       "name": "SK하이닉스",
-      "px": 2048000,
+      "px": 2049000,
       "dayChange": 0,
-      "periodChange": 8.94,
+      "periodChange": 8.99,
       "prices": [
         1880000,
         1835000,
@@ -141,20 +147,104 @@
         2070000,
         1911000,
         2215000,
-        2048000
+        2048000,
+        2049000
       ],
+      "volume": 3684086,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,459조 6,144억",
-        "per": "19.78배",
-        "pbr": "8.61배",
-        "cnsPer": "6.79배",
-        "divYield": "0.15%",
+        "marketCap": "1,485조 2,717억",
+        "per": "20.13배",
+        "pbr": "8.76배",
+        "cnsPer": "6.91배",
+        "divYield": "0.14%",
         "foreignRatio": "51.05%",
         "high52w": "2,470,000",
         "low52w": "231,000"
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260610",
+            "foreigner": -273910,
+            "institution": -702023,
+            "individual": 947987,
+            "foreignRatio": "51.05%"
+          },
+          {
+            "date": "20260609",
+            "foreigner": -626165,
+            "institution": 854714,
+            "individual": -241245,
+            "foreignRatio": "51.09%"
+          },
+          {
+            "date": "20260608",
+            "foreigner": -154732,
+            "institution": -86029,
+            "individual": 215796,
+            "foreignRatio": "51.15%"
+          },
+          {
+            "date": "20260605",
+            "foreigner": -606860,
+            "institution": -411774,
+            "individual": 963408,
+            "foreignRatio": "51.16%"
+          },
+          {
+            "date": "20260604",
+            "foreigner": -316443,
+            "institution": 114049,
+            "individual": 186685,
+            "foreignRatio": "51.27%"
+          },
+          {
+            "date": "20260602",
+            "foreigner": -416517,
+            "institution": 90158,
+            "individual": 333746,
+            "foreignRatio": "51.30%"
+          },
+          {
+            "date": "20260601",
+            "foreigner": -729059,
+            "institution": 859988,
+            "individual": -125982,
+            "foreignRatio": "51.34%"
+          },
+          {
+            "date": "20260529",
+            "foreigner": -437330,
+            "institution": -42513,
+            "individual": 473879,
+            "foreignRatio": "51.44%"
+          },
+          {
+            "date": "20260528",
+            "foreigner": -784789,
+            "institution": 22893,
+            "individual": 725316,
+            "foreignRatio": "51.50%"
+          },
+          {
+            "date": "20260527",
+            "foreigner": -18203,
+            "institution": 529897,
+            "individual": -481602,
+            "foreignRatio": "51.65%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": -1978110,
+          "institution": -231063
+        },
+        "sum10d": {
+          "foreigner": -4364008,
+          "institution": 1229360
+        }
       }
     }
   },
@@ -180,7 +270,8 @@
       13.08,
       2.69,
       13.15,
-      11.98
+      11.98,
+      11.37
     ],
     "kospi": [
       0,
@@ -202,30 +293,32 @@
       10.45,
       4.33,
       -4.32,
-      3.51
+      3.51,
+      -2.66
     ],
     "sp500": [
       0,
-      0.58,
-      1.35,
-      0.1,
-      0.03,
-      -0.64,
-      0.43,
-      0.6,
-      0.98,
-      1.6,
-      1.61,
-      2.2,
-      2.42,
-      2.69,
-      2.82,
-      2.06,
-      2.48,
-      -0.23,
-      0.06,
-      -0.19,
-      -1.81
+      -0.16,
+      0.42,
+      1.19,
+      -0.06,
+      -0.13,
+      -0.8,
+      0.27,
+      0.44,
+      0.82,
+      1.43,
+      1.45,
+      2.03,
+      2.26,
+      2.52,
+      2.66,
+      1.9,
+      2.31,
+      -0.39,
+      -0.1,
+      -0.35,
+      -1.97
     ]
   }
 }

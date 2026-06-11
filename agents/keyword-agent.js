@@ -497,18 +497,27 @@ JSON 스키마:
 
   // 70B → 429면 8B로 폴백. 429 외 오류는 즉시 중단.
   const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
+  const diag = [];
   for (const model of models) {
     try {
       const text = await callGroq(model, [{ role: 'user', content: prompt }], 5000);
-      return { ...JSON.parse(text), generatedAt: new Date().toISOString(), _model: model };
+      try {
+        const parsed = JSON.parse(text);
+        return { ...parsed, generatedAt: new Date().toISOString(), _model: model };
+      } catch (parseErr) {
+        diag.push(`${model}:parse_err(len=${text.length},tail=${text.slice(-80).replace(/\s+/g, ' ')})`);
+        console.warn(`[keyword-agent] LLM ${model} JSON 파싱 실패 (${slug}):`, parseErr.message, '| tail:', text.slice(-100));
+        continue;
+      }
     } catch (e) {
       const msg = e.message || '';
+      diag.push(`${model}:${msg.slice(0, 80)}`);
       console.warn(`[keyword-agent] LLM ${model} 실패 (${slug}):`, msg.slice(0, 120));
       if (!msg.includes('429')) break;
       await new Promise(r => setTimeout(r, 1500));
     }
   }
-  return null;
+  return { _llmDiag: diag };
 }
 
 // ── 환각 후처리 가드레일 ──────────────────────────────────

@@ -44,7 +44,7 @@ async function callGroq(model, messages, maxTokens = 512, jsonMode = true) {
       ...(jsonMode ? { response_format: { type: 'json_object' } } : {}),
       temperature: 0.1,
     }),
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(35000),
   });
   if (!res.ok) throw new Error(`Groq ${res.status}: ${await res.text()}`);
   return (await res.json()).choices[0].message.content;
@@ -499,7 +499,7 @@ JSON 스키마:
   const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
   for (const model of models) {
     try {
-      const text = await callGroq(model, [{ role: 'user', content: prompt }], 3000);
+      const text = await callGroq(model, [{ role: 'user', content: prompt }], 5000);
       return { ...JSON.parse(text), generatedAt: new Date().toISOString(), _model: model };
     } catch (e) {
       const msg = e.message || '';

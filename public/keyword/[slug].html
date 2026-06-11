@@ -219,6 +219,8 @@ section{padding:28px 0;border-top:1px solid var(--line)}
 .ex-NASDAQ{background:rgba(16,185,129,.15);color:#34d399}
 .ex-NYSE{background:rgba(139,92,246,.15);color:#a78bfa}
 .ex-KRX{background:rgba(59,130,246,.15);color:#60a5fa}
+.rel-badge{font:700 9px var(--mono);padding:2px 5px;border-radius:4px;letter-spacing:.03em;margin-left:4px}
+.rel-competitor{background:rgba(224,179,65,.15);color:var(--gold);border:1px solid rgba(224,179,65,.3)}
 .market-state{font:500 10px var(--mono);color:var(--dim)}
 
 /* 관련 테마 */
@@ -612,9 +614,10 @@ function renderStocks(d){
     var fund = renderFundamentals(s);
     var techBadges = renderTechBadges(s);
     var invFlow = renderInvestorFlow(s);
+    var relBadge = s.relation === 'competitor' ? '<span class="rel-badge rel-competitor">경쟁사</span>' : '';
     return '<div class="scard">'
       +'<div class="sh"><span class="nm">'+esc(nm)+'</span>'
-      +'<span class="exbadge ex-'+ex+'">'+ex+'</span></div>'
+      +'<span class="exbadge ex-'+ex+'">'+ex+'</span>'+relBadge+'</div>'
       +'<div class="cd">'+esc(code)+'</div>'
       +'<div class="px">'+fmtPx(s.px,s.currency)+'</div>'
       +'<div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px">'

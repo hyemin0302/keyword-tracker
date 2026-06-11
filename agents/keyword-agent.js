@@ -763,24 +763,33 @@ aliases 규칙:
 - 일반 명사 절대 금지: "코인", "EV", "배터리", "에너지" 등
 - 입력 키워드 자체 제외. 최대 8개.
 
-us_tickers 규칙 (미국 상장):
-- 알파벳 대문자 ticker만 (TSLA, NVDA, COIN, MSTR 등)
-- 키워드와 *직접 관련된* 미국 상장사만. 추측 절대 금지.
-- 모르면 빈 배열. 최대 3개.
+us_tickers (미국 직접 관련):
+- 알파벳 대문자 ticker만. 키워드와 *직접 관련된* 미국 상장사만.
+- 모르면 빈 배열. 최대 2개.
 
-kr_companies 규칙 (한국 상장):
+us_competitors (미국 경쟁사):
+- 키워드와 *경쟁/비교 가능한* 미국 상장사. PB가 페어 트레이드/비교 분석에 쓸 수 있어야 함.
+- 같은 산업·세그먼트의 직접 경쟁자만. 추측 금지.
+- 모르면 빈 배열. 최대 2개.
+
+kr_companies (한국 직접 관련):
 - 아래 *명단에서 정확한 회사명*만 선택. 명단 외 이름 절대 응답 금지.
-- 명단: ${JSON.stringify(krCompanyList)}
-- 키워드와 *직접 관련된* 회사만. 추측·유추 금지.
-- 명단에 없으면 빈 배열. 최대 3개.
+- 키워드와 *직접 관련된* 회사만. 최대 2개.
+
+kr_competitors (한국 경쟁사):
+- 같은 *명단*에서 *경쟁사*만 선택. 같은 산업·세그먼트.
+- PB가 비교 분석에 쓸 정도로 명확한 동종업계 경쟁자.
+- 모르면 빈 배열. 최대 2개.
+
+명단: ${JSON.stringify(krCompanyList)}
 
 예시:
-"테슬라"  → {"aliases":["Tesla","TSLA","일론 머스크","Elon Musk","사이버트럭"], "us_tickers":["TSLA"], "kr_companies":[]}
-"비트코인" → {"aliases":["Bitcoin","BTC","Coinbase","마이크로스트래티지"], "us_tickers":["COIN","MSTR","MARA"], "kr_companies":[]}
-"삼성SDS" → {"aliases":["삼성에스디에스","Samsung SDS","스마트팩토리","Brity AI"], "us_tickers":[], "kr_companies":["삼성에스디에스"]}
-"엔비디아" → {"aliases":["NVIDIA","NVDA","젠슨 황","Blackwell"], "us_tickers":["NVDA","TSM"], "kr_companies":["SK하이닉스"]}
+"테슬라"  → {"aliases":["Tesla","TSLA","일론 머스크","사이버트럭"], "us_tickers":["TSLA"], "us_competitors":["F","GM"], "kr_companies":[], "kr_competitors":["005380","000270"]}
+"삼성화재" → {"aliases":["Samsung Fire","삼성화재해상보험"], "us_tickers":[], "us_competitors":[], "kr_companies":["삼성화재"], "kr_competitors":["삼성생명"]}
+"카카오뱅크"→ {"aliases":["Kakao Bank"], "us_tickers":[], "us_competitors":[], "kr_companies":["카카오뱅크"], "kr_competitors":["KB금융","신한지주"]}
+"엔비디아" → {"aliases":["NVIDIA","NVDA","Blackwell"], "us_tickers":["NVDA"], "us_competitors":["AMD","AVGO"], "kr_companies":["SK하이닉스"], "kr_competitors":["삼성전자"]}
 
-JSON 스키마: {"aliases": ["..."], "us_tickers": ["..."], "kr_companies": ["..."]}`
+JSON 스키마: {"aliases":["..."], "us_tickers":["..."], "us_competitors":["..."], "kr_companies":["..."], "kr_competitors":["..."]}`
     }], 600);
     const parsed = JSON.parse(text);
     const blocked = new Set([
@@ -814,27 +823,38 @@ JSON 스키마: {"aliases": ["..."], "us_tickers": ["..."], "kr_companies": ["..
       .filter(s => s.length >= 2 && !blocked.has(s) && !blockedLower.has(s.toLowerCase()));
 
     // 미국 ticker: 알파벳 1~5자만 통과
-    let usTickers = Array.isArray(parsed.us_tickers) ? parsed.us_tickers : [];
-    usTickers = usTickers
+    const parseUs = (arr) => (Array.isArray(arr) ? arr : [])
       .filter(s => typeof s === 'string')
       .map(s => s.trim().toUpperCase())
       .filter(s => /^[A-Z]{1,5}$/.test(s));
+    const usDirect = parseUs(parsed.us_tickers);
+    const usComp = parseUs(parsed.us_competitors);
 
-    // 한국 회사명: 명단에 있는 것만 통과 → 우리 사전에서 코드로 변환 (환각 차단)
-    let krCompanies = Array.isArray(parsed.kr_companies) ? parsed.kr_companies : [];
-    const krCodes = krCompanies
+    // 한국 회사명: 명단에 있는 것만 통과 → 우리 사전에서 코드로 변환
+    const parseKr = (arr) => (Array.isArray(arr) ? arr : [])
       .filter(s => typeof s === 'string')
       .map(s => s.trim())
       .filter(s => krNameToCode[s])
       .map(s => krNameToCode[s]);
+    const krDirect = parseKr(parsed.kr_companies);
+    const krComp = parseKr(parsed.kr_competitors);
 
-    const tickers = [...usTickers, ...krCodes].slice(0, 5);
+    // 중복 제거하면서 type 메타 유지 (direct가 competitor보다 우선)
+    const tickerMap = new Map();
+    [...usDirect, ...krDirect].forEach(t => tickerMap.set(t, 'direct'));
+    [...usComp, ...krComp].forEach(t => { if (!tickerMap.has(t)) tickerMap.set(t, 'competitor'); });
+
+    const tickers = Array.from(tickerMap.keys()).slice(0, 7);
+    const relations = {};
+    tickers.forEach(t => { relations[t] = tickerMap.get(t); });
+
     return {
       aliases: [query, ...aliases].slice(0, 10),
       tickers,
+      relations,
     };
   } catch {
-    return { aliases: [query], tickers: [] };
+    return { aliases: [query], tickers: [], relations: {} };
   }
 }
 
@@ -845,8 +865,8 @@ export async function researchKeywordOnDemand(query) {
   const q = (query || '').trim();
   if (!q) throw new Error('query empty');
 
-  // 1단계: LLM이 별칭 + 관련 ticker 동적 추출
-  const { aliases: expandedAliases, tickers: extractedTickers } = await expandKeywordContext(q);
+  // 1단계: LLM이 별칭 + 직접 관련 ticker + 경쟁사 ticker 동적 추출
+  const { aliases: expandedAliases, tickers: extractedTickers, relations: tickerRelations } = await expandKeywordContext(q);
 
   const config = {
     slug: q,
@@ -891,6 +911,13 @@ export async function researchKeywordOnDemand(query) {
       news: [],
       insight: null,
     };
+  }
+
+  // stockData에 relation(direct/competitor) 메타 임베드
+  if (stockData && tickerRelations) {
+    for (const code of Object.keys(stockData)) {
+      stockData[code].relation = tickerRelations[code] || 'direct';
+    }
   }
 
   // 3. LLM 인사이트 (이제 stockData 활용 가능)

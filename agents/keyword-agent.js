@@ -140,12 +140,12 @@ async function fetchGoogleNewsForAliases(aliases) {
 // 삼성화재→배구단, 삼성라이온즈→야구, 현대차→축구단 등 종목명 = 구단명 케이스 차단
 const NOISE_TITLE_KEYWORDS = [
   // 스포츠
-  '경기','승리','패배','출전','선수','감독','구단','VNL','월드컵','올림픽','챔피언십','리그','시즌',
-  '배구','축구','야구','농구','골프','테니스','블루팡스','라이온즈','자이언츠','다이노스','히어로즈','베어스','이글스','위즈','히어로즈',
+  '경기','승리','패배','출전','선수','감독','구단','코치','MVP','VNL','월드컵','올림픽','챔피언십','챔피언스','리그','시즌','결승','준결승','플레이오프','우승','연패','연승','득점',
+  '배구','축구','야구','농구','골프','테니스','수영','육상','블루팡스','라이온즈','자이언츠','다이노스','히어로즈','베어스','이글스','위즈','윙즈','블루스타스',
   // 엔터·연예
-  '아이돌','걸그룹','보이그룹','콘서트','앨범','드라마','영화','출연','배우','가수','뮤지컬','팬미팅',
+  '아이돌','걸그룹','보이그룹','콘서트','앨범','드라마','영화','출연','배우','가수','뮤지컬','팬미팅','팬사인회','컴백','데뷔','뮤직비디오','MV',
   // 공익 (기업 광고성, 투자 의사결정과 무관)
-  '안내견','봉사활동','기부','자선','후원금',
+  '안내견','봉사활동','기부','자선','후원금','캠페인','어버이날','크리스마스','어린이날',
 ];
 function isNoisyTitle(title) {
   if (!title) return false;
@@ -562,6 +562,36 @@ function sanitizeInsight(insight, articles) {
         .map(s => clean(s))
         .filter(s => s && s.length > 5);
     }
+  }
+  // PB 관점 — 가드 적용 (단 빈 문자열은 원본 유지)
+  if (insight.pb_perspective && typeof insight.pb_perspective === 'object') {
+    const pb = insight.pb_perspective;
+    for (const k of ['valuation_assessment', 'momentum_signals', 'fundamental_strength', 'position_sizing_view']) {
+      if (pb[k]) {
+        const cleaned = clean(pb[k]);
+        pb[k] = cleaned || pb[k]; // 통째로 잘리면 원본 유지
+      }
+    }
+    if (Array.isArray(pb.key_monitors)) {
+      pb.key_monitors = pb.key_monitors
+        .map(s => typeof s === 'string' ? s : '')
+        .filter(s => s && s.length > 4);
+    }
+  }
+  // 시나리오 트리거에서 프롬프트 메타 텍스트 제거 (LLM이 가끔 그대로 베껴오는 환각)
+  if (Array.isArray(insight.scenarios)) {
+    const stripMeta = (s) => {
+      if (!s || typeof s !== 'string') return s;
+      return s
+        .replace(/^\*[^*]+\*:\s*/, '')                              // "*측정 가능한 정량 임계값*:" 같은 프리픽스
+        .replace(/^(이|이 시나리오가 현실화될|측정 가능한)[^:]*:\s*/, '')  // 한글 메타 프리픽스
+        .trim();
+    };
+    insight.scenarios = insight.scenarios.map(sc => ({
+      ...sc,
+      trigger: stripMeta(sc.trigger),
+      thesis: stripMeta(sc.thesis),
+    }));
   }
   return insight;
 }

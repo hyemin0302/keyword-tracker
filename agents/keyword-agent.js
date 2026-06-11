@@ -535,6 +535,12 @@ function sanitizeInsight(insight, articles) {
         const qNorm = q.replace(/[\s,]/g, '');
         if (!corpus.includes(q) && !corpusNorm.includes(qNorm)) return false;
       }
+      // 4. 가격 표현 (X원, $X, X달러) — 4자리 이상이면 corpus 검증 (목표주가 환각 차단)
+      const prices = s.match(/\d{1,3}(?:,\d{3})+\s*(?:원|달러)/g) || [];
+      for (const p of prices) {
+        const pNorm = p.replace(/[\s,]/g, '');
+        if (!corpus.includes(p) && !corpusNorm.includes(pNorm)) return false;
+      }
       return true;
     });
     return kept.join(' ').trim();

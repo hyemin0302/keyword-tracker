@@ -448,9 +448,10 @@ function renderScenarios(scenarios){
     var name = (s.case||'').toLowerCase();
     var cls = name.includes('강') || name.includes('bull') ? 'bull'
             : name.includes('약') || name.includes('bear') ? 'bear' : 'base';
+    var thesisHtml = s.thesis ? esc(s.thesis) : '<span style="color:var(--dim);font-style:italic">정량 근거 환각 가드로 차단됨 — 다음 갱신에 재시도</span>';
     return '<div class="scenario-card '+cls+'">'
       +'<div class="scenario-head"><span class="scenario-name">'+esc(s.case||'?')+'</span><span class="scenario-prob">'+(s.probability||'?')+'%</span></div>'
-      +'<div class="scenario-thesis">'+esc(s.thesis||'')+'</div>'
+      +'<div class="scenario-thesis">'+thesisHtml+'</div>'
       +'<div class="scenario-meta">'
       +(s.trigger?'<div class="scenario-meta-row"><span class="lbl">🎯 트리거</span><span class="val">'+esc(s.trigger)+'</span></div>':'')
       +(s.watch_period?'<div class="scenario-meta-row"><span class="lbl">⏱ 관찰</span><span class="val">'+esc(s.watch_period)+'</span></div>':'')

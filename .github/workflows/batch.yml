@@ -38,5 +38,11 @@ jobs:
           git add public/data/
           if ! git diff --staged --quiet; then
             git commit -m "batch: 키워드 업데이트 $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
-            git push
+            # 배치 실행 중 main이 전진한 경우(PR 머지 등) push가 거부됨 → rebase 후 재시도
+            for i in 1 2 3; do
+              git push && break
+              echo "push 거부 — main 전진 감지, rebase 후 재시도 ($i/3)"
+              git pull --rebase origin main || exit 1
+              sleep 3
+            done
           fi

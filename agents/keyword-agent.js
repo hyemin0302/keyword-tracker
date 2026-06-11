@@ -581,10 +581,8 @@ async function generateInsight(slug, nameKo, articles, stockData, type = 'sector
   const typeRules = {
     person: `- statements는 뉴스 원문에 실제 등장한 발언·행보만. 최대 6개. 날짜가 명시 안 됐으면 null.
 - statements[].tickers는 제공된 관련 종목 코드 중에서만 선택.`,
-    company: `- pb_perspective에 다음 2개 필드를 추가하라:
-  "talking_point_holders": "이미 보유 중인 고객에게 할 말 2~3문장 (들고 갈지/덜어낼지 관점)",
-  "talking_point_prospects": "신규 문의 고객에게 할 말 2~3문장 (지금 들어가도 되는지 관점)"`,
-    sector: `- value_chain은 위 관련 종목 코드의 *분류만* 수행. 새 종목 추가 금지. 분류 애매하면 midstream.
+    company: `- pb_perspective의 talking_point_holders / talking_point_prospects는 반드시 채울 것. PB가 고객에게 그대로 읽어줄 완성형 문장으로.`,
+    sector: `- value_chain은 반드시 채울 것. 다음 종목 코드를 빠짐없이 upstream/midstream/downstream 중 하나로 분류하라 (새 종목 추가 금지, 애매하면 midstream): ${Object.keys(stockData).join(', ') || '없음'}
 - policy_tracker는 뉴스 원문에 등장한 정책·규제·보조금만. 없으면 빈 배열. 최대 5개.`,
   }[type];
 
@@ -639,7 +637,9 @@ JSON 스키마:
     "momentum_signals": "외인/기관 수급·모멘텀·신고가 근접 2~3문장",
     "fundamental_strength": "성장·마진·재무 안정성 2~3문장",
     "key_monitors": ["매주 모니터할 지표·일정 3~4개"],
-    "position_sizing_view": "Core/Satellite/Trade 중 어느 성격 + 근거 1~2문장"
+    "position_sizing_view": "Core/Satellite/Trade 중 어느 성격 + 근거 1~2문장"${type === 'company' ? `,
+    "talking_point_holders": "이미 보유 중인 고객에게 할 말 2~3문장 (들고 갈지/덜어낼지 관점)",
+    "talking_point_prospects": "신규 문의 고객에게 할 말 2~3문장 (지금 들어가도 되는지 관점)"` : ''}
   }${typeSchema},
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다."
 }

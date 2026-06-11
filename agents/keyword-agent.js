@@ -409,7 +409,11 @@ function sanitizeInsight(insight, articles) {
     return kept.join(' ').trim();
   };
 
-  if (insight.summary) insight.summary = clean(insight.summary);
+  if (insight.summary) {
+    const cleaned = clean(insight.summary);
+    // 가드가 summary를 완전 비우면 원본 유지 (빈 화면 < 약한 환각)
+    insight.summary = cleaned || insight.summary;
+  }
   if (insight.outlook && typeof insight.outlook === 'object') {
     for (const k of ['short_term', 'mid_term', 'long_term']) {
       const v = insight.outlook[k];
@@ -720,13 +724,7 @@ export async function researchKeywordOnDemand(query) {
 
   // 3. LLM 인사이트 (이제 stockData 활용 가능)
   let insight = await generateInsight(q, q, unique, stockData);
-  const _diag = {
-    hasGroqKey: !!process.env.GROQ_API_KEY,
-    groqKeyLen: (process.env.GROQ_API_KEY || '').length,
-    insightBeforeSanitize: insight ? { model: insight._model, summaryLen: (insight.summary||'').length } : null,
-  };
   insight = sanitizeInsight(insight, unique);
-  _diag.insightAfterSanitize = insight ? { summaryLen: (insight.summary||'').length } : null;
 
   // 4. 테마 지수 + 벤치마크
   const themeIndex = computeThemeIndex(stockData);
@@ -748,6 +746,5 @@ export async function researchKeywordOnDemand(query) {
     news: unique,
     insight,
     stock: hasTickers ? { data: stockData, benchmark: benchData } : null,
-    _diag,
   };
 }

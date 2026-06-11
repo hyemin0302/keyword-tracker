@@ -17,11 +17,18 @@ export default async function handler(req, res) {
 
   try {
     const result = await researchKeywordOnDemand(q);
-    // 같은 키워드는 10분 캐시, 30분간 stale 응답 허용
-    res.setHeader('Cache-Control', 'public, s-maxage=600, stale-while-revalidate=1800');
+    // 빈 인사이트 or 뉴스 0건은 캐시 X (다음 호출에 재시도 기회 주기)
+    const hasInsight = result?.insight && (result.insight.summary || '').length > 0;
+    const hasNews = result?.ok && (result?.count || 0) > 0;
+    if (hasInsight && hasNews) {
+      res.setHeader('Cache-Control', 'public, s-maxage=600, stale-while-revalidate=1800');
+    } else {
+      res.setHeader('Cache-Control', 'no-store');
+    }
     res.status(200).json(result);
   } catch (e) {
     console.error('[api/research]', e?.message);
+    res.setHeader('Cache-Control', 'no-store');
     res.status(500).json({ error: 'internal', message: e?.message });
   }
 }

@@ -133,6 +133,19 @@ section{padding:28px 0;border-top:1px solid var(--line)}
 .if-bar-col .bar.up{background:rgba(255,77,79,.7);align-self:flex-end}
 .if-bar-col .bar.down{background:rgba(59,130,246,.7);align-self:flex-start;border-radius:0 0 2px 2px}
 
+/* PB 관점 인사이트 */
+.pb-card{background:linear-gradient(180deg,var(--panel) 0%,var(--panel2) 100%);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin-bottom:10px;border-left:4px solid var(--gold)}
+.pb-label{font:700 10px var(--mono);letter-spacing:.14em;color:var(--gold);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.pb-block{margin-bottom:16px;padding-bottom:16px;border-bottom:1px dashed var(--line2)}
+.pb-block:last-child{margin-bottom:0;padding-bottom:0;border-bottom:0}
+.pb-block h4{font:700 11px var(--mono);letter-spacing:.1em;color:var(--muted);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.pb-block h4 .ic{font-size:13px}
+.pb-block .body{font-size:14px;line-height:1.75;color:var(--txt)}
+.pb-monitors{display:flex;flex-direction:column;gap:6px;margin-top:4px}
+.pb-monitor{display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--muted);line-height:1.55;padding-left:14px;position:relative}
+.pb-monitor::before{content:'▸';position:absolute;left:0;top:0;color:var(--gold);font-weight:700}
+.pb-sizing-badge{display:inline-block;font:700 11px var(--mono);background:rgba(224,179,65,.15);color:var(--gold);padding:4px 10px;border-radius:6px;margin-right:8px}
+
 /* 시나리오 분석 */
 .scenarios-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
 .scenario-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;position:relative;overflow:hidden}
@@ -280,9 +293,15 @@ footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500
   <div class="outlook-grid" id="outlookGrid"></div>
 </div></section>
 
+<section id="sec-pb" style="display:none"><div class="wrap">
+  <div class="shead"><h2><i></i>PB 관점 분석</h2></div>
+  <p class="ssub">밸류에이션 · 수급/모멘텀 · 펀더멘털 · 모니터링 · 포지션 사이징</p>
+  <div id="pbBody"></div>
+</div></section>
+
 <section id="sec-scenarios" style="display:none"><div class="wrap">
   <div class="shead"><h2><i></i>확률 가중 시나리오</h2></div>
-  <p class="ssub">기본 / 강세 / 약세 시나리오별 발생 확률 + 트리거 + 관찰 기간</p>
+  <p class="ssub">기본 / 강세 / 약세 시나리오별 발생 확률 + 측정 가능한 트리거 + 관찰 기간</p>
   <div class="scenarios-grid" id="scenariosGrid"></div>
 </div></section>
 
@@ -418,11 +437,46 @@ function renderInsight(d){
   if(d.updatedAt) document.getElementById('updatedAt').textContent = '업데이트 '+new Date(d.updatedAt).toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
 
   renderOutlook(d.outlook||{});
+  renderPbPerspective(d.pb_perspective||{});
   renderScenarios(d.scenarios||[]);
   renderCapitalFlow(d.capital_flow||{});
   renderEvents(d.events||[]);
   renderPlayers(d.key_players||[]);
   renderRelated(d.related||[]);
+}
+
+function renderPbPerspective(pb){
+  var keys = ['valuation_assessment','momentum_signals','fundamental_strength'];
+  var hasContent = keys.some(k => (pb[k]||'').trim()) || (pb.key_monitors||[]).length || (pb.position_sizing_view||'').trim();
+  if(!hasContent) return;
+  document.getElementById('sec-pb').style.display='';
+  var blocks = [
+    { k:'valuation_assessment', ic:'💰', label:'밸류에이션 평가' },
+    { k:'momentum_signals',     ic:'📊', label:'단기 수급/모멘텀' },
+    { k:'fundamental_strength', ic:'🏗️', label:'펀더멘털 강도' },
+  ];
+  var html = '<div class="pb-card">';
+  html += '<div class="pb-label">PB DESK · 의사결정 관점</div>';
+  blocks.forEach(function(b){
+    var v = pb[b.k]; if(!v || !v.trim()) return;
+    html += '<div class="pb-block"><h4><span class="ic">'+b.ic+'</span>'+b.label+'</h4><div class="body">'+esc(v)+'</div></div>';
+  });
+  if((pb.key_monitors||[]).length){
+    html += '<div class="pb-block"><h4><span class="ic">👀</span>핵심 모니터링 지표</h4><div class="pb-monitors">'
+      + pb.key_monitors.map(m=>'<div class="pb-monitor">'+esc(m)+'</div>').join('')
+      + '</div></div>';
+  }
+  if((pb.position_sizing_view||'').trim()){
+    var v = pb.position_sizing_view;
+    // Core/Satellite/Trade 키워드 자동 강조
+    var badge = '';
+    if(/core|핵심/i.test(v)) badge = '<span class="pb-sizing-badge">CORE 핵심</span>';
+    else if(/satellite|위성/i.test(v)) badge = '<span class="pb-sizing-badge">SATELLITE 위성</span>';
+    else if(/trade|단기|트레이딩/i.test(v)) badge = '<span class="pb-sizing-badge">TRADE 단기</span>';
+    html += '<div class="pb-block"><h4><span class="ic">🎯</span>포지션 사이징</h4><div class="body">'+badge+esc(v)+'</div></div>';
+  }
+  html += '</div>';
+  document.getElementById('pbBody').innerHTML = html;
 }
 
 function renderScenarios(scenarios){

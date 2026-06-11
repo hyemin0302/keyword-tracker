@@ -107,6 +107,7 @@ function parseGoogleRSS(xml) {
     const m2 = title.match(/^(.*) - ([^-]+)$/);
     if (m2) { title = m2[1].trim(); if (!sourceTag) src = m2[2].trim(); }
     if (!title) continue;
+    if (isNoisyTitle(title)) continue; // 스포츠/엔터 노이즈 차단
     items.push({
       s: src,
       t: title,
@@ -135,6 +136,25 @@ async function fetchGoogleNewsForAliases(aliases) {
   return all;
 }
 
+// ── 비즈니스 외 노이즈 필터 (제목 기준) ─────────────────
+// 삼성화재→배구단, 삼성라이온즈→야구, 현대차→축구단 등 종목명 = 구단명 케이스 차단
+const NOISE_TITLE_KEYWORDS = [
+  // 스포츠
+  '경기','승리','패배','출전','선수','감독','구단','VNL','월드컵','올림픽','챔피언십','리그','시즌',
+  '배구','축구','야구','농구','골프','테니스','블루팡스','라이온즈','자이언츠','다이노스','히어로즈','베어스','이글스','위즈','히어로즈',
+  // 엔터·연예
+  '아이돌','걸그룹','보이그룹','콘서트','앨범','드라마','영화','출연','배우','가수','뮤지컬','팬미팅',
+  // 공익 (기업 광고성, 투자 의사결정과 무관)
+  '안내견','봉사활동','기부','자선','후원금',
+];
+function isNoisyTitle(title) {
+  if (!title) return false;
+  for (const k of NOISE_TITLE_KEYWORDS) {
+    if (title.includes(k)) return true;
+  }
+  return false;
+}
+
 function parseRSS(xml, src, lowerKeywords) {
   const items = [];
   const re = /<item[^>]*>([\s\S]*?)<\/item>/gi;
@@ -146,6 +166,7 @@ function parseRSS(xml, src, lowerKeywords) {
     const desc  = extractTag(b, 'description').replace(/<[^>]+>/g, '').slice(0, 400);
     const date  = extractTag(b, 'pubDate');
     if (!title) continue;
+    if (isNoisyTitle(title)) continue; // 스포츠/엔터/공익 노이즈 차단
     const lowerText = (title + ' ' + desc).toLowerCase();
     if (!lowerKeywords.some(kw => lowerText.includes(kw))) continue;
     items.push({
@@ -428,24 +449,31 @@ JSON 스키마:
       "case": "기본(Base)",
       "probability": 60,
       "thesis": "가장 가능성 높은 시나리오 2~3문장. 무엇이 그대로 흘러가면 이렇게 될지.",
-      "trigger": "이 시나리오가 현실화될 핵심 트리거 1~2개 (구체적 사건/지표/일정)",
+      "trigger": "*측정 가능한 정량 임계값*. 예: '외국인 5거래일 누적 +300K주', 'PER 25배 돌파', '다음 분기 영업이익 컨센서스 +10% 상향', '6월 FOMC 25bp 인상'. 모호한 '실적 개선'/'시장 호전' 금지.",
       "watch_period": "다음 1~2주 / 다음 분기 등 관찰 기간"
     },
     {
       "case": "강세(Bull)",
       "probability": 20,
       "thesis": "상방 시나리오 2~3문장",
-      "trigger": "강세 전환 트리거",
+      "trigger": "강세 전환 *측정 가능한 트리거* (다른 시나리오와 절대 중복 금지)",
       "watch_period": "관찰 기간"
     },
     {
       "case": "약세(Bear)",
       "probability": 20,
       "thesis": "하방 시나리오 2~3문장",
-      "trigger": "약세 전환 트리거",
+      "trigger": "약세 전환 *측정 가능한 트리거* (다른 시나리오와 절대 중복 금지)",
       "watch_period": "관찰 기간"
     }
   ],
+  "pb_perspective": {
+    "valuation_assessment": "현재 밸류에이션 평가 2~3문장. PER/PBR 절대값 + 동종업계·과거 평균 대비 비싼지 싼지 판단. 뉴스에 숫자 있으면 인용, 없으면 정성적으로 솔직히 평가.",
+    "momentum_signals": "단기 매매 시그널 2~3문장. 외국인/기관 수급, 거래량, 모멘텀, 신고가/신저가 근접 등. 뉴스에 등장한 수급 정보 우선.",
+    "fundamental_strength": "펀더멘털 평가 2~3문장. 매출 성장성·마진·재무 안정성·경쟁 우위. 뉴스에 등장한 실적 수치 활용.",
+    "key_monitors": ["PB가 매주 모니터할 핵심 지표·일정 3~4개. 예: '다음 분기 영업이익 컨센서스 변화', 'FOMC 6월 결정(6/18)', '주요 경쟁사 신제품 발표 일정'"],
+    "position_sizing_view": "포지션 사이징 관점 1~2문장. 핵심 보유(Core)/위성(Satellite)/단기 트레이딩(Trade) 중 어느 성격에 적합한지 + 근거."
+  },
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다."
 }
 
@@ -453,6 +481,8 @@ JSON 스키마:
 - 모든 텍스트는 순 한국어. 한자(延期 등) 금지. 불가피하면 괄호 병기.
 - 모든 분석은 위에 제공된 뉴스에 *명시적으로 등장한 사실*만 사용. 등장하지 않은 기업명·수치·이벤트는 절대 추가하지 말 것. 모르면 "관련 뉴스 없음"이라 솔직히 적기.
 - scenarios의 probability 합은 정확히 100이어야 함. 정수만 사용.
+- scenarios의 3개 trigger는 *서로 완전히 다른 변수*여야 함. 모두 같은 "실적 발표" 금지.
+- pb_perspective는 PB 의사결정에 직접 쓰는 정보. 일반론 금지, 이 종목/테마 *특정* 분석만.
 
 수치 인용 절대 규칙 (가장 중요 - 환각 방지):
 - 뉴스에 명시적으로 등장한 숫자만 인용. *원문 표기 그대로* 사용.
@@ -469,7 +499,7 @@ JSON 스키마:
   const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
   for (const model of models) {
     try {
-      const text = await callGroq(model, [{ role: 'user', content: prompt }], 2000);
+      const text = await callGroq(model, [{ role: 'user', content: prompt }], 3000);
       return { ...JSON.parse(text), generatedAt: new Date().toISOString(), _model: model };
     } catch (e) {
       const msg = e.message || '';
@@ -656,6 +686,7 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     outlook: { short_term: emptyOutlook, mid_term: emptyOutlook, long_term: emptyOutlook },
     capital_flow: { summary: '', signals: [] },
     scenarios: [],
+    pb_perspective: { valuation_assessment: '', momentum_signals: '', fundamental_strength: '', key_monitors: [], position_sizing_view: '' },
   };
   const insightBody = insight
     || (previous && previous.summary ? { ...previous, _stale: true } : emptyShape);

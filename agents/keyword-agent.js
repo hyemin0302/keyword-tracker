@@ -669,14 +669,18 @@ JSON 스키마:
 - events·capital_flow.signals·key_players는 뉴스 원문에 실제 등장한 것만. 추측·외부 지식 금지. 없으면 빈 배열.
 ${typeRules}`;
 
-  // 70B → 429면 8B로 폴백. 8B에 413(too large) 나면 max_tokens 줄여 재시도.
+  // 폴백 순서:
+  //   70B(429 흔함) → 8B(주력, TPM 30k) → 8B 축소(413 대비)
+  // 같은 모델 재시도 없이 *즉시 다음 모델로* 폴백. 429라도 다음 모델은 별도 TPM 풀.
+  // 다음 모델로 넘어가는 사이만 짧게 sleep(1.5초).
   const tries = [
     { model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
     { model: 'llama-3.1-8b-instant',    maxTokens: 3500 },
     { model: 'llama-3.1-8b-instant',    maxTokens: 2500 },
   ];
   let lastErrType = null;
-  for (const { model, maxTokens } of tries) {
+  for (let i = 0; i < tries.length; i++) {
+    const { model, maxTokens } = tries[i];
     try {
       const text = await callGroq(model, [{ role: 'user', content: prompt }], maxTokens);
       try {
@@ -685,6 +689,7 @@ ${typeRules}`;
       } catch {
         lastErrType = 'parse';
         console.warn(`[keyword-agent] LLM ${model} JSON 파싱 실패 (${slug})`);
+        if (i < tries.length - 1) await new Promise(r => setTimeout(r, 1500));
         continue;
       }
     } catch (e) {
@@ -694,8 +699,8 @@ ${typeRules}`;
       else lastErrType = 'other';
       console.warn(`[keyword-agent] LLM ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 100));
       if (lastErrType === 'other') break;
-      // 429(TPM 한도)는 1분 윈도가 풀릴 시간을 줘야 재시도가 의미 있음
-      await new Promise(r => setTimeout(r, lastErrType === 'rate_limit' ? 20000 : 1500));
+      // 같은 모델 재시도 X, 즉시 다음 모델로 (다른 TPM 풀). 짧은 sleep만.
+      if (i < tries.length - 1) await new Promise(r => setTimeout(r, 1500));
     }
   }
   return { _failure: lastErrType };

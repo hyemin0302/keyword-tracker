@@ -688,7 +688,8 @@ ${typeRules}`;
       else lastErrType = 'other';
       console.warn(`[keyword-agent] LLM ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 100));
       if (lastErrType === 'other') break;
-      await new Promise(r => setTimeout(r, 1500));
+      // 429(TPM 한도)는 1분 윈도가 풀릴 시간을 줘야 재시도가 의미 있음
+      await new Promise(r => setTimeout(r, lastErrType === 'rate_limit' ? 20000 : 1500));
     }
   }
   return { _failure: lastErrType };
@@ -921,6 +922,13 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
   // LLM 인사이트 (Groq TPM 한도 방어: 호출 간 4초 + 70B 우선 + 8B 폴백)
   await new Promise(r => setTimeout(r, 4000));
   let insight = await generateInsight(slug, nameKo, enriched, stockData, type, keywordConfig);
+  // {_failure}는 실패 마커일 뿐 인사이트가 아님 — null로 강등해야
+  // 아래의 "기존 인사이트 유지" 폴백이 실제로 작동한다 (이전엔 truthy라 폴백이 죽어있었음)
+  let insightFailure = null;
+  if (insight && insight._failure && !insight.summary) {
+    insightFailure = insight._failure;
+    insight = null;
+  }
   // 환각 후처리: 뉴스에 없는 정량 표현이 들어간 문장 제거
   insight = sanitizeInsight(insight, enriched, { extraFacts, validTickers: tickers });
 
@@ -1011,7 +1019,12 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     || (previous && previous.summary ? { ...previous, _stale: true } : emptyShape);
   fs.writeFileSync(
     insightPath,
-    JSON.stringify({ updatedAt: new Date().toISOString(), related, ...insightBody }, null, 2)
+    JSON.stringify({
+      updatedAt: new Date().toISOString(),
+      related,
+      ...insightBody,
+      ...(insightFailure ? { _failure: insightFailure } : {}),
+    }, null, 2)
   );
 
   console.log(`[keyword-agent] "${nameKo}" 완료: 뉴스 ${enriched.length}건, 주가 ${Object.keys(stockData).length}개, 인사이트 ${insight ? '✓' : '✗'}, 관련테마 ${related.length}개`);

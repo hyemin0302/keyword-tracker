@@ -584,20 +584,26 @@ function sanitizeInsight(insight, articles) {
         .filter(s => s && s.length > 4);
     }
   }
-  // 시나리오 트리거에서 프롬프트 메타 텍스트 제거 (LLM이 가끔 그대로 베껴오는 환각)
+  // 시나리오: 메타 텍스트 제거 + 환각 가드 적용
   if (Array.isArray(insight.scenarios)) {
     const stripMeta = (s) => {
       if (!s || typeof s !== 'string') return s;
       return s
-        .replace(/^\*[^*]+\*:\s*/, '')                              // "*측정 가능한 정량 임계값*:" 같은 프리픽스
-        .replace(/^(이|이 시나리오가 현실화될|측정 가능한)[^:]*:\s*/, '')  // 한글 메타 프리픽스
+        .replace(/^\*[^*]+\*:\s*/, '')
+        .replace(/^(이|이 시나리오가 현실화될|측정 가능한)[^:]*:\s*/, '')
         .trim();
     };
-    insight.scenarios = insight.scenarios.map(sc => ({
-      ...sc,
-      trigger: stripMeta(sc.trigger),
-      thesis: stripMeta(sc.thesis),
-    }));
+    insight.scenarios = insight.scenarios.map(sc => {
+      const thesisRaw = stripMeta(sc.thesis);
+      const triggerRaw = stripMeta(sc.trigger);
+      const thesisClean = clean(thesisRaw);
+      const triggerClean = clean(triggerRaw);
+      return {
+        ...sc,
+        thesis: thesisClean || thesisRaw, // 빈 문자열 되면 원본 유지
+        trigger: triggerClean || triggerRaw,
+      };
+    });
   }
   return insight;
 }

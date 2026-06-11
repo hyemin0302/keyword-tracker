@@ -202,17 +202,77 @@ function loadTickerNames() {
 // ── 주가 조회 (Yahoo Finance) ─────────────────────────────
 // 한국 주식 6자리 코드는 .KS(코스피) → .KQ(코스닥) 순으로 폴백.
 // range=1mo로 호출하면 한 응답에 메타 + 30일 종가가 함께 옴 → sparkline용.
-async function fetchYahoo(symbol) {
+async function fetchYahoo(symbol, range = '1mo', interval = '1d') {
   const r = await fetch(
-    `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1d&range=1mo`,
+    `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=${interval}&range=${range}`,
     { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(7000) }
   );
   if (!r.ok) return null;
   const data = await r.json();
   const result = data?.chart?.result?.[0];
   if (!result) return null;
-  const closes = (result.indicators?.quote?.[0]?.close || []).filter(v => v != null);
-  return { meta: result.meta, closes };
+  // closes와 dates를 같이 필터링해 인덱스 정합 유지 (발언-주가 반응 계산용)
+  const rawCloses = result.indicators?.quote?.[0]?.close || [];
+  const rawTs = result.timestamp || [];
+  const closes = [], dates = [];
+  rawCloses.forEach((v, i) => {
+    if (v == null) return;
+    closes.push(v);
+    dates.push(rawTs[i] ? new Date(rawTs[i] * 1000).toISOString().slice(0, 10) : null);
+  });
+  return { meta: result.meta, closes, dates };
+}
+
+// ── 애널리스트 컨센서스 (Yahoo quoteSummary, crumb 우회) ───
+// fc.yahoo.com이 404를 주면서 세션 쿠키를 내려주는 것을 이용해 crumb 발급.
+// 막히면 null 반환 → 프론트는 목표주가 게이지를 숨김 (우아한 강등).
+let _yahooAuth = null;
+async function getYahooAuth() {
+  if (_yahooAuth) return _yahooAuth;
+  try {
+    const r1 = await fetch('https://fc.yahoo.com', {
+      headers: { 'User-Agent': 'Mozilla/5.0' }, redirect: 'manual', signal: AbortSignal.timeout(7000),
+    });
+    const cookie = (r1.headers.get('set-cookie') || '').split(';')[0];
+    if (!cookie) return null;
+    const r2 = await fetch('https://query2.finance.yahoo.com/v1/test/getcrumb', {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Cookie': cookie }, signal: AbortSignal.timeout(7000),
+    });
+    if (!r2.ok) return null;
+    const crumb = (await r2.text()).trim();
+    if (!crumb || crumb.includes('<')) return null;
+    _yahooAuth = { cookie, crumb };
+    return _yahooAuth;
+  } catch { return null; }
+}
+
+async function fetchYahooConsensus(symbol) {
+  try {
+    const auth = await getYahooAuth();
+    if (!auth) return null;
+    const url = `https://query2.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(symbol)}`
+      + `?modules=financialData,calendarEvents&crumb=${encodeURIComponent(auth.crumb)}`;
+    const r = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Cookie': auth.cookie }, signal: AbortSignal.timeout(7000),
+    });
+    if (!r.ok) return null;
+    const d = await r.json();
+    const res = d?.quoteSummary?.result?.[0];
+    if (!res) return null;
+    const fd = res.financialData || {};
+    const ce = res.calendarEvents || {};
+    const earnings = ce.earnings?.earningsDate?.[0];
+    const out = {
+      targetMean: fd.targetMeanPrice?.raw ?? null,
+      targetHigh: fd.targetHighPrice?.raw ?? null,
+      targetLow:  fd.targetLowPrice?.raw ?? null,
+      analysts:   fd.numberOfAnalystOpinions?.raw ?? null,
+      recommendation: fd.recommendationKey || null,
+      earningsDate: earnings?.fmt || (earnings?.raw ? new Date(earnings.raw * 1000).toISOString().slice(0, 10) : null),
+      source: 'yahoo',
+    };
+    return (out.targetMean || out.earningsDate) ? out : null;
+  } catch { return null; }
 }
 
 // ── 펀더멘털 조회 ─────────────────────────────────────────
@@ -235,8 +295,32 @@ async function fetchValuationKR(code) {
       foreignRatio: map.foreignRate,
       high52w: map.highPriceOf52Weeks,
       low52w: map.lowPriceOf52Weeks,
+      consensus: extractNaverConsensus(d, map),
     };
   } catch { return null; }
+}
+
+// 네이버 integration 응답에서 목표주가 컨센서스 추출.
+// 응답 스키마가 변동될 수 있어 알려진 필드 후보를 순서대로 탐색하고 없으면 null.
+function extractNaverConsensus(d, totalMap) {
+  const toNum = (v) => {
+    if (v == null) return null;
+    const n = parseFloat(String(v).replace(/[,원\s]/g, ''));
+    return Number.isFinite(n) && n > 0 ? n : null;
+  };
+  const c = d.consensusInfo || d.consensus || d.researchConsensus || {};
+  const targetMean = toNum(c.priceTargetMean) ?? toNum(c.targetPrice) ?? toNum(c.priceTarget)
+    ?? toNum(totalMap.cnsTargetPrice) ?? toNum(totalMap.targetPrice);
+  if (!targetMean) return null;
+  return {
+    targetMean,
+    targetHigh: toNum(c.priceTargetMax) ?? toNum(c.targetPriceMax) ?? null,
+    targetLow:  toNum(c.priceTargetMin) ?? toNum(c.targetPriceMin) ?? null,
+    analysts:   toNum(c.analystCount) ?? toNum(c.researchCount) ?? null,
+    recommendation: c.recommMean || c.recommendation || null,
+    earningsDate: null,
+    source: 'naver',
+  };
 }
 
 function valuationFromMeta(meta) {
@@ -354,7 +438,8 @@ function normalize(closes, len) {
   return slice.map(c => +((c - base) / base * 100).toFixed(2));
 }
 
-async function fetchStockPrices(tickers) {
+async function fetchStockPrices(tickers, opts = {}) {
+  const { consensusFor = [] } = opts; // 컨센서스(목표주가·실적일)까지 가져올 ticker 목록
   const nameMap = loadTickerNames();
   const results = {};
   await Promise.allSettled(tickers.map(async ticker => {
@@ -373,24 +458,32 @@ async function fetchStockPrices(tickers) {
         const periodChange = closes.length >= 2
           ? +(((closes[closes.length - 1] - closes[0]) / closes[0]) * 100).toFixed(2)
           : 0;
+        const wantConsensus = consensusFor.includes(ticker);
         // 펀더멘털: 한국은 네이버, 미국은 chart meta에서 추출 가능한 항목만
         // 한국 종목은 외국인·기관 일별 순매수도 같이 fetch
-        const [fundamentals, investorFlow] = await Promise.all([
+        const [fundamentals, investorFlow, usConsensus] = await Promise.all([
           isKR ? fetchValuationKR(ticker) : Promise.resolve(valuationFromMeta(meta)),
           isKR ? fetchInvestorFlow(ticker) : Promise.resolve(null),
+          (!isKR && wantConsensus) ? fetchYahooConsensus(ticker) : Promise.resolve(null),
         ]);
+        // 컨센서스: 미국=Yahoo quoteSummary, 한국=네이버 integration에서 추출된 값
+        const consensus = wantConsensus
+          ? (isKR ? (fundamentals?.consensus || null) : usConsensus)
+          : null;
         results[ticker] = {
           name: nameMap[ticker] || fallbackName,
           px: meta.regularMarketPrice,
           dayChange: +(meta.regularMarketChangePercent || 0).toFixed(2),
           periodChange,
           prices: closes,
+          dates: payload.dates || [],
           volume: meta.regularMarketVolume,
           currency: meta.currency || 'USD',
           state: meta.marketState || 'CLOSED',
           market: isKR ? 'KR' : 'US',
           fundamentals,
           investorFlow,
+          consensus,
         };
       }
     } catch {}
@@ -398,20 +491,112 @@ async function fetchStockPrices(tickers) {
   return results;
 }
 
-// ── LLM 인사이트 생성 ────────────────────────────────────
-async function generateInsight(slug, nameKo, articles, stockData) {
+// ── 변동성 기반 시나리오 가격 밴드 (기업 키워드 전용) ──────
+// LLM에게 목표가 숫자를 만들게 하지 않는다 (환각 위험).
+// 대신 최근 일별 수익률의 실현 변동성으로 ±1σ 통계 밴드를 계산하고,
+// 애널리스트 목표주가(실데이터)를 별도 라인으로 겹쳐 보여준다.
+function computeProjection(closes, px) {
+  if (!Array.isArray(closes) || closes.length < 10 || !px) return null;
+  const rets = [];
+  for (let i = 1; i < closes.length; i++) {
+    if (closes[i - 1] > 0 && closes[i] > 0) rets.push(Math.log(closes[i] / closes[i - 1]));
+  }
+  if (rets.length < 8) return null;
+  const mean = rets.reduce((a, b) => a + b, 0) / rets.length;
+  const variance = rets.reduce((a, b) => a + (b - mean) ** 2, 0) / (rets.length - 1);
+  const sd = Math.sqrt(variance);
+  if (!Number.isFinite(sd) || sd <= 0) return null;
+  const horizons = [
+    { days: 5,  label: '1주' },
+    { days: 21, label: '1개월' },
+    { days: 63, label: '3개월' },
+  ];
+  return {
+    asOf: new Date().toISOString().slice(0, 10),
+    base: px,
+    volAnnualPct: +(sd * Math.sqrt(252) * 100).toFixed(1),
+    horizons: horizons.map(h => ({
+      days: h.days,
+      label: h.label,
+      bull: +(px * Math.exp(sd * Math.sqrt(h.days))).toFixed(2),
+      bear: +(px * Math.exp(-sd * Math.sqrt(h.days))).toFixed(2),
+    })),
+  };
+}
+
+// ── LLM 인사이트 생성 (키워드 타입별 분기) ────────────────
+// type: 'person'(인물) | 'company'(기업) | 'sector'(산업 테마, 기본값)
+async function generateInsight(slug, nameKo, articles, stockData, type = 'sector', keywordConfig = null) {
   if (!process.env.GROQ_API_KEY || !articles.length) return null;
   const top5 = articles.slice(0, 5).map((a, i) => `[${i+1}] ${a.s}: ${a.t} — ${a.d?.slice(0,100)}`).join('\n');
   const stockSummary = Object.entries(stockData).slice(0, 6)
     .map(([code, s]) => `${s.name || code}(${code}): ${s.currency === 'KRW' ? '₩' : '$'}${s.px}`).join(', ');
   const today = new Date().toISOString().slice(0, 10);
-  const prompt = `투자 테마 "${nameKo}" 관련 뉴스·주가를 분석해 한국어 JSON으로 반환해줘. 오늘은 ${today}.
+
+  // 기업 키워드: 애널리스트 목표주가는 *실데이터*이므로 프롬프트에 주입해 인용 허용
+  let factsBlock = '';
+  if (type === 'company' && keywordConfig?.primaryTicker) {
+    const p = stockData[keywordConfig.primaryTicker];
+    if (p?.consensus?.targetMean) {
+      const cur = p.currency === 'KRW' ? '원' : '달러';
+      factsBlock = `\n검증된 시장 데이터 (인용 가능):\n- ${p.name} 애널리스트 평균 목표주가: ${p.consensus.targetMean}${cur}`
+        + (p.consensus.analysts ? ` (애널리스트 ${p.consensus.analysts}명)` : '')
+        + (p.consensus.earningsDate ? `\n- 다음 실적 발표 예정일: ${p.consensus.earningsDate}` : '') + '\n';
+    }
+  }
+
+  // ── 타입별 분석 관점 + 추가 스키마 필드 ──
+  const subjectLabel = type === 'person' ? '인물' : type === 'company' ? '기업(단일 종목)' : '투자 테마';
+  const typeFocus = {
+    person: `이 키워드는 *인물*이다. 분석의 중심은 "이 인물의 발언·행보가 어떤 종목을 어떻게 움직이는가"이다.
+- summary와 outlook은 인물의 최근 발언/행보가 시장·관련 종목에 주는 신호 중심으로 작성.
+- 인물 자체의 평판이 아니라 *투자 시그널*로서의 의미에 집중.`,
+    company: `이 키워드는 *단일 상장기업*이다. PB가 "고객이 이 종목을 물어보면 뭐라고 답할까"에 바로 쓸 분석이어야 한다.
+- summary와 outlook은 이 기업 한 종목의 주가 관점으로 작성. 경쟁사는 비교 맥락으로만.
+- pb_perspective의 talking_point 2개는 고객에게 그대로 읽어줄 수 있는 완성형 문장으로.`,
+    sector: `이 키워드는 *산업 테마*다. 개별 종목보다 밸류체인·정책·수급 등 산업 전체 구도를 분석하라.`,
+  }[type];
+
+  const typeSchema = {
+    person: `,
+  "profile": {
+    "role": "이 인물의 현재 직책·소속 1문장 (뉴스 기반)",
+    "why_matters": "왜 시장이 이 인물을 주목하는가 1~2문장"
+  },
+  "statements": [
+    { "date": "YYYY-MM-DD 또는 null", "statement": "발언/행보 요약 1문장", "context": "어디서 (행사·인터뷰·매체)", "signal": "positive|negative|neutral", "tickers": ["영향 받는 ticker (제공된 관련 종목 코드만)"] }
+  ]`,
+    company: ``,
+    sector: `,
+  "value_chain": {
+    "upstream": ["소재·장비·부품 단 ticker (아래 관련 종목 코드 중에서만 선택)"],
+    "midstream": ["제조·생산 단 ticker"],
+    "downstream": ["응용·서비스·수요 단 ticker"]
+  },
+  "policy_tracker": [
+    { "date": "YYYY-MM-DD 또는 null", "title": "정책·규제·보조금 뉴스 요약 1문장", "region": "KR|US|EU|CN|글로벌", "stance": "supportive|restrictive|neutral" }
+  ]`,
+  }[type];
+
+  const typeRules = {
+    person: `- statements는 뉴스 원문에 실제 등장한 발언·행보만. 최대 6개. 날짜가 명시 안 됐으면 null.
+- statements[].tickers는 제공된 관련 종목 코드 중에서만 선택.`,
+    company: `- pb_perspective에 다음 2개 필드를 추가하라:
+  "talking_point_holders": "이미 보유 중인 고객에게 할 말 2~3문장 (들고 갈지/덜어낼지 관점)",
+  "talking_point_prospects": "신규 문의 고객에게 할 말 2~3문장 (지금 들어가도 되는지 관점)"`,
+    sector: `- value_chain은 위 관련 종목 코드의 *분류만* 수행. 새 종목 추가 금지. 분류 애매하면 midstream.
+- policy_tracker는 뉴스 원문에 등장한 정책·규제·보조금만. 없으면 빈 배열. 최대 5개.`,
+  }[type];
+
+  const prompt = `${subjectLabel} "${nameKo}" 관련 뉴스·주가를 분석해 한국어 JSON으로 반환해줘. 오늘은 ${today}.
+
+${typeFocus}
 
 뉴스:
 ${top5}
 
 관련 종목: ${stockSummary || '데이터 없음'}
-
+${factsBlock}
 JSON 스키마:
 {
   "summary": "핵심 동향 2~3문장",
@@ -455,7 +640,7 @@ JSON 스키마:
     "fundamental_strength": "성장·마진·재무 안정성 2~3문장",
     "key_monitors": ["매주 모니터할 지표·일정 3~4개"],
     "position_sizing_view": "Core/Satellite/Trade 중 어느 성격 + 근거 1~2문장"
-  },
+  }${typeSchema},
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다."
 }
 
@@ -475,7 +660,8 @@ JSON 스키마:
 기타:
 - 단기/중기/장기 thesis는 절대 동일 문장 반복 금지. 단기=임박 변수, 중기=분기 실적·정책, 장기=산업 구조.
 - outlook의 thesis는 4문장 이상. 정량 수치는 뉴스 원문에 등장한 것만.
-- events·capital_flow.signals·key_players는 뉴스 원문에 실제 등장한 것만. 추측·외부 지식 금지. 없으면 빈 배열.`;
+- events·capital_flow.signals·key_players는 뉴스 원문에 실제 등장한 것만. 추측·외부 지식 금지. 없으면 빈 배열.
+${typeRules}`;
 
   // 70B → 429면 8B로 폴백. 8B에 413(too large) 나면 max_tokens 줄여 재시도.
   const tries = [
@@ -511,9 +697,12 @@ JSON 스키마:
 // ── 환각 후처리 가드레일 ──────────────────────────────────
 // LLM 응답의 정량 표현을 뉴스 원문과 대조해 환각 문장 제거.
 // 보수적 필터: 의심되면 잘라낸다 (false positive 허용, false negative 차단).
-function sanitizeInsight(insight, articles) {
+function sanitizeInsight(insight, articles, opts = {}) {
   if (!insight || !articles?.length) return insight;
-  const corpus = articles.map(a => (a.t || '') + ' ' + (a.d || '') + ' ' + (a.fullText || '')).join(' ');
+  const { extraFacts = '', validTickers = [] } = opts;
+  // extraFacts: 목표주가 컨센서스 등 *우리가 검증해 주입한 실데이터*.
+  // corpus에 합쳐 해당 수치 인용이 환각으로 잘리지 않게 한다.
+  const corpus = articles.map(a => (a.t || '') + ' ' + (a.d || '') + ' ' + (a.fullText || '')).join(' ') + ' ' + extraFacts;
   const corpusNorm = corpus.replace(/[\s,]/g, '');
 
   const clean = (text) => {
@@ -598,6 +787,55 @@ function sanitizeInsight(insight, articles) {
       trigger: clean(stripMeta(sc.trigger)),
     }));
   }
+  // ── 타입별 추가 필드 가드 ──
+  const tickerSet = new Set(validTickers);
+  // 인물: statements — 문자열 검증 + ticker는 우리가 추적하는 코드만 (closed-set)
+  if (Array.isArray(insight.statements)) {
+    insight.statements = insight.statements
+      .filter(st => st && typeof st.statement === 'string' && st.statement.trim().length > 5)
+      .slice(0, 6)
+      .map(st => ({
+        date: (typeof st.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(st.date)) ? st.date : null,
+        statement: clean(st.statement) || st.statement,
+        context: typeof st.context === 'string' ? st.context.slice(0, 60) : '',
+        signal: ['positive', 'negative', 'neutral'].includes(st.signal) ? st.signal : 'neutral',
+        tickers: (Array.isArray(st.tickers) ? st.tickers : []).filter(t => tickerSet.has(t)),
+      }))
+      .filter(st => st.statement && st.statement.length > 5);
+  }
+  // 섹터: value_chain — 우리가 준 ticker의 분류만 허용 (새 종목 환각 차단)
+  if (insight.value_chain && typeof insight.value_chain === 'object') {
+    const vc = {};
+    for (const k of ['upstream', 'midstream', 'downstream']) {
+      vc[k] = (Array.isArray(insight.value_chain[k]) ? insight.value_chain[k] : [])
+        .filter(t => tickerSet.has(t));
+    }
+    const total = vc.upstream.length + vc.midstream.length + vc.downstream.length;
+    insight.value_chain = total >= 2 ? vc : null;
+  }
+  // 섹터: policy_tracker — 문자열 검증 + 환각 가드
+  if (Array.isArray(insight.policy_tracker)) {
+    insight.policy_tracker = insight.policy_tracker
+      .filter(p => p && typeof p.title === 'string' && p.title.trim().length > 5)
+      .slice(0, 5)
+      .map(p => ({
+        date: (typeof p.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(p.date)) ? p.date : null,
+        title: clean(p.title) || p.title,
+        region: ['KR', 'US', 'EU', 'CN', '글로벌'].includes(p.region) ? p.region : '글로벌',
+        stance: ['supportive', 'restrictive', 'neutral'].includes(p.stance) ? p.stance : 'neutral',
+      }))
+      .filter(p => p.title && p.title.length > 5);
+  }
+  // 기업: 토킹포인트 가드
+  if (insight.pb_perspective && typeof insight.pb_perspective === 'object') {
+    const pb = insight.pb_perspective;
+    for (const k of ['talking_point_holders', 'talking_point_prospects']) {
+      if (pb[k]) {
+        const cleaned = clean(pb[k]);
+        pb[k] = cleaned || pb[k];
+      }
+    }
+  }
   return insight;
 }
 
@@ -618,7 +856,7 @@ function findRelatedKeywords(currentSlug, currentTickers, allKeywords, topN = 4)
 
 // ── 메인: 단일 키워드 처리 ───────────────────────────────
 export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmarks = null) {
-  const { slug, name, tickers = [] } = keywordConfig;
+  const { slug, name, tickers = [], type = 'sector', primaryTicker = null, peers = [], etfs = [] } = keywordConfig;
   const nameKo = name?.ko || slug;
   const keywords = buildKeywordAliases(keywordConfig);
   const lowerKeywords = keywords.map(k => k.toLowerCase());
@@ -657,14 +895,34 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     if (i + 5 < unique.length) await new Promise(r => setTimeout(r, 400));
   }
 
-  // 주가 조회
-  const stockData = await fetchStockPrices(tickers);
+  // 주가 조회 — 기업 키워드는 본체+경쟁사 컨센서스(목표주가·실적일)까지
+  const consensusFor = type === 'company'
+    ? [primaryTicker, ...peers].filter(Boolean)
+    : (type === 'person' ? (keywordConfig.person?.influence?.direct || []).slice(0, 1) : []);
+  const stockData = await fetchStockPrices(tickers, { consensusFor });
+
+  // 섹터 키워드: 관련 ETF 시세 (개별 종목 리스크 회피 고객용)
+  const etfData = (type === 'sector' && etfs.length)
+    ? await fetchStockPrices(etfs)
+    : null;
+
+  // 기업 키워드: 본체 종목 변동성 기반 시나리오 가격 밴드
+  const primary = primaryTicker ? stockData[primaryTicker] : null;
+  const projection = (type === 'company' && primary)
+    ? computeProjection(primary.prices, primary.px)
+    : null;
+
+  // 컨센서스 실데이터를 환각 가드 화이트리스트에 등록
+  let extraFacts = '';
+  if (primary?.consensus?.targetMean) {
+    extraFacts = `목표주가 ${primary.consensus.targetMean} ${primary.consensus.targetMean.toLocaleString('en-US')} ${primary.consensus.targetMean.toLocaleString('ko-KR')}`;
+  }
 
   // LLM 인사이트 (Groq TPM 한도 방어: 호출 간 4초 + 70B 우선 + 8B 폴백)
   await new Promise(r => setTimeout(r, 4000));
-  let insight = await generateInsight(slug, nameKo, enriched, stockData);
+  let insight = await generateInsight(slug, nameKo, enriched, stockData, type, keywordConfig);
   // 환각 후처리: 뉴스에 없는 정량 표현이 들어간 문장 제거
-  insight = sanitizeInsight(insight, enriched);
+  insight = sanitizeInsight(insight, enriched, { extraFacts, validTickers: tickers });
 
   // 뉴스 활동도 집계 (오늘 / 어제 / 7일 평균 / 매체 다양성)
   const now = Date.now();
@@ -698,11 +956,37 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
       }
     : null;
 
-  // stock.json 저장
+  // stock.json 저장 (etfs·projection은 해당 타입에서만 non-null)
   fs.writeFileSync(
     path.join(dataDir, 'stock.json'),
-    JSON.stringify({ updatedAt: new Date().toISOString(), data: stockData, benchmark: benchData }, null, 2)
+    JSON.stringify({
+      updatedAt: new Date().toISOString(),
+      data: stockData,
+      benchmark: benchData,
+      etfs: etfData,
+      projection,
+    }, null, 2)
   );
+
+  // ── 전망 히스토리 스냅샷 (적중률 트래킹용) ──
+  // 하루 1개 (같은 날짜는 최신으로 교체). 90개 보관.
+  // 프론트가 "그때 전망 vs 이후 실제 수익률"을 계산해 스코어카드 렌더링.
+  try {
+    const histPath = path.join(dataDir, 'history.json');
+    let hist = [];
+    try { hist = JSON.parse(fs.readFileSync(histPath, 'utf8')).entries || []; } catch {}
+    const today = new Date().toISOString().slice(0, 10);
+    const pricesMap = {};
+    for (const [t, s] of Object.entries(stockData)) pricesMap[t] = s.px;
+    if (Object.keys(pricesMap).length) {
+      const snapSentiment = insight?.sentiment
+        || (hist.length ? hist[hist.length - 1].sentiment : 'neutral');
+      hist = hist.filter(h => h.date !== today);
+      hist.push({ date: today, sentiment: snapSentiment, prices: pricesMap });
+      hist = hist.slice(-90);
+      fs.writeFileSync(histPath, JSON.stringify({ updatedAt: new Date().toISOString(), entries: hist }, null, 2));
+    }
+  } catch (e) { console.warn(`[keyword-agent] history 기록 실패 (${slug}):`, e.message); }
 
   // 관련 테마 (ticker 겹침 기반)
   const related = allKeywords.length ? findRelatedKeywords(slug, tickers, allKeywords) : [];

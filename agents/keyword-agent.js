@@ -458,6 +458,12 @@ async function fetchStockPrices(tickers, opts = {}) {
         const periodChange = closes.length >= 2
           ? +(((closes[closes.length - 1] - closes[0]) / closes[0]) * 100).toFixed(2)
           : 0;
+        // Yahoo가 regularMarketChangePercent를 빈 값으로 주는 케이스 多 → 전일 종가로 직접 계산 (fetchMacro와 동일 방식)
+        let dayChange = +(meta.regularMarketChangePercent || 0).toFixed(2);
+        if (!dayChange && closes.length >= 2) {
+          const prevClose = closes[closes.length - 2];
+          if (prevClose) dayChange = +(((meta.regularMarketPrice - prevClose) / prevClose) * 100).toFixed(2);
+        }
         const wantConsensus = consensusFor.includes(ticker);
         // 펀더멘털: 한국은 네이버, 미국은 chart meta에서 추출 가능한 항목만
         // 한국 종목은 외국인·기관 일별 순매수도 같이 fetch
@@ -473,7 +479,7 @@ async function fetchStockPrices(tickers, opts = {}) {
         results[ticker] = {
           name: nameMap[ticker] || fallbackName,
           px: meta.regularMarketPrice,
-          dayChange: +(meta.regularMarketChangePercent || 0).toFixed(2),
+          dayChange,
           periodChange,
           prices: closes,
           dates: payload.dates || [],

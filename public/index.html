@@ -53,6 +53,9 @@ h1 span{color:var(--accent)}
 .theme-chip .ti{font-size:20px}
 .theme-chip .tn{font:600 13px var(--sans);color:var(--txt)}
 .theme-chip .tier-dot{width:6px;height:6px;border-radius:50%;margin-left:auto;flex-shrink:0}
+.type-chip{font:700 9px var(--mono);padding:2px 6px;border-radius:4px;flex-shrink:0;letter-spacing:.04em}
+.type-person{background:rgba(167,139,250,.15);color:#a78bfa}
+.type-company{background:rgba(56,189,248,.15);color:#38bdf8}
 .hot .tier-dot{background:#f87171}
 .warm .tier-dot{background:#fbbf24}
 .cold .tier-dot{background:#818cf8}
@@ -70,11 +73,11 @@ footer a:hover{color:var(--accent)}
 <body>
 <div class="home">
   <div class="logo"><span class="logo-dot"></span> MARKET RADAR · LIVE</div>
-  <h1>투자 테마<span>를 검색하세요</span></h1>
-  <p class="sub">HBM, AI반도체, 전기차 등 20개 투자 테마의 실시간 뉴스·주가·AI 인사이트를 한눈에</p>
+  <h1>인물·기업·테마<span>를 검색하세요</span></h1>
+  <p class="sub">젠슨 황 같은 인물, 엔비디아 같은 기업, HBM 같은 산업 테마 — 키워드 타입에 맞는 실시간 뉴스·주가·AI 인사이트를 한눈에</p>
 
   <div class="search-wrap">
-    <input class="search-input" id="searchInput" type="text" placeholder="테마 검색 — HBM, 전기차, AI반도체..." autocomplete="off">
+    <input class="search-input" id="searchInput" type="text" placeholder="검색 — 젠슨황, 엔비디아, HBM, 전기차..." autocomplete="off">
     <button class="search-btn" onclick="goSearch()">검색</button>
     <div class="dropdown" id="dropdown"></div>
   </div>
@@ -98,12 +101,19 @@ fetch('/data/keywords/index.json')
     renderGrid();
   });
 
+function typeChip(k){
+  if(k.type==='person') return '<span class="type-chip type-person">인물</span>';
+  if(k.type==='company') return '<span class="type-chip type-company">기업</span>';
+  return '';
+}
+
 function renderGrid(){
   var g = document.getElementById('themesGrid');
   g.innerHTML = KEYWORDS.map(function(k){
     return '<a class="theme-chip '+k.tier+'" href="/keyword/'+encodeURIComponent(k.slug)+'">'
       +'<span class="ti">'+k.icon+'</span>'
       +'<span class="tn">'+k.name.ko+'</span>'
+      +typeChip(k)
       +'<span class="tier-dot"></span>'
       +'</a>';
   }).join('');
@@ -123,6 +133,7 @@ inp.addEventListener('input', function(){
     return '<div class="dd-item" onclick="navigate(\''+k.slug+'\')">'
       +'<span class="dd-icon">'+k.icon+'</span>'
       +'<span class="dd-name">'+k.name.ko+'</span>'
+      +typeChip(k)
       +'<span class="dd-tier tier-'+k.tier+'">'+k.tier.toUpperCase()+'</span>'
       +'</div>';
   });

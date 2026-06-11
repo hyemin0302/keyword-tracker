@@ -109,6 +109,54 @@ section:first-of-type{border-top:none}
 .sparkline{width:100%;height:30px;display:block}
 .spark-period{font:600 11px var(--mono);white-space:nowrap}
 
+/* 매크로 strip */
+.macro-strip{background:linear-gradient(180deg,var(--panel) 0%,var(--bg) 100%);border-bottom:1px solid var(--line);padding:10px 0;overflow-x:auto;scrollbar-width:thin}
+.macro-strip .wrap{display:flex;gap:18px;min-width:max-content;align-items:center}
+.macro-strip-label{font:700 10px var(--mono);letter-spacing:.12em;color:var(--dim);padding-right:10px;border-right:1px solid var(--line2);flex-shrink:0}
+.macro-cell{display:flex;flex-direction:column;gap:1px;flex-shrink:0}
+.macro-cell .ml{font:600 9px var(--mono);color:var(--dim);letter-spacing:.05em;line-height:1.2}
+.macro-cell .mv{font:700 13px var(--mono);color:var(--txt);line-height:1.2}
+.macro-cell .mc{font:600 10px var(--mono);line-height:1.2}
+.macro-cell .mc.up{color:var(--up)}
+.macro-cell .mc.down{color:var(--down)}
+.macro-cell .mc.flat{color:var(--flat)}
+
+/* 테크니컬 배지 */
+.tech-badges{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.tech-badge{font:700 9px var(--mono);padding:2px 6px;border-radius:4px;letter-spacing:.03em}
+.tech-badge.hi{background:rgba(255,77,79,.15);color:var(--up);border:1px solid rgba(255,77,79,.3)}
+.tech-badge.lo{background:rgba(59,130,246,.15);color:var(--down);border:1px solid rgba(59,130,246,.3)}
+.tech-badge.ma{background:rgba(118,185,0,.15);color:var(--accent);border:1px solid rgba(118,185,0,.3)}
+
+/* 외국인 매매 */
+.investor-flow{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line2)}
+.if-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.if-label{font:700 9px var(--mono);color:var(--dim);letter-spacing:.05em}
+.if-sum{font:700 10px var(--mono)}
+.if-bars{display:flex;gap:2px;height:32px;align-items:flex-end;justify-content:space-between}
+.if-bar-col{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;height:32px}
+.if-bar-col .bar{width:100%;min-height:1px;border-radius:2px 2px 0 0}
+.if-bar-col .bar.up{background:rgba(255,77,79,.7);align-self:flex-end}
+.if-bar-col .bar.down{background:rgba(59,130,246,.7);align-self:flex-start;border-radius:0 0 2px 2px}
+
+/* 시나리오 */
+.scenarios-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.scenario-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;position:relative;overflow:hidden}
+.scenario-card.base::before{content:'';position:absolute;left:0;top:0;right:0;height:4px;background:var(--accent)}
+.scenario-card.bull::before{content:'';position:absolute;left:0;top:0;right:0;height:4px;background:var(--up)}
+.scenario-card.bear::before{content:'';position:absolute;left:0;top:0;right:0;height:4px;background:var(--down)}
+.scenario-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px;padding-top:6px}
+.scenario-name{font:700 14px var(--sans)}
+.scenario-prob{font:700 22px var(--mono);letter-spacing:-.01em}
+.scenario-card.base .scenario-prob{color:var(--accent)}
+.scenario-card.bull .scenario-prob{color:var(--up)}
+.scenario-card.bear .scenario-prob{color:var(--down)}
+.scenario-thesis{font-size:13px;line-height:1.65;color:var(--muted);margin-bottom:12px}
+.scenario-meta{display:flex;flex-direction:column;gap:6px;padding-top:10px;border-top:1px dashed var(--line2)}
+.scenario-meta-row{display:flex;gap:8px;align-items:flex-start;font-size:12px}
+.scenario-meta-row .lbl{font:700 10px var(--mono);color:var(--dim);min-width:55px;flex-shrink:0;padding-top:2px}
+.scenario-meta-row .val{color:var(--txt);line-height:1.5}
+
 /* 펀더멘털 */
 .fundamentals{display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line2)}
 .fund-cell{display:flex;justify-content:space-between;gap:6px;font:500 11px var(--mono)}
@@ -163,6 +211,11 @@ footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500
   <span id="updatedAt" style="font:500 11px var(--mono);color:var(--dim);margin-left:auto"></span>
 </div></nav>
 
+<div class="macro-strip" id="macroStrip" style="display:none"><div class="wrap">
+  <span class="macro-strip-label">📊 MACRO</span>
+  <div id="macroCells" style="display:flex;gap:18px"></div>
+</div></div>
+
 <header class="hero"><div class="wrap">
   <div class="hero-kick">MARKET RADAR · 즉석 키워드 리서치</div>
   <div class="hero-title"><span class="ic">🔬</span> <span id="queryText">로딩 중...</span></div>
@@ -188,6 +241,12 @@ footer{border-top:1px solid var(--line);padding:20px 0;color:var(--dim);font:500
 <section id="sec-outlook" style="display:none"><div class="wrap">
   <div class="shead"><h2><i></i>시간 축 전망</h2></div>
   <div class="outlook-grid" id="outlookGrid"></div>
+</div></section>
+
+<section id="sec-scenarios" style="display:none"><div class="wrap">
+  <div class="shead"><h2><i></i>확률 가중 시나리오</h2></div>
+  <p class="ssub">기본 / 강세 / 약세 시나리오별 발생 확률 + 트리거</p>
+  <div class="scenarios-grid" id="scenariosGrid"></div>
 </div></section>
 
 <section id="sec-stocks" style="display:none"><div class="wrap">
@@ -226,6 +285,22 @@ if(!q){
   document.title = '"' + q + '" 리서치 — Market Radar';
   startResearch();
 }
+
+// 매크로 strip (페이지 로드와 별도 호출)
+fetch('/api/macro').then(r=>r.ok?r.json():null).then(function(d){
+  if(!d || !d.data || !d.data.length) return;
+  document.getElementById('macroStrip').style.display='';
+  document.getElementById('macroCells').innerHTML = d.data.map(function(m){
+    var c = m.change>0?'up':m.change<0?'down':'flat';
+    var arrow = m.change>0?'▲':m.change<0?'▼':'·';
+    var v = m.format==='pct' ? m.px.toFixed(2)+'%' : (m.px>=1000?m.px.toLocaleString('en-US',{maximumFractionDigits:0}):m.px.toFixed(2));
+    return '<div class="macro-cell">'
+      +'<span class="ml">'+m.short+'</span>'
+      +'<span class="mv">'+v+'</span>'
+      +'<span class="mc '+c+'">'+arrow+' '+(m.change>=0?'+':'')+m.change+'%</span>'
+      +'</div>';
+  }).join('');
+}).catch(function(){});
 
 function setStep(name, status){
   document.querySelectorAll('.step').forEach(function(el){
@@ -308,8 +383,28 @@ function render(data){
   var d = data.insight || {};
   renderInsight(d);
   renderOutlook(d.outlook||{});
+  renderScenarios(d.scenarios||[]);
   if(data.stock) renderStocks(data.stock);
   renderNews(data.news||[]);
+}
+
+function renderScenarios(scenarios){
+  if(!Array.isArray(scenarios) || !scenarios.length) return;
+  var sum = scenarios.reduce(function(a,b){return a+(parseInt(b.probability)||0);},0);
+  if(sum < 80 || sum > 120) return;
+  document.getElementById('sec-scenarios').style.display='';
+  document.getElementById('scenariosGrid').innerHTML = scenarios.map(function(s){
+    var name = (s.case||'').toLowerCase();
+    var cls = name.includes('강') || name.includes('bull') ? 'bull'
+            : name.includes('약') || name.includes('bear') ? 'bear' : 'base';
+    return '<div class="scenario-card '+cls+'">'
+      +'<div class="scenario-head"><span class="scenario-name">'+esc(s.case||'?')+'</span><span class="scenario-prob">'+(s.probability||'?')+'%</span></div>'
+      +'<div class="scenario-thesis">'+esc(s.thesis||'')+'</div>'
+      +'<div class="scenario-meta">'
+      +(s.trigger?'<div class="scenario-meta-row"><span class="lbl">🎯 트리거</span><span class="val">'+esc(s.trigger)+'</span></div>':'')
+      +(s.watch_period?'<div class="scenario-meta-row"><span class="lbl">⏱ 관찰</span><span class="val">'+esc(s.watch_period)+'</span></div>':'')
+      +'</div></div>';
+  }).join('');
 }
 
 function cls(v){var n=parseFloat(v);return n>0?'up':n<0?'down':'flat';}
@@ -338,6 +433,8 @@ function renderStocks(s){
     var pCls = cls(st.periodChange);
     var spark = sparkline(st.prices||[], st.periodChange>=0);
     var fund = renderFundamentals(st);
+    var tech = renderTechBadges(st);
+    var inv = renderInvestorFlow(st);
     return '<div class="scard">'
       +'<div class="sh"><span class="nm">'+esc(nm)+'</span><span class="exbadge ex-'+ex+'">'+ex+'</span></div>'
       +'<div class="cd">'+esc(code)+'</div>'
@@ -347,7 +444,45 @@ function renderStocks(s){
       +'<span class="market-state">'+(st.state==='REGULAR'?'🟢 장중':'🔴 장외')+'</span>'
       +'</div>'
       +(spark?'<div class="spark-wrap">'+spark+'<span class="spark-period '+pCls+'">30D '+(st.periodChange>=0?'+':'')+(st.periodChange||0)+'%</span></div>':'')
+      +tech
       +fund
+      +inv
+      +'</div>';
+  }
+  function renderTechBadges(s){
+    var prices = s.prices || [];
+    if(prices.length < 5) return '';
+    var badges = [];
+    var px = s.px;
+    var max = Math.max.apply(null, prices);
+    var min = Math.min.apply(null, prices);
+    if(px >= max * 0.995) badges.push('<span class="tech-badge hi">🚀 30D 신고가</span>');
+    else if(px >= max * 0.95) badges.push('<span class="tech-badge hi">📈 30D 고점 근접</span>');
+    if(px <= min * 1.005) badges.push('<span class="tech-badge lo">⚠️ 30D 신저가</span>');
+    else if(px <= min * 1.05) badges.push('<span class="tech-badge lo">📉 30D 저점 근접</span>');
+    var ma5 = prices.slice(-5).reduce((a,b)=>a+b,0)/5;
+    var ma20 = prices.slice(-20).reduce((a,b)=>a+b,0)/Math.min(20,prices.length);
+    if(ma5 > ma20 * 1.02) badges.push('<span class="tech-badge ma">📊 5MA > 20MA</span>');
+    else if(ma5 < ma20 * 0.98) badges.push('<span class="tech-badge ma" style="color:var(--down);background:rgba(59,130,246,.15);border-color:rgba(59,130,246,.3)">📊 5MA < 20MA</span>');
+    if(!badges.length) return '';
+    return '<div class="tech-badges">'+badges.join('')+'</div>';
+  }
+  function renderInvestorFlow(s){
+    var f = s.investorFlow;
+    if(!f || !f.items || !f.items.length) return '';
+    var maxAbs = Math.max.apply(null, f.items.map(function(d){return Math.abs(d.foreigner);}));
+    if(maxAbs === 0) maxAbs = 1;
+    var bars = f.items.slice().reverse().map(function(d){
+      var h = Math.abs(d.foreigner) / maxAbs * 28;
+      var c = d.foreigner > 0 ? 'up' : 'down';
+      return '<div class="if-bar-col" title="'+d.date+': '+d.foreigner.toLocaleString()+'"><div class="bar '+c+'" style="height:'+h.toFixed(1)+'px"></div></div>';
+    }).join('');
+    var sum5 = f.sum5d.foreigner;
+    var sumCls = sum5 > 0 ? 'up' : sum5 < 0 ? 'down' : 'flat';
+    var sumStr = (sum5 >= 0 ? '+' : '') + (sum5/1000).toFixed(0) + 'K주';
+    return '<div class="investor-flow">'
+      +'<div class="if-header"><span class="if-label">외국인 10일</span><span class="if-sum '+sumCls+'">5D '+sumStr+'</span></div>'
+      +'<div class="if-bars">'+bars+'</div>'
       +'</div>';
   }
   function group(label, flag, items){

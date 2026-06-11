@@ -227,6 +227,77 @@ function valuationFromMeta(meta) {
   };
 }
 
+// ── 매크로 지표 (PB 컨텍스트) ────────────────────────────
+// USD/KRW · KOSPI · S&P · VIX · 미10년물 · WTI 한 번에 fetch
+const MACRO_SYMBOLS = [
+  { sym: 'KRW=X', short: 'USD/KRW',  category: '환율',   format: 'price' },
+  { sym: '^KS11', short: 'KOSPI',    category: '한국증시', format: 'price' },
+  { sym: '^GSPC', short: 'S&P500',   category: '미증시',  format: 'price' },
+  { sym: '^IXIC', short: '나스닥',    category: '미증시',  format: 'price' },
+  { sym: '^VIX',  short: 'VIX',      category: '변동성',   format: 'price' },
+  { sym: '^TNX',  short: '美10년물', category: '금리',   format: 'pct' },
+  { sym: 'CL=F',  short: 'WTI',      category: '원자재',  format: 'price' },
+  { sym: 'GC=F',  short: '금',        category: '원자재',  format: 'price' },
+];
+
+export async function fetchMacro() {
+  const results = await Promise.allSettled(MACRO_SYMBOLS.map(async (m) => {
+    try {
+      const payload = await fetchYahoo(m.sym);
+      const meta = payload?.meta;
+      if (!meta?.regularMarketPrice) return null;
+      const closes = (payload.closes || []).map(v => +v.toFixed(2));
+      // 어제 종가 대비 변화율 (Yahoo의 regularMarketChangePercent가 빈 케이스 많음 → 직접 계산)
+      const prev = closes.length >= 2 ? closes[closes.length - 2] : meta.chartPreviousClose;
+      const px = meta.regularMarketPrice;
+      const change = prev ? +(((px - prev) / prev) * 100).toFixed(2) : 0;
+      // 5일 전 대비
+      const fiveBack = closes.length >= 5 ? closes[closes.length - 5] : null;
+      const change5d = fiveBack ? +(((px - fiveBack) / fiveBack) * 100).toFixed(2) : null;
+      return {
+        symbol: m.sym,
+        short: m.short,
+        category: m.category,
+        format: m.format,
+        px,
+        change,
+        change5d,
+        prices: closes.slice(-21), // 약 1개월 sparkline
+      };
+    } catch { return null; }
+  }));
+  return results.map(r => r.status === 'fulfilled' ? r.value : null).filter(Boolean);
+}
+
+// ── 한국 종목 외국인·기관 일별 순매수 (10일치) ──────────
+async function fetchInvestorFlow(code) {
+  try {
+    const r = await fetch(`https://m.stock.naver.com/api/stock/${code}/trend`,
+      { headers: { 'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json' }, signal: AbortSignal.timeout(6000) });
+    if (!r.ok) return null;
+    const arr = await r.json();
+    if (!Array.isArray(arr) || !arr.length) return null;
+    const toNum = (s) => parseInt(String(s || '0').replace(/[,+\s]/g, ''), 10) || 0;
+    const items = arr.slice(0, 10).map(d => ({
+      date: d.bizdate,
+      foreigner: toNum(d.foreignerPureBuyQuant),
+      institution: toNum(d.organPureBuyQuant),
+      individual: toNum(d.individualPureBuyQuant),
+      foreignRatio: d.foreignerHoldRatio,
+    }));
+    // 5거래일 / 10거래일 누적
+    const sum5For = items.slice(0, 5).reduce((a, b) => a + b.foreigner, 0);
+    const sum5Inst = items.slice(0, 5).reduce((a, b) => a + b.institution, 0);
+    const sum10For = items.reduce((a, b) => a + b.foreigner, 0);
+    const sum10Inst = items.reduce((a, b) => a + b.institution, 0);
+    return {
+      items,
+      sum5d: { foreigner: sum5For, institution: sum5Inst },
+      sum10d: { foreigner: sum10For, institution: sum10Inst },
+    };
+  } catch { return null; }
+}
+
 // ── 벤치마크 (KOSPI / S&P500) 30일 종가 ───────────────────
 export async function fetchBenchmarks() {
   const fetchOne = async (sym) => {
@@ -282,17 +353,23 @@ async function fetchStockPrices(tickers) {
           ? +(((closes[closes.length - 1] - closes[0]) / closes[0]) * 100).toFixed(2)
           : 0;
         // 펀더멘털: 한국은 네이버, 미국은 chart meta에서 추출 가능한 항목만
-        const fundamentals = isKR ? await fetchValuationKR(ticker) : valuationFromMeta(meta);
+        // 한국 종목은 외국인·기관 일별 순매수도 같이 fetch
+        const [fundamentals, investorFlow] = await Promise.all([
+          isKR ? fetchValuationKR(ticker) : Promise.resolve(valuationFromMeta(meta)),
+          isKR ? fetchInvestorFlow(ticker) : Promise.resolve(null),
+        ]);
         results[ticker] = {
           name: nameMap[ticker] || fallbackName,
           px: meta.regularMarketPrice,
           dayChange: +(meta.regularMarketChangePercent || 0).toFixed(2),
           periodChange,
           prices: closes,
+          volume: meta.regularMarketVolume,
           currency: meta.currency || 'USD',
           state: meta.marketState || 'CLOSED',
           market: isKR ? 'KR' : 'US',
           fundamentals,
+          investorFlow,
         };
       }
     } catch {}
@@ -346,12 +423,36 @@ JSON 스키마:
     "summary": "자금 흐름 1~2문장 요약(외국인·기관 순매수, ETF 자금 유입, IPO 청약, 펀드 자금 등)",
     "signals": ["뉴스에서 추출된 구체 시그널 2~4개. 예: '미래에셋 스페이스X 2차 청약 완판', '한투운용 우주테크 ETF 600억 순매수'"]
   },
+  "scenarios": [
+    {
+      "case": "기본(Base)",
+      "probability": 60,
+      "thesis": "가장 가능성 높은 시나리오 2~3문장. 무엇이 그대로 흘러가면 이렇게 될지.",
+      "trigger": "이 시나리오가 현실화될 핵심 트리거 1~2개 (구체적 사건/지표/일정)",
+      "watch_period": "다음 1~2주 / 다음 분기 등 관찰 기간"
+    },
+    {
+      "case": "강세(Bull)",
+      "probability": 20,
+      "thesis": "상방 시나리오 2~3문장",
+      "trigger": "강세 전환 트리거",
+      "watch_period": "관찰 기간"
+    },
+    {
+      "case": "약세(Bear)",
+      "probability": 20,
+      "thesis": "하방 시나리오 2~3문장",
+      "trigger": "약세 전환 트리거",
+      "watch_period": "관찰 기간"
+    }
+  ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다."
 }
 
 절대 규칙:
 - 모든 텍스트는 순 한국어. 한자(延期 등) 금지. 불가피하면 괄호 병기.
 - 모든 분석은 위에 제공된 뉴스에 *명시적으로 등장한 사실*만 사용. 등장하지 않은 기업명·수치·이벤트는 절대 추가하지 말 것. 모르면 "관련 뉴스 없음"이라 솔직히 적기.
+- scenarios의 probability 합은 정확히 100이어야 함. 정수만 사용.
 
 수치 인용 절대 규칙 (가장 중요 - 환각 방지):
 - 뉴스에 명시적으로 등장한 숫자만 인용. *원문 표기 그대로* 사용.
@@ -554,6 +655,7 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     events: [], key_players: [],
     outlook: { short_term: emptyOutlook, mid_term: emptyOutlook, long_term: emptyOutlook },
     capital_flow: { summary: '', signals: [] },
+    scenarios: [],
   };
   const insightBody = insight
     || (previous && previous.summary ? { ...previous, _stale: true } : emptyShape);

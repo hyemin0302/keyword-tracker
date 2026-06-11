@@ -481,8 +481,9 @@ JSON 스키마:
   const tries = [
     { model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
     { model: 'llama-3.1-8b-instant',    maxTokens: 3500 },
-    { model: 'llama-3.1-8b-instant',    maxTokens: 2500 }, // 413 대비 축소 재시도
+    { model: 'llama-3.1-8b-instant',    maxTokens: 2500 },
   ];
+  let lastErrType = null;
   for (const { model, maxTokens } of tries) {
     try {
       const text = await callGroq(model, [{ role: 'user', content: prompt }], maxTokens);
@@ -490,17 +491,21 @@ JSON 스키마:
         const parsed = JSON.parse(text);
         return { ...parsed, generatedAt: new Date().toISOString(), _model: model };
       } catch {
-        console.warn(`[keyword-agent] LLM ${model} JSON 파싱 실패 (${slug}) — 응답 잘림 가능성`);
+        lastErrType = 'parse';
+        console.warn(`[keyword-agent] LLM ${model} JSON 파싱 실패 (${slug})`);
         continue;
       }
     } catch (e) {
       const msg = e.message || '';
+      if (msg.includes('429')) lastErrType = 'rate_limit';
+      else if (msg.includes('413')) lastErrType = 'too_large';
+      else lastErrType = 'other';
       console.warn(`[keyword-agent] LLM ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 100));
-      if (!msg.includes('429') && !msg.includes('413')) break;
+      if (lastErrType === 'other') break;
       await new Promise(r => setTimeout(r, 1500));
     }
   }
-  return null;
+  return { _failure: lastErrType };
 }
 
 // ── 환각 후처리 가드레일 ──────────────────────────────────

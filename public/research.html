@@ -634,7 +634,19 @@ function renderBenchmark(b){
 function renderInsight(d){
   var el = document.getElementById('insightBody');
   if(!d || !d.summary){
-    el.innerHTML = '<div class="empty-card"><div class="ic">🤖</div><h3>인사이트 생성 실패</h3><p>뉴스는 있지만 AI 분석에 실패했습니다.</p></div>';
+    var reason = (d && d._failure) || '';
+    var msg, title;
+    if(reason === 'rate_limit'){
+      title = 'AI 분석 일시 중단';
+      msg = '연속 검색으로 Groq 무료 티어 분당 토큰 한도(30,000) 도달.\n30초~1분 후 다시 시도하면 정상 생성됩니다.\n뉴스/주가/경쟁사 데이터는 정상 표시됩니다.';
+    } else if(reason === 'too_large') {
+      title = '응답 크기 초과';
+      msg = '이 키워드는 정보량이 많아 무료 모델 한도를 초과했습니다.';
+    } else {
+      title = 'AI 분석 일시 실패';
+      msg = '뉴스/주가는 정상이지만 AI 인사이트 생성에 실패했습니다. 다시 시도해주세요.';
+    }
+    el.innerHTML = '<div class="empty-card"><div class="ic">⏱️</div><h3>'+esc(title)+'</h3><p style="white-space:pre-line">'+esc(msg)+'</p><div class="actions"><button class="btn primary" onclick="location.reload()">🔄 다시 시도</button></div></div>';
     return;
   }
   var sentCls = d.sentiment==='bullish'?'bullish':d.sentiment==='bearish'?'bearish':'neutral';

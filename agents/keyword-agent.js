@@ -593,17 +593,13 @@ function sanitizeInsight(insight, articles) {
         .replace(/^(이|이 시나리오가 현실화될|측정 가능한)[^:]*:\s*/, '')
         .trim();
     };
-    insight.scenarios = insight.scenarios.map(sc => {
-      const thesisRaw = stripMeta(sc.thesis);
-      const triggerRaw = stripMeta(sc.trigger);
-      const thesisClean = clean(thesisRaw);
-      const triggerClean = clean(triggerRaw);
-      return {
-        ...sc,
-        thesis: thesisClean || thesisRaw, // 빈 문자열 되면 원본 유지
-        trigger: triggerClean || triggerRaw,
-      };
-    });
+    // 시나리오는 PB 의사결정 근거 — 환각 잔존 위험을 빈 문자열보다 더 싫어함.
+    // 폴백 없이 cleaned 결과 그대로 사용 (가격 환각이면 그 문장 그대로 제거).
+    insight.scenarios = insight.scenarios.map(sc => ({
+      ...sc,
+      thesis: clean(stripMeta(sc.thesis)),
+      trigger: clean(stripMeta(sc.trigger)),
+    }));
   }
   return insight;
 }

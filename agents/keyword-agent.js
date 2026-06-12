@@ -718,7 +718,12 @@ ${typeRules}`;
   const hasCerebras = !!process.env.CEREBRAS_API_KEY;
   const hasTogether = !!process.env.TOGETHER_API_KEY;
   const tries = [
-    ...(hasCerebras ? [{ provider: 'cerebras', model: 'llama3.3-70b', maxTokens: 4000 }] : []),
+    ...(hasCerebras ? [
+      { provider: 'cerebras', model: 'llama3.3-70b', maxTokens: 4000 },
+      { provider: 'cerebras', model: 'llama-3.3-70b', maxTokens: 4000 },
+      { provider: 'cerebras', model: 'llama3.1-8b', maxTokens: 3500 },
+      { provider: 'cerebras', model: 'llama-3.1-8b', maxTokens: 3500 },
+    ] : []),
     ...(hasTogether ? [{ provider: 'together', model: 'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free', maxTokens: 4000 }] : []),
     { provider: 'groq', model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
     { provider: 'groq', model: 'llama-3.1-8b-instant',    maxTokens: 3500 },
@@ -750,8 +755,9 @@ ${typeRules}`;
       else if (msg.includes('413')) lastErrType = 'too_large';
       else lastErrType = 'other';
       console.warn(`[keyword-agent] ${provider} ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 200));
-      if (lastErrType === 'other') break;
-      if (i < tries.length - 1) await new Promise(r => setTimeout(r, 1500));
+      // 모델명 오류(404 model_not_found)면 다음 모델명 시도
+      if (lastErrType === 'other' && !msg.includes('model_not_found')) break;
+      if (i < tries.length - 1) await new Promise(r => setTimeout(r, 800));
     }
   }
   return { _failure: lastErrType, _diag: { hasCerebras, hasTogether, lastErrType, _lastErr } };

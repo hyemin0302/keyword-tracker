@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T06:36:41.526Z",
+  "updatedAt": "2026-06-12T10:57:16.225Z",
   "data": {
     "TSM": {
       "name": "TSMC",
@@ -184,7 +184,7 @@
         "2026-06-11",
         "2026-06-12"
       ],
-      "volume": 27514022,
+      "volume": 34002392,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -209,6 +209,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260612",
+            "foreigner": 2880306,
+            "institution": 3295009,
+            "individual": -5933301,
+            "foreignRatio": "47.63%"
+          },
           {
             "date": "20260611",
             "foreigner": 549645,
@@ -271,31 +278,24 @@
             "institution": 5314304,
             "individual": -4237361,
             "foreignRatio": "48.29%"
-          },
-          {
-            "date": "20260528",
-            "foreigner": -5173125,
-            "institution": -1613562,
-            "individual": 6500347,
-            "foreignRatio": "48.29%"
           }
         ],
         "sum5d": {
-          "foreigner": -10301948,
-          "institution": -11906351
+          "foreigner": -3180798,
+          "institution": -7164844
         },
         "sum10d": {
-          "foreigner": -40149335,
-          "institution": 1969101
+          "foreigner": -32095904,
+          "institution": 6877672
         }
       },
       "consensus": null
     },
     "000660": {
       "name": "SK하이닉스",
-      "px": 2183000,
-      "dayChange": 3.9,
-      "periodChange": 18.96,
+      "px": 2150000,
+      "dayChange": 2.33,
+      "periodChange": 17.17,
       "prices": [
         1835000,
         1976000,
@@ -318,7 +318,7 @@
         2215000,
         2048000,
         2101000,
-        2183000
+        2150000
       ],
       "dates": [
         "2026-05-12",
@@ -344,7 +344,7 @@
         "2026-06-11",
         "2026-06-12"
       ],
-      "volume": 4144843,
+      "volume": 5942053,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -369,6 +369,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260612",
+            "foreigner": 573440,
+            "institution": -270178,
+            "individual": -276904,
+            "foreignRatio": "51.18%"
+          },
           {
             "date": "20260611",
             "foreigner": 260726,
@@ -431,22 +438,15 @@
             "institution": -42513,
             "individual": 473879,
             "foreignRatio": "51.44%"
-          },
-          {
-            "date": "20260528",
-            "foreigner": -784789,
-            "institution": 22893,
-            "individual": 725316,
-            "foreignRatio": "51.50%"
           }
         ],
         "sum5d": {
-          "foreigner": -1400941,
-          "institution": -858567
+          "foreigner": -220641,
+          "institution": -716971
         },
         "sum10d": {
-          "foreigner": -4085079,
-          "institution": 186008
+          "foreigner": -2726850,
+          "institution": -107063
         }
       },
       "consensus": null
@@ -475,7 +475,7 @@
       8.74,
       4.31,
       3.33,
-      9.38
+      8.93
     ],
     "kospi": [
       0,
@@ -499,7 +499,7 @@
       5.94,
       1.15,
       1.58,
-      6.58
+      6.29
     ],
     "sp500": [
       0,

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-12T06:36:25.932Z",
+  "updatedAt": "2026-06-12T10:56:58.985Z",
   "data": {
     "377300": {
       "name": "카카오페이",
-      "px": 44850,
-      "dayChange": 0.11,
-      "periodChange": -22.14,
+      "px": 44650,
+      "dayChange": -0.33,
+      "periodChange": -22.48,
       "prices": [
         57600,
         51100,
@@ -28,7 +28,7 @@
         44150,
         42500,
         44800,
-        44850
+        44650
       ],
       "dates": [
         "2026-05-12",
@@ -54,7 +54,7 @@
         "2026-06-11",
         "2026-06-12"
       ],
-      "volume": 350319,
+      "volume": 360804,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -79,6 +79,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260612",
+            "foreigner": -76953,
+            "institution": 77110,
+            "individual": -2482,
+            "foreignRatio": "27.82%"
+          },
           {
             "date": "20260611",
             "foreigner": -157945,
@@ -141,22 +148,15 @@
             "institution": 27292,
             "individual": -32081,
             "foreignRatio": "27.87%"
-          },
-          {
-            "date": "20260528",
-            "foreigner": -4161,
-            "institution": -15241,
-            "individual": 17867,
-            "foreignRatio": "27.86%"
           }
         ],
         "sum5d": {
-          "foreigner": 45092,
-          "institution": 194624
+          "foreigner": -70126,
+          "institution": 279819
         },
         "sum10d": {
-          "foreigner": 82499,
-          "institution": 230719
+          "foreigner": 9707,
+          "institution": 323070
         }
       },
       "consensus": null
@@ -293,9 +293,9 @@
     },
     "035420": {
       "name": "NAVER",
-      "px": 246500,
-      "dayChange": 10.04,
-      "periodChange": 20.83,
+      "px": 247000,
+      "dayChange": 10.27,
+      "periodChange": 21.08,
       "prices": [
         204000,
         201500,
@@ -318,7 +318,7 @@
         257000,
         227000,
         224000,
-        246500
+        247000
       ],
       "dates": [
         "2026-05-12",
@@ -344,7 +344,7 @@
         "2026-06-11",
         "2026-06-12"
       ],
-      "volume": 5020630,
+      "volume": 5363159,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -369,6 +369,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260612",
+            "foreigner": 654497,
+            "institution": 750508,
+            "individual": -1388624,
+            "foreignRatio": "34.82%"
+          },
           {
             "date": "20260611",
             "foreigner": -183804,
@@ -431,22 +438,15 @@
             "institution": 877348,
             "individual": -1061647,
             "foreignRatio": "36.94%"
-          },
-          {
-            "date": "20260528",
-            "foreigner": -168305,
-            "institution": 88078,
-            "individual": 100610,
-            "foreignRatio": "36.71%"
           }
         ],
         "sum5d": {
-          "foreigner": -309175,
-          "institution": 1290843
+          "foreigner": 493222,
+          "institution": 1905445
         },
         "sum10d": {
-          "foreigner": -3449228,
-          "institution": 3124187
+          "foreigner": -2626426,
+          "institution": 3786617
         }
       },
       "consensus": null
@@ -475,7 +475,7 @@
       -0.57,
       -4.07,
       -3.91,
-      -1.56
+      -1.58
     ],
     "kospi": [
       0,
@@ -499,7 +499,7 @@
       5.94,
       1.15,
       1.58,
-      6.58
+      6.29
     ],
     "sp500": [
       0,

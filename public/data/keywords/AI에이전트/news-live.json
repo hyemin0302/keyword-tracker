@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-06-12T19:35:13.476Z",
-  "count": 16,
+  "updatedAt": "2026-06-12T21:20:05.614Z",
+  "count": 15,
   "stats": {
-    "today": 5,
+    "today": 4,
     "yesterday": 2,
-    "weekAvg": 1.4,
-    "sources": 7,
+    "weekAvg": 1.3,
+    "sources": 5,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "d": "AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "m": "06. 12. PM 09:00",
+      "ts": 1781298008000,
+      "fullText": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark New AgentPerf results from Artificial Analysis show how accelerated computing systems handle real-world agentic workloads, with NVIDIA GB300 NVL72 running up to 20x more agents per megawatt than NVIDIA Hopper. June 12, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA Hopper. Agentic AI is a fundamentally different workload than conversational AI. A single chat completion is a sprint: one large language model (LLM) call, one response. An agent functions more like a relay: It breaks a goal into many steps and keeps going until the task is done. Agents chain together multiple LLM calls and tool calls to gather context, observe, reason and act. That results in dozens to hundreds of LLM calls chained together, each passing growing context to the next, with tool calls like code compile and execution, database search and web browsing at every handoff. The complexity isn’t additive; it’s multiplicative. The distinction matters enormously for performance measurement. Existing AI inference benchmarks measure one LLM call: how fast an LLM responds to a single request and how many simultaneous requests a system can handle. They weren’t designed for agentic workloads, where chained LLM calls, tool call delays and growing context stress accelerated computing systems in fundamentally different ways than a single LLM call ever could. For companies building and deploying agents at scale, it’s important to understand how responsive agents are, how many can be deployed simultaneously an"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "SpaceX Rented Out Computing After Own Teams Had Trouble Using It",
@@ -35,24 +44,6 @@
       "m": "06. 12. PM 04:08",
       "ts": 1781280532000,
       "fullText": ""
-    },
-    {
-      "s": "전자신문",
-      "t": "오픈AI CEO, 방한 전격 연기…“한국은 파트너·협업 계속”",
-      "d": "샘 올트먼 오픈AI 최고경영자(CEO)가 방한을 전격 연기했다. 오픈AI 코리아는 12일 올트먼 CEO가 불가피한 개인 사정으로 한국을 비롯한 아시아 방문 일정을 연기했다고 밝혔다. 올트먼 CEO는 오는 14일 밤 서울을 방문, 15일 오후까지 1박 2일 간 일정을 소화할 예정이었다. 최수연 네이버 대표, 정신아 카카오 대표를 만나 자사 생성형 인공지능(AI) 서비스 '챗GPT' 등 협업을 논의하고 삼성전자 임직원 대상 특강을 진행할 예정이었으",
-      "u": "https://www.etnews.com/20260612000283",
-      "m": "06. 12. AM 07:54",
-      "ts": 1781250852000,
-      "fullText": "SW AI 오픈AI CEO, 방한 전격 연기…“한국은 파트너·협업 계속” 발행일 : 2026-06-12 16:54 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 지난해 2월 방한한 샘 올트먼 오픈AI CEO. 전자신문DB 샘 올트먼 오픈AI 최고경영자(CEO)가 방한을 전격 연기했다. 오픈AI 코리아는 12일 올트먼 CEO가 불가피한 개인 사정으로 한국을 비롯한 아시아 방문 일정을 연기했다고 밝혔다. 올트먼 CEO는 오는 14일 밤 서울을 방문, 15일 오후까지 1박 2일 간 일정을 소화할 예정이었다. 최수연 네이버 대표, 정신아 카카오 대표를 만나 자사 생성형 인공지능(AI) 서비스 '챗GPT' 등 협업을 논의하고 삼성전자 임직원 대상 특강을 진행할 예정이었으나 방한 이틀 전 연기를 결정했다. 오픈AI 코리아는 “올트먼 CEO가 이번 방한을 기대했지만 예정된 일정을 소화하지 못하게 된 점을 매우 안타깝게 생각하고 있다”면서 “가까운 시일 내 다시 한국을 찾아 직접 인사드릴 수 있기를 기대한다”고 설명했다. 또 한국이 오픈AI에 매우 중요한 나라이자 전략적 파트너로, 한국 파트너와 진행 중인 협력은 예정대로 계속 이어질 것이라고 부연했다. 오픈AI 코리아 관계자는 “삼성전자 특강 등 예정된 일정은 모두 연기했다”며 “개인 사정에 따른 것으로 추후 다시 방한 일정을 잡을 계획”이라고 말했다. 박종진 기자 truth@etnews.com"
-    },
-    {
-      "s": "한경 경제",
-      "t": "[속보] 오픈AI 샘 올트먼 방한 연기…\"불가피한 사정\"",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026061235147",
-      "m": "06. 12. AM 07:28",
-      "ts": 1781249326000,
-      "fullText": "산업 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 [속보] 오픈AI 샘 올트먼 방한 연기…\"불가피한 사정\" 입력 2026.06.12 16:28 수정 2026.06.12 16:43 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 한경우 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 사진=AFP 샘 올트먼 오픈AI 최고경영자(CEO)가 14~15일 예정했던 한국 방문을 연기했다. 삼성전자&middot;카카오&middot;네이버 등 국내 주요 기업과의 회동도 미뤄졌다. 오픈AI와 IT 업계에 따르면 오픈AI는 12일 올트먼 CEO의 아시아 방문 일정 연기를 알렸다. 연기 사유는 올트먼 CEO의 개인 사정이다. 방문 대상에는 한국도 포함됐다. 오픈AI 측은 &quot;올트먼 CEO 역시 이번 방한을 기대하고 있었던 만큼 예정된 일정을 소화하지 못하게 된 점을 매우 안타깝게 생각하고 있다&quot;며 &quot;너른 이해를 부탁드린다&quot;고 전했다. 올트먼 CEO는 이번 방한 기간 국내 주요 기업들을 잇따라 만날 예정이었다. 삼성전자에서는 디지털시티에서 열리는 &lsquo;DX 인사이트 토크&rsquo; 행사 참석이 예정돼 있었다. 전영현&middot;노태문 대표이사 등 경영진과의 면담도 계획됐다. 카카오 방문 일정도 있었다. 올트먼 CEO는 판교아지트에서 정신아 대표와 협력 방안을 논의할 예정이었다. 네이버 방문 일정도 별도로 잡혀 있었다. 오픈AI는 한국과의 협력은 그대로 이어진다고 강조했다. 오픈AI 측은 &quot;한국은 오픈AI에 매우 중요한 나라이자 전략적 파트너&quot;라고 밝혔다. 이어 &quot;국내 파트너들과 진행 중인 협력은 예정대로 계속 이어질 것&quot;이라고 했다. 오픈AI는 올트먼 CEO의 재방한 가능성도 언급했다. 한경우 한경닷컴 기자 case@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 한경우 기자 ADVERTISEMENT 관련 뉴스 1 올트먼, 오픈AI IPO 앞두고 위기…머스크 200조 소송에 발목 챗GPT 개발사 오픈AI를 이끄는 샘 올트먼 최고경영자(CEO)가 기업공개(IPO)를 앞두고 리더십 시험대에 올랐다고 월스트리트저널(WSJ)이 3일(현지시간) 보도했다. 일론 머스크 테슬라 CEO가 제기한 200조원... 2026.05.04 11:49 2 올트먼 다음 타깃은…AI 거물들 '살해 계획' 문서 발견 챗GPT를 개발한 인공지능(AI) 기업 오픈AI의 샘 올트먼 최고경영자(CEO) 집에 화염병을 던진 20세 남성이 다른 AI 분야 거물들도 살해할 계획을 세운 것으로 드러났다.13일(현지시간) 미국 주요 언론매체에 ... 2026.04.14 17:43 3 \"반도체·AI 산업 강력\"…샘 올트먼, 한국 시장 확대 방침 방한 중인 챗GPT 개발사 오픈AI의 샘 올트먼 최고경영자(CEO)가 한국 시장 확대 방침을 분명히했다.올트먼 CEO는 4일 서울 더플라자호텔에서 열린 오픈AI의 비공개 워크숍 &#39;빌더 랩&#39;에서 한국 시... 2025.02.04 10:49 ADVERTISEMENT 많이 본 뉴스 1 한 달 만에 주가 900% 띄우더니 '상폐'…개미들 '날벼락' 2026.06.10 15:30 2 배용준·박수진, 싱가포르서 자녀들과 포착…박신혜·최태준과 동반 여행 2026.06.09 09:30 3 외국인도 쓸어담더니…\"65만원 간다\" 전망에 개미들 '들썩' 2026.06.12 06:00 4 '여자 골프 간판' 박현경 실격당했다…거리 측정기 사용 위반 2026.06.11 16:45 5 글로벌 시장 브리핑 인구 6만 마을에 5600명 유입…데이터센터 건설에 주거난 우려 2026.06.11 10:30 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT ADVERTISEMENT"
     },
     {
       "s": "CNBC Tech",
@@ -88,7 +79,7 @@
       "u": "https://www.nbcnews.com/video/openai-files-for-ipo-as-ai-investment-race-intensifies-264760389766",
       "m": "06. 08. PM 10:14",
       "ts": 1780956876000,
-      "fullText": "NBC News NOW Elon Musk becomes first trillionaire after SpaceX IPO"
+      "fullText": "Meet the Press Wrongfully detained Iranian-American journalist pleads for release"
     },
     {
       "s": "NVIDIA공식",

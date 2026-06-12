@@ -137,7 +137,7 @@ function extractTag(xml, tag) {
 
 // ── Google News RSS 전용 파서 ─────────────────────────────
 // title 끝의 " - 매체명"을 출처로 추출. description은 비어있음.
-function parseGoogleRSS(xml) {
+function parseGoogleRSS(xml, lowerCoreKeywords) {
   const items = [];
   const re = /<item[^>]*>([\s\S]*?)<\/item>/gi;
   let m;
@@ -151,7 +151,12 @@ function parseGoogleRSS(xml) {
     const m2 = title.match(/^(.*) - ([^-]+)$/);
     if (m2) { title = m2[1].trim(); if (!sourceTag) src = m2[2].trim(); }
     if (!title) continue;
-    if (isNoisyTitle(title)) continue; // 스포츠/엔터 노이즈 차단
+    if (isNoisyTitle(title)) continue;
+    // 코어 매칭 강제 (있으면): 일회성 이벤트 침투 차단
+    if (lowerCoreKeywords && lowerCoreKeywords.length) {
+      const lowerT = title.toLowerCase();
+      if (!lowerCoreKeywords.some(kw => lowerT.includes(kw))) continue;
+    }
     items.push({
       s: src,
       t: title,
@@ -165,7 +170,7 @@ function parseGoogleRSS(xml) {
 }
 
 // 별칭별로 Google News 키워드 검색. 너무 많이 호출하지 않도록 상위 3개만.
-async function fetchGoogleNewsForAliases(aliases) {
+async function fetchGoogleNewsForAliases(aliases, lowerCoreKeywords) {
   const top = aliases.slice(0, 3);
   const all = [];
   await Promise.allSettled(top.map(async (kw) => {
@@ -173,7 +178,7 @@ async function fetchGoogleNewsForAliases(aliases) {
       const url = `https://news.google.com/rss/search?q=${encodeURIComponent(kw)}&hl=ko&gl=KR&ceid=KR:ko`;
       const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(8000) });
       if (!r.ok) return;
-      const items = parseGoogleRSS(await r.text());
+      const items = parseGoogleRSS(await r.text(), lowerCoreKeywords);
       all.push(...items.slice(0, 30)); // 별칭당 최대 30건만
     } catch {}
   }));
@@ -199,7 +204,7 @@ function isNoisyTitle(title) {
   return false;
 }
 
-function parseRSS(xml, src, lowerKeywords) {
+function parseRSS(xml, src, lowerKeywords, lowerCoreKeywords) {
   const items = [];
   const re = /<item[^>]*>([\s\S]*?)<\/item>/gi;
   let m;
@@ -213,6 +218,10 @@ function parseRSS(xml, src, lowerKeywords) {
     if (isNoisyTitle(title)) continue; // 스포츠/엔터/공익 노이즈 차단
     const lowerText = (title + ' ' + desc).toLowerCase();
     if (!lowerKeywords.some(kw => lowerText.includes(kw))) continue;
+    // 코어 매칭 강제 (있으면): 일회성 이벤트(SpaceX IPO 등)가 인접 별칭으로
+    // 침투하는 걸 막음. coreKeywords 1개라도 본문/제목에 등장해야 통과.
+    if (lowerCoreKeywords && lowerCoreKeywords.length &&
+        !lowerCoreKeywords.some(kw => lowerText.includes(kw))) continue;
     items.push({
       s: src, t: title, d: desc, u: link,
       m: date ? new Date(date).toLocaleString('ko-KR', { month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' }) : '',
@@ -576,6 +585,48 @@ function computeProjection(closes, px) {
 
 // ── LLM 인사이트 생성 (키워드 타입별 분기) ────────────────
 // type: 'person'(인물) | 'company'(기업) | 'sector'(산업 테마, 기본값)
+// ── 뉴스별 1줄 인사이트 (배열로 일괄 분석) ──────────────────
+// 키워드당 LLM 1회 호출로 뉴스 15건의 impact + takeaway 부착.
+// jensen-realtime 스타일: 각 뉴스 카드 안에 "왜 중요한가" 한 줄.
+async function generateNewsInsights(articles, themeName) {
+  if (!articles?.length) return [];
+  if (!process.env.CEREBRAS_API_KEY && !process.env.GROQ_API_KEY) return [];
+  const top = articles.slice(0, 15);
+  const list = top.map((a, i) => `[${i}] ${a.t}${a.d ? ' — ' + a.d.slice(0, 100) : ''}`).join('\n');
+  const prompt = `투자 테마 "${themeName}" 관련 뉴스 ${top.length}건에 대해 각각 한 줄 영향 평가를 JSON 배열로 반환해줘.
+
+뉴스:
+${list}
+
+JSON 스키마: {"items": [{"i": 0, "impact": "positive|negative|neutral", "takeaway": "이 뉴스가 테마/종목에 미치는 영향 한 줄(20~50자)"}, ...]}
+
+규칙:
+- 모든 ${top.length}개 뉴스에 대해 응답.
+- impact는 셋 중 하나만.
+- takeaway는 한국어 한 줄. 뉴스 제목 그대로 반복 금지. "이 뉴스가 왜 중요한가"에 집중.
+- 테마와 직접 관련 없으면 impact: "neutral", takeaway: "테마와 직접 무관" 표시.`;
+
+  try {
+    const caller = process.env.CEREBRAS_API_KEY ? callCerebras : callGroq;
+    const model = process.env.CEREBRAS_API_KEY ? 'gpt-oss-120b' : 'llama-3.1-8b-instant';
+    const text = await caller(model, [{ role: 'user', content: prompt }], 2000);
+    const parsed = JSON.parse(text);
+    const items = Array.isArray(parsed.items) ? parsed.items : [];
+    const result = top.map((a, i) => {
+      const found = items.find(x => x.i === i || x.i === String(i));
+      return {
+        ...a,
+        impact: found?.impact || null,
+        takeaway: found?.takeaway || null,
+      };
+    });
+    return result;
+  } catch (e) {
+    console.warn(`[generateNewsInsights] 실패:`, (e.message || '').slice(0, 80));
+    return top.map(a => ({ ...a }));
+  }
+}
+
 async function generateInsight(slug, nameKo, articles, stockData, type = 'sector', keywordConfig = null) {
   if (!process.env.GROQ_API_KEY || !articles.length) return null;
   const top5 = articles.slice(0, 5).map((a, i) => `[${i+1}] ${a.s}: ${a.t} — ${a.d?.slice(0,100)}`).join('\n');
@@ -926,10 +977,12 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
   const nameKo = name?.ko || slug;
   const keywords = buildKeywordAliases(keywordConfig);
   const lowerKeywords = keywords.map(k => k.toLowerCase());
+  // 코어 매칭: 별칭 매칭 후 *반드시* 등장해야 하는 핵심어. 일회성 빅이벤트 침투 차단.
+  const lowerCoreKeywords = (keywordConfig.coreMatch || []).map(k => k.toLowerCase());
   const dataDir = path.join(ROOT, 'public', 'data', 'keywords', slug);
   if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 
-  console.log(`[keyword-agent] "${nameKo}" 수집 시작 (별칭 ${keywords.length}개)`);
+  console.log(`[keyword-agent] "${nameKo}" 수집 시작 (별칭 ${keywords.length}개${lowerCoreKeywords.length ? `, 코어 ${lowerCoreKeywords.length}개` : ''})`);
 
   // RSS 수집
   const all = [];
@@ -940,7 +993,7 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
         signal: AbortSignal.timeout(7000),
       });
       if (!r.ok) continue;
-      all.push(...parseRSS(await r.text(), src, lowerKeywords));
+      all.push(...parseRSS(await r.text(), src, lowerKeywords, lowerCoreKeywords));
     } catch {}
   }
 
@@ -1013,10 +1066,14 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     return { today, yesterday, weekAvg: +(weekTotal / 7).toFixed(1), sources, heat };
   })();
 
+  // 뉴스별 1줄 인사이트 (impact + takeaway) — LLM 1회 호출
+  const enrichedWithInsights = await generateNewsInsights(enriched, nameKo);
+  const finalItems = enrichedWithInsights.length === enriched.length ? enrichedWithInsights : enriched;
+
   // news-live.json 저장
   fs.writeFileSync(
     path.join(dataDir, 'news-live.json'),
-    JSON.stringify({ updatedAt: new Date().toISOString(), count: enriched.length, stats, items: enriched }, null, 2)
+    JSON.stringify({ updatedAt: new Date().toISOString(), count: finalItems.length, stats, items: finalItems }, null, 2)
   );
 
   // 테마 지수 + 벤치마크 비교 (시장 대비 위치 차트용)
@@ -1292,6 +1349,9 @@ export async function researchKeywordOnDemand(query) {
     ? [primaryTicker, ...peers].filter(Boolean)
     : (type === 'person' ? directTickers.slice(0, 1) : []);
 
+  // on-demand는 coreMatch 정의가 없으므로 그대로 전달 (undefined → 가드 스킵)
+  const lowerCoreKeywords = [];
+
   // 1. 병렬 수집: RSS 16개 + Google News + (ticker 있으면) 주가 + 벤치마크
   const hasTickers = extractedTickers.length > 0;
   const [feedResults, googleNews, stockData, benchmarks] = await Promise.all([
@@ -1299,10 +1359,10 @@ export async function researchKeywordOnDemand(query) {
       try {
         const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(7000) });
         if (!r.ok) return [];
-        return parseRSS(await r.text(), src, lowerKeywords);
+        return parseRSS(await r.text(), src, lowerKeywords, lowerCoreKeywords);
       } catch { return []; }
     })),
-    fetchGoogleNewsForAliases(expandedAliases),
+    fetchGoogleNewsForAliases(expandedAliases, lowerCoreKeywords),
     hasTickers ? fetchStockPrices(extractedTickers, { consensusFor }) : Promise.resolve({}),
     hasTickers ? fetchBenchmarks() : Promise.resolve(null),
   ]);
@@ -1358,6 +1418,10 @@ export async function researchKeywordOnDemand(query) {
   let insight = await generateInsight(q, q, unique, stockData, type, pseudoConfig);
   insight = sanitizeInsight(insight, unique, { extraFacts, validTickers: extractedTickers });
 
+  // 뉴스별 1줄 인사이트 (impact + takeaway)
+  const newsWithInsights = await generateNewsInsights(unique, q);
+  const finalNews = newsWithInsights.length === unique.length ? newsWithInsights : unique;
+
   // 4. 테마 지수 + 벤치마크
   const themeIndex = computeThemeIndex(stockData);
   const benchData = benchmarks && themeIndex.length
@@ -1379,7 +1443,7 @@ export async function researchKeywordOnDemand(query) {
     primaryTicker,
     peers,
     person: personInfluence ? { title: personRole, influence: personInfluence } : null,
-    news: unique,
+    news: finalNews,
     insight,
     stock: hasTickers ? { data: stockData, benchmark: benchData, projection } : null,
   };

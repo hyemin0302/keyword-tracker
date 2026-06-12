@@ -29,6 +29,28 @@ const FEEDS = [
   { url: 'https://feeds.bloomberg.com/technology/news.rss',              src: 'Bloomberg Tech' },
 ];
 
+// ── Cerebras AI 헬퍼 (OpenAI 호환, 무료·고속·카드 불필요) ────
+// 무료 한도: 30 RPM, 14,400 RPD. Llama 3.3 70B / 3.1 8B 무료.
+async function callCerebras(model, messages, maxTokens = 512, jsonMode = true) {
+  const res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${process.env.CEREBRAS_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model,
+      messages,
+      max_tokens: maxTokens,
+      ...(jsonMode ? { response_format: { type: 'json_object' } } : {}),
+      temperature: 0.1,
+    }),
+    signal: AbortSignal.timeout(40000),
+  });
+  if (!res.ok) throw new Error(`Cerebras ${res.status}: ${await res.text()}`);
+  return (await res.json()).choices[0].message.content;
+}
+
 // ── Together AI 헬퍼 (OpenAI 호환, 별도 organization → TPM 풀 독립) ─
 // 무료 모델: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free (60 RPM, 1k RPD)
 async function callTogether(model, messages, maxTokens = 512, jsonMode = true) {
@@ -691,12 +713,12 @@ JSON 스키마:
 - events·capital_flow.signals·key_players는 뉴스 원문에 실제 등장한 것만. 추측·외부 지식 금지. 없으면 빈 배열.
 ${typeRules}`;
 
-  // 폴백 순서:
-  //   Together AI 70B Free (별도 org) → Groq 70B → Groq 8B → Groq 8B축소
-  // Together는 Groq 한도와 완전 독립이라 Groq가 가득 차도 사용 가능.
-  // TOGETHER_API_KEY 미설정 시 Together 시도는 자동 스킵.
+  // 폴백 순서 (provider별 독립 TPM 풀 활용):
+  //   Cerebras 70B (최우선·무료·빠름) → Together 70B Free → Groq 70B → Groq 8B → Groq 8B축소
+  const hasCerebras = !!process.env.CEREBRAS_API_KEY;
   const hasTogether = !!process.env.TOGETHER_API_KEY;
   const tries = [
+    ...(hasCerebras ? [{ provider: 'cerebras', model: 'llama-3.3-70b', maxTokens: 4000 }] : []),
     ...(hasTogether ? [{ provider: 'together', model: 'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free', maxTokens: 4000 }] : []),
     { provider: 'groq', model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
     { provider: 'groq', model: 'llama-3.1-8b-instant',    maxTokens: 3500 },
@@ -706,7 +728,9 @@ ${typeRules}`;
   for (let i = 0; i < tries.length; i++) {
     const { provider, model, maxTokens } = tries[i];
     try {
-      const caller = provider === 'together' ? callTogether : callGroq;
+      const caller = provider === 'cerebras' ? callCerebras
+                   : provider === 'together' ? callTogether
+                   : callGroq;
       const text = await caller(model, [{ role: 'user', content: prompt }], maxTokens);
       try {
         const parsed = JSON.parse(text);
@@ -1082,8 +1106,15 @@ async function expandKeywordContext(query) {
   } catch {}
   const krCompanyList = Object.keys(krNameToCode);
 
-  // Together 우선 → Groq 폴백 (TPM 풀 독립)
+  // Cerebras → Together → Groq 순 (각 provider TPM 풀 독립)
   const tryCall = async (messages, maxTokens) => {
+    if (process.env.CEREBRAS_API_KEY) {
+      try {
+        return await callCerebras('llama-3.3-70b', messages, maxTokens);
+      } catch (e) {
+        console.warn('[expandKeywordContext] Cerebras 실패, 폴백:', (e.message||'').slice(0, 80));
+      }
+    }
     if (process.env.TOGETHER_API_KEY) {
       try {
         return await callTogether('meta-llama/Llama-3.3-70B-Instruct-Turbo-Free', messages, maxTokens);

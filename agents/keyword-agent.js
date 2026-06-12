@@ -725,6 +725,7 @@ ${typeRules}`;
     { provider: 'groq', model: 'llama-3.1-8b-instant',    maxTokens: 2500 },
   ];
   let lastErrType = null;
+  let _lastErr = null;
   for (let i = 0; i < tries.length; i++) {
     const { provider, model, maxTokens } = tries[i];
     try {
@@ -744,15 +745,16 @@ ${typeRules}`;
       }
     } catch (e) {
       const msg = e.message || '';
+      _lastErr = `${provider}:${model} → ${msg.slice(0, 200)}`;
       if (msg.includes('429')) lastErrType = 'rate_limit';
       else if (msg.includes('413')) lastErrType = 'too_large';
       else lastErrType = 'other';
-      console.warn(`[keyword-agent] ${provider} ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 100));
+      console.warn(`[keyword-agent] ${provider} ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 200));
       if (lastErrType === 'other') break;
       if (i < tries.length - 1) await new Promise(r => setTimeout(r, 1500));
     }
   }
-  return { _failure: lastErrType, _diag: { hasCerebras, hasTogether, lastErrType } };
+  return { _failure: lastErrType, _diag: { hasCerebras, hasTogether, lastErrType, _lastErr } };
 }
 
 // ── 환각 후처리 가드레일 ──────────────────────────────────

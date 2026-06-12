@@ -718,7 +718,7 @@ ${typeRules}`;
   const hasCerebras = !!process.env.CEREBRAS_API_KEY;
   const hasTogether = !!process.env.TOGETHER_API_KEY;
   const tries = [
-    ...(hasCerebras ? [{ provider: 'cerebras', model: 'llama-3.3-70b', maxTokens: 4000 }] : []),
+    ...(hasCerebras ? [{ provider: 'cerebras', model: 'llama3.3-70b', maxTokens: 4000 }] : []),
     ...(hasTogether ? [{ provider: 'together', model: 'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free', maxTokens: 4000 }] : []),
     { provider: 'groq', model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
     { provider: 'groq', model: 'llama-3.1-8b-instant',    maxTokens: 3500 },
@@ -1113,7 +1113,7 @@ async function expandKeywordContext(query) {
   const tryCall = async (messages, maxTokens) => {
     if (process.env.CEREBRAS_API_KEY) {
       try {
-        return await callCerebras('llama-3.3-70b', messages, maxTokens);
+        return await callCerebras('llama3.3-70b', messages, maxTokens);
       } catch (e) {
         console.warn('[expandKeywordContext] Cerebras 실패, 폴백:', (e.message||'').slice(0, 80));
       }

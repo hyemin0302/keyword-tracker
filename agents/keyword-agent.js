@@ -719,10 +719,8 @@ ${typeRules}`;
   const hasTogether = !!process.env.TOGETHER_API_KEY;
   const tries = [
     ...(hasCerebras ? [
-      { provider: 'cerebras', model: 'llama3.3-70b', maxTokens: 4000 },
-      { provider: 'cerebras', model: 'llama-3.3-70b', maxTokens: 4000 },
-      { provider: 'cerebras', model: 'llama3.1-8b', maxTokens: 3500 },
-      { provider: 'cerebras', model: 'llama-3.1-8b', maxTokens: 3500 },
+      { provider: 'cerebras', model: 'gpt-oss-120b', maxTokens: 4000 },
+      { provider: 'cerebras', model: 'zai-glm-4.7', maxTokens: 4000 },
     ] : []),
     ...(hasTogether ? [{ provider: 'together', model: 'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free', maxTokens: 4000 }] : []),
     { provider: 'groq', model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
@@ -1119,7 +1117,7 @@ async function expandKeywordContext(query) {
   const tryCall = async (messages, maxTokens) => {
     if (process.env.CEREBRAS_API_KEY) {
       try {
-        return await callCerebras('llama3.3-70b', messages, maxTokens);
+        return await callCerebras('gpt-oss-120b', messages, maxTokens);
       } catch (e) {
         console.warn('[expandKeywordContext] Cerebras 실패, 폴백:', (e.message||'').slice(0, 80));
       }

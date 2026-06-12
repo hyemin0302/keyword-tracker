@@ -29,6 +29,28 @@ const FEEDS = [
   { url: 'https://feeds.bloomberg.com/technology/news.rss',              src: 'Bloomberg Tech' },
 ];
 
+// ── Together AI 헬퍼 (OpenAI 호환, 별도 organization → TPM 풀 독립) ─
+// 무료 모델: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free (60 RPM, 1k RPD)
+async function callTogether(model, messages, maxTokens = 512, jsonMode = true) {
+  const res = await fetch('https://api.together.xyz/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${process.env.TOGETHER_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model,
+      messages,
+      max_tokens: maxTokens,
+      ...(jsonMode ? { response_format: { type: 'json_object' } } : {}),
+      temperature: 0.1,
+    }),
+    signal: AbortSignal.timeout(40000),
+  });
+  if (!res.ok) throw new Error(`Together ${res.status}: ${await res.text()}`);
+  return (await res.json()).choices[0].message.content;
+}
+
 // ── Groq API 헬퍼 ──────────────────────────────────────────
 async function callGroq(model, messages, maxTokens = 512, jsonMode = true) {
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
@@ -670,25 +692,28 @@ JSON 스키마:
 ${typeRules}`;
 
   // 폴백 순서:
-  //   70B(429 흔함) → 8B(주력, TPM 30k) → 8B 축소(413 대비)
-  // 같은 모델 재시도 없이 *즉시 다음 모델로* 폴백. 429라도 다음 모델은 별도 TPM 풀.
-  // 다음 모델로 넘어가는 사이만 짧게 sleep(1.5초).
+  //   Together AI 70B Free (별도 org) → Groq 70B → Groq 8B → Groq 8B축소
+  // Together는 Groq 한도와 완전 독립이라 Groq가 가득 차도 사용 가능.
+  // TOGETHER_API_KEY 미설정 시 Together 시도는 자동 스킵.
+  const hasTogether = !!process.env.TOGETHER_API_KEY;
   const tries = [
-    { model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
-    { model: 'llama-3.1-8b-instant',    maxTokens: 3500 },
-    { model: 'llama-3.1-8b-instant',    maxTokens: 2500 },
+    ...(hasTogether ? [{ provider: 'together', model: 'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free', maxTokens: 4000 }] : []),
+    { provider: 'groq', model: 'llama-3.3-70b-versatile', maxTokens: 4000 },
+    { provider: 'groq', model: 'llama-3.1-8b-instant',    maxTokens: 3500 },
+    { provider: 'groq', model: 'llama-3.1-8b-instant',    maxTokens: 2500 },
   ];
   let lastErrType = null;
   for (let i = 0; i < tries.length; i++) {
-    const { model, maxTokens } = tries[i];
+    const { provider, model, maxTokens } = tries[i];
     try {
-      const text = await callGroq(model, [{ role: 'user', content: prompt }], maxTokens);
+      const caller = provider === 'together' ? callTogether : callGroq;
+      const text = await caller(model, [{ role: 'user', content: prompt }], maxTokens);
       try {
         const parsed = JSON.parse(text);
-        return { ...parsed, generatedAt: new Date().toISOString(), _model: model };
+        return { ...parsed, generatedAt: new Date().toISOString(), _model: `${provider}:${model}` };
       } catch {
         lastErrType = 'parse';
-        console.warn(`[keyword-agent] LLM ${model} JSON 파싱 실패 (${slug})`);
+        console.warn(`[keyword-agent] ${provider} ${model} JSON 파싱 실패 (${slug})`);
         if (i < tries.length - 1) await new Promise(r => setTimeout(r, 1500));
         continue;
       }
@@ -697,9 +722,8 @@ ${typeRules}`;
       if (msg.includes('429')) lastErrType = 'rate_limit';
       else if (msg.includes('413')) lastErrType = 'too_large';
       else lastErrType = 'other';
-      console.warn(`[keyword-agent] LLM ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 100));
+      console.warn(`[keyword-agent] ${provider} ${model}(${maxTokens}) 실패 (${slug}):`, msg.slice(0, 100));
       if (lastErrType === 'other') break;
-      // 같은 모델 재시도 X, 즉시 다음 모델로 (다른 TPM 풀). 짧은 sleep만.
       if (i < tries.length - 1) await new Promise(r => setTimeout(r, 1500));
     }
   }
@@ -1058,8 +1082,20 @@ async function expandKeywordContext(query) {
   } catch {}
   const krCompanyList = Object.keys(krNameToCode);
 
+  // Together 우선 → Groq 폴백 (TPM 풀 독립)
+  const tryCall = async (messages, maxTokens) => {
+    if (process.env.TOGETHER_API_KEY) {
+      try {
+        return await callTogether('meta-llama/Llama-3.3-70B-Instruct-Turbo-Free', messages, maxTokens);
+      } catch (e) {
+        console.warn('[expandKeywordContext] Together 실패, Groq 폴백:', (e.message||'').slice(0, 80));
+      }
+    }
+    return callGroq('llama-3.1-8b-instant', messages, maxTokens);
+  };
+
   try {
-    const text = await callGroq('llama-3.1-8b-instant', [{
+    const text = await tryCall([{
       role: 'user',
       content: `투자 키워드 "${query}"에 대해 키워드 타입, 뉴스 검색용 별칭, 관련 상장사를 JSON으로 반환해줘.
 

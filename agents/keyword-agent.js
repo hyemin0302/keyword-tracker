@@ -732,6 +732,7 @@ ${typeRules}`;
                    : provider === 'together' ? callTogether
                    : callGroq;
       const text = await caller(model, [{ role: 'user', content: prompt }], maxTokens);
+      console.log(`[gen] ${provider}:${model} 성공 (응답 ${text.length}자)`);
       try {
         const parsed = JSON.parse(text);
         return { ...parsed, generatedAt: new Date().toISOString(), _model: `${provider}:${model}` };
@@ -751,7 +752,7 @@ ${typeRules}`;
       if (i < tries.length - 1) await new Promise(r => setTimeout(r, 1500));
     }
   }
-  return { _failure: lastErrType };
+  return { _failure: lastErrType, _diag: { hasCerebras, hasTogether, lastErrType } };
 }
 
 // ── 환각 후처리 가드레일 ──────────────────────────────────

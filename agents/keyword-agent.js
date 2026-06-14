@@ -606,25 +606,36 @@ JSON 스키마: {"items": [{"i": 0, "impact": "positive|negative|neutral", "take
 - takeaway는 한국어 한 줄. 뉴스 제목 그대로 반복 금지. "이 뉴스가 왜 중요한가"에 집중.
 - 테마와 직접 관련 없으면 impact: "neutral", takeaway: "테마와 직접 무관" 표시.`;
 
-  try {
-    const caller = process.env.CEREBRAS_API_KEY ? callCerebras : callGroq;
-    const model = process.env.CEREBRAS_API_KEY ? 'gpt-oss-120b' : 'llama-3.1-8b-instant';
-    const text = await caller(model, [{ role: 'user', content: prompt }], 2000);
-    const parsed = JSON.parse(text);
-    const items = Array.isArray(parsed.items) ? parsed.items : [];
-    const result = top.map((a, i) => {
-      const found = items.find(x => x.i === i || x.i === String(i));
-      return {
-        ...a,
-        impact: found?.impact || null,
-        takeaway: found?.takeaway || null,
-      };
-    });
-    return result;
-  } catch (e) {
-    console.warn(`[generateNewsInsights] 실패:`, (e.message || '').slice(0, 80));
-    return top.map(a => ({ ...a }));
+  // Cerebras → Groq 순. 429/parse 실패 시 다음 provider로 폴백.
+  // 호출 전 sleep 2초 — Cerebras RPM 30 한도 분산.
+  await new Promise(r => setTimeout(r, 2000));
+  const providers = [
+    ...(process.env.CEREBRAS_API_KEY ? [{ caller: callCerebras, model: 'gpt-oss-120b' }] : []),
+    ...(process.env.GROQ_API_KEY ? [{ caller: callGroq, model: 'llama-3.3-70b-versatile' }] : []),
+    ...(process.env.GROQ_API_KEY ? [{ caller: callGroq, model: 'llama-3.1-8b-instant' }] : []),
+  ];
+  for (let i = 0; i < providers.length; i++) {
+    const { caller, model } = providers[i];
+    try {
+      const text = await caller(model, [{ role: 'user', content: prompt }], 3500);
+      const parsed = JSON.parse(text);
+      const items = Array.isArray(parsed.items) ? parsed.items : [];
+      const result = top.map((a, idx) => {
+        const found = items.find(x => x.i === idx || x.i === String(idx));
+        return {
+          ...a,
+          impact: found?.impact || null,
+          takeaway: found?.takeaway || null,
+        };
+      });
+      return result;
+    } catch (e) {
+      const msg = (e.message || '').slice(0, 80);
+      console.warn(`[generateNewsInsights] ${model} 실패:`, msg);
+      if (i < providers.length - 1) await new Promise(r => setTimeout(r, 1500));
+    }
   }
+  return top.map(a => ({ ...a }));
 }
 
 async function generateInsight(slug, nameKo, articles, stockData, type = 'sector', keywordConfig = null) {

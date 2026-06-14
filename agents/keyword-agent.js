@@ -608,8 +608,9 @@ JSON 스키마: {"items": [{"i": 0, "impact": "positive|negative|neutral", "take
 - 테마와 직접 관련 없으면 impact: "neutral", takeaway: "테마와 직접 무관" 표시.`;
 
   // Cerebras → Groq 순. 429/parse 실패 시 다음 provider로 폴백.
-  // 호출 전 sleep 2초 — Cerebras RPM 30 한도 분산.
-  await new Promise(r => setTimeout(r, 2000));
+  // 호출 전 sleep 5초 — generateInsight 직후 같은 키워드에서 두 번째 LLM 호출이
+  // Cerebras RPM 30 한도(2초 간격)에 걸리는 걸 방지.
+  await new Promise(r => setTimeout(r, 5000));
   const providers = [
     ...(process.env.CEREBRAS_API_KEY ? [{ caller: callCerebras, model: 'gpt-oss-120b' }] : []),
     ...(process.env.GROQ_API_KEY ? [{ caller: callGroq, model: 'llama-3.3-70b-versatile' }] : []),
@@ -633,7 +634,7 @@ JSON 스키마: {"items": [{"i": 0, "impact": "positive|negative|neutral", "take
     } catch (e) {
       const msg = (e.message || '').slice(0, 80);
       console.warn(`[generateNewsInsights] ${model} 실패:`, msg);
-      if (i < providers.length - 1) await new Promise(r => setTimeout(r, 1500));
+      if (i < providers.length - 1) await new Promise(r => setTimeout(r, 3000));
     }
   }
   return top.map(a => ({ ...a }));

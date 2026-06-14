@@ -591,8 +591,9 @@ function computeProjection(closes, px) {
 async function generateNewsInsights(articles, themeName) {
   if (!articles?.length) return [];
   if (!process.env.CEREBRAS_API_KEY && !process.env.GROQ_API_KEY) return [];
-  const top = articles.slice(0, 15);
-  const list = top.map((a, i) => `[${i}] ${a.t}${a.d ? ' — ' + a.d.slice(0, 100) : ''}`).join('\n');
+  // 뉴스 수·desc 길이를 줄여 Cerebras context(4k) 안전 확보
+  const top = articles.slice(0, 10);
+  const list = top.map((a, i) => `[${i}] ${a.t}${a.d ? ' — ' + a.d.slice(0, 60) : ''}`).join('\n');
   const prompt = `투자 테마 "${themeName}" 관련 뉴스 ${top.length}건에 대해 각각 한 줄 영향 평가를 JSON 배열로 반환해줘.
 
 뉴스:

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T12:24:46.766Z",
+  "updatedAt": "2026-06-14T14:42:15.334Z",
   "related": [
     {
       "slug": "젠슨황",
@@ -42,55 +42,107 @@
       "overlap": 1
     }
   ],
-  "summary": "현재 제공된 뉴스에서는 반도체 장비 테마와 직접 관련된 내용이 없습니다.",
+  "summary": "AI 투자 확대와 대형 IPO가 기술 시장에 활기를 불어넣고 있다. 반도체 장비 산업에 직접적인 뉴스는 없지만, AI 수요 증가와 자본시장 분위기가 간접적인 영향을 미칠 가능성이 있다.",
   "sentiment": "neutral",
-  "key_drivers": [],
-  "watch_points": [],
-  "risks": [],
-  "events": [],
-  "key_players": [],
+  "key_drivers": [
+    "AI 투자 확대",
+    "대형 IPO 시장 활황"
+  ],
+  "watch_points": [
+    "SpaceX IPO 진행 상황",
+    "AI 모델 안전 규제 동향",
+    "World Cup 가격 반발 여파"
+  ],
+  "risks": [
+    "AI 안전 규제 강화 위험",
+    "대형 IPO 과열에 따른 변동성"
+  ],
+  "events": [
+    {
+      "date": "TBD",
+      "title": "SpaceX IPO",
+      "impact": "positive"
+    },
+    {
+      "date": "TBD",
+      "title": "Anthropic Fable 모델 출시 및 안전 규제 논란",
+      "impact": "negative"
+    }
+  ],
+  "key_players": [
+    "SpaceX",
+    "Google",
+    "Anthropic"
+  ],
   "outlook": {
     "short_term": {
-      "thesis": "관련 뉴스 없음",
-      "upside": "관련 뉴스 없음",
-      "downside": "관련 뉴스 없음"
+      "thesis": "다음 1~2주 동안 대형 IPO와 AI 모델 출시가 시장 분위기를 좌우한다. SpaceX IPO가 성공하면 기술주 전반에 자금이 유입될 가능성이 있다. Anthropic의 안전 규제 논란은 AI 관련 장비 수요에 부정적 시그널을 줄 수 있다. 반도체 장비 기업은 직접적인 뉴스가 없으나, 투자 심리 변동에 민감할 수 있다.",
+      "upside": "SpaceX IPO가 과대청약을 기록하고, AI 투자 확대가 지속되면 장비 기업에 긍정적 흐름이 형성된다.",
+      "downside": "AI 안전 규제 강화와 IPO 과열에 따른 시장 조정이 발생하면 장비 기업 주가가 하락할 수 있다."
     },
     "mid_term": {
-      "thesis": "관련 뉴스 없음",
-      "upside": "관련 뉴스 없음",
-      "downside": "관련 뉴스 없음"
+      "thesis": "1~3개월 내 AI 기술 채택이 확대되면서 반도체 장비 수요가 점진적으로 회복될 전망이다. 정책 측면에서는 미국과 EU가 AI 인프라 지원을 논의하고 있어 장비 기업에 장기적인 투자 여력이 늘어날 수 있다. 그러나 대형 IPO 이후 시장 변동성이 지속될 경우 자금 흐름이 불안정해질 위험이 있다. 반도체 장비 기업은 현재 가격 수준에서 변동성을 관찰해야 한다.",
+      "upside": "AI 인프라 투자 확대와 정책 지원이 구체화되면 장비 기업 매출이 크게 증가한다.",
+      "downside": "AI 규제 강화와 시장 변동성 지속이 장비 기업 실적을 압박한다."
     },
     "long_term": {
-      "thesis": "관련 뉴스 없음",
-      "upside": "관련 뉴스 없음",
-      "downside": "관련 뉴스 없음"
+      "thesis": "6~12개월 동안 AI와 고성능 컴퓨팅 수요가 지속적으로 증가하면서 반도체 장비 시장은 구조적 성장세를 보일 것이다. 기술 복잡도와 고도화된 장비에 대한 진입 장벽이 높아 기존 기업들의 시장 점유율이 강화될 전망이다. 글로벌 자본시장의 대형 IPO 흐름은 장비 기업에 대한 투자 인식을 확대할 가능성이 있다. 그러나 규제 환경 변화와 공급망 리스크가 장기 성장에 변수를 제공한다.",
+      "upside": "AI와 고성능 컴퓨팅 수요가 급증하고, 정책 지원이 지속되면 시장 규모가 크게 확대된다.",
+      "downcase": "규제 강화와 공급망 차질이 장기 성장에 제동을 걸 수 있다."
     }
   },
   "capital_flow": {
-    "summary": "관련 뉴스 없음",
+    "summary": "관련 뉴스에 직접적인 자금 흐름 언급 없음.",
     "signals": []
   },
-  "scenarios": [],
+  "scenarios": [
+    {
+      "case": "기본(Base)",
+      "probability": 60,
+      "thesis": "SpaceX IPO 청약이 예상보다 반면 청약이 미달이면 시장 변동성이 확대될 수 있다.",
+      "trigger": "",
+      "watch_period": "1~2주"
+    },
+    {
+      "case": "강세(Bull)",
+      "probability": 20,
+      "thesis": "Anthropic이 AI 모델 안전 규제를 완화한다는 발표가 나오면 AI 투자 심리가 회복되어 장비 수요가 급증할 가능성이 있다. 이는 반도체 장비 기업 주가를 크게 끌어올릴 수 있다.",
+      "trigger": "Anthropic AI 모델 안전 규제 완화 발표",
+      "watch_period": "분기"
+    },
+    {
+      "case": "약세(Bear)",
+      "probability": 20,
+      "thesis": "World Cup 가격 반발으로 소비자 지출이 감소하면 전반적인 IT 투자 여력이 축소되어 장비 기업 매출에 부정적 영향을 미칠 수 있다.",
+      "trigger": "World Cup 가격 반발으로 인한 소비자 지출 감소",
+      "watch_period": "분기"
+    }
+  ],
   "pb_perspective": {
-    "valuation_assessment": "관련 뉴스 없음",
-    "momentum_signals": "관련 뉴스 없음",
-    "fundamental_strength": "관련 뉴스 없음",
-    "key_monitors": [],
-    "position_sizing_view": "관련 뉴스 없음"
+    "valuation_assessment": "관련 뉴스에 PER·PBR 등 평가 지표 언급이 없으며, 가격 수준만 제공된다.",
+    "momentum_signals": "관련 뉴스에 외인·기관 수급이나 모멘텀에 대한 언급이 없다.",
+    "fundamental_strength": "관련 뉴스에 성장·마진·재무 안정성에 대한 구체적 내용이 없다.",
+    "key_monitors": [
+      "SpaceX IPO 청약 규모",
+      "Anthropic AI 모델 안전 규제",
+      "World Cup 가격 변동",
+      "AI 투자 동향"
+    ],
+    "position_sizing_view": "Core 포지션으로 접근하기는 어려우며, Satellite 형태로 제한적 비중을 유지하는 것이 바람직하다."
   },
   "value_chain": {
     "upstream": [
+      "LRCX",
       "AMAT",
-      "KLAC",
-      "LRCX"
+      "KLAC"
     ],
-    "midstream": [
+    "midstream": [],
+    "downstream": [
       "000660"
-    ],
-    "downstream": []
+    ]
   },
   "policy_tracker": [],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-06-14T12:24:46.734Z",
+  "generatedAt": "2026-06-14T14:42:15.239Z",
   "_model": "cerebras:gpt-oss-120b"
 }

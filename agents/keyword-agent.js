@@ -697,7 +697,12 @@ async function generateInsight(slug, nameKo, articles, stockData, type = 'sector
 - statements[].tickers는 제공된 관련 종목 코드 중에서만 선택.`,
     company: `- pb_perspective의 talking_point_holders / talking_point_prospects는 반드시 채울 것. PB가 고객에게 그대로 읽어줄 완성형 문장으로.`,
     sector: `- value_chain은 반드시 채울 것. 다음 종목 코드를 빠짐없이 upstream/midstream/downstream 중 하나로 분류하라 (새 종목 추가 금지, 애매하면 midstream): ${Object.keys(stockData).join(', ') || '없음'}
-- policy_tracker는 뉴스 원문에 등장한 정책·규제·보조금만. 없으면 빈 배열. 최대 5개.`,
+- policy_tracker 매칭 규칙 (Closed-set 우선 + 자유 추출 보조):
+  ${(keywordConfig?.policyHints?.length) ? `① 정책 사전: [${keywordConfig.policyHints.join(', ')}]
+  → 위 사전 항목이 *뉴스 본문 또는 제목에 명시적·암시적으로 언급*되었다면 policy_tracker에 우선 포함 (title은 사전 항목명을 그대로 사용).` : ''}
+  ② 사전에 없더라도 뉴스에 정책 시그널(법·규제·보조금·관세·세제·인증·제재·승인·고시·EO·Executive Order 등)이 *명시적으로 등장*하면 추가 추출 허용.
+  ③ 위 ①·② 조건에 해당하지 않으면 빈 배열. 추측·일반 지식 기반 생성 금지.
+  ④ 최대 5개. region은 KR/US/EU/CN/글로벌 중 하나, stance는 supportive/restrictive/neutral.`,
   }[type];
 
   const prompt = `${subjectLabel} "${nameKo}" 관련 뉴스·주가를 분석해 한국어 JSON으로 반환해줘. 오늘은 ${today}.

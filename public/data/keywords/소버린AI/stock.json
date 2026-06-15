@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T03:42:07.410Z",
+  "updatedAt": "2026-06-15T10:02:18.116Z",
   "data": {
     "NVDA": {
       "name": "엔비디아",
@@ -68,9 +68,9 @@
     },
     "035420": {
       "name": "NAVER",
-      "px": 250500,
-      "dayChange": 1.42,
-      "periodChange": 23.1,
+      "px": 248000,
+      "dayChange": 0.4,
+      "periodChange": 21.87,
       "prices": [
         203500,
         200000,
@@ -91,7 +91,7 @@
         227000,
         224000,
         247000,
-        250500
+        248000
       ],
       "dates": [
         "2026-05-15",
@@ -115,16 +115,16 @@
         "2026-06-12",
         "2026-06-15"
       ],
-      "volume": 1341099,
+      "volume": 2001006,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "39조 4,538억",
-        "per": "21.83배",
-        "pbr": "1.28배",
-        "cnsPer": "20.31배",
-        "divYield": "1.05%",
+        "marketCap": "38조 9,047억",
+        "per": "21.53배",
+        "pbr": "1.26배",
+        "cnsPer": "20.03배",
+        "divYield": "1.06%",
         "foreignRatio": "35.10%",
         "high52w": "308,500",
         "low52w": "190,800",
@@ -140,6 +140,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260615",
+            "foreigner": -69257,
+            "institution": -19191,
+            "individual": 116599,
+            "foreignRatio": "35.06%"
+          },
           {
             "date": "20260612",
             "foreigner": 654497,
@@ -202,31 +209,24 @@
             "institution": 633251,
             "individual": 567534,
             "foreignRatio": "35.95%"
-          },
-          {
-            "date": "20260529",
-            "foreigner": 161395,
-            "institution": 877348,
-            "individual": -1061647,
-            "foreignRatio": "36.94%"
           }
         ],
         "sum5d": {
-          "foreigner": 493222,
-          "institution": 1905445
+          "foreigner": 98825,
+          "institution": 459035
         },
         "sum10d": {
-          "foreigner": -2626426,
-          "institution": 3786617
+          "foreigner": -2857078,
+          "institution": 2890078
         }
       },
       "consensus": null
     },
     "017670": {
       "name": "SK텔레콤",
-      "px": 105000,
-      "dayChange": 1.94,
-      "periodChange": 3.65,
+      "px": 105400,
+      "dayChange": 2.33,
+      "periodChange": 4.05,
       "prices": [
         101300,
         100500,
@@ -247,7 +247,7 @@
         105700,
         100000,
         103000,
-        105000
+        105400
       ],
       "dates": [
         "2026-05-15",
@@ -271,15 +271,15 @@
         "2026-06-12",
         "2026-06-15"
       ],
-      "volume": 566582,
+      "volume": 1019998,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "22조 7,033억",
-        "per": "61.96배",
+        "marketCap": "22조 6,389억",
+        "per": "61.78배",
         "pbr": "1.69배",
-        "cnsPer": "18.68배",
+        "cnsPer": "18.63배",
         "divYield": "N/A",
         "foreignRatio": "75.33%",
         "high52w": "140,300",
@@ -296,6 +296,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260615",
+            "foreigner": 37888,
+            "institution": 32938,
+            "individual": -70264,
+            "foreignRatio": "36.93%"
+          },
           {
             "date": "20260612",
             "foreigner": 178696,
@@ -358,22 +365,15 @@
             "institution": -229279,
             "individual": 953104,
             "foreignRatio": "38.67%"
-          },
-          {
-            "date": "20260529",
-            "foreigner": -188643,
-            "institution": 126504,
-            "individual": 57355,
-            "foreignRatio": "39.26%"
           }
         ],
         "sum5d": {
-          "foreigner": -1221942,
-          "institution": 348367
+          "foreigner": -332416,
+          "institution": 257104
         },
         "sum10d": {
-          "foreigner": -4315125,
-          "institution": 2401
+          "foreigner": -4088594,
+          "institution": -91165
         }
       },
       "consensus": null
@@ -400,7 +400,7 @@
       2.24,
       0.39,
       5.08,
-      5.17
+      4.89
     ],
     "kospi": [
       0,
@@ -422,7 +422,7 @@
       3.17,
       3.61,
       8.41,
-      14.48
+      14.05
     ],
     "sp500": [
       0,

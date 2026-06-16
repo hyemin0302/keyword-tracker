@@ -716,6 +716,9 @@ async function generateInsight(slug, nameKo, articles, stockData, type = 'sector
   },
   "policy_tracker": [
     { "date": "YYYY-MM-DD 또는 null", "title": "정책·규제·보조금 뉴스 요약 1문장", "region": "KR|US|EU|CN|글로벌", "stance": "supportive|restrictive|neutral" }
+  ],
+  "sector_kpis": [
+    { "name": "지표명 (예시 텍스트 그대로 출력 금지)", "value": "뉴스에서 확인된 정량/정성 값 또는 \\"[확인 필요]\\"", "source": "뉴스 매체명 또는 \\"[확인 필요]\\"", "trend": "up|down|flat|unknown" }
   ]`,
   }[type];
 
@@ -724,7 +727,8 @@ async function generateInsight(slug, nameKo, articles, stockData, type = 'sector
 - statements[].tickers는 제공된 관련 종목 코드 중에서만 선택.`,
     company: `- pb_perspective의 talking_point_holders / talking_point_prospects는 반드시 채울 것. PB가 고객에게 그대로 읽어줄 완성형 문장으로.`,
     sector: `- value_chain은 반드시 채울 것. 다음 종목 코드를 빠짐없이 upstream/midstream/downstream 중 하나로 분류하라 (새 종목 추가 금지, 애매하면 midstream): ${Object.keys(stockData).join(', ') || '없음'}
-${(keywordConfig?.valueChainHints?.length) ? `  분류 가이드 (필수 적용): ${keywordConfig.valueChainHints.join(' / ')}\n` : ''}- policy_tracker: 뉴스에 등장한 정책·규제·보조금·법안·관세·인증·제재·승인 등을 추출. 최대 5개.${(keywordConfig?.policyHints?.length) ? ` 참고 정책 사전(뉴스에 일부만 언급돼도 매칭 OK): [${keywordConfig.policyHints.join(', ')}]. 사전 외라도 뉴스에 정책 단어가 명시되면 자유 추가. 없으면 빈 배열.` : ' 없으면 빈 배열.'}`,
+${(keywordConfig?.valueChainHints?.length) ? `  분류 가이드 (필수 적용): ${keywordConfig.valueChainHints.join(' / ')}\n` : ''}- policy_tracker: 뉴스에 등장한 정책·규제·보조금·법안·관세·인증·제재·승인 등을 추출. 최대 5개.${(keywordConfig?.policyHints?.length) ? ` 참고 정책 사전(뉴스에 일부만 언급돼도 매칭 OK): [${keywordConfig.policyHints.join(', ')}]. 사전 외라도 뉴스에 정책 단어가 명시되면 자유 추가. 없으면 빈 배열.` : ' 없으면 빈 배열.'}
+- sector_kpis: 이 섹터의 *결정적 지표(GICS/WICS 기반)* 슬롯. ${(keywordConfig?.sectorKpis?.length) ? `다음 ${keywordConfig.sectorKpis.length}개 지표를 *반드시* 모두 채울 것 (지표명은 그대로 유지): [${keywordConfig.sectorKpis.map(k => k.name).join(', ')}]. 각 지표의 value는 뉴스에서 *명시적으로 확인된 정량 수치/방향*만. 뉴스에 없으면 value는 "[확인 필요]", source도 "[확인 필요]", trend는 "unknown". 절대 뉴스 헤드라인을 요약하거나 지시문/예시 텍스트(매주 모니터/3~4개 등)를 그대로 출력하지 말 것. 슬롯-우선: 지표명 먼저, 값은 뉴스에 있으면 채우고 없으면 [확인 필요].` : '빈 배열.'}`,
   }[type];
 
   const prompt = `${subjectLabel} "${nameKo}" 관련 뉴스·주가를 분석해 한국어 JSON으로 반환해줘. 오늘은 ${today}.
@@ -777,7 +781,7 @@ JSON 스키마:
     "valuation_assessment": "PER/PBR + 동종업계/과거 대비 평가 2~3문장",
     "momentum_signals": "외인/기관 수급·모멘텀·신고가 근접 2~3문장",
     "fundamental_strength": "성장·마진·재무 안정성 2~3문장",
-    "key_monitors": ["매주 모니터할 지표·일정 3~4개"],
+    "key_monitors": ["__FILL__ 빈 배열로 시작해 실제 지표명을 넣는다. 예시 텍스트(매주/모니터할/3~4개 등) 그대로 출력 금지."],
     "position_sizing_view": "Core/Satellite/Trade 중 어느 성격 + 근거 1~2문장"${type === 'company' ? `,
     "talking_point_holders": "이미 보유 중인 고객에게 할 말 2~3문장 (들고 갈지/덜어낼지 관점)",
     "talking_point_prospects": "신규 문의 고객에게 할 말 2~3문장 (지금 들어가도 되는지 관점)"` : ''}
@@ -922,9 +926,11 @@ function sanitizeInsight(insight, articles, opts = {}) {
       }
     }
     if (Array.isArray(pb.key_monitors)) {
+      // 지시문 누출 가드: schema placeholder echo 차단
+      const LEAK_RE = /(매주 모니터|지표·일정|3~4개|__FILL__|예시 텍스트|빈 배열로 시작)/;
       pb.key_monitors = pb.key_monitors
         .map(s => typeof s === 'string' ? s : '')
-        .filter(s => s && s.length > 4);
+        .filter(s => s && s.length > 4 && !LEAK_RE.test(s));
     }
   }
   // 시나리오: 메타 텍스트 제거 + 환각 가드 + 빈 thesis/trigger 폴백 (P1-1, P1-2)
@@ -983,6 +989,33 @@ function sanitizeInsight(insight, articles, opts = {}) {
     } else {
       insight.value_chain = total >= 2 ? vc : null;
     }
+  }
+  // 섹터: sector_kpis — GICS 슬롯 검증 + 지시문 누출 가드 (A 옵션)
+  // 사전 등록된 sectorKpis와 매칭 후 빠진 지표는 [확인 필요] 폴백.
+  const cfgKpis = opts.sectorKpis || [];
+  if (cfgKpis.length) {
+    const LEAK_RE = /(매주 모니터|지표·일정|3~4개|__FILL__|예시 텍스트|빈 배열로 시작|지표명은 그대로 유지)/;
+    const got = Array.isArray(insight.sector_kpis) ? insight.sector_kpis : [];
+    const gotByName = new Map(
+      got.filter(k => k && typeof k.name === 'string' && !LEAK_RE.test(k.name))
+        .map(k => [k.name.trim(), k])
+    );
+    insight.sector_kpis = cfgKpis.map(kpi => {
+      const found = gotByName.get(kpi.name) || Array.from(gotByName.values()).find(v =>
+        v.name && (v.name.includes(kpi.name) || kpi.name.includes(v.name)));
+      const val = (found?.value && typeof found.value === 'string' && !LEAK_RE.test(found.value))
+        ? found.value.slice(0, 80) : '[확인 필요]';
+      const src = (found?.source && typeof found.source === 'string' && !LEAK_RE.test(found.source))
+        ? found.source.slice(0, 30) : '[확인 필요]';
+      const tr = ['up','down','flat','unknown'].includes(found?.trend) ? found.trend : 'unknown';
+      return { name: kpi.name, value: val, source: src, trend: tr };
+    });
+  } else if (Array.isArray(insight.sector_kpis)) {
+    // 사전 등록 없는 섹터는 그대로 두되 명백한 누출만 제거
+    const LEAK_RE = /(매주 모니터|지표·일정|3~4개|__FILL__)/;
+    insight.sector_kpis = insight.sector_kpis
+      .filter(k => k && k.name && !LEAK_RE.test(k.name))
+      .slice(0, 8);
   }
   // 섹터: policy_tracker — 문자열 검증 + 환각 가드 + predicate 가드 (P1-4 강화)
   // 정책명은 *짧은 명사구*여야 함. 예측·서술 문장은 환각으로 차단.
@@ -1166,7 +1199,7 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     insight = null;
   }
   // 환각 후처리: 뉴스에 없는 정량 표현이 들어간 문장 제거
-  insight = sanitizeInsight(insight, enriched, { extraFacts, validTickers: tickers, policyHints: keywordConfig?.policyHints || [] });
+  insight = sanitizeInsight(insight, enriched, { extraFacts, validTickers: tickers, policyHints: keywordConfig?.policyHints || [], sectorKpis: keywordConfig?.sectorKpis || [] });
 
   // 뉴스 활동도 집계 (오늘 / 어제 / 7일 평균 / 매체 다양성)
   const now = Date.now();

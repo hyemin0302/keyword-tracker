@@ -185,6 +185,33 @@ async function fetchGoogleNewsForAliases(aliases, lowerCoreKeywords) {
   return all;
 }
 
+// ── 정책 보조 뉴스 검색 (sector 전용) ────────────────────
+// 일반 RSS·키워드 검색에는 정책 뉴스가 적게 들어옴. 정책 키워드를 명시적으로 결합해
+// 정책 뉴스 풀을 별도 확보 → policy_tracker 매칭률 향상.
+async function fetchPolicyNews(slug, policyHints) {
+  if (!policyHints?.length) return [];
+  // 일반 정책 검색 + 가장 핵심 정책 사전 항목 1~2개
+  const queries = [
+    `${slug} 정책`,
+    `${slug} 규제`,
+  ];
+  // 사전 상위 2개도 검색에 추가 (예: "HBM CHIPS Act")
+  for (const h of policyHints.slice(0, 2)) {
+    queries.push(`${slug} ${h}`);
+  }
+  const all = [];
+  await Promise.allSettled(queries.map(async (q) => {
+    try {
+      const url = `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ko&gl=KR&ceid=KR:ko`;
+      const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(8000) });
+      if (!r.ok) return;
+      const items = parseGoogleRSS(await r.text());
+      all.push(...items.slice(0, 15));
+    } catch {}
+  }));
+  return all;
+}
+
 // ── 비즈니스 외 노이즈 필터 (제목 기준) ─────────────────
 // 삼성화재→배구단, 삼성라이온즈→야구, 현대차→축구단 등 종목명 = 구단명 케이스 차단
 const NOISE_TITLE_KEYWORDS = [
@@ -956,6 +983,49 @@ function sanitizeInsight(insight, articles, opts = {}) {
       }))
       .filter(p => p.title && p.title.length > 5);
   }
+  // policyHints 후처리 보충 — LLM이 사전 항목을 빠뜨려도 뉴스 corpus에 명시 등장 시 자동 추가
+  // 환각 위험 0 (뉴스 단어 명확 매칭 시만)
+  const policyHints = opts.policyHints || [];
+  if (policyHints.length && Array.isArray(insight.policy_tracker)) {
+    const corpus = articles.map(a => ((a.t||'') + ' ' + (a.d||'') + ' ' + (a.fullText||''))).join(' ');
+    const corpusL = corpus.toLowerCase();
+    const corpusNorm = corpus.replace(/\s+/g, '').toLowerCase();
+    const existingTitles = new Set(insight.policy_tracker.map(p => p.title.toLowerCase()));
+    const STOP = new Set(['법','법안','정책','규제','지원','협력','전략','진흥','기본법','이니셔티브','program','프로그램','보조금','인증','이용자','보호법','계획','수출']);
+    const regionGuess = (h) => {
+      const lh = h.toLowerCase();
+      if (/chips act|ira|fda|nasa|us\b|미국|nhtsa|sec|amec/.test(lh)) return 'US';
+      if (/eu\b|유럽|cbam/.test(lh)) return 'EU';
+      if (/cn\b|중국|china|대만|tsmc/.test(lh)) return 'CN';
+      if (/한국|k-|국가|환경부|국방|kr\b|kbio/.test(lh) || /^[가-힣]/.test(h)) return 'KR';
+      return '글로벌';
+    };
+    const matchHint = (hint) => {
+      const hNorm = hint.replace(/\s+/g, '').toLowerCase();
+      // 1) 정확 매칭 (공백 무시)
+      if (corpusNorm.includes(hNorm)) return true;
+      // 2) 핵심 단어 매칭 — STOP 제외하고 의미있는 단어가 *모두* 등장하면 통과
+      const words = hint.split(/[\s·\-]+/).filter(w =>
+        w.length >= 2 &&
+        !STOP.has(w.toLowerCase()) &&
+        !(w.endsWith('법') && w.length <= 3));
+      if (!words.length) return false;
+      return words.every(w => corpusL.includes(w.toLowerCase()));
+    };
+    for (const hint of policyHints) {
+      if (insight.policy_tracker.length >= 5) break;
+      if (existingTitles.has(hint.toLowerCase())) continue;
+      if (matchHint(hint)) {
+        insight.policy_tracker.push({
+          date: null,
+          title: hint,
+          region: regionGuess(hint),
+          stance: 'neutral',
+        });
+        existingTitles.add(hint.toLowerCase());
+      }
+    }
+  }
   // 기업: 토킹포인트 가드
   if (insight.pb_perspective && typeof insight.pb_perspective === 'object') {
     const pb = insight.pb_perspective;
@@ -1010,6 +1080,12 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     } catch {}
   }
 
+  // 섹터 + policyHints 있으면 정책 보조 뉴스 풀 확보
+  if (type === 'sector' && keywordConfig.policyHints?.length) {
+    const policyNews = await fetchPolicyNews(slug, keywordConfig.policyHints);
+    all.push(...policyNews);
+  }
+
   // 중복 제거 + 최신순 정렬
   const seen = new Set();
   const unique = all.filter(a => {
@@ -1061,7 +1137,7 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     insight = null;
   }
   // 환각 후처리: 뉴스에 없는 정량 표현이 들어간 문장 제거
-  insight = sanitizeInsight(insight, enriched, { extraFacts, validTickers: tickers });
+  insight = sanitizeInsight(insight, enriched, { extraFacts, validTickers: tickers, policyHints: keywordConfig?.policyHints || [] });
 
   // 뉴스 활동도 집계 (오늘 / 어제 / 7일 평균 / 매체 다양성)
   const now = Date.now();

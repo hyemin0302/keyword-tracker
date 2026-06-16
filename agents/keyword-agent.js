@@ -649,22 +649,21 @@ JSON 스키마: {"items": [{"i": 0, "impact": "positive|negative|neutral", "take
       const text = await caller(model, [{ role: 'user', content: prompt }], 3500);
       const parsed = JSON.parse(text);
       const items = Array.isArray(parsed.items) ? parsed.items : [];
-      const result = top.map((a, idx) => {
-        const found = items.find(x => x.i === idx || x.i === String(idx));
-        return {
-          ...a,
-          impact: found?.impact || null,
-          takeaway: found?.takeaway || null,
-        };
+      // contract: 입력과 동일 길이 반환. top N개에는 LLM 결과 부착, 나머지는 pass-through.
+      return articles.map((a, idx) => {
+        if (idx < top.length) {
+          const found = items.find(x => x.i === idx || x.i === String(idx));
+          return { ...a, impact: found?.impact || null, takeaway: found?.takeaway || null };
+        }
+        return { ...a };
       });
-      return result;
     } catch (e) {
       const msg = (e.message || '').slice(0, 80);
       console.warn(`[generateNewsInsights] ${model} 실패:`, msg);
       if (i < providers.length - 1) await new Promise(r => setTimeout(r, 3000));
     }
   }
-  return top.map(a => ({ ...a }));
+  return articles.map(a => ({ ...a }));
 }
 
 async function generateInsight(slug, nameKo, articles, stockData, type = 'sector', keywordConfig = null) {
@@ -1156,8 +1155,8 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
   })();
 
   // 뉴스별 1줄 인사이트 (impact + takeaway) — LLM 1회 호출
-  const enrichedWithInsights = await generateNewsInsights(enriched, nameKo);
-  const finalItems = enrichedWithInsights.length === enriched.length ? enrichedWithInsights : enriched;
+  // contract: 출력 length == 입력 length. top N개에 impact/takeaway 부착, 나머지 pass-through.
+  const finalItems = await generateNewsInsights(enriched, nameKo);
 
   // news-live.json 저장
   fs.writeFileSync(
@@ -1508,8 +1507,7 @@ export async function researchKeywordOnDemand(query) {
   insight = sanitizeInsight(insight, unique, { extraFacts, validTickers: extractedTickers });
 
   // 뉴스별 1줄 인사이트 (impact + takeaway)
-  const newsWithInsights = await generateNewsInsights(unique, q);
-  const finalNews = newsWithInsights.length === unique.length ? newsWithInsights : unique;
+  const finalNews = await generateNewsInsights(unique, q);
 
   // 4. 테마 지수 + 벤치마크
   const themeIndex = computeThemeIndex(stockData);

@@ -128,7 +128,8 @@
         "TSM",
         "MU",
         "META",
-        "MSFT"
+        "MSFT",
+        "042700"
       ],
       "etfs": [
         "SOXX",
@@ -160,6 +161,13 @@
         "미국 수출규제",
         "AI 칩 수출통제",
         "대중국 수출규제"
+      ],
+      "valueChainHints": [
+        "042700(한미반도체)은 HBM 후공정 장비로 upstream",
+        "000660(SK하이닉스)·005930(삼성전자)·MU(마이크론)은 HBM 메모리 직접 제조로 midstream",
+        "TSM(TSMC)은 HBM 패키징·파운드리로 midstream",
+        "NVDA(엔비디아)는 HBM 탑재 AI GPU 설계로 downstream(HBM 최대 소비자)",
+        "META·MSFT는 AI 데이터센터 운영으로 downstream(최종 사용처)"
       ]
     },
     {
@@ -433,6 +441,13 @@
         "CHIPS Act",
         "칩스법",
         "RE100"
+      ],
+      "valueChainHints": [
+        "NVDA(엔비디아)는 AI 칩 핵심 공급으로 upstream",
+        "000660(SK하이닉스)는 HBM 메모리 공급으로 upstream",
+        "042700(한미반도체)는 HBM 후공정 장비로 upstream",
+        "034020(두산에너빌리티)는 데이터센터 전력 인프라로 midstream",
+        "MSFT(마이크로소프트)·AMZN(아마존)·GOOGL(구글)은 클라우드 서비스로 downstream"
       ]
     },
     {

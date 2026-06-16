@@ -724,7 +724,7 @@ async function generateInsight(slug, nameKo, articles, stockData, type = 'sector
 - statements[].tickers는 제공된 관련 종목 코드 중에서만 선택.`,
     company: `- pb_perspective의 talking_point_holders / talking_point_prospects는 반드시 채울 것. PB가 고객에게 그대로 읽어줄 완성형 문장으로.`,
     sector: `- value_chain은 반드시 채울 것. 다음 종목 코드를 빠짐없이 upstream/midstream/downstream 중 하나로 분류하라 (새 종목 추가 금지, 애매하면 midstream): ${Object.keys(stockData).join(', ') || '없음'}
-- policy_tracker: 뉴스에 등장한 정책·규제·보조금·법안·관세·인증·제재·승인 등을 추출. 최대 5개.${(keywordConfig?.policyHints?.length) ? ` 참고 정책 사전(뉴스에 일부만 언급돼도 매칭 OK): [${keywordConfig.policyHints.join(', ')}]. 사전 외라도 뉴스에 정책 단어가 명시되면 자유 추가. 없으면 빈 배열.` : ' 없으면 빈 배열.'}`,
+${(keywordConfig?.valueChainHints?.length) ? `  분류 가이드 (필수 적용): ${keywordConfig.valueChainHints.join(' / ')}\n` : ''}- policy_tracker: 뉴스에 등장한 정책·규제·보조금·법안·관세·인증·제재·승인 등을 추출. 최대 5개.${(keywordConfig?.policyHints?.length) ? ` 참고 정책 사전(뉴스에 일부만 언급돼도 매칭 OK): [${keywordConfig.policyHints.join(', ')}]. 사전 외라도 뉴스에 정책 단어가 명시되면 자유 추가. 없으면 빈 배열.` : ' 없으면 빈 배열.'}`,
   }[type];
 
   const prompt = `${subjectLabel} "${nameKo}" 관련 뉴스·주가를 분석해 한국어 JSON으로 반환해줘. 오늘은 ${today}.
@@ -976,7 +976,13 @@ function sanitizeInsight(insight, articles, opts = {}) {
         .filter(t => tickerSet.has(t));
     }
     const total = vc.upstream.length + vc.midstream.length + vc.downstream.length;
-    insight.value_chain = total >= 2 ? vc : null;
+    // 분류 결손 시 ticker를 midstream 기본값으로 폴백 (LLM 분류 회피 방지)
+    if (total === 0 && validTickers.length) {
+      vc.midstream = validTickers.slice(0, 8);
+      insight.value_chain = vc;
+    } else {
+      insight.value_chain = total >= 2 ? vc : null;
+    }
   }
   // 섹터: policy_tracker — 문자열 검증 + 환각 가드 + predicate 가드 (P1-4 강화)
   // 정책명은 *짧은 명사구*여야 함. 예측·서술 문장은 환각으로 차단.

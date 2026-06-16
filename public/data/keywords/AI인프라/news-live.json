@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-06-16T00:09:45.912Z",
-  "count": 11,
+  "updatedAt": "2026-06-16T00:33:44.958Z",
+  "count": 40,
   "stats": {
-    "today": 0,
-    "yesterday": 5,
-    "weekAvg": 1,
-    "sources": 3,
-    "heat": "cold"
+    "today": 1,
+    "yesterday": 6,
+    "weekAvg": 2.1,
+    "sources": 27,
+    "heat": "cool"
   },
   "items": [
+    {
+      "s": "조선일보",
+      "t": "이준석 대표 “美와 시차가 한국 AI 데이터센터 경쟁력”",
+      "d": "",
+      "u": "https://www.chosun.com/economy/tech_it/2026/06/16/EFANCZYL25DZNM7CIHIBJVR6BU/",
+      "m": "06. 16. AM 12:06",
+      "ts": 1781568393000,
+      "fullText": ""
+    },
     {
       "s": "Bloomberg Tech",
       "t": "SpaceX Capable of Building Orbital Data Centers, Says Former Meta CTO",
@@ -55,6 +64,33 @@
       "fullText": ""
     },
     {
+      "s": "테크월드",
+      "t": "김용범 정책실장 “반도체·AIDC·피지컬 AI 잇는 ‘프로젝트 트리니티’ 만들겠다”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kSkhXYmplQ3VuTDZCRmNuVnZDWnF3eUUyZFhjT0dVUndfV2VZbDIyYjdtc3lOcEo5MmQyX0ZmY05YT1d4SDRpLXdGOEFmODNWT2FoU1F5VHI1VmtEMUdPcjAwZUotZGll?oc=5",
+      "m": "06. 15. AM 05:57",
+      "ts": 1781503071000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "케이트렌디뉴스",
+      "t": "[AI 골드러시⑧] 빠른 AI, 늦은 신뢰…규제가 된 산업 인프라",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rd3oxN3R4dmtubnJlRFQ2M1RIS25uWWZaNklodFdJNWs4V0MtVmZENjlYdDdOM2tiWWNReGpmd2ZLSHZ6V2NFM3EwbGNEVFI1ek1mWEZ0QUIwcjlUejh4bWd0ZHNZLUR0ZHNQY3o4Zw?oc=5",
+      "m": "06. 14. AM 07:22",
+      "ts": 1781421720000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "AI라이프경제",
+      "t": "[AI 인사이드] “AI 데이터센터는 더 이상 건물 아니다”…특별법 앞두고 수주전 ‘과열 예고’",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpYW5KWm5WaHJGbS1STjF4ZlA2NGVPR0RvYzd4c3JFVDRJQzhNYjNYZmx3VWhWQW1DT3VveW01MDFVVVV5OWJtTVR3NEpKZ3dzMVJzcVFyQnkxMUVyLWRWdThnanpKVGRsQWJtc9IBb0FVX3lxTE1LTXNaNTdwWjJEM01qTEVwanhfMlEyRDVXMEdfeF9VY0NQWl9ObXY2eGlsMEZSYmxCRmhTZU9vdUNVZ1RKeWJMZmxUNkZFT2tOVmRpWUhUQnRIbzZlb0ZBV0d4WG02VWNMREZXV0Z5Zw?oc=5",
+      "m": "06. 13. AM 12:45",
+      "ts": 1781311552000,
+      "fullText": "Google News"
+    },
+    {
       "s": "NVIDIA공식",
       "t": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
       "d": "AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA [&#8230;]",
@@ -62,6 +98,33 @@
       "m": "06. 12. PM 09:00",
       "ts": 1781298008000,
       "fullText": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark New AgentPerf results from Artificial Analysis show how accelerated computing systems handle real-world agentic workloads, with NVIDIA GB300 NVL72 running up to 20x more agents per megawatt than NVIDIA Hopper. June 12, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA Hopper. Agentic AI is a fundamentally different workload than conversational AI. A single chat completion is a sprint: one large language model (LLM) call, one response. An agent functions more like a relay: It breaks a goal into many steps and keeps going until the task is done. Agents chain together multiple LLM calls and tool calls to gather context, observe, reason and act. That results in dozens to hundreds of LLM calls chained together, each passing growing context to the next, with tool calls like code compile and execution, database search and web browsing at every handoff. The complexity isn’t additive; it’s multiplicative. The distinction matters enormously for performance measurement. Existing AI inference benchmarks measure one LLM call: how fast an LLM responds to a single request and how many simultaneous requests a system can handle. They weren’t designed for agentic workloads, where chained LLM calls, tool call delays and growing context stress accelerated computing systems in fundamentally different ways than a single LLM call ever could. For companies building and deploying agents at scale, it’s important to understand how responsive agents are, how many can be deployed simultaneously an"
+    },
+    {
+      "s": "대한경제",
+      "t": "AI 데이터센터 투자 봇물… 수주 경쟁 치열",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wZUVfYjRlaHJST3RPblRjVzdEWGIxM2ZnNGN4QUxCXzhPcjhHQ1J4R0xWbkZLM0ozVGxfV3pnc0xRWjZkSjdIM1hWYWpxMUF0aV9wdU4zenNnMVRuS0dMWHFNaGlXWEZwRnZDbDBtOVRETlFG?oc=5",
+      "m": "06. 11. PM 09:00",
+      "ts": 1781211641000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "한국데이터경제신문",
+      "t": "규제 데이터의 AI 자산화, 거버넌스 중심 인프라가 기업 경쟁력 가른다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9leGNYejRYdmpEdjdTUzNrV1NDdUp5NkJ4Q2pkMi0zUDA1ZDc2Yndfc25xQUtxV2U1THgzZ08zOWVmMFRtTk8zRWpScUZkUHItYmg5OVVJTnV0NnY1LWhUeDBfZUFkaVoxcW5sa3F4Uk_SAXRBVV95cUxOWkJrNHdfWDBlbTlXeFBfR2FIcldFa1JyVkNvRkJtSHJLME5ja2w4QXNISjBEMDdHRV9oMjY5VXRjUnV3RFdfTHdWaXZkTFlMQTMtU0Q1bm91QlUxR0EyRUlHdW5jM0N2cWZYVlM1TUJrVllUbw?oc=5",
+      "m": "06. 10. PM 10:46",
+      "ts": 1781131560000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "마켓인",
+      "t": "국금센터 “AI 투자 확대로 미국 물가 압력↑…통화정책 제약에 유의해야”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BaEhoazZyOEdBeGtLOVlrU1F3QzgwLVhEM3dGTmF2X0JMV1JpWC1oWkpSS19MXzlZdVNkOWZlVjZ6Um9vaFRPbDlEYzQ5TlpSVHFQNkFlWmZSU3FXZzNnTF9WVkJXT083U01GSV9qVU9rVE0?oc=5",
+      "m": "06. 10. AM 08:09",
+      "ts": 1781078945000,
+      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -73,6 +136,33 @@
       "fullText": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute NVIDIA GPUs to support server-side inference for Apple Intelligence, announced at WWDC. June 9, 2026 by Avinash Ahuja 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini family of models. NVIDIA is collaborating with Apple and Google to support some of the next-generation Apple Intelligence features, using NVIDIA Blackwell GPUs with Confidential Computing integrated into Private Cloud Compute’s hardware security architecture running on Google Cloud. Confidential Computing Matters for the Era of AI Experiences NVIDIA Confidential Computing provides a hardware-based security layer for accelerated AI workloads. The technology protects data while it’s being processed by isolating workloads in trusted execution environments and enabling systems to cryptographically verify that the infrastructure has not been tampered with before any sensitive data is sent to the server. For end users, NVIDIA Confidential Computing means that no one, not even the system’s builders, can look at their data, chats or conversations. Adoption of NVIDIA Confidential Computing at this scale reflects a broader shift in AI infrastructure: As AI experiences combine on-device and cloud-based processing for their tasks, there’s a need for high-performance, server-side inference while maintaining strong privacy and security guarantees. How Confidential Computing Enforces Privacy and Trust NVIDIA Confidential Computing reflects NVIDIA’s commitment to trustworthy AI and includes these key ca"
     },
     {
+      "s": "Chosunbiz",
+      "t": "데이터센터 건설 지연에 GPU 담은 텐트까지 등장… 빅테크의 ‘매드 맥스 전략’ - 조선비즈",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXFtU0dBYnFxZ3RaWnJOM2JxSmh5VFlpSG1WWjJNZlpMd3Qzcy1MQUJhX1BHaVJ1d0NUeGNYNFpaSW10RGtwRUJidi1ZUjR3STkyT2w4ei1iUFNBaVVKTmNGT2U2YVNXNmZzRlJWdkVsd0Z4WHNNX2g5aDBVcTRSb3Zn0gGWAUFVX3lxTE5HMjVoOFJTaVZBZl85a05KZXNjeTMxWlQ3SDlFRHliTnB0ZkNXaGJZdkpxOTFWWkE5VWRxbUplYnhRdlMtamJtUlZyOE93Y0ttUnNmNjFreFdwYVR4UTZKUjFyMjhCOE1vbWctQzlMS0pZZ2ZIWWo2UXhQc1FTRHNVNWJUOG1uZDM4dUF1eTlhWW1ROGZvQQ?oc=5",
+      "m": "06. 09. AM 02:23",
+      "ts": 1780971780000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "IT조선",
+      "t": "“규제는 장벽 아닌 인프라… 신뢰 있어야 시장도 성장” [AI금융의 과제 ⑦]",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lTzI3Q0I4cW1lU21sMVJ1bTJscnVKb2RMRl9YUTNaVDZhRW1oQTBSOGFZSVJfams5ZlpXY3ZObGZiQTZ3Wnh0dzRIQTNDcWhQZzFSTVJJRll5cFRZQS0tVFVvTzZlQXlzUnUxdFJjR1PSAXRBVV95cUxOeWQ4LVpfR19FRFVQa2QyRmNMcFJGZkI0TzBqYzd5c0p4UkhtUlhpT0kydkFqeDRpb2xWbDhHOHZsVVpVaG9rRFR2ODJ5WUFXcVNkLWFnMnotZm51V3hMV0FSbFBqamItRW96eG1WRWUxWk1reA?oc=5",
+      "m": "06. 09. AM 12:00",
+      "ts": 1780963200000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "테크월드",
+      "t": "AI 데이터센터, 전력·탄소·입지 ‘3중 경쟁’ 심화",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MOGlxZlJSdkswXzlKMVNwaGd3SGFRa244bmlxalo4aDlHS19IZVROR21LTVNLeXFITjY0RW9rM3Q4d0FOQ0kzdDJJVDJ2a0Z1U2VORnV6eHpPUHlka2NFQ1RUS0RMaHFF?oc=5",
+      "m": "06. 08. AM 06:30",
+      "ts": 1780900200000,
+      "fullText": "Google News"
+    },
+    {
       "s": "NVIDIA공식",
       "t": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
       "d": "NVIDIA and LG Group are building an AI factory to accelerate LG Group’s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. The AI factory will provide LG Group with accelerated computing infrastructure to train, simulate, validate and deploy AI-based applications across its key businesses.  The collaboration brings [&#8230;]",
@@ -80,6 +170,24 @@
       "m": "06. 08. AM 03:00",
       "ts": 1780887650000,
       "fullText": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure New AI factory to serve as the foundation for LG Group’s robotics, autonomous driving, data center technologies and GPU cloud services. June 7, 2026 by Madison Huang 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA and LG Group are building an AI factory to accelerate LG Group’s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. The AI factory will provide LG Group with accelerated computing infrastructure to train, simulate, validate and deploy AI-based applications across its key businesses. The collaboration brings together NVIDIA’s full-stack, end-to-end AI factory platform with LG Group’s global leadership in consumer electronics, robotics, mobility components, smart spaces and data center technologies. Together, the companies are connecting AI model development, physical AI data generation, robot simulation and training, edge deployment and factory-scale digital twins into a unified workflow for building physical AI systems. Advancing Physical AI and Robotics The combination of LG’s production technology data and know-how from global manufacturing sites with NVIDIA’s AI infrastructure and digital twin technologies will help enhance AI-driven manufacturing AI competitiveness. The two companies will collaborate to build an autonomous manufacturing ecosystem in which the entire process — from raw material procurement to production, logistics and customer delivery — is connected in real time through data and AI, and establish it as a new global smart factory standard. LG Electronics is developing home-based robots like CLoiD to help with a wide range of indoor household tasks, enhancing everyday convenience and improving quality of life. By integrating the NVIDIA Isaac Sim and NVIDIA Isaac Lab open robotics frameworks into their development workflows, LG can simul"
+    },
+    {
+      "s": "simplywall.st",
+      "t": "규제 압력과 AI 인프라 투자 부담 이후 아마존닷컴(NasdaqGS:AMZN) 주가 조정이 밸류에이션에 의미하는 것",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR1czTkV4akdYZWV1SUtTR0RzbFFPRGdoa3hvVmJrWkZlWXR6VU5OT251SnEtaENFa3lsQ3NUdnVFZzgxcm1UWHlSREY5elphR2JvVFRWUl96dkNWOVlRR05JNjZXcFZxX2RRRk9VV0V4VXhvMmoxbGRNM2FQdzB3MTA4bGF1VHg1OWczRWhn0gGTAUFVX3lxTE5zQmZaODZ5TThwb2gwYzh4UkpRQlhZdWN2R0h1Mm5fc2R4SjlBYl9IYnYxelM2d3l5Y0VzSWIyUXJ2alNjdUNTUXZwbC1BbzNnN25rckllUGtrcHZsMl9KclYxRGpmRm91S3RoNmU1bVBGQ2p1cFBsMGEwOUI2RWN6XzA0d2o5OHFnZ3Z5WGxiUmY5QQ?oc=5",
+      "m": "06. 06. AM 07:00",
+      "ts": 1780729200000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "매일경제 마켓",
+      "t": "에퀴닉스, REIT 공급 부족 수혜 속 AI 인프라 수요 확대로 급등",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fTERCMmJrVEJXQ2xXaFlIY3Zlb1hHT184dlM2NVMxSk1ScFBOZERtMkVyWjdkSURRR2JVV3FRMnoxLUxZeVAwdURaSlZxdllJeUE?oc=5",
+      "m": "06. 05. AM 07:00",
+      "ts": 1780642800000,
+      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -97,7 +205,34 @@
       "u": "https://www.nbcnews.com/video/startup-aims-to-launch-data-centers-to-space-264559685638",
       "m": "06. 05. AM 01:42",
       "ts": 1780623732000,
-      "fullText": "Hallie Jackson NOW &#x27;Love Island USA&#x27; executive producer dies in Fiji while filming, networks say"
+      "fullText": "Vance says Strait of Hormuz will be open toll-free during negotiations"
+    },
+    {
+      "s": "임팩트온",
+      "t": "AI 인프라 키우는 EU…데이터센터도 '에너지 효율' 등급 매긴다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iZUE2UXhZbjVFMGpkQVo0RURnMmV3OVpxRzVyODVfU2xiUHJ5c3owbmROcDNYT0J5aUlUTk0zZGo5MlQ2UTFyMGM4SDhRdnFUejBIWmVvdy0tYlR1NlJDNGNfcmhQS0ZT0gFsQVVfeXFMT0hjQlROclNEckp4ZG5seHgtMWtaeUN4NlJRd3Bab0lnVE9OZ2ZHMlRFenV5WjJ5NmhiZ3RPMGUzRzhLTmVVT2ZEOXhtNHNhU200QXhWUlAtZXdVREpTdmNzREk5cEw5ZDNac05M?oc=5",
+      "m": "06. 04. AM 05:20",
+      "ts": 1780550404000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "정보통신신문",
+      "t": "국가정보자원관리원 ‘AI정부 핵심 인프라’ 탈바꿈",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4dnRZTEdnQm1RTXBQTDNHRWlwcGRRVXdDRjJfRFUzbUdUMWRoTzdDMmRlQlJYUzFESHlual9qbVJUMkFlLVVOT3gzRmtBc0NhRGNBeDJ5VzIwbC1SdzBpU1Nrd09xdkJw0gFsQVVfeXFMT2h1OFFPM3RkQWxpbFlFQ0E5Zjgyc2FIcmVwcXhMWGhXdk1VQUVhV05vcHJfb195cklzVnAzRXJPYnh6VmEwSXRRUnpoeXdnZ0FvenRWSURiSGF0OThER0xpQjlWUkJYZ0JUdmdq?oc=5",
+      "m": "06. 03. PM 08:32",
+      "ts": 1780518747000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "numbers.co.kr",
+      "t": "[AI 인프라 전쟁] 美 빅테크 투자 급증했지만 데이터센터 건설 차질",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NU0lJeXF1ZS1VRnA3RDFXTzcxN2syY1VDc0FBZzBrTko2VFpzeEVGb2tLWTNhTEVaTFJVMktvcF9WRXBKWVJPOUtaMV9MN3ZrcDBkR1FUcms4Q1Z0ajZtQlo3X3pwaG5qZ2k4?oc=5",
+      "m": "06. 03. PM 06:35",
+      "ts": 1780511700000,
+      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -107,6 +242,132 @@
       "m": "06. 02. PM 07:00",
       "ts": 1780426808000,
       "fullText": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local At Microsoft Build, the companies showcased how developers can build, run and scale agentic and physical AI across Windows devices, Azure cloud and local deployments through a unified accelerated computing stack. June 2, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman and CEO Satya Nadella&#8217;s keynote via livestream from Taipei to discuss the expanded partnership: NVIDIA RTX Spark and DGX Station for Windows , NVIDIA GPU-accelerated Microsoft Fabric, NVIDIA open models on Microsoft Foundry, the NVIDIA OpenShell secure runtime in GitHub Copilot and the next generation of NVIDIA-powered AI factories. Reinventing Windows for Agents: From RTX Spark to DGX Station for Windows NVIDIA and Microsoft are reimagining Windows PCs for the age of AI agents. With RTX Spark laptops and small desktops, and DGX Station for Windows deskside AI supercomputers, developers can build, tune and run agents natively on Windows. RTX Spark is a new beginning, powering the world’s first Windows PCs purpose-built for personal agents, with 1 petaflop of AI performance, up to 128GB of unified memory, all-day battery life, and full AI and graphics performance unplugged. Bringing over 30 years of NVIDIA innovation, including CUDA, RTX, DLSS and TensorRT, systems arrive this fall from Microsoft Surface, ASUS, Dell, HP, Lenovo and MSI. DGX Station for Windows is the most powerful deskside AI supercomputer for building and r"
+    },
+    {
+      "s": "데일리시큐",
+      "t": "과기정통부 1년 성과, AI 3대 강국 전략 속 보안주권 확보 본격화",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80UlcxbzlrdDlUcE5rUm5LZVA2anRWa2dhY19QOFNrUFFKODdfWmExVm1DNUpjT0c2eEpPaks5dVdIV2hWdWRtQ2FEZVcwWmpEOUgzd1hBTXFrcF9ocjFnbVJQMEh2YXltSEEwYQ?oc=5",
+      "m": "06. 02. AM 07:00",
+      "ts": 1780383600000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "헬로티",
+      "t": "한국, AI 경쟁력 세계 3위 달성…역대 최대 R&amp;D 예산 편성",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XZmwxbUVEM0hnclpJaGxadmlHSWo2bjN4cmdaeHN3RU02VHhXSTg2S1hVQzVlZnB2VmpLcWhCUzRLVEhkQ09FY0pKc2FUZVJYNHl1ZmxKYVlDVGEzWVc4?oc=5",
+      "m": "06. 02. AM 06:02",
+      "ts": 1780380162000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "[유미's 픽] AI 인프라 격전지 된 인도…삼성·LG도 데이터센터 판 키울까",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xQzU5dlNvX0p3UkR6VG51NXZnSVRqSE5oR3FMZVJnTXlvNnBfS0ltMHR4d0RZeGJDdnBOVDJURjZkazNzV0hrWkQ2NzFqbUpzTFotR2VR?oc=5",
+      "m": "06. 01. AM 07:00",
+      "ts": 1780297200000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "유니콘팩토리",
+      "t": "배경훈 \"韓 '미토스' 만들 수 있어…AI 인프라 투자 가속해야 \"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXQkQ4cDIwekQwcS1rYzlKYWoxQ0JmWUx4eUZ4QnRxTjlZZjFVVE5HeF9DSldKTzZ4bThheUJ3Mml1OHRCVWgwZmo1UEdrQ0RkWnY4cVNCYTNZYTBjRXhnXy1DN0RSbmVidXRmbg?oc=5",
+      "m": "05. 31. AM 06:27",
+      "ts": 1780208831000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "헬로티",
+      "t": "“한국 기업 75% AI 가치 체감” STT GDC, 亞 AI 인프라 준비 지표 분석",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5aDBvVWJOV1hFVmtRTkR6aHJZenlUYVdMWThUcVFOaEVjMzNReEhYQk5CdGotaVRlNER3UVMxQ21lXzh1WEhXNWVNMGhfSnVkTVI5LXI3LUpOUkx4Nnc4?oc=5",
+      "m": "05. 29. AM 07:00",
+      "ts": 1780038000000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "테크월드",
+      "t": "셀렉트스타, AI 신뢰성 검증 플랫폼 공개…“AI 기본법 대응 수요 확대”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xbGZzQ0JtNWdOc0VJWnBmak5EZFJjZDVZU2VBMEoyRS1pX0hldFEwZHZRWFVoMGFXYk1MM1ZWZHdrcTZKRlJuOHlKYU5jZndwOGVxdnJyX0R0R3VsTEl0VXJ5SzNMNmFX?oc=5",
+      "m": "05. 28. AM 07:00",
+      "ts": 1779951600000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "이데일리",
+      "t": "셀렉트스타, AI 신뢰성 검증 플랫폼 ‘다투모’ 공개",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORkV4TE1lWXNtVG9LcF9iWlhXakNsUXI2dlVGUGkycnNtbHR2aDBWSUpWNC1Bb0dmY1NHdnB1Nlh4Q3FmazN6R1FnTzFJUmFvbmFxMGxZS0RuV29JWmk4d3FZUEFUT05kb1R5ZENvcDdERXUxWkk0Y2NHeFZCV2g2UA?oc=5",
+      "m": "05. 28. AM 07:00",
+      "ts": 1779951600000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "beSUCCESS",
+      "t": "셀렉트스타, AI 네트워킹 행사 ‘AI Ignite’ 개최…AI 신뢰성 검증 ‘다투모 플랫폼’ 공개",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE40V2ZGRmpMZmF1VGNMRzc3Q1JSX3hmS2pGQjNlMXgtUWlneUZZc1ZIMTRiNWhCWEIwQ3BoOHR1WU83X3ZLelE?oc=5",
+      "m": "05. 28. AM 07:00",
+      "ts": 1779951600000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "올포칩",
+      "t": "AI 도입 앞선 한국 기업들, 인프라 확장 단계서 운영 역량 부족 직면",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zRk53MldLOENlY0JRdVJ6amQxTXcwRUppS21IeGF3djN0N2hOMVVDSU1WX01VWFJtVVp6X3FDd1VBYWxnUGZSZVBmMWdLVnhBUU1lZ1J2a0VrSXRqd0hVag?oc=5",
+      "m": "05. 28. AM 07:00",
+      "ts": 1779951600000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "newstheai.com",
+      "t": "KB와 AI 인프라 동맹 맺은 리벨리온, 금융 AI 전환점 될까",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaX1pTOVc0WkkwTk42UFUwVmU4SmpOTnNyT2c3WnpxRVBiZjZRcEE5SmpaUTlIdVFaTXdzSGZjLVJidjZCZ19yQzZVR1ZWUGh4SFphcHNYeXJQNmFlcHZjZnJ1cjJ4RG5MakE?oc=5",
+      "m": "05. 27. PM 01:55",
+      "ts": 1779890112000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "테크월드",
+      "t": "허철회 STT GDC 대표 , “한국 AI 인프라 도입 넘어 확장 단계”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OdzZjajF6REkxYUhmd3lLNlVianEwVGtfUlkzcExHLS1DZk5SeWl5RkxjdG1jWVhsNlZyVXRpcTVoa0RxRTJhc3JkdG95YjhyaGRvQ1AtSW1obEJ6Ym4tOXNjTWlRZ3FM?oc=5",
+      "m": "05. 27. AM 07:00",
+      "ts": 1779865200000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "동아일보",
+      "t": "[뉴스줌인] 외산 GPU와 국산 NPU, ‘투트랙’으로 가는 AI 인프라 지원 정책",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrZkh1bnpLRjVmWHZUa09tcWtKSUk4Z0l2WmNhLUhudWJfNDRoRlBIZEtpRldZYlNoRnhkT3BId1RoR2tfb1hTblJXSHNVakVneU4yTTNLU1NpM1FuY2xzcmpza0pObFozT3l4X2dNUdIBZkFVX3lxTE5tNVh6emk2RDRNRDB4d18tcnVWR2o2ME0wSFVDeG14eWh4U3Z0Y1RkWVdwS3EzUXR5VEw3aDk3ZG5pTEVXN3loMjIyOUN0WlA0aDJQZ0NUSGFyR1UtclZnS3E4dEUxZw?oc=5",
+      "m": "05. 26. AM 07:00",
+      "ts": 1779778800000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "한국데이터경제신문",
+      "t": "AI 기본법 계도기간 종료 전 기업이 준비할 3대 의무와 비용 분석",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iUzczNG5PMENieXZCX2stSEdGZkpMcVIzaFMxMXJEb2dfRGVOMVdEMHAyRlhId1RMX3BxLV9fVTZxSGhqV0ZzNlRyb2hfU0dzN3dpSFYxMjFNWVcyTVB0U2hlem13V2p0SGtvV3VOX2PSAXRBVV95cUxQbXU0VlRHMmJjalNscGZCejU0U21EaE1uOUdsNUUzbl96dWF0RWs2WFJ1dTQ1NUk5NXZxLTh0Q01yQUtVZ3VTZk5rSTFoRTFINF9KUXgxSFdFbkx2M3FyeXB2c1JlVmFhRWp6RVVzbXZ1OHBRdQ?oc=5",
+      "m": "05. 23. AM 07:00",
+      "ts": 1779519600000,
+      "fullText": "Google News"
+    },
+    {
+      "s": "연합뉴스TV",
+      "t": "트럼프 곧 ′AI규제 절충안′ 행정명령…″최신 AI모델 사전검토″",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZYzlKVDVrczlKU2ZzU3JTNjFnSnZPbzVTUkpHRVpiUXRSOEE3NnhSQzRtOW42QVVLOW1RTzFjSGRPM2ozRUpMQXhLb2RncDd3TEc0NGpiSzd4dFhBWVFkM05pUmF6eW8?oc=5",
+      "m": "05. 21. AM 07:00",
+      "ts": 1779346800000,
+      "fullText": "Google News"
     }
   ]
 }

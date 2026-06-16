@@ -9,6 +9,23 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
 
+// ── 글로벌 LLM 직렬화 큐 (E 옵션) ───────────────────────────
+// 배치 병렬 처리 시 RPM 30 한도가 글로벌 — 키워드별 동시 LLM 호출은 cascade 실패를 일으킨다.
+// 외부 fetch는 자유롭게 병렬화하되 LLM 호출만 이 큐로 강제 직렬 (호출 간 2.2초 sleep).
+let __llmQueue = Promise.resolve();
+const LLM_GAP_MS = 2200;  // RPM 30 = 2초/회 + 안전 마진 200ms
+async function withLLMLock(fn) {
+  const myTurn = __llmQueue.then(async () => {
+    try {
+      return await fn();
+    } finally {
+      await new Promise(r => setTimeout(r, LLM_GAP_MS));
+    }
+  });
+  __llmQueue = myTurn.catch(() => {});  // 다음 큐가 끊기지 않게
+  return myTurn;
+}
+
 // ── RSS 피드 (한국 + 글로벌) ───────────────────────────────
 const FEEDS = [
   { url: 'https://www.yna.co.kr/rss/economy.xml',                         src: '연합뉴스' },
@@ -636,9 +653,7 @@ JSON 스키마: {"items": [{"i": 0, "impact": "positive|negative|neutral", "take
 - 테마와 직접 관련 없으면 impact: "neutral", takeaway: "테마와 직접 무관" 표시.`;
 
   // Cerebras → Groq 순. 429/parse 실패 시 다음 provider로 폴백.
-  // 호출 전 sleep 5초 — generateInsight 직후 같은 키워드에서 두 번째 LLM 호출이
-  // Cerebras RPM 30 한도(2초 간격)에 걸리는 걸 방지.
-  await new Promise(r => setTimeout(r, 5000));
+  // RPM 한도는 글로벌 큐(withLLMLock)가 관리 — 별도 sleep 제거.
   const providers = [
     ...(process.env.CEREBRAS_API_KEY ? [{ caller: callCerebras, model: 'gpt-oss-120b' }] : []),
     ...(process.env.GROQ_API_KEY ? [{ caller: callGroq, model: 'llama-3.3-70b-versatile' }] : []),
@@ -1188,9 +1203,8 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     extraFacts = `목표주가 ${primary.consensus.targetMean} ${primary.consensus.targetMean.toLocaleString('en-US')} ${primary.consensus.targetMean.toLocaleString('ko-KR')}`;
   }
 
-  // LLM 인사이트 (Groq TPM 한도 방어: 호출 간 4초 + 70B 우선 + 8B 폴백)
-  await new Promise(r => setTimeout(r, 4000));
-  let insight = await generateInsight(slug, nameKo, enriched, stockData, type, keywordConfig);
+  // LLM 인사이트 — 글로벌 큐(withLLMLock)로 직렬 처리. 호출 간 sleep 2.2초 자동 관리.
+  let insight = await withLLMLock(() => generateInsight(slug, nameKo, enriched, stockData, type, keywordConfig));
   // {_failure}는 실패 마커일 뿐 인사이트가 아님 — null로 강등해야
   // 아래의 "기존 인사이트 유지" 폴백이 실제로 작동한다 (이전엔 truthy라 폴백이 죽어있었음)
   let insightFailure = null;
@@ -1217,9 +1231,8 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     return { today, yesterday, weekAvg: +(weekTotal / 7).toFixed(1), sources, heat };
   })();
 
-  // 뉴스별 1줄 인사이트 (impact + takeaway) — LLM 1회 호출
-  // contract: 출력 length == 입력 length. top N개에 impact/takeaway 부착, 나머지 pass-through.
-  const finalItems = await generateNewsInsights(enriched, nameKo);
+  // 뉴스별 1줄 인사이트 (impact + takeaway) — 글로벌 LLM 큐로 직렬
+  const finalItems = await withLLMLock(() => generateNewsInsights(enriched, nameKo));
 
   // news-live.json 저장
   fs.writeFileSync(
@@ -1295,6 +1308,12 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     insightBody.sector_kpis = keywordConfig.sectorKpis.map(k => ({
       name: k.name, value: '[확인 필요]', source: '[확인 필요]', trend: 'unknown',
     }));
+  }
+  // stale 데이터에 옛 누출 패턴이 살아있는 경우 제거 (피지컬AI 케이스)
+  if (insightBody._stale && insightBody.pb_perspective?.key_monitors) {
+    const STALE_LEAK_RE = /(매주 모니터|지표·일정|3~4개|__FILL__|예시 텍스트)/;
+    insightBody.pb_perspective.key_monitors = insightBody.pb_perspective.key_monitors
+      .filter(m => typeof m === 'string' && !STALE_LEAK_RE.test(m));
   }
   fs.writeFileSync(
     insightPath,
@@ -1572,11 +1591,11 @@ export async function researchKeywordOnDemand(query) {
     peers,
     person: personInfluence ? { title: personRole, influence: personInfluence } : null,
   };
-  let insight = await generateInsight(q, q, unique, stockData, type, pseudoConfig);
+  let insight = await withLLMLock(() => generateInsight(q, q, unique, stockData, type, pseudoConfig));
   insight = sanitizeInsight(insight, unique, { extraFacts, validTickers: extractedTickers });
 
-  // 뉴스별 1줄 인사이트 (impact + takeaway)
-  const finalNews = await generateNewsInsights(unique, q);
+  // 뉴스별 1줄 인사이트 (impact + takeaway) — 글로벌 LLM 큐로 직렬
+  const finalNews = await withLLMLock(() => generateNewsInsights(unique, q));
 
   // 4. 테마 지수 + 벤치마크
   const themeIndex = computeThemeIndex(stockData);

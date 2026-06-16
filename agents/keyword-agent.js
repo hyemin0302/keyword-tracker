@@ -206,7 +206,8 @@ async function fetchPolicyNews(slug, policyHints) {
       const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(8000) });
       if (!r.ok) return;
       const items = parseGoogleRSS(await r.text());
-      all.push(...items.slice(0, 15));
+      // 정책 마킹: 호출부에서 reserve할 수 있도록.
+      all.push(...items.slice(0, 15).map(it => ({ ...it, _policy: true })));
     } catch {}
   }));
   return all;
@@ -977,10 +978,21 @@ function sanitizeInsight(insight, articles, opts = {}) {
     const total = vc.upstream.length + vc.midstream.length + vc.downstream.length;
     insight.value_chain = total >= 2 ? vc : null;
   }
-  // 섹터: policy_tracker — 문자열 검증 + 환각 가드
+  // 섹터: policy_tracker — 문자열 검증 + 환각 가드 + predicate 가드 (P1-4 강화)
+  // 정책명은 *짧은 명사구*여야 함. 예측·서술 문장은 환각으로 차단.
+  // 예 차단: "스페이스X의 상장 성공으로 태양전지 기술의 개발이 가속화될 것으로 예상된다."
   if (Array.isArray(insight.policy_tracker)) {
+    const PRED_RE = /(예상|전망|기대|관측|예측|점쳐)\s*되|(될 것|할 것|할 전망|할 듯)|것으로 보/;
+    const SENT_END_RE = /(다|음|함|됨)\.?$/;
+    const isPolicyName = (t) => {
+      const s = (t || '').trim();
+      if (s.length < 5 || s.length > 35) return false;  // 정책명 길이 제한
+      if (PRED_RE.test(s)) return false;                 // 예측 동사 차단
+      if (SENT_END_RE.test(s)) return false;             // 서술형 종결 차단
+      return true;
+    };
     insight.policy_tracker = insight.policy_tracker
-      .filter(p => p && typeof p.title === 'string' && p.title.trim().length > 5)
+      .filter(p => p && typeof p.title === 'string' && isPolicyName(p.title))
       .slice(0, 5)
       .map(p => ({
         date: (typeof p.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(p.date)) ? p.date : null,
@@ -988,7 +1000,7 @@ function sanitizeInsight(insight, articles, opts = {}) {
         region: ['KR', 'US', 'EU', 'CN', '글로벌'].includes(p.region) ? p.region : '글로벌',
         stance: ['supportive', 'restrictive', 'neutral'].includes(p.stance) ? p.stance : 'neutral',
       }))
-      .filter(p => p.title && p.title.length > 5);
+      .filter(p => p.title && isPolicyName(p.title));
   }
   // policyHints 후처리 보충 — LLM이 사전 항목을 빠뜨려도 뉴스 corpus에 명시 등장 시 자동 추가
   // 환각 위험 0 (뉴스 단어 명확 매칭 시만)
@@ -1093,13 +1105,17 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
     all.push(...policyNews);
   }
 
-  // 중복 제거 + 최신순 정렬
+  // 중복 제거 + 최신순 정렬 + 정책 뉴스 reserve (slice(40)에서 정책이 밀려나 코퍼스 매칭률 떨어지던 문제)
   const seen = new Set();
-  const unique = all.filter(a => {
+  const dedup = all.filter(a => {
     const k = a.t.slice(0, 25);
     if (seen.has(k)) return false;
     seen.add(k); return true;
-  }).sort((a, b) => b.ts - a.ts).slice(0, 40);
+  }).sort((a, b) => b.ts - a.ts);
+  const policyReserve = dedup.filter(a => a._policy).slice(0, 5);
+  const reserveTitles = new Set(policyReserve.map(a => a.t.slice(0, 25)));
+  const regular = dedup.filter(a => !reserveTitles.has(a.t.slice(0, 25))).slice(0, 40 - policyReserve.length);
+  const unique = [...regular, ...policyReserve].sort((a, b) => b.ts - a.ts);
 
   // 본문 크롤링 (동시 5개)
   const enriched = [];

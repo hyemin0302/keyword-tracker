@@ -28,18 +28,27 @@ async function main() {
   const benchmarks = await fetchBenchmarks();
   console.log(`[batch-runner] 벤치마크: KOSPI ${benchmarks.kospi.length}일, S&P500 ${benchmarks.sp500.length}일`);
 
+  // 배치 병렬 처리 (3개씩 Promise.all) — RPM 30 한도 안전 + 외부 IO 분산
+  // 직렬 ~17분 → 병렬 ~6~7분 (2.5배 단축)
+  const CONCURRENCY = 3;
   const results = [];
-  for (const kw of targets) {
-    try {
-      const r = await runKeywordAgent(kw, index.keywords, benchmarks);
-      results.push({ ...r, ok: true });
-    } catch (e) {
-      console.error(`[batch-runner] ${kw.slug} 실패:`, e.message);
-      results.push({ slug: kw.slug, ok: false, error: e.message });
+  for (let i = 0; i < targets.length; i += CONCURRENCY) {
+    const batch = targets.slice(i, i + CONCURRENCY);
+    console.log(`[batch-runner] 배치 ${Math.floor(i/CONCURRENCY)+1}/${Math.ceil(targets.length/CONCURRENCY)}: [${batch.map(k => k.slug).join(', ')}]`);
+    const batchResults = await Promise.all(batch.map(async (kw) => {
+      try {
+        const r = await runKeywordAgent(kw, index.keywords, benchmarks);
+        return { ...r, ok: true };
+      } catch (e) {
+        console.error(`[batch-runner] ${kw.slug} 실패:`, e.message);
+        return { slug: kw.slug, ok: false, error: e.message };
+      }
+    }));
+    results.push(...batchResults);
+    // 배치 간 짧은 sleep (LLM RPM 한도·외부 사이트 부하 방어)
+    if (i + CONCURRENCY < targets.length) {
+      await new Promise(r => setTimeout(r, 2000));
     }
-    // tier별 딜레이 (Rate limit 방어)
-    const delay = kw.tier === 'hot' ? 2000 : kw.tier === 'warm' ? 3000 : 5000;
-    await new Promise(r => setTimeout(r, delay));
   }
 
   // meta.json 업데이트

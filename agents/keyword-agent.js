@@ -1290,6 +1290,12 @@ export async function runKeywordAgent(keywordConfig, allKeywords = [], benchmark
   };
   const insightBody = insight
     || (previous && previous.summary ? { ...previous, _stale: true } : emptyShape);
+  // 폴백 경로에도 sectorKpis 보정 — 이전 batch 데이터엔 키 자체가 없어 빈 화면이 나오던 결함 수정
+  if (keywordConfig?.sectorKpis?.length && (!Array.isArray(insightBody.sector_kpis) || !insightBody.sector_kpis.length)) {
+    insightBody.sector_kpis = keywordConfig.sectorKpis.map(k => ({
+      name: k.name, value: '[확인 필요]', source: '[확인 필요]', trend: 'unknown',
+    }));
+  }
   fs.writeFileSync(
     insightPath,
     JSON.stringify({

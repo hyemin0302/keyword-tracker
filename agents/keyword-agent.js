@@ -926,7 +926,7 @@ function sanitizeInsight(insight, articles, opts = {}) {
         .filter(s => s && s.length > 4);
     }
   }
-  // 시나리오: 메타 텍스트 제거 + 환각 가드 적용
+  // 시나리오: 메타 텍스트 제거 + 환각 가드 + 빈 thesis/trigger 폴백 (P1-1, P1-2)
   if (Array.isArray(insight.scenarios)) {
     const stripMeta = (s) => {
       if (!s || typeof s !== 'string') return s;
@@ -935,13 +935,21 @@ function sanitizeInsight(insight, articles, opts = {}) {
         .replace(/^(이|이 시나리오가 현실화될|측정 가능한)[^:]*:\s*/, '')
         .trim();
     };
-    // 시나리오는 PB 의사결정 근거 — 환각 잔존 위험을 빈 문자열보다 더 싫어함.
-    // 폴백 없이 cleaned 결과 그대로 사용 (가격 환각이면 그 문장 그대로 제거).
-    insight.scenarios = insight.scenarios.map(sc => ({
-      ...sc,
-      thesis: clean(stripMeta(sc.thesis)),
-      trigger: clean(stripMeta(sc.trigger)),
-    }));
+    // PB는 빈 칸을 만나면 신뢰를 잃는다. 명시적 안내 + 품질 플래그가 더 낫다.
+    const fbThesis = '본문 데이터 부족 — 다음 갱신 시 보강 예정';
+    const fbTrigger = '측정 변수 데이터 부족 — 다음 갱신 시 보강 예정';
+    insight.scenarios = insight.scenarios.map(sc => {
+      const thesis = clean(stripMeta(sc.thesis));
+      const trigger = clean(stripMeta(sc.trigger));
+      const thesisOk = thesis && thesis.length >= 30;
+      const triggerOk = trigger && trigger.length >= 5;
+      return {
+        ...sc,
+        thesis: thesisOk ? thesis : fbThesis,
+        trigger: triggerOk ? trigger : fbTrigger,
+        data_quality: (thesisOk && triggerOk) ? 'full' : 'partial',
+      };
+    });
   }
   // ── 타입별 추가 필드 가드 ──
   const tickerSet = new Set(validTickers);

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-17T09:03:20.157Z",
+  "updatedAt": "2026-06-17T12:58:01.083Z",
   "count": 40,
   "stats": {
     "today": 0,
     "yesterday": 3,
     "weekAvg": 0.7,
-    "sources": 23,
+    "sources": 22,
     "heat": "cold"
   },
   "items": [
@@ -18,7 +18,7 @@
       "ts": 1781649041000,
       "fullText": "For Robotaxis, Safety Must Be Built In, Not Bolted On A car pulls up to the curb. The app says, “Your ride is here.” No one’s in the driver’s seat. For people who live in one of the dozens of...",
       "impact": "positive",
-      "takeaway": "AR 안경에 AI 에이전트 적용으로 엔비디아 생태계 확장"
+      "takeaway": "엔비디아가 AR 글래스에 AI를 적용하는 것은 AI 기술의 발전을 더욱 가속화할 것으로 보인다."
     },
     {
       "s": "NVIDIA공식",
@@ -29,7 +29,7 @@
       "ts": 1781627427000,
       "fullText": "HPE AI Factory With NVIDIA Expands for the Era of Agents HPE AI Factory with NVIDIA expands with NVIDIA Vera CPU and NVIDIA Agent Toolkit for HPE Private Cloud AI — plus NVIDIA Confidential Computing and enhanced full-stack NVIDIA integration across HPE AI Factory solutions. June 16, 2026 by Chris Marriott 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Enterprises are moving agentic AI from proof of concept to production — and the next generation of AI factories are built for the era of agents. At HPE Discover Las Vegas, running through Thursday, June 18, NVIDIA and HPE are expanding the HPE AI Factory with NVIDIA , including NVIDIA Vera CPU and NVIDIA Agent Toolkit for HPE Private Cloud AI. Plus, NVIDIA Confidential Computing extends across HPE AI Factory and enhanced full-stack NVIDIA integration — with NVIDIA accelerated computing, NVIDIA AI software and NVIDIA networking — is available throughout the entire portfolio. NVIDIA Vera CPU Available With HPE Private Cloud AI The HPE ProLiant Compute DL394 Gen12 with the NVIDIA Vera CPU will be available in 2027 with HPE Private Cloud AI, a turnkey AI factory co-engineered with NVIDIA. Vera is the first CPU built for agents — designed for the tool calls, orchestration and real-time data processing required across the agent loop — bringing deterministic, low-latency performance into HPE Private Cloud AI. The New York Stock Exchange , in collaboration with Redpanda and HPE, is an early enterprise customer exploring Vera CPU with the HPE ProLiant Compute DL394 Gen12 server. The Vera CPU is part of the NVIDIA Vera Rubin platform, which is ramping into full production with the NVIDIA Vera Rubin NVL72 rack-scale system available from HPE. Vera Rubin was built for frontier-scale models larger than 1 trillion parameters and will ship with full-stack NVIDIA Confidential Computing across every chip. HPE is also bringing the HPE Compute XD700 — built on NVIDIA HGX Rubin NVL8 — to the HPE AI Factory",
       "impact": "positive",
-      "takeaway": "HPE와 협업으로 엔비디아 AI 에이전트 인프라 확대"
+      "takeaway": "엔비디아와 HPE의 협력은 AI 기술의 확산을 더욱 촉진할 것으로 보인다."
     },
     {
       "s": "NVIDIA공식",
@@ -40,7 +40,7 @@
       "ts": 1781622036000,
       "fullText": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0 NVIDIA delivers the performance, scale and reliability that frontier training requires — in benchmarks and beyond. June 16, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every breakthrough AI model starts the same way: with a training run. The infrastructure running those training jobs shapes everything: how fast teams can iterate, what scale of model they can build and whether those jobs complete reliably. As models grow in size, complexity and intelligence, the demands on training infrastructure are also rising. In MLPerf Training 6.0 — the latest of a series of rigorous, peer-reviewed industry benchmarks for evaluating AI training performance — the NVIDIA Blackwell platform led across every category, demonstrating: Fastest time to train on every benchmark Largest-scale training across 8,192 GPUs using NVIDIA Blackwell NVL72 systems The only platform with submissions across all seven benchmarks in the suite NVIDIA brings together performance, scale and reliability in a single platform engineered through extreme codesign to enable AI model builders to launch frontier models faster, minimize training costs and start generating revenue early. Performance: Fastest Time to Train on Every Benchmark MLPerf Training 6.0 added two new mixture-of-experts (MoE) pretraining workloads to the suite: DeepSeek-V3 671B and GPT-OSS-20B, reflecting the growing centrality of MoE architectures. The NVIDIA platform was the only one to be submitted across every benchmark, and delivered the fastest time to train on all seven. This round, NVIDIA submitted results on both NVIDIA GB200 NVL72 and GB300 NVL72 rack-scale systems. Within each rack-scale system, fifth-generation NVIDIA NVLink Switches connect all 72 GPUs with high bandwidth, into a unified pool of compute and memory, enabling them to act as one giant GPU. Large-scale MoE training faces the same all-to",
       "impact": "positive",
-      "takeaway": "Blackwell GPU 성능 향상으로 엔비디아 생태계 경쟁력 강화"
+      "takeaway": "엔비디아의 Blackwell이 MLPerf Training 6.0에서 우수한 성능을 보인 것은 AI 기술의 발전을 더욱 가속화할 것으로 보인다."
     },
     {
       "s": "NVIDIA공식",
@@ -51,7 +51,7 @@
       "ts": 1781298008000,
       "fullText": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark New AgentPerf results from Artificial Analysis show how accelerated computing systems handle real-world agentic workloads, with NVIDIA GB300 NVL72 running up to 20x more agents per megawatt than NVIDIA Hopper. June 12, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA Hopper. Agentic AI is a fundamentally different workload than conversational AI. A single chat completion is a sprint: one large language model (LLM) call, one response. An agent functions more like a relay: It breaks a goal into many steps and keeps going until the task is done. Agents chain together multiple LLM calls and tool calls to gather context, observe, reason and act. That results in dozens to hundreds of LLM calls chained together, each passing growing context to the next, with tool calls like code compile and execution, database search and web browsing at every handoff. The complexity isn’t additive; it’s multiplicative. The distinction matters enormously for performance measurement. Existing AI inference benchmarks measure one LLM call: how fast an LLM responds to a single request and how many simultaneous requests a system can handle. They weren’t designed for agentic workloads, where chained LLM calls, tool call delays and growing context stress accelerated computing systems in fundamentally different ways than a single LLM call ever could. For companies building and deploying agents at scale, it’s important to understand how responsive agents are, how many can be deployed simultaneously an",
       "impact": "positive",
-      "takeaway": "에이전트 AI 벤치마크 선도, 엔비디아 생태계 신뢰도 상승"
+      "takeaway": "엔비디아의 Blackwell이 Agentic AI Infrastructure Benchmark에서 우수한 성능을 보인 것은 AI 기술의 발전을 더욱 가속화할 것으로 보인다."
     },
     {
       "s": "NVIDIA공식",
@@ -62,7 +62,7 @@
       "ts": 1781108120000,
       "fullText": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI The new DiffusionGemma open model generates text in parallel — not one token at a time — and is optimized to run on the NVIDIA RTX PRO platform, NVIDIA DGX Spark systems and GeForce RTX GPUs. June 10, 2026 by Michael Fukuyama 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation. NVIDIA has optimized DiffusionGemma to run even faster across NVIDIA GeForce RTX GPUs, the NVIDIA RTX PRO platform and NVIDIA DGX Spark systems, from local PCs to the cloud. Rather than generating text one word at a time, DiffusionGemma generates multiple words in parallel to output whole blocks of text, opening a new, low-latency frontier for the kind of single-user workloads that developers, researchers and AI enthusiasts run every day. Features of the new model include: Parallel generation: DiffusionGemma denoises up to 256 tokens per step instead of predicting one at a time. Built on Gemma 4: DiffusionGemma is built on Gemma 4, a 26-billion-parameter mixture-of-experts model that activates just 3.8 billion parameters per step, pairing a diffusion head with Google’s Gemma 4 architecture. Up to 4x faster performance: The boost means fast text generation, where single-user generation usually stalls — on local hardware. Open and local: DiffusionGemma is open weights under a permissive Apache 2.0 license and runs entirely on RTX and DGX Spark — no cloud, no per-token cost — with day-zero support in Hugging Face Transformers , vLLM and Unsloth. A Different Way to Generate Text Almost every large language model (LLM) in wide use today is autoregressive — meaning it generates text one token at a time, with each new word depending on the one before it. That sequential process is what makes interactive AI feel like it’s typing. DiffusionGemma takes a different path. Built on the Gemma 4 26",
       "impact": "positive",
-      "takeaway": "DeepMind와 협력해 로컬 AI 가속, 엔비디아 생태계 활용도 확대"
+      "takeaway": "엔비디아가 Google DeepMind의 DiffusionGemma를 가속화하는 것은 AI 기술의 발전을 더욱 가속화할 것으로 보인다."
     },
     {
       "s": "블로터",
@@ -74,7 +74,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "한국 기업 전략을 다루지만 엔비디아 테마와 직접 연관은 제한적"
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "디지털투데이",
@@ -85,8 +85,8 @@
       "ts": 1781045040000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "AI 풀스택 자립 논의지만 엔비디아 생태계와 직접 연결은 약함"
+      "impact": "negative",
+      "takeaway": "AI 풀스택 자립은 현실적이지 않으며, 모델과 클라우드 집중투자가 더 현실적일 것으로 보인다."
     },
     {
       "s": "NVIDIA공식",
@@ -97,7 +97,7 @@
       "ts": 1781044467000,
       "fullText": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute NVIDIA GPUs to support server-side inference for Apple Intelligence, announced at WWDC. June 9, 2026 by Avinash Ahuja 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini family of models. NVIDIA is collaborating with Apple and Google to support some of the next-generation Apple Intelligence features, using NVIDIA Blackwell GPUs with Confidential Computing integrated into Private Cloud Compute’s hardware security architecture running on Google Cloud. Confidential Computing Matters for the Era of AI Experiences NVIDIA Confidential Computing provides a hardware-based security layer for accelerated AI workloads. The technology protects data while it’s being processed by isolating workloads in trusted execution environments and enabling systems to cryptographically verify that the infrastructure has not been tampered with before any sensitive data is sent to the server. For end users, NVIDIA Confidential Computing means that no one, not even the system’s builders, can look at their data, chats or conversations. Adoption of NVIDIA Confidential Computing at this scale reflects a broader shift in AI infrastructure: As AI experiences combine on-device and cloud-based processing for their tasks, there’s a need for high-performance, server-side inference while maintaining strong privacy and security guarantees. How Confidential Computing Enforces Privacy and Trust NVIDIA Confidential Computing reflects NVIDIA’s commitment to trustworthy AI and includes these key ca",
       "impact": "positive",
-      "takeaway": "Apple 프라이빗 클라우드에 NVIDIA 보안 컴퓨팅 적용, 생태계 확대"
+      "takeaway": "엔비디아의 Confidential Computing은 Apple의 Private Cloud Compute를 확장하는 데 도움이 될 것으로 보인다."
     },
     {
       "s": "스타트업엔",
@@ -109,7 +109,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "디든로보틱스가 NVIDIA 기반 산업 AI 적용, 생태계 확장"
+      "takeaway": "디든로보틱스가 NVIDIA 생태계로 산업용 피지컬 AI를 본격화하는 것은 AI 기술의 발전을 더욱 가속화할 것으로 보인다."
     },
     {
       "s": "ebn.co.kr",
@@ -121,7 +121,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "엔비디아, 한국에 GPU 대량 공급 약속으로 AI 생태계 투자 촉진"
+      "takeaway": "엔비디아가 GPU 26만장+a 공급 약속을 하는 것은 한국 AI 생태계 투자에 긍정적인 영향을 미칠 것으로 보인다."
     },
     {
       "s": "NVIDIA공식",
@@ -306,6 +306,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "디지털데일리",
+      "t": "화웨이, \"앤비디아 지웠다\"…中 AI 칩 시장 점유율 60% 육박",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HU3JBR0haMmJkR2pHRUlYdmRrd2t3Ym9mUWRWNkREQndrd0N2V056Q090OV9HR2NCQWNGd0NtSTZWbWs4UmU2Y3VIWXRZLUVtRjdaUlg2WXVOYnNCbURKbXZn?oc=5",
+      "m": "05. 02. AM 07:00",
+      "ts": 1777705200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "초이스스탁",
       "t": "\"화웨이의 역습\" 엔비디아 빈자리 독점… 삼성·SK엔 '독'일까 '득'일까",
       "d": "",
@@ -402,16 +412,6 @@
       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qNjRRMHF4OHJ1NzE5dm1OdmkxdkdKLURPcmJ3WHhubVVFUjhQdTIteVlUZHdRUzZPYVM5bDREUWpSNUhUbEh1dk4yVWZtWU9fXzM1QU5RX2V1Mm1BTXN1V1ZqaU8?oc=5",
       "m": "04. 06. AM 07:00",
       "ts": 1775458800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "이코노미트리뷴",
-      "t": "엔비디아 中 점유율 55%로 하락…美 규제 속 국산 칩·생태계 자립 가속",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PX0RJQWtseVJ0Q3M3UUY3bm11TzRpQ0N4VDN2eDk5UTdqZThHMTFNT1lBZmdzbV9wZHpMZ3M4NFVOUUdyNER3V0U2Y2tVTVpoaHp0QjI5a05HWGpNOWpBUk5vbXFkQlU5blFKOVY5UkVoRFpFSFhr?oc=5",
-      "m": "04. 03. AM 07:00",
-      "ts": 1775199600000,
       "_policy": true,
       "fullText": "Google News"
     }

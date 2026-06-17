@@ -652,10 +652,12 @@ JSON 스키마: {"items": [{"i": 0, "impact": "positive|negative|neutral", "take
 - takeaway는 한국어 한 줄. 뉴스 제목 그대로 반복 금지. "이 뉴스가 왜 중요한가"에 집중.
 - 테마와 직접 관련 없으면 impact: "neutral", takeaway: "테마와 직접 무관" 표시.`;
 
-  // Cerebras → Groq 순. 429/parse 실패 시 다음 provider로 폴백.
+  // 폴백 체인: Cerebras → Together (70B Free) → Groq 70B → Groq 8B
+  // 각 provider 일일 한도 독립 — Together 추가로 TPD 소진 시에도 회복.
   // RPM 한도는 글로벌 큐(withLLMLock)가 관리 — 별도 sleep 제거.
   const providers = [
     ...(process.env.CEREBRAS_API_KEY ? [{ caller: callCerebras, model: 'gpt-oss-120b' }] : []),
+    ...(process.env.TOGETHER_API_KEY ? [{ caller: callTogether, model: 'meta-llama/Llama-3.3-70B-Instruct-Turbo-Free' }] : []),
     ...(process.env.GROQ_API_KEY ? [{ caller: callGroq, model: 'llama-3.3-70b-versatile' }] : []),
     ...(process.env.GROQ_API_KEY ? [{ caller: callGroq, model: 'llama-3.1-8b-instant' }] : []),
   ];

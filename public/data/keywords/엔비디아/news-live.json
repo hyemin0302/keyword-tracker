@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-22T21:20:06.846Z",
-  "count": 25,
+  "updatedAt": "2026-06-22T23:00:56.817Z",
+  "count": 24,
   "stats": {
-    "today": 15,
+    "today": 14,
     "yesterday": 0,
-    "weekAvg": 3.1,
+    "weekAvg": 3,
     "sources": 7,
     "heat": "hot"
   },
@@ -29,7 +29,7 @@
       "ts": 1782159238000,
       "fullText": "What does an AI company do after one of those not-acqui-hire deals, where a rival pays investors a hefty IP &#8220;licensing&#8221; fee while poaching its critical talent? For AI chipmaker Groq, the answer appears to be raise more money from investors — who were said to have profited handsomely after a deal with Nvidia in December — hire more talent, and pivot. On Monday, Groq announced a new $650 million funding round, confirming earlier reports . The raise comes roughly six months after Nvidia signed a non-exclusive licensing agreement for Groq&#8217;s technology and hired away founder and CEO Jonathan Ross, president Sunny Madra, and other employees. Groq did not disclose its new valuation. It was last valued at $6.9 billion following a $750 million round in September. Ross, who came from Google, was known in the AI chip world for helping create Google&#8217;s AI chip, the Tensor Processing Unit . He teamed up with another Google engineer, Doug Wightman, to launch Groq a decade ago. Wightman stayed on after the Nvidia deal and became CEO. Groq created a chip it called a language processing unit (LPU), used for inference, and sold it as part of a cloud service or an on-premises hardware cluster. With Nvidia now owning the IP for LPUs, the GPU giant announced its own hardware cluster, the Nvidia Groq 3 LPX inference hardware system, at its GTC event in March. In response, Groq has pivoted to its neocloud business, it said. That business had been run by Madra after Groq acquired his AI data analytics company Definitive Intelligence, in 2024. It has grown to 13 data centers across North America, Europe, the Middle East, and APAC and is serving over five million developers and thousands of AI companies, processing trillions of tokens each week, the company says. Groq has also been hiring replacement execs. It added Alan Rice as COO, previously at xAI and Meta, after a career in the U.S. Navy. It also added an entrepreneurial duo, Sinclair Schuller, who joins as CTO, a",
       "impact": "positive",
-      "takeaway": "엔비디아의 AI 칩 투자 영향"
+      "takeaway": "엔비디아의 AI 칩 투자"
     },
     {
       "s": "TechCrunch",
@@ -40,7 +40,7 @@
       "ts": 1782158895000,
       "fullText": "Nvidia just announced a warm-water cooling system that it says can dramatically reduce the amount of water a data center uses — eliminating &#8220;pretty much all water usage&#8221; inside the data center, according to an Nvidia executive in a press release . &#8220;The water consumption challenge for data centers is largely solved,&#8221; Josh Parker, chief sustainability officer at Nvidia, recently told Axios. But that&#8217;s only part of the water story. As long as AI data centers run on fossil fuels — a choice tech companies are increasingly making — the savings stop at the data center&#8217;s walls. The core issue is how Nvidia measures data center water use. According to its blog post, the company essentially draws a line around the data center. Anything inside gets counted, and anything outside gets ignored. To be fair, Nvidia&#8217;s system does appear to deliver on its facility-level promise — the coolant runs in a closed loop, filled once and recirculated for the life of the facility, meaning no new water is consumed to cool the chips. In favorable climates, the company says, that can amount to a 100% reduction in on-site water use. TechCrunch has asked Nvidia to clarify the matter, and we’ll update this article if we receive a reply. The problem is, water use outside of the data center — primarily in electricity generation and chip manufacturing — can double or triple the total water footprint of a facility. That means Nvidia’s solution addresses about a quarter to a third of AI data centers’ total water consumption. The new system is clever, pumping coolant into racks at 45°C (113°F). That’s hot for humans but not for computer chips. After passing through a server, the coolant emerges at 55°C (131°F), Nvidia said, bringing a significant amount of heat away from the hardware. At that temperature, the outside air in most climates can draw heat off passive radiators without evaporative cooling or, in some cases, fans. A data center without fans or chillers",
       "impact": "neutral",
-      "takeaway": "엔비디아의 데이터 센터 물 사용 감소 노력"
+      "takeaway": "엔비디아의 데이터 센터 물 사용량 감소"
     },
     {
       "s": "TechCrunch",
@@ -84,7 +84,7 @@
       "ts": 1782133237000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "엔비디아의 AI 칩 투자 영향"
+      "takeaway": "엔비디아의 AI 칩 투자"
     },
     {
       "s": "NVIDIA공식",
@@ -118,15 +118,6 @@
       "fullText": "Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins June 22, 2026 by Tenika Versey Walker 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The next era of AI will not be defined by compute alone. Its growth will be determined by energy. As accelerated computing scales across AI factories , agentic AI , industrial AI , edge computing and physical AI — including robotics and autonomous systems — global electricity demand is rising at unprecedented speed. In many regions, expanding grid infrastructure to meet that need requires years of permitting, transmission upgrades, land acquisition and capital investment. This challenge is reshaping how the world thinks about energy infrastructure for AI. Eco Wave Power, a member of the NVIDIA Inception startup program’s Sustainable Futures initiative , is developing technology — powered by NVIDIA AI infrastructure and digital twins — that converts energy from ocean waves into clean electricity using existing marine infrastructure. By using already-built coastal structures, wave energy generation can be deployed closer to areas with growing power demand — including ports, industrial zones and future AI infrastructure hubs. “Wave energy is one of the largest renewable energy sources that exists,” said Inna Braverman, cofounder and CEO of Eco Wave Power. “ Everybody wants it, but nobody can do it, so I looked at the current problems with harnessing wave power and I asked: How do we simplify it? ” Turning the Sea Into a Power Source Harnessing Earth’s natural cycles for power generation isn’t a new concept. Wind and solar energy have been well established industries for decades. Waves are on the way to completing this trifecta of power-producing elements. In the U.S. alone, wave energy could produce over 60% of annual energy consumption, according to the Energy Information Administration. It all starts with floaters — noninvasive floating infrastructure attached to brea",
       "impact": "positive",
       "takeaway": "엔비디아 AI 인프라의 에너지 생산 지원"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia Seeks to Make Humanoid AI Robots Safer Around Humans",
-      "d": "Nvidia Corp. is working to make humanoid robots safer around people, arguing that they’ll need to handle split-second decisions before they can be trusted to work closely with humans.",
-      "u": "https://www.bloomberg.com/news/articles/2026-06-22/nvidia-seeks-to-make-humanoid-ai-robots-safer-around-humans",
-      "m": "06. 22. PM 01:00",
-      "ts": 1782133200000,
-      "fullText": ""
     },
     {
       "s": "한경 경제",

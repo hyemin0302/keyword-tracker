@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-06-22T18:17:07.136Z",
+  "updatedAt": "2026-06-22T21:25:27.861Z",
   "count": 40,
   "stats": {
-    "today": 9,
-    "yesterday": 4,
-    "weekAvg": 5.4,
-    "sources": 21,
-    "heat": "warm"
+    "today": 10,
+    "yesterday": 3,
+    "weekAvg": 5.1,
+    "sources": 22,
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "The AI world is getting &#8216;loopy&#8217;",
+      "d": "The loop takes agentic AI a step further, by authorizing a swarm of agents to work continuously in the background, endlessly.",
+      "u": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "m": "06. 22. PM 08:53",
+      "ts": 1782161591000,
+      "fullText": "On Friday, Claude Code creator Boris Cherny made an appearance at Meta’s @Scale conference and, surprisingly, the first question from the audience was about loops. “Are loops the next hype cycle,” the questioner asked, “or are they for real?” Cherny’s answer was an emphatic “yes, they’re for real,” he said. “Two years ago, we wrote source code by hand. We started to transition so agents write the code. And now we’re transitioning to the point where agents are prompting agents that then write the code,” he continued. “As big as the step from source code to agents was, loops are just as important and as big a step.” Later in the talk (around the 32:00 mark in the YouTube video posted above), Cherny got specific about the loops he keeps running in his own work. One agent is continually looking for ways to improve the code architecture, while another looks for duplicated abstractions that can be unified. They submit pull requests like any other coder, and since the code is constantly changing, they never stop running. It’s a powerful idea, particularly with a figure as significant as Cherny behind it. With the shift to agentic AI, the focus for most users has been managing their agents as well as possible: establish clear goals, check in on discrete units of progress, and don’t let them stray too far beyond the prompt. The loop takes it a step further by authorizing a swarm of agents to work continuously in the background, endlessly. It’s a lot of trust to place in AI — but with models getting better fast, it could be the next step in getting AI to handle real work. The first thing to recognize is that this isn’t entirely new. Recursive loops — functions that call themselves in order to repeat an action, along with a condition that stops the loop — are a mainstay of intro computer science courses. These loops are following a non-deterministic logic — that is, it&#8217;s a sub-agent that chooses when to stop the loop instead of a clear condition — but the same basic appr",
+      "impact": "neutral",
+      "takeaway": "AI 기술의 발전에 대한 일반적인 뉴스"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "SpaceX Kicks Off High-Grade Bond Sale | Bloomberg Tech 6/22/2026",
+      "d": "Bloomberg’s Ed Ludlow breaks down SpaceX's first-ever investment-grade bond offering following its record-breaking IPO. Plus, Micron strikes an AI Infrastructure agreement with Anthropic to drive enterprise AI adoption. And Chevron signs a 20-year deal with Microsoft to power a West Texas data center that could be one of the biggest in the US. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-06-22/bloomberg-tech-6-22-2026-video",
+      "m": "06. 22. PM 06:06",
+      "ts": 1782151609000,
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "스페이스엑스에 대한 일반적인 뉴스"
+    },
     {
       "s": "TechCrunch",
       "t": "Anthropic says Claude may want to see your ID",
@@ -16,20 +38,9 @@
       "u": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
       "m": "06. 22. PM 06:05",
       "ts": 1782151513000,
-      "fullText": "Anthropic may ask Claude users to verify their age and identity by uploading their government-issued documents, according to a new version of the company&#8217;s privacy policy. The AI giant says the move was to allow users to appeal having their account flagged for potentially fraudulent activity rather than outright banning them, but comes at a time as Anthropic seeks to placate the Trump administration amid an ongoing standoff over who gets access to the company&#8217;s AI tools. According to a new section in its latest privacy policy published earlier in June and set to take effect on July 8, Anthropic says it will ask for a user to prove their age or identity &#8220;in certain circumstances,&#8221; without providing specific examples. While Anthropic has long required users to be over-18 to use Claude, the company earlier this year introduced age verification checks to comply with various states and countries that require them. Identity checks were also announced , but weren&#8217;t reflected in the company’s privacy policy until more recently. When triggered, the policy would require those users to upload a photo scan of a government-issued passport or driver&#8217;s license. Anthropic says it will also collect a person&#8217;s selfie photo or video and the person&#8217;s digitized version as a face geometry template (which some states, like Illinois, considers legally protected biometric data). Anthropic says it will also keep a record of the verification result, such as whether the user has reached a certain age. When reached by TechCrunch, Anthropic spokesperson Michael Aciman shared a link to an X post from Anthropic&#8217;s Thariq Shihpar saying that the change applies only to a &#8220;small subset of users&#8221; whose accounts are flagged but not outright banned. (Anthropic&#8217;s spokesperson would not say how many users is a subset, but the company is thought to have tens of millions of users monthly .) &#8220;[Anthropic&#8217;s identity verification",
+      "fullText": "Anthropic may ask Claude users to verify their age and identity by uploading their government-issued documents, according to a new version of the company&#8217;s privacy policy. The AI giant says the move was to allow users to appeal having their account flagged for potentially fraudulent activity rather than outright banning them, but comes at a time when Anthropic seeks to placate the Trump administration amid an ongoing standoff over who gets access to the company&#8217;s AI tools. According to a new section in its latest privacy policy published earlier in June and set to take effect on July 8, Anthropic says it will ask for a user to prove their age or identity &#8220;in certain circumstances,&#8221; without providing specific examples. While Anthropic has long required users to be over 18 to use Claude, the company earlier this year introduced age-verification checks to comply with various states and countries that require them. Identity checks were also announced but weren&#8217;t reflected in the company’s privacy policy until more recently. When triggered, the policy would require those users to upload a photo scan of a government-issued passport or driver&#8217;s license. Anthropic says it will also collect a person&#8217;s selfie photo or video and the person&#8217;s digitized version as a face geometry template (which some states, like Illinois, consider to be legally protected biometric data). Anthropic says it will also keep a record of the verification result, such as whether the user has reached a certain age. When reached by TechCrunch, Anthropic spokesperson Michael Aciman shared a link to an X post from Anthropic&#8217;s Thariq Shihipar saying that the change applies only to a &#8220;small subset of users&#8221; whose accounts are flagged but not outright banned. (Anthropic&#8217;s spokesperson would not say how many users is a subset, but the company is thought to have tens of millions of users monthly .) &#8220;[Anthropic&#8217;s identity verifi",
       "impact": "negative",
-      "takeaway": "Claude의 신원 확인 요구가 프라이버시 우려를 불러 AI 에이전트 신뢰도에 부정적"
-    },
-    {
-      "s": "동아일보",
-      "t": "“AI 에이전트 시대, 속도가 관건… 실행 빠른 K스타트업에 기회”",
-      "d": "“과거 인공지능(AI) 모델이 업무를 보조하는 수준이었다면, 이제 AI 에이전트는 프레젠테이션 자료를 완성하거나 제품 기능 전반을 구현하는 등 처음부터 끝까지 업무를 처리하는 단계로 나아가고 있습니다.” 마크 마나라 오픈AI 스타트업 총괄은 18일 서울 강남구 코엑스에서 한국산업은행과 한국무역협회가 공동 주최한 창업·투자 박람회 ‘넥스트라이즈 2026’ 기조연설에서 ‘AI 모델에서 에이전트로’를 주제로 이같이 말했다. 생성형 AI가 질문에 답하는 수준을 넘어 스스로 도구를 활용해 업무를 처리하는 ‘에이전트’로 진화하면서, 산업계에서도 AI가 업무 전반에 깊숙이 들어오는 흐름이 뚜렷해지고 있다는 설명이다. 하버드대 컴퓨터공학과를 졸업하고 아마존웹서비스(AWS) 스타트업팀을 거친 그는 2023년 10월부터 오픈",
-      "u": "https://www.donga.com/news/Economy/article/all/20260622/134160321/2",
-      "m": "06. 22. PM 03:30",
-      "ts": 1782142200000,
-      "fullText": "김재형 기자 구독",
-      "impact": "positive",
-      "takeaway": "AI 에이전트 시대에 실행 속도가 빠른 스타트업이 투자 매력 상승"
+      "takeaway": "Anthropic의 Claude가 개인 정보를 요구하는 것으로 알려져 충격을 주고 있습니다."
     },
     {
       "s": "Bloomberg Tech",
@@ -40,7 +51,7 @@
       "ts": 1782139457000,
       "fullText": "",
       "impact": "negative",
-      "takeaway": "인류 멸종 위험 논의가 LLM 개발에 대한 투자 심리를 위축"
+      "takeaway": "Anthropic의 연구가 인류 멸종의 위험에 대한 우려를 제기하고 있습니다."
     },
     {
       "s": "NVIDIA공식",
@@ -51,7 +62,7 @@
       "ts": 1782133220000,
       "fullText": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory Mission, Vision and Veritas supercomputers with Vera CPUs to advance materials simulation, scientific AI agents and molecular design. June 22, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA Rubin GPUs and NVIDIA Quantum-X800 InfiniBand networking. Under the planned configuration, Mission will include NVIDIA Vera Rubin GPU nodes and 2,300 standalone NVIDIA Vera CPUs using the HPE Cray Supercomputing GX240 blade. Veritas will feature approximately 1,150 standalone NVIDIA Vera CPUs to complement NVIDIA Vera Rubin nodes. Veritas will arrive alongside Mission and Vision and serve the Laboratory Directed Research and Development program, helping accelerate agentic AI for science. The system will test these technologies for use in larger systems being built out at LANL. Researchers are adding a new tool for science with AI agents that can form hypotheses, choose tools, launch simulations, analyze outputs and refine the next step. LANL’s public work on URSA, the Universal Research and Scientific Agent — running on Venado and soon Mission and Vision — points in this direction: a modular, feedback-driven AI framework designed to help scientists brainstorm hypotheses, plan experiments, run simulations and analyze results. LANL demonstrated that the Vera CPU delivered 7x higher performance on URSA workloads than the CPUs in the Crossroads x86 supercomputer. Vera CPU for Agents and Simulation In LANL’s early testing of NVIDIA Vera CPUs on Branson — an open source Monte Carlo he",
       "impact": "positive",
-      "takeaway": "NVIDIA Vera CPU가 과학 AI 에이전트 구현을 가속화해 관련 기업에 호재"
+      "takeaway": "NVIDIA의 Vera CPU는 과학적 AI를 위한 새로운 도구로 여겨지고 있습니다."
     },
     {
       "s": "NVIDIA공식",
@@ -61,19 +72,19 @@
       "m": "06. 22. PM 01:00",
       "ts": 1782133213000,
       "fullText": "Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins June 22, 2026 by Tenika Versey Walker 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The next era of AI will not be defined by compute alone. Its growth will be determined by energy. As accelerated computing scales across AI factories , agentic AI , industrial AI , edge computing and physical AI — including robotics and autonomous systems — global electricity demand is rising at unprecedented speed. In many regions, expanding grid infrastructure to meet that need requires years of permitting, transmission upgrades, land acquisition and capital investment. This challenge is reshaping how the world thinks about energy infrastructure for AI. Eco Wave Power, a member of the NVIDIA Inception startup program’s Sustainable Futures initiative , is developing technology — powered by NVIDIA AI infrastructure and digital twins — that converts energy from ocean waves into clean electricity using existing marine infrastructure. By using already-built coastal structures, wave energy generation can be deployed closer to areas with growing power demand — including ports, industrial zones and future AI infrastructure hubs. “Wave energy is one of the largest renewable energy sources that exists,” said Inna Braverman, cofounder and CEO of Eco Wave Power. “ Everybody wants it, but nobody can do it, so I looked at the current problems with harnessing wave power and I asked: How do we simplify it? ” Turning the Sea Into a Power Source Harnessing Earth’s natural cycles for power generation isn’t a new concept. Wind and solar energy have been well established industries for decades. Waves are on the way to completing this trifecta of power-producing elements. In the U.S. alone, wave energy could produce over 60% of annual energy consumption, according to the Energy Information Administration. It all starts with floaters — noninvasive floating infrastructure attached to brea",
-      "impact": "neutral",
-      "takeaway": "파도 에너지 사업에 AI 인프라 활용은 테마와 직접 연관성 낮아 중립"
+      "impact": "positive",
+      "takeaway": "NVIDIA AI 인프라와 디지털 트윈을 사용한 Eco Wave Power는 새로운 에너지 기술로 여겨지고 있습니다."
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Getty Images Surges 145% After Announcing OpenAI Licensing Deal",
+      "t": "Getty Images Surges 145% After Announcing OpenAI Deal",
       "d": "Shares of stock-photo company Getty Images Holdings Inc. soared as much as 145% on Monday after it announced a licensing deal with OpenAI.",
       "u": "https://www.bloomberg.com/news/articles/2026-06-22/getty-images-soars-200-in-early-trading-after-openai-deal",
       "m": "06. 22. AM 09:31",
       "ts": 1782120680000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "OpenAI 라이선스 계약으로 이미지 AI 활용이 확대돼 AI 에이전트 시장에 긍정적"
+      "takeaway": "OpenAI와의 파트너십으로 Getty Images는 큰 성장세를 보이고 있습니다."
     },
     {
       "s": "디일렉",
@@ -85,7 +96,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "공공 AI 신뢰성 평가 강화가 에이전트 도입을 촉진해 투자 전망을 밝힘"
+      "takeaway": "공공 AI에 대한 윤석원 대표의 발언은 신뢰성 평가의 중요성을 강조하고 있습니다."
     },
     {
       "s": "헬로티",
@@ -97,7 +108,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "산업 전반이 AI 에이전트 중심으로 재편돼 관련 기업 성장 기대"
+      "takeaway": "AI 전환의 새로운 단계는 산업의 재편을 의미하고 있습니다."
     },
     {
       "s": "지티티코리아",
@@ -109,7 +120,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "AWS 컨텍스트 출시로 기업 AI 에이전트 구축이 쉬워져 시장 확대에 긍정"
+      "takeaway": "AWS의 AI 에이전트용 'AWS 컨텍스트' 공개는 기업 데이터와 업무 규칙의 연결을 가능하게 합니다."
     },
     {
       "s": "한경 IT",
@@ -118,9 +129,7 @@
       "u": "https://www.hankyung.com/article/2026062292517",
       "m": "06. 21. PM 10:30",
       "ts": 1782081032000,
-      "fullText": "",
-      "impact": "negative",
-      "takeaway": "챗GPT 무단 결제 사건이 인증 취약성을 드러내 AI 에이전트 신뢰도에 부정적"
+      "fullText": "산업 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 챗GPT 29만9000원 800여명 무단결제…'간단 인증' 뚫렸다 입력 2026.06.22 07:30 수정 2026.06.22 07:57 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김소연 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 사진=REUTERS&middot;연합뉴스 챗GPT의 고가 요금제인 29만9000원 요금이 무단으로 결제돼 논란이 된 가운데 &#39;간단&#39; 해외 결제에 대한 경각심이 불거지고 있다. 22일 업계에 따르면 이달 들어 국내에서 결제된 챗GPT 프로 요금제(29만9000원)는 총 1368건, 약 4억원 규모다. 이 가운데 약 2억5000만원 상당인 858건이 이번 부정 결제 의심 사례로 분류됐다. 무려 62.7%에 달하는 수치다. 해당 의혹은 최근 온라인 커뮤니티와 사회관계망서비스(SNS)를 중심으로 정체불명의 29만9000원이 카드에 청구됐다는 피해 글이 속출하면서 의혹이 불거졌다. 이들의 결제는 모두 국내 전자결제 대행사인 나이스정보통신을 통해 처리됐으며, 최종 결제처는 챗GPT 개발사인 오픈AI로 확인됐다. 청구된 금액 역시 고가 구독 상품인 &#39;챗GPT 프로&#39; 국내 구독료와 동일하다. 피해자들은 챗GPT를 사용한 적이 없거나 유료 구독 서비스를 이용한 적이 없음에도 결제가 이뤄졌다고 주장했다. 보안 업계에서는 이번 사태를 다크웹이나 피싱 등으로 탈취한 카드 정보의 유효성을 검증하는 이른바 &#39;카드 테스팅(Card Testing)&#39; 범죄 수법으로 보고 있다. 범죄자들은 불법 유통되는 한국인의 실명&middot;이메일 정보를 이용해 챗GPT 계정을 대량으로 생성하고 매크로 프로그램을 이용해 탈취한 카드 정보를 무차별적으로 대입하며 결제를 시도한 것으로 추정된다. 이런 일이 발생할 수 있었던 것은 오픈AI 같은 해외 온라인 가맹점 중 상당수가 카드번호와 유효기간, 보안코드(CVC) 등 입력만으로 결제가 이뤄지기 때문이다. 지문, 패턴, 간편비밀번호 등 추가 인증이 필요한 경우도 있지만, 카드사와 발급은행 판단에 따라 조건부로 적용되는 구조다. 또 전자금융감독규정에는 금융회사 또는 전자금융업자가 전자금융거래의 종류&middot;성격&middot;위험 수준 등을 고려해 안전한 인증 방법을 사용해야 한다는 정도의 내용만 있어 직접 카드 정보를 입력해 결제할 때 실명 확인이 의무는 아니다. 이미 실명 확인을 거쳐 발급된 인증 수단을 사용하는 결제는 대부분 별도 추가 확인 없이 처리되고 있다. 논란이 커지자 오픈AI 측은 &quot;도난된 카드 정보가 무단 사용된 것으로 확인되어 해당 결제 수단을 비활성화했다&quot;고 밝혔으며, 결제 대행사인 나이스정보통신 역시 의심 사례 중 700여건을 결제 취소하고 신규 카드를 통한 결제를 임시 중지한 상태다. 나이스정보통신 측은 국내법상 이런 방식에 휴대전화 본인 인증을 반드시 적용해야 하는 별도의 의무 규정이 있는 것은 아니라고 설명하며 &quot;결제 방식은 가맹점의 서비스 운영 방식과 글로벌 결제 환경 등을 종합적으로 고려해 적용되는 것&quot;이라는 입장이다. &#39;카드번호&middot;유효기간&middot;보안코드&#39;만 입력하는 방식은 결제 편의성은 높지만, 이번 같은 카드 정보 유출 상황에서는 추가 인증이 있는 방식보다 상대적으로 취약하다는 지적이다. 편리한 간단 결제가 피해 규모를 키운 것. 나이스정보통신은 이번 일을 계기로 오픈AI와 협의해 본인 인증을 적용하고자 테스트 및 개발 절차를 진행하고 있다고 전했다. 여기에 PG사를 통한 결제 구조도 피해 인지를 늦추는 요인으로 꼽힌다. PG사는 카드사와 직접 계약하기 어려운 업체의 결제 업무를 중개하는 역할을 한다. 이에 PG사를 사용하는 업체를 이용하면 카드 명세서상 가맹점명이 대부분 PG사명으로 표기된다. 이번 결제의 PG사가 나이스정보통신이었다. 이 때문에 도용 결제 벌어져도 &#3"
     },
     {
       "s": "지티티코리아",
@@ -140,24 +149,6 @@
       "m": "06. 21. PM 06:34",
       "ts": 1782066871000,
       "fullText": "In Brief Posted: 11:34 AM PDT · June 21, 2026 Image Credits: Nathan Laine/Bloomberg / Getty Images Anthony Ha Ubisoft co-founder Claude Guillemot dies in plane crash Claude Guillemot, co-founder of French video game company Ubisoft, died Friday at the age of 69. According to French media (via Bloomberg ), Guillemot died in a plane crash in the French resort town of La Baule. He was one of two people aboard the plane, both of whom died. Guillemot founded Ubisoft with his four brothers in 1986. Since then, the company has published the Assassin’s Creed, Far Cry, Prince of Persia, and Tom Clancy video game franchises, as well as many other titles. The family retains control of Ubisoft, and Guillemot&#8217;s brother Yves is still CEO. Guillemot was also chairman of Guillemot Corp., which makes gaming and audio accessories. “Ubisoft was deeply saddened to learn of the death of Claude Guillemot, co-founder of the group and chairman of Guillemot Corp., in an accident,” Ubisoft said in a statement. “Our thoughts are with his family and loved ones during this difficult time. No further statements will be made at this time.” Topics claude guillemot , Gaming , In Brief , Media & Entertainment , ubisoft June 18 Los Angeles Get an inside look at what it takes to scale and succeed from leaders at Mach Industries, Founders Fund, and Shinkei Systems. Through candid fireside chats and high-impact networking, you&#8217;ll walk away with valuable insights and new connections. REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you a"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "When the Trump administration cracks down on Anthropic, who benefits?",
-      "d": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
-      "u": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-      "m": "06. 21. PM 03:28",
-      "ts": 1782055697000,
-      "fullText": "Listen on Apple Podcasts Listen on Spotify Anthropic recently took its two newest AI models offline due to an export control order from the Trump administration, prompting broad debates about AI policy and digital sovereignty . On the latest episode of TechCrunch’s Equity podcast , Sean O’Kane, Rebecca Bellan, and I discussed what actually prompted the administration’s moves against Anthropic, and what this might mean for the broader AI ecosystem. As Sean put it, “Anthropic has not had the best relationship with the Trump administration in a way that stands apart from the other leading AI labs,” so perhaps Anthropic’s rivals don’t need to worry about a similar crackdown. But Rebecca also noted that leading cybersecurity experts have “ signed an open letter to ask Trump to revoke the order , and they say it&#8217;s actually dangerous to have to pull these advanced cybersecurity capabilities from network defenders in the U.S.” And we wondered whether this could all end up being good publicity for Anthropic, especially since — in Rebecca’s words — “everybody loves a bad boy.” Keep reading for a preview of our conversation, edited for length and clarity. Rebecca: As I&#8217;m sure many of our listeners know, the U.S. government basically just forced Anthropic to pull its two newest models offline — Fable 5, and then there was also Mythos 5, which was the one that was available to current Mythos users, [whereas] Fable 5 was more available to the public. They sent a letter [last] Friday that cited “national security concerns.” No one knows what those concerns are. That report has not been made public, they gave no specifics and told [Anthropic] that they had to ensure that those models couldn&#8217;t be used by any foreign nationals. So Anthropic was like, “Okay, I guess we have to just pull the models entirely, because we don&#8217;t know when someone&#8217;s a foreign national. A lot of our own employees are foreigners.” But really, [reports said] the White House got ti"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
-      "d": "Jumper isn't the only big name leaving Google DeepMind.",
-      "u": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-      "m": "06. 20. PM 04:39",
-      "ts": 1781973597000,
-      "fullText": "In Brief Posted: 9:39 AM PDT · June 20, 2026 Image Credits: Jon Kopaloff / Getty Images Anthony Ha Nobel laureate John Jumper is leaving DeepMind for rival Anthropic John Jumper, who shared a recent Nobel Prize in chemistry, announced Friday that he&#8217;s making the leap to Anthropic after “nearly 9 years” at Google DeepMind. In a post on X , Jumper wrote that DeepMind CEO Demis Hassabis “took a real chance letting me lead the AlphaFold team just six months after finishing my PhD, and the entire GDM team taught me so much about how to do great science.” Jumper (pictured above right, with Hassabis) added, “GDM is a special place, and I’ll still be excited to hear about what amazing things they discover next.” Bloomberg reports that Jumper was a key member of Google’s team developing coding tools , which the company has struggled to sell to businesses. Character AI co-founder Noam Shazeer also announced this week that he’s leaving DeepMind — though in Shazeer’s case, he’s joining OpenAI. Jumper and Hassabis won the Nobel Prize in 2024 for their work on AlphaFold, an AI model that can predict the 3D structure of proteins based on their genetic sequences. Topics AI , Anthropic , DeepMind , Google , In Brief , John Jumper June 18 Los Angeles Get an inside look at what it takes to scale and succeed from leaders at Mach Industries, Founders Fund, and Shinkei Systems. Through candid fireside chats and high-impact networking, you&#8217;ll walk away with valuable insights and new connections. REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By "
     },
     {
       "s": "지티티코리아",
@@ -283,7 +274,7 @@
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkUW40SkJNOC1ZM3NiUlpfRm5wRDZHdGtvaHNFWlhIaEtRVkdOc0J0WDRpN0psZC1Oc0pId00zd1BiUnYtUVNmTjRMNlZZVVU?oc=5",
       "m": "06. 18. AM 05:59",
-      "ts": 1781762387000,
+      "ts": 1781762340000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -294,16 +285,6 @@
       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDbzhuUmpyQ0dkRnhvdlN0OGlZS2JSZUJFYlJOeDB3R0p0YktLMGViemU3S09LdmRUZ21QR1ljOFNpZmVrbWtXMmhjREIzYUtlY21vU3gzQTRGUdIBVEFVX3lxTFA1WlNnbmJOVzBJc2RKOU1hcjRjT1g5TkR5dnJhaVZuZjRZcklQb1NkNTd4WkJlM1ZWUWpERjQxUVlSdnlrdzdrb3RSZ2dFQWo5NVQzdg?oc=5",
       "m": "06. 18. AM 05:29",
       "ts": 1781760593000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지티티코리아",
-      "t": "사내 지식·웹·유료 데이터까지 연결...AI 에이전트 성능 자율 개선 플랫폼",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tQXkwbEZLUDAtVUdGVHZmTTZRdTZmM1ZROFdVVWxkc3N0R0x5ckFISFJFMkxtMWNReGZ5LWU2SGdoWUxUU2xrVVMtZ1FYb2ZKTkpWd1R2QmNrSWNMN2dxXzd3dEN3ZEx4N2c?oc=5",
-      "m": "06. 18. AM 12:53",
-      "ts": 1781744015000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -406,12 +387,31 @@
       "fullText": "Google News"
     },
     {
-      "s": "지티티코리아",
-      "t": "AI 에이전트·머신 계정까지 통제...기업 신원 보안 관리 범위 확대",
+      "s": "simplywall.st",
+      "t": "메타, AI 비즈니스 에이전트 출시로 성장 기회와 규제 리스크 교차",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44SkI5ZmY5YU5yNWZxNUV0Ym1HcW5JVm5UYkJ3aFlGTUdlSlFwUjF0YV82VjRRTVAxSElQUnJtX1V5bmZwdkdzTk5uMy1XTi1yOHc3VTJiRkRHdko5Z3FEbk9fWFFrNmlMRXc?oc=5",
-      "m": "06. 13. PM 10:00",
-      "ts": 1781388000000,
+      "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbEpYYlRMNVI4c2x6MUJSRUI5aEMtNWlhdGVhWjhBRURkblltTy11V0FfeTRDYWNmdlJZUTNrUG5ZdUVkcHBXR1E1WEUxX2NhSW5TM1pXVzEtV2hNTlJHX0RZZTNNNFhFbzl5XzF1alNLODg1bmNDbWcxOXhTNVpXR2FfTDBBV2oya3pvT0ZWdmVXU2_SAZgBQVVfeXFMUGVodDVjRkVXamd3OWYwMEtYRVQyNnMxOUhGOGR5cHp6bTRxMzlPV084Y1hkZy1LejFfQjRGeDVRd01XaXZJaDZ4SE9oTU9jTXpvRjZhLVZPTjFPMkhkMkwycUdRdFJFRzVCbHR5N3JzaVJGc1ViUmozM2wwUlhPcFhVdllQRldLaEdIQjBoRm5xX1JKUUgtTTg?oc=5",
+      "m": "06. 13. AM 07:00",
+      "ts": 1781334000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "d": "AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "m": "06. 12. PM 09:00",
+      "ts": 1781298008000,
+      "fullText": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark New AgentPerf results from Artificial Analysis show how accelerated computing systems handle real-world agentic workloads, with NVIDIA GB300 NVL72 running up to 20x more agents per megawatt than NVIDIA Hopper. June 12, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA Hopper. Agentic AI is a fundamentally different workload than conversational AI. A single chat completion is a sprint: one large language model (LLM) call, one response. An agent functions more like a relay: It breaks a goal into many steps and keeps going until the task is done. Agents chain together multiple LLM calls and tool calls to gather context, observe, reason and act. That results in dozens to hundreds of LLM calls chained together, each passing growing context to the next, with tool calls like code compile and execution, database search and web browsing at every handoff. The complexity isn’t additive; it’s multiplicative. The distinction matters enormously for performance measurement. Existing AI inference benchmarks measure one LLM call: how fast an LLM responds to a single request and how many simultaneous requests a system can handle. They weren’t designed for agentic workloads, where chained LLM calls, tool call delays and growing context stress accelerated computing systems in fundamentally different ways than a single LLM call ever could. For companies building and deploying agents at scale, it’s important to understand how responsive agents are, how many can be deployed simultaneously an"
+    },
+    {
+      "s": "매일경제",
+      "t": "AI 에이전트 100개 시대…“기업은 이제 ‘관찰’ 아닌 ‘통제’ 고민한다”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mcDJvc3lvZjB1NjYzaHNSWGdNUW0xZ0JZS0xJdy1lQzZQZm1tcTJPWVczTVZlTmZLblFmLWwyUXctVWRwZ0Q2cDFqeVhVWVN3bDJXekZn?oc=5",
+      "m": "06. 12. AM 07:00",
+      "ts": 1781247600000,
       "_policy": true,
       "fullText": "Google News"
     }

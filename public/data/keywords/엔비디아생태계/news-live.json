@@ -1,14 +1,102 @@
 {
-  "updatedAt": "2026-06-22T07:41:18.613Z",
+  "updatedAt": "2026-06-22T13:37:30.355Z",
   "count": 40,
   "stats": {
-    "today": 2,
+    "today": 10,
     "yesterday": 0,
-    "weekAvg": 1.4,
-    "sources": 24,
-    "heat": "cool"
+    "weekAvg": 2.4,
+    "sources": 26,
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "NVIDIA공식",
+      "t": "At ISC, JUPITER Shows What Exascale Science Looks Like",
+      "d": "JUPITER, Europe’s first exascale supercomputer at Germany’s Forschungszentrum Jülich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking — and it’s had a busy year. As the international supercomputing community gathers at ISC in Hamburg this week, four projects running on JUPITER point to what exascale computing can actually do: map the human [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+      "m": "06. 22. PM 01:00",
+      "ts": 1782133248000,
+      "fullText": "At ISC, JUPITER Shows What Exascale Science Looks Like Europe’s first exascale supercomputer — running on NVIDIA Grace Hopper Superchips — is mapping the brain, modeling climate, advancing 6G AI and breaking records in quantum computing simulation. June 22, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! JUPITER, Europe’s first exascale supercomputer at Germany’s Forschungszentrum Jülich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking — and it’s had a busy year. As the international supercomputing community gathers at ISC in Hamburg this week, four projects running on JUPITER point to what exascale computing can actually do: map the human brain at cellular scale, simulate the entire Earth’s climate at 1-kilometer resolution, build AI systems for the next generation of wireless networks and simulate a universal 50-qubit quantum computer. “With JUPITER, Europe doesn’t just join the exascale era — it leads it, across the widest range of science and AI of any system worldwide,” said Thomas Lippert, director of the Jülich Supercomputing Centre and professor at Goethe University Frankfurt. Four projects, detailed below, share a throughline: scientific problems that were out of reach on previous hardware are now tractable at exascale. A Foundation Model for Mapping the Brain The Jülich Brain Atlas project — anchored at Jülich’s Institute of Neuroscience and Medicine with partner Helmholtz AI, partner hospital and other Helmholtz institutions — has produced CytoNet, a foundation model for brain microarchitecture analysis. The complexity of the human brain is astonishing. With 86 billion neurons and about 100 trillion connections between them, understanding brain function at single neuron resolution has been out of reach, until now. The research is led by neuroscientist Katrin Amunts and computer scientist Christian Schiffer at INM-1, Jülich’s Institute of Neuroscience and Medicine. The",
+      "impact": "positive",
+      "takeaway": "엔비디아 기반 초고속 컴퓨팅 시연으로 생태계 인지도 상승"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+      "d": "For the past two years, the U.S. National Science Foundation’s National Artificial Intelligence Research Resource (NAIRR) pilot program has driven innovative research across the U.S. for over 700 projects — spanning protein prediction and infectious disease outbreak management.  NVIDIA contributed to the NAIRR pilot through a cloud-based resource that gives researchers dedicated access to a [&#823",
+      "u": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "m": "06. 22. PM 01:00",
+      "ts": 1782133238000,
+      "fullText": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure June 22, 2026 by Zoe Kessler 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! For the past two years, t he U.S. National Science Foundation ’s National Artificial Intelligence Research Resource (NAIRR) pilot program has driven innovative research across the U.S. for over 700 projects — spanning protein prediction and infectious disease outbreak management. NVIDIA contributed to the NAIRR pilot through a cloud-based resource that gives researchers dedicated access to a minimum of four NVIDIA DGX nodes for at least a month. NVIDIA also provided technical support to onboard and assist the researchers throughout their projects. With NVIDIA’s AI infrastructure support and DGX reference architecture providing dedicated resources, researchers have collapsed workflow timelines and uncovered groundbreaking technologies that will reshape and advance industries such as healthcare, agriculture and energy. The potential for scientific exploration and discovery across the nation through NAIRR is boundless. Learn more about a few NAIRR projects below. Physical Simulations With Polymathic AI’s Well Dataset Simulation-to-real pipelines are becoming increasingly common across industries as a safer, more cost-efficient deployment method. Polymathic AI — a coalition of international scientists from Flatiron Institute, Cambridge University and Lawrence Berkeley National Lab — with the help of NVIDIA GPUs and NVIDIA NVLink interconnect technology , is strengthening physical, fluidlike simulations with its large-scale dataset called the “Well.” The dataset will be used to train the largest and most broadly applicable foundation model for fluidlike behavior to date. This foundation model, named Walrus , has been made publicly available along with its data, code and pertained weights. Polymathic AI’s approach builds on previous work in physics pretraining environments — addr",
+      "impact": "positive",
+      "takeaway": "엔비디아 AI 인프라로 과학 연구 혁신, 생태계 확대"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+      "d": "At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter.  The NVIDIA DAQIRI library and new NVIDIA ALCHEMI NIM microservices — as well as the NVIDIA cuPhoton reference code, coming soon — turn work that [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+      "m": "06. 22. PM 01:00",
+      "ts": 1782133220000,
+      "fullText": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries NVIDIA CUDA-X libraries, microservices and reference code accelerate AI for science. June 22, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter. The NVIDIA DAQIRI library and new NVIDIA ALCHEMI NIM microservices — as well as the NVIDIA cuPhoton reference code, coming soon — turn work that once took hours or days on CPUs into real-time, GPU-accelerated pipelines. They’re a part of NVIDIA CUDA-X , a collection of tools and libraries that deliver dramatically higher performance across application domains, including AI and high-performance computing. These performance gains are large and have real impact. Across disciplines, scientists are using AI and accelerated computing to generate data and insights with instruments and surveys faster than ever. For example, running on NVIDIA GB200 NVL72 systems, cuPhoton speeds loading, reading, processing and analysis of FITS data — the standard astronomical file format — from observatories and telescopes. In early access, cuPhoton accelerated loading and reading of FITS images collected by the Rubin Observatory’s Legacy Survey of Space and Time (LSST) by 14,900x. It also enabled up to 8,400x faster signal processing and analysis using 32 NVIDIA Grace Blackwell superchips. Ultimately, this means faster insights from the LSST camera — the largest digital camera ever built — which captures images of billions of far-away galaxies, as well as closer, faint objects that don’t reflect much light. In early access, cuPhoton accelerated loading and reading of images collected by the Rubin Observatory’s Legacy Survey of Space and Time. New Software, From the Lab Bench to the Telescope The new software acce",
+      "impact": "positive",
+      "takeaway": "새 NVIDIA AI 소프트웨어로 다양한 분야 연구 가속, 생태계 확대"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+      "d": "Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
+      "m": "06. 22. PM 01:00",
+      "ts": 1782133220000,
+      "fullText": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory Mission, Vision and Veritas supercomputers with Vera CPUs to advance materials simulation, scientific AI agents and molecular design. June 22, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA Rubin GPUs and NVIDIA Quantum-X800 InfiniBand networking. Under the planned configuration, Mission will include NVIDIA Vera Rubin GPU nodes and 2,300 standalone NVIDIA Vera CPUs using the HPE Cray Supercomputing GX240 blade. Veritas will feature approximately 1,150 standalone NVIDIA Vera CPUs to complement NVIDIA Vera Rubin nodes. Veritas will arrive alongside Mission and Vision and serve the Laboratory Directed Research and Development program, helping accelerate agentic AI for science. The system will test these technologies for use in larger systems being built out at LANL. Researchers are adding a new tool for science with AI agents that can form hypotheses, choose tools, launch simulations, analyze outputs and refine the next step. LANL’s public work on URSA, the Universal Research and Scientific Agent — running on Venado and soon Mission and Vision — points in this direction: a modular, feedback-driven AI framework designed to help scientists brainstorm hypotheses, plan experiments, run simulations and analyze results. LANL demonstrated that the Vera CPU delivered 7x higher performance on URSA workloads than the CPUs in the Crossroads x86 supercomputer. Vera CPU for Agents and Simulation In LANL’s early testing of NVIDIA Vera CPUs on Branson — an open source Monte Carlo he",
+      "impact": "positive",
+      "takeaway": "Vera CPU 도입으로 LA 실험실 AI 연구 확대, 엔비디아 생태계 성장"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins",
+      "d": "The next era of AI will not be defined by compute alone. Its growth will be determined by energy.  As accelerated computing scales across AI factories, agentic AI, industrial AI, edge computing and physical AI — including robotics and autonomous systems — global electricity demand is rising at unprecedented speed.  In many regions, expanding grid [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/",
+      "m": "06. 22. PM 01:00",
+      "ts": 1782133213000,
+      "fullText": "Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins June 22, 2026 by Tenika Versey Walker 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The next era of AI will not be defined by compute alone. Its growth will be determined by energy. As accelerated computing scales across AI factories , agentic AI , industrial AI , edge computing and physical AI — including robotics and autonomous systems — global electricity demand is rising at unprecedented speed. In many regions, expanding grid infrastructure to meet that need requires years of permitting, transmission upgrades, land acquisition and capital investment. This challenge is reshaping how the world thinks about energy infrastructure for AI. Eco Wave Power, a member of the NVIDIA Inception startup program’s Sustainable Futures initiative , is developing technology — powered by NVIDIA AI infrastructure and digital twins — that converts energy from ocean waves into clean electricity using existing marine infrastructure. By using already-built coastal structures, wave energy generation can be deployed closer to areas with growing power demand — including ports, industrial zones and future AI infrastructure hubs. “Wave energy is one of the largest renewable energy sources that exists,” said Inna Braverman, cofounder and CEO of Eco Wave Power. “ Everybody wants it, but nobody can do it, so I looked at the current problems with harnessing wave power and I asked: How do we simplify it? ” Turning the Sea Into a Power Source Harnessing Earth’s natural cycles for power generation isn’t a new concept. Wind and solar energy have been well established industries for decades. Waves are on the way to completing this trifecta of power-producing elements. In the U.S. alone, wave energy could produce over 60% of annual energy consumption, according to the Energy Information Administration. It all starts with floaters — noninvasive floating infrastructure attached to brea",
+      "impact": "positive",
+      "takeaway": "파도 에너지 디지털 트윈에 엔비디아 AI 적용, 친환경 시장 진출"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia Seeks to Make Humanoid AI Robots Safer Around Humans",
+      "d": "Nvidia Corp. is working to make humanoid robots safer around people, arguing that they’ll need to handle split-second decisions before they can be trusted to work closely with humans.",
+      "u": "https://www.bloomberg.com/news/articles/2026-06-22/nvidia-seeks-to-make-humanoid-ai-robots-safer-around-humans",
+      "m": "06. 22. PM 01:00",
+      "ts": 1782133200000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "휴머노이드 로봇 안전성 강화로 엔비디아 로봇 사업 확대"
+    },
+    {
+      "s": "한경 경제",
+      "t": "구글, 엔비디아 전략 베끼기…AI 데이터센터에 금융 보증",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026062211641",
+      "m": "06. 22. AM 08:38",
+      "ts": 1782117501000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "구글의 전략 모방이 엔비디아 AI 수요 확대를 시사"
+    },
+    {
+      "s": "한경 IT",
+      "t": "엔비디아 손잡은 K 테크기업…글로벌 AI 생태계 주도한다",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026062298481",
+      "m": "06. 22. AM 08:21",
+      "ts": 1782116472000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "K 기업과 엔비디아 협업으로 글로벌 AI 생태계 주도"
+    },
     {
       "s": "연합뉴스",
       "t": "[특징주] LG그룹주, 엔비디아와 피지컬AI 협력 논의 소식에 상승(종합)",
@@ -18,7 +106,7 @@
       "ts": 1782110886000,
       "fullText": "LG그룹이 엔비디아와 피지컬AI 및 로보틱스 분야 사업 협력을 논의한다는 소식이 전해지자 관련 계열사 주가가 22일 상승 마감했다. LG그룹의 전자·CNS·이노텍 등 주요 계열사 경영진이 현지시간 오는 22일 미국 캘리포니아주 산타클라라의 엔비디아 본사를 방문해 엔비디아와 협력 과제를 두고 실무 협의를 진행한다는 소식이 전날 전해지며 투자자의 관심이 쏠렸다. 이번 방미는 지난 8일 구광모 LG그룹 회장과 젠슨 황 엔비디아 최고경영자 회동 후 2주 만의 후속 조치로, 피지컬AI와 미래 모빌리티 등 관련 협력 로드맵을 구체화하는 과정으로 평가된다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
       "impact": "positive",
-      "takeaway": "LG와 엔비디아 협력 논의가 생태계 확대 기대감 상승"
+      "takeaway": "LG와 엔비디아 피지컬AI 협력 논의가 주가 상승 요인"
     },
     {
       "s": "NVIDIA공식",
@@ -32,26 +120,13 @@
       "takeaway": "테마와 직접 무관"
     },
     {
-      "s": "한경 IT",
-      "t": "아마존, AI칩 외부 판매…엔비디아 생태계에 맞불",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026061973901",
-      "m": "06. 19. AM 08:30",
-      "ts": 1781857800000,
-      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 아마존, AI칩 외부 판매…엔비디아 생태계에 맞불 입력 2026.06.19 17:30 수정 2026.06.20 00:24 지면 A12 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 라현진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 아마존이 자체 개발한 인공지능(AI) 반도체를 외부 기업 데이터센터에 판매하는 방안을 협상 중이라고 블룸버그통신이 19일 보도했다. 엔비디아 의존도를 낮추려는 기업의 수요를 파고들겠다는 전략이다. 피터 드산티스 아마존 AI 부문 최고책임자는 블룸버그통신과의 인터뷰에서 트레이니엄 칩을 직접 구매할 잠재 고객과 논의를 시작했다고 밝혔다. 트레이니엄은 아마존이 2020년 자체 개발한 AI 반도체로 오픈AI, 앤스로픽, 우버 등에 공급하고 있다. 아마존의 움직임은 AI 반도체 시장에서 빅테크의 자체 칩 경쟁이 본격화하고 있음을 보여준다. 구글도 지난 4월 자체 AI 반도체인 텐서처리장치(TPU)를 일부 고객사에 직접 공급하겠다고 발표했다. 라현진 기자 raraland@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 라현진 기자 안녕하세요. 한국경제신문 테크&사이언스부 라현진 기자입니다. ADVERTISEMENT 관련 뉴스 1 빅테크 이익 절반 '장부상 숫자'…오픈AI·앤스로픽 무너지면 타격 오라클이 11일 내놓은 2026회계연도 4분기(2026년 3~5월) 실적은 ‘서프라이즈’ 수준이었다. 매출 129억달러는 전년 동기 대비 21% 늘어난 수치로, 시장 예상치를 웃돌았다. 조정 주... 2026.06.11 17:45 2 리벨리온, 에코피스와 수상 로봇 시장 공략 인공지능(AI) 반도체 스타트업 리벨리온과 수질정화 로봇·AI 전문기업 에코피스는 ‘국산 신경망처리장치(NPU) 기반 K-수상 로봇 사업’ 추진을 위한 업무협약(MOU)을 체결했다고... 2026.06.08 17:22 3 국산 AI 반도체 기업, 중동 공략 속도낸다 국내 인공지능(AI) 반도체와 AI 솔루션 기업들이 중동 시장 공략에 속도를 내고 있다. 사우디아라비아와 아랍에미리트(UAE) 등 중동 국가들이 ‘포스트 오일’ 시대를 대비해 AI와 클라우드, ... 2026.06.08 15:57 ADVERTISEMENT 많이 본 뉴스 1 글로벌 시장 브리핑 \"3배 번다, 빚내서라도 사자\"…美 개미들 우르르 몰렸다 2026.06.18 13:00 2 한국 와서 먹어보고 입맛 저격…출국 앞둔 외국인 '싹쓸이' 2026.06.19 08:00 3 \"주가조작 아닌가\" 李대통령 한마디에…오너 2세 물러난 회사 2026.06.18 14:53 4 \"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네 2026.06.17 08:55 5 \"月 50만원씩 3년 부으면 손에 쥐는 돈이…\" 2030 오픈런 예고 2026.06.18 15:20 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT ADVERTISEMENT",
-      "impact": "negative",
-      "takeaway": "아마존의 AI칩 판매가 엔비디아 생태계 경쟁 심화"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
       "d": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect to the grid.  In the era of AI, which NVIDIA founder and CEO Jensen Huang has described as a [&#8230;]",
       "u": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
       "m": "06. 18. PM 08:00",
       "ts": 1781812827000,
-      "fullText": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability The U.S. Federal Energy Regulatory Commission’s new actions on energy — a foundational layer of AI — are poised to reduce costs for ratepayers, grow the industrial base and strengthen the nation’s electrical grid. June 18, 2026 by Vladimir Troy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect to the grid. In the era of AI, which NVIDIA founder and CEO Jensen Huang has described as a five-layer cake , energy is the critical foundation of technological innovation. FERC’s actions do more than modernize the grid interconnection queue — the approval process power developers must complete to safely connect new energy generation to the electrical grid. Following U.S. Secretary of Energy Chris Wright’s order directing FERC to address large-load interconnection, the actions establish national policy for how America can simultaneously lower energy costs, grow its industrial base, scale AI and strengthen the electrical grid. For policymakers, utilities and technology partners, the message is clear: This is a pro-growth, pro-affordability and pro-reliability policy. Faster Connections, Stronger Grid At its core, the new framework cuts through burdensome bureaucratic red tape and aligns industry incentives. Large customers are no longer passive entrants into an overburdened interconnection queue. They’re active participants in building the infrastructure they require. That means: Funding their own network upgrades , reducing cost pressure on existing ratepayers. Bringing new energy generation online , increasing supply alongside demand. Offering flexible load , allowing",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "fullText": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability The U.S. Federal Energy Regulatory Commission’s new actions on energy — a foundational layer of AI — are poised to reduce costs for ratepayers, grow the industrial base and strengthen the nation’s electrical grid. June 18, 2026 by Vladimir Troy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect to the grid. In the era of AI, which NVIDIA founder and CEO Jensen Huang has described as a five-layer cake , energy is the critical foundation of technological innovation. FERC’s actions do more than modernize the grid interconnection queue — the approval process power developers must complete to safely connect new energy generation to the electrical grid. Following U.S. Secretary of Energy Chris Wright’s order directing FERC to address large-load interconnection, the actions establish national policy for how America can simultaneously lower energy costs, grow its industrial base, scale AI and strengthen the electrical grid. For policymakers, utilities and technology partners, the message is clear: This is a pro-growth, pro-affordability and pro-reliability policy. Faster Connections, Stronger Grid At its core, the new framework cuts through burdensome bureaucratic red tape and aligns industry incentives. Large customers are no longer passive entrants into an overburdened interconnection queue. They’re active participants in building the infrastructure they require. That means: Funding their own network upgrades , reducing cost pressure on existing ratepayers. Bringing new energy generation online , increasing supply alongside demand. Offering flexible load , allowing"
     },
     {
       "s": "NVIDIA공식",
@@ -60,9 +135,7 @@
       "u": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
       "m": "06. 18. PM 01:00",
       "ts": 1781787643000,
-      "fullText": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI June 18, 2026 by Jamie Allan 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. The digital era gave the advertising and marketing industry speed; the AI era is giving it autonomous operations. For companies building next-generation technologies for advertising and marketing, the question is no longer whether to adopt AI but whether their infrastructure can support it at the speed and scale the industry demands. At Cannes Lions, running June 22-26 in France, industry leaders including Alembic , Amazon Web Services (AWS), Criteo , Higgsfield , KERV.ai and Taboola are showcasing how NVIDIA technologies help unlock greater creativity and enable faster, autonomous operations at enterprise scale. Decision Intelligence at Enterprise Scale Causal AI platform Alembic helps solve one of enterprises’ biggest challenges: proving what marketing initiatives actually drive growth, not just reporting on what happened. Modeling true causation simultaneously across every channel, market and audience requires AI infrastructure that can process enormous, fast-changing datasets without reducing them to correlation-based assumptions. NVIDIA DGX Vera Rubin NVL72 systems enable Alembic to scale its Causal AI models to analyze more variables, run larger simulations and quantify the true drivers of growth across marketing investments. Alembic will be the first Causal AI company to use NVIDIA DGX Vera Rubin SuperPODs for enterprise-scale causal modeling, giving executives a single source of unbiased truth on what drove business outcomes and where capital is being wasted, so they can act with confidence on future decisions. Alembic ’s inference runs on private supercomputing infrastructure inside Equinix data centers where the enterprise data already lives, keeping AI workloads local. World Wide Technology extends",
-      "impact": "positive",
-      "takeaway": "NVIDIA 파트너가 광고·마케팅 AI 적용으로 생태계 영향력 확대"
+      "fullText": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI June 18, 2026 by Jamie Allan 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. The digital era gave the advertising and marketing industry speed; the AI era is giving it autonomous operations. For companies building next-generation technologies for advertising and marketing, the question is no longer whether to adopt AI but whether their infrastructure can support it at the speed and scale the industry demands. At Cannes Lions, running June 22-26 in France, industry leaders including Alembic , Amazon Web Services (AWS), Criteo , Higgsfield , KERV.ai and Taboola are showcasing how NVIDIA technologies help unlock greater creativity and enable faster, autonomous operations at enterprise scale. Decision Intelligence at Enterprise Scale Causal AI platform Alembic helps solve one of enterprises’ biggest challenges: proving what marketing initiatives actually drive growth, not just reporting on what happened. Modeling true causation simultaneously across every channel, market and audience requires AI infrastructure that can process enormous, fast-changing datasets without reducing them to correlation-based assumptions. NVIDIA DGX Vera Rubin NVL72 systems enable Alembic to scale its Causal AI models to analyze more variables, run larger simulations and quantify the true drivers of growth across marketing investments. Alembic will be the first Causal AI company to use NVIDIA DGX Vera Rubin SuperPODs for enterprise-scale causal modeling, giving executives a single source of unbiased truth on what drove business outcomes and where capital is being wasted, so they can act with confidence on future decisions. Alembic ’s inference runs on private supercomputing infrastructure inside Equinix data centers where the enterprise data already lives, keeping AI workloads local. World Wide Technology extends"
     },
     {
       "s": "이데일리",
@@ -72,9 +145,7 @@
       "m": "06. 18. AM 06:19",
       "ts": 1781763541000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "엔비디아 의존도 감소 요구가 생태계 성장에 부정적"
+      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -83,9 +154,7 @@
       "u": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
       "m": "06. 18. AM 06:00",
       "ts": 1781762459000,
-      "fullText": "France Advances Europe’s AI Future With NVIDIA Technologies From AI factories to open models, France is turning its AI ambitions into production reality. June 17, 2026 by Nat Ives 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! A year ago at NVIDIA GTC Paris at VivaTech, France laid out plans to advance local AI — from new AI factories and national compute capacity to open frontier models and industrial platforms. Now, that AI infrastructure is coming online. AI agents are running in production, startups are deploying applications and the French AI ecosystem is developing models, datasets and platforms designed around local languages, cultural context and European requirements. French AI Infrastructure Takes Shape France’s AI ambitions are gaining momentum. Billions in investment commitments through France 2030, the 2025 AI Action Summit and this year’s Choose France Summit are reinforcing the country’s position as one of Europe’s leading destinations for AI infrastructure. As part of these efforts, Mistral is building a new 44-megawatt data center in Bruyères-le-Châtel, a commune in northern France. Announced at GTC Paris last year, Mistral’s first deployment is already operational with 18,000 NVIDIA GB200 systems — laying the foundation for the company’s roadmap of 200 megawatts of compute capacity across Europe by 2027. The NVIDIA Blackwell platform is designed to help AI factories maximize throughput within fixed power budgets, combining higher performance‑per‑watt silicon with software features that boost data center throughput in power‑constrained environments. Mistral is also working with French public investment bank Bpifrance, AI and advanced tech investment company MGX and NVIDIA to expand Campus AI , a network of AI factories anchored by a planned 1.4-gigawatt facility, making it one of Europe’s largest AI campuses. This momentum reflects a broader wave of AI infrastructure investment in France. Scaleway, a European public c",
-      "impact": "positive",
-      "takeaway": "프랑스가 NVIDIA 기술 도입으로 유럽 AI 생태계 확대"
+      "fullText": "France Advances Europe’s AI Future With NVIDIA Technologies From AI factories to open models, France is turning its AI ambitions into production reality. June 17, 2026 by Nat Ives 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! A year ago at NVIDIA GTC Paris at VivaTech, France laid out plans to advance local AI — from new AI factories and national compute capacity to open frontier models and industrial platforms. Now, that AI infrastructure is coming online. AI agents are running in production, startups are deploying applications and the French AI ecosystem is developing models, datasets and platforms designed around local languages, cultural context and European requirements. French AI Infrastructure Takes Shape France’s AI ambitions are gaining momentum. Billions in investment commitments through France 2030, the 2025 AI Action Summit and this year’s Choose France Summit are reinforcing the country’s position as one of Europe’s leading destinations for AI infrastructure. As part of these efforts, Mistral is building a new 44-megawatt data center in Bruyères-le-Châtel, a commune in northern France. Announced at GTC Paris last year, Mistral’s first deployment is already operational with 18,000 NVIDIA GB200 systems — laying the foundation for the company’s roadmap of 200 megawatts of compute capacity across Europe by 2027. The NVIDIA Blackwell platform is designed to help AI factories maximize throughput within fixed power budgets, combining higher performance‑per‑watt silicon with software features that boost data center throughput in power‑constrained environments. Mistral is also working with French public investment bank Bpifrance, AI and advanced tech investment company MGX and NVIDIA to expand Campus AI , a network of AI factories anchored by a planned 1.4-gigawatt facility, making it one of Europe’s largest AI campuses. This momentum reflects a broader wave of AI infrastructure investment in France. Scaleway, a European public c"
     },
     {
       "s": "NVIDIA공식",
@@ -94,9 +163,7 @@
       "u": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
       "m": "06. 16. PM 10:30",
       "ts": 1781649041000,
-      "fullText": "For Robotaxis, Safety Must Be Built In, Not Bolted On A car pulls up to the curb. The app says, “Your ride is here.” No one’s in the driver’s seat. For people who live in one of the dozens of...",
-      "impact": "positive",
-      "takeaway": "NVIDIA XR AI가 AR 안경에 에이전트 적용, 생태계 확장"
+      "fullText": "For Robotaxis, Safety Must Be Built In, Not Bolted On A car pulls up to the curb. The app says, “Your ride is here.” No one’s in the driver’s seat. For people who live in one of the dozens of..."
     },
     {
       "s": "NVIDIA공식",
@@ -105,9 +172,7 @@
       "u": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
       "m": "06. 16. PM 04:30",
       "ts": 1781627427000,
-      "fullText": "HPE AI Factory With NVIDIA Expands for the Era of Agents HPE AI Factory with NVIDIA expands with NVIDIA Vera CPU and NVIDIA Agent Toolkit for HPE Private Cloud AI — plus NVIDIA Confidential Computing and enhanced full-stack NVIDIA integration across HPE AI Factory solutions. June 16, 2026 by Chris Marriott 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Enterprises are moving agentic AI from proof of concept to production — and the next generation of AI factories are built for the era of agents. At HPE Discover Las Vegas, running through Thursday, June 18, NVIDIA and HPE are expanding the HPE AI Factory with NVIDIA , including NVIDIA Vera CPU and NVIDIA Agent Toolkit for HPE Private Cloud AI. Plus, NVIDIA Confidential Computing extends across HPE AI Factory and enhanced full-stack NVIDIA integration — with NVIDIA accelerated computing, NVIDIA AI software and NVIDIA networking — is available throughout the entire portfolio. NVIDIA Vera CPU Available With HPE Private Cloud AI The HPE ProLiant Compute DL394 Gen12 with the NVIDIA Vera CPU will be available in 2027 with HPE Private Cloud AI, a turnkey AI factory co-engineered with NVIDIA. Vera is the first CPU built for agents — designed for the tool calls, orchestration and real-time data processing required across the agent loop — bringing deterministic, low-latency performance into HPE Private Cloud AI. The New York Stock Exchange , in collaboration with Redpanda and HPE, is an early enterprise customer exploring Vera CPU with the HPE ProLiant Compute DL394 Gen12 server. The Vera CPU is part of the NVIDIA Vera Rubin platform, which is ramping into full production with the NVIDIA Vera Rubin NVL72 rack-scale system available from HPE. Vera Rubin was built for frontier-scale models larger than 1 trillion parameters and will ship with full-stack NVIDIA Confidential Computing across every chip. HPE is also bringing the HPE Compute XD700 — built on NVIDIA HGX Rubin NVL8 — to the HPE AI Factory",
-      "impact": "positive",
-      "takeaway": "HPE와 NVIDIA 협업이 에이전트 시대 AI 팩토리 확대"
+      "fullText": "HPE AI Factory With NVIDIA Expands for the Era of Agents HPE AI Factory with NVIDIA expands with NVIDIA Vera CPU and NVIDIA Agent Toolkit for HPE Private Cloud AI — plus NVIDIA Confidential Computing and enhanced full-stack NVIDIA integration across HPE AI Factory solutions. June 16, 2026 by Chris Marriott 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Enterprises are moving agentic AI from proof of concept to production — and the next generation of AI factories are built for the era of agents. At HPE Discover Las Vegas, running through Thursday, June 18, NVIDIA and HPE are expanding the HPE AI Factory with NVIDIA , including NVIDIA Vera CPU and NVIDIA Agent Toolkit for HPE Private Cloud AI. Plus, NVIDIA Confidential Computing extends across HPE AI Factory and enhanced full-stack NVIDIA integration — with NVIDIA accelerated computing, NVIDIA AI software and NVIDIA networking — is available throughout the entire portfolio. NVIDIA Vera CPU Available With HPE Private Cloud AI The HPE ProLiant Compute DL394 Gen12 with the NVIDIA Vera CPU will be available in 2027 with HPE Private Cloud AI, a turnkey AI factory co-engineered with NVIDIA. Vera is the first CPU built for agents — designed for the tool calls, orchestration and real-time data processing required across the agent loop — bringing deterministic, low-latency performance into HPE Private Cloud AI. The New York Stock Exchange , in collaboration with Redpanda and HPE, is an early enterprise customer exploring Vera CPU with the HPE ProLiant Compute DL394 Gen12 server. The Vera CPU is part of the NVIDIA Vera Rubin platform, which is ramping into full production with the NVIDIA Vera Rubin NVL72 rack-scale system available from HPE. Vera Rubin was built for frontier-scale models larger than 1 trillion parameters and will ship with full-stack NVIDIA Confidential Computing across every chip. HPE is also bringing the HPE Compute XD700 — built on NVIDIA HGX Rubin NVL8 — to the HPE AI Factory"
     },
     {
       "s": "NVIDIA공식",
@@ -116,9 +181,7 @@
       "u": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
       "m": "06. 16. PM 03:00",
       "ts": 1781622036000,
-      "fullText": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0 NVIDIA delivers the performance, scale and reliability that frontier training requires — in benchmarks and beyond. June 16, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every breakthrough AI model starts the same way: with a training run. The infrastructure running those training jobs shapes everything: how fast teams can iterate, what scale of model they can build and whether those jobs complete reliably. As models grow in size, complexity and intelligence, the demands on training infrastructure are also rising. In MLPerf Training 6.0 — the latest of a series of rigorous, peer-reviewed industry benchmarks for evaluating AI training performance — the NVIDIA Blackwell platform led across every category, demonstrating: Fastest time to train on every benchmark Largest-scale training across 8,192 GPUs using NVIDIA Blackwell NVL72 systems The only platform with submissions across all seven benchmarks in the suite NVIDIA brings together performance, scale and reliability in a single platform engineered through extreme codesign to enable AI model builders to launch frontier models faster, minimize training costs and start generating revenue early. Performance: Fastest Time to Train on Every Benchmark MLPerf Training 6.0 added two new mixture-of-experts (MoE) pretraining workloads to the suite: DeepSeek-V3 671B and GPT-OSS-20B, reflecting the growing centrality of MoE architectures. The NVIDIA platform was the only one to be submitted across every benchmark, and delivered the fastest time to train on all seven. This round, NVIDIA submitted results on both NVIDIA GB200 NVL72 and GB300 NVL72 rack-scale systems. Within each rack-scale system, fifth-generation NVIDIA NVLink Switches connect all 72 GPUs with high bandwidth, into a unified pool of compute and memory, enabling them to act as one giant GPU. Large-scale MoE training faces the same all-to",
-      "impact": "positive",
-      "takeaway": "NVIDIA Blackwell의 MLPerf 6.0 최고 성능이 생태계 경쟁력 강화"
+      "fullText": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0 NVIDIA delivers the performance, scale and reliability that frontier training requires — in benchmarks and beyond. June 16, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every breakthrough AI model starts the same way: with a training run. The infrastructure running those training jobs shapes everything: how fast teams can iterate, what scale of model they can build and whether those jobs complete reliably. As models grow in size, complexity and intelligence, the demands on training infrastructure are also rising. In MLPerf Training 6.0 — the latest of a series of rigorous, peer-reviewed industry benchmarks for evaluating AI training performance — the NVIDIA Blackwell platform led across every category, demonstrating: Fastest time to train on every benchmark Largest-scale training across 8,192 GPUs using NVIDIA Blackwell NVL72 systems The only platform with submissions across all seven benchmarks in the suite NVIDIA brings together performance, scale and reliability in a single platform engineered through extreme codesign to enable AI model builders to launch frontier models faster, minimize training costs and start generating revenue early. Performance: Fastest Time to Train on Every Benchmark MLPerf Training 6.0 added two new mixture-of-experts (MoE) pretraining workloads to the suite: DeepSeek-V3 671B and GPT-OSS-20B, reflecting the growing centrality of MoE architectures. The NVIDIA platform was the only one to be submitted across every benchmark, and delivered the fastest time to train on all seven. This round, NVIDIA submitted results on both NVIDIA GB200 NVL72 and GB300 NVL72 rack-scale systems. Within each rack-scale system, fifth-generation NVIDIA NVLink Switches connect all 72 GPUs with high bandwidth, into a unified pool of compute and memory, enabling them to act as one giant GPU. Large-scale MoE training faces the same all-to"
     },
     {
       "s": "NVIDIA공식",
@@ -149,31 +212,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "NVIDIA공식",
-      "t": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
-      "d": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud.  Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models, custom-built by Apple and Google, leveraging [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
-      "m": "06. 09. PM 10:34",
-      "ts": 1781044467000,
-      "fullText": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute NVIDIA GPUs to support server-side inference for Apple Intelligence, announced at WWDC. June 9, 2026 by Avinash Ahuja 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini family of models. NVIDIA is collaborating with Apple and Google to support some of the next-generation Apple Intelligence features, using NVIDIA Blackwell GPUs with Confidential Computing integrated into Private Cloud Compute’s hardware security architecture running on Google Cloud. Confidential Computing Matters for the Era of AI Experiences NVIDIA Confidential Computing provides a hardware-based security layer for accelerated AI workloads. The technology protects data while it’s being processed by isolating workloads in trusted execution environments and enabling systems to cryptographically verify that the infrastructure has not been tampered with before any sensitive data is sent to the server. For end users, NVIDIA Confidential Computing means that no one, not even the system’s builders, can look at their data, chats or conversations. Adoption of NVIDIA Confidential Computing at this scale reflects a broader shift in AI infrastructure: As AI experiences combine on-device and cloud-based processing for their tasks, there’s a need for high-performance, server-side inference while maintaining strong privacy and security guarantees. How Confidential Computing Enforces Privacy and Trust NVIDIA Confidential Computing reflects NVIDIA’s commitment to trustworthy AI and includes these key ca"
-    },
-    {
       "s": "ebn.co.kr",
       "t": "[현장] 젠슨 황 만난 배경훈 \"엔비디아, GPU 26만장+a 공급 약속…韓 AI 생태계 투자\"",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Hc3d3ZWhxYlNuLVFNSVQ4dmV4LVpIVFFCRkZJWDFOZWw4Vk5ETVZyU1Y5c0s3TFZjc09mNWdPdU52LVU1a3pBWkxjaTVtbmQyajNpNnZRb3ByTjl3OF9kQzZVaDNvSGFf?oc=5",
       "m": "06. 09. AM 07:00",
       "ts": 1780988400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "스타트업엔",
-      "t": "디든로보틱스, NVIDIA 생태계로 산업용 피지컬 AI 본격화…‘디든 스파이더’ 주목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjckRiQVVRNWFIb3NOT1llZnlaV19ObzI3aEJBQ2J4VWUybWJDYXNkTTF4RlVUZzNqTjBaZ19HQjl1RDYtazZPSnNVOFI3TVFtRHN1VERrajc0b3dRV3htT2g3amRPbzRM0gFsQVVfeXFMUFMyNDYtUWZYN2dqa2pQUWZ0R2JzN1lDeElWd1dMakJudGhlQjZRZV9WTkpFTDhhN3Z4WVdwUm9FdjE2cTBsVDNPVENxVGFBZ1JDYkM5VldyWUMwZHMtelgyY09IODVzenlZa3Qt?oc=5",
-      "m": "06. 08. PM 01:37",
-      "ts": 1780925830000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -188,40 +232,24 @@
       "fullText": "Google News"
     },
     {
-      "s": "NVIDIA공식",
-      "t": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
-      "d": "A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration: the U.K. would be an AI maker, not an AI taker.  At this year’s event, NVIDIA and its partners are showcasing how that commitment is producing real momentum across the nation’s infrastructure, startups [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
-      "m": "06. 08. AM 06:00",
-      "ts": 1780898457000,
-      "fullText": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies A year after declaring itself an “AI maker, not an AI taker,” the UK is delivering sovereign compute, showcasing breakthrough startup and enterprise AI deployments across biology, agentic AI, coding and more. June 7, 2026 by Anthony Hills 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration : the U.K. would be an AI maker, not an AI taker. At this year’s event, NVIDIA and its partners are showcasing how that commitment is producing real momentum across the nation’s infrastructure, startups and enterprises. U.K. technology leaders are innovating across healthcare and life sciences, coding, agentic AI, inference and more — all running on sovereign AI deployments. “A year ago, we said the U.K. would be an AI maker, not an AI taker,” said U.K. AI Minister Kanishka Narayan. “Today we’re delivering on that — with sovereign compute powering British startups to push the boundaries of what AI can do, from drug discovery to healthcare to robotics. This is what it looks like when a country backs its own talent with the infrastructure to match. “NVIDIA’s decision to invest billions here is a reflection of the strength of what’s being built in Britain,” he added. “We are determined to make sure the next generation of AI breakthroughs happens in this country, and we have everything we need to make it happen.” Commitment to Compute Over the past year, the number of AI cloud providers planning to deploy AI infrastructure on U.K. soil has doubled. Nebius has announced plans to expand customers and cloud capabilities with three new deployments of advanced NVIDIA AI infrastructure, as the NVIDIA AI Cloud ecosystem partner continues to build out its commercial and AI R&D hub in London. Combined, the deployments are expected to reach 65 megawatts when fully ra"
+      "s": "스타트업엔",
+      "t": "디든로보틱스, NVIDIA 생태계로 산업용 피지컬 AI 본격화…‘디든 스파이더’ 주목",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjckRiQVVRNWFIb3NOT1llZnlaV19ObzI3aEJBQ2J4VWUybWJDYXNkTTF4RlVUZzNqTjBaZ19HQjl1RDYtazZPSnNVOFI3TVFtRHN1VERrajc0b3dRV3htT2g3amRPbzRM0gFsQVVfeXFMUFMyNDYtUWZYN2dqa2pQUWZ0R2JzN1lDeElWd1dMakJudGhlQjZRZV9WTkpFTDhhN3Z4WVdwUm9FdjE2cTBsVDNPVENxVGFBZ1JDYkM5VldyWUMwZHMtelgyY09IODVzenlZa3Qt?oc=5",
+      "m": "06. 08. AM 07:00",
+      "ts": 1780902000000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
-      "s": "NVIDIA공식",
-      "t": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
-      "d": "NVIDIA and LG Group are building an AI factory to accelerate LG Group’s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. The AI factory will provide LG Group with accelerated computing infrastructure to train, simulate, validate and deploy AI-based applications across its key businesses.  The collaboration brings [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-      "m": "06. 08. AM 03:00",
-      "ts": 1780887650000,
-      "fullText": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure New AI factory to serve as the foundation for LG Group’s robotics, autonomous driving, data center technologies and GPU cloud services. June 7, 2026 by Madison Huang 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA and LG Group are building an AI factory to accelerate LG Group’s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. The AI factory will provide LG Group with accelerated computing infrastructure to train, simulate, validate and deploy AI-based applications across its key businesses. The collaboration brings together NVIDIA’s full-stack, end-to-end AI factory platform with LG Group’s global leadership in consumer electronics, robotics, mobility components, smart spaces and data center technologies. Together, the companies are connecting AI model development, physical AI data generation, robot simulation and training, edge deployment and factory-scale digital twins into a unified workflow for building physical AI systems. Advancing Physical AI and Robotics The combination of LG’s production technology data and know-how from global manufacturing sites with NVIDIA’s AI infrastructure and digital twin technologies will help enhance AI-driven manufacturing AI competitiveness. The two companies will collaborate to build an autonomous manufacturing ecosystem in which the entire process — from raw material procurement to production, logistics and customer delivery — is connected in real time through data and AI, and establish it as a new global smart factory standard. LG Electronics is developing home-based robots like CLoiD to help with a wide range of indoor household tasks, enhancing everyday convenience and improving quality of life. By integrating the NVIDIA Isaac Sim and NVIDIA Isaac Lab open robotics frameworks into their development workflows, LG can simul"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
-      "d": "NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Corporation Electro-Materials BG. The collaboration will bring together NVIDIA’s full-stack accelerated computing platforms with Doosan Group’s capabilities in industrial automation, ",
-      "u": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
-      "m": "06. 07. PM 11:00",
-      "ts": 1780873236000,
-      "fullText": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure Companies to explore robotics, AI factory power solutions and advanced electronics materials for next-generation data center systems. June 7, 2026 by Madison Huang 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Corporation Electro-Materials BG. The collaboration will bring together NVIDIA’s full-stack accelerated computing platforms with Doosan Group’s capabilities in industrial automation, power generation and advanced electronics materials to support next-generation AI infrastructure. Doosan Group’s businesses span several layers of the AI factory ecosystem, from intelligent robotics systems to the full spectrum of large-scale power solutions and advanced electronics materials for AI data center equipment. NVIDIA and Doosan will explore how NVIDIA’s physical AI stack, NVIDIA DSX AI factory platform, NVIDIA MGX and accelerated computing platforms can support these areas. Advancing Physical AI and Robotics Doosan Robotics is integrating NVIDIA Isaac Sim and NVIDIA Isaac Lab open robotics frameworks, NVIDIA Cosmos open world foundation models , the open source Newton physics engine and NVIDIA Jetson Thor to advance its Agentic Robot OS — an AI-powered platform connecting perception, reasoning, simulation, learning and on-device inference. By integrating NVIDIA’s physical AI technologies , Doosan Robotics aims to help industrial robots better perceive, reason and act in complex and dynamic environments. Simulation-to-real workflows, physics calibration and AI reasoning will make collaborative robots more adaptable, task-specialized and ready for scalable deployment. The companies are also looking to develop reference use cases for high-"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
-      "d": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea, where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
-      "m": "06. 07. AM 07:00",
-      "ts": 1780815615000,
-      "fullText": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs June 7, 2026 by Jangho Park 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark , the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea , where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — including Korea’s KRAFTON and NC — are already working to bring their titles to RTX Spark-powered systems. Designed for local AI, creating and gaming, RTX Spark brings together 30 years of NVIDIA innovation to slim Windows laptops with all-day battery life and small, ultraefficient desktop PCs. With the superchip, gamers can play AAA games at 1440p resolution and over 100 frames per second with NVIDIA ray tracing, DLSS and Reflex technologies. In addition, RTX Spark supports all NVIDIA RTX technologies, including the recently announced DLSS 4.5 Ray Reconstruction , which features a second-generation transformer model for realistic image quality. RTX Spark Ignites Korea’s Gaming Community Korea has played a major role in spearheading esports and driving the boom in PC bangs, or internet and gaming cafes. With longstanding collaborations rooted in the country, NVIDIA in October celebrated 25 years of GeForce in Korea with a free festival for gamers, highlighting the rich gaming ecosystem that has been built over decades. On Friday, Huang headed to T1 Base Camp — a PC bang owned by T1, one of Korea’s top esports teams. There, he met with T1’s reigning League of Legends World Champion team, including six-time World Champion Lee “Faker” Sang-hyeok to unveil RTX Spark. NVIDIA and Riot Games — developer of League of Legends — are collaborating to bring the title as well as VALORANT to RTX Spark, expanding gamers’ access to high-perfo"
+      "s": "앱스토리",
+      "t": "美, 엔비디아 AI 칩 규제 확대 움직임…중국 우회 조달 차단 나선다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11eldlNWpkaFlCaEZOZmtTcExMZTMzZ1BYd2pjLTBkTld4QllyekZrZnJGdFNGWDR5VlBySnV2RFFKRVo3LS1QdWZlYjlZOGc?oc=5",
+      "m": "06. 02. AM 07:00",
+      "ts": 1780383600000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "서울경제",
@@ -284,20 +312,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "중기이코노미",
-      "t": "엔비디아, 중국 시장 점유율 0퍼센트 추락…왜?",
+      "s": "글로벌이코노믹",
+      "t": "엔비디아 '양자 습격'… 삼성·SK 주주라면 꼭 봐야 할 '이 지표' 3가지",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9udi0xWnBLYkFaYTR2MlRMaFNtcmZJcHIyclhmZkdRTjZrZEg2cFBHZ2h5S3ZiQzJnbVJvTkNFYnJTdVBya3JCVHY1M1dKYzdXbVZmQzQtTWNjbEd5cmktN1Q0RTJjX1dDOVE?oc=5",
-      "m": "05. 04. AM 07:00",
-      "ts": 1777878000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "굿모닝베트남미디어",
-      "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PS1lmakFsQzY5dFVXcmVkbENrUDI0eC01OFB2SE1zVDFsaEp6ODc4NzYxTUZvTzJQaE5JYUQxei1nUFVNT2pTeFYxY1M4YjBWVGFKNVQ2UEVldVlBeGlBX3FrV0N3RVg3clpoYWpySnk?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE53S2lTRnhFY2x2d1ZzanBMVEVOejBlRmxWclZUMTdYQm1vT0c5aW45eEU4WEZmY0l2b3l2ZU43a1praVp3V25FZHRuWm82MFprVXA0ZVNpbFkxcHlleWxZN0tPMGQ5TUwwa2h6cXlJdkMyQQ?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
       "_policy": true,
@@ -314,10 +332,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "글로벌이코노믹",
-      "t": "엔비디아 '양자 습격'… 삼성·SK 주주라면 꼭 봐야 할 '이 지표' 3가지",
+      "s": "중기이코노미",
+      "t": "엔비디아, 중국 시장 점유율 0퍼센트 추락…왜?",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE53S2lTRnhFY2x2d1ZzanBMVEVOejBlRmxWclZUMTdYQm1vT0c5aW45eEU4WEZmY0l2b3l2ZU43a1praVp3V25FZHRuWm82MFprVXA0ZVNpbFkxcHlleWxZN0tPMGQ5TUwwa2h6cXlJdkMyQQ?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9udi0xWnBLYkFaYTR2MlRMaFNtcmZJcHIyclhmZkdRTjZrZEg2cFBHZ2h5S3ZiQzJnbVJvTkNFYnJTdVBya3JCVHY1M1dKYzdXbVZmQzQtTWNjbEd5cmktN1Q0RTJjX1dDOVE?oc=5",
+      "m": "05. 04. AM 07:00",
+      "ts": 1777878000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "굿모닝베트남미디어",
+      "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PS1lmakFsQzY5dFVXcmVkbENrUDI0eC01OFB2SE1zVDFsaEp6ODc4NzYxTUZvTzJQaE5JYUQxei1nUFVNT2pTeFYxY1M4YjBWVGFKNVQ2UEVldVlBeGlBX3FrV0N3RVg3clpoYWpySnk?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
       "_policy": true,
@@ -380,36 +408,6 @@
       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wNFRwSFFMLXVVazdCeEFESmVRV3k1Z1ZZd3gxOFhSVllJYlZaUzJKYkJUb2loNEhMaG16UnBENzZzY05xbC0tb1hQWUEwRG55N0U0N2tXbFJvRFnSAWBBVV95cUxNOGZlb2pxZlh2OWxkcmlpcm1EWXZWdmlqZ0hwTmoySllSLU1CXzNHU3A5ZUU1WXhYNGpwcWo0V0tlM3dLcW96YmRQZFhpay0zZFV6YzRnTWRTXzdQb0pGa2g?oc=5",
       "m": "04. 13. AM 07:00",
       "ts": 1776063600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "[AI는 지금] 엔비디아, GPU 시장서 86% 독주 가능한 까닭은",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWNnlidE1rV0otMlo3X0NaV0NwYVJweDkxa3FIYVRfQnNTR0ZDTVZVQnkwUUdvU0podlI3X3d1R0QydGdJckx4cGdwZy1KUXo0VHZzaGR3?oc=5",
-      "m": "04. 11. AM 07:00",
-      "ts": 1775890800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "글로벌이코노믹",
-      "t": "중국 'AI 반도체 독립' 선언… 엔비디아 CUDA 장벽 넘는 '제3의 길' 가동",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0xTTFBQd1JxZ0toOElNX1hPTVVvVmYxV3VyOWs5ZXAwdGlCa0EyQS1VcE5mc05SZTNReWgwc3FhdlE2MzJlYTlDVi1aTzJCVnN3M240YzEyNFBVRGFIZkpmbVdLLXkwV2pkTUhkTHRLaG9PWk9wYkJtRElQdkhSMlhCajVrWjdo?oc=5",
-      "m": "04. 08. AM 07:00",
-      "ts": 1775631600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "포쓰저널",
-      "t": "[4th-AI] \"AI 인프라 엔비디아 쏠림 심화..K-NPU 생태계 구축 시급\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qNjRRMHF4OHJ1NzE5dm1OdmkxdkdKLURPcmJ3WHhubVVFUjhQdTIteVlUZHdRUzZPYVM5bDREUWpSNUhUbEh1dk4yVWZtWU9fXzM1QU5RX2V1Mm1BTXN1V1ZqaU8?oc=5",
-      "m": "04. 06. AM 07:00",
-      "ts": 1775458800000,
       "_policy": true,
       "fullText": "Google News"
     }

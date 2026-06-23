@@ -1,65 +1,6 @@
 {
-  "updatedAt": "2026-06-23T08:27:35.719Z",
+  "updatedAt": "2026-06-23T11:39:36.983Z",
   "data": {
-    "AVGO": {
-      "name": "브로드컴",
-      "px": 392.13,
-      "dayChange": -4.67,
-      "periodChange": -7.08,
-      "prices": [
-        422.01,
-        421.86,
-        426.58,
-        446.77,
-        459.97,
-        481.57,
-        479.23,
-        418.91,
-        385.73,
-        396.6,
-        392.16,
-        372.1,
-        385.57,
-        382.07,
-        393.94,
-        376.71,
-        392.9,
-        411.35,
-        392.13
-      ],
-      "dates": [
-        "2026-05-26",
-        "2026-05-27",
-        "2026-05-28",
-        "2026-05-29",
-        "2026-06-01",
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04",
-        "2026-06-05",
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22"
-      ],
-      "volume": 24324818,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 495,
-        "low52w": 258.77,
-        "volume": 24324818
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "AMD": {
       "name": "AMD",
       "px": 551.63,
@@ -178,6 +119,65 @@
       "investorFlow": null,
       "consensus": null
     },
+    "AVGO": {
+      "name": "브로드컴",
+      "px": 392.13,
+      "dayChange": -4.67,
+      "periodChange": -7.08,
+      "prices": [
+        422.01,
+        421.86,
+        426.58,
+        446.77,
+        459.97,
+        481.57,
+        479.23,
+        418.91,
+        385.73,
+        396.6,
+        392.16,
+        372.1,
+        385.57,
+        382.07,
+        393.94,
+        376.71,
+        392.9,
+        411.35,
+        392.13
+      ],
+      "dates": [
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22"
+      ],
+      "volume": 24324818,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 495,
+        "low52w": 258.77,
+        "volume": 24324818
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "000660": {
       "name": "SK하이닉스",
       "px": 2555000,
@@ -227,7 +227,7 @@
         "2026-06-22",
         "2026-06-23"
       ],
-      "volume": 7716119,
+      "volume": 8691627,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -252,6 +252,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260623",
+            "foreigner": -937255,
+            "institution": -925092,
+            "individual": 1858226,
+            "foreignRatio": "51.02%"
+          },
           {
             "date": "20260622",
             "foreigner": -502831,
@@ -314,22 +321,15 @@
             "institution": -702023,
             "individual": 947987,
             "foreignRatio": "51.05%"
-          },
-          {
-            "date": "20260609",
-            "foreigner": -626165,
-            "institution": 854714,
-            "individual": -241245,
-            "foreignRatio": "51.09%"
           }
         ],
         "sum5d": {
-          "foreigner": -368502,
-          "institution": 1298009
+          "foreigner": -1657651,
+          "institution": 133960
         },
         "sum10d": {
-          "foreigner": -254178,
-          "institution": 832305
+          "foreigner": -565268,
+          "institution": -947501
         }
       },
       "consensus": null
@@ -383,7 +383,7 @@
         "2026-06-22",
         "2026-06-23"
       ],
-      "volume": 44459731,
+      "volume": 45581474,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -408,6 +408,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260623",
+            "foreigner": -2251501,
+            "institution": -4359775,
+            "individual": 6503234,
+            "foreignRatio": "47.48%"
+          },
           {
             "date": "20260622",
             "foreigner": -1266729,
@@ -470,22 +477,15 @@
             "institution": -2851841,
             "individual": 6424717,
             "foreignRatio": "47.61%"
-          },
-          {
-            "date": "20260609",
-            "foreigner": -1596173,
-            "institution": 1767022,
-            "individual": -331618,
-            "foreignRatio": "47.68%"
           }
         ],
         "sum5d": {
-          "foreigner": -3338499,
-          "institution": 2207730
+          "foreigner": -5562549,
+          "institution": -2991459
         },
         "sum10d": {
-          "foreigner": -7173931,
-          "institution": -488223
+          "foreigner": -7829259,
+          "institution": -6615020
         }
       },
       "consensus": null
@@ -557,65 +557,6 @@
     ]
   },
   "etfs": {
-    "SOXX": {
-      "name": "iShares PHLX SOX Semiconductor ",
-      "px": 655.01,
-      "dayChange": 2.43,
-      "periodChange": 14.9,
-      "prices": [
-        570.09,
-        563.98,
-        569.47,
-        569.08,
-        571.93,
-        605.02,
-        615.68,
-        602.72,
-        539.77,
-        571.45,
-        562.14,
-        541.51,
-        586.93,
-        596.25,
-        628.45,
-        591.24,
-        599.73,
-        639.45,
-        655.01
-      ],
-      "dates": [
-        "2026-05-26",
-        "2026-05-27",
-        "2026-05-28",
-        "2026-05-29",
-        "2026-06-01",
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04",
-        "2026-06-05",
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22"
-      ],
-      "volume": 7460121,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 655.95,
-        "low52w": 230.46,
-        "volume": 7460121
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "SMH": {
       "name": "VanEck Semiconductor ETF",
       "px": 668.91,
@@ -675,6 +616,65 @@
       "investorFlow": null,
       "consensus": null
     },
+    "SOXX": {
+      "name": "iShares PHLX SOX Semiconductor ",
+      "px": 655.01,
+      "dayChange": 2.43,
+      "periodChange": 14.9,
+      "prices": [
+        570.09,
+        563.98,
+        569.47,
+        569.08,
+        571.93,
+        605.02,
+        615.68,
+        602.72,
+        539.77,
+        571.45,
+        562.14,
+        541.51,
+        586.93,
+        596.25,
+        628.45,
+        591.24,
+        599.73,
+        639.45,
+        655.01
+      ],
+      "dates": [
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22"
+      ],
+      "volume": 7460121,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 655.95,
+        "low52w": 230.46,
+        "volume": 7460121
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "091160": {
       "name": "KODEX SEMICON",
       "px": 166780,
@@ -724,7 +724,7 @@
         "2026-06-22",
         "2026-06-23"
       ],
-      "volume": 6200946,
+      "volume": 6437426,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -735,6 +735,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260623",
+            "foreigner": -90089,
+            "institution": -188475,
+            "individual": 283552,
+            "foreignRatio": "0.39%"
+          },
           {
             "date": "20260622",
             "foreigner": 108915,
@@ -797,22 +804,15 @@
             "institution": -60570,
             "individual": 29011,
             "foreignRatio": "0.56%"
-          },
-          {
-            "date": "20260609",
-            "foreigner": 16437,
-            "institution": 72059,
-            "individual": -76962,
-            "foreignRatio": "0.51%"
           }
         ],
         "sum5d": {
-          "foreigner": -21863,
-          "institution": 319425
+          "foreigner": -58189,
+          "institution": 55964
         },
         "sum10d": {
-          "foreigner": 49456,
-          "institution": 381417
+          "foreigner": -57070,
+          "institution": 120883
         }
       },
       "consensus": null

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-24T06:49:07.077Z",
+  "updatedAt": "2026-06-24T10:24:37.425Z",
   "data": {
     "112610": {
       "name": "CSWIND",
-      "px": 41800,
-      "dayChange": -1.53,
-      "periodChange": -18.68,
+      "px": 41600,
+      "dayChange": -2,
+      "periodChange": -19.07,
       "prices": [
         51400,
         49900,
@@ -27,7 +27,7 @@
         42450,
         43450,
         42450,
-        41800
+        41600
       ],
       "dates": [
         "2026-05-26",
@@ -52,7 +52,7 @@
         "2026-06-23",
         "2026-06-24"
       ],
-      "volume": 333821,
+      "volume": 340560,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -77,6 +77,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260624",
+            "foreigner": -33930,
+            "institution": -6532,
+            "individual": 38790,
+            "foreignRatio": "16.36%"
+          },
           {
             "date": "20260623",
             "foreigner": -150267,
@@ -139,31 +146,24 @@
             "institution": -225127,
             "individual": 106510,
             "foreignRatio": "19.13%"
-          },
-          {
-            "date": "20260610",
-            "foreigner": -152852,
-            "institution": -58784,
-            "individual": 211778,
-            "foreignRatio": "18.92%"
           }
         ],
         "sum5d": {
-          "foreigner": -769064,
-          "institution": 150135
+          "foreigner": -188173,
+          "institution": 98400
         },
         "sum10d": {
-          "foreigner": -1180152,
-          "institution": -144181
+          "foreigner": -1061230,
+          "institution": -91929
         }
       },
       "consensus": null
     },
     "267260": {
       "name": "HD현대일렉트릭",
-      "px": 940000,
-      "dayChange": -0.95,
-      "periodChange": -18.12,
+      "px": 937000,
+      "dayChange": -1.26,
+      "periodChange": -18.38,
       "prices": [
         1148000,
         1094000,
@@ -185,7 +185,7 @@
         1078000,
         1033000,
         949000,
-        940000
+        937000
       ],
       "dates": [
         "2026-05-26",
@@ -210,7 +210,7 @@
         "2026-06-23",
         "2026-06-24"
       ],
-      "volume": 201308,
+      "volume": 213086,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -235,6 +235,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260624",
+            "foreigner": -5294,
+            "institution": -14925,
+            "individual": 18794,
+            "foreignRatio": "34.91%"
+          },
           {
             "date": "20260623",
             "foreigner": 805,
@@ -297,22 +304,15 @@
             "institution": 69469,
             "individual": 15464,
             "foreignRatio": "35.28%"
-          },
-          {
-            "date": "20260610",
-            "foreigner": -50117,
-            "institution": 33956,
-            "individual": 16223,
-            "foreignRatio": "35.54%"
           }
         ],
         "sum5d": {
-          "foreigner": 46789,
-          "institution": -44853
+          "foreigner": 51101,
+          "institution": -61369
         },
         "sum10d": {
-          "foreigner": -291825,
-          "institution": 364934
+          "foreigner": -247002,
+          "institution": 316053
         }
       },
       "consensus": null
@@ -502,9 +502,9 @@
     },
     "009830": {
       "name": "한화솔루션",
-      "px": 33750,
-      "dayChange": -0.88,
-      "periodChange": -24.07,
+      "px": 33600,
+      "dayChange": -1.32,
+      "periodChange": -24.41,
       "prices": [
         44450,
         42350,
@@ -526,7 +526,7 @@
         38050,
         37850,
         34050,
-        33750
+        33600
       ],
       "dates": [
         "2026-05-26",
@@ -551,7 +551,7 @@
         "2026-06-23",
         "2026-06-24"
       ],
-      "volume": 847145,
+      "volume": 916764,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -576,6 +576,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260624",
+            "foreigner": 52262,
+            "institution": -137357,
+            "individual": 84238,
+            "foreignRatio": "14.64%"
+          },
           {
             "date": "20260623",
             "foreigner": -13269,
@@ -638,22 +645,15 @@
             "institution": -14251,
             "individual": 88147,
             "foreignRatio": "15.19%"
-          },
-          {
-            "date": "20260610",
-            "foreigner": -705630,
-            "institution": -226375,
-            "individual": 916524,
-            "foreignRatio": "15.40%"
           }
         ],
         "sum5d": {
-          "foreigner": -312978,
-          "institution": -721844
+          "foreigner": -152070,
+          "institution": -1255310
         },
         "sum10d": {
-          "foreigner": -868185,
-          "institution": -486962
+          "foreigner": -110293,
+          "institution": -397944
         }
       },
       "consensus": null
@@ -702,7 +702,7 @@
       10.01,
       10.77,
       -0.3,
-      3.39
+      2.94
     ],
     "sp500": [
       0,
@@ -728,67 +728,6 @@
     ]
   },
   "etfs": {
-    "TAN": {
-      "name": "Invesco Solar ETF",
-      "px": 58.56,
-      "dayChange": -4.17,
-      "periodChange": -15.08,
-      "prices": [
-        68.96,
-        70.51,
-        71.93,
-        73.93,
-        71.13,
-        72.27,
-        70.29,
-        70.44,
-        64.05,
-        63.58,
-        61.83,
-        59.16,
-        62.3,
-        63.03,
-        62.7,
-        60.58,
-        58.45,
-        60.58,
-        61.11,
-        58.56
-      ],
-      "dates": [
-        "2026-05-26",
-        "2026-05-27",
-        "2026-05-28",
-        "2026-05-29",
-        "2026-06-01",
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04",
-        "2026-06-05",
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23"
-      ],
-      "volume": 1297690,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 75.6,
-        "low52w": 33.01,
-        "volume": 1297690
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "ICLN": {
       "name": "iShares Global Clean Energy ETF",
       "px": 20.67,
@@ -846,6 +785,67 @@
         "high52w": 23.78,
         "low52w": 12.83,
         "volume": 3531866
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "TAN": {
+      "name": "Invesco Solar ETF",
+      "px": 58.56,
+      "dayChange": -4.17,
+      "periodChange": -15.08,
+      "prices": [
+        68.96,
+        70.51,
+        71.93,
+        73.93,
+        71.13,
+        72.27,
+        70.29,
+        70.44,
+        64.05,
+        63.58,
+        61.83,
+        59.16,
+        62.3,
+        63.03,
+        62.7,
+        60.58,
+        58.45,
+        60.58,
+        61.11,
+        58.56
+      ],
+      "dates": [
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23"
+      ],
+      "volume": 1297690,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 75.6,
+        "low52w": 33.01,
+        "volume": 1297690
       },
       "investorFlow": null,
       "consensus": null

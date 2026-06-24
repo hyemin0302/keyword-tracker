@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T06:45:00.561Z",
+  "updatedAt": "2026-06-24T10:20:39.512Z",
   "data": {
     "NVDA": {
       "name": "엔비디아",
@@ -64,9 +64,9 @@
     },
     "035420": {
       "name": "NAVER",
-      "px": 199900,
-      "dayChange": -1.28,
-      "periodChange": -0.05,
+      "px": 199400,
+      "dayChange": -1.53,
+      "periodChange": -0.3,
       "prices": [
         200000,
         198800,
@@ -88,7 +88,7 @@
         229500,
         222000,
         202500,
-        199900
+        199400
       ],
       "dates": [
         "2026-05-26",
@@ -113,7 +113,7 @@
         "2026-06-23",
         "2026-06-24"
       ],
-      "volume": 1410419,
+      "volume": 1501247,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -138,6 +138,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260624",
+            "foreigner": -329671,
+            "institution": -83669,
+            "individual": 370477,
+            "foreignRatio": "34.93%"
+          },
           {
             "date": "20260623",
             "foreigner": -57269,
@@ -200,31 +207,24 @@
             "institution": 114302,
             "individual": 67102,
             "foreignRatio": "34.40%"
-          },
-          {
-            "date": "20260610",
-            "foreigner": -41839,
-            "institution": -272647,
-            "individual": 272418,
-            "foreignRatio": "34.51%"
           }
         ],
         "sum5d": {
-          "foreigner": 572557,
-          "institution": -328980
+          "foreigner": 100599,
+          "institution": -442288
         },
         "sum10d": {
-          "foreigner": 954465,
-          "institution": 85520
+          "foreigner": 666633,
+          "institution": 274498
         }
       },
       "consensus": null
     },
     "017670": {
       "name": "SK텔레콤",
-      "px": 91300,
-      "dayChange": 1.56,
-      "periodChange": -10.58,
+      "px": 91000,
+      "dayChange": 1.22,
+      "periodChange": -10.87,
       "prices": [
         102100,
         100400,
@@ -246,7 +246,7 @@
         94900,
         94200,
         89900,
-        91300
+        91000
       ],
       "dates": [
         "2026-05-26",
@@ -271,7 +271,7 @@
         "2026-06-23",
         "2026-06-24"
       ],
-      "volume": 990321,
+      "volume": 1054710,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -296,6 +296,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260624",
+            "foreigner": 101496,
+            "institution": 9616,
+            "individual": -106952,
+            "foreignRatio": "37.57%"
+          },
           {
             "date": "20260623",
             "foreigner": 121719,
@@ -358,22 +365,15 @@
             "institution": 41429,
             "individual": 7435,
             "foreignRatio": "36.76%"
-          },
-          {
-            "date": "20260610",
-            "foreigner": 205998,
-            "institution": -11974,
-            "individual": -187883,
-            "foreignRatio": "36.75%"
           }
         ],
         "sum5d": {
-          "foreigner": 893814,
-          "institution": -656453
+          "foreigner": 988522,
+          "institution": -518758
         },
         "sum10d": {
-          "foreigner": 1361227,
-          "institution": -900758
+          "foreigner": 1256725,
+          "institution": -879168
         }
       },
       "consensus": null
@@ -422,7 +422,7 @@
       10.01,
       10.77,
       -0.3,
-      3.39
+      2.94
     ],
     "sp500": [
       0,

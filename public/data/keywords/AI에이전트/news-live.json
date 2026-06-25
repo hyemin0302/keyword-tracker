@@ -1,14 +1,80 @@
 {
-  "updatedAt": "2026-06-25T13:41:29.771Z",
+  "updatedAt": "2026-06-25T16:25:59.792Z",
   "count": 40,
   "stats": {
-    "today": 8,
+    "today": 14,
     "yesterday": 4,
-    "weekAvg": 3.4,
+    "weekAvg": 4.1,
     "sources": 26,
-    "heat": "warm"
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "From Fortnite to robots: General Intuition raises $2.3B on bet that video games can train AI agents for the real world",
+      "d": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+      "u": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "m": "06. 25. PM 04:00",
+      "ts": 1782403200000,
+      "fullText": "As soon as I entered General Intuition&#8217;s R&D floor at its New York office, the company&#8217;s 31-year-old co-founder and CEO Pim de Witte directed my attention to a monitor perched on a standing desk. Someone appeared to be playing Fortnite. It wasn’t a person. “Our agent has been playing for 100 hours straight,” Kent Rollins, the company’s chief product officer, said, beaming. Before I could get absorbed in the spectacle of an AI navigating the game’s virtual environment, I heard the electronic footsteps of a large quadrupedal robot approaching. “The same brain powering the agent playing Fortnite is powering the robot,” de Witte told me. Josh Duplantis, a data analyst carrying a laptop streaming a live feed from the robot’s single camera, piped up to explain that the bot’s default mode was “exploration.” Relying on that camera, its singular eye, the giant bug-like bot walked up to me, circled around me, and continued into the office. It occasionally clipped the legs of chairs or bumped into an errant trash bin, much like a toddler that hasn’t yet learned how her body relates to the world around it. Duplantis said it took just eight minutes of real-world robotics data to fine-tune an AI model for the quadruped. What&#8217;s more, that data was collected on the street, not inside the office where the bot was currently navigating itself. An agentic model that can generalize from gameplay to simulation to embodiment is General Intuition’s raison d’etre. And that model&#8217;s ability to figure out its place in the world has secured the backing of some heavy hitters. On Thursday, General Intuition said it raised $320 million at a $2.3 billion valuation, confirming TechCrunch’s previous reporting . The round brings General Intuition&#8217;s total disclosed funding to $454 million, after the $134 million round it raised at launch last October. The startup was spun out of de Witte’s other company, Medal, which allows gamers to upload and share video game clips. The ",
+      "impact": "positive",
+      "takeaway": "AI 에이전트 개발에 투자 증가"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Parker Conrad knows which employees are worth their AI spend and says Rippling can help you, too",
+      "d": "\"There were employees doing things like, 'Claude is so helpful for me — it analyzes my calendar and my email and puts together a plan for me,'\" he says. \"That person was spending at a run rate of $30,000 a year for this.\"",
+      "u": "https://techcrunch.com/2026/06/25/parker-conrad-knows-which-employees-are-worth-their-ai-spend-and-says-rippling-can-help-you-too/",
+      "m": "06. 25. PM 04:00",
+      "ts": 1782403200000,
+      "fullText": "Parker Conrad wants you to believe that a huge chunk of data analytics belongs inside human capital management systems — a claim that conveniently positions Rippling, which started out as an HR software company, to compete directly with dedicated business intelligence tools. The pitch is that the modern data stack — the galaxy of tools that companies currently jury-rig from multiple vendors — can be collapsed into one. Just moving data from your various business systems into a warehouse is itself a massive industry; that&#8217;s what companies like Fivetran and Airbyte do. Then you need somewhere to store and query it, like Snowflake, then something to transform and clean it, like dbt Labs, then a visualization layer like Tableau on top. Conrad&#8217;s argument is that Rippling knits together all of that into one system and wraps it in something the others lack: a built-in understanding of your org, its ever-evolving reporting structure, and everything impacted when any metric moves up or down. That&#8217;s what Rippling Data Cloud, launching today, is designed to deliver. To see it in action, Conrad shares his screen from his San Francisco office, and then offers a window into what Rippling found when it turned the product on its own workforce. &#8220;There were employees doing things like, &#8216;Claude is so helpful for me — it analyzes my calendar and my email and puts together a plan for me,&#8217;&#8221; he says. &#8220;That person was spending at a run rate of $30,000 a year for this.&#8221; No one was doing anything wrong, he&#8217;s quick to add, but the ROI simply wasn&#8217;t there. It&#8217;s the kind of finding that most companies currently have no way of surfacing. He then shows me a live dashboard he&#8217;s built by simply asking Rippling AI to analyze his company&#8217;s most recent compensation review cycle — distributions of performance ratings, promotion rates by department, salary ratios, all of it drillable to the individual level. Then he pull",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
+    },
+    {
+      "s": "조선일보",
+      "t": "오픈AI, 자체 AI 반도체 공개… 올해 말부터 데이터센터 배치",
+      "d": "",
+      "u": "https://www.chosun.com/economy/tech_it/2026/06/26/SNYFSVCN6RAWXBQFF7UMCZXXBI/",
+      "m": "06. 25. PM 03:34",
+      "ts": 1782401640000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "오픈AI의 자체 AI 반도체 개발"
+    },
+    {
+      "s": "동아일보",
+      "t": "오픈AI도 자체 칩… 메모리 시장 ‘쑥쑥’",
+      "d": "오픈AI가 첫 자체 개발 인공지능(AI) 칩을 공개했다. 추론에 특화된 AI 칩으로 오픈AI는 기존 AI 칩과 비교해 경제성을 갖췄다고 강조하고 있다. 최근 AI 인프라 구축 및 운영에 막대한 비용이 들어가면서, 오픈AI를 비롯해 구글, 아마존, 메타 등 빅테크들은 비용 절감을 위해 자사 AI 운영에 최적화된 자체 AI 칩 개발에 나서고 있다. 업계에서는 AI 반도체 산업에 빅테크들까지 출사표를 던지면서 삼성전자, SK하이닉스 등 메모리 반도체 기업들의 성장세가 한동안 이어질 것이라는 관측이 나온다.● AI 칩 ‘경제성’ 강조한 오픈AI 24일(현지 시간) 오픈AI와 미국의 반도체 설계 기업(팹리스) 브로드컴은 AI 추론에 특화된 AI 반도체 ‘할라페뇨’를 공개했다. 오픈AI가 처음으로 자체 개발한 AI 반",
+      "u": "https://www.donga.com/news/Economy/article/all/20260625/134184554/2",
+      "m": "06. 25. PM 03:30",
+      "ts": 1782401400000,
+      "fullText": "최지원 기자 구독",
+      "impact": "positive",
+      "takeaway": "메모리 시장 성장 가능성"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "DeepSeek Plans to Double Staff Across All Departments",
+      "d": "China’s DeepSeek, fresh off agreements for a blockbuster fundraising, said it is working to at least double the size of all departments, as it steps up efforts to compete with domestic rivals and global leaders such as OpenAI and Anthropic PBC.",
+      "u": "https://www.bloomberg.com/news/articles/2026-06-25/deepseek-plans-to-double-staff-across-all-departments-mqtlpz76",
+      "m": "06. 25. PM 02:32",
+      "ts": 1782397952000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "인재 확보로 성장 기대"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "EU Held Talks With White House on Anthropic After Mythos Cutoff",
+      "d": "The European Union held discussions with the Trump administration on access to Anthropic PBC’s most advanced artificial intelligence models after the US restricted foreign nationals from accessing the technology earlier this month.",
+      "u": "https://www.bloomberg.com/news/articles/2026-06-25/eu-held-talks-with-white-house-on-anthropic-after-mythos-cutoff",
+      "m": "06. 25. PM 12:51",
+      "ts": 1782391913000,
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
+    },
     {
       "s": "디지털투데이",
       "t": "인도 은행권 AI 규제 초안 공개…고위험 모델은 이사회 승인",
@@ -19,7 +85,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "인도 은행권의 AI 규제 초안 공개로 고위험 모델의 승인 절차가 강화되므로, 관련 기업에 부정적인 영향을 미칠 수 있다."
+      "takeaway": "AI 규제 강화 우려"
     },
     {
       "s": "Bloomberg Tech",
@@ -30,7 +96,7 @@
       "ts": 1782385321000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "OpenAI, Anthropic, SpaceX의 VC 펀드 조달이 활발해지므로, 관련 기업에 긍정적인 영향을 미칠 수 있다."
+      "takeaway": "VC 펀드레이징 증가"
     },
     {
       "s": "BeInCrypto",
@@ -41,8 +107,8 @@
       "ts": 1782380548000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "하원 민주당의 SEC에 질의는 AI 대리인 리테일 거래에 대한 규제 강화에 대한 관심을 나타내므로, 테마와 직접 무관하다."
+      "impact": "negative",
+      "takeaway": "AI 규제 강화 우려"
     },
     {
       "s": "전자신문",
@@ -51,9 +117,9 @@
       "u": "https://www.etnews.com/20260625000313",
       "m": "06. 25. AM 08:00",
       "ts": 1782374400000,
-      "fullText": "",
-      "impact": "neutral",
-      "takeaway": "플로우 AX 페스타에서 '리패턴 AI'의 핵심 기능 소개는 AI 기술에 대한 관심을 나타내므로, 테마와 직접 무관하다."
+      "fullText": "SW SW [플로우 AX 페스타] '리패턴 AI' 핵심 기능 현장서 소개 발행일 : 2026-06-25 17:00 지면 : 2026-06-26 11면 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 플로우 AX페스타 2026이 25일 서울 여의도 페어몬트호텔에서 열렸다. 참석자들이 플로우의 AI서비스를 살펴보고 있다. 이동근기자 foto@etnews.com 마드라스체크는 연례 최대 행사인 '플로우 AX페스타'에서 다양한 부스를 통해 기술 혁신의 핵심으로 내세운 인공지능(AI) 엔진 '리패턴 AI'를 공개했다. 부스를 찾은 관람객은 리패턴 AI가 구현하는 새로운 워크플로우를 직접 체험하며 높은 관심을 보였다. 가장 눈에 띄는 기술은 '모델 컨텍스트 프로토콜(MCP) 커넥터'다. 이 기능은 파편화된 사내 데이터를 클로드, 챗GPT, 커서 등 외부 AI 모델과 즉각적으로 연결해 주는 가교 역할을 한다. 이를 통해 복잡한 연동 과정 없이도 외부 AI 도구가 사내 업무 맥락을 완벽히 이해하고 데이터를 활용할 수 있게 되어 보안과 실용성을 확보했다. 문서 작업의 효율성을 높여주는 '지식 관리' 솔루션 또한 관람객의 주목을 받았다. AI가 문서의 초안 작성부터 요약, 교정에 이르는 전 과정을 지원함으로써 단순 반복 업무를 획기적으로 줄여준다. 기획서나 보고서 작성 시 AI가 실시간으로 가이드를 제공하고 내용을 다듬어줘 구성원들이 보다 창의적이고 본질적인 업무에 몰입할 수 있도록 돕는다. 방대한 사내 자료 속에서 필요한 정보를 찾아내는 '스마트 검색' 기능은 업무 맥락을 이해하는 지능형 검색을 가능케 한다. 사용자가 정확한 키워드를 모르더라도 검색 의도를 파악하여 관련 정보를 맥락에 맞게 추천한다. 이는 사내의 다양한 자료를 일일이 찾아볼 필요 없이 질문하는 것만으로 원하는 결과에 도달할 수 있게 하여 정보 탐색 시간을 단축한다. 마드라스체크 관계자는 “리패턴 AI는 사내 데이터와 최신 AI 기술을 유기적으로 결합하여, 단순히 도구를 도입하는 차원을 넘어 데이터가 흐르고 결합하는 최적의 업무 환경을 구축하는 것을 목표로 한다”며 “기업이 더 스마트하고 연결된 워크플로우를 실현할 수 있도록 핵심적인 해법을 지속해 제시할 것”이라고 말했다. 최호 기자 snoop@etnews.com",
+      "impact": "positive",
+      "takeaway": "리패턴 AI 핵심 기능 소개"
     },
     {
       "s": "전자신문",
@@ -62,9 +128,7 @@
       "u": "https://www.etnews.com/20260625000412",
       "m": "06. 25. AM 07:57",
       "ts": 1782374272000,
-      "fullText": "",
-      "impact": "positive",
-      "takeaway": "토마토시스템의 AI 컨퍼런스 참가로 AI 에이전트 기반 개발 혁신이 촉진되므로, 관련 기업에 긍정적인 영향을 미칠 수 있다."
+      "fullText": "SW SW 토마토시스템, AI컨퍼런스 참가…'엑스빌더6 아이젠'으로 AI 에이전트 기반 개발 혁신 발행일 : 2026-06-25 16:57 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 토마토시스템은 지난 24일 열린 '2026 AI 클라우드 컨퍼런스'에 참가해 인공지능(AI) 기반 개발 플랫폼 '엑스빌더6 아이젠(eXBuilder6 AIGen)'을 소개했다고 25일 밝혔다. 이날 발표를 맡은 토마토시스템 이지율 연구소장은 'AI 에이전트 시대의 지능형 소프트웨어 개발'을 주제로 강연을 진행했다. 이 자리에서 단순한 코드 생성 도구를 넘어 소프트웨어 개발 전 과정에 참여하는 AI 에이전트로 진화하고 있는 자사제품 아이젠의 기술 방향과 실제 적용 사례를 소개했다. 이 연구소장은 아이젠이 요구사항 분석과 화면 설계, 코드 생성, 수정 및 검증 과정까지 개발 전반을 지원하며, 개발자의 의사결정과 코딩 작업을 보조하던 기존 생성형 AI의 한계를 넘어 실질적인 개발 업무를 수행하는 '행위자(Agent)'로 발전하고 있다는 점을 강조했다. 또한 기업 환경에서 현실적인 제약을 극복하는 아이젠의 혁신적인 아키텍처를 공개하고, 자연어 기반 요구사항 입력과 실시간 화면 생성, 코드 자동 변환 및 양방향 개발 시연을 통해 차세대 지능형 개발 환경의 청사진을 제시했다. 토마토시스템은 지난 24일 열린 '2026 AI 클라우드 컨퍼런스'에 참가해 AI 기반 개발 플랫폼 'eXBuilder6 AIGen(엑스빌더6 아이젠, 이하 아이젠)'을 소개했다 행사장 내 전시 부스에서도 아이젠에 대한 참관객들의 관심이 이어졌다. 토마토시스템은 현장에서 아이젠 시연과 기술 상담을 진행했으며, 공공·금융·제조 분야 관계자들을 중심으로 AI를 활용한 개발 생산성 향상과 시스템 현행화 방안에 대한 다양한 문의가 이어졌다고 설명했다. 특히 기존 시스템을 유지하면서도 AI 기반 개발 환경을 단계적으로 도입할 수 있는 점과, 요구사항부터 화면 설계 및 개발 산출물까지 연계되는 통합 개발 프로세스에 대한 관심이 높게 나타났다. 토마토시스템 이지율 연구소장은 “생성형 AI가 단순한 코드 생성 단계를 넘어 실제 개발 업무를 수행하는 AI 에이전트 시대로 빠르게 진화하고 있다”며 “AIGen을 기업이 보유한 개발 자산과 업무 지식을 기반으로 실질적인 생산성 혁신을 실현할 수 있는 플랫폼으로 지속 발전시켜 나갈 계획”이라고 말했다. 한편 이날 행사에는 AWS, 안랩, 나무기술, 솔트웨어 등 AI 및 클라우드 분야를 대표하는 기업들이 대거 참가해 최신 기술 트렌드와 혁신 사례를 공유했다. 이경민 기자 kmlee@etnews.com"
     },
     {
       "s": "gukjenews.com",
@@ -74,9 +138,7 @@
       "m": "06. 25. AM 07:32",
       "ts": 1782372752000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "웹케시의 자사주 추가 매입으로 AI 에이전트 사업 강화가 이루어지므로, 관련 기업에 긍정적인 영향을 미칠 수 있다."
+      "fullText": "Google News"
     },
     {
       "s": "데이터넷",
@@ -86,9 +148,7 @@
       "m": "06. 25. AM 02:17",
       "ts": 1782353862000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "웹케시의 자사주 취득으로 주주환원 정책 강화가 이루어지므로, 관련 기업에 긍정적인 영향을 미칠 수 있다."
+      "fullText": "Google News"
     },
     {
       "s": "매일타임즈",
@@ -98,9 +158,7 @@
       "m": "06. 25. AM 02:10",
       "ts": 1782353400000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "웹케시의 자사주 취득으로 주주환원 강화가 이루어지므로, 관련 기업에 긍정적인 영향을 미칠 수 있다."
+      "fullText": "Google News"
     },
     {
       "s": "TechCrunch",
@@ -109,9 +167,7 @@
       "u": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
       "m": "06. 24. PM 09:42",
       "ts": 1782337327000,
-      "fullText": "In Brief Posted: 2:42 PM PDT · June 24, 2026 Image Credits: TechCrunch Amanda Silberling Lucas Ropek AI researchers continue to leave Google for its rivals Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, according to Bloomberg . Per the report, Adler and Pritzel played key roles in the development of Google&#8217;s Gemini model. TechCrunch reached out to Google for comment. These departures are part of a concerning trend for Google. Last week, legendary AI researcher Noam Shazeer announced that he was leaving Google for OpenAI. Shazeer had been at Google since 2000, save for the three years he spent building his controversial chatbot startup, Character.AI (which Google effectively acqui-hired for $2.7 billion, in part to bring Shazeer back to work on Gemini). Just days after Shazeer made his announcement, Google DeepMind director John Jumper said he was leaving Google for Anthropic. Alongside DeepMind CEO Demis Hassabis, Jumper won the 2024 Nobel Prize in Chemistry for his work on AlphaFold, which can predict 3D protein structures from animo acid sequences. As OpenAI and Anthropic prepare to go public , this trend could continue &#8212; it&#8217;s a great time for the companies to recruit top AI talent with a promise of equity. Topics AI , Anthropic , Google , In Brief November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle. Savings end June 26, 11:59 p.m. PT . REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start t",
-      "impact": "neutral",
-      "takeaway": "AI 연구자들의 구글 떠나는 움직임은 AI 기술 개발에 대한 관심을 나타내므로, 테마와 직접 무관하다."
+      "fullText": "In Brief Posted: 2:42 PM PDT · June 24, 2026 Image Credits: TechCrunch Amanda Silberling Lucas Ropek AI researchers continue to leave Google for its rivals Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, according to Bloomberg . Per the report, Adler and Pritzel played key roles in the development of Google&#8217;s Gemini model. TechCrunch reached out to Google for comment. These departures are part of a concerning trend for Google. Last week, legendary AI researcher Noam Shazeer announced that he was leaving Google for OpenAI. Shazeer had been at Google since 2000, save for the three years he spent building his controversial chatbot startup, Character.AI (which Google effectively acqui-hired for $2.7 billion, in part to bring Shazeer back to work on Gemini). Just days after Shazeer made his announcement, Google DeepMind director John Jumper said he was leaving Google for Anthropic. Alongside DeepMind CEO Demis Hassabis, Jumper won the 2024 Nobel Prize in Chemistry for his work on AlphaFold, which can predict 3D protein structures from animo acid sequences. As OpenAI and Anthropic prepare to go public , this trend could continue &#8212; it&#8217;s a great time for the companies to recruit top AI talent with a promise of equity. Topics AI , Anthropic , Google , In Brief November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle. Savings end June 26, 11:59 p.m. PT . REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start t"
     },
     {
       "s": "지티티코리아",
@@ -121,9 +177,7 @@
       "m": "06. 24. PM 04:00",
       "ts": 1782316800000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "AI 에이전트 보안 기술의 공개로 AI 에이전트 보안 강화가 이루어지므로, 관련 기업에 긍정적인 영향을 미칠 수 있다."
+      "fullText": "Google News"
     },
     {
       "s": "AI포스트",
@@ -142,16 +196,6 @@
       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1QWc4ajlueW1wZEplaVQzMVZyWDFHeWlZVDBKa2dsNW1XaFdxNFlLdkRySVVMSkg4ZDlJMnpXc0VRMjQxX1BxRERVU1FaRnFfSXRSbklocDVTS21YTzFOcVdaT196Y1hDaTRB?oc=5",
       "m": "06. 24. AM 01:50",
       "ts": 1782265802000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "v.daum.net",
-      "t": "[김승일 칼럼] 전자정부 진화와 AI 에이전트 부산 시정",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWGhhbHF0NFdkODBXOVh2NDZ6LS1pb1NobDd0SkRDTW5lVWhfS2dzQ044Rnp2VzZ6RHVGeTlEdFNNU25GNC1pZ3dINy1CbjQ?oc=5",
-      "m": "06. 23. AM 09:04",
-      "ts": 1782205492000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -243,6 +287,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "전자신문",
+      "t": "지정권 세일포인트 지사장 “AI 에이전트도 입·퇴사 관리해야”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oVjRab1BBckhTNERVcmFvcE8tMlZyS0JTT1d3bjBPTVB4NHFvMUhyZ21FMk9PbHlRTWYzejFLakFjci1RNk8xbFlKSm5Ddw?oc=5",
+      "m": "06. 19. AM 05:53",
+      "ts": 1781848380000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "뉴데일리",
       "t": "\"SC는 본사 인력 15% 줄인다는데\" … AI 에이전트 시대, 은행권 인력지도 흔드나",
       "d": "",
@@ -321,12 +375,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "전자신문",
-      "t": "더그래프 생태계, AI 에이전트 결제 논의 본격화… 체인링크·TRM 랩스 참여",
+      "s": "v.daum.net",
+      "t": "와이즈넛, 100억원 규모 자사주 취득 결정…AI 에이전트 사업 확대 추진",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yaEVkN3ZYR3BaMkZNTWNscHRJbXVHWXN2QVhQNldoWF9KakRoS3ZkN3k0ZU83Q2VtMmtkSWdfQ0tZMmQ5YlIxd0dqUnRsUQ?oc=5",
-      "m": "06. 17. AM 06:28",
-      "ts": 1781677724000,
+      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkUW40SkJNOC1ZM3NiUlpfRm5wRDZHdGtvaHNFWlhIaEtRVkdOc0J0WDRpN0psZC1Oc0pId00zd1BiUnYtUVNmTjRMNlZZVVU?oc=5",
+      "m": "06. 18. AM 05:59",
+      "ts": 1781762387000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -335,8 +389,8 @@
       "t": "카카오, 카톡 연동 AI에이전트 개발 대회 개최...총상금 2700만원",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjWmNieW9uZnlYUlRaTE5VNjFyOWF1V3djeFNJelVPMWZvalVseWdEakh5UEx1aG1PS1pVX0F2RVZndGpoNGN0YUwtQXQ5bTRtRjRYRG5ablhVdGxfb0ZjeE1mSlVjQQ?oc=5",
-      "m": "06. 17. AM 12:53",
-      "ts": 1781657608000,
+      "m": "06. 17. AM 07:00",
+      "ts": 1781679600000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -356,65 +410,6 @@
       "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IOHlWMkZVNExDMXpMZ0tINXowM01Xa0Fta2hMbGUwM0U1VzZjbV9nSmtXekdLQXJEUFYwVW10eTM2MnBEb19BOUJ1bDVNWEpLVEdZQ3E1cFJXX2RYLWpGblZn?oc=5",
       "m": "06. 16. PM 08:00",
       "ts": 1781640000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
-      "d": "Enterprises are moving agentic AI from proof of concept to production — and the next generation of AI factories are built for the era of agents. At HPE Discover Las Vegas, running through Thursday, June 18, NVIDIA and HPE are expanding the HPE AI Factory with NVIDIA, including NVIDIA Vera CPU and NVIDIA Agent Toolkit [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
-      "m": "06. 16. PM 04:30",
-      "ts": 1781627427000,
-      "fullText": "HPE AI Factory With NVIDIA Expands for the Era of Agents HPE AI Factory with NVIDIA expands with NVIDIA Vera CPU and NVIDIA Agent Toolkit for HPE Private Cloud AI — plus NVIDIA Confidential Computing and enhanced full-stack NVIDIA integration across HPE AI Factory solutions. June 16, 2026 by Chris Marriott 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Enterprises are moving agentic AI from proof of concept to production — and the next generation of AI factories are built for the era of agents. At HPE Discover Las Vegas, running through Thursday, June 18, NVIDIA and HPE are expanding the HPE AI Factory with NVIDIA , including NVIDIA Vera CPU and NVIDIA Agent Toolkit for HPE Private Cloud AI. Plus, NVIDIA Confidential Computing extends across HPE AI Factory and enhanced full-stack NVIDIA integration — with NVIDIA accelerated computing, NVIDIA AI software and NVIDIA networking — is available throughout the entire portfolio. NVIDIA Vera CPU Available With HPE Private Cloud AI The HPE ProLiant Compute DL394 Gen12 with the NVIDIA Vera CPU will be available in 2027 with HPE Private Cloud AI, a turnkey AI factory co-engineered with NVIDIA. Vera is the first CPU built for agents — designed for the tool calls, orchestration and real-time data processing required across the agent loop — bringing deterministic, low-latency performance into HPE Private Cloud AI. The New York Stock Exchange , in collaboration with Redpanda and HPE, is an early enterprise customer exploring Vera CPU with the HPE ProLiant Compute DL394 Gen12 server. The Vera CPU is part of the NVIDIA Vera Rubin platform, which is ramping into full production with the NVIDIA Vera Rubin NVL72 rack-scale system available from HPE. Vera Rubin was built for frontier-scale models larger than 1 trillion parameters and will ship with full-stack NVIDIA Confidential Computing across every chip. HPE is also bringing the HPE Compute XD700 — built on NVIDIA HGX Rubin NVL8 — to the HPE AI Factory"
-    },
-    {
-      "s": "지티티코리아",
-      "t": "AI 에이전트도 ID 관리 대상...권한·책임자·접근 범위 통합 관리",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41ejE5dFpSLTktZVd5TGRtTHN0WGtHX29hOVNGcnowbFpDallzZGxac1dtbHZwamZOcVBzTjdMQTlYc2NHVmdSbmI3WWotOWRMWGJGeF8tLXNfWEpFaVBLeTJ3a0tPNkxwcXc?oc=5",
-      "m": "06. 16. PM 03:20",
-      "ts": 1781623200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "산업일보",
-      "t": "임박해 온 AI에이전트 시대, 경쟁정책 수립 서둘러야",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiREFVX3lxTE42eG02VXkwc01XbU9xZ3NSckpQZkpLcFJXbHJMd09NTjFxSHVQSE1ybWhwOUVrdkZqMXNJZkhGcXhxRTE2?oc=5",
-      "m": "06. 16. AM 10:21",
-      "ts": 1781605277000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "산업종합저널",
-      "t": "AI 에이전트, 규범의 문을 두드리다 'SAIPCON 2026' 개막",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWTW0yRWtic2NoRHB2d0VibXdQaGFPMWg2aFhuZmhPUHA3OGY2X0JzNjRFU0hvSWFzQURLSnF4aU5lckhZZTZVQk84UGNFZFprem5z?oc=5",
-      "m": "06. 16. AM 08:35",
-      "ts": 1781598957000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "데이터넷",
-      "t": "[AI 거버넌스①] AI 에이전트, ‘업무 실행 주체’로 부상 ··· 권한 관리가 AX 성패 가른다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10SHZlM3dLMkstN3lQWjdfTTg3X2hfa3J4M1NCbTB0SFl0LWZEX2R6ZXpwVjFhaUNSMHBvY2NyVVcwWFpqQlYxRVRxenRMbFdlckZjLUFUTkFiNWhIaTNWczZxQlFqQlVHUFJwQw?oc=5",
-      "m": "06. 16. AM 12:00",
-      "ts": 1781568000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지티티코리아",
-      "t": "AI 오판·조작 공격 검증...유럽연합 AI법 대응 보안 테스트",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zS3oyaG1Mb3dKazR2VWt1a3NQcEtKUUJtZ2FFX2QtSWdiWF9KdlpaNmZUWjJnaVdFUFdDNVlyTkNxcjRwQmhxNzc3eVB0ZFhYSzZSZVFpNkN1NUFoWTRSNjBKa01zSlJCMHc?oc=5",
-      "m": "06. 15. PM 04:15",
-      "ts": 1781540100000,
       "_policy": true,
       "fullText": "Google News"
     }

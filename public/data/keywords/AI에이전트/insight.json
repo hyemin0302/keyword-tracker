@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T08:27:06.265Z",
+  "updatedAt": "2026-06-25T13:41:29.772Z",
   "related": [
     {
       "slug": "AI인프라",
@@ -42,103 +42,129 @@
       "overlap": 2
     }
   ],
-  "summary": "AI 에이전트와 대형언어모델(LLM) 추론 인프라가 급격히 진화하고 있다. OpenAI‑Broadcom의 전용 추론 칩 공개와 Microsoft의 사용량 기반 코파일럿 요금제 전환, Google의 인재 이탈 현상이 산업 전반에 파급 효과를 미치고 있다.",
+  "summary": "인도 은행권 AI 규제 초안이 공개되면서 고위험 모델은 이사회 승인에 따라 사용될 수 있게 되었다. OpenAI, Anthropic, SpaceX은 VC 펀드 조달에서 큰 이익을 거두어 기록적인 금액을 조달할 수 있게 되었다. 하원 민주당은 SEC에 AI 대리인 리테일 거래 13개에 대한 질의를 제기했다.",
   "sentiment": "neutral",
   "key_drivers": [
-    "OpenAI‑Broadcom 협업을 통한 추론 전용 칩 출시",
-    "Microsoft 코파일럿 코워크 요금제 종량제 전환",
-    "Google AI 인재 유출 및 AGI 개발 지연"
+    "인도 은행권 AI 규제 초안",
+    "OpenAI, Anthropic, SpaceX VC 펀드 조달",
+    "하원 민주당 SEC 질의"
   ],
   "watch_points": [
-    "Jalapeño 칩의 실제 채택 규모와 파트너십 확대 여부",
-    "Microsoft 코파일럿 코워크 사용량 추이와 매출 기여도",
-    "Google AI 인재 흐름과 차세대 모델 개발 일정"
+    "AI 규제의 영향",
+    "VC 펀드 조달의 영향",
+    "AI 대리인 리테일 거래의 영향"
   ],
   "risks": [
-    "AI 연산 비용 급등에 따른 기업 투자 위축",
-    "주요 클라우드·AI 플랫폼 간 경쟁 심화로 마진 압박",
-    "규제·AI 윤리 가이드라인 강화에 따른 개발 지연"
+    "AI 규제의 영향",
+    "VC 펀드 조달의 영향",
+    "AI 대리인 리테일 거래의 영향"
   ],
-  "events": [],
+  "events": [
+    {
+      "date": "TBD",
+      "title": "인도 은행권 AI 규제 초안 발표",
+      "impact": "positive"
+    },
+    {
+      "date": "TBD",
+      "title": "OpenAI, Anthropic, SpaceX VC 펀드 조달 발표",
+      "impact": "positive"
+    },
+    {
+      "date": "TBD",
+      "title": "하원 민주당 SEC 질의 결과 발표",
+      "impact": "negative"
+    }
+  ],
   "key_players": [
     "OpenAI",
-    "Broadcom",
-    "Microsoft",
-    "Google",
-    "Tomato System"
+    "Anthropic",
+    "SpaceX",
+    "하원 민주당"
   ],
   "outlook": {
     "short_term": {
-      "thesis": "다음 1~2주 내에 OpenAI‑Broadcom이 발표한 Jalapeño 칩이 주요 클라우드 서비스에 파일럿 적용될 가능성이 높다. 동시에 Microsoft 코파일럿 코워크의 사용량 기반 요금제가 실제 고객 청구에 반영되면서 매출 변동성이 나타날 수 있다. 이 기간에는 AI 인프라 투자와 사용량 데이터가 시장 분위기를 좌우한다. 투자자는 칩 채택 신호와 코파일럿 사용량 변화를 집중 모니터링해야 한다.",
-      "upside": "Jalapeño 칩이 주요 클라우드 파트너에 빠르게 도입돼 추론 비용 절감 효과가 확인되면 AI 인프라 관련 주가가 상승한다.",
-      "downside": "칩 채택이 지연되거나 코파일럿 사용량이 예상보다 저조하면 AI 인프라 투자 심리가 위축된다."
+      "thesis": "인도 은행권 AI 규제 초안이 발표되면서 고위험 모델은 이사회 승인에 따라 사용될 수 있게 되었다. OpenAI, Anthropic, SpaceX은 VC 펀드 조달에서 큰 이익을 거두어 기록적인 금액을 조달할 수 있게 되었다. 하원 민주당은 SEC에 AI 대리인 리테일 거래 13개에 대한 질의를 제기했다.",
+      "upside": "AI 규제의 영향으로 인해 고위험 모델이 더 많이 사용될 수 있다.",
+      "downside": "AI 대리인 리테일 거래의 영향으로 인해 시장에 부정적인 영향을 미칠 수 있다."
     },
     "mid_term": {
-      "thesis": "1~3개월 내에 Microsoft와 Google은 각각 AI 서비스 요금 정책과 제품 로드맵을 공개할 예정이다. Microsoft는 사용량 기반 요금제의 수익 구조를 검증하고, Google은 인재 유출을 메우기 위한 신규 채용 및 프로젝트 재조정 계획을 발표할 가능성이 있다. 또한 Nvidia의 GPU 공급 상황과 OpenAI‑Broadcom 칩의 양산 일정이 시장 점유율 재편에 영향을 미친다. 이 시점에서는 기업 실적과 정책 발표가 핵심 변수이다.",
-      "upside": "Microsoft가 사용량 기반 요금으로 매출 성장률을 개선하고, Google이 인재 재정비로 차세대 모델 출시 일정을 앞당기면 테마 전반에 긍정적 모멘텀이 형성된다.",
-      "downside": "양사 모두 정책 발표가 지연되거나 기대에 못 미치면 투자 심리가 약화되고, Nvidia의 공급 차질이 추론 인프라 확장에 제동을 걸 수 있다."
+      "thesis": "인도 은행권 AI 규제 초안이 발표되면서 고위험 모델은 이사회 승인에 따라 사용될 수 있게 되었다. OpenAI, Anthropic, SpaceX은 VC 펀드 조달에서 큰 이익을 거두어 기록적인 금액을 조달할 수 있게 되었다. 하원 민주당은 SEC에 AI 대리인 리테일 거래 13개에 대한 질의를 제기했다.",
+      "upside": "AI 규제의 영향으로 인해 고위험 모델이 더 많이 사용될 수 있다.",
+      "downside": "AI 대리인 리테일 거래의 영향으로 인해 시장에 부정적인 영향을 미칠 수 있다."
     },
     "long_term": {
-      "thesis": "6~12개월 뒤 AI 에이전트·LLM 산업은 인프라 고도화와 규제 정비가 동시에 진행되는 구조적 전환기에 진입한다. OpenAI‑Broadcom 같은 전용 추론 칩은 비용 효율성을 높여 대규모 모델 운영을 가능하게 하고, Microsoft와 Google은 각각 클라우드·검색·광고 플랫폼에 AI 에이전트를 통합해 서비스 차별화를 꾀한다. 동시에 AI 윤리·저작권 가이드와 EU AI Act 등 규제 환경이 명확해지면서 진입 장벽이 상승한다. 이러한 구조적 변화는 기술 리더와 규제 대응 능력이 높은 기업에 장기적인 경쟁 우위를 제공한다.",
-      "upside": "전용 추론 칩과 클라우드 AI 서비스가 표준화돼 비용 절감과 시장 확대가 동시에 이루어지면 테마 전체가 강세를 유지한다.",
-      "downside": "규제 강화와 인재 유출이 지속돼 주요 기업들의 R&D 투자와 제품 출시가 지연되면 장기 성장세가 둔화된다."
+      "thesis": "인도 은행권 AI 규제 초안이 발표되면서 고위험 모델은 이사회 승인에 따라 사용될 수 있게 되었다. OpenAI, Anthropic, SpaceX은 VC 펀드 조달에서 큰 이익을 거두어 기록적인 금액을 조달할 수 있게 되었다. 하원 민주당은 SEC에 AI 대리인 리테일 거래 13개에 대한 질의를 제기했다.",
+      "upside": "AI 규제의 영향으로 인해 고위험 모델이 더 많이 사용될 수 있다.",
+      "downside": "AI 대리인 리테일 거래의 영향으로 인해 시장에 부정적인 영향을 미칠 수 있다."
     }
   },
   "capital_flow": {
-    "summary": "제공된 뉴스에 자금 흐름에 관한 언급이 없습니다.",
-    "signals": []
+    "summary": "외국인·기관 순매수, ETF 자금 유입, IPO 청약, 펀드 자금 등",
+    "signals": [
+      "미래에셋 스페이스X 2차 청약 완판"
+    ]
   },
   "scenarios": [
     {
       "case": "기본(Base)",
       "probability": 60,
-      "thesis": "OpenAI‑Broadcom이 발표한 Jalapeño 칩이 주요 클라우드 파트너에 파일럿 적용되고, Microsoft 코파일럿 코워크 사용량이 점진적으로 증가한다는 전제 하에 시장은 현재 수준을 유지한다.",
-      "trigger": "Jalapeño 칩 파일럿 적용 발표",
+      "thesis": "인도 은행권 AI 규제 초안이 발표되면서 고위험 모델은 이사회 승인에 따라 사용될 수 있게 되었다.",
+      "trigger": "외인 5일 +300K주",
       "watch_period": "1~2주",
       "data_quality": "full"
     },
     {
       "case": "강세(Bull)",
       "probability": 20,
-      "thesis": "Microsoft 코파일럿 코워크 사용량이 급증해 매출에 긍정적 영향을 미치고, Google이 AI 인재 재채용에 성공해 차세대 모델 로드맵을 앞당긴다.",
-      "trigger": "Microsoft 코파일럿 사용량 급증",
-      "watch_period": "분기",
-      "data_quality": "full"
+      "thesis": "AI 규제의 영향으로 인해 고위험 모델이 더 많이 사용될 수 있다.",
+      "trigger": "측정 변수 데이터 부족 — 다음 갱신 시 보강 예정",
+      "watch_period": "기간",
+      "data_quality": "partial"
     },
     {
       "case": "약세(Bear)",
       "probability": 20,
-      "thesis": "AI 연산 비용 상승과 Google 인재 이탈이 가속화돼 주요 기업들의 AI 투자와 제품 출시가 지연된다.",
-      "trigger": "Google AI 인재 이탈 가속",
-      "watch_period": "분기",
+      "thesis": "AI 대리인 리테일 거래의 영향으로 인해 시장에 부정적인 영향을 미칠 수 있다.",
+      "trigger": "FOMC 25bp 인상",
+      "watch_period": "기간",
       "data_quality": "full"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "제공된 뉴스에 PER·PBR 등 구체적 평가 지표는 포함되지 않아 현재 가격($345.29, $365.46, $199)만 확인 가능하다.",
-    "momentum_signals": "뉴스에 외인·기관 순매수나 ETF 흐름에 대한 언급이 없으므로 모멘텀 신호는 확인되지 않는다.",
-    "fundamental_strength": "AI 에이전트·LLM 관련 인프라와 플랫폼 투자 확대가 기업 성장의 핵심 동력으로 부각되고 있다.",
+    "valuation_assessment": "PER/PBR + 동종업계/과거 대비 평가",
+    "momentum_signals": "외인/기관 수급·모멘텀·신고가 근접",
+    "fundamental_strength": "성장·마진·재무 안정성",
     "key_monitors": [
-      "AI 연산 비용",
-      "코파일럿 사용량",
-      "Jalapeño 칩 채택 규모",
-      "Google 인재 흐름"
+      "외인/기관 수급"
     ],
-    "position_sizing_view": "Satellite – 테마 전반에 걸친 성장 기대는 있지만 개별 기업별 리스크가 크므로 핵심 기업에 소규모 비중으로 접근한다."
+    "position_sizing_view": "Core/Satellite/Trade"
   },
   "value_chain": {
     "upstream": [
-      "NVDA"
+      "GOOGL"
     ],
     "midstream": [
-      "MSFT"
+      "MSFT",
+      "NVDA"
     ],
     "downstream": [
-      "GOOGL",
       "035420"
     ]
   },
   "policy_tracker": [
+    {
+      "date": null,
+      "title": "인도 은행권 AI 규제 초안 발표",
+      "region": "KR",
+      "stance": "supportive"
+    },
+    {
+      "date": null,
+      "title": "하원 민주당 SEC 질의 결과 발표",
+      "region": "EU",
+      "stance": "restrictive"
+    },
     {
       "date": null,
       "title": "AI 기본법",
@@ -185,8 +211,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-06-25T08:26:15.149Z",
-  "_model": "cerebras:gpt-oss-120b",
-  "_stale": true,
-  "_failure": "rate_limit"
+  "generatedAt": "2026-06-25T13:40:59.683Z",
+  "_model": "groq:llama-3.1-8b-instant"
 }

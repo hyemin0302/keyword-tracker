@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T08:22:53.670Z",
+  "updatedAt": "2026-06-25T11:16:27.326Z",
   "data": {
     "TSLA": {
       "name": "테슬라",
@@ -60,69 +60,6 @@
         "high52w": 498.83,
         "low52w": 288.77,
         "volume": 35272666
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "GM": {
-      "name": "GM",
-      "px": 78.95,
-      "dayChange": 0,
-      "periodChange": -1.05,
-      "prices": [
-        79.79,
-        84.12,
-        84.35,
-        83.24,
-        82.68,
-        81.73,
-        81.7,
-        83.22,
-        82.11,
-        83.77,
-        83.76,
-        79.4,
-        80.85,
-        81.5,
-        84.07,
-        82.51,
-        79.58,
-        79.29,
-        80.43,
-        78.95,
-        78.95
-      ],
-      "dates": [
-        "2026-05-26",
-        "2026-05-27",
-        "2026-05-28",
-        "2026-05-29",
-        "2026-06-01",
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04",
-        "2026-06-05",
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24"
-      ],
-      "volume": 6479272,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 87.62,
-        "low52w": 47.72,
-        "volume": 6479272
       },
       "investorFlow": null,
       "consensus": null
@@ -190,6 +127,69 @@
       "investorFlow": null,
       "consensus": null
     },
+    "GM": {
+      "name": "GM",
+      "px": 78.95,
+      "dayChange": 0,
+      "periodChange": -1.05,
+      "prices": [
+        79.79,
+        84.12,
+        84.35,
+        83.24,
+        82.68,
+        81.73,
+        81.7,
+        83.22,
+        82.11,
+        83.77,
+        83.76,
+        79.4,
+        80.85,
+        81.5,
+        84.07,
+        82.51,
+        79.58,
+        79.29,
+        80.43,
+        78.95,
+        78.95
+      ],
+      "dates": [
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24"
+      ],
+      "volume": 6479272,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 87.62,
+        "low52w": 47.72,
+        "volume": 6479272
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "005380": {
       "name": "현대차",
       "px": 503000,
@@ -243,7 +243,7 @@
         "2026-06-24",
         "2026-06-25"
       ],
-      "volume": 1084425,
+      "volume": 1138735,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -268,6 +268,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260625",
+            "foreigner": -135803,
+            "institution": -45667,
+            "individual": 181096,
+            "foreignRatio": "24.94%"
+          },
           {
             "date": "20260624",
             "foreigner": -214973,
@@ -330,22 +337,15 @@
             "institution": -67415,
             "individual": -6622,
             "foreignRatio": "25.23%"
-          },
-          {
-            "date": "20260611",
-            "foreigner": -277485,
-            "institution": 132227,
-            "individual": 152141,
-            "foreignRatio": "25.18%"
           }
         ],
         "sum5d": {
-          "foreigner": -639037,
-          "institution": -518291
+          "foreigner": -698555,
+          "institution": -410981
         },
         "sum10d": {
-          "foreigner": -703585,
-          "institution": -1159407
+          "foreigner": -561903,
+          "institution": -1337301
         }
       },
       "consensus": null
@@ -403,7 +403,7 @@
         "2026-06-24",
         "2026-06-25"
       ],
-      "volume": 186873,
+      "volume": 198230,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -428,6 +428,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260625",
+            "foreigner": 86210,
+            "institution": -44163,
+            "individual": -41238,
+            "foreignRatio": "55.86%"
+          },
           {
             "date": "20260624",
             "foreigner": 43343,
@@ -490,22 +497,15 @@
             "institution": -39163,
             "individual": 36303,
             "foreignRatio": "55.24%"
-          },
-          {
-            "date": "20260611",
-            "foreigner": -39141,
-            "institution": 9217,
-            "individual": 29377,
-            "foreignRatio": "55.21%"
           }
         ],
         "sum5d": {
-          "foreigner": 61016,
-          "institution": -82332
+          "foreigner": 155799,
+          "institution": -127073
         },
         "sum10d": {
-          "foreigner": 98440,
-          "institution": -166729
+          "foreigner": 223791,
+          "institution": -220109
         }
       },
       "consensus": null
@@ -583,69 +583,6 @@
     ]
   },
   "etfs": {
-    "LIT": {
-      "name": "Global X Lithium & Battery Tech",
-      "px": 78.91,
-      "dayChange": 0.61,
-      "periodChange": -8.62,
-      "prices": [
-        86.35,
-        85.53,
-        87.5,
-        87.15,
-        86.09,
-        86.4,
-        84.86,
-        83.28,
-        78.3,
-        77.09,
-        78.61,
-        76.54,
-        80.74,
-        82.37,
-        84.08,
-        83.6,
-        83.07,
-        82.15,
-        82.57,
-        78.43,
-        78.91
-      ],
-      "dates": [
-        "2026-05-26",
-        "2026-05-27",
-        "2026-05-28",
-        "2026-05-29",
-        "2026-06-01",
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04",
-        "2026-06-05",
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24"
-      ],
-      "volume": 331396,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 91.98,
-        "low52w": 37.86,
-        "volume": 331396
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "DRIV": {
       "name": "Global X Autonomous & Electric ",
       "px": 37.887,
@@ -709,6 +646,69 @@
       "investorFlow": null,
       "consensus": null
     },
+    "LIT": {
+      "name": "Global X Lithium & Battery Tech",
+      "px": 78.91,
+      "dayChange": 0.61,
+      "periodChange": -8.62,
+      "prices": [
+        86.35,
+        85.53,
+        87.5,
+        87.15,
+        86.09,
+        86.4,
+        84.86,
+        83.28,
+        78.3,
+        77.09,
+        78.61,
+        76.54,
+        80.74,
+        82.37,
+        84.08,
+        83.6,
+        83.07,
+        82.15,
+        82.57,
+        78.43,
+        78.91
+      ],
+      "dates": [
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24"
+      ],
+      "volume": 331396,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 91.98,
+        "low52w": 37.86,
+        "volume": 331396
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "091180": {
       "name": "KODEX AUTOs",
       "px": 30590,
@@ -762,7 +762,7 @@
         "2026-06-24",
         "2026-06-25"
       ],
-      "volume": 1032263,
+      "volume": 1033014,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -773,6 +773,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260625",
+            "foreigner": 24376,
+            "institution": -15791,
+            "individual": 2707,
+            "foreignRatio": "1.42%"
+          },
           {
             "date": "20260624",
             "foreigner": -49906,
@@ -835,22 +842,15 @@
             "institution": -5639,
             "individual": -32686,
             "foreignRatio": "1.47%"
-          },
-          {
-            "date": "20260611",
-            "foreigner": -4749,
-            "institution": -37877,
-            "individual": 5914,
-            "foreignRatio": "1.17%"
           }
         ],
         "sum5d": {
-          "foreigner": 19634,
-          "institution": -37241
+          "foreigner": -9635,
+          "institution": 24697
         },
         "sum10d": {
-          "foreigner": 7793,
-          "institution": 75206
+          "foreigner": 36918,
+          "institution": 97292
         }
       },
       "consensus": null

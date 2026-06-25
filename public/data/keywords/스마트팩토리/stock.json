@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T08:26:50.680Z",
+  "updatedAt": "2026-06-25T11:20:12.277Z",
   "data": {
     "SIEGY": {
       "name": "지멘스",
@@ -243,7 +243,7 @@
         "2026-06-24",
         "2026-06-25"
       ],
-      "volume": 1062993,
+      "volume": 1063971,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -268,6 +268,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260625",
+            "foreigner": 54266,
+            "institution": -15744,
+            "individual": -32718,
+            "foreignRatio": "28.28%"
+          },
           {
             "date": "20260624",
             "foreigner": 156144,
@@ -330,22 +337,15 @@
             "institution": 145349,
             "individual": -13967,
             "foreignRatio": "28.77%"
-          },
-          {
-            "date": "20260611",
-            "foreigner": -74850,
-            "institution": 106017,
-            "individual": -31852,
-            "foreignRatio": "28.83%"
           }
         ],
         "sum5d": {
-          "foreigner": -122801,
-          "institution": -45455
+          "foreigner": -130051,
+          "institution": -44241
         },
         "sum10d": {
-          "foreigner": -480418,
-          "institution": 91135
+          "foreigner": -351302,
+          "institution": -30626
         }
       },
       "consensus": null

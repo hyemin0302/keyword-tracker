@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-06-28T09:41:32.105Z",
+  "updatedAt": "2026-06-28T11:45:21.319Z",
   "count": 40,
   "stats": {
-    "today": 0,
+    "today": 2,
     "yesterday": 1,
-    "weekAvg": 1.6,
-    "sources": 35,
-    "heat": "cold"
+    "weekAvg": 1.9,
+    "sources": 34,
+    "heat": "cool"
   },
   "items": [
+    {
+      "s": "조선일보",
+      "t": "젠슨 황도 '샤라웃'할 만..화사, 피 흘리면서도 완주 \"눈물날 뻔\" [핫피플]",
+      "d": "[OSEN=김수형 기자] 최근 엔비디아 CEO 젠슨 황에게 직접 '샤라웃'을 받아 화제를 모았던 화사가 이번에는 부상 투혼으로 관객들을 감동시켰다.화사는 지난 27일 경기도 의정부종합운동장에서 열린 '싸이 흠뻑쇼 2026' 첫 공연에 첫 게스트로 출연했다. '마리아', 'CHILI(칠리)', 'So Cute', 'Good Goodbye' 등을 연달아 선보이",
+      "u": "https://www.chosun.com/entertainments/broadcast/2026/06/28/G5TDEZDDMI3GKNDFMVSTKNJQGE/",
+      "m": "06. 28. AM 11:13",
+      "ts": 1782645180000,
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET시론] AIDC 보안, GPU보다 먼저 설계해야 한다",
+      "d": "인공지능(AI) 경쟁이 거세지면서 AI 데이터센터(AIDC) 구축 논의도 빠르게 확산하고 있다. 그래픽처리장치(GPU) 확보량, 전력 용량, 냉각 효율, 부지와 건설 일정이 사업의 핵심 지표처럼 제시된다. 모두 중요한 요소다. 그러나 AIDC가 국가와 기업의 핵심 데이터를 처리하고 업무 판단과 자동화를 담당하게 된다면, 더 먼저 물어야 할 질문이 있다. '어떤 AI 서비스를 어떤 보장 수준으로 수용하고, 누가 어떤 권한으로 운영하며, 문제가 생",
+      "u": "https://www.etnews.com/20260626000134",
+      "m": "06. 28. AM 07:00",
+      "ts": 1782630000000,
+      "fullText": "AI·SW SW [ET시론] AIDC 보안, GPU보다 먼저 설계해야 한다 발행일 : 2026-06-28 16:00 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 인공지능(AI) 경쟁이 거세지면서 AI 데이터센터(AIDC) 구축 논의도 빠르게 확산하고 있다. 그래픽처리장치(GPU) 확보량, 전력 용량, 냉각 효율, 부지와 건설 일정이 사업의 핵심 지표처럼 제시된다. 모두 중요한 요소다. 그러나 AIDC가 국가와 기업의 핵심 데이터를 처리하고 업무 판단과 자동화를 담당하게 된다면, 더 먼저 물어야 할 질문이 있다. '어떤 AI 서비스를 어떤 보장 수준으로 수용하고, 누가 어떤 권한으로 운영하며, 문제가 생겼을 때 어디까지 통제하고 복구할 수 있는가?' 이 질문에 답하지 못한 채 GPU부터 쌓는다면, 우리는 고성능 인프라는 얻을 수 있어도 신뢰할 수 있는 AI 기반은 얻기 어렵다. AIDC는 GPU 서버가 많은 일반 데이터센터가 아니다. △데이터 수집·정제·학습·추론 △모델 저장과 배포 △검색증강생성(RAG) △프롬프트 △외부 응용프로그램 인터페이스(API) △모델 컨텍스트 프로토콜(MCP), AI 에이전트의 도구 호출이 하나의 실행 사슬로 연결되는 복합 시스템이다. 여기에 전력·냉각 설비, 관리망, 고속 네트워크, 스토리지, 가상화·컨테이너 플랫폼, 클라우드 운영체계가 결합된다. 따라서 AIDC 보안은 시설 출입통제나 방화벽, 서버 백신을 추가하는 수준으로 설명할 수 없다. 인프라와 데이터, 모델, 서비스, 운영 행위가 서로 영향을 주는 전체 구조를 보호해야 한다. 현재의 가장 큰 문제는 보안 기능의 부재보다 보안 설계의 분절이다. 데이터센터팀은 시설과 서버를, 클라우드팀은 가상화와 계정을, AI 개발팀은 모델과 데이터를, 보안관제팀은 로그와 경보를 각각 관리한다. 개별 영역에는 보안 제품과 절차가 존재하지만, 하나의 AI 서비스가 어떤 사용자와 단말에서 시작해 어떤 데이터와 모델을 사용하고, 어떤 도구를 호출해 어떤 결과를 만들었는지를 끝까지 연결해 보기는 어렵다. 공격자는 이 조직 경계를 따르지 않는다. 계정을 탈취한 뒤 RAG 지식베이스를 과도하게 조회하고, 프롬프트 인젝션으로 에이전트의 행동을 바꾸고, 정상 API를 이용해 정보를 반출할 수 있다. 개별 장비에서는 정상처럼 보이는 행위가 전체 흐름에서는 침해가 될 수 있다. 첫째, AIDC 보안은 장비 구매가 아니라 수용 업무의 정의에서 시작해야 한다. 어떤 업무를 AIDC에 올릴 것인지, 데이터의 민감도와 중요도는 어느 수준인지, 외부 모델과 API를 허용할 것인지, AI가 추천만 하는지 실제 업무를 실행하는지, 서비스 중단이 허용되는 시간은 얼마인지 먼저 정해야 한다. 같은 GPU를 사용하더라도 공개 정보 검색 서비스와 국가 핵심 업무를 처리하는 에이전트형 서비스의 위험은 같지 않다. 보호 대상을 정의하지 않으면 적정한 격리 수준도, 필요한 로그도, 복구 목표도 정할 수 없다. 보안 요구사항이 GPU·네트워크·스토리지·클라우드 구조를 결정해야지, 구축을 마친 뒤 남은 공간에 보안 솔루션을 붙여서는 안 된다. 이 원칙은 미국 사이버보안·인프라보안청(CISA)이 강조하는 '설계단계부터 안전하게'와도 맞닿아 있다. 보안 책임을 이용기관에만 넘기지 말고 제품과 서비스의 설계, 구현, 기본 설정에 내재화해야 한다는 취지다. AIDC에도 같은 원칙이 필요하다. 관리망과 서비스망의 경계, GPU 클러스터와 테넌트 간 격리, 펌웨어·드라이버·컨테이너 이미지의 공급망 검증, 관리자 권한과 비상계정, 백업과 복구 경로를 초기 아키텍처에서 함께 설계해야 한다. 특히 관리 인터페이스와 오케스트레이션 계층이 침해되면 다수의 AI 워크로드와 데이터가 동시에 영향을 받을 수 있으므로, 일반 업무 서버보다 강한 권한 분리와 변경 통제가 필요하다. AIDC에서는 사이버보안과 물리적 운영 안정성도 분리하기 어렵다. GPU 집적도가 높아질수록 전력과 냉각, 배전, 배터리, 환경제어 설비의 이상이 곧 서비스 중단과 데이터 손상으로 이어질 수 있다. ",
+      "impact": "positive",
+      "takeaway": "AI 보안 중요성 강조"
+    },
     {
       "s": "연합뉴스",
       "t": "이원택, 젠슨황에 새만금 투자 제안 \"삼겹살로 먹으며 대화하자\"",
@@ -18,7 +40,7 @@
       "ts": 1782535445000,
       "fullText": "이원택 전북특별자치도지사 당선인이 글로벌 인공지능 반도체 기업인 엔비디아의 젠슨 황 최고경영자에게 새만금 투자 논의를 위한 회동을 제안했다. 이는 최근 방한한 젠슨 황이 새만금을 잠재적 투자 기회로 언급한 데 대한 적극적인 화답이다. 이 당선인은 친서에서 새만금을 규제가 사실상 없는 '완벽한 백지'로 소개하며 \"엔비디아가 필요로 하는 '마찰 없는 환경, 무한 확장성, 압도적 속도'를 갖춘 최적의 투자처\"라고 강조했다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
       "impact": "neutral",
-      "takeaway": "새만금 투자 제안은 AI 반도체와 직접 연관이 없어 영향이 없음."
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "아주경제",
@@ -29,8 +51,8 @@
       "ts": 1782517385000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "AI 금융 혁신 강조는 반도체 수요와 직접 연결되지 않아 중립적."
+      "impact": "positive",
+      "takeaway": "AI 금융혁명에 대한 기대"
     },
     {
       "s": "TechCrunch",
@@ -41,7 +63,7 @@
       "ts": 1782495802000,
       "fullText": "&#8211;:&#8211;:&#8211;:&#8211; The first StrictlyVC of 2026 hits SF on April 30. Tickets are going fast. Register now. Founder Summit ticket savings of up to $190 end June 26. Join 1,000+ founders and VCs for all-day bootcamp. REGISTER NOW. Close TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2026 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI Amazon Apps Biotech & Health Climate Cloud Computing Commerce Crypto Enterprise EVs Fintech Fundraising Gadgets Gaming Google Government & Policy Hardware Instagram Layoffs Media & Entertainment Meta Microsoft Privacy Robotics Security Social Space Startups TikTok Transportation Venture More from TechCrunch Staff Events Startup Battlefield StrictlyVC Newsletters Podcasts Videos Partner Content TechCrunch Brand Studio Crunchboard Contact Us AI Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia) Theresa Loconsolo 10:43 AM PDT · June 26, 2026 36 min Loading the player&#8230; Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending. OpenAI just shared its plans to spice things up with Jalapeño, its custom inference chip built with Broadcom , joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal is less of a clean break and more of a hedge. Custom silicon means more control, hardware tuned to specific needs, and the kind of performance gains Apple unlocked when it ditched Intel. On this episode of TechCrunch&#8217;s Equity podcast, hosts Kirsten Korosec, Anthony Ha, and Sean O&#8217;Kane dig into what the custom chip trend means for the industry and a few deals of the week worth watching. Subscribe to Equity on YouTube , Apple Podcasts , Overcast , Spotify and all the casts. You also can follow Equity on X and Threads , at @EquityPod. Topics a24 , agility , AI , AI , AI chips",
       "impact": "positive",
-      "takeaway": "OpenAI·SpaceX 등 주요 기업이 자체 AI 칩을 개발해 경쟁이 가속화돼 테마에 긍정적."
+      "takeaway": "AI 반도체 경쟁 심화"
     },
     {
       "s": "AI포스트",
@@ -53,7 +75,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "삼성의 광주 AI 반도체 공장 건설 소식은 국내 생산 기반 확대를 기대하게 해 긍정적."
+      "takeaway": "삼성의 AI 반도체 공장 구축 계획"
     },
     {
       "s": "한경 IT",
@@ -63,8 +85,8 @@
       "m": "06. 26. AM 08:17",
       "ts": 1782461878000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 \"부족한 GPU는 SW로 극복\"…최적화 승부수 던진 K스타트업 입력 2026.06.26 17:17 수정 2026.06.26 23:53 지면 A20 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 유지희 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 효율성 높이는 기술 경쟁 래블업, GPU를 여러 작업에 배분 활용률 최대 95% 그리네타&middot;클리카 데이터 줄이는 기술 개발로 주목 생성형 인공지능(AI) 경쟁에 따른 비용이 커지면서 AI를 더 저렴하고 효율적으로 쓰게 해주는 소프트웨어(SW) 기술이 주목받고 있다. 비싼 그래픽처리장치(GPU)를 무조건 늘리는 것보다 기존 GPU를 얼마나 효율적으로 쓰는지, 데이터와 AI 모델을 얼마나 가볍게 만드는지가 핵심 경쟁력으로 떠올라서다. GPU를 여러 명이 나눠 쓰도록 하는 방식으로 접근한 곳은 AI 인프라 스타트업 래블업이다. 래블업이 개발한 GPU 가상화 기술은 자사 플랫폼 &lsquo;백엔드.AI(Backend.AI)&rsquo;를 통해 하나의 GPU를 다수의 가상 GPU처럼 쪼개 여러 작업에 자동 배분한다. 이를 통해 GPU 활용률을 최대 95%까지 끌어올릴 수 있고, 같은 장비로 더 많은 AI 개발과 학습이 가능하다는 설명이다. 국민대는 이 기술을 활용해 16개의 GPU를 100개 이상의 가상 GPU로 분할해 약 80명의 학생이 동시에 머신러닝 실습을 할 수 있도록 했다. 래블업이 GPU를 분할하는 방식이라면 그리네타와 클리카는 GPU가 다루는 데이터와 모델을 줄이는 방식으로 문제를 풀고 있다. 그리네타는 3차원(3D) 데이터를 줄이는 기술을 개발했다. 3D 데이터란 공장, 건물 같은 현실 공간을 컴퓨터 안에 그대로 복사해 만든 일종의 &lsquo;디지털 지도&rsquo;다. 라이다(LiDAR)로 만든 데이터가 대표적인데, 고성능인 만큼 데이터 크기가 매우 커서 저장&middot;처리에 많은 비용이 든다. 그리네타는 이 데이터의 품질은 원본과 거의 같은 수준으로 유지하면서 크기를 최대 37분의 1로 줄일 수 있다. 실제 산업 현장에서는 100기가바이트(GB)가 넘는 LiDAR 데이터를 95% 이상 압축하면서도 시각적 품질을 유지했다. 데이터가 가벼워지면 저장&middot;전송 비용이 줄고 AI 처리 속도도 빨라진다. 클리카는 AI 모델 자체를 줄이는 기술을 개발하고 있다. AI 모델을 자동으로 압축&middot;컴파일해 다양한 서버와 기기에서 바로 실행할 수 있도록 하는 최적화 소프트웨어다. 이를 통해 모델 크기를 최대 95% 줄이고 실행 속도는 최대 10배 높일 수 있으며, AI 인프라 운영 비용도 크게 낮출 수 있다는 설명이다. GPU나 데이터 용량보다 데이터 &lsquo;구조&rsquo;에 집중하는 기업도 있다. 인포시즈는 기업 내부에 흩어진 데이터를 관계 중심으로 연결하는 &lsquo;지식 그래프&rsquo; 기술을 보유하고 있다. 자체 온톨로지(데이터의 관계&middot;의미를 AI가 이해할 수 있도록 정의하는 모델) 엔진을 활용해 AI가 단순 검색을 넘어 문맥까지 이해하도록 돕는다. 이들 기업은 모두 스타트업 지원기관 디캠프의 투자&middot;육성 프로그램을 거쳤다는 공통점이 있다. 업계 관계자는 &ldquo;AI산업이 모델 성능 경쟁에서 인프라 효율 경쟁으로 옮겨가고 있다&rdquo;며 &ldquo;GPU 활용도를 높이고 데이터를 효율적으로 처리하는 스타트업의 역할이 더 커질 것&rdquo;이라고 말했다. 유지희 기자 keephee@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 유지희 ADVERTISEMENT 관련 뉴스 1 장혜덕 \"추론용 데이터센터는 이용자와 가까운 곳에 둬야\" “네트워크 연결이 단절된 데이터센터는 ‘거대한 냉장고’에 그칠 수 있습니다.”장혜덕 에퀴닉스코리아 대표는 26일 ",
-      "impact": "neutral",
-      "takeaway": "GPU 부족을 소프트웨어 최적화로 보완한다는 내용은 칩 수요 감소와는 무관해 중립적."
+      "impact": "positive",
+      "takeaway": "K스타트업의 GPU 최적화 기술"
     },
     {
       "s": "YTN",
@@ -75,8 +97,8 @@
       "ts": 1782283860000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "미국의 로봇 규제는 AI 반도체와 직접 연결되지 않아 영향이 제한적이다."
+      "impact": "negative",
+      "takeaway": "중국 로봇 규제 강화"
     },
     {
       "s": "PRESS9",
@@ -88,7 +110,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "중국 반도체 ETF 상승은 AI 전용 칩과는 별개라 테마에 직접적 영향은 없음."
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "NVIDIA공식",
@@ -99,7 +121,7 @@
       "ts": 1782259537000,
       "fullText": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale June 23, 2026 by Josiah Byers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrastructure is giving enterprises more practical paths to deploy AI at production scale. EC2 G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs expand the compute layer for AI, graphics, video and data analytics workloads, while the NVIDIA cuVS library accelerates the retrieval layer by making GPU-powered vector indexing the default in OpenSearch Serverless. And with AWS achieving NVIDIA Exemplar Cloud status for NVIDIA GB300, customers can trust they’re receiving peak optimized performance for their training workloads. NVIDIA RTX PRO 4500 Blackwell Server Edition Multi-Workload GPUs Power New Amazon EC2 G7 Instances Amazon EC2 G7 instances bring NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs to AWS for AI inference, graphics, spatial computing and GPU-accelerated data analytics — delivering a new instance type engineered for production workloads that need performance without the operational overhead of a customer-managed GPU platform. Compared with G6 instances, G7 delivers up to 4.6x AI inference performance, up to 2.1x graphics performance and significantly faster GPU-accelerated data analytics on Amazon EMR using the NVIDIA cuDF library for Apache Spark workloads. With support for up to eight GPUs, 256GB of total GPU memory, 700 Gbps of EFA-enabled networking and up to 7.6TB of local NVMe SSD storage — across one-, two-, four- and eight- GPU configurations plus bare metal, coming soon — G7 instances let customers right-size infras",
       "impact": "positive",
-      "takeaway": "NVIDIA와 AWS의 협업은 AI 워크로드 확대를 촉진해 AI 반도체 수요를 높인다."
+      "takeaway": "NVIDIA와 AWS의 AI 협력"
     },
     {
       "s": "산업종합저널",
@@ -109,9 +131,7 @@
       "m": "06. 23. AM 02:05",
       "ts": 1782180312000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "공작기계 분야의 AI·반도체 투자 증가는 관련 시장 성장에 긍정적 영향을 미친다."
+      "fullText": "Google News"
     },
     {
       "s": "AI라이프경제",
@@ -121,9 +141,7 @@
       "m": "06. 23. AM 01:46",
       "ts": 1782179213000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "정부가 AI·반도체 전략을 강조해 정책적 지원과 투자 확대가 기대돼 긍정적."
+      "fullText": "Google News"
     },
     {
       "s": "테크데일리",
@@ -142,16 +160,6 @@
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xVkh4TmM4Zzg3c2x5Q0RDb0pFYXl6Q0ZtQ2VBY1hoSHVUd3VtQnlicGg1UGxaUTd3RGwtcjFsNHRsOG83TzhnX1IyMzgzLTlWQlhZVDJVMUtLWXZONXd4Y1ZvX2pTdmI4UXc?oc=5",
       "m": "06. 20. AM 09:26",
       "ts": 1781947584000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "KIPOST",
-      "t": "[Weekly 신기술 및 정책소식] AI 반도체용 차세대 메모리 안정성 높였다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CMFBfUXpEbk1GS3BrbkpxemhjY3JZbVMzOVhqY2pPTFhtT2ZMa1NFT2ZjeHM4SnZyNEUwVE9WZjZTN0hoNEFGS3Y0MUpEckp2NktXLVJENVlUMWc0NE15NHJ2MzZ4VXEz0gFsQVVfeXFMTjlNVXJGemlnbkFlRkVTdEdfRmp4WGZ2SUpIOG5tOTlGTzNTeWRFTmFHaWdZU3g4enk1dTE2eXhDbHZGZEdycUhJVTdMdzNUMlR2WmxCOERRX2hOT3hheDY5Q1VCVTg5enRxR0VP?oc=5",
-      "m": "06. 19. AM 09:25",
-      "ts": 1781861103000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -216,20 +224,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "글로벌이코노믹",
-      "t": "\"새로운 성장 사이클 진입\"…중국 AI 반도체 ETF '눈길'",
+      "s": "중소기업신문",
+      "t": "\"中반도체산업에 투자\"…KB자산운용, 차이나AI반도체 추천",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOUFYc19QQXpPZHhRbENaOU9aU3FscDVMaTVYZ1RWalJVNnhzNDlmemN4dHJmejVKRWI1QTJBWFRxYUNNVVFQTTRialZNM29KbWtHZnFBblFaYnY5bXNaaEtYcW9JbEF6dGUwelcxQzlnbENsblo5Q1RFSkhPQndYWWNIaVpPdw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15b1dxV2hNV2NyajlySTREZ2pXeTNuQVlHRURuTkFzYWJyNU1sakZNRjVEZ2FUUEtQUmVBZjdURDlmWG5aanliQUNDWHIxLU5TM1R4QXJfX19GNzdWZzdNWFpoTEtGS2R6RG16eDBR?oc=5",
       "m": "06. 12. AM 07:00",
       "ts": 1781247600000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "중소기업신문",
-      "t": "\"中반도체산업에 투자\"…KB자산운용, 차이나AI반도체 추천",
+      "s": "글로벌이코노믹",
+      "t": "\"새로운 성장 사이클 진입\"…중국 AI 반도체 ETF '눈길'",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15b1dxV2hNV2NyajlySTREZ2pXeTNuQVlHRURuTkFzYWJyNU1sakZNRjVEZ2FUUEtQUmVBZjdURDlmWG5aanliQUNDWHIxLU5TM1R4QXJfX19GNzdWZzdNWFpoTEtGS2R6RG16eDBR?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOUFYc19QQXpPZHhRbENaOU9aU3FscDVMaTVYZ1RWalJVNnhzNDlmemN4dHJmejVKRWI1QTJBWFRxYUNNVVFQTTRialZNM29KbWtHZnFBblFaYnY5bXNaaEtYcW9JbEF6dGUwelcxQzlnbENsblo5Q1RFSkhPQndYWWNIaVpPdw?oc=5",
       "m": "06. 12. AM 07:00",
       "ts": 1781247600000,
       "_policy": true,
@@ -376,6 +384,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "대한민국 정책브리핑",
+      "t": "과기정통부, 국산 AI반도체 해외실증 전폭 지원…8개 컨소시엄 선정",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pak9jcW14V1ZLdnZlalRZTVdmRFBPelVrazZlbk9qTmRsM2IwUl8tM0VMd0FXaU16eUJROGdwVU5yc2FwdGZBOFRRb3N1V2UtV3BkUmRJYW9BRUNkRVY4ZGdkTmZpM2puOS1MSw?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "연합뉴스",
       "t": "미·중 정상회담 D-1…\"반도체 규제 완화시 韓메모리 부정적\"",
       "d": "",
@@ -402,26 +420,6 @@
       "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81NktDWUZuX0lPNjAyVnhCdks3UUgtMFpoRmJ2MVVpcTFtekpXZ3Q5emdjazdfREFIUXBsU3RVRk9YOUxJSGRpVFgzSTNFdDRJeGEyLUhnd0c3WXJyTU9xRVVGU1BqZw?oc=5",
       "m": "04. 09. AM 07:00",
       "ts": 1775718000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "데일리연합",
-      "t": "반도체 산업, AI 초격차 경쟁 속 미묘한 파고... 주도권 향방 주목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00czNVLVNHZGR5Tml4Ym1IdldNVTlHSlluTkpwb2FNVTJodnV4WHM0c2twWnNMRE5LbGFJT2FDN0N2WU42TFZzdkJtdW5YcDZFLXdMd2tzcmFfejA?oc=5",
-      "m": "03. 24. AM 07:00",
-      "ts": 1774335600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "조선일보",
-      "t": "美, 이란 전쟁에 반도체 압박 일시 중단하나...글로벌 AI반도체 수출 규제안 철회",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNT3VyUHJQWjZLY1ZyZUw3WlRGMldEeWFSUXdKemVleTBFSGN0cl9fTVhfOTA3NnhFYWNtTFAwS0dVbW5laWYxTWpRcTNaME9LVEJjUjh3NEw0RFpOWS1EYkN2bHpURXcyYlRvamtIcGZ3TWRWNHpQc3BKaHRrRExBVm8tUQ?oc=5",
-      "m": "03. 16. AM 07:00",
-      "ts": 1773644400000,
       "_policy": true,
       "fullText": "Google News"
     }

@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-06-30T13:26:39.254Z",
+  "updatedAt": "2026-06-30T16:08:08.944Z",
   "count": 40,
   "stats": {
-    "today": 0,
+    "today": 2,
     "yesterday": 1,
-    "weekAvg": 0.1,
-    "sources": 29,
-    "heat": "cold"
+    "weekAvg": 0.4,
+    "sources": 28,
+    "heat": "cool"
   },
   "items": [
+    {
+      "s": "동아일보",
+      "t": "‘파운드리 2.0’ 1분기 매출 133조원… AI 붐 타고 전년 동기대비 23% 급증",
+      "d": "글로벌 인공지능(AI) 반도체 수요가 가파르게 뛰면서 파운드리(반도체 위탁생산)와 후공정을 아우르는 ‘파운드리 2.0’ 시장이 덩치를 키우고 있다. 30일 시장조사 업체 카운터포인트리서치에 따르면 올 1분기(1∼3월) 글로벌 파운드리 2.0 시장 매출은 860억 달러(약 133조 원)로 전년 동기 대비 23% 급증했다. 파운드리 2.0이란 파운드리 업체를 포함해서 비메모리 종합반도체기업(IDM), 외주 반도체 조립·테스트 기업(OSAT), 포토마스크 공급업체까지 범위를 확대한 시장을 의미한다. AI 그래픽처리장치(GPU)와 주문형반도체(ASIC) 수요가 첨단 공정 및 패키징 가동률을 단숨에 끌어올린 결과다. 대만 TSMC는 1분기 매출이 41% 늘며 시장 점유율 38%로 압도적 1위를 차지했다. 삼성전자는 ",
+      "u": "https://www.donga.com/news/Economy/article/all/20260630/134211569/2",
+      "m": "06. 30. PM 03:30",
+      "ts": 1782833400000,
+      "fullText": "이동훈 기자 구독",
+      "impact": "positive",
+      "takeaway": "AI 수요 급증으로 매출이 크게 늘어 TSMC 파운드리 성장 기대감 상승"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "AI Chip Startup Etched Lures Jane Street, TSMC-Linked VC as Investors",
+      "d": "Nvidia rival says it has raised $800 million and has $1 billion in contracts.",
+      "u": "https://www.bloomberg.com/news/articles/2026-06-30/ai-chip-startup-etched-says-jane-street-tsmc-linked-vc-invested",
+      "m": "06. 30. PM 02:00",
+      "ts": 1782828017000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "TSMC 연계 VC가 AI 스타트업에 투자해 파운드리 생태계 확대"
+    },
     {
       "s": "NVIDIA공식",
       "t": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
@@ -18,7 +40,7 @@
       "ts": 1782752419000,
       "fullText": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Now generally available in Microsoft Foundry, Claude on NVIDIA GB300 Blackwell Ultra gives Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. June 29, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces total cost of ownership and drives positive company results. With Claude in Foundry running on NVIDIA GB300 NVL72 systems with NVIDIA Quantum-X800 InfiniBand networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. A Growing Partnership NVIDIA is working with Anthropic to extend developer capabilities by integrating NVIDIA tools into the Anthropic stack. That integration enables enterprises to give Claude agents domain-specific abilities. Through NVIDIA verified agent skills , enabled by access to NVIDIA accelerated computing, enterprises can embed AI agents deeply into their business and use them as the operating system for the organization. Enterprises can run Claude agents on Azure by using the NVIDIA Secure Agent Workspace Reference Design . It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level. Claude in Microso",
       "impact": "neutral",
-      "takeaway": "TSMC와 NVIDIA의 파트너십이 Azure의 성능 향상에 기여한다는 점이 중요하다."
+      "takeaway": "Anthropic 모델이 NVIDIA GPU에서 구동돼 TSMC와 직접 연관 없음"
     },
     {
       "s": "비즈니스포스트",
@@ -29,8 +51,8 @@
       "ts": 1781664031000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "TSMC의 파운드리 가격 정책이 메모리와 차별화되어 분기별 단가 인상이 피하는 것이 중요하다."
+      "impact": "neutral",
+      "takeaway": "가격 정책 차별화로 고객 유지는 가능하지만 매출·마진 영향은 불확실"
     },
     {
       "s": "이데일리",
@@ -42,7 +64,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "인텔 CEO가 TSMC와 만나는 것이 인텔의 파운드리 사업에 긍정적인 영향을 미친다."
+      "takeaway": "인텔 CEO와 TSMC 회담 기대감에 주가 3% 상승, 긍정적 시장 반응"
     },
     {
       "s": "매일경제",
@@ -54,19 +76,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "화웨이가 ASML의 부족에도 불구하고 2031년 1.4나노 반도체를 생산할 수 있는 능력을 보유하고 있다."
-    },
-    {
-      "s": "국제신문",
-      "t": "트럼프 “인텔 보호했으면 대만 TSMC 사업 모두 가져왔을 것”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWFVjMUVjWkg1T3ZOS0NOV1k4eHU2NjhYN3pfXzdjMjM3ajZpdjRqUEUtSTEyeTd1TEZlRjhyX0VOUnBXUU9adl81el80M2ZORTQySnpjTjVsVjlxVXZlelBfYXM1SzRDaktjY19ZcDJqY1E0LUgwZ2F6RzFmbHdGdXFvX1lGUTJjRkhDS2t3?oc=5",
-      "m": "05. 18. AM 07:00",
-      "ts": 1779087600000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "트럼프가 인텔을 보호했으면 대만 TSMC 사업을 모두 가져왔을 것이라는 점이 중요하다."
+      "takeaway": "화웨이 1.4nm 로드맵은 TSMC와 무관해 테마에 영향 없음"
     },
     {
       "s": "비즈니스포스트",
@@ -78,7 +88,19 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "삼성전자와 인텔의 추격으로 TSMC가 위기감을 느끼고 반도체 공장 18개를 동시 증설해야 하는 상황이다."
+      "takeaway": "경쟁 심화와 대규모 증설로 TSMC 시장 점유율 압박, 부정적 전망"
+    },
+    {
+      "s": "국제신문",
+      "t": "트럼프 “인텔 보호했으면 대만 TSMC 사업 모두 가져왔을 것”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWFVjMUVjWkg1T3ZOS0NOV1k4eHU2NjhYN3pfXzdjMjM3ajZpdjRqUEUtSTEyeTd1TEZlRjhyX0VOUnBXUU9adl81el80M2ZORTQySnpjTjVsVjlxVXZlelBfYXM1SzRDaktjY19ZcDJqY1E0LUgwZ2F6RzFmbHdGdXFvX1lGUTJjRkhDS2t3?oc=5",
+      "m": "05. 18. AM 07:00",
+      "ts": 1779087600000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "트럼프 발언은 정치적 의견에 머물러 TSMC 사업에 직접 영향 없음"
     },
     {
       "s": "엠투데이",
@@ -89,8 +111,8 @@
       "ts": 1778137200000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "삼성 파운드리도 몸값을 뛴다. 애플이 아이폰19용 A21 칩 생산 위탁을 검토하는 것이 중요하다."
+      "impact": "negative",
+      "takeaway": "삼성 파운드리 고가 정책과 애플 위탁 검토가 TSMC 경쟁력에 부정적"
     },
     {
       "s": "부산일보",
@@ -101,8 +123,8 @@
       "ts": 1775718000000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "삼성 파운드리 수율이 또 다시 문제가 되고 퀄컴이 TSMC로 이전하는 것이 우려된다."
+      "impact": "positive",
+      "takeaway": "삼성 수율 문제로 퀄컴이 TSMC로 전환, 파운드리 수요 증가 기대"
     },
     {
       "s": "테크월드",
@@ -112,9 +134,7 @@
       "m": "04. 08. AM 07:00",
       "ts": 1775631600000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "인텔과 머스크의 테라팹 동맹이 결성되면서 TSMC와 삼성의 중심 구조가 흔들릴 수 있다."
+      "fullText": "Google News"
     },
     {
       "s": "초이스스탁US",
@@ -124,18 +144,6 @@
       "m": "03. 03. AM 08:00",
       "ts": 1772524800000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "TSMC가 애리조나에서 흑자를 기록하면서 삼성전자 파운드리에 대한 수주 공간이 좁아지는 것이 중요하다."
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "美中 갈등에 고전한 삼성 파운드리 올해 기지개 켜나",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RcTRRNjZKUGtQeEJLZmRVazM1Y0RJRmcyQWQydnZhMFVDcmdSNVZaWXpIWWlPckV0VWpINDJudTJ0ZVd0WGg0T1R1VjhMbkd2WVF0M1lB?oc=5",
-      "m": "01. 26. AM 08:00",
-      "ts": 1769414400000,
-      "_policy": true,
       "fullText": "Google News"
     },
     {
@@ -143,6 +151,16 @@
       "t": "인텔, 1.4나노 ‘하반기 물량 윤곽’ 첫 언급…TSMC·삼성전자 촉각",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU1U0c0QzaF9kbXZQN24weG5IU1JtbjVnR0ZQeXJocFFhZHFuLW5EcnFsUnZ1aVVpUGRiY0VCRDlsbGpYaUF5N3I0bEdKNXB0eE5HTXVpYl9pcnY1UlJ5U2diRmdmRjVtN0w1LWZYZmRnQUM2WG85S3pINDh5MzJrLQ?oc=5",
+      "m": "01. 26. AM 08:00",
+      "ts": 1769414400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "美中 갈등에 고전한 삼성 파운드리 올해 기지개 켜나",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RcTRRNjZKUGtQeEJLZmRVazM1Y0RJRmcyQWQydnZhMFVDcmdSNVZaWXpIWWlPckV0VWpINDJudTJ0ZVd0WGg0T1R1VjhMbkd2WVF0M1lB?oc=5",
       "m": "01. 26. AM 08:00",
       "ts": 1769414400000,
       "_policy": true,
@@ -339,20 +357,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "동아비즈니스리뷰 | DBR",
-      "t": "Intel's 18A Process Challenges TSMC, Samsung Foundry",
+      "s": "비즈니스포스트",
+      "t": "TSMC 파운드리 실적에 중국 비중 낮아져, 엔비디아 AI 반도체로 충분히 만회",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMZkl0WFZEMW95RTI1QVhmeDR6LVIxckJmaFRxa1BleHFHTnkzWmd4dm14dm00UlkzeE1TZzNycVNucHhYUTYyQXlrOXM5bTA5ZkJmMVRWcUI2Z1JIdnJlXw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iRDBZSTZGeldvblA1dm9XZDdMT2hyeVZaUGhENGZHOTlneGFPNTBlcUZQVVRucVJYQThUM2RZOGg5S3RlTjNXZlJmdWQ2RFJ2NkVkanpkWUs3MGhmYWpfcUlaXzdXTmZQTjdZclFXbHJuSkE?oc=5",
       "m": "10. 20. AM 07:00",
       "ts": 1760943600000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "비즈니스포스트",
-      "t": "TSMC 파운드리 실적에 중국 비중 낮아져, 엔비디아 AI 반도체로 충분히 만회",
+      "s": "동아비즈니스리뷰 | DBR",
+      "t": "Intel's 18A Process Challenges TSMC, Samsung Foundry",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iRDBZSTZGeldvblA1dm9XZDdMT2hyeVZaUGhENGZHOTlneGFPNTBlcUZQVVRucVJYQThUM2RZOGg5S3RlTjNXZlJmdWQ2RFJ2NkVkanpkWUs3MGhmYWpfcUlaXzdXTmZQTjdZclFXbHJuSkE?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMZkl0WFZEMW95RTI1QVhmeDR6LVIxckJmaFRxa1BleHFHTnkzWmd4dm14dm00UlkzeE1TZzNycVNucHhYUTYyQXlrOXM5bTA5ZkJmMVRWcUI2Z1JIdnJlXw?oc=5",
       "m": "10. 20. AM 07:00",
       "ts": 1760943600000,
       "_policy": true,
@@ -405,26 +423,6 @@
       "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96QUZuT2JoZHJ0dDZaMWxPbEY3YmhfZ3BBTXZUVHhNaXR6QURlY09ob0RBaU1PQzcxb3g0aXdUS2gyS05HbGpYNG1WOU5uTDNHa2phVkV0OHY3QUd3aEJmaUt5YkZhZw?oc=5",
       "m": "09. 02. AM 07:00",
       "ts": 1756796400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "헬로티",
-      "t": "인텔, 美 정부·소프트뱅크 연이은 투자 유치...TSMC와 격차 좁힐까",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yR2NJeWRlZFdCSHd1WHB5SlhYWVlwVzFTZzBXeW5VLVNWRWVZNUZTMTk5dmhzQjg1VHJfeEpVc1czNWxScTVkamxkWVFubEdTR256MWQ4eDZjbmNZWjhN?oc=5",
-      "m": "08. 25. AM 07:00",
-      "ts": 1756105200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "연합뉴스",
-      "t": "\"TSMC, 2나노 생산라인서 中제조장치 배제…美규제 염두\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wRGRwQ2dMX2Z6R3dxU3VSZ3lSN3poeU1Fb1ZzNlBhd2dQRXNMMFQ2b21zTDlzNEJHeTF2MmlCSm1ibW4zT3VqRENwOTNBb0hEeEE0WWFqNV9ZX1XSAWBBVV95cUxPXy1nSDRhTzRNLUpGVnZoeG9tNy1mT2V2aE5vVVVJWGg4c2FvU0NLa0dDVzhRTFV6X1lqUm1tdUJMeWtXRXVqU045Ym0xX0xSMEJvM2NZN29XdEFPNm1GczY?oc=5",
-      "m": "08. 25. AM 07:00",
-      "ts": 1756105200000,
       "_policy": true,
       "fullText": "Google News"
     }

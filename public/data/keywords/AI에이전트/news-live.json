@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-06-30T13:26:47.958Z",
+  "updatedAt": "2026-06-30T16:07:56.865Z",
   "count": 40,
   "stats": {
-    "today": 8,
+    "today": 9,
     "yesterday": 4,
-    "weekAvg": 2.9,
-    "sources": 27,
+    "weekAvg": 3,
+    "sources": 24,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
+      "d": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
+      "u": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "m": "06. 30. PM 03:00",
+      "ts": 1782831600000,
+      "fullText": "As companies struggle to integrate AI, they’re increasingly ready to bring in outside help — and service providers are launching new purpose-built groups to make sure they get it. On Tuesday, Amazon Web Services (AWS) launched a new internal organization for AI-focused forward-deployed engineers. Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast engagements and customer self-sufficiency. In a post announcing the new org, AWS VP of Frontier AI Francessca Vasquez emphasized that the org would do more than build and maintain requested systems. “Customers leave AWS FDE deployments with both new solutions and new engineering capabilities,” the announcement reads. “Along with agentic systems running in their own AWS environment, they gain lasting AI skills, workflows, and patterns they can use to innovate independently.” Amazon says $1 billion will be committed to the new org, although the figure represents internal Amazon resources rather than a joint venture or conventional investment. Pioneered by Palantir, the forward-deployed engineer (FDE) model has become increasingly popular as a way to manage AI deployments. In a typical FDE system, an engineer from the contracting company (in this case, AWS) works for the client temporarily while the system is being established, allowing them to respond directly as internal opportunities or challenges emerge. In the FDE model, much of the relevant technology can be reused between deployments, while still being tailored to the specifics of each company’s needs and workflows. It also gives the client company an influx of expertise and puts primary responsibility for the deployment in the hands of the contractor. The biggest downside is the labor involved, since it means maintaining a full corps of FDE engineers to install and maintain the company’s technology. Both OpenAI and Anthropic have launched their own FDE joint ventures in recent months, valued at $4 billion and $1.5 bil",
+      "impact": "positive",
+      "takeaway": "아마존의 대규모 투자로 AI 에이전트 생태계 확대 기대"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "AI Won’t Be Substitute for Human Workers, OpenAI Economist Says",
+      "d": "The rise of artificial intelligence won’t make human workers superfluous, according to OpenAI Chief Economist Ronnie Chatterji.",
+      "u": "https://www.bloomberg.com/news/articles/2026-06-30/ai-won-t-be-substitute-for-human-workers-openai-economist-says",
+      "m": "06. 30. PM 02:37",
+      "ts": 1782830248000,
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "AI가 인간 노동을 대체 못한다는 주장으로 에이전트 수요 감소 우려"
+    },
     {
       "s": "NVIDIA공식",
       "t": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
@@ -16,7 +38,9 @@
       "u": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
       "m": "06. 30. PM 01:00",
       "ts": 1782824427000,
-      "fullText": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning June 30, 2026 by Esther Lee 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse . Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1) . But more edge data doesn’t automatically create more intelligence. As much as 90% of existing edge data goes unprocessed, according to the same Gartner report. Turning that data into useful action requires vision AI agents that can understand video, adapt to real-world conditions and connect insights to operational workflows. These agents often run near cameras, machines and sensors, where models must meet latency, power, cost and connectivity requirements while adapting to site-specific conditions. To build those agents, developers need repeatable ways to generate training data, fine-tune models and deploy agentic video applications across edge and cloud environments. NVIDIA Metropolis agent skills and blueprints give developers reusable workflows to build, operate and optimize vision AI agents across that lifecycle. For the simulation and synthetic data side of that work, Universal Scene Description, or OpenUSD , provides a common framework for describing, composing and reusing 3D worlds. Built on OpenUSD, NVIDIA Om"
+      "fullText": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning June 30, 2026 by Esther Lee 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse . Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1) . But more edge data doesn’t automatically create more intelligence. As much as 90% of existing edge data goes unprocessed, according to the same Gartner report. Turning that data into useful action requires vision AI agents that can understand video, adapt to real-world conditions and connect insights to operational workflows. These agents often run near cameras, machines and sensors, where models must meet latency, power, cost and connectivity requirements while adapting to site-specific conditions. To build those agents, developers need repeatable ways to generate training data, fine-tune models and deploy agentic video applications across edge and cloud environments. NVIDIA Metropolis agent skills and blueprints give developers reusable workflows to build, operate and optimize vision AI agents across that lifecycle. For the simulation and synthetic data side of that work, Universal Scene Description, or OpenUSD , provides a common framework for describing, composing and reusing 3D worlds. Built on OpenUSD, NVIDIA Om",
+      "impact": "positive",
+      "takeaway": "합성 데이터와 파인튜닝으로 비전 AI 에이전트 정확도 향상 가능"
     },
     {
       "s": "Bloomberg Tech",
@@ -25,7 +49,9 @@
       "u": "https://www.bloomberg.com/news/videos/2026-06-30/boe-s-breeden-says-ai-agents-could-amplify-market-stress-video",
       "m": "06. 30. PM 12:12",
       "ts": 1782821537000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "AI 에이전트가 시장 변동성을 확대해 위험 요인으로 작용 가능"
     },
     {
       "s": "Bloomberg Tech",
@@ -34,25 +60,20 @@
       "u": "https://www.bloomberg.com/news/articles/2026-06-30/boe-s-breeden-warns-ai-agents-risk-triggering-market-meltdowns",
       "m": "06. 30. AM 11:27",
       "ts": 1782818836000,
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "[위클리AI] 앤트로픽·퀄컴·오픈AI, 영역 확장 본격화…성과에 관심 집중",
-      "d": "인공지능(AI)이 세상을 바꾸고 있습니다. AI는 이제 우리 일상에서 떼려야 뗄 수 없는 핵심적인 요소입니다. 한 주간 세계를 들썩이게 만든 글로벌 빅테크 기업부터 우리 일상에 직접 영향을 미칠 새로운 AI 소식까지 핵심만 짚어드립니다.앤트로픽, 클로드 태그 공개 ‘기업 협업 AI 경쟁 본격화’글로벌 AI 기업 앤트로픽(Anthropic)이 6월 23일(이하 현지 시간) 팀 협업 환경에 특화된 새로운 AI 기능 ‘클로드 태그(Claude Tag)’를 공개했습니다. 메신저 기반 업무 협업 툴인 슬랙(Slack) 채널에 Claude를 멤버로 합류시켜, 누구나 ‘@Claude’를 태그하는 것만으로 작업을 위임할 수 있도록 한 것이 핵심입니다.앤트로픽은 공식 사이트에 이같이 밝히며 클로드 태그는 현재 클로드 엔터프",
-      "u": "https://www.donga.com/news/It/article/all/20260630/134211924/1",
-      "m": "06. 30. AM 10:00",
-      "ts": 1782813635000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "AI 에이전트가 급격한 시장 붕괴를 촉발할 위험 경고"
     },
     {
       "s": "TechCrunch",
       "t": "Crypto exchange OKX wants AI agents to hire and pay each other",
-      "d": "OKX is bringing together payments, identity and reputation into a marketplace for AI agents.",
+      "d": "OKX is bringing together payments, identity, and reputation into a marketplace for AI agents.",
       "u": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
       "m": "06. 30. AM 09:00",
       "ts": 1782810000000,
-      "fullText": "When AI agents begin working for people — and increasingly for one another — they will need a way to find jobs, pay for services, and build trust. Crypto exchange OKX is betting that future is closer than many expect, launching a marketplace where AI agents can hire one another, settle payments autonomously, and build portable on-chain reputations. Called OKX AI, the marketplace opens to developers on Tuesday following a closed beta involving 50 early AI service providers. The marketplace builds on technology OKX previously developed to let AI agents hold digital wallets, make payments using stablecoins, and establish persistent identities. The launch marks OKX&#8217;s latest push beyond crypto trading as it seeks to become a broader fintech company. With more than 150 million users globally, OKX is betting the next generation of customers will not just be people or institutions, but AI agents capable of transacting autonomously, giving rise to an emerging &#8220;agent economy.&#8221; &#8220;The coming decade will be defined by one-person companies that generate over a million dollars in annual revenue – because every individual effectively gains an unlimited workforce,&#8221; Star Xu, founder and CEO of OKX, told TechCrunch. &#8220;Traditional financial infrastructure was built for humans. The agentic economy needs infrastructure designed for autonomous software. That is why we built OKX.AI.&#8221; Haider Rafique, OKX’s chief marketing officer and global managing partner, said the company believes &#8220;agentic commerce&#8221; could become a trillion-dollar market over the next five years, driven by micropayments and autonomous software. The marketplace is aimed at crypto developers building AI applications and solo entrepreneurs looking to automate parts of their businesses with AI agents, Rafique told TechCrunch. The company expects those developers to build applications for the marketplace, allowing other users to access AI-powered tools without having to build"
+      "fullText": "When AI agents begin working for people — and increasingly for one another — they will need a way to find jobs, pay for services, and build trust. Crypto exchange OKX is betting that future is closer than many expect, launching a marketplace where AI agents can hire one another, settle payments autonomously, and build portable on-chain reputations. Called OKX AI, the marketplace opens to developers on Tuesday following a closed beta involving 50 early AI service providers. The marketplace builds on technology OKX previously developed to let AI agents hold digital wallets, make payments using stablecoins, and establish persistent identities. The launch marks OKX&#8217;s latest push beyond crypto trading as it seeks to become a broader fintech company. With more than 150 million users globally, OKX is betting the next generation of customers will not just be people or institutions, but AI agents capable of transacting autonomously, giving rise to an emerging &#8220;agent economy.&#8221; &#8220;The coming decade will be defined by one-person companies that generate over a million dollars in annual revenue &#8212; because every individual effectively gains an unlimited workforce,&#8221; Star Xu, founder and CEO of OKX, told TechCrunch. &#8220;Traditional financial infrastructure was built for humans. The agentic economy needs infrastructure designed for autonomous software. That is why we built OKX.AI.&#8221; Haider Rafique, OKX’s chief marketing officer and global managing partner, said the company believes &#8220;agentic commerce&#8221; could become a trillion-dollar market over the next five years, driven by micropayments and autonomous software. The marketplace is aimed at crypto developers building AI applications and solo entrepreneurs looking to automate parts of their businesses with AI agents, Rafique told TechCrunch. The company expects those developers to build applications for the marketplace, allowing other users to access AI-powered tools without having to",
+      "impact": "positive",
+      "takeaway": "OKX가 AI 에이전트 간 고용·결제 도입으로 새로운 활용 사례 제시"
     },
     {
       "s": "Bloomberg Tech",
@@ -61,7 +82,9 @@
       "u": "https://www.bloomberg.com/news/articles/2026-06-30/what-the-saga-over-anthropic-s-mythos-tells-us-about-the-cyber-risks-from-ai",
       "m": "06. 30. AM 08:52",
       "ts": 1782809560000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "Anthropic 사례가 AI 에이전트의 사이버 위험을 부각시켜 우려 증대"
     },
     {
       "s": "supple.kr",
@@ -71,7 +94,9 @@
       "m": "06. 30. AM 03:30",
       "ts": 1782790200000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "팀카이, 오픈AI와 협업해 AI로 CS 비용 70% 절감 기대"
     },
     {
       "s": "네이트",
@@ -81,7 +106,9 @@
       "m": "06. 30. AM 02:20",
       "ts": 1782786000000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "미국은 AI 코인 투자 확대하지만 한국은 규제로 정체, 테마와 직접 무관"
     },
     {
       "s": "TechCrunch",
@@ -90,7 +117,9 @@
       "u": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
       "m": "06. 29. PM 08:12",
       "ts": 1782763979000,
-      "fullText": "Google announced on Monday that the Gemini app is now offering its personalized Nano Banana-powered image generation feature to a broader audience. Starting today, all eligible users in the U.S. can access the feature for free, a service that was previously only available to Plus, Pro, and Ultra subscribers. Google initially announced that Gemini’s Personal Intelligence feature would get Nano Banana-powered image generation back in April, allowing users to create images that reflect their unique interests. This means that images can be generated based on Gemini’s understanding of your likes and preferences without you having to specify them in your prompt. Gemini utilizes data from your Google account connections — such as Gmail, Google Photos, YouTube, and Search — to achieve this. For example, instead of saying, “Create an illustration of me and my favorite things, such as coffee and baking,” you can simply request, “Create an illustration of me and my favorite things.” Gemini can also pull actual images of you from Google Photos, so you don’t need to manually upload photos. Image Credits: Google Google initially rolled out the Personal Intelligence feature earlier this year, making it widely available to all U.S. users in March. The company recently expanded this functionality to users in India and Japan. Personal Intelligence is an opt-in feature, allowing you to decide which apps Gemini can access. Once enabled, it is set as the default for every prompt, but you can disable it using a new toggle in the Tools menu. Additionally, last month, Google announced several upcoming updates for the Gemini app, including a new “Daily Brief” feature, a revamped interface, access to AI video model Gemini Omni, and a personal AI agent named Gemini Spark. Notably, Google’s AI chatbot Gemini surpassed 750 million monthly active users (MAUs) earlier this year, reinforcing its position as a major player in the AI space. Topics AI , Apps , gemini , Gemini Nano , Generative AI , G"
+      "fullText": "Google announced on Monday that the Gemini app is now offering its personalized Nano Banana-powered image generation feature to a broader audience. Starting today, all eligible users in the U.S. can access the feature for free, a service that was previously only available to Plus, Pro, and Ultra subscribers. Google initially announced that Gemini’s Personal Intelligence feature would get Nano Banana-powered image generation back in April, allowing users to create images that reflect their unique interests. This means that images can be generated based on Gemini’s understanding of your likes and preferences without you having to specify them in your prompt. Gemini utilizes data from your Google account connections — such as Gmail, Google Photos, YouTube, and Search — to achieve this. For example, instead of saying, “Create an illustration of me and my favorite things, such as coffee and baking,” you can simply request, “Create an illustration of me and my favorite things.” Gemini can also pull actual images of you from Google Photos, so you don’t need to manually upload photos. Image Credits: Google Google initially rolled out the Personal Intelligence feature earlier this year, making it widely available to all U.S. users in March. The company recently expanded this functionality to users in India and Japan. Personal Intelligence is an opt-in feature, allowing you to decide which apps Gemini can access. Once enabled, it is set as the default for every prompt, but you can disable it using a new toggle in the Tools menu. Additionally, last month, Google announced several upcoming updates for the Gemini app, including a new “Daily Brief” feature, a revamped interface, access to AI video model Gemini Omni, and a personal AI agent named Gemini Spark. Notably, Google’s AI chatbot Gemini surpassed 750 million monthly active users (MAUs) earlier this year, reinforcing its position as a major player in the AI space. Topics AI , Apps , gemini , Gemini Nano , Generative AI , G",
+      "impact": "neutral",
+      "takeaway": "Gemini의 AI 이미지 생성 무료 제공은 이미지 모델에 초점, 테마와 직접 무관"
     },
     {
       "s": "TechCrunch",
@@ -180,12 +209,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "AI포스트",
-      "t": "웹케시, NH농협은행과 국내 은행 최초 ‘AI 에이전트 기반 기업뱅킹 조회 서비스’ 구축",
+      "s": "지티티코리아",
+      "t": "AI 에이전트 보안, 접근통제에서 실행 검증으로...ID·작업 증명 기술 공개",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9odUlJWXBQOExLY25Ob0F6eUkyM09KdU9tQ3pGY3FVckV5MVNaMVZidThDMS1fNnI3OTNZcUg4b3psN2s5WVlvdDMwYTNUTE5WTzN4cU9FX0JFOUtfM1JHMG9ZZ2RTdzNUaHhuTkZR0gFyQVVfeXFMTUlPM09vcnRjVXRjd1ZJTUQ0bHlncVNmbWtRalAyR1VlSlFia0ZKcVdWeWlaUl9sTlJNSHFUZnJJTXVWRnpkTWtEWWFodXRlTld5OWY0SHdvek5wX1VRYVRNYmo4U1drZWpPZ1EyYVhzU3Jn?oc=5",
-      "m": "06. 24. AM 05:11",
-      "ts": 1782277881000,
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZ05DenNoa19oSkViaUNXR2FiQnM2U2FsNWxra3hDWWFIYWJ2ZHlDVGlJMWN4V0lYNGljejNvOVNhRTlOU0swNFp1MUR2ajVqNnh6MjFzRnJZeU9WNll2clpzTFJwU2NMYlE?oc=5",
+      "m": "06. 24. PM 04:00",
+      "ts": 1782316800000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -366,16 +395,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "뉴스1",
-      "t": "\"내용도 안 보고 동의, 또 동의\"…AI 발목잡는 '화석규제' 수술대 오른다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IOHlWMkZVNExDMXpMZ0tINXowM01Xa0Fta2hMbGUwM0U1VzZjbV9nSmtXekdLQXJEUFYwVW10eTM2MnBEb19BOUJ1bDVNWEpLVEdZQ3E1cFJXX2RYLWpGblZn?oc=5",
-      "m": "06. 17. AM 07:00",
-      "ts": 1781679600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "지티티코리아",
       "t": "AI 에이전트도 ID 관리 대상...권한·책임자·접근 범위 통합 관리",
       "d": "",
@@ -386,12 +405,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "tokenpost.kr",
-      "t": "HPE, 엔비디아 ‘베라’ 앞세워 프라이빗 클라우드 AI 확장…규제 산업 공략",
+      "s": "뉴스1",
+      "t": "\"내용도 안 보고 동의, 또 동의\"…AI 발목잡는 '화석규제' 수술대 오른다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3STlRQnNkX3gxczNVcndkU0d6ZmdmVTNlZmpDdEU3WGNXWFRLcEFqM05lcHF2c3E0SlZudFRmMzhBMHNkVlI4NDhEeWxybFNzMzdj0gFYQVVfeXFMTmlMZ1Q2TXE5UUh5cXVJM1lCcFVfNXdRZ2tKeGtNa0ZxQWV1eTRfandiSGI1ODVoa0JsNVNlYXhGNFQ0MnFtVzVTYlRmM1ZJVmZkaFhyMDN5Mw?oc=5",
-      "m": "06. 16. PM 11:32",
-      "ts": 1781652731000,
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IOHlWMkZVNExDMXpMZ0tINXowM01Xa0Fta2hMbGUwM0U1VzZjbV9nSmtXekdLQXJEUFYwVW10eTM2MnBEb19BOUJ1bDVNWEpLVEdZQ3E1cFJXX2RYLWpGblZn?oc=5",
+      "m": "06. 17. AM 07:00",
+      "ts": 1781679600000,
       "_policy": true,
       "fullText": "Google News"
     }

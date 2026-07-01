@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T06:27:32.256Z",
+  "updatedAt": "2026-07-01T10:35:41.010Z",
   "data": {
     "274090": {
       "name": "켄코아에어로스페이스",
@@ -56,7 +56,7 @@
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,758억",
+        "marketCap": "1,755억",
         "per": "N/A",
         "pbr": "1.02배",
         "cnsPer": "N/A",
@@ -68,6 +68,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260701",
+            "foreigner": -20809,
+            "institution": -1133,
+            "individual": 22849,
+            "foreignRatio": "9.99%"
+          },
           {
             "date": "20260630",
             "foreigner": -75392,
@@ -130,87 +137,17 @@
             "institution": -8217,
             "individual": -207018,
             "foreignRatio": "6.16%"
-          },
-          {
-            "date": "20260617",
-            "foreigner": 5595,
-            "institution": -17248,
-            "individual": 10973,
-            "foreignRatio": "4.92%"
           }
         ],
         "sum5d": {
-          "foreigner": 55169,
-          "institution": -13733
+          "foreigner": 9381,
+          "institution": -13050
         },
         "sum10d": {
-          "foreigner": 843940,
-          "institution": -60216
+          "foreigner": 817536,
+          "institution": -44101
         }
       },
-      "consensus": null
-    },
-    "RKLB": {
-      "name": "로켓랩",
-      "px": 101.65,
-      "dayChange": 3.71,
-      "periodChange": -16.95,
-      "prices": [
-        122.39,
-        123.32,
-        114.7,
-        119.95,
-        110.08,
-        113.65,
-        108.23,
-        105.05,
-        114.78,
-        102.39,
-        109.25,
-        104.63,
-        107.98,
-        107.24,
-        100.29,
-        95.12,
-        85.41,
-        80.69,
-        84.54,
-        98.01,
-        101.65
-      ],
-      "dates": [
-        "2026-06-01",
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04",
-        "2026-06-05",
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30"
-      ],
-      "volume": 32656408,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 151,
-        "low52w": 33.73,
-        "volume": 32656408
-      },
-      "investorFlow": null,
       "consensus": null
     },
     "TSLA": {
@@ -276,11 +213,74 @@
       "investorFlow": null,
       "consensus": null
     },
+    "RKLB": {
+      "name": "로켓랩",
+      "px": 101.65,
+      "dayChange": 3.71,
+      "periodChange": -16.95,
+      "prices": [
+        122.39,
+        123.32,
+        114.7,
+        119.95,
+        110.08,
+        113.65,
+        108.23,
+        105.05,
+        114.78,
+        102.39,
+        109.25,
+        104.63,
+        107.98,
+        107.24,
+        100.29,
+        95.12,
+        85.41,
+        80.69,
+        84.54,
+        98.01,
+        101.65
+      ],
+      "dates": [
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30"
+      ],
+      "volume": 32656408,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 151,
+        "low52w": 33.73,
+        "volume": 32656408
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "047810": {
       "name": "한국항공우주",
-      "px": 154000,
-      "dayChange": 5.19,
-      "periodChange": -5.52,
+      "px": 154200,
+      "dayChange": 5.33,
+      "periodChange": -5.4,
       "prices": [
         163000,
         147000,
@@ -303,7 +303,7 @@
         141600,
         150400,
         146400,
-        154000
+        154200
       ],
       "dates": [
         "2026-06-01",
@@ -329,15 +329,15 @@
         "2026-06-30",
         "2026-07-01"
       ],
-      "volume": 341686,
+      "volume": 361124,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "15조 404억",
-        "per": "76.05배",
-        "pbr": "8.07배",
-        "cnsPer": "43.87배",
+        "marketCap": "15조 307억",
+        "per": "76.00배",
+        "pbr": "8.06배",
+        "cnsPer": "43.84배",
         "divYield": "0.32%",
         "foreignRatio": "25.66%",
         "high52w": "215,500",
@@ -354,6 +354,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260701",
+            "foreigner": -71467,
+            "institution": 126240,
+            "individual": -55674,
+            "foreignRatio": "25.59%"
+          },
           {
             "date": "20260630",
             "foreigner": -139068,
@@ -416,31 +423,24 @@
             "institution": 30747,
             "individual": -2389,
             "foreignRatio": "26.20%"
-          },
-          {
-            "date": "20260617",
-            "foreigner": -163594,
-            "institution": 108068,
-            "individual": 51604,
-            "foreignRatio": "26.24%"
           }
         ],
         "sum5d": {
-          "foreigner": -398247,
-          "institution": 545809
+          "foreigner": -400738,
+          "institution": 571892
         },
         "sum10d": {
-          "foreigner": -684842,
-          "institution": 947401
+          "foreigner": -592715,
+          "institution": 965573
         }
       },
       "consensus": null
     },
     "012450": {
       "name": "한화에어로스페이스",
-      "px": 1082000,
-      "dayChange": 8.74,
-      "periodChange": -4.92,
+      "px": 1091000,
+      "dayChange": 9.65,
+      "periodChange": -4.13,
       "prices": [
         1138000,
         1070000,
@@ -463,7 +463,7 @@
         1011000,
         1020000,
         995000,
-        1082000
+        1091000
       ],
       "dates": [
         "2026-06-01",
@@ -489,15 +489,15 @@
         "2026-06-30",
         "2026-07-01"
       ],
-      "volume": 168776,
+      "volume": 191691,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "56조 2,041억",
-        "per": "34.23배",
-        "pbr": "5.63배",
-        "cnsPer": "26.24배",
+        "marketCap": "56조 2,557억",
+        "per": "34.27배",
+        "pbr": "5.64배",
+        "cnsPer": "26.27배",
         "divYield": "0.64%",
         "foreignRatio": "45.35%",
         "high52w": "1,713,000",
@@ -514,6 +514,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260701",
+            "foreigner": -12777,
+            "institution": 44085,
+            "individual": -30539,
+            "foreignRatio": "45.33%"
+          },
           {
             "date": "20260630",
             "foreigner": 3789,
@@ -576,22 +583,15 @@
             "institution": -33026,
             "individual": -8381,
             "foreignRatio": "45.33%"
-          },
-          {
-            "date": "20260617",
-            "foreigner": 23472,
-            "institution": -3510,
-            "individual": -19857,
-            "foreignRatio": "45.23%"
           }
         ],
         "sum5d": {
-          "foreigner": -18290,
-          "institution": 8801
+          "foreigner": -22850,
+          "institution": 41970
         },
         "sum10d": {
-          "foreigner": 62662,
-          "institution": -15337
+          "foreigner": 26413,
+          "institution": 32258
         }
       },
       "consensus": null
@@ -642,7 +642,7 @@
       -4.43,
       -4.62,
       -3.69,
-      -5.45
+      -5.66
     ],
     "sp500": [
       0,

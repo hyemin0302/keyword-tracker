@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-07-01T22:04:05.395Z",
+  "updatedAt": "2026-07-01T23:23:27.246Z",
   "count": 40,
   "stats": {
-    "today": 3,
+    "today": 4,
     "yesterday": 5,
-    "weekAvg": 1.7,
-    "sources": 24,
-    "heat": "cool"
+    "weekAvg": 1.9,
+    "sources": 22,
+    "heat": "warm"
   },
   "items": [
+    {
+      "s": "조선일보",
+      "t": "[투자노트] AI 투자 ‘선행지표’ 등장… ‘SDLLMTK’ 확인하세요",
+      "d": "인공지능(AI) 산업의 성장으로 관련 주식들이 가파르게 움직이면서 투자자들의 시선이 정밀한 수요 측정 지표로 이동하고 있다. 지금까지는 엔비디아의 GPU 판매량이나 글로벌 빅테크의 데이터센터 건설 규모 등이 주요 지표로 활용됐다. 하지만 이제는 실제 AI가 얼마나 사용되고 있는지를 실시간으로 보여주는 대체 데이터가 새로운 투자 가이드로 부상하는 모습이다.",
+      "u": "https://www.chosun.com/economy/stock-finance/2026/07/02/HE3DMNRVMVSWKNJSMFQTON3EMQ/",
+      "m": "07. 01. PM 10:13",
+      "ts": 1782943994000,
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "AI 투자 선행지표가 등장해도 NVIDIA와 직접 연관은 없어 중립적 평가."
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Nuclear Firm First in US to Produce Power From Advanced Reactor",
@@ -18,18 +29,7 @@
       "ts": 1782940479000,
       "fullText": "",
       "impact": "neutral",
-      "takeaway": "엔비디아 생태계와 직접 관련이 없는 뉴스"
-    },
-    {
-      "s": "조선일보",
-      "t": "[비즈톡톡] 엔비디아와 손잡았지만… SK텔레콤 ‘15GW AI 팩토리’ 실현 가능성은",
-      "d": "최태원 SK그룹 회장이 국내에 15기가와트(GW)급 인공지능(AI) 데이터센터를 구축하겠다는 청사진을 내놨지만, 시장의 관심은 기술보다 자금 조달 가능성에 쏠리고 있습니다. SK텔레콤은 최근 엔비디아와 손잡고 AI 연산에 특화된 차세대 데이터센터인 ‘AI 팩토리’를 2027년 한국에서 처음 가동하고, 이를 향후 GW급 AI 인프라로 단계적으로 확장하겠다고",
-      "u": "https://www.chosun.com/economy/tech_it/2026/07/02/MJQTGZBXMI3TQMRSG44GGZTDGU/",
-      "m": "07. 01. PM 09:00",
-      "ts": 1782939601000,
-      "fullText": "",
-      "impact": "negative",
-      "takeaway": "SK텔레콤의 15GW AI 팩토리 실현 가능성이 저하"
+      "takeaway": "핵발전 기술과 NVIDIA 생태계는 연관성이 낮아 영향이 없습니다."
     },
     {
       "s": "NVIDIA공식",
@@ -40,7 +40,18 @@
       "ts": 1782910847000,
       "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices...",
       "impact": "positive",
-      "takeaway": "엔비디아가 미국 내 AI 산업에 긍정적인 영향을 미침"
+      "takeaway": "미국 내 NVIDIA와 파트너들의 생산 확대는 생태계 성장에 긍정적입니다."
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Taiwan Detains Super Micro Workers in China Smuggling Probe",
+      "d": "Taiwanese prosecutors detained two Super Micro Computer Inc. employees following a raid of the US company’s local offices earlier this week over alleged shipments of Nvidia Corp. chips to China.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-01/taiwan-detains-super-micro-workers-probing-smuggling-of-nvidia-chips-to-china",
+      "m": "07. 01. PM 12:02",
+      "ts": 1782907328000,
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "Super Micro 직원 체포는 공급망 위험을 시사해 NVIDIA 파트너에 부정적 영향을 줍니다."
     },
     {
       "s": "NVIDIA공식",
@@ -51,7 +62,7 @@
       "ts": 1782838838000,
       "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access",
       "impact": "positive",
-      "takeaway": "엔비디아의 BioNeMo Agent Toolkit이 생명과학 연구자에게 가속화된 AI를 제공"
+      "takeaway": "BioNeMo 툴킷 도입으로 생명과학 분야 AI 활용이 확대돼 NVIDIA 생태계에 긍정적."
     },
     {
       "s": "NVIDIA공식",
@@ -61,8 +72,20 @@
       "m": "06. 30. PM 03:00",
       "ts": 1782831657000,
       "fullText": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost Baseten, Cognition, Deep Infra, Digital Ocean, Hippocratic AI, Together AI and Cursor are seeing compounding value from NVIDIA’s software and open source ecosystem. June 30, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s full-stack inference software continuously improves hardware performance. On the NVIDIA Blackwell platform, the software stack has already reduced token costs by up to 5x on the DeepSeek V4 model in just one month. SemiAnalysis InferenceX results comparing token cost and interactivity for NVIDIA GB300 NVL72 systems with SGLang and the NVIDIA Dynamo inference framework. Leading companies and inference providers are already seeing the compounding value of NVIDIA’s inference software stack on Blackwell: Baseten used the NVIDIA TensorRT-LLM open source library to serve DeepSeek V4 Pro on Blackwell GPUs for reasoning, coding and long-context workloads, applying proprietary runtime optimizations to deliver up to 50% more tokens per second. Cognition is using the NVIDIA Dynamo inference framework to manage inference GPUs, giving its team a ready-made path to scale reinforcement learning workloads without needing to build that infrastructure from scratch. Deep Infra uses the NVIDIA inference software stack to serve frontier open source models performantly on Blackwell from day zero, including DeepSeek V4. DigitalOcean helped Hippocratic AI use NVIDIA inference software on Blackwell GPUs to serve healthcare AI faster and more efficiently, increasing inference throughput by 30%",
+      "impact": "positive",
+      "takeaway": "Inference 스택이 토큰 비용을 낮추면 NVIDIA 솔루션 경쟁력이 강화됩니다."
+    },
+    {
+      "s": "초이스스탁US",
+      "t": "엔비디아 '양자 습격'… 삼성·SK 주주라면 꼭 봐야 할 '이 지표' 3가지",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12VWkwdlg5T015SENaeDZZUWJyZGhNUzlhcTQwaTZNQ2VMQlpQNjFDSzA5cURVQ2Ewa2luVFVPUHNteWQ0Y0hxMm5JekwzbHlMVHhETzZZdkRXYmVCYmVWcUcxdHJKNHM?oc=5",
+      "m": "06. 30. PM 01:30",
+      "ts": 1782826226000,
+      "_policy": true,
+      "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "엔비디아의 인프런스 소프트웨어 스택이 토큰 비용을 낮추는 데 도움을 줌"
+      "takeaway": "양자 관련 지표는 투자자 관심을 끌지만 직접적인 생태계 영향은 제한적입니다."
     },
     {
       "s": "NVIDIA공식",
@@ -73,7 +96,7 @@
       "ts": 1782824427000,
       "fullText": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning June 30, 2026 by Esther Lee 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse . Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1) . But more edge data doesn’t automatically create more intelligence. As much as 90% of existing edge data goes unprocessed, according to the same Gartner report. Turning that data into useful action requires vision AI agents that can understand video, adapt to real-world conditions and connect insights to operational workflows. These agents often run near cameras, machines and sensors, where models must meet latency, power, cost and connectivity requirements while adapting to site-specific conditions. To build those agents, developers need repeatable ways to generate training data, fine-tune models and deploy agentic video applications across edge and cloud environments. NVIDIA Metropolis agent skills and blueprints give developers reusable workflows to build, operate and optimize vision AI agents across that lifecycle. For the simulation and synthetic data side of that work, Universal Scene Description, or OpenUSD , provides a common framework for describing, composing and reusing 3D worlds. Built on OpenUSD, NVIDIA Om",
       "impact": "positive",
-      "takeaway": "엔비디아의 Omniverse가 시각 AI 에이전트의 정확성을 향상시키는 데 도움을 줌"
+      "takeaway": "Omniverse 활용 워크플로우가 비전 AI 정확도를 높여 NVIDIA 플랫폼 가치를 상승시킵니다."
     },
     {
       "s": "디지털데일리",
@@ -85,19 +108,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "미국의 반도체 규제가 엔비디아의 AI 칩 점유율을 저하"
-    },
-    {
-      "s": "조세일보",
-      "t": "95%→8%…中서 무너진 엔비디아, 화웨이가 역전",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54X2xQRFoxMVpFb0FDUE9YTEM4ZzdWMDR3YUM3Qm9ZZTBPN2RGWUphd2U4ZUJxdlhMRjhZMVV5ZmFYWjBha3dZU1doSFpNZHBEd3BWSnZ0VjdTWFZjRm9FOVJuWE1ORjBsUTRQQ2swRQ?oc=5",
-      "m": "06. 30. AM 02:27",
-      "ts": 1782786473000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "중국의 반도체 규제로 인해 엔비디아의 점유율이 95%에서 8%로 떨어짐"
+      "takeaway": "미중 규제로 AI칩 시장 점유율이 감소해 NVIDIA 생태계에 부정적 영향을 미칩니다."
     },
     {
       "s": "위클리포스트",
@@ -109,7 +120,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "엔비디아의 중국 점유율 하락으로 화웨이가 역전"
+      "takeaway": "중국 시장 점유율 하락과 화웨이 성장은 NVIDIA의 글로벌 입지를 약화시킵니다."
     },
     {
       "s": "NVIDIA공식",
@@ -118,9 +129,7 @@
       "u": "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
       "m": "06. 29. PM 05:00",
       "ts": 1782752419000,
-      "fullText": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Now generally available in Microsoft Foundry, Claude on NVIDIA GB300 Blackwell Ultra gives Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. June 29, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces total cost of ownership and drives positive company results. With Claude in Foundry running on NVIDIA GB300 NVL72 systems with NVIDIA Quantum-X800 InfiniBand networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. A Growing Partnership NVIDIA is working with Anthropic to extend developer capabilities by integrating NVIDIA tools into the Anthropic stack. That integration enables enterprises to give Claude agents domain-specific abilities. Through NVIDIA verified agent skills , enabled by access to NVIDIA accelerated computing, enterprises can embed AI agents deeply into their business and use them as the operating system for the organization. Enterprises can run Claude agents on Azure by using the NVIDIA Secure Agent Workspace Reference Design . It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level. Claude in Microso",
-      "impact": "positive",
-      "takeaway": "엔비디아의 GB300가 Anthropic의 모델을 가속화"
+      "fullText": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Now generally available in Microsoft Foundry, Claude on NVIDIA GB300 Blackwell Ultra gives Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. June 29, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces total cost of ownership and drives positive company results. With Claude in Foundry running on NVIDIA GB300 NVL72 systems with NVIDIA Quantum-X800 InfiniBand networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. A Growing Partnership NVIDIA is working with Anthropic to extend developer capabilities by integrating NVIDIA tools into the Anthropic stack. That integration enables enterprises to give Claude agents domain-specific abilities. Through NVIDIA verified agent skills , enabled by access to NVIDIA accelerated computing, enterprises can embed AI agents deeply into their business and use them as the operating system for the organization. Enterprises can run Claude agents on Azure by using the NVIDIA Secure Agent Workspace Reference Design . It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level. Claude in Microso"
     },
     {
       "s": "NVIDIA공식",
@@ -196,21 +205,21 @@
     },
     {
       "s": "NVIDIA공식",
-      "t": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
-      "d": "Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
-      "m": "06. 22. PM 01:00",
-      "ts": 1782133220000,
-      "fullText": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory Mission, Vision and Veritas supercomputers with Vera CPUs to advance materials simulation, scientific AI agents and molecular design. June 22, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA Rubin GPUs and NVIDIA Quantum-X800 InfiniBand networking. Under the planned configuration, Mission will include NVIDIA Vera Rubin GPU nodes and 2,300 standalone NVIDIA Vera CPUs using the HPE Cray Supercomputing GX240 blade. Veritas will feature approximately 1,150 standalone NVIDIA Vera CPUs to complement NVIDIA Vera Rubin nodes. Veritas will arrive alongside Mission and Vision and serve the Laboratory Directed Research and Development program, helping accelerate agentic AI for science. The system will test these technologies for use in larger systems being built out at LANL. Researchers are adding a new tool for science with AI agents that can form hypotheses, choose tools, launch simulations, analyze outputs and refine the next step. LANL’s public work on URSA, the Universal Research and Scientific Agent — running on Venado and soon Mission and Vision — points in this direction: a modular, feedback-driven AI framework designed to help scientists brainstorm hypotheses, plan experiments, run simulations and analyze results. LANL demonstrated that the Vera CPU delivered 7x higher performance on URSA workloads than the CPUs in the Crossroads x86 supercomputer. Vera CPU for Agents and Simulation In LANL’s early testing of NVIDIA Vera CPUs on Branson — an open source Monte Carlo he"
-    },
-    {
-      "s": "NVIDIA공식",
       "t": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
       "d": "At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter.  The NVIDIA DAQIRI library and new NVIDIA ALCHEMI NIM microservices — as well as the NVIDIA cuPhoton reference code, coming soon — turn work that [&#8230;]",
       "u": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
       "m": "06. 22. PM 01:00",
       "ts": 1782133220000,
       "fullText": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries NVIDIA CUDA-X libraries, microservices and reference code accelerate AI for science. June 22, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter. The NVIDIA DAQIRI library and new NVIDIA ALCHEMI NIM microservices — as well as the NVIDIA cuPhoton reference code, coming soon — turn work that once took hours or days on CPUs into real-time, GPU-accelerated pipelines. They’re a part of NVIDIA CUDA-X , a collection of tools and libraries that deliver dramatically higher performance across application domains, including AI and high-performance computing. These performance gains are large and have real impact. Across disciplines, scientists are using AI and accelerated computing to generate data and insights with instruments and surveys faster than ever. For example, running on NVIDIA GB200 NVL72 systems, cuPhoton speeds loading, reading, processing and analysis of FITS data — the standard astronomical file format — from observatories and telescopes. In early access, cuPhoton accelerated loading and reading of FITS images collected by the Rubin Observatory’s Legacy Survey of Space and Time (LSST) by 14,900x. It also enabled up to 8,400x faster signal processing and analysis using 32 NVIDIA Grace Blackwell superchips. Ultimately, this means faster insights from the LSST camera — the largest digital camera ever built — which captures images of billions of far-away galaxies, as well as closer, faint objects that don’t reflect much light. New Software, From the Lab Bench to the Telescope The new software accelerates research on dark matter, materials simulation and more. NVIDIA cuPhoton is a reference code for scientists looking to extract insi"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+      "d": "Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
+      "m": "06. 22. PM 01:00",
+      "ts": 1782133220000,
+      "fullText": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory Mission, Vision and Veritas supercomputers with Vera CPUs to advance materials simulation, scientific AI agents and molecular design. June 22, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA Rubin GPUs and NVIDIA Quantum-X800 InfiniBand networking. Under the planned configuration, Mission will include NVIDIA Vera Rubin GPU nodes and 2,300 standalone NVIDIA Vera CPUs using the HPE Cray Supercomputing GX240 blade. Veritas will feature approximately 1,150 standalone NVIDIA Vera CPUs to complement NVIDIA Vera Rubin nodes. Veritas will arrive alongside Mission and Vision and serve the Laboratory Directed Research and Development program, helping accelerate agentic AI for science. The system will test these technologies for use in larger systems being built out at LANL. Researchers are adding a new tool for science with AI agents that can form hypotheses, choose tools, launch simulations, analyze outputs and refine the next step. LANL’s public work on URSA, the Universal Research and Scientific Agent — running on Venado and soon Mission and Vision — points in this direction: a modular, feedback-driven AI framework designed to help scientists brainstorm hypotheses, plan experiments, run simulations and analyze results. LANL demonstrated that the Vera CPU delivered 7x higher performance on URSA workloads than the CPUs in the Crossroads x86 supercomputer. Vera CPU for Agents and Simulation In LANL’s early testing of NVIDIA Vera CPUs on Branson — an open source Monte Carlo he"
     },
     {
       "s": "NVIDIA공식",
@@ -382,30 +391,20 @@
       "fullText": "Google News"
     },
     {
+      "s": "중기이코노미",
+      "t": "엔비디아, 중국 시장 점유율 0퍼센트 추락…왜?",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9udi0xWnBLYkFaYTR2MlRMaFNtcmZJcHIyclhmZkdRTjZrZEg2cFBHZ2h5S3ZiQzJnbVJvTkNFYnJTdVBya3JCVHY1M1dKYzdXbVZmQzQtTWNjbEd5cmktN1Q0RTJjX1dDOVE?oc=5",
+      "m": "05. 04. AM 07:00",
+      "ts": 1777878000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "굿모닝베트남미디어",
       "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PS1lmakFsQzY5dFVXcmVkbENrUDI0eC01OFB2SE1zVDFsaEp6ODc4NzYxTUZvTzJQaE5JYUQxei1nUFVNT2pTeFYxY1M4YjBWVGFKNVQ2UEVldVlBeGlBX3FrV0N3RVg3clpoYWpySnk?oc=5",
-      "m": "05. 04. AM 07:00",
-      "ts": 1777878000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "AI포스트",
-      "t": "엔비디아 젠슨 황 \"중국 점유율 0%로 추락\"…美 수출 규제로 中 자급자족 가속화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyOTlUNGxvUC1Qc3p3ME5Xa0R3WjNHU0t6MEhfbHg5NEY0ZTdYOVN1Rl9IWGFuVjcxVTVsdE1ONHhmS21XUS1xamFmY2g1M2UzQkFaNlVQRU9XU2Vvdm5mVmpydTZxVEhmTkJzdGd30gFyQVVfeXFMTlRBWGFmc1YySi1vb3VxX09XVE1OWkkxazgweFpROE9zZFJlMHU5RW1oNW9PRlVMMnB1NFFWbkNsaWstclBNUDZRaXB3MzdEUlZsYXB4S3ZvSW1DaERKekRyeVRnYmZGNmZLRjdiRVZWNENR?oc=5",
-      "m": "05. 04. AM 07:00",
-      "ts": 1777878000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "글로벌이코노믹",
-      "t": "엔비디아 '양자 습격'… 삼성·SK 주주라면 꼭 봐야 할 '이 지표' 3가지",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUt6b1VhcF9fd1VmbFVMZmk0R3JOV1hKRVF4MmVidW5yQTVsenFXX0poSlRsVUJBT2FMVkpVaGgtYWFKcTI3dTRjeVZ6UXBrM1M5eVBjQ0tCWXhiT1RaRVJaQ21uejJ5SEEza3ZNN25BaG80OUNnMEgtWWladE55ZU5UZVZwTnA1?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
       "_policy": true,

@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-07-01T20:27:56.326Z",
+  "updatedAt": "2026-07-01T22:04:05.395Z",
   "count": 40,
   "stats": {
-    "today": 2,
+    "today": 3,
     "yesterday": 5,
-    "weekAvg": 1.6,
-    "sources": 22,
+    "weekAvg": 1.7,
+    "sources": 24,
     "heat": "cool"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nuclear Firm First in US to Produce Power From Advanced Reactor",
+      "d": "Valar Atomics Inc., a California-based nuclear startup, generated power from an advanced reactor to run an Nvidia Corp. AI chip. While just a trickle of electricity was produced, it’s the first time a next-gen reactor has done so in the US.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-01/nvidia-ai-chip-gets-power-from-valar-s-nuclear-reactor",
+      "m": "07. 01. PM 09:14",
+      "ts": 1782940479000,
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "엔비디아 생태계와 직접 관련이 없는 뉴스"
+    },
+    {
+      "s": "조선일보",
+      "t": "[비즈톡톡] 엔비디아와 손잡았지만… SK텔레콤 ‘15GW AI 팩토리’ 실현 가능성은",
+      "d": "최태원 SK그룹 회장이 국내에 15기가와트(GW)급 인공지능(AI) 데이터센터를 구축하겠다는 청사진을 내놨지만, 시장의 관심은 기술보다 자금 조달 가능성에 쏠리고 있습니다. SK텔레콤은 최근 엔비디아와 손잡고 AI 연산에 특화된 차세대 데이터센터인 ‘AI 팩토리’를 2027년 한국에서 처음 가동하고, 이를 향후 GW급 AI 인프라로 단계적으로 확장하겠다고",
+      "u": "https://www.chosun.com/economy/tech_it/2026/07/02/MJQTGZBXMI3TQMRSG44GGZTDGU/",
+      "m": "07. 01. PM 09:00",
+      "ts": 1782939601000,
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "SK텔레콤의 15GW AI 팩토리 실현 가능성이 저하"
+    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA and Partners Build in America, for America",
@@ -18,19 +40,7 @@
       "ts": 1782910847000,
       "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices...",
       "impact": "positive",
-      "takeaway": "미국 내 생산 확대로 엔비디아 생태계 성장 기대"
-    },
-    {
-      "s": "전자신문",
-      "t": "복지부, 엔비디아 'B200' 기반 공공의료 AI 생태계 조성",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE54NjUxRkp3NmhDVGljeGdESnF1THllX1ZNenloU2pCSGNlMGhFMG5PTDE0UWpCMGt5aWtXRlRPbDJGS1Q1ZjJQTzZFNnVaQQ?oc=5",
-      "m": "07. 01. AM 07:00",
-      "ts": 1782889200000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "공공 의료 AI 도입으로 엔비디아 기술 수요 확대"
+      "takeaway": "엔비디아가 미국 내 AI 산업에 긍정적인 영향을 미침"
     },
     {
       "s": "NVIDIA공식",
@@ -41,7 +51,7 @@
       "ts": 1782838838000,
       "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access",
       "impact": "positive",
-      "takeaway": "생명과학 연구에 가속화된 AI 제공으로 생태계 확장"
+      "takeaway": "엔비디아의 BioNeMo Agent Toolkit이 생명과학 연구자에게 가속화된 AI를 제공"
     },
     {
       "s": "NVIDIA공식",
@@ -51,20 +61,8 @@
       "m": "06. 30. PM 03:00",
       "ts": 1782831657000,
       "fullText": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost Baseten, Cognition, Deep Infra, Digital Ocean, Hippocratic AI, Together AI and Cursor are seeing compounding value from NVIDIA’s software and open source ecosystem. June 30, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s full-stack inference software continuously improves hardware performance. On the NVIDIA Blackwell platform, the software stack has already reduced token costs by up to 5x on the DeepSeek V4 model in just one month. SemiAnalysis InferenceX results comparing token cost and interactivity for NVIDIA GB300 NVL72 systems with SGLang and the NVIDIA Dynamo inference framework. Leading companies and inference providers are already seeing the compounding value of NVIDIA’s inference software stack on Blackwell: Baseten used the NVIDIA TensorRT-LLM open source library to serve DeepSeek V4 Pro on Blackwell GPUs for reasoning, coding and long-context workloads, applying proprietary runtime optimizations to deliver up to 50% more tokens per second. Cognition is using the NVIDIA Dynamo inference framework to manage inference GPUs, giving its team a ready-made path to scale reinforcement learning workloads without needing to build that infrastructure from scratch. Deep Infra uses the NVIDIA inference software stack to serve frontier open source models performantly on Blackwell from day zero, including DeepSeek V4. DigitalOcean helped Hippocratic AI use NVIDIA inference software on Blackwell GPUs to serve healthcare AI faster and more efficiently, increasing inference throughput by 30%",
-      "impact": "positive",
-      "takeaway": "추론 스택 효율화로 비용 절감, 생태계 경쟁력 강화"
-    },
-    {
-      "s": "초이스스탁",
-      "t": "엔비디아 '양자 습격'… 삼성·SK 주주라면 꼭 봐야 할 '이 지표' 3가지",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12VWkwdlg5T015SENaeDZZUWJyZGhNUzlhcTQwaTZNQ2VMQlpQNjFDSzA5cURVQ2Ewa2luVFVPUHNteWQ0Y0hxMm5JekwzbHlMVHhETzZZdkRXYmVCYmVWcUcxdHJKNHM?oc=5",
-      "m": "06. 30. PM 01:30",
-      "ts": 1782826226000,
-      "_policy": true,
-      "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "투자 지표 분석 기사로 직접적인 생태계 영향은 제한적"
+      "takeaway": "엔비디아의 인프런스 소프트웨어 스택이 토큰 비용을 낮추는 데 도움을 줌"
     },
     {
       "s": "NVIDIA공식",
@@ -75,7 +73,7 @@
       "ts": 1782824427000,
       "fullText": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning June 30, 2026 by Esther Lee 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse . Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1) . But more edge data doesn’t automatically create more intelligence. As much as 90% of existing edge data goes unprocessed, according to the same Gartner report. Turning that data into useful action requires vision AI agents that can understand video, adapt to real-world conditions and connect insights to operational workflows. These agents often run near cameras, machines and sensors, where models must meet latency, power, cost and connectivity requirements while adapting to site-specific conditions. To build those agents, developers need repeatable ways to generate training data, fine-tune models and deploy agentic video applications across edge and cloud environments. NVIDIA Metropolis agent skills and blueprints give developers reusable workflows to build, operate and optimize vision AI agents across that lifecycle. For the simulation and synthetic data side of that work, Universal Scene Description, or OpenUSD , provides a common framework for describing, composing and reusing 3D worlds. Built on OpenUSD, NVIDIA Om",
       "impact": "positive",
-      "takeaway": "Omniverse 활용으로 비전 AI 정확도 향상, 생태계 활용도 증가"
+      "takeaway": "엔비디아의 Omniverse가 시각 AI 에이전트의 정확성을 향상시키는 데 도움을 줌"
     },
     {
       "s": "디지털데일리",
@@ -87,7 +85,19 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "미국 규제로 엔비디아 AI칩 점유율 감소, 생태계 위축 우려"
+      "takeaway": "미국의 반도체 규제가 엔비디아의 AI 칩 점유율을 저하"
+    },
+    {
+      "s": "조세일보",
+      "t": "95%→8%…中서 무너진 엔비디아, 화웨이가 역전",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54X2xQRFoxMVpFb0FDUE9YTEM4ZzdWMDR3YUM3Qm9ZZTBPN2RGWUphd2U4ZUJxdlhMRjhZMVV5ZmFYWjBha3dZU1doSFpNZHBEd3BWSnZ0VjdTWFZjRm9FOVJuWE1ORjBsUTRQQ2swRQ?oc=5",
+      "m": "06. 30. AM 02:27",
+      "ts": 1782786473000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "중국의 반도체 규제로 인해 엔비디아의 점유율이 95%에서 8%로 떨어짐"
     },
     {
       "s": "위클리포스트",
@@ -99,7 +109,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "중국 시장 점유율 하락으로 매출·생태계 성장 제동"
+      "takeaway": "엔비디아의 중국 점유율 하락으로 화웨이가 역전"
     },
     {
       "s": "NVIDIA공식",
@@ -110,7 +120,7 @@
       "ts": 1782752419000,
       "fullText": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Now generally available in Microsoft Foundry, Claude on NVIDIA GB300 Blackwell Ultra gives Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. June 29, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces total cost of ownership and drives positive company results. With Claude in Foundry running on NVIDIA GB300 NVL72 systems with NVIDIA Quantum-X800 InfiniBand networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. A Growing Partnership NVIDIA is working with Anthropic to extend developer capabilities by integrating NVIDIA tools into the Anthropic stack. That integration enables enterprises to give Claude agents domain-specific abilities. Through NVIDIA verified agent skills , enabled by access to NVIDIA accelerated computing, enterprises can embed AI agents deeply into their business and use them as the operating system for the organization. Enterprises can run Claude agents on Azure by using the NVIDIA Secure Agent Workspace Reference Design . It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level. Claude in Microso",
       "impact": "positive",
-      "takeaway": "클로드 모델 Azure에서 NVIDIA GPU 사용, 생태계 활용 확대"
+      "takeaway": "엔비디아의 GB300가 Anthropic의 모델을 가속화"
     },
     {
       "s": "NVIDIA공식",
@@ -119,9 +129,7 @@
       "u": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
       "m": "06. 29. PM 03:00",
       "ts": 1782745204000,
-      "fullText": "NVIDIA and Partners Build in America, for America NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discovery,...",
-      "impact": "positive",
-      "takeaway": "Jetson의 우주 활용으로 엔비디아 기술 이미지와 시장 확대"
+      "fullText": "NVIDIA and Partners Build in America, for America NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discovery,..."
     },
     {
       "s": "NVIDIA공식",
@@ -264,6 +272,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "전자신문",
+      "t": "루닛, 엔비디아 'AI 생태계 간담회' 참석…“소버린 AI 의료협력 논의”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE91VVMtOTFtQWE4bEFUczdDWHNyRXpxbWVFZjBSS1kyZk5BbHNGdTIyWWtGOFkzR250S3BXR2VzV0Q2dWFLcVk5WEZWWGtlUQ?oc=5",
+      "m": "06. 08. AM 07:00",
+      "ts": 1780902000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "비즈워치",
       "t": "'글로벌 종횡무진' 젠슨 황에 한국이 유독 특별한 이유",
       "d": "",
@@ -314,7 +332,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "초이스스탁",
+      "s": "초이스스탁US",
       "t": "엔비디아 차이나 공백… 삼성·SK HBM 전선 '숨은 변수'",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iSWFsY1VJc3hibThTUTZ6NGdhZkVaZjl4RjBVYnFoOW1xLUdSdnB1aXpBSnBpaU1GUVZ6OFBnMVFDbjBKbDRGUmVGeERqNk9KT0lRTW15SlE1VGtkMEJKeTN4MGZMQzQ?oc=5",
@@ -364,10 +382,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "중기이코노미",
-      "t": "엔비디아, 중국 시장 점유율 0퍼센트 추락…왜?",
+      "s": "굿모닝베트남미디어",
+      "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9udi0xWnBLYkFaYTR2MlRMaFNtcmZJcHIyclhmZkdRTjZrZEg2cFBHZ2h5S3ZiQzJnbVJvTkNFYnJTdVBya3JCVHY1M1dKYzdXbVZmQzQtTWNjbEd5cmktN1Q0RTJjX1dDOVE?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PS1lmakFsQzY5dFVXcmVkbENrUDI0eC01OFB2SE1zVDFsaEp6ODc4NzYxTUZvTzJQaE5JYUQxei1nUFVNT2pTeFYxY1M4YjBWVGFKNVQ2UEVldVlBeGlBX3FrV0N3RVg3clpoYWpySnk?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
       "_policy": true,
@@ -384,32 +402,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "굿모닝베트남미디어",
-      "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
+      "s": "글로벌이코노믹",
+      "t": "엔비디아 '양자 습격'… 삼성·SK 주주라면 꼭 봐야 할 '이 지표' 3가지",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PS1lmakFsQzY5dFVXcmVkbENrUDI0eC01OFB2SE1zVDFsaEp6ODc4NzYxTUZvTzJQaE5JYUQxei1nUFVNT2pTeFYxY1M4YjBWVGFKNVQ2UEVldVlBeGlBX3FrV0N3RVg3clpoYWpySnk?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUt6b1VhcF9fd1VmbFVMZmk0R3JOV1hKRVF4MmVidW5yQTVsenFXX0poSlRsVUJBT2FMVkpVaGgtYWFKcTI3dTRjeVZ6UXBrM1M5eVBjQ0tCWXhiT1RaRVJaQ21uejJ5SEEza3ZNN25BaG80OUNnMEgtWWladE55ZU5UZVZwTnA1?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "한국경제",
-      "t": "젠슨 황 \"엔비디아 중국 점유율 0%\"…美 정부에 '작심발언'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wR1NvSE1HQ1BmOW1zQXlLTmxvMkIwUi04a2pWYW1rTmNMTUpZNjlQa1ozNHJIMHB4a29xMGpNNWZqM1JDU0RTeVVjWl9aTnh3cGR5SXJBS3J6QdIBVEFVX3lxTFA4aHAtanIyTTY5czFLR3FMRElDSnNmOXZYTVJ1NkUtRExsV1V2SndhczR3aVMxQVhDOXpnRXJ6Nk92LXdKYVFscEFUM0NKb1paRFhZdg?oc=5",
-      "m": "05. 04. AM 07:00",
-      "ts": 1777878000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "초이스스탁",
-      "t": "\"화웨이의 역습\" 엔비디아 빈자리 독점… 삼성·SK엔 '독'일까 '득'일까",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QbWlQczF5YzgtRFpwWHlUUXJUd3JkcmwtdzRQdjRnVWdXbzNMVEhKYnRLbEI0QXRFVTNGM3k0YWJkU2t5MVpZa0t2M1NfSTVfak9qVzYwQkh5Z0N2MnJRZXhVZzNPQzQ?oc=5",
-      "m": "05. 01. AM 07:00",
-      "ts": 1777618800000,
       "_policy": true,
       "fullText": "Google News"
     }

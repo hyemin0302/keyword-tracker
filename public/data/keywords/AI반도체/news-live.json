@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-07-03T12:06:36.389Z",
-  "count": 40,
+  "updatedAt": "2026-07-03T14:40:27.701Z",
+  "count": 13,
   "stats": {
-    "today": 5,
-    "yesterday": 7,
-    "weekAvg": 4.1,
-    "sources": 33,
+    "today": 4,
+    "yesterday": 2,
+    "weekAvg": 1.6,
+    "sources": 8,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "동아일보",
+      "t": "아크 B70 프로와 슈퍼클로로 구현되는 고효율 하이브리드 AI 환경 제안한 인텔",
+      "d": "AI 업계의 화두는 추론(inference)이다. 학습한 AI 모델의 성능을 확대하려는 경쟁에서 완성된 모델을 어떻게 값싸고 빠르게 운용하는 방향으로 선회한 것이다. 문제는 추론 수요를 이끄는 주범이 챗봇이 아니라 ‘에이전트(Agent)’라는 점이다. 에이전트는 챗봇(명령 기반 AI 서비스)과 달리 스스로 여러 도구를 오가며 일을 처리한다. 이 과정에서 대량의 토큰 소비가 발생한다.토큰 소비가 증가하면 기업의 비용 지출 외에도 데이터센터 내 메모리에 부담이 가중되어 인프라 운영 부담으로 이어진다. AI 모델이 문맥을 파악하기 위해 이전에 계산해둔 문맥 정보를 다시 꺼내 쓰는데, 이 데이터가 GPU 메모리에 저장되기 때문이다. 이를 KV 캐시(KV Cache)라 부른다. 대화가 길어지고 동시에 처리해야 할 요",
+      "u": "https://www.donga.com/news/It/article/all/20260703/134235061/1",
+      "m": "07. 03. PM 02:15",
+      "ts": 1783088104000,
+      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기",
+      "impact": "positive",
+      "takeaway": "인텔의 하이브리드 AI 솔루션이 AI 반도체 수요를 촉진"
+    },
     {
       "s": "전자신문",
       "t": "[도산아카데미] 백준호 퓨리오사AI 대표 “국산 NPU로 글로벌 추론 시장 공략”",
@@ -16,20 +27,9 @@
       "u": "https://www.etnews.com/20260703000320",
       "m": "07. 03. PM 12:00",
       "ts": 1783080000000,
-      "fullText": "AI·SW AI [도산아카데미] 백준호 퓨리오사AI 대표 “국산 NPU로 글로벌 추론 시장 공략” 발행일 : 2026-07-03 21:00 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 백준호 퓨리오사AI 대표 퓨리오사AI가 세계 추론용 인공지능(AI) 반도체 시장에서의 자사 신경망처리장치(NPU) 경쟁력을 자신했다. 백준호 퓨리오사AI 대표는 3일 서울 마곡동 시스원 본사에서 열린 제344회 스마트포럼을 통해 “추론 영역에서 AI 반도체는 지능을 실현하는 '디지털 뇌'로서 단순한 부품 이상의 의미를 가진다”며 “고성능·고효율 국산 NPU로 폭발하는 시장 수요에 부응하고 글로벌 시장에서 대규모 도입을 확대해 나가겠다”고 밝혔다. 퓨리오사AI는 국내 AI 반도체 대표 기업이다. 세계 시장에서도 기술력을 인정받아 지난해 메타로부터 약 1조원 규모의 인수 제안을 받기도 했다. 백 대표는 이날 '한국 NPU의 도전과 비전'을 주제로 강연했다. 그는 AI 산업의 무게중심이 '학습'에서 '추론'으로 이동하고 있다고 설명했다. 2030년까지 약 100기가와트(GW) 규모의 AI 데이터센터가 구축되는데 이중 70%가 추론 영역에 해당할 것이라고 내다봤다. 그는 AI 데이터센터 설계의 핵심은 반복적으로 발생하는 추론 비용을 얼마나 낮출 수 있느냐에 달려 있다면서, 지난 1월 양산에 성공한 자사 2세대 AI 가속기 '레니게이드(RNGD)'가 경쟁사 대비 전력 효율과 비용 경쟁력을 뛰어나다고 강조했다. 레니게이드의 칩당 열설계전력(TDP)은 180와트(W) 이하로, 동일한 전력을 기준 엔비디아 'RTX PRO 6000'보다 최대 7.4배 많은 추론 요청을 동시에 처리할 수 있다. 데이터센터 총소유비용(TCO)도 약 40% 낮아 투자 부담이 적다. 퓨리오사AI는 이러한 강점을 앞세워 삼성SDS, LG AI연구원, LG유플러스, 메가존클라우드, 업스테이지 등 국내 주요 기업과 협력하고 있다. 삼성SDS는 '삼성 클라우드 플랫폼(SCP)'을 통해 레니게이드 기반 구독형 서비스(NPUaaS)를 선보일 예정이다. 강연 이후에는 참석자들과 질의응답과 자유 토론이 이어졌다. 참석자들은 AI 반도체와 NPU 기술, 국내 AI 산업 생태계의 미래, 글로벌 기술 경쟁 속 한국 기업의 역할 등에 대한 의견을 나눴다. 제344회 스마트포럼은 전자신문과 도산아카데미가 공동 주최하고, 시스원은이 후원했다. 도산아카데미는 이번 공동주최를 계기로 전자신문과 함께 AI와 디지털 전환, 반도체, 산업 혁신 등 시대적 변화와 맞닿은 주제를 중심으로 스마트포럼을 이어갈 계획이다. 백준호 퓨리오사AI 대표는 3일 서울 마곡동 시스원 본사에서 열린 제344회 스마트포럼 연사로 발표하고 있다. 박진형 기자 jin@etnews.com",
+      "fullText": "",
       "impact": "positive",
-      "takeaway": "국산 NPU 개발로 글로벌 추론 시장 공략 가능성이 높아졌다."
-    },
-    {
-      "s": "한국경제",
-      "t": "월가 \"무조건 매수해라\"…'중국판 엔비디아' 떴다 [한경 프리미엄9 TODAY]",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026070349661",
-      "m": "07. 03. AM 09:02",
-      "ts": 1783069367000,
-      "fullText": "코리아마켓 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 월가 \"무조건 매수해라\"…'중국판 엔비디아' 떴다 [한경 프리미엄9 TODAY] 입력 2026.07.03 18:02 수정 2026.07.03 18:02 지면 A2 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 반학기 만에 공대 떠난 03년생&hellip;주식에 인생을 걸었다 올해 한경&middot;타임폴리오 KIW 주식투자대회 우승자인 조용범 씨는 대학을 자퇴하고 주식시장에 뛰어든 20대 투자자로, 올 들어 수익률 170%를 기록 중이다. 그의 성장주 투자 철학과 노하우를 한경 프리미엄9에 공유한다. 내 노후자금 어디에서 투자할까?&hellip;계좌별 최대 절세 조합을 찾아라 성공적인 노후 자산 형성을 위해서는 투자 자산을 금융상품의 과세 특성에 맞게 배치해야 한다. 신종현 세무사가 개인종합자산관리계좌(ISA)와 개인형퇴직연금(IRP) 계좌의 활용법을 설명한다. 월가 &quot;무조건 매수해라&quot;&hellip;&#39;중국판 엔비디아&#39; 떴다 중국 정부의 인공지능(AI) 국산화 정책 수혜주이자 &lsquo;중국판 엔비디아&rsquo;로 불리는 캠브리콘이 독자적인 기술력과 실적 개선을 바탕으로 가파른 성장세를 보이고 있다. 캠브리콘의 성장 비결을 들여다본다. &quot;삼성&middot;현대&middot;LG 모두 고객&quot;&hellip;메가프로젝트 수혜 겹친 종목 정부의 3대 메가 프로젝트 수혜 기대와 수주 급증에 힘입어 가파르게 오르는 종목이 있다. 피지컬 인공지능(AI) 개발 업체 마키나락스가 주인공이다. 마키나락스의 위기와 기회를 한경 프리미엄9이 분석했다. 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 ADVERTISEMENT 관련 뉴스 1 숨고르는 증시…핵심 테마는 그대로 [한경 프리미엄9 TODAY] 숨고르는 증시…핵심 테마는 그대로글로벌 기술주와 국내 반도체 대형주가 숨 고르기 국면에 들어갔다. 김영민 토러스자산운용 대표는 이럴 때 선별적 투자 전략이 필요하다고 조언했다. 그가 주목하는 ... 2026.07.02 17:55 2 '30살' 코스닥, 봄날은 언제 오나 [한경 프리미엄9 TODAY] &#39;30살&#39; 코스닥, 봄날은 언제 오나이번달로 코스닥시장이 개설된 지 30년이 됐다. 그동안 여러 혁신 기업을 키우는 젖줄 역할을 했지만 오랫동안 신뢰를 얻지 못해 정체된 것도 사실이다. 정부... 2026.07.01 18:03 3 국민연금 '7월 매도 폭탄설' 진실은 [한경 프리미엄9 TODAY] 국민연금 &#39;7월 매도 폭탄설&#39; 진실은국민연금의 국내 주식 리밸런싱 종료에 따라 ‘7월 매도 폭탄설’이 제기되고 있다. 국민연금은 주식을 대규모로 매각할까. 한경 프리미엄... 2026.06.30 17:35 ADVERTISEMENT 많이 본 뉴스 1 \"이제 금요일마다 어쩌냐\"…국민연금 직원들 '부글부글' 2026.07.03 07:00 2 \"따봤자 100만원짜리 신분증\" 대학생도 외면…눈물의 폐업 2026.07.02 07:00 3 200만원 넘던 주가 5개월 만에…\"도대체 바닥이 어디냐\" 눈물 2026.07.03 06:00 4 \"유지비 싸다고 갈아탔더니\"…전기車 운전자 분통 터뜨린 이유 2026.07.03 06:00 5 배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일 2026.06.30 21:00 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT ADVERTISEMENT",
-      "impact": "positive",
-      "takeaway": "중국 AI 반도체 기업의 성장으로 글로벌 시장 경쟁이 가열된다."
+      "takeaway": "국산 NPU가 글로벌 추론 시장 진출을 목표로 AI 반도체 성장 기대"
     },
     {
       "s": "한경 IT",
@@ -40,7 +40,7 @@
       "ts": 1783067535000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 딥엑스, 日 AI 반도체 시장 공략 입력 2026.07.03 17:32 수정 2026.07.03 17:32 지면 A11 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 고시다테크와 파트너십 체결 산업현장서 쓰일 NPU 저변 넓혀 북미&middot;중화권&middot;동남아 고객 확장 인공지능(AI) 반도체 기업 딥엑스가 일본 시장 공략에 속도를 낸다. 제조&middot;로봇&middot;자동차 등 현장형 AI 수요가 많은 일본에서 현지 유통망을 확보해 상용화 사례를 늘리겠다는 전략이다. 딥엑스는 지난 2일 일본 도쿄 고시다테크 본사에서 일본 기술 유통기업 고시다테크와 전략적 파트너십 계약을 맺었다고 3일 밝혔다. 양사는 이번 협약을 통해 딥엑스의 신경망처리장치(NPU) 제품군을 일본 산업 현장에 확산하는 작업을 공동으로 추진하기로 했다. 고시다테크는 1930년 설립된 일본 기술 유통 및 솔루션 기업이다. 자동차, 반도체, 휴대폰, 사물인터넷(IoT), AI 등 다양한 산업 분야에서 사업을 하고 있다. 고시다테크는 일본 내 고객 네트워크를 활용해 딥엑스의 NPU가 쓰일 만한 프로젝트 발굴, 제품 제안, 고객 대응, 공급 확대 등의 역할을 맡는다. 일본은 딥엑스가 주목하는 핵심 시장 중 하나다. 제조, 로봇, 자동차, 산업 자동화, 보안&middot;사회 인프라 분야의 기반이 탄탄한 데다 고령화와 인력 부족으로 현장의 무인화&middot;지능화 수요가 커지고 있다. 공장, 물류센터, 건설 현장, 보안카메라, 도시 인프라 등 현장에서 바로 처리해야 하는 영역이 많아 데이터를 클라우드로 보내지 않고 기기 내에서 알고리즘을 실행하는 &lsquo;엣지 AI&rsquo; 반도체의 잠재 수요가 큰 시장으로 꼽힌다. 딥엑스의 주력 NPU인 디엑스-M1은 5나노 공정 기반의 초저전력 AI 반도체다. 25TOPS급 AI 연산 성능을 제공하면서도 3~5W 수준의 저전력 구동을 목표로 설계했다. 보안카메라, 산업용 컴퓨터, 로봇, 드론, 스마트팩토리 장비, 엣지 서버 등에 적용할 수 있다. 딥엑스는 20여 개 글로벌 유통사와 파트너십을 맺고 북미, 중화권, 동남아 등 주요 거점에서 고객망을 확보하고 있다. 김녹원 딥엑스 대표는 &ldquo;일본 파트너와의 협력을 통해 딥엑스 NPU가 실제 산업 현장에서 상용화되는 사례를 하나씩 늘려가는 것이 목표&rdquo;라며 &ldquo;한국에서 개발한 초저전력 AI 반도체 기술을 글로벌 제조&middot;인프라 현장에 실질적으로 적용해 나가겠다&rdquo;고 말했다. 이영애 기자 0ae@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 이영애 ADVERTISEMENT 관련 뉴스 1 \"이제는 AI 효율전쟁…한국 기업들에 기회 충분하다\" “인공지능(AI) 시장이 변곡점을 맞고 있습니다. 연산에서 효율로, 데이터센터에서 일상 기기로 키워드가 바뀌고 있습니다.”15일 서울 장충동 신라호텔에서 열린 ‘코리아 인베스트먼트 위... 2026.05.15 18:33 2 딥엑스, 신한금융서 1000억 이상 투자 받는다 ▶마켓인사이트 4월 29일 오후 4시 19분토종 인공지능(AI) 반도체 기업인 딥엑스가 신한금융그룹으로부터 ‘1000억원+α’ 규모의 지분 투자를 받는다. 신한금융은 7년 전... 2026.04.29 18:23 3 딥엑스, 엔비디아 20배 전력 효율 AI칩 공개 “경쟁사 대비 칩 크기를 4.3배 줄여 제조 원가를 크게 낮췄습니다. 엔비디아의 온디바이스용 그래픽처리장치(GPU) ‘젯슨 오린’ 대비 가격은 10분의 1에 불과하고, 전력 효율은 2... 2026.04.14 17:37 ADVERTISEMENT 많이 본 뉴스 1 \"이제 금요일마다 어쩌냐\"…국민연금 직원들 '부글부글' 2026.07.03 07:00 ",
       "impact": "positive",
-      "takeaway": "딥엑스가 일본 AI 반도체 시장에 진출하는 것은 글로벌 경쟁 강화다."
+      "takeaway": "딥엑스의 일본 시장 진출이 AI 반도체 수출 확대에 기여"
     },
     {
       "s": "한경 경제",
@@ -51,43 +51,7 @@
       "ts": 1783067514000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 반도체 핵심 '유리기판' 테마 뜬다 입력 2026.07.03 17:31 수정 2026.07.03 17:31 지면 A11 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 남준우 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. VC들 관련 스타트업 확보전 애니캐스팅, 하이쎄미코 등 주목 유리기판 스타트업에 대한 벤처캐피털(VC)의 관심이 커지고 있다. 3일 투자은행(IB) 업계에 따르면 최근 국내 VC들은 유리기판 관련 스타트업들에 대한 투자를 검토 중이다. 애니캐스팅, 하이쎄미코, 익스톨 등이 주목받고 있다. 애니캐스팅은 시리즈A 투자 라운드를 진행 중이다. 목표액은 최대 50억원이다. 하이쎄미코는 90억원 상당의 신주 발행 투자 유치를 진행 중이다. 익스톨 역시 약 100억원대의 투자 유치를 추진하고 있다. 이들 세 곳의 공통점은 AI 반도체 패키징의 핵심 기술인 유리기판이다. 유리기판은 기존 플라스틱(유기) 기판보다 열 변형이 적고 신호 손실이 낮다. 더 미세한 배선을 구현할 수 있어 고성능 AI 반도체 구현에 유리하다. 애니캐스팅은 유리기판 핵심 공정인 유리기판 관통전극(TGV) 내부를 구리로 채우는 충전 기술을 개발 중이다. TGV 내부를 빈 공간 없이 구리로 채우면 전기 신호를 안정적으로 전달할 수 있다. 하이쎄미코는 유리기판 생산에 필요한 전해도금(ECD) 장비를 개발하는 반도체 장비 업체다. 익스톨은 반도체용 도금 화학약품 전문기업이다. 최근 유리기판용 구리도금 소재 사업을 확대하고 있다. VC 업계는 유리기판 스타트업이 대기업 공급망에 편입될 것으로 기대하고 있다. 유리기판은 대기업들도 주목하는 투자 테마다. 인텔과 엔비디아, AMD 등 글로벌 반도체 기업들도 이 기술의 상용화를 추진 중이다. 국내에서도 삼성전기, LG이노텍, SKC 등이 유리기판 시장 선점을 위해 치열한 경쟁을 벌이고 있다. 인텔은 10억달러(약 1조5000억원) 이상을 투입해 유리기판 연구라인을 구축했다. 삼성전기는 일본 스미토모화학그룹과 4800억원 규모의 합작법인(JV)을 설립해 공급망 확보에 나섰다. SKC는 자회사 앱솔릭스를 설립해 미국 조지아에 유리기판 전용 공장을 구축했다. 남준우 기자 njw0825@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 남준우 ADVERTISEMENT 관련 뉴스 1 염전 노동착취 근절…고용부·해수부 합동대응 추진 고용노동부와 해양수산부 등 유관기관은 ‘염전 노예’(염전 근로자 인권 침해)를 뿌리 뽑기 위해 현장 불시 점검과 부처 간 상시 공조를 강화하는 합동 대응 체계를 마련했다고 2일 밝혔다. 미국 정... 2026.07.02 18:08 2 OECD \"韓 부동산 거래세 비중 낮추고 보유세 높여야\" 경제협력개발기구(OECD)가 한국 부동산 세금에서 보유세 비중은 높이고 거래세 비중은 낮춰야 한다고 권고했다.OECD는 2일 이 같은 내용을 담은 ‘2026 한국경제보고서’를 발표했다. OECD... 2026.07.02 17:53 3 SK, 美에 AI투자법인 설립…'실탄 100억弗'로 스타트업 베팅 SK하이닉스가 100억달러(약 14조2000억원)를 투입해 미국 실리콘밸리에 차세대 인공지능(AI) 반도체 관련 투자와 외부 협력을 전담하는 자회사를 설립한다. 메모리 반도체를 넘어 AI 생태계 전반에서 주도권을 잡... 2026.01.28 17:57 ADVERTISEMENT 많이 본 뉴스 1 \"이제 금요일마다 어쩌냐\"…국민연금 직원들 '부글부글' 2026.07.03 07:00 2 \"따봤자 100만원짜리 신분증\" 대학생도 외면…눈물의 폐업 2026.07.02 07:00 3 200만원 넘던 주가 5개월 만에…\"도대체 바닥이 어디냐\" 눈물 2026.07.03 06:00 4 \"유지비 싸다고 갈아탔더니\"…전기車 운전자 분통 터뜨린 이유 2026.07.03 06:",
       "impact": "positive",
-      "takeaway": "AI 반도체 핵심 인프라인 유리기판 테마가 뜬다."
-    },
-    {
-      "s": "전국뉴스",
-      "t": "[반도체가 곧 국가안보]성일종 의원 \"반도체는 국방·외교·안보 전략자산\"…국가전략 차원 육성 강조",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rLTFieGpQQWxOM2FVRkNZSWRGcTRMU3czLUIwdUdDR09zbWZMR3dNX0dNTVE3UjFWeU8tTTFqZ2RsNjA2SnlJRHdHUWlBVUxrQWtMLWFqbDdzaFpkV1BCOXpBRXNxVEpoY2ZOMnF2NTQ?oc=5",
-      "m": "07. 03. AM 06:34",
-      "ts": 1783060460000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "반도체는 국가 안보 전략자산으로 중요성이 높아졌다."
-    },
-    {
-      "s": "한국공공정책신문",
-      "t": "AI 반도체 밀수 동남아 루트",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE4yNUhaU3JDNmJjTTRYTkVxeElvOFFiUzJZN3BCSGphd3Z2VWQ3eFdkMEdWWE1MYUFZVXFtc1FPMVBfNXM?oc=5",
-      "m": "07. 02. PM 11:30",
-      "ts": 1783035034000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "AI 반도체 밀수는 국가 안보에 위협을 가한다."
-    },
-    {
-      "s": "아주경제",
-      "t": "해상풍력 선박·터빈 외산 의존 심각...AI 반도체 핵심 인프라, 정책 지원 시급",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xeDlSMktPS2NvMlBlSHplUmlpdjF6RU52RnNwbTg2NU9FV04weGpHWUxmUGhTMTAxYXQybFZrWU5OSXEyOXlkOUUzQkJoU3hiSlJ2MEMtMTBvUdIBWEFVX3lxTE01ckZBRTJybWNHdnBTN2hWTXh5S0dSV2ViWlF2VHZTNWNuZXlwTVByUUZQelhnY0JfVERWZ29pYkVxMHV1eXU2dkhsTnlSQndHZEx1VldQcEc?oc=5",
-      "m": "07. 02. PM 08:00",
-      "ts": 1783022400000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "해상풍력 선박·터빈 의존도는 심각하고 AI 반도체 핵심 인프라 지원이 필요하다."
+      "takeaway": "유리기판 기술 부상이 AI 반도체 성능·가격 경쟁력 강화"
     },
     {
       "s": "TechCrunch",
@@ -98,31 +62,7 @@
       "ts": 1783017069000,
       "fullText": "Back in April, Reuters reported that Anthropic was toying with the idea of producing its own AI chips as a means of responding to chip shortages. Now, it would appear that the company is getting serious about this idea. On Thursday, The Information reported that Anthropic was in contact with Samsung to explore a collaboration around the pending chip. However, Anthropic hasn&#8217;t yet decided what the chip will be used for, how it will fit into the server, or how powerful it will be, according to the report. When reached for comment, Anthropic told TechCrunch that a diversified hardware stack that includes chips from Google, Amazon, and Nvidia will continue to be pivotal to its compute strategy. On the topic of a potential Samsung partnership, the company said it had nothing further to add. A number of AI companies have sought to develop custom chips — both as a way to create unique hardware for specific compute tasks and to gain a certain amount of independence from Nvidia, which continues to be the undisputed leader of the chip industry. Anthropic&#8217;s announcement may also be a response to one made last week by its key competitor, OpenAI, which has teamed up with Broadcom to announce its own custom-built inference processor, dubbed &#8220;Jalapeño.&#8221; OpenAI says that the chip is more efficient, demonstrating better performance-per-watt, than other competitor chips. Amazon and Google both offer custom-built TPUs as part of their cloud offering. Samsung is already embedded in the AI industry, and acts as a major partner of Nvidia, producing chips that the company needs to train or run its AI models. In turn, Samsung uses Nvidia&#8217;s software to manufacture its chips. The duo are working on an AI chip factory in South Korea. Samsung has also discussed partnering with Google on its chip-making efforts. Topics AI , AI chips , Anthropic , nvidia , OpenAI , Samsung , TC When you purchase through links in our articles, we may earn a small commission . This do",
       "impact": "positive",
-      "takeaway": "삼성과 Anthropic이 새로운 커스텀 칩 개발에 협력하는 것은 AI 반도체 시장 강화다."
-    },
-    {
-      "s": "전남인터넷신문",
-      "t": "김대중 교육감, AI 기반 ‘교육 지산지소’ 인재양성 지시",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtMnlrMXlRTC13VWxENTQzM1FuZ1dsOUFNdlpEbk5BYk1uMFR2SXh1NzlJV05Hd2pIWDJkVTVMX2pGR19UMktmNFVBMWdmRUZ1TE1vRjBQWnZCTzhY?oc=5",
-      "m": "07. 02. PM 03:17",
-      "ts": 1783005452000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "AI 기반 교육 지산지소 인재양성은 교육 분야에 집중된 정책이다."
-    },
-    {
-      "s": "테크데일리",
-      "t": "과기정통부, 제2차 국가연구개발 중장기 투자전략 공개...AI·반도체 중심 5년 로드맵 제시",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlYV9MZjhFamViLXRrQXlQSTl2azFBNFRBZFctVFI0NU1pWWZkY1VCdVpVUWVGSzlPQ0tpMEFGaDBiLThQMkJ1QVU5QWN5bVJLZGQ2eDdmVzItWkdKT181eGxMYnRwcEJHLWdvRmJB0gFyQVVfeXFMT0RyMS1CNmNLN2xjM0U4NUpMMXdGZGVPY0RWb1UzZ01PcXpBWEthS0ttbHpfZzJraWRmYVRzc19RVk1TYmFPNlpVY045cmtzeE9WQkRkRnJnMUtQWUpYTW9WLVBWejNzRnVYRHJHQ19Xa0ln?oc=5",
-      "m": "07. 02. PM 03:02",
-      "ts": 1783004571000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "과기정통부가 제시한 5년 로드맵은 AI·반도체 중심으로 국가 연구개발 전략을 강화한다."
+      "takeaway": "삼성, Anthropic과 맞춤형 칩 논의로 AI 반도체 포트폴리오 확대"
     },
     {
       "s": "한경 IT",
@@ -131,17 +71,9 @@
       "u": "https://www.hankyung.com/article/202607022384i",
       "m": "07. 02. AM 07:04",
       "ts": 1782975896000,
-      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 노키아 “엔비디아와 만든 AI 통신장비, 올해 말 첫 실증” 입력 2026.07.02 16:04 수정 2026.07.02 16:04 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 플랫폼에 통신망 올리는 시대로 GPU 하나로 5G&middot;6G 운용한다 한효찬 노키아코리아 전무가 인공지능 무선접속망(AI-RAN) 개발 계획을 설명하고 있다. 노키아 제공 &ldquo;AI-RAN은 5~6년 뒤 6G를 기다려야 하는 기술이 아닙니다. 이미 오늘 현실화하고 있고, 올해 말 첫 가능성을 보여줄 기술입니다.&rdquo; 한효찬 노키아코리아 전무는 2일 서울 당주동 포시즌스호텔 서울에서 열린 기자간담회에서 &ldquo;연결이 인공지능(AI)을 지원하는 시대를 넘어 연결 자체가 AI와 통합되는 시대가 오고 있다&rdquo;며 이같이 말했다. 노키아는 이날 엔비디아와 개발 중인 인공지능 무선접속망(AI-RAN) 기술 전략을 소개했다. AI-RAN은 AI와 무선접속망(RAN)을 하나의 컴퓨팅 인프라에서 구동하는 기술이다. 기존 통신망이 사람과 사람, 사람과 데이터를 연결하는 &lsquo;파이프&rsquo; 역할에 머물렀다면 AI-RAN은 기지국과 통신 장비가 직접 AI 추론을 수행할 수 있다. 노키아는 전용 통신 칩 대신 엔비디아 그래픽처리장치(GPU) 위에 무선망 소프트웨어와 AI 추론 기능을 함께 올리는 방식을 채택했다. 지난해 10월 엔비디아가 노키아에 10억달러를 투자해 2대 주주로 올라선 뒤 양사는 6G용 AI-RAN 플랫폼을 공동 개발하고 있다. 한 전무는 &ldquo;각 네트워크 세대는 그 시대를 지배한 워크로드에 맞춰 형태가 바뀌어 왔다&rdquo;며 &ldquo;음성, 인터넷 데이터, 비디오 다음의 워크로드는 AI&rdquo;라고 설명했다. 이어 &ldquo;에이전틱 AI와 피지컬 AI가 확산되면 사람이 아니라 기계가 막대한 트래픽을 만들어내는 시대가 온다&rdquo;며 &ldquo;그 추론을 멀리 있는 AI 데이터센터에서만 처리할 수는 없다&rdquo;고 했다. 노키아가 주목하는 것은 AI 팩토리, AI 그리드, AI-RAN으로 이어지는 분산형 AI 인프라다. 대규모 AI 데이터센터가 학습과 대형 추론을 맡는다면, 통신망 끝단에 가까운 기지국과 국사는 자율주행차, 로봇, 확장현실(XR) 기기처럼 실시간성이 중요한 서비스를 처리하는 거점이 될 수 있다. 한 전무는 &ldquo;라디오는 더 이상 연결만 제공하는 파이프라인이 아니라 AI 추론을 구동할 수 있는 새로운 수익원이 될 수 있다&rdquo;고 말했다. 조봉열 노키아 제품관리 총괄도 &ldquo;통신과 AI는 이미 떼려야 뗄 수 없는 관계가 됐다&rdquo;며 &ldquo;생성형 AI와 에이전틱 AI 확산으로 상향 링크 트래픽이 늘고 있다&rdquo;고 설명했다. 이용자가 한 번 명령을 내리더라도 AI 에이전트가 여러 서비스를 오가며 백그라운드에서 대량의 데이터를 주고받기 때문이다. 기존 방식은 통신 장비에 AI 가속기를 추가해 일부 기능을 보강하는 데 그쳤다. 하지만 이제는 엔비디아 그래픽처리장치(GPU) 같은 AI 플랫폼 위에 RAN 소프트웨어를 올려 통신망 운용과 AI 추론을 하나의 인프라에서 처리하는 방향으로 바뀌고 있다. 조 총괄은 &ldquo;통신용 칩에 AI를 돌리는 것은 어렵지만 GPU 위에 통신 소프트웨어를 올리는 것은 가능하다&rdquo;며 &ldquo;이를 충분히 최적화하면 통신사업자가 하나의 플랫폼으로 5G 어드밴스트, 6G 업그레이드, AI 서비스까지 활용할 수 있다&rdquo;고 했다. 한국 시장과의 협력 계획도 밝혔다. 조 박사는 &ldquo;한국 통신사들은 집중 국사와 베이스밴드 인프라를 이미 갖추고 있어 AI 그리드의 중소형 AI 데이터센터가 될 수 있다&rdquo;며 &ldquo;AI-RAN을 실현하는 데 "
-    },
-    {
-      "s": "글로벌경제신문",
-      "t": "\"하반기 AI 반도체·차·배터리·바이오·조선 '선전'‥기계·건설·철강·석유화학 '부진'\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zTFNkd0ZJMko3RW1DdFFEc3UwMkdUdThhNUxVMHIydmFYODZjU0pZdXVOSm5nZ0ZrWmM0LTFGX3ZuRmF5STFsZnI3N2lUQzlITmpJMkdmNHBnYnpwcWNmdHBULVVudUZ2Y0xweA?oc=5",
-      "m": "07. 02. AM 06:33",
-      "ts": 1782974031000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 노키아 “엔비디아와 만든 AI 통신장비, 올해 말 첫 실증” 입력 2026.07.02 16:04 수정 2026.07.02 16:04 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 플랫폼에 통신망 올리는 시대로 GPU 하나로 5G&middot;6G 운용한다 한효찬 노키아코리아 전무가 인공지능 무선접속망(AI-RAN) 개발 계획을 설명하고 있다. 노키아 제공 &ldquo;AI-RAN은 5~6년 뒤 6G를 기다려야 하는 기술이 아닙니다. 이미 오늘 현실화하고 있고, 올해 말 첫 가능성을 보여줄 기술입니다.&rdquo; 한효찬 노키아코리아 전무는 2일 서울 당주동 포시즌스호텔 서울에서 열린 기자간담회에서 &ldquo;연결이 인공지능(AI)을 지원하는 시대를 넘어 연결 자체가 AI와 통합되는 시대가 오고 있다&rdquo;며 이같이 말했다. 노키아는 이날 엔비디아와 개발 중인 인공지능 무선접속망(AI-RAN) 기술 전략을 소개했다. AI-RAN은 AI와 무선접속망(RAN)을 하나의 컴퓨팅 인프라에서 구동하는 기술이다. 기존 통신망이 사람과 사람, 사람과 데이터를 연결하는 &lsquo;파이프&rsquo; 역할에 머물렀다면 AI-RAN은 기지국과 통신 장비가 직접 AI 추론을 수행할 수 있다. 노키아는 전용 통신 칩 대신 엔비디아 그래픽처리장치(GPU) 위에 무선망 소프트웨어와 AI 추론 기능을 함께 올리는 방식을 채택했다. 지난해 10월 엔비디아가 노키아에 10억달러를 투자해 2대 주주로 올라선 뒤 양사는 6G용 AI-RAN 플랫폼을 공동 개발하고 있다. 한 전무는 &ldquo;각 네트워크 세대는 그 시대를 지배한 워크로드에 맞춰 형태가 바뀌어 왔다&rdquo;며 &ldquo;음성, 인터넷 데이터, 비디오 다음의 워크로드는 AI&rdquo;라고 설명했다. 이어 &ldquo;에이전틱 AI와 피지컬 AI가 확산되면 사람이 아니라 기계가 막대한 트래픽을 만들어내는 시대가 온다&rdquo;며 &ldquo;그 추론을 멀리 있는 AI 데이터센터에서만 처리할 수는 없다&rdquo;고 했다. 노키아가 주목하는 것은 AI 팩토리, AI 그리드, AI-RAN으로 이어지는 분산형 AI 인프라다. 대규모 AI 데이터센터가 학습과 대형 추론을 맡는다면, 통신망 끝단에 가까운 기지국과 국사는 자율주행차, 로봇, 확장현실(XR) 기기처럼 실시간성이 중요한 서비스를 처리하는 거점이 될 수 있다. 한 전무는 &ldquo;라디오는 더 이상 연결만 제공하는 파이프라인이 아니라 AI 추론을 구동할 수 있는 새로운 수익원이 될 수 있다&rdquo;고 말했다. 조봉열 노키아 제품관리 총괄도 &ldquo;통신과 AI는 이미 떼려야 뗄 수 없는 관계가 됐다&rdquo;며 &ldquo;생성형 AI와 에이전틱 AI 확산으로 상향 링크 트래픽이 늘고 있다&rdquo;고 설명했다. 이용자가 한 번 명령을 내리더라도 AI 에이전트가 여러 서비스를 오가며 백그라운드에서 대량의 데이터를 주고받기 때문이다. 기존 방식은 통신 장비에 AI 가속기를 추가해 일부 기능을 보강하는 데 그쳤다. 하지만 이제는 엔비디아 그래픽처리장치(GPU) 같은 AI 플랫폼 위에 RAN 소프트웨어를 올려 통신망 운용과 AI 추론을 하나의 인프라에서 처리하는 방향으로 바뀌고 있다. 조 총괄은 &ldquo;통신용 칩에 AI를 돌리는 것은 어렵지만 GPU 위에 통신 소프트웨어를 올리는 것은 가능하다&rdquo;며 &ldquo;이를 충분히 최적화하면 통신사업자가 하나의 플랫폼으로 5G 어드밴스트, 6G 업그레이드, AI 서비스까지 활용할 수 있다&rdquo;고 했다. 한국 시장과의 협력 계획도 밝혔다. 조 박사는 &ldquo;한국 통신사들은 집중 국사와 베이스밴드 인프라를 이미 갖추고 있어 AI 그리드의 중소형 AI 데이터센터가 될 수 있다&rdquo;며 &ldquo;AI-RAN을 실현하는 데 ",
+      "impact": "positive",
+      "takeaway": "엔비디아와 노키아의 AI 통신장비 실증이 AI 반도체 활용을 확대"
     },
     {
       "s": "삼성뉴스룸",
@@ -150,37 +82,9 @@
       "u": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%84%b8%ec%9d%b4%ed%94%84-%ed%8f%ac%eb%9f%bc-2026-%ed%95%9c%ea%b5%ad-%ea%b0%9c%ec%b5%9cai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%83%9d%ed%83%9c%ea%b3%84",
       "m": "07. 01. AM 09:30",
       "ts": 1782898200000,
-      "fullText": "삼성전자, &#8216;세이프 포럼 2026&#8217; 한국 개최…AI 반도체 생태계 지속 확대 2026/07/01 AI 요약 새로운 뉴스룸 AI 기능을 살펴보세요! 닫기 --> AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성전자가 1일 삼성전자 서초사옥에서 &#8216;세이프(SAFE™, Samsung Advanced Foundry Ecosystem) 포럼 2026&#8217;을 개최하고 국내 AI 반도체 생태계 협력 확대 방안과 차세대 파운드리 기술 전략을 공개했다. * SAFE™(Samsung Advanced Foundry Ecosystem) : 삼성전자 파운드리 생태계 프로그램 삼성전자는 반도체 기술과 인공지능이 융합되는 시대에 SAFE를 중심으로 고객·파트너사와의 협력을 강화하고, AI 반도체 생태계의 핵심 허브로 자리매김해 나가겠다는 비전을 제시했다. * &#8216;세이프 포럼 2026&#8217; 주제 : The Nexus for Silicon Intelligence 신종신 삼성전자 파운드리사업부 Design Platform 개발실장은 기조연설에서 &#8220;삼성전자는 AI 수요에 대한 대응 역량을 높이는 동시에 SAFE 포럼을 활용해 고객·파트너사와 적극 소통하겠다&#8221;며 &#8220;AI·HPC 글로벌 고객사와의 협력을 본격화하는 한편 국내 시스템반도체 고객사와의 협력도 강화하고 있으며, 파운드리 생산을 넘어 국내 시스템반도체산업 플랫폼 역할을 강화하겠다&#8221;고 말했다. 이번 세이프 포럼 2026 행사에는 고객·파트너사 관계자 400여 명이 참석했으며, 전자설계자동화(EDA), 설계자산(IP), 디자인솔루션(DSP), 가상설계(VDP), 첨단패키징(MDI) 분야 21개 파트너사가 부스를 마련해 삼성의 파운드리 고객들을 지원하는 다양한 솔루션을 선보였다. * EDA(Electronic Design Automation) : 복잡한 반도체 집적회로를 설계, 분석 및 검증하는 반도체 설계 자동화 소프트웨어 * IP(Intellectual Property) : 특정 기능을 수행하도록 만들어진 회로 블록. 칩 설계 시 레고 블록처럼 조합하여 사용할 수 있어 반도체 설계 시간을 단축하고 완성도를 높이는 필수 요소 * DSP(Design Solution Partner) : 팹리스 기업의 설계도면을 파운드리가 생산할 수 있는 형태로 최적화 및 검증하는 회사 * VDP(Virtual Design Partner) : 칩 사양 등 반도체 설계 서비스를 제공하는 회사 * MDI(Multi-Die Integration) : 첨단 이종 집적 패키지 기술 또한, AI 팹리스 기업 리벨리온과 EDA 기업 Siemens EDA 등 주요 파트너사가 연사로 참여해 삼성전자 파운드리 공정을 활용한 AI 반도체 개발 사례와 2.5D/3D 칩 설계 지원 방안을 소개했다. AI 팹리스 기업 리벨리온의 박성현 CEO는 &#8220;삼성전자 4나노 파운드리 공정과 첨단 패키징 등을 기반으로 &#8216;리벨100&#8217; NPU를 개발했다&#8221;며 &#8220;향후 AI 반도체 영역에서 협력하며 소버린 AI를 구축할 것&#8221;이라고 밝혔다. * NPU(Neural Processing Unit) : 인간의 뇌를 모방한 신경망처리장치 * 소버린 AI(Sovereign AI) : 특정 국가나 기업에 대한 기술적 종속을 회피하고 자국민의 데이터와 알고리즘, 규범 환경에 대한 통제권을 유지하려는 시도 Siemens EDA의 진 마리 브루넷(Jean-Marie Brunet) 수석 부사장은 &#8220;2.5 D/3 D 이종 칩 통합에서는 ▲수율 ▲설계검증 ▲신뢰성 ▲패키징 분야의 폭넓은 지원이 필수&#8221;라며, &#8220; Siemens EDA는 고객들이 삼성의 선단 공정을 활용해 AI·HPC 반도체를 빠르게 구현할 수 있도록 지원할 것&#8221; 이라고 말했다. AI 맞춤형 공정 로드맵 공개… DTCO·SRAM·2나노 기술 소개 삼성전자는 반도체 생태계 협력과 함께 AI 반도체 수요 대응을 "
-    },
-    {
-      "s": "이코노미사이언스",
-      "t": "경제안보 시대 전략산업이 우선…수출입은행, AI·반도체 금융 강화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4wZ1pNbktncnkzVEpIQkxZNF9ZcTI2ODNVUVlmaTBPdDVRRnoyYkhCMGpVSGlPMjRuSnV3dkdYN0dkTFRmUklSUG82ZG43THEtemJrVDkzN3ZKUV9OazktZno4MW5ud0x6NFdwWFduTQ?oc=5",
-      "m": "07. 01. AM 05:13",
-      "ts": 1782882832000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "에너지경제신문",
-      "t": "호남 반도체 프로젝트, 이재명 정부 ‘재계 규제개혁’ 신호탄 될까",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hVkR1bHFna0h3TF8wR1dQZ25LZzh4dkJNdXh3OGE3d09nSEc3Q2hmeW9DLUNnakVKNjRNU1NfWFVFNGVUY1Z5ckpWREJfYzBrS1NZeWxQQXlVR1E?oc=5",
-      "m": "07. 01. AM 04:50",
-      "ts": 1782881420000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "v.daum.net",
-      "t": "[산업의 맥]AI 반도체 2막, 전략경제가 국가의 미래를 결정한다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBybDJGUWswOFRyNnVHV0RrZkhWMjF3TUlkY2ZZeE5ncExOTWFrU2hNdHh1UU1JQjZUdG1XSVQ4RU1TeWdpZmdyS2dEWQ?oc=5",
-      "m": "07. 01. AM 01:46",
-      "ts": 1782870392000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "삼성전자, &#8216;세이프 포럼 2026&#8217; 한국 개최…AI 반도체 생태계 지속 확대 2026/07/01 AI 요약 새로운 뉴스룸 AI 기능을 살펴보세요! 닫기 --> AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성전자가 1일 삼성전자 서초사옥에서 &#8216;세이프(SAFE™, Samsung Advanced Foundry Ecosystem) 포럼 2026&#8217;을 개최하고 국내 AI 반도체 생태계 협력 확대 방안과 차세대 파운드리 기술 전략을 공개했다. * SAFE™(Samsung Advanced Foundry Ecosystem) : 삼성전자 파운드리 생태계 프로그램 삼성전자는 반도체 기술과 인공지능이 융합되는 시대에 SAFE를 중심으로 고객·파트너사와의 협력을 강화하고, AI 반도체 생태계의 핵심 허브로 자리매김해 나가겠다는 비전을 제시했다. * &#8216;세이프 포럼 2026&#8217; 주제 : The Nexus for Silicon Intelligence 신종신 삼성전자 파운드리사업부 Design Platform 개발실장은 기조연설에서 &#8220;삼성전자는 AI 수요에 대한 대응 역량을 높이는 동시에 SAFE 포럼을 활용해 고객·파트너사와 적극 소통하겠다&#8221;며 &#8220;AI·HPC 글로벌 고객사와의 협력을 본격화하는 한편 국내 시스템반도체 고객사와의 협력도 강화하고 있으며, 파운드리 생산을 넘어 국내 시스템반도체산업 플랫폼 역할을 강화하겠다&#8221;고 말했다. 이번 세이프 포럼 2026 행사에는 고객·파트너사 관계자 400여 명이 참석했으며, 전자설계자동화(EDA), 설계자산(IP), 디자인솔루션(DSP), 가상설계(VDP), 첨단패키징(MDI) 분야 21개 파트너사가 부스를 마련해 삼성의 파운드리 고객들을 지원하는 다양한 솔루션을 선보였다. * EDA(Electronic Design Automation) : 복잡한 반도체 집적회로를 설계, 분석 및 검증하는 반도체 설계 자동화 소프트웨어 * IP(Intellectual Property) : 특정 기능을 수행하도록 만들어진 회로 블록. 칩 설계 시 레고 블록처럼 조합하여 사용할 수 있어 반도체 설계 시간을 단축하고 완성도를 높이는 필수 요소 * DSP(Design Solution Partner) : 팹리스 기업의 설계도면을 파운드리가 생산할 수 있는 형태로 최적화 및 검증하는 회사 * VDP(Virtual Design Partner) : 칩 사양 등 반도체 설계 서비스를 제공하는 회사 * MDI(Multi-Die Integration) : 첨단 이종 집적 패키지 기술 또한, AI 팹리스 기업 리벨리온과 EDA 기업 Siemens EDA 등 주요 파트너사가 연사로 참여해 삼성전자 파운드리 공정을 활용한 AI 반도체 개발 사례와 2.5D/3D 칩 설계 지원 방안을 소개했다. AI 팹리스 기업 리벨리온의 박성현 CEO는 &#8220;삼성전자 4나노 파운드리 공정과 첨단 패키징 등을 기반으로 &#8216;리벨100&#8217; NPU를 개발했다&#8221;며 &#8220;향후 AI 반도체 영역에서 협력하며 소버린 AI를 구축할 것&#8221;이라고 밝혔다. * NPU(Neural Processing Unit) : 인간의 뇌를 모방한 신경망처리장치 * 소버린 AI(Sovereign AI) : 특정 국가나 기업에 대한 기술적 종속을 회피하고 자국민의 데이터와 알고리즘, 규범 환경에 대한 통제권을 유지하려는 시도 Siemens EDA의 진 마리 브루넷(Jean-Marie Brunet) 수석 부사장은 &#8220;2.5 D/3 D 이종 칩 통합에서는 ▲수율 ▲설계검증 ▲신뢰성 ▲패키징 분야의 폭넓은 지원이 필수&#8221;라며, &#8220; Siemens EDA는 고객들이 삼성의 선단 공정을 활용해 AI·HPC 반도체를 빠르게 구현할 수 있도록 지원할 것&#8221; 이라고 말했다. AI 맞춤형 공정 로드맵 공개… DTCO·SRAM·2나노 기술 소개 삼성전자는 반도체 생태계 협력과 함께 AI 반도체 수요 대응을 ",
+      "impact": "positive",
+      "takeaway": "세이프 포럼 2026 개최로 AI 반도체 생태계 협력과 투자 유입 기대"
     },
     {
       "s": "NVIDIA공식",
@@ -189,7 +93,9 @@
       "u": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
       "m": "06. 30. PM 05:00",
       "ts": 1782838838000,
-      "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access"
+      "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "NVIDIA공식",
@@ -198,47 +104,9 @@
       "u": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
       "m": "06. 30. PM 03:00",
       "ts": 1782831657000,
-      "fullText": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost Baseten, Cognition, Deep Infra, Digital Ocean, Hippocratic AI, Together AI and Cursor are seeing compounding value from NVIDIA’s software and open source ecosystem. June 30, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s full-stack inference software continuously improves hardware performance. On the NVIDIA Blackwell platform, the software stack has already reduced token costs by up to 5x on the DeepSeek V4 model in just one month. SemiAnalysis InferenceX results comparing token cost and interactivity for NVIDIA GB300 NVL72 systems with SGLang and the NVIDIA Dynamo inference framework. Leading companies and inference providers are already seeing the compounding value of NVIDIA’s inference software stack on Blackwell: Baseten used the NVIDIA TensorRT-LLM open source library to serve DeepSeek V4 Pro on Blackwell GPUs for reasoning, coding and long-context workloads, applying proprietary runtime optimizations to deliver up to 50% more tokens per second. Cognition is using the NVIDIA Dynamo inference framework to manage inference GPUs, giving its team a ready-made path to scale reinforcement learning workloads without needing to build that infrastructure from scratch. Deep Infra uses the NVIDIA inference software stack to serve frontier open source models performantly on Blackwell from day zero, including DeepSeek V4. DigitalOcean helped Hippocratic AI use NVIDIA inference software on Blackwell GPUs to serve healthcare AI faster and more efficiently, increasing inference throughput by 30%"
-    },
-    {
-      "s": "이코노미사이언스",
-      "t": "수출입은행, 퓨리오사AI에 200억 투자…AI 반도체 직접투자 시대 열었다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CYUU3NXo2MUlzUlRIcVhUUTBNelhjbkFyalMwSkRWQ2NuTGlxY3pPUFhqVmJsQ1dNdThkSWFwUDRJU0hYQmRRZjhPSThNc3hRZ3N4bWpjeXFSNE9jeC05QW1SZkpJMUtVNWdXS0h1cw?oc=5",
-      "m": "06. 30. AM 03:12",
-      "ts": 1782789171000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "디지털데일리",
-      "t": "美의 中 반도체 규제 역효과?…AI칩 점유율, 엔비디아↓ 화웨이↑[AI 인포그래픽]",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16STNybmxya0hzVkl4OUNGRXQ4MTE5UXU0TkNNYm5ncnZjVTNkcWw1WTMxVkt4NS1rckhmVXBRTUxuWm1ZVW8tT2NQUVA4aTJYeVpvY0pBSTNqS0F3TkhrRm53?oc=5",
-      "m": "06. 30. AM 03:06",
-      "ts": 1782788787000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "서울경제TV",
-      "t": "수은, 퓨리오사AI에 200억 투자…정책금융 벤처 직접투자 본격화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OY29BVkxOT01qdEdSRUZrc2NScDF4cmtrRU9ndVI2TXVMbFUzX1VqMFZ4WmpvYlRBSGl1UzBvRERMa2lTOWplc2ttaTM1TUYtNDVVc1NwWGpHX25FblhQV1ZBZTg?oc=5",
-      "m": "06. 30. AM 12:07",
-      "ts": 1782778028000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "정보통신신문",
-      "t": "반도체·피지컬 AI·데이터센터 대규모 투자",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VSVNpSHN0UXNfTTlQcEVISjM2T0J5b2Z6YktBVmYyRVlnbVVXR0drTGIyZVo5cVREXzNKbWRKaldZSVVDSU5NRXBGRXZIa2tBQ1lyenhWZi1nYkwtalJ4WnVsWEdXcWRQ0gFsQVVfeXFMTjc1dGZKZGc3cFlsWmswRnRBRlZnZEFfcWVHQk9nS1NzY2M3OUFnbjRDUkVQUmVBeW50d2NpVnZrZkJ2eDVlWDliTWduVklWOWw2V1RDdHFnS0J5MHZKVDFUc05HeUhVSGk4bTQx?oc=5",
-      "m": "06. 29. PM 09:40",
-      "ts": 1782769230000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost Baseten, Cognition, Deep Infra, Digital Ocean, Hippocratic AI, Together AI and Cursor are seeing compounding value from NVIDIA’s software and open source ecosystem. June 30, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s full-stack inference software continuously improves hardware performance. On the NVIDIA Blackwell platform, the software stack has already reduced token costs by up to 5x on the DeepSeek V4 model in just one month. SemiAnalysis InferenceX results comparing token cost and interactivity for NVIDIA GB300 NVL72 systems with SGLang and the NVIDIA Dynamo inference framework. Leading companies and inference providers are already seeing the compounding value of NVIDIA’s inference software stack on Blackwell: Baseten used the NVIDIA TensorRT-LLM open source library to serve DeepSeek V4 Pro on Blackwell GPUs for reasoning, coding and long-context workloads, applying proprietary runtime optimizations to deliver up to 50% more tokens per second. Cognition is using the NVIDIA Dynamo inference framework to manage inference GPUs, giving its team a ready-made path to scale reinforcement learning workloads without needing to build that infrastructure from scratch. Deep Infra uses the NVIDIA inference software stack to serve frontier open source models performantly on Blackwell from day zero, including DeepSeek V4. DigitalOcean helped Hippocratic AI use NVIDIA inference software on Blackwell GPUs to serve healthcare AI faster and more efficiently, increasing inference throughput by 30%",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "NVIDIA공식",
@@ -247,7 +115,9 @@
       "u": "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
       "m": "06. 29. PM 05:00",
       "ts": 1782752419000,
-      "fullText": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Now generally available in Microsoft Foundry, Claude on NVIDIA GB300 Blackwell Ultra gives Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. June 29, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces total cost of ownership and drives positive company results. With Claude in Foundry running on NVIDIA GB300 NVL72 systems with NVIDIA Quantum-X800 InfiniBand networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. A Growing Partnership NVIDIA is working with Anthropic to extend developer capabilities by integrating NVIDIA tools into the Anthropic stack. That integration enables enterprises to give Claude agents domain-specific abilities. Through NVIDIA verified agent skills , enabled by access to NVIDIA accelerated computing, enterprises can embed AI agents deeply into their business and use them as the operating system for the organization. Enterprises can run Claude agents on Azure by using the NVIDIA Secure Agent Workspace Reference Design . It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level. Claude in Microso"
+      "fullText": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Now generally available in Microsoft Foundry, Claude on NVIDIA GB300 Blackwell Ultra gives Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. June 29, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces total cost of ownership and drives positive company results. With Claude in Foundry running on NVIDIA GB300 NVL72 systems with NVIDIA Quantum-X800 InfiniBand networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. A Growing Partnership NVIDIA is working with Anthropic to extend developer capabilities by integrating NVIDIA tools into the Anthropic stack. That integration enables enterprises to give Claude agents domain-specific abilities. Through NVIDIA verified agent skills , enabled by access to NVIDIA accelerated computing, enterprises can embed AI agents deeply into their business and use them as the operating system for the organization. Enterprises can run Claude agents on Azure by using the NVIDIA Secure Agent Workspace Reference Design . It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level. Claude in Microso",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "삼성뉴스룸",
@@ -259,76 +129,6 @@
       "fullText": "삼성, 미래 성장 위해 2,655조원 투자 2026/06/29 AI 요약 새로운 뉴스룸 AI 기능을 살펴보세요! 닫기 --> AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성은 29일, 최첨단 미래산업 육성을 위해 총 2,655조원을 국내에 투자하겠다고 밝혔다. AI시대, 상상을 초월한 속도의 기술 패러다임 변화에 선제적으로 대응하고 미래 경쟁력을 강화하기 위한 것이다. 삼성은 평택캠퍼스 및 용인 국가산업단지를 비롯한 반도체 클러스터 육성 등에 2,030조원을 투자할 방침이다. ▲AI 반도체 ▲로봇 ▲배터리 ▲정보기술(IT) 부품∙소재 중심으로 호남∙충청∙영남에도 625조원을 투자할 계획이다. 삼성의 투자는 대한민국을 글로벌 최첨단 클러스터로 조성하는 데 기여할 전망이다. 폭발적인 반도체 수요 확대에 조기 대응 삼성은 ▲글로벌 최첨단 반도체 클러스터 ▲AI 데이터센터 ▲미래 에너지 등을 육성하기 위해 잠재력이 풍부한 호남에 총 425조원(반도체 400조원)을 투자할 계획이다. ① 광주에 삼성전자, ▲신규 반도체 Fab 건설 ▲디지털 트윈 기반 혁신 허브 구축 추진 광주에 &#8216;글로벌 최첨단 반도체 클러스터&#8217;를 조성하는 것은 폭발적으로 증가하는 반도체 수요에 대응하기 위해서이다. 삼성은 기흥∙화성, 평택, 용인 이후 차기 반도체 클러스터를 당초 예정보다 앞당겨 조성해야 할 상황이다. 여러 지역 중 전력, 용수, 인력 확보 및 양성, 정주 여건 등 많은 인센티브 지원이 기대되는 광주를 후보지로 계획하고 있다. 광주 반도체 클러스터가 조성되면 수도권과 함께 대한민국 반도체 산업을 이끄는 양대 핵심 클러스터가 될 것으로 기대된다. 삼성전자는 또 광주사업장에 스마트가전을 위한 디지털 트윈 기반의 혁신 허브 공장을 구축하고, AI 데이터센터에 필요한 히트펌프∙공조기 등 생산 시설도 갖출 계획이다. ② 해남에 최첨단 소버린 AI 인프라 확보 삼성SDS는 미래 기술의 패권 경쟁 속에서 최첨단 소버린 AI 인프라 확보에 나설 방침이다. 소버린 AI는 해외 빅테크에 대한 의존 없이 한 국가가 주체적으로 개발하고 통제하는 독립적인 AI 생태계다. 삼성SDS가 주도하는 컨소시엄은 소버린 AI 인프라 확보를 위해 해남 솔라시도 AI 데이터센터를 건립할 예정이다. 솔라시도 AI 데이터센터는 ▲정부 AX(AI Transformation) 지원 헤드쿼터로서 금융, 국방, 공공서비스 AX 지원 ▲대학∙연구소∙기업 연구개발(R&D) 역량 강화 ▲산업 피지컬AI 지원 ▲연관 산업 생태계 생성 거점 역할을 할 것으로 기대된다. ③ 호남에 무탄소 미래 에너지 투자 삼성은 호남의 무탄소 미래 에너지 확보를 위해 집중 투자할 계획이다. 삼성물산은 호남에 태양광 발전 설비, 원전 기반 수소 생산시설, 그린수소 R&D를 위한 실증단지 조성에도 투자할 예정이다. ④ 전북 고창에는 삼성전자가 글로벌 최첨단 물류 센터를 건설할 예정이다. AI 산업 구동하는 HBM Fab 집중 투자 삼성은 ▲HBM Fab ▲최첨단 디스플레이 ▲차세대 배터리 ▲AI 서버용 패키지 기판 등 산업을 고도화하기 위해 충청에 총 140조원을 투자할 계획이다. ① 천안∙온양에는 삼성전자가 최첨단 HBM Fab을 구축할 계획이다.(56조원) ② 아산에는 삼성디스플레이가 폴더블 등 차세대 스마트폰용 디스플레이와 초고해상도 마이크로 디스플레이 생산 기지를 건설할 계획이다.(67조원) 마이크로 디스플레이는 1인치 이하 초소형 고해상도 디스플레이이며 AI 시대와 함께 본격적으로 성장할 증강현실(AR) 및 가상현실(VR), 혼합현실(MR) 등 몰입형 기술(XR) 기기의 핵심 부품으로 주목받고 있다. ③ 천안에는 삼성SDI가 차세대 배터리의 글로벌 마더 팩토리를 조성할 계획이다. ④ 세종에는 삼성전기가 최첨단 AI 서버용 패키지 기판 라인을 구축할 예정이다. AX를 통해 기존 제조업을 최첨단 산업으로 전환 삼성은 주력 제조업에 AX∙RX(Robot Transformation)를 접목, 국가 산업 엔진으로서의 역할을 강화하기 위해 영남에 총 60조원을 투자할 예정이다. "
     },
     {
-      "s": "통일경제뉴스",
-      "t": "[닥치고 AI 반도체] 李대통령, 3대 메가프로젝트 발표…서남권에 800조원 반도체 투자",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ESHNhUXNEMHJ3eHdiQVBaMDM5YV9xQzNPVWpESnJ3Q2szVUIwdFRiaFZ2UUVaV0g0TWJGV0Voa2VWcmdsMWJTX0REd3RiZEN6cW5EeVZ4c2tjYksxLTRySG93OTB3TVJPNVU0aWJR?oc=5",
-      "m": "06. 29. AM 09:51",
-      "ts": 1782726677000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "인더스트리뉴스",
-      "t": "정부, 3대 메가프로젝트 발표… ‘재생에너지 100GW’ AI·반도체 성장 뒷받침",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE52Z1VoV0JhcnJkUnh0WG9SbzY2eENYb3NSbGsyT3l2a3lmenRqeXRmbTlJZDdrNlhOVjZ5UTdXNWJ4Z3RDRnRDRThtbk1VRTZXeVUzME55WVVGTERyaHBFT1o3TmdkLXJNLVdVZGR1SHQwQQ?oc=5",
-      "m": "06. 29. AM 08:55",
-      "ts": 1782723332000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대전인터넷신문",
-      "t": "대한민국 AI 산업지도 다시 그린다…충청은 반도체 허브, 세종은 정책 중심축 주목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10XzZfOXA3TlFnbnlnRXkwQzVyRVFabVBObE5LdEl3cm1hRl9rQ1dRRURCbEZsUnVXLW5GUFFRbVc0Zmtzd0h5dS1DdktuMWZLeHJV?oc=5",
-      "m": "06. 29. AM 07:59",
-      "ts": 1782719984000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "비즈니스포스트",
-      "t": "중국 화웨이 '엔비디아 빈 자리' 채운다, 미국의 AI 반도체 수출 규제로 반사이익",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPcHQ5eHN3cnJranlOSWJrU2tXWlVzZ2x3c0RzUzNEZTNBaUdHeVc2UUpUWm9lUDFheGc2THJBVWZqbVRzTHdqUC1CZk1yOVo3M1FLU3YzTEVHMTJROUcwTjJhUmdlZ2RNWU82MDlxNmlVNFE?oc=5",
-      "m": "06. 29. AM 07:15",
-      "ts": 1782717356000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "AI라이프경제",
-      "t": "[AI 정책] SK, 호남에 ‘60조×5기’ 반도체 클러스터…영남·충청·강원 잇는 AI 데이터 벨트 구축 나선다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYeThscFJYNm5kU0dyY2RVcFNVdWwzZVMybGRPdHhULURTdzQ5NDdscWJVTDkyMzk1Q1VhU3pGMTRXcDlOOU9JaUE5UkNpMXpUT183Y0FvdzZaZ1FIci0tV05oZE9xaXBUR3FN0gFvQVVfeXFMTkhHeG93V04wai1pZk1ISlh5cTNXZzlUYkV6SnFTQmx1RzJQa0Z4Sk13M3pwaHI4ZTlMcEF6bVBEbFlhUmNBbVBSQlpZV3FiTWZQMy0zaXJkeTBIXzNvc1NCT2p2V2ZEX05OWUlZM0xN?oc=5",
-      "m": "06. 29. AM 04:22",
-      "ts": 1782706939000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "YTN",
-      "t": "\"AI 반도체 다음은 로봇 팔\"...미국 상무부, 중국 로봇 추가 규제 시사",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwdDZ6ZURoQkYwNEZCZWJVcm01VFRnRGlwdFVEMFJSQUtteE1CdWlCUUNKS3E4QjN6QTRiVHNsMGI5ZmdGYjBBYUd3V3YzVWhLVWdjdUdBRVdWS2RQeWc?oc=5",
-      "m": "06. 24. AM 07:00",
-      "ts": 1782284400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "PRESS9",
-      "t": "미래에셋자산운용, 'TIGER 차이나반도체FACTSET' ETF…중국 기술주 강세에 수익률 1위",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WdGJCYW91Zk0wYVBmaTNTT3cxRTU4c0M4NDBtZll1XzQxdDEzZmlRV09UVHpDRmw3U1oyVVdPTFo4UDBNNGsxYzhaMHVaRFo5ZmtYaVNNd3FZTWVsZlZMSGZNb1M?oc=5",
-      "m": "06. 24. AM 06:46",
-      "ts": 1782283570000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
       "d": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity.  NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrastructure is giving enterprises more practical paths",
@@ -338,84 +138,13 @@
       "fullText": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale June 23, 2026 by Josiah Byers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrastructure is giving enterprises more practical paths to deploy AI at production scale. EC2 G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs expand the compute layer for AI, graphics, video and data analytics workloads, while the NVIDIA cuVS library accelerates the retrieval layer by making GPU-powered vector indexing the default in OpenSearch Serverless. And with AWS achieving NVIDIA Exemplar Cloud status for NVIDIA GB300, customers can trust they’re receiving peak optimized performance for their training workloads. NVIDIA RTX PRO 4500 Blackwell Server Edition Multi-Workload GPUs Power New Amazon EC2 G7 Instances Amazon EC2 G7 instances bring NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs to AWS for AI inference, graphics, spatial computing and GPU-accelerated data analytics — delivering a new instance type engineered for production workloads that need performance without the operational overhead of a customer-managed GPU platform. Compared with G6 instances, G7 delivers up to 4.6x AI inference performance, up to 2.1x graphics performance and significantly faster GPU-accelerated data analytics on Amazon EMR using the NVIDIA cuDF library for Apache Spark workloads. With support for up to eight GPUs, 256GB of total GPU memory, 700 Gbps of EFA-enabled networking and up to 7.6TB of local NVMe SSD storage — across one-, two-, four- and eight- GPU configurations plus bare metal, coming soon — G7 instances let customers right-size infras"
     },
     {
-      "s": "앱스토리",
-      "t": "바이트댄스, 미국 규제 장기화에 자국 AI 칩 채택 늘린다",
+      "s": "한겨레",
+      "t": "앤트로픽, 삼성전자와 AI 칩 협력 논의…2나노 경쟁력 주목",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52a083Rmg2THZ2clFLRkRFZHlfYlpfQ2EwX0diMWN6LWV5SGNWVEE3dmtzVXFoM2R1VEVwa1NtcGtKUDE1UkFlaElxWWg2NU0?oc=5",
-      "m": "06. 17. AM 07:00",
-      "ts": 1781679600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "글로벌이코노믹",
-      "t": "AI 반도체 권력, 동아시아로 이동… 미 워싱턴, 통상 제재 카드 만지작",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeWhneDdqLTRfTWNxOHVVN0hBYzI3UXFGMDI3WWFqa3VBVzJBUkFQVE5OZUttOWFQck1aeW1zT1hJRXZIbDZVNXNvQmhfVktHbS02QU84SVhROEhNQUlzM2x1dGZyRFcyT0ktbk1wVjlvaWtfX0xBNjVEUmFmd1Z1Z3J1RXlKc0hP?oc=5",
-      "m": "06. 17. AM 07:00",
-      "ts": 1781679600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대한민국 정책브리핑",
-      "t": "AI·반도체 등 첨단산업 협력 강화!",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96Y3BnNmNWWXBLMG1HRFlRNFlYU1k2aHl6X0w3Q1FFLXpycU10QWU5bnR4MXhyV0JKaHZJMlAtRDhJZ2pfTFdfcy1zb0N2Znc3Z1laemtZMU5sQVlGdG5XQVVHZVNRdjBBODRNcw?oc=5",
-      "m": "06. 15. AM 07:00",
-      "ts": 1781506800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "kmrk.ru",
-      "t": "골든아머 카지노 의 혁신과 미래: 기대할 수 있는 변화들 - 스텝 바이 스텝 가이드",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMG1tLWZvZzRNbWpaSzR3d3dfblhVUzA2eEtNOWp2RVZpT0JLZzZQNGRldXdNRGVXM2RVbk41QUllQkNlQ1pfNDhSQTYtR1VWQ1U0MWplbkRIM2poSTl6YmZmWG5jUDZNTEJvSkdfSlZGZlpjYThZN2RSaXlCRVl3Zm4wUS0zc0xROWZKM1VwRG8yV3M?oc=5",
-      "m": "06. 12. PM 09:03",
-      "ts": 1781298226000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "글로벌이코노믹",
-      "t": "\"새로운 성장 사이클 진입\"…중국 AI 반도체 ETF '눈길'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOUFYc19QQXpPZHhRbENaOU9aU3FscDVMaTVYZ1RWalJVNnhzNDlmemN4dHJmejVKRWI1QTJBWFRxYUNNVVFQTTRialZNM29KbWtHZnFBblFaYnY5bXNaaEtYcW9JbEF6dGUwelcxQzlnbENsblo5Q1RFSkhPQndYWWNIaVpPdw?oc=5",
-      "m": "06. 12. AM 07:00",
-      "ts": 1781247600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "ebn.co.kr",
-      "t": "[글로벌 워치]\"화웨이 넘어 中 전체 통제\"…대만, AI 반도체 수출 규제 대폭 강화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5adThYa3EycFFFaWlvUEV2QkZ0QjVEQ2JUUUY2NFpfeGRWTDhJT2FjM3gzWmx4ZXVQazZKakNsLWlkYVRvdjdDbXI2VGlOVDhyOHJmc3Z6VHJFdW12bF9oTjhUN2FaT1lN?oc=5",
-      "m": "06. 10. AM 07:00",
-      "ts": 1781074800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "공감신문",
-      "t": "대만의 AI 반도체 수출 규제 강화… 중국 반발 예상",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNa2xsNUVXbDFGbE5oOF9qc2JhNEdreWdnZ1hBdEx4TDFWS1Q2Ny1uR3l0VjZ5SnhZQmVlVFVZSFdmSHlEMGR6YjU5WllINDdJZXJhcHV1YVhfak5JU0R4bFQ4d2RwOVNY?oc=5",
-      "m": "06. 10. AM 12:27",
-      "ts": 1781051274000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "이슈밸리",
-      "t": "대만, 중국에 AI 반도체 수출 통제 전면 강화 검토",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nOGFFNlg3RWhmd1dxNXdZVUJULVdFa0VBU3E3SDluVFR2WUdicVZ4S3RKdEhRcjNNejBzYi1GbFFoVTRKNFRGanlMRGJvLXkxSU1nbHRSaDdkWDRlN28yOFdVNTBib3N4VEl5d3FR?oc=5",
-      "m": "06. 07. AM 07:00",
-      "ts": 1780815600000,
-      "_policy": true,
-      "fullText": "Google News"
+      "u": "https://www.hani.co.kr/arti/economy/it/1266552.html",
+      "m": "",
+      "ts": 0,
+      "fullText": "본문 경제 IT 앤트로픽, 삼성전자와 AI 칩 협력 논의…2나노 경쟁력 주목 선담은 기자 수정 2026-07-03 10:24 펼침 0:00 Your browser does not support the audio element. 구글 선호 매체 등록 미국 인공지능(AI) 기업 앤트로픽. AP 연합뉴스 광고 미국 인공지능(AI) 기업 앤트로픽이 삼성전자와 손잡고 자체 인공지능 칩을 개발하는 방안을 검토 중이라는 보도가 나왔다. 실제 거래가 성사될 경우 삼성전자 파운드리(반도체 수탁생산)는 테슬라, 엔비디아, 애플에 이어 새로운 대형 고객사를 확보하게 될 전망이다. 미 아이티(IT) 전문매체 디인포메이션은 2일(현지시각) 복수의 소식통을 인용해 앤트로픽이 자체 인공지능 칩 개발을 위한 초기 작업에 착수했으며, 유력 파트너 후보인 삼성전자와 협의를 진행 중이라고 보도했다. 앤트로픽은 삼성전자의 2나노(㎚·1나노미터는 10억분의 1m) 공정과 첨단 패키징 기술을 활용하는 방안을 검토하는 것으로 전해진다. 다만, 프로젝트가 아직 초기 단계인 만큼 자체 칩 개발 계획이 최종적으로 추진되지 않을 가능성도 남아 있다. 글로벌 빅테크(거대 기술기업)들이 자체 인공지능 반도체를 개발하는 흐름은 업계 전반의 추세로 자리잡고 있다. 비싼 엔비디아 그래픽처리장치(GPU)에 대한 의존도를 낮추고 전력 효율 등을 개선하기 위한 목적이다. 구글과 아마존웹서비스(AWS)는 각각 텐서처리장치(TPU)와 트레이니엄(Trainium) 등 자체 개발 칩을 주요 컴퓨팅(연산) 자원으로 활용하고 있으며, 오픈에이아이(AI) 역시 브로드컴과 2년간 공동 개발한 인공지능 추론 전용 칩 할라페뇨(Jalapeño)를 지난달 공개했다. 메타플랫폼스와 마이크로소프트도 자체 칩 개발을 진행 중이다. 광고 앞서 삼성전자는 지난 5월 앤트로픽의 650억달러 규모 펀딩 라운드(스타트업의 IPO 전 투자 유치)에 에스케이(SK)하이닉스, 마이크론 테크놀로지 등 주요 메모리 반도체 업체들과 투자자로 참여했다. 당시 앤트로픽은 이들 회사가 ‘전략적 인프라 파트너’로 참여한 점을 밝히며 “이들 기업의 기술은 전 세계 메모리, 저장장치, 로직 칩 공급에 핵심 역할을 하고 있다”고 언급했다. 이 때문에 업계에선 3대 메모리 제조사 가운데 유일하게 ‘로직 칩’(데이터 저장이 아닌 연산을 담당하는 반도체) 생산 역량을 갖춘 삼성전자가 앤트로픽을 고객사로 유치할 가능성이 높다는 관측이 제기돼 왔다. 업계에선 최종 계약이 성사될 경우 삼성전자 파운드리 사업 경쟁력 강화로 이어질 수 있을지에 관심이 쏠린다. 삼성전자는 그동안 글로벌 파운드리 1위 업체인 대만 티에스엠시(TSMC)와의 격차를 줄이기 위해 노력해왔다. 최근 인공지능 투자 붐으로 관련 칩 수요가 급증하면서 티에스엠시의 생산 능력이 한계에 다다르자, 삼성전자는 자사 2나노 공정 고객을 추가로 유치할 수 있게 됐다. 다만, 현재 2나노 공정 수율(양품 비율)은 50∼60% 수준으로 알려져 있어, 수율 안정화 여부가 과제로 남아 있다. 광고 광고 앤트로픽 쪽은 앞으로도 엔비디아 그래픽처리장치와 구글 텐서처리장치, 아마존웹서비스의 트레이니엄 칩이 자사 컴퓨팅 자원의 핵심 역할을 할 것이라면서도 향후 계획에 대한 세부 언급을 피했다. 삼성전자는 이에 대한 논평을 거절했다. 선담은 기자 sun@hani.co.kr"
     }
   ]
 }

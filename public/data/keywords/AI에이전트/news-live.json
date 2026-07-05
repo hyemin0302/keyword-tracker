@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-07-05T03:28:38.848Z",
+  "updatedAt": "2026-07-05T06:59:37.530Z",
   "count": 40,
   "stats": {
-    "today": 2,
+    "today": 3,
     "yesterday": 3,
-    "weekAvg": 3.3,
-    "sources": 25,
+    "weekAvg": 2.7,
+    "sources": 28,
     "heat": "cool"
   },
   "items": [
+    {
+      "s": "동아일보",
+      "t": "기존 생성형보다 136배 더 써…AI 에이전트, 전력 먹는 하마 되나",
+      "d": "단순 질의응답을 넘어 외부 도구를 스스로 활용해 잡업을 수행하는 ‘인공지능(AI) 에이전트’가 기존 생성형 AI보다 훨씬 많은 전력을 쓰는 것으로 나타났다. 유민수 카이스트(KAIST) 전기및전자공학부 석좌교수팀은 AI 에이전트의 계산 비용과 에너지 소비 추이를 분석한 결과를 5일 공개했다.연구팀에 따르면 700억 개 매개변수를 갖춘 대형언어모델(LLM) 기반 AI 에이전트는 질문 1건을 처리하는 데 평균 348.41와트시(Wh)의 전력을 썼다. 가정용 냉장고를 8시간 넘게 가동할 수 있는 전력량으로, 기존 생성형 AI의 단순 질의응답 방식보다 136.5배 많다. AI 에이전트는 동적 추론 과정에서 기존 단계별 추론 방식보다 LLM을 평균 9.2배 많이 호출했고, 답변 시간은 최대 153.7배 길어졌다. 외",
+      "u": "https://www.donga.com/news/Economy/article/all/20260705/134238100/1",
+      "m": "07. 05. AM 06:39",
+      "ts": 1783233540000,
+      "fullText": "김재형 기자 구독",
+      "impact": "negative",
+      "takeaway": "전력 소모 급증이 AI 에이전트 상용화 비용을 높여 투자 매력 감소"
+    },
+    {
+      "s": "조선일보",
+      "t": "AI 에이전트 전력 소모, 생성형 AI보다 최대 136배 많다",
+      "d": "업무를 스스로 계획하고 도구까지 활용하는 ‘AI 에이전트’가 보편화될 경우 데이터센터 전력 부담이 급격히 커질 수 있다는 연구 결과가 나왔다. 단순히 질문에 답하는 생성형 AI와 달리, AI 에이전트는 여러 차례 판단을 반복하는 구조여서 응답 시간과 전력 소비가 크게 늘어난다는 분석이다. 한국과학기술원(KAIST)은 전기및전자공학부 유민수 석좌교수 연구팀이",
+      "u": "https://www.chosun.com/economy/tech_it/2026/07/05/MRQTGY3FMFQWKYRVGUYTKYZWHA/",
+      "m": "07. 05. AM 05:38",
+      "ts": 1783229881000,
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "전력 효율 문제로 기업의 AI 에이전트 도입이 위축될 가능성"
+    },
     {
       "s": "전자신문",
       "t": "KAIST, 'AI 에이전트' 숨은 전력 비용 정량 분석...세계 최초 성과",
@@ -17,19 +39,8 @@
       "m": "07. 05. AM 03:00",
       "ts": 1783220400000,
       "fullText": "과학 과학 KAIST, 'AI 에이전트' 숨은 전력 비용 정량 분석...세계 최초 성과 발행일 : 2026-07-05 12:00 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 KAIST 연구 개요 (AI 생성이미지) 한국과학기술원(KAIST·총장 배충식) 연구진이 세계 최초로 AI 에이전트 계산 비용과 에너지 소비를 분석했다. 기존 생성형 AI보다 질문 한 건당 최대 136.5배 많은 에너지를 사용하는 것으로 나타났다. KAIST는 유민수 전기 및 전자공학부 석좌교수팀이 AI 에이전트가 실제 서비스 환경에서 얼마나 많은 계산 자원과 전력을 사용하는지를 세계 최초로 체계적으로 분석했다고 5일 밝혔다. 연구팀은 AI 에이전트를 단순 프로그램이 아니라, 데이터센터 서버와 그래픽처리장치(GPU)가 지속적으로 처리해야 하는 워크로드(컴퓨터가 수행해야 하는 전체 계산 작업)로 정의하고, 실제 실행 과정에서 발생하는 계산량과 에너지 소비를 분석했다. AI 에이전트는 기존 단계별 추론(CoT: AI가 사람처럼 생각 과정을 하나씩 전개하며 답을 찾는 방식)과 달리 반복적으로 여러 차례 대형 언어 모델 호출(LLM Invocation)을 수행하는 것으로 나타났다. 언어 모델을 반복 호출하면서 응답 시간도 크게 증가했다. AI 에이전트의 답변 시간은 최대 153.7배 늘어났으며, 외부 도구가 작업을 수행하는 동안 GPU는 전체 실행 시간의 최대 54.5% 를 아무 계산도 하지 못한 채 대기하는 것으로 분석됐다. 즉, AI가 더 복잡한 일을 수행할수록 GPU를 충분히 활용하지 못하는 비효율이 발생하는 것이다. 연구팀은 AI 에이전트가 사용하는 전력도 데이터센터 규모에서 분석했다. 현재 상용 AI 서비스 수준인 700억 개의 매개변수(파라미터)를 가진 대형 언어 모델을 사용하는 AI 에이전트는 질문 한 건을 처리하는 데 평균 348.41와트시(Wh) 전력을 소비했다. 이는 기존 생성형 AI의 단순 질의응답 방식보다 136.5배 높은 수준이다. 또한 하루 137억 건의 AI 에이전트 요청이 발생하는 미래 환경을 가정해 분석한 결과, 데이터센터 전력 수요는 약 198.9기가와트(GW)에 이를 것으로 추정됐다. 유민수 석좌교수는 “이번 연구는 단순히 AI가 더 똑똑해지는 것을 넘어, 그 지능을 구현하고 유지하기 위해 얼마나 많은 전력과 비용이 필요한지를 정량적으로 제시한 첫 사례”라며, “향후 AI 에이전트가 보편화되는 시대에는 AI 데이터센터 인프라 뿐만 아니라 AI 에이전트 모델과 전력 인프라까지 통합적으로 공동 설계해 최적화하는 접근이 더욱 중요해질 것”이라고 밝혔다. 이어 “최종 사용자가 AI 서비스를 활용하는 데 소요되는 비용을 획기적으로 절감하고, 동시에 지속가능한 AI 인프라를 구축하기 위한 연구와 투자가 필수적”이라고 강조했다. 이번 연구는 김지인 박사과정 학생이 제1저자로 수행했으며, IEEE HPCA에서 지난 2월 발표됐다. 연구팀은 논문에서 활용한 AI 에이전트 구현 기술과 벤치마크를 오픈소스로 공개해 세계 연구자들이 후속 연구에 활용할 수 있도록 했다. 김영준 기자 kyj85@etnews.com",
-      "impact": "positive",
-      "takeaway": "KAIST가 세계 최초로 AI 에이전트의 숨은 전력 비용을 정량 분석하는 성과를 냈다."
-    },
-    {
-      "s": "전자신문",
-      "t": "세계 AI 지출, 3년 뒤 7245조원…“수백 에이전트 사용시 통제 위기”",
-      "d": "세계 각국의 인공지능(AI) 지출이 3년 뒤 4조 7000억 달러(약 7245조원)에 달할 것이라는 전망이 나왔다. 기업이 업무 효율화를 위해 1000개 이상의 AI 에이전트를 도입하는 등 사용량이 폭발적으로 늘어날 것으로 예상되기 때문이다. 그러나 기술의 급격한 확산에 비례해 기업 내부의 AI 통제권 상실이라는 경고도 나오고 있다. 가트너는 최근 '에이전트 전환점: 대규모 AI 에이전트 관리' 보고서를 통해 기업 내 AI 에이전트 활용이 일정",
-      "u": "https://www.etnews.com/20260705000047",
-      "m": "07. 05. AM 02:57",
-      "ts": 1783220264000,
-      "fullText": "AI·SW AI 세계 AI 지출, 3년 뒤 7245조원…“수백 에이전트 사용시 통제 위기” 발행일 : 2026-07-05 11:57 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 가트너의 AI 에이전트 활용 임계점 전망. ⓒ가트너 세계 각국의 인공지능(AI) 지출이 3년 뒤 4조 7000억 달러(약 7245조원)에 달할 것이라는 전망이 나왔다. 기업이 업무 효율화를 위해 1000개 이상의 AI 에이전트를 도입하는 등 사용량이 폭발적으로 늘어날 것으로 예상되기 때문이다. 그러나 기술의 급격한 확산에 비례해 기업 내부의 AI 통제권 상실이라는 경고도 나오고 있다. 가트너는 최근 '에이전트 전환점: 대규모 AI 에이전트 관리' 보고서를 통해 기업 내 AI 에이전트 활용이 일정 수준을 넘어서면 사람이 통제할 수 없는 '티핑포인트'에 직면할 것이라고 경고했다. 가트너는 조직 내 AI 에이전트 수에 따라 위험 단계를 정의했다. 1~10개 수준일 때는 사람이 모든 결정을 승인하는 등 관리가 가능하지만, 10~50개면 '주의', 50~200개는 '경고', 200개에서 1000개를 넘어서면 '위험' 단계로 분류했다. 200개 이상의 에이전트가 가동되면 의사결정이 밀리초(ms) 단위로 빨라지고 에이전트 간 연쇄 작용이 복잡해져, 기존 시스템 기반의 실시간 모니터링 역량을 완전히 초과하게 된다는 분석이다. AI 에이전트가 초고속 연산으로 확률적 결정을 내리기 시작하면, 사람이 직접 개입해 이를 수정하는 '인간 개입' 구조는 사실상 불가능해진다. 마커스 블로쉬 가트너 리서치 부사장은 “조직 내 AI 활용 규모를 늘릴수록 사람은 결정의 주체가 아닌, 실행된 결과를 확인하는 역할로 밀려나게 된다”고 지적했다. 이에 따라 AI 자율성이 거버넌스를 앞지르지 못하도록 강력한 안전장치를 마련하는 것이 기업의 핵심 과제로 부상했다. 가트너는 에이전트별 위험도와 복원 능력을 상시 분류하고, 사람이 감독 없이 자율 수행할 수 있는 업무 범위를 명확히 규정할 것을 주문했다. 또한 잠재적 문제를 조기에 감지할 수 있는 실시간 대시보드를 구축해 기술적 통제력을 유지해야 한다고 강조했다. 블로쉬 부사장은 “통제력 상실 위험을 겪은 조직일수록 투명성과 규율에 기반한 강력한 거버넌스 모델을 구축해야 한다”며 “실수를 교훈 삼아 AI 관리 성숙도를 지속적으로 고도화하는 것이 기업 생존의 핵심”이라고 설명했다. 박종진 기자 truth@etnews.com",
       "impact": "negative",
-      "takeaway": "세계 AI 지출이 7245조원으로 증가할 것으로 예상되어 수백 에이전트 사용 시 통제 위기가 예상된다."
+      "takeaway": "전력 비용 정량화가 투자 위험을 부각시켜 시장 신뢰도 저하"
     },
     {
       "s": "TechCrunch",
@@ -39,8 +50,8 @@
       "m": "07. 04. PM 04:32",
       "ts": 1783182728000,
       "fullText": "In Brief Posted: 9:32 AM PDT · July 4, 2026 Image Credits: Samuel Boivin/NurPhoto / Getty Images Anthony Ha Alibaba reportedly bans employees from using Claude Code China’s Alibaba will ban employees from using Anthropic’s programming tool Claude Code, starting on July 10, according to multiple reports . Anthropic already prohibits Chinese companies, as well as foreign entities owned by those companies, from using its models. The company has reportedly been working to close loopholes that allow Chinese users to access Claude. According to a recent Reddit post , some of that loophole-closing involved a version of Claude Code that could secretly identify Chinese users. Anthropic’s Thariq Shihipar said in a post on X that this was “an experiment we launched in March that was meant to prevent account abuse from unauthorized resellers and protect against distillation.” ( Distillation is a practice where AI models are trained on the outputs of other models.) “The team has landed stronger mitigations since then and we’ve actually been meaning to take this down for a while,” Shihipar said. Nonetheless, Alibaba has reportedly classified Claude Code as high-risk software and is instructing employees to use the company’s own Qoder tool instead. Topics AI , alibaba , claude code , Security November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle. Savings end June 26, 11:59 p.m. PT . REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selec",
-      "impact": "negative",
-      "takeaway": "Alibaba가 직원들이 Claude Code를 사용하지 못하도록 금지하는 등 AI 에이전트에 대한 제한을 가하는 움직임을 보인다."
+      "impact": "neutral",
+      "takeaway": "알리바바의 내부 사용 제한이 AI 에이전트 시장에 직접적 영향은 미미"
     },
     {
       "s": "TechCrunch",
@@ -50,8 +61,8 @@
       "m": "07. 04. PM 03:51",
       "ts": 1783180292000,
       "fullText": "Following the Trump directive that led Anthropic to pull its latest AI models offline and growing calls for sovereign tech that reduces reliance on the U.S. , Mistral AI has been caught in a whirlwind of attention. But the French AI darling is often misunderstood, and the fact that it develops large language models (LLMs) has muddied the picture. Anyone who judges Mistral by how close it is to becoming ‘the OpenAI from Europe’ is in for disappointment. Its chat and agent Vibe, formerly Le Chat , only has an ounce of ChatGPT’s brand recognition, and Claude is more popular than Mistral’s models even among founders based at Station F, Paris’ startup campus . On the other hand, casual observers tend to miss that the French decacorn is following the Palantir playbook, with forward-deployed engineers that help governments and large corporations adopt AI and tailor it for their use cases. This approach is also better suited for Mistral’s means. While the company is rumored to be raising some $3.5 billion at a $23.15 billion valuation , nearly doubling its current valuation, that’s still far less than U.S. frontier labs. But its revenues have also ramped up; in February, it disclosed that its annual recurring revenue was now above $400 million , up from $20 million just one year earlier, and claimed it was on track to surpass $1 billion in ARR this year. This has helped Mistral gain a seat at the table in places like Davos, and even in rooms where tech CEOs have a hard time getting their message across, such as the French Parliament . Mistral CEO Arthur Mensch has become a public ambassador for a certain vision of AI , but he still has some evangelizing to do when it comes to explaining his own company. In a lengthy LinkedIn post , Mensch broke down what the Paris-based company has been doing “for a living” — deploying its models and agent platform on the infrastructure of its Enterprise customers, and helping them build custom models with Forge , a platform that lets them ",
-      "impact": "neutral",
-      "takeaway": "Mistral AI에 대한 정보를 제공하는 뉴스이며, 테마와 직접 관련이 없다."
+      "impact": "positive",
+      "takeaway": "Mistral AI 등장으로 LLM 경쟁이 촉진돼 투자 기회 확대"
     },
     {
       "s": "Bloomberg Tech",
@@ -62,29 +73,7 @@
       "ts": 1783145816000,
       "fullText": "",
       "impact": "neutral",
-      "takeaway": "AI, 카라오케, 커피를 제공하는 시네마를 중국에서 시범 운영하는 뉴스이며, 테마와 직접 관련이 없다."
-    },
-    {
-      "s": "한경 IT",
-      "t": "오픈AI·앤트로픽 견제…기업용 AI시장 뛰어든 MS·아마존",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026070349651",
-      "m": "07. 03. AM 09:03",
-      "ts": 1783069433000,
-      "fullText": "",
-      "impact": "positive",
-      "takeaway": "오픈AI와 앤트로픽의 경쟁을 견제하기 위해 MS와 아마존이 기업용 AI 시장에 뛰어든다."
-    },
-    {
-      "s": "한경 IT",
-      "t": "인핸스, 기술신용평가 'TI-1' 등급 획득…전 산업 AI 에이전트 적용 가속화",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202607034738i",
-      "m": "07. 03. AM 07:29",
-      "ts": 1783063798000,
-      "fullText": "",
-      "impact": "positive",
-      "takeaway": "인핸스가 기술 신용 평가지표 'TI-1' 등급을 획득하여 전 산업 AI 에이전트 적용을 가속화한다."
+      "takeaway": "중국의 AI 활용 시나리오가 흥미롭지만 테마와 직접 연관은 낮음"
     },
     {
       "s": "AI라이프경제",
@@ -95,8 +84,8 @@
       "ts": 1783038539000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "정부가 AI 동료를 직접 만드는 'AI 정부 실험실'을 시범 가동하는 뉴스이며, 테마와 직접 관련이 없다."
+      "impact": "positive",
+      "takeaway": "정부 AI 실험실 시범 운영이 국내 AI 에이전트 수요를 촉진"
     },
     {
       "s": "TechCrunch",
@@ -107,7 +96,7 @@
       "ts": 1783035490000,
       "fullText": "In Brief Posted: 4:38 PM PDT · July 2, 2026 Image Credits: ANDREW CABALLERO-REYNOLDS/AFP / Getty Images Lucas Ropek Mark Zuckerberg tells staff that AI agents haven&#8217;t progressed as quickly as he&#8217;d hoped Replacing people with AI doesn&#8217;t seem to be that easy to do, if Meta can be seen as an example. Reuters reports that at an internal town hall Thursday, CEO Mark Zuckerberg told staff that the pace of AI agent development had not &#8220;accelerated in the way&#8221; executives had previously expected them to. Earlier this year, Meta laid off some 8,000 employees — approximately 10% of its corporate workforce — and reassigned another 7,000 to various AI groups, including one called Agent Transformation, Bloomberg reported . During this week&#8217;s meeting, Zuckerberg apparently commented on these job cuts — noting that they were not as &#8220;clean&#8221; as they should have been. The cuts were made because top officials at the company &#8220;were worried that we weren&#8217;t going to move fast enough ‌to adapt&#8221; to the changing landscape of the tech industry, Zuckerberg reportedly added. The corporate leader also apparently said that the perceived upside of the new AI-focused company structure hadn&#8217;t &#8220;come to ​fruition yet,&#8221; although he said that he believed the company would begin to see improvements from its AI investments during the next three to six months. Several other investigative reports have depicted Meta’s months-old AI unit as a soul-crushing gulag, according to some of the engineers assigned to it. Meta has invested heavily in AI and is expected to spend as much as $145 billion on AI infrastructure this year, Reuters reports. TechCrunch reached out to Meta for comment. Topics AI , ai agent , In Brief , Mark Zuckerberg , Meta November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle.",
       "impact": "negative",
-      "takeaway": "마크 주커버크가 AI 에이전트가 기대와 달리 빠르게 진행되지 않았다고 직원들에게 알렸다."
+      "takeaway": "페이스북 내부 AI 에이전트 진전이 둔화돼 시장 기대감 감소"
     },
     {
       "s": "TechCrunch",
@@ -118,7 +107,7 @@
       "ts": 1783017069000,
       "fullText": "Back in April, Reuters reported that Anthropic was toying with the idea of producing its own AI chips as a means of responding to chip shortages. Now, it would appear that the company is getting serious about this idea. On Thursday, The Information reported that Anthropic was in contact with Samsung to explore a collaboration around the pending chip. However, Anthropic hasn&#8217;t yet decided what the chip will be used for, how it will fit into the server, or how powerful it will be, according to the report. When reached for comment, Anthropic told TechCrunch that a diversified hardware stack that includes chips from Google, Amazon, and Nvidia will continue to be pivotal to its compute strategy. On the topic of a potential Samsung partnership, the company said it had nothing further to add. A number of AI companies have sought to develop custom chips — both as a way to create unique hardware for specific compute tasks and to gain a certain amount of independence from Nvidia, which continues to be the undisputed leader of the chip industry. Anthropic&#8217;s announcement may also be a response to one made last week by its key competitor, OpenAI, which has teamed up with Broadcom to announce its own custom-built inference processor, dubbed &#8220;Jalapeño.&#8221; OpenAI says that the chip is more efficient, demonstrating better performance-per-watt, than other competitor chips. Amazon and Google both offer custom-built TPUs as part of their cloud offering. Samsung is already embedded in the AI industry, and acts as a major partner of Nvidia, producing chips that the company needs to train or run its AI models. In turn, Samsung uses Nvidia&#8217;s software to manufacture its chips. The duo are working on an AI chip factory in South Korea. Samsung has also discussed partnering with Google on its chip-making efforts. Topics AI , AI chips , Anthropic , nvidia , OpenAI , Samsung , TC When you purchase through links in our articles, we may earn a small commission . This do",
       "impact": "positive",
-      "takeaway": "Anthropic이 삼성과 새로운 커스텀 칩에 대해 논의하고 있다."
+      "takeaway": "맞춤형 칩 개발로 AI 에이전트 효율성이 개선돼 투자 매력 상승"
     },
     {
       "s": "IT조선",
@@ -128,26 +117,9 @@
       "m": "07. 02. AM 09:56",
       "ts": 1782986190000,
       "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "한경 IT",
-      "t": "오픈AI, 美 정부에 지분 5% 보유 제안",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026070227311",
-      "m": "07. 02. AM 08:35",
-      "ts": 1782981330000,
-      "fullText": ""
-    },
-    {
-      "s": "더에이아이",
-      "t": "배경훈 부총리 “AI 경쟁력, 국민에게 돌아가야 완성”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKelM0akJMN3BlWDg5aE9uMDNzVjQxU3RiQTR0M2E5TENRZ2g1cXJQWDVYR19Ka3ZCWFNPNnRuZHQyVldlVGtOdGh2Q0pJQWpNRHFNZ1NsUTRUdW9Zd2xuSUU1SzFjQlcxR2Qw?oc=5",
-      "m": "07. 02. AM 01:24",
-      "ts": 1782955487000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "규제 미비가 AI 에이전트 사업의 법적 리스크를 높여 부정적 전망"
     },
     {
       "s": "지티티코리아",
@@ -199,16 +171,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "지티티코리아",
-      "t": "AI 에이전트 사고 막는 정책 코드화 기술, 실행 단계 통제 강화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tQmtJUUlCeTBEbk9hNnhZZW1MaUlDdmZpT1Mtd0xNM3FCNFc1dFJSNkxWZEhrcHhEVGxGVXBYWDFUY1VrTHJ6ZF9zV3pkZDFDYU1vV2ttUHg0MW5vMWF1RWNkdS1Hb0Jtd1E?oc=5",
-      "m": "06. 30. PM 11:00",
-      "ts": 1782860400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
       "d": "Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science, an AI workbench for science [&#8230;]",
@@ -227,12 +189,12 @@
       "fullText": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning June 30, 2026 by Esther Lee 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse . Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1) . But more edge data doesn’t automatically create more intelligence. As much as 90% of existing edge data goes unprocessed, according to the same Gartner report. Turning that data into useful action requires vision AI agents that can understand video, adapt to real-world conditions and connect insights to operational workflows. These agents often run near cameras, machines and sensors, where models must meet latency, power, cost and connectivity requirements while adapting to site-specific conditions. To build those agents, developers need repeatable ways to generate training data, fine-tune models and deploy agentic video applications across edge and cloud environments. NVIDIA Metropolis agent skills and blueprints give developers reusable workflows to build, operate and optimize vision AI agents across that lifecycle. For the simulation and synthetic data side of that work, Universal Scene Description, or OpenUSD , provides a common framework for describing, composing and reusing 3D worlds. Built on OpenUSD, NVIDIA Om"
     },
     {
-      "s": "네이트",
-      "t": "美, AI 코인투자·결제까지 본격화…韓 '규제' 갇혀 제자리걸음",
+      "s": "헤럴드경제",
+      "t": "美, AI 코인투자·결제까지 본격화…韓 ‘규제’ 갇혀 제자리걸음",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lTUxWSFBoZ2hYVVNQdWdETUFDdGVIbWxUb1VuVzlDWE5lSXhBQThMX09iLS1Ub1h4eXpvQTczbWRpWHEwWUlfaXlsZVZwSS11Mmk0?oc=5",
-      "m": "06. 30. AM 02:20",
-      "ts": 1782786000000,
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pQlMxam1RcUd6VDdnMy1OckFfOUxtaGw3NDhCUDNFc1hXWFA2RktkV1h3T3U2RFlYcEJRUXlndW1hVjYyZV90d0tjNkJiUWVLdF9zVW93?oc=5",
+      "m": "06. 30. AM 02:19",
+      "ts": 1782785999000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -282,6 +244,16 @@
       "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJT2dUWmpaZVByd19SY19RMVd6MmtaS0RiUDRTSnlveGo3OG9vNHpLT2twTkUzbTNCTktJNXVDSEQ4T0tPX3g2OEg2YUtDZ1E?oc=5",
       "m": "06. 25. AM 07:00",
       "ts": 1782370800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지티티코리아",
+      "t": "AI 에이전트 보안, 접근통제에서 실행 검증으로...ID·작업 증명 기술 공개",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZ05DenNoa19oSkViaUNXR2FiQnM2U2FsNWxra3hDWWFIYWJ2ZHlDVGlJMWN4V0lYNGljejNvOVNhRTlOU0swNFp1MUR2ajVqNnh6MjFzRnJZeU9WNll2clpzTFJwU2NMYlE?oc=5",
+      "m": "06. 24. PM 04:00",
+      "ts": 1782316800000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -354,22 +326,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "MTN 머니투데이방송",
-      "t": "AI가 잘못 결제하면 누구 책임?…에이전트 쇼핑 제도 '공백'",
+      "s": "스포탈코리아",
+      "t": "SAS, 규제산업 특화 AI 에이전트로 韓 공략",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fNTRhdTB5VTJCeFFiX2VuZmM2dkxTbmp6WTlFeVczWTFVdlh6N2piaG9yVEsySXRYbW1RVHdyUU9lTWpXSGljYWVpRjhnb2s0WG9PWVVzRG5RSzgxOTNZVnRZOWs?oc=5",
-      "m": "06. 18. AM 07:00",
-      "ts": 1781766000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "이데일리",
-      "t": "“AI 사업, 이제 공급자만으론 안 된다”…조준희 KOSA 회장, 수요기업 연합론 제시",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX3lmN2loU3FpbDVKLVJ4SEpqVG9qeXZvM2ZSWTRFM1pJOEt1aXduMmZlbXNHREREOTUwUmhNSXF6ZUhiMXRIX09UQTNkVW80SEc5QzN6aC11anhNSlNXQVBELVdLWnlya3h2LVIwelFhUmt1Si1peTltMzRhOGRneA?oc=5",
-      "m": "06. 18. AM 07:00",
-      "ts": 1781766000000,
+      "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSVFLdkJiVGVvSHJQZWt2NmJxY2NSVFQyUmpaaUQ3ZFFYRGItUU5PWVd4ck84cFFFY1JVMjR0ME1MR2FTdkktM2xtc21VZzMwMXBCbzlubk5RUF90LWZ6TEpQM2psY0VVSjI3ZzlUdk05R0tyQzM4UUV6MzZveTRJa2Nn?oc=5",
+      "m": "06. 18. AM 08:51",
+      "ts": 1781772700000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -378,16 +340,6 @@
       "t": "금융권 AI 에이전트 도입 본격화…금융위, 망분리·데이터 규제 손질",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uWXM0TmxXdmJHYnczRmNUNXJMeUtpME9zNnBlT0xJZml3azMydHIyTFJtQ0daSlB5cGVQVUF5bzNwNWp6REhua2lCQmRvcHpMV3Q0WXhETjdOd9IBWEFVX3lxTFBOSU5MMnJVM0ZTZDVkVE4xWU9VazNYblowd2w2aGNWbjdySzA4a01raFFydlk0UDN4d1pBeXJFekFFZklPd2hRY3FxZUJLR19ISHE4dHJ4ZHo?oc=5",
-      "m": "06. 18. AM 07:00",
-      "ts": 1781766000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴시스",
-      "t": "SAS, 규제산업 특화 AI 에이전트로 韓 공략",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96WHNVVU1CVUdpR0FlM05kWThmakh2bHY4TDFPaGM1ak84VTFlVUVjRU5QZlg1b05xZHlZUGo3UG1BTGlOeF81WXJfeENaVUZmTTdEeFBfRGNfck9pWGJ2WNIBeEFVX3lxTE1fbzE3a2FWM0VmT1R6S2plSHZBMURFenlIcDg3WG80OGxqU0xqRnpjb2RrbGpTajRUS21nb1VjU1dLak1EcTRudzcySzY4VFdxeTl1RWVLT09nempmWUlUazNSQ0dCbnVkUG9Xc2NSMjBxejJYUXpjbw?oc=5",
       "m": "06. 18. AM 07:00",
       "ts": 1781766000000,
       "_policy": true,
@@ -410,6 +362,56 @@
       "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa21KUmluN2o1blFhdlJnd2Y0ZURWSjZLamVMOS15REtwdTBKTWxoNXE4VGF4elFKY1RacUZMS29jeldSd1ZYdUQ0MUVpSUJ1cGJkM0I4NDJjUWp2U1JCdjBIMzVTMVRWcmVoRThWRllhdEZycjNVUGFDbW5zWGxsddIBlAFBVV95cUxNdV94Y3pFNnJtb0ZkOTBTQ0I1NW5kcWVsTG9GT2JpR0ctNXo1VFo3ekpvdGhjd0tWcTRxSXRuYkNqd2VQaVlmekY2YUdzVEVjSm1uV0ZwcjZObEV1YThhekFfeE1yNktuRjlSZEhqWS1JdEdHb0pDQTV4YUdFSzUzRVZZcmhlRjluT0NUdVlTR2NpRW01?oc=5",
       "m": "06. 18. AM 07:00",
       "ts": 1781766000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "MTN 머니투데이방송",
+      "t": "AI가 잘못 결제하면 누구 책임?…에이전트 쇼핑 제도 '공백'",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fNTRhdTB5VTJCeFFiX2VuZmM2dkxTbmp6WTlFeVczWTFVdlh6N2piaG9yVEsySXRYbW1RVHdyUU9lTWpXSGljYWVpRjhnb2s0WG9PWVVzRG5RSzgxOTNZVnRZOWs?oc=5",
+      "m": "06. 18. AM 07:00",
+      "ts": 1781766000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "이데일리",
+      "t": "“AI 사업, 이제 공급자만으론 안 된다”…조준희 KOSA 회장, 수요기업 연합론 제시",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX3lmN2loU3FpbDVKLVJ4SEpqVG9qeXZvM2ZSWTRFM1pJOEt1aXduMmZlbXNHREREOTUwUmhNSXF6ZUhiMXRIX09UQTNkVW80SEc5QzN6aC11anhNSlNXQVBELVdLWnlya3h2LVIwelFhUmt1Si1peTltMzRhOGRneA?oc=5",
+      "m": "06. 18. AM 07:00",
+      "ts": 1781766000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "경향신문",
+      "t": "와이즈넛, 100억원 규모 자사주 취득 결정…AI 에이전트 사업 확대 추진",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlOHVXblY2VE1VdHNMdXo4cnJ5NFFzaWFOcGFldUo1Y0U5dklneW13eDVqdVVJWXVfNHhHdUJoU1oyd0dYOG04U3l2NENfNU1xdVk3cDJmUWs4d9IBX0FVX3lxTE5OZmdBSjBzRDl0RDVJRDNYRGlCUnJNMS1yN3RIUFdScnZHLUFDeVBWbGhLaE1tMWgxMXZDTzFBanhRWUVnVGh1ejMzMzlnT0pmVjY4d3pjcEJweFZKMlZj?oc=5",
+      "m": "06. 18. AM 07:00",
+      "ts": 1781766000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "디일렉",
+      "t": "카카오, 카톡 연동 AI에이전트 개발 대회 개최...총상금 2700만원",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjWmNieW9uZnlYUlRaTE5VNjFyOWF1V3djeFNJelVPMWZvalVseWdEakh5UEx1aG1PS1pVX0F2RVZndGpoNGN0YUwtQXQ5bTRtRjRYRG5ablhVdGxfb0ZjeE1mSlVjQQ?oc=5",
+      "m": "06. 17. AM 07:00",
+      "ts": 1781679600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지티티코리아",
+      "t": "AI 에이전트도 ID 관리 대상...권한·책임자·접근 범위 통합 관리",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41ejE5dFpSLTktZVd5TGRtTHN0WGtHX29hOVNGcnowbFpDallzZGxac1dtbHZwamZOcVBzTjdMQTlYc2NHVmdSbmI3WWotOWRMWGJGeF8tLXNfWEpFaVBLeTJ3a0tPNkxwcXc?oc=5",
+      "m": "06. 17. AM 07:00",
+      "ts": 1781679600000,
       "_policy": true,
       "fullText": "Google News"
     }

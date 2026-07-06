@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-06T20:28:06.347Z",
-  "count": 15,
+  "updatedAt": "2026-07-06T21:59:38.186Z",
+  "count": 40,
   "stats": {
     "today": 2,
     "yesterday": 0,
-    "weekAvg": 1,
-    "sources": 2,
+    "weekAvg": 1.3,
+    "sources": 25,
     "heat": "cool"
   },
   "items": [
@@ -17,8 +17,8 @@
       "m": "07. 06. PM 04:00",
       "ts": 1783353600000,
       "fullText": "How Open Models Are Driving AI Research At the International Conference on Machine Learning, nearly 145 papers cite NVIDIA Nemotron open models and datasets as the foundation for new research. July 6, 2026 by JJ Kim 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately 2,000 accepted papers cite NVIDIA GPUs, and 145 cite NVIDIA Nemotron — a family of open models, including open datasets — as the foundation for new research. Hundreds more draw on NVIDIA Cosmos , NVIDIA Isaac GR00T , BioNeMo and other NVIDIA open model families, spanning physical AI, robotics, autonomous vehicles and biomedical research. The Themes Defining This Year’s Research Areas including vision and video generation, reinforcement learning for large language models ( LLMs ) and agent training as well as AI inference remained prominent themes across this year’s papers, reflecting sustained investment these fields command — while several new areas also broke through. Robot world models drew significant attention, with papers like DreamDojo pushing the boundary of how AI systems learn to reason about and act in physical environments. DreamDojo, for example, learns how the physical world behaves from human video and builds on NVIDIA Cosmos open frontier models to predict how a robot would handle objects and operate in environments it was never trained on. It lets researchers evaluate policies, plan actions and teleoperate a virtual robot, accelerating development without the costs and risks of physical deployment. AI for life sciences was fueled by NVIDIA BioNeMo open models and research contributions that help research",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "impact": "positive",
+      "takeaway": "AI 연구에 새로운 모델이 등장하여 연구의 새로운 방향을 열어준다."
     },
     {
       "s": "Bloomberg Tech",
@@ -29,7 +29,7 @@
       "ts": 1783317127000,
       "fullText": "",
       "impact": "negative",
-      "takeaway": "Nvidia 서버 지연으로 아시아 기술주가 하락, 생태계 성장에 제동"
+      "takeaway": "엔비디아 서버 지연이 아시아 기술株에 부정적인 영향을 미친다."
     },
     {
       "s": "NVIDIA공식",
@@ -40,7 +40,7 @@
       "ts": 1782963288000,
       "fullText": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout NVIDIA is partnering with AI clouds to deploy large‑scale, multi‑tenant AI factories, aligning economics through a revenue-sharing and credit-support model. July 1, 2026 by Colette Kress and Raj Mirpuri 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly utilized and support the economics of token‑scale AI services. Emerging AI companies historically have had limited access to capital-intensive infrastructure, with even long-term commitments insufficient to unlock financing for compute. To address this, NVIDIA is introducing a new business model that opens up compute access to the fast‑growing AI ecosystem of startups, model builders, enterprises, research organizations and regional AI players. This new model enables AI clouds to procure NVIDIA infrastructure for AI-native, enterprise and ISV customers through economic alignment with a revenue-sharing and credit-support model. Through the partnership, AI clouds will sell NVIDIA-powered cloud services, with NVIDIA earning both standard product revenue and a share of the cloud revenue on the supported capacity. This structure accelerates adoption of NVIDIA platforms among the high-growth, high-conviction AI native sector, and provides NVIDIA with a recurring, usage-linked earnings stream. For model builders, inference providers, agent platforms and enterprises scaling AI, it can mean faster access to full-stack accelerated computing without waiting through site selection, power procurement, construction and hardware bring-up. NVIDIA AI Factory Capacity Built Around Demand The initiative is already taking sh",
       "impact": "positive",
-      "takeaway": "AI 인프라 구축에 파트너 초청, 대규모 컴퓨팅 확대로 생태계 확대"
+      "takeaway": "엔비디아가 AI 컴퓨팅을 확대하여 AI 인프라 구축을 위한 파트너를 초대한다."
     },
     {
       "s": "NVIDIA공식",
@@ -50,8 +50,8 @@
       "m": "07. 01. PM 01:00",
       "ts": 1782910847000,
       "fullText": "How Open Models Are Driving AI Research Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open...",
-      "impact": "positive",
-      "takeaway": "미국 내 제조 확대로 Nvidia 파트너십 강화, 국내 공급망 안정"
+      "impact": "neutral",
+      "takeaway": "엔비디아와 파트너가 미국에서 AI를 개발한다."
     },
     {
       "s": "NVIDIA공식",
@@ -62,7 +62,7 @@
       "ts": 1782838838000,
       "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access",
       "impact": "positive",
-      "takeaway": "BioNeMo 툴킷으로 생명과학 연구 가속, Nvidia 생태계 진입 확대"
+      "takeaway": "엔비디아 BioNeMo 에이전트 툴킷이 생명과학 연구자에게 가속화된 AI를 제공한다."
     },
     {
       "s": "NVIDIA공식",
@@ -73,7 +73,7 @@
       "ts": 1782831657000,
       "fullText": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost Baseten, Cognition, Deep Infra, Digital Ocean, Hippocratic AI, Together AI and Cursor are seeing compounding value from NVIDIA’s software and open source ecosystem. June 30, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s full-stack inference software continuously improves hardware performance. On the NVIDIA Blackwell platform, the software stack has already reduced token costs by up to 5x on the DeepSeek V4 model in just one month. SemiAnalysis InferenceX results comparing token cost and interactivity for NVIDIA GB300 NVL72 systems with SGLang and the NVIDIA Dynamo inference framework. Leading companies and inference providers are already seeing the compounding value of NVIDIA’s inference software stack on Blackwell: Baseten used the NVIDIA TensorRT-LLM open source library to serve DeepSeek V4 Pro on Blackwell GPUs for reasoning, coding and long-context workloads, applying proprietary runtime optimizations to deliver up to 50% more tokens per second. Cognition is using the NVIDIA Dynamo inference framework to manage inference GPUs, giving its team a ready-made path to scale reinforcement learning workloads without needing to build that infrastructure from scratch. Deep Infra uses the NVIDIA inference software stack to serve frontier open source models performantly on Blackwell from day zero, including DeepSeek V4. DigitalOcean helped Hippocratic AI use NVIDIA inference software on Blackwell GPUs to serve healthcare AI faster and more efficiently, increasing inference throughput by 30%",
       "impact": "positive",
-      "takeaway": "Inference 스택으로 토큰 비용 최소화, 비용 효율성 향상으로 생태계 매력 증가"
+      "takeaway": "엔비디아의 추론 소프트웨어 스택이 토큰 비용을 최소화한다."
     },
     {
       "s": "NVIDIA공식",
@@ -84,7 +84,43 @@
       "ts": 1782824427000,
       "fullText": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning June 30, 2026 by Esther Lee 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse . Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1) . But more edge data doesn’t automatically create more intelligence. As much as 90% of existing edge data goes unprocessed, according to the same Gartner report. Turning that data into useful action requires vision AI agents that can understand video, adapt to real-world conditions and connect insights to operational workflows. These agents often run near cameras, machines and sensors, where models must meet latency, power, cost and connectivity requirements while adapting to site-specific conditions. To build those agents, developers need repeatable ways to generate training data, fine-tune models and deploy agentic video applications across edge and cloud environments. NVIDIA Metropolis agent skills and blueprints give developers reusable workflows to build, operate and optimize vision AI agents across that lifecycle. For the simulation and synthetic data side of that work, Universal Scene Description, or OpenUSD , provides a common framework for describing, composing and reusing 3D worlds. Built on OpenUSD, NVIDIA Om",
       "impact": "positive",
-      "takeaway": "Omniverse 활용 워크플로우 제공으로 비전 AI 정확도 향상, 생태계 활용도 상승"
+      "takeaway": "엔비디아의 인퍼런스 소프트웨어 스택이 시뮬레이션 데이터와 미세 조정으로 시각 AI 에이전트의 정확성을 향상시킨다."
+    },
+    {
+      "s": "디지털데일리",
+      "t": "美의 中 반도체 규제 역효과?…AI칩 점유율, 엔비디아↓ 화웨이↑[AI 인포그래픽]",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16STNybmxya0hzVkl4OUNGRXQ4MTE5UXU0TkNNYm5ncnZjVTNkcWw1WTMxVkt4NS1rckhmVXBRTUxuWm1ZVW8tT2NQUVA4aTJYeVpvY0pBSTNqS0F3TkhrRm53?oc=5",
+      "m": "06. 30. AM 03:06",
+      "ts": 1782788787000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "미국의 반도체 규제가 엔비디아의 AI 칩 점유율을 낮추고 화웨이의 점유율을 높인다."
+    },
+    {
+      "s": "조세일보",
+      "t": "95%→8%…中서 무너진 엔비디아, 화웨이가 역전",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaREkxbnROVlNzcXlYY2s3eWhickZqWTBZYXlqbV9qSnpNejBOVklYeTRSRFhUcDB2YnhQSFRQX2dtQkMyUUdzX0FwZDhPZTluOWlWX1VfcXNIQmw3M1Nr?oc=5",
+      "m": "06. 30. AM 02:27",
+      "ts": 1782786473000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "중국의 반도체 규제로 엔비디아의 점유율이 95%에서 8%로 급락한다."
+    },
+    {
+      "s": "위클리포스트",
+      "t": "엔비디아 중국 점유율 하락, 화웨이 어센드 반사이익",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lbXF2ZXlpclZJbWhrWVJIa3lrd3dYdUQ2ODBteUJ5dFVLVEJuSzNaMlczVm5NZm1pRzVXc1doOE0ybjI5cmVRMGZQTUo5ZW9PX3R3aVlBVzgwNlJrOXpJaE5nUEJjeXMwcXNj?oc=5",
+      "m": "06. 29. PM 07:21",
+      "ts": 1782760896000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "엔비디아의 중국 점유율 하락으로 화웨이가 반사이익을 얻는다."
     },
     {
       "s": "NVIDIA공식",
@@ -93,9 +129,7 @@
       "u": "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
       "m": "06. 29. PM 05:00",
       "ts": 1782752419000,
-      "fullText": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Now generally available in Microsoft Foundry, Claude on NVIDIA GB300 Blackwell Ultra gives Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. June 29, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces total cost of ownership and drives positive company results. With Claude in Foundry running on NVIDIA GB300 NVL72 systems with NVIDIA Quantum-X800 InfiniBand networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. A Growing Partnership NVIDIA is working with Anthropic to extend developer capabilities by integrating NVIDIA tools into the Anthropic stack. That integration enables enterprises to give Claude agents domain-specific abilities. Through NVIDIA verified agent skills , enabled by access to NVIDIA accelerated computing, enterprises can embed AI agents deeply into their business and use them as the operating system for the organization. Enterprises can run Claude agents on Azure by using the NVIDIA Secure Agent Workspace Reference Design . It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level. Claude in Microso",
-      "impact": "positive",
-      "takeaway": "Anthropic 모델이 Nvidia GB300에서 구동, 클라우드 AI 성능 강화"
+      "fullText": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Now generally available in Microsoft Foundry, Claude on NVIDIA GB300 Blackwell Ultra gives Azure-native enterprises a new foundation for building autonomous and domain-specific AI agents. June 29, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces total cost of ownership and drives positive company results. With Claude in Foundry running on NVIDIA GB300 NVL72 systems with NVIDIA Quantum-X800 InfiniBand networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. A Growing Partnership NVIDIA is working with Anthropic to extend developer capabilities by integrating NVIDIA tools into the Anthropic stack. That integration enables enterprises to give Claude agents domain-specific abilities. Through NVIDIA verified agent skills , enabled by access to NVIDIA accelerated computing, enterprises can embed AI agents deeply into their business and use them as the operating system for the organization. Enterprises can run Claude agents on Azure by using the NVIDIA Secure Agent Workspace Reference Design . It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level. Claude in Microso"
     },
     {
       "s": "NVIDIA공식",
@@ -104,9 +138,7 @@
       "u": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
       "m": "06. 29. PM 03:00",
       "ts": 1782745204000,
-      "fullText": "How Open Models Are Driving AI Research Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open...",
-      "impact": "positive",
-      "takeaway": "Jetson이 달 궤도에서 최초 운영, 우주 분야 Nvidia 적용 확대"
+      "fullText": "How Open Models Are Driving AI Research Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open..."
     },
     {
       "s": "NVIDIA공식",
@@ -115,9 +147,7 @@
       "u": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
       "m": "06. 29. AM 10:59",
       "ts": 1782730778000,
-      "fullText": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron NVIDIA Nemotron open models help Palantir advance US technology leadership with mission-specific sovereign AI for government agencies and critical infrastructure operators. June 29, 2026 by Justin Boitano 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source software has long been a pillar of U.S. technology leadership. In 1969, DARPA connected four university computers — from UCLA, Stanford, UCSB and the University of Utah — laying the infrastructure backbone that became the internet. In those early days, U.S.-led open source contributions also drove leadership in coding languages, with UNIX in 1969 and C at Bell Labs in 1972. These languages led to more open source software building on those foundations, including the Linux Kernel in 1991, GitHub in 2008 and Docker in 2013. Today, open models are making frontier-level AI broadly accessible, with control over customization and trust through transparency. They give enterprises and government agencies the ability to inspect, adapt and deploy AI in sensitive environments, making them essential for national security, corporate sustainability and industrial innovation. With domain-optimized harnesses, strong open models can deliver frontier capabilities while helping customers retain control over proprietary data, model weights and deployment environments. Today’s Palantir announcement brings NVIDIA Nemotron open models into air-gapped environments — secure setups that are completely isolated from unsecured networks — on NVIDIA accelerated computing. Palantir will use NVIDIA Nemotron open models to build custom frontier-quality models to serve the U.S. government. Many of the government’s ",
-      "impact": "positive",
-      "takeaway": "Palantir가 Nvidia Nemotron으로 보안 AI 제공, 정부 기관 채택으로 생태계 확대"
+      "fullText": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron NVIDIA Nemotron open models help Palantir advance US technology leadership with mission-specific sovereign AI for government agencies and critical infrastructure operators. June 29, 2026 by Justin Boitano 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source software has long been a pillar of U.S. technology leadership. In 1969, DARPA connected four university computers — from UCLA, Stanford, UCSB and the University of Utah — laying the infrastructure backbone that became the internet. In those early days, U.S.-led open source contributions also drove leadership in coding languages, with UNIX in 1969 and C at Bell Labs in 1972. These languages led to more open source software building on those foundations, including the Linux Kernel in 1991, GitHub in 2008 and Docker in 2013. Today, open models are making frontier-level AI broadly accessible, with control over customization and trust through transparency. They give enterprises and government agencies the ability to inspect, adapt and deploy AI in sensitive environments, making them essential for national security, corporate sustainability and industrial innovation. With domain-optimized harnesses, strong open models can deliver frontier capabilities while helping customers retain control over proprietary data, model weights and deployment environments. Today’s Palantir announcement brings NVIDIA Nemotron open models into air-gapped environments — secure setups that are completely isolated from unsecured networks — on NVIDIA accelerated computing. Palantir will use NVIDIA Nemotron open models to build custom frontier-quality models to serve the U.S. government. Many of the government’s "
     },
     {
       "s": "NVIDIA공식",
@@ -163,6 +193,226 @@
       "m": "06. 22. PM 01:00",
       "ts": 1782133248000,
       "fullText": "At ISC, JUPITER Shows What Exascale Science Looks Like Europe’s first exascale supercomputer — running on NVIDIA Grace Hopper Superchips — is mapping the brain, modeling climate, advancing 6G AI and breaking records in quantum computing simulation. June 22, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! JUPITER, Europe’s first exascale supercomputer at Germany’s Forschungszentrum Jülich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking — and it’s had a busy year. As the international supercomputing community gathers at ISC in Hamburg this week, four projects running on JUPITER point to what exascale computing can actually do: map the human brain at cellular scale, simulate the entire Earth’s climate at 1-kilometer resolution, build AI systems for the next generation of wireless networks and simulate a universal 50-qubit quantum computer. “With JUPITER, Europe doesn’t just join the exascale era — it leads it, across the widest range of science and AI of any system worldwide,” said Thomas Lippert, director of the Jülich Supercomputing Centre and professor at Goethe University Frankfurt. Four projects, detailed below, share a throughline: scientific problems that were out of reach on previous hardware are now tractable at exascale. A Foundation Model for Mapping the Brain The Jülich Brain Atlas project — anchored at Jülich’s Institute of Neuroscience and Medicine with partner Helmholtz AI, partner hospital and other Helmholtz institutions — has produced CytoNet, a foundation model for brain microarchitecture analysis. The complexity of the human brain is astonishing. With 86 billion neurons and about 100 trillion connections between them, understanding brain function at single neuron resolution has been out of reach, until now. The research is led by neuroscientist Katrin Amunts and computer scientist Christian Schiffer at INM-1, Jülich’s Institute of Neuroscience and Medicine. The"
+    },
+    {
+      "s": "이데일리",
+      "t": "“엔비디아 종속 막고 데이터 규제 풀어야”…피지컬 AI 시대, ‘한국형 해자’ 구축 시급",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmJPakx1WC1laExISW5UajZudkRXWC0zNE9PdURERThrZHR6UXpfU2ZBYWVaNmhFWF8xUzlJSTlGSjQtU0ZmNXdxTWdkUEpJeThEUXQ4Ync0SWg0UFdtTk0yNmlvdnY3MkRGdGR4YXpTSFBpblM3Qk9wY2c3N0J2Qw?oc=5",
+      "m": "06. 18. AM 07:00",
+      "ts": 1781766000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "디지털투데이",
+      "t": "\"AI 풀스택 자립은 환상…모델·클라우드 집중투자가 현실적\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82Wk5nSmIwalV2Z0xnYmozV2VzbUd1aWZ6Rmx5M2IydjJ1ajBsWll4SXZGUGZDUHlZNFBfckpSNFVaN1dEV2prM3p0dlJXWFJKWmxjbjJfVi1ackozQV8wRUxob3czWE9VX0MzWVRGX0pxR00?oc=5",
+      "m": "06. 10. AM 07:00",
+      "ts": 1781074800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "ebn.co.kr",
+      "t": "[현장] 젠슨 황 만난 배경훈 \"엔비디아, GPU 26만장+a 공급 약속…韓 AI 생태계 투자\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Hc3d3ZWhxYlNuLVFNSVQ4dmV4LVpIVFFCRkZJWDFOZWw4Vk5ETVZyU1Y5c0s3TFZjc09mNWdPdU52LVU1a3pBWkxjaTVtbmQyajNpNnZRb3ByTjl3OF9kQzZVaDNvSGFf?oc=5",
+      "m": "06. 09. AM 07:00",
+      "ts": 1780988400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "플래텀(Platum)",
+      "t": "디든로보틱스, 엔비디아 생태계로 산업용 피지컬 AI 개발 본격화",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE51cjVmai00eEdoTEpLTHA2ZEhvbDVFbFZTTzRRNGpyRFBvMHZucHNzWGxoalY5d2R2c09oUzVjRFFnVXdFUWFlYQ?oc=5",
+      "m": "06. 08. AM 07:00",
+      "ts": 1780902000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "스타트업엔(StartupN)",
+      "t": "디든로보틱스, NVIDIA 생태계로 산업용 피지컬 AI 본격화…‘디든 스파이더’ 주목",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjckRiQVVRNWFIb3NOT1llZnlaV19ObzI3aEJBQ2J4VWUybWJDYXNkTTF4RlVUZzNqTjBaZ19HQjl1RDYtazZPSnNVOFI3TVFtRHN1VERrajc0b3dRV3htT2g3amRPbzRM0gFsQVVfeXFMUFMyNDYtUWZYN2dqa2pQUWZ0R2JzN1lDeElWd1dMakJudGhlQjZRZV9WTkpFTDhhN3Z4WVdwUm9FdjE2cTBsVDNPVENxVGFBZ1JDYkM5VldyWUMwZHMtelgyY09IODVzenlZa3Qt?oc=5",
+      "m": "06. 08. AM 07:00",
+      "ts": 1780902000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "비즈워치",
+      "t": "'글로벌 종횡무진' 젠슨 황에 한국이 유독 특별한 이유",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iMENCcmlKSjdjRGpyWTd4eHk3eG9abHJlZUlHeVhObHNPdkEzZXpRc3M5Y0lfNWxRMmtJa3JfcG1EMm1QbUpuN2lXYjRYalhhRHMwZ242NUZxRlFKSTJUWmxmb2ZRQllpRHRoOQ?oc=5",
+      "m": "06. 05. AM 07:00",
+      "ts": 1780642800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "서울경제신문",
+      "t": "중국 “엔비디아 칩? 안 사” 하더니…‘일본→중국’ 밀반출 첫 확인",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSUUtEVk1KQzNQaU1UWGZNaE9CU1dlbzgwOExBMU94XzJMTV9xZDVRWTVlalkxRERZRjdEZXRHYjdfcEJDY2dZUm1FZVAtRHR4SnfSAVNBVV95cUxNTnFQT0hPVV8zdXltaWlNRG12MklfSXducUw1M3oxSUN6cEpDbWFfMl9YTDJJdl9zdVp6NlB0Z0JXSXhqNzRKckJWYjdSLXdqVUIxaw?oc=5",
+      "m": "05. 28. AM 07:00",
+      "ts": 1779951600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "블록체인투데이",
+      "t": "“코인판은 AI 이전 엔비디아”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OamNOaHFNUjdnQUVXM01FRGhicEJQZTc4TGU5cllqOXVpVGVGWFVIMDhlemRTY0YyN19nUVFTRnF5azEyMTNIaTNsOWRkUjRPZzdrRkJvODQ4MHVfUHpYd1Y5U0YxSmg1RWFha3pna3E?oc=5",
+      "m": "05. 26. AM 07:00",
+      "ts": 1779778800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "이뉴스투데이",
+      "t": "AI 반도체 전선 넓어진다···엔비디아 CPU, AMD 대만 생태계 추격",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FMjFfTnk2eENrMzRaczgxYlRMamFTQjJiSklfU2h6MHQ2YVJxMWNZRGNWdXFfOGd1WkRXd2hLNHpqUmlhVDQyc09YT3RrTVNUTDJXOUdKSXhfNDhVVEktSFVZZzVmVFlKSFRxNkhtdzTSAXRBVV95cUxNaFF4dWtDVXJKMzRrVl9FX0Y3WEFFeG1DMzc1WjJxQlp0X3JRSTcyWDFMeEtUN0VFTjBtVWt3S3FKZzI3MzZnaDZ6SVcxM2NvVzhDaWZlYi1aajlEUWw3c1NaZjlkVm0yV2ZsTTB5YkFaRWhhaQ?oc=5",
+      "m": "05. 25. AM 07:00",
+      "ts": 1779692400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "한국개발연구원(KDI)",
+      "t": "엔비디아 생태계에 대한 업계·규제적 대응 현황",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV3cycWNUZ0h0UjZuRmh0ZXkycEVZMDZkV1NTV3dNX3pJUlhuZ0xvMnVvYzc2WjNRVkk4bWJNaFQ3N1pKd2Y1OTYxc041TnNOUGtBcUZpVE9PWU5nbHh6RHNoV1RiQTYxVmhkMGVCSjFPTlhpUnJ1T0Vza3RHZ2dwbw?oc=5",
+      "m": "05. 20. AM 10:52",
+      "ts": 1779274329000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "이뉴스투데이",
+      "t": "엔비디아 中 규제에 주춤···구글 ‘TPU 동맹’으로 GPU 아성 겨냥",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZZXphNHRqWXNvWVh6NnItVElWdlY1dGk1Y0hHazFmVGZ3ZzhWYk1sYWdVSVFKdjFvQzR2eHRhZkltT0dtazF2R0ZWMjA3R3JWaDk0c29vdS10ajdjLWFZNm5NVF9NWFlBQW5WYm5lZ03SAXRBVV95cUxQd1hFUFYxLUFGc2w1VE00X3NaQXMxTkJUQkRUdUdGbEJnX094dDVWNUJyZ3R4bTdIM1FpaFlKVi1tLTFOYmUtZU1aSlJlMkprUXVoWXF0NVc1VlVDR1hoN3pUT09FZWl6S1NSNk9RbDJyYnNsZw?oc=5",
+      "m": "05. 19. AM 07:00",
+      "ts": 1779174000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "더퍼블릭",
+      "t": "‘이변’은 없었다…사실상 ‘반도체 노딜’로 마무리된 美中정상회담",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PNDJjejlMR1gxTmllUDJLU09BUm9PRldrNVZhVS1fUHd2cXFjWERLdXlxV053ODBtVW9oQUxMSkZMbmIxbDhVdlNJREFsLUQ0UzlpcWhWWGpEWTRfRFpTc1Rfb1ZYeGlyMUo00gFvQVVfeXFMUFRGR2tVdWxwaXZ2RkowUVNpbGQ1TlQtUGFqOExLbzNNLTlrc25LZEI0cm5OeXVmWEo4V3NENDBGdFozZGJUUmYxWGRucWN6V1Jpdk5KLW9zSjZBb19HdUpqNS1uZG9mc0IycmNET1BB?oc=5",
+      "m": "05. 18. AM 07:00",
+      "ts": 1779087600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "엔비디아 젠슨 황 \"中에 최신 GPU 공급은 제한해야\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0WkhDbk5xaWt3UENFUTlldml6dFdiX3dhOFA3eC1QZ3VNZ0hlOXRXdjZXTUVORExPbDMzWEcxNnJQeHg4dXZhX0VETTItRzUxdXBYaFF3?oc=5",
+      "m": "05. 06. AM 07:00",
+      "ts": 1778050800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "글로벌이코노믹",
+      "t": "엔비디아 '양자 습격'… 삼성·SK 주주라면 꼭 봐야 할 '이 지표' 3가지",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUt6b1VhcF9fd1VmbFVMZmk0R3JOV1hKRVF4MmVidW5yQTVsenFXX0poSlRsVUJBT2FMVkpVaGgtYWFKcTI3dTRjeVZ6UXBrM1M5eVBjQ0tCWXhiT1RaRVJaQ21uejJ5SEEza3ZNN25BaG80OUNnMEgtWWladE55ZU5UZVZwTnA1?oc=5",
+      "m": "05. 04. AM 07:00",
+      "ts": 1777878000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "중기이코노미",
+      "t": "엔비디아, 중국 시장 점유율 0퍼센트 추락…왜?",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9udi0xWnBLYkFaYTR2MlRMaFNtcmZJcHIyclhmZkdRTjZrZEg2cFBHZ2h5S3ZiQzJnbVJvTkNFYnJTdVBya3JCVHY1M1dKYzdXbVZmQzQtTWNjbEd5cmktN1Q0RTJjX1dDOVE?oc=5",
+      "m": "05. 04. AM 07:00",
+      "ts": 1777878000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "굿모닝베트남미디어",
+      "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PS1lmakFsQzY5dFVXcmVkbENrUDI0eC01OFB2SE1zVDFsaEp6ODc4NzYxTUZvTzJQaE5JYUQxei1nUFVNT2pTeFYxY1M4YjBWVGFKNVQ2UEVldVlBeGlBX3FrV0N3RVg3clpoYWpySnk?oc=5",
+      "m": "05. 04. AM 07:00",
+      "ts": 1777878000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "AI포스트",
+      "t": "엔비디아 젠슨 황 \"중국 점유율 0%로 추락\"…美 수출 규제로 中 자급자족 가속화",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyOTlUNGxvUC1Qc3p3ME5Xa0R3WjNHU0t6MEhfbHg5NEY0ZTdYOVN1Rl9IWGFuVjcxVTVsdE1ONHhmS21XUS1xamFmY2g1M2UzQkFaNlVQRU9XU2Vvdm5mVmpydTZxVEhmTkJzdGd30gFyQVVfeXFMTlRBWGFmc1YySi1vb3VxX09XVE1OWkkxazgweFpROE9zZFJlMHU5RW1oNW9PRlVMMnB1NFFWbkNsaWstclBNUDZRaXB3MzdEUlZsYXB4S3ZvSW1DaERKekRyeVRnYmZGNmZLRjdiRVZWNENR?oc=5",
+      "m": "05. 04. AM 07:00",
+      "ts": 1777878000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "한국경제",
+      "t": "젠슨 황 \"엔비디아 중국 점유율 0%\"…美 정부에 '작심발언'",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wR1NvSE1HQ1BmOW1zQXlLTmxvMkIwUi04a2pWYW1rTmNMTUpZNjlQa1ozNHJIMHB4a29xMGpNNWZqM1JDU0RTeVVjWl9aTnh3cGR5SXJBS3J6QdIBVEFVX3lxTFA4aHAtanIyTTY5czFLR3FMRElDSnNmOXZYTVJ1NkUtRExsV1V2SndhczR3aVMxQVhDOXpnRXJ6Nk92LXdKYVFscEFUM0NKb1paRFhZdg?oc=5",
+      "m": "05. 04. AM 07:00",
+      "ts": 1777878000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "초이스스탁",
+      "t": "\"화웨이의 역습\" 엔비디아 빈자리 독점… 삼성·SK엔 '독'일까 '득'일까",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QbWlQczF5YzgtRFpwWHlUUXJUd3JkcmwtdzRQdjRnVWdXbzNMVEhKYnRLbEI0QXRFVTNGM3k0YWJkU2t5MVpZa0t2M1NfSTVfak9qVzYwQkh5Z0N2MnJRZXhVZzNPQzQ?oc=5",
+      "m": "05. 01. AM 07:00",
+      "ts": 1777618800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "v.daum.net",
+      "t": "중국 AI의 본격 독립전쟁, '탈 엔비디아'가 시작됐다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HRXVBeEFxXzJXSld6MlZjR1pRZFU1LVdHalgwR2V5LWhETHFQUXNPYXFZOVFOaHVQX0VJd2x1SkdsNFVfTVppNVJFSExjY0E?oc=5",
+      "m": "04. 24. AM 07:00",
+      "ts": 1777014000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "디지털데일리",
+      "t": "젠슨 황 “美 규제 정책 역효과 우려…하드웨어만으로 中 추격 못막아\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qWms0S095aWxyOEhXcFAwSjktbTgzVXJad1k0VUFNeFZyclV0Z3pMakpPdUZzRUt0dnNPOERvdmR4NjFwLVJFdExIZDU3amVPNHktNk81Tk9mXzZma3VZUVpKb0U?oc=5",
+      "m": "04. 16. AM 07:00",
+      "ts": 1776322800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "시사캐스트",
+      "t": "[정책포커스] 금융위, \"국민성장펀드가 첨단산업 생태계 지원...K-엔비디아 확장\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nR2lha0Z1dFRONUFYMXF0WF9sZHhJa3VLNnl0ckJLZkFwQ3FhWHRmWmtucHd2QnZlRmV2b2tHQXJ4TE9KLUtQd3R0aWdmU2FBZGtDdHktd1VocE5DMG9vS3RHUlJfSzg?oc=5",
+      "m": "04. 16. AM 07:00",
+      "ts": 1776322800000,
+      "_policy": true,
+      "fullText": "Google News"
     }
   ]
 }

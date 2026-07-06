@@ -1,22 +1,48 @@
 {
-  "updatedAt": "2026-07-06T04:53:46.915Z",
+  "updatedAt": "2026-07-06T09:01:09.696Z",
   "count": 40,
   "stats": {
-    "today": 0,
+    "today": 2,
     "yesterday": 0,
-    "weekAvg": 0.3,
+    "weekAvg": 0.6,
     "sources": 31,
-    "heat": "cold"
+    "heat": "cool"
   },
   "items": [
     {
-      "s": "TechCrunch",
-      "t": "IQM, Europe&#8217;s first public quantum company, admits the future of the tech is uncertain",
-      "d": "IQM, a full-stack quantum company out of Finland, went public on the Nasdaq today at a valuation of about $1.9 billion.",
-      "u": "https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain/",
-      "m": "07. 02. PM 08:42",
-      "ts": 1783024968000,
-      "fullText": "IQM , a full-stack quantum company out of Finland, went public on the Nasdaq Thursday via a SPAC merger at a valuation of about $1.9 billion. But share prices didn&#8217;t pop. They spent most the day below the IPO price — a lukewarm welcome. SPAC mergers are often not immediately popular with retail investors these days. But this fizzle was arguably fueled by IQM&#8217;s own admission in its prospectus that “large-scale commercial traction of quantum computing technology may never occur.” In fairness, this warning applies to all quantum companies. Yet, that hasn&#8217;t stopped the industry, including IQM, from acquiring customers, who use the tech as it is today for tasks like simulations and optimizations. IQM, which sells actual physical computers, as well as a cloud service, has customers like VTT Technical Research Centre of Finland and Leibniz Supercomputing Centre in Germany. “We sell computers into advanced supercomputing centers and data centers, and we sell computing time through the cloud,” its CEO and co-founder Jan Goetz told TechCrunch. Having grown from eight customers in 2024 to 22 in 2025 is a fair motive for celebration in IQM’s circles, especially when two recent customers are from the private sector. But it also suggests that demand won’t scale until the “quantum advantage” — when quantum chips start outperforming classical computers for a larger range of complex and lengthy tasks, unlocking use cases from biotech to fintech, while potentially upending encryption. But no one, not even a company making quantum computers, can say when that might be. This hasn’t stopped investors from doubling down on quantum companies public and private, further encouraged by President Trump’s recent executive orders to accelerate the timeline for quantum. In response, the U.S. Department of Energy (DOE) has committed to deploying “the world’s first fault-tolerant, scientifically relevant quantum computer” by 2028. While this follows similar announcements from Fra"
+      "s": "전자신문",
+      "t": "비드래프트, 실제 양자컴퓨터로 대칭키 암호 구조 해독 실증",
+      "d": "AI 전문기업 비드래프트는 IBM 156큐빗 실제 양자컴퓨터 'ibm_kingston'에서 대칭키 암호의 대표 구조인 Even-Mansour와 Feistel 축소 구조를 대상으로 양자 암호분석 실증에 성공했다고 밝혔다. 이번 실험의 핵심은 암호 구조 안에 숨어 있는 '주기'를 실제 양자 하드웨어에서 복원한 것이다. 비드래프트는 Simon 알고리즘 기반 실험을 통해 Even-Mansour 구조에서 N=5부터 N=10까지 비밀키를 좌우하는 숨은 주",
+      "u": "https://www.etnews.com/20260706000411",
+      "m": "07. 06. AM 08:13",
+      "ts": 1783325606000,
+      "fullText": "경제 중기·벤처 비드래프트, 실제 양자컴퓨터로 대칭키 암호 구조 해독 실증 발행일 : 2026-07-06 17:13 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 '허깅페이스 공개 퀀텀OS 시뮬레이터'. 사진=비드래프트 AI 전문기업 비드래프트는 IBM 156큐빗 실제 양자컴퓨터 'ibm_kingston'에서 대칭키 암호의 대표 구조인 Even-Mansour와 Feistel 축소 구조를 대상으로 양자 암호분석 실증에 성공했다고 밝혔다. 이번 실험의 핵심은 암호 구조 안에 숨어 있는 '주기'를 실제 양자 하드웨어에서 복원한 것이다. 비드래프트는 Simon 알고리즘 기반 실험을 통해 Even-Mansour 구조에서 N=5부터 N=10까지 비밀키를 좌우하는 숨은 주기를 복원했으며, Feistel 3라운드 축소 구조에서도 블록 크기 6·8 조건에서 은닉 주기를 확인했다. 비드래프트는 인스턴스마다 서로 다른 두 번째 열쇠를 나란히 복원하는 자기검증 절차도 적용했다. 이는 정답을 미리 알고 짜맞춘 실험이 아니라, 실제 양자 실행 결과로 숨은 구조를 찾아냈다는 점을 보여주기 위한 장치다. 다만 회사 측은 이번 성과가 실제 AES나 은행 암호를 깬 것이 아니며, 실제 DES가 아닌 3라운드 축소 Feistel 뼈대를 대상으로 한 개념 증명이라고 선을 그었다. 또한 양자오류정정 없이 잡음 완화 기법만 사용했으며, “양자가 고전을 이겼다”는 주장이 아니라 잡음 많은 실제 양자컴퓨터에서 공격 알고리즘을 전례 없는 규모로 구동했다는 데 의의가 있다고 밝혔다. 비드래프트는 선형 암호, 블록암호/SPN, Even-Mansour, CBC-MAC, Feistel 구조 등 5개 대표 암호 구조에 대한 양자 암호분석 도구도 공개했다. 사용자는 웹 브라우저에서 각 구조가 양자 알고리즘에 의해 어떤 방식으로 취약해질 수 있는지 직접 확인할 수 있다. 김민식 비드래프트 대표는 “양자컴퓨터는 완성되면 신약, 신소재, 보안 등 과학 난제를 가속하는 핵심 도구가 될 것”이라며 “비드래프트는 AI와 양자컴퓨팅을 결합한 실증 연구를 지속하겠다”고 말했다. 비드래프트는 자체 언어모델 Darwin 패밀리와 차세대 아키텍처 AETHER, 신약·소재·행정 도메인 AI를 개발하는 Pre-AGI AI 스타트업이다. 회사는 이번 결과를 기반으로 논문 게재와 외부 검증을 추진할 계획이다. 이원지 기자 news21g@etnews.com",
+      "impact": "positive",
+      "takeaway": "양자컴퓨터 활용 실증으로 기술 상용화 기대감 상승"
+    },
+    {
+      "s": "법률신문",
+      "t": "미국 양자 행정명령 발효",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DNlpEX3JKNjE3T3dqZkVjVkNPTm0xamdJRDljSjhfbzUyektZc1ZXZl9ybVo4VHJkQmVhT0FaLXNnWlJyNjdtNFlxVnNHaGF2Z25UUjgtZXN1QTFra1NOWXZhWUNXUGx1aklaQnB30gFyQVVfeXFMUFgyaW1BUUNOMUxrTG1KWTJfS2JzTERmRzJ6WmowQ0VCZUJyQXZLZGdPY3dsVFJPckg5bnBxMkJrbFlPUkxzTndZVnVtTlJWMENTX25rc05TRTNHeGM2ZXBhNGZYQTJ1ZjFtVkQ0YmE5VjVB?oc=5",
+      "m": "07. 06. AM 04:41",
+      "ts": 1783312901000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "미국 양자 행정명령 발효로 글로벌 투자 매력도 상승"
+    },
+    {
+      "s": "얼리어답터뉴스",
+      "t": "나노와이어 양자컴퓨터의 현실화, 한국 산업에 주는 의미",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1RRFIxcDBwdFV1WjNWSllpYktBNVJUcFRsMTZ3SEFoTFBWd0h5OTJBRDlXVnFNOU1GUGV6amRxVTg5M0E?oc=5",
+      "m": "07. 01. PM 11:39",
+      "ts": 1782949182000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "나노와이어 기반 양자컴퓨터 상용화가 한국 기술 경쟁력 강화"
     },
     {
       "s": "양자신문",
@@ -26,7 +52,9 @@
       "m": "06. 29. PM 11:20",
       "ts": 1782775200000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "미국 대학 연구 확대가 양자 기술 전반에 기여하지만 국내 직접 영향은 제한적"
     },
     {
       "s": "TradingKey",
@@ -36,7 +64,9 @@
       "m": "06. 27. AM 07:00",
       "ts": 1782543600000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "트럼프 행정명령으로 양자주가 급등, 투자 관심이 크게 확대"
     },
     {
       "s": "cio.com",
@@ -46,7 +76,9 @@
       "m": "06. 25. AM 06:25",
       "ts": 1782368737000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "미국 PQC 의무화와 양자 기술 육성 정책이 시장 성장 동력을 제공"
     },
     {
       "s": "CNBC Tech",
@@ -55,7 +87,9 @@
       "u": "https://www.nbcnews.com/video/physicist-reacts-to-trump-executive-order-calling-for-a-quantum-computer-265578565584",
       "m": "06. 24. AM 01:54",
       "ts": 1782266054000,
-      "fullText": "Iranians mourn former supreme leader"
+      "fullText": "Iranians mourn former supreme leader",
+      "impact": "neutral",
+      "takeaway": "해당 기사 내용이 투자와 직접 연결되지 않아 영향은 중립적"
     },
     {
       "s": "파이낸셜포스트",
@@ -65,7 +99,9 @@
       "m": "06. 23. AM 07:00",
       "ts": 1782198000000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "라온시큐어 등 국내 기업이 양자 보안 분야에서 투자 기회 확보"
     },
     {
       "s": "네이버 프리미엄콘텐츠",
@@ -75,7 +111,9 @@
       "m": "06. 23. AM 02:17",
       "ts": 1782181020000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "양자컴퓨팅이 AI 뒤 정책 핵심으로 부상해 관련주 상승 기대감"
     },
     {
       "s": "양자신문",
@@ -85,7 +123,9 @@
       "m": "06. 22. PM 11:30",
       "ts": 1782171000000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "양자 기반 우주 인프라 사업이 확대돼 장기 성장 잠재력 상승"
     },
     {
       "s": "NVIDIA공식",
@@ -167,16 +207,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "법률신문",
-      "t": "양자기술산업법 개정안 국무회의 통과 양자보안체계 구축 의무화·양자기술 활용사업 영향평가 본격 도입",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUR0FXYV9ITkZzMUFXMHAzbWxZR3E4Qmk3MExDU21rVlRXZ1Q3Yk1pOEpaeVpZa0R3ZmFvR3J4Z3pSZ21tQV9MbUc2aFRGeVF5dWY1NEtTc3hJTERfZ3VMTGhDcEV4NVpfTG1lMEVB0gFyQVVfeXFMUFVudDFjaU9ocEhPZ0VUdmV0bS1ybW52QzUzVnBQRWRPUVBta0xsTXdZSFc1aXNyazNMT09uQzVxTXJNSE1KQjJXdldvMXk3NGpRNkdTZnNpRGJOVXl0b2tYZFI2Ykc3eGZQeFNEdWFCQ3Nn?oc=5",
-      "m": "05. 26. AM 07:00",
-      "ts": 1779778800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "인포스탁데일리",
       "t": "[테마시황] 양자컴퓨팅 테마, 美 정책 기대감에 랠리",
       "d": "",
@@ -191,6 +221,16 @@
       "t": "양자컴퓨터주 왜 또 불붙었나, 포톤·드림시큐리티·엑스게이트가 뛴 이유",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4UEpFcURxakZZNERXVmJQc3BQVVFQd0NRX2hEMEp0UmVObzlaWFlaQjZBZ0gxblNpVkpZLUUxQ2FabldIcGdNa3lvLVRhLW9yc1hLZGs4TkwxeUh3M2N1RjZtaEQ?oc=5",
+      "m": "05. 26. AM 07:00",
+      "ts": 1779778800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "법률신문",
+      "t": "양자기술산업법 개정안 국무회의 통과 양자보안체계 구축 의무화·양자기술 활용사업 영향평가 본격 도입",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUR0FXYV9ITkZzMUFXMHAzbWxZR3E4Qmk3MExDU21rVlRXZ1Q3Yk1pOEpaeVpZa0R3ZmFvR3J4Z3pSZ21tQV9MbUc2aFRGeVF5dWY1NEtTc3hJTERfZ3VMTGhDcEV4NVpfTG1lMEVB0gFyQVVfeXFMUFVudDFjaU9ocEhPZ0VUdmV0bS1ybW52QzUzVnBQRWRPUVBta0xsTXdZSFc1aXNyazNMT09uQzVxTXJNSE1KQjJXdldvMXk3NGpRNkdTZnNpRGJOVXl0b2tYZFI2Ykc3eGZQeFNEdWFCQ3Nn?oc=5",
       "m": "05. 26. AM 07:00",
       "ts": 1779778800000,
       "_policy": true,
@@ -327,6 +367,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "경북매일",
+      "t": "비트코인 반토막···양자컴퓨터 ‘보안 위협’ 부상",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXZ3JIckNPeFBjbHZYMFZOZk54YU9peUtSTm1GOUZEOWJWXzdtbHl4TC10dVdOVXVsRFRDUlpDd012N21oRTJFbUgxS244Zi1GSmUzeGtRWm4yUQ?oc=5",
+      "m": "02. 12. AM 08:00",
+      "ts": 1770883200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "더구루",
       "t": "엔비디아, '국가 양자 이니셔티브' 재승인 촉구…\"AI·양자 기술 융합 필수\"",
       "d": "",
@@ -373,36 +423,6 @@
       "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN3ZsZUpsck1rYlZrSFg3ZlR6V2ZYQ0dVaGxMbFJmNnFBQjBwRDZ0SGZEazRsRm54cF92U2o4bnhMX2c2TlRlT21vd084VUQ0QTdSLVFSWkk0QnZPTnItQmdIczVCT3ZyNW82S2Z0TWlRWndvQVNhTUFlRDAwalhXVmFSd1lZdDJVZHRSdNIBoAFBVV95cUxPSEdOZzBSZzk0LVhRclJhVmt6dXJrRnJtdG9QclVkeEJHNWtDRGdFbWtkYWlsUkFLRDViS0gxV0QteVp1YUQ0dHhKSHR1WjdJaWFkODFvMFc5cHZXbXVPeVA2amg1Wk5qSjE2bEJYZlo0NDU4Y1F5QmRzWmhJVU5waXhHRGlaVk56SVZsTWptZGNlVkw3ZzgtekdHSTV2eFJJ?oc=5",
       "m": "01. 29. AM 08:00",
       "ts": 1769673600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "중앙일보",
-      "t": "양자 인력 1만명 육성하고 아이온큐 들여온다…국내 첫 양자종합계획 발표",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEZkVSeDhVelN1TVYyTmZ4N1Y4Y3BnY0lZenRjWDVzSUhzXzZoUzc4MlM1ekNaTlBlWFBreHp5aWZ6WEtIY1BPeUNvMmp6WXkwSnFjWG53?oc=5",
-      "m": "01. 29. AM 08:00",
-      "ts": 1769673600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "에너지데일리",
-      "t": "[해설] 양자기술, 연구를 넘어 ‘국가 인프라’로…법은 왜 다시 고쳐지나",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFeXRSNkdWU1JwNUhuRmEwbWE5RG1QQWhrRXZ2MW5sZ0Q5STFrUG1HWXdjUGxObkVGcnZIYW5ITl8yU3o4ZEZKN1B6SF81b1ppcTN1bE5MOTBSTHlRcXBwV3hSd2lGLTUwWW5ra013TlJqZw?oc=5",
-      "m": "01. 28. AM 08:00",
-      "ts": 1769587200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "에너지데일리",
-      "t": "최민희 의원, 양자기술·산업 육성법 전면 보완 나선다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oWVVkMFFfWTJoQ0hMMnN5dW5nZHZMQjJQaWlhaUUzOThDcEIyQ2tlWlhjcWNPcjh0R1pDa1h5NlZ1YUJYTlZzSUMwZDYta010a2EybVFzU2xxdUxJMENsenQ0czQ3aHZjYXhta1ptc2Njdw?oc=5",
-      "m": "01. 28. AM 08:00",
-      "ts": 1769587200000,
       "_policy": true,
       "fullText": "Google News"
     }

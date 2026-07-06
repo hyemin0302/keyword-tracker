@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-07-06T08:59:29.662Z",
+  "updatedAt": "2026-07-06T12:50:17.874Z",
   "data": {
-    "MBLY": {
-      "name": "Mobileye Global Inc.",
-      "px": 9.57,
-      "dayChange": -1.03,
-      "periodChange": -10.89,
-      "prices": [
-        10.74,
-        10.54,
-        9.47,
-        9.69,
-        9.33,
-        9.14,
-        9.58,
-        9.34,
-        9.53,
-        9.62,
-        8.73,
-        8.46,
-        8.34,
-        7.94,
-        7.79,
-        7.86,
-        7.81,
-        8.3,
-        9.68,
-        9.67,
-        9.57
-      ],
-      "dates": [
-        "2026-06-03",
-        "2026-06-04",
-        "2026-06-05",
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02"
-      ],
-      "volume": 6034544,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 20.18,
-        "low52w": 6.47,
-        "volume": 6034544
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "GOOGL": {
       "name": "알파벳(구글)",
       "px": 359.91,
@@ -123,6 +60,69 @@
         "high52w": 408.61,
         "low52w": 172.77,
         "volume": 25999346
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "MBLY": {
+      "name": "Mobileye Global Inc.",
+      "px": 9.57,
+      "dayChange": -1.03,
+      "periodChange": -10.89,
+      "prices": [
+        10.74,
+        10.54,
+        9.47,
+        9.69,
+        9.33,
+        9.14,
+        9.58,
+        9.34,
+        9.53,
+        9.62,
+        8.73,
+        8.46,
+        8.34,
+        7.94,
+        7.79,
+        7.86,
+        7.81,
+        8.3,
+        9.68,
+        9.67,
+        9.57
+      ],
+      "dates": [
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02"
+      ],
+      "volume": 6034544,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 20.18,
+        "low52w": 6.47,
+        "volume": 6034544
       },
       "investorFlow": null,
       "consensus": null
@@ -241,7 +241,7 @@
         "2026-07-03",
         "2026-07-06"
       ],
-      "volume": 827571,
+      "volume": 793947,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -266,6 +266,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260706",
+            "foreigner": -15211,
+            "institution": 53728,
+            "individual": -36659,
+            "foreignRatio": "24.91%"
+          },
           {
             "date": "20260703",
             "foreigner": 76257,
@@ -328,22 +335,15 @@
             "institution": -103280,
             "individual": 373659,
             "foreignRatio": "25.06%"
-          },
-          {
-            "date": "20260622",
-            "foreigner": -272235,
-            "institution": -145566,
-            "individual": 418152,
-            "foreignRatio": "25.21%"
           }
         ],
         "sum5d": {
-          "foreigner": 35601,
-          "institution": 101084
+          "foreigner": 26325,
+          "institution": 158240
         },
         "sum10d": {
-          "foreigner": -892774,
-          "institution": -98519
+          "foreigner": -635750,
+          "institution": 100775
         }
       },
       "consensus": null
@@ -425,6 +425,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260706",
+            "foreigner": -40507,
+            "institution": 33806,
+            "individual": -11543,
+            "foreignRatio": "36.91%"
+          },
+          {
             "date": "20260703",
             "foreigner": 60009,
             "institution": -27693,
@@ -486,22 +493,15 @@
             "institution": -68706,
             "individual": -62692,
             "foreignRatio": "36.81%"
-          },
-          {
-            "date": "20260622",
-            "foreigner": 1597,
-            "institution": -98149,
-            "individual": 72027,
-            "foreignRatio": "36.67%"
           }
         ],
         "sum5d": {
-          "foreigner": 24698,
-          "institution": -8440
+          "foreigner": 9533,
+          "institution": 15509
         },
         "sum10d": {
-          "foreigner": 242417,
-          "institution": -293804
+          "foreigner": 200313,
+          "institution": -161849
         }
       },
       "consensus": null
@@ -583,6 +583,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260706",
+            "foreigner": -557,
+            "institution": -6497,
+            "individual": 7608,
+            "foreignRatio": "23.84%"
+          },
+          {
             "date": "20260703",
             "foreigner": 65459,
             "institution": -42416,
@@ -644,22 +651,15 @@
             "institution": -38214,
             "individual": -42971,
             "foreignRatio": "22.83%"
-          },
-          {
-            "date": "20260622",
-            "foreigner": 55251,
-            "institution": -4372,
-            "individual": -46914,
-            "foreignRatio": "22.44%"
           }
         ],
         "sum5d": {
-          "foreigner": 191714,
-          "institution": -96472
+          "foreigner": 148702,
+          "institution": -90534
         },
         "sum10d": {
-          "foreigner": 358194,
-          "institution": -172676
+          "foreigner": 302386,
+          "institution": -174801
         }
       },
       "consensus": null

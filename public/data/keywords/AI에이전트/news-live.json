@@ -1,14 +1,49 @@
 {
-  "updatedAt": "2026-07-07T05:37:52.809Z",
+  "updatedAt": "2026-07-07T09:37:55.160Z",
   "count": 40,
   "stats": {
-    "today": 2,
-    "yesterday": 13,
+    "today": 5,
+    "yesterday": 11,
     "weekAvg": 3.4,
-    "sources": 28,
-    "heat": "cool"
+    "sources": 27,
+    "heat": "warm"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "ECB Asks Banks for Plans to Address AI Cybersecurity Threats",
+      "d": "Europe’s banking regulator asked banks to come up with plans to address the growing threat from frontier artificial intelligence models such as Anthropic PBC’s Claude Mythos to cybersecurity.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-07/ecb-asks-banks-for-plans-to-address-ai-cybersecurity-threats",
+      "m": "07. 07. AM 09:00",
+      "ts": 1783414800000,
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "AI 보안 위협 대응 요구가 투자 심리를 위축한다"
+    },
+    {
+      "s": "테크M",
+      "t": "[글로벌] 바이트댄스·알리바바, 개인화 AI 에이전트 중단...中 AI 규제 강화 영향",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2U2ZFOEJrYkQza3pzTzU4Xzd6LXBRbjRfTnJPTFJibHpxYXAyWnJMQjdUTkUyZU5VX2lrQndGR21fdmd3VXVoRVFOalpxMmROellUZldnaVRaQkl5R1VWbk9tRkluZVRVeXfSAWpBVV95cUxQdlNmRThCa2JEM2t6c081OF83ei1wUW40X05yT0xSYmx6cWFwMlpyTEI3VE5FMmVOVV9pa0J3RkdtX3Znd1V1aEVRTmpacTJkTnpZVGZXZ2lUWkJJeUdVVm5PbUZJbmVUVXl3?oc=5",
+      "m": "07. 07. AM 07:47",
+      "ts": 1783410466000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "중국 규제로 주요 AI 에이전트 서비스가 중단돼 성장에 제동"
+    },
+    {
+      "s": "네이트",
+      "t": "'중국판 CES', 美 규제 넘은 AI기술 뽐낸다…화웨이 초대형서버 첫선",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZYkJmRUJOb29sYllOYXpFQ0pGX2dQMFk4Y3ZISU9NaHEtLUxjVTY5M19OeU44RHA0T2FWQmV2U1UyRTVFeXdndW5HVWthODR2TmI4?oc=5",
+      "m": "07. 07. AM 06:27",
+      "ts": 1783405620000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "화웨이 초대형 서버 출시는 AI 에이전트 인프라 확대에 긍정적"
+    },
     {
       "s": "IT타임스",
       "t": "AI 에이전트 시대 겨냥…미드나잇, '합리적 프라이버시' 전략 공개",
@@ -19,7 +54,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "AI 에이전트 시대가 도래하는 것에 대한 경각심을 높여줌"
+      "takeaway": "프라이버시 전략 공개가 AI 에이전트 시장 신뢰를 높인다"
     },
     {
       "s": "AI라이프경제",
@@ -30,19 +65,8 @@
       "ts": 1783387185000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "AI 국가대표 4팀의 경쟁이 더욱激화될 것"
-    },
-    {
-      "s": "조선일보",
-      "t": "SK하이닉스 미국 상장, 전직 오픈AI 연구원도 투자",
-      "d": "",
-      "u": "https://www.chosun.com/economy/stock-finance/2026/07/07/UMDSYVBGIBGQ7GC73IUDPQJINE/",
-      "m": "07. 06. PM 11:56",
-      "ts": 1783382184000,
-      "fullText": "",
-      "impact": "positive",
-      "takeaway": "SK하이닉스 미국 상장에 오픈AI 연구원이 투자하는 것은 긍정적인 신호"
+      "impact": "neutral",
+      "takeaway": "정부 주도 AI 에이전트 경쟁이 시장에 직접적 영향을 미치지 않는다"
     },
     {
       "s": "TechCrunch",
@@ -53,7 +77,7 @@
       "ts": 1783382174000,
       "fullText": "Last week, researchers at cloud security firm Sysdig said they&#8217;d documented the first known case of &#8220;agentic ransomware.&#8221; It was an extortion operation, dubbed JadePuffer, in which an AI agent — not a human — handled the technical execution of a real-world cyberattack from start to finish. The agent broke into a vulnerable server, stole credentials, moved through the target&#8217;s network, encrypted files, and even wrote its own ransom note, adapting to obstacles along the way like a human hacker would. Coverage of the funding described it as run &#8220;without any human oversight,&#8221; with &#8220;no human at the keyboard.&#8221; That&#8217;s not quite the full picture. In an interview on Monday with CyberScoop, Sysdig&#8217;s Michael Clark, the company&#8217;s senior director of threat research, clarified that a human was still very much involved — just not in the technical execution. &#8220;A human still set up and pointed the operation and provisioned the infrastructure behind it, the command-and-control server, the staging server used for the stolen data and chose a victim,&#8221; Clark said. The credentials used to break into the victim&#8217;s database, he added, weren&#8217;t harvested by the AI agent itself; someone obtained them separately, through a prior compromise, and handed them to the operation. None of this contradicts Sysdig&#8217;s original claim, and the technical details of the attack remain notable on their own — wild, even. The agent got in through a known bug in Langflow , a popular open-source tool for building LLM apps, then moved on to a production MySQL server and exploited another known flaw to gain admin access. It encrypted over 1,300 configuration records and not only left behind a ransom note that it wrote itself but it left a Bitcoin address where the ransom could be sent. Sysdig hasn&#8217;t disclosed who was targeted. The techniques were fairly ordinary apparently, what stood out was the speed and transparency",
       "impact": "negative",
-      "takeaway": "AI 에이전트가 ransomware 공격을 수행하는 것은 부정적인 시나리오"
+      "takeaway": "AI 악용 사례가 보안 우려를 증폭시켜 투자 위험을 높인다"
     },
     {
       "s": "얼리어답터뉴스",
@@ -64,8 +88,8 @@
       "ts": 1783372756000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "AI 서비스 규제 개혁은 시장 진입을 가속화시키고 소비자 보호 과제를 제기함"
+      "impact": "positive",
+      "takeaway": "규제 완화가 AI 에이전트 시장 진입을 촉진해 성장 기대감 상승"
     },
     {
       "s": "TechCrunch",
@@ -75,8 +99,8 @@
       "m": "07. 06. PM 03:22",
       "ts": 1783351328000,
       "fullText": "In Brief Posted: 8:22 AM PDT · July 6, 2026 Image Credits: TechCrunch Amanda Silberling Reddit is using LLMs to solve a problem LLMs largely created It&#8217;s easier than ever for bad actors to spew spam across the internet as powerful large language models (LLMs) become effortlessly accessible. If you&#8217;ve spent about 10 minutes on the internet in the last few years, you will know that this means spam and bot content have become an even bigger problem than they already were. Reddit says it developed tools with LLMs to cut down on spam, much of which was created with LLMs in the first place. It&#8217;s a bit ironic, but in the AI era, platforms have no choice but to fight fire with fire. According to the platform, Reddit blocks 23 million spam views per day and catches about 25,000 new spam posts and comments each day. Social platforms have been building automated spam reduction tools for years, but Reddit says these updated tools are catching spam at a higher rate. &#8220;We leverage LLMs to catch the highly subtle, coordinated patterns of fake behavior and artificial hype that older systems once missed,&#8221; a Reddit blog post says. The company claims it reduced users&#8217; exposure to spam by 20% from January to March compared with the prior three months. Platforms like YouTube, Meta, and Instagram allow users to post AI-generated content so long as they disclose it, and TikTok is going as far as letting users toggle how much AI-generated content they want to see. If platforms are able to detect AI-generated content faster, that also means that they have the potential to flag violative content like hate speech more quickly. But platform experts have continually reminded us that AI content moderation must be paired with human moderation to get the most effective results . Topics AI , In Brief , Reddit , Social November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling ins",
-      "impact": "negative",
-      "takeaway": "LLMs가 만든 문제를 해결하기 위해 Reddit이 LLMs를 사용하는 것은 부정적인 시나리오"
+      "impact": "positive",
+      "takeaway": "Reddit의 LLM 활용이 실제 서비스 가치를 입증해 시장 긍정"
     },
     {
       "s": "IT조선",
@@ -88,7 +112,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "중국에서 AI 규제 강화로 바이트댄스와 알리바바가 개인화 AI 서비스를 중단함"
+      "takeaway": "중국 규제로 AI 서비스가 중단돼 투자 매력이 감소한다"
     },
     {
       "s": "AI타임스",
@@ -100,7 +124,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "바이트댄스와 알리바바가 AI 페르소나 서비스를 중단하는 것은 부정적인 신호"
+      "takeaway": "규제 선제 대응으로 AI 페르소나 서비스가 중단돼 시장 위축"
     },
     {
       "s": "한겨레",
@@ -110,9 +134,7 @@
       "m": "07. 06. AM 08:52",
       "ts": 1783327920000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "중국에서 더우바오와 첸원이 AI 에이전트 기능을 중단하는 것은 부정적인 시나리오"
+      "fullText": "Google News"
     },
     {
       "s": "v.daum.net",
@@ -122,9 +144,7 @@
       "m": "07. 06. AM 06:24",
       "ts": 1783319059000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "중국에서 바이트댄스와 알리바바가 개인화 AI 에이전트를 중단하는 것은 부정적인 신호"
+      "fullText": "Google News"
     },
     {
       "s": "연합뉴스TV",
@@ -153,16 +173,6 @@
       "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4YWx4UEROVm5qV28tZGk2WU1TNG8tTnh3SzA4RTVyOEZrbEV5SlU3OXFmMXBvMmw0LWJXN3lrdEl4aGdNS2ZvaGgzc0xpTUU?oc=5",
       "m": "07. 06. AM 01:25",
       "ts": 1783301140000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "데일리머니",
-      "t": "솔트룩스, 국토부 주관 'K-AI 시티' 사업 참여를 통한 미래 AI 플랫폼 모멘텀 확보 -&gt; 독자 LLM 기반 AI 에이전트 기술의 공공 및 에너지 분야 침투 본격화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tY3cxN0ZwWDRVOThwVk9aUHExX1NSQUpHMFI5TWJkb1VXNllFbDI5VXhTd0E2aFNfTlJrTWg2SDY2aFpBWjU3UlVTRTA0SEttUzhZZjM3OER0UDZZaUx2R055MXFfak84WjU5WW5memVqQQ?oc=5",
-      "m": "07. 06. AM 12:43",
-      "ts": 1783298601000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -232,16 +242,6 @@
       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDNks5TkdZcURNVUhMVEtVaEJYZk1VX1dhckhZaHNpWXVKQmNTSTgxT2NfVmxMOExWTzFNX05qVnRDODdnM2YtemVPV2dXMmVBOGE3YmdYRml4SjjSAWBBVV95cUxQZkRWNzVNY2szWWJtTVhyOHdmd3RXc0lwRTZIc2pSaUJpbExUdjhFamhrTTR4eXhyblBYU3Z2N0gwYlNMZnBaSERTdjdCQUc4NEp2cC1MYmMxSzdVTTB4eXI?oc=5",
       "m": "07. 01. AM 04:54",
       "ts": 1782881688000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지티티코리아",
-      "t": "AI 연결 시스템 인증 실패, 기업 과징금 부르는 새 규제 리스크",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fcFIyYnBIQ3RxMGpZdU9ROWo1NGlXVG15a3o0WlVLcG4wVlZBbUllYXF3bUNhMGw2NkVmT01CZzFlQll4NVNUUzB2cUtfTHlXMS1ROXhJWkRYY0dlYjVzTlpyZHhNMDVhZXc?oc=5",
-      "m": "06. 30. PM 11:30",
-      "ts": 1782862200000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -331,42 +331,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "디일렉",
-      "t": "윤석원 에이아이웍스 대표 \"공공 AI, 확인에서 신뢰성 평가로\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xd1Zsa2FUNWY4TDA3SG5nLXQxVE5Ed2NhN2RVRGJCT3lJdVQwdHhXbFVXTndRWE1TZE9rNFotaWFuQ2hFRkxySGw5MDF1TFVLOWgwQmhuM05LWk9aNDBBUFRJNUczUQ?oc=5",
-      "m": "06. 22. AM 07:04",
-      "ts": 1782111860000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "전자신문",
       "t": "지정권 세일포인트 지사장 “AI 에이전트도 입·퇴사 관리해야”",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oVjRab1BBckhTNERVcmFvcE8tMlZyS0JTT1d3bjBPTVB4NHFvMUhyZ21FMk9PbHlRTWYzejFLakFjci1RNk8xbFlKSm5Ddw?oc=5",
       "m": "06. 19. AM 07:00",
       "ts": 1781852400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "마켓인",
-      "t": "금융 AI 에이전트 시대 연다…망분리·데이터 규제 손질",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81VU5XN2dKM1ZxZGI3R196NHliMXA4eVMzS0g2Z1BzZFlQOG5iMFpjdXUxVEV4NTlfVmd5TnBqakRham00SlkwU3d2QjViVjdjWGtoTUVtZlZwQ196b2M2aU1lNWd6a283M3RzUWRNVS1pclE?oc=5",
-      "m": "06. 18. AM 07:00",
-      "ts": 1781766000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "아주경제",
-      "t": "금융권 AI 에이전트 도입 본격화…금융위, 망분리·데이터 규제 손질",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uWXM0TmxXdmJHYnczRmNUNXJMeUtpME9zNnBlT0xJZml3azMydHIyTFJtQ0daSlB5cGVQVUF5bzNwNWp6REhua2lCQmRvcHpMV3Q0WXhETjdOd9IBWEFVX3lxTFBOSU5MMnJVM0ZTZDVkVE4xWU9VazNYblowd2w2aGNWbjdySzA4a01raFFydlk0UDN4d1pBeXJFekFFZklPd2hRY3FxZUJLR19ISHE4dHJ4ZHo?oc=5",
-      "m": "06. 18. AM 07:00",
-      "ts": 1781766000000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -391,6 +361,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "마켓인",
+      "t": "금융 AI 에이전트 시대 연다…망분리·데이터 규제 손질",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81VU5XN2dKM1ZxZGI3R196NHliMXA4eVMzS0g2Z1BzZFlQOG5iMFpjdXUxVEV4NTlfVmd5TnBqakRham00SlkwU3d2QjViVjdjWGtoTUVtZlZwQ196b2M2aU1lNWd6a283M3RzUWRNVS1pclE?oc=5",
+      "m": "06. 18. AM 07:00",
+      "ts": 1781766000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "지티티코리아",
       "t": "AI 에이전트도 ID 관리 대상...권한·책임자·접근 범위 통합 관리",
       "d": "",
@@ -401,10 +381,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "전자신문",
-      "t": "더그래프 생태계, AI 에이전트 결제 논의 본격화… 체인링크·TRM 랩스 참여",
+      "s": "디일렉",
+      "t": "카카오, 카톡 연동 AI에이전트 개발 대회 개최...총상금 2700만원",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yaEVkN3ZYR3BaMkZNTWNscHRJbXVHWXN2QVhQNldoWF9KakRoS3ZkN3k0ZU83Q2VtMmtkSWdfQ0tZMmQ5YlIxd0dqUnRsUQ?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjWmNieW9uZnlYUlRaTE5VNjFyOWF1V3djeFNJelVPMWZvalVseWdEakh5UEx1aG1PS1pVX0F2RVZndGpoNGN0YUwtQXQ5bTRtRjRYRG5ablhVdGxfb0ZjeE1mSlVjQQ?oc=5",
       "m": "06. 17. AM 07:00",
       "ts": 1781679600000,
       "_policy": true,
@@ -417,6 +397,26 @@
       "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWTW0yRWtic2NoRHB2d0VibXdQaGFPMWg2aFhuZmhPUHA3OGY2X0JzNjRFU0hvSWFzQURLSnF4aU5lckhZZTZVQk84UGNFZFprem5z?oc=5",
       "m": "06. 16. AM 08:35",
       "ts": 1781598957000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "데이터넷",
+      "t": "[AI 거버넌스①] AI 에이전트, ‘업무 실행 주체’로 부상 ··· 권한 관리가 AX 성패 가른다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10SHZlM3dLMkstN3lQWjdfTTg3X2hfa3J4M1NCbTB0SFl0LWZEX2R6ZXpwVjFhaUNSMHBvY2NyVVcwWFpqQlYxRVRxenRMbFdlckZjLUFUTkFiNWhIaTNWczZxQlFqQlVHUFJwQw?oc=5",
+      "m": "06. 16. AM 07:00",
+      "ts": 1781593200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지티티코리아",
+      "t": "AI 오판·조작 공격 검증...유럽연합 AI법 대응 보안 테스트",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zS3oyaG1Mb3dKazR2VWt1a3NQcEtKUUJtZ2FFX2QtSWdiWF9KdlpaNmZUWjJnaVdFUFdDNVlyTkNxcjRwQmhxNzc3eVB0ZFhYSzZSZVFpNkN1NUFoWTRSNjBKa01zSlJCMHc?oc=5",
+      "m": "06. 16. AM 07:00",
+      "ts": 1781593200000,
       "_policy": true,
       "fullText": "Google News"
     }

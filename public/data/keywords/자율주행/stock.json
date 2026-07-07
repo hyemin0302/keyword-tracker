@@ -1,65 +1,6 @@
 {
-  "updatedAt": "2026-07-07T05:33:51.502Z",
+  "updatedAt": "2026-07-07T09:34:18.049Z",
   "data": {
-    "MBLY": {
-      "name": "Mobileye Global Inc.",
-      "px": 10,
-      "dayChange": 4.49,
-      "periodChange": 3.2,
-      "prices": [
-        9.69,
-        9.33,
-        9.14,
-        9.58,
-        9.34,
-        9.53,
-        9.62,
-        8.73,
-        8.46,
-        8.34,
-        7.94,
-        7.79,
-        7.86,
-        7.81,
-        8.3,
-        9.68,
-        9.67,
-        9.57,
-        10
-      ],
-      "dates": [
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06"
-      ],
-      "volume": 7223736,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 20.18,
-        "low52w": 6.47,
-        "volume": 7223736
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "TSLA": {
       "name": "테슬라",
       "px": 419.77,
@@ -178,11 +119,70 @@
       "investorFlow": null,
       "consensus": null
     },
+    "MBLY": {
+      "name": "Mobileye Global Inc.",
+      "px": 10,
+      "dayChange": 4.49,
+      "periodChange": 3.2,
+      "prices": [
+        9.69,
+        9.33,
+        9.14,
+        9.58,
+        9.34,
+        9.53,
+        9.62,
+        8.73,
+        8.46,
+        8.34,
+        7.94,
+        7.79,
+        7.86,
+        7.81,
+        8.3,
+        9.68,
+        9.67,
+        9.57,
+        10
+      ],
+      "dates": [
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06"
+      ],
+      "volume": 7223736,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 20.18,
+        "low52w": 6.47,
+        "volume": 7223736
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "011070": {
       "name": "LG Innotek",
-      "px": 783000,
-      "dayChange": -8.42,
-      "periodChange": -28.49,
+      "px": 814000,
+      "dayChange": -4.8,
+      "periodChange": -25.66,
       "prices": [
         1095000,
         1137000,
@@ -205,7 +205,7 @@
         874000,
         872000,
         855000,
-        783000
+        814000
       ],
       "dates": [
         "2026-06-08",
@@ -231,16 +231,16 @@
         "2026-07-06",
         "2026-07-07"
       ],
-      "volume": 178150,
+      "volume": 329090,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "18조 7,207억",
-        "per": "38.62배",
-        "pbr": "3.08배",
-        "cnsPer": "22.39배",
-        "divYield": "0.24%",
+        "marketCap": "19조 2,650억",
+        "per": "39.74배",
+        "pbr": "3.17배",
+        "cnsPer": "23.04배",
+        "divYield": "0.23%",
         "foreignRatio": "23.88%",
         "high52w": "1,814,000",
         "low52w": "146,700",
@@ -256,6 +256,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260707",
+            "foreigner": 131815,
+            "institution": -98624,
+            "individual": -33268,
+            "foreignRatio": "24.44%"
+          },
           {
             "date": "20260706",
             "foreigner": -557,
@@ -318,191 +325,24 @@
             "institution": -26077,
             "individual": -9123,
             "foreignRatio": "22.99%"
-          },
-          {
-            "date": "20260623",
-            "foreigner": 81355,
-            "institution": -38214,
-            "individual": -42971,
-            "foreignRatio": "22.83%"
           }
         ],
         "sum5d": {
-          "foreigner": 148702,
-          "institution": -90534
+          "foreigner": 252540,
+          "institution": -189759
         },
         "sum10d": {
-          "foreigner": 302386,
-          "institution": -174801
-        }
-      },
-      "consensus": null
-    },
-    "012330": {
-      "name": "Mobis",
-      "px": 475000,
-      "dayChange": -7.77,
-      "periodChange": -22.39,
-      "prices": [
-        612000,
-        595000,
-        570000,
-        576000,
-        607000,
-        640000,
-        660000,
-        631000,
-        603000,
-        612000,
-        569000,
-        510000,
-        509000,
-        513000,
-        486500,
-        502000,
-        500000,
-        494000,
-        492000,
-        494000,
-        515000,
-        475000
-      ],
-      "dates": [
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-19",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-03",
-        "2026-07-06",
-        "2026-07-07"
-      ],
-      "volume": 281833,
-      "currency": "KRW",
-      "state": "CLOSED",
-      "market": "KR",
-      "fundamentals": {
-        "marketCap": "43조 6,424억",
-        "per": "12.56배",
-        "pbr": "0.85배",
-        "cnsPer": "10.48배",
-        "divYield": "1.35%",
-        "foreignRatio": "36.90%",
-        "high52w": "822,000",
-        "low52w": "279,000",
-        "consensus": {
-          "targetMean": 786000,
-          "targetHigh": null,
-          "targetLow": null,
-          "analysts": null,
-          "recommendation": "4.00",
-          "earningsDate": null,
-          "source": "naver"
-        }
-      },
-      "investorFlow": {
-        "items": [
-          {
-            "date": "20260706",
-            "foreigner": -40507,
-            "institution": 33806,
-            "individual": -11543,
-            "foreignRatio": "36.90%"
-          },
-          {
-            "date": "20260703",
-            "foreigner": 60009,
-            "institution": -27693,
-            "individual": -49086,
-            "foreignRatio": "36.96%"
-          },
-          {
-            "date": "20260702",
-            "foreigner": 11672,
-            "institution": 45751,
-            "individual": -76443,
-            "foreignRatio": "36.88%"
-          },
-          {
-            "date": "20260701",
-            "foreigner": 1118,
-            "institution": -31297,
-            "individual": 17923,
-            "foreignRatio": "36.87%"
-          },
-          {
-            "date": "20260630",
-            "foreigner": -22759,
-            "institution": -5058,
-            "individual": 16937,
-            "foreignRatio": "36.87%"
-          },
-          {
-            "date": "20260629",
-            "foreigner": -25342,
-            "institution": 9857,
-            "individual": 1683,
-            "foreignRatio": "36.93%"
-          },
-          {
-            "date": "20260626",
-            "foreigner": 70948,
-            "institution": -30293,
-            "individual": -64132,
-            "foreignRatio": "36.97%"
-          },
-          {
-            "date": "20260625",
-            "foreigner": 44150,
-            "institution": -29832,
-            "individual": -33239,
-            "foreignRatio": "36.88%"
-          },
-          {
-            "date": "20260624",
-            "foreigner": -2100,
-            "institution": -58384,
-            "individual": 37053,
-            "foreignRatio": "36.84%"
-          },
-          {
-            "date": "20260623",
-            "foreigner": 103124,
-            "institution": -68706,
-            "individual": -62692,
-            "foreignRatio": "36.81%"
-          }
-        ],
-        "sum5d": {
-          "foreigner": 9533,
-          "institution": 15509
-        },
-        "sum10d": {
-          "foreigner": 200313,
-          "institution": -161849
+          "foreigner": 352846,
+          "institution": -235211
         }
       },
       "consensus": null
     },
     "005380": {
       "name": "현대차",
-      "px": 461500,
-      "dayChange": -8.07,
-      "periodChange": -27.78,
+      "px": 479500,
+      "dayChange": -4.48,
+      "periodChange": -24.96,
       "prices": [
         639000,
         639000,
@@ -525,7 +365,7 @@
         482000,
         492000,
         502000,
-        461500
+        479500
       ],
       "dates": [
         "2026-06-08",
@@ -551,16 +391,16 @@
         "2026-07-06",
         "2026-07-07"
       ],
-      "volume": 657084,
+      "volume": 1004027,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "95조 7,243억",
-        "per": "14.41배",
-        "pbr": "1.02배",
-        "cnsPer": "11.87배",
-        "divYield": "2.14%",
+        "marketCap": "98조 1,813억",
+        "per": "14.78배",
+        "pbr": "1.05배",
+        "cnsPer": "12.17배",
+        "divYield": "2.09%",
         "foreignRatio": "24.87%",
         "high52w": "787,000",
         "low52w": "202,000",
@@ -576,6 +416,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260707",
+            "foreigner": -106673,
+            "institution": 24849,
+            "individual": 75849,
+            "foreignRatio": "24.82%"
+          },
           {
             "date": "20260706",
             "foreigner": -15211,
@@ -638,22 +485,175 @@
             "institution": 24930,
             "individual": 175467,
             "foreignRatio": "25.01%"
-          },
-          {
-            "date": "20260623",
-            "foreigner": -273210,
-            "institution": -103280,
-            "individual": 373659,
-            "foreignRatio": "25.06%"
           }
         ],
         "sum5d": {
-          "foreigner": 26325,
-          "institution": 158240
+          "foreigner": -4714,
+          "institution": 207224
         },
         "sum10d": {
-          "foreigner": -635750,
-          "institution": 100775
+          "foreigner": -469213,
+          "institution": 228904
+        }
+      },
+      "consensus": null
+    },
+    "012330": {
+      "name": "Mobis",
+      "px": 495000,
+      "dayChange": -3.88,
+      "periodChange": -19.12,
+      "prices": [
+        612000,
+        595000,
+        570000,
+        576000,
+        607000,
+        640000,
+        660000,
+        631000,
+        603000,
+        612000,
+        569000,
+        510000,
+        509000,
+        513000,
+        486500,
+        502000,
+        500000,
+        494000,
+        492000,
+        494000,
+        515000,
+        495000
+      ],
+      "dates": [
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-06",
+        "2026-07-07"
+      ],
+      "volume": 463685,
+      "currency": "KRW",
+      "state": "CLOSED",
+      "market": "KR",
+      "fundamentals": {
+        "marketCap": "44조 9,126억",
+        "per": "12.93배",
+        "pbr": "0.87배",
+        "cnsPer": "10.78배",
+        "divYield": "1.31%",
+        "foreignRatio": "36.90%",
+        "high52w": "822,000",
+        "low52w": "279,000",
+        "consensus": {
+          "targetMean": 786000,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "4.00",
+          "earningsDate": null,
+          "source": "naver"
+        }
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260707",
+            "foreigner": -7992,
+            "institution": 28548,
+            "individual": -49686,
+            "foreignRatio": "36.89%"
+          },
+          {
+            "date": "20260706",
+            "foreigner": -40507,
+            "institution": 33806,
+            "individual": -11543,
+            "foreignRatio": "36.90%"
+          },
+          {
+            "date": "20260703",
+            "foreigner": 60009,
+            "institution": -27693,
+            "individual": -49086,
+            "foreignRatio": "36.96%"
+          },
+          {
+            "date": "20260702",
+            "foreigner": 11672,
+            "institution": 45751,
+            "individual": -76443,
+            "foreignRatio": "36.88%"
+          },
+          {
+            "date": "20260701",
+            "foreigner": 1118,
+            "institution": -31297,
+            "individual": 17923,
+            "foreignRatio": "36.87%"
+          },
+          {
+            "date": "20260630",
+            "foreigner": -22759,
+            "institution": -5058,
+            "individual": 16937,
+            "foreignRatio": "36.87%"
+          },
+          {
+            "date": "20260629",
+            "foreigner": -25342,
+            "institution": 9857,
+            "individual": 1683,
+            "foreignRatio": "36.93%"
+          },
+          {
+            "date": "20260626",
+            "foreigner": 70948,
+            "institution": -30293,
+            "individual": -64132,
+            "foreignRatio": "36.97%"
+          },
+          {
+            "date": "20260625",
+            "foreigner": 44150,
+            "institution": -29832,
+            "individual": -33239,
+            "foreignRatio": "36.88%"
+          },
+          {
+            "date": "20260624",
+            "foreigner": -2100,
+            "institution": -58384,
+            "individual": 37053,
+            "foreignRatio": "36.84%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": 24300,
+          "institution": 49115
+        },
+        "sum10d": {
+          "foreigner": 89197,
+          "institution": -64595
         }
       },
       "consensus": null
@@ -700,7 +700,7 @@
       -1.49,
       4.18,
       3.7,
-      -4.63
+      -1.39
     ],
     "sp500": [
       0,
@@ -725,65 +725,6 @@
     ]
   },
   "etfs": {
-    "DRIV": {
-      "name": "Global X Autonomous & Electric ",
-      "px": 37.63,
-      "dayChange": 2.42,
-      "periodChange": -3.83,
-      "prices": [
-        39.13,
-        38.65,
-        37.26,
-        38.97,
-        39.76,
-        40.66,
-        39.66,
-        39.17,
-        40.12,
-        40.26,
-        38.32,
-        37.89,
-        38.01,
-        37.05,
-        37.79,
-        38.57,
-        37.82,
-        36.74,
-        37.63
-      ],
-      "dates": [
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06"
-      ],
-      "volume": 27581,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 42.76,
-        "low52w": 23.34,
-        "volume": 27581
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "IDRV": {
       "name": "iShares Self-Driving EV and Tec",
       "px": 38.5528,
@@ -839,6 +780,65 @@
         "high52w": 45.64,
         "low52w": 31,
         "volume": 6732
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "DRIV": {
+      "name": "Global X Autonomous & Electric ",
+      "px": 37.63,
+      "dayChange": 2.42,
+      "periodChange": -3.83,
+      "prices": [
+        39.13,
+        38.65,
+        37.26,
+        38.97,
+        39.76,
+        40.66,
+        39.66,
+        39.17,
+        40.12,
+        40.26,
+        38.32,
+        37.89,
+        38.01,
+        37.05,
+        37.79,
+        38.57,
+        37.82,
+        36.74,
+        37.63
+      ],
+      "dates": [
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06"
+      ],
+      "volume": 27581,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 42.76,
+        "low52w": 23.34,
+        "volume": 27581
       },
       "investorFlow": null,
       "consensus": null

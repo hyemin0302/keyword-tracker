@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-07-07T19:54:51.327Z",
+  "updatedAt": "2026-07-07T21:25:24.626Z",
   "count": 40,
   "stats": {
-    "today": 15,
-    "yesterday": 3,
-    "weekAvg": 3.6,
+    "today": 17,
+    "yesterday": 2,
+    "weekAvg": 3.7,
     "sources": 17,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Andrew Cuomo Discuses Trump Crypto Earnings",
+      "d": "Andrew Cuomo, former New York governor, joins Katie Greifeld and Isabelle Lee on \"Bloomberg Crypto.\" President Trump reported earning at least $1.4 billion in 2025 from crypto and memecoin-related businesses, according to his latest annual financial disclosure.\n (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-07-07/andrew-cuomo-discuses-trump-crypto-earnings-video",
+      "m": "07. 07. PM 08:53",
+      "ts": 1783457602000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Why the rise of open source AI isn&#8217;t hurting Anthropic &#8230; yet",
+      "d": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
+      "u": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "m": "07. 07. PM 08:04",
+      "ts": 1783454672000,
+      "fullText": "On Monday, Decagon CEO Jesse Zhang published a provocative new theory, posted under the title “Everyone is wrong about open source AI in the enterprise.” The post grapples with one of the most interesting contradictions of today’s AI economy: More mature AI deployments are switching to lighter models, he says, even at his own company. But the overall spend on expensive state-of-the-art models has barely budged. It&#8217;s a new way to think about the relationship between frontier and open source models. In Zhang’s telling, they aren’t competitors, and open source models’ success isn’t coming at the expense of frontier labs. Instead, they’re two phases of the same life cycle, with expensive frontier models being used to prove out use cases that can be passed along to cheaper open source alternatives as they mature. As more mature use cases switch to lighter models , new use cases keep arising — and the overall spend on frontier models barely goes down. Zhang doesn’t give much data to support the point, but the data isn&#8217;t hard to find. Vercel’s AI gateway dashboard shows that, in just the past week, DeepSeek has surged into the lead for token volumes, now processing just over a third of the tokens passing through the company’s infrastructure. Z.ai — the lab behind the popular GLM-5.2 model — jumped into a respectable fourth place over the same period. But if you scroll down to overall token spend, you’ll see Anthropic still accounts for more than half of the overall AI spend on the platform. Given that much of the recent change comes from Anthropic’s own rising prices, the share has dropped slightly over the past month, but not significantly. Image Credits: Vercel dashboard / data export OpenRouter tells a similar story, capturing a much larger (but slightly less enterprise-y) segment of the market. DeepSeek V4 Flash is the main winner on overall usage, processing 5.3 trillion tokens weekly. The most popular frontier model, Opus 4.8, handles just over 2 trillion"
+    },
     {
       "s": "동아일보",
       "t": "‘메가 프로젝트’ 지방 근로자에 稅감면-자녀 교육비 지원 추진",
@@ -16,9 +34,7 @@
       "u": "https://www.donga.com/news/Economy/article/all/20260708/134255055/2",
       "m": "07. 07. PM 07:30",
       "ts": 1783452600000,
-      "fullText": "이상환 기자,김수연 기자",
-      "impact": "positive",
-      "takeaway": "신재생에너지·태양광 산업에 대한 정부 지원이 확대되면서 투자 기회가 증가할 수 있다."
+      "fullText": "이상환 기자,김수연 기자"
     },
     {
       "s": "TechCrunch",
@@ -27,9 +43,7 @@
       "u": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
       "m": "07. 07. PM 07:28",
       "ts": 1783452518000,
-      "fullText": "Discord has acknowledged that a bug in its AI moderation system mistakenly banned more than 8,000 users over the past two months, after harmless images—including spreadsheets, chessboards, game textures, as well as white and gray transparent backgrounds—were incorrectly flagged as harmful content. The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem. All affected accounts are currently in the process of being restored. The incident highlights one of the growing challenges surrounding AI-assisted moderation as many platforms increasingly rely on automated systems to identify illegal or abusive material at scale. In a detailed thread on X , Discord explained that its automated safety system works by matching uploaded content against databases of known harmful material. While the technology is designed to catch illegal content, the company acknowledged that it can sometimes generate false positives. A human moderator reviews the content, but a bug caused the system to immediately ban affected accounts. “We’re working on better safeguards so this can’t happen again,” the company wrote. Our systems flag content by matching it against known harmful material. This kind of similarity matching can produce false positives, which is why a member of our Trust & Safety team always reviews flagged content before any action is taken. The intended behavior is to… — Discord Support (@discord_support) July 7, 2026 Across X and Reddit , users have claimed they had been permanently suspended simply for uploading images containing square grid patterns. Several users speculated that Discord&#8217;s AI moderation tools have become increasingly sensitive to grid-like patterns because they have previously been used in attempts to obscure or disguise NSFW and child exploitation content from automated detection systems. Affected users have been expressing frustration on",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "fullText": "Discord has acknowledged that a bug in its AI moderation system mistakenly banned more than 8,000 users over the past two months, after harmless images—including spreadsheets, chessboards, game textures, as well as white and gray transparent backgrounds—were incorrectly flagged as harmful content. The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem. All affected accounts are currently in the process of being restored. The incident highlights one of the growing challenges surrounding AI-assisted moderation as many platforms increasingly rely on automated systems to identify illegal or abusive material at scale. In a detailed thread on X , Discord explained that its automated safety system works by matching uploaded content against databases of known harmful material. While the technology is designed to catch illegal content, the company acknowledged that it can sometimes generate false positives. A human moderator reviews the content, but a bug caused the system to immediately ban affected accounts. “We’re working on better safeguards so this can’t happen again,” the company wrote. Our systems flag content by matching it against known harmful material. This kind of similarity matching can produce false positives, which is why a member of our Trust & Safety team always reviews flagged content before any action is taken. The intended behavior is to… — Discord Support (@discord_support) July 7, 2026 Across X and Reddit , users have claimed they had been permanently suspended simply for uploading images containing square grid patterns. Several users speculated that Discord&#8217;s AI moderation tools have become increasingly sensitive to grid-like patterns because they have previously been used in attempts to obscure or disguise NSFW and child exploitation content from automated detection systems. Affected users have been expressing frustration on"
     },
     {
       "s": "Bloomberg Tech",
@@ -38,9 +52,7 @@
       "u": "https://www.bloomberg.com/news/articles/2026-07-07/semiconductor-worker-shortfall-endangers-us-chip-factory-revival",
       "m": "07. 07. PM 07:00",
       "ts": 1783450800000,
-      "fullText": "",
-      "impact": "negative",
-      "takeaway": "반도체 부족으로 인해 태양광 산업의 발전이 지연될 수 있다."
+      "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
@@ -49,9 +61,7 @@
       "u": "https://www.bloomberg.com/news/videos/2026-07-07/job-cuts-were-necessary-bitgo-ceo-video",
       "m": "07. 07. PM 06:59",
       "ts": 1783450747000,
-      "fullText": "",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
@@ -60,9 +70,7 @@
       "u": "https://www.bloomberg.com/news/videos/2026-07-07/circle-under-pressure-to-after-open-usd-launch-video",
       "m": "07. 07. PM 06:46",
       "ts": 1783449967000,
-      "fullText": "",
-      "impact": "negative",
-      "takeaway": "신재생에너지·태양광 산업에 대한 투자에 대한 불안감이 증가할 수 있다."
+      "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
@@ -71,9 +79,7 @@
       "u": "https://www.bloomberg.com/news/videos/2026-07-07/andrew-cuomo-discusses-okx-clarity-act-24-7-trading-video",
       "m": "07. 07. PM 06:32",
       "ts": 1783449147000,
-      "fullText": "",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
@@ -82,9 +88,7 @@
       "u": "https://www.bloomberg.com/news/articles/2026-07-07/behind-xbox-s-big-layoffs-a-streaming-strategy-that-failed",
       "m": "07. 07. PM 04:16",
       "ts": 1783440990000,
-      "fullText": "",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "fullText": ""
     },
     {
       "s": "CNBC Tech",
@@ -93,9 +97,7 @@
       "u": "https://www.nbcnews.com/tech/tech-news/anthropic-will-make-claude-cowork-available-users-cloud-rcna353218",
       "m": "07. 07. PM 04:00",
       "ts": 1783440000000,
-      "fullText": "Artificial intelligence Anthropic will make Claude Cowork available to users via the cloud The leading AI company announced their move from a laptop-based system to one that allows users to utilize Cowork throughout their day and across devices. Listen to this article with a free profile 00:00 00:00 Attendees at Anthropic&#x27;s Code with Claude developer conference in San Francisco on May 6. Don Feria / AP Content Services for Anthropic Share Add NBC News to Google July 7, 2026, 12:00 PM EDT By Samantha Elkins AI company Anthropic announced Tuesday that it is moving its popular Claude Cowork agent to the cloud, making it accessible to users from multiple devices, and able to perform tasks even when the devices are not online. Subscribe to read this story ad-free Get unlimited access to ad-free articles and exclusive content. Cowork is a feature that was built primarily for nontechnical users. Launched in January, it automates multistep workflows for personal organization and scheduling by pulling from users’ files, folders and applications without the need for constant prompting or direction. Up to now, Cowork had only been available for users operating on specific devices, which needed to remain open and active for work to be completed, and users could not operate Cowork via multiple devices using one account. The update announced Tuesday will change that. The changes announced will allow scheduled tasks, like drafting an email, to run without a device online, but Claude will still ask a user for a final review and approval before shipping, the company said in its blog. Anthropic will give beta access to users with Max subscriptions, the company’s most premium plan for consumers, and will expand access to more plans in the coming weeks. To mark the launch, Anthropic is extending Cowork’s doubled usage limits through Aug. 5. In addition to moving Cowork to the cloud, Anthropic says it will unify Claude chat and Cowork, putting them in the same space and giving them",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "fullText": "Artificial intelligence Anthropic will make Claude Cowork available to users via the cloud The leading AI company announced their move from a laptop-based system to one that allows users to utilize Cowork throughout their day and across devices. Listen to this article with a free profile 00:00 00:00 Attendees at Anthropic&#x27;s Code with Claude developer conference in San Francisco on May 6. Don Feria / AP Content Services for Anthropic Share Add NBC News to Google July 7, 2026, 12:00 PM EDT By Samantha Elkins AI company Anthropic announced Tuesday that it is moving its popular Claude Cowork agent to the cloud, making it accessible to users from multiple devices, and able to perform tasks even when the devices are not online. Subscribe to read this story ad-free Get unlimited access to ad-free articles and exclusive content. Cowork is a feature that was built primarily for nontechnical users. Launched in January, it automates multistep workflows for personal organization and scheduling by pulling from users’ files, folders and applications without the need for constant prompting or direction. Up to now, Cowork had only been available for users operating on specific devices, which needed to remain open and active for work to be completed, and users could not operate Cowork via multiple devices using one account. The update announced Tuesday will change that. The changes announced will allow scheduled tasks, like drafting an email, to run without a device online, but Claude will still ask a user for a final review and approval before shipping, the company said in its blog. Anthropic will give beta access to users with Max subscriptions, the company’s most premium plan for consumers, and will expand access to more plans in the coming weeks. To mark the launch, Anthropic is extending Cowork’s doubled usage limits through Aug. 5. In addition to moving Cowork to the cloud, Anthropic says it will unify Claude chat and Cowork, putting them in the same space and giving them"
     },
     {
       "s": "TechCrunch",
@@ -104,9 +106,7 @@
       "u": "https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund/",
       "m": "07. 07. PM 03:02",
       "ts": 1783436522000,
-      "fullText": "In Brief Posted: 8:02 AM PDT · July 7, 2026 Image Credits: Chemistry Dominic-Madori Davis VC firm Chemistry is raising $500M for its second fund Chemistry Ventures, the VC firm launched two years ago by Bessemer, Index Ventures, and Andreessen Horowitz alums, is raising $500 million for its second fund, according to an SEC filing. Founded by Mark Goldberg, Ethan Kurzweil, and Kristina Shen, Chemistry launched with a $350 million fund and invests in early-stage startups building in AI, including infrastructure and apps. Its portfolio companies include Granola, Decagon, Persona, Serval, and Nova Intelligence. Goldberg previously worked at Index Ventures, Kurzweil with Bessemer, and Shen with a16z. The trio launched the firm to combine their experience working at large venture capital firms. The Wall Street Journal reports that the second fund is already oversubscribed and the fundraise is expected to close soon. Chemistry did not immediately return a request for comment. This story was updated to clarify the type of companies Chemistry invests in. Topics a16z , bessemer , chemistry , In Brief , index , VC , Venture November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle. Savings end June 26, 11:59 p.m. PT . REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI Netris raises $15M Series A from a16z to help AI neoclouds go live faste",
-      "impact": "positive",
-      "takeaway": "신재생에너지·태양광 산업에 대한 투자에 대한 새로운 기회가 생길 수 있다."
+      "fullText": "In Brief Posted: 8:02 AM PDT · July 7, 2026 Image Credits: Chemistry Dominic-Madori Davis VC firm Chemistry is raising $500M for its second fund Chemistry Ventures, the VC firm launched two years ago by Bessemer, Index Ventures, and Andreessen Horowitz alums, is raising $500 million for its second fund, according to an SEC filing. Founded by Mark Goldberg, Ethan Kurzweil, and Kristina Shen, Chemistry launched with a $350 million fund and invests in early-stage startups building in AI, including infrastructure and apps. Its portfolio companies include Granola, Decagon, Persona, Serval, and Nova Intelligence. Goldberg previously worked at Index Ventures, Kurzweil with Bessemer, and Shen with a16z. The trio launched the firm to combine their experience working at large venture capital firms. The Wall Street Journal reports that the second fund is already oversubscribed and the fundraise is expected to close soon. Chemistry did not immediately return a request for comment. This story was updated to clarify the type of companies Chemistry invests in. Topics a16z , bessemer , chemistry , In Brief , index , VC , Venture November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle. Savings end June 26, 11:59 p.m. PT . REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers with the info they need to start their day. No newsletters selected. Subscribe By submitting your email, you agree to our Terms and Privacy Notice . Related AI Netris raises $15M Series A from a16z to help AI neoclouds go live faste"
     },
     {
       "s": "NVIDIA공식",
@@ -115,9 +115,7 @@
       "u": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
       "m": "07. 07. PM 03:00",
       "ts": 1783436452000,
-      "fullText": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core. July 7, 2026 by Ian Buck 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. For agents in AI factories, speed matters. The faster the CPU can run the tool, the faster the agent can perform the task at hand. For the AI factory, the utilization of GPU is the most valuable resource in the data center so any time waiting for a task to complete constrains the revenue of an AI factory — or worse, impacts the GPU utilization waiting for the CPU to finish its task. AI factories need a CPU with max single-threaded performance to maximize AI factory revenue and agent performance. Today’s data center CPUs are not designed for speed at scale. While the world has fast CPUs for PCs and workstations, data center CPUs have been evolving in directions away from single-threaded performance. The advent of the cloud has pushed CPU makers to build higher core-count CPUs while minimizing cost at the expense of performance. Building CPUs that optimize costs per rentable core increased the number of cores per chip while taking away silicon area from what makes those cores run fast — like high-performance memory fabrics and faster instruction processing per core. The move to chiplet architectures further reduced cost but created a “chi",
-      "impact": "positive",
-      "takeaway": "신재생에너지·태양광 산업의 발전을 위한 새로운 기술이 개발될 수 있다."
+      "fullText": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core. July 7, 2026 by Ian Buck 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. For agents in AI factories, speed matters. The faster the CPU can run the tool, the faster the agent can perform the task at hand. For the AI factory, the utilization of GPU is the most valuable resource in the data center so any time waiting for a task to complete constrains the revenue of an AI factory — or worse, impacts the GPU utilization waiting for the CPU to finish its task. AI factories need a CPU with max single-threaded performance to maximize AI factory revenue and agent performance. Today’s data center CPUs are not designed for speed at scale. While the world has fast CPUs for PCs and workstations, data center CPUs have been evolving in directions away from single-threaded performance. The advent of the cloud has pushed CPU makers to build higher core-count CPUs while minimizing cost at the expense of performance. Building CPUs that optimize costs per rentable core increased the number of cores per chip while taking away silicon area from what makes those cores run fast — like high-performance memory fabrics and faster instruction processing per core. The move to chiplet architectures further reduced cost but created a “chi"
     },
     {
       "s": "TechCrunch",
@@ -131,7 +129,7 @@
     {
       "s": "Bloomberg Tech",
       "t": "Amazon’s New Bonds Get Cooler Reception as AI Debt Floods Market",
-      "d": "When Amazon.com Inc. sold its biggest ever bond earlier this year, it was inundated with investor orders amid hype about the artificial intelligence boom. This time around, there’s less fanfare.",
+      "d": "When Amazon.com Inc. sold its biggest ever bond earlier this year, it was inundated with investor orders amid hype about the artificial intelligence boom. This time around there’s less fanfare.",
       "u": "https://www.bloomberg.com/news/articles/2026-07-07/amazon-returns-to-us-bond-market-to-fund-ai-infrastructure-build",
       "m": "07. 07. PM 12:00",
       "ts": 1783425647000,
@@ -183,24 +181,6 @@
       "fullText": "In Brief Posted: 12:01 PM PDT · July 6, 2026 Image Credits: Artur Widak/NurPhoto / Getty Images Sarah Perez You can now customize Siri&#8217;s pace and expressivity in the latest iOS 27 beta With the latest iOS 27 developer beta, Apple is giving testers an early look at one of the upcoming improvements to its AI-powered Siri : the ability to adjust how quickly and expressively the AI assistant speaks. In iOS 27 beta 3, out today, Apple has enabled the voice controls for &#8220;Pace&#8221; and &#8220;Expressivity&#8221; that were previously labeled as &#8220;Coming soon&#8221; in the first developer beta releases. The update is part of Apple&#8217;s broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI. Like ChatGPT and others offering voice AI assistants, letting users customize how the AI sounds is an important aspect in helping connect people with the new technology. However, ChatGPT&#8217;s voice-customization options allow users to go even further, as the ability to adjust the AI&#8217;s warmth and enthusiasm was rolled out in December 2025 , alongside options to configure the base style and tone. The latter lets users adjust OpenAI&#8217;s assistant to be more friendly, professional, candid, or quirky, among other styles. This is reflected not only in how ChatGPT speaks, but also in how it presents information to the user. You can customize Siri’s voice in iOS 27 beta 3 pic.twitter.com/qFV8L1e7di &mdash; Liam (@LiamFromOrlando) July 6, 2026 First introduced at Apple&#8217;s Worldwide Developers Conference (WWDC 26) in June, Siri&#8217;s voice controls let users personalize their Siri experience beyond just choosing a male- or female-sounding assistant. Now beta testers will be able to switch between a range of voices with different accents, and then use sliders to change how slowly or quickly Siri speaks and how much human-like emotion its voice conveys. As you make the adjustments, Siri will practice sayi"
     },
     {
-      "s": "TechCrunch",
-      "t": "Amazon competitor Bookshop.org says Kobo eReader support will happen this year after all",
-      "d": "Bookship.org seemed to delay this anticipated partnership again, but tells TechCrunch that it has settled business terms  and is working on integration.",
-      "u": "https://techcrunch.com/2026/07/06/amazon-competitor-bookshop-org-says-kobo-e-reader-support-will-happen-this-year-after-all/",
-      "m": "07. 06. PM 06:12",
-      "ts": 1783361521000,
-      "fullText": "If you&#8217;re looking for an e-reader that allows you to buy expensive bestsellers from your local independent bookshops, your research will inevitably point you to Rakuten&#8217;s Kobo eReader . But, as it turns out, this reputation is largely based on outdated methods for buying Kobo books, involving signing up for a Kobo account from bookshops&#8217; websites. While there are a handful of indie bookshops nationwide still supporting Kobo through this website method, most of that kind of support ended years ago. I&#8217;ve found it impossible to buy e-books for my recently purchased Kobo from any of my local, beloved bookshops. I want to support these bookshops, and I don&#8217;t want to own a physical copy of every book I read. I also want to use an e-reader rather than an Android or iOS app on a phone or tablet because e-readers offer long battery life, digital ink, and low-glare screens. These allow me to read comfortably for hours, even outdoors, similar to a physical book. One solution for Kobo owners, originally promised for 2025, was a partnership with Bookshop.org , an Amazon competitor that supports local bookshops with every order. Bookshop.org currently offers e-books through its mobile app for iOS and Android. That partnership was at first promised for 2025 and then delayed to 2026, and for a brief time earlier this year, looked like it would be delayed indefinitely. After Bookshop.org changed the wording on its web page referencing Kobo support, removing &#8220;2026&#8221; and replacing it with &#8220;sometime in the future,&#8221; I reached out to get a status update. Bookshop.org&#8217;s founder and CEO, Andy Hunter, told me in an emailed reply that progress with Kobo has now been made. The web page has been updated, saying once again that support is expected to roll out &#8220;later this year.&#8221; &#8220;The Kobo integration is something both Kobo and Bookshop.org want to make happen,&#8221; Hunter said. The holdup has been both on the business"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "FBI has seized more than 600 drones near World Cup events",
-      "d": "The number of drones seized nationwide has doubled in less than two weeks.",
-      "u": "https://www.nbcnews.com/sports/soccer/fbi-seized-600-drones-world-cup-events-rcna353006",
-      "m": "07. 05. AM 02:08",
-      "ts": 1783217303000,
-      "fullText": "Soccer FBI has seized more than 600 drones near World Cup events The number of drones seized nationwide has doubled in less than two weeks. Listen to this article with a free profile 00:00 00:00 Most of the drones law enforcement detects have resulted in ticketed citations and seizures. Steph Chambers / Getty Images file Share Add NBC News to Google July 4, 2026, 10:08 PM EDT By Kelly O&#x27;Donnell and Michael Kosnar The FBI said it has seized more than 600 drones near World Cup sites since the tournament began on June 11 after authorities determined the devices violated restricted airspace. The total number of seized drones nationwide has doubled in less than two weeks. Subscribe to read this story ad-free Get unlimited access to ad-free articles and exclusive content. The FBI, along with accredited operators from local and state law enforcement around the country, is monitoring drone activity near World Cup competitions and related fan events. The Federal Aviation Administration regulates the airspace, and drone owners are responsible for knowing and abiding by those restrictions. Most of the violations have resulted in ticketed citations and seizures. As NBC News has previously reported, the FBI is leading the counter-drone efforts in conjunction with federal, state and local partners. Law enforcement officials respond to reports of an unauthorized drone outside the stadium in Inglewood, Calif., last month. Caroline Brehman / Bloomberg via Getty Images In Kansas City, there have been 32 drone seizures outside World Cup events so far. “Not only is flying drones in TFR zones illegal, it’s dangerous. My office is committed to keeping our community and visitors safe by keeping our skies drone-free,” said U.S. Attorney R. Matthew Price. “If you see a drone breaking the rules, report it. If you are flying an illegal drone, think twice because violators will be held accountable by the Department of Justice.” In another case in Dallas from mid-June, a Honduran national "
-    },
-    {
       "s": "탐사일보",
       "t": "화성형 주민주도 재생에너지 정책 첫 결실... '제1호 화성형 기본소득 에너지마을' 가동",
       "d": "",
@@ -217,7 +197,7 @@
       "u": "https://www.nbcnews.com/video/flock-s-a-i-enabled-street-cameras-see-backlash-across-the-country-266154053762",
       "m": "07. 04. AM 12:29",
       "ts": 1783124992000,
-      "fullText": "NBC News NOW Would you train robots by recording yourself doing your chores?"
+      "fullText": "Meet the Press Meet the Press NOW — July 7"
     },
     {
       "s": "에너지데일리",
@@ -259,6 +239,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "에너지경제신문",
+      "t": "중국산 견제 수혜…한화솔루션, 美 대체 불가능한 ‘소수 업체’로 우뚝",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5V2xlREVYdnRlZW92MVFlSldwejA1VjhYQ05Jdm1BRFB5UGdSYUJVSXVVVXdCOERmbjVtMEZPZEhrYS1Ia3VMNS1zUjE5OEFIQmwtSUNScFU3dFk?oc=5",
+      "m": "07. 01. AM 12:59",
+      "ts": 1782867595000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "NVIDIA공식",
       "t": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
       "d": "Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing [&#8230;]",
@@ -274,7 +264,7 @@
       "u": "https://www.nbcnews.com/video/physicist-reacts-to-trump-executive-order-calling-for-a-quantum-computer-265578565584",
       "m": "06. 24. AM 01:54",
       "ts": 1782266054000,
-      "fullText": "NBC News NOW Would you train robots by recording yourself doing your chores?"
+      "fullText": "Meet the Press Meet the Press NOW — July 7"
     },
     {
       "s": "NVIDIA공식",
@@ -331,16 +321,6 @@
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95c09hUjRfdzUyOTBVMXhGSkpTWEJvTGlLQ2Y4ZEloRUR4Sjlnc1pUSkRleE5XclZMQjVBWWs5OTN3ZjktOElUVFZMYWJ3cm92Q2tNT0JtOWJqZmQzTE80ZTVydGxGZ2_SAWtBVV95cUxOTTh1UTRRWlVtVTl5WGN3WUVDSzEtUUo3QjJxeHhuM241RkZZdEw1NGk5Q0tTcDNHaW1Ub2xhcW5NczAwZVFnckxEZHhBRUdjVkV0RzkxVjd0cGJ1d20zdTB2S2YyT0F4LXhEbw?oc=5",
       "m": "06. 16. AM 07:00",
       "ts": 1781593200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "에너지플랫폼뉴스",
-      "t": "에너지공단·무역협회, 글로벌 탄소 무역규제 심화…수출기업 피해 최소화 위해 ‘맞손’",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04TXZyWnhkSWVoSWJrUTlRU0huOUt5dmNhaXFBaW9UME8xRFN5Y3ItanQ2LTY5dEVuTzJ1ZHU0R29rbnNHdjVIWDM1UTFmMDQwWXpxbXowN3FJZFpiaEU4bDBjU214dmNZNlFTONIBcEFVX3lxTE1EWkNaZUVJbkR1Q0FCMnFlX0h5VXoxRGtJcnZCTUwwLXd2MjFVQm5wd0plenZtRzAxUDh0T0Q3UUZ0WElDS3dpblg3cTdYcjRFQ2hmLUlXa2NIb18tY3U3YnVnVEUwWjJqZ1cxQy10UWU?oc=5",
-      "m": "06. 15. AM 07:00",
-      "ts": 1781506800000,
       "_policy": true,
       "fullText": "Google News"
     },

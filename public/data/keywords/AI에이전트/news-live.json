@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-07T21:25:03.502Z",
+  "updatedAt": "2026-07-07T22:41:27.613Z",
   "count": 40,
   "stats": {
     "today": 13,
     "yesterday": 11,
     "weekAvg": 4.1,
-    "sources": 28,
+    "sources": 27,
     "heat": "hot"
   },
   "items": [
@@ -28,8 +28,8 @@
       "m": "07. 07. PM 08:04",
       "ts": 1783454672000,
       "fullText": "On Monday, Decagon CEO Jesse Zhang published a provocative new theory, posted under the title “Everyone is wrong about open source AI in the enterprise.” The post grapples with one of the most interesting contradictions of today’s AI economy: More mature AI deployments are switching to lighter models, he says, even at his own company. But the overall spend on expensive state-of-the-art models has barely budged. It&#8217;s a new way to think about the relationship between frontier and open source models. In Zhang’s telling, they aren’t competitors, and open source models’ success isn’t coming at the expense of frontier labs. Instead, they’re two phases of the same life cycle, with expensive frontier models being used to prove out use cases that can be passed along to cheaper open source alternatives as they mature. As more mature use cases switch to lighter models , new use cases keep arising — and the overall spend on frontier models barely goes down. Zhang doesn’t give much data to support the point, but the data isn&#8217;t hard to find. Vercel’s AI gateway dashboard shows that, in just the past week, DeepSeek has surged into the lead for token volumes, now processing just over a third of the tokens passing through the company’s infrastructure. Z.ai — the lab behind the popular GLM-5.2 model — jumped into a respectable fourth place over the same period. But if you scroll down to overall token spend, you’ll see Anthropic still accounts for more than half of the overall AI spend on the platform. Given that much of the recent change comes from Anthropic’s own rising prices, the share has dropped slightly over the past month, but not significantly. Image Credits: Vercel dashboard / data export OpenRouter tells a similar story, capturing a much larger (but slightly less enterprise-y) segment of the market. DeepSeek V4 Flash is the main winner on overall usage, processing 5.3 trillion tokens weekly. The most popular frontier model, Opus 4.8, handles just over 2 trillion",
-      "impact": "neutral",
-      "takeaway": "오픈소스 AI 확산이 Anthropic 경쟁을 촉진하지만 현재는 영향 제한"
+      "impact": "negative",
+      "takeaway": "오픈소스 AI 확산이 Anthropic 경쟁 압력으로 작용"
     },
     {
       "s": "Bloomberg Tech",
@@ -40,7 +40,7 @@
       "ts": 1783450136000,
       "fullText": "",
       "impact": "negative",
-      "takeaway": "OpenAI에 대한 법적 위험이 LLM 투자 위험을 부각"
+      "takeaway": "OpenAI에 대한 법적 대응이 LLM 규제 위험을 부각"
     },
     {
       "s": "TechCrunch",
@@ -51,7 +51,7 @@
       "ts": 1783441638000,
       "fullText": "Claude Cowork — Anthropic&#8217;s Claude Code-style agent for general knowledge work — is coming to your phone. Claude Cowork launched as a desktop app in January, but starting Tuesday it is available on web and mobile for Max subscribers. With the update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed. The product expansion is a signal that Anthropic wants Cowork to feel less like a coding tool for dummies and more like an agentic administrative coworker: something that can work in the background, tag along across devices, and request human input when a decision pops up only the user can make. In other words: The coding agent wars are spilling into the rest of the office. The move comes as AI firms try to push their products beyond chatbots into the everyday surfaces where work actually happens. OpenAI has made a similar move with Codex, which began as a software development tool but is increasingly being used by non-developers for reports, spreadsheets, presentations, research, data analysis, and more. For both labs, the bet is that success will depend less on who has the best chatbot and more on who owns the space where work gets done. That push also extends to other apps. Anthropic recently launched Claude Tag , an always-on Claude that lives in Slack and acts as an AI teammate. Beyond the benefits of one specific interface, launching Cowork as a multi-platform app means that the agent can continue running tasks in the background without a device online, the company says. One example from Anthropic reads: “Set Monday’s client prep for 6 am: Claude works through the email threads, transcripts, and recent news, builds the briefing doc, and leaves the follow-up email drafted but unsent. Review it over coffee.” The desktop app will remain the place for deep work, where Claude can access local files and the browser. But bringing Cowork to web and mobile means people who",
       "impact": "positive",
-      "takeaway": "Claude Cowork 모바일·웹 진출로 AI 에이전트 활용 범위 확대"
+      "takeaway": "Claude Cowork 모바일·웹 진출로 AI 에이전트 활용도 확대"
     },
     {
       "s": "Bloomberg Tech",
@@ -62,7 +62,7 @@
       "ts": 1783441186000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "Microsoft 자체 AI 도입으로 LLM 시장 경쟁과 성장 촉진"
+      "takeaway": "마이크로소프트 자체 AI 적용으로 에이전트 서비스 확대"
     },
     {
       "s": "CNBC Tech",
@@ -73,7 +73,7 @@
       "ts": 1783440000000,
       "fullText": "Artificial intelligence Anthropic will make Claude Cowork available to users via the cloud The leading AI company announced their move from a laptop-based system to one that allows users to utilize Cowork throughout their day and across devices. Listen to this article with a free profile 00:00 00:00 Attendees at Anthropic&#x27;s Code with Claude developer conference in San Francisco on May 6. Don Feria / AP Content Services for Anthropic Share Add NBC News to Google July 7, 2026, 12:00 PM EDT By Samantha Elkins AI company Anthropic announced Tuesday that it is moving its popular Claude Cowork agent to the cloud, making it accessible to users from multiple devices, and able to perform tasks even when the devices are not online. Subscribe to read this story ad-free Get unlimited access to ad-free articles and exclusive content. Cowork is a feature that was built primarily for nontechnical users. Launched in January, it automates multistep workflows for personal organization and scheduling by pulling from users’ files, folders and applications without the need for constant prompting or direction. Up to now, Cowork had only been available for users operating on specific devices, which needed to remain open and active for work to be completed, and users could not operate Cowork via multiple devices using one account. The update announced Tuesday will change that. The changes announced will allow scheduled tasks, like drafting an email, to run without a device online, but Claude will still ask a user for a final review and approval before shipping, the company said in its blog. Anthropic will give beta access to users with Max subscriptions, the company’s most premium plan for consumers, and will expand access to more plans in the coming weeks. To mark the launch, Anthropic is extending Cowork’s doubled usage limits through Aug. 5. In addition to moving Cowork to the cloud, Anthropic says it will unify Claude chat and Cowork, putting them in the same space and giving them",
       "impact": "positive",
-      "takeaway": "Claude Cowork 클라우드 제공으로 기업용 AI 에이전트 수요 확대"
+      "takeaway": "Claude Cowork 클라우드 제공으로 LLM 접근성 강화"
     },
     {
       "s": "NVIDIA공식",
@@ -84,7 +84,7 @@
       "ts": 1783436452000,
       "fullText": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core. July 7, 2026 by Ian Buck 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. For agents in AI factories, speed matters. The faster the CPU can run the tool, the faster the agent can perform the task at hand. For the AI factory, the utilization of GPU is the most valuable resource in the data center so any time waiting for a task to complete constrains the revenue of an AI factory — or worse, impacts the GPU utilization waiting for the CPU to finish its task. AI factories need a CPU with max single-threaded performance to maximize AI factory revenue and agent performance. Today’s data center CPUs are not designed for speed at scale. While the world has fast CPUs for PCs and workstations, data center CPUs have been evolving in directions away from single-threaded performance. The advent of the cloud has pushed CPU makers to build higher core-count CPUs while minimizing cost at the expense of performance. Building CPUs that optimize costs per rentable core increased the number of cores per chip while taking away silicon area from what makes those cores run fast — like high-performance memory fabrics and faster instruction processing per core. The move to chiplet architectures further reduced cost but created a “chi",
       "impact": "positive",
-      "takeaway": "NVIDIA Vera 채택으로 LLM 고성능 실행 환경 강화"
+      "takeaway": "NVIDIA Vera 채택으로 LLM 고성능 실행 환경 개선"
     },
     {
       "s": "한경 경제",
@@ -93,9 +93,9 @@
       "u": "https://www.hankyung.com/article/2026070710161",
       "m": "07. 07. AM 08:49",
       "ts": 1783414161000,
-      "fullText": "경제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 소비자물가지수 품목 교체…마라탕·챗GPT 넣고 땅콩·도라지 뺀다 입력 2026.07.07 17:49 수정 2026.07.08 01:21 지면 A2 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김익환 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 데이터처, 연간 물가동향에 적용 집값 반영 '자가주거비'도 검토 소비자물가지수 품목에 마라탕, 샐러드, 스마트워치, 챗GPT를 비롯한 생성형 인공지능(AI) 구독료 등이 반영된다. 반면 땅콩, 도라지는 조사 대상에서 제외된다. 국가데이터처는 이 같은 내용의 소비자물가지수 조사 방식 개편안을 7일 발표했다. 소비자물가지수는 가계 소비구조 변화를 반영하기 위해 5년마다 대표 품목과 가중치를 바꾼다. 이번 개편의 기준은 2025년이다. 올해 12월 및 연간 소비자물가 동향부터 새 기준을 적용해 발표할 예정이다. 2025년 기준 대표 품목은 455개로 2020년(458개)보다 3개 줄었다. 밀키트, 조립식 수납 가구, 스마트워치, 전기차 충전료, 클라우드 저장 공간 이용료, 소프트웨어 구독료, 영유아 강습료, 마라탕, 샐러드, 온라인쇼핑 구독료 등 10개 품목이 추가된다. 소프트웨어 구독료는 챗GPT 등이, 온라인쇼핑 구독료는 &lsquo;쿠팡 와우&rsquo; &lsquo;네이버플러스&rsquo; 등이 포함된다. 땅콩, 도라지, 고사리, 부탄가스, 싱크대, 습기제거제, 저장장치, 회화용구, 유치원 납입금, 학교 보충교육비, 보육시설 이용료, 블랙박스, 도시락 등 13개 품목은 빠졌다. 가계의 월 지출액이 312원에 미달하거나 지속적인 조사가 어려운 품목 등이다. 품목별 가중치도 달라진다. 총지수(1000) 가운데 가중치가 가장 높은 &lsquo;주택&middot;수도&middot;전기&middot;연료&rsquo;는 2020년 171.6에서 2025년 181.2로 상승했다. 주택 임차료 등이 뛰면서 주목도가 높아졌기 때문이다. &lsquo;교통 및 운송&rsquo;은 106.1에서 104.4로 낮아졌다. 지금은 국제 유가 등이 치솟고 있지만 2025년까지 안정된 영향을 반영했다. 국가데이터처는 자가주거비를 물가 품목에 반영하는 방안을 검토하고 있다. 자가주거비는 자기 집을 임차한다고 가정했을 때의 비용이다. 현재 소비자물가지수에는 전세와 월세 등의 임차료는 반영되지만 자기 집에 사는 가구가 부담하는 주거서비스 비용은 반영되지 않는다. 자가주거비가 빠진 탓에 최근 집값이 고공행진해도 체감하는 주거비와 소비자물가 지표 사이에 괴리가 생긴다는 지적이 나온다. 데이터처는 이번 대표 품목 선정과 관련해 이달 17일까지 소통혁신24, 국민생각함, 데이터처 홈페이지 등을 통해 국민 의견을 수렴한다. 김익환 기자 lovepen@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 김익환 기자 한국경제신문 산업부 기자입니다. ADVERTISEMENT 관련 뉴스 1 전쟁發 고유가 충격파 계속…美 4월 물가 3년 만에 최고 미국 소비자물가가 지난 3월에 이어 4월에도 큰 폭으로 올랐다. 미국 중앙은행(Fed)이 당분간 기준금리를 동결할 것이라는 전망에 힘이 실리고 있다.12일 미국 노동통계국(BLS)은 4월 소비자물가지수(CPI)가 전... 2026.05.12 22:43 2 점심 한 끼 값으로 '투자 통찰' 구독하세요 ‘인공지능(AI)을 넘어서는 성공 투자’를 내건 ‘한경 프리미엄9’(www.hankyung.com/premium9)이 본격적인 서비스에 들어가자 독자의 가입 문의... 2026.05.06 18:16 3 챗GPT 쓴 소장 보니 가짜 판례가 버젓이… 법조계에서 챗GPT, 제미나이 등 범용 대규모언어모델(LLM) 기반 생성형 인공지능(AI)을 활용한 소장, 서면 작성이 확산하고 있다. 법정 내 AI 활용이 급증하는 만큼 가짜 사건번호와 판례를 만",
+      "fullText": "",
       "impact": "positive",
-      "takeaway": "CPI 품목에 챗GPT 포함돼 AI 서비스 수요와 인지도 상승"
+      "takeaway": "CPI 품목에 챗GPT 포함돼 AI 인지도 및 수요 상승"
     },
     {
       "s": "테크M",
@@ -107,7 +107,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "중국 AI 규제로 주요 기업 AI 에이전트 중단, 시장 성장 제약"
+      "takeaway": "중국 규제로 바이트·알리바바 AI 에이전트 중단, 시장 위축"
     },
     {
       "s": "네이트",
@@ -119,7 +119,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "화웨이 초대형 서버 공개로 비미국 규제 하 AI 인프라 확장 기대"
+      "takeaway": "화웨이 초대형 서버 공개로 중국 AI 에이전트 기술 경쟁력 강화"
     },
     {
       "s": "한경 IT",
@@ -128,7 +128,7 @@
       "u": "https://www.hankyung.com/article/202607070182i",
       "m": "07. 07. AM 05:57",
       "ts": 1783403828000,
-      "fullText": "사회 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 \"챗GPT에 회사 띄워준다더니\"…사기성 AI 마케팅 주의보 입력 2026.07.07 14:57 수정 2026.07.07 15:36 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 대기업 로고 내걸고 신뢰 포장 성과 입증 어려운 AI 검색 최적화 사진=게티이미지뱅크 A씨는 최근 링크드인에서 한 인공지능(AI) 마케팅 대행사의 홍보 글을 보고 의아함을 느꼈다. 해당 업체 홈페이지에 자신이 속한 금융그룹 로고가 고객사 사례처럼 올라와 있었다. A씨는 그룹 내 관련 업무를 맡고 있어 협력 업체 현황을 알고 있었지만, 자신도 모르는 협력업체가 등장한 것이다. A씨가 &ldquo;어느 계열사와 협업했는지, 로고 사용 허락은 받았는지&rdquo; 묻자 돌아온 것은 해명이 아니라 차단이었다. 7일 정보기술(IT) 업계에 따르면 최근 온라인 커뮤니티와 소셜미디어를 중심으로 생성형 AI 엔진 최적화(GEO) 마케팅 대행 피해 의심 사례가 잇따라 공유되고 있다. GEO는 챗GPT&middot;제미나이 등 생성형 AI에 질문했을 때 특정 브랜드나 상품이 답변에 노출되도록 최적화한다는 개념이다. 기존 검색엔진최적화(SEO)가 네이버&middot;구글 등 검색 결과 상위 노출을 겨냥했다면 GEO는 생성형 AI 답변에 포함되는 것을 목표로 한다. 최근 논란이 된 것은 지난 4일 한 마케팅 업계 관계자가 공개한 글이다. 글쓴이는 한 GEO 대행사가 대기업 로고를 포트폴리오처럼 홈페이지에 게재했고 실제 협업 여부를 확인하는 질문에는 답하지 않았다고 주장했다. 이후 해당 업체가 홈페이지에서 일부 로고를 삭제했다는 내용도 추가로 공유됐다. 글쓴이는 &ldquo;GEO라는 최신 트렌드를 방패 삼아 모르면 속을 수밖에 없는 그럴싸한 포장을 만든 것&rdquo;이라고 지적했다. 온라인 커뮤니티에서도 비슷한 피해 의심 사례가 공유되고 있다. 마케팅 커뮤니티 아이보스가 운영하는 큐레터는 지난 5월 GEO 대행 관련 제보 사례를 공개했다. 사례에는 &ldquo;명문대 출신이라 AI 로직을 장악했다&rdquo; &ldquo;네이버 핵심 인력과 연줄이 있다&rdquo;는 식으로 전문성을 과시하거나, &ldquo;곧 가격이 오른다&rdquo; &ldquo;현재 자리가 1개뿐&rdquo;이라며 선납과 계약을 압박한 내용이 포함됐다. 최근 생성형 AI 검색 시장이 빠르게 커지면서 GEO를 내세운 대행 영업도 함께 늘고 있다. 이용자들이 검색창 대신 챗GPT, 제미나이, 퍼플렉시티 등 생성형 AI에 질문하고 답을 얻는 방식이 확산되면서 기업들도 AI 답변에 노출되는 자사 브랜드를 관리할 필요성이 생겨서다. 문제는 GEO가 아직 초기 시장이라 개념과 방법론, 성과 측정 기준이 명확히 정립되지 않았다는 점이다. SEO는 검색 순위, 유입량, 클릭률, 전환율 등 비교적 측정 가능한 지표가 축적돼 있다. 반면 GEO는 AI 모델별 답변 방식이 다르고 같은 질문에도 답변이 달라질 수 있다. 섣불리 &lsquo;AI 답변 노출 보장&rsquo;이나 &lsquo;알고리즘 장악&rsquo; 같은 표현을 내세운 대행 영업을 그대로 믿기 어려운 이유다. 업계에서는 이런 모호함을 악용한 과장 영업이나 로고 플레이, 선납 유도 등이 자칫 사기성 영업으로 번질 수 있다는 우려도 나온다. 성과 보고 방식도 문제로 지적됐다. 일부 업체는 생성형 AI에 특정 브랜드명을 반복 입력한 뒤 새 채팅창에서 해당 브랜드가 노출된 화면을 캡처해 성과 보고서처럼 제출한 것으로 알려졌다. 하지만 생성형 AI 답변은 이용자별 질문 방식과 대화 맥락, 개인화 설정 등에 따라 달라질 수 있다. 특정 화면 한 장만으로 실제 마케팅 성과를 입증하기 어렵다는 지적이 나오는 이유다. 한 GEO 업계 관계자는 &ldquo;GEO는 이제 막 생긴 시장이라 광고주와 대행사 모두 기준을 만들어가는 단계&rdquo;라며"
+      "fullText": ""
     },
     {
       "s": "IT타임스",
@@ -170,6 +170,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "IT조선",
+      "t": "中 AI 규제 강화에… 바이트댄스·알리바바, 개인화 AI 서비스 중단",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tRFQxYXVPYi1KU0lsNmVJZDhMS0pmMTNxOEpIZkdNUVJfeGphR1B3SHN2ams1cTNDTHQ0Wkg4TjNSc2dyTGJyVVBqVWFQNjRYRHUxZnhoMWs1NW5sbWpHVUFSbWt1SUxqSVp5SzRFMm5rdF9F0gF0QVVfeXFMTy1EVDFhdU9iLUpTSWw2ZUlkOExLSmYxM3E4SkhmR01RUl94amFHUHdIc3ZqazVxM0NMdDRaSDhOM1JzZ3JMYnJVUGpVYVA2NFhEdTFmeGgxazU1bmxtakdVQVJta3VJTGpJWnlLNEUybmt0X0U?oc=5",
+      "m": "07. 06. AM 09:52",
+      "ts": 1783331554000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "AI타임스",
       "t": "바이트댄스·알리바바, ‘AI 페르소나’ 서비스 중단…정부 규제 앞두고 선제 조치",
       "d": "",
@@ -186,16 +196,6 @@
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rZFJGV3pkTVRoOExCa0dxMHFoeEpZTTNPbFp1NnpBUEVRTWliNFFsSVNvbm5DODl1UTJROUpDSzNES2Jpc0IwcFNMT0NjY2EtSlBhZkRiRnJpdWNFdDdqOE4tVVRuZ1VfdTVLag?oc=5",
       "m": "07. 06. AM 08:52",
       "ts": 1783327920000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "IT조선",
-      "t": "中 AI 규제 강화에… 바이트댄스·알리바바, 개인화 AI 서비스 중단",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2ek0wY1RxWHVwaEV0YkxzdXdTLTNHTWtJSlRUTWtZOFNJY1YyVDA0ODhlNTdkWEhfdmpnZFFpdWpvVzg0d3lxcGRoaVlpYVBjUjl6RUZfOWdNY3JPVUJDNFJyZG5DVkYwczNGVi1IeWHSAXRBVV95cUxPLURUMWF1T2ItSlNJbDZlSWQ4TEtKZjEzcThKSGZHTVFSX3hqYUdQd0hzdmprNXEzQ0x0NFpIOE4zUnNnckxiclVQalVhUDY0WER1MWZ4aDFrNTVubG1qR1VBUm1rdUlMaklaeUs0RTJua3RfRQ?oc=5",
-      "m": "07. 06. AM 08:18",
-      "ts": 1783325891000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -328,6 +328,16 @@
       "fullText": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning June 30, 2026 by Esther Lee 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse . Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1) . But more edge data doesn’t automatically create more intelligence. As much as 90% of existing edge data goes unprocessed, according to the same Gartner report. Turning that data into useful action requires vision AI agents that can understand video, adapt to real-world conditions and connect insights to operational workflows. These agents often run near cameras, machines and sensors, where models must meet latency, power, cost and connectivity requirements while adapting to site-specific conditions. To build those agents, developers need repeatable ways to generate training data, fine-tune models and deploy agentic video applications across edge and cloud environments. NVIDIA Metropolis agent skills and blueprints give developers reusable workflows to build, operate and optimize vision AI agents across that lifecycle. For the simulation and synthetic data side of that work, Universal Scene Description, or OpenUSD , provides a common framework for describing, composing and reusing 3D worlds. Built on OpenUSD, NVIDIA Om"
     },
     {
+      "s": "v.daum.net",
+      "t": "美, AI 코인투자·결제까지 본격화…韓 ‘규제’ 갇혀 제자리걸음",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xanFOTnZJcUJtWThENnprdjhaeVpsTGpDOVFTazIxWm1OYkFRLXRFRW5mZTNzcjFodUpNNk43MzJMZWF0ZWZPcVJGd0Rsd2lzb0JWdA?oc=5",
+      "m": "06. 30. AM 02:21",
+      "ts": 1782786113000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "NVIDIA공식",
       "t": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
       "d": "Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents. As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing [&#8230;]",
@@ -400,16 +410,6 @@
       "t": "금융권 AI 에이전트 도입 본격화…금융위, 망분리·데이터 규제 손질",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uWXM0TmxXdmJHYnczRmNUNXJMeUtpME9zNnBlT0xJZml3azMydHIyTFJtQ0daSlB5cGVQVUF5bzNwNWp6REhua2lCQmRvcHpMV3Q0WXhETjdOd9IBWEFVX3lxTFBOSU5MMnJVM0ZTZDVkVE4xWU9VazNYblowd2w2aGNWbjdySzA4a01raFFydlk0UDN4d1pBeXJFekFFZklPd2hRY3FxZUJLR19ISHE4dHJ4ZHo?oc=5",
-      "m": "06. 18. AM 07:00",
-      "ts": 1781766000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "마켓인",
-      "t": "금융 AI 에이전트 시대 연다…망분리·데이터 규제 손질",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81VU5XN2dKM1ZxZGI3R196NHliMXA4eVMzS0g2Z1BzZFlQOG5iMFpjdXUxVEV4NTlfVmd5TnBqakRham00SlkwU3d2QjViVjdjWGtoTUVtZlZwQ196b2M2aU1lNWd6a283M3RzUWRNVS1pclE?oc=5",
       "m": "06. 18. AM 07:00",
       "ts": 1781766000000,
       "_policy": true,

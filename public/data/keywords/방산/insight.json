@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T22:40:22.237Z",
+  "updatedAt": "2026-07-07T23:58:40.724Z",
   "related": [
     {
       "slug": "스페이스X",
@@ -27,7 +27,7 @@
   "risks": [
     "나토 조달협정 협상 난항",
     "K방산 수출 규제",
-    "방산 시장 경기 침체"
+    "방산 시장 불안"
   ],
   "events": [
     {
@@ -43,26 +43,24 @@
   ],
   "outlook": {
     "short_term": {
-      "thesis": "한-나토 조달협정 추진, K방산 공급망 강화로 방산 시장 진출 기반 마련. 나토 조달협정 체결 시점에 따라 K방산 수출 증가, 방산 시장 경쟁 강화.",
-      "upside": "K방산 수출 증가로 수주 증가, 방산 시장 경쟁 강화로 수익률 증가.",
-      "downside": "나토 조달협정 협상 난항으로 K방산 수출 감소, 방산 시장 경기 침체로 수익률 감소."
+      "thesis": "한-나토 조달협정 추진, K방산 공급망 강화로 방산 시장 진출 기반 마련. 나토 조달협정 체결 시점을 지켜보아야 한다.",
+      "upside": "K방산 수출 증가로 수주 증가",
+      "downside": "나토 조달협정 협상 난항으로 수주 감소"
     },
     "mid_term": {
-      "thesis": "한-나토 조달협정 체결로 K방산 공급망 강화, 방산 시장 진출 기반 마련. K방산 수출 증가로 수주 증가, 방산 시장 경쟁 강화로 수익률 증가.",
-      "upside": "K방산 수출 증가로 수주 증가, 방산 시장 경쟁 강화로 수익률 증가.",
-      "downside": "나토 조달협정 협상 난항으로 K방산 수출 감소, 방산 시장 경기 침체로 수익률 감소."
+      "thesis": "한-나토 조달협정 체결 후 K방산 공급망 강화로 방산 시장 진출 증가. 방산 시장 경쟁을 지켜보아야 한다.",
+      "upside": "K방산 수출 증가로 수주 증가",
+      "downside": "방산 시장 불안으로 수주 감소"
     },
     "long_term": {
-      "thesis": "한-나토 조달협정 체결로 K방산 공급망 강화, 방산 시장 진출 기반 마련. K방산 수출 증가로 수주 증가, 방산 시장 경쟁 강화로 수익률 증가.",
-      "upside": "K방산 수출 증가로 수주 증가, 방산 시장 경쟁 강화로 수익률 증가.",
-      "downside": "나토 조달협정 협상 난항으로 K방산 수출 감소, 방산 시장 경기 침체로 수익률 감소."
+      "thesis": "한-나토 조달협정 체결 후 K방산 공급망 강화로 방산 시장 진출 증가. 방산 시장 경쟁을 지켜보아야 한다.",
+      "upside": "K방산 수출 증가로 수주 증가",
+      "downside": "방산 시장 불안으로 수주 감소"
     }
   },
   "capital_flow": {
-    "summary": "외국인 순매수, ETF 자금 유입",
-    "signals": [
-      "미래에셋 스페이스X 2차 청약 완판"
-    ]
+    "summary": "외국인·기관 순매수, ETF 자금 유입",
+    "signals": []
   },
   "scenarios": [
     {
@@ -76,28 +74,28 @@
     {
       "case": "강세(Bull)",
       "probability": 20,
-      "thesis": "K방산 수출 증가로 수주 증가, 방산 시장 경쟁 강화로 수익률 증가.",
+      "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
       "trigger": "K방산 수출 증가",
       "watch_period": "기간",
-      "data_quality": "full"
+      "data_quality": "partial"
     },
     {
       "case": "약세(Bear)",
       "probability": 20,
-      "thesis": "나토 조달협정 협상 난항으로 K방산 수출 감소, 방산 시장 경기 침체로 수익률 감소.",
+      "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
       "trigger": "나토 조달협정 협상 난항",
       "watch_period": "기간",
-      "data_quality": "full"
+      "data_quality": "partial"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "K방산 공급망 강화로 수주 증가, 방산 시장 경쟁 강화로 수익률 증가.",
-    "momentum_signals": "외국인 순매수, ETF 자금 유입",
-    "fundamental_strength": "K방산 수출 증가로 수주 증가, 방산 시장 경쟁 강화로 수익률 증가.",
+    "valuation_assessment": "K방산 공급망 강화로 방산 시장 진출 증가로 PER/PBR 상승.",
+    "momentum_signals": "외국인·기관 순매수, ETF 자금 유입.",
+    "fundamental_strength": "K방산 공급망 강화로 방산 시장 진출 증가로 성장·마진·재무 안정성 강화.",
     "key_monitors": [
-      "수주 증가",
-      "수익률 증가",
-      "방산 시장 경쟁 강화"
+      "수출 수주·계약",
+      "지정학 리스크",
+      "FMS 계약 진척"
     ],
     "position_sizing_view": "Core/Satellite/Trade 중 어느 성격"
   },
@@ -107,15 +105,16 @@
       "RTX"
     ],
     "midstream": [
-      "012450",
-      "047810"
+      "012450"
     ],
-    "downstream": []
+    "downstream": [
+      "047810"
+    ]
   },
   "policy_tracker": [
     {
-      "date": "2026-07-07",
-      "title": "한-나토 조달협정 협상 개시",
+      "date": null,
+      "title": "한-나토 조달협정 추진",
       "region": "KR",
       "stance": "supportive"
     },
@@ -159,6 +158,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-07-07T22:39:43.202Z",
+  "generatedAt": "2026-07-07T23:58:01.887Z",
   "_model": "groq:llama-3.1-8b-instant"
 }

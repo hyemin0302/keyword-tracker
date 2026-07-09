@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-07-09T18:56:03.722Z",
+  "updatedAt": "2026-07-09T20:45:59.421Z",
   "count": 40,
   "stats": {
-    "today": 10,
+    "today": 9,
     "yesterday": 5,
-    "weekAvg": 5.1,
+    "weekAvg": 4.7,
     "sources": 32,
-    "heat": "hot"
+    "heat": "warm"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "d": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+      "u": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "m": "07. 09. PM 07:05",
+      "ts": 1783623958000,
+      "fullText": "The New York Times and The Daily News claim that OpenAI has been lying about its ability to search customer chat log data and training datasets for their copyrighted works. It’s the latest escalation in a two-year lawsuit against the AI firm for allegedly violating copyright law by training its generative AI models on the Times’ content and reproducing that journalism in user outputs. Throughout the case, OpenAI has argued that it lacked the ability to search its own training corpus. It also argued that searching or producing its massive collection of ChatGPT conversations would be technically burdensome and would raise user-privacy concerns because the logs would need to be retrieved, processed, and de-identified. The outlets sought that data to determine whether their copyrighted journalism was present in OpenAI’s training dataset and whether and how often ChatGPT generated responses using or reproducing their content. In an April court-ordered deposition, OpenAI data privacy engineer Vinnie Monaco allegedly revealed that OpenAI had already conducted internal searches and evaluations of its training corpus to search for copyrighted journalism works. Monaco’s deposition also allegedly revealed that, beginning before the NYT filed its lawsuit, OpenAI had already amassed a database of about 78 million de-identified ChatGPT conversations that it was using internally to determine how much it was infringing on others’ works. On top of that dataset, OpenAI also allegedly implemented a “Bloom” filter as part of a set of tools called “Project Giraffe,” which detected and kept a record of regurgitation in outputs, shortly after the lawsuit was filed. Those last two revelations are particularly significant. The plaintiffs had originally asked OpenAI to provide a sample of 120 million chat logs, but OpenAI had negotiated to bring the sample down to just 20 million. OpenAI finally submitted that sample to the courts last December, but it had allegedly included so many redactio",
+      "impact": "negative",
+      "takeaway": "OpenAI가 ChatGPT의 저작권 소송에서 증거를 숨겼다는 뉴스는 AI 인프라·데이터센터의 신뢰성을 떨어뜨릴 수 있다."
+    },
     {
       "s": "Bloomberg Tech",
       "t": "SK Hynix Draws Massive Investor Demand",
@@ -18,7 +29,7 @@
       "ts": 1783620560000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "SK Hynix가 투자자들의 큰 관심을 끌어들여 테마의 가치가 상승할 가능성이 높아졌다."
+      "takeaway": "SK Hynix가 투자자들의 큰 관심을 끌어모으는 것은 AI 인프라·데이터센터의 성장 잠재력을 시사한다."
     },
     {
       "s": "Bloomberg Tech",
@@ -28,8 +39,8 @@
       "m": "07. 09. PM 06:04",
       "ts": 1783620292000,
       "fullText": "",
-      "impact": "neutral",
-      "takeaway": "메타가 AI 클라우드 비즈니스에 대한 관심을 표명했지만, 테마와 직접 관련이 없다."
+      "impact": "positive",
+      "takeaway": "Meta가 AI 클라우드 비즈니스에 대한 관심을 보인다는 뉴스는 AI 인프라·데이터센터의 수요 증가를 예고한다."
     },
     {
       "s": "Bloomberg Tech",
@@ -40,7 +51,7 @@
       "ts": 1783617091000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "프랭클린의 Dudley가 2027년까지 AI 인프라의 성장 가능성을 내다봄으로써 테마의 가치가 상승할 가능성이 높아졌다."
+      "takeaway": "Franklin의 Dudley가 2027년까지 AI 인프라의 성장 가능성을 내다본다는 뉴스는 투자자들의 관심을 끌어모을 수 있다."
     },
     {
       "s": "조선일보",
@@ -50,19 +61,8 @@
       "m": "07. 09. PM 03:45",
       "ts": 1783611900000,
       "fullText": "",
-      "impact": "positive",
-      "takeaway": "풍력 활용한 AI 데이터센터와 과학기술원 연합캠퍼스의 설립이 테마의 발전을 위한 중요한 단계로 여겨진다."
-    },
-    {
-      "s": "동아일보",
-      "t": "LS전선, 국내최고 용량 해저케이블 본격 상용화",
-      "d": "LS전선이 국내 최고 송전 용량의 초고압직류송전(HVDC) 해저케이블 상용화에 본격적으로 나선다. 2030년을 목표로 추진되는 ‘서해안 에너지고속도로’ 사업 공략을 가속화하는 것이다. LS전선은 국내 최초로 525k·80도급 HVDC 해저케이블이 PQ(성능 적격성 평가) 시험을 통과했다고 9일 밝혔다. 이번 PQ 시험 통과로 LS전선은 서해안 에너지고속도로 사업에 적용 가능한 525k·80도급 해저케이블 공급 기반을 확보했다. 이 제품은 도체의 허용 온도를 기존 70도에서 80도로 높여 송전 용량을 최대 25% 이상 높였다. 장거리 및 대용량 송전에 적합한 차세대 해저케이블이다. 최근 인공지능(AI) 데이터센터가 급증하며 장거리·대용량 송전망 구축 수요도 함께 증가하고 있다. LS전선은 전남 완도와 제주도를",
-      "u": "https://www.donga.com/news/Economy/article/all/20260709/134269899/2",
-      "m": "07. 09. PM 03:30",
-      "ts": 1783611000000,
-      "fullText": "최지원 기자 구독",
       "impact": "neutral",
-      "takeaway": "LS전선이 국내 최고 용량 해저케이블을 상용화했지만, 테마와 직접 관련이 없다."
+      "takeaway": "풍력 활용한 AI 데이터센터와 과학기술원 연합캠퍼스의 설립은 테마와 직접 관련이 없다."
     },
     {
       "s": "지티티코리아",
@@ -74,18 +74,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "AI 데이터센터의 전력 확보가 어려울 경우, 테마의 성장에 장애가 될 수 있다."
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "TeraWulf Eyes $3.5 Billion for Anthropic-Leased Data Center",
-      "d": "TeraWulf Inc. is preparing to raise about $3.5 billion in debt to build a data center campus in Kentucky, including its first-ever foray into the leveraged loan market.",
-      "u": "https://www.bloomberg.com/news/articles/2026-07-09/terawulf-eyes-3-5-billion-for-anthropic-leased-data-center",
-      "m": "07. 09. PM 02:42",
-      "ts": 1783608177000,
-      "fullText": "",
-      "impact": "positive",
-      "takeaway": "TeraWulf가 Anthropic에 임차한 데이터 센터에 3.5억 달러를 투자할 계획을 발표함으로써 테마의 가치가 상승할 가능성이 높아졌다."
+      "takeaway": "AI 데이터센터가 전력 확보를 못하면 멈추는다는 뉴스는 AI 인프라·데이터센터의 운영에 대한 우려를 불러일으킬 수 있다."
     },
     {
       "s": "한경 IT",
@@ -96,7 +85,7 @@
       "ts": 1783585047000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 메타, 캐나다에 1GW 데이터센터 짓는다 입력 2026.07.09 17:17 수정 2026.07.10 01:11 지면 A12 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김인엽 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 인프라 과잉 논란 일으킨 뒤 일주일만에 신규 투자 발표 메타가 캐나다에 데이터센터를 짓기로 했다. 지난 1일 남아도는 컴퓨팅 자원을 임대사업에 쓰기로 하면서 &lsquo;인공지능(AI) 과잉 투자&rsquo; 논란을 불러일으킨 지 일주일 만이다. 메타는 캐나다 앨버타주 스터전카운티에 1기가와트(GW)급 AI 데이터센터를 착공한다고 8일(현지시간) 발표했다. 향후 1.8GW까지 확장할 수 있는 규모로, 총 투자액은 130억캐나다달러(약 13조8000억원)에 달한다. 완공까지 2~3년이 걸릴 전망이다. 이번 데이터센터는 메타가 짓는 33번째로, 해외에서는 스웨덴 아일랜드 덴마크 싱가포르에 이어 다섯 번째다. 기존 데이터센터가 지역 이용자의 소셜미디어를 구동하기 위한 용도였다면, 캐나다 시설은 AI 학습&middot;추론을 위해 짓는 인프라다. 메타가 앨버타를 낙점한 이유로는 저렴한 에너지 비용이 꼽힌다. 세계 4위 석유 생산국인 캐나다의 석유&middot;천연가스의 60%가 이곳에서 나온다. 앨버타는 자원에 의존하는 경제 구조를 타파하기 위해 데이터센터를 주요 산업으로 키우고 있다. 추운 기후 덕분에 냉각 비용도 크게 줄일 수 있다. 앨버타주는 데이터센터 사업자가 자체 발전소까지 짓도록 하는 &lsquo;전력자체조달&rsquo; 방식을 장려해 전력 확보도 쉽다. 다른 지역에서는 지역 발전소와 전력 계약을 맺고, 송전망 연결을 위해 수년간 기다려야 하지만 앨버타에서는 이 같은 대기 기간을 줄일 수 있다. 이번 발표는 메타에서 촉발된 인프라 투자 과잉론을 잠재우는 효과를 낼 것으로 예상된다. 지난 1일 메타가 남는 컴퓨팅 자원을 판매할 수 있다고 블룸버그통신이 보도하자 반도체&middot;AI 인프라 기업 주가가 크게 떨어졌다. 메타는 스페인 탈라베라와 인도 비샤카파트남에도 추가 데이터센터 건설 계획을 세우고 있다. 실리콘밸리=김인엽 특파원 inside@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 김인엽 특파원 한국경제신문 실리콘밸리 김인엽 특파원입니다. ADVERTISEMENT 관련 뉴스 1 메타發 반도체 쇼크…'자체 AI모델' 부진이 불씨였다 지난 1일 전 세계에 인공지능(AI) 인프라 투자 과잉 논란을 일으킨 주범은 메타였다. 매출이 증가하는 메타가 데이터센터 기반의 서비스형 인프라(IaaS) 시장에 진출한다고 선언하자 시장에서 ‘AI 인프라... 2026.07.03 18:05 2 \"무자비한 폭락\" 증권가도 놀랐다…AI 공포에 개미들 '비명' 메타의 클라우드사업 진출 발표가 한국과 미국 증시에서 반도체주 급락으로 이어졌다. 빅테크들의 인공지능(AI) 인프라 투자 과잉을 간접적으로 인정했다고 받아들여졌기 때문이다. 이는 시장에서 반도체 수요 둔화 우려를 촉... 2026.07.02 17:50 3 메타 \"AI 인프라 팔 것\"…반도체 고점론 불붙여 1일(현지시간) 메타가 추진하겠다고 밝힌 클라우드 사업은 크게 두 가지다. ‘서비스형 플랫폼(PaaS)’과 ‘서비스형 인프라(IaaS)’다.이 중 시장에 충격을 안긴 진원지... 2026.07.02 17:39 ADVERTISEMENT 많이 본 뉴스 1 배에서 중국인 끝도 없이 내리더니…\"처음 보는 광경\" 깜짝 2026.07.09 06:00 2 \"너무 야하다고?\" 여성들 열광…1년 새 290% 폭등한 회사 2026.07.08 17:35 3 '43조 잭팟' SK하이닉스…\"한국서 팔아라\" 이유 알고보니 2026.07.08 21:09 4 \"역대급 바닥? 지금 살 때 아니다\"…삼전닉스 '줍줍' 경고 2026.",
       "impact": "positive",
-      "takeaway": "메타가 캐나다에 1GW 데이터 센터를 건설할 계획을 발표함으로써 테마의 가치가 상승할 가능성이 높아졌다."
+      "takeaway": "Meta가 캐나다에 1GW 데이터센터를 짓는다는 뉴스는 AI 인프라·데이터센터의 확장에 대한 증거다."
     },
     {
       "s": "글로벌이코노믹",
@@ -108,7 +97,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "일본의 하반기 증시가 'AI 쏠림'을 벗어나고 방산 및 인프라가 재평가될 가능성이 높아졌지만, 테마와 직접 관련이 없다."
+      "takeaway": "하반기 일본 증시가 'AI 쏠림'을 벗어난다는 뉴스는 테마와 직접 관련이 없다."
     },
     {
       "s": "PRESS9",
@@ -120,7 +109,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "SK가 10조원 규모의 AI 센터를 건설할 계획을 발표했지만, 전력망의 부담이 테마의 성장에 장애가 될 수 있다."
+      "takeaway": "1000조의 AI센터가 전력망이 받쳐줄 수 없다는 뉴스는 AI 인프라·데이터센터의 운영에 대한 우려를 불러일으킬 수 있다."
     },
     {
       "s": "아주경제",
@@ -130,7 +119,9 @@
       "m": "07. 08. AM 10:33",
       "ts": 1783506835000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "AI 데이터센터 특별법의 핵심 내용과 의미에 대한 뉴스는 테마와 직접 관련이 없다."
     },
     {
       "s": "삼성뉴스룸",
@@ -251,30 +242,20 @@
       "fullText": "How Open Models Are Driving AI Research At the International Conference on Machine Learning, nearly 145 papers cite NVIDIA Nemotron open models and datasets as the foundation for new research. July 6, 2026 by JJ Kim 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately 2,000 accepted papers cite NVIDIA GPUs, and 145 cite NVIDIA Nemotron — a family of open models, including open datasets — as the foundation for new research. Hundreds more draw on NVIDIA Cosmos , NVIDIA Isaac GR00T , BioNeMo and other NVIDIA open model families, spanning physical AI, robotics, autonomous vehicles and biomedical research. The Themes Defining This Year’s Research Areas including vision and video generation, reinforcement learning for large language models ( LLMs ) and agent training as well as AI inference remained prominent themes across this year’s papers, reflecting sustained investment these fields command — while several new areas also broke through. Robot world models drew significant attention, with papers like DreamDojo pushing the boundary of how AI systems learn to reason about and act in physical environments. DreamDojo, for example, learns how the physical world behaves from human video and builds on NVIDIA Cosmos open frontier models to predict how a robot would handle objects and operate in environments it was never trained on. It lets researchers evaluate policies, plan actions and teleoperate a virtual robot, accelerating development without the costs and risks of physical deployment. AI for life sciences was fueled by NVIDIA BioNeMo open models and research contributions that help research"
     },
     {
-      "s": "CBC뉴스",
-      "t": "삼성전기, 8% 넘게 밀리며 숨 고르기…AI 인프라 확대 정책에 장기 성장성 주목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aekRoWnVhV1RVQ0F4Nk1wWVdobF83UmdrWEpZaXh6NGFRb0pRd0NHY18tX2RISnVhY0kyWUVvR1RUTEE3eF84NHhWamo2eVQ5aTZNc1dISGRiNjRYSTc1YmJ2STE1SThS?oc=5",
-      "m": "07. 06. PM 03:00",
-      "ts": 1783350000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "CBC뉴스",
-      "t": "대한광통신, 장중 7%대 약세…AI 메가구상 속 광통신 인프라 기대는 지속",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wSjUxNWhZSmJPNy1jOUQ0ZElMV3FpTU5KcUM1eWZ0bW1YVzNlZFMxLTRUMzVlcFRXM09oNFhtOXM2ZnJ5ZkpyRmh6Wnl0MGVRajlqNUJ6dE9jSzBfeXBrQk9sbENqS3Nz?oc=5",
-      "m": "07. 06. PM 03:00",
-      "ts": 1783350000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "강원일보",
       "t": "‘동해 AI데이터센터’ 강원도·GS·동해시 협약⋯우상호 “투자 기업 깜짝 놀랄 속도로 지원”",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9USGxCdWpkWDhlN1JsMTFNdmljOU1zQnhBMW1RSFBOSkk1d2VRVDVHd0VpV1NpbWdnVldoRFNoREgzbTVOeGl2T2dkdXZlcW5OOGluVjRn?oc=5",
+      "m": "07. 06. PM 03:00",
+      "ts": 1783350000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "CBC뉴스",
+      "t": "삼성전기, 8% 넘게 밀리며 숨 고르기…AI 인프라 확대 정책에 장기 성장성 주목",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aekRoWnVhV1RVQ0F4Nk1wWVdobF83UmdrWEpZaXh6NGFRb0pRd0NHY18tX2RISnVhY0kyWUVvR1RUTEE3eF84NHhWamo2eVQ5aTZNc1dISGRiNjRYSTc1YmJ2STE1SThS?oc=5",
       "m": "07. 06. PM 03:00",
       "ts": 1783350000000,
       "_policy": true,
@@ -324,7 +305,7 @@
       "s": "v.daum.net",
       "t": "강원도·GS·동해시, 메가프로젝트 1호 AI데이터센터 구축 맞손…인허가 패스트트랙 가동",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HX1UtcUZ0Y1JsSENKY190Q2NUVmE5dDBIbmxVd0ZWbE45S2hXT0Nic3hsRmFNZHI4Znp1WTY4Q0VOX3hPa29PVVI3MzV0Tml4R2hYeA?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1CVnVzT2RvQlJYWFJWVU1UOHRYbmdqbXlKTUJtSk5PTzAyTVRVRi1NSjh2bktOeTdQNGhiYW1yb1JyXzhudGc?oc=5",
       "m": "07. 06. AM 03:33",
       "ts": 1783308786000,
       "_policy": true,
@@ -401,6 +382,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "머니투데이",
+      "t": "암참, AI 리더십 위원회 출범…美 기업 \"규제, 예측 가능해야\" - 머니투데이",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rcVZFQ25HN1dPNVhZcmVieDl5NHNYSzloZFR1Sk1mVUw5QTR6eXkzNHhOVmdHVEdnQllMcFNMcHdSV2tDSm0ybTVCVmg5aUJpa3VQRUl3LUZCN2xLSXlpX196NEJyREFZTHZzZdIBckFVX3lxTE5zTjg5QWw2UWFDbS1sVzdwdWtmNmYtTnM0eXFJLUh4M0tTTVlMRENYVVlnYmdNeGJUWkd4Q2RrV2txRzBoS2Jrd2FoMzNKckN2UnVDSTl1VWthbC13c2tPOV9aNGNQSVlZOHU2MHRzTTQtUQ?oc=5",
+      "m": "07. 02. AM 04:34",
+      "ts": 1782966882000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "NVIDIA공식",
       "t": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
       "d": "As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly utilized and support the economics of token‑scale AI services.  Emerging AI companies historically hav",
@@ -410,14 +401,22 @@
       "fullText": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout NVIDIA is partnering with AI clouds to deploy large‑scale, multi‑tenant AI factories, aligning economics through a revenue-sharing and credit-support model. July 1, 2026 by Colette Kress and Raj Mirpuri 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly utilized and support the economics of token‑scale AI services. Emerging AI companies historically have had limited access to capital-intensive infrastructure, with even long-term commitments insufficient to unlock financing for compute. To address this, NVIDIA is introducing a new business model that opens up compute access to the fast‑growing AI ecosystem of startups, model builders, enterprises, research organizations and regional AI players. This new model enables AI clouds to procure NVIDIA infrastructure for AI-native, enterprise and ISV customers through economic alignment with a revenue-sharing and credit-support model. Through the partnership, AI clouds will sell NVIDIA-powered cloud services, with NVIDIA earning both standard product revenue and a share of the cloud revenue on the supported capacity. This structure accelerates adoption of NVIDIA platforms among the high-growth, high-conviction AI native sector, and provides NVIDIA with a recurring, usage-linked earnings stream. For model builders, inference providers, agent platforms and enterprises scaling AI, it can mean faster access to full-stack accelerated computing without waiting through site selection, power procurement, construction and hardware bring-up. NVIDIA AI Factory Capacity Built Around Demand The initiative is already taking sh"
     },
     {
-      "s": "인공지능신문",
-      "t": "현실로 다가온 자율주행, 안전성은 '디지털 인프라'에 달렸다…국회 토론회서 정책 과제 논의",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CbHRod2g3d0pZNTcyTm03c296TjdWY3c4YzNFNk1aT0Z4WEpXNk5ESTFSamM0Z1F3Y19lMEhBbEpoSzlKRlhoT0VpTDdNcERrMlp2dUt0YlpEdnZOUm52VjF2TXhIVkk?oc=5",
-      "m": "07. 02. AM 12:46",
-      "ts": 1782953200000,
-      "_policy": true,
-      "fullText": "Google News"
+      "s": "삼성뉴스룸",
+      "t": "삼성, 미래 성장 위해 호남에 425조원 투자",
+      "d": "삼성은 30일 광주광역시 김대중컨벤션센터에서 열린 ‘서남권 첨단산업 발전비전 국민보고회’에서 호남 지역 투자 계획을 밝혔다. 삼성은 ▲글로벌 최첨단 반도체 클러스터 ▲AI 데이터센터 ▲미래 에너지 등을 육성하기 위해 잠재력이 풍부한 호남에 총 425조원을 투자할 예정이다. ① 광주에 삼성전자가 약 400조원을 투자해 신규 반도체 Fab 2개를 건설, 글로벌 반도체 거점으로 조성하겠다는 계획이다. 급증할 것으로 예상되는 글로벌 반도체 수요에 대응하기 위해 기흥·화성·평택에 […]",
+      "u": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1-%eb%af%b8%eb%9e%98-%ec%84%b1%ec%9e%a5-%ec%9c%84%ed%95%b4-%ed%98%b8%eb%82%a8%ec%97%90-425%ec%a1%b0%ec%9b%90-%ed%88%ac%ec%9e%90",
+      "m": "06. 30. PM 04:32",
+      "ts": 1782837161000,
+      "fullText": "삼성, 미래 성장 위해 호남에 425조원 투자 2026/06/30 AI 요약 새로운 뉴스룸 AI 기능을 살펴보세요! 닫기 --> AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성은 30일 광주광역시 김대중컨벤션센터에서 열린 &#8216;서남권 첨단산업 발전비전 국민보고회&#8217;에서 호남 지역 투자 계획을 밝혔다. 삼성은 ▲글로벌 최첨단 반도체 클러스터 ▲AI 데이터센터 ▲미래 에너지 등을 육성하기 위해 잠재력이 풍부한 호남에 총 425조원을 투자할 예정이다. ① 광주에 삼성전자가 약 400조원을 투자해 신규 반도체 Fab 2개를 건설, 글로벌 반도체 거점으로 조성하겠다는 계획이다. 급증할 것으로 예상되는 글로벌 반도체 수요에 대응하기 위해 기흥·화성·평택에 이어 용인국가산단 투자 일정이 많이 빨라졌으며, 용인 이후의 새로운 클러스터 조성을 준비해야할 시점도 앞당겨졌다. 삼성전자는 여러 지역 중 전력, 용수 등 인프라와 인력 확보 및 정주 여건 등 많은 인센티브 지원이 기대되는 광주를 후보지로 계획하고 있다. 광주 반도체 클러스터가 조성되면 수도권과 함께 대한민국 반도체 산업을 이끄는 차기 반도체 클러스터가 될 것으로 기대된다. ② 해남 솔라시도에는 삼성SDS가 AI 경제 성장의 기반이 될 210MW급 &#8216;AI 데이터센터&#8217;를 구축한다는 계획이다. 2028년 첫 가동을 목표로 2026년 하반기 착공할 예정이다. 솔라시도 AI 데이터센터는 ▲정부 AX(AI Transformation) 지원 헤드쿼터로서 금융, 국방, 공공서비스 AX 지원 ▲대학∙연구소∙기업 연구개발(R&D) 역량 강화 ▲로봇 AI 모델 학습/추론 등 산업 피지컬AI 지원 ▲공조·보안·네트워크 업체 입주 등 연관 산업 생태계 생성 거점 역할을 할 것으로 기대된다. ③ 호남에는 삼성물산이 탄소중립과 에너지 자립을 실현하기 위해 무탄소 미래 에너지에 투자할 방침이다. 삼성물산은 ▲원전 및 신재생 에너지 등 무탄소 발전 ▲영광 수전해 설비 등 원전 기반 수소 생산 ▲고온수전해(SOEC) 추진 등 그린수소 생산기술 실증에 투자할 예정이다. ④ 광주·고창에는 삼성전자가 ▲광주사업장 내 디지털 트윈 기반의 혁신 허브 공장 및 히트펌프∙공조기 등 생산 시설 구축 ▲전북 고창 글로벌 최첨단 물류 센터 건설 등을 추진할 계획이다. 서남권 첨단산업 발전비전 국민보고회 기업뉴스 경영일반 기업뉴스 프레스센터 보도자료 프레스센터 삼성전자 뉴스룸의 직접 제작한 기사와 이미지는 누구나 자유롭게 사용하실 수 있습니다. 그러나 삼성전자 뉴스룸이 제공받은 일부 기사와 이미지는 사용에 제한이 있습니다. 삼성전자 뉴스룸 콘텐츠 이용에 대한 안내 바로가기 보다 다양한 삼성전자 소식은? 삼성, 미래 성장 위해 2,655조원 투자 2026/06/29 보도자료 삼성전자, 美 &#8216;엘리먼트 바이오사이언스&#8217;社 1대 주주 지위 확보…미래 정밀 의료시장 선점 2026/06/10 보도자료 삼성전자 사장단 메시지 2026/05/27 보도자료 slide prev slide next 최신기사 더보기 AI 요약 닫기 기사 요약문은 AI를 활용한 것으로 일부 내용이 누락되거나 부정확할 수 있습니다. 반드시 본문과 함께 확인해주세요. 다운로드 닫기 다운로드 할 자료가 없습니다. 본문 복사하기 본문이 복사되었습니다. 공유하기 닫기 페이스북 X 링크드인 카카오톡 메일 라인 복사할 주소 주소복사"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+      "d": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+      "m": "06. 30. PM 03:00",
+      "ts": 1782831657000,
+      "fullText": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost Baseten, Cognition, Deep Infra, Digital Ocean, Hippocratic AI, Together AI and Cursor are seeing compounding value from NVIDIA’s software and open source ecosystem. June 30, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s full-stack inference software continuously improves hardware performance. On the NVIDIA Blackwell platform, the software stack has already reduced token costs by up to 5x on the DeepSeek V4 model in just one month. SemiAnalysis InferenceX results comparing token cost and interactivity for NVIDIA GB300 NVL72 systems with SGLang and the NVIDIA Dynamo inference framework. Leading companies and inference providers are already seeing the compounding value of NVIDIA’s inference software stack on Blackwell: Baseten used the NVIDIA TensorRT-LLM open source library to serve DeepSeek V4 Pro on Blackwell GPUs for reasoning, coding and long-context workloads, applying proprietary runtime optimizations to deliver up to 50% more tokens per second. Cognition is using the NVIDIA Dynamo inference framework to manage inference GPUs, giving its team a ready-made path to scale reinforcement learning workloads without needing to build that infrastructure from scratch. Deep Infra uses the NVIDIA inference software stack to serve frontier open source models performantly on Blackwell from day zero, including DeepSeek V4. DigitalOcean helped Hippocratic AI use NVIDIA inference software on Blackwell GPUs to serve healthcare AI faster and more efficiently, increasing inference throughput by 30%"
     }
   ]
 }

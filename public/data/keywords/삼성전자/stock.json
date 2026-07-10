@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T06:26:59.074Z",
+  "updatedAt": "2026-07-10T10:00:02.441Z",
   "data": {
     "TSM": {
       "name": "TSMC",
@@ -202,9 +202,9 @@
     },
     "000660": {
       "name": "SK하이닉스",
-      "px": 2204000,
-      "dayChange": 0.82,
-      "periodChange": 7.62,
+      "px": 2180000,
+      "dayChange": -0.27,
+      "periodChange": 6.45,
       "prices": [
         2048000,
         2101000,
@@ -228,7 +228,7 @@
         2201000,
         2076000,
         2186000,
-        2204000
+        2180000
       ],
       "dates": [
         "2026-06-10",
@@ -255,15 +255,15 @@
         "2026-07-09",
         "2026-07-10"
       ],
-      "volume": 4260630,
+      "volume": 5190287,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,566조 1,634억",
-        "per": "21.23배",
-        "pbr": "9.24배",
-        "cnsPer": "6.89배",
+        "marketCap": "1,553조 6,912억",
+        "per": "21.06배",
+        "pbr": "9.17배",
+        "cnsPer": "6.84배",
         "divYield": "0.14%",
         "foreignRatio": "50.01%",
         "high52w": "3,002,000",
@@ -280,6 +280,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260710",
+            "foreigner": -768843,
+            "institution": 204193,
+            "individual": 550090,
+            "foreignRatio": "49.90%"
+          },
           {
             "date": "20260709",
             "foreigner": -209485,
@@ -342,22 +349,15 @@
             "institution": 276941,
             "individual": 961633,
             "foreignRatio": "50.44%"
-          },
-          {
-            "date": "20260626",
-            "foreigner": -847969,
-            "institution": -1065176,
-            "individual": 1864496,
-            "foreignRatio": "50.63%"
           }
         ],
         "sum5d": {
-          "foreigner": -1436255,
-          "institution": 582654
+          "foreigner": -1459721,
+          "institution": -285029
         },
         "sum10d": {
-          "foreigner": -4845704,
-          "institution": -1603130
+          "foreigner": -4766578,
+          "institution": -333761
         }
       },
       "consensus": {
@@ -372,9 +372,9 @@
     },
     "005930": {
       "name": "삼성전자",
-      "px": 288000,
-      "dayChange": 3.6,
-      "periodChange": -4.79,
+      "px": 285000,
+      "dayChange": 2.52,
+      "periodChange": -5.79,
       "prices": [
         302500,
         299000,
@@ -398,7 +398,7 @@
         296000,
         277500,
         278000,
-        288000
+        285000
       ],
       "dates": [
         "2026-06-10",
@@ -425,16 +425,16 @@
         "2026-07-09",
         "2026-07-10"
       ],
-      "volume": 17294504,
+      "volume": 22028573,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,673조 4,973억",
-        "per": "23.14배",
-        "pbr": "3.98배",
-        "cnsPer": "6.13배",
-        "divYield": "0.58%",
+        "marketCap": "1,666조 1,894억",
+        "per": "23.04배",
+        "pbr": "3.96배",
+        "cnsPer": "6.11배",
+        "divYield": "0.59%",
         "foreignRatio": "46.57%",
         "high52w": "380,000",
         "low52w": "61,100",
@@ -450,6 +450,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260710",
+            "foreigner": 625985,
+            "institution": 2313745,
+            "individual": -2851466,
+            "foreignRatio": "46.58%"
+          },
           {
             "date": "20260709",
             "foreigner": 845552,
@@ -512,22 +519,15 @@
             "institution": 2446957,
             "individual": 9127270,
             "foreignRatio": "47.01%"
-          },
-          {
-            "date": "20260626",
-            "foreigner": -5975701,
-            "institution": -3593889,
-            "individual": 9298204,
-            "foreignRatio": "47.24%"
           }
         ],
         "sum5d": {
-          "foreigner": -11698768,
-          "institution": 4610457
+          "foreigner": -9707208,
+          "institution": 2554553
         },
         "sum10d": {
-          "foreigner": -40591633,
-          "institution": 2173268
+          "foreigner": -33989947,
+          "institution": 8080902
         }
       },
       "consensus": {
@@ -584,7 +584,7 @@
       -10.41,
       -15.2,
       -14.67,
-      -11.72
+      -12.52
     ],
     "sp500": [
       0,
@@ -612,26 +612,26 @@
   "etfs": null,
   "projection": {
     "asOf": "2026-07-10",
-    "base": 288000,
-    "volAnnualPct": 95.6,
+    "base": 285000,
+    "volAnnualPct": 95.2,
     "horizons": [
       {
         "days": 5,
         "label": "1주",
-        "bull": 329509.48,
-        "bear": 251719.62
+        "bull": 325880.02,
+        "bear": 249248.17
       },
       {
         "days": 21,
         "label": "1개월",
-        "bull": 379517.18,
-        "bear": 218551.37
+        "bull": 375098.87,
+        "bear": 216542.91
       },
       {
         "days": 63,
         "label": "3개월",
-        "bull": 464472.11,
-        "bear": 178576.92
+        "bull": 458648.6,
+        "bear": 177096.36
       }
     ]
   }

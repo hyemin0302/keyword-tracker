@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T16:59:12.176Z",
+  "updatedAt": "2026-07-13T18:32:52.399Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
@@ -50,7 +50,7 @@
         "2026-07-09",
         "2026-07-10"
       ],
-      "volume": 437873,
+      "volume": 0,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -159,9 +159,9 @@
     },
     "LIN": {
       "name": "Linde plc",
-      "px": 524.35,
-      "dayChange": -1.03,
-      "periodChange": 0.55,
+      "px": 521.73,
+      "dayChange": -1.52,
+      "periodChange": 0.05,
       "prices": [
         521.48,
         518.17,
@@ -181,7 +181,7 @@
         527.67,
         525.56,
         529.79,
-        524.35
+        521.73
       ],
       "dates": [
         "2026-06-15",
@@ -204,23 +204,23 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 571396,
+      "volume": 808586,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 548.2,
         "low52w": 387.78,
-        "volume": 571396
+        "volume": 808586
       },
       "investorFlow": null,
       "consensus": null
     },
     "BE": {
       "name": "블룸에너지",
-      "px": 235.43,
-      "dayChange": -3.75,
-      "periodChange": -14.23,
+      "px": 232.915,
+      "dayChange": -4.78,
+      "periodChange": -15.15,
       "prices": [
         274.5,
         280.88,
@@ -240,7 +240,7 @@
         254.29,
         257.02,
         244.61,
-        235.43
+        232.91
       ],
       "dates": [
         "2026-06-15",
@@ -263,23 +263,23 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 5745101,
+      "volume": 6829774,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 351.28,
         "low52w": 24.04,
-        "volume": 5745101
+        "volume": 6829774
       },
       "investorFlow": null,
       "consensus": null
     },
     "APD": {
       "name": "Air Products and Chemicals, Inc",
-      "px": 302.74,
-      "dayChange": 1.07,
-      "periodChange": 6.99,
+      "px": 301.285,
+      "dayChange": 0.59,
+      "periodChange": 6.48,
       "prices": [
         282.96,
         280.48,
@@ -299,7 +299,7 @@
         296.75,
         295.85,
         299.53,
-        302.74
+        301.29
       ],
       "dates": [
         "2026-06-15",
@@ -322,14 +322,14 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 305250,
+      "volume": 401834,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 314.87,
         "low52w": 229.11,
-        "volume": 305250
+        "volume": 401834
       },
       "investorFlow": null,
       "consensus": null
@@ -383,7 +383,7 @@
         "2026-07-09",
         "2026-07-10"
       ],
-      "volume": 2881964,
+      "volume": 0,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -511,7 +511,7 @@
       -9.66,
       -11.72,
       -14.88,
-      -15.64
+      -16.03
     ],
     "kospi": [
       0,
@@ -553,34 +553,15 @@
       -0.95,
       -0.14,
       0.28,
-      -0.45
+      -0.47
     ]
   },
   "etfs": {
-    "HDRO": {
-      "name": "ETF Series Solutions Defiance N",
-      "px": 25.919,
-      "dayChange": 0,
-      "periodChange": 0,
-      "prices": [],
-      "dates": [],
-      "volume": 71341,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 39.26,
-        "low52w": 4.2,
-        "volume": 71341
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "HYDR": {
       "name": "Global X Hydrogen ETF",
-      "px": 44.1,
-      "dayChange": -3.67,
-      "periodChange": -22.25,
+      "px": 44.44,
+      "dayChange": -2.93,
+      "periodChange": -21.65,
       "prices": [
         56.72,
         55.88,
@@ -600,7 +581,7 @@
         46.4,
         46.71,
         45.78,
-        44.1
+        44.44
       ],
       "dates": [
         "2026-06-15",
@@ -623,14 +604,33 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 19910,
+      "volume": 23327,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 74.8,
         "low52w": 22.67,
-        "volume": 19910
+        "volume": 23327
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "HDRO": {
+      "name": "ETF Series Solutions Defiance N",
+      "px": 25.919,
+      "dayChange": 0,
+      "periodChange": 0,
+      "prices": [],
+      "dates": [],
+      "volume": 71341,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 39.26,
+        "low52w": 4.2,
+        "volume": 71341
       },
       "investorFlow": null,
       "consensus": null

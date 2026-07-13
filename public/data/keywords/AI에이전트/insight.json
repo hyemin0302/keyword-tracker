@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T01:08:20.282Z",
+  "updatedAt": "2026-07-13T05:02:28.022Z",
   "related": [
     {
       "slug": "AI인프라",
@@ -42,46 +42,50 @@
       "overlap": 2
     }
   ],
-  "summary": "인공지능(AI) 기술이 급속히 발전하고 있는 가운데, 오픈AI가 50년 넘게 풀지 못한 수학 난제를 1시간 만에 풀었다는 뉴스가 발표되었다. 이 뉴스는 AI 기술의 발전과 산업의 변화를 예고하고 있다.",
-  "sentiment": "bullish",
+  "summary": "AI 에이전트·LLM 테마는 최근 오픈AI와 애플이 전면 소송전을 벌이는 등 산업 전체 구도가 변동하고 있는 시점입니다.",
+  "sentiment": "neutral",
   "key_drivers": [
-    "AI 기술의 발전",
-    "산업의 변화"
+    "AI 에이전트·LLM 산업의 변동",
+    "오픈AI와 애플의 전면 소송전"
   ],
   "watch_points": [
-    "AI 기술의 확산",
-    "산업의 구조적 트렌드"
+    "AI 에이전트·LLM 산업의 미래 방향",
+    "오픈AI와 애플의 소송 결과"
   ],
   "risks": [
-    "AI 기술의 과도한 확산",
-    "산업의 불안정성"
+    "AI 에이전트·LLM 산업의 변동에 따른 투자 위험",
+    "오픈AI와 애플의 소송 결과에 따른 투자 위험"
   ],
-  "events": [],
+  "events": [
+    {
+      "date": "TBD",
+      "title": "오픈AI와 애플의 전면 소송전",
+      "impact": "positive|negative|neutral"
+    }
+  ],
   "key_players": [
     "오픈AI",
-    "엔비디아",
-    "마이크로소프트",
-    "NAVER"
+    "애플"
   ],
   "outlook": {
     "short_term": {
-      "thesis": "AI 기술의 발전과 산업의 변화로 인해 단기적으로 AI 관련 종목이 상승할 가능성이 높다. 그러나 AI 기술의 과도한 확산과 산업의 불안정성으로 인해 하방 시나리오도 존재한다.",
-      "upside": "",
-      "downside": ""
+      "thesis": "AI 에이전트·LLM 산업의 변동에 따른 투자 위험과 오픈AI와 애플의 소송 결과에 따른 투자 위험을 고려해야 합니다.",
+      "upside": "AI 에이전트·LLM 산업의 미래 방향에 대한 투자 기회가 있을 수 있습니다.",
+      "downside": "AI 에이전트·LLM 산업의 변동과 오픈AI와 애플의 소송 결과에 따른 투자 위험을 고려해야 합니다."
     },
     "mid_term": {
-      "thesis": "AI 기술의 발전과 산업의 변화로 인해 중기적으로 AI 관련 종목이 상승할 가능성이 높다. 그러나 산업의 불안정성으로 인해 하방 시나리오도 존재한다.",
-      "upside": "",
-      "downside": ""
+      "thesis": "AI 에이전트·LLM 산업의 미래 방향과 오픈AI와 애플의 소송 결과에 따른 투자 기회를 고려해야 합니다.",
+      "upside": "AI 에이전트·LLM 산업의 미래 방향에 대한 투자 기회가 있을 수 있습니다.",
+      "downside": "AI 에이전트·LLM 산업의 변동과 오픈AI와 애플의 소송 결과에 따른 투자 위험을 고려해야 합니다."
     },
     "long_term": {
-      "thesis": "AI 기술의 발전과 산업의 변화로 인해 장기적으로 AI 관련 종목이 상승할 가능성이 높다. 그러나 산업의 구조적 트렌드의 변화로 인해 하방 시나리오도 존재한다.",
-      "upside": "",
-      "downside": ""
+      "thesis": "AI 에이전트·LLM 산업의 미래 방향과 오픈AI와 애플의 소송 결과에 따른 투자 기회를 고려해야 합니다.",
+      "upside": "AI 에이전트·LLM 산업의 미래 방향에 대한 투자 기회가 있을 수 있습니다.",
+      "downside": "AI 에이전트·LLM 산업의 변동과 오픈AI와 애플의 소송 결과에 따른 투자 위험을 고려해야 합니다."
     }
   },
   "capital_flow": {
-    "summary": "AI 관련 종목에 대한 외국인과 기관의 순매수가 증가하고 있다.",
+    "summary": "AI 에이전트·LLM 산업의 변동에 따른 투자 위험과 오픈AI와 애플의 소송 결과에 따른 투자 위험을 고려해야 합니다.",
     "signals": [
       "미래에셋 스페이스X 2차 청약 완판"
     ]
@@ -90,44 +94,44 @@
     {
       "case": "기본(Base)",
       "probability": 60,
-      "thesis": "AI 기술의 발전과 산업의 변화로 인해 AI 관련 종목이 상승할 가능성이 높다.",
-      "trigger": "AI 기술의 발전",
+      "thesis": "AI 에이전트·LLM 산업의 변동에 따른 투자 위험과 오픈AI와 애플의 소송 결과에 따른 투자 위험을 고려해야 합니다.",
+      "trigger": "외인 5일 +300K주",
       "watch_period": "1~2주",
       "data_quality": "full"
     },
     {
       "case": "강세(Bull)",
       "probability": 20,
-      "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
-      "trigger": "AI 기술의 발전",
+      "thesis": "AI 에이전트·LLM 산업의 미래 방향에 대한 투자 기회가 있을 수 있습니다.",
+      "trigger": "강세 트리거",
       "watch_period": "기간",
-      "data_quality": "partial"
+      "data_quality": "full"
     },
     {
       "case": "약세(Bear)",
       "probability": 20,
-      "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
-      "trigger": "AI 기술의 과도한 확산",
+      "thesis": "AI 에이전트·LLM 산업의 변동과 오픈AI와 애플의 소송 결과에 따른 투자 위험을 고려해야 합니다.",
+      "trigger": "약세 트리거",
       "watch_period": "기간",
-      "data_quality": "partial"
+      "data_quality": "full"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "AI 관련 종목의 평가가 과소평가된 것으로 보인다.",
-    "momentum_signals": "AI 관련 종목의 모멘텀이 강한 것으로 보인다.",
-    "fundamental_strength": "AI 관련 종목의 성장과 마진이 강한 것으로 보인다.",
+    "valuation_assessment": "AI 에이전트·LLM 산업의 평가에 대한 투자 기회가 있을 수 있습니다.",
+    "momentum_signals": "AI 에이전트·LLM 산업의 변동에 따른 투자 위험과 오픈AI와 애플의 소송 결과에 따른 투자 위험을 고려해야 합니다.",
+    "fundamental_strength": "AI 에이전트·LLM 산업의 미래 방향에 대한 투자 기회가 있을 수 있습니다.",
     "key_monitors": [
-      "AI 기술의 발전",
-      "산업의 변화"
+      "AI 에이전트·LLM 산업의 변동",
+      "오픈AI와 애플의 소송 결과"
     ],
-    "position_sizing_view": "Core/Satellite/Trade 중 어느 성격 + 근거 1~2문장"
+    "position_sizing_view": "AI 에이전트·LLM 산업의 미래 방향에 대한 투자 기회가 있을 수 있습니다."
   },
   "value_chain": {
     "upstream": [
-      "GOOGL"
+      "NVDA"
     ],
     "midstream": [
-      "NVDA",
+      "GOOGL",
       "MSFT"
     ],
     "downstream": [
@@ -135,6 +139,12 @@
     ]
   },
   "policy_tracker": [
+    {
+      "date": null,
+      "title": "AI 에이전트·LLM 산업의 정책 및 규제",
+      "region": "글로벌",
+      "stance": "neutral"
+    },
     {
       "date": null,
       "title": "AI 기본법",
@@ -151,6 +161,12 @@
       "date": null,
       "title": "EU AI법",
       "region": "EU",
+      "stance": "neutral"
+    },
+    {
+      "date": null,
+      "title": "AI 안전성 평가",
+      "region": "글로벌",
       "stance": "neutral"
     }
   ],
@@ -181,6 +197,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-07-13T01:07:38.006Z",
+  "generatedAt": "2026-07-13T05:01:40.637Z",
   "_model": "groq:llama-3.1-8b-instant"
 }

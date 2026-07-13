@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T08:18:53.059Z",
+  "updatedAt": "2026-07-13T11:41:16.583Z",
   "data": {
     "377300": {
       "name": "카카오페이",
@@ -52,7 +52,7 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 219418,
+      "volume": 211380,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -77,6 +77,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260713",
+            "foreigner": -2845,
+            "institution": 15662,
+            "individual": -19143,
+            "foreignRatio": "28.38%"
+          },
           {
             "date": "20260710",
             "foreigner": 58622,
@@ -139,85 +146,17 @@
             "institution": 21747,
             "individual": -20953,
             "foreignRatio": "28.16%"
-          },
-          {
-            "date": "20260629",
-            "foreigner": 5093,
-            "institution": 85666,
-            "individual": -91998,
-            "foreignRatio": "28.17%"
           }
         ],
         "sum5d": {
-          "foreigner": 126804,
-          "institution": 30425
+          "foreigner": 106885,
+          "institution": 73244
         },
         "sum10d": {
-          "foreigner": 199521,
-          "institution": 131102
+          "foreigner": 191583,
+          "institution": 61098
         }
       },
-      "consensus": null
-    },
-    "MA": {
-      "name": "마스터카드",
-      "px": 526.74,
-      "dayChange": 0.68,
-      "periodChange": 8.27,
-      "prices": [
-        486.51,
-        489.98,
-        490.64,
-        501.33,
-        492.99,
-        489.79,
-        484.09,
-        488.07,
-        494.41,
-        488.92,
-        499.02,
-        509.64,
-        513.6,
-        522.44,
-        539.39,
-        533.1,
-        531.62,
-        519.86,
-        523.2,
-        526.74
-      ],
-      "dates": [
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10"
-      ],
-      "volume": 1610377,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 601.77,
-        "low52w": 464.52,
-        "volume": 1610377
-      },
-      "investorFlow": null,
       "consensus": null
     },
     "V": {
@@ -281,6 +220,67 @@
       "investorFlow": null,
       "consensus": null
     },
+    "MA": {
+      "name": "마스터카드",
+      "px": 526.74,
+      "dayChange": 0.68,
+      "periodChange": 8.27,
+      "prices": [
+        486.51,
+        489.98,
+        490.64,
+        501.33,
+        492.99,
+        489.79,
+        484.09,
+        488.07,
+        494.41,
+        488.92,
+        499.02,
+        509.64,
+        513.6,
+        522.44,
+        539.39,
+        533.1,
+        531.62,
+        519.86,
+        523.2,
+        526.74
+      ],
+      "dates": [
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10"
+      ],
+      "volume": 1610377,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 601.77,
+        "low52w": 464.52,
+        "volume": 1610377
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "035420": {
       "name": "NAVER",
       "px": 188000,
@@ -332,7 +332,7 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 824284,
+      "volume": 757031,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -357,6 +357,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260713",
+            "foreigner": 45481,
+            "institution": 24025,
+            "individual": -57126,
+            "foreignRatio": "35.03%"
+          },
           {
             "date": "20260710",
             "foreigner": 192839,
@@ -419,22 +426,15 @@
             "institution": -101159,
             "individual": 192011,
             "foreignRatio": "34.66%"
-          },
-          {
-            "date": "20260629",
-            "foreigner": 24837,
-            "institution": 72520,
-            "individual": -98404,
-            "foreignRatio": "34.92%"
           }
         ],
         "sum5d": {
-          "foreigner": 405462,
-          "institution": -45049
+          "foreigner": 482400,
+          "institution": -10877
         },
         "sum10d": {
-          "foreigner": 563501,
-          "institution": -100521
+          "foreigner": 584145,
+          "institution": -149016
         }
       },
       "consensus": null

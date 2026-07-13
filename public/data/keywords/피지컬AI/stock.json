@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T08:15:33.429Z",
+  "updatedAt": "2026-07-13T11:37:15.496Z",
   "data": {
     "454910": {
       "name": "두산로보틱스",
@@ -52,7 +52,7 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 529721,
+      "volume": 532908,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -77,6 +77,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260713",
+            "foreigner": -26901,
+            "institution": 11247,
+            "individual": 14876,
+            "foreignRatio": "6.12%"
+          },
           {
             "date": "20260710",
             "foreigner": 38148,
@@ -139,22 +146,15 @@
             "institution": 18551,
             "individual": 39196,
             "foreignRatio": "5.84%"
-          },
-          {
-            "date": "20260629",
-            "foreigner": 9791,
-            "institution": 78965,
-            "individual": -88269,
-            "foreignRatio": "5.97%"
           }
         ],
         "sum5d": {
-          "foreigner": 198608,
-          "institution": 17452
+          "foreigner": 160875,
+          "institution": 37437
         },
         "sum10d": {
-          "foreigner": 139599,
-          "institution": 226148
+          "foreigner": 102907,
+          "institution": 158430
         }
       },
       "consensus": null
@@ -271,7 +271,7 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 2773842,
+      "volume": 2664002,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -296,6 +296,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260713",
+            "foreigner": 33607,
+            "institution": 26157,
+            "individual": -50330,
+            "foreignRatio": "28.66%"
+          },
           {
             "date": "20260710",
             "foreigner": 268125,
@@ -358,22 +365,15 @@
             "institution": -4029,
             "individual": 87738,
             "foreignRatio": "28.40%"
-          },
-          {
-            "date": "20260629",
-            "foreigner": -1424,
-            "institution": -23166,
-            "individual": 24230,
-            "foreignRatio": "28.49%"
           }
         ],
         "sum5d": {
-          "foreigner": -22057,
-          "institution": 350903
+          "foreigner": 19067,
+          "institution": 481612
         },
         "sum10d": {
-          "foreigner": 201838,
-          "institution": 433537
+          "foreigner": 236869,
+          "institution": 482860
         }
       },
       "consensus": null
@@ -429,7 +429,7 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "volume": 874265,
+      "volume": 939110,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -454,6 +454,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260713",
+            "foreigner": 85452,
+            "institution": 25664,
+            "individual": -107436,
+            "foreignRatio": "25.06%"
+          },
           {
             "date": "20260710",
             "foreigner": 136289,
@@ -516,22 +523,15 @@
             "institution": -24135,
             "individual": 97894,
             "foreignRatio": "24.81%"
-          },
-          {
-            "date": "20260629",
-            "foreigner": -5935,
-            "institution": -3428,
-            "individual": 6851,
-            "foreignRatio": "24.91%"
           }
         ],
         "sum5d": {
-          "foreigner": 181391,
-          "institution": 141671
+          "foreigner": 282054,
+          "institution": 113607
         },
         "sum10d": {
-          "foreigner": 216992,
-          "institution": 242755
+          "foreigner": 308379,
+          "institution": 271847
         }
       },
       "consensus": null
@@ -606,67 +606,6 @@
     ]
   },
   "etfs": {
-    "BOTZ": {
-      "name": "Global X Robotics & Artificial ",
-      "px": 36.91,
-      "dayChange": 0.76,
-      "periodChange": -0.94,
-      "prices": [
-        37.26,
-        37.12,
-        38.25,
-        37.88,
-        37.59,
-        38.37,
-        38.33,
-        36.64,
-        36.58,
-        36.61,
-        36.01,
-        36.86,
-        37.94,
-        38.06,
-        37.39,
-        38.25,
-        36.59,
-        35.99,
-        36.63,
-        36.91
-      ],
-      "dates": [
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-17",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10"
-      ],
-      "volume": 671073,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 41.71,
-        "low52w": 31.87,
-        "volume": 671073
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "ROBO": {
       "name": "ROBO Global Robotics and Automa",
       "px": 82.96,
@@ -724,6 +663,67 @@
         "high52w": 90.51,
         "low52w": 59.82,
         "volume": 192021
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "BOTZ": {
+      "name": "Global X Robotics & Artificial ",
+      "px": 36.91,
+      "dayChange": 0.76,
+      "periodChange": -0.94,
+      "prices": [
+        37.26,
+        37.12,
+        38.25,
+        37.88,
+        37.59,
+        38.37,
+        38.33,
+        36.64,
+        36.58,
+        36.61,
+        36.01,
+        36.86,
+        37.94,
+        38.06,
+        37.39,
+        38.25,
+        36.59,
+        35.99,
+        36.63,
+        36.91
+      ],
+      "dates": [
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10"
+      ],
+      "volume": 671073,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 41.71,
+        "low52w": 31.87,
+        "volume": 671073
       },
       "investorFlow": null,
       "consensus": null

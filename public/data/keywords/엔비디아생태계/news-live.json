@@ -1,25 +1,14 @@
 {
-  "updatedAt": "2026-07-13T23:30:06.427Z",
+  "updatedAt": "2026-07-14T00:19:06.050Z",
   "count": 40,
   "stats": {
-    "today": 1,
+    "today": 0,
     "yesterday": 0,
-    "weekAvg": 1,
-    "sources": 25,
-    "heat": "cool"
+    "weekAvg": 0.9,
+    "sources": 24,
+    "heat": "cold"
   },
   "items": [
-    {
-      "s": "한경 IT",
-      "t": "'K엔비디아' 꿈꾸는 리벨리온…인공지능 최적화 기업 품는다",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026071310361",
-      "m": "07. 13. AM 07:06",
-      "ts": 1783926418000,
-      "fullText": "",
-      "impact": "positive",
-      "takeaway": "엔비디아 생태계 확대에 리벨리온이 참여하는 것으로 보아 엔비디아의 영향력과 생태계가 더욱 강화될 것으로 기대된다."
-    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
@@ -29,7 +18,7 @@
       "ts": 1783522827000,
       "fullText": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness Tuning the LangChain Deep Agents harness for NVIDIA Nemotron 3 Ultra delivers leading performance and faster task completion on an open stack that enterprises can run, customize and control. July 8, 2026 by Adel El Hallak 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. At a tenth of the cost, teams harnessing NVIDIA Nemotron 3 Ultra can run evaluations continuously, experiment faster and build specialized agents across more of their business. LangChain’s agent engineering platform has more than 200 million monthly downloads. By tuning its Deep Agents harness specifically for NVIDIA Nemotron 3 Ultra, it allows for high-performing agents that complete more tasks, run faster and give enterprises a fully open stack they can customize, own and run anywhere. “The way to build better agents is to keep improving the system around the model,” said Harrison Chase, cofounder and CEO of LangChain. “Memory, tool use, evaluation and model behavior compound when teams can tune them together. Our work with NVIDIA shows that enterprises can get strong performance from an open stack while keeping control over the agent systems they are building.” Abridge, Amdocs and Box are embedding specialized agen",
       "impact": "positive",
-      "takeaway": "엔비디아의 기술이 LangChain Deep Agents Harness에서 최고의 성능을 나타내는 것으로 보아 엔비디아의 기술력과 생태계가 더욱 강화될 것으로 기대된다."
+      "takeaway": "엔비디아의 기술력 향상"
     },
     {
       "s": "티스토리",
@@ -41,7 +30,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "엔비디아와 허깅페이스의 협력으로 오픈 로보틱스 생태계가 더욱 확대될 것으로 보아 엔비디아의 영향력과 생태계가 더욱 강화될 것으로 기대된다."
+      "takeaway": "엔비디아의 생태계 확장"
     },
     {
       "s": "NVIDIA공식",
@@ -52,7 +41,7 @@
       "ts": 1783436452000,
       "fullText": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core. July 7, 2026 by Ian Buck 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. For agents in AI factories, speed matters. The faster the CPU can run the tool, the faster the agent can perform the task at hand. For the AI factory, the utilization of GPU is the most valuable resource in the data center so any time waiting for a task to complete constrains the revenue of an AI factory — or worse, impacts the GPU utilization waiting for the CPU to finish its task. AI factories need a CPU with max single-threaded performance to maximize AI factory revenue and agent performance. Today’s data center CPUs are not designed for speed at scale. While the world has fast CPUs for PCs and workstations, data center CPUs have been evolving in directions away from single-threaded performance. The advent of the cloud has pushed CPU makers to build higher core-count CPUs while minimizing cost at the expense of performance. Building CPUs that optimize costs per rentable core increased the number of cores per chip while taking away silicon area from what makes those cores run fast — like high-performance memory fabrics and faster instruction processing per core. The move to chiplet architectures further reduced cost but created a “chi",
       "impact": "positive",
-      "takeaway": "엔비디아의 기술이 AI Innovators에게 유용한 것으로 보아 엔비디아의 기술력과 생태계가 더욱 강화될 것으로 기대된다."
+      "takeaway": "엔비디아의 AI 기술 채택 증가"
     },
     {
       "s": "뉴스핌",
@@ -64,7 +53,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "딥시크가 자체 AI 반도체 개발을 추진하는 것으로 보아 엔비디아와의 경쟁이 더욱激化될 것으로 기대된다."
+      "takeaway": "엔비디아의 시장 점유율 위협"
     },
     {
       "s": "서울경제",
@@ -76,7 +65,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "딥시크가 칩까지 직접 만드는 것으로 보아 엔비디아와의 경쟁이 더욱激화될 것으로 기대된다."
+      "takeaway": "중국 기업의 자체 기술 개발"
     },
     {
       "s": "NVIDIA공식",
@@ -87,7 +76,7 @@
       "ts": 1783404026000,
       "fullText": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community New LeRobot integrations give developers open access to NVIDIA Isaac GR00T 1.7, Isaac Teleop, datasets and robotics workflows, with NVIDIA Cosmos 3 integration planned to bring frontier world models to open robotics development. July 6, 2026 by Sasa Docca 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, compute and validation tools. NVIDIA and Hugging Face are collaborating to bring the NVIDIA Isaac GR00T 1.7 open, reasoning vision language action (VLA) model for humanoid robots and the NVIDIA Isaac Teleop framework to LeRobot — Hugging Face’s open source library for robotics — with NVIDIA Cosmos 3 , a frontier model for physical AI, planned soon. Together, these integrations give developers a more accessible and standardized path for end-to-end robot development while driving innovation and collaboration across the open robotics community. “Open source is how a field turns advanced research into something people can study, adapt and build on,” said Thomas Wolf, cofounder and chief science officer at Hugging Face. “With NVIDIA Isaac GR00T 1.7 and Isaac TeleOp in LeRobot today, robotics developers can use shared models, data and workflows to train and evaluate robots in the open. And with NVIDIA Cosmos 3 planned next, the community will have a path to bring frontier world models into that same collaborative loop.” An Open Pipeline for Robot Foundation Models Hugging Face LeRobot is an open source robotics library for training, running and sharing robot datasets, models, policies and workflows. NVIDIA’s continued partnership with Hugging Face connec",
       "impact": "positive",
-      "takeaway": "엔비디아와 허깅페이스의 협력으로 오픈 로보틱스 생태계가 더욱 확대될 것으로 보아 엔비디아의 영향력과 생태계가 더욱 강화될 것으로 기대된다."
+      "takeaway": "엔비디아의 오픈 로보틱스 생태계 확장"
     },
     {
       "s": "NVIDIA공식",
@@ -109,7 +98,7 @@
       "ts": 1782963288000,
       "fullText": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout NVIDIA is partnering with AI clouds to deploy large‑scale, multi‑tenant AI factories, aligning economics through a revenue-sharing and credit-support model. July 1, 2026 by Colette Kress and Raj Mirpuri 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly utilized and support the economics of token‑scale AI services. Emerging AI companies historically have had limited access to capital-intensive infrastructure, with even long-term commitments insufficient to unlock financing for compute. To address this, NVIDIA is introducing a new business model that opens up compute access to the fast‑growing AI ecosystem of startups, model builders, enterprises, research organizations and regional AI players. This new model enables AI clouds to procure NVIDIA infrastructure for AI-native, enterprise and ISV customers through economic alignment with a revenue-sharing and credit-support model. Through the partnership, AI clouds will sell NVIDIA-powered cloud services, with NVIDIA earning both standard product revenue and a share of the cloud revenue on the supported capacity. This structure accelerates adoption of NVIDIA platforms among the high-growth, high-conviction AI native sector, and provides NVIDIA with a recurring, usage-linked earnings stream. For model builders, inference providers, agent platforms and enterprises scaling AI, it can mean faster access to full-stack accelerated computing without waiting through site selection, power procurement, construction and hardware bring-up. NVIDIA AI Factory Capacity Built Around Demand The initiative is already taking sh",
       "impact": "positive",
-      "takeaway": "엔비디아가 AI Compute를 확대하는 것으로 보아 엔비디아의 기술력과 생태계가 더욱 강화될 것으로 기대된다."
+      "takeaway": "엔비디아의 AI 컴퓨팅 확장"
     },
     {
       "s": "NVIDIA공식",
@@ -119,8 +108,8 @@
       "m": "07. 01. PM 01:00",
       "ts": 1782910847000,
       "fullText": "How Open Models Are Driving AI Research Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open...",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "impact": "positive",
+      "takeaway": "엔비디아의 미국 시장 확장"
     },
     {
       "s": "NVIDIA공식",
@@ -129,7 +118,9 @@
       "u": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
       "m": "06. 30. PM 05:00",
       "ts": 1782838838000,
-      "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access"
+      "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access",
+      "impact": "positive",
+      "takeaway": "엔비디아의 생명 과학 연구 지원"
     },
     {
       "s": "NVIDIA공식",
@@ -256,16 +247,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "뉴스케이",
-      "t": "아시아뉴스 엔비디아 젠슨 황은 '화려하게', AMD 리사 수는 '조용하게'… 미·중 반도체 전쟁 속 엇갈린 두 거물의 중국 행보",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4taEFjUmE3S1M3RHR3ejI3a1NDdURfWjg1NGwtLTRFbTBkcWpBMTF3aTRFSzc4VnhyRjVxRDJNRjdUOFhpR09OX0xoR245MUl1NHZDYXo5eURZUQ?oc=5",
-      "m": "05. 30. AM 07:00",
-      "ts": 1780124400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "서울경제",
       "t": "중국 “엔비디아 칩? 안 사” 하더니…‘일본→중국’ 밀반출 첫 확인",
       "d": "",
@@ -366,6 +347,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "중기이코노미",
+      "t": "엔비디아, 중국 시장 점유율 0퍼센트 추락…왜?",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9udi0xWnBLYkFaYTR2MlRMaFNtcmZJcHIyclhmZkdRTjZrZEg2cFBHZ2h5S3ZiQzJnbVJvTkNFYnJTdVBya3JCVHY1M1dKYzdXbVZmQzQtTWNjbEd5cmktN1Q0RTJjX1dDOVE?oc=5",
+      "m": "05. 04. AM 07:00",
+      "ts": 1777878000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "굿모닝베트남미디어",
       "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
       "d": "",
@@ -376,10 +367,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "중기이코노미",
-      "t": "엔비디아, 중국 시장 점유율 0퍼센트 추락…왜?",
+      "s": "한국경제",
+      "t": "젠슨 황 \"엔비디아 중국 점유율 0%\"…美 정부에 '작심발언'",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9udi0xWnBLYkFaYTR2MlRMaFNtcmZJcHIyclhmZkdRTjZrZEg2cFBHZ2h5S3ZiQzJnbVJvTkNFYnJTdVBya3JCVHY1M1dKYzdXbVZmQzQtTWNjbEd5cmktN1Q0RTJjX1dDOVE?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wR1NvSE1HQ1BmOW1zQXlLTmxvMkIwUi04a2pWYW1rTmNMTUpZNjlQa1ozNHJIMHB4a29xMGpNNWZqM1JDU0RTeVVjWl9aTnh3cGR5SXJBS3J6QdIBVEFVX3lxTFA4aHAtanIyTTY5czFLR3FMRElDSnNmOXZYTVJ1NkUtRExsV1V2SndhczR3aVMxQVhDOXpnRXJ6Nk92LXdKYVFscEFUM0NKb1paRFhZdg?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
       "_policy": true,
@@ -412,6 +403,16 @@
       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qWms0S095aWxyOEhXcFAwSjktbTgzVXJad1k0VUFNeFZyclV0Z3pMakpPdUZzRUt0dnNPOERvdmR4NjFwLVJFdExIZDU3amVPNHktNk81Tk9mXzZma3VZUVpKb0U?oc=5",
       "m": "04. 16. AM 07:00",
       "ts": 1776322800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "v.daum.net",
+      "t": "구윤철 “제2의 엔비디아·팔란티어 나와야…산업 생태계 위한 정책패키지 모색”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0weHk2aE1VdDlqT2tLOTFDVmYyNGxNdGUtSEMyYVBDSHVfbmZqQnMzYXdRWXJLVHAzZnNmcGtfWG9TNFJSUnc2Y2VtenR2VGc?oc=5",
+      "m": "04. 13. AM 07:00",
+      "ts": 1776063600000,
       "_policy": true,
       "fullText": "Google News"
     }

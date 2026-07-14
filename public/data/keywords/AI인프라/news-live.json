@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-14T20:09:13.967Z",
+  "updatedAt": "2026-07-14T21:31:34.786Z",
   "count": 40,
   "stats": {
     "today": 9,
     "yesterday": 3,
-    "weekAvg": 3.4,
+    "weekAvg": 3.3,
     "sources": 29,
     "heat": "warm"
   },
@@ -17,8 +17,8 @@
       "m": "07. 14. PM 06:33",
       "ts": 1784054011000,
       "fullText": "A group of publishers and authors have filed a class action lawsuit against Google, accusing the tech giant of using their copyrighted works to train its AI platform, Gemini. The group of plaintiffs, which includes Hachette, Cengage, Elsevier, author Scott Turow, and S.C.R.I.B.E., also alleges that Google intentionally removed or changed copyright information on these works to &#8220;conceal&#8230; that its Gemini Models were trained on stolen materials,&#8221; according to the lawsuit. This lawsuit is just one of many complaints that publishers, authors, and other copyright holders have filed against AI companies such as Google, Meta, OpenAI, and Anthropic. While many of these lawsuits are still pending, two early court decisions in California have favored the AI companies, ruling that the use of copyrighted works for AI training is considered &#8220; fair use &#8221; under U.S. copyright law that has not been updated since before the existence of the internet. Anthropic was, however, fined $1.5 billion for pirating the works it trained on, marking the largest payout in the history of U.S. copyright law. Around half a million writers were eligible for payments of at least $3,000. However, many authors opted out of receiving the settlement so that they could pursue further legal action over AI training. The California judges&#8217; decisions don&#8217;t bode well for how other courts may view the tech companies&#8217; fair use defense, but the conflict is too nuanced for these rulings to establish an inarguable precedent. The lawsuit against Google was filed in the U.S. District Court for the Southern District of New York, giving a different judge the opportunity to weigh in. In the Google case, the publishers have a more nuanced, long-term relationship with the company. The lawsuit explains that publishers and authors have a long history of providing Google with copyrighted works for the specific purpose of making books searchable through Google Books. These search",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "impact": "negative",
+      "takeaway": "AI 개발에 부정적 영향"
     },
     {
       "s": "웹이코노미",
@@ -30,7 +30,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "정부 AI 인프라 설계 확대가 데이터센터 수요를 촉진"
+      "takeaway": "AI 인프라 확장"
     },
     {
       "s": "조선일보",
@@ -41,7 +41,7 @@
       "ts": 1784044500000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "미국 빅테크의 대규모 부채 투자로 AI 데이터센터 확장 가속"
+      "takeaway": "AI 데이터센터 투자 증가"
     },
     {
       "s": "TechCrunch",
@@ -52,7 +52,7 @@
       "ts": 1784042279000,
       "fullText": "New York became the first state to halt data center construction after Gov. Kathy Hochul signed an executive order today that temporarily bars the state from approving new permits for large projects. Hochul’s order applies to data centers 50 megawatts or larger, potentially affecting more than a dozen projects. The state’s Department of Environmental Conservation will not issue any permits that haven’t already been completed. While resource concerns have fueled some of the backlash, broader concern about AI has been behind much of it as well. A recent Pew Research report found that only 10% of Americans were more excited than concerned about AI use in daily life, and just 23% felt that the technology would have a positive impact on how people do their jobs. Less than a quarter of the general public feels that AI will give the economy a boost, and less than a third were confident that the government would regulate the technology responsibly. “Progress shouldn’t arrive with a higher utility bill, deleted water supply, or noise pollution,” Hochul said at a press conference in Brooklyn. “These data centers can only be built, should only be built in places that want them. So they will never be exempt from local zoning, local approvals.” The moratorium will be lifted once the state finalizes an environmental review process for data centers, which Hochul expects will take about a year. Hochul’s office is also considering requiring data centers to pay into a fund that would support the state’s electrical grid, and she would like to prevent hyperscale data centers from receiving tax benefits. Hochul’s executive order arrives as more stringent measures are moving through New York’s legislature. Last month, the legislature advanced a bill that would pause construction of data centers larger than 20 megawatts for one year, while another still in committee would institute a three-year moratorium. The average data center built in the last few years has been smaller than 100 megaw",
       "impact": "negative",
-      "takeaway": "뉴욕주 데이터센터 신규 건설 중단으로 AI 인프라 공급 제약"
+      "takeaway": "데이터센터 건설 제한"
     },
     {
       "s": "TechCrunch",
@@ -72,9 +72,9 @@
       "u": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
       "m": "07. 14. PM 03:00",
       "ts": 1784041220000,
-      "fullText": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency From benchmark to production, NVIDIA Blackwell NVL72 delivers the highest performance per watt to maximize revenue and the lowest token cost to maximize profit margins. July 14, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will determine who scales and who doesn’t in a power-constrained world. Virtually every frontier AI model today runs on a mixture-of-experts (MoE) architecture. Serving these large-scale models efficiently means GPU domain size — the number of GPUs connected over an ultrafast, scale-up interconnect — matters, and bigger is better. While the NVIDIA Hopper generation set the standard with an 8-GPU domain, the scale of frontier AI today has outgrown it. Serving MoE with a 72-GPU rack-scale system demands full-stack codesign and the operational depth earned from running these models under real production load. With the NVIDIA Blackwell NVL72 platform , that rack-scale foundation is already built and proven, delivering the highest performance per watt to maximize revenues and the lowest token cost to maximize profit margins. It’s this foundation that the NVIDIA Vera Rubin platform builds upon next to further elevate rack-scale energy efficiency. Maximizing Performance per Watt for Frontier AI Each new generation of frontier models brings architectural changes that unlock greater intelligence while demanding new optimizations to run efficiently at scale. Across the newest generation of leading open models, NVIDIA GB",
+      "fullText": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency From benchmark to production, NVIDIA Blackwell NVL72 delivers the highest performance per watt to maximize revenue and the lowest token cost to maximize profit margins. July 14, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will determine who scales and who doesn’t in a power-constrained world. Virtually every frontier AI model today runs on a mixture-of-experts (MoE) architecture. Serving these large-scale models efficiently means GPU domain size — the number of GPUs connected over an ultrafast, scale-up interconnect — matters, and bigger is better. While the NVIDIA Hopper generation set the standard with an eight-GPU domain, the scale of frontier AI today has outgrown it. Serving MoE with a 72-GPU domain demands full-stack codesign and the operational depth earned from running these models under real production load. With the NVIDIA Blackwell NVL72 platform , that foundation is already built and proven, delivering the highest performance per watt to maximize revenues and the lowest token cost to maximize profit margins. It’s this foundation that the NVIDIA Vera Rubin platform builds upon next to further elevate rack-scale energy efficiency. Maximizing Performance per Watt for Frontier AI Each new generation of frontier models brings architectural changes that unlock greater intelligence while demanding new optimizations to run efficiently at scale. Across the newest generation of leading open models, NVIDIA GB300 NVL72 delivers",
       "impact": "positive",
-      "takeaway": "전력 효율 지표 강조가 AI 인프라 투자 매력도 상승"
+      "takeaway": "AI 효율성 향상"
     },
     {
       "s": "simplywall.st",
@@ -86,7 +86,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "은행의 AI 인프라 컨소시엄 참여가 투자 신뢰도 제고"
+      "takeaway": "AI 인프라 투자 증가"
     },
     {
       "s": "동아경제",
@@ -98,7 +98,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "주권 AI 정책 추진이 국내 데이터센터 투자 촉진"
+      "takeaway": "글로벌 AI 경쟁력 강화"
     },
     {
       "s": "지디넷코리아",
@@ -110,7 +110,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "정부·민간 협업으로 AI 데이터센터 구축 가속"
+      "takeaway": "AI 데이터센터 지원 강화"
     },
     {
       "s": "뉴스핌",
@@ -121,8 +121,8 @@
       "ts": 1783976400000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "impact": "positive",
+      "takeaway": "중소기업 AI 활용 지원"
     },
     {
       "s": "에너지경제신문",
@@ -191,16 +191,6 @@
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGbThkeEJPNFhZRWktcFNoQUs2TEJPVWJ3T2pURGl0QW1CWEdsNDNFWWZud0xLWk94VnptT0JEVlk4UGlPVVN0N0lmbmVNaWtTTVR4QjljN2VsZnBzR3lDYUZlX211UU0?oc=5",
       "m": "07. 11. AM 02:42",
       "ts": 1783737757000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴스핌",
-      "t": "[AI로 읽는 경제] ⑥ AI 격차 해법은 구독료 지원이 아니라 공공 지능 인프라다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93WEdYNEQ4YkQwYk1OOXFiMHBNLW1yOTBrT3oxbVNjM0ljalNHQ0VybXBCMENhTjlSTmhjOXV5Q0tndUhWajFpUGxDVGxyNlozdjBadHFfQnljVVF6?oc=5",
-      "m": "07. 10. PM 09:00",
-      "ts": 1783717200000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -274,6 +264,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "한국정보기술진흥원",
+      "t": "각국, 자국 인프라·데이터로 'AI 주권' 키운다...엔비디아 \"AI 팩토리가 현대 경제의 기반\"...프랑스·인도·브라질 사례로 본 소버린 AI 확산, 자국 언어·문화·규제에 맞춘 국가 AI 전략 5가지 요소 제시",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9BVlJXd3RpeWFhMUx5bUIyajQ1Mk9pWHJHWXc3RG1JQ0EyZGFPWVZzTWhMSU10clpkNjFoZzhNVkE?oc=5",
+      "m": "07. 07. AM 05:38",
+      "ts": 1783402700000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "NVIDIA공식",
       "t": "How Open Models Are Driving AI Research",
       "d": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work.  This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately [&#8230;]",
@@ -333,16 +333,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "서울신문",
-      "t": "“지역 전체를 ‘AI 실험의 장’으로… 과감한 규제 혁신·인프라 조성을”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84UlhaaG90RUpIa0U2TkZTTWtPTlNLa1VMTU1TTnVOcFZCS2RoR2hfTlJqYWYxUXRmTGpDZ0Q1d2NyYjV5b080WXZXaWpFcURrbUllQWgxQmVTd0JEQjBUNjVpRnVLdVVMTnZkb2FvMi1kVXVhQUFnX094VQ?oc=5",
-      "m": "07. 03. AM 07:00",
-      "ts": 1783062000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "디지털데일리",
       "t": "[AI 인프라전⑤完] \"필요할 때 GPU 못 구한다\"…업계가 꼽은 AI 인프라 병목",
       "d": "",
@@ -353,12 +343,22 @@
       "fullText": "Google News"
     },
     {
-      "s": "머니투데이",
-      "t": "암참, AI 리더십 위원회 출범…美 기업 \"규제, 예측 가능해야\" - 머니투데이",
+      "s": "아주경제",
+      "t": "해상풍력 선박·터빈 외산 의존 심각...AI 반도체 핵심 인프라, 정책 지원 시급",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rcVZFQ25HN1dPNVhZcmVieDl5NHNYSzloZFR1Sk1mVUw5QTR6eXkzNHhOVmdHVEdnQllMcFNMcHdSV2tDSm0ybTVCVmg5aUJpa3VQRUl3LUZCN2xLSXlpX196NEJyREFZTHZzZdIBckFVX3lxTE5zTjg5QWw2UWFDbS1sVzdwdWtmNmYtTnM0eXFJLUh4M0tTTVlMRENYVVlnYmdNeGJUWkd4Q2RrV2txRzBoS2Jrd2FoMzNKckN2UnVDSTl1VWthbC13c2tPOV9aNGNQSVlZOHU2MHRzTTQtUQ?oc=5",
-      "m": "07. 02. AM 07:00",
-      "ts": 1782975600000,
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xeDlSMktPS2NvMlBlSHplUmlpdjF6RU52RnNwbTg2NU9FV04weGpHWUxmUGhTMTAxYXQybFZrWU5OSXEyOXlkOUUzQkJoU3hiSlJ2MEMtMTBvUdIBWEFVX3lxTE01ckZBRTJybWNHdnBTN2hWTXh5S0dSV2ViWlF2VHZTNWNuZXlwTVByUUZQelhnY0JfVERWZ29pYkVxMHV1eXU2dkhsTnlSQndHZEx1VldQcEc?oc=5",
+      "m": "07. 03. AM 07:00",
+      "ts": 1783062000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "서울신문",
+      "t": "“지역 전체를 ‘AI 실험의 장’으로… 과감한 규제 혁신·인프라 조성을”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84UlhaaG90RUpIa0U2TkZTTWtPTlNLa1VMTU1TTnVOcFZCS2RoR2hfTlJqYWYxUXRmTGpDZ0Q1d2NyYjV5b080WXZXaWpFcURrbUllQWgxQmVTd0JEQjBUNjVpRnVLdVVMTnZkb2FvMi1kVXVhQUFnX094VQ?oc=5",
+      "m": "07. 02. PM 03:30",
+      "ts": 1783006211000,
       "_policy": true,
       "fullText": "Google News"
     },

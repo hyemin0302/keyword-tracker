@@ -1,14 +1,58 @@
 {
-  "updatedAt": "2026-07-16T02:11:10.780Z",
+  "updatedAt": "2026-07-16T05:30:02.579Z",
   "count": 40,
   "stats": {
-    "today": 0,
-    "yesterday": 7,
-    "weekAvg": 1.1,
-    "sources": 25,
-    "heat": "cold"
+    "today": 4,
+    "yesterday": 5,
+    "weekAvg": 1.4,
+    "sources": 24,
+    "heat": "warm"
   },
   "items": [
+    {
+      "s": "동아일보",
+      "t": "엔비디아 의존 탈피 노리는 애플, 반도체 기업 인수 타진",
+      "d": "애플이 인공지능(AI) 서버용 칩을 자체 개발하기 위해 반도체 기업 인수를 검토하고 있는 것으로 전해졌다. 자체 칩의 성능이 기대에 못 미쳐 엔비디아 칩에 기대는 상황이 이어지자, 인수로 이를 극복하려는 것으로 풀이된다.미국 정보기술(IT) 전문매체 디인포메이션은 15일(현지시간) 복수의 소식통을 인용해 애플이 일부 반도체 스타트업에 매각 의향을 타진하고 투자은행과도 인수를 논의했다고 보도했다.  애플은 현재 자체 개발한 ‘M2 울트라’ 칩으로 내부 AI 서버를 돌리고 있으나 성능이 기대에 못 미친다는 평가를 받는 것으로 알려졌다. ‘발트라’라는 코드명으로 개발 중인 차세대 서버 칩은 올해 출시할 예정이었지만 일정이 미뤄졌다. 이 때문에 높은 성능이 필요한 작업은 구글 클라우드를 통해 엔비디아 칩을 빌려 쓰",
+      "u": "https://www.donga.com/news/Economy/article/all/20260716/134311065/1",
+      "m": "07. 16. AM 04:29",
+      "ts": 1784176140000,
+      "fullText": "이민아 기자 구독",
+      "impact": "negative",
+      "takeaway": "애플이 자체 반도체 확보를 시도해 엔비디아 의존도가 감소, 부정적"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Japan’s Robotics Leaders Unite With Nvidia to Take On China",
+      "d": "Fujitsu Ltd., Fanuc Corp. and two of Japan’s biggest robotics companies will work together in robot development, a move aimed at staying ahead of surging competition from China.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-16/japan-s-robot-makers-join-nvidia-s-physical-ai-cosmos-coalition",
+      "m": "07. 16. AM 03:40",
+      "ts": 1784173200000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "일본 로봇 기업과 엔비디아 협업으로 생태계 확대, 긍정적"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia’s Huang Courts Japanese AI Suppliers With Pork Skewers",
+      "d": "On Wednesday night, Jensen Huang was in Tokyo’s central Kanda district courting the little-known Japanese suppliers that underpin the AI supply chain.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-16/nvidia-s-huang-courts-japanese-suppliers-with-kanda-pork-skewers",
+      "m": "07. 16. AM 03:26",
+      "ts": 1784172360000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "황 대표의 일본 AI 공급업체와 친밀 강화가 엔비디아 생태계 확대에 긍정"
+    },
+    {
+      "s": "조선일보",
+      "t": "젠슨 황 “도요타와 피지컬AI 협력... ‘일본 AI’의 시작”",
+      "d": "",
+      "u": "https://www.chosun.com/international/international_general/2026/07/16/GOB24ULMERD5RLYMLBT7S5BAVU/",
+      "m": "07. 16. AM 02:55",
+      "ts": 1784170546000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "도요타와 물리 AI 협력으로 엔비디아 생태계가 일본 AI 시장에 진입, 긍정"
+    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
@@ -18,7 +62,7 @@
       "ts": 1784156454000,
       "fullText": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI New NVIDIA Blackwell-powered T3000 and T2000 modules, paired with new NVIDIA Jetson software memory optimization and agent skills, help partners and customers move advanced robotics, visual AI and edge workloads onto compact, power-efficient systems. July 15, 2026 by Chen Su 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at the edge. To meet that need, NVIDIA today introduced the T3000 and T2000, new modules based on the NVIDIA Thor architecture that enable mass-market robotics and edge AI applications at scale. Jetson AGX Thor is powering this next generation of humanoid and robotic systems, with growing adoption across industries. Leading companies — including 1X , Agile Robots , Amazon Robotics , Boston Dynamics , FANUC , Hitachi and Techman Robot — are building on the platform. Unlocking Humanoid and Robotics Deployment With T3000 The hardware underpinning those capabilities starts with the Jetson and IGX T3000 modules, which delivers 865 FP4 teraflops of AI compute in a compact form factor roughly half the size and power of the T5000. Jetson T3000 combines an NVIDIA Blackwell GPU, an eight-core Neoverse Arm CPU, 32GB of LPDDR5X memory and 273GB/s of memory bandwidth, along with 25 GbE connectivity. IGX T3000 delivers the same performance with integrated functional safety while seamlessly running the NVIDIA Halos for Robotics full-stack safety system for robots operating alongside humans. Despite its smaller footprint, the T3000 achieves similar inference performance of the T5000 for multimodal workloads, including large language models, vision language models, vision language action models and world foundation models. Migrating to T3",
       "impact": "positive",
-      "takeaway": "Jetson Thor 출시로 로봇·엣지 AI 적용이 확대돼 Nvidia 생태계 성장"
+      "takeaway": "Jetson Thor 출시로 로봇·엣지 AI 적용 확대, 엔비디아 생태계에 긍정"
     },
     {
       "s": "Bloomberg Tech",
@@ -29,29 +73,7 @@
       "ts": 1784156400000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "Toyota와 AI 협력 확대로 스마트시티·공장에 Nvidia 솔루션 보급"
-    },
-    {
-      "s": "한경 경제",
-      "t": "젠슨 황 \"하이닉스 ADR, 믿을 수 없을 정도로 성공적\"",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026071579381",
-      "m": "07. 15. PM 01:38",
-      "ts": 1784122732000,
-      "fullText": "",
-      "impact": "neutral",
-      "takeaway": "SK 하이닉스 ADR 성공 언급은 Nvidia와 직접 연관 없으므로 중립"
-    },
-    {
-      "s": "한경 경제",
-      "t": "\"믿을 수 없을 정도\"…일본서 'SK하이닉스' 샤라웃한 젠슨황",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026071578557",
-      "m": "07. 15. AM 11:22",
-      "ts": 1784114570000,
-      "fullText": "",
-      "impact": "neutral",
-      "takeaway": "일본에서 SK하이닉스 ADR 칭찬은 Nvidia 생태계와 직접 무관"
+      "takeaway": "도요타와 AI 파트너십 확대가 스마트 시티·공장에 엔비디아 역할을 강화, 긍정"
     },
     {
       "s": "NVIDIA공식",
@@ -62,7 +84,7 @@
       "ts": 1784112697000,
       "fullText": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry July 15, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its partners in Japan are showcasing the AI ecosystem’s latest advancements. Check back here for updates. Wednesday, July 15, 4 p.m. PT 🔗 Japan’s Leaders Advance Healthcare and Life Sciences With NVIDIA Agentic and Physical AI Japan built the world’s most trusted names in medical technology and biopharma. Now the country’s healthcare leaders are engineering the next generational leap with AI, powered by NVIDIA. From autonomous surgical robots to AI-accelerated CT systems, and from agentic drug discovery platforms to virtual cell models, Japanese innovators are deploying NVIDIA technology to reshape medicine at every level. Agentic AI Accelerates Japanese Drug Discovery Japan’s pharmaceutical leaders are uniting around AI-powered drug discovery. Tokyo-1, the AI drug discovery consortium and platform operated by Xeureka, continues to expand, with Eisai joining this past April, bringing together leading pharma companies — Astellas , Daiichi Sankyo and Ono Pharmaceuticals — all advancing drug discovery using NVIDIA BioNeMo. Astellas has deployed nearly all BioNeMo NIM microservices within NVIDIA’s digital biology portfolio and is running BioNeMo Agent Toolkit, NVIDIA’s open platform that turns any AI agent into an autonomous life sciences scientist. It gives AI agents, software platforms and biopharma systems immediate access to NVIDIA’s full life sciences stack. Ono Pharmaceuticals is using the Boltz-2 NIM microservice to streamline and accelerate internal drug discovery. Daiichi Sankyo is conducting ultralarge-scale virtual screening on Tokyo-1 and leveraging ",
       "impact": "positive",
-      "takeaway": "일본 전 산업에 풀스택 AI·로보틱스 제공으로 Nvidia 생태계 확대"
+      "takeaway": "일본 전 산업에 풀스택 AI·로봇 제공으로 엔비디아 생태계 성장, 긍정"
     },
     {
       "s": "Bloomberg Tech",
@@ -73,7 +95,7 @@
       "ts": 1784106665000,
       "fullText": "",
       "impact": "neutral",
-      "takeaway": "Vera Rubin 진행 상황은 Nvidia 생태계와 직접 연관이 적음"
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "한경 IT",
@@ -84,7 +106,7 @@
       "ts": 1784089217000,
       "fullText": "",
       "impact": "negative",
-      "takeaway": "국산 AI 반도체가 Nvidia 수준에 도전, 경쟁 심화로 부정적 영향"
+      "takeaway": "국산 AI 반도체가 엔비디아 급 경쟁력 확보 시도는 생태계에 부정적"
     },
     {
       "s": "kmrk.ru",
@@ -96,7 +118,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "도박심리 활용 내용은 Nvidia 생태계와 무관, 영향 없음"
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "NVIDIA공식",
@@ -105,9 +127,7 @@
       "u": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
       "m": "07. 08. PM 03:00",
       "ts": 1783522827000,
-      "fullText": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness Tuning the LangChain Deep Agents harness for NVIDIA Nemotron 3 Ultra delivers leading performance and faster task completion on an open stack that enterprises can run, customize and control. July 8, 2026 by Adel El Hallak 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. At a tenth of the cost, teams harnessing NVIDIA Nemotron 3 Ultra can run evaluations continuously, experiment faster and build specialized agents across more of their business. LangChain’s agent engineering platform has more than 200 million monthly downloads. By tuning its Deep Agents harness specifically for NVIDIA Nemotron 3 Ultra, it allows for high-performing agents that complete more tasks, run faster and give enterprises a fully open stack they can customize, own and run anywhere. “The way to build better agents is to keep improving the system around the model,” said Harrison Chase, cofounder and CEO of LangChain. “Memory, tool use, evaluation and model behavior compound when teams can tune them together. Our work with NVIDIA shows that enterprises can get strong performance from an open stack while keeping control over the agent systems they are building.” Abridge, Amdocs and Box are embedding specialized agen",
-      "impact": "positive",
-      "takeaway": "Nemotron이 LangChain 에이전트에서 최고 성능 달성, Nvidia AI 생태계 강화"
+      "fullText": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness Tuning the LangChain Deep Agents harness for NVIDIA Nemotron 3 Ultra delivers leading performance and faster task completion on an open stack that enterprises can run, customize and control. July 8, 2026 by Adel El Hallak 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. At a tenth of the cost, teams harnessing NVIDIA Nemotron 3 Ultra can run evaluations continuously, experiment faster and build specialized agents across more of their business. LangChain’s agent engineering platform has more than 200 million monthly downloads. By tuning its Deep Agents harness specifically for NVIDIA Nemotron 3 Ultra, it allows for high-performing agents that complete more tasks, run faster and give enterprises a fully open stack they can customize, own and run anywhere. “The way to build better agents is to keep improving the system around the model,” said Harrison Chase, cofounder and CEO of LangChain. “Memory, tool use, evaluation and model behavior compound when teams can tune them together. Our work with NVIDIA shows that enterprises can get strong performance from an open stack while keeping control over the agent systems they are building.” Abridge, Amdocs and Box are embedding specialized agen"
     },
     {
       "s": "티스토리",
@@ -117,9 +137,7 @@
       "m": "07. 08. AM 06:36",
       "ts": 1783492563000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "Nvidia와 Hugging Face 협력으로 오픈 로보틱스 생태계가 확대"
+      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -333,7 +351,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "초이스스탁US",
+      "s": "초이스스탁",
       "t": "엔비디아 차이나 공백… 삼성·SK HBM 전선 '숨은 변수'",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iSWFsY1VJc3hibThTUTZ6NGdhZkVaZjl4RjBVYnFoOW1xLUdSdnB1aXpBSnBpaU1GUVZ6OFBnMVFDbjBKbDRGUmVGeERqNk9KT0lRTW15SlE1VGtkMEJKeTN4MGZMQzQ?oc=5",
@@ -379,26 +397,6 @@
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0WkhDbk5xaWt3UENFUTlldml6dFdiX3dhOFA3eC1QZ3VNZ0hlOXRXdjZXTUVORExPbDMzWEcxNnJQeHg4dXZhX0VETTItRzUxdXBYaFF3?oc=5",
       "m": "05. 06. AM 07:00",
       "ts": 1778050800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "글로벌이코노믹",
-      "t": "엔비디아 '양자 습격'… 삼성·SK 주주라면 꼭 봐야 할 '이 지표' 3가지",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUt6b1VhcF9fd1VmbFVMZmk0R3JOV1hKRVF4MmVidW5yQTVsenFXX0poSlRsVUJBT2FMVkpVaGgtYWFKcTI3dTRjeVZ6UXBrM1M5eVBjQ0tCWXhiT1RaRVJaQ21uejJ5SEEza3ZNN25BaG80OUNnMEgtWWladE55ZU5UZVZwTnA1?oc=5",
-      "m": "05. 04. AM 07:00",
-      "ts": 1777878000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "AI포스트",
-      "t": "엔비디아 젠슨 황 \"중국 점유율 0%로 추락\"…美 수출 규제로 中 자급자족 가속화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyOTlUNGxvUC1Qc3p3ME5Xa0R3WjNHU0t6MEhfbHg5NEY0ZTdYOVN1Rl9IWGFuVjcxVTVsdE1ONHhmS21XUS1xamFmY2g1M2UzQkFaNlVQRU9XU2Vvdm5mVmpydTZxVEhmTkJzdGd30gFyQVVfeXFMTlRBWGFmc1YySi1vb3VxX09XVE1OWkkxazgweFpROE9zZFJlMHU5RW1oNW9PRlVMMnB1NFFWbkNsaWstclBNUDZRaXB3MzdEUlZsYXB4S3ZvSW1DaERKekRyeVRnYmZGNmZLRjdiRVZWNENR?oc=5",
-      "m": "05. 04. AM 07:00",
-      "ts": 1777878000000,
       "_policy": true,
       "fullText": "Google News"
     },

@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-07-17T16:00:48.228Z",
+  "updatedAt": "2026-07-17T17:12:31.882Z",
   "count": 40,
   "stats": {
-    "today": 2,
+    "today": 3,
     "yesterday": 2,
-    "weekAvg": 3.1,
+    "weekAvg": 3.3,
     "sources": 36,
     "heat": "cool"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Apple in Early Settlement Talks With DOJ Over Antitrust Case",
+      "d": "Apple Inc. and the US Justice Department are in early discussions about settling a 2024 lawsuit that alleges the iPhone maker violated antitrust laws.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-17/apple-in-early-settlement-talks-with-doj-over-antitrust-case",
+      "m": "07. 17. PM 04:51",
+      "ts": 1784307100000,
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "클라우드·SaaS와 직접적인 연관성이 낮아 영향이 제한적이다."
+    },
     {
       "s": "TechCrunch",
       "t": "Amazon fixing bug that billed some AWS customers billions of dollars",
@@ -16,9 +27,9 @@
       "u": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
       "m": "07. 17. PM 03:29",
       "ts": 1784302161000,
-      "fullText": "In Brief Posted: 8:29 AM PDT · July 17, 2026 Image Credits: TechCrunch Zack Whittaker Amazon fixing bug that billed some AWS customers billions of dollars Some Amazon cloud customers woke up on Friday to a surprise bill estimate that said they owed billions of dollars for cloud services they had never used. Amazon confirmed on Friday that it&#8217;s trying to resolve a bug in its Amazon Web Services (AWS) billing portal that showed some customers &#8220;owed&#8221; millions or billions in cloud computing costs. In an update on its status page , Amazon said it began seeing inaccurate billing data as of late Thursday. But by Friday morning, the company conceded that the &#8220;rollback of a recent change did not resolve the issue.&#8221; Amazon said the change relates to its billing computation subsystem. The good news for the customers who were told they &#8220;owe&#8221; millions or billions to Amazon are likely off the hook. The billing estimates &#8220;do not reflect actual usage and charges,&#8221; Amazon said. According to several screenshots posted by Amazon customers on Reddit , one customer was quoted a billing estimate of close to $2.5 billion for this month&#8217;s AWS usage, while others had similar alerts, ranging from a few million dollars to hundreds of millions of dollars. A spokesperson for Amazon did not immediately return a request for comment. The issue is expected to last several more hours, per Amazon&#8217;s status page. Topics Amazon Web Services , AWS , In Brief , Security , whoops November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle. Savings end June 26, 11:59 p.m. PT . REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for t",
+      "fullText": "In Brief Posted: 8:29 AM PDT · July 17, 2026 Image Credits: TechCrunch Zack Whittaker Amazon fixing bug that billed some AWS customers billions of dollars Some Amazon cloud customers woke up on Friday to a surprise bill estimate that said they owed billions of dollars for cloud services they had never used. Amazon confirmed on Friday that it&#8217;s trying to resolve a bug in its Amazon Web Services (AWS) billing portal that showed some customers &#8220;owed&#8221; millions or billions in cloud computing costs. In an update on its status page , Amazon said it began seeing inaccurate billing data as of late Thursday. But by Friday morning, the company conceded that the &#8220;rollback of a recent change did not resolve the issue.&#8221; Amazon said the change relates to its billing computation subsystem. The good news for the customers who were told they &#8220;owe&#8221; millions or billions to Amazon is they are likely off the hook. The billing estimates &#8220;do not reflect actual usage and charges,&#8221; Amazon said. According to several screenshots posted by Amazon customers on Reddit , one customer was quoted a billing estimate of close to $2.5 billion for this month&#8217;s AWS usage, while others had similar alerts, ranging from a few million dollars to hundreds of millions of dollars. When reached by email, Amazon spokesperson Aisha Johnson referred TechCrunch to the company&#8217;s status page and did not comment further, or answer questions about the bug. The company would not say, when asked, if any AWS accounts had been suspended or paused as a result of the issue. The issue is expected to last several more hours, per Amazon&#8217;s status page. Updated with a response from Amazon. Topics Amazon Web Services , AWS , In Brief , Security , whoops November 4 Boston Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle. Savings end June 26",
       "impact": "negative",
-      "takeaway": "AWS 청구 오류가 대규모 손실을 초래해 클라우드 신뢰도에 우려"
+      "takeaway": "AWS 과금 오류는 클라우드 서비스 신뢰도에 부정적 영향을 줄 수 있다."
     },
     {
       "s": "TechCrunch",
@@ -29,7 +40,7 @@
       "ts": 1784301677000,
       "fullText": "Patreon , the membership platform for creators, is cracking down on AI scraping its content for training purposes. On Thursday, the company shared that it&#8217;s working with internet infrastructure provider Cloudflare to directly block access to AI bots designed to train their AI models on creators&#8217; work without permission. The strengthened measures were necessary because AI scraping has become more sophisticated since it first put measures in place to deter AI crawlers in 2023, the company says. In addition, Patreon&#8217;s paywall has long locked much of creators&#8217; content out of reach of crawlers. But more recently, the company introduced new discovery tools like a redesigned Home Feed and its tweet-like Quips , which could expose more content to crawlers. The changes come about as more online publishers and content creators are coming to grips with how AI is ingesting their work for the purpose of making their AI models smarter. To combat this, Cloudflare now offers tools that allow website publishers to restrict AI bots , including a marketplace that lets websites charge AI bots for scraping , dubbed Pay Per Crawl. Earlier this month, it changed its policies so that &#8220;mixed-use&#8221; crawlers, meaning those that both index and train on a website&#8217;s content, are blocked by default on any pages that host ads. Patreon says that it&#8217;s extending its existing work with Cloudflare to use the company&#8217;s AI Crawl Control technology to update its AI policies and enforcement tools. The difference here is that instead of simply asking AI crawlers not to scrape content using the robots.txt files &#8212; a standard way to provide bots with instructions on how they can use its site &#8212; Patreon is now actively blocking AI training bots. &#8220;Consent shouldn&#8217;t depend on whether a scraper chooses to behave,&#8221; a Patreon blog post explains, referencing the stricter measures. When testing the features, individual AI training crawle",
       "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "takeaway": "Patreon의 AI 차단 정책은 SaaS 시장에 큰 변화를 주지 않는다."
     },
     {
       "s": "재경일보",
@@ -40,8 +51,8 @@
       "ts": 1784235720000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "impact": "negative",
+      "takeaway": "아마존의 AI 규제와 채권 발행 불확실성은 클라우드 사업에 부담을 줄 수 있다."
     },
     {
       "s": "NVIDIA공식",
@@ -52,7 +63,7 @@
       "ts": 1784206834000,
       "fullText": "Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW Plus, GeForce NOW launches in India and delivers ‘Denshattack!’ with five new games this week. July 16, 2026 by GeForce NOW Community 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Onimusha: Way of the Sword is coming to GeForce NOW at launch, with the playable demo available this week. It’s joined by Denshattack! rolling in with five new games arriving in the cloud. Plus, GeForce NOW officially launches in India, moving from beta to public availability — meaning gamers can sign up without a waitlist. Pick Up the Oni Gauntlet Cloud-powered. Samurai-approved. Capcom’s next legendary action adventure is coming to GeForce NOW. Onimusha: Way of the Sword will arrive on the cloud at launch on Thursday, Sept. 3. Members can jump into the action even sooner with the demo now available to stream. Set in a dark fantasy vision of Edo Japan, follow a lone samurai wielding the legendary Oni Gauntlet against relentless demonic Genma. Master precise swordplay, unleash powerful abilities and absorb the souls of fallen enemies as supernatural battles unfold across a haunting world filled with mystery and danger. Ultimate members can experience every clash with GeForce RTX 5080-class performance in the cloud across PCs, Macs, handhelds, mobile devices and TVs. From the first swing in the demo through launch day, GeForce NOW lets members step into battle the moment it’s available — no downloads, storage space or expensive hardware required. Gamers can find the demo in the GeForce NOW app demo row and add the title to their wishlists today to be ready when the blade is drawn. India Levels Up The wait is over. GeForce NOW has officially exited beta in India , bringing the world’s highest-performance cloud gaming service to more gamers across the country. This week, gamers can choose from monthly Performance and Ultimate memberships, flexible day passes or the ba",
       "impact": "positive",
-      "takeaway": "클라우드 게임 서비스 확대가 클라우드 인프라 활용을 촉진"
+      "takeaway": "GeForce NOW 클라우드 게임 서비스 확대는 클라우드 활용도를 높인다."
     },
     {
       "s": "쿠키뉴스",
@@ -64,7 +75,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "금융망분리 규제로 사무·협업 SaaS 수요가 급증"
+      "takeaway": "금융권 네트워크 분리 규제로 SaaS 도입이 촉진되어 수요가 증가한다."
     },
     {
       "s": "디지털데일리",
@@ -76,7 +87,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "망분리 해제로 금융권 AI·클라우드 도입이 가속화"
+      "takeaway": "망분리 해제로 AI·클라우드 활용이 쉬워져 SaaS 성장에 긍정적이다."
     },
     {
       "s": "지티티코리아",
@@ -88,7 +99,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "공공 SaaS 인증·전환 지원으로 시장 진입이 원활해짐"
+      "takeaway": "공공 SaaS 인증·전환 지원은 공급 지연을 줄여 시장 확대에 도움이 된다."
     },
     {
       "s": "한국공공정책신문",
@@ -100,7 +111,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "우주 데이터센터 구축이 차세대 클라우드 인프라 확장에 기여"
+      "takeaway": "우주 데이터센터는 차세대 클라우드 인프라로 성장 가능성을 시사한다."
     },
     {
       "s": "Vietnam.vn",
@@ -112,7 +123,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "레노버 클라우드 전용 기기로 클라우드 서비스 활용 범위 확대"
+      "takeaway": "레노버 클라우드 전용 기기는 모바일 클라우드 활용을 확대한다."
     },
     {
       "s": "매일일보",
@@ -122,9 +133,7 @@
       "m": "07. 13. AM 06:00",
       "ts": 1783922426000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "KT의 AI 메일 보안 SaaS가 공공·교육 시장 진입을 가속"
+      "fullText": "Google News"
     },
     {
       "s": "나눔경제뉴스",
@@ -354,26 +363,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "ER 이코노믹리뷰",
-      "t": "[금고 해킹 AI vs 쉴드 MS⑧] 13년 만에 풀린 금융 망분리 규제가 던진 숙제",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5UkdiSVYtQUJzZjBjeVZLaGx5QU80YTVlMW5QdkcwdG1jcm5TdTJ0ZTRSUHh0TkF1emt4aFhpX3hfTjVtTmw1aVNpb2pJS0J3NVZJSlRyZllqSGJrY0ZVX1N6ekRyeENtWkFtcQ?oc=5",
-      "m": "06. 25. AM 07:00",
-      "ts": 1782370800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "itworld.co.kr",
-      "t": "“소버린 클라우드가 답일까?” 유럽 주권 전략에 회의를 제기하다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQYm1BeDdDb1pxMjFzUkwzMWtpMVJidG1MN09lV1cwbFVBcGdZVzU2UVpvNDVrTkhHamhCaGhrTEVsd3AzMHhWTjliM0VIWms5X2Z1NU96NWxteXVURUxvNVZ1eHpCYUVWTlYySl81MUUzeVdRbUhTOEt0dFNWdDZGc2EwcTM0LWRoSlpBR1M1aGlZMDJIUUI3OHhwWElUMl9rWUpkcHAzaFZkS0FnNkpua1VzNVVBTUhhNll5VWFZVFpqTXRtRlBjMXVock9yYlNHVXMzOFczQ3pILXhNYnFJVnMwNjg5MnlWWmZGMlZ4QlNna0h3bUF5WjZkNDRxSkZ1TGZRLWV3Y0gyb2V3VnRuRldfVE9NVWVyeWJ0eEtrSm9pMWMyOVkwWjZiMFAyQVVJU1lUZWxsTG00YmFMQ1BTak9SYW1sV0U?oc=5",
-      "m": "06. 25. AM 07:00",
-      "ts": 1782370800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "TradingView",
       "t": "EU 규제 당국, “아마존·마이크로소프트의 클라우드 컴퓨팅 서비스도 EU 기술 규제의 적용을 받아야 한다”고 밝혀",
       "d": "",
@@ -404,22 +393,32 @@
       "fullText": "Google News"
     },
     {
+      "s": "itworld.co.kr",
+      "t": "“소버린 클라우드가 답일까?” 유럽 주권 전략에 회의를 제기하다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQYm1BeDdDb1pxMjFzUkwzMWtpMVJidG1MN09lV1cwbFVBcGdZVzU2UVpvNDVrTkhHamhCaGhrTEVsd3AzMHhWTjliM0VIWms5X2Z1NU96NWxteXVURUxvNVZ1eHpCYUVWTlYySl81MUUzeVdRbUhTOEt0dFNWdDZGc2EwcTM0LWRoSlpBR1M1aGlZMDJIUUI3OHhwWElUMl9rWUpkcHAzaFZkS0FnNkpua1VzNVVBTUhhNll5VWFZVFpqTXRtRlBjMXVock9yYlNHVXMzOFczQ3pILXhNYnFJVnMwNjg5MnlWWmZGMlZ4QlNna0h3bUF5WjZkNDRxSkZ1TGZRLWV3Y0gyb2V3VnRuRldfVE9NVWVyeWJ0eEtrSm9pMWMyOVkwWjZiMFAyQVVJU1lUZWxsTG00YmFMQ1BTak9SYW1sV0U?oc=5",
+      "m": "06. 25. AM 07:00",
+      "ts": 1782370800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "ER 이코노믹리뷰",
+      "t": "[금고 해킹 AI vs 쉴드 MS⑧] 13년 만에 풀린 금융 망분리 규제가 던진 숙제",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5UkdiSVYtQUJzZjBjeVZLaGx5QU80YTVlMW5QdkcwdG1jcm5TdTJ0ZTRSUHh0TkF1emt4aFhpX3hfTjVtTmw1aVNpb2pJS0J3NVZJSlRyZllqSGJrY0ZVX1N6ekRyeENtWkFtcQ?oc=5",
+      "m": "06. 25. AM 07:00",
+      "ts": 1782370800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "시사뉴스",
       "t": "영주시, ‘클라우드 전환 대응 역량 강화 교육’ 실시",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pQlJ6WS1vblRMdmdnbGJSODV1aldzbUlVek9RUmNZS2E3c08zb0x0ZnhRWnZOZVg2UXVtUFQyQ1V4cFhheGtwQWxCWWw0MUhvYTdjaUxPVVp1RzlJSnlmYWVWUQ?oc=5",
       "m": "06. 24. PM 09:57",
       "ts": 1782338268000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "영주시민신문",
-      "t": "시, 클라우드 역량 강화 교육 가져",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrTmJzZENWY2VNS0VWbk1Ra09jOGJEdlZKcWdQX2IycWZpam5YUER4WEtmaVB5dmFfR0VTOTJ0VmJoREJEcVh3aWw3dkJEQnVHNFliWnNWV2ZkOHV5c0VsZEgwQTEzNlZM?oc=5",
-      "m": "06. 24. AM 08:16",
-      "ts": 1782288983000,
       "_policy": true,
       "fullText": "Google News"
     }

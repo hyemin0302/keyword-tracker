@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-07-17T14:34:26.659Z",
+  "updatedAt": "2026-07-17T16:02:33.923Z",
   "count": 40,
   "stats": {
-    "today": 1,
-    "yesterday": 10,
-    "weekAvg": 3.3,
+    "today": 2,
+    "yesterday": 9,
+    "weekAvg": 3.1,
     "sources": 28,
     "heat": "cool"
   },
   "items": [
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads &#8211; a Key Metric for Agentic AI",
+      "d": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
+      "u": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+      "m": "07. 17. PM 03:00",
+      "ts": 1784300414000,
+      "fullText": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads &#8211; a Key Metric for Agentic AI Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era. July 17, 2026 by Kirthi Develeker 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to a prompt, an agentic model must plan, use different tools and recover from problems it encounters mid-run. That’s why post-training, the phase that refines a model after initial training on raw data, is no longer a one-time finishing step. It’s continuous, because the environment that agentic models operate in shifts fast. The tools an agent uses can change week to week. Edge cases surface in production that no test set anticipated. Each deployment brings its own codebase, policies and environment. Post-training runs loop back from production as new problems surface. The compute footprint grows not because any single run is larger, but because the runs never stop. Agentic AI introduces a new compute pattern for post-training, making it the central workload of the agentic era and the primary driver of intelligence per dollar. The goal of post-training is to maximize intelligence per dollar by maximizing the yield of every forward and backward pass in the continuous learning cycle. The forward pass — inference — is measured in cost per token . That means that every improvement to cost per token flows directly into intelligence per dollar. Agentic Post-Training Demystified Post-training is where intelligence is built. ",
+      "impact": "positive",
+      "takeaway": "NVIDIA가 AI 에이전트의 효율성을 높이는 데 성공하여 Agentic AI의 성능을 향상시켰다."
+    },
     {
       "s": "Bloomberg Tech",
       "t": "China’s Moonshot Unveils AI Model That Narrows Gap With US Firms",
@@ -18,7 +29,7 @@
       "ts": 1784271718000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "중국 기업이 미국 기업과 경쟁할 수 있는 AI 모델을 개발했다는 소식이다."
+      "takeaway": "중국 기업 Moonshot이 미국 기업과 경쟁할 수 있는 AI 모델을 개발하여 AI 에이전트의 경쟁력을 높였다."
     },
     {
       "s": "TechCrunch",
@@ -29,7 +40,7 @@
       "ts": 1784232434000,
       "fullText": "Ryan Beiermeister has joined Founders Fund as a partner, she announced on Monday. Beiermeister is well-known in Silicon Valley for a number of reasons. For one, prior to this role, she spent about two years as VP of Product Policy at OpenAI as it became a household name, shortly after ChatGPT became the fastest-growing app in history. That career choice ended abruptly in February when she was reportedly fired after objecting to a planned ChatGPT feature called “adult mode,” which was going to allow adults to use the chatbot for erotica. The Wall Street Journal reported that her firing involved an accusation by a male colleague of sexual discrimination, although Beiermeister called any allegation that she discriminated against anyone &#8220;absolutely false.&#8221; In March, OpenAI reportedly scrapped plans for adult mode. More recently, Beiermeister has become well-known in Silicon Valley for her skillful strategy in a Founders Fund YouTube show called &#8220;Mafia.&#8221; The game involves discovering which players are secret Mafia killers before those players can &#8220;kill&#8221; the rest of the players. Beiermeister played the game against OpenAI’s Sam Altman, Anduril’s Palmer Luckey, Figma’s Dylan Field, Flexport’s Ryan Petersen, Founders Fund’s Trae Stephens, and several others. One of the most intense scenes in Episode One involved her and Altman each saying that if they were found dead, it would mean the other was the killer. Those who knew the history laughed. Some commented on Twitter that maybe the whole Mafia game was really a job interview for her. The game, according to the firm&#8217;s chief marketing officer and the game&#8217;s MC, Mike Solana (who brought the game to the firm), is often played at Founders Fund retreats. However, it wasn&#8217;t. &#8220;Though she is an excellent Mafia player, that wasn’t part of her interview process. She has been close with Trae Stephens since they worked together at Palantir and has been friendly with our team f",
       "impact": "neutral",
-      "takeaway": "투자자에게 새로운 정보는 없지만, OpenAI와의 관련성이 있다는 점이 중요하다."
+      "takeaway": "테마와 직접 관련이 없는 OpenAI의 임직원 채용 소식"
     },
     {
       "s": "TechCrunch",
@@ -40,7 +51,7 @@
       "ts": 1784226774000,
       "fullText": "OpenAI&#8217;s Sora may have shut down , but Google apparently thinks there&#8217;s still interest in a tool that lets you star in your own AI videos. On Thursday, the tech giant announced an update to Google Vids that will allow you to create a custom digital avatar that looks and sounds like you based on a selfie and a voice recording you upload. In addition, Google said it&#8217;s bringing its multi-modal AI model Gemini Omni to Vids, letting you create videos using a combination of a written prompt and reference images you upload. Omni then mixes those inputs together to create the AI video you want. It can also be used to do things like swap out the background or fix the lighting in a video recorded on your phone, or add effects. Plus, Omni now supports step-by-step edits, meaning you can make changes to your video as you go instead of starting over from scratch. The updates push Google Vids beyond its original role as an AI-assisted workplace presentation tool to become more of an all-in-one video creation platform. By making Vids a part of Google Workspace, the company is telegraphing its use as a business tool for things like company updates or training videos, but personalized avatars and conversational edits could put it in closer competition with other AI video startups and tools like HeyGen , Synthesia , Cap t ions , D-ID , and others. Google notes that the new AI avatars will be tied to the account holder&#8217;s likeness, tied to their Google account, and watermarked invisibly with SynthID. (I suppose that means no one will be using the tool to make bizarre AI videos of Google CEO Sundar Pichai, the way that OpenAI CEO Sam Altman had let users do with Sora when it was available!) The company also says that access to personal avatars is limited to users in certain regions who are aged 18 or older. Topics AI , Apps , Google , Google Vids , Video When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our edit",
       "impact": "neutral",
-      "takeaway": "AI 기술을 이용한 비디오 제작이 가능해졌다는 점이 중요하다."
+      "takeaway": "테마와 직접 관련이 없는 AI 비디오 제작 서비스"
     },
     {
       "s": "TechCrunch",
@@ -51,7 +62,7 @@
       "ts": 1784221200000,
       "fullText": "Newsletter platform Beehiiv is expanding into new avenues of engagement by launching a feature called Community, which lets subscribers of a creator chat with each other. The company also launched a new AI Copilot that helps creators manage and grow their audience. The updates come as Beehiiv positions itself as a creator platform beyond newsletters. In the last few months, the company has launched podcasts , webinars, and customizable paywalls . Some of these moves are already showing positive results. The company said that 50% of podcast users migrated their shows from elsewhere, for instance. Beehiiv&#8217;s new Community tool will allow users to spin up a discussion forum within the platform. Today, creators often have a chat for members on a separate Discord or Slack server or in Facebook groups, but Beehiiv wants to bring those chats back to its own platform. Here, creators can also create paid membership tiers for exclusive access to certain chatrooms and to moderate conversations. &#8220;People following your content have a shared interest in what you&#8217;re creating, but they can&#8217;t communicate with each other. Whether that interest is in sports, the World Cup, or politics, being able to have a community where your audience can actually engage with one another is super valuable,&#8221; Beehiiv CEO Tyler Denk told TechCrunch. The platform is also introducing an additional revenue-generation opportunity with programmatic ads, which allows users to sell ad slots in their newsletters. They can earn money by choosing the ads that potentially offer the highest returns based on their audience, content, and performance. The company already has tools like metered paywalls, paid trials, and a sponsorship storefront to sell their own slots in packages. Plus, Beehiiv said the publishers on the platform earn more than $1 million per month through their ad network. Beehiiv is launching a new AI assistant called Copilot, as well, which can understand context like c",
       "impact": "neutral",
-      "takeaway": "AI 기술을 이용한 뉴스레터 플랫폼이 개선되었다는 점이 중요하다."
+      "takeaway": "테마와 직접 관련이 없는 뉴스레터 플랫폼의 업데이트 소식"
     },
     {
       "s": "TechCrunch",
@@ -62,7 +73,7 @@
       "ts": 1784217600000,
       "fullText": "Google might launch an AI product with one name during its experimental phase, but it will eventually tie it all to Gemini. In the latest example of this trend, the company is renaming its AI-powered research product NotebookLM to Gemini Notebook. The company is also adding features to make the tool more interactive by infusing coding execution for data analysis. The company first showed off NotebookLM during Google I/O in 2023 as Project Tailwind, and since then, it has made it into a product used by 30 million people and over 600,000 organizations. In the last three years, the company has added capabilities like interactive podcast generation, curated notebooks, video overviews, support for more file types , and an enterprise plan . Because of NotebookLM, other companies and startups have added capabilities for podcast generation from source material and research tools . Loading the player&#8230; Along with renaming, Google is rolling out a new update that makes each notebook its own secure container, in which users can generate code to make outputs interactive. It noted that with code execution ability, users can tap into multiple sources and create complex data analysis directly within the tool. The company said the update is available to Google AI Ultra paid plan users, along with Workspace business customers with AI Ultra Access and AI Expanded Access. Pro users will get access to this feature in the coming weeks. Google said that users can already look at their notebooks within the Gemini app, and soon, they will be able to access them through AI Mode in search. Topics Apps , gemini , Google , notebooklm When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Ivan Mehta Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web. You can contact or verify outreach from Ivan by ",
       "impact": "neutral",
-      "takeaway": "Google이 NotebookLM을 Gemini Notebook으로 이름을 변경했다는 소식이다."
+      "takeaway": "테마와 직접 관련이 없는 구글의 제품 이름 변경 소식"
     },
     {
       "s": "TechCrunch",
@@ -73,18 +84,7 @@
       "ts": 1784216335000,
       "fullText": "Sudo make me a sandwich . The future has arrived! DoorDash just introduced a limited beta of DoorDash CLI, a command-line tool for developers that lets you order DoorDash directly from your AI agent. The tool can be used to search stores, find deals, and check out, the company says. Today we&#39;re opening up the DoorDash CLI in limited beta. `dd-cli` lets you order DoorDash directly from your agent: search stores, find the best deals, check out, and more. Early access for US/Canadian macOS developers by waitlist. Excited to see what folks build! pic.twitter.com/rSFhjJnvjJ &mdash; Andy Fang (@andyfang) July 15, 2026 Called &#8220;dd-cli,&#8221; the new tool is open to U.S. and Canadian macOS developers via a waitlist, said DoorDash co-founder and CTO Andy Fang in a post on X . DoorDash was asked for comment about the new feature. The announcement is getting a lot of attention because, on the face of it, it&#8217;s rather funny. Command-line tools are associated with programming, not ordering lunch. An AI agent running commands to order your salad or sandwich can initially feel somewhat absurd. But the DoorDash CLI isn&#8217;t actually a joke; it&#8217;s an example of what agentic commerce can look like. With this move, the company is exposing DoorDash&#8217;s ordering platform to AI agents, allowing developers to add functionality to their own software and services. That means instead of visiting DoorDash&#8217;s app, developers could build their own tools for ordering food, groceries, or finding local lunch deals, among other things, or use those capabilities as building blocks that are combined with other tools. DoorDash, too, has experimented with offering its service via iMessage and now has its own AI chatbot , &#8220;Ask DoorDash&#8221; — offering two examples of how agentic commerce can work. It also exposes its service to AI chatbots, like OpenAI&#8217;s ChatGPT and Claude . The company&#8217;s sign-up form for access to the new CLI tool includes a field ask",
       "impact": "neutral",
-      "takeaway": "DoorDash가 명령줄에서 주문이 가능해졌다는 소식이다."
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Why is OpenAI selling a ChatGPT basketball?",
-      "d": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
-      "u": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-      "m": "07. 16. PM 03:31",
-      "ts": 1784215869000,
-      "fullText": "You may have heard that OpenAI released its first piece of hardware this week: a $230 mini keyboard . You may not have heard that alongside this &#8220;command center for agentic work,&#8221; OpenAI also released a ChatGPT basketball. &#8220;This basketball comes from the Pause. Play. Prompt. campaign, a physical reminder that creativity doesn’t just live on our screens,&#8221; the product listing explains. I was not able to find any other mention of the &#8220;Pause. Play. Prompt.&#8221; campaign on OpenAI&#8217;s website, but I gather that this is OpenAI&#8217;s way of telling people not to spend all day on Codex. Who says tech companies aren&#8217;t thinking about our mental health? The basketball will cost you $70, or about 56 million input tokens for GPT-5. It&#8217;s a 100% rubber ball, which is a better fit for outdoor play due to its weather resistance than the more expensive leather balls you&#8217;ll find on professional basketball courts. I am pleased to know that OpenAI is envisioning a world where playing sports outside is possible, even as the generative AI boom accelerates tech companies&#8217; carbon emissions . It&#8217;s difficult to imagine the target customer for the ChatGPT basketball. Who is this for? Wander outside the safety of an AI-pilled, tokenmaxxing Silicon Valley and one might worry about getting bullied for bringing a ChatGPT basketball to the court. You could not pay me $70 to walk onto a community court in Philadelphia with this ChatGPT basketball. (If it were free swag from a conference, it could pass as ironic &#8212; I cherish my &#8220;#FACEBOOK&#8221; tote, which is airbrushed like a 2000s bar mitzvah party favor .) In defense of the ChatGPT basketball, the AI industry isn&#8217;t exactly known for its product-market fit instincts. May the Humane Ai Pin rest in peace. Image Credits: OpenAI Alongside that $70 artifact, OpenAI is also selling a line of merch with inspirational reminders, like &#8220;Good research takes time,&#8221",
-      "impact": "neutral",
-      "takeaway": "OpenAI가 ChatGPT와 관련된 농담을 하는 소식이다."
+      "takeaway": "테마와 직접 관련이 없는 도어다시의 서비스 확장 소식"
     },
     {
       "s": "하나뉴스",
@@ -96,7 +96,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "정부가 AI 데이터센터를 국가전략산업으로 육성하고 있다."
+      "takeaway": "정부가 AI 데이터센터를 국가전략산업 육성에 투자하여 '1인 1 AI 에이전트' 시대가 열린다."
     },
     {
       "s": "대한민국 정책브리핑",
@@ -108,7 +108,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "정부가 550조의 AI 데이터센터 투자를 견인하고 있다."
+      "takeaway": "정부가 550조의 AI 데이터센터 투자를 견인하여 '1인 1 AI 에이전트' 시대가 열린다."
     },
     {
       "s": "블록체인투데이",
@@ -120,7 +120,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "AI 에이전트 결제 시대가 도래하고 있다."
+      "takeaway": "AI 에이전트 결제 시대가 도래하여 카드와 스테이블코인 이원화된다."
     },
     {
       "s": "연합뉴스",
@@ -408,13 +408,14 @@
       "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access"
     },
     {
-      "s": "NVIDIA공식",
-      "t": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
-      "d": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
-      "m": "06. 30. PM 01:00",
-      "ts": 1782824427000,
-      "fullText": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning June 30, 2026 by Esther Lee 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse . Vision AI agents are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1) . But more edge data doesn’t automatically create more intelligence. As much as 90% of existing edge data goes unprocessed, according to the same Gartner report. Turning that data into useful action requires vision AI agents that can understand video, adapt to real-world conditions and connect insights to operational workflows. These agents often run near cameras, machines and sensors, where models must meet latency, power, cost and connectivity requirements while adapting to site-specific conditions. To build those agents, developers need repeatable ways to generate training data, fine-tune models and deploy agentic video applications across edge and cloud environments. NVIDIA Metropolis agent skills and blueprints give developers reusable workflows to build, operate and optimize vision AI agents across that lifecycle. For the simulation and synthetic data side of that work, Universal Scene Description, or OpenUSD , provides a common framework for describing, composing and reusing 3D worlds. Built on OpenUSD, NVIDIA Om"
+      "s": "지티티코리아",
+      "t": "AI 에이전트 보안, 접속 제어 넘어 신원·권한·행위까지 실시간 검증",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PSUZ4UHZpTjkwWE1wV3JlclpxakxVRHpZV2J5ZkRwbG9xVkZ5clQ3SGNseDhIc1ZLYjAza3VpUWRiak9xZFc1RGk5UklzN2hSemN3d1ZJVTNJa3o4dnpUcWNhRVpQZ1pLRGc?oc=5",
+      "m": "06. 26. AM 07:00",
+      "ts": 1782457200000,
+      "_policy": true,
+      "fullText": "Google News"
     }
   ]
 }

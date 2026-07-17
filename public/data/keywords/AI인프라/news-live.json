@@ -1,23 +1,36 @@
 {
-  "updatedAt": "2026-07-17T11:06:49.866Z",
+  "updatedAt": "2026-07-17T12:43:52.287Z",
   "count": 40,
   "stats": {
-    "today": 1,
+    "today": 2,
     "yesterday": 17,
-    "weekAvg": 4.9,
+    "weekAvg": 5,
     "sources": 35,
     "heat": "cool"
   },
   "items": [
     {
+      "s": "TechCrunch",
+      "t": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
+      "d": "A $400 million chip-backed loan points to the next wave of AI infrastructure deals.",
+      "u": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "m": "07. 17. PM 12:00",
+      "ts": 1784289600000,
+      "fullText": "General Compute, an AI inference cloud startup, has landed a $400 million loan from Upper90, a tech investment firm. It might be the first deal to put up inference-specific chips as collateral — chips built to run already-trained AI models quickly and efficiently, rather than the more expensive chips used to build the models in the first place. The financing is the latest signal that markets are responding to concerns over the price of AI tools and tokens by turning to infrastructure that runs open-source models more cheaply than the newest LLMs from frontier labs. Founded by CEO Finn Puklowski, General Compute raised a $15 million seed round in May to build an inference neocloud around silicon from SambaNova, an Intel-backed chipmaker. (Neoclouds are purpose-built for AI workloads, unlike the general-purpose infrastructure offered by traditional hyperscalers like AWS or Azure.) The company&#8217;s SN50 chips are designed for inference. They&#8217;re power-efficient and don&#8217;t require expensive water-cooling systems, which means they can be deployed more quickly than GPUs across a larger variety of data centers. General Compute says the new chips will provide 16 times faster inference than GPU-based clouds. The challenge is getting a lot of these chips, especially when you&#8217;re a brand-new company. Upper90 co-founder and CEO Billy Libby, a former Goldman Sachs quantitative trader, had a playbook for this: In 2021, his firm financed GPU purchases by Crusoe, the energy-focused data center startup, which he believes was the first loan against the value of advanced chips. Traditional lenders eschewed such deals at the time because of the risks and uncertainties around GPU depreciation. But as CoreWeave made chips-backed loans into a business model and then the basis of a blockbuster IPO, this kind of financing has become common. &#8220;When we financed Nvidia GPUs as the first group to do that, the market was inefficient,&#8221; Libby told TechCrunch. &#8220;We",
+      "impact": "positive",
+      "takeaway": "인퍼런스 칩 투자 확대가 데이터센터 AI 처리능력 강화에 기여"
+    },
+    {
       "s": "조선일보",
       "t": "미국이 UAE에 AI칩 수출 규제를 풀어준 이유",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUktNEhPS3FmcmQ2aEd2dnNuM3ZWZ2xZa0tvcHoydDFKY1AyQlJpMWpqeEQ4cklLZV9nR3J4d2xrQVIzNEVybm1ZQ1RTaEZ2U0NrVFhReHVlVmZHYlBwckNqdVB0TTJQZ2ktZGlYTjA4N1hDRUhGX2FhMWJvZTZJV2xrcw?oc=5",
-      "m": "07. 17. AM 08:10",
-      "ts": 1784275800000,
+      "m": "07. 17. AM 08:15",
+      "ts": 1784276159000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "AI칩 수출 규제 완화가 글로벌 AI 인프라 구축을 촉진"
     },
     {
       "s": "글로벌뉴스통신GNA",
@@ -27,7 +40,9 @@
       "m": "07. 16. PM 09:53",
       "ts": 1784238806000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "법제 논의가 인프라 투자 직접 영향은 미미"
     },
     {
       "s": "재경일보",
@@ -37,27 +52,33 @@
       "m": "07. 16. PM 09:02",
       "ts": 1784235720000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "AI 규제 우려와 채권 발행으로 인프라 투자 불확실성 증가"
     },
     {
       "s": "에너지경제신문",
       "t": "“AI 허브 골든타임…‘전력·세제·규제 혁신’ 서둘러야”",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wOWFMTER0TE8wcWNlV2xHVHV6eFpseHV0UFpndTRKcXBPbGpLc1VNREc2eWc5ODZiV2NCa1Y4WG5MYXlwaTU3YjhRd1NueTJCaVNoeFhwaVVvVXc1Rjgza2Vn?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVcXVjMHNVY3k4RTBQbU9ZOFE1YllST2JDcHdLTHlFcm13cXl5a3BGRmFlMlBZc1NNRERoblpWa0h1MnBYSWVUZlZJRzdxN1RON1p2YkxHYkV3UjA?oc=5",
       "m": "07. 16. AM 10:42",
       "ts": 1784198572000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "전력·세제·규제 혁신이 AI 허브 구축에 핵심 동력"
     },
     {
-      "s": "강원도민일보",
+      "s": "v.daum.net",
       "t": "송기헌 과방위원장, AI 경쟁력 강화 방안 논의...AI 기본법 시행 6개월 세미나·AI 인프라 투자 촉진 토론회 잇따라 개최",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44S2o2Tlg1Q0laVk40S0RtRFBlWXJSOS1tLWZoaDBfc2l1d3FMamFXQWE2UHVTSy1wQWtMYnAzZV9ob2xKVGlHUXMtckt1TElmVlpVZFlaM0FwTTlneDJpLUlQTnlaV0U?oc=5",
-      "m": "07. 16. AM 09:27",
-      "ts": 1784194023000,
+      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54dmgyTDhpNGttRnFPdnBCT3FqVXE2QmZfN2tnb3FKV1haaldLdGgtcGV0bGluejUydjhlLUZ1UU1UQUozU1hKbDRQX1VOUi1KZ0pzMA?oc=5",
+      "m": "07. 16. AM 09:29",
+      "ts": 1784194147000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "AI 인프라 투자 촉진 논의가 실질적 지원으로 이어질 가능성"
     },
     {
       "s": "아이뉴스24",
@@ -67,7 +88,9 @@
       "m": "07. 16. AM 08:18",
       "ts": 1784189903000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "세액공제·인허가 지연이 AI 데이터센터 확장에 제약"
     },
     {
       "s": "디지털투데이",
@@ -77,7 +100,9 @@
       "m": "07. 16. AM 08:17",
       "ts": 1784189851000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "정부 3대 메가 지원이 AI 인프라 확장에 직접적인 자금 흐름 제공"
     },
     {
       "s": "뉴스홈(newshome)",
@@ -87,7 +112,9 @@
       "m": "07. 16. AM 08:06",
       "ts": 1784189167000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "18.4GW 전력 확보가 대규모 AI 인프라 구축을 가속화"
     },
     {
       "s": "아이티데일리",
@@ -97,7 +124,9 @@
       "m": "07. 16. AM 07:50",
       "ts": 1784188228000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "세제·인허가 완화 부족이 지능형 공장 구현을 저해"
     },
     {
       "s": "열린정책뉴스",
@@ -233,7 +262,7 @@
       "s": "중소기업신문",
       "t": "美 뉴욕주, 데이터센터 건설 제동…글로벌 'AI 인프라 규제' 시작되나",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oRmRXLWlPLTcyRlVLVlFQVWdPS2ZKa2NBQmtHSmhDQThHd1FneEptODNzeWZDQ3NNLVcxQVlDS1pncHhRenJ4bXFhdjZaWnBuSUhMV01vWDZIanlUalo0UUt5aFYwTGU0SFBhSTFR?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Mb2dsUHhsb0J2ajZpQ0U5YUlEOTRITHRHUFlpaXBfbk5rdUx2VVlBSnVRN3d0SDk2SjV3QWlFVXRseVdYTE1Ccl8yOEUwM1hjSFRlY1lNd2V5emNpVGY5UjNyc3BMUVIteFdhUg?oc=5",
       "m": "07. 15. AM 01:41",
       "ts": 1784079706000,
       "_policy": true,
@@ -378,6 +407,16 @@
       "fullText": "삼성전자, AI 인프라에 최적화된 기업용 SSD PM1763 양산 2026/07/08 AI 요약 새로운 뉴스룸 AI 기능을 살펴보세요! 닫기 --> AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성전자가 AI 인프라에 최적화된 PCIe 6.0 기반 기업용 SSD(eSSD) &#8216;PM1763&#8217; 양산을 시작했다. * PCIe(Peripheral Component Interconnect Express): PCIe 6.0은 PAM4 신호 방식을 채택해 기존 PCIe 5.0 대비 2배 향상된 데이터 전송 대역폭을 제공 최근 AI 학습과 추론에 필요한 데이터량이 급격히 증가함에 따라 데이터를 안정적이고 신속하게 제공하는 기업용 SSD가 AI 인프라의 핵심 구성요소로 각광받고 있다. PM1763은 빠른 읽기 속도와 컨트롤러 아키텍처 최적화를 통한 효율적인 데이터 처리가 강점이며, 차세대 AI 플랫폼에 핵심 솔루션이 될 것으로 기대된다. 삼성전자는 이번 제품에 9세대 V낸드와 4나노 기반 신규 컨트롤러를 탑재해 제품 성능과 전력 효율을 크게 향상시켰다. 이번 제품은 4TB(테라바이트), 8TB, 16TB의 3가지 용량으로 제공되며, 이 중 16TB 제품은 업계 최고 성능을 구현했다. 16TB 제품 기준 연속 읽기·쓰기 속도는 각각 최대 초당 28,400MB(메가바이트), 21,900MB로, 전작 &#8216;PM1753&#8217; 대비 약 2배 향상됐다. 이는 40GB(기가바이트) 크기의 대형 언어 모델(LLM)을 약 1.4초 만에 전송할 수 있는 속도로, 가속기와 프로세서 간 데이터 지연을 최소화해 AI 작업 처리 효율을 획기적으로 높일 수 있다. * 라마-3(Llama-3) 70B(4-bit 양자화 기준) 모델이 약 40GB 크기에 해당 * LLM(Large Language Model): 대량의 데이터를 학습한 대형 인공지능(AI) 모델로 이미지 및 동영상 생성, 번역 등 작업을 수행. 온디바이스 AI 서비스를 효율적으로 사용하기 위해서는 SSD가 AI 모델을 신속하게 전송해야 함 PM1763은 차세대 AI 서버에 적용되는 액체 냉각 환경에 최적화된 제품이다. 콜드 플레이트를 소자에 부착하는 D2C 냉각 방식을 활용해 고부하 환경에서도 성능 저하 없이 장시간 최고 성능을 유지할 수 있다. * D2C(Direct-to-Chip) 액체 냉각: 콜드 플레이트(Cold Plate)를 소자나 부품에 직접 설치하여 냉각하는 방법 또한, 전작 대비 전력 효율이 1.8배 이상 향상돼 데이터센터 운영 비용 절감에 도움을 줄 수 있다. 이번 제품은 데이터 보안이 중요해지는 AI 시대에 맞춰 보안 솔루션 또한 강화했다. PQC 암호화 알고리즘을 통해 양자 컴퓨팅 해킹을 방지할 수 있으며, TDISP 기술을 통해 가상화 환경에서 데이터 통로를 안전하게 보호할 수 있다. * PQC(Post-Quantum Cryptography): 양자 컴퓨터 공격에 취약한 기존 암호화 알고리즘의 약점을 보완한 새로운 암호화 알고리즘 * TDISP(TEE Device Interface Security Protocol): 가상화 환경에서 Host자원에 SSD 자원이 할당되어 연결이 형성되었을 때 허가받지 않은 외부 개입을 차단하는 PCI-SIG 표준화 기술 삼성전자 메모리사업부 상품기획팀 최장석 상무는 &#8220;PM1763은 업계 최고 성능을 바탕으로 글로벌 고객사의 차세대 AI 플랫폼 요구사항을 만족시키고 제품 검증까지 성공적으로 마쳤다&#8221;며, &#8220;이번 제품은 메모리 용량을 확장시켜 고객사의 AI 모델이 효율적으로 운영하도록 지원하는 핵심 솔루션이 될 것&#8221;이라고 밝혔다. ▲ 삼성전자 PM1763 제품 PCIe 6.0 SSD SSD PM1763 제품뉴스 반도체 프레스센터 보도자료 제품뉴스 프레스센터 삼성전자 뉴스룸의 직접 제작한 기사와 이미지는 누구나 자유롭게 사용하실 수 있습니다. 그러나 삼성전자 뉴스룸이 제공받은 일부 기사와 이미지는 사용에 제한이 있습니다. 삼성전자 뉴스룸 콘텐츠 이용에 대한 "
     },
     {
+      "s": "에너지경제신문",
+      "t": "[현장] AI 인프라 키우라더니…통신3사 “낡은 규제부터 바꿔야”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VUGRwWWwwbWlEeW8yUXA3RHNDWnRkR3E1NjQ2SkJrcWIzYkM2TzNjUVNPMVVQbzNGRHlpdl9pVTI1U0NBVnlfYWg5WGtRRzkydDVLSWFmLTNqTTQ?oc=5",
+      "m": "07. 07. PM 01:12",
+      "ts": 1783429967000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "NVIDIA공식",
       "t": "How Open Models Are Driving AI Research",
       "d": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work.  This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately [&#8230;]",
@@ -385,26 +424,6 @@
       "m": "07. 06. PM 04:00",
       "ts": 1783353600000,
       "fullText": "How Open Models Are Driving AI Research At the International Conference on Machine Learning, nearly 145 papers cite NVIDIA Nemotron open models and datasets as the foundation for new research. July 6, 2026 by JJ Kim 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately 2,000 accepted papers cite NVIDIA GPUs, and 145 cite NVIDIA Nemotron — a family of open models, including open datasets — as the foundation for new research. Hundreds more draw on NVIDIA Cosmos , NVIDIA Isaac GR00T , BioNeMo and other NVIDIA open model families, spanning physical AI, robotics, autonomous vehicles and biomedical research. The Themes Defining This Year’s Research Areas including vision and video generation, reinforcement learning for large language models ( LLMs ) and agent training as well as AI inference remained prominent themes across this year’s papers, reflecting sustained investment these fields command — while several new areas also broke through. Robot world models drew significant attention, with papers like DreamDojo pushing the boundary of how AI systems learn to reason about and act in physical environments. DreamDojo, for example, learns how the physical world behaves from human video and builds on NVIDIA Cosmos open frontier models to predict how a robot would handle objects and operate in environments it was never trained on. It lets researchers evaluate policies, plan actions and teleoperate a virtual robot, accelerating development without the costs and risks of physical deployment. AI for life sciences was fueled by NVIDIA BioNeMo open models and research contributions that help research"
-    },
-    {
-      "s": "글로벌이코노믹",
-      "t": "AI 데이터센터, 이제는 ‘전력·허가’가 승부 가른다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRmhGelpOdUxWVWhsTEFqano0eTAyS29LdHAtZm43WGpMR0JJZzVCb004ek1sU1NpZWJvUnB6VkZ2T1FGX05YNE5BWEM0MWVSeWhZTmwxNHNvbUNMeTZQdGxYa28yX0taSEhoOEFERUFCUlZOZDlNWXlWczM5NlFPWWdQOWhwUEF3?oc=5",
-      "m": "07. 06. AM 07:00",
-      "ts": 1783321200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "연합뉴스",
-      "t": "강원도, 100조원대 'AI데이터센터' 건립 투자유치 첫발 뗐다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6NG1STE9UQUxEcEw3YjZkdWljN2h3bk1uNWFVci1iUDJSRUpyVWpyd2t0T3RpdEprbXprbTRTZ2tRbkJvc0MxMzJJdWtSbnBzcHc4U2YtZ0d0Y2vSAWBBVV95cUxOVUtCSHB0QlZtZHZJTTB6cjl0TmJsREhRRDk3a1liU2NfT1M0SWpvUlZTVmFtTndIWlNpVWVvUHFIWS1lbkFXZ3ZVQTZEMnI2cmV0NGs0WEZJUk9JWjJ1VGI?oc=5",
-      "m": "07. 06. AM 07:00",
-      "ts": 1783321200000,
-      "_policy": true,
-      "fullText": "Google News"
     }
   ]
 }

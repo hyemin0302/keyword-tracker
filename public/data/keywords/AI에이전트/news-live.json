@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-07-19T23:33:05.124Z",
-  "count": 40,
+  "updatedAt": "2026-07-20T01:09:40.772Z",
+  "count": 16,
   "stats": {
-    "today": 7,
-    "yesterday": 2,
-    "weekAvg": 4,
-    "sources": 28,
-    "heat": "warm"
+    "today": 2,
+    "yesterday": 6,
+    "weekAvg": 1.7,
+    "sources": 6,
+    "heat": "cool"
   },
   "items": [
+    {
+      "s": "전자신문",
+      "t": "알파비트, sLLM 기반 접속기록 분석 플랫폼 'AlphaActArchive' 출시...GS인증 1등급 획득",
+      "d": "알파비트는 SAP S/4 Hana·WAS·DBMS 환경의 사용자 접속기록을 통합 관리하고, 소규모 언어모델(sLLM)을 활용해 보안위험 분석 보고서를 자동 생성하는 통합 사용자 접속기록 관리 플랫폼 'AlphaActArchive V1.0'을 출시 및 GS인증 1등급을 획득했다고 밝혔다. 최근 개인정보보호법과 내부통제 요구사항이 강화되면서 기업과 공공기관은 개인정보 처리 시스템의 접속기록 보관, 이상행위 탐지, 접근 이력 점검, 감사 대응 체계를",
+      "u": "https://www.etnews.com/20260716000317",
+      "m": "07. 20. AM 01:00",
+      "ts": 1784509200000,
+      "fullText": "이코노미 > IT 알파비트, sLLM 기반 접속기록 분석 플랫폼 'AlphaActArchive' 출시...GS인증 1등급 획득 발행일 : 2026-07-20 10:00 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 SAP S/4 Hana·WAS·DBMS 사용자 접속기록 통합 관리...영역별 AI 분석으로 보안위험 자동 요약 계층형 sLLM 분석 구조로 대용량 로그의 컨텍스트 한계 극복, 종합 보안보고서 자동 생성 알파비트는 SAP S/4 Hana·WAS·DBMS 환경의 사용자 접속기록을 통합 관리하고, 소규모 언어모델(sLLM)을 활용해 보안위험 분석 보고서를 자동 생성하는 통합 사용자 접속기록 관리 플랫폼 'AlphaActArchive V1.0'을 출시 및 GS인증 1등급을 획득했다고 밝혔다. 최근 개인정보보호법과 내부통제 요구사항이 강화되면서 기업과 공공기관은 개인정보 처리 시스템의 접속기록 보관, 이상행위 탐지, 접근 이력 점검, 감사 대응 체계를 지속적으로 고도화해야 하는 상황에 놓여 있다. 특히 SAP와 같은 핵심 업무 시스템뿐 아니라 그룹웨어, 업무 포털, 자체 개발 WAS 기반 시스템까지 개인정보 처리 범위가 확대되면서 다양한 시스템의 접속기록을 하나의 기준으로 통합 관리하려는 수요가 커지고 있다. AlphaActArchive는 SAP S4/Hana·PCE 등 사용자 접속기록 분석 기술을 기반으로 일반 WAS·DBMS Agent까지 확장한 통합 보안 분석 플랫폼이다. SAP GUI, WebGUI, Fiori, RFC 등 SAP 환경에서 발생하는 접근 이력은 물론, WAS·DBMS 기반 업무 시스템의 사용자 접근 행위까지 수집·분석해 보안 관리자가 전사 접속기록을 한 화면에서 확인할 수 있도록 지원한다. 제품은 접속 시간, 사용자, IP, MAC, 시스템, TCODE, 세션, 개인정보 접근 유형, 상세 행위 로그 등을 기반으로 접속기록을 체계적으로 관리한다. 또한 개인정보 접근 현황, 이상징후 탐 지, 소명 처리, 감사 보고서, 접근제어 정책, Agent 상태 등 보안 운영에 필요한 주요 정보를 통합 대시보드로 제공한다. AlphaActArchive의 핵심 차별점은 sLLM을 활용한 계층형 보안 분석 구조다. 대용량 접속기록과 통계 데이터를 한 번에 AI 모델에 입력하는 방식은 컨텍스트 한계와 분석 품질 저하 문제가 발생할 수 있다. 이에 AlphaActArchive는 전체 데이터를 한 번에 요약하지 않고, 보안 영역별 통계를 먼저 산출한 뒤 각 영역을 독립적으로 분석하고, 그 결과를 다시 종합하는 방식으로 보고서를 생성한다. 예를 들어 시스템은 먼저 SAP 접속기록, WAS 접근기록, 이상징후, 시스템 상태, 접근제어, 보안위험 등 각 영역별 통계를 생성한다. 이후 영역별 sLLM이 각 통계에 대해 주요 변화, 이상 패턴, 위험 징후, 조치 권고를 분석한다. 이 분석 결과는 표준화된 형식으로 정리되며, 최종 단계에서 다시 sLLM이 각 영역의 결과를 종합해 하나의 통합 보안 보고서를 작성한다. 이 방식은 대량의 로그를 한 번에 처리하기 어려운 문제를 줄이고, 각 보안 영역의 맥락을 보다 정밀하게 반영할 수 있다는 장점이 있다. 또한 특정 영역의 데이터만 변경됐을 때 해당 영역 분석과 최종 종합 보고서만 갱신할 수 있어 운영 효율성도 높일 수 있다. 특히 AlphaActArchive는 AI 분석 결과가 단순한 자연어 설명에 그치지 않도록, 주요 지표와 근거 데이터를 함께 제공하는 방향으로 설계되고 있다. 보안 담당자는 보고서에서 위험 수준, 핵심 발견사항, 관련 사용자·시스템·접근 이력, 권고 조치를 함께 확인할 수 있으며, 감사 대응에 필요한 증적 확보와 조치 이력 관리에도 활용할 수 있다. 또한 이상징후 탐지 이후의 소명 관리 기능도 제공한다. 탐지된 이벤트를 사건 단위로 관리하고, 소명 요청, 검토, 승인 또는 반려, 처리 이력 관리까지 하나의 워크플로우로 구성한다. 보안 담당자는 사건별 타임라인과 관련 접속 로그를 확인하고, AI 요약을 참고해 소명 필요",
+      "impact": "positive",
+      "takeaway": "AlphaActArchive 출시로 알파비트의 AI 기술력 강화"
+    },
+    {
+      "s": "전자신문",
+      "t": "에치에프알, 통신장비 특화 독자 언어모델 개발",
+      "d": "에치에프알(HFR)이 차세대 통신 인프라 혁신을 이끌 통신장비 특화 언어모델(Story-LLM)을 독자 개발했다. 이번에 개발된 에치에프알의 통신 특화 Story-LLM은 통신장비 및 AI 기반 통신망 운영 플랫폼과 연동해 네트워크 상태를 실시간으로 분석하고, 장애 징후와 예측 결과를 해석해 장애 원인과 조치 방안을 제시하는 통신 특화형 AI 모델이다. 특히 외부 범용 대규모언어모델(LLM)과 비교해 통신장비 운영 환경에 요구되는 보안성, 응답",
+      "u": "https://www.etnews.com/20260720000051",
+      "m": "07. 20. AM 12:42",
+      "ts": 1784508123000,
+      "fullText": "통신 통신 에치에프알, 통신장비 특화 독자 언어모델 개발 발행일 : 2026-07-20 09:42 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 HFR 에치에프알(HFR)이 차세대 통신 인프라 혁신을 이끌 통신장비 특화 언어모델(Story-LLM)을 독자 개발했다. 이번에 개발된 에치에프알의 통신 특화 Story-LLM은 통신장비 및 AI 기반 통신망 운영 플랫폼과 연동해 네트워크 상태를 실시간으로 분석하고, 장애 징후와 예측 결과를 해석해 장애 원인과 조치 방안을 제시하는 통신 특화형 AI 모델이다. 특히 외부 범용 대규모언어모델(LLM)과 비교해 통신장비 운영 환경에 요구되는 보안성, 응답성, 전문성 및 기술 통제력을 강화한 것이 특징이다. 외부 API형 범용 LLM을 사용할 경우 장비 구성정보와 성능정보, 장애이력 등 민감한 네트워크 데이터를 외부 클라우드로 전송해야 할 가능성이 있다. 반면 에치에프알의 Story-LLM은 고객사 내부 서버와 폐쇄망 환경에서 구동할 수 있으며, 자체 개발한 시맨틱 코딩 기반 보안 표현 기술을 적용해 장비명과 포트, 채널 등 민감한 식별정보의 직접 노출과 데이터 외부 전송 경로를 최소화하도록 설계됐다. 통신망 운영에 필요한 빠른 응답 성능과 분산형 AI 운영 구조도 갖췄다. 외부 API와 클라우드 서버를 거치지 않고 장비 인접 엣지 환경이나 고객사 내부 인프라에서 직접 분석을 수행하기 때문에 장애 징후가 발생하면 신속한 분석과 대응이 가능하다. 향후에는 장비 단위의 신속한 판단과 경량 AI 추론을 수행하고, 중앙 관제 시스템에서는 복수 장비와 서비스 간 상관관계 및 장기 이력을 분석하는 대형 AI 모델을 운용하는 분산형 통신 AI 체계를 구축할 수 있다. 일반 범용 LLM은 통신 전문용어와 알람 코드, 광신호 지표 및 복잡한 네트워크 토폴로지를 일반적인 문맥으로 잘못 해석할 가능성이 있다. 반면 Story-LLM은 통신 표준 문서와 축적된 장애 조치 지식을 중심으로 특화 학습해 통신 도메인 특화로 인한 환각 현상도 최소화했다. 고객 요구와 국가 및 통신사업자별 보안 정책에 따라 모델의 기능과 적용 범위를 조정할 수 있다는 점도 특징이다. 에치에프알은 이번에 개발한 LLM을 자사의 이음5G 특화망 솔루션인 my5G 나 브로드밴드 솔루션에도 순차적으로 적용할 계획이다. 이를 통해 단순한 데이터 전송을 넘어, 인프라 자체가 스스로 생각하고 최적화하는 '자율형 지능 통신망' 시대를 주도한다는 계획이다. 신윤재 에치에프알 최고운용책임자(COO)는 “에이전트 AI가 통신장비와 결합하는 피지컬 AI 시대에, 범용 LLM은 비용과 보안, 지연 시간 측면에서 명확한 한계를 지닌다”며, “독자 개발한 통신 특화 Story-LLM은 가장 안전하고 효율적인 방식으로 차세대 AI 통신 인프라를 구축하려는 통신 사업자와 엔터프라이즈 고객에게 최고의 솔루션이 될 것”이라고 밝혔다. 박준호 기자 junho@etnews.com",
+      "impact": "positive",
+      "takeaway": "에치에프알의 통신장비 특화 독자 언어모델 개발로 AI 기술력 향상"
+    },
     {
       "s": "TechCrunch",
       "t": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
@@ -18,7 +40,7 @@
       "ts": 1784489085000,
       "fullText": "Listen on Apple Podcasts Listen on Spotify Apple recently filed a trade secrets lawsuit against OpenAI , accusing the AI company of a pattern of misconduct aimed at getting current and former Apple employees to share confidential information. (In response, OpenAI said it is “not aware of any evidence that this complaint has merit.”) On the latest episode of TechCrunch’s Equity podcast , Kirsten Korosec, Sean O’Kane, and I debated whether this lawsuit will cast a shadow over OpenAI’s much-discussed plans to get into the hardware business (starting with a mobile smart speaker ) and go public . “Even setting aside whether or not the court grants any kind of injunctive relief or any kind of restraining order over what OpenAI is doing, it just naturally can lead to that sort of situation where it&#8217;s going to cause some delays in what OpenAI is working on,” Sean suggested. “Which I&#8217;m sure was probably part of the reasoning behind Apple doing this. They don’t do this stuff willy nilly.” With all those plans on the line, will OpenAI try to settle this as quickly as possible, or did it learn from its recent courtroom victory against Elon Musk that it can endure the cost and embarrassment of a trial? Kirsten, at least, predicts the latter. Keep reading for a preview of our conversation, edited for length and clarity. Kirsten Korosec: Sean, how do you feel about Sam Altman listening to you with a little device maybe in your pocket? Sean O&#8217;Kane: I&#8217;m good. Maybe that&#8217;s predictable, but I&#8217;m good. No thanks. We’ll get into it, I’m sure, but this is allegedly the first product that OpenAI has been working on in its hardware division with Jony Ive and company. They&#8217;ve been really coy ever since that weird video they put out last year of them sitting at that coffee shop or bar in San Francisco and sort of talking very vaguely about hardware and legacy devices, meaning laptops and phones. And so if this is the direction they&#8217;re headed in,",
       "impact": "negative",
-      "takeaway": "애플의 소송으로 인해 오픈AI의 하드웨어 계획이 지연될 수 있다."
+      "takeaway": "애플의 오픈AI 소송으로 오픈AI의 하드웨어 계획에 영향을 미침"
     },
     {
       "s": "Bloomberg Tech",
@@ -28,8 +50,8 @@
       "m": "07. 19. PM 02:00",
       "ts": 1784469601000,
       "fullText": "",
-      "impact": "neutral",
-      "takeaway": "애플의 오픈AI 소송은 Jony Ive와 관련이 없으며, Genius Bar에서 AI 녹음이 이루어지고 있다."
+      "impact": "negative",
+      "takeaway": "애플의 오픈AI 소송으로 Jony Ive와의 관련이 없지만 AI 기록에 영향을 미침"
     },
     {
       "s": "Bloomberg Tech",
@@ -40,7 +62,7 @@
       "ts": 1784458929000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "알리바바의 Qwen이旗艦AI 모델을 공개하여 AI 기술의 발전을 도모하고 있다."
+      "takeaway": "알리바바의 Qwen이旗艦AI 모델을 공개함으로써 AI 기술력 강화"
     },
     {
       "s": "한경 IT",
@@ -51,7 +73,7 @@
       "ts": 1784452020000,
       "fullText": "데이터는 말한다 클로드, 챗GPT 꺾고 韓점유율 절반 넘었다 입력 2026.07.19 18:07 수정 2026.07.20 07:38 지면 A1 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 라현진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 국내 생성형 AI 시장이 업무용 중심으로 전환되는 가운데, 앤트로픽의 클로드가 기업용 수요를 선점하며 올해 2분기 결제액 기준 처음으로 챗GPT를 제치고 점유율 1위를 기록했습니다. 한경Aicel 앤트로픽의 클로드가 국내 생성형 인공지능(AI) 시장에서 오픈AI의 챗GPT를 분기 결제액 기준으로 처음 앞질렀다. 19일 한경에이셀에 따르면 클로드는 올해 2분기 유료 결제액 4582억원 중 2441억원을 차지하며 점유율 53.3%를 기록했다. 챗GPT와 제미나이 점유율은 각각 31.7%, 11.7%였다. 2분기 클로드의 월별 결제액이 4월 731억원, 5월 757억원, 6월 953억원을 기록한 데 비해 같은 기간 챗GPT는 437억원, 475억원, 483억원으로 정체 상태를 이어갔다. 클로드의 고속 성장은 기업용 AI 수요를 선점한 덕분이다. 2분기 클로드의 건당 평균 결제금액은 11만9144원으로 전년 동기 대비 약 두 배 증가했다. 특히 클로드 전체 결제액의 60.9%는 법인카드를 통한 것으로 나타났다. 기업은 챗GPT보다 클로드&hellip;비싸도 &#39;일 잘하는 AI&#39;에 돈 쓴다 2분기 신용카드 결제액 2441억&hellip;챗GPT보다 두 배 가까이 많아 &lsquo;인공지능(AI) 모멘트&rsquo;를 만들어낸 오픈AI의 챗GPT는 여전히 국내에서 가장 많은 사람이 사용한다. 하지만 가장 많은 돈을 버는 건 챗GPT가 아니다. AI 시장에 후발주자로 뛰어든 앤트로픽의 클로드다. 한국 AI 시장이 &lsquo;개인용 서비스&rsquo;에서 &lsquo;업무용 소프트웨어&rsquo;로 빠르게 이동하며 벌어진 일이다. ◇지갑은 클로드에 열렸다 19일 한국경제신문 대체데이터플랫폼인 한경에이셀(Aicel)의 &lsquo;2026년 2분기 한국 생성형 AI 소비 동향 보고서&rsquo;에 따르면 이 기간 클로드는 2441억원을 신용카드 결제로 벌어들였다. 같은 기간 챗GPT가 벌어들인 금액(1455억원)의 두 배 가까운 금액이다. 이를 같은 기간 전체 결제액(4582억원) 대비 점유율로 환산하면 클로드는 53.3%, 챗GPT는 31.7%다. 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 라현진 기자 안녕하세요. 한국경제신문 테크&사이언스부 라현진 기자입니다. 관련 뉴스",
       "impact": "positive",
-      "takeaway": "클로드가 챗GPT를 제치고 한국 점유율을 절반 넘어섰다."
+      "takeaway": "클로드가 챗GPT를 제치고 한국 점유율 절반 넘어감으로써 클라우드 AI 시장에서 강력한 경쟁력을 보임"
     },
     {
       "s": "한경 IT",
@@ -62,19 +84,7 @@
       "ts": 1784451904000,
       "fullText": "데이터는 말한다 기업은 챗GPT보다 클로드…비싸도 '일 잘하는 AI'에 돈 쓴다 입력 2026.07.19 18:05 수정 2026.07.20 07:37 지면 A11 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 라현진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 국내 생성형 AI 시장이 개인용 서비스에서 기업용 고부가 소프트웨어 중심으로 재편되면서, 앤트로픽의 '클로드'가 올 2분기 결제액 기준 점유율 53.3%를 기록하며 '챗GPT'를 제치고 매출 1위를 차지했습니다. 한경Aicel 클로드, 韓 AI 시장 결제액 점유율 50% 돌파 2분기 신용카드 결제액 2441억 챗GPT보다 두 배 가까이 많아 단가 높은 기업고객 확보 덕분 정액제서 종량제 전환도 한몫 사용량만큼 과금해 수익성 높여 &lsquo;인공지능(AI) 모멘트&rsquo;를 만들어낸 오픈AI의 챗GPT는 여전히 국내에서 가장 많은 사람이 사용한다. 하지만 가장 많은 돈을 버는 건 챗GPT가 아니다. AI 시장에 후발주자로 뛰어든 앤트로픽의 클로드다. 한국 AI 시장이 &lsquo;개인용 서비스&rsquo;에서 &lsquo;업무용 소프트웨어&rsquo;로 빠르게 이동하며 벌어진 일이다. ◇지갑은 클로드에 열렸다 19일 한국경제신문 대체데이터플랫폼인 한경에이셀(Aicel)의 &lsquo;2026년 2분기 한국 생성형 AI 소비 동향 보고서&rsquo;에 따르면 이 기간 클로드는 2441억원을 신용카드 결제로 벌어들였다. 같은 기간 챗GPT가 벌어들인 금액(1455억원)의 두 배 가까운 금액이다. 이를 같은 기간 전체 결제액(4582억원) 대비 점유율로 환산하면 클로드는 53.3%, 챗GPT는 31.7%다. 올 2분기 결제 건수 기준으론 약 267만 건인 챗GPT가 클로드(205만 건)를 앞서지만, 수익성은 정반대인 셈이다. 지난해 72.3%이던 챗GPT의 결제액 기준 점유율은 1년 만에 절반 이하로 낮아진 반면 클로드는 10.8%에서 53.3%로 크게 높아졌다. 이미지 크게보기 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 라현진 기자 안녕하세요. 한국경제신문 테크&사이언스부 라현진 기자입니다. 관련 뉴스",
       "impact": "positive",
-      "takeaway": "기업들이 챗GPT보다 클로드를 선호하여 비싸도 '일 잘하는 AI'에 돈을 투자하고 있다."
-    },
-    {
-      "s": "데일리시큐",
-      "t": "정부, 550조원 AI 데이터센터 투자 지원…2027년 ‘1인 1 AI 에이전트’ 추진",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pOFdGc2otbWxvNkZVRlNhZTVjRjlGMUFoMTd4Z0xWS0RzdzFGTXpCN3NWS0tDTkh4M0RoYzBEbkhJeVpIdkFCNDk4a2FOazhUc3lUU0o3Q3dCakxEd2k5UjRUWFFtb2NCSmlCOA?oc=5",
-      "m": "07. 19. AM 05:48",
-      "ts": 1784440081000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "정부가 550조원 AI 데이터센터 투자 지원을 통해 2027년 '1인 1 AI 에이전트' 추진을 계획하고 있다."
+      "takeaway": "기업들이 클라우드 AI를 채택하여 챗GPT보다 클라우드 AI를 선호함"
     },
     {
       "s": "한경 IT",
@@ -85,31 +95,7 @@
       "ts": 1784433601000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 \"GPT 없으면 일 못해요\"…40분 오류에 직장인들 '멘붕' [유지희의 ITMI] 입력 2026.07.19 13:00 수정 2026.07.19 13:04 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 유지희 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 챗GPT 국내 이용자 1544만명 &quot;서비스가 인프라 되면 해커 공격 대상&quot; 사진은 기사와 관련 없음 사진=게티이미지뱅크 &quot;GPT가 왜 안 되지. 아예 접속이 안 되는데.&quot; &quot;업무를 100% GPT로 하는데 퇴근해야 할 판이다.&quot; &quot;서버가 터진 건지 로그인이 안 된다. 일을 못하겠다.&quot; 지난 15일 오전 직장인들이 업무를 시작하던 시간, 챗GPT가 갑자기 멈췄다. 보고서를 쓰고 자료를 요약하던 이용자들은 빈 화면과 오류 문구만 바라봤다. 온라인에는 &quot;챗GPT가 없으니 예전에는 어떻게 일했는지 모르겠다&quot;는 반응까지 나왔다. 한때 카카오톡이 먹통이 되면 속보가 떴다. 메신저가 끊기면 연락뿐 아니라 결제와 택시 호출, 쇼핑까지 차질을 빚었기 때문이다. 이제 생성형 인공지능(AI) 서비스 장애도 비슷한 장면을 만들고 있다. AI가 단순한 검색 도구를 넘어 업무와 일상을 떠받치는 인프라로 자리 잡았다는 얘기다. 오픈AI에 따르면 이날 오전 8시57분부터 챗GPT에서 로그인 실패와 접속 끊김 현상이 나타났다. 오전 9시39분께 서비스가 정상화됐다. 장애 발생부터 완전 복구까지 약 40분이 걸렸다.영향을 받은 범위도 넓었다. 대화와 로그인뿐 아니라 웹 검색, 이미지 생성, 파일 업로드 등 15개 기능에서 오 류가 발생했다. PC 웹사이트와 모바일 앱은 물론 카카오톡에서 이용하는 &lsquo;챗GPT 포 카카오&rsquo;도 멈췄다. 질문을 입력하면 &lsquo;네트워크 연결 오류&rsquo;라는 안내가 나타났다. 장애는 40분 남짓 이어졌지만 체감 불편은 컸다. 업무와 수업이 시작되는 오전 9시 전후에 발생했기 때문이다. 보고서 작성과 자료 조사, 번역, 코딩 등을 챗GPT에 맡겨온 직장인과 학생들의 작업이 한꺼번에 막혔다. 사진은 기사와 관련 없음 / 사진=게티이미지뱅크 전문가들은 챗GPT가 하나의 서비스를 넘어 사회 인프라로 바뀌고 있다고 말한다. 이용자가 늘고 기업 업무 시스템과 각종 서비스에 연결될수록 장애의 파급력도 커질 수 있다는 분석이다. 김명주 서울여대 지능정보보호학부 교수는 &ldquo;인프라가 멈추면 그 위에서 돌아가는 업무도 함께 멈출 수밖에 없다&rdquo;며 &ldquo;챗GPT가 아직 카카오톡만큼 생활 전반에 연결된 것은 아니지만 이런 장애는 앞으로 더 민감한 문제가 될 것&rdquo;이라고 말했다. 김 교수는 &ldquo;서비스가 인프라가 되는 순간 해커들의 주요 공격 대상이 된다&rdquo;며 안정성과 보안을 함께 강화해야 한다 면서 &ldquo;서비스마다 답변 방식과 장단점이 다른 만큼 여러 AI를 함께 사용해 위험을 분산할 필요가 있다. 기업도 장애가 발생했을 때 업무가 완전히 멈추지 않도록 별도의 대응 방안을 마련해야 한다&rdquo;고 지적했다. 한편 실제로 국내 챗GPT 이용자는 빠르게 늘고 있다. 모바일 데이터 분석기업 아이지에이웍스 모바일인덱스에 따르면 올해 상반기 챗GPT 신규 설치 건수는 534만 건으로 전체 앱 가운데 1위를 차지했다. 월간활성이용자 수(MAU)는 1544만 명으로 전체 17위에 올랐다. 상반기 이용자 증가율도 16.4%로 조사 대상 앱 중 가장 높았다. 유지희 기자 keephee@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 유지희 ADVERTISEMENT 관련 뉴스 1 연예인도 보자마자 \"설렌다\"…여성들 홀린 남자의 정체 [유지희의 I",
       "impact": "negative",
-      "takeaway": "직장인들이 GPT의 오류로 인한 멘붕을 겪고 있다."
-    },
-    {
-      "s": "얼리어답터뉴스",
-      "t": "브렉스의 관찰 기반 AI 에이전트 거버넌스: 규칙 대신 실데이터로 정책을 설계하다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1qWUVuazZWazZxSzVHNUw5aXAwaGU1bVhaX3JDZE9ZLThvVkt5d1dFZ0xaZkRXaEJrLU94NmhxTGUwSkwxMGlNZw?oc=5",
-      "m": "07. 18. AM 03:00",
-      "ts": 1784343627000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "브렉스의 관찰 기반 AI 에이전트 거버넌스는 규칙 대신 실데이터로 정책을 설계하고 있다."
-    },
-    {
-      "s": "얼리어답터뉴스",
-      "t": "브렉스가 제시한 AI 에이전트 관찰 우선 모델: 규칙 대신 실제 행위 데이터로 정책을 설계하다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE54a2UzaW9CRktrUGtGVXVkaDdudTByb19Wb2tsV1pmMjFiUXNBVmxJX3pMY2tsYno0Y3hsUTB2cF9tMnpuMVI2Tg?oc=5",
-      "m": "07. 18. AM 02:58",
-      "ts": 1784343490000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "브렉스의 AI 에이전트 관찰 우선 모델은 규칙 대신 실제 행위 데이터로 정책을 설계하고 있다."
+      "takeaway": "챗GPT 오류로 직장인들이 어려움을 겪고 있음"
     },
     {
       "s": "한경 IT",
@@ -120,7 +106,7 @@
       "ts": 1784331002000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 ‘챗GPT 어머니’의 야심작…‘완벽한 AI 통역’ 시대 열리나 [허진의 테크토닉] 입력 2026.07.18 08:30 수정 2026.07.18 08:53 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 허진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 리듬감 있게 읽히는 쉬운 테크② AI가 말할 때 끼어들 수는 없을까 &lsquo;챗GPT 어머니&rsquo;가 내놓은 해법은 사진=게티이미지뱅크 챗GPT로 영어 회화 연습을 해본 분이라면 한 번쯤 이런 경험이 있으실 겁니다. 잠시 단어를 생각하느라 말이 멈춘 사이, AI가 말이 끝난 줄 알고 끼어들면서 애써 쌓아온 대화 맥락이 흐트러지는 경우요. 그럴 때마다 &lsquo;AI의 말을 끊고 다시 하던 얘기를 이어가고 싶다&rsquo;는 생각, 한 번쯤 해보셨을 겁니다. AI와의 대화가 조금 더 사람과 나누는 대화처럼 자연스러웠으면 좋겠다는 바람이죠. 이런 아쉬움은 지금 AI 챗봇 대부분이 &lsquo;한 번씩 번갈아 말하는 구조&rsquo;로 작동하기 때문에 생깁니다. 사람이 입력을 마쳐야 AI가 답을 시작하고, AI가 답을 하는 동안엔 사람이 아무리 끼어들어도 AI는 그걸 전혀 알아차리지 못합니다. 무전기로 통화할 때와 비슷합니다. 말하기 버튼을 누르고 있는 동안엔 상대가 무슨 말을 하는지, 어떤 표정을 짓는지 전혀 알 수 없는 것처럼요. &lsquo; 무전기 특성 &rsquo; 의 한계를 넘다 이 지점에서 한 발 앞서 나간 회사가 있습니다. 오픈AI의 최고기술책임자(CTO)를 맡아 &lsquo;챗GPT의 어머니&rsquo;라는 별명을 가진 미라 무라티(Mira Murati)가 세운 &lsquo;씽킹머신스랩&rsquo;입니다. 이 회사는 지난 5월 이른바 &lsquo;인터랙션 모델&rsquo;이라는 개념을 선보였습니다. 그리고 지난 15일 이를 적용한 첫 정식 오픈소스 모델 &lsquo;잉클링(Inkling)&rsquo;을 세상에 내놓았습니다. 잉클링은 전체 파라미터 9750억개, 실제 작동 시 쓰는 파라미터는 410억개인 전문가 혼합(MoE) 구조의 모델입니다. 텍스트&middot;이미지&middot;오디오&middot;비디오를 아우르는 45조 개의 토큰으로 학습됐고, 누구나 내려받아 자유롭게 변형할 수 있는 오픈소스 라이선스로 공개됐습니다. 답변의 &#39;생각하는 깊이&#39;를 사용자가 직접 조절할 수 있는 기능도 특징입니다. 사실 스펙만 보면 특별히 새로울 게 없어 보입니다. 지난해 나온 오픈AI의 GPT-5만 해도 파라미터 수가 3~5조개에 이르는 것으로 알려져 있습니다. 파라미터 수나 학습 데이터 규모는 이미 여러 빅테크가 내놓은 모델에 못미치는 수준이거든요. 이 점을 모를 리 없는 무라티 역시 이렇게 소개했습니다. &ldquo;Inkling은 현재 사용 가능한 오픈소스 또는 클로즈드소스 모델 중 가장 강력한 모델은 아닙니다. 단지 시작일 뿐이며, 앞으로 지속적으로 발전시켜 나갈 모델 제품군의 첫 번째 출시작입니다.&rdquo; 즉 잉클링 자체의 성능 경쟁이 아니라, 이 모델을 토대로 씽킹머신스랩이 그리는 더 큰 그림에 주목해야 한다는 얘기입니다. 그 큰 그림이 바로 앞서 언급한 인터랙션 모델입니다. 미라 무라티 씽킹머신스랩 최고경영자(CEO) 통역 &middot; 일상 대화도 더 자연스럽게 기존 AI는 입력과 출력을 번갈아 주고받는 &lsquo;턴(turn) 기반&rsquo; 구조로 작동합니다. 모델이 답변을 생성하는 동안엔 사용자가 &ldquo;아니, 그게 아니라&rdquo;라며 끼어들거나 답변이 마음에 안 든다는 표정을 지어도 모델은 전혀 알아차릴 수 없습니다. AI가 답을 내놓는 도중엔 끼어들기가 어렵고, 끼어들더라도 맥락을 유지하기가 힘든 이유입니다. 이런 구조는 문자 기반 채팅에서는 큰 문제가 되지 않습니다. AI에게 리서치나 번역, 코딩을",
       "impact": "positive",
-      "takeaway": "'챗GPT 어머니'의 야심작인 '완벽한 AI 통역' 시대가 열릴 수 있다."
+      "takeaway": "챗GPT 어머니의 야심작으로 완벽한 AI 통역 시대가 열릴 수 있음"
     },
     {
       "s": "TechCrunch",
@@ -129,17 +115,9 @@
       "u": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
       "m": "07. 17. PM 10:55",
       "ts": 1784328909000,
-      "fullText": "AI has become the smartphone industry&#8217;s latest battleground, with manufacturers racing to add AI-powered features to attract mainstream consumers. Vertu is taking a different path. The UK-founded luxury phone maker, known for hand-finished devices often costing tens of thousands of dollars, sells status instead of specs. Its Alphafold, a foldable phone, targets affluent buyers, particularly chief executives, pairing luxury materials with an AI agent designed to automate parts of an executive&#8217;s working day. So I put that pitch to the test. Rather than focusing on benchmark scores, camera comparisons, and media consumption — the staples of most smartphone reviews — I spent a few days using the foldable the way Vertu says its customers would: managing documents, analyzing spreadsheets and contracts, planning business trips, automating routine tasks, and relying on its AI agent as a digital companion throughout the working day. The question wasn&#8217;t whether it was a good smartphone, but whether it was a good executive smartphone. At the heart of the Alphafold is Hermes Agent, a pre-installed AI agent built on top of the open-source Hermes project , which the company says can analyze files, automate tasks across apps, remember conversations, and hand off requests to a human concierge when needed. Unlike most smartphone AI assistants that largely just respond to prompts, Hermes is designed to execute multi-step workflows on users&#8217; behalf, making it the centerpiece of Vertu&#8217;s pitch rather than the foldable hardware itself. Physically, the Alphafold, which starts at $6,880 , looks and feels every bit like a luxury device. The review unit I received was wrapped in genuine calfskin leather with titanium accents, setting it apart from mainstream foldables that largely rely on glass or synthetic finishes. It&#8217;s clearly built for buyers who see their phone as both a tool and a status symbol. Compared with the Samsung Galaxy Z Fold 7 , which I use"
-    },
-    {
-      "s": "지티티코리아",
-      "t": "기업 AI 에이전트 폭증에 무단 결제·데이터 변경 위험...실행 전 정책·권한 검사로 차단",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTnBNUDdud3I1dV9rUlJ4cGJMWEJEcnFIWUNkNnhfLU12U2d5U25YSGg0eGNaaEF5SFFtUkhKblUzaTNOY2dla2ZLTGVMVGxURGsxRGtTaFpMSzdvWGotdzd6a21WY3MtZUE?oc=5",
-      "m": "07. 17. PM 10:00",
-      "ts": 1784325600000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "AI has become the smartphone industry&#8217;s latest battleground, with manufacturers racing to add AI-powered features to attract mainstream consumers. Vertu is taking a different path. The UK-founded luxury phone maker, known for hand-finished devices often costing tens of thousands of dollars, sells status instead of specs. Its Alphafold, a foldable phone, targets affluent buyers, particularly chief executives, pairing luxury materials with an AI agent designed to automate parts of an executive&#8217;s working day. So I put that pitch to the test. Rather than focusing on benchmark scores, camera comparisons, and media consumption — the staples of most smartphone reviews — I spent a few days using the foldable the way Vertu says its customers would: managing documents, analyzing spreadsheets and contracts, planning business trips, automating routine tasks, and relying on its AI agent as a digital companion throughout the working day. The question wasn&#8217;t whether it was a good smartphone, but whether it was a good executive smartphone. At the heart of the Alphafold is Hermes Agent, a pre-installed AI agent built on top of the open-source Hermes project , which the company says can analyze files, automate tasks across apps, remember conversations, and hand off requests to a human concierge when needed. Unlike most smartphone AI assistants that largely just respond to prompts, Hermes is designed to execute multi-step workflows on users&#8217; behalf, making it the centerpiece of Vertu&#8217;s pitch rather than the foldable hardware itself. Physically, the Alphafold, which starts at $6,880 , looks and feels every bit like a luxury device. The review unit I received was wrapped in genuine calfskin leather with titanium accents, setting it apart from mainstream foldables that largely rely on glass or synthetic finishes. It&#8217;s clearly built for buyers who see their phone as both a tool and a status symbol. Compared with the Samsung Galaxy Z Fold 7 , which I use",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "NVIDIA공식",
@@ -151,126 +129,6 @@
       "fullText": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era. July 17, 2026 by Kirthi Develeker 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to a prompt, an agentic model must plan, use different tools and recover from problems it encounters mid-run. That’s why post-training, the phase that refines a model after initial training on raw data, is no longer a one-time finishing step. It’s continuous, because the environment that agentic models operate in shifts fast. The tools an agent uses can change week to week. Edge cases surface in production that no test set anticipated. Each deployment brings its own codebase, policies and environment. Post-training runs loop back from production as new problems surface. The compute footprint grows not because any single run is larger, but because the runs never stop. Agentic AI introduces a new compute pattern for post-training, making it the central workload of the agentic era and the primary driver of intelligence per dollar. The goal of post-training is to maximize intelligence per dollar by maximizing the yield of every forward and backward pass in the continuous learning cycle. The forward pass — inference — is measured in cost per token . That means that every improvement to cost per token flows directly into intelligence per dollar. Agentic Post-Training Demystified Post-training is where intelligence is built. In pre"
     },
     {
-      "s": "하나뉴스",
-      "t": "정부, AI 데이터센터 국가전략산업 육성…'1인 1 AI 에이전트' 시대 연다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ndXZoX1prWGxEdTRvSmJwQUJRcWNrWWwydGdKbjAtaHVKQXdEQk1lb3lsb3U3SDlLMmR6SzQ3TGdCU2x2SmdiTkJmcDFIWHBJZ2Q0R29DWElFVkhmX0Y2NE0wNnQ5TzJVek9QNGRn?oc=5",
-      "m": "07. 16. AM 07:52",
-      "ts": 1784188333000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대한민국 정책브리핑",
-      "t": "정부, 550조 AI 데이터센터 투자 견인…'1인 1 AI 에이전트' 시대 연다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UaTBhRTVjQ2pKZHJua0dyaHJOZzJRMkFmaU1SOE9MYldPRkhHMHhrX3BaaS1oN3RjZUFqNDhVM0Q4aWN1cS1VOGx5bGtEd1g3cmY5Y2V3bVZnczNud0I4SHB6bW0xYUltOUZpOQ?oc=5",
-      "m": "07. 16. AM 06:38",
-      "ts": 1784183917000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "블록체인투데이",
-      "t": "AI 에이전트 결제 시대, 카드와 스테이블코인 이원화된다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Bb1VSMjhKQkYzZ0t0WWFmVVAtUnFCYk9kbnAzdGRibUpOc2hVSFlReDVxdnpLbjdROHVkUm15QWFVemgtTHYtTTVIVGxvNEdnMG9Qa3NYR0dEYkpYSjJEMG9iNEg4SUU3UU5hSThyQ20?oc=5",
-      "m": "07. 16. AM 06:02",
-      "ts": 1784181743000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "딜라이트닷넷",
-      "t": "'550조 민간 투자'로 AI 강국 도약...\"내년엔 1인 1 AI 에이전트 시대\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oUXV3elZ0LWV5bTk5VFQwRjdsV0tHRE84TW1hM1A2T2hiQTdUODRyTF9GbGdLN3ZHd19jSVR0SERYYkstSmNrYW1vcllQZ0V0WW9sQkFlRzNTeHd5azdMaWlCU0dPNHBLOS1FQTdn?oc=5",
-      "m": "07. 16. AM 05:51",
-      "ts": 1784181095000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "연합뉴스",
-      "t": "정부, 550조 AI 인프라 승부수…1인 1 AI 에이전트 시대",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjdWROSU91ckZnY3lsZ1hxR1hZXzdzRVQ5MXdmYll1Mk51SXMtaFZUZ3NzdVhvaC1mYmlwV3hPV2JnU3N5Q09jdmNBdUhoNDNHTHpPVmFBTjhDS0nSAWBBVV95cUxPaE5oZTRnSEJKSVZGY0RSZUdKUS15MF9FLUhzYVNsSnJIdkp3X0huMFZNZ1BXTHRLdlJoZHVHM2tiTTRkdmdJdXZOR0pKZ1hVOE1CanhwWjFTMVVKYU5zV04?oc=5",
-      "m": "07. 16. AM 03:42",
-      "ts": 1784173339000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "AI산업 4대 키워드는 '에이전트·인프라 병목·피지컬AI·수익화'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IaWZwSVZWQzBKNXpxWkVTWFNhd2hTeGFlX3dFNGtJUlhSVldFUTdta3dyeGxJRGV1M3dKWmE1RVdoM1FqSXdrZGVvWVBHd0EwalY1ZVNB?oc=5",
-      "m": "07. 15. AM 06:55",
-      "ts": 1784098504000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "이코노미사이언스",
-      "t": "한컴, 유럽형 '소버린 에이전틱 OS' 개발 본격화…EU AI 규제 대응 경쟁력 강화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RTGJTUEUxZHA1QXV0RFpmazVqb1RXUnp4UUF4QzhRSTBSN0lNODU3dkZyd013ck03UU5DWWx0c3VJdkhJR25vS3I1TWtGWWNucVVpUUJDNE1WYy1WVG5uc3NpcWx2ZEZaeHBkdkJHYw?oc=5",
-      "m": "07. 15. AM 06:19",
-      "ts": 1784096347000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "인포스탁데일리",
-      "t": "한컴, 14조 글로벌 에이전틱 OS 시장 정조준…\"레거시 교체 없이 에이전트화\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kY3M0WHR1YzZ4VWFTczhDZ1dxcEpVbWI1a2lhSHNtY2dZZ1FWUjdyR3N4S0Jabk5XeGgtQloyYVhLSjZ5Ump6Nmp2R0pIcm9KTFFSZkZtYWFvMjVpNjk1dkFkYUR5b09rVzZ3ZTNhdUhpek4zdHc?oc=5",
-      "m": "07. 15. AM 05:03",
-      "ts": 1784091818000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "핀포인트뉴스",
-      "t": "한컴, 유럽 공공 AI 시장 정조준…소버린 에이전틱 OS 개발 본격화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xS0tKVkNfN2dIOHV6T2hJcF9VTVlNSGhvblIyeTAySy1Wb0xaaDFQRGRzaU1LU1NWblg2TENiOUlla2xOOUx1aUV3Ty04dUJ3dmNTSDBBUF9MQ0wzYXBZZUJMZmRkclBlcUpTTG5ZeHU3MU3SAXdBVV95cUxOOE1rWlRXdng2VHU2ejNzdVZtYkljNHdxUjRXSUVncjVyM2EyeDFrUTZSZGxReHJmcDlJRElnUlJKWjF6T2lzS1BWenFQOHg4WFNTcHI4UVU4a0dGX1FFT3R2QTM2Qjlzbzd5T05oRGVneGtYcW9XQQ?oc=5",
-      "m": "07. 15. AM 01:34",
-      "ts": 1784079295000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴스스페이스",
-      "t": "한컴, 유럽형 소버린 에이전틱 OS 개발 ‘가속’...14조 글로벌 시장 정조준",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrWVlIUFBvOWR1b29idDNNdzVSY0cwUncyRklhWlZoa2U1WVhKc28tN3A5bFp4eF9kSkVkQnpsdWtJTk8tTy1zVU1GRVRKOFRuaEhDMlRVVVZvcXVmMmZXag?oc=5",
-      "m": "07. 15. AM 01:29",
-      "ts": 1784078970000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "ebn.co.kr",
-      "t": "이비엔(EBN)뉴스센터",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HbXI0N1JoWl84TEpSbGVLVDRHNmNDZTNPTnRRcmlGeEx0NW4tWUVTQ2VxQW9YbHlWcUhKWnN2VzVidThlY2JPV0RLakJFUUlhQ0RWemRZc0VDTnBaS1l5eU1Na2ZncjFETXBXZ3llVWZ3dHBiSVE?oc=5",
-      "m": "07. 15. AM 01:07",
-      "ts": 1784077620000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "KDI 경제교육",
-      "t": "AI 에이전트 시대 금융보안 관련 정책과제",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWUVvTVZZSktFRG9uV1J4UjRzSlFKeFBLZ2lLQVBBUjZabDNsNVgySnd1VTdFYnByZlRVZkNoV0czcE5kS2JQdXdfNm1xV1lUajMxbHNHLXBMT2ozQWkxS2tGTzVIbGh2alRWdHNjWXNyZmFmejYxZTZJNGdVOWFySmpGa0NTQ1FRcXd3VHRJcVJuWl85Si1STjZ2ZFd2QzU1SU9qTg?oc=5",
-      "m": "07. 14. PM 09:03",
-      "ts": 1784062992000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
       "d": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories.  As agentic AI drives token demand [&#8230;]",
@@ -278,36 +136,6 @@
       "m": "07. 14. PM 03:00",
       "ts": 1784041220000,
       "fullText": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency From benchmark to production, NVIDIA Blackwell NVL72 delivers the highest performance per watt to maximize revenue and the lowest token cost to maximize profit margins. July 14, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will determine who scales and who doesn’t in a power-constrained world. Virtually every frontier AI model today runs on a mixture-of-experts (MoE) architecture. Serving these large-scale models efficiently means GPU domain size — the number of GPUs connected over an ultrafast, scale-up interconnect — matters, and bigger is better. While the NVIDIA Hopper generation set the standard with an eight-GPU domain, the scale of frontier AI today has outgrown it. Serving MoE with a 72-GPU domain demands full-stack codesign and the operational depth earned from running these models under real production load. With the NVIDIA Blackwell NVL72 platform , that foundation is already built and proven, delivering the highest performance per watt to maximize revenues and the lowest token cost to maximize profit margins. It’s this foundation that the NVIDIA Vera Rubin platform builds upon next to further elevate rack-scale energy efficiency. Maximizing Performance per Watt for Frontier AI Each new generation of frontier models brings architectural changes that unlock greater intelligence while demanding new optimizations to run efficiently at scale. Across the newest generation of leading open models, NVIDIA GB300 NVL72 delivers"
-    },
-    {
-      "s": "SK텔레콤 뉴스룸",
-      "t": "2026 상반기 AI 트렌드 결산 — 키워드로 읽는 ‘AI 대전환’",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBLZkFHek1BQ0NyYTBqY3NabDBaa2pzcTJKZ0ZYNi14a0xrU0dPd1dKX09TV0FZQWgzWnRCVmhxNGNXSUhhblFDMQ?oc=5",
-      "m": "07. 13. PM 11:33",
-      "ts": 1783985632000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "마켓뉴스",
-      "t": "정부 “3대 메가프로젝트에 담대한 투자...국민 1人 1 AI 에이전트 구현”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZNEcxTU9ENms4SVpia2dFWXAzYjluXzlEZ0lFLTlteUtLRUEyM05pTVlBbi1wVm5CTmUtMUhUWTEycXc5UUxtNVgzYmFTb1A0cDRjdGZGbVdLSmR3YlhvT250Y1RrSUZJM0ZNSDFR?oc=5",
-      "m": "07. 13. PM 12:23",
-      "ts": 1783945423000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "아주경제",
-      "t": "[AI 생태계 혁신 포럼] 류제명 과기정통부 차관 AI 에이전트가 국민 일상 뒷받침…1인 1 AI 시대 연다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04ODFMd21zcjF1WTROeUhhT0JDbFVOS0d5SFAwMEdicmhpbnN4b1RqbHF2cVFvd3llWEk1cGpqcTBsZjNnRlVHZS1INzdvTmYtWDFIYWtsQUllZ9IBWEFVX3lxTE9NZHg5eDVONk10bWFrN1RzZmtSS05sRTVwQ3VmRmZsaWZpemFxLVktUy1jZ2Z1QmZCeHhRUUY3eUtzNldhRTNtd3A2UFZTWlNBN2dwTTRGNTA?oc=5",
-      "m": "07. 09. AM 01:37",
-      "ts": 1783561059000,
-      "_policy": true,
-      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -319,26 +147,6 @@
       "fullText": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness Tuning the LangChain Deep Agents harness for NVIDIA Nemotron 3 Ultra delivers leading performance and faster task completion on an open stack that enterprises can run, customize and control. July 8, 2026 by Adel El Hallak 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. At a tenth of the cost, teams harnessing NVIDIA Nemotron 3 Ultra can run evaluations continuously, experiment faster and build specialized agents across more of their business. LangChain’s agent engineering platform has more than 200 million monthly downloads. By tuning its Deep Agents harness specifically for NVIDIA Nemotron 3 Ultra, it allows for high-performing agents that complete more tasks, run faster and give enterprises a fully open stack they can customize, own and run anywhere. “The way to build better agents is to keep improving the system around the model,” said Harrison Chase, cofounder and CEO of LangChain. “Memory, tool use, evaluation and model behavior compound when teams can tune them together. Our work with NVIDIA shows that enterprises can get strong performance from an open stack while keeping control over the agent systems they are building.” Abridge, Amdocs and Box are embedding specialized agen"
     },
     {
-      "s": "데일리시큐",
-      "t": "아르고스 아이덴티티, KB국민은행과 AI 에이전트 기반 금융 규제 업무 자동화 검증 착수",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42UFM3QV9BQlh5dnhMWnBaTjFWX2NBeTNkVENHS1ZUdzhlSnJxdm9lVEdDUUc0ZDdOUS02SXVpYWYxd1hSRlpGQUtWNlVxdloxd3F4OE16UktzVlBTdEQwdmNfXzhCamJMemtiOA?oc=5",
-      "m": "07. 08. AM 07:16",
-      "ts": 1783494975000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "GS네오텍, AI 에이전트 품은 클라우드 보안 플랫폼 '시큐리티 렌즈' 공개",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51YnhLN1p3MXRzQVNBdGYwVWM4MS1oX3VkN29fQTVOTWsza1NtYmREbXp6bkJaNDd4ZG9sM3Z4Q1JyZ2RxeXFHNk53Q25ZQlVPX1BRWWhB?oc=5",
-      "m": "07. 08. AM 07:00",
-      "ts": 1783494000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
       "d": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era.  Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code [&#8230;]",
@@ -348,74 +156,22 @@
       "fullText": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core. July 7, 2026 by Ian Buck 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. For agents in AI factories, speed matters. The faster the CPU can run the tool, the faster the agent can perform the task at hand. For the AI factory, the utilization of GPU is the most valuable resource in the data center so any time waiting for a task to complete constrains the revenue of an AI factory — or worse, impacts the GPU utilization waiting for the CPU to finish its task. AI factories need a CPU with max single-threaded performance to maximize AI factory revenue and agent performance. Today’s data center CPUs are not designed for speed at scale. While the world has fast CPUs for PCs and workstations, data center CPUs have been evolving in directions away from single-threaded performance. The advent of the cloud has pushed CPU makers to build higher core-count CPUs while minimizing cost at the expense of performance. Building CPUs that optimize costs per rentable core increased the number of cores per chip while taking away silicon area from what makes those cores run fast — like high-performance memory fabrics and faster instruction processing per core. The move to chiplet architectures further reduced cost but created a “chi"
     },
     {
-      "s": "테크M",
-      "t": "[글로벌] 바이트댄스·알리바바, 개인화 AI 에이전트 중단...中 AI 규제 강화 영향",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Odno1WTBLaXZWOXBZU0dKdE1qVmpYQ1RrSEFVSkRqRERhQWs1MDZzcjNTWldrZlU5VWFaTWktN1c5NUtKZ3dFb09obTFiOVlBNVpaNWQ3VU5oVklQRkkwYmpTOWJrd9IBakFVX3lxTFB2U2ZFOEJrYkQza3pzTzU4Xzd6LXBRbjRfTnJPTFJibHpxYXAyWnJMQjdUTkUyZU5VX2lrQndGR21fdmd3VXVoRVFOalpxMmROellUZldnaVRaQkl5R1VWbk9tRkluZVRVeXc?oc=5",
-      "m": "07. 07. AM 07:43",
-      "ts": 1783410206000,
-      "_policy": true,
-      "fullText": "Google News"
+      "s": "NVIDIA공식",
+      "t": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
+      "d": "Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science, an AI workbench for science [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
+      "m": "06. 30. PM 05:00",
+      "ts": 1782838838000,
+      "fullText": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows. June 30, 2026 by Anthony Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster. This week, Anthropic announced Claude Science , an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end. Claude Science integrates with NVIDIA BioNeMo Agent Toolkit as a resource that scientists can access within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens. The world’s largest pharmaceutical companies use NVIDIA technologies to advance AI-enabled research across drug discovery, genomics, medical imaging, molecular design and protein engineering. Today, 18 of the top 20 pharmaceutical companies use NVIDIA BioNeMo , underscoring the breadth of its role across the ecosystem. Advancing the Agentic Era of Scientific Discovery Claude Science lets scientists use natural language to move their research from intent into action, without manually configuring models, endpoints, or software environments. NVIDIA BioNeMo Agent Toolkit extends that with access"
     },
     {
       "s": "한겨레",
-      "t": "중 더우바오·첸원, AI 에이전트 기능 중단…규제·수익성·보안 ‘삼중고’",
+      "t": "중국 문샷AI, 개방형 ‘키미 K3’ 공개…미 앤트로픽·오픈AI 턱밑 추격",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rZFJGV3pkTVRoOExCa0dxMHFoeEpZTTNPbFp1NnpBUEVRTWliNFFsSVNvbm5DODl1UTJROUpDSzNES2Jpc0IwcFNMT0NjY2EtSlBhZkRiRnJpdWNFdDdqOE4tVVRuZ1VfdTVLag?oc=5",
-      "m": "07. 06. AM 07:00",
-      "ts": 1783321200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "AI타임스",
-      "t": "바이트댄스·알리바바, ‘AI 페르소나’ 서비스 중단…정부 규제 앞두고 선제 조치",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tWFBFaXF6aUVMdExHMDVaazFseFBMODlGVTV5UmFjLXRvd0FtWHNTb2ZvMVVpZzB0MmVKaWNxRU05TFduLU40NTdONlhCY3h5cnM4cVVWcU56RUM0Z0RTY0JjeG94MG51bHc?oc=5",
-      "m": "07. 06. AM 07:00",
-      "ts": 1783321200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "IT조선",
-      "t": "中 AI 규제 강화에… 바이트댄스·알리바바, 개인화 AI 서비스 중단",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2ek0wY1RxWHVwaEV0YkxzdXdTLTNHTWtJSlRUTWtZOFNJY1YyVDA0ODhlNTdkWEhfdmpnZFFpdWpvVzg0d3lxcGRoaVlpYVBjUjl6RUZfOWdNY3JPVUJDNFJyZG5DVkYwczNGVi1IeWHSAXRBVV95cUxPLURUMWF1T2ItSlNJbDZlSWQ4TEtKZjEzcThKSGZHTVFSX3hqYUdQd0hzdmprNXEzQ0x0NFpIOE4zUnNnckxiclVQalVhUDY0WER1MWZ4aDFrNTVubG1qR1VBUm1rdUlMaklaeUs0RTJua3RfRQ?oc=5",
-      "m": "07. 06. AM 07:00",
-      "ts": 1783321200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "v.daum.net",
-      "t": "中 바이트댄스·알리바바, 개인화 AI에이전트 중단…규제 강화 영향",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83Nm5qNU5YZEZnWXY5UlJkR0JvTUFUOGxEenhuLWNsaTZyZHBfakpzem1hamozNW8wQTZXdHcwMXY1a2pickE?oc=5",
-      "m": "07. 06. AM 07:00",
-      "ts": 1783321200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "연합뉴스TV",
-      "t": "中 바이트댄스·알리바바, 개인화 AI 에이전트 중단…새 규제 앞두고 제동",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01UGVQRG54N0drOVE4dEVrblJZLUxpNUtRNGhpVnhyZnZwMVBObk1LVWh4VGN1Tl80OG8yQm10S0V2NThvUEl5NWQ0ZERYbGxJQVJua05aTW9DX3F3Vl9ONzh5NDFTams?oc=5",
-      "m": "07. 06. AM 06:17",
-      "ts": 1783318620000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "IT조선",
-      "t": "UN “AI 발전, 규제 역량 앞질러”… AI 기본법 시행 앞두고 안전성 시험대",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zNVNXWkFNT1QwSFpXZUxHU0JoS0hmVXFNd2oyMnBWRGNHVnNsNktlSFJraXVfb3dabTdpVVNJcVM3VEljUTFDYU5oSTVSZjBHWEhTODZvYzJIZkEtSlJOSm1sZExKNVFFVGltRXFNdVXSAXRBVV95cUxPUmlSWjllMXoyS1VuSTZCM1U1dDFYWXByRGU4YnpESXJvRkNHclRGX29VMDMta1JJZHRxYWg0QlQ4WnNEY084SXNJTEdFWUQteG9zdG1GNVNTaE1DZ3pfMUNoVzFzSEJnTTRyTDdKOW5lYjJvRA?oc=5",
-      "m": "07. 02. AM 09:56",
-      "ts": 1782986190000,
-      "_policy": true,
-      "fullText": "Google News"
+      "u": "https://www.hani.co.kr/arti/economy/it/1268868.html",
+      "m": "",
+      "ts": 0,
+      "fullText": "본문 경제 IT 중국 문샷AI, 개방형 ‘키미 K3’ 공개…미 앤트로픽·오픈AI 턱밑 추격 강재구 기자 수정 2026-07-20 00:38 펼침 0:00 Your browser does not support the audio element. 구글 선호 매체 등록 세계 첫 개방형 LLM ‘키미 K3’ 3조개급 매개변수 가중치 공개 중국 인공지능 스타트업 문샷에이아이가 17일 새 최첨단 모델 ‘키미 케이(K)3’를 공개했다. 문샷에이아이 누리집 갈무리 광고 중국 인공지능(AI) 스타트업 문샷에이아이(AI)가 미국 앤트로픽과 오픈에이아이(AI)의 최첨단 모델에 근접한 성능을 갖춘 개방형 모델 ‘키미 케이(K)3’를 내놨다. 인공지능 업계 최선두권 기업과의 성능 격차를 좁히며 미국 주도의 시장을 위협한다는 평가가 나온다. 문샷에이아이는 17일 자사의 차세대 거대언어모델(LLM)인 키미 케이3를 공개했다. 회사는 키미 케이3가 2조8천억개의 매개변수를 갖춘 “세계 최초의 개방형 3조개급 모델”이라며 코딩과 지식 작업, 추론 작업 등 전반에 활용되도록 설계됐다고 밝혔다. 케이3는 모델의 가중치를 이용자가 내려받아 자체 서버에 이용하거나 용도에 받게 조정할 수 있는 오픈웨이트형 모델이다. 사용자 입장에선 원개발사의 응용프로그램 인터페이스(API) 이용료 부담이 없고, 특정 업체 의존도를 줄일 수 있는 장점이 있다. 업계 선두인 앤트로픽과 오픈에이아이 등 미국 주요 기업들은 모델 가중치를 공개하지 않는 폐쇄형 모델을 운영한다. 문샷은 오는 27일까지 키미 케이3의 가중치 전체를 공개 예정이라 밝혔다. 모델 평가기관들은 키미 케이3를 최상위권 모델로 평가했다. 인공지능 성능 분석업체 ‘아티피셜 어낼리시스’는 17일 기준 키미 케이3의 지능지수를 57점으로 집계하며 클로드의 페이블5(60점), 오픈에이아이의 지피티-5.6솔(59점)에 이어 3위에 올렸다. 또 다른 평가업체 발스에이아이(AI)는 키미3가 페이블5에는 미치지 못하지만, 지피티-5.6솔은 앞선다는 평을 내놨다. 문샷에이아이는 종합 성능에선 “페이블5와 지피티-5.6솔보다는 뒤처지지만 최전선급 성능”이라고 밝혔다. 해당 모델의 토큰 비용은 중국의 다른 공개형 모델에 비하면 비싼 편이지만, 앤트로픽·오픈에이아이의 최첨단 모델보단 저렴하다. 로이터는 이번 모델 공개를 두고 “중국 개방형 인공지능 생태계가 미국 내 가장 진보된 시스템들과의 격차를 얼마나 빠르게 좁히는지를 보여 준다”고 진단했다. 강재구 기자 j9@hani.co.kr"
     }
   ]
 }

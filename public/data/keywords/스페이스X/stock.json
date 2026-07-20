@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T08:28:13.653Z",
+  "updatedAt": "2026-07-20T11:26:09.619Z",
   "data": {
     "274090": {
       "name": "켄코아에어로스페이스",
@@ -65,6 +65,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260720",
+            "foreigner": -4985,
+            "institution": -1106,
+            "individual": 5491,
+            "foreignRatio": "9.27%"
+          },
+          {
             "date": "20260716",
             "foreigner": -32678,
             "institution": 2655,
@@ -126,22 +133,15 @@
             "institution": 1015,
             "individual": 22910,
             "foreignRatio": "9.67%"
-          },
-          {
-            "date": "20260703",
-            "foreigner": 10707,
-            "institution": -83,
-            "individual": -10624,
-            "foreignRatio": "10.01%"
           }
         ],
         "sum5d": {
-          "foreigner": -71944,
-          "institution": 6745
+          "foreigner": -103264,
+          "institution": 4959
         },
         "sum10d": {
-          "foreigner": -55371,
-          "institution": 3695
+          "foreigner": -71063,
+          "institution": 2672
         }
       },
       "consensus": null
@@ -317,7 +317,7 @@
         "2026-07-16",
         "2026-07-20"
       ],
-      "volume": 444004,
+      "volume": 459647,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -342,6 +342,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260720",
+            "foreigner": -156954,
+            "institution": 135996,
+            "individual": 18272,
+            "foreignRatio": "24.67%"
+          },
           {
             "date": "20260716",
             "foreigner": -48967,
@@ -404,22 +411,15 @@
             "institution": 88788,
             "individual": -19463,
             "foreignRatio": "25.30%"
-          },
-          {
-            "date": "20260703",
-            "foreigner": -97155,
-            "institution": 116414,
-            "individual": -19034,
-            "foreignRatio": "25.32%"
           }
         ],
         "sum5d": {
-          "foreigner": -241089,
-          "institution": 232105
+          "foreigner": -362241,
+          "institution": 452019
         },
         "sum10d": {
-          "foreigner": -625613,
-          "institution": 697020
+          "foreigner": -685412,
+          "institution": 716602
         }
       },
       "consensus": null
@@ -473,7 +473,7 @@
         "2026-07-16",
         "2026-07-20"
       ],
-      "volume": 266401,
+      "volume": 442555,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -498,6 +498,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260720",
+            "foreigner": -26580,
+            "institution": 19166,
+            "individual": 6672,
+            "foreignRatio": "45.30%"
+          },
           {
             "date": "20260716",
             "foreigner": -14837,
@@ -560,22 +567,15 @@
             "institution": 11504,
             "individual": -6529,
             "foreignRatio": "45.30%"
-          },
-          {
-            "date": "20260703",
-            "foreigner": -5560,
-            "institution": 36035,
-            "individual": -30145,
-            "foreignRatio": "45.29%"
           }
         ],
         "sum5d": {
-          "foreigner": 15555,
-          "institution": 13775
+          "foreigner": -38153,
+          "institution": 58947
         },
         "sum10d": {
-          "foreigner": 49238,
-          "institution": -5920
+          "foreigner": 28218,
+          "institution": -22789
         }
       },
       "consensus": null
@@ -647,67 +647,6 @@
     ]
   },
   "etfs": {
-    "UFO": {
-      "name": "Procure Space ETF",
-      "px": 43.63,
-      "dayChange": -0.11,
-      "periodChange": -13.21,
-      "prices": [
-        50.27,
-        48.72,
-        48.13,
-        46.48,
-        45.56,
-        46.19,
-        49.19,
-        50.67,
-        50.18,
-        50.67,
-        50.31,
-        48.49,
-        47.67,
-        47.4,
-        46.93,
-        45.51,
-        45.76,
-        45.37,
-        43.68,
-        43.63
-      ],
-      "dates": [
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17"
-      ],
-      "volume": 774749,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 68.212,
-        "low52w": 28.71,
-        "volume": 774749
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "ARKX": {
       "name": "ARK Space & Defense Innovation ",
       "px": 30.3,
@@ -765,6 +704,67 @@
         "high52w": 37.89,
         "low52w": 24.771,
         "volume": 978028
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "UFO": {
+      "name": "Procure Space ETF",
+      "px": 43.63,
+      "dayChange": -0.11,
+      "periodChange": -13.21,
+      "prices": [
+        50.27,
+        48.72,
+        48.13,
+        46.48,
+        45.56,
+        46.19,
+        49.19,
+        50.67,
+        50.18,
+        50.67,
+        50.31,
+        48.49,
+        47.67,
+        47.4,
+        46.93,
+        45.51,
+        45.76,
+        45.37,
+        43.68,
+        43.63
+      ],
+      "dates": [
+        "2026-06-18",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17"
+      ],
+      "volume": 774749,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 68.212,
+        "low52w": 28.71,
+        "volume": 774749
       },
       "investorFlow": null,
       "consensus": null

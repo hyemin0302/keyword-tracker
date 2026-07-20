@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-07-20T20:23:55.568Z",
+  "updatedAt": "2026-07-20T21:45:57.539Z",
   "count": 40,
   "stats": {
-    "today": 15,
+    "today": 16,
     "yesterday": 4,
-    "weekAvg": 3.6,
+    "weekAvg": 3.7,
     "sources": 22,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "AI&#8217;s most important protocol is getting a little bit easier to use",
+      "d": "The Model Context Protocol (MCP) is one of the basic building blocks of AI interoperability, giving AI models a secure way to access external data sources and services. It&#8217;s the plumbing that lets a chatbot reach into your calendar, your database, or your internal tools, instead of engineers building custom pipes for every connection. Next [&#8230;]",
+      "u": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "m": "07. 20. PM 08:50",
+      "ts": 1784580640000,
+      "fullText": "The Model Context Protocol (MCP) is one of the basic building blocks of AI interoperability, giving AI models a secure way to access external data sources and services. It&#8217;s the plumbing that lets a chatbot reach into your calendar, your database, or your internal tools, instead of engineers building custom pipes for every connection. Next week, that protocol is getting a significant update, and while it might not be noticeable to end users, it could make a big difference in how the ecosystem develops. The official spec for the new version has been public since May, but we got an unusually clear explanation of the changes Monday morning from the folks at Arcade — a two-year-old startup that&#8217;s built its entire business around the work of getting AI agents to actually function inside real companies, letting them securely connect to and act on tools like Gmail, Slack, and Salesforce. Arcade raised $60 million in June on the idea that most AI agents don&#8217;t fail because the underlying models are weak but because the infrastructure around them isn&#8217;t ready yet, and that&#8217;s what this update is trying to address. Essentially, MCP is changing the way it handles session IDs — the little tokens that servers use to remember &#8220;ah, this is the same conversation as five seconds ago&#8221; — so servers can operate more easily at a larger scale. As Arcade founder Nate Barbettini puts it: [Under the current system] The first time an MCP client like Claude connects to a server, it sends a “hello”: I’m Claude, here’s my version, here are my capabilities. The server replies with its own capabilities and hands back a session ID&#8230; From then on, the client sends that session ID on every request so the server knows it’s the same conversation. Sometimes the ID expires, so the client has to notice, request a new one, and carry on&#8230;. Picture a real deployment. You’re running a server for millions of users, behind a load balancer whose entire job is to ",
+      "impact": "neutral",
+      "takeaway": "AI 프로토콜 개선은 신재생에너지와 직접 연관 없음"
+    },
     {
       "s": "TechCrunch",
       "t": "OpenAI is scared of open-weight models. Should the US be?",
@@ -18,7 +29,18 @@
       "ts": 1784576005000,
       "fullText": "The impressive capabilities of Chinese lab Moonshot&#8217;s Kimi K3, the biggest open-weight large language model, has kicked off a debate that conflates two things: the economic possibilities of American AI giants and the future of LLMs as a technology. OpenAI&#8217;s head of strategic futures, Dean W. Ball, went so far as to argue that the US government should find a pretext to create regulatory fear, uncertainty, and distrust around the new models, since open-weight models must necessarily deter capital spending by the frontier labs. People freaked out , with tech luminaries like Yann LeCun and Martin Casado arguing that open software can accelerate innovation and coexist with proprietary projects. Ball soon retracted his claims that a regulatory crackdown was the White House&#8217;s &#8220;best strategy&#8221; and that open-weight models necessarily slow down advances in the technology. However, Axios reports that the Trump administration is considering banning K3 and other advanced Chinese models at the behest of American frontier labs. Another report from Politico said that the Department of Commerce would not take that step anytime soon. The benefit for major AI companies is clear: Open-weight models, running on independent infrastructure or inside major enterprises, offers cheaper intelligence than Anthropic or OpenAI&#8217;s class-leading models. If users increasingly spend more outside the closed labs, that means smaller return on their massive investments in model training. That view extends far beyond OpenAI. &#8220;Strong, frontier-caliber open source models will place a squeeze on the margins and will bring down the prices of the frontier companies,&#8221; Braden Hancock, the co-founder of Snorkel AI and a research partner at the Laude Institute, told TechCrunch. &#8220;It will not necessarily mean that the amount of AI usage goes down a little bit. You know, obviously, quite the opposite.&#8221; That&#8217;s not a problem for people without shares in ",
       "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "takeaway": "OpenAI 모델 논쟁은 테마와 무관"
+    },
+    {
+      "s": "동아일보",
+      "t": "신문협회 ‘신문홍보 만화-영상’ 10월까지 공모",
+      "d": "한국신문협회는 신문의 사회적 기능과 저널리즘의 가치를 널리 알리기 위해 ‘신문홍보 만화·영상 공모전’을 개최한다. 만화 공모전은 △신문의 사회적 가치와 역할 △신문의 특장점 △신문과 관련한 에피소드를 주제로 한 1∼4컷 만화를 모집한다. 초중고교생과 대학생이 참가할 수 있다. 대상은 초·중·고·대학 부문별 1명씩 4명을 선정해 상금 100만 원을 각각 수여한다. 우수상도 부문별 1명씩 4명을 뽑아 각각 상금 50만 원을 준다. 영상 공모전은 같은 주제로 30∼60초 분량의 세로형 영상을 모집한다. 누구나 참가할 수 있으며, 대상 1명에게 200만 원을 수여한다. 우수상 2명에겐 각각 100만 원을 준다. 공모 기간은 20일부터 10월 20일까지다. 자세한 내용은 신문협회 홈페이지(www.presskorea.",
+      "u": "https://www.donga.com/news/People/article/all/20260721/134332289/2",
+      "m": "07. 20. PM 07:30",
+      "ts": 1784575800000,
+      "fullText": "이호재 기자 구독",
+      "impact": "neutral",
+      "takeaway": "신문홍보 공모는 신재생에너지와 관련 없음"
     },
     {
       "s": "TechCrunch",
@@ -29,7 +51,7 @@
       "ts": 1784561737000,
       "fullText": "Hackers are breaking into websites that run vulnerable versions of the popular blogging software WordPress, according to several cybersecurity firms. One estimate puts the number of vulnerable WordPress websites at tens of millions as of Monday. Last week, WordPress patched two critical security flaws , urging people who run its software on their websites to update it “immediately.” The vulnerabilities are so severe that WordPress enabled forced updates where possible. Since then, cybersecurity companies Patchstack, Hexastrike, and WatchTowr have all warned that hackers are exploiting the vulnerabilities in the wild, meaning they are taking over websites that are still running susceptible versions of WordPress. It’s unclear how many WordPress-powered websites on the internet are at risk, but it’s possible to make some educated guesses. The vulnerable versions of WordPress are 6.9.0 through 6.9.4, and 7.0.0 to 7.0.1. According to WordPress’ official stats, there are more than 400 million websites that run those flawed versions, although these statistics likely don’t reflect websites that have recently been patched. Cybersecurity consultant Daniel Card, who told TechCrunch that he looked at a sample of around 3,500 WordPress websites, estimates that less than 15% are vulnerable. Applying Card&#8217;s projection across the total population of WordPress websites on the internet, the total figure would still be around 90 million. The researcher credited WordPress with pushing automatic updates, Cloudflare with blocking attacks against vulnerable websites, and websites using cybersecurity protections such as web firewalls for the limited number of sites that could currently be hacked. WordPress.org, the project that develops WordPress’ open source code, did not immediately respond to a request for comment. Megan Fox, a spokesperson for Automattic, the company that runs WordPress.com and contributes to the open source project, told TechCrunch that &#8220;all sites hosted b",
       "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "takeaway": "워드프레스 보안 이슈는 테마와 직접 연관 없음"
     },
     {
       "s": "전자신문",
@@ -40,7 +62,7 @@
       "ts": 1784554869000,
       "fullText": "전국 전남테크노파크 지원기업 'KLEM', 글로벌 해상풍력 기업 2곳과 업무협약 체결 발행일 : 2026-07-20 22:41 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 한국에너지종합기술(KLEM이 영국의 해상풍력 전문 컨설팅 기업 오프쇼어 윈드 컨설턴츠(OWC), 글로벌 에너지 서비스 기업 OEG 리뉴어블즈와 국내 해상풍력(BOP) 운영·유지보수(O&M) 사업 협력을 위한 3자 업무협약(MOU)을 체결했다. 전남테크노파크(원장 오익현)는 지원기업인 한국에너지종합기술(KLEM·대표 부정환)'이 영국의 해상풍력 전문 컨설팅 기업 오프쇼어 윈드 컨설턴츠(OWC·Offshore Wind Consultants), 글로벌 에너지 서비스 기업 OEG 리뉴어블즈와 국내 해상풍력(BOP·터빈 외 모든 설비) 운영·유지보수(O&M) 사업 협력을 위한 3자 업무협약(MOU)을 체결하며, 글로벌 시장 진출의 기반을 마련했다고 20일 밝혔다. 지난 16일 주한영국대사관에서 체결된 이번 협약은 중소벤처기업부가 주관하고 전남도와 영암군이 지원하는 '지방소멸 대응 영암군 친환경 조선기자재 기술 고도화 및 역량강화 지원사업(이하 영암군 시군구연고산업육성사업)' 일환으로 이뤄졌다. 이 사업 수혜기업인 KLEM은 국내 해상풍력 BOP O&M 사업의 주계약자 역할을 수행하며, 해상풍력 하부구조물·전기설비·기계설비 유지보수, 해상 지원선(CTV) 운영, 주요 부품 교체공사 및 육상 송전선로 공사 등 풍부한 현장 수행 역량을 바탕으로 사업을 총괄하게 된다. 협력 파트너인 OWC는 자산 건전성 관리, 기술 자문, 제조·품질관리(QA·QC) 및 기술 검증을 담당하며, OEG는 해양작업, 수중점검, 해저케이블 검사 및 전문 인력 교육 등 특화된 서비스를 지원할 예정이다. 3사는 예방정비, 구조 건전성 관리, 해저케이블 및 수중구조물 점검 등 통합 유지관리 체계 구축에도 공동 대응할 계획이다. KLEM의 이번 글로벌 협력 성과는 전남테크노파크 '영암군 시군구연고산업육성사업'을 통해 확보한 기술 경쟁력과 글로벌 시장 진출 역량을 바탕으로 이뤄졌다. 전남테크노파크는 KLEM이 국내 해상풍력 유지보수 분야의 기술 경쟁력을 확보하고 해외시장 진출 기반을 강화할 수 있도록 △해상풍력 유지보수 전용선(CTV)의 국내·외 시장 진출을 위한 동적 위치 제어 시스템(DP) 시제품 제작 △국내·외 시장개척 홍보 △CTV 및 BOP 분야 시장 진출 역량 분석 등을 패키지 형태로 지원하고 있다. KLEM은 글로벌 기업과의 협력 기반을 확보하며 해외시장 진출의 교두보를 마련했다. 이번 협약을 계기로 KLEM은 국내 해상풍력 프로젝트 공동 입찰 참여를 비롯해 전문인력 양성, 기술 및 사업정보 교류를 추진하고 향후 아시아·태평양 지역을 포함한 해외시장 공동 진출도 모색할 예정이다. 부정환 KLEM 대표는 “전남테크노파크 지원으로해 해상풍력 유지보수 핵심기술을 고도화하고 글로벌 기업들과 협력할 수 있는 기반을 마련하게 됐다”며, “이번 협약을 계기로 국내 해상풍력 프로젝트는 물론 해외시장까지 사업영역을 확대해 글로벌 수준의 통합 O&M 서비스를 제공하는 기업으로 성장해 나가겠다”고 말했다. 오익현 원장은 “지역기업이 세계적인 해상풍력 전문기업과 협력체계를 구축한 것은 '영암군 시군구연고산업육성사업'의 대표적인 성과이자, 지역 해상풍력 산업의 경쟁력과 성장 가능성을 보여주는 사례”라며, “앞으로도 지역기업의 기술혁신과 사업화를 적극 지원해 글로벌 경쟁력을 갖춘 기업으로 성장할 수 있도록 뒷받침하고, 지역 주력산업 육성과 양질의 일자리 창출을 통해 지방소멸 대응에도 기여하겠다”고 강조했다. 한편, KLEM은 해상풍력 터빈 및 BOP 유지보수, 해상 지원선(CTV) 운영, 전기·기계·구조물 시공 분야 전문기업으로 국내 해상풍력 산업의 안정적인 운영 체계 구축에 기여하고 있다. 전남테크노파크 앞으로도 영암군 시군구연고산업육성사업을 통해 친환경 조선기자재 및 해상풍력 분야 기업의 기술혁신과 글로벌 시장 진출을 적극 지원하여 지역산업 경쟁력 강화와 지",
       "impact": "positive",
-      "takeaway": "해상풍력 기업과 협약으로 해외 풍력 시장 진출 기대"
+      "takeaway": "KLEM이 글로벌 해상풍력 기업과 협업해 신재생에너지 사업 확대"
     },
     {
       "s": "Bloomberg Tech",
@@ -51,7 +73,7 @@
       "ts": 1784551500000,
       "fullText": "",
       "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "takeaway": "Andreessen Horowitz 인사 움직임은 테마와 무관"
     },
     {
       "s": "TechCrunch",
@@ -62,7 +84,7 @@
       "ts": 1784551168000,
       "fullText": "Hugging Face, a platform that hosts AI models and datasets , said its internal datasets and service credentials were compromised in a hack last week. The company disclosed the breach on Friday, but said it was still investigating whether any customer or partner data was stolen during the incident. In a blog post , the company said a dataset uploaded to its platform abused a security vulnerability to run malicious code on its servers, allowing the attackers to escalate their permissions and gain broader access to Hugging Face&#8217;s internal systems. The company said it has revoked and rotated the stolen credentials that were accessed. It urged users to do the same with any keys stored on the platform, and review any suspicious activity on their accounts. Hugging Face said it has fixed the vulnerability that was abused during the cyberattack. While it&#8217;s common for hackers to try to break into a company&#8217;s network using stolen employee credentials, keys, or a weak point in their security perimeter, this incident underscores the challenges that companies like Hugging Face face when hackers try to abuse platforms and tools to access and steal sensitive data from within. Hugging Face blamed the breach on an external AI agent, which executed &#8220;many thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating command-and-control staged on public services.&#8221; The company did not immediately provide evidence for this claim when asked by TechCrunch. Hugging Face said its own anomaly detection spotted the attack, and used an AI model to analyze server logs that kept record of the cyberattack. The company said it initially used a frontier AI model from a commercial provider, though it didn&#8217;t name a company, but found that the analysis effort was blocked by the provider&#8217;s guardrails. Instead, the company used its own local large language model, which it said provided the added benefit of not having to upload sensit",
       "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "takeaway": "Hugging Face 데이터 유출은 신재생에너지와 무관"
     },
     {
       "s": "TechCrunch",
@@ -73,7 +95,7 @@
       "ts": 1784550600000,
       "fullText": "For the first time since 2024, StrictlyVC is coming back to New York City — and we&#8217;re bringing the kind of access you’d expect from an under-wraps event to the whole startup, VC, and dealmaking community. For years, StrictlyVC has run a series of some of the most interesting nights that a VC, founder, or dealmaker can spend, built around candid conversation you can&#8217;t get anywhere else. Our newly announced NYC event takes place September 10 at Ideal Glass Studios in the West Village, with general admission tickets open now at $180. You can register here . Why NYC, why now New York&#8217;s startup engine isn&#8217;t just moving along; it&#8217;s accelerating. In H1 2026, more than 240 NYC startups raised a combined $1.13 billion in seed funding, according to a recent Tech:NYC report . That’s up from $1.06 billion in H1 2025, with average seed rounds climbing from $5.4 million to $6.64 million. Overall, New York startups raised a whopping $16 billion in the first half this year — nearly matching the $19.1 billion that New York startups raised across all of 2025. That capital is spread across nearly every sector, from AI and healthcare to climate, fintech, robotics, and consumer tech. It&#8217;s the kind of momentum that made a return to New York an easy call. Our speaker lineup so far… After you&#8217;ve had time to settle in, meet new connections, and network amid the sleek vibes of Ideal Glass Studios, we’ll kick off our programming with Craig Shapiro, founder and managing partner of Collaborative Fund, joined by TechCrunch editor-in-chief and StrictlyVC founder Connie Loizos. Their session, &#8220;The Business of Belonging,&#8221; digs into why community has become one of the most valuable assets a company can build — and where investors are finding the biggest opportunities at the intersection of technology, fandom, and real-world connection. From there, the conversation turns toward reinvention. Tristan Walker, founder of Heirloom Craft, will discuss w",
       "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "takeaway": "StrictlyVC 행사 내용은 테마와 직접 관련 없음"
     },
     {
       "s": "한경 경제",
@@ -84,7 +106,7 @@
       "ts": 1784538956000,
       "fullText": "산업 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 한화솔루션, 유증 규모 1.2조 확정 입력 2026.07.20 18:15 수정 2026.07.21 00:19 지면 A13 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 최석철 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 발행가격 주당 2만2100원 한화솔루션의 유상증자 최종 조달 규모가 최초 계획의 절반 수준인 1조1713억원으로 확정됐다. 한화솔루션은 주주배정 후 실권주 일반공모 방식 유상증자 최종 발행가격을 주당 2만2100원으로 확정했다고 20일 공시했다. 금융감독원의 두 차례 정정 요구를 거친 뒤 제시한 발행 예정 가격(3만2250원)보다 31.5% 낮다. 한화솔루션은 지난 3월부터 유상증자를 추진했다. 원안은 2조4000억원을 조달해 1조5000억원을 부채 상환에 쓰고, 나머지 9000억원은 신사업 등 미래 성장을 위한 투자에 투입하겠다는 계획이었다. 이후 소액주주 반대와 금감원의 연이은 정정 요구 등을 고려해 유증 규모를 1조7000억원 수준으로 줄였다. 이어 주가 하락으로 조달 금액이 더욱 축소됐다. 대규모 증자 결정으로 회사 이미지에 타격을 받은 데다 최근 코스피지수가 급락하는 등 국내 증시의 변동성이 확대된 점까지 겹친 영향으로 분석된다. 한화솔루션은 미래 성장을 위한 투자금 9000억원은 계획대로 집행한다. 그 대신 채무 상환에 쓸 자금을 2636억원으로 축소했다. 최석철 기자 dolsoi@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 최석철 기자 한국경제신문 최석철 기자입니다. ADVERTISEMENT 관련 뉴스 1 에코프로비엠 \"유증 자금, 미래 성장에 쓸 것\" 김장우 에코프로비엠 대표(사진)가 유상증자를 통해 확보한 자금을 채무 상환이 아니라 미래 성장동력에 전액 투입하겠다고 밝혔다. 기업가치를 끌어올리기 위해 유상증자가 필요하다는 점을 강조한 것이다.17일 에코프로비엠에... 2026.07.17 17:39 2 금감원, 에코프로비엠 '1.2조 유증' 제동 ▶마켓인사이트 7월 15일 오후 3시 54분 금융감독원이 에코프로비엠의 1조2000억원 규모 주주배정 유상증자에 제동을 걸었다.15일 에코프로비엠 주가는 7.02% 상승한 12만500원에... 2026.07.15 17:50 3 10년 거주 후 분양 '임대리츠' 인기 LH(한국토지주택공사)가 공급하는 ‘10년 공공임대주택리츠’가 청약시장에서 높은 경쟁률을 이어가고 있다. 10년간 거주한 뒤 시세보다 저렴한 가격에 분양전환할 수 있다는 기대에 대출 규제와 전&... 2026.07.10 17:08 ADVERTISEMENT 많이 본 뉴스 1 30대 맞벌이 부부, 10억 아파트 샀는데…통장 보고 '깜짝' 2026.07.19 17:29 2 핫스톡 17만원 넘던 국민주가 3만원대…증권가 \"역사적 저점 매수\" 2026.07.20 08:00 3 연금 받아도 가난한 40만명…2027년부터 기초연금 준다 2026.07.20 06:40 4 '안 팔리면 태워버렸는데'…샤넬백 이제 아울렛에 쫙 깔리나 2026.07.20 08:53 5 정부 한 방에 10%대 줄줄이 '급락'…증권가도 손들었다 2026.07.20 11:22 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT ADVERTISEMENT",
       "impact": "positive",
-      "takeaway": "한화솔루션 대규모 유상증자로 신재생사업 확대 가능"
+      "takeaway": "한화솔루션 1.2조 유증으로 태양광 사업 투자 확대 기대"
     },
     {
       "s": "Bloomberg Tech",
@@ -95,18 +117,7 @@
       "ts": 1784536481000,
       "fullText": "",
       "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
-    },
-    {
-      "s": "전자신문",
-      "t": "HD현대마린엔진, 태양광 발전설비 준공…부품 공급망 친환경 선제 대응",
-      "d": "HD현대마린엔진 자회사 HD현대크랭크샤프트가 경남 창원 공장 내 태양광 발전 인프라를 구축했다. 친환경 에너지로 선박용 핵심 부품을 제조, 글로벌 환경 규제에 선제적으로 대응하고 환경·사회·지배구조(ESG) 역량을 대폭 강화하려는 전략이다. 20일 업계에 따르면 HD현대크랭크샤프트는 최근 경남 창원 공장 내 태양광 발전설비 구축을 완료했다. HD현대 관계자는 “지난 6월 준공을 끝내고 마무리 설치 작업 및 인허가 준비를 하고 있다”고 밝혔다.",
-      "u": "https://www.etnews.com/20260720000167",
-      "m": "07. 20. AM 07:30",
-      "ts": 1784532600000,
-      "fullText": "반도체 중공업 HD현대마린엔진, 태양광 발전설비 준공…부품 공급망 친환경 선제 대응 발행일 : 2026-07-20 16:30 지면 : 2026-07-21 18면 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 HD현대 GRC. HD현대 HD현대마린엔진 자회사 HD현대크랭크샤프트가 경남 창원 공장 내 태양광 발전 인프라를 구축했다. 친환경 에너지로 선박용 핵심 부품을 제조, 글로벌 환경 규제에 선제적으로 대응하고 환경·사회·지배구조(ESG) 역량을 대폭 강화하려는 전략이다. 20일 업계에 따르면 HD현대크랭크샤프트는 최근 경남 창원 공장 내 태양광 발전설비 구축을 완료했다. HD현대 관계자는 “지난 6월 준공을 끝내고 마무리 설치 작업 및 인허가 준비를 하고 있다”고 밝혔다. 관련 절차가 마무리되면 본격 가동에 돌입할 것으로 관측된다. 태양광 발전 설비 구축은 제품 제조 공장에 필요한 대규모 전력을 친환경 재생 에너지로 전환하기 위한 행보다. 크랭크샤프트는 선박용 디젤 엔진 핵심 구동 부품으로, 주 원재료인 철강 원자재를 깎고 열처리하는 공정에서 막대한 전력이 필요하다. 대표적인 전력 다소비 업종이다. 이에 따른 탄소 배출량도 상당하다. 태양광 발전을 활용하면 공장 가동 전력을 친환경 재생 에너지로 전환, 탄소 배출량을 획기적으로 줄일 수 있다. 최종 고객사의 부품 공급망의 탄소 절감 요구에도 대응할 수 있다. 최근 유럽 등 글로벌 선주사들은 선박 운항뿐만 아니라 제조 공급망 전체에서 탄소 발자국 검증을 강하게 요구하는 추세다. 국제해사기구(IMO) 역시 오는 2050년까지 국제 해운 온실가스 순 배출량 제로(Zero)라는 강화된 환경 규제를 내놓은 바 있다. 모회사인 HD현대마린엔진 친환경 엔진 경쟁력 제고 전략과도 궤를 같이한다. HD현대마린엔진은 기존 디젤 및 액화천연가스(LNG) 이중연료 엔진 외에도 기타 친환경 연료를 기반에 둔 엔진 생산 역량을 확대하고 있다. 앞서 HD현대마린엔진은 크랭크샤프트와 터보차저 등 핵심 부품의 자체 제작으로 엔진 전체 제품 경쟁력을 강화하기로 했다. 세계 최초 액화석유가스(LPG) 이중 연료 엔진 개발 성공 경험 등을 바탕으로 HD현대중공업 엔진기계사업부와도 시너지를 모색하고 있다. 업계에서는 그룹 차원 친환경 엔진 기술 개발 기조에 맞춰 자회사 부품 제조부터 탄소 배출을 줄여, 공급망 전반의 ESG 리스크를 선제적으로 식별·관리하려는 시도로 본다. 여기에 산업용 전기요금 부담을 줄여 제조 원가를 절감하는 재무적 실익도 기대된다. HD현대크랭크샤프트는 지난 2006년 착공한 STX중공업 크랭크샤프트 사업부에 뿌리를 둔 대형 선박 부품 기업이다. 2020년 물적분할로 설립된 '한국해양크랭크샤프트(KMCS)'가 전신으로, 2024년 9월 HD현대 그룹에 편입되면서 현재의 사명으로 새롭게 출발했다. 전소연 기자 soyeon@etnews.com",
-      "impact": "positive",
-      "takeaway": "HD현대마린엔진, 태양광 설비 완공으로 친환경 공급망 강화"
+      "takeaway": "Moonshot AI 트레이드 변화는 신재생에너지와 무관"
     },
     {
       "s": "연합뉴스",
@@ -115,9 +126,7 @@
       "u": "https://www.yna.co.kr/view/AKR20260720036351008",
       "m": "07. 20. AM 06:44",
       "ts": 1784529867000,
-      "fullText": "미국과 이란의 무력충돌이 격화하면서 국제유가가 급등하자 국내 신재생 에너지 관련주 주가가 큰 폭으로 상승했다. 20일 유가증권시장에서 SK이터닉스는 전장보다 7.50% 오른 5만5천900원에 거래를 마쳤다. 2.12% 내린 5만900원으로 출발한 SK이터닉스는 곧장 상승전환한 뒤 한때 12.50% 오른 5만8천500원에 거래되기도 했다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
-      "impact": "positive",
-      "takeaway": "유가 상승과 중동 긴장으로 신재생주 상승, 테마 투자 매력 증가"
+      "fullText": "미국과 이란의 무력충돌이 격화하면서 국제유가가 급등하자 국내 신재생 에너지 관련주 주가가 큰 폭으로 상승했다. 20일 유가증권시장에서 SK이터닉스는 전장보다 7.50% 오른 5만5천900원에 거래를 마쳤다. 2.12% 내린 5만900원으로 출발한 SK이터닉스는 곧장 상승전환한 뒤 한때 12.50% 오른 5만8천500원에 거래되기도 했다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
       "s": "연합뉴스",
@@ -259,7 +268,7 @@
       "u": "https://www.nbcnews.com/video/nasa-tests-jets-for-supersonic-flight-266623557630",
       "m": "07. 14. AM 01:08",
       "ts": 1783991292000,
-      "fullText": "Inside Trump&#x27;s attendance at World Cup final"
+      "fullText": "Meet the Press Meet the Press NOW — July 20"
     },
     {
       "s": "오늘경제",
@@ -333,17 +342,7 @@
       "u": "https://www.nbcnews.com/video/flock-s-a-i-enabled-street-cameras-see-backlash-across-the-country-266154053762",
       "m": "07. 04. AM 12:29",
       "ts": 1783124992000,
-      "fullText": "Inside Trump&#x27;s attendance at World Cup final"
-    },
-    {
-      "s": "에너지데일리",
-      "t": "“재생에너지 확대는 단순한 기후 정책이 아니라 에너지 안보 정책이다”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE84TFNGd2J5OXh5NjJDQ0RKNElfZ081Tzl0amZjZ0h4S1pWMmEtLUpfZlQyUWRxcV9NTzFIT2s2OEw1WnFOUjgzbTBKdEJTejRfbzZlSy1xN1k1YkhTQVZWcUgybHFlOFkzbFY5WFdoSVROdw?oc=5",
-      "m": "07. 03. AM 07:00",
-      "ts": 1783062000000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Meet the Press Meet the Press NOW — July 20"
     },
     {
       "s": "뉴시스",
@@ -375,16 +374,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "가스신문",
-      "t": "서울시, 에너지효율과 자립도 높일 미래청정에너지정책 제시",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13al9oN09CT2hhRVFkcTY5Sm1XZVp4aUJEQjFHNjRPdnhuN3JmQVdpTG1ScXFCX1lVc3dnTk9iOXliQ290b0d2RlFGN0ctLURPanhNN0xUM0Rlcjd1STRvUjJIOGZlaXpNMkHSAW5BVV95cUxPaHNsVUdKblZZOFRWUjNZQ1RZR3BtVlExU3BwWTNzaHFBLUFGQ0tzckdnbXpWbmtqalBOaUZud3BnSWtMb2ZUcldEZklMMFhvUXVpSU9ZNG5mX2pSQUhFZUVEWHBuUkNMUzFNdm82dw?oc=5",
-      "m": "06. 26. PM 01:50",
-      "ts": 1782481835000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "하우징헤럴드",
       "t": "전기 부족 시대 대안으로 떠오르는 '연료전지'",
       "d": "",
@@ -401,7 +390,17 @@
       "u": "https://www.nbcnews.com/video/physicist-reacts-to-trump-executive-order-calling-for-a-quantum-computer-265578565584",
       "m": "06. 24. AM 01:54",
       "ts": 1782266054000,
-      "fullText": "Inside Trump&#x27;s attendance at World Cup final"
+      "fullText": "Meet the Press Meet the Press NOW — July 20"
+    },
+    {
+      "s": "농민신문",
+      "t": "‘태양광설비 이격거리’ 획일화…재생에너지 확산에 농촌 주거권 침해 우려",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QYmk4NlQyMlFjdjM2bHE5ZUYzRklIMXpuOU5Kc2luUl94dlVJUHc5MFlFUFZSNkVINkU1dXlZdHNHSlZ5TTNNNU5TYlNKVkdxQWNReXl6QlREUQ?oc=5",
+      "m": "06. 18. AM 07:00",
+      "ts": 1781766000000,
+      "_policy": true,
+      "fullText": "Google News"
     }
   ]
 }

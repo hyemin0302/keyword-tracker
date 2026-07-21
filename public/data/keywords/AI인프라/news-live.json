@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-21T19:13:42.421Z",
+  "updatedAt": "2026-07-21T20:45:04.128Z",
   "count": 40,
   "stats": {
-    "today": 17,
-    "yesterday": 11,
+    "today": 11,
+    "yesterday": 10,
     "weekAvg": 5.7,
-    "sources": 31,
+    "sources": 36,
     "heat": "hot"
   },
   "items": [
@@ -18,7 +18,7 @@
       "ts": 1784657198000,
       "fullText": "Data centers are expected to use one-fifth of the electricity generated in the U.S. by 2035, four times that of today, according to a new report from BloombergNEF . A surge in AI compute will push data center capacity to nearly 200 gigawatts over the next decade, the report predicts. Nearly half of that capacity will be devoted to training and inference, and most of that will remain concentrated in the U.S. By 2033, the country will host 64% of AI chips by power demand. Based on previous forecasts, those figures could be conservative. BloombergNEF’s new estimate for electricity demand in 2035 is 83% higher than what the consultancy predicted in December. Other organizations have raised their forecasts, too. EPRI, an electrical industry nonprofit, has more than doubled its 2024 estimate , while S&P’s forecast rose by more than a third between October and April. The revisions reflect the fevered pace of data center development across the U.S. In the coming decade, BloombergNEF expects the majority of new data centers to hit electrical grids that are already strained. The PJM Interconnection, which spans Virginia to Illinois, will see 34% of its electricity go to data centers, while ERCOT, which covers most of Texas, will have to devote 22% of its generating capacity. PJM, which already hosts a large number of the country’s data centers, has struggled to cope with connection requests from both large generators and large loads. It paused applications for new sources to connect to the grid for four years, putting it in a precarious position as demand continued to grow. Though PJM reopened the queue to new generating sources in April, the situation has grown so dire that one utility, American Electric Power, has threatened to pull out of the interconnection. The supply-demand imbalance has pushed electricity prices up 76% over the past year. Even with the congestion, data centers still want to connect to PJM — they represented 38% of charges in the grid manager’s most rec",
       "impact": "negative",
-      "takeaway": "전력 수요 급증으로 AI 데이터센터 비용·환경 부담 증가."
+      "takeaway": "데이터 센터의 전력 소비량이 4배 증가할 것으로 예상되며, AI 인프라의 에너지 효율성 향상이 더욱 중요해질 것"
     },
     {
       "s": "조선일보",
@@ -29,84 +29,29 @@
       "ts": 1784648820000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "자체 칩 기반 초대형 데이터센터 건설로 AI 인프라 수요 확대."
+      "takeaway": "중국은 자체 칩만으로 초대형 데이터 센터를 완공하였으며, AI 인프라의 독립성 향상"
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Intel Rallies After Saying It’ll Make More Headcount Reductions",
-      "d": "Intel Corp. rallied in early trading Tuesday after confirming it’ll cut more jobs to reduce costs and shake up its key data center unit.",
+      "t": "Intel Rallies on Plans for Headcount Reductions",
+      "d": "Intel Corp. shares rallied Tuesday after the company confirmed it will cut more jobs to reduce costs and shake up its key data center unit.",
       "u": "https://www.bloomberg.com/news/articles/2026-07-21/intel-rallies-after-saying-it-ll-make-more-headcount-reductions",
       "m": "07. 21. PM 03:38",
       "ts": 1784648317000,
       "fullText": "",
-      "impact": "negative",
-      "takeaway": "인텔 인력 감축으로 AI 인프라 공급 역량 약화 우려."
+      "impact": "neutral",
+      "takeaway": "인텔의 인력 감축 계획에 대한 언급이며, 테마와 직접 무관"
     },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
-      "d": "NVIDIA Vera Rubin is here, and it&#8217;s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350-plus factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The [&#8230;]",
+      "d": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The [&#8230;]",
       "u": "https://blogs.nvidia.com/blog/vera-rubin/",
       "m": "07. 21. PM 03:36",
       "ts": 1784648203000,
-      "fullText": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide Backed by 300 global partners, Vera Rubin is ramping up worldwide. NVIDIA partners CoreWeave, Google Cloud, Microsoft Azure and Mistral are among many deploying Vera Rubin, which delivers benchmark leadership on performance per watt and lowest token costs. July 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Vera Rubin is here, and it&#8217;s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350-plus factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The Vera Rubin platform is built from chip to grid to deliver the highest performance per watt and the lowest token cost. CoreWeave&#8217;s first benchmark on DeepSeek-R1 says it all: 10x more throughput per megawatt than Grace Blackwell NVL72 — landing directly on the metric that matters most for power-constrained AI factories. Advancing Performance With Extreme Co-Design What makes this possible is extreme co-design across seven chips and five rack trays — Vera Rubin NVL72, Vera CPU rack, Groq 3 LPX, Spectrum-6 SPX and Vera BlueField-4 STX — all engineered as a single system rather than assembled from separate off-the-shelf products. The NVIDIA Vera CPU is at its center. It redefines what an AI factory CPU can be. Designed and built for the agent era, its custom Olympus core delivers 2x single-threaded performance, 3x core-to-core bandwidth and 40% lower memory latency versus competing chiplet designs, making it the most efficient single-threaded CPU for the agentic workloads that matter most. Accelerating AI Factories With Purpose-built Networking For networking, the platform&#8217;s sixth-generation NVLink scale-up delivers more than 2x throughput on com",
+      "fullText": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide Backed by 300 global partners, Vera Rubin is ramping up worldwide. NVIDIA partners CoreWeave, Google Cloud, Microsoft Azure and Mistral are among many deploying Vera Rubin, which delivers benchmark leadership on performance per watt and lowest token costs. July 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The Vera Rubin platform is built from chip to grid to deliver the highest performance per watt and the lowest token cost. CoreWeave’s first benchmark on DeepSeek-R1 says it all: 10x more throughput per megawatt than Grace Blackwell NVL72 — landing directly on the metric that matters most for power-constrained AI factories. Advancing Performance With Extreme Codesign What makes this possible is extreme codesign across seven chips and five rack trays — Vera Rubin NVL72, Vera CPU rack, Groq 3 LPX, Spectrum-6 SPX and Vera BlueField-4 STX — all engineered as a single system rather than assembled from separate off-the-shelf products. The NVIDIA Vera CPU is at its center. It redefines what an AI factory CPU can be. Designed and built for the agent era, its custom Olympus core delivers 2x single-threaded performance, 3x core-to-core bandwidth and 40% lower memory latency versus competing chiplet designs, making it the most efficient single-threaded CPU for the agentic workloads that matter most. Accelerating AI Factories With Purpose-Built Networking For networking, the platform’s sixth-generation NVLink scale-up delivers more than 2x throughput on complex workloads, 3x lower",
       "impact": "positive",
-      "takeaway": "NVIDIA 효율성 향상으로 AI 데이터센터 운영 비용 절감 기대."
-    },
-    {
-      "s": "조선일보",
-      "t": "모건스탠리 “반도체 주가 약세는 매수 기회”",
-      "d": "최근 반도체 업황 둔화를 경고했던 모건스탠리가 이번에는 메모리 반도체 주가 조정을 매수 기회로 제시했다. 데이터센터 중심의 인공지능(AI) 투자 확대가 이어지면서 메모리 공급 부족이 2028년까지 지속될 수 있다는 전망이다.  20일(현지시각) 조지프 무어 모건스탠리 애널리스트는 투자자 노트를 통해 “이번 메모리 사이클은 데이터센터 (수요) 강세가 유일한",
-      "u": "https://www.chosun.com/economy/stock-finance/2026/07/22/DZ3T5REIENH4DBTQKGIQRGKO64/",
-      "m": "07. 21. PM 03:35",
-      "ts": 1784648100000,
-      "fullText": "",
-      "impact": "neutral",
-      "takeaway": "반도체 주가 하락과 AI 인프라 연관성은 제한적."
-    },
-    {
-      "s": "조선일보",
-      "t": "AI 반도체 이어 AI 인프라 공급… ‘脫엔비디아 전쟁’ 2라운드 돌입",
-      "d": "",
-      "u": "https://www.chosun.com/economy/tech_it/2026/07/22/N7ES5BVHVJFZDOHXLCPK3J2AAE/",
-      "m": "07. 21. PM 03:34",
-      "ts": 1784648040000,
-      "fullText": "",
-      "impact": "positive",
-      "takeaway": "AI 인프라 공급 확대와 경쟁 심화가 시장 성장 촉진."
-    },
-    {
-      "s": "동아일보",
-      "t": "AI 데이터센터 시장, 젠슨 황-리사 수 ‘5촌간의 전쟁’ 예고",
-      "d": "미국 반도체 기업 AMD가 인공지능(AI) 훈련·추론용 랙(서버 장비) 시스템 ‘헬리오스’를 마이크로소프트 등에 공급하며 본격적으로 AI 데이터센터 시장에 뛰어들었다. 그간 엔비디아가 독점하다시피 한 AI 데이터센터 시장에 AMD가 출사표를 내며, 5촌지간인 젠슨 황 엔비디아 최고경영자(CEO)와 리사 수 AMD CEO의 치열한 경쟁이 벌어질 것으로 전망된다. 20일(현지 시간) 마이크로소프트는 자사 클라우드 서비스 ‘애저’ 등에 AMD의 헬리오스를 도입하겠다고 밝혔다. 마이크로소프트는 헬리오스를 활용해 최첨단 AI 모델, 애저 AI 서비스 등 AI 추론이 필요한 다양한 업무를 지원하겠다고 밝혔다. AMD의 헬리오스는 중앙처리장치(CPU), 그래픽처리장치(GPU), 네트워크 장비 등을 하나의 캐비닛에 통합한",
-      "u": "https://www.donga.com/news/Economy/article/all/20260721/134338983/2",
-      "m": "07. 21. PM 03:30",
-      "ts": 1784647800000,
-      "fullText": "최지원 기자 구독",
-      "impact": "neutral",
-      "takeaway": "주요 기업 간 경쟁이 AI 데이터센터 시장에 불확실성 제공."
-    },
-    {
-      "s": "동아일보",
-      "t": "AI인프라 막대한 투자에… 오라클, 신용위험 18년 만에 최고치",
-      "d": "미국 소프트웨어·클라우드 기업 오라클의 신용 위험이 18년 만에 가장 높은 수준으로 올랐다. 인공지능(AI) 기반시설에 쏟아부은 막대한 자금이 실제 수익으로 돌아올지에 대한 시장의 의구심이 커진 결과다. 20일(현지 시간) 블룸버그통신이 ICE데이터를 인용해 보도한 데 따르면 오라클의 5년 만기 신용부도스와프(CDS) 프리미엄은 이날 오전 연 2.03%포인트(203bp·1bp는 0.01%포인트)까지 상승했다. 이는 관련 통계 집계가 시작된 2008년 말 이후 최고치다. 직전 최고치는 17일 기록한 198.23bp였다. CDS는 채권 발행 기업이 빚을 갚지 못할 경우 손실을 보전받는 파생상품으로, 프리미엄이 높을수록 시장이 인식하는 위험이 크다는 얘기다.  오라클 회사채도 이날 약세를 보였다. 금융거래정보시스",
-      "u": "https://www.donga.com/news/Economy/article/all/20260721/134338985/2",
-      "m": "07. 21. PM 03:30",
-      "ts": 1784647800000,
-      "fullText": "이민아 기자 구독",
-      "impact": "negative",
-      "takeaway": "오라클 신용위험 상승으로 AI 인프라 투자 위험 증가."
-    },
-    {
-      "s": "동아일보",
-      "t": "[동아광장/허정]반도체 호황기, 정부의 안전판 역할이 필요하다",
-      "d": "요즘 한국 경제를 보는 사람들의 시선이 부쩍 달라지고 있는 것 같다. 실제로 반도체 수출과 기업 이익이 늘면서 올해 성장률 전망치도 덩달아 올라갔고 정부는 반도체, 인공지능(AI) 데이터센터, 피지컬 AI를 3대 축으로 하는 경제성장 전략까지 내놓았다. 저성장의 늪에 빠졌다고 여겼던 우리 국민들로서는 오랜만에 듣는 반가운 소식이 아닐 수 없다.그런데 이 현상을 한국 경제의 장기 추세가 바뀌는 신호로 해석하는 이들이 늘고 있다. 솔직히 나는 반도체 슈퍼사이클에 우리의 이성도 함께 붕 떠 있는 것은 아닌가 우려된다. 지금 필요한 것은 성장률이 높아졌다는 사실에 환호하는 데서 나아가 그 성장이 어디서 비롯됐고 얼마나 지속될 수 있는지를 따지는 일이다. 이제 경제의 기본 상식으로 돌아가 차분히 하나씩 생각해 보자.",
-      "u": "https://www.donga.com/news/Opinion/article/all/20260721/134340515/3",
-      "m": "07. 21. PM 02:15",
-      "ts": 1784643300000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기",
-      "impact": "neutral",
-      "takeaway": "반도체 호황과 AI 인프라 연계는 제한적, 정책 지원 필요."
+      "takeaway": "NVIDIA의 Vera Rubin이 성능과 에너지 효율성을 향상시키며, AI 인프라의 발전"
     },
     {
       "s": "Bloomberg Tech",
@@ -117,25 +62,7 @@
       "ts": 1784640601000,
       "fullText": "",
       "impact": "neutral",
-      "takeaway": "해당 뉴스는 AI 인프라·데이터센터 테마와 직접적인 연관이 없음."
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Data Centers on Track to Suck Up a Fifth of US Power Use by 2035",
-      "d": "Data centers in the US will account for about 20% of the nation’s electricity consumption in 2035, up from 5.9% today, according to BloombergNEF.",
-      "u": "https://www.bloomberg.com/news/articles/2026-07-21/data-centers-on-track-to-suck-up-a-fifth-of-us-power-use-by-2035",
-      "m": "07. 21. AM 11:00",
-      "ts": 1784631600000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "BlackRock-MGX Consortium Eyes $5 Billion Aligned Data Centers Expansion",
-      "d": "A consortium including BlackRock Inc.’s Global Infrastructure Partners and Abu Dhabi’s MGX plans to invest an additional $5 billion to boost growth at Aligned Data Centers.",
-      "u": "https://www.bloomberg.com/news/articles/2026-07-21/blackrock-mgx-consortium-eyes-5-billion-aligned-data-centers-expansion",
-      "m": "07. 21. AM 09:30",
-      "ts": 1784626200000,
-      "fullText": ""
+      "takeaway": "베네수엘라의 핀테크 회사에 대한 투자에 대한 언급이며, 테마와 직접 무관"
     },
     {
       "s": "NSP통신",
@@ -145,7 +72,9 @@
       "m": "07. 21. AM 08:45",
       "ts": 1784623557000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "한국부동산원은 정책 인프라 기관으로 전환하며, 주택 공급과 AI 기능 강화"
     },
     {
       "s": "산업인뉴스",
@@ -155,7 +84,9 @@
       "m": "07. 21. AM 08:01",
       "ts": 1784620912000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "범부처 AI 데이터 센터 지원 TF가 가동되며, AI 인프라의 입법 및 행정 지원"
     },
     {
       "s": "시사뉴스",
@@ -165,7 +96,9 @@
       "m": "07. 21. AM 07:15",
       "ts": 1784618131000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "AI Korea 대전 세미나에서 규제 혁파와 상생이 핵심으로 강조"
     },
     {
       "s": "핀포인트뉴스",
@@ -175,7 +108,21 @@
       "m": "07. 21. AM 03:45",
       "ts": 1784605510000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "한국부동산원은 정책 인프라 기관으로 전환하며, 주택 공급 지원과 AI 조직 강화"
+    },
+    {
+      "s": "뉴시스",
+      "t": "경총, AI·수소·노동 규제 112건 손질 요구…\"첨단산업 속도 맞춰야\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nSDJDelJJZzBEd3lHcTFRVDdnblFYWXc2cE5qb1dnemxKYlFRSExZclZETWpQenloMzVvVjdJU0MtYk1XenE4SExRRjdobkVkYlZObW9JdXAwZVNPN0t1ZGtnSnZ3X0dUS2FVbUNNcmFSQjMza0N0V9IBeEFVX3lxTE1nSDJDelJJZzBEd3lHcTFRVDdnblFYWXc2cE5qb1dnemxKYlFRSExZclZETWpQenloMzVvVjdJU0MtYk1XenE4SExRRjdobkVkYlZObW9JdXAwZVNPN0t1ZGtnSnZ3X0dUS2FVbUNNcmFSQjMza0N0Vw?oc=5",
+      "m": "07. 21. AM 02:00",
+      "ts": 1784599200000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "경총이 AI, 수소, 노동 규제 112건을 손질 요구하며, 테마와 직접 무관"
     },
     {
       "s": "연합뉴스",
@@ -194,16 +141,6 @@
       "m": "07. 20. PM 03:02",
       "ts": 1784559756000,
       "fullText": ""
-    },
-    {
-      "s": "Yellow.com",
-      "t": "‘에이전틱 데이’ 토론토 상륙… 3개국·2대륙 순회 2026 시리즈 마무리",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMioANBVV95cUxPa1QtZTFQSFZ1ZlhwN3YtVFRpUXFBdlFESFZSMnprODBPWVd2VkhlNDhBbmVrSkpOVzVfVmJONnF1WXB1TG9taGlHR0V6bVZPbVBfOEQ5UV85OUgzTnJwVUoxQnNSNGlPUGNmQWF0bTVFTTVfUWdZRk81S3RjOGg1c0kxLTlOU2FZbm91U1JSdW1rNUpjMTBPWVBmTVQ5di1CVDFhSU1oakVOTUhOeFhMeWRFVC1JUi15d0tKWXI2cG9nVXVJTC1UWlpOTWNyWGtDTFFmaWdMTVd6N0luRG9ad3FlNEcwaDVPUXVMSnJpQkJSc2wyQldueFc2d05DY0dLMGt3TDM0aUtfaTQzbUp6dEhTUm5EUnBncFNITXJyZWFBdGdSeXd0T3duUjRWckptOTkwRTZxdEdXM1h3YVZhYmtNcGZtek9XYWk4enFHUzNPUWhoZlkzT1NuT0k1NDA1bVRtZU8tRlJsZ1RxVUFhdWl6ZWtaLWNfYlhLbVZ1MUxqeEJtaXZ5ZHdRVWFIakJCWGJhc0xRSjJoaHZGZ2FINA?oc=5",
-      "m": "07. 20. AM 10:51",
-      "ts": 1784544676000,
-      "_policy": true,
-      "fullText": "Google News"
     },
     {
       "s": "경북뉴스",
@@ -412,6 +349,76 @@
       "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4ybkwycGlMQzlwQUtEZTE4bjdGd2xyeVpTam43NVBoRkNtTE9FR2lrZllHQTAwV1d1dE1mVGlFSGJRcHA5WkVISkFyMA?oc=5",
       "m": "07. 16. AM 08:18",
       "ts": 1784189903000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "디지털투데이",
+      "t": "과방위, '3대 메가' 지원 시동…첫 의제는 AI 인프라",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nMHkySGthbWJESnFjVmdmU045ZlRUdDJfYkVsR25zSHJfWGV1U0FMSlBGb3YxNFpOa0FGcDFOOHZHT3NvM2xhQlVpbnpuNzFIVm83Y1VyWTVfOTViZkpLaDZoaU1aOWRpU1RPcUxDaEVxQVU?oc=5",
+      "m": "07. 16. AM 08:17",
+      "ts": 1784189851000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "정보통신신문",
+      "t": "\"18GW 규모 AI 데이터센터 투자 가속화할 골든타임\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPdzRCZW1rd3dFOVExUjNxRk8zdHZ5SDRieE1Fdk9EbWloZGlLNXRPcEcwVEYzNTMxVDB2TE05U3R3bXVIOXBKMTY1UUVZUl9vY0Y4Z3Bvc2d0M1FsTW5PZkxkOVpjTEZC0gFsQVVfeXFMT25YY05yTEh1dEpWaUNwaUpGQWZMMFUySC1NZFFVT1RqOVFLZ01WVks5SDYyellNVS0zRHRzX2pwUWllQlE4R1VnMkRaeEpxUDdTSjdyaGQwZGk0T2NmdDgzVGZHanRuaWdNSi1k?oc=5",
+      "m": "07. 16. AM 07:32",
+      "ts": 1784187137000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "매일일보",
+      "t": "550조 AI 데이터센터 투자 SK·GS·네이버, “제도 장벽 걷어내야”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ab0dGZjdYdVdtNGRFN2E5cktPTUc2TzRabUtpb0NaWVBEZFpHZXlnQk9yZUNJQzN6WEhVdlF3ZVN5ZzFmWnBaQUd4M1pZVDVjQUhXX19nOUhrYUR5MmliVUhsekU?oc=5",
+      "m": "07. 16. AM 07:15",
+      "ts": 1784186107000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "수소신문",
+      "t": "AI·데이터 국가 인프라 구축 본격화…범정부 데이터 허브 추진",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04Y21MT2x0NnZPT19wdU5XYnZyYnE1RGszckFhSk5QNnZER3Y0RmZyLWdEUlNSQ1BnQTFDMW02UFRLejJxb1pwMWtnM2ZUUFhBZ1N3djJhWnlaTDNYUEhrbTU1M3BwZVRrRGtpbUlqUHPSAXRBVV95cUxOZjNXb0dYMWtqeVl3Y3VGMlBTNXh3OHFvZ3JVUWJUaERZb1BDSjE0NDl2LU9yNS1VZVROQ1kwNUcxT3hyeEM5LWpkc18yWjV1MUJjTFF6UmRadTl2NHR5Mk96NUtrX0hKS2hmM0hjbkQtemxPZw?oc=5",
+      "m": "07. 16. AM 07:05",
+      "ts": 1784185542000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "포쓰저널",
+      "t": "[4th-AI] \"AIDC, 투자 막는 전력·세제 규제 풀어야…'소버린 AI 인프라' 구축 시급\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JNE03N2IxWElvNWh4UmExRjlOdERuUzJPMjItTUJseUNJeFNsLVhHQmlwSWQ4d25iUEpZelVVR3UxLVFKcmtEaGxBQjlxbnVkNXhJNmU5VmR2eUgxTzVUUU5sZnk?oc=5",
+      "m": "07. 16. AM 06:40",
+      "ts": 1784184058000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "애플경제",
+      "t": "AI 경쟁, 데이터센터 인프라로 옮겨가",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15Q3RSd05HbHg5NkdKR3p3bW5scC0wZGMwT3NlVExGLS1uM2pJOWEza0RFaS1tU2ZLcl9UYjYzWlA2WWpRZ3ViZk9EdFhUcWdyX0Q4R25UODZSRV8wTTBfUGRyejNkTFMyZXpGazhxdl8?oc=5",
+      "m": "07. 16. AM 04:15",
+      "ts": 1784175300000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스핌",
+      "t": "스카이월드와이드, 국회 정책포럼서 국가 AI 인프라 비전 제시",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FTTFzQm1hbDdtRmZ4OWtBVlJzNmZ5bmRTT2Z3WUI5UGFlR1JtTHVJRHFQTlp0SjIxMlNwQlhTNDZlWW1iTlRXMXM5SXRoY3I3QVJ0ZHdxMjYwdFE1?oc=5",
+      "m": "07. 16. AM 12:13",
+      "ts": 1784160780000,
       "_policy": true,
       "fullText": "Google News"
     }

@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-07-21T20:48:54.249Z",
+  "updatedAt": "2026-07-21T22:06:00.135Z",
   "count": 40,
   "stats": {
-    "today": 25,
+    "today": 27,
     "yesterday": 3,
-    "weekAvg": 5.3,
-    "sources": 28,
+    "weekAvg": 5.6,
+    "sources": 27,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "연합뉴스",
+      "t": "서울시복지재단, 장기요양 인력배치 AI 에이전트 개발",
+      "d": "(서울=연합뉴스) 황재하 기자 = 서울시복지재단은 이달 21일 엔젤노인복지센터, 바이브컴퍼니와 &apos;인력배치 지원 AI(인공지능) 에이전트 개발 및...",
+      "u": "https://www.yna.co.kr/view/AKR20260721150300004",
+      "m": "07. 21. PM 09:00",
+      "ts": 1784667612000,
+      "fullText": "서울시복지재단은 이달 21일 엔젤노인복지센터, 바이브컴퍼니와 '인력배치 지원 AI 에이전트 개발 및 시범도입' 업무협약을 체결했다고 22일 밝혔다. 엔젤노인복지센터는 AI 에이전트를 시범 도입할 현장을 제공하고, 바이브컴퍼니는 AI 에이전트 설계와 개발, 검증, 시연, 기술 지원을 맡는다. 진수희 서울시복지재단 대표이사는 \"이번 협약으로 장기요양 현장에 실질적으로 기여하는 AI 에이전트를 마련하고, 검증된 성과를 토대로 확산을 추진하겠다\"고 말했다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
+      "impact": "positive",
+      "takeaway": "AI 에이전트 활용으로 장기요양 인력 효율화 기대"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "OpenAI says Hugging Face was breached by its own pre-release models",
+      "d": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+      "u": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+      "m": "07. 21. PM 08:56",
+      "ts": 1784667415000,
+      "fullText": "OpenAI admitted Tuesday that one of its AI models breached Hugging Face&#8217;s systems during an internal cybersecurity test that went awry. Hugging Face initially attributed the breach to an &#8220;external AI agent.&#8221; In a blog post published Tuesday afternoon , OpenAI detailed the steps that led the models to compromise the service. &#8220;After investigating, we now know that this particular incident was driven by a combination of OpenAI models — including GPT‑5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes — while being internally tested on a benchmark⁠ of cyber capabilities,&#8221; the post reads. In particular, the breach appears to have focused on ExploitGym , a publicly hosted benchmark measuring models&#8217; ability to execute attacks based on existing vulnerabilities. Benchmarks like ExploitGym are commonly used in model training to refine specific skills, but this is the first known incident in which that testing resulted in an actual cyberattack. In this case, the model in question should not have even had internet access, outside of a specific tool that enabled models to install software packages they might need to complete their task. Instead, the model was able to find an undisclosed vulnerability in the package-installer program, which it used to access the broader internet at will. &#8220;The models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal,&#8221; OpenAI&#8217;s post reads. &#8220;After gaining Internet access, the models inferred that Hugging Face potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation.&#8221; Ultimately, the models found vulnerabilities in Hugging Face&#8217;s infrastructure that allowed them to &#8220;obtain test solutions directly f",
+      "impact": "negative",
+      "takeaway": "프리릴리즈 모델 유출로 AI 에이전트 신뢰도 하락"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "OpenAI Names BNY, Nubank CEOs to Board Ahead of IPO",
@@ -17,19 +39,19 @@
       "m": "07. 21. PM 08:07",
       "ts": 1784664449000,
       "fullText": "",
-      "impact": "positive",
-      "takeaway": "OpenAI IPO 준비와 신규 이사 선임으로 AI 에이전트 시장 기대감 상승"
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "Bloomberg Tech",
-      "t": "OpenAI Says Its AI Used for ‘Unprecedented’ Hugging Face Breach",
-      "d": "OpenAI said its artificial intelligence models were used to compromise the internal systems of startup Hugging Face Inc., offering an early glimpse of how AI systems could fuel new cybersecurity threats.",
+      "t": "OpenAI Says Its AI Caused Hugging Face Cyber Breach",
+      "d": "OpenAI said its artificial intelligence models were able to compromise the internal systems of startup Hugging Face Inc., offering an early glimpse of how AI systems could fuel new cybersecurity threats.",
       "u": "https://www.bloomberg.com/news/articles/2026-07-21/openai-says-its-ai-used-for-unprecedented-hugging-face-breach",
       "m": "07. 21. PM 07:51",
       "ts": 1784663488000,
       "fullText": "",
       "impact": "negative",
-      "takeaway": "AI 활용 보안 침해 소식으로 에이전트 신뢰도 하락 우려가 커짐"
+      "takeaway": "AI 모델 보안 취약성 부각, 투자 우려"
     },
     {
       "s": "TechCrunch",
@@ -40,7 +62,7 @@
       "ts": 1784663021000,
       "fullText": "Twitter and Block co-founder Jack Dorsey announced a new app on Tuesday called Buzz . Positioned as a challenger to Slack and GitHub, Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversations. Dorsey wrote on X that Buzz is &#8220;model-agnostic, decentralized, self-sovereign, and open source.&#8221; This product seems to be more than just a Dorsey passion project. According to its website, Buzz was built by Dorsey&#8217;s company Block, which also operates products like Square, Cash App, Afterpay, and Tidal. we&#39;re launching BUZZ! a new groupchat platform for teams of people and agents of all sizes, built to reduce our dependency on slack and github. model-agnostic, decentralized, self-sovereign, and open source. 🐝 https://t.co/8IaMVeTQNo &mdash; jack (@jack) July 21, 2026 As startups increasingly rely on AI agents to get work done, it can be challenging for employees to collaborate on various tasks across different platforms. Buzz&#8217;s utility is that it merges several different workflows into one workspace. It looks a lot like Slack, but with native AI agents and the ability to manage GitHub projects all from the same window. Since the platform is open source, developers can make their own Buzz instance feel more customized to the needs and workflows of their specific team. If a team needs a new feature, they can build it and deploy it on their own, since they have full access to the source code. Image Credits: Buzz (opens in a new window) Dorsey isn&#8217;t the only entrepreneur trying to pursue AI-native alternatives or additions to Slack. Paradigm partner and CTO Georgios Konstantopoulos recently unveiled a similar open source product called Centaur , which he describes as a &#8220; virtual employee &#8221; that runs either inside of Slack or via an API. &#8220;There&#8217;s a lot of room for improvement for agents that live in Slack and can do more work than just coding for teams. In the enterprise s",
       "impact": "positive",
-      "takeaway": "팀 협업에 AI 에이전트 결합 서비스 출시로 시장 확대 기대가"
+      "takeaway": "팀 협업에 AI 에이전트 통합, 시장 확대 기대"
     },
     {
       "s": "TechCrunch",
@@ -51,7 +73,7 @@
       "ts": 1784653910000,
       "fullText": "On Tuesday, Google DeepMind released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber. Gemini 3.6 Flash is Google’s “workhorse model” that promises improved capabilities in coding, knowledge work, and multimodal performance while reducing token usage by up to 17%, making it cheaper than its predecessor 3.5 Flash. Gemini 3.5 Flash-Lite is the most cost-effective model in the class, and 3.5 Flash Cyber is a specialized model that was fine-tuned for finding and fixing cybersecurity vulnerabilities at a decent price point. This model will be exclusively available to governments and trusted partners as part of a limited access pilot program, according to Google. Google says the focus on these releases is to deliver efficiency, latency, and reliability to customers that are building AI agents at scale. The launch is notable not just for what Google shipped — cheaper, faster models optimized for coding, efficiency, and cybersecurity — but also for what it didn&#8217;t. The update doesn&#8217;t include the long-anticipated update to Google&#8217;s flagship model, Gemini Pro, which was last updated in February. In the time since that launch, OpenAI has released GPT-5.5 and begun rolling out GPT-5.6 , while Anthropic has launched Claude Opus 4.8 and Claude Sonnet 5 and has expanded access to its frontier Fable 5 model , highlighting the intense release pace of the rival labs. Google teased the release of Pro as part of the 3.5 Flash release in May, saying the Pro version was &#8220;already being used internally, and we look forward to rolling it out next month.&#8221; Last week, Bloomberg reported that Google was facing internal delays in launching the 3.5 Pro as it struggled to meet internal performance goals. Gemini Pro models are generally Google&#8217;s highest-capability offerings for complex reasoning and coding tasks, while Flash models prioritize lower cost and faster response times for production applications. Google DeepMind product lead Logan Kilpatrick said T",
       "impact": "positive",
-      "takeaway": "구글 최신 Gemini 모델 출시로 LLM 경쟁 가속, 투자 매력 증가"
+      "takeaway": "구글 Gemini 신모델 출시로 LLM 경쟁 심화"
     },
     {
       "s": "Bloomberg Tech",
@@ -61,8 +83,8 @@
       "m": "07. 21. PM 03:35",
       "ts": 1784648153000,
       "fullText": "",
-      "impact": "positive",
-      "takeaway": "미국 관계자 대상 차세대 AI 모델 설명으로 정책 지원 가능성 제시"
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "지티티코리아",
@@ -73,8 +95,8 @@
       "ts": 1784647800000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "AI 에이전트 권한 통제 정책 확대로 활용 제한 우려가 심화"
+      "impact": "positive",
+      "takeaway": "AI 에이전트 권한 관리 정책 도입으로 신뢰성 강화"
     },
     {
       "s": "NVIDIA공식",
@@ -84,8 +106,8 @@
       "m": "07. 21. PM 03:00",
       "ts": 1784646020000,
       "fullText": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories Next-generation NVIDIA Spectrum-X Ethernet connects hundreds of thousands of GPUs with the performance, resilience and efficiency needed for gigascale AI, with AI infrastructure leaders already adopting. July 21, 2026 by Scot Schultz 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 — a 102.4-terabit-per-second Ethernet switch system delivering 2x the capacity of previous-generation systems and built as part of the NVIDIA Vera Rubin platform — is arriving across the world’s gigascale AI factories. Spectrum-6 anchors the next generation of the NVIDIA Spectrum-X Ethernet platform , delivering the bandwidth, scale and intelligence needed to operate an AI factory as one end-to-end computing system. Leading AI Builders Move First The world’s leading AI infrastructure builders — including CoreWeave , Microsoft , Nebius , SpaceXAI and Tesla — will be among the first to bring in Spectrum-6 to accelerate their AI factories. For cloud providers, Spectrum-6 means more compute capacity can operate as a unified, high-performance resource, helping customers train models and deploy inference services faster. “CoreWeave is built for the most demanding AI workloads, and networking is central to delivering that performance at scale,” said Min Jun, director of product for networking at CoreWeave . “Bringing NVIDIA Spectrum-6 and liquid-cooled Spectrum-X Ethernet infrastructure into our AI factories will help us deliver the bandwidth, resilience and efficiency customers need to train frontier models and deploy inf",
-      "impact": "positive",
-      "takeaway": "NVIDIA 최신 스펙트럼-6 도입으로 대규모 LLM 학습 효율 상승이 기대됨"
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "Bloomberg Tech",
@@ -96,7 +118,7 @@
       "ts": 1784638500000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "에이전트 사용자 1천만 명 달성으로 AI 서비스 수요 급증이 예상"
+      "takeaway": "AI 에이전트 사용자 급증, 시장 성장 기대"
     },
     {
       "s": "블록미디어",
@@ -106,9 +128,7 @@
       "m": "07. 21. AM 11:45",
       "ts": 1784634300000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "positive",
-      "takeaway": "AI 에이전트 기반 경제에서 스테이블코인 결제 핵심 역할 강조될 것"
+      "fullText": "Google News"
     },
     {
       "s": "한경 IT",
@@ -117,9 +137,7 @@
       "u": "https://www.hankyung.com/article/2026072176171",
       "m": "07. 21. AM 09:16",
       "ts": 1784625368000,
-      "fullText": "",
-      "impact": "positive",
-      "takeaway": "정부 주도 한국형 챗GPT 다수 출시 계획으로 국내 LLM 시장 활성화 예상"
+      "fullText": ""
     },
     {
       "s": "dt.co.kr",
@@ -397,25 +415,6 @@
       "m": "07. 14. PM 03:00",
       "ts": 1784041220000,
       "fullText": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency From benchmark to production, NVIDIA Blackwell NVL72 delivers the highest performance per watt to maximize revenue and the lowest token cost to maximize profit margins. July 14, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will determine who scales and who doesn’t in a power-constrained world. Virtually every frontier AI model today runs on a mixture-of-experts (MoE) architecture. Serving these large-scale models efficiently means GPU domain size — the number of GPUs connected over an ultrafast, scale-up interconnect — matters, and bigger is better. While the NVIDIA Hopper generation set the standard with an eight-GPU domain, the scale of frontier AI today has outgrown it. Serving MoE with a 72-GPU domain demands full-stack codesign and the operational depth earned from running these models under real production load. With the NVIDIA Blackwell NVL72 platform , that foundation is already built and proven, delivering the highest performance per watt to maximize revenues and the lowest token cost to maximize profit margins. It’s this foundation that the NVIDIA Vera Rubin platform builds upon next to further elevate rack-scale energy efficiency. Maximizing Performance per Watt for Frontier AI Each new generation of frontier models brings architectural changes that unlock greater intelligence while demanding new optimizations to run efficiently at scale. Across the newest generation of leading open models, NVIDIA GB300 NVL72 delivers"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "d": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.  LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "m": "07. 08. PM 03:00",
-      "ts": 1783522827000,
-      "fullText": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness Tuning the LangChain Deep Agents harness for NVIDIA Nemotron 3 Ultra delivers leading performance and faster task completion on an open stack that enterprises can run, customize and control. July 8, 2026 by Adel El Hallak 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. At a tenth of the cost, teams harnessing NVIDIA Nemotron 3 Ultra can run evaluations continuously, experiment faster and build specialized agents across more of their business. LangChain’s agent engineering platform has more than 200 million monthly downloads. By tuning its Deep Agents harness specifically for NVIDIA Nemotron 3 Ultra, it allows for high-performing agents that complete more tasks, run faster and give enterprises a fully open stack they can customize, own and run anywhere. “The way to build better agents is to keep improving the system around the model,” said Harrison Chase, cofounder and CEO of LangChain. “Memory, tool use, evaluation and model behavior compound when teams can tune them together. Our work with NVIDIA shows that enterprises can get strong performance from an open stack while keeping control over the agent systems they are building.” Abridge, Amdocs and Box are embedding specialized agen"
-    },
-    {
-      "s": "데일리시큐",
-      "t": "아르고스 아이덴티티, KB국민은행과 AI 에이전트 기반 금융 규제 업무 자동화 검증 착수",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42UFM3QV9BQlh5dnhMWnBaTjFWX2NBeTNkVENHS1ZUdzhlSnJxdm9lVEdDUUc0ZDdOUS02SXVpYWYxd1hSRlpGQUtWNlVxdloxd3F4OE16UktzVlBTdEQwdmNfXzhCamJMemtiOA?oc=5",
-      "m": "07. 08. AM 07:16",
-      "ts": 1783494975000,
-      "_policy": true,
-      "fullText": "Google News"
     }
   ]
 }

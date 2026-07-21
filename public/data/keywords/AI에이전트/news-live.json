@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-21T22:06:00.135Z",
+  "updatedAt": "2026-07-21T23:11:05.441Z",
   "count": 40,
   "stats": {
-    "today": 27,
+    "today": 26,
     "yesterday": 3,
-    "weekAvg": 5.6,
-    "sources": 27,
+    "weekAvg": 5.4,
+    "sources": 26,
     "heat": "hot"
   },
   "items": [
@@ -27,9 +27,9 @@
       "u": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
       "m": "07. 21. PM 08:56",
       "ts": 1784667415000,
-      "fullText": "OpenAI admitted Tuesday that one of its AI models breached Hugging Face&#8217;s systems during an internal cybersecurity test that went awry. Hugging Face initially attributed the breach to an &#8220;external AI agent.&#8221; In a blog post published Tuesday afternoon , OpenAI detailed the steps that led the models to compromise the service. &#8220;After investigating, we now know that this particular incident was driven by a combination of OpenAI models — including GPT‑5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes — while being internally tested on a benchmark⁠ of cyber capabilities,&#8221; the post reads. In particular, the breach appears to have focused on ExploitGym , a publicly hosted benchmark measuring models&#8217; ability to execute attacks based on existing vulnerabilities. Benchmarks like ExploitGym are commonly used in model training to refine specific skills, but this is the first known incident in which that testing resulted in an actual cyberattack. In this case, the model in question should not have even had internet access, outside of a specific tool that enabled models to install software packages they might need to complete their task. Instead, the model was able to find an undisclosed vulnerability in the package-installer program, which it used to access the broader internet at will. &#8220;The models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal,&#8221; OpenAI&#8217;s post reads. &#8220;After gaining Internet access, the models inferred that Hugging Face potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation.&#8221; Ultimately, the models found vulnerabilities in Hugging Face&#8217;s infrastructure that allowed them to &#8220;obtain test solutions directly f",
+      "fullText": "OpenAI admitted Tuesday that one of its AI models breached the systems of Hugging Face, the unaffiliated AI hosting platform, during an internal cybersecurity test that went awry. The models reportedly escaped their isolated testing environment and reached Hugging Face&#8217;s systems from there. Hugging Face initially attributed the breach to an &#8220;external AI agent.&#8221; In a blog post published Tuesday afternoon , OpenAI detailed the steps that led the models to compromise the service. &#8220;After investigating, we now know that this particular incident was driven by a combination of OpenAI models — including GPT‑5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes — while being internally tested on a benchmark⁠ of cyber capabilities,&#8221; the post reads. In particular, the breach appears to have focused on ExploitGym , a publicly hosted benchmark measuring models&#8217; ability to execute attacks based on existing vulnerabilities. Benchmarks like ExploitGym are commonly used in model training to refine specific skills, but this is the first known incident in which that testing resulted in an actual cyberattack. In this case, the model in question should not have even had internet access, outside of a specific tool that enabled models to install software packages they might need to complete their task. Instead, the model was able to find an undisclosed vulnerability in the package-installer program, which it used to access the broader internet at will. &#8220;The models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal,&#8221; OpenAI&#8217;s post reads. &#8220;After gaining Internet access, the models inferred that Hugging Face potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluat",
       "impact": "negative",
-      "takeaway": "프리릴리즈 모델 유출로 AI 에이전트 신뢰도 하락"
+      "takeaway": "모델 유출 위험이 LLM 신뢰도에 부정적 영향"
     },
     {
       "s": "Bloomberg Tech",
@@ -51,7 +51,7 @@
       "ts": 1784663488000,
       "fullText": "",
       "impact": "negative",
-      "takeaway": "AI 모델 보안 취약성 부각, 투자 우려"
+      "takeaway": "AI 보안 취약이 LLM 이미지 악화"
     },
     {
       "s": "TechCrunch",
@@ -62,7 +62,7 @@
       "ts": 1784663021000,
       "fullText": "Twitter and Block co-founder Jack Dorsey announced a new app on Tuesday called Buzz . Positioned as a challenger to Slack and GitHub, Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversations. Dorsey wrote on X that Buzz is &#8220;model-agnostic, decentralized, self-sovereign, and open source.&#8221; This product seems to be more than just a Dorsey passion project. According to its website, Buzz was built by Dorsey&#8217;s company Block, which also operates products like Square, Cash App, Afterpay, and Tidal. we&#39;re launching BUZZ! a new groupchat platform for teams of people and agents of all sizes, built to reduce our dependency on slack and github. model-agnostic, decentralized, self-sovereign, and open source. 🐝 https://t.co/8IaMVeTQNo &mdash; jack (@jack) July 21, 2026 As startups increasingly rely on AI agents to get work done, it can be challenging for employees to collaborate on various tasks across different platforms. Buzz&#8217;s utility is that it merges several different workflows into one workspace. It looks a lot like Slack, but with native AI agents and the ability to manage GitHub projects all from the same window. Since the platform is open source, developers can make their own Buzz instance feel more customized to the needs and workflows of their specific team. If a team needs a new feature, they can build it and deploy it on their own, since they have full access to the source code. Image Credits: Buzz (opens in a new window) Dorsey isn&#8217;t the only entrepreneur trying to pursue AI-native alternatives or additions to Slack. Paradigm partner and CTO Georgios Konstantopoulos recently unveiled a similar open source product called Centaur , which he describes as a &#8220; virtual employee &#8221; that runs either inside of Slack or via an API. &#8220;There&#8217;s a lot of room for improvement for agents that live in Slack and can do more work than just coding for teams. In the enterprise s",
       "impact": "positive",
-      "takeaway": "팀 협업에 AI 에이전트 통합, 시장 확대 기대"
+      "takeaway": "AI 에이전트 통합 채팅 서비스로 활용 확대"
     },
     {
       "s": "TechCrunch",
@@ -73,7 +73,7 @@
       "ts": 1784653910000,
       "fullText": "On Tuesday, Google DeepMind released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber. Gemini 3.6 Flash is Google’s “workhorse model” that promises improved capabilities in coding, knowledge work, and multimodal performance while reducing token usage by up to 17%, making it cheaper than its predecessor 3.5 Flash. Gemini 3.5 Flash-Lite is the most cost-effective model in the class, and 3.5 Flash Cyber is a specialized model that was fine-tuned for finding and fixing cybersecurity vulnerabilities at a decent price point. This model will be exclusively available to governments and trusted partners as part of a limited access pilot program, according to Google. Google says the focus on these releases is to deliver efficiency, latency, and reliability to customers that are building AI agents at scale. The launch is notable not just for what Google shipped — cheaper, faster models optimized for coding, efficiency, and cybersecurity — but also for what it didn&#8217;t. The update doesn&#8217;t include the long-anticipated update to Google&#8217;s flagship model, Gemini Pro, which was last updated in February. In the time since that launch, OpenAI has released GPT-5.5 and begun rolling out GPT-5.6 , while Anthropic has launched Claude Opus 4.8 and Claude Sonnet 5 and has expanded access to its frontier Fable 5 model , highlighting the intense release pace of the rival labs. Google teased the release of Pro as part of the 3.5 Flash release in May, saying the Pro version was &#8220;already being used internally, and we look forward to rolling it out next month.&#8221; Last week, Bloomberg reported that Google was facing internal delays in launching the 3.5 Pro as it struggled to meet internal performance goals. Gemini Pro models are generally Google&#8217;s highest-capability offerings for complex reasoning and coding tasks, while Flash models prioritize lower cost and faster response times for production applications. Google DeepMind product lead Logan Kilpatrick said T",
       "impact": "positive",
-      "takeaway": "구글 Gemini 신모델 출시로 LLM 경쟁 심화"
+      "takeaway": "신규 Gemini 모델 출시로 LLM 성능 향상"
     },
     {
       "s": "Bloomberg Tech",
@@ -83,8 +83,8 @@
       "m": "07. 21. PM 03:35",
       "ts": 1784648153000,
       "fullText": "",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "impact": "positive",
+      "takeaway": "차세대 AI 모델 발표가 LLM 성장 기대"
     },
     {
       "s": "지티티코리아",
@@ -96,7 +96,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "AI 에이전트 권한 관리 정책 도입으로 신뢰성 강화"
+      "takeaway": "AI 에이전트 정책 100종 도입으로 안전성 강화"
     },
     {
       "s": "NVIDIA공식",
@@ -106,8 +106,8 @@
       "m": "07. 21. PM 03:00",
       "ts": 1784646020000,
       "fullText": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories Next-generation NVIDIA Spectrum-X Ethernet connects hundreds of thousands of GPUs with the performance, resilience and efficiency needed for gigascale AI, with AI infrastructure leaders already adopting. July 21, 2026 by Scot Schultz 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 — a 102.4-terabit-per-second Ethernet switch system delivering 2x the capacity of previous-generation systems and built as part of the NVIDIA Vera Rubin platform — is arriving across the world’s gigascale AI factories. Spectrum-6 anchors the next generation of the NVIDIA Spectrum-X Ethernet platform , delivering the bandwidth, scale and intelligence needed to operate an AI factory as one end-to-end computing system. Leading AI Builders Move First The world’s leading AI infrastructure builders — including CoreWeave , Microsoft , Nebius , SpaceXAI and Tesla — will be among the first to bring in Spectrum-6 to accelerate their AI factories. For cloud providers, Spectrum-6 means more compute capacity can operate as a unified, high-performance resource, helping customers train models and deploy inference services faster. “CoreWeave is built for the most demanding AI workloads, and networking is central to delivering that performance at scale,” said Min Jun, director of product for networking at CoreWeave . “Bringing NVIDIA Spectrum-6 and liquid-cooled Spectrum-X Ethernet infrastructure into our AI factories will help us deliver the bandwidth, resilience and efficiency customers need to train frontier models and deploy inf",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "impact": "positive",
+      "takeaway": "고성능 스펙트럼-6로 대규모 LLM 학습 가속"
     },
     {
       "s": "Bloomberg Tech",
@@ -118,7 +118,7 @@
       "ts": 1784638500000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "AI 에이전트 사용자 급증, 시장 성장 기대"
+      "takeaway": "AI 에이전트 사용자 1000만 명 달성으로 시장 확대"
     },
     {
       "s": "블록미디어",
@@ -226,16 +226,6 @@
       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1VX0VBZ0duNmNkUHAyajNYWHRfektYNV9EVHU2NHNVOUU4N1F3OGREQ19La1lEeHZZQl9yN2dVMDk5enJONzhhTVdRRGVHRUlOODhXWVF4cDZEamtGSlVmemJyTFRZc3NqOGVB0gFwQVVfeXFMTnFWbVd1YjJfTENfVkFpeWZwdGZ3TkozaFkwd0hwNl81MG90RlRhUHZ2TWFfYjdxc2Y2Z3ItLTVtU2gwMEZmczdBZU8xRWVUUmQxZzJNR3VvWFpPdjZTVHpSeWtKRW1LbUpWRUpRUkFkYQ?oc=5",
       "m": "07. 21. AM 05:20",
       "ts": 1784611245000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "아주경제",
-      "t": "[일문일답] 모두의 AI 사업설명회…공공 AI 에이전트 구현 정부가 협의 지원",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wTlhDS1dnVVBFSmhveW41UW0xRHQ1b2dIRGtaaGF5ZXgwMURRdHJocDA0REZFX3hSVjEteHlaNE1DS1dzMHEtdklNQ2RGQW9hblJ5c0NheXhYQdIBWEFVX3lxTE5DTjlSNFdiVkhKb3BXSEZvVXNtTXRQVHIxV3JhWmJRbUtFN1p6X1BZZ3dRMDJYREE5LWZEYmxRMjJvSUd1NlY0RlozQlpMOUpGRndfVEJOMDc?oc=5",
-      "m": "07. 21. AM 05:18",
-      "ts": 1784611125000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -415,6 +405,15 @@
       "m": "07. 14. PM 03:00",
       "ts": 1784041220000,
       "fullText": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency From benchmark to production, NVIDIA Blackwell NVL72 delivers the highest performance per watt to maximize revenue and the lowest token cost to maximize profit margins. July 14, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will determine who scales and who doesn’t in a power-constrained world. Virtually every frontier AI model today runs on a mixture-of-experts (MoE) architecture. Serving these large-scale models efficiently means GPU domain size — the number of GPUs connected over an ultrafast, scale-up interconnect — matters, and bigger is better. While the NVIDIA Hopper generation set the standard with an eight-GPU domain, the scale of frontier AI today has outgrown it. Serving MoE with a 72-GPU domain demands full-stack codesign and the operational depth earned from running these models under real production load. With the NVIDIA Blackwell NVL72 platform , that foundation is already built and proven, delivering the highest performance per watt to maximize revenues and the lowest token cost to maximize profit margins. It’s this foundation that the NVIDIA Vera Rubin platform builds upon next to further elevate rack-scale energy efficiency. Maximizing Performance per Watt for Frontier AI Each new generation of frontier models brings architectural changes that unlock greater intelligence while demanding new optimizations to run efficiently at scale. Across the newest generation of leading open models, NVIDIA GB300 NVL72 delivers"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "d": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.  LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "m": "07. 08. PM 03:00",
+      "ts": 1783522827000,
+      "fullText": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness Tuning the LangChain Deep Agents harness for NVIDIA Nemotron 3 Ultra delivers leading performance and faster task completion on an open stack that enterprises can run, customize and control. July 8, 2026 by Adel El Hallak 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. At a tenth of the cost, teams harnessing NVIDIA Nemotron 3 Ultra can run evaluations continuously, experiment faster and build specialized agents across more of their business. LangChain’s agent engineering platform has more than 200 million monthly downloads. By tuning its Deep Agents harness specifically for NVIDIA Nemotron 3 Ultra, it allows for high-performing agents that complete more tasks, run faster and give enterprises a fully open stack they can customize, own and run anywhere. “The way to build better agents is to keep improving the system around the model,” said Harrison Chase, cofounder and CEO of LangChain. “Memory, tool use, evaluation and model behavior compound when teams can tune them together. Our work with NVIDIA shows that enterprises can get strong performance from an open stack while keeping control over the agent systems they are building.” Abridge, Amdocs and Box are embedding specialized agen"
     }
   ]
 }

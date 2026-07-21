@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-07-21T10:37:16.135Z",
+  "updatedAt": "2026-07-21T12:21:34.729Z",
   "data": {
-    "INTC": {
-      "name": "인텔",
-      "px": 97.06,
-      "dayChange": 2.13,
-      "periodChange": -31.13,
+    "TSM": {
+      "name": "TSMC",
+      "px": 402.3,
+      "dayChange": 0.99,
+      "periodChange": -13.98,
       "prices": [
-        140.94,
-        132.28,
-        131.65,
-        132.87,
-        128.32,
-        131.72,
-        139.63,
-        127.02,
-        120.35,
-        122.2,
-        110.39,
-        110.24,
-        112.54,
-        109.84,
-        103.12,
-        107.76,
-        102.99,
-        96.98,
-        95.04,
-        97.06
+        467.67,
+        436.39,
+        440.83,
+        434.99,
+        432.35,
+        455.1,
+        477.57,
+        444.23,
+        434.16,
+        451.79,
+        432.57,
+        436.98,
+        436.96,
+        434.11,
+        421.58,
+        420.39,
+        419.48,
+        409.74,
+        398.37,
+        402.3
       ],
       "dates": [
         "2026-06-22",
@@ -50,25 +50,17 @@
         "2026-07-17",
         "2026-07-20"
       ],
-      "volume": 89273530,
+      "volume": 10757296,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 142.35,
-        "low52w": 18.97,
-        "volume": 89273530
+        "high52w": 479,
+        "low52w": 223.7,
+        "volume": 10757296
       },
       "investorFlow": null,
-      "consensus": {
-        "targetMean": 106.70244,
-        "targetHigh": 200,
-        "targetLow": 45,
-        "analysts": 41,
-        "recommendation": "hold",
-        "earningsDate": "2026-07-23",
-        "source": "yahoo"
-      }
+      "consensus": null
     },
     "NVDA": {
       "name": "엔비디아",
@@ -139,32 +131,32 @@
         "source": "yahoo"
       }
     },
-    "TSM": {
-      "name": "TSMC",
-      "px": 402.3,
-      "dayChange": 0.99,
-      "periodChange": -13.98,
+    "AMD": {
+      "name": "AMD",
+      "px": 503.57,
+      "dayChange": 1.58,
+      "periodChange": -8.71,
       "prices": [
-        467.67,
-        436.39,
-        440.83,
-        434.99,
-        432.35,
-        455.1,
-        477.57,
-        444.23,
-        434.16,
-        451.79,
-        432.57,
-        436.98,
-        436.96,
-        434.11,
-        421.58,
-        420.39,
-        419.48,
-        409.74,
-        398.37,
-        402.3
+        551.63,
+        519.85,
+        519.74,
+        532.57,
+        521.58,
+        539.49,
+        580.91,
+        540.88,
+        517.82,
+        552.05,
+        516.11,
+        517.41,
+        546.72,
+        557.89,
+        534.39,
+        548.13,
+        529.14,
+        500.94,
+        495.76,
+        503.57
       ],
       "dates": [
         "2026-06-22",
@@ -188,17 +180,25 @@
         "2026-07-17",
         "2026-07-20"
       ],
-      "volume": 10757296,
+      "volume": 23212955,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 479,
-        "low52w": 223.7,
-        "volume": 10757296
+        "high52w": 584.73,
+        "low52w": 149.22,
+        "volume": 23212955
       },
       "investorFlow": null,
-      "consensus": null
+      "consensus": {
+        "targetMean": 541.65955,
+        "targetHigh": 725,
+        "targetLow": 320,
+        "analysts": 47,
+        "recommendation": "strong_buy",
+        "earningsDate": null,
+        "source": "yahoo"
+      }
     },
     "AVGO": {
       "name": "브로드컴",
@@ -269,32 +269,32 @@
         "source": "yahoo"
       }
     },
-    "AMD": {
-      "name": "AMD",
-      "px": 503.57,
-      "dayChange": 1.58,
-      "periodChange": -8.71,
+    "INTC": {
+      "name": "인텔",
+      "px": 97.06,
+      "dayChange": 2.13,
+      "periodChange": -31.13,
       "prices": [
-        551.63,
-        519.85,
-        519.74,
-        532.57,
-        521.58,
-        539.49,
-        580.91,
-        540.88,
-        517.82,
-        552.05,
-        516.11,
-        517.41,
-        546.72,
-        557.89,
-        534.39,
-        548.13,
-        529.14,
-        500.94,
-        495.76,
-        503.57
+        140.94,
+        132.28,
+        131.65,
+        132.87,
+        128.32,
+        131.72,
+        139.63,
+        127.02,
+        120.35,
+        122.2,
+        110.39,
+        110.24,
+        112.54,
+        109.84,
+        103.12,
+        107.76,
+        102.99,
+        96.98,
+        95.04,
+        97.06
       ],
       "dates": [
         "2026-06-22",
@@ -318,23 +318,23 @@
         "2026-07-17",
         "2026-07-20"
       ],
-      "volume": 23212955,
+      "volume": 89273530,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 584.73,
-        "low52w": 149.22,
-        "volume": 23212955
+        "high52w": 142.35,
+        "low52w": 18.97,
+        "volume": 89273530
       },
       "investorFlow": null,
       "consensus": {
-        "targetMean": 541.65955,
-        "targetHigh": 725,
-        "targetLow": 320,
-        "analysts": 47,
-        "recommendation": "strong_buy",
-        "earningsDate": "2026-08-04",
+        "targetMean": 106.70244,
+        "targetHigh": 200,
+        "targetLow": 45,
+        "analysts": 41,
+        "recommendation": "hold",
+        "earningsDate": "2026-07-23",
         "source": "yahoo"
       }
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T08:20:14.065Z",
+  "updatedAt": "2026-07-21T10:41:24.658Z",
   "data": {
     "207940": {
       "name": "삼성바이오로직스",
@@ -52,7 +52,7 @@
         "2026-07-20",
         "2026-07-21"
       ],
-      "volume": 54008,
+      "volume": 51667,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -77,6 +77,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260721",
+            "foreigner": -2572,
+            "institution": 11271,
+            "individual": -8420,
+            "foreignRatio": "12.78%"
+          },
           {
             "date": "20260720",
             "foreigner": -10890,
@@ -139,85 +146,17 @@
             "institution": 13607,
             "individual": -11212,
             "foreignRatio": "12.73%"
-          },
-          {
-            "date": "20260706",
-            "foreigner": -2220,
-            "institution": 1046,
-            "individual": 1153,
-            "foreignRatio": "12.73%"
           }
         ],
         "sum5d": {
-          "foreigner": 5190,
-          "institution": 8914
+          "foreigner": 2104,
+          "institution": 8609
         },
         "sum10d": {
-          "foreigner": 7756,
-          "institution": 29898
+          "foreigner": 7404,
+          "institution": 40123
         }
       },
-      "consensus": null
-    },
-    "TMO": {
-      "name": "Thermo Fisher Scientific Inc",
-      "px": 526.23,
-      "dayChange": -1.17,
-      "periodChange": 13.41,
-      "prices": [
-        464.01,
-        469.35,
-        492.2,
-        505.75,
-        513.03,
-        506.42,
-        501.36,
-        513.33,
-        523.44,
-        517.6,
-        516.62,
-        510.13,
-        524.71,
-        527.05,
-        528.51,
-        534.07,
-        535.29,
-        543.19,
-        532.48,
-        526.23
-      ],
-      "dates": [
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20"
-      ],
-      "volume": 1184766,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 643.99,
-        "low52w": 403.36,
-        "volume": 1184766
-      },
-      "investorFlow": null,
       "consensus": null
     },
     "DHR": {
@@ -281,32 +220,32 @@
       "investorFlow": null,
       "consensus": null
     },
-    "PFE": {
-      "name": "화이자",
-      "px": 24.75,
-      "dayChange": -1.2,
-      "periodChange": -1.32,
+    "TMO": {
+      "name": "Thermo Fisher Scientific Inc",
+      "px": 526.23,
+      "dayChange": -1.17,
+      "periodChange": 13.41,
       "prices": [
-        25.08,
-        24.72,
-        24.04,
-        23.67,
-        24.29,
-        24.37,
-        24.08,
-        23.88,
-        24.32,
-        23.72,
-        24.07,
-        24.05,
-        24.25,
-        24.17,
-        24.48,
-        24.25,
-        24.82,
-        25.14,
-        25.05,
-        24.75
+        464.01,
+        469.35,
+        492.2,
+        505.75,
+        513.03,
+        506.42,
+        501.36,
+        513.33,
+        523.44,
+        517.6,
+        516.62,
+        510.13,
+        524.71,
+        527.05,
+        528.51,
+        534.07,
+        535.29,
+        543.19,
+        532.48,
+        526.23
       ],
       "dates": [
         "2026-06-22",
@@ -330,14 +269,14 @@
         "2026-07-17",
         "2026-07-20"
       ],
-      "volume": 28462717,
+      "volume": 1184766,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 28.75,
-        "low52w": 23.11,
-        "volume": 28462717
+        "high52w": 643.99,
+        "low52w": 403.36,
+        "volume": 1184766
       },
       "investorFlow": null,
       "consensus": null
@@ -403,6 +342,67 @@
       "investorFlow": null,
       "consensus": null
     },
+    "PFE": {
+      "name": "화이자",
+      "px": 24.75,
+      "dayChange": -1.2,
+      "periodChange": -1.32,
+      "prices": [
+        25.08,
+        24.72,
+        24.04,
+        23.67,
+        24.29,
+        24.37,
+        24.08,
+        23.88,
+        24.32,
+        23.72,
+        24.07,
+        24.05,
+        24.25,
+        24.17,
+        24.48,
+        24.25,
+        24.82,
+        25.14,
+        25.05,
+        24.75
+      ],
+      "dates": [
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20"
+      ],
+      "volume": 28462717,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 28.75,
+        "low52w": 23.11,
+        "volume": 28462717
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "068270": {
       "name": "셀트리온",
       "px": 171600,
@@ -454,7 +454,7 @@
         "2026-07-20",
         "2026-07-21"
       ],
-      "volume": 490055,
+      "volume": 456723,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -479,6 +479,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260721",
+            "foreigner": 32731,
+            "institution": 3027,
+            "individual": -35481,
+            "foreignRatio": "24.71%"
+          },
           {
             "date": "20260720",
             "foreigner": -44097,
@@ -541,22 +548,15 @@
             "institution": 91294,
             "individual": -201804,
             "foreignRatio": "24.48%"
-          },
-          {
-            "date": "20260706",
-            "foreigner": -2677,
-            "institution": -60819,
-            "individual": 55002,
-            "foreignRatio": "24.44%"
           }
         ],
         "sum5d": {
-          "foreigner": 216036,
-          "institution": 185177
+          "foreigner": 182713,
+          "institution": 65989
         },
         "sum10d": {
-          "foreigner": 249778,
-          "institution": 557580
+          "foreigner": 285186,
+          "institution": 621426
         }
       },
       "consensus": null

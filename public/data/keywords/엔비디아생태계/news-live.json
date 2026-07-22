@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-07-22T15:06:26.628Z",
+  "updatedAt": "2026-07-22T17:01:43.618Z",
   "count": 40,
   "stats": {
-    "today": 1,
-    "yesterday": 7,
-    "weekAvg": 2,
+    "today": 3,
+    "yesterday": 6,
+    "weekAvg": 2.1,
     "sources": 26,
     "heat": "cool"
   },
   "items": [
+    {
+      "s": "조선일보",
+      "t": "李, 美·남미·독일 순방… 젠슨 황·올트먼 만난다",
+      "d": "",
+      "u": "https://www.chosun.com/politics/politics_general/2026/07/23/TOC7JQRZH5ASNPNJ2SPTNHQNNI/",
+      "m": "07. 22. PM 03:49",
+      "ts": 1784735340000,
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "젠슨 황과 올트먼이 만나는 뉴스는 엔비디아 생태계와 직접 관련이 없기 때문에 무관합니다."
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "White House Official Says Moonshot Accessed Banned Nvidia Chips",
+      "d": "A White House official accused China’s Moonshot of improperly using US AI models and Nvidia Corp. chips to create the Kimi K3 system that stunned the tech industry last week with its advanced capabilities.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-22/white-house-official-says-moonshot-accessed-banned-nvidia-chips",
+      "m": "07. 22. PM 03:45",
+      "ts": 1784735147000,
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "월스트리트는 엔비디아가 금지된 칩을 사용했다는 뉴스를 통해 엔비디아의 위험성을 강조합니다."
+    },
     {
       "s": "NVIDIA공식",
       "t": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
@@ -18,7 +40,7 @@
       "ts": 1784725211000,
       "fullText": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework Medical device leaders are already building on NVIDIA’s new Medical Physics Simulation framework — giving surgical robots the virtual experience they need before interacting with patients. July 22, 2026 by David Niewolny 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to understand don’t appear on schedule. That creates one of the biggest bottlenecks in healthcare robotics: obtaining the enormous amount of varied data developers need to train, test and improve robot behavior. NVIDIA Medical Physics Simulation framework — a new open source, GPU-accelerated capability within NVIDIA Isaac for Healthcare — announced today, helps medical robotics developers model anatomy-device interaction, generate hard-to-capture scenarios, test in silico, and train or evaluate robot policies before hardware-heavy testing. The framework brings together anatomy and medical device behavior with sensor simulation and robot learning so teams can create reusable simulation environments instead of rebuilding custom scenes for every workflow, saving developers time and bringing innovations to market faster. Because Medical Physics Simulation is open source, healthcare robotics developers can inspect the framework, adapt it to their own devices and workflows, and build on a GPU-accelerated foundation that works seamlessly with the broader NVIDIA stack. Open source is especially important in healthcare because teams need transparency into the data, models and weights that shape system behavior. Access to open models and model weights can help de",
       "impact": "positive",
-      "takeaway": "GPU 기반 의료 물리 시뮬레이션 공개로 엔비디아 생태계 확대"
+      "takeaway": "엔비디아가 의료 물리학 시뮬레이션 프레임워크를 오픈 소스로 공개하는 것은 엔비디아 생태계의 발전을 의미합니다."
     },
     {
       "s": "NVIDIA공식",
@@ -29,19 +51,7 @@
       "ts": 1784673345000,
       "fullText": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems The 324,000-square-foot Texas facility produces NVIDIA Grace Blackwell Ultra and will produce Vera Rubin Superchips — part of a combined $700 million investment in advanced American manufacturing. July 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world’s most capable AI systems. In front of an audience of Wistron executives, Taiwan government officials and local Fort Worth leaders, NVIDIA founder and CEO Jensen Huang took the stage with Wistron Chairman Simon Lin at the factory’s opening ceremony to talk about what it means to build the infrastructure for the AI era in America. “Manufacturing is an essential pillar for every economy and every country,” Huang said. “Building chip plants, packaging plants, computer system plants like this, and AI factories all over the United States, has allowed the United States to really reindustrialize for the first time in a long time.” The plant — Wistron’s D1 facility — currently runs two manufacturing cells: one producing the NVIDIA GB300 Grace Blackwell Ultra Superchip and one that will produce the NVIDIA Vera Rubin Superchip. D1 is scaling up this year to produce tens of thousands of boards per month of the most advanced technology in the industry. Building AI at scale takes more than chips and code. It takes factories, supply chains and skilled workers — a domestic manufacturing base capable of building at volume and adapting as the technology moves. The Fort Worth plant is where that capacity takes shape. A $700 Million Commitment The state-of-the-art facility represents a $700 million commitment to advanced manufa",
       "impact": "positive",
-      "takeaway": "위스트론 공장 가동으로 엔비디아 AI 시스템 공급 확대"
-    },
-    {
-      "s": "MSN",
-      "t": "구윤철 “제2의 엔비디아·팔란티어 나와야…산업 생태계 위한 정책패키지 모색”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMi6gRBVV95cUxQdWU4V2N1UU5FVkV6Z1BKTHVDemoxSl8zSmF2VTN1Ui16SkJmRFE5aFZPZnlVb2FPdFBGYjRaZnAxUDZQVzhXSmRWUXJTeHZsMXpHdVBnd0UyT25FcVp5d2Z4WFJ1V1R6UG8zQXlha0UwcFBlcWFzOS1KTVFzV1dKdGZCWjF5Wm1zZEloeWgwMTE2MWZ1T0t4eXBVMVZoMlZrdjNXcXhZbWlFaHlNSmdYeTkybkRRSExOVm50eG1JZDNrUWp2dGNFMUZiSy1kajlxeVZtaGhSRjJ3T1h2MExxUlBmLVBkZ1N1bml4b0xmVjJwbTVrbHVicDRxZHRHR1VWblEtcUhmT0lrMWV0aXp1bXB6NVktOVhPUnk4dWV3SHNBTXM2d3N3RC1IWEg2T0d0MC1kc093UGR3Z2dzbExrRktTMW9aSVRVWFIwS2xBaHBHQ1laRnpRLW85aUlZcEVuR2VWbllYbG5WN1hycGtfZnVobjZMWXhVMzFCV1kzc2huWWxlbFhjOEJpMmNxNkZLaXZnSEppRlotYl9OQzA3VjlvNkxJYkhqRnBMd3l1aXdlSVJsckk5cG8tUDVhWWVkTUsxcWFwWlRER1htMW40Vm5falhLcU1tTnVKVFlhdTVKYW1aUWxZQjFaWDlHSXVGTnBvSkRKUnlXZU85LVoxRWg4NWl2VUdEQUVETDExOGlkZzUtclVnYVR0ZUwyUmJyZXZJdnZwS1dkVE5CdTEwNC1PVWFJdGxnaFZKOUlhQ3g0RDNJZGhQVEZfMWFpakZJUE5RZ0RjdHN4N1pGWFFXUWU2c0FKYV9nT0E?oc=5",
-      "m": "07. 21. PM 07:22",
-      "ts": 1784661752000,
-      "_policy": true,
-      "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "엔비디아와 유사 기업 육성 정책 논의, 직접 영향은 제한적"
+      "takeaway": "위스트론이 엔비디아 AI 시스템을 생산하기 위한 고급 제조 공장을 열어 엔비디아 생태계의 확장성을 강화합니다."
     },
     {
       "s": "NVIDIA공식",
@@ -52,7 +62,7 @@
       "ts": 1784648203000,
       "fullText": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide Backed by 300 global partners, Vera Rubin is ramping up worldwide. NVIDIA partners CoreWeave, Google Cloud, Microsoft Azure and Mistral are among many deploying Vera Rubin, which delivers benchmark leadership on performance per watt and lowest token costs. July 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The Vera Rubin platform is built from chip to grid to deliver the highest performance per watt and the lowest token cost. CoreWeave’s first benchmark on DeepSeek-R1 says it all: 10x more throughput per megawatt than Grace Blackwell NVL72 — landing directly on the metric that matters most for power-constrained AI factories. Advancing Performance With Extreme Codesign What makes this possible is extreme codesign across seven chips and five rack trays — Vera Rubin NVL72, Vera CPU rack, Groq 3 LPX, Spectrum-6 SPX and Vera BlueField-4 STX — all engineered as a single system rather than assembled from separate off-the-shelf products. The NVIDIA Vera CPU is at its center. It redefines what an AI factory CPU can be. Designed and built for the agent era, its custom Olympus core delivers 2x single-threaded performance, 3x core-to-core bandwidth and 40% lower memory latency versus competing chiplet designs, making it the most efficient single-threaded CPU for the agentic workloads that matter most. Accelerating AI Factories With Purpose-Built Networking For networking, the platform’s sixth-generation NVLink scale-up delivers more than 2x throughput on complex workloads, 3x lower",
       "impact": "positive",
-      "takeaway": "베라 루빈으로 파트너 효율성·비용 개선, 생태계 긍정적"
+      "takeaway": "엔비디아의 베라 루빈은 성능과 토큰 비용을 최적화하여 엔비디아 생태계의 효율성을 높입니다."
     },
     {
       "s": "NVIDIA공식",
@@ -63,7 +73,7 @@
       "ts": 1784646020000,
       "fullText": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories Next-generation NVIDIA Spectrum-X Ethernet connects hundreds of thousands of GPUs with the performance, resilience and efficiency needed for gigascale AI, with AI infrastructure leaders already adopting. July 21, 2026 by Scot Schultz 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 — a 102.4-terabit-per-second Ethernet switch system delivering 2x the capacity of previous-generation systems and built as part of the NVIDIA Vera Rubin platform — is arriving across the world’s gigascale AI factories. Spectrum-6 anchors the next generation of the NVIDIA Spectrum-X Ethernet platform , delivering the bandwidth, scale and intelligence needed to operate an AI factory as one end-to-end computing system. Leading AI Builders Move First The world’s leading AI infrastructure builders — including CoreWeave , Microsoft , Nebius , SpaceXAI and Tesla — will be among the first to bring in Spectrum-6 to accelerate their AI factories. For cloud providers, Spectrum-6 means more compute capacity can operate as a unified, high-performance resource, helping customers train models and deploy inference services faster. “CoreWeave is built for the most demanding AI workloads, and networking is central to delivering that performance at scale,” said Min Jun, director of product for networking at CoreWeave . “Bringing NVIDIA Spectrum-6 and liquid-cooled Spectrum-X Ethernet infrastructure into our AI factories will help us deliver the bandwidth, resilience and efficiency customers need to train frontier models and deploy inf",
       "impact": "positive",
-      "takeaway": "스펙트럼-6 출시로 대규모 AI 인프라 구축 지원"
+      "takeaway": "엔비디아의 스펙트럼-6은 기가 스케일 AI 공장에서 엔비디아 생태계의 성능을 향상합니다."
     },
     {
       "s": "사이언스모니터",
@@ -75,7 +85,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "중국이 엔비디아 GPU 없이 AI 센터 구축, 경쟁 심화"
+      "takeaway": "중국은 엔비디아 GPU 없이 1GW AI 데이터 센터를 운영하는 것으로 엔비디아 생태계의 위협을 제기합니다."
     },
     {
       "s": "v.daum.net",
@@ -87,7 +97,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "중국 자체 칩 AI 데이터센터 확대, 엔비디아 시장 위협"
+      "takeaway": "중국은 자체 칩으로 AI 데이터 센터를 구축하여 엔비디아 생태계를 견제하고 돌파합니다."
     },
     {
       "s": "네이트",
@@ -99,7 +109,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "중국 AI 기업이 국산 반도체로 전환, 엔비디아 의존도 감소"
+      "takeaway": "중국 AI 기업 즈푸는 국산 반도체로 데이터 센터를 완공하여 엔비디아 생태계를 탈피합니다."
     },
     {
       "s": "NVIDIA공식",
@@ -110,7 +120,7 @@
       "ts": 1784559653000,
       "fullText": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics. July 20, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote , taking place today, July 20, at 3:45 p.m. PT, will feature NVIDIA AI research and engineering leaders Neil Ashton, Edward Liu and Ming-Yu Liu discussing neural rendering techniques, world models and simulation methods for AI, built by AI. Read on for the latest from the SIGGRAPH conference, with NVIDIA and partners showcasing: NVIDIA keynote recap Model Context Protocol connections bring agentic AI to content creation New Synthetic Video Detector NIM microservice Cosmos 3 Edge open world model for local physical AI NVIDIA NemoClaw on DGX Station with NVIDIA Agent Toolkit Research breakthroughs for virtual worlds and physical AI In SIGGRAPH Keynote, NVIDIA Leaders Outline Next Era of Graphics and Physical AI 🔗 Ming-Yu Liu, vice president of Cosmos Lab at NVIDIA, presents at SIGGRAPH 2026. NVIDIA AI research and engineering leaders took the stage at SIGGRAPH today to share the latest advances in neural rendering, world models and simulation. These technologies — which are changing the way digital worlds are created and used across every domain — can be applied to creative tools, industrial design, robotics and autonomous systems. “Creators and designers need tools powerful enough to expand their imagination, malleable enough to give them the freedom to shape ideas and precise enough to realize their visi",
       "impact": "positive",
-      "takeaway": "SIGGRAPH에서 엔비디아 AI 그래픽·시뮬레이션 혁신 발표"
+      "takeaway": "엔비디아는 SIGGRAPH에서 그래픽스와 시뮬레이션을 향상시키기 위해 에이전틱과 물리적 AI를 선보입니다."
     },
     {
       "s": "NVIDIA공식",
@@ -119,9 +129,7 @@
       "u": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
       "m": "07. 20. AM 10:59",
       "ts": 1784545163000,
-      "fullText": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin The pharmaceutical company has demonstrated how AI can transform drug discovery and is now scaling AI across R&D to accelerate the discovery of next-generation medicines. July 20, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster in life sciences. “Instead of equipping a small group of researchers with access to the supercomputer, we’re opening it up to literally every scientist,” says Davis, vice president of research business insights and technology at BMS. “No one has to wait, and no one is told they have a limit.” The eight rack-scale systems, each comprising NVIDIA Vera CPUs and Rubin GPUs, deliver up to 10x the performance per megawatt of the infrastructure it replaces. It will give researchers at the global pharmaceutical giant access to a unified AI platform — including NVIDIA BioNeMo Agent Toolkit for biological AI — for running predictions, training models and powering agentic workflows across the full drug discovery pipeline. What Davis and other top BMS researchers are really after is what that access makes possible: faster cycles, bigger chemical spaces and a full drug discovery pipeline where researchers think about the science, not the logistics of lining up resources. The mandate, says Payal Sheth — a scientist who spent her career inside drug discovery labs before taking on an expanded role in January as senior vice president of therapeutic discovery sciences at BMS — is moving from “sor",
-      "impact": "positive",
-      "takeaway": "브리스톨 마이어스 스퀴브, 베라 루빈 기반 AI 팩토리 구축"
+      "fullText": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin The pharmaceutical company has demonstrated how AI can transform drug discovery and is now scaling AI across R&D to accelerate the discovery of next-generation medicines. July 20, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster in life sciences. “Instead of equipping a small group of researchers with access to the supercomputer, we’re opening it up to literally every scientist,” says Davis, vice president of research business insights and technology at BMS. “No one has to wait, and no one is told they have a limit.” The eight rack-scale systems, each comprising NVIDIA Vera CPUs and Rubin GPUs, deliver up to 10x the performance per megawatt of the infrastructure it replaces. It will give researchers at the global pharmaceutical giant access to a unified AI platform — including NVIDIA BioNeMo Agent Toolkit for biological AI — for running predictions, training models and powering agentic workflows across the full drug discovery pipeline. What Davis and other top BMS researchers are really after is what that access makes possible: faster cycles, bigger chemical spaces and a full drug discovery pipeline where researchers think about the science, not the logistics of lining up resources. The mandate, says Payal Sheth — a scientist who spent her career inside drug discovery labs before taking on an expanded role in January as senior vice president of therapeutic discovery sciences at BMS — is moving from “sor"
     },
     {
       "s": "mstoday.co.kr",
@@ -257,10 +265,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "edaily.co.kr",
-      "t": "“엔비디아 종속 막고 데이터 규제 풀어야”…피지컬 AI 시대, ‘한국형 해자’ 구축 시급",
+      "s": "네이트",
+      "t": "\"엔비디아 종속 막고 데이터 규제 풀어야\"…피지컬 AI 시대, '한국형 해자' 구축 시급",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmJPakx1WC1laExISW5UajZudkRXWC0zNE9PdURERThrZHR6UXpfU2ZBYWVaNmhFWF8xUzlJSTlGSjQtU0ZmNXdxTWdkUEpJeThEUXQ4Ync0SWg0UFdtTk0yNmlvdnY3MkRGdGR4YXpTSFBpblM3Qk9wY2c3N0J2Qw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxbmFvMzVCMFVhaGxhWEVlYlBLOVhtcDhfX3J1WlBxRjctcmNFMUV4Rjh5WFNSU1hZYlYzaXNEeVZsdGhIOUxpNTFXQ29BS09GWWU4NDlJUUEtS1pVaXJTaWs1ZS1xYVlER3FCRW1rMGVsbnpkTHU3Zw?oc=5",
       "m": "06. 18. AM 07:00",
       "ts": 1781766000000,
       "_policy": true,
@@ -401,16 +409,6 @@
       "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PS1lmakFsQzY5dFVXcmVkbENrUDI0eC01OFB2SE1zVDFsaEp6ODc4NzYxTUZvTzJQaE5JYUQxei1nUFVNT2pTeFYxY1M4YjBWVGFKNVQ2UEVldVlBeGlBX3FrV0N3RVg3clpoYWpySnk?oc=5",
-      "m": "05. 04. AM 07:00",
-      "ts": 1777878000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "한국경제",
-      "t": "젠슨 황 \"엔비디아 중국 점유율 0%\"…美 정부에 '작심발언'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wR1NvSE1HQ1BmOW1zQXlLTmxvMkIwUi04a2pWYW1rTmNMTUpZNjlQa1ozNHJIMHB4a29xMGpNNWZqM1JDU0RTeVVjWl9aTnh3cGR5SXJBS3J6QQ?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
       "_policy": true,

@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-07-23T17:20:58.011Z",
-  "count": 40,
+  "updatedAt": "2026-07-23T18:49:55.782Z",
+  "count": 20,
   "stats": {
-    "today": 8,
+    "today": 7,
     "yesterday": 1,
-    "weekAvg": 3.1,
-    "sources": 26,
+    "weekAvg": 2.1,
+    "sources": 7,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "조선일보",
+      "t": "AMD, 2나노 서버용 CPU 에픽 ‘베니스’ 양산… “엔비디아 베라보다 처리량 2.2배↑”",
+      "d": "AMD가 2나노 공정 기반의 6세대 서버용 중앙처리장치(CPU) 에픽 ‘베니스(EPYC Venice)’의 공식 양산을 선언했다. AMD는 22일(현지시각) 미국 샌프란시스코 모스콘 웨스트에서 열린 ‘AMD 어드밴싱 AI(Advancing AI) 2026’ 세션에서 에픽 베니스 세부 라인업을 공개하며, 동일 조건에서 엔비디아 ‘베라’ 대비 연산 처리량이 2.",
+      "u": "https://www.chosun.com/economy/tech_it/2026/07/24/ME3WGMZWMVSWGOLDHE4WCNZTHE/",
+      "m": "07. 23. PM 06:30",
+      "ts": 1784831400000,
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "AMD의 고성능 CPU가 Nvidia GPU 대비 처리량 우위, Nvidia 생태계 경쟁 심화"
+    },
+    {
+      "s": "조선일보",
+      "t": "“엔비디아 대비 30% 비용 절감”… AMD, ‘토큰 비용’ 중심으로 AI 인프라 재설계",
+      "d": "챗봇에 질문 하나만 던지고 끝나던 시절은 지났다. 이제 인공지능(AI)은 스스로 계획을 세우고, 여러 도구를 불러 쓰고, 중간 결과를 다시 검토하는 식으로 하나의 요청에도 수십, 수백 번씩 답을 주고받는 ‘에이전틱(agentic) AI’로 진화하고 있다. 질문 하나에 토큰 하나면 끝나던 과거와 달리 지금은 작업 하나를 처리하는 데도 훨씬 더 많은 토큰이 소",
+      "u": "https://www.chosun.com/economy/tech_it/2026/07/24/GFRGIM3DMM3GKZRQMYYTSNZYMU/",
+      "m": "07. 23. PM 06:30",
+      "ts": 1784831400000,
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "AMD가 비용 절감 AI 인프라 제공으로 Nvidia 생태계 매력 감소"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "AMD Unveils New Products in Pursuit of $2 Trillion Market",
@@ -16,16 +38,9 @@
       "u": "https://www.bloomberg.com/news/articles/2026-07-23/amd-unveils-new-products-in-pursuit-of-2-trillion-opportunity",
       "m": "07. 23. PM 04:56",
       "ts": 1784825765000,
-      "fullText": ""
-    },
-    {
-      "s": "조선일보",
-      "t": "엔비디아 GPU보다 58배 크고 15배 빠른 AI 칩 만들어",
-      "d": "",
-      "u": "https://www.chosun.com/economy/tech_it/2026/07/24/A2HAR34FXJHLRCWYDRCN3GQ7NY/",
-      "m": "07. 23. PM 03:32",
-      "ts": 1784820720000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "AMD 신제품 출시로 AI·데이터 시장 확대, Nvidia 시장 점유율 위협"
     },
     {
       "s": "동아일보",
@@ -34,7 +49,9 @@
       "u": "https://www.donga.com/news/Economy/article/all/20260723/134354191/2",
       "m": "07. 23. PM 03:30",
       "ts": 1784820600000,
-      "fullText": "이동훈 기자 구독"
+      "fullText": "이동훈 기자 구독",
+      "impact": "negative",
+      "takeaway": "AMD‑앤스로픽 7.4조 계약으로 Nvidia 의존도 감소, 생태계 이탈 가속"
     },
     {
       "s": "TechCrunch",
@@ -43,7 +60,9 @@
       "u": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
       "m": "07. 23. PM 03:00",
       "ts": 1784818800000,
-      "fullText": "Nvidia&#8217;s effort to deploy its GPUs far and wide is aiming at a new target: the moon. Lunar Outpost , a startup building robotics for space infrastructure, announced on Thursday that its next moon rover will use Jetson chips to control its lidar system. When it does, it is likely to be the first GPU on the lunar surface. &#8220;We&#8217;re taking the Nvidia Jetson and comparing it to our flight compute platform that has a little bit more spaceflight heritage,&#8221; Lunar Outpost CEO Justin Cyrus said. &#8220;[We&#8217;re] seeing what the pros are, seeing what the cons are. And we&#8217;re really pushing towards trying to adopt these more capable GPU-powered systems in these extreme environments.&#8221; NASA has launched a campaign to pay private companies to explore the lunar surface ahead of plans to return human astronauts, perhaps as soon as 2028. The space agency&#8217;s program, modeled on its work with SpaceX, asks tech companies to develop vehicles that carry scientific sensors to the moon to understand its terrain and hunt for substances like water that could prove useful or even lucrative to exploit. Nvidia also recently announced a partnership with Firefly Aerospace, the first private company to safely land a robot on the moon, that will see the Jetson platform operate on a satellite orbiting the moon to process imagery. That satellite aims to collect data for scientists trying to map the moon, but also to track the growing number of robots on the surface. Lunar Outpost&#8217;s next rover is packaged onboard a lander built by Intuitive Machines, another moon-focused tech company. The rover is designed to carry a package of sensors into craters and other places that are difficult to explore from orbit. The following mission will be exploring a place on the lunar surface called Reiner Gamma, where a magnetic anomaly has puzzled scientists. Each mission is expected to take flight on a Falcon 9 rocket before the end of the year. Nvidia&#8217;s Jetson pla"
+      "fullText": "Nvidia&#8217;s effort to deploy its GPUs far and wide is aiming at a new target: the moon. Lunar Outpost , a startup building robotics for space infrastructure, announced on Thursday that its next moon rover will use Jetson chips to control its lidar system. When it does, it is likely to be the first GPU on the lunar surface. &#8220;We&#8217;re taking the Nvidia Jetson and comparing it to our flight compute platform that has a little bit more spaceflight heritage,&#8221; Lunar Outpost CEO Justin Cyrus said. &#8220;[We&#8217;re] seeing what the pros are, seeing what the cons are. And we&#8217;re really pushing towards trying to adopt these more capable GPU-powered systems in these extreme environments.&#8221; NASA has launched a campaign to pay private companies to explore the lunar surface ahead of plans to return human astronauts, perhaps as soon as 2028. The space agency&#8217;s program, modeled on its work with SpaceX, asks tech companies to develop vehicles that carry scientific sensors to the moon to understand its terrain and hunt for substances like water that could prove useful or even lucrative to exploit. Nvidia also recently announced a partnership with Firefly Aerospace, the first private company to safely land a robot on the moon, that will see the Jetson platform operate on a satellite orbiting the moon to process imagery. That satellite aims to collect data for scientists trying to map the moon, but also to track the growing number of robots on the surface. Lunar Outpost&#8217;s next rover is packaged onboard a lander built by Intuitive Machines, another moon-focused tech company. The rover is designed to carry a package of sensors into craters and other places that are difficult to explore from orbit. The following mission will be exploring a place on the lunar surface called Reiner Gamma, where a magnetic anomaly has puzzled scientists. Each mission is expected to take flight on a Falcon 9 rocket before the end of the year. Nvidia&#8217;s Jetson pla",
+      "impact": "positive",
+      "takeaway": "Nvidia GPU를 달 탐사에 활용, 기술력·브랜드 강화로 생태계 긍정적 영향"
     },
     {
       "s": "전자신문",
@@ -52,25 +71,9 @@
       "u": "https://www.etnews.com/20260723000459",
       "m": "07. 23. PM 12:50",
       "ts": 1784811055000,
-      "fullText": "국제 메타도 엔비디아도 '빚투'…경쟁하듯 'AI 베팅', 빅테크 현금이 마른다 발행일 : 2026-07-23 21:50 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 AI 투자 경쟁이 치열해지면서 기업들의 회사채 규모가 사상 최대를 기록했다. 사진=게티이미지 올해 1~6월 전 세계 회사채 발행 규모 5400조로 상반기 최대 MS·알파벳·오라클 등 내년 잉여현금흐름 마이너스 전망 인공지능(AI) 투자 경쟁이 치열해지면서 글로벌 기업들의 회사채 발행 규모가 사상 최대를 기록했다. AI 데이터센터와 반도체 등 인프라 구축을 위한 대규모 투자로 자본지출도 급증하면서 빅테크의 재무 부담이 커지고 있다는 분석이다. 23일 일본 니혼게이자이신문이 런던증권거래소그룹(LSEG) 자료를 분석한 결과, 올해 1~6월 전 세계 회사채 발행액은 3조6813억달러(약 5400조원)로 집계됐다. 지난해 같은 기간보다 10% 증가한 규모로, 상반기 기준 역대 최대다. 회사채 발행은 AI 산업이 주도했다. 아마존은 올해 상반기 달러화와 유로화 표시 채권을 합쳐 총 540억 달러를 조달했으며, 메타와 엔비디아도 각각 약 250억달러 규모의 회사채를 발행했다. 뱅크오브아메리카(BofA)는 올해 AI 관련 회사채 발행 규모가 약 2200억달러에 달하는 것으로 추산했다. AI 투자 확대는 빅테크의 현금흐름에도 영향을 미치고 있다. 22일(현지시간) 로이터통신이 LSEG 전망치를 분석한 결과, 마이크로소프트(MS), 알파벳, 아마존, 메타플랫폼, 오라클 등 주요 하이퍼스케일러 5개 기업은 내년 자본지출이 잉여현금흐름(FCF)을 넘어설 것으로 전망됐다. 실제 알파벳은 AI 인프라 투자 확대로 올해 자본지출 계획을 1950억~2050억달러로 늘렸고, 2분기 잉여현금흐름은 마이너스 59억 달러를 기록했다. 테슬라도 AI 데이터센터와 로봇 개발 투자 영향으로 2분기 잉여현금흐름이 마이너스 10억9000만달러를 기록했다. 시장에서는 AI 투자 경쟁이 기업들의 성장동력이 될 것이라는 기대와 함께 과도한 투자에 대한 우려도 제기된다. 국제결제은행(BIS)은 AI 투자 열기가 꺾일 경우 기업들의 부채 부담이 금융시스템 안정성을 위협할 수 있으며, 특히 회사채 시장이 취약해질 수 있다고 경고했다. 전문가들은 AI 투자가 장기적인 수익으로 이어질지를 입증하는 것이 향후 빅테크의 핵심 과제가 될 것으로 보고 있다. 이상목 기자 mrlsm@etnews.com"
-    },
-    {
-      "s": "한경 IT",
-      "t": "'AI 기업' 이통3사 CEO 만난 과기장관…\"오픈AI·엔비디아에 '韓 투자' 요청\"",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202607231916g",
-      "m": "07. 23. AM 05:48",
-      "ts": 1784785724000,
-      "fullText": ""
-    },
-    {
-      "s": "한경 IT",
-      "t": "젠슨 황 \"훌륭한 중국 모델은 써야\"…AI 봉쇄론에 '반기'",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202607231479g",
-      "m": "07. 23. AM 02:51",
-      "ts": 1784775076000,
-      "fullText": ""
+      "fullText": "국제 메타도 엔비디아도 '빚투'…경쟁하듯 'AI 베팅', 빅테크 현금이 마른다 발행일 : 2026-07-23 21:50 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 AI 투자 경쟁이 치열해지면서 기업들의 회사채 규모가 사상 최대를 기록했다. 사진=게티이미지 올해 1~6월 전 세계 회사채 발행 규모 5400조로 상반기 최대 MS·알파벳·오라클 등 내년 잉여현금흐름 마이너스 전망 인공지능(AI) 투자 경쟁이 치열해지면서 글로벌 기업들의 회사채 발행 규모가 사상 최대를 기록했다. AI 데이터센터와 반도체 등 인프라 구축을 위한 대규모 투자로 자본지출도 급증하면서 빅테크의 재무 부담이 커지고 있다는 분석이다. 23일 일본 니혼게이자이신문이 런던증권거래소그룹(LSEG) 자료를 분석한 결과, 올해 1~6월 전 세계 회사채 발행액은 3조6813억달러(약 5400조원)로 집계됐다. 지난해 같은 기간보다 10% 증가한 규모로, 상반기 기준 역대 최대다. 회사채 발행은 AI 산업이 주도했다. 아마존은 올해 상반기 달러화와 유로화 표시 채권을 합쳐 총 540억 달러를 조달했으며, 메타와 엔비디아도 각각 약 250억달러 규모의 회사채를 발행했다. 뱅크오브아메리카(BofA)는 올해 AI 관련 회사채 발행 규모가 약 2200억달러에 달하는 것으로 추산했다. AI 투자 확대는 빅테크의 현금흐름에도 영향을 미치고 있다. 22일(현지시간) 로이터통신이 LSEG 전망치를 분석한 결과, 마이크로소프트(MS), 알파벳, 아마존, 메타플랫폼, 오라클 등 주요 하이퍼스케일러 5개 기업은 내년 자본지출이 잉여현금흐름(FCF)을 넘어설 것으로 전망됐다. 실제 알파벳은 AI 인프라 투자 확대로 올해 자본지출 계획을 1950억~2050억달러로 늘렸고, 2분기 잉여현금흐름은 마이너스 59억 달러를 기록했다. 테슬라도 AI 데이터센터와 로봇 개발 투자 영향으로 2분기 잉여현금흐름이 마이너스 10억9000만달러를 기록했다. 시장에서는 AI 투자 경쟁이 기업들의 성장동력이 될 것이라는 기대와 함께 과도한 투자에 대한 우려도 제기된다. 국제결제은행(BIS)은 AI 투자 열기가 꺾일 경우 기업들의 부채 부담이 금융시스템 안정성을 위협할 수 있으며, 특히 회사채 시장이 취약해질 수 있다고 경고했다. 전문가들은 AI 투자가 장기적인 수익으로 이어질지를 입증하는 것이 향후 빅테크의 핵심 과제가 될 것으로 보고 있다. 이상목 기자 mrlsm@etnews.com",
+      "impact": "neutral",
+      "takeaway": "Nvidia AI 베팅 확대와 현금 압박이 동시에 언급돼, 테마에 직접적 영향 불명"
     },
     {
       "s": "NVIDIA공식",
@@ -79,7 +82,9 @@
       "u": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
       "m": "07. 23. AM 02:00",
       "ts": 1784772046000,
-      "fullText": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School NVIDIA founder and CEO Jensen Huang joined school leadership in Monterey, California, to commission the system, which will fuel AI education and research at the US military’s premier technical graduate university. July 22, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than information and insight, and information and insight in a timely way, and to understand its impact and consequence,” Huang said at the event. “I can’t imagine anything more important.” The DGX GB300 supercomputer with NVIDIA Mission Control software gives NPS’s more than 1,500 in-resident students and 600 faculty on-premises access to large-scale AI computing, including model training and inference capability for applications spanning weather prediction, cybersecurity, and disaster resilience and response planning. The commissioning, which took place during the school’s three-day Converge @ NPS event, marks the latest chapter in an ongoing collaboration to develop AI-based technologies at NPS for education and real-world applications. It’s built based on an NVIDIA AI Technology Center on the Monterey campus — a dedicated hub for AI research and graduate instruction, now anchored by the DGX GB300. “As we modernize our technology, we must also modernize how we educate our leaders,” said Admiral Samuel Paparo, commander of the U.S. Pacific Command. “Access to advanced computing capability means NPS students and faculty understand the opportunities and responsibilities that c"
+      "fullText": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School NVIDIA founder and CEO Jensen Huang joined school leadership in Monterey, California, to commission the system, which will fuel AI education and research at the US military’s premier technical graduate university. July 22, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than information and insight, and information and insight in a timely way, and to understand its impact and consequence,” Huang said at the event. “I can’t imagine anything more important.” The DGX GB300 supercomputer with NVIDIA Mission Control software gives NPS’s more than 1,500 in-resident students and 600 faculty on-premises access to large-scale AI computing, including model training and inference capability for applications spanning weather prediction, cybersecurity, and disaster resilience and response planning. The commissioning, which took place during the school’s three-day Converge @ NPS event, marks the latest chapter in an ongoing collaboration to develop AI-based technologies at NPS for education and real-world applications. It’s built based on an NVIDIA AI Technology Center on the Monterey campus — a dedicated hub for AI research and graduate instruction, now anchored by the DGX GB300. “As we modernize our technology, we must also modernize how we educate our leaders,” said Admiral Samuel Paparo, commander of the U.S. Pacific Command. “Access to advanced computing capability means NPS students and faculty understand the opportunities and responsibilities that c",
+      "impact": "positive",
+      "takeaway": "해군 대학에 Nvidia AI 슈퍼컴퓨터 구축, 생태계 활용 확대"
     },
     {
       "s": "NVIDIA공식",
@@ -88,7 +93,9 @@
       "u": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
       "m": "07. 22. PM 01:00",
       "ts": 1784725211000,
-      "fullText": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework Medical device leaders are already building on NVIDIA’s new Medical Physics Simulation framework — giving surgical robots the virtual experience they need before interacting with patients. July 22, 2026 by David Niewolny 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to understand don’t appear on schedule. That creates one of the biggest bottlenecks in healthcare robotics: obtaining the enormous amount of varied data developers need to train, test and improve robot behavior. NVIDIA Medical Physics Simulation framework — a new open source, GPU-accelerated capability within NVIDIA Isaac for Healthcare — announced today, helps medical robotics developers model anatomy-device interaction, generate hard-to-capture scenarios, test in silico, and train or evaluate robot policies before hardware-heavy testing. The framework brings together anatomy and medical device behavior with sensor simulation and robot learning so teams can create reusable simulation environments instead of rebuilding custom scenes for every workflow, saving developers time and bringing innovations to market faster. Because Medical Physics Simulation is open source, healthcare robotics developers can inspect the framework, adapt it to their own devices and workflows, and build on a GPU-accelerated foundation that works seamlessly with the broader NVIDIA stack. Open source is especially important in healthcare because teams need transparency into the data, models and weights that shape system behavior. Access to open models and model weights can help de"
+      "fullText": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework Medical device leaders are already building on NVIDIA’s new Medical Physics Simulation framework — giving surgical robots the virtual experience they need before interacting with patients. July 22, 2026 by David Niewolny 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to understand don’t appear on schedule. That creates one of the biggest bottlenecks in healthcare robotics: obtaining the enormous amount of varied data developers need to train, test and improve robot behavior. NVIDIA Medical Physics Simulation framework — a new open source, GPU-accelerated capability within NVIDIA Isaac for Healthcare — announced today, helps medical robotics developers model anatomy-device interaction, generate hard-to-capture scenarios, test in silico, and train or evaluate robot policies before hardware-heavy testing. The framework brings together anatomy and medical device behavior with sensor simulation and robot learning so teams can create reusable simulation environments instead of rebuilding custom scenes for every workflow, saving developers time and bringing innovations to market faster. Because Medical Physics Simulation is open source, healthcare robotics developers can inspect the framework, adapt it to their own devices and workflows, and build on a GPU-accelerated foundation that works seamlessly with the broader NVIDIA stack. Open source is especially important in healthcare because teams need transparency into the data, models and weights that shape system behavior. Access to open models and model weights can help de",
+      "impact": "positive",
+      "takeaway": "GPU 가속 의료 물리 시뮬레이션 프레임워크 오픈소스로 Nvidia 생태계 확장"
     },
     {
       "s": "NVIDIA공식",
@@ -97,17 +104,9 @@
       "u": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
       "m": "07. 21. PM 10:35",
       "ts": 1784673345000,
-      "fullText": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems The 324,000-square-foot Texas facility produces NVIDIA Grace Blackwell Ultra and will produce Vera Rubin Superchips — part of a combined $700 million investment in advanced American manufacturing. July 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world’s most capable AI systems. In front of an audience of Wistron executives, Taiwan government officials and local Fort Worth leaders, NVIDIA founder and CEO Jensen Huang took the stage with Wistron Chairman Simon Lin at the factory’s opening ceremony to talk about what it means to build the infrastructure for the AI era in America. “Manufacturing is an essential pillar for every economy and every country,” Huang said. “Building chip plants, packaging plants, computer system plants like this, and AI factories all over the United States, has allowed the United States to really reindustrialize for the first time in a long time.” The plant — Wistron’s D1 facility — currently runs two manufacturing cells: one producing the NVIDIA GB300 Grace Blackwell Ultra Superchip and one that will produce the NVIDIA Vera Rubin Superchip. D1 is scaling up this year to produce tens of thousands of boards per month of the most advanced technology in the industry. Building AI at scale takes more than chips and code. It takes factories, supply chains and skilled workers — a domestic manufacturing base capable of building at volume and adapting as the technology moves. The Fort Worth plant is where that capacity takes shape. A $700 Million Commitment The state-of-the-art facility represents a $700 million commitment to advanced manufa"
-    },
-    {
-      "s": "MSN",
-      "t": "구윤철 “제2의 엔비디아·팔란티어 나와야…산업 생태계 위한 정책패키지 모색”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMi6gRBVV95cUxQdWU4V2N1UU5FVkV6Z1BKTHVDemoxSl8zSmF2VTN1Ui16SkJmRFE5aFZPZnlVb2FPdFBGYjRaZnAxUDZQVzhXSmRWUXJTeHZsMXpHdVBnd0UyT25FcVp5d2Z4WFJ1V1R6UG8zQXlha0UwcFBlcWFzOS1KTVFzV1dKdGZCWjF5Wm1zZEloeWgwMTE2MWZ1T0t4eXBVMVZoMlZrdjNXcXhZbWlFaHlNSmdYeTkybkRRSExOVm50eG1JZDNrUWp2dGNFMUZiSy1kajlxeVZtaGhSRjJ3T1h2MExxUlBmLVBkZ1N1bml4b0xmVjJwbTVrbHVicDRxZHRHR1VWblEtcUhmT0lrMWV0aXp1bXB6NVktOVhPUnk4dWV3SHNBTXM2d3N3RC1IWEg2T0d0MC1kc093UGR3Z2dzbExrRktTMW9aSVRVWFIwS2xBaHBHQ1laRnpRLW85aUlZcEVuR2VWbllYbG5WN1hycGtfZnVobjZMWXhVMzFCV1kzc2huWWxlbFhjOEJpMmNxNkZLaXZnSEppRlotYl9OQzA3VjlvNkxJYkhqRnBMd3l1aXdlSVJsckk5cG8tUDVhWWVkTUsxcWFwWlRER1htMW40Vm5falhLcU1tTnVKVFlhdTVKYW1aUWxZQjFaWDlHSXVGTnBvSkRKUnlXZU85LVoxRWg4NWl2VUdEQUVETDExOGlkZzUtclVnYVR0ZUwyUmJyZXZJdnZwS1dkVE5CdTEwNC1PVWFJdGxnaFZKOUlhQ3g0RDNJZGhQVEZfMWFpakZJUE5RZ0RjdHN4N1pGWFFXUWU2c0FKYV9nT0E?oc=5",
-      "m": "07. 21. PM 07:22",
-      "ts": 1784661752000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems The 324,000-square-foot Texas facility produces NVIDIA Grace Blackwell Ultra and will produce Vera Rubin Superchips — part of a combined $700 million investment in advanced American manufacturing. July 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world’s most capable AI systems. In front of an audience of Wistron executives, Taiwan government officials and local Fort Worth leaders, NVIDIA founder and CEO Jensen Huang took the stage with Wistron Chairman Simon Lin at the factory’s opening ceremony to talk about what it means to build the infrastructure for the AI era in America. “Manufacturing is an essential pillar for every economy and every country,” Huang said. “Building chip plants, packaging plants, computer system plants like this, and AI factories all over the United States, has allowed the United States to really reindustrialize for the first time in a long time.” The plant — Wistron’s D1 facility — currently runs two manufacturing cells: one producing the NVIDIA GB300 Grace Blackwell Ultra Superchip and one that will produce the NVIDIA Vera Rubin Superchip. D1 is scaling up this year to produce tens of thousands of boards per month of the most advanced technology in the industry. Building AI at scale takes more than chips and code. It takes factories, supply chains and skilled workers — a domestic manufacturing base capable of building at volume and adapting as the technology moves. The Fort Worth plant is where that capacity takes shape. A $700 Million Commitment The state-of-the-art facility represents a $700 million commitment to advanced manufa",
+      "impact": "positive",
+      "takeaway": "위스트론이 Nvidia AI 시스템 생산 공장 가동, 공급망 및 생태계 확대"
     },
     {
       "s": "NVIDIA공식",
@@ -116,7 +115,9 @@
       "u": "https://blogs.nvidia.com/blog/vera-rubin/",
       "m": "07. 21. PM 03:36",
       "ts": 1784648203000,
-      "fullText": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide Backed by 300 global partners, Vera Rubin is ramping up worldwide. NVIDIA partners CoreWeave, Google Cloud, Microsoft Azure and Mistral are among many deploying Vera Rubin, which delivers benchmark leadership on performance per watt and lowest token costs. July 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The Vera Rubin platform is built from chip to grid to deliver the highest performance per watt and the lowest token cost. CoreWeave’s first benchmark on DeepSeek-R1 says it all: 10x more throughput per megawatt than Grace Blackwell NVL72 — landing directly on the metric that matters most for power-constrained AI factories. Advancing Performance With Extreme Codesign What makes this possible is extreme codesign across seven chips and five rack trays — Vera Rubin NVL72, Vera CPU rack, Groq 3 LPX, Spectrum-6 SPX and Vera BlueField-4 STX — all engineered as a single system rather than assembled from separate off-the-shelf products. The NVIDIA Vera CPU is at its center. It redefines what an AI factory CPU can be. Designed and built for the agent era, its custom Olympus core delivers 2x single-threaded performance, 3x core-to-core bandwidth and 40% lower memory latency versus competing chiplet designs, making it the most efficient single-threaded CPU for the agentic workloads that matter most. Accelerating AI Factories With Purpose-Built Networking For networking, the platform’s sixth-generation NVLink scale-up delivers more than 2x throughput on complex workloads, 3x lower"
+      "fullText": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide Backed by 300 global partners, Vera Rubin is ramping up worldwide. NVIDIA partners CoreWeave, Google Cloud, Microsoft Azure and Mistral are among many deploying Vera Rubin, which delivers benchmark leadership on performance per watt and lowest token costs. July 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The Vera Rubin platform is built from chip to grid to deliver the highest performance per watt and the lowest token cost. CoreWeave’s first benchmark on DeepSeek-R1 says it all: 10x more throughput per megawatt than Grace Blackwell NVL72 — landing directly on the metric that matters most for power-constrained AI factories. Advancing Performance With Extreme Codesign What makes this possible is extreme codesign across seven chips and five rack trays — Vera Rubin NVL72, Vera CPU rack, Groq 3 LPX, Spectrum-6 SPX and Vera BlueField-4 STX — all engineered as a single system rather than assembled from separate off-the-shelf products. The NVIDIA Vera CPU is at its center. It redefines what an AI factory CPU can be. Designed and built for the agent era, its custom Olympus core delivers 2x single-threaded performance, 3x core-to-core bandwidth and 40% lower memory latency versus competing chiplet designs, making it the most efficient single-threaded CPU for the agentic workloads that matter most. Accelerating AI Factories With Purpose-Built Networking For networking, the platform’s sixth-generation NVLink scale-up delivers more than 2x throughput on complex workloads, 3x lower",
+      "impact": "positive",
+      "takeaway": "Vera Rubin GPU가 파트너에 높은 효율·저비용 제공, Nvidia 생태계 경쟁력 강화"
     },
     {
       "s": "NVIDIA공식",
@@ -137,36 +138,6 @@
       "fullText": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with..."
     },
     {
-      "s": "사이언스모니터",
-      "t": "中, 엔비디아 GPU 없이 1GW AI 데이터센터 가동",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVVUtMjR3aHFrWFVodlA5eTV3TnVLY2hhMDNUbGp4Uy1sVURFc1Zkams4Nm1HdU1pMjgyRFF1VDNtMERpQ2dmdzFEMFpUMHI2dlpVU1VzbGhBaXdKaFpzWWVZaEdLdjN6QVhsRHpVMlBWbExXam5lS3IxeElRdkgza0FaV1lSVnI5Mmh0SF84THhRdmJVeXkwTDFJUnhxWERCZk1VQ1pvS29BV2diQmNLbWRrMkt0WXBaRFY2ekUyckZyN2hRZlY0VTNYWkxBYkdTMEVVUVBsQVZScDBiS0RjOFJTODdFMjM0SW8wbWtYMTlFOEFYQm1KZw?oc=5",
-      "m": "07. 21. AM 10:51",
-      "ts": 1784631077000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "v.daum.net",
-      "t": "中, 자체 칩으로 AI 데이터센터 구축…美 견제 정면돌파",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1qQlJpbHJQT1NYamloWi1nTExSdVFTTGJjc0ItdGtEQ29vYl90VDhMNC11UDJfcnlzcTJ6cmUtd3hHeExsX1E?oc=5",
-      "m": "07. 21. AM 05:06",
-      "ts": 1784610398000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "네이트",
-      "t": "中AI기업 즈푸, 국산반도체로 데이터센터 완공…脫엔비디아 속도",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VTHBBUkNfbVJoQmhObEE3ZE5KU0FMQ25CQkRLZ19xby1oNUlfbjZ5a25wdEZMSnVEbTdkam5WTE1SdmplM1VlUFRxVUxaNEVxc3l3?oc=5",
-      "m": "07. 21. AM 01:41",
-      "ts": 1784598060000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
       "d": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
@@ -185,16 +156,6 @@
       "fullText": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin The pharmaceutical company has demonstrated how AI can transform drug discovery and is now scaling AI across R&D to accelerate the discovery of next-generation medicines. July 20, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster in life sciences. “Instead of equipping a small group of researchers with access to the supercomputer, we’re opening it up to literally every scientist,” says Davis, vice president of research business insights and technology at BMS. “No one has to wait, and no one is told they have a limit.” The eight rack-scale systems, each comprising NVIDIA Vera CPUs and Rubin GPUs, deliver up to 10x the performance per megawatt of the infrastructure it replaces. It will give researchers at the global pharmaceutical giant access to a unified AI platform — including NVIDIA BioNeMo Agent Toolkit for biological AI — for running predictions, training models and powering agentic workflows across the full drug discovery pipeline. What Davis and other top BMS researchers are really after is what that access makes possible: faster cycles, bigger chemical spaces and a full drug discovery pipeline where researchers think about the science, not the logistics of lining up resources. The mandate, says Payal Sheth — a scientist who spent her career inside drug discovery labs before taking on an expanded role in January as senior vice president of therapeutic discovery sciences at BMS — is moving from “sor"
     },
     {
-      "s": "mstoday.co.kr",
-      "t": "中 AI 생태계 확장…알리바바, 쿠다 대항마 공개",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3NTJWN0FhaGluSVZDV2VrTnhzQkZDbUc0Tm9ockZxUG8za0RYVEpuOC1LVFA4TVB1aGkwRFRGY1A0RDNoVkV4aWp6OUNTTTlNd1RQUHFUOHRJcVUydllOV01iUGk3cmk1Z3lORg?oc=5",
-      "m": "07. 20. AM 02:10",
-      "ts": 1784513416000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
       "d": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
@@ -202,16 +163,6 @@
       "m": "07. 17. PM 03:00",
       "ts": 1784300414000,
       "fullText": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era. July 17, 2026 by Kirthi Develeker 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to a prompt, an agentic model must plan, use different tools and recover from problems it encounters mid-run. That’s why post-training, the phase that refines a model after initial training on raw data, is no longer a one-time finishing step. It’s continuous, because the environment that agentic models operate in shifts fast. The tools an agent uses can change week to week. Edge cases surface in production that no test set anticipated. Each deployment brings its own codebase, policies and environment. Post-training runs loop back from production as new problems surface. The compute footprint grows not because any single run is larger, but because the runs never stop. Agentic AI introduces a new compute pattern for post-training, making it the central workload of the agentic era and the primary driver of intelligence per dollar. The goal of post-training is to maximize intelligence per dollar by maximizing the yield of every forward and backward pass in the continuous learning cycle. The forward pass — inference — is measured in cost per token . That means that every improvement to cost per token flows directly into intelligence per dollar. Agentic Post-Training Demystified Post-training is where intelligence is built. In pre"
-    },
-    {
-      "s": "TradingKey",
-      "t": "엔비디아의 중국 시장 점유율 0%에 근접: 현지 컴퓨팅 파워 부상 속 젠슨 황에게 여전히 반전의 기회가 있을까?",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRHQ0aVQ3alpfY0xpb1UzallZMUZCbzZNM1ZMSUduYVpGWk5yS1hoQmdWNEFPZkFReXNvc0xhREdCVUI5b3FFMS02S2c1aWMteGtHeEFjckJpX0VQdjd6cUIxRTRvQU9CNzlMRzM1UTdRbFJDSEJkREVoWUdHd1VyRnlwNXJ0cnU5RElqSlJGRmN5WEJZSWlvRmVhQlRhd3dWczFBbnN4NFowWm00ZzZYbHF2dHlXbEk3enlFX3VWc0ZVMEVTb1VtT3BaT3l5dFhURDhHY2F6WkhaVmI0NkE?oc=5",
-      "m": "07. 17. AM 03:00",
-      "ts": 1784257200000,
-      "_policy": true,
-      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -250,144 +201,13 @@
       "fullText": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core. July 7, 2026 by Ian Buck 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. For agents in AI factories, speed matters. The faster the CPU can run the tool, the faster the agent can perform the task at hand. For the AI factory, the utilization of GPU is the most valuable resource in the data center so any time waiting for a task to complete constrains the revenue of an AI factory — or worse, impacts the GPU utilization waiting for the CPU to finish its task. AI factories need a CPU with max single-threaded performance to maximize AI factory revenue and agent performance. Today’s data center CPUs are not designed for speed at scale. While the world has fast CPUs for PCs and workstations, data center CPUs have been evolving in directions away from single-threaded performance. The advent of the cloud has pushed CPU makers to build higher core-count CPUs while minimizing cost at the expense of performance. Building CPUs that optimize costs per rentable core increased the number of cores per chip while taking away silicon area from what makes those cores run fast — like high-performance memory fabrics and faster instruction processing per core. The move to chiplet architectures further reduced cost but created a “chi"
     },
     {
-      "s": "뉴스핌",
-      "t": "딥시크도 '자체 AI 반도체' 개발 추진…중국 '탈 엔비디아' 속도전",
+      "s": "한겨레",
+      "t": "이재용-정의선, 젠슨 황 이끄는 글로벌 AI 포럼 자문위원 합류",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FaktUVVVTNVZLNXI3WkhkLUk3VS0yNDEzWmVRQ09SZ3JrR3FKRGFobjBkMU5Cd2g5aWdwNWdEWW9jb1RzMnF3NEY5emJ5cnZod0RXRlM4dWdlWVV4?oc=5",
-      "m": "07. 07. PM 01:00",
-      "ts": 1783429200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "서울경제",
-      "t": "딥시크, 칩까지 직접 만든다…중국 AI ‘홀로서기’ 승부수",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82M2FrTVAtdnk0dE9iT1ROWmwxWlNncnRlX3FiOUZXTm9sNFJpUHh4aTRXekZmZUtlVkxXeXRVOW5QSjdiMWVNazNIcEU2aWhsTVHSAVNBVV95cUxOdnQzSHBScjNtenEzUFUtUFFRMVNLVFRPcUR0NUhlak5JRVRFNXByQWxYQkNfSFpsd056NDJvaE5FWWpZcEJVRnRqSGpiTXVZX2pEZw?oc=5",
-      "m": "07. 07. AM 07:00",
-      "ts": 1783407600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "위클리포스트",
-      "t": "엔비디아 중국 점유율 하락, 화웨이 어센드 반사이익",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lbXF2ZXlpclZJbWhrWVJIa3lrd3dYdUQ2ODBteUJ5dFVLVEJuSzNaMlczVm5NZm1pRzVXc1doOE0ybjI5cmVRMGZQTUo5ZW9PX3R3aVlBVzgwNlJrOXpJaE5nUEJjeXMwcXNj?oc=5",
-      "m": "06. 30. AM 07:00",
-      "ts": 1782802800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "edaily.co.kr",
-      "t": "“엔비디아 종속 막고 데이터 규제 풀어야”…피지컬 AI 시대, ‘한국형 해자’ 구축 시급",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmJPakx1WC1laExISW5UajZudkRXWC0zNE9PdURERThrZHR6UXpfU2ZBYWVaNmhFWF8xUzlJSTlGSjQtU0ZmNXdxTWdkUEpJeThEUXQ4Ync0SWg0UFdtTk0yNmlvdnY3MkRGdGR4YXpTSFBpblM3Qk9wY2c3N0J2Qw?oc=5",
-      "m": "06. 18. AM 07:00",
-      "ts": 1781766000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "ebn.co.kr",
-      "t": "[현장] 젠슨 황 만난 배경훈 \"엔비디아, GPU 26만장+a 공급 약속…韓 AI 생태계 투자\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Hc3d3ZWhxYlNuLVFNSVQ4dmV4LVpIVFFCRkZJWDFOZWw4Vk5ETVZyU1Y5c0s3TFZjc09mNWdPdU52LVU1a3pBWkxjaTVtbmQyajNpNnZRb3ByTjl3OF9kQzZVaDNvSGFf?oc=5",
-      "m": "06. 09. AM 07:00",
-      "ts": 1780988400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "스타트업엔(StartupN)",
-      "t": "디든로보틱스, NVIDIA 생태계로 산업용 피지컬 AI 본격화…‘디든 스파이더’ 주목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjckRiQVVRNWFIb3NOT1llZnlaV19ObzI3aEJBQ2J4VWUybWJDYXNkTTF4RlVUZzNqTjBaZ19HQjl1RDYtazZPSnNVOFI3TVFtRHN1VERrajc0b3dRV3htT2g3amRPbzRM0gFsQVVfeXFMUFMyNDYtUWZYN2dqa2pQUWZ0R2JzN1lDeElWd1dMakJudGhlQjZRZV9WTkpFTDhhN3Z4WVdwUm9FdjE2cTBsVDNPVENxVGFBZ1JDYkM5VldyWUMwZHMtelgyY09IODVzenlZa3Qt?oc=5",
-      "m": "06. 08. AM 07:00",
-      "ts": 1780902000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "플래텀(Platum)",
-      "t": "디든로보틱스, 엔비디아 생태계로 산업용 피지컬 AI 개발 본격화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE51cjVmai00eEdoTEpLTHA2ZEhvbDVFbFZTTzRRNGpyRFBvMHZucHNzWGxoalY5d2R2c09oUzVjRFFnVXdFUWFlYQ?oc=5",
-      "m": "06. 08. AM 03:23",
-      "ts": 1780888992000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "비즈워치",
-      "t": "'글로벌 종횡무진' 젠슨 황에 한국이 유독 특별한 이유",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iMENCcmlKSjdjRGpyWTd4eHk3eG9abHJlZUlHeVhObHNPdkEzZXpRc3M5Y0lfNWxRMmtJa3JfcG1EMm1QbUpuN2lXYjRYalhhRHMwZ242NUZxRlFKSTJUWmxmb2ZRQllpRHRoOQ?oc=5",
-      "m": "06. 05. AM 07:00",
-      "ts": 1780642800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "서울경제",
-      "t": "중국 “엔비디아 칩? 안 사” 하더니…‘일본→중국’ 밀반출 첫 확인",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSUUtEVk1KQzNQaU1UWGZNaE9CU1dlbzgwOExBMU94XzJMTV9xZDVRWTVlalkxRERZRjdEZXRHYjdfcEJDY2dZUm1FZVAtRHR4SnfSAVNBVV95cUxNTnFQT0hPVV8zdXltaWlNRG12MklfSXducUw1M3oxSUN6cEpDbWFfMl9YTDJJdl9zdVp6NlB0Z0JXSXhqNzRKckJWYjdSLXdqVUIxaw?oc=5",
-      "m": "05. 28. AM 07:00",
-      "ts": 1779951600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "블록체인투데이",
-      "t": "“코인판은 AI 이전 엔비디아”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OamNOaHFNUjdnQUVXM01FRGhicEJQZTc4TGU5cllqOXVpVGVGWFVIMDhlemRTY0YyN19nUVFTRnF5azEyMTNIaTNsOWRkUjRPZzdrRkJvODQ4MHVfUHpYd1Y5U0YxSmg1RWFha3pna3E?oc=5",
-      "m": "05. 26. AM 07:00",
-      "ts": 1779778800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "초이스스탁US",
-      "t": "엔비디아 차이나 공백… 삼성·SK HBM 전선 '숨은 변수'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iSWFsY1VJc3hibThTUTZ6NGdhZkVaZjl4RjBVYnFoOW1xLUdSdnB1aXpBSnBpaU1GUVZ6OFBnMVFDbjBKbDRGUmVGeERqNk9KT0lRTW15SlE1VGtkMEJKeTN4MGZMQzQ?oc=5",
-      "m": "05. 22. AM 07:00",
-      "ts": 1779433200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "이뉴스투데이",
-      "t": "엔비디아 中 규제에 주춤···구글 ‘TPU 동맹’으로 GPU 아성 겨냥",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZZXphNHRqWXNvWVh6NnItVElWdlY1dGk1Y0hHazFmVGZ3ZzhWYk1sYWdVSVFKdjFvQzR2eHRhZkltT0dtazF2R0ZWMjA3R3JWaDk0c29vdS10ajdjLWFZNm5NVF9NWFlBQW5WYm5lZ03SAXRBVV95cUxQd1hFUFYxLUFGc2w1VE00X3NaQXMxTkJUQkRUdUdGbEJnX094dDVWNUJyZ3R4bTdIM1FpaFlKVi1tLTFOYmUtZU1aSlJlMkprUXVoWXF0NVc1VlVDR1hoN3pUT09FZWl6S1NSNk9RbDJyYnNsZw?oc=5",
-      "m": "05. 19. AM 07:00",
-      "ts": 1779174000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "christiandaily.co.kr",
-      "t": "리벨리온에 2500억…국민성장펀드가 말한 K-엔비디아의 조건",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85b29rQ1U5TDhWc2NmdmVDZDhaLXI0eWs3b29Vb09RcmFVWkdtbGtmd3BnbzVjVzM4RG5IS2Nwcm5Pb0NYQnVXcGE5ZWdYdS02UzlpVHlKd9IBXEFVX3lxTE81ZkxnUGt0MThKNFhlNThxcmtuUzBQZGFqTi04NW9jWmJlOTlpaUtVOEFNQUZ4S0lnb2dxMjhUcHE3OTlRSEFzYUlyOWQzZzc1N0g1VDU2WmVlVXUw?oc=5",
-      "m": "05. 19. AM 07:00",
-      "ts": 1779174000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "더퍼블릭",
-      "t": "‘이변’은 없었다…사실상 ‘반도체 노딜’로 마무리된 美中정상회담",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PNDJjejlMR1gxTmllUDJLU09BUm9PRldrNVZhVS1fUHd2cXFjWERLdXlxV053ODBtVW9oQUxMSkZMbmIxbDhVdlNJREFsLUQ0UzlpcWhWWGpEWTRfRFpTc1Rfb1ZYeGlyMUo00gFvQVVfeXFMUFRGR2tVdWxwaXZ2RkowUVNpbGQ1TlQtUGFqOExLbzNNLTlrc25LZEI0cm5OeXVmWEo4V3NENDBGdFozZGJUUmYxWGRucWN6V1Jpdk5KLW9zSjZBb19HdUpqNS1uZG9mc0IycmNET1BB?oc=5",
-      "m": "05. 18. AM 07:00",
-      "ts": 1779087600000,
-      "_policy": true,
-      "fullText": "Google News"
+      "u": "https://www.hani.co.kr/arti/economy/marketing/1269652.html",
+      "m": "",
+      "ts": 0,
+      "fullText": "본문 경제 산업·재계 이재용-정의선, 젠슨 황 이끄는 글로벌 AI 포럼 자문위원 합류 배지현 기자 수정 2026-07-23 17:46 펼침 0:00 Your browser does not support the audio element. 구글 선호 매체 등록 젠슨 황 엔비디아 최고경영자가 지난해 10월30일 서울 강남구 삼성동의 한 치킨집에서 이재용 삼성전자 회장, 정의선 현대차그룹 회장과 ‘치맥(치킨+맥주) 회동’을 하고 있다. 공동취재사진 광고 이재용 삼성전자 회장과 정의선 현대자동차그룹 회장이 오는 11월 미국 실리콘밸리에서 열리는 인공지능(AI) 포럼의 자문위원으로 합류한다. 젠슨 황 엔비디아 최고경영자(CEO)가 공동 의장을 맡는 포럼이다. 미국 스타트업 미디어 세마포는 이 회장과 정 회장이 오는 11월 미국 실리콘밸리에서 열리는 글로벌 최고경영자 포럼 ‘실리콘밸리&더 월드’의 자문위원회에 이름을 올렸다고 최근 밝혔다. 올해 처음 개최되는 이 포럼에는 인공지능 기술을 개발하는 기업과 투자기관, 정책결정자 350명이 참석해 인공지능이 경제 성장, 노동력, 국가 안보, 에너지, 자본 시장 등에 미치는 영향을 논의할 계획이다. 이 행사의 공동 의장은 황 최고경영자와 사티아 나델라 마이크로소프트 최고경영자, 루스 포랏 알파벳·구글 사장 겸 최고투자책임자(CIO), 리사 수 미국 반도체기업 에이엠디(AMD) 최고경영자, 디베시 마칸 아이코닉 창립 파트너 등 5명이다. 자문위원으로는 이 회장과 정 회장을 비롯해 앤디 재시 아마존 최고경영자, 히로키 토토키 소니그룹 최고경영자, 리시 수낵 전 영국 총리, 지나 러먼도 전 미국 상무장관 등 정·재계 핵심 관계자 40여명이 이름을 올렸다. 정 회장은 지난 4월 미국에서 열린 세마포 주최 경제 포럼에 참석한 데 이어 새 포럼의 자문위원으로도 합류하게 됐다. 광고 자문위원회는 △첨단 기술기업 최고경영자 중심의 ‘프런티어 위원회’ △인공지능 인프라 투자자와 금융기관으로 이뤄진 ‘캐피털 위원회’ △산업 현장의 인공지능 적용을 이끄는 ‘빌더 위원회’ △차세대 유니콘 기업 창업자로 구성되는 ‘파운더스 위원회’ 등 역할에 따라 4개 협의체로 이뤄졌다. 한편 이 회장과 정 회장은 이재명 대통령의 미국 순방을 계기로 24~25일 열리는 실리콘밸리의 ‘인공지능 서밋’ 행사에서 황 최고경영자 등 글로벌 거대기술(빅테크) 기업인들과 인공지능 생태계 확장을 논의하는 데 이어 11월 포럼에서도 다시 한 자리에 설 것으로 보인다. 배지현 기자 beep@hani.co.kr"
     }
   ]
 }

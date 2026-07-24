@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-07-24T08:18:26.693Z",
+  "updatedAt": "2026-07-24T10:35:08.203Z",
   "data": {
+    "MBLY": {
+      "name": "Mobileye Global Inc.",
+      "px": 7.47,
+      "dayChange": -14.92,
+      "periodChange": -4.11,
+      "prices": [
+        7.79,
+        7.86,
+        7.81,
+        8.3,
+        9.68,
+        9.67,
+        9.57,
+        10,
+        9.5,
+        9.14,
+        9.53,
+        9.55,
+        9.75,
+        10.09,
+        9.43,
+        8.97,
+        9.22,
+        8.95,
+        8.99,
+        8.78,
+        7.47
+      ],
+      "dates": [
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23"
+      ],
+      "volume": 29251825,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 17.12,
+        "low52w": 6.47,
+        "volume": 29251825
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "GOOGL": {
       "name": "알파벳(구글)",
       "px": 317.69,
@@ -127,69 +190,6 @@
       "investorFlow": null,
       "consensus": null
     },
-    "MBLY": {
-      "name": "Mobileye Global Inc.",
-      "px": 7.47,
-      "dayChange": -14.92,
-      "periodChange": -4.11,
-      "prices": [
-        7.79,
-        7.86,
-        7.81,
-        8.3,
-        9.68,
-        9.67,
-        9.57,
-        10,
-        9.5,
-        9.14,
-        9.53,
-        9.55,
-        9.75,
-        10.09,
-        9.43,
-        8.97,
-        9.22,
-        8.95,
-        8.99,
-        8.78,
-        7.47
-      ],
-      "dates": [
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23"
-      ],
-      "volume": 29251825,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 17.12,
-        "low52w": 6.47,
-        "volume": 29251825
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "011070": {
       "name": "LG Innotek",
       "px": 625000,
@@ -269,6 +269,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260724",
+            "foreigner": -2268,
+            "institution": -26837,
+            "individual": 29138,
+            "foreignRatio": "28.19%"
+          },
+          {
             "date": "20260723",
             "foreigner": -4406,
             "institution": -271,
@@ -330,22 +337,15 @@
             "institution": -146002,
             "individual": 78202,
             "foreignRatio": "26.00%"
-          },
-          {
-            "date": "20260709",
-            "foreigner": 125249,
-            "institution": -72879,
-            "individual": -47588,
-            "foreignRatio": "25.79%"
           }
         ],
         "sum5d": {
-          "foreigner": 58041,
-          "institution": -29673
+          "foreigner": 39608,
+          "institution": -38091
         },
         "sum10d": {
-          "foreigner": 685862,
-          "institution": -594120
+          "foreigner": 558345,
+          "institution": -548078
         }
       },
       "consensus": null
@@ -403,7 +403,7 @@
         "2026-07-23",
         "2026-07-24"
       ],
-      "volume": 350373,
+      "volume": 413538,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -428,6 +428,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260724",
+            "foreigner": -12379,
+            "institution": -49233,
+            "individual": 63245,
+            "foreignRatio": "37.26%"
+          },
           {
             "date": "20260723",
             "foreigner": 5581,
@@ -490,22 +497,15 @@
             "institution": 14018,
             "individual": -77494,
             "foreignRatio": "37.04%"
-          },
-          {
-            "date": "20260709",
-            "foreigner": 15800,
-            "institution": -24429,
-            "individual": -10279,
-            "foreignRatio": "36.95%"
           }
         ],
         "sum5d": {
-          "foreigner": 93445,
-          "institution": 47406
+          "foreigner": 64219,
+          "institution": 8591
         },
         "sum10d": {
-          "foreigner": 264012,
-          "institution": 30210
+          "foreigner": 235833,
+          "institution": 5406
         }
       },
       "consensus": null
@@ -589,6 +589,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260724",
+            "foreigner": -191290,
+            "institution": -185803,
+            "individual": 371096,
+            "foreignRatio": "25.06%"
+          },
+          {
             "date": "20260723",
             "foreigner": 48177,
             "institution": -37299,
@@ -650,22 +657,15 @@
             "institution": -27686,
             "individual": -106584,
             "foreignRatio": "25.01%"
-          },
-          {
-            "date": "20260709",
-            "foreigner": 6753,
-            "institution": 67202,
-            "individual": -67448,
-            "foreignRatio": "24.92%"
           }
         ],
         "sum5d": {
-          "foreigner": 128746,
-          "institution": 16863
+          "foreigner": -164894,
+          "institution": -105985
         },
         "sum10d": {
-          "foreigner": 436995,
-          "institution": 99363
+          "foreigner": 238952,
+          "institution": -153642
         }
       },
       "consensus": null
@@ -743,69 +743,6 @@
     ]
   },
   "etfs": {
-    "DRIV": {
-      "name": "Global X Autonomous & Electric ",
-      "px": 34.337,
-      "dayChange": -1.98,
-      "periodChange": -9.37,
-      "prices": [
-        37.89,
-        38.01,
-        37.05,
-        37.79,
-        38.57,
-        37.82,
-        36.74,
-        37.63,
-        36.07,
-        35.97,
-        36.58,
-        36.54,
-        35.37,
-        35.66,
-        35.69,
-        34.38,
-        33.95,
-        33.79,
-        35,
-        35.03,
-        34.34
-      ],
-      "dates": [
-        "2026-06-24",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23"
-      ],
-      "volume": 29559,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 42.76,
-        "low52w": 23.41,
-        "volume": 29559
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "IDRV": {
       "name": "iShares Self-Driving EV and Tec",
       "px": 35.583,
@@ -865,6 +802,69 @@
         "high52w": 45.64,
         "low52w": 31.875,
         "volume": 7512
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "DRIV": {
+      "name": "Global X Autonomous & Electric ",
+      "px": 34.337,
+      "dayChange": -1.98,
+      "periodChange": -9.37,
+      "prices": [
+        37.89,
+        38.01,
+        37.05,
+        37.79,
+        38.57,
+        37.82,
+        36.74,
+        37.63,
+        36.07,
+        35.97,
+        36.58,
+        36.54,
+        35.37,
+        35.66,
+        35.69,
+        34.38,
+        33.95,
+        33.79,
+        35,
+        35.03,
+        34.34
+      ],
+      "dates": [
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23"
+      ],
+      "volume": 29559,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 42.76,
+        "low52w": 23.41,
+        "volume": 29559
       },
       "investorFlow": null,
       "consensus": null

@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-07-24T02:11:17.872Z",
+  "updatedAt": "2026-07-24T05:36:59.453Z",
   "count": 40,
   "stats": {
-    "today": 1,
+    "today": 0,
     "yesterday": 3,
-    "weekAvg": 0.7,
+    "weekAvg": 0.6,
     "sources": 29,
-    "heat": "cool"
+    "heat": "cold"
   },
   "items": [
-    {
-      "s": "동아일보",
-      "t": "세레브라스·AMD 헬리오스 서버 도입··· ‘이기종 컴퓨팅·클라우드 협력도 시동’",
-      "d": "AMD와 세레브라스가 AI 하드웨어 기술과 관련해 동맹을 맺는다. 현지시간으로 23일, 미국 캘리포니아 주 샌프란시스코에서 AMD가 주최하는 연례 콘퍼런스 ‘어드밴싱 AI’가 진행 중이다. AMD는 행사를 통해 자사 AI 인프라가 집약된 올인원 서버 시스템 ‘헬리오스’를 공개했으며 세레브라스가 AMD 헬리오스를 자사 데이터 센터에 도입하는 것은 물론 웨이퍼 스케일 엔진(WSE)과 관련된 공동 솔루션을 출시한다.세레브라스는 2015년 설립된 AI 반도체 스타트업이며 지난 5월 14일에 나스닥에 상당됐다. 세레브라스의 주력 반도체인 웨이퍼 스케일 엔진(WSE)은 가로, 세로 215mm의 초대형 웨이퍼 한 장에 그대로 칩을 인쇄한 형태로 90만 개의 코어와 125페타플롭스의 연산 성능을 갖춘다. 이는 엔비디아 B",
-      "u": "https://www.donga.com/news/It/article/all/20260724/134356743/1",
-      "m": "07. 24. AM 12:48",
-      "ts": 1784854098000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
-    },
     {
       "s": "글로벌이코노믹",
       "t": "ASML 특허 우회한 중국… 반도체 장비 독점 뚫나",
@@ -26,7 +17,9 @@
       "m": "07. 23. PM 10:32",
       "ts": 1784845975000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "중국 반도체 산업 발전에 기여"
     },
     {
       "s": "TechCrunch",
@@ -35,7 +28,9 @@
       "u": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
       "m": "07. 23. PM 03:00",
       "ts": 1784818800000,
-      "fullText": "Etched, the AI chip startup founded by three Harvard dropouts in 2022, has closed a $300 million Series C funding round at a $10.3 billion valuation, co-founder and COO Robert Wachen tells TechCrunch. The round was led by Sequoia, with Andreessen Horowitz, SK Hynix, Jane Street, and Diffusion Capital also participating, along with other, earlier investors. Other backers of the company include names like Peter Thiel, Andrej Karpathy, Dylan Field, Amjad Masad, and more. Etched was previously valued at $5 billion in December when it raised a $500 million round, meaning it has doubled its valuation in about seven months. The company says this is the highest valuation ever for a Sequoia-led Series C. Last month, Etched announced that it had successfully manufactured its homegrown chips , that its first full systems were being tested by clients, and it had already booked $1 billion worth of orders. Etched launched at a time when the idea of building a chip specifically for AI models based on transformer technology (the architecture behind most modern AI systems, including ChatGPT and Claude) was considered wild if not wacky. The company is still battling the perception that its products — which are sold as full systems, not just chips — involve chips designed to run only specific LLMs. That&#8217;s not the case, Wachen explains. The systems can run any AI model, including Mixture of Experts models like DeepSeek and Qwen — an architecture that splits tasks across specialized sub-models rather than relying on one large model — as well as non-transformer designs like Mamba, which is built on a different underlying architecture known as a state-space model. (Interestingly, the idea of etching parts of a specific AI model directly into silicon to boost performance isn&#8217;t considered far-fetched anymore. Google is reportedly pursuing the same concept with its Frozen v2 chip for Gemini.) Still, Etched’s claim to fame today is that it designed two new components from scratch "
+      "fullText": "Etched, the AI chip startup founded by three Harvard dropouts in 2022, has closed a $300 million Series C funding round at a $10.3 billion valuation, co-founder and COO Robert Wachen tells TechCrunch. The round was led by Sequoia, with Andreessen Horowitz, SK Hynix, Jane Street, and Diffusion Capital also participating, along with other, earlier investors. Other backers of the company include names like Peter Thiel, Andrej Karpathy, Dylan Field, Amjad Masad, and more. Etched was previously valued at $5 billion in December when it raised a $500 million round, meaning it has doubled its valuation in about seven months. The company says this is the highest valuation ever for a Sequoia-led Series C. Last month, Etched announced that it had successfully manufactured its homegrown chips , that its first full systems were being tested by clients, and it had already booked $1 billion worth of orders. Etched launched at a time when the idea of building a chip specifically for AI models based on transformer technology (the architecture behind most modern AI systems, including ChatGPT and Claude) was considered wild if not wacky. The company is still battling the perception that its products — which are sold as full systems, not just chips — involve chips designed to run only specific LLMs. That&#8217;s not the case, Wachen explains. The systems can run any AI model, including Mixture of Experts models like DeepSeek and Qwen — an architecture that splits tasks across specialized sub-models rather than relying on one large model — as well as non-transformer designs like Mamba, which is built on a different underlying architecture known as a state-space model. (Interestingly, the idea of etching parts of a specific AI model directly into silicon to boost performance isn&#8217;t considered far-fetched anymore. Google is reportedly pursuing the same concept with its Frozen v2 chip for Gemini.) Still, Etched’s claim to fame today is that it designed two new components from scratch ",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "CNBC Tech",
@@ -44,7 +39,9 @@
       "u": "https://www.today.com/video/backlash-grows-against-data-centers-used-for-powering-ai-267158085704",
       "m": "07. 23. PM 12:02",
       "ts": 1784808168000,
-      "fullText": "A Freezable Lunch Box, $20 Earbuds and More Back-to-School Essentials IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY TODAY Flashback Shop Shop the Show Beauty Awards 2026 Deals and Sales Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; Dashboard My Saved Newsletters Profile Start TODAY Subscription Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY Jokes Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Inside the Growing Backlash Against Expansive AI Data Centers July 23, 2026 03:26 How Your Credit Score Works (and How to Boost it) 03:58 Meet the Female Sports Car Driver Breaking Boundaries in Racing 04:55 What to Ask and What to Trust When Using AI for Medical Advice 05:31 Why Americans Are Falling for This Little Corner of England 04:41 A Look Into the Great White Shark Surge off the California Coast 04:09 Kansas City Chiefs Unveil First Renders of"
+      "fullText": "A Freezable Lunch Box, $20 Earbuds and More Back-to-School Essentials IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY TODAY Flashback Shop Shop the Show Beauty Awards 2026 Deals and Sales Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; Dashboard My Saved Newsletters Profile Start TODAY Subscription Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY Jokes Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Inside the Growing Backlash Against Expansive AI Data Centers July 23, 2026 03:26 How Your Credit Score Works (and How to Boost it) 03:58 Meet the Female Sports Car Driver Breaking Boundaries in Racing 04:55 What to Ask and What to Trust When Using AI for Medical Advice 05:31 Why Americans Are Falling for This Little Corner of England 04:41 A Look Into the Great White Shark Surge off the California Coast 04:09 Kansas City Chiefs Unveil First Renders of",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "에너지플랫폼뉴스",
@@ -54,7 +51,9 @@
       "m": "07. 21. AM 11:26",
       "ts": 1784633181000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "반도체 산업 발전에 기여"
     },
     {
       "s": "조선에듀",
@@ -64,7 +63,9 @@
       "m": "07. 16. AM 05:48",
       "ts": 1784180880000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "애플경제",
@@ -74,7 +75,9 @@
       "m": "07. 14. PM 02:20",
       "ts": 1784038817000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "반도체 산업 성장 기대"
     },
     {
       "s": "머니투데이",
@@ -84,7 +87,9 @@
       "m": "07. 07. AM 07:00",
       "ts": 1783407600000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "서진시스템 반도체 매출 증가"
     },
     {
       "s": "서울시티",
@@ -94,17 +99,9 @@
       "m": "07. 06. AM 07:00",
       "ts": 1783321200000,
       "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "전자신문",
-      "t": "中 거리두는 韓반도체, 소부장 공급망 재편",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5IOGlJaHNWSDE3eDc3eWVGVHh5cVViN0ZWZUNKVVBPUnhTdHBIa1ZScHUxYVZLcm5tN3k1b2N1NG93TmFQdVpJSFJoREFDQQ?oc=5",
-      "m": "07. 05. AM 07:00",
-      "ts": 1783234800000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "글로벌 반도체 산업 투자"
     },
     {
       "s": "비즈니스포스트",
@@ -114,7 +111,21 @@
       "m": "07. 05. AM 07:00",
       "ts": 1783234800000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "ASML 중국 수출 재개 가능성"
+    },
+    {
+      "s": "전자신문",
+      "t": "中 거리두는 韓반도체, 소부장 공급망 재편",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5IOGlJaHNWSDE3eDc3eWVGVHh5cVViN0ZWZUNKVVBPUnhTdHBIa1ZScHUxYVZLcm5tN3k1b2N1NG93TmFQdVpJSFJoREFDQQ?oc=5",
+      "m": "07. 05. AM 07:00",
+      "ts": 1783234800000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "한국 반도체 산업에 부정적 영향"
     },
     {
       "s": "CNBC Tech",
@@ -123,7 +134,7 @@
       "u": "https://www.nbcnews.com/video/flock-s-a-i-enabled-street-cameras-see-backlash-across-the-country-266154053762",
       "m": "07. 04. AM 12:29",
       "ts": 1783124992000,
-      "fullText": "Hochul says AI companies are &#x27;flooding the zone&#x27; with data centers"
+      "fullText": "Semi-truck hit by train after getting stuck on the tracks"
     },
     {
       "s": "뉴스핌",
@@ -156,20 +167,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "블로터",
-      "t": "한미반도체, HBM 이어 시스템반도체도 넘본다…FC 본더 3.5 공개",
+      "s": "비즈니스포스트",
+      "t": "한미반도체 시스템반도체용 'FC 본더 3.5' 출시, 파운드리·후공정에 공급",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96dDgxaklxUHBBdmJKWGZ5bTg0U0JaUEI0dDEtTmZBYXpyYldmdVBobnZNV0NGcF9xWk16Ulh2RnhHZVNKUC1vcy0tMFhoMkFkeU1wc0c1QjRuUnBuMWFoczVkd3VmXy040gFsQVVfeXFMTXpRLThUOHNvZDEzWTFxaUhiMVMyNTNfQXdvMUhKMUZLMHA2dWJqQWFSNVplVndxenVRZjdldUJubG5XZ2RNUVMzWTJsSTFUVEYyTUhkVW4zOGpfdVNIQU5VcnU4U2RreVExZUNK?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QaThYRWhJZWRoRDJnQ09zdVdvNV83Y0RyZ3ZNb0tyUWJfMTVJM0ZOelRZeVNnbjdYQlNIVjYtbVVjT1hQY0Z0RUFJZGNqVUdqSGhoUjI0OUJfc2RPOUN3MXp2dDRHZFN5TC1lWGgyTWFOeE0?oc=5",
       "m": "06. 26. AM 07:00",
       "ts": 1782457200000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "비즈니스포스트",
-      "t": "한미반도체 시스템반도체용 'FC 본더 3.5' 출시, 파운드리·후공정에 공급",
+      "s": "블로터",
+      "t": "한미반도체, HBM 이어 시스템반도체도 넘본다…FC 본더 3.5 공개",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QaThYRWhJZWRoRDJnQ09zdVdvNV83Y0RyZ3ZNb0tyUWJfMTVJM0ZOelRZeVNnbjdYQlNIVjYtbVVjT1hQY0Z0RUFJZGNqVUdqSGhoUjI0OUJfc2RPOUN3MXp2dDRHZFN5TC1lWGgyTWFOeE0?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96dDgxaklxUHBBdmJKWGZ5bTg0U0JaUEI0dDEtTmZBYXpyYldmdVBobnZNV0NGcF9xWk16Ulh2RnhHZVNKUC1vcy0tMFhoMkFkeU1wc0c1QjRuUnBuMWFoczVkd3VmXy040gFsQVVfeXFMTXpRLThUOHNvZDEzWTFxaUhiMVMyNTNfQXdvMUhKMUZLMHA2dWJqQWFSNVplVndxenVRZjdldUJubG5XZ2RNUVMzWTJsSTFUVEYyTUhkVW4zOGpfdVNIQU5VcnU4U2RreVExZUNK?oc=5",
       "m": "06. 26. AM 07:00",
       "ts": 1782457200000,
       "_policy": true,
@@ -196,20 +207,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "연합뉴스",
-      "t": "中, 대일 희토류 월수출 1년만 최저…日반도체장비 中매출도 감소",
+      "s": "이투데이",
+      "t": "미국 반도체 규제 엇박자…삼성·SK 중국공장 불확실성 커진다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwcWNtSjRkY0o1ZmhfN1lvaG1DWHM3LWhWMjRDbWVCV3NGWElrM05HbDhKV0N4ME1fbTVCUURfYWY1bFo2QVgtV09JN1dnUlR4c0R4ekoyeENDcUXSAWBBVV95cUxOWlNIdlFiQmxoNUxrcmRUWnFRb1l6WDdNREg0NHZWRzR0VU9nWVVUN0RVU25vWnNaMVB2Yl9kdWFpakNzQnpjcmRERWVPSVRZejlLQmd1QUx2aFlxbmdKOG4?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80TWlPbTV5RUM1cjl5ZFdrS0JoMGNrNXlQSmpPTHIwU1VBX2plUUVnaXg4RHRTaEsyMDZWeVJIRHhIS0x4VDZPdXZlNENMelhZVmwwNw?oc=5",
       "m": "06. 21. AM 07:00",
       "ts": 1782025200000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "이투데이",
-      "t": "미국 반도체 규제 엇박자…삼성·SK 중국공장 불확실성 커진다",
+      "s": "연합뉴스",
+      "t": "中, 대일 희토류 월수출 1년만 최저…日반도체장비 中매출도 감소",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80TWlPbTV5RUM1cjl5ZFdrS0JoMGNrNXlQSmpPTHIwU1VBX2plUUVnaXg4RHRTaEsyMDZWeVJIRHhIS0x4VDZPdXZlNENMelhZVmwwNw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwcWNtSjRkY0o1ZmhfN1lvaG1DWHM3LWhWMjRDbWVCV3NGWElrM05HbDhKV0N4ME1fbTVCUURfYWY1bFo2QVgtV09JN1dnUlR4c0R4ekoyeENDcUXSAWBBVV95cUxOWlNIdlFiQmxoNUxrcmRUWnFRb1l6WDdNREg0NHZWRzR0VU9nWVVUN0RVU25vWnNaMVB2Yl9kdWFpakNzQnpjcmRERWVPSVRZejlLQmd1QUx2aFlxbmdKOG4?oc=5",
       "m": "06. 21. AM 07:00",
       "ts": 1782025200000,
       "_policy": true,
@@ -332,6 +343,16 @@
       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3WVpGSU1PaDFpTzM5eHJPTk01VVZYWU5ZSXRuc29LLWdmQjNuUzdHc0V4Z1JCc05ZMUhpVXIzbTAtcDFFTGF2Q1RXenZjd0VLd1pXTE56dVpLTUHSAWBBVV95cUxPY1N6LTdIZzJtWUkzaUo2NnVFVXVGT2ZyN0VnOE1NRE9JdDZKcjFzSE1mMVlMMjZsaElKcXVYVXdkNlJRbkJXVFlHYXBtS3VwZ29qd2drT3lBMzloMjdvRlk?oc=5",
       "m": "04. 25. AM 07:00",
       "ts": 1777100400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "에너지데일리",
+      "t": "“반도체 장비 규제 풀고, 가스안전 인력 기준 완화”… …고압가스법 시행령·시행규칙 개편",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE96VENqSE5yVDZKdTFIUnBzdHZuNHdzZEpmN0x3LWgzY082V0pPSFRNeklvSmsyT25rSWZKQS1NdmJBY1lvSXpEWkRyYmNLUWZiS3dSWExFbWRuV1ZGRmFFbnFvVnJ0U0RuZklxa08tRjZFdw?oc=5",
+      "m": "04. 24. AM 07:00",
+      "ts": 1777014000000,
       "_policy": true,
       "fullText": "Google News"
     },

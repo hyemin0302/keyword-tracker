@@ -1,22 +1,68 @@
 {
-  "updatedAt": "2026-07-24T15:59:13.816Z",
+  "updatedAt": "2026-07-24T17:31:06.609Z",
   "count": 40,
   "stats": {
-    "today": 5,
-    "yesterday": 6,
-    "weekAvg": 5.3,
+    "today": 9,
+    "yesterday": 4,
+    "weekAvg": 5.6,
     "sources": 25,
     "heat": "warm"
   },
   "items": [
     {
-      "s": "조선일보",
-      "t": "李대통령, 미국 도착… 젠슨 황·샘 올트먼 등과 면담 예정",
-      "d": "이재명 대통령이 24일(현지시각) 오전 8시 29분쯤 미국 샌프란시스코 국제공항에 도착했다. 이 대통령은 이날 다리오 아모데이 앤트로픽 최고경영자(CEO), 샘 올트먼 오픈AI CEO, 젠슨 황 엔비디아 CEO, 혹 탄 브로드컴 사장 겸 CEO를 차례로 만날 예정이다. 이 대통령은 미국 빅테크 관계자들과 이재용 삼성전자 회장, 최태원 SK그룹 회장, 정의선",
-      "u": "https://www.chosun.com/economy/economy_general/2026/07/25/HAYTQY3EGA3DSOBXGA4WCNZSMI/",
-      "m": "07. 24. PM 03:40",
-      "ts": 1784907659000,
-      "fullText": ""
+      "s": "TechCrunch",
+      "t": "Anthropic launches Opus 5",
+      "d": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases",
+      "u": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+      "m": "07. 24. PM 05:00",
+      "ts": 1784912400000,
+      "fullText": "On Friday, Anthropic launched its Opus 5 model, the newest version of its long-standing heavyweight model. While smaller than Fable 5, the model will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases. Notably, Opus 5 actually outperforms Fable 5 on a number of benchmarks included in the announcement. Opus 5 is launching only two months after Opus 4.8, which became available on May 28. Mythos 5, Fable 5 and Sonnet 5 all launched in June, leaving only the lightweight Haiku model still waiting for an upgrade to the 5 series. In a post announcing the new model , Anthropic emphasized that Opus 5 was “much stronger at verifying its work and iterating carefully until it succeeds,” citing benchmark testing, in which Opus 5 wrote its own computer vision pipeline in response to an incomplete prompt, among other examples. Crucially, Opus 5 is also free from many of the restrictions that have dogged Fable since its release. Like its predecessor, Opus 5 is not subject to the 30-day data retention policy that covers Fable and Mythos, which had raised concerns among some privacy conscious users. There are still meaningful safeguards on Opus, particularly around cybersecurity tasks like exploit generation and penetration testing. For instance, Opus 5 safeguards prevent it from being used to scan for vulnerabilities in a software binary, although it is permitted to search for vulnerabilities in source code, since the latter task is more likely to be used for defensive purposes. Broadly, Anthropic expects these classifiers to engage 85% less often for Opus 5 than they will for Fable 5, a reflection of the lighter touch given to the less capable model. Anthropic is also rolling out a new tool to make the safeguards less disruptive when they do engage. Users can now opt-in to a beta feature called Automatic Fallbacks, which will automatically route requests to a less powerful model when a prompt triggers the safety classifier. The result is ",
+      "impact": "positive",
+      "takeaway": "Anthropic의 Opus 5 출시로 LLM 경쟁이 가속화돼 투자 매력 상승"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Anthropic Unveils More Cost-Efficient Model for Everyday Tasks",
+      "d": "Anthropic PBC is rolling out a new artificial intelligence model that is meant to handle workplace tasks adeptly and affordably, a key selling point as some customers grow more cost conscious and competition increases in China.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-24/anthropic-unveils-more-cost-efficient-model-for-everyday-tasks",
+      "m": "07. 24. PM 05:00",
+      "ts": 1784912400000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "가격 효율적인 모델로 LLM 활용도가 높아져 테마에 긍정적"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "OpenAI&#8217;s own model went rogue before Kimi had Wall Street sweating",
+      "d": "Chinese AI lab Moonshot&#8217;s&#160;open model Kimi went viral this week&#160;for reasons that had less to do with the model itself and more to do with&#160;how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real&#160;security breach at Hugging Face&#160;— a reminder [&#8230;]",
+      "u": "https://techcrunch.com/video/openais-own-model-went-rogue-before-kimi-had-wall-street-sweating/",
+      "m": "07. 24. PM 04:50",
+      "ts": 1784911808000,
+      "fullText": "TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2026 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI Amazon Apps Biotech & Health Climate Cloud Computing Commerce Crypto Enterprise EVs Fintech Fundraising Gadgets Gaming Google Government & Policy Hardware Instagram Layoffs Media & Entertainment Meta Microsoft Privacy Robotics Security Social Space Startups TikTok Transportation Venture More from TechCrunch Staff Events Startup Battlefield StrictlyVC Newsletters Podcasts Videos Partner Content TechCrunch Brand Studio Crunchboard Contact Us OpenAI&#8217;s own model went rogue before Kimi had Wall Street sweating Theresa Loconsolo 9:50 AM PDT · July 24, 2026 37 min Loading the player&#8230; Chinese AI lab Moonshot&#8217;s open model Kimi went viral this week for reasons that had less to do with the model itself and more to do with how the U.S. AI industry reacted to it . Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real security breach at Hugging Face — a reminder that “China risk” isn&#8217;t the only kind of AI risk worth worrying about. On this episode of TechCrunch&#8217;s Equity podcast, hosts Kirsten Korosec, Anthony Ha, and Sean O&#8217;Kane dig into why Kimi K3 set off a fresh round of AI panic, the industry’s response to an OpenAI staffer&#8217;s “regulatory FUD” post, and what that OpenAI breach means for AI security more broadly. Subscribe to Equity on YouTube , Apple Podcasts , Overcast , Spotify and all the casts. You also can follow Equity on X and Threads , at @EquityPod. Theresa Loconsolo Audio Producer Theresa Loconsolo is an audio producer at TechCrunch focusing on Equity, the network&#8217;s flagship podcast. Before joining TechCrunch in 2022, she was one of 2 producers at a four-station conglomerate where she wrote, recorded, voiced and edited content, and engineered live performances and int",
+      "impact": "negative",
+      "takeaway": "모델 오작동으로 신뢰도 하락, 투자 위험 증가"
+    },
+    {
+      "s": "동아일보",
+      "t": "90% 할인 ‘땡처리’서 금맥 캐는 청년… “1700조원 글로벌 시장 노려”[허진석의 톡톡 스타트업]",
+      "d": "거대한 글로벌 온라인 쇼핑 시장에는 잘 보이지 않은 골칫거리가 있다. 구매자가 구매 취소를 해서 돌아온 ‘반품’과 끝내 팔리지 않은 ‘장기 재고(악성 재고)’다. 수많은 기업이 이런 잉여 재고의 처리를 고민할 때 여기서 금맥을 본 청년이 있다. 2020년에 설립된 케이존을 이끄는 김성수 대표(33)가 바로 그다. 기존에는 수작업이나 간단한 전산에 의존하던 반품 및 장기 재고의 재판매를 자율형 인공지능(Agentic AI)을 활용해 적합한 구매상을 찾아 효율적으로 판매하고 있다. 14일 경기 성남시 판교동 사무실에서 만난 김 대표는 “반품과 악성 재고뿐만 아니라 글로벌 도매 거래를 자율형 AI로 2028년까지 완전 자동화하는 계획을 실행 중”이라고 했다.● 반품과 재고품의 거대한 세계 글로벌 무역 생태계에서 ",
+      "u": "https://www.donga.com/news/Economy/article/all/20260725/134361275/2",
+      "m": "07. 24. PM 04:40",
+      "ts": 1784911200000,
+      "fullText": "허진석 기자 구독",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
+    },
+    {
+      "s": "동아일보",
+      "t": "李, 오늘 글로벌 AI협력 ‘샌프란시스코 선언’",
+      "d": "이재명 대통령이 24일 미국과 남미 3개국 등 5개국 7박 11일 순방길에 올랐다. 이 대통령은 24일(현지 시간) 미국 샌프란시스코에선 젠슨 황 엔비디아 최고경영자(CEO)와 다리오 아모데이 앤스로픽 CEO, 샘 올트먼 오픈AI CEO, 혹 탄 브로드컴 사장 겸 CEO 등을 차례로 만난다. 이후 이재용 삼성전자 회장과 최태원 SK그룹 회장, 정의선 현대자동차그룹 회장 등이 참석하는 인공지능(AI) 서밋 행사에서 글로벌 AI 협력 비전을 담은 ‘샌프란시스코 AI 선언’을 발표한다. 25일에는 ‘실리콘밸리 벤처 투자 교류’ 행사가 개최된다. 이 대통령은 실리콘밸리 최대 벤처캐피털 회사인 앤드리슨 호로위츠, 제너럴 캐털리스트, 세쿼이아 캐피털 등 6개 글로벌 벤처캐피털 대표를 만난다. 이어 이 대통령은 26일부",
+      "u": "https://www.donga.com/news/Politics/article/all/20260724/134362353/2",
+      "m": "07. 24. PM 04:40",
+      "ts": 1784911200000,
+      "fullText": "박훈상 기자,윤다빈 기자",
+      "impact": "positive",
+      "takeaway": "글로벌 AI 협력 선언으로 한국 AI 에이전트·LLM 성장 기대"
     },
     {
       "s": "TechCrunch",
@@ -25,16 +71,20 @@
       "u": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
       "m": "07. 24. PM 01:36",
       "ts": 1784900202000,
-      "fullText": "In Brief Posted: 6:36 AM PDT · July 24, 2026 Image Credits: Samuel Boivin/NurPhoto / Getty Images Ivan Mehta OpenAI&#8217;s new voice mode makes it to the ChatGPT desktop app OpenAI on Thursday said it has updated its ChatGPT desktop app to add support for ChatGPT Voice, allowing users to talk to the app to control AI agents and perform tasks on their computer. The new feature taps OpenAI&#8217;s new family of voice models called ChatGPT-Live , which it launched earlier this month. OpenAI said ChatGPT Voice works with both ChatGPT Work and Codex, and can also tap computer use skills to look up websites and apps. Plus, on macOS, with Appshots, users can let the app access what&#8217;s on their screen, including alt-text. At launch, ChatGPT Voice&#8217;s smartphone version featured smoother conversations, with better interruption handling, but it was not built to take action on smartphones. Thursday&#8217;s desktop update is more capable, allowing users to dictate complex commands involving many steps, and respond when ChatGPT needs their input. In a demo video, OpenAI showed a developer asking ChatGPT to create a new thread, make a pull request, and find the root cause for a bug, with one command. ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running in ChatGPT Work or Codex, using just your voice. It&#39;s powered by GPT-Live, so it can speak, listen, and coordinate work in the app at the same time. Rolling out globally today… pic.twitter.com/ODZWKqecCf &mdash; OpenAI (@OpenAI) July 23, 2026 The company said that users can utilize ChatGPT Voice in Codex from the iOS app through remote access. Anthropic has also updated its voice mode for Claude , which can tap the company&#8217;s Opus, Sonnet, and Haiku models to complete tasks in apps like Gmail, Calendar, Slack, Notion, and Canva. Topics AI , ChatGPT , In Brief , OpenAI , voice mode October 13 &#8211; 15 San Francisco Scale faster. Grow your portfolio. Gain practical exp"
+      "fullText": "In Brief Posted: 6:36 AM PDT · July 24, 2026 Image Credits: Samuel Boivin/NurPhoto / Getty Images Ivan Mehta OpenAI&#8217;s new voice mode makes it to the ChatGPT desktop app OpenAI on Thursday said it has updated its ChatGPT desktop app to add support for ChatGPT Voice, allowing users to talk to the app to control AI agents and perform tasks on their computer. The new feature taps OpenAI&#8217;s new family of voice models called ChatGPT-Live , which it launched earlier this month. OpenAI said ChatGPT Voice works with both ChatGPT Work and Codex, and can also tap computer use skills to look up websites and apps. Plus, on macOS, with Appshots, users can let the app access what&#8217;s on their screen, including alt-text. At launch, ChatGPT Voice&#8217;s smartphone version featured smoother conversations, with better interruption handling, but it was not built to take action on smartphones. Thursday&#8217;s desktop update is more capable, allowing users to dictate complex commands involving many steps, and respond when ChatGPT needs their input. In a demo video, OpenAI showed a developer asking ChatGPT to create a new thread, make a pull request, and find the root cause for a bug, with one command. ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running in ChatGPT Work or Codex, using just your voice. It&#39;s powered by GPT-Live, so it can speak, listen, and coordinate work in the app at the same time. Rolling out globally today… pic.twitter.com/ODZWKqecCf &mdash; OpenAI (@OpenAI) July 23, 2026 The company said that users can utilize ChatGPT Voice in Codex from the iOS app through remote access. Anthropic has also updated its voice mode for Claude , which can tap the company&#8217;s Opus, Sonnet, and Haiku models to complete tasks in apps like Gmail, Calendar, Slack, Notion, and Canva. Topics AI , ChatGPT , In Brief , OpenAI , voice mode October 13 &#8211; 15 San Francisco Scale faster. Grow your portfolio. Gain practical exp",
+      "impact": "positive",
+      "takeaway": "음성 모드 탑재로 LLM 활용 범위 확대, 투자 매력 상승"
     },
     {
-      "s": "동아일보",
-      "t": "김용범 “삼성·SK와 빅테크, 샌프란서 대형 계약 맺을 것”",
-      "d": "이재명 대통령의 미국 방문을 앞두고 김용범 대통령정책실장은 삼성전자·SK하이닉스가 미국 빅테크 기업들과 대규모 메모리 반도체 장기 공급 계약을 맺을 것이라고 밝혔다.김 실장은 23일 청와대에서 로이터, 블룸버그, AP통신 등 외신 기자담회를 열어 이같이 말했다. 미국 등 5개국 순방길에 오른 이 대통령은 24일(현지 시간) 첫 방문 일정인 미국 샌프란시스코에서 열리는 인공지능(AI) 서밋 행사에 참석한다. 이 대통령은 이를 계기로 샘 알트만 오픈AI CEO, 젠슨 황 엔비디아 CEO, 혹 탄 브로드컴 사장 겸 CEO와 순차적으로 면담을 가질 예정이다. 우리 측에서는 이재용 삼성전자 회장, 최태원 SK그룹 회장, 정의선 현대자동차그룹 회장, 이해진 네이버 의장 등이 참석한다.김 실장은 이 행사에서 발표될 투자",
-      "u": "https://www.donga.com/news/Politics/article/all/20260724/134361954/2",
-      "m": "07. 24. PM 12:19",
-      "ts": 1784895540000,
-      "fullText": "조혜선 기자 구독"
+      "s": "전자신문",
+      "t": "李대통령, 샌프란시스코로 …AI 외교 시동",
+      "d": "이재명 대통령과 김혜경 여사가 미국 실리콘밸리와 남미를 잇는 순방길에 올랐다. 이 대통령은 첫 번째 목적지인 실리콘밸리에서 글로벌 빅테크 CEO들과의 연쇄 회동을 시작으로 국내 기업과의 협력 확대, 벤처투자 유치 등에 속도를 낼 계획이다. 이 대통령은 24일 서울공항을 통해 7박 11일 일정의 실리콘밸리·남미 순방을 떠났다. 이 대통령은 24일(현지시간) 오전에 도착해 곧바로 엔비디아·오픈AI·앤트로픽·브로드컴 CEO 등과 만난다. 이후 샌프란",
+      "u": "https://www.etnews.com/20260724000303",
+      "m": "07. 24. AM 07:06",
+      "ts": 1784876817000,
+      "fullText": "정치·정책 정치 李대통령, 샌프란시스코로 …AI 외교 시동 발행일 : 2026-07-24 16:06 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 미국과 남미 순방을 위해 출국하는 이재명 대통령과 김혜경 여사가 24일 성남 서울공항 공군 1호기에서 환송객에게 인사하고 있다. 연합뉴스 이재명 대통령과 김혜경 여사가 미국 실리콘밸리와 남미를 잇는 순방길에 올랐다. 이 대통령은 첫 번째 목적지인 실리콘밸리에서 글로벌 빅테크 CEO들과의 연쇄 회동을 시작으로 국내 기업과의 협력 확대, 벤처투자 유치 등에 속도를 낼 계획이다. 이 대통령은 24일 서울공항을 통해 7박 11일 일정의 실리콘밸리·남미 순방을 떠났다. 이 대통령은 24일(현지시간) 오전에 도착해 곧바로 엔비디아·오픈AI·앤트로픽·브로드컴 CEO 등과 만난다. 이후 샌프란시스코 AI 서밋에 참석해 빅테크 기업들과의 협력 방안을 논의한다. 특히 국내 기업과 빅테크 간의 양해각서(MOU)도 체결되며 이 대통령은 대한민국의 AI 비전을 담은 샌프란시스코 AI선언을 발표할 계획이다. 이번 행사에는 해외 빅테크 기업 CEO는 물론 이재용 삼성전자 회장, 최태원 SK그룹 회장, 정의선 현대차그룹 회장, 이해진 네이버 의장 등이 참석한다. 이날 저녁에는 이들과 함께하는 만찬도 진행한다. 이튿날에는 투자 유치를 위한 활동에 나선다. 이 대통령은 실리콘밸리 벤처캐피털(VC) 6개사 대표와 회동하고 한국 벤처 생태계에 대한 투자를 요청할 계획이다. 이후 이 대통령은 브라질·칠레·아르헨티나 등을 거쳐 급유를 위해 독일로 이동한 뒤 다음 달 3일 귀국한다. 최기창 기자 mobydic@etnews.com",
+      "impact": "positive",
+      "takeaway": "AI 외교 추진으로 국제 협력 강화, LLM 시장 확대 기대"
     },
     {
       "s": "대한민국 정책브리핑",
@@ -44,7 +94,9 @@
       "m": "07. 24. AM 06:24",
       "ts": 1784874278000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "정부의 에이전틱 AI 지원으로 생태계 조성, 테마 성장 촉진"
     },
     {
       "s": "TechCrunch",
@@ -53,7 +105,9 @@
       "u": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
       "m": "07. 24. AM 01:00",
       "ts": 1784854800000,
-      "fullText": "For months, AI giants have devised special vetted programs and strict guardrails to limit the use of their models by malicious hackers. But these limits are now hindering the work of legitimate network defenders, as well as that of offensive cybersecurity researchers. In June, the U.S. government slapped export control restrictions on Anthropic’s much-hyped AI models Mythos and Fable. The move was prompted at least in part by a report that claimed it was possible to bypass the models’ guardrails designed to prevent users from using them to build and execute malicious cyberattacks. Regardless of whether the incident was really motivated by fears of a jailbreak , the fact is that Anthropic has repeatedly marketed Mythos as some kind of doomsday cybermachine that can only be given to carefully vetted users, and even then with strict guardrails in place. (The export controls on Fable 5 and Mythos 5 have since been lifted. Fable 5 returned to general access on July 1; Mythos 5 has been reintroduced only to vetted U.S. organizations as part of the government&#8217;s review process.) That kind of gatekeeping isn&#8217;t unique to Mythos. Both Anthropic, with its other models, and OpenAI offer cybersecurity researchers programs they can apply to get vetted and — if approved — access models with fewer cybersecurity restrictions: OpenAI&#8217;s Trusted Access for Cyber program and Anthropic&#8217;s Cyber Verification Program . These guardrails have been widely criticized, particularly by researchers whose job is to find unknown vulnerabilities in systems and devise ways to exploit them before criminals do. During a recent appearance on a cybersecurity podcast, Mark Dowd, a well-known security researcher, said that, “it&#8217;s not really comfortable to me that these random large companies are making arbitrary decisions about what is safe in security and what&#8217;s not.” Dowd has spent decades finding and selling &#8220;zero-days&#8221; — previously unknown software flaws an"
+      "fullText": "For months, AI giants have devised special vetted programs and strict guardrails to limit the use of their models by malicious hackers. But these limits are now hindering the work of legitimate network defenders, as well as that of offensive cybersecurity researchers. In June, the U.S. government slapped export control restrictions on Anthropic’s much-hyped AI models Mythos and Fable. The move was prompted at least in part by a report that claimed it was possible to bypass the models’ guardrails designed to prevent users from using them to build and execute malicious cyberattacks. Regardless of whether the incident was really motivated by fears of a jailbreak , the fact is that Anthropic has repeatedly marketed Mythos as some kind of doomsday cybermachine that can only be given to carefully vetted users, and even then with strict guardrails in place. (The export controls on Fable 5 and Mythos 5 have since been lifted. Fable 5 returned to general access on July 1; Mythos 5 has been reintroduced only to vetted U.S. organizations as part of the government&#8217;s review process.) That kind of gatekeeping isn&#8217;t unique to Mythos. Both Anthropic, with its other models, and OpenAI offer cybersecurity researchers programs they can apply to get vetted and — if approved — access models with fewer cybersecurity restrictions: OpenAI&#8217;s Trusted Access for Cyber program and Anthropic&#8217;s Cyber Verification Program . These guardrails have been widely criticized, particularly by researchers whose job is to find unknown vulnerabilities in systems and devise ways to exploit them before criminals do. During a recent appearance on a cybersecurity podcast, Mark Dowd, a well-known security researcher, said that, “it&#8217;s not really comfortable to me that these random large companies are making arbitrary decisions about what is safe in security and what&#8217;s not.” Dowd has spent decades finding and selling &#8220;zero-days&#8221; — previously unknown software flaws an",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "지티티코리아",
@@ -63,7 +117,9 @@
       "m": "07. 23. PM 10:30",
       "ts": 1784845800000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "기업이 LLM 직접 제어·규제 완화로 AI 앱 도입이 쉬워져 테마에 긍정적"
     },
     {
       "s": "TechCrunch",
@@ -73,24 +129,6 @@
       "m": "07. 23. PM 07:00",
       "ts": 1784833200000,
       "fullText": "Weeks after OpenAI rolled out a new family of conversational models and updated ChatGPT&#8217;s voice mode , rival Anthropic is making its move to make Claude more voice-friendly with a new update. The company said Thursday that users can choose between Opus, Sonnet, and Haiku models. Claude&#8217;s voice mode, which was released last year and powered by the Haiku model, provided quick responses, but wasn&#8217;t well suited for complex work. The company said that with the new update, voice mode picks the last model people used in the text chat and uses its fastest version by default. Anthropic said that the new voice mode can help users with longer conversations, including providing feedback on their communication style, talking through a pitch to a client, and brainstorming product market research. Image Credits: Anthropic What&#8217;s more, Claude&#8217;s voice mode can tap into other apps like Gmail, Google Calendar, Slack, Canva, and Notion. This means that users can ask it to update a meeting slot, draft an email, or create a document in Notion. Notably, this is a big difference from OpenAI&#8217;s voice mode, which updated its conversational style but still isn&#8217;t able to use different tools to get work done. Image Credits: Anthropic Earlier this year, Anthropic added multilingual support to Claude&#8217;s voice mode in beta. It said that now users can talk in various languages, but they have to manually specify the language. At the moment, Anthropic supports English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Portuguese (Brazilian), and Spanish (Latin America/Spain). The new voice mode is available to all users in beta across platforms. However, free users will be restricted to using the Haiku model with only one connected app. Anthropic didn&#8217;t make any changes to the voice model with this release, and it hasn&#8217;t detailed what kind of voice stack it uses. That means, unlike OpenAI&#8217;s release, users might not find any c"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-      "d": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
-      "u": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "m": "07. 23. PM 06:38",
-      "ts": 1784831914000,
-      "fullText": "Hackers are increasingly using AI to launch attacks on a massive scale, with email emerging as a primary target. AI can quickly aggregate personal information — such as information about co-workers, active projects, and recent travel itineraries — allowing bad actors to instantly craft convincing messages that look authentic. Last year, former Google security executives Cy Khormaee and Ryan Luo, who previously worked on developing safe browsing technology and reCAPTCHA, teamed up to launch AegisAI, a startup that uses AI agents to stomp out these threats, known as spear phishing. With a decade of experience preventing email hacks, the AegisAI co-founders realized that existing rule-based systems for preventing hacks — relying on &#8220;if-then&#8221; logic — are too slow and limited to catching AI-crafted malicious emails. So they developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch. Less than a year after its launch, AegisAI says its tech has been adopted by dozens of customers, including crypto payments company Mesh, AI startup LangChain, and privacy compliance platform Lokker. That demand has just helped AegisAI raise a $36 million Series A led by Battery Ventures, with participation from existing backers Accel and Foundation Capital. The fresh funding brings the startup’s total capital to $49 million . “AI-powered attacks bypass existing controls more than half the time now, which means they&#8217;re almost twice as effective as they used to be,” Khormaee told TechCrunch. “They’ve researched you, they understand everything about you, and they&#8217;re targeting attacks that are perfectly bespoke to you.” Khormaee claims that AegisAI&#8217;s agents can spot threats traditional email security systems may miss entirely. For instance, the startup’s AI can catch malicious PDF attachments that look legitimate at first, including ones with built-in passwords and"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI makes ChatGPT Health available to all US users",
-      "d": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
-      "u": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
-      "m": "07. 23. PM 05:00",
-      "ts": 1784826000000,
-      "fullText": "OpenAI said today it is making ChatGPT Health, a feature that helps users with health-related queries, available to all U.S.-based users over 18 across all plans. The announcement comes a day after a Florida-based pastor sued the company for giving a near-fatal suggestion not to consult a doctor . The company started testing the feature through a dedicated hub earlier in January, allowing users to integrate data from other services and their personal information from services such as Apple Health, Function, and MyFitnessPal. At that time, OpenAI said users were asking 230 million health-related queries each week. That number has now gone up to 300 million. ChatGPT health Image Credits: OpenAI Users can also integrate their medical records from hospital systems like Epic and Oracle Health, and health platforms like One Medical and Function Health. OpenAI said earlier that users needed to use the health hub for health-related queries. Now they can choose to draw insights from connected information in the health section in all queries. The company said during the testing it observed that 70% of health-related queries took place outside the dedicated hub. Through this new feature, users can use their health information to get information on food or allergies in the general chat. The company noted that its models have made progress in answering health-related queries. The company noted that the smallest model from its latest release, GPT 5.6-Luna, outperforms GPT 5.5 on HealthBench evaluation, an open source benchmark developed by the company to evaluate large language models (LLMs) on health queries . OpenAI said that it doesn&#8217;t use any user data to train its model, and it works with physicians to improve its models on health queries. Despite these performance gains, the company maintains in its terms that its services are &#8220;not intended for use in the diagnosis or treatment of any health condition.&#8221; The company cited these clauses in response to the ab"
     },
     {
       "s": "한국공공정책신문",
@@ -119,7 +157,7 @@
       "u": "https://www.nbcnews.com/video/openai-says-its-ai-models-went-rogue-and-hacked-another-tech-company-during-test-267120709788",
       "m": "07. 22. PM 09:55",
       "ts": 1784757351000,
-      "fullText": "‘Spider-Man’ helps someone cross the street"
+      "fullText": "LeBron James signs with the Philadelphia 76ers"
     },
     {
       "s": "서울경제",
@@ -198,6 +236,16 @@
       "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04cHRHd19sOFQ1ZUZKVTVadlVKNkZtUGh2ZjZhUElHZ1JBd0ZadjVDcXM5WlBycGZxeGdJLXAxeTBkcUJ0c3c5cWdKNlZCcFk?oc=5",
       "m": "07. 22. AM 03:34",
       "ts": 1784691278000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "NK경제",
+      "t": "과기정통부 ‘인공지능(AI) 에이전트 시대의 생존 매뉴얼’ 발간",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HMnZLbEx3amxHTlhPajNPUlVSQkZraXpHWGhVTGtnbHFVSkxPb202QWI3RVhCVGtfWmlkcTN6STRjRkRBVzZyb1dWcXI2QWQwSHdEOExnUXJOZXRjbDlyZGRyQkV0UXZneGs40gFuQVVfeXFMTWhfajNvSVEzSGZ6bmhPc3c4UlBjSGdkbGlPemEwNS1CT1BMcFF3bkczNjJ1cTdiTGRCUWNLWGt6SkpJU1NfbGJNYlB2anlZN3hfbDhLVExVSUlESUZhRmM2enRMUEQzMy1NT1BGeVE?oc=5",
+      "m": "07. 22. AM 03:22",
+      "ts": 1784690573000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -342,16 +390,6 @@
     },
     {
       "s": "지티티코리아",
-      "t": "AI 데이터 품질부터 환각·에이전트 추론 실패까지 30개 자동 검사로 지속 검증",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tREdvcHFtLVJLVURZcGVYbXJKQ09fTFRFNkRrX0c0dGF3OXd2eWFZbzhWRlk3QUZHLXdFUU1yU1h4QjVpUlg3dFJtRnc4QjRNbXZ4SEtqN1JyT0ZfdXQ4LU12VUQweVZXNmc?oc=5",
-      "m": "07. 20. PM 04:00",
-      "ts": 1784563200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지티티코리아",
       "t": "AI 에이전트 고위험 행동 실행 전 차단...프롬프트·의도까지 실시간 분석",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxMFh4SjF5Z09ibVA3VUxDQWtsbFI1U1VyelM4Y0FwMGM5RzFmc3RZZF9SY24xajY4aHNfa1dRZVNZdV8ya2pidDNpMU00djRYTkZBalFOeHVOVjk1ZjB2LUFTVTNYcmdRRGc?oc=5",
@@ -377,26 +415,6 @@
       "m": "07. 17. PM 03:00",
       "ts": 1784300414000,
       "fullText": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era. July 17, 2026 by Kirthi Develeker 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to a prompt, an agentic model must plan, use different tools and recover from problems it encounters mid-run. That’s why post-training, the phase that refines a model after initial training on raw data, is no longer a one-time finishing step. It’s continuous, because the environment that agentic models operate in shifts fast. The tools an agent uses can change week to week. Edge cases surface in production that no test set anticipated. Each deployment brings its own codebase, policies and environment. Post-training runs loop back from production as new problems surface. The compute footprint grows not because any single run is larger, but because the runs never stop. Agentic AI introduces a new compute pattern for post-training, making it the central workload of the agentic era and the primary driver of intelligence per dollar. The goal of post-training is to maximize intelligence per dollar by maximizing the yield of every forward and backward pass in the continuous learning cycle. The forward pass — inference — is measured in cost per token . That means that every improvement to cost per token flows directly into intelligence per dollar. Agentic Post-Training Demystified Post-training is where intelligence is built. In pre"
-    },
-    {
-      "s": "대한민국 정책브리핑",
-      "t": "정부, 550조 AI 데이터센터 투자 견인…'1인 1 AI 에이전트' 시대 연다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UaTBhRTVjQ2pKZHJua0dyaHJOZzJRMkFmaU1SOE9MYldPRkhHMHhrX3BaaS1oN3RjZUFqNDhVM0Q4aWN1cS1VOGx5bGtEd1g3cmY5Y2V3bVZnczNud0I4SHB6bW0xYUltOUZpOQ?oc=5",
-      "m": "07. 16. AM 06:38",
-      "ts": 1784183917000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "이코노미사이언스",
-      "t": "한컴, 유럽형 '소버린 에이전틱 OS' 개발 본격화…EU AI 규제 대응 경쟁력 강화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RTGJTUEUxZHA1QXV0RFpmazVqb1RXUnp4UUF4QzhRSTBSN0lNODU3dkZyd013ck03UU5DWWx0c3VJdkhJR25vS3I1TWtGWWNucVVpUUJDNE1WYy1WVG5uc3NpcWx2ZEZaeHBkdkJHYw?oc=5",
-      "m": "07. 15. AM 06:19",
-      "ts": 1784096347000,
-      "_policy": true,
-      "fullText": "Google News"
     }
   ]
 }

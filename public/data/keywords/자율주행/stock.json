@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T10:27:26.726Z",
+  "updatedAt": "2026-07-27T13:26:39.940Z",
   "data": {
     "TSLA": {
       "name": "테슬라",
@@ -60,6 +60,69 @@
         "high52w": 498.83,
         "low52w": 297.82,
         "volume": 62648724
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "GOOGL": {
+      "name": "알파벳(구글)",
+      "px": 319.74,
+      "dayChange": 0.65,
+      "periodChange": -6.97,
+      "prices": [
+        343.71,
+        337.39,
+        353.65,
+        357.37,
+        361.21,
+        359.91,
+        366.46,
+        367.03,
+        361.92,
+        358.89,
+        357.18,
+        352.51,
+        359.51,
+        370.92,
+        354.46,
+        346.77,
+        351.99,
+        347.15,
+        342.09,
+        317.69,
+        319.74
+      ],
+      "dates": [
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24"
+      ],
+      "volume": 31766773,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 408.61,
+        "low52w": 187.82,
+        "volume": 31766773
       },
       "investorFlow": null,
       "consensus": null
@@ -127,41 +190,39 @@
       "investorFlow": null,
       "consensus": null
     },
-    "GOOGL": {
-      "name": "알파벳(구글)",
-      "px": 319.74,
-      "dayChange": 0.65,
-      "periodChange": -6.97,
+    "005380": {
+      "name": "현대차",
+      "px": 403000,
+      "dayChange": 0.5,
+      "periodChange": -18.91,
       "prices": [
-        343.71,
-        337.39,
-        353.65,
-        357.37,
-        361.21,
-        359.91,
-        366.46,
-        367.03,
-        361.92,
-        358.89,
-        357.18,
-        352.51,
-        359.51,
-        370.92,
-        354.46,
-        346.77,
-        351.99,
-        347.15,
-        342.09,
-        317.69,
-        319.74
+        497000,
+        495000,
+        487500,
+        482000,
+        492000,
+        502000,
+        479500,
+        462500,
+        445500,
+        457500,
+        444000,
+        424500,
+        434000,
+        425000,
+        399000,
+        399000,
+        418000,
+        432000,
+        401000,
+        403000
       ],
       "dates": [
-        "2026-06-25",
-        "2026-06-26",
         "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
+        "2026-07-03",
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
@@ -171,23 +232,118 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17",
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
         "2026-07-23",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-27"
       ],
-      "volume": 31766773,
-      "currency": "USD",
+      "volume": 591820,
+      "currency": "KRW",
       "state": "CLOSED",
-      "market": "US",
+      "market": "KR",
       "fundamentals": {
-        "high52w": 408.61,
-        "low52w": 187.82,
-        "volume": 31766773
+        "marketCap": "82조 5,174억",
+        "per": "12.42배",
+        "pbr": "0.88배",
+        "cnsPer": "10.54배",
+        "divYield": "2.48%",
+        "foreignRatio": "25.00%",
+        "high52w": "787,000",
+        "low52w": "207,000",
+        "consensus": {
+          "targetMean": 732000,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "4.00",
+          "earningsDate": null,
+          "source": "naver"
+        }
       },
-      "investorFlow": null,
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260727",
+            "foreigner": -38478,
+            "institution": 9453,
+            "individual": 30229,
+            "foreignRatio": "24.98%"
+          },
+          {
+            "date": "20260724",
+            "foreigner": -191290,
+            "institution": -185803,
+            "individual": 371096,
+            "foreignRatio": "25.00%"
+          },
+          {
+            "date": "20260723",
+            "foreigner": 48177,
+            "institution": -37299,
+            "individual": -9635,
+            "foreignRatio": "25.15%"
+          },
+          {
+            "date": "20260722",
+            "foreigner": 107658,
+            "institution": 27289,
+            "individual": -135277,
+            "foreignRatio": "25.15%"
+          },
+          {
+            "date": "20260721",
+            "foreigner": -41054,
+            "institution": -14395,
+            "individual": 58096,
+            "foreignRatio": "25.07%"
+          },
+          {
+            "date": "20260720",
+            "foreigner": -88385,
+            "institution": 104223,
+            "individual": -17564,
+            "foreignRatio": "25.09%"
+          },
+          {
+            "date": "20260716",
+            "foreigner": 102350,
+            "institution": -62955,
+            "individual": -37521,
+            "foreignRatio": "25.17%"
+          },
+          {
+            "date": "20260715",
+            "foreigner": 72920,
+            "institution": -71128,
+            "individual": 265,
+            "foreignRatio": "25.13%"
+          },
+          {
+            "date": "20260714",
+            "foreigner": 6835,
+            "institution": 88448,
+            "individual": -73714,
+            "foreignRatio": "25.08%"
+          },
+          {
+            "date": "20260713",
+            "foreigner": 85452,
+            "institution": 25664,
+            "individual": -107436,
+            "foreignRatio": "25.07%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": -114987,
+          "institution": -200755
+        },
+        "sum10d": {
+          "foreigner": 64185,
+          "institution": -116503
+        }
+      },
       "consensus": null
     },
     "012330": {
@@ -501,162 +657,6 @@
         }
       },
       "consensus": null
-    },
-    "005380": {
-      "name": "현대차",
-      "px": 403000,
-      "dayChange": 0.5,
-      "periodChange": -18.91,
-      "prices": [
-        497000,
-        495000,
-        487500,
-        482000,
-        492000,
-        502000,
-        479500,
-        462500,
-        445500,
-        457500,
-        444000,
-        424500,
-        434000,
-        425000,
-        399000,
-        399000,
-        418000,
-        432000,
-        401000,
-        403000
-      ],
-      "dates": [
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-03",
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27"
-      ],
-      "volume": 591820,
-      "currency": "KRW",
-      "state": "CLOSED",
-      "market": "KR",
-      "fundamentals": {
-        "marketCap": "82조 5,174억",
-        "per": "12.42배",
-        "pbr": "0.88배",
-        "cnsPer": "10.54배",
-        "divYield": "2.48%",
-        "foreignRatio": "25.00%",
-        "high52w": "787,000",
-        "low52w": "207,000",
-        "consensus": {
-          "targetMean": 732000,
-          "targetHigh": null,
-          "targetLow": null,
-          "analysts": null,
-          "recommendation": "4.00",
-          "earningsDate": null,
-          "source": "naver"
-        }
-      },
-      "investorFlow": {
-        "items": [
-          {
-            "date": "20260727",
-            "foreigner": -38478,
-            "institution": 9453,
-            "individual": 30229,
-            "foreignRatio": "24.98%"
-          },
-          {
-            "date": "20260724",
-            "foreigner": -191290,
-            "institution": -185803,
-            "individual": 371096,
-            "foreignRatio": "25.00%"
-          },
-          {
-            "date": "20260723",
-            "foreigner": 48177,
-            "institution": -37299,
-            "individual": -9635,
-            "foreignRatio": "25.15%"
-          },
-          {
-            "date": "20260722",
-            "foreigner": 107658,
-            "institution": 27289,
-            "individual": -135277,
-            "foreignRatio": "25.15%"
-          },
-          {
-            "date": "20260721",
-            "foreigner": -41054,
-            "institution": -14395,
-            "individual": 58096,
-            "foreignRatio": "25.07%"
-          },
-          {
-            "date": "20260720",
-            "foreigner": -88385,
-            "institution": 104223,
-            "individual": -17564,
-            "foreignRatio": "25.09%"
-          },
-          {
-            "date": "20260716",
-            "foreigner": 102350,
-            "institution": -62955,
-            "individual": -37521,
-            "foreignRatio": "25.17%"
-          },
-          {
-            "date": "20260715",
-            "foreigner": 72920,
-            "institution": -71128,
-            "individual": 265,
-            "foreignRatio": "25.13%"
-          },
-          {
-            "date": "20260714",
-            "foreigner": 6835,
-            "institution": 88448,
-            "individual": -73714,
-            "foreignRatio": "25.08%"
-          },
-          {
-            "date": "20260713",
-            "foreigner": 85452,
-            "institution": 25664,
-            "individual": -107436,
-            "foreignRatio": "25.07%"
-          }
-        ],
-        "sum5d": {
-          "foreigner": -114987,
-          "institution": -200755
-        },
-        "sum10d": {
-          "foreigner": 64185,
-          "institution": -116503
-        }
-      },
-      "consensus": null
     }
   },
   "benchmark": {
@@ -731,8 +731,8 @@
     "DRIV": {
       "name": "Global X Autonomous & Electric ",
       "px": 33.448,
-      "dayChange": -2.6,
-      "periodChange": -12,
+      "dayChange": -4.52,
+      "periodChange": -9.66,
       "prices": [
         38.01,
         37.05,
@@ -753,8 +753,7 @@
         33.79,
         35,
         35.03,
-        34.34,
-        33.45
+        34.34
       ],
       "dates": [
         "2026-06-25",
@@ -776,8 +775,7 @@
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23",
-        "2026-07-24"
+        "2026-07-23"
       ],
       "volume": 19001,
       "currency": "USD",

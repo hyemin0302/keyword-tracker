@@ -1,14 +1,36 @@
 {
-  "updatedAt": "2026-07-27T19:24:53.509Z",
+  "updatedAt": "2026-07-27T20:55:14.058Z",
   "count": 40,
   "stats": {
-    "today": 15,
-    "yesterday": 1,
-    "weekAvg": 5.3,
-    "sources": 27,
+    "today": 17,
+    "yesterday": 0,
+    "weekAvg": 5.4,
+    "sources": 29,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+      "d": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+      "u": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+      "m": "07. 27. PM 08:19",
+      "ts": 1785183582000,
+      "fullText": "An untold number of Claude chats and Artifacts — the interactive mini apps and documents users can build inside Claude — were found publicly searchable on Google over the weekend, after Reddit users discovered that typing search operators like &#8220;site:claude.ai/share&#8221; into Google surfaced a long list of shared conversations. Some reportedly contained health records, private company documents, and the names and phone numbers of children. The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project. “Anyone with the link can view,” warns Claude’s interface. The language clearly implies that the feature is mainly intended to allow users to share their chats with friends, colleagues, and small groups — not the whole internet. Google Docs, for example, offers a similar feature and those documents don’t end up publicly accessible on Google. A screenshot of Claude’s “share chat” feature, when the user chooses the “Keep private” option. Image Credits: Screenshot/TechCrunch A screenshot of Claude’s “share chat” feature, when the user chooses the “Create public link” option. Image Credits: Screenshot/TechCrunch Anthropic appeared to blame users for the exposure. When asked about what happened, the company told TechCrunch that share links only appear in search results when they&#8217;ve been posted somewhere search engines can see, like a forum or social media post; it added that a link sent privately to someone stays out of search. Spokeswoman Amie Rotherham added in an explainer that: “We give people control over sharing their Claude conversations publicly, and in keeping with our privacy principles, we do not share chat directories or sitemaps with search engines like Google. These shareable links are not guessable or discoverable unless people choose to share them themselves. When someone shares a conversation, they are making that content public",
+      "impact": "neutral",
+      "takeaway": "데이터 유출 논란이 LLM 경쟁에 직접적 영향은 제한적"
+    },
+    {
+      "s": "동아일보",
+      "t": "엔비디아, 네이버 3대 주주 오른다… 한미 ‘AI 생태계 동맹’ 결속력 강화",
+      "d": "미국 엔비디아가 지분 인수를 통해 네이버의 3대 주주가 된다. 엔비디아는 또 미국 오픈AI의 초대형 데이터센터 건립에도 2500억 달러(약 345조 원) 규모 재정 보증을 서기로 했다. 막대한 자금력을 앞세워 자사 그래픽처리장치(GPU)를 사 줄 ‘미래 고객’을 키우는 엔비디아의 전략이 향후 한미 ‘인공지능(AI) 연합’의 결속력을 더욱 높일 수 있다는 관측이 나온다. 네이버는 엔비디아와 글로벌 대체투자사 브룩필드로부터 각각 10억 달러와 90억 달러, 총 100억 달러(약 14조6000억 원) 규모의 AI 인프라 투자·공급 계약을 유치했다고 27일 밝혔다. 엔비디아는 제3자 배정 유상증자에 참여해 네이버 지분 4.5%를 취득한다. 지난해 말 기준 국민연금(9.25%)과 블랙록(6.12%)에 이은 3대 주주",
+      "u": "https://www.donga.com/news/Economy/article/all/20260728/134375547/2",
+      "m": "07. 27. PM 07:30",
+      "ts": 1785180600000,
+      "fullText": "김재형 기자 구독",
+      "impact": "positive",
+      "takeaway": "엔비디아와 네이버 협력으로 AI 에이전트 생태계 확대 기대"
+    },
     {
       "s": "TechCrunch",
       "t": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
@@ -18,7 +40,7 @@
       "ts": 1785177131000,
       "fullText": "Microsoft on Monday launched its first cybersecurity-specialized model alongside a new AI cybersecurity platform at a small event in San Francisco, taking a big swipe at major players in the space — namely Anthropic, Google, and OpenAI. The company describes MAI-Cyber-1-Flash as a model that&#8217;s built &#8220;to find challenging vulnerabilities in complex codebases.&#8221; The model is built to animate MDASH, Microsoft&#8217;s harness dedicated to software vulnerability identification and remediation. The new security platform is dubbed Perception, and it&#8217;s designed to deploy teams of agents to assist with and automate various security workflows, including identifying and remediating bugs. The platform can also integrate with MDASH. The company claims MAI-Cyber-1-Flash is significantly more powerful (and more cost-effective) than competitor models, based on its performance on an established AI cybersecurity benchmark. &#8220;We&#8217;re very very excited to announce our results,&#8221; said Mustafa Suleyman, the co-founder of DeepMind and current CEO of Microsoft AI. &#8220;We have MAI-1 Cyber Flash binded [sic] with GPT 5.4 inside of the MDASH harness — which beats out Gemini, GPT 5.5 Cyber, GPT 5.6 Sol, and Mythos 5 on Cyber Gym, which is the primary benchmark that we all use. The golden benchmark.&#8221; &#8220;We&#8217;re shipping this into production immediately,&#8221; he added. Noting that hackers are increasingly using AI in their cyberattacks, Hayete Gallot, Microsoft&#8217;s vice president for security, described Perception as a way for enterprise defenders to &#8220;defend against AI with AI at the scale and speed that the attackers have.&#8221; Perception uses agentic red teams, blue teams, and green teams. The red teams can provide detailed simulations of potential attacks — providing context about potential threat actors and the likely vulnerabilities that they might exploit. Blue teams are dedicated to detecting and triaging existing bugs, wh",
       "impact": "positive",
-      "takeaway": "마이크로소프트가 에이전트형 사이버보안 모델을 출시해 AI 에이전트 적용 범위가 확대될 전망"
+      "takeaway": "마이크로소프트의 사이버 보안 에이전트 모델이 AI 활용 범위 확대"
     },
     {
       "s": "kcemedia.com",
@@ -30,7 +52,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "거버넌스 부재로 기업의 AI 에이전트 도입 위험이 커져 투자 매력도 감소"
+      "takeaway": "거버넌스 부재가 기업 AI 에이전트 도입 위험을 증대"
     },
     {
       "s": "유스연합",
@@ -42,7 +64,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "통제 준비 미비가 AI 에이전트 도입을 위협해 시장 불확실성을 높인다"
+      "takeaway": "통제 미비가 AI 에이전트 확산에 규제 리스크를 초래"
     },
     {
       "s": "TechCrunch",
@@ -53,7 +75,7 @@
       "ts": 1785173322000,
       "fullText": "Last week, an unreleased model built by OpenAI breached Hugging Face’s systems during internal testing, and a lot of theoretical research suddenly became very practical. The hack was the first verifiable case of an AI lab losing control of its own model, chaining together exploits to gain access it never should have had. But while the AI industry has been united in its alarm, a split has emerged in how researchers want to respond. For some, the problem is a basic cybersecurity issue: The sandbox failed to contain the model, and Hugging Face’s cybersecurity systems failed to keep it out. Those problems can be solved by patching bugs and building more robust control and containment methods for increasingly capable AI that is prone to go rogue in autonomous environments. But another camp takes a more pessimistic view. For them, AI’s rapidly increasing capabilities mean that trying to control rogue models is a losing game. The only robust security comes from making sure the models aren’t trying to escape in the first place — a challenge often referred to as alignment. In alignment terms, the problem is that OpenAI’s model was trying to cheat, and solving that problem is more urgent than short-term containment efforts. Judging by its public statements, OpenAI is taking both camps seriously. The company has rushed to patch the bugs involved in the hack, and it referenced both alignment and monitoring approaches in its statement after the breach became public. But the company’s response also suggests a philosophy that has left many safety researchers alarmed: Rather than slowing down or stopping the development of more capable models, it should instead focus on building stronger cages around them. “As models take on longer and more complex tasks, failures that evaluations miss may carry greater consequences,” OpenAI said in a postmortem of the incident . “We will keep working to narrow the gap between evaluation and deployment: testing models over longer trajectories, impr",
       "impact": "negative",
-      "takeaway": "보안 침해와 정렬 논쟁이 LLM·AI 에이전트 신뢰성을 약화시켜 투자 위험을 증가"
+      "takeaway": "보안 침해로 LLM 정렬·통제 문제 인식이 강화"
     },
     {
       "s": "한국경제",
@@ -62,9 +84,9 @@
       "u": "https://www.hankyung.com/article/202607289210i",
       "m": "07. 27. PM 04:07",
       "ts": 1785168465000,
-      "fullText": "글로벌마켓 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 엔비디아의 오픈AI 지급보증에 다시 불거진 'AI순환금융' 입력 2026.07.28 01:07 수정 2026.07.28 01:07 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김정아 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. &quot;데이터센터 임차비 367조원 보증에 GPU구매 513조원 지원&quot; SK와의 5천억달러 프로젝트도 같이 'AI순환금융' 거론 사진=REUTERS 엔비디아가 오픈AI에 거액의 자금 보증을 하는 방안과 관련, 시장에서 AI 순환 금융(AI Circular Financing)이라는 지적이 또 다시 나오고 있다. 특히 여전히 적자 규모가 큰 오픈AI의 데이터센터 컴퓨팅 사용에 2,500억달러의 지급 보증 추진이 보도되면서 우려가 커지고 있다. AI회의론자들은 지난 몇 년간 엔비디아가 오픈AI와 앤스로픽 같은 AI기업과 코어위브, 네비우스 등의 데이터센터 관련 기업들에 투자하는 것이 업계 전반의 수요와 기업 가치를 인위적으로 부풀린다고 지적해왔다. 27일(현지시간) 월스트리트저널과 블룸버그 등에 따르면 엔비디아는 소프트뱅크가 오하이오에 건설중인 10기가와트(GW) 규모의 데이터센터를 오픈AI가 임차하도록 최대 2,500억달러(약 367조원)를 보증하는 방안을 논의중이다. 또 오픈AI가 엔비디아 GPU를 구매할 수 있도록 3,500억달러(약 513조원) 규모의 금융을 제공하는 방안도 검토하고 있다. 협상은 초기 단계이며 결렬되거나 자금 조달 조건이 변경될 수 있다고 소식통들은 덧붙였다. 글로벌 X 매니지먼트의 투자 전략가인 빌리 렁 은 &quot;엔비디아가 오픈AI의 데이터센터 부채에 대한 추가 보증을 제공한다는 것은 AI 구축에 대한 수요 신호인 동시에 자금난을 상기시키는 것&quot;이라고 지적했다. 엔비디아가 오픈AI에 자금을 지원하는 것은 이 AI 회사의 끊임없는 컴퓨팅 수요를 충족하기 위해 수익성이 없는 기업에 자금을 지원하는데 대한 채권자들의 우려를 해소하는데는 도움이 될 수 있다. 그러나 엔비디아에는 부담이 될 수 있다. 소프트뱅크의 수익 대부분은 오픈AI의 기업 가치 상승과 향후 대규모 기업공개(IPO) 전망에 달려 있다. 소프트뱅크는 10월까지 오픈AI에만 약 650억 달러를 투자하기로 했고, 투자 자금 조달을 위해 아시아 태평양 지역 사상 최대 규모 중 하나인 400억 달러 규모의 브릿지론 계약도 체결했다. 그러나 소프트뱅크가 경영권 장악력이 제한적인 기업에 대한 오픈AI에 투자를 확대할수록 소프트뱅크 투자자들은 불안해진다. 투자자들이 특히 우려하는 것은 엔비디아가 오픈AI등에 돈을 빌려주고 그 돈으로 다시 엔비디아 칩을 사는 구조이다. 엔비디아 입장에서는 투자나 금융투자, 지분투자 모두 엔비디아의 GPU 수요 증가로 이어질 수 있다. 그러나 투자자들은 AI 회사들이 자체 자금이 아니라 엔비디아 지원을 받아 GPU를 구매하면 GPU 수요가 과대평가될 가능성이 있다고 말한다. 마이클 버리를 포함한 비평가들은 엔비디아가 자금을 지원하고 지분을 투자하는 기업들이 대개 엔비디아의 칩을 구매하거나 사용함으로써 순환적 계약이라고 지적했다. 이 같은 거래가 인공지능에 대한 수요가 높은 기대치를 충족하지 못할 경우 손실을 확대할 수 있다는 비판이다. 젠슨 황 엔비디아 최고경영자(CEO). 사진=AFP연합뉴스 이에 앞서 엔비디아는 지난 주 금요일 SK그룹과 5천억달러 규모의 AI프로젝트도 발표했다. 하이닉스의 모회사인 SK그룹과 협력해 한국에 2기가와트(GW) 이상의 AI 데이터센터를 건설하기로 했다. 젠슨 황 CEO는 &quot;양사의 5,000억 달러 사업에는 엔비디아가 SK하이닉스에서 구매하는 HBM과 SK그룹이 엔비디아의 GPU와 슈퍼컴퓨터를 구매하는 금액이 모두 포함됐다고 밝혔다. 즉 실제 현금 투자금이 아니라 장기간 발생할 거래 규모이다. AI데이터센터를 건설중",
-      "impact": "positive",
-      "takeaway": "엔비디아의 OpenAI 보증이 AI 모델 개발 자금을 확보해 에이전트·LLM 성장에 긍정적"
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "엔비디아의 OpenAI 보증이 AI 순환 금융 리스크를 부각"
     },
     {
       "s": "조선일보",
@@ -74,8 +96,8 @@
       "m": "07. 27. PM 03:46",
       "ts": 1785167160000,
       "fullText": "",
-      "impact": "positive",
-      "takeaway": "엔비디아의 대규모 보증이 OpenAI의 LLM·AI 에이전트 연구에 자금 흐름을 촉진"
+      "impact": "negative",
+      "takeaway": "대규모 보증으로 AI 자금 흐름 투명성 우려가 커짐"
     },
     {
       "s": "한국경제",
@@ -84,9 +106,9 @@
       "u": "https://www.hankyung.com/article/202607279182i",
       "m": "07. 27. PM 01:34",
       "ts": 1785159257000,
-      "fullText": "글로벌마켓 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 오픈AI '통제 불능' 여파…엔비디아·MS 주도 'AI 동맹' 출범 입력 2026.07.27 22:34 수정 2026.07.27 22:47 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김정아 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. &quot;폐쇄형 모델만으로는 사이버 공격 신속 대응 한계&quot; 현재는 오픈웨이트 모델 상당수가 중국 AI모델 사진=REUTERS 오픈AI의 모델이 통제를 벗어나 미국 스타트업 허깅 페이스에 사이버 공격을 한 여파가 계속되면서 엔비디아와 마이크로소프트 등 기술 대기업이 주도하는 새로운 AI안전 이니셔티브가 출범했다. 27일(현지시간) CNBC 등에 따르면, 엔비디아는 엔비디아와 마이크로소프트,스페이스X 등 수십개 미국과 유럽의 기술기업들이 &lsquo;오픈 시큐어 AI 얼라이언스&rsquo;라는 AI 안전 이니셔티브를 새로 출범시켰다고 블로그를 통해 발표했다. 엔비디아는 성명에서 &quot;오픈 시큐어 AI 얼라이언스는 오픈 기술을 활용해 취약점을 해결하고 공개하기 위해 노력할 것&rdquo;이라며, &quot;최근 발생한 허깅 페이스 보안 사고는 사이버 방어자들이 스스로를 방어하기 위해 개방된 최첨단 에이전트 시스템이 필요하다는 점을 상기시켜 주었다&rdquo;고 밝혔다. 지난주, 스타트업 허깅페이스가 미국 유수의 방어 모델들을 활용했음에도 스스로 방어하지 못한 것으로 드러났다. 이들 모델들이 공격자와 방어자를 구분하지 않는 보안 장치를 갖추고 있었기 때문이다. 허깅페이스는 결국 이 같은 제약에서 자유로운, 자체 호스팅 방식의 오픈 웨이트 중국산 방어 모델을 선택했다. 개방형 모델은 다운로드, 수정 및 자체 호스팅이 가능한 반면, 앤스로픽과 오픈AI가 구축한 AI모델은 폐쇄형 모델로 특정 인프라를 통해서만 접근할 수 있다. 미국내에서는 중국 AI 기업들이 개발한 모델에 대한 접근을 제한해야 한다는 목소리가 커지고 있다. 현재 미국 의원들은 주로 오픈웨이트 모델인 중국산 AI 모델의 확산을 억제하는 방안을 추진중이다. 중국 기업들은 AI학습 비용을 대폭 절감하기 위해 미국의 앞선 AI모델에서 대량으로 출력값을 추출하는 이른바 &lsquo;증류&rsquo;행위를 통해 자신들의 모델을 구축하는 것으로 알려졌다. 지난주 스콧 베선트 미국 재무장관은 미국 기업을 대상으로 불법 복제 공격을 감행하는 중국 기업에 제재를 가하겠다고 경고했다. 미국 외교협회의 중국 및 신흥 기술 담당 선임 연구원인 크리스 맥과이어는 CNBC와의 인터뷰에서 &quot;미국 정부가 중국산 모델에 제한을 가할 가능성이 실제로 있다&rdquo;고 말했다. 그는 이 조치에는 &quot;API를 통한 토큰 구매나 미국 클라우드 기업이 중국 AI모델을 호스팅하고 비용을 청구하는 등의 거래 금지가 포함될 수 있다&rdquo;고 말했다. 그는 &quot;워싱턴에서 벌어지는 논쟁은 오픈소스 생태계가 아닌 중국 기업에 초점을 맞출 것이며 중국의 지적재산권 도용을 용인할지 여부에 대한 논쟁&rdquo;이라고 말했다. 그러나 현재 가장 뛰어난 오픈 소스 모델의 대부분이 중국 기업에서 개발되고 있어 중국 AI기업에 대한 제재에 대한 우려도 제기되고 있다. 지난주 엔비디아, 마이크로소프트,메타, 팰런티어 등 20여개 기업은 정책 입안자들에게 &quot;오픈웨이트 AI 모델에 대한 시기상조적 규제&rdquo;는 피해야 한다고 촉구하는 서한을 발표했다. 이러한 규제는 &quot;경쟁을 저해하거나 혁신을 해외로 몰아갈 수 있다&rdquo;는 것이다. 엔비디아는 &quot;오픈AI의 허깅 페이스 사건이 &#39;실질적인 진실&#39;을 보여줬다&quot;고 밝혔다. 방어자가 자체 인프라에서 고급 AI를 검사, 적용 및 실행할 수 없으면 속도가 가장 중요한 순간에 대응 능력이 제한될 수 밖에 없기 때문이라는 설명이다. 김정아 객원",
+      "fullText": "",
       "impact": "positive",
-      "takeaway": "엔비디아·MS 주도의 AI 동맹 출범이 에이전트·LLM 협업과 시장 확대를 기대하게 함"
+      "takeaway": "AI 동맹 출범이 엔비디아·MS 중심의 에이전트 시장을 촉진"
     },
     {
       "s": "Bloomberg Tech",
@@ -97,7 +119,7 @@
       "ts": 1785149642000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "OpenAI의 아일랜드 확장이 LLM·AI 에이전트 수요 증가와 글로벌 인프라 확대를 시사"
+      "takeaway": "아일랜드 진출로 OpenAI의 LLM 공급 능력과 시장 확대"
     },
     {
       "s": "TechCrunch",
@@ -106,9 +128,7 @@
       "u": "https://techcrunch.com/2026/07/27/europe-got-its-own-tbpn-style-live-show-and-its-already-a-hot-spot-on-a-press-tour/",
       "m": "07. 27. AM 10:00",
       "ts": 1785146400000,
-      "fullText": "The European answer to TBPN is here and ready to go live five days a week, starting July 27. Luke Knight and Ronan Chambers launched the London-based European Technology Network (ETN) last October, breaking down tech trends and news during a two-day-a-week livestream. Right now, the show is livestreamed on X and YouTube and has garnered more than 5 million views. On Monday, the network announced a $1.6 million seed round from top players in the media ecosystem, including Powerhouse Capital, Axel Springer SE (which owns Business Insider and Politico), one of the co-founders of the popular media publication LADbible, and angel investors from OpenAI and DeepMind. With this fresh capital, the network is announcing its largest expansion yet. It’s now moving into a big studio in Kings Cross (where all the hot London AI startups are situated), expanding the team (right now of just eight), launching a newsletter, and, starting today, moving into a five-day-a-week live-show schedule, which will soon see Knight and Chambers interview the likes of George Robson (a partner at Sequoia) and Rishi Sunak (former U.K. prime minister and senior advisor to Anthropic and Microsoft). Speaking to TechCrunch, Knight and Chambers said ETN has already become a hot stop on the press tour for European startups — they’ve spoken to the founder of Synthesia, the CFO of Legora, the founder of Granola, and Kanishka Narayan, the U.K.’s first AI minister. They’ve even had American investors stop by the show when they are in town, including one from Andreessen Horowitz. “ETN was born out of a gaping hole in the industry,” Chambers told TechCrunch. “It’s centered around pace.” He said the current media ecosystem in the U.K. cannot keep up with how fast the tech scene is moving. For example, so far this year, London startups have raised $14.7 billion according to Dealroom. Six companies have raised more than $500 million: Wayve, Superintelligence, ElevenLabs, Recursive, Ineffable Intelligence, and Isom",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
+      "fullText": "The European answer to TBPN is here and ready to go live five days a week, starting July 27. Luke Knight and Ronan Chambers launched the London-based European Technology Network (ETN) last October, breaking down tech trends and news during a two-day-a-week livestream. Right now, the show is livestreamed on X and YouTube and has garnered more than 5 million views. On Monday, the network announced a $1.6 million seed round from top players in the media ecosystem, including Powerhouse Capital, Axel Springer SE (which owns Business Insider and Politico), one of the co-founders of the popular media publication LADbible, and angel investors from OpenAI and DeepMind. With this fresh capital, the network is announcing its largest expansion yet. It’s now moving into a big studio in Kings Cross (where all the hot London AI startups are situated), expanding the team (right now of just eight), launching a newsletter, and, starting today, moving into a five-day-a-week live-show schedule, which will soon see Knight and Chambers interview the likes of George Robson (a partner at Sequoia) and Rishi Sunak (former U.K. prime minister and senior advisor to Anthropic and Microsoft). Speaking to TechCrunch, Knight and Chambers said ETN has already become a hot stop on the press tour for European startups — they’ve spoken to the founder of Synthesia, the CFO of Legora, the founder of Granola, and Kanishka Narayan, the U.K.’s first AI minister. They’ve even had American investors stop by the show when they are in town, including one from Andreessen Horowitz. “ETN was born out of a gaping hole in the industry,” Chambers told TechCrunch. “It’s centered around pace.” He said the current media ecosystem in the U.K. cannot keep up with how fast the tech scene is moving. For example, so far this year, London startups have raised $14.7 billion according to Dealroom. Six companies have raised more than $500 million: Wayve, Superintelligence, ElevenLabs, Recursive, Ineffable Intelligence, and Isom"
     },
     {
       "s": "한경 경제",
@@ -117,9 +137,7 @@
       "u": "https://www.hankyung.com/article/2026072789921",
       "m": "07. 27. AM 09:01",
       "ts": 1785142885000,
-      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 엔비디아, 오픈AI에 2500억달러 보증 추진 입력 2026.07.27 18:01 수정 2026.07.28 01:16 지면 A5 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김주완 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 소프트뱅크 데이터센터 임차료 3500억弗 AI칩 구매금융도 논의 엔비디아가 오픈AI의 미국 대형 데이터센터 프로젝트에 2500억달러(약 366조원) 규모의 금융 보증 제공을 추진한다. 27일 월스트리트저널(WSJ)에 따르면 엔비디아는 오픈AI가 미국 오하이오에 지어지는 10기가와트(GW)급 데이터센터를 빌리는 데 2500억달러 규모 보증을 제공하는 방안을 논의하고 있다. 이 데이터센터는 소프트뱅크의 에너지 자회사 SB에너지가 5000억달러(약 733조원)를 들여 짓는다. 공개된 데이터센터 프로젝트 중 세계 최대 규모다. 엔비디아의 보증은 오픈AI가 낮은 금리로 대규모 자금을 조달하는 마중물 역할을 한다. 적자를 내는 비상장사인 오픈AI는 투자적격 신용등급을 얻지 못해 자체 신용만으로는 대규모 차입이 쉽지 않다. 이번 보증의 범위는 데이터센터 임대와 건설 자금에 한정된다. 데이터센터 내부에 설치될 엔비디아 인공지능(AI) 반도체는 포함되지 않는다. 엔비디아는 별도로 오픈AI의 반도체 구매 자금을 지원하는 방안도 찾고 있다. 추가 지원 규모는 최대 3500억달러(약 513조원)에 이를 것으로 알려졌다. 최근 미국 내 AI 인프라 투자 방식이 변하고 있다는 분석이 나온다. 투자적격 신용등급의 대형 정보기술(IT) 기업이 신용도가 낮은 AI 기업의 차입을 보증하는 이른바 &lsquo;크레디트 래퍼&rsquo;(credit wrapper&middot;신용도 덧씌우기) 방식이 확산하고 있다. 구글도 자체 AI 반도체 판매를 늘리기 위해 앤트로픽의 데이터센터 프로젝트를 비슷한 방식으로 지원했다. 오픈AI는 이번 프로젝트를 통해 처음으로 데이터센터의 직접 임차인이 될 전망이다. 지금은 마이크로소프트(MS)와 아마존, 오라클 등 클라우드 기업 인프라에 의존하고 있다. 최근 오픈AI는 2030년까지 컴퓨팅 인프라 투자 계획을 기존 6000억달러(약 880조원)에서 7500억달러(약 1100조원)로 상향 조정했다. 이번 데이터센터 프로젝트에 필요한 전력은 미국과 일본 간 합의에 따라 일본 기업이 별도로 투자하는 발전 사업을 통해 공급될 예정이다. 지난 3월 하워드 러트닉 미국 상무장관, 크리스 라이트 미국 에너지부 장관, 손정의 소프트뱅크그룹 회장 등은 이 데이터센터 착공식에 참석했다. 김주완 기자 kjwan@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 김주완 기자 한국경제신문 국제부 기자입니다. 이전에 테크 분야를 9년 동안 취재했습니다. 경제부처에선 5년 동안 기사를 썼습니다. ADVERTISEMENT 관련 뉴스 1 1조 자사주도 소각…겹호재에 뛴 네이버 한국경제신문의 투자 전문 유료 플랫폼 &#39;한경 프리미엄9&#39;(www.hankyung.com/premium9)에 실린 기사입니다. &#39;한경 프리미엄9&#39;을 구독하시면 더 많은 주식 투자 기사를 찾... 2026.07.27 18:02 2 HW·SW 다 갖춘 네이버…젠슨 황 '소버린 AI' 선봉장으로 낙점 네이버가 엔비디아를 대상으로 10억달러(약 1조4809억원) 규모 제3자 배정 유상증자를 한다고 27일 공시했다. 엔비디아는 네이버 주식 4.5%(신주 724만1564주)를 취득해 국민연금, 블랙록에 이은 3대주주에... 2026.07.27 17:50 3 AI깐부 맞네…엔비디아, 네이버 3대주주로 네이버가 엔비디아를 대상으로 10억달러(약 1조4809억원) 규모 제3자 배정 유상증자를 한다고 27일 공시했다. 엔비디아는 네이버 주식 4.5%(신",
-      "impact": "positive",
-      "takeaway": "엔비디아의 2500억 달러 보증 추진이 OpenAI LLM·AI 에이전트 개발에 자금 지원을 강화"
+      "fullText": ""
     },
     {
       "s": "매일경제 마켓",
@@ -148,7 +166,7 @@
       "u": "https://www.hankyung.com/article/2026072773261",
       "m": "07. 27. AM 06:50",
       "ts": 1785135023000,
-      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 1시간 만에…오픈AI 새 모델, 50년 수학난제 풀었다 입력 2026.07.27 15:50 수정 2026.07.27 15:50 지면 B3 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 유지희 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 최근 공개 GPT-5.6 솔 울트라 AI 에이전트 64개 동시 가동 수학자들 검증 단계만 남아 AP연합뉴스 인간 수학자들이 반세기 넘게 풀지 못한 난제를 오픈AI의 최신 인공지능(AI) 모델이 1시간 만에 해결해 세상을 놀라게 했다. 독립적인 수학자들의 검증을 통과하면 범용 AI가 장기 미해결 수학 난제의 완전한 증명을 제시한 첫 사례가 될 전망이다. 이선 나이트 오픈AI 연구원은 최근 자신의 엑스(X)를 통해 &ldquo;GPT-5.6 솔(Sol) 울트라가 &lsquo;사이클 이중 덮개 추측(Cycle Double Cover Conjecture)&rsquo;의 증명을 1시간 이내에 완성했다&rdquo;고 밝혔다. 이번에 사용된 GPT-5.6은 오픈AI가 최근 공개한 최신 AI 모델이다. 플래그십 모델인 &lsquo;솔&rsquo;은 복잡한 추론과 연구, 사이버보안, 과학 문제 해결에 특화됐으며, &lsquo;울트라&rsquo; 모드에서는 여러 하위 AI 에이전트가 동시에 작업을 수행한다. 오픈AI는 이번 증명 과정에서 최대 64개의 AI 에이전트를 병렬로 투입했다. 각 에이전트가 서로 다른 방식으로 해법을 탐색하도록 하고, 다른 에이전트의 접근법은 공유하지 않도록 설계했다. 이후 서로의 논리적 허점과 반례를 검증하도록 해 가장 견고한 증명만 남기는 방식이다. 나이트 연구원은 AI에 입력한 프롬프트와 최종 증명도 함께 공개했다. 프롬프트에는 &ldquo;완전한 증명이 존재한다고 가정하고 이를 제시하라&rdquo;고 한 뒤 부분적인 결과나 다른 미해결 문제로의 환원은 인정하지 않는다는 조건을 담았다. 사이클 이중 덮개 추측은 1973년 헝가리 수학자 세케레시 죄르지가 제시한 그래프 이론의 대표 난제다. 다리가 없는 모든 무방향 그래프에서 여러 개의 순환 경로를 조합하면 모든 변을 정확히 두 번씩 포함할 수 있다는 내용이다. 직관적으로는 성립할 것으로 여겨졌지만 50년 넘게 일반적인 증명은 나오지 않았다. 다만 이번 결과가 곧바로 정설로 인정되는 것은 아니다. 이 난제는 과거에도 해결을 주장하는 논문이 여러 차례 나왔지만 모두 수학계의 검증을 통과하지 못했다. 이번 증명 역시 동료 평가와 독립적인 수학자들의 검토를 거쳐야 한다. 일부 연구자들은 긍정적인 평가를 내놨다. 토머스 블룸 영국 맨체스터대 리서치펠로는 공개된 증명에 대해 &ldquo;간결하면서도 기본적인 아이디어에 기반한 증명&rdquo;이라고 평가했다. 인간 연구자가 하나의 접근법에 오랜 시간을 투자하는 것과 달리 AI는 수십 개의 가설을 동시에 시험하고 서로 검증하는 방식이 강점으로 작용했다는 분석이다. AI가 난제를 해결하는 사례는 최근 잇따르고 있다. 앞서 23세 아마추어 수학자 리엄 프라이스는 GPT를 활용해 약 60년 동안 미해결로 남아 있던 &lsquo;원시 집합&rsquo; 문제의 해법을 찾아냈고, 해당 결과는 필즈상 수상자인 테런스 타오 UCLA 교수의 검토를 통과해 학계의 주목을 받았다. 유지희 기자 keephee@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 유지희 ADVERTISEMENT 관련 뉴스 1 \"도시 전체를 피지컬AI로 잇겠다\"…정의선, 초연결 비전 제시 현대자동차그룹, 삼성SDS 등 국내 기업들이 글로벌 빅테크와 피지컬 인공지능(AI) 시대를 앞당기기 위해 손을 잡기로 했다. 현대차그룹은 엔비디아 및 구글 웨이모와, 삼성SDS는 앤트로픽과 협력한다.현대차그룹은 지난... 2026.07.26 18:26 2"
+      "fullText": ""
     },
     {
       "s": "MTN 머니투데이방송",
@@ -169,15 +187,6 @@
       "ts": 1785129795000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "d": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
-      "u": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
-      "m": "07. 26. PM 04:33",
-      "ts": 1785083593000,
-      "fullText": "In Brief Posted: 9:33 AM PDT · July 26, 2026 Image Credits: Samuel Boivin/NurPhoto and Samuel Boivin/NurPhoto / Getty Images Anthony Ha Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack After OpenAI recently admitted that one of its models had breached the systems of AI platform Hugging Face , Hugging Face’s CEO Clem Delangue posted on X that he was flying to San Francisco to have “a little chat with that ‘rogue agent.’” Then, in a follow-up post on Saturday, Delangue outlined what he’d asked for from OpenAI. He said he called for “radical transparency,” asking OpenAI to “release the traces from the ‘rogue’ agents so the entire research community can study what happened.” And he also wants “more capabilities for defenders,” calling for OpenAI to commit $100 million worth of computing power “to help the Hugging Face community build powerful cyber defenses with the best open and closed models.” Delangue added, “The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!” Despite the autonomous nature of the attack, cybersecurity experts suggested that it could also be blamed on human error — namely, OpenAI’s apparent failure to properly configure what should have been a fully isolated testing environment. When asked about Delangue&#8217;s comments, an OpenAI spokesperson confirmed that the meeting took place and pointed to a company post that said, &#8220;This is an unprecedented incident, and we think it marks an important moment for AI safety. We are still conducting a thorough review along with external advisors and with oversight from our Safety and Security Committee. Once the review is complete, we plan to publish a technical report of our learnings in the coming weeks.&#8221; This post has been updated with a comment from OpenAI. Topics AI , Clem Delangue , Hugging Face , In Brief , OpenAI , Security October 13 &#8211; 15 San Francisco Scale faster. Grow your portfolio. Gain practica"
     },
     {
       "s": "지티티코리아",
@@ -216,7 +225,7 @@
       "u": "https://www.nbcnews.com/video/openai-says-its-ai-models-went-rogue-and-hacked-another-tech-company-during-test-267120709788",
       "m": "07. 22. PM 09:55",
       "ts": 1784757351000,
-      "fullText": "Carly Simon announces Parkinson&#x27;s diagnosis"
+      "fullText": ""
     },
     {
       "s": "서울경제",
@@ -269,12 +278,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "v.daum.net",
+      "s": "뉴스1",
       "t": "AI 에이전트 시대 생존법은?…정부, 정책 매뉴얼 발간",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04cHRHd19sOFQ1ZUZKVTVadlVKNkZtUGh2ZjZhUElHZ1JBd0ZadjVDcXM5WlBycGZxeGdJLXAxeTBkcUJ0c3c5cWdKNlZCcFk?oc=5",
-      "m": "07. 22. AM 03:34",
-      "ts": 1784691278000,
+      "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40MS11Sk1CUVBfYWdfeDhWN0lFWmdLMnhxTkhxY2dRX1FtZWRIS3ZlVFRacmRhcjZDTkd3ZWQwQzQzcUpmRVNiTVVfZDRLUXVLeGJnbUxERkVoVFhtdk84?oc=5",
+      "m": "07. 22. AM 03:32",
+      "ts": 1784691165000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -371,7 +380,7 @@
       "s": "v.daum.net",
       "t": "정부, AI 에이전트 규제 개선 추진…피지컬 AI 경쟁력 강화",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sb1BidmpYNE9lSmtBZ3RqcVdVQmRpQmk2ZlMtakJUSUo3NnJmMm1zSXFlVnhvbTRGNUVaZmNXMXFkS1NBRElqakN5VDNRSTU0ekV0Rg?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBxMlMzcGNFTG5Nd3FmUnlRNzVxbzcxd2JVSUY1MWFtVktfMmJ4dzRyVEdVZzFtLTZKTFBoZmRuSjRMa0Vib2huOVZQcw?oc=5",
       "m": "07. 21. AM 05:00",
       "ts": 1784610024000,
       "_policy": true,
@@ -406,15 +415,6 @@
       "ts": 1784561400000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
-      "d": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
-      "u": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
-      "m": "07. 20. PM 03:00",
-      "ts": 1784559653000,
-      "fullText": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics. July 20, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote , taking place today, July 20, at 3:45 p.m. PT, will feature NVIDIA AI research and engineering leaders Neil Ashton, Edward Liu and Ming-Yu Liu discussing neural rendering techniques, world models and simulation methods for AI, built by AI. Read on for the latest from the SIGGRAPH conference, with NVIDIA and partners showcasing: NVIDIA keynote recap Model Context Protocol connections bring agentic AI to content creation New Synthetic Video Detector NIM microservice Cosmos 3 Edge open world model for local physical AI NVIDIA NemoClaw on DGX Station with NVIDIA Agent Toolkit Research breakthroughs for virtual worlds and physical AI In SIGGRAPH Keynote, NVIDIA Leaders Outline Next Era of Graphics and Physical AI 🔗 Ming-Yu Liu, vice president of Cosmos Lab at NVIDIA, presents at SIGGRAPH 2026. NVIDIA AI research and engineering leaders took the stage at SIGGRAPH today to share the latest advances in neural rendering, world models and simulation. These technologies — which are changing the way digital worlds are created and used across every domain — can be applied to creative tools, industrial design, robotics and autonomous systems. “Creators and designers need tools powerful enough to expand their imagination, malleable enough to give them the freedom to shape ideas and precise enough to realize their visi"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-27T23:36:37.125Z",
+  "updatedAt": "2026-07-28T02:05:27.470Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
-      "px": 30000,
-      "dayChange": -29.91,
-      "periodChange": -44.85,
+      "px": 23850,
+      "dayChange": -20.5,
+      "periodChange": -56.16,
       "prices": [
         54400,
         56000,
@@ -26,7 +26,8 @@
         40050,
         45950,
         42800,
-        30000
+        30000,
+        23850
       ],
       "dates": [
         "2026-06-29",
@@ -48,27 +49,28 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ],
-      "volume": 0,
+      "volume": 1084223,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1조 9,648억",
+        "marketCap": "1조 5,457억",
         "per": "N/A",
-        "pbr": "6.90배",
-        "cnsPer": "-53.10배",
+        "pbr": "5.43배",
+        "cnsPer": "-25.24배",
         "divYield": "N/A",
         "foreignRatio": "21.20%",
         "high52w": "108,900",
         "low52w": "21,300",
         "consensus": {
-          "targetMean": 76000,
+          "targetMean": 67000,
           "targetHigh": null,
           "targetLow": null,
           "analysts": null,
-          "recommendation": "3.80",
+          "recommendation": "3.71",
           "earningsDate": null,
           "source": "naver"
         }
@@ -336,9 +338,9 @@
     },
     "034020": {
       "name": "두산에너빌리티",
-      "px": 70900,
-      "dayChange": -1.66,
-      "periodChange": -19.43,
+      "px": 66300,
+      "dayChange": -6.49,
+      "periodChange": -24.66,
       "prices": [
         88000,
         86800,
@@ -359,7 +361,8 @@
         69200,
         73200,
         72100,
-        70900
+        70900,
+        66300
       ],
       "dates": [
         "2026-06-29",
@@ -381,17 +384,18 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ],
-      "volume": 0,
+      "volume": 673780,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "45조 4,158억",
-        "per": "294.19배",
-        "pbr": "5.65배",
-        "cnsPer": "152.80배",
+        "marketCap": "42조 849억",
+        "per": "272.61배",
+        "pbr": "5.24배",
+        "cnsPer": "141.59배",
         "divYield": "N/A",
         "foreignRatio": "24.03%",
         "high52w": "139,200",
@@ -515,23 +519,24 @@
     ],
     "kospi": [
       0,
-      0.97,
-      -1.09,
-      -8.89,
-      -3.65,
-      -4.09,
-      -8.8,
-      -13.67,
-      -13.14,
-      -10.94,
-      -18.91,
-      -18.32,
-      -13.23,
-      -18.75,
-      -22.38,
-      -19.62,
-      -19.02,
-      -15.46
+      -2.04,
+      -9.77,
+      -4.58,
+      -5.02,
+      -9.68,
+      -14.51,
+      -13.97,
+      -11.8,
+      -19.7,
+      -19.11,
+      -14.06,
+      -19.53,
+      -23.13,
+      -20.39,
+      -19.81,
+      -16.28,
+      -20.3,
+      -26.71
     ],
     "sp500": [
       0,
@@ -556,25 +561,6 @@
     ]
   },
   "etfs": {
-    "HDRO": {
-      "name": "ETF Series Solutions Defiance N",
-      "px": 25.919,
-      "dayChange": 0,
-      "periodChange": 0,
-      "prices": [],
-      "dates": [],
-      "volume": 71341,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 39.26,
-        "low52w": 4.2,
-        "volume": 71341
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "HYDR": {
       "name": "Global X Hydrogen ETF",
       "px": 40.705,
@@ -630,6 +616,25 @@
         "high52w": 74.8,
         "low52w": 22.67,
         "volume": 91824
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "HDRO": {
+      "name": "ETF Series Solutions Defiance N",
+      "px": 25.919,
+      "dayChange": 0,
+      "periodChange": 0,
+      "prices": [],
+      "dates": [],
+      "volume": 71341,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 39.26,
+        "low52w": 4.2,
+        "volume": 71341
       },
       "investorFlow": null,
       "consensus": null

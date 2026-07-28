@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T08:02:56.869Z",
+  "updatedAt": "2026-07-28T10:45:53.869Z",
   "data": {
     "240810": {
       "name": "240810",
@@ -75,6 +75,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260728",
+            "foreigner": 235916,
+            "institution": -188294,
+            "individual": -50863,
+            "foreignRatio": "14.62%"
+          },
+          {
             "date": "20260727",
             "foreigner": 8778,
             "institution": 85258,
@@ -136,22 +143,15 @@
             "institution": 474439,
             "individual": 84838,
             "foreignRatio": "15.82%"
-          },
-          {
-            "date": "20260713",
-            "foreigner": -332993,
-            "institution": 389344,
-            "individual": -57312,
-            "foreignRatio": "17.06%"
           }
         ],
         "sum5d": {
-          "foreigner": -37304,
-          "institution": -279417
+          "foreigner": 168579,
+          "institution": -439219
         },
         "sum10d": {
-          "foreigner": -1560204,
-          "institution": 994946
+          "foreigner": -991295,
+          "institution": 417308
         }
       },
       "consensus": null
@@ -217,32 +217,32 @@
       "investorFlow": null,
       "consensus": null
     },
-    "AMAT": {
-      "name": "어플라이드머티리얼즈",
-      "px": 516.89,
-      "dayChange": -3.61,
-      "periodChange": -25.59,
+    "KLAC": {
+      "name": "KLA",
+      "px": 203.36,
+      "dayChange": -3.4,
+      "periodChange": -26.95,
       "prices": [
-        694.64,
-        723,
-        650.91,
-        603.04,
-        592.79,
-        554.5,
-        570.5,
-        588.66,
-        602.5,
-        575.39,
-        595.7,
-        579.43,
-        560.93,
-        529.66,
-        525.7,
-        564.55,
-        553.92,
-        562.8,
-        536.25,
-        516.89
+        278.39,
+        301.71,
+        266.19,
+        235.55,
+        233.31,
+        216.47,
+        221.18,
+        229.52,
+        231.52,
+        222.25,
+        230.37,
+        224.5,
+        219.37,
+        212.75,
+        207.6,
+        217.56,
+        214.69,
+        218.73,
+        210.52,
+        203.36
       ],
       "dates": [
         "2026-06-29",
@@ -266,14 +266,14 @@
         "2026-07-24",
         "2026-07-27"
       ],
-      "volume": 7993495,
+      "volume": 12736563,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 739.67,
-        "low52w": 154.47,
-        "volume": 7993495
+        "high52w": 307.37,
+        "low52w": 83.224,
+        "volume": 12736563
       },
       "investorFlow": null,
       "consensus": null
@@ -400,32 +400,32 @@
       "investorFlow": null,
       "consensus": null
     },
-    "KLAC": {
-      "name": "KLA",
-      "px": 203.36,
-      "dayChange": -3.4,
-      "periodChange": -26.95,
+    "AMAT": {
+      "name": "어플라이드머티리얼즈",
+      "px": 516.89,
+      "dayChange": -3.61,
+      "periodChange": -25.59,
       "prices": [
-        278.39,
-        301.71,
-        266.19,
-        235.55,
-        233.31,
-        216.47,
-        221.18,
-        229.52,
-        231.52,
-        222.25,
-        230.37,
-        224.5,
-        219.37,
-        212.75,
-        207.6,
-        217.56,
-        214.69,
-        218.73,
-        210.52,
-        203.36
+        694.64,
+        723,
+        650.91,
+        603.04,
+        592.79,
+        554.5,
+        570.5,
+        588.66,
+        602.5,
+        575.39,
+        595.7,
+        579.43,
+        560.93,
+        529.66,
+        525.7,
+        564.55,
+        553.92,
+        562.8,
+        536.25,
+        516.89
       ],
       "dates": [
         "2026-06-29",
@@ -449,14 +449,14 @@
         "2026-07-24",
         "2026-07-27"
       ],
-      "volume": 12736563,
+      "volume": 7993495,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 307.37,
-        "low52w": 83.224,
-        "volume": 12736563
+        "high52w": 739.67,
+        "low52w": 154.47,
+        "volume": 7993495
       },
       "investorFlow": null,
       "consensus": null
@@ -512,7 +512,7 @@
         "2026-07-27",
         "2026-07-28"
       ],
-      "volume": 7376718,
+      "volume": 9014015,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -537,6 +537,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260728",
+            "foreigner": -1826337,
+            "institution": 388673,
+            "individual": 1414492,
+            "foreignRatio": "52.13%"
+          },
           {
             "date": "20260727",
             "foreigner": -615917,
@@ -599,22 +606,15 @@
             "institution": 697670,
             "individual": -1357280,
             "foreignRatio": "49.88%"
-          },
-          {
-            "date": "20260713",
-            "foreigner": -704671,
-            "institution": -781727,
-            "individual": 1440630,
-            "foreignRatio": "49.77%"
           }
         ],
         "sum5d": {
-          "foreigner": -499998,
-          "institution": -599702
+          "foreigner": -2088918,
+          "institution": -577183
         },
         "sum10d": {
-          "foreigner": -347023,
-          "institution": -1573654
+          "foreigner": -1468689,
+          "institution": -403254
         }
       },
       "consensus": null
@@ -666,6 +666,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260728",
+            "foreigner": 121626,
+            "institution": -6591,
+            "individual": -115388,
+            "foreignRatio": "6.87%"
+          },
           {
             "date": "20260727",
             "foreigner": 30962,
@@ -728,22 +735,15 @@
             "institution": 33119,
             "individual": 48366,
             "foreignRatio": "6.67%"
-          },
-          {
-            "date": "20260713",
-            "foreigner": 87494,
-            "institution": 1007,
-            "individual": -91336,
-            "foreignRatio": "7.00%"
           }
         ],
         "sum5d": {
-          "foreigner": -186361,
-          "institution": -198398
+          "foreigner": 64403,
+          "institution": -216748
         },
         "sum10d": {
-          "foreigner": -108141,
-          "institution": -290832
+          "foreigner": -74009,
+          "institution": -298430
         }
       },
       "consensus": null
@@ -952,7 +952,7 @@
         "2026-07-27",
         "2026-07-28"
       ],
-      "volume": 1888889,
+      "volume": 1889610,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -963,6 +963,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260728",
+            "foreigner": -1430,
+            "institution": -107674,
+            "individual": 78650,
+            "foreignRatio": "0.56%"
+          },
           {
             "date": "20260727",
             "foreigner": -7521,
@@ -1025,22 +1032,15 @@
             "institution": 129028,
             "individual": -98418,
             "foreignRatio": "0.46%"
-          },
-          {
-            "date": "20260713",
-            "foreigner": 10780,
-            "institution": -46086,
-            "individual": -4922,
-            "foreignRatio": "0.46%"
           }
         ],
         "sum5d": {
-          "foreigner": 87953,
-          "institution": -97597
+          "foreigner": 34767,
+          "institution": -156932
         },
         "sum10d": {
-          "foreigner": 52326,
-          "institution": -17451
+          "foreigner": 40116,
+          "institution": -79039
         }
       },
       "consensus": null

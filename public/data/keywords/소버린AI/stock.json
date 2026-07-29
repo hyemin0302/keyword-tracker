@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-29T08:33:09.237Z",
+  "updatedAt": "2026-07-29T11:06:26.417Z",
   "data": {
     "NVDA": {
       "name": "엔비디아",
       "px": 197.01,
-      "dayChange": -4.75,
-      "periodChange": 0.79,
+      "dayChange": 0.25,
+      "periodChange": 1.05,
       "prices": [
         194.97,
         200.09,
@@ -26,7 +26,8 @@
         212.06,
         208.76,
         206.84,
-        196.51
+        196.51,
+        197.01
       ],
       "dates": [
         "2026-06-29",
@@ -48,7 +49,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ],
       "volume": 125138253,
       "currency": "USD",
@@ -141,6 +143,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260729",
+            "foreigner": 140475,
+            "institution": 163611,
+            "individual": -277656,
+            "foreignRatio": "34.82%"
+          },
+          {
             "date": "20260728",
             "foreigner": -137674,
             "institution": 96822,
@@ -202,22 +211,15 @@
             "institution": -67672,
             "individual": -92419,
             "foreignRatio": "35.16%"
-          },
-          {
-            "date": "20260714",
-            "foreigner": 53314,
-            "institution": -4859,
-            "individual": -58425,
-            "foreignRatio": "35.03%"
           }
         ],
         "sum5d": {
-          "foreigner": -1004074,
-          "institution": 1167004
+          "foreigner": -913441,
+          "institution": 1197952
         },
         "sum10d": {
-          "foreigner": -632102,
-          "institution": 1194000
+          "foreigner": -544941,
+          "institution": 1362470
         }
       },
       "consensus": null
@@ -275,7 +277,7 @@
         "2026-07-28",
         "2026-07-29"
       ],
-      "volume": 1801580,
+      "volume": 2017834,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -300,6 +302,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260729",
+            "foreigner": -200108,
+            "institution": 389188,
+            "individual": -189674,
+            "foreignRatio": "36.08%"
+          },
           {
             "date": "20260728",
             "foreigner": -292580,
@@ -362,22 +371,15 @@
             "institution": 53840,
             "individual": -6537,
             "foreignRatio": "38.42%"
-          },
-          {
-            "date": "20260714",
-            "foreigner": 30242,
-            "institution": 87584,
-            "individual": -116492,
-            "foreignRatio": "38.44%"
           }
         ],
         "sum5d": {
-          "foreigner": -3676941,
-          "institution": 2843046
+          "foreigner": -3625141,
+          "institution": 2571748
         },
         "sum10d": {
-          "foreigner": -4231785,
-          "institution": 3802978
+          "foreigner": -4462135,
+          "institution": 4104582
         }
       },
       "consensus": null
@@ -404,29 +406,31 @@
       3.2,
       8.41,
       6.22,
-      6.54
+      6.54,
+      -1.63
     ],
     "kospi": [
       0,
-      0.97,
-      -1.09,
-      -8.89,
-      -3.65,
-      -4.09,
-      -8.8,
-      -13.67,
-      -13.14,
-      -10.94,
-      -18.91,
-      -18.32,
-      -13.23,
-      -18.75,
-      -22.38,
-      -19.62,
-      -19.02,
-      -15.46,
-      -19.52,
-      -32.54
+      -2.04,
+      -9.77,
+      -4.58,
+      -5.02,
+      -9.68,
+      -14.51,
+      -13.97,
+      -11.8,
+      -19.7,
+      -19.11,
+      -14.06,
+      -19.53,
+      -23.13,
+      -20.39,
+      -19.81,
+      -16.28,
+      -21.07,
+      -20.3,
+      -28.94,
+      -33.19
     ],
     "sp500": [
       0,
@@ -447,15 +451,17 @@
       0.92,
       0.79,
       -0.43,
-      -0.37
+      -0.38,
+      -0.37,
+      -0.16
     ]
   },
   "etfs": {
     "AIQ": {
       "name": "Global X Artificial Intelligenc",
       "px": 57.24,
-      "dayChange": -1.28,
-      "periodChange": -9.22,
+      "dayChange": -1.82,
+      "periodChange": -10.87,
       "prices": [
         64.22,
         65.61,
@@ -476,7 +482,8 @@
         60.14,
         59.33,
         57.98,
-        58.3
+        58.3,
+        57.24
       ],
       "dates": [
         "2026-06-29",
@@ -498,7 +505,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ],
       "volume": 2226537,
       "currency": "USD",

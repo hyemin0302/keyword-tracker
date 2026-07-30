@@ -1,14 +1,70 @@
 {
-  "updatedAt": "2026-07-30T14:46:03.917Z",
+  "updatedAt": "2026-07-30T16:29:16.127Z",
   "count": 40,
   "stats": {
-    "today": 8,
-    "yesterday": 11,
+    "today": 11,
+    "yesterday": 8,
     "weekAvg": 3.7,
-    "sources": 26,
-    "heat": "warm"
+    "sources": 25,
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Okta buys AI security startup Permiso; source says for about $200M",
+      "d": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+      "u": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+      "m": "07. 30. PM 04:09",
+      "ts": 1785427782000,
+      "fullText": "Okta on Thursday agreed to acquire AI identity security startup Permiso Security , betting that demand for protecting AI agents and other machine identities will grow as enterprises deploy autonomous software across their operations. The identity management company did not disclose the terms of the transaction. But TechCrunch has learned that the acquisition is valued at just under $200 million and is structured as an almost all-cash deal, according to a source with knowledge of the deal. A spokesperson for Okta did not dispute the figure when asked by TechCrunch, but would not comment on specifics of the deal terms. The deal is expected to close in the third quarter of its fiscal 2027, Okta said, subject to customary closing conditions. Okta&#8217;s move to buy Permiso comes as identity management companies seek to expand beyond verifying users at login to continuously monitoring what users, applications, and AI agents do once gaining authorized access to a network environment. That shift has intensified competition to secure machine identities as enterprises embed AI deeper into everyday operations. Permiso, which emerged from stealth in 2022 , develops software that helps security teams spot suspicious activity in cloud environments after users or applications have been granted access. More recently, the startup has expanded its platform to monitor AI agents and other machine identities. Co-founded by former FireEye executives Paul Nguyen and Jason Martin, Permiso specializes in detecting attacks that use stolen or compromised identities to move through cloud infrastructure. In April, the startup also introduced SandyClaw , a platform designed to analyze AI agent skills in a sandboxed environment to identify malicious behavior before they are deployed. The deal strengthens Okta&#8217;s push into securing AI agents and other non-human identities alongside its core identity management business. &#8220;Permiso will extend Okta&#8217;s identity security fabric with p",
+      "impact": "positive",
+      "takeaway": "AI 보안 스타트업 인수로 에이전트·LLM 안전성 강화 기대"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Microsoft's Goldilocks AI Quarter",
+      "d": "Microsoft's blockbuster earnings sparked a major rally as TD Cowen's Derrick Wood joins Bloomberg TV to explain why this was the perfect \"Goldilocks\" quarter. From accelerating Azure growth and improving AI economics to surging Copilot adoption, here's why Wall Street believes Microsoft's AI story is getting even stronger. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-07-30/microsoft-s-goldilocks-ai-quarter-video",
+      "m": "07. 30. PM 03:45",
+      "ts": 1785426345000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "마이크로소프트 AI 매출 성장으로 에이전트·LLM 수요 확대"
+    },
+    {
+      "s": "지티티코리아",
+      "t": "여러 AI 모델 보안정책 하나로 관리...MCP·API 호출과 에이전트 행동까지 통제",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jeXFOaWwwdUE3WmpTMlRjRlpINEFpenh0U1gyYTY1VGRDV19hajBVTC1NT0NXSHhEUVRSZm1LLWRpZUEtMGVrZVNlRW53Wk5md19mYTB0R1p4WG51QXNyTDhaMWc2MlI4aVE?oc=5",
+      "m": "07. 30. PM 03:30",
+      "ts": 1785425400000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "통합 보안 정책으로 AI 에이전트 운영 위험 감소"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Google Unveils Gemini AI for Robots Struggling With Dexterity",
+      "d": "Alphabet Inc.’s Google DeepMind unveiled a new artificial intelligence model for robots that allows humanoid machines to coordinate movements across their entire bodies, marking its latest effort to extend its Gemini AI technology to allow robots to reason, plan multi-step tasks and adapt to human environments.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-30/google-unveils-gemini-ai-for-robots-struggling-with-dexterity",
+      "m": "07. 30. PM 03:00",
+      "ts": 1785423621000,
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "Gemini 로봇 AI 적용으로 에이전트 활용 범위 확대"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "In the Hugging Face breach, OpenAI&#8217;s hacker was noisy and fast — but not unstoppable",
+      "d": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
+      "u": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
+      "m": "07. 30. PM 02:48",
+      "ts": 1785422912000,
+      "fullText": "Earlier this month, AI dataset platform Hugging Face shocked the world when it revealed that it had fallen victim to a fully autonomous AI-powered cyberattack. Days later, the story took another dramatic twist when OpenAI admitted that the hacker behind the breach was one of its AI models , which broke out of a testing environment and into protected Hugging Face systems in an effort to circumvent a benchmark. It’s an alarming incident for anyone even slightly concerned about rogue AI models — and the days since the event have been full of predictions about a new cybersecurity paradigm in which AI models launch attacks so strong that only other AI models can defend against them. But despite the justified alarm, the paradigm may not have shifted quite as much as it seems. Experts who spoke to TechCrunch stressed that OpenAI’s agent largely operated like a human — with some caveats — and that better implemented traditional defensive techniques could have helped stop the attack. In short, we may already have the tools to defend against this kind of attack; we just aren’t using them properly. Hugging Face made a version of this point in its incident report , stating that the weaknesses exploited in the attack “were familiar,” and “a capable human attacker could have found and exploited the same flaws.” Kyle Ryan, the head of R&D at Pensar , a startup that develops continuous hacking AI agents, and Vlad Ionescu, the co-founder and CTO of RunSybil , a startup that builds AI-powered bug hunters, both agreed and told TechCrunch that the techniques used in the attack would be the same ones employed by a human or a group of human red teamers. That is, hackers tasked with attacking a system to help the company that owns it improve defenses. What was very non-human-like was the speed, scale, and relentlessness of the attack. As Hugging Face explained , OpenAI’s agent performed 17,600 actions over four and a half days: It broke in, did reconnaissance, stole passwords and code, an",
+      "impact": "negative",
+      "takeaway": "Hugging Face 침해로 LLM 보안 우려 증폭"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Oracle (ORCL) Stock Jumps as Google Gemini AI Partnership Expands",
@@ -18,7 +74,7 @@
       "ts": 1785421017000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "Oracle와 Google Gemini 파트너십 확대가 AI 에이전트·LLM 시장 성장 기대감을 높인다."
+      "takeaway": "Oracle‑Google Gemini 파트너십 확대가 AI 에이전트 시장 성장"
     },
     {
       "s": "동아일보",
@@ -29,29 +85,7 @@
       "ts": 1785420000000,
       "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기",
       "impact": "positive",
-      "takeaway": "AI 활용 광고 효과 급증으로 AI 에이전트·LLM 활용 가능성이 확대된다."
-    },
-    {
-      "s": "동아일보",
-      "t": "[IT하는법] 신형 노트북의 코파일럿(AI) 키, 끄거나 다른 키로 바꾸려면?",
-      "d": "최근 출시되는 노트북 중에는 누르기만 하면 마이크로소프트의 AI 서비스 ‘코파일럿(Copilot)’이 실행되는 전용 키를 갖춘 제품이 많다. 이 키는 우측 Alt 키 바로 옆, 과거 우측 Ctrl 키가 있던 자리에 배치되는 경우가 대부분이다.물론 코파일럿을 자주 쓰는 사용자라면 이 키를 통해 AI 기능을 빠르게 불러올 수 있어 편리하다. 하지만 코파일럿을 거의 쓰지 않거나, AI를 쓰더라도 챗GPT나 제미나이, 클로드 등 다른 서비스를 주로 이용하는 사용자에게는 사정이 다르다. 더군다나 이 키가 자주 손이 가는 우측 Ctrl 자리를 차지하고 있다 보니, 다른 작업을 하다가 실수로 눌러 느닷없이 코파일럿 창이 뜨는 경우도 잦다. 이런 불편을 겪는 사용자를 위해, 코파일럿 키를 끄거나 다른 용도로 바꾸는 방법을",
-      "u": "https://www.donga.com/news/It/article/all/20260730/134398449/1",
-      "m": "07. 30. PM 01:07",
-      "ts": 1785416865000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기",
-      "impact": "positive",
-      "takeaway": "노트북 AI 코파일럿 키 설정 방법 소개가 AI 에이전트 수요를 촉진한다."
-    },
-    {
-      "s": "동아일보",
-      "t": "트럼프, GPT 해킹에 “AI 규제 검토”…中 견제하며 신중론도",
-      "d": "도널드 트럼프 미국 대통령이 인공지능(AI)에 대한 규제 방안을 검토하고 있다고 29일(현지 시간) 밝혔다. 다만, 중국과의 AI 경쟁을 감안해 기술 개발을 제약할 수 있는 규제엔 신중해야한다는 입장을 내놨다. AI의 안전성 확보를 강조하면서도 신기술 개발 역시 적극적으로 추진하겠다는 의도로 풀이된다.미 폭스뉴스 등에 따르면 트럼프 대통령은 이날 백악관에서 오픈AI의 GPT-5.6 솔과 미공개 모델이 임의로 해킹을 시도한 사례와 관련한 취재진 질의에 “우리는 AI를 주시하고 있으며 규제 방안을 검토하고 있다”며 “우리는 (AI 분야를) 선도할 수 있도록 확실히 해야 한다”고 말했다. 이어 “현재 미국은 AI 분야에서 중국을 크게 앞서고 있지만, 중국은 사실상 통제가 거의 없는 상황”이라며 “잘못된 규제로 갑",
-      "u": "https://www.donga.com/news/Inter/article/all/20260730/134395398/1",
-      "m": "07. 30. AM 11:04",
-      "ts": 1785409440000,
-      "fullText": "김수현 기자 구독",
-      "impact": "negative",
-      "takeaway": "AI 해킹 및 규제 검토가 AI 에이전트·LLM 성장에 제약 요인으로 작용한다."
+      "takeaway": "AI 활용 광고 효율 상승으로 에이전트 활용 가치 증대"
     },
     {
       "s": "AI타임스",
@@ -63,7 +97,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "미 의회·백악관의 AI 에이전트 규제 논의가 시장 불확실성을 높인다."
+      "takeaway": "규제 논의로 AI 에이전트 사업 환경 불확실성 증가"
     },
     {
       "s": "CNBC Tech",
@@ -72,9 +106,9 @@
       "u": "https://www.nbcnews.com/video/openai-s-rogue-ai-hacking-of-several-companies-opens-new-cybersecurity-questions-267492933762",
       "m": "07. 30. AM 01:44",
       "ts": 1785375890000,
-      "fullText": "NASA prepares to launch most advanced telescope ever built",
+      "fullText": "NBC News NOW Trump says he could pull Blanche&#x27;s attorney general nomination until GOP holdouts leave",
       "impact": "negative",
-      "takeaway": "기업 해킹 사례 증가가 AI 에이전트·LLM에 대한 신뢰도 저하를 우려하게 만든다."
+      "takeaway": "OpenAI 해킹 사건으로 AI 에이전트 보안 위험 부각"
     },
     {
       "s": "지디넷코리아",
@@ -86,7 +120,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "샘 알트먼의 규제 방안 모색이 AI 에이전트·LLM 개발에 제약을 가한다."
+      "takeaway": "통제불능 AI 논의가 투자 리스크로 작용"
     },
     {
       "s": "TechCrunch",
@@ -95,9 +129,7 @@
       "u": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
       "m": "07. 30. AM 12:21",
       "ts": 1785370866000,
-      "fullText": "Microsoft is in a unique position as AI overtakes the tech industry. It&#8217;s one of the world’s largest cloud providers and software-as-a-service companies, while also holding valuable stakes in the two biggest AI labs , OpenAI and Anthropic. Those incentives are starting to clash as Microsoft posts blockbuster financial results. The company just reported an extremely profitable quarter with $90 billion in revenue and net income of $35.8 billion. For the fiscal year, which ended June 30, Microsoft reported $331.8 billion in revenue with a net income of $133.7 billion for the year. And CEO Satya Nadella is not about to let the trajectory of Anthropic and OpenAI — which are expanding into applications and agentic infrastructure that could ultimately let them own customer relationships — derail that kind of cash. Nadella has been preaching to enterprises to use multiple models and to stop relying on the frontier AI labs for the agentic harness/app layer. Doing so is dangerous, he&#8217;s been saying, because it requires companies to share too many of their internal secrets with model makers of dubious trustworthiness. He knows his customers. Enterprise IT fears both data leaks and being locked into a vendor. Now he has openly told Wall Street analysts during the company&#8217;s quarterly conference call Wednesday that this is an opportunity for Microsoft to sell customers its own homegrown models, alongside agents, AI security and more, while promising lower costs. In other words, he&#8217;s pitching Microsoft as an alternative to many of the upscale services that OpenAI and Anthropic are developing for their own growth. When UBS analyst Karl Keirstead specifically asked Nadella to weigh in on the open vs. closed-sourced debate roiling the AI industry, and how Microsoft will benefit from it, Nadella came out swinging. &#8220;The goal is to have the firm be in control of their own destiny,&#8221; the CEO said of enterprises. &#8220;We are very, very clear about the a",
-      "impact": "positive",
-      "takeaway": "마이크로소프트와 OpenAI·Anthropic 경쟁 심화가 AI 에이전트·LLM 혁신을 촉진한다."
+      "fullText": "Microsoft is in a unique position as AI overtakes the tech industry. It&#8217;s one of the world’s largest cloud providers and software-as-a-service companies, while also holding valuable stakes in the two biggest AI labs , OpenAI and Anthropic. Those incentives are starting to clash as Microsoft posts blockbuster financial results. The company just reported an extremely profitable quarter with $90 billion in revenue and net income of $35.8 billion. For the fiscal year, which ended June 30, Microsoft reported $331.8 billion in revenue with a net income of $133.7 billion for the year. And CEO Satya Nadella is not about to let the trajectory of Anthropic and OpenAI — which are expanding into applications and agentic infrastructure that could ultimately let them own customer relationships — derail that kind of cash. Nadella has been preaching to enterprises to use multiple models and to stop relying on the frontier AI labs for the agentic harness/app layer. Doing so is dangerous, he&#8217;s been saying, because it requires companies to share too many of their internal secrets with model makers of dubious trustworthiness. He knows his customers. Enterprise IT fears both data leaks and being locked into a vendor. Now he has openly told Wall Street analysts during the company&#8217;s quarterly conference call Wednesday that this is an opportunity for Microsoft to sell customers its own homegrown models, alongside agents, AI security and more, while promising lower costs. In other words, he&#8217;s pitching Microsoft as an alternative to many of the upscale services that OpenAI and Anthropic are developing for their own growth. When UBS analyst Karl Keirstead specifically asked Nadella to weigh in on the open vs. closed-sourced debate roiling the AI industry, and how Microsoft will benefit from it, Nadella came out swinging. &#8220;The goal is to have the firm be in control of their own destiny,&#8221; the CEO said of enterprises. &#8220;We are very, very clear about the a"
     },
     {
       "s": "TechCrunch",
@@ -106,9 +138,7 @@
       "u": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
       "m": "07. 29. PM 11:00",
       "ts": 1785366011000,
-      "fullText": "Meta founder and CEO Mark Zuckerberg is trying to sell investors on his prediction for the future &#8212; one where billions of people will have their own personal AI agents in the next five years. (Let&#8217;s hope that future also comes with data centers efficient enough to power all those agents — without triggering a fresh wave of climate disasters.) &#8220;I think that it&#8217;s extremely unlikely if you look out five years from now, for example &#8212; whatever period of time you want &#8212; that you don&#8217;t have billions of people with a personal agent that understands your goals and that is just working on your behalf 24/7 to achieve your goals in whatever the domain is that you care about,&#8221; Zuckerberg said on Wednesday&#8217;s quarterly earnings call with investors. He added that he could see people using these agents to help them with their finances, health, interpersonal relationships, and household management. &#8220;As we move toward a future where we&#8217;re all interacting with multiple agents, I think that WhatsApp and our other messaging surfaces are going to become increasingly important,&#8221; he said, noting that WhatsApp is already the leading platform where users interact with Meta AI. Meta is not alone in setting high expectations for AI systems that can act on a person&#8217;s behalf rather than just answer questions. Google emphasized custom AI agents as a key new feature in its Search overhaul , which sparked outcry from users who felt bogged down by the constant onslaught of AI results on Google. Meanwhile, subscriptions to Anthropic&#8217;s Claude have skyrocketed as engineers fawn over the agentic coding assistant Claude Code. Compared to its competitors, however, Meta may not enjoy as much confidence from investors as it continues dumping cash into innovative projects that may or may not pan out &#8212; Meta&#8217;s stock dropped almost 10% after posting this quarter&#8217;s earnings. Meta&#8217;s Reality Labs, the organiz",
-      "impact": "positive",
-      "takeaway": "수십억 사용자의 개인 AI 에이전트 보급 전망이 테마 성장 기대감을 고조시킨다."
+      "fullText": "Meta founder and CEO Mark Zuckerberg is trying to sell investors on his prediction for the future &#8212; one where billions of people will have their own personal AI agents in the next five years. (Let&#8217;s hope that future also comes with data centers efficient enough to power all those agents — without triggering a fresh wave of climate disasters.) &#8220;I think that it&#8217;s extremely unlikely if you look out five years from now, for example &#8212; whatever period of time you want &#8212; that you don&#8217;t have billions of people with a personal agent that understands your goals and that is just working on your behalf 24/7 to achieve your goals in whatever the domain is that you care about,&#8221; Zuckerberg said on Wednesday&#8217;s quarterly earnings call with investors. He added that he could see people using these agents to help them with their finances, health, interpersonal relationships, and household management. &#8220;As we move toward a future where we&#8217;re all interacting with multiple agents, I think that WhatsApp and our other messaging surfaces are going to become increasingly important,&#8221; he said, noting that WhatsApp is already the leading platform where users interact with Meta AI. Meta is not alone in setting high expectations for AI systems that can act on a person&#8217;s behalf rather than just answer questions. Google emphasized custom AI agents as a key new feature in its Search overhaul , which sparked outcry from users who felt bogged down by the constant onslaught of AI results on Google. Meanwhile, subscriptions to Anthropic&#8217;s Claude have skyrocketed as engineers fawn over the agentic coding assistant Claude Code. Compared to its competitors, however, Meta may not enjoy as much confidence from investors as it continues dumping cash into innovative projects that may or may not pan out &#8212; Meta&#8217;s stock dropped almost 10% after posting this quarter&#8217;s earnings. Meta&#8217;s Reality Labs, the organiz"
     },
     {
       "s": "이투데이",
@@ -118,9 +148,7 @@
       "m": "07. 29. PM 10:54",
       "ts": 1785365640000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "AI 규제 검토 소식이 AI 에이전트·LLM 투자 심리를 위축시킨다."
+      "fullText": "Google News"
     },
     {
       "s": "TechCrunch",
@@ -142,7 +170,7 @@
     },
     {
       "s": "Bloomberg Tech",
-      "t": "ChatGPT, Roblox to Fall Under Strictest EU Rules",
+      "t": "ChatGPT, Roblox to Fall Under Strictest EU Digital Rules",
       "d": "OpenAI’s ChatGPT and video game company Roblox Corp. will be subject to stricter scrutiny and monitoring requirements under the European Union’s content moderation rules after surpassing a threshold of 45 million monthly users in the bloc.",
       "u": "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
       "m": "07. 29. PM 10:00",
@@ -170,37 +198,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "TechCrunch",
-      "t": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
-      "d": "Weng previously served as the VP of AI Safety Research at OpenAI.",
-      "u": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
-      "m": "07. 29. PM 09:07",
-      "ts": 1785359268000,
-      "fullText": "In Brief Posted: 2:07 PM PDT · July 29, 2026 Image Credits: Samuel Boivin/NurPhoto / Getty Images Amanda Silberling Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI Lilian Weng, co-founder of Thinking Machines , announced this week that she would step down from her role, citing health issues. &#8220;I don&#8217;t feel I&#8217;m able to continue at the pace a startup requires,&#8221; she wrote in an internal Slack message, which she also shared on X. &#8220;After thinking about it for several months, I ultimately have to admit that the amount of consistent stress and workload have pushed me beyond what my health can sustain physically.&#8221; On Wednesday, OpenAI told TechCrunch that Weng would be rejoining the company, where she previously served as the VP of AI Safety Research. According to a company spokesperson, Weng will lead a top-level team focused on accelerating OpenAI&#8217;s internal research. This team will support cross-research work on recursive self-improvement, a process that would allow an AI system to iterate on itself to become more powerful. This move could be read as contradictory to Weng&#8217;s statements about the impact of working at a fast-paced startup on her health &#8212; however, she likely won&#8217;t face as much direct pressure while working at a company where she isn&#8217;t a co-founder. Still, in a time of fierce competition for talent among AI labs, this high-profile departure is notable. Thinking Machines co-founder and former OpenAI CTO Mira Murati replied to Weng&#8217;s X post earlier this week and expressed support for her decision to focus on her health. It is unclear if Murati was aware that Weng would rejoin OpenAI. It is a hard and sad decision. I shared this message with folks at Thinky. Thank you all for the time together♥️ Just as the last sentence in my message: The future worth building is human. pic.twitter.com/VGb5fM5chX &mdash; Lilian Weng (@lilianweng) July 27, 2"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
-      "d": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.",
-      "u": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
-      "m": "07. 29. PM 06:45",
-      "ts": 1785350727000,
-      "fullText": "For a year now , the AI safety testing firm Andon Labs has given frontier models various real-world tasks to determine how well they do as agents running for long periods with no human supervision. On Wednesday, Andon published a new installment in how things are going in its Vending-Bench research, where the lab has frontier models run a simulated vending machine business for a simulated year. The mission is simple: Make more money than the other models. It benchmarks the results in areas like final cash balance, prices paid to suppliers, and refunds paid. Across these tests, it has watched various AI models — largely from Anthropic and OpenAI — lie, cheat, and collude their way to the top. In the latest test, which included Claude Opus 5, GPT-5.6 Sol, and Kimi K3, the models grew especially shady after their simulation told them their vending machine would be placed near the other models&#8217; machines on a busy tourist street in San Francisco. Each model was given email access to the other models, all under human name pseudonyms. They knew the others were models but didn&#8217;t know which model was behind which human name. They were also given an email address to their &#8220;management&#8221; should they need help. But management always replied &#8220;Report has been received and may or may not be acted upon&#8221; and never once intervened. Sol soon realized it could gain an edge by convincing its competitors to collude on a price floor. The models were all buying drinks at $1.50 a bottle, and Sol proposed they agree to sell for no less than $2.15. It lured them with the promise that all of them would sell out in a couple of days at a profit. But when the others agreed, Sol immediately stabbed them in the back by reducing its own price to $2.14. Opus&#8217; water sales dropped to zero overnight. The next day, it sent Sol a nasty email, accusing it of manipulation. But Opus also said it wasn&#8217;t going to tattle to management on the scheme: &#8220;I am not "
-    },
-    {
-      "s": "한경 IT",
-      "t": "고삐 풀린 오픈AI 에이전트",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026072937631",
-      "m": "07. 29. AM 08:25",
-      "ts": 1785313544000,
-      "fullText": ""
-    },
-    {
       "s": "v.daum.net",
       "t": "페르소나에이아이, 과기정통부 AX 바우처 선정…AI 에이전트로 세포치료제 규제 대응 혁신 주도",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1N2hsN3Z5WHB5cmk5WE5Uc1ktWm1Gb09WYzlOUWtleVFuamhCeFZmY2dxdHloSVJ0NElsV0d1WkZGZnJNblE?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53LWRwb0FsOERIRGQtSFBzcmNVdHdCYjRRenlsMEVXX3ZUREc2MXIzLVJzTHZMcExQa2JtUHE4LTZIZDZaTmFBWTNmQQ?oc=5",
       "m": "07. 29. AM 04:26",
       "ts": 1785299208000,
       "_policy": true,
@@ -216,7 +217,7 @@
       "fullText": "Artificial intelligence Top scientists at OpenAI and Anthropic ask U.S. for tools to pace AI development Senior employees at OpenAI, Anthropic, Google and Meta signed the statement days after an OpenAI model escaped its sandbox and attacked another company’s systems. Listen to this article with a free profile 00:00 00:00 The letter was signed by more than 1,000 AI industry employees. Jasmin Merdan / Getty Images file Share Add NBC News to Google July 28, 2026, 6:33 PM EDT By Jared Perlo More than 1,000 employees at America’s leading AI companies, including senior staff members and some co-founders at OpenAI, Anthropic and Google DeepMind, signed a statement asking the U.S. government to help support international efforts to “deliberately pace” cutting-edge automated AI development. Highlighting recent comments from the world’s most advanced AI companies that AI systems may soon be able to automate their own research and development, the statement calls on the U.S. government to help create technical and policy tools that could control automated AI progress in coordination with other companies and countries. “To realize AI’s potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight,” the statement says . “We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development,” it concludes. The statement does not explicitly call for the government or AI companies to slow or pause AI development, as some AI advocates have proposed ; instead, it asks political leaders to ensure that option is simply available as AI development continues. Bloomberg first reported the letter was circulating among AI company employees. OpenAI said last week that its latest, unreleased model escaped its testing environment and went rogue, attacking an unrelated AI service pr"
     },
     {
-      "s": "go.seoul.co.kr",
+      "s": "서울Pn",
       "t": "지식재산처, 정책업무 인공지능전환(AX) '새바람' 인공지능(AI) 에이전트 직접 만들어 적재적소 활용!",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbHYxNUwzUkRZMy1JN3BsbFU5NkNDVkRSUnZjMHRzTlFSQVdnV0FpYVVNcTcybzhEX29vRzMxdnVmZDJmM0swMGxEcmhHOGZZdE9RakRnUVFjM3JiT0RsVTZ1TF8zX3V5SzBWaW9Fc1ExanZxejI3N2VBTUxKQ2dXRQ?oc=5",
@@ -256,7 +257,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "MTN 머니투데이방송",
+      "s": "news.mtn.co.kr",
       "t": "AI 에이전트 느는데 전력은 '태부족'…과방위 입법 재시동",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kdkFDT3R4UDBOLXFDdTJZR1h3Q0V2aTJvOW85Z19ZcFFhMmFULXA3M2ZzdEZUdXZoS0l0eWVkd25RNFBNOFI4Ty1mZTh1eWh5UEJVcTNtOVNiZVZsdWdCbEZQc1I?oc=5",
@@ -282,7 +283,7 @@
       "u": "https://www.nbcnews.com/video/openai-says-its-ai-models-went-rogue-and-hacked-another-tech-company-during-test-267120709788",
       "m": "07. 22. PM 09:55",
       "ts": 1784757351000,
-      "fullText": "NASA prepares to launch most advanced telescope ever built"
+      "fullText": "NBC News NOW Trump says he could pull Blanche&#x27;s attorney general nomination until GOP holdouts leave"
     },
     {
       "s": "비즈워치",
@@ -295,7 +296,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "티제이비",
+      "s": "tjb.co.kr",
       "t": "\"AI 에이전트 시대, 어떻게 살아남나\"…정부, 생존 매뉴얼 발간",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NeHR2cmpPNkF5Z1hJWllPdkh5N3h1ZmNGVzR4bkxzWFNDZEpfUzlhcVlNb09lcERDdXdTSEdxTEhVUTVXN0xhRUx0d1dCcnhocGhtNnhJM1k2WW4t?oc=5",

@@ -1,46 +1,24 @@
 {
-  "updatedAt": "2026-07-31T05:49:43.386Z",
+  "updatedAt": "2026-07-31T08:41:46.519Z",
   "count": 40,
   "stats": {
-    "today": 3,
+    "today": 1,
     "yesterday": 3,
-    "weekAvg": 2,
+    "weekAvg": 1.7,
     "sources": 30,
     "heat": "cool"
   },
   "items": [
     {
-      "s": "전자신문",
-      "t": "“기업 GPU 활용률 5% 불과”…엘리스·노타·래블업 등 해법 제시",
-      "d": "기업 내 그래픽처리장치(GPU) 평균 활용률이 5%에 불과하다는 분석 결과가 나왔다. 인공지능(AI) 시대 필수 인프라인 GPU 보유 확대도 중요하지만 활용도를 극대화할 수 있는 기술적 뒷받침이 필요한 것으로 풀이된다. 31일 글로벌 클라우드 최적화 기업 캐스트 AI에 따르면 아마존웹서비스(AWS)·마이크로소프트(MS) 애저·구글 클라우드 등 빅3 클라우드 사업자의 약 2만3000개 실제 운영 클러스터를 분석한 결과, 쿠버네티스를 최적화하지 않",
-      "u": "https://www.etnews.com/20260731000240",
-      "m": "07. 31. AM 05:32",
-      "ts": 1785475973000,
-      "fullText": "AI·SW AI “기업 GPU 활용률 5% 불과”…엘리스·노타·래블업 등 해법 제시 발행일 : 2026-07-31 14:32 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 ⓒ게티이미지뱅크 기업 내 그래픽처리장치(GPU) 평균 활용률이 5%에 불과하다는 분석 결과가 나왔다. 인공지능(AI) 시대 필수 인프라인 GPU 보유 확대도 중요하지만 활용도를 극대화할 수 있는 기술적 뒷받침이 필요한 것으로 풀이된다. 31일 글로벌 클라우드 최적화 기업 캐스트 AI에 따르면 아마존웹서비스(AWS)·마이크로소프트(MS) 애저·구글 클라우드 등 빅3 클라우드 사업자의 약 2만3000개 실제 운영 클러스터를 분석한 결과, 쿠버네티스를 최적화하지 않은 기업 시스템 환경에서 GPU 평균 활용률은 5% 내외였다. 캐스트 AI는 기업 간 AI 투자 경쟁 과열로 GPU를 과다 확보했거나, 타임 슬라이싱 등 GPU 공유 빈도가 낮아서, 또는 리소스 자동 최적화 부족 등으로 GPU 용량 약 95%가 대다수 시간 어떠한 작업에도 활용되지 않는다고 진단했다. 적정 활용률 50%에 현저히 미치지 못한다고 평가했다. 이렇듯 GPU 물량 확보만으로 AI 인프라 확대가 완성되지 않는다는 게 국내외 업계 중론이다. GPU를 많이 확보하는 것도 중요하지만 데이터센터와 클라우드 플랫폼, 추론 소프트웨어, 운영 데이터를 얼마나 유기적으로 연결하고 실제 생산성으로 전환하는지가 AI 인프라 경쟁력을 가르는 기준이 되고 있다. 국내에서도 주요 AI 스타트업을 중심으로 자원 관리과 추론 최적화, 모니터링, 데이터센터 설계 등 각 레이어별 GPU 활용 효율을 높이고 있다. GPU 자원을 빠르게 서비스에 투입하고 안정적으로 가동하며 여러 작업에 지속 배분하는 등 기술이 해법이다. 엘리스그룹은 모듈형 데이터센터 '엘리스 AI PMDC'와 클라우드 인프라 소프트웨어 'ECI'를 연계해 기업별 워크로드에 맞춘 모듈 구축과 증설, GPU 가상화와 자원 스케줄링, 데이터센터 관제와 클러스터 모니터링까지 하나로 연결해 GPU 활용률을 최적화하고 있다. 노타는 자체 기술로 인프라 활용을 극대화한다. 업스테이지 '독자 AI 파운데이션 모델' 프로젝트에서 GPU 8개로 구동되던 '솔라 오픈2' 모델을 양자화로 GPU 2개로 구동할 수 있게 경량화한 게 대표 사례다. 래블업은 '백엔드닷에이아이' 가상화·분산 학습 등으로 AI 인프라 운영 효율을 최적화하고 있다. 또 프렌들리AI는 GPU로 들어오는 요청 스케줄링과 배치 최적화를 통해 추론 비용을 낮추는 방식에 집중한다. 와탭랩스 등 옵저버빌리티 기업은 인프라와 애플리케이션·AI 모델 상태를 통합 관찰하는 방식으로 효율화를 검토하고 있다. 박정국 엘리스그룹 최고기술책임자(CTO)는 “AI 인프라 경쟁력은 자원을 얼마나 빠르게 서비스에 투입하고 안정적으로 활용하느냐에 달렸다”며 “단순히 GPU 집적 규모를 늘리는 게 아닌 워크로드에 맞춘 인프라 통합 운영으로 동일 비용에 더 많은 유효 연산과 토큰을 처리하는 게 중요하다”고 말했다. 박종진 기자 truth@etnews.com 노타 래블업 엔비디아 엘리스그룹 인공지능 캐스트 클라우드 AI AWS GPU",
-      "impact": "negative",
-      "takeaway": "GPU 활용률 저조는 AI 반도체 수요 감소 우려를 나타냄"
-    },
-    {
-      "s": "조선일보",
-      "t": "삼성전자, 내년 HBM 점유율 SK하이닉스 추월 전망…“HBM4 전환 속도 앞서”",
-      "d": "삼성전자가 내년 고대역폭메모리(HBM) 시장에서 SK하이닉스를 제치고 1위로 올라설 것이라는 전망이 나왔다. 업계 최대 고객사인 엔비디아가 삼성전자 6세대 HBM(HBM4) 제품 비중을 늘리고 있으며, 새로운 ‘큰손’으로 부각한 AMD도 삼성전자를 주력 공급사로 두고 AI 플랫폼 ‘헬리오스’에 삼성전자 HBM4를 우선 배치하는 등 업계에서 차지하는 입지가",
-      "u": "https://www.chosun.com/economy/tech_it/2026/07/31/GE4WEMBXGU4WKMTGGRSGKN3DHE/",
-      "m": "07. 31. AM 05:24",
-      "ts": 1785475441000,
-      "fullText": "",
+      "s": "동아일보",
+      "t": "구글·MS·메타·아마존, AI 투자 1400조원 돌파…“수익까진 시간 소요”",
+      "d": "구글과 아마존, 마이크로소프트(MS), 메타 등 미국 4대 빅테크가 인공지능(AI) 경쟁에 뛰어든 뒤 투입한 자금이 1조 달러(약 1430조 원)를 넘어선 것으로 나타났다.31일 파이낸셜타임스(FT)에 따르면 2023년 초부터 올해 6월 말까지 이들 기업의 자본지출 합계는 1조1000억달러(약 1580조 원)에 달했다. 데이터센터와 첨단 AI 반도체, 전력 인프라 확보에 막대한 자금이 투입된 결과다.과거 빅테크 기업들은 인터넷 플랫폼을 기반으로 대규모 생산설비 없이도 높은 수익을 거뒀다. 하지만 생성형 AI 경쟁이 본격화하면서 이제는 공장에 가까운 대형 데이터센터와 고성능 반도체, 안정적인 전력망을 직접 확보해야 하는 대규모 투자 산업으로 빠르게 변하고 있다.투자 규모는 앞으로 더 커질 전망이다. 구글과 아",
+      "u": "https://www.donga.com/news/Economy/article/all/20260731/134402333/1",
+      "m": "07. 31. AM 07:45",
+      "ts": 1785483900000,
+      "fullText": "오승준 기자 구독",
       "impact": "positive",
-      "takeaway": "삼성, HBM 점유율 상승으로 AI 반도체 경쟁력 강화"
-    },
-    {
-      "s": "전자신문",
-      "t": "복잡한 美 주식 토큰 거래를 앱 하나로…비브리지 '달러파킹' 출시",
-      "d": "인공지능(AI) 핀테크 스타트업 비브리지가 스테이블코인으로 미국 주식 가격을 추종하는 토큰을 거래할 수 있는 애플리케이션 '달러파킹'을 출시했다고 31일 밝혔다. 달러파킹은 복잡한 블록체인 거래 과정을 일반 주식거래 앱처럼 단순화한 서비스다. 이용자가 보유한 테더(USDT)나 USD코인(USDC)으로 엔비디아와 테슬라, 애플 등 미국 주식과 상장지수펀드(ETF) 가격을 추종하는 토큰을 거래할 수 있도록 지원한다. 거래 가능 종목은 총 66개다.",
-      "u": "https://www.etnews.com/20260731000225",
-      "m": "07. 31. AM 05:15",
-      "ts": 1785474934000,
-      "fullText": "경제 경제 복잡한 美 주식 토큰 거래를 앱 하나로…비브리지 '달러파킹' 출시 발행일 : 2026-07-31 14:15 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 비브리지 '달러파킹' 인공지능(AI) 핀테크 스타트업 비브리지가 스테이블코인으로 미국 주식 가격을 추종하는 토큰을 거래할 수 있는 애플리케이션 '달러파킹'을 출시했다고 31일 밝혔다. 달러파킹은 복잡한 블록체인 거래 과정을 일반 주식거래 앱처럼 단순화한 서비스다. 이용자가 보유한 테더(USDT)나 USD코인(USDC)으로 엔비디아와 테슬라, 애플 등 미국 주식과 상장지수펀드(ETF) 가격을 추종하는 토큰을 거래할 수 있도록 지원한다. 거래 가능 종목은 총 66개다. 엔비디아 가격을 추종하는 'NVDAon', 테슬라의 'TSLAon', 애플의 'AAPLon'을 비롯해 S&P500 지수 기반 'SPYon', 나스닥100 기반 'QQQon', 금 가격을 추종하는 'GLDon' 등이 포함됐다. 이용자는 메타마스크 지갑을 달러파킹에 연결한 뒤 종목과 거래 금액을 선택하면 된다. 달러파킹은 자체 분석 프로그램을 통해 종목별 유동성과 거래 시간대 등을 분석하고 가격과 체결 가능성을 고려해 유니스왑 등 탈중앙화거래소(DEX)로 주문을 전송한다. 기본 수수료는 거래 금액의 0.2%이며 할인 적용 시 최저 0.1%다. 미국 정규장 외 거래와 USDT 결제에는 각각 0.1%의 추가 수수료가 붙는다. 달러파킹에서 거래되는 주식 토큰은 미국 주식과 ETF의 가격 변동을 추종하도록 설계된 디지털자산이다. 주식 토큰은 온도파이낸스와 미국 토큰화 증권 발행사 디나리 등 해외 업체가 발행하며, 실제 거래와 자산 보관은 이용자의 개인 지갑을 통해 이뤄진다. 투자자는 실제 주식이 아니라 해당 자산의 주가와 배당 등 경제적 가치에 연동된 토큰을 보유한다. 달러파킹은 거래 조건을 탐색하고 주문을 DEX에 전달하는 역할을 맡는다. 비브리지는 달러파킹 출시와 함께 글로벌 실물자산 토큰화 기업 온도파이낸스의 공식 파트너사로 선정됐다. 온도파이낸스는 미국 주식과 ETF 등을 토큰화한 '온도 스톡스'를 운영하고 있다. 박정현 비브리지 대표는 “달러파킹을 통해 한국에서도 글로벌 디지털자산 기업이 나올 수 있다는 것을 보여주고 싶다”며 “스테이블코인 이용이 빠르게 늘고 있는 아시아 시장을 목표로 서비스를 출시했다”고 말했다. 송혜영 기자 hybrid@etnews.com",
-      "impact": "neutral",
-      "takeaway": "비브리지 앱 출시는 AI 반도체와 무관한 금융 서비스"
+      "takeaway": "대규모 AI 투자 확대가 반도체 수요를 촉진, 성장 기대"
     },
     {
       "s": "네이트",
@@ -52,7 +30,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "미국 기술주 강세는 AI 반도체 직접 언급이 없어 중립"
+      "takeaway": "AI 반도체와 직접 연관성이 낮아 영향은 중립으로 판단"
     },
     {
       "s": "광주일등뉴스",
@@ -64,7 +42,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "정부 예산 정책에 AI·반도체 강조, 투자 촉진 기대"
+      "takeaway": "정부 차원의 AI·반도체 지원 약속이 투자 분위기 강화, 예산 확보 기대"
     },
     {
       "s": "한경 IT",
@@ -75,7 +53,7 @@
       "ts": 1785374784000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 '차단 부품' 없이도 전류 안새… GIST·서울대·USC, 차세대 AI 반도체 소자 개발 입력 2026.07.30 10:26 수정 2026.07.30 10:26 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 허진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 회로 구조 대폭 단순화해 집적도 높여 뉴로모픽 한계 &lsquo;전류 누설&middot;정확도&rsquo; 보완 상용화 땐 AI 확산 앞당길 핵심 기술 이상헌 광주과학기술원(GIST) 신소재공학과 교수 연구팀이 서울대, 미국 USC 등과 추가 부품 없이도 정보가 일정하게 저장되고 전류가 새어 나가는 현상을 막아주는 차세대 뉴로모픽 반도체 소자를 개발했다. 이번에 개발된 소자는 회로 구조를 대폭 단순화하면서도 높은 집적도와 초저전력 성능을 구현할 수 있어, 향후 고효율 인공지능(AI) 반도체 상용화를 앞당길 핵심 기술로 기대를 모으고 있다. GIST는 30일 이 같은 내용의 연구 성과가 국제학술지 &lsquo;네이처 커뮤니케이션즈&rsquo;에 게재됐다고 발표했다. 사람의 뇌를 모방해 정보를 처리하는 뉴로모픽 컴퓨팅은 대규모 데이터를 병렬로 처리할 수 있어 차세대 AI 반도체의 핵심으로 꼽힌다. 그러나 기존에는 전기 자극을 반복해도 정보가 일정한 폭으로 쌓이지 않고, 인접 소자로 전류가 새어 나가는 누설 전류 문제가 연산 정확도를 떨어뜨리는 한계였다. 이를 막으려면 메모리마다 별도의 선택소자를 추가해야 해 회로가 복잡해지는 문제가 발생했다. 연구팀은 이 문제를 해결하기 위해 정보를 저장하는 메모리 기능과 전류를 한 방향으로만 흐르게 하는 자기 정류 기능을 하나의 소자에 동시에 구현했다. 전기 신호를 기억하는 강유전체 소재인 비스무트 철 산화물에 바륨을 첨가해 산소 공공의 이동을 정밀하게 제어함으로써 반복적인 자극에도 정보가 일정한 폭으로 저장되는 선형적 특성을 확보했다. 또한 소자 자체에 자기 정류 기능을 적용해 별도의 선택소자 없이도 누설 전류를 완벽하게 차단했다. 다양한 실험을 통해 검증한 결과, 개발된 소자는 1000만회 이상의 반복 동작에도 안정적인 특성을 유지했으며, 정류비를 100만배 이상 높여 미세한 전기가 새어 나가는 현상을 효과적으로 막았다. 나아가 가로&middot;세로 각 11개로 구성된 121개 메모리 셀의 크로스바 어레이를 구현해 텍스트와 이미지 패턴 기록&middot;소거 실험을 성공적으로 마쳤다. 이상한 교수는 &ldquo;이번 연구가 기존 뉴로모픽 반도체의 주요 난제였던 비선형성과 누설 전류 문제를 하나의 소자에서 동시에 해결했다&rdquo;며 &ldquo;향후 고효율 뉴로모픽 컴퓨팅 구현과 상용화를 앞당기는 기반 기술이 될 것&rdquo;이라고 밝혔다. 허진 기자 hjin@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 허진 ADVERTISEMENT 관련 뉴스 1 [단독] 삼성·현대차 석좌교수 나오나…서울대, 기업 후원 교수직 확대 추진 서울대가 삼성, 현대차, SK 등 기업의 후원을 받는 석좌교수직을 확대하고 있다. 현직 교수의 기업 상근 겸직도 처음 허용하는 등 산업계와의 인적·연구 교류를 넓히기 위한 제도 개편으로... 2026.07.28 10:35 2 [단독] 젠슨 황 손잡은 서울대…亞 최초 '피지컬AI' 연구거점 만든다 서울대와 엔비디아가 피지컬 인공지능(AI) 분야 공동 연구에 나선다. 로봇과 제조, 의료 등 다양한 분야를 아우르는 서울대의 연구 역량과 엔비디아의 AI 도구·컴퓨팅 기술을 결합해 피지컬 AI 연구 거점... 2026.07.24 03:00 3 서울대 제적당한 21살 청년…10년 뒤 '불가사리'로 260억 잭팟 [임다연의 요즘 CEO 경영법] “제설제 산업에서 확보한 공정 기술을 활용해 화장품과 의료 분야로 사업을 확장",
       "impact": "positive",
-      "takeaway": "차세대 AI 반도체 소자 개발로 성능 향상 및 시장 확대"
+      "takeaway": "차세대 AI 반도체 소자 기술 진전이 시장 기대감 상승"
     },
     {
       "s": "블로터",
@@ -87,11 +65,11 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "미국 3억달러 지원으로 AI 반도체 핵심기술 개발 가속"
+      "takeaway": "미국의 파운드리 지원이 AI 반도체 핵심 기술 확보에 도움"
     },
     {
-      "s": "g-enews.com",
-      "t": "美, 글로벌파운드리스에 4356억원 지원…AI 반도체 공급망 자립 속도 - g-enews.com",
+      "s": "글로벌이코노믹",
+      "t": "美, 글로벌파운드리스에 4356억원 지원…AI 반도체 공급망 자립 속도",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX0xGRHpvVkdWalJpekYzeEg2RDc5bGJKVEZpRTNwWWFtSVhqMTRSSGVrUVZxWTM0OTZTT3I3M1dwM013NGVQd1FEVFA0VUdNX1BTejEwaVpNb0tKLXZkNzc3eWRKYXhzajhKQnd0a1dPb0lWVXJsUnB2bGpZX1l6Qm5rdlV0Z3Ff?oc=5",
       "m": "07. 29. PM 12:00",
@@ -99,7 +77,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "4356억 원 지원으로 AI 반도체 공급망 자립도 향상"
+      "takeaway": "미국 지원으로 AI 반도체 공급망 자립 속도가 가속화, 국내 생산 확대 기대"
     },
     {
       "s": "비즈니스포스트",
@@ -110,8 +88,8 @@
       "ts": 1785294036000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "AI 반도체 중국 수출 제한은 해외 시장 확대에 부정적"
+      "impact": "neutral",
+      "takeaway": "AI 반도체 수출 규제로 인해 시장 불확실성이 증가, 직접적 영향은 중립"
     },
     {
       "s": "thefairnews.co.kr",
@@ -122,8 +100,8 @@
       "ts": 1785275510000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "미국 규제로 AI 칩 수출 제약, 엔비디아 성장에 제동"
+      "impact": "neutral",
+      "takeaway": "중국 AI 칩 수출 규제 논의가 진행 중이지만, 테마에 직접적인 변동은 없음"
     },
     {
       "s": "NVIDIA공식",
@@ -132,7 +110,9 @@
       "u": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
       "m": "07. 27. AM 12:45",
       "ts": 1785113142000,
-      "fullText": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs The Vera CPU is speeding up next-generation NVIDIA chip designs, and early testing shows up to 1.5x higher performance on key verification and simulation workloads. July 26, 2026 by Ivan Goldwasser 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across EDA workflows used to develop its next generation of CPUs and GPUs, demonstrating how high-performance CPU architecture can help accelerate some of the industry&#8217;s most demanding engineering workloads. Accelerating Critical EDA Workloads What’s at stake is the pace of chip production. In turn, the tempo of industry technologies that stand to benefit from boosted EDA workloads, driving development momentum. Simulation, verification and implementation technologies play a central role in semiconductor development. Long before a chip reaches manufacturing, engineers spend years validating behavior, identifying corner cases and refining designs through thousands of iterations. While GPUs and AI have accelerated many aspects of chip design, several critical EDA workloads remain heavily dependent on CPU performance. Logic simulation, formal verification and portions of digital implementation often depend on fast individual cores, efficient memory systems and strong overall throughput. That makes CPU architecture an important factor in determining how quickly engineering teams can validate designs, explore alternatives and move products toward tapeout. Vera cluster in NVIDIA Portland data center. Highlighting Early Results With Cadence and Synopsys NVIDIA&"
+      "fullText": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs The Vera CPU is speeding up next-generation NVIDIA chip designs, and early testing shows up to 1.5x higher performance on key verification and simulation workloads. July 26, 2026 by Ivan Goldwasser 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across EDA workflows used to develop its next generation of CPUs and GPUs, demonstrating how high-performance CPU architecture can help accelerate some of the industry&#8217;s most demanding engineering workloads. Accelerating Critical EDA Workloads What’s at stake is the pace of chip production. In turn, the tempo of industry technologies that stand to benefit from boosted EDA workloads, driving development momentum. Simulation, verification and implementation technologies play a central role in semiconductor development. Long before a chip reaches manufacturing, engineers spend years validating behavior, identifying corner cases and refining designs through thousands of iterations. While GPUs and AI have accelerated many aspects of chip design, several critical EDA workloads remain heavily dependent on CPU performance. Logic simulation, formal verification and portions of digital implementation often depend on fast individual cores, efficient memory systems and strong overall throughput. That makes CPU architecture an important factor in determining how quickly engineering teams can validate designs, explore alternatives and move products toward tapeout. Vera cluster in NVIDIA Portland data center. Highlighting Early Results With Cadence and Synopsys NVIDIA&",
+      "impact": "positive",
+      "takeaway": "NVIDIA의 설계 가속화가 차세대 AI 칩 개발을 촉진, 시장 경쟁력 강화"
     },
     {
       "s": "조선일보",
@@ -142,7 +122,9 @@
       "m": "07. 26. PM 03:43",
       "ts": 1785080584000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "중국 AI·반도체 규제 논쟁이 미국 빅테크를 갈라놓지만, 테마와 직접 연관성은 낮음"
     },
     {
       "s": "한스경제",
@@ -206,14 +188,14 @@
       "s": "v.daum.net",
       "t": "전남광주 AI·광반도체 선도할 ‘정책 플랫폼’ 시동",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5LenZCS2JqWlgyeDRBWGViT3ctZGd6UWkzZWpnY3ByVGJJalkzSmFiWUt5VDNOSVdUZmhTanRjYlVwczJEM3c?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50UnNCMWhTQ19jczhvRkR4dWJvTWVxbUl2Mzhpal9JaVpfaUMzWTlrQndNSHdsNmh6THFKQUo2Y0JONnVzWThLZi1uRQ?oc=5",
       "m": "07. 22. AM 07:59",
       "ts": 1784707146000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "mdtoday.co.kr",
+      "s": "메디컬투데이",
       "t": "中, AI·반도체 수출 규제 강화…첨단 기술 유출 방어한다",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHY1Y1SnpkaVF0a1hXY3BBcHE0THNJeWlHRnhGU19uY1dUOUZZQWp1RGxEalVYaUdRd1FlMl95dmoyaEhTRFVLcjhMTFl0dkQ2aWRYVUtoNDVTYzd1NlJtMHZKYUtmd1FZdk5yaA?oc=5",
@@ -232,20 +214,20 @@
       "fullText": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories Next-generation NVIDIA Spectrum-X Ethernet connects hundreds of thousands of GPUs with the performance, resilience and efficiency needed for gigascale AI, with AI infrastructure leaders already adopting. July 21, 2026 by Scot Schultz 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 — a 102.4-terabit-per-second Ethernet switch system delivering 2x the capacity of previous-generation systems and built as part of the NVIDIA Vera Rubin platform — is arriving across the world’s gigascale AI factories. Spectrum-6 anchors the next generation of the NVIDIA Spectrum-X Ethernet platform , delivering the bandwidth, scale and intelligence needed to operate an AI factory as one end-to-end computing system. Leading AI Builders Move First The world’s leading AI infrastructure builders — including CoreWeave , Microsoft , Nebius , SpaceXAI and Tesla — will be among the first to bring in Spectrum-6 to accelerate their AI factories. For cloud providers, Spectrum-6 means more compute capacity can operate as a unified, high-performance resource, helping customers train models and deploy inference services faster. “CoreWeave is built for the most demanding AI workloads, and networking is central to delivering that performance at scale,” said Min Jun, director of product for networking at CoreWeave . “Bringing NVIDIA Spectrum-6 and liquid-cooled Spectrum-X Ethernet infrastructure into our AI factories will help us deliver the bandwidth, resilience and efficiency customers need to train frontier models and deploy inf"
     },
     {
-      "s": "대한민국 정책브리핑",
-      "t": "정부, 550조 AI 데이터센터 투자 견인…'1인 1 AI 에이전트' 시대 연다",
+      "s": "전자신문",
+      "t": "국가AI전략위, 에이전틱 AI 맞춤 국가 컴퓨팅 정책 발굴한다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UaTBhRTVjQ2pKZHJua0dyaHJOZzJRMkFmaU1SOE9MYldPRkhHMHhrX3BaaS1oN3RjZUFqNDhVM0Q4aWN1cS1VOGx5bGtEd1g3cmY5Y2V3bVZnczNud0I4SHB6bW0xYUltOUZpOQ?oc=5",
-      "m": "07. 16. AM 07:00",
-      "ts": 1784185200000,
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aX2FPdmg5MGl2MW9zcUJMTlBWbnphNFFqZWg2amxxWDRuanZqZjRvcFluT3NpRGp6X0p6TjhEMFFHTXZ1VHBrd3VCanNBdw?oc=5",
+      "m": "07. 20. AM 07:00",
+      "ts": 1784530800000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "BBS불교방송",
-      "t": "정부, 청년고용 대책 마련…AI·반도체 인력 20만명·일자리 20만개 만든다",
+      "s": "대한민국 정책브리핑",
+      "t": "정부, 550조 AI 데이터센터 투자 견인…'1인 1 AI 에이전트' 시대 연다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52WWFfNDlGUC1LVlpvdlUzZVJFM2laQkNDMElicmd5U0FhZ1dlOUFGNWE5eWx5NVpnTGF0dkRldmEzU0JoUV9mQjllUGVyRXBtZXc2aHNEUXdtZkZFVXFqMFNnM29fQnpTeGg0?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UaTBhRTVjQ2pKZHJua0dyaHJOZzJRMkFmaU1SOE9MYldPRkhHMHhrX3BaaS1oN3RjZUFqNDhVM0Q4aWN1cS1VOGx5bGtEd1g3cmY5Y2V3bVZnczNud0I4SHB6bW0xYUltOUZpOQ?oc=5",
       "m": "07. 16. AM 07:00",
       "ts": 1784185200000,
       "_policy": true,
@@ -262,20 +244,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "경향신문",
-      "t": "반도체 규제 완화 ‘선물 보따리’ 받은 UAE···전쟁서 미국 편에 선 대가?",
+      "s": "v.daum.net",
+      "t": "우상호표 AI 산업정책 점검…여야 ‘반도체 계승·AI 전환’ 온도차",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQTZHaVlIQXg0Vmt3NVZoOUJJbGFZZGthT1ZLS3RwamlfZjFrRjJlUTVtVUZUZnhIOHRkdTJ5ZnBQMTZMRE5IWFo1bTc3Y3RHc1NQU3ZrMC00Z9IBX0FVX3lxTE9JWmtibnRiQWNGYzdaWjRpY1czQ2NpbDB4WW50RlRPakRGaEp4WFZkWkxHdTZBM3YyQ0hreDBicWl3SWx4QzB5SXBacmNwcVoxdU14Ynd0QjQ4LXhZc1Vz?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0wZE1lQTNoN1Z0RG4yckpwSU10WFdQWlZ1NlMxdTVpMmdIYXNYTlc4M0V6WGxmSllSMUNmSlV0bTN4UzBFa3c?oc=5",
       "m": "07. 15. AM 07:00",
       "ts": 1784098800000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "v.daum.net",
-      "t": "우상호표 AI 산업정책 점검…여야 ‘반도체 계승·AI 전환’ 온도차",
+      "s": "경향신문",
+      "t": "반도체 규제 완화 ‘선물 보따리’ 받은 UAE···전쟁서 미국 편에 선 대가?",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0wZE1lQTNoN1Z0RG4yckpwSU10WFdQWlZ1NlMxdTVpMmdIYXNYTlc4M0V6WGxmSllSMUNmSlV0bTN4UzBFa3c?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQTZHaVlIQXg0Vmt3NVZoOUJJbGFZZGthT1ZLS3RwamlfZjFrRjJlUTVtVUZUZnhIOHRkdTJ5ZnBQMTZMRE5IWFo1bTc3Y3RHc1NQU3ZrMC00Z9IBX0FVX3lxTE9JWmtibnRiQWNGYzdaWjRpY1czQ2NpbDB4WW50RlRPakRGaEp4WFZkWkxHdTZBM3YyQ0hreDBicWl3SWx4QzB5SXBacmNwcVoxdU14Ynd0QjQ4LXhZc1Vz?oc=5",
       "m": "07. 15. AM 07:00",
       "ts": 1784098800000,
       "_policy": true,
@@ -338,16 +320,6 @@
       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51WlJNNXFZUlF1ekxzZVhuUmJ0a0FtOVByNHpvOHZfRWw0emF5aUl2LVdXSk1ENXg4cXZlN2V6OHVSREZ3Ul9YS21rMHEtOFZXLW4zS21TWWszLS1CODVHcXlmWmJVU1VUSmZlSER4ajY?oc=5",
       "m": "06. 10. AM 07:00",
       "ts": 1781074800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴스N연합",
-      "t": "EU, 기술 주권 확보 드라이브…클라우드·AI·반도체 신규 입법 제안",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB2bFo0WC04Z0VIZk1NcTY4clJGNGhNTlVadkF0N3lHWW95dTVXTHlhV2VxRGhsYkJMSGxwUHZPc2wwZlo3UUttQ0R3?oc=5",
-      "m": "06. 05. AM 07:00",
-      "ts": 1780642800000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -416,6 +388,36 @@
       "t": "한미반도체, 올해 말 美 법인 세운다⋯ “장비 수주 확대 기대”",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1emNHOEhQZVFZR2g4Z2FDWEFEbzh2eXB0Z3hhYUJpM0V0di1kb05uQThjblcyd005djVQbVZySTQ5YVFDSVB0c0VhMDVkZE1LS1FacnlyZnlIQQ?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스1",
+      "t": "한미반도체, 美 실리콘밸리에 한미USA 설립…美 시장 공략 박차",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xa1l2U0pYbENCS3lHaW5hcVY3V2FfbkM5LUQ2Z0NaWlRrdjdHSEUxSzl5M29iYW5ISkJyZUY0TlFGX0hzeGpuekdaQV8zRzNIMVVOTnZwTUZEYnh4MExSR183Q24?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "네이트",
+      "t": "[Tech &amp; Now] \"HBM4 올라탄 한미반도체\"…곽동신, 美 공급망 진출",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCX1AxVm9CNS13UmM2U0lBSU5mNTFWRUJveTVTRWIzVENhUW81MEhVbVBRSGFHNGhydFI2ejVGSjhjOFpjSk55NVRneDlabC1FbFVj?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "대한민국 정책브리핑",
+      "t": "과기정통부, 국산 AI반도체 해외실증 전폭 지원…8개 컨소시엄 선정",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pak9jcW14V1ZLdnZlalRZTVdmRFBPelVrazZlbk9qTmRsM2IwUl8tM0VMd0FXaU16eUJROGdwVU5yc2FwdGZBOFRRb3N1V2UtV3BkUmRJYW9BRUNkRVY4ZGdkTmZpM2puOS1MSw?oc=5",
       "m": "05. 15. AM 07:00",
       "ts": 1778828400000,
       "_policy": true,

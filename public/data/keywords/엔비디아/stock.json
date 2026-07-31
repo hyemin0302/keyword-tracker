@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T08:41:35.938Z",
+  "updatedAt": "2026-07-31T11:26:20.597Z",
   "data": {
     "NVDA": {
       "name": "엔비디아",
@@ -139,34 +139,34 @@
       "investorFlow": null,
       "consensus": null
     },
-    "AMD": {
-      "name": "AMD",
-      "px": 485.39,
-      "dayChange": 13,
-      "periodChange": -16.44,
+    "AVGO": {
+      "name": "브로드컴",
+      "px": 387.84,
+      "dayChange": 4.73,
+      "periodChange": 2.67,
       "prices": [
-        580.91,
-        540.88,
-        517.82,
-        552.05,
-        516.11,
-        517.41,
-        546.72,
-        557.89,
-        534.39,
-        548.13,
-        529.14,
-        500.94,
-        495.76,
-        503.57,
-        544.43,
-        552.33,
-        539.69,
-        521.95,
-        494.95,
-        454.62,
-        429.56,
-        485.39
+        377.75,
+        369.34,
+        360.45,
+        373.9,
+        370.78,
+        388.69,
+        401.11,
+        399.97,
+        384.05,
+        389.11,
+        394.28,
+        374.45,
+        370.83,
+        378.16,
+        386.5,
+        396.81,
+        392.47,
+        381.92,
+        383.22,
+        380.91,
+        370.32,
+        387.84
       ],
       "dates": [
         "2026-06-30",
@@ -192,23 +192,23 @@
         "2026-07-29",
         "2026-07-30"
       ],
-      "volume": 35105728,
+      "volume": 21915504,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 584.73,
-        "low52w": 149.22,
-        "volume": 35105728
+        "high52w": 495,
+        "low52w": 281.61,
+        "volume": 21915504
       },
       "investorFlow": null,
       "consensus": {
-        "targetMean": 576.55316,
-        "targetHigh": 1250,
-        "targetLow": 320,
-        "analysts": 47,
+        "targetMean": 527.88446,
+        "targetHigh": 675,
+        "targetLow": 215.88,
+        "analysts": 45,
         "recommendation": "strong_buy",
-        "earningsDate": "2026-08-04",
+        "earningsDate": "2026-09-03",
         "source": "yahoo"
       }
     },
@@ -285,34 +285,34 @@
         "source": "yahoo"
       }
     },
-    "AVGO": {
-      "name": "브로드컴",
-      "px": 387.84,
-      "dayChange": 4.73,
-      "periodChange": 2.67,
+    "AMD": {
+      "name": "AMD",
+      "px": 485.39,
+      "dayChange": 13,
+      "periodChange": -16.44,
       "prices": [
-        377.75,
-        369.34,
-        360.45,
-        373.9,
-        370.78,
-        388.69,
-        401.11,
-        399.97,
-        384.05,
-        389.11,
-        394.28,
-        374.45,
-        370.83,
-        378.16,
-        386.5,
-        396.81,
-        392.47,
-        381.92,
-        383.22,
-        380.91,
-        370.32,
-        387.84
+        580.91,
+        540.88,
+        517.82,
+        552.05,
+        516.11,
+        517.41,
+        546.72,
+        557.89,
+        534.39,
+        548.13,
+        529.14,
+        500.94,
+        495.76,
+        503.57,
+        544.43,
+        552.33,
+        539.69,
+        521.95,
+        494.95,
+        454.62,
+        429.56,
+        485.39
       ],
       "dates": [
         "2026-06-30",
@@ -338,23 +338,23 @@
         "2026-07-29",
         "2026-07-30"
       ],
-      "volume": 21915504,
+      "volume": 35105728,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 495,
-        "low52w": 281.61,
-        "volume": 21915504
+        "high52w": 584.73,
+        "low52w": 149.22,
+        "volume": 35105728
       },
       "investorFlow": null,
       "consensus": {
-        "targetMean": 527.88446,
-        "targetHigh": 675,
-        "targetLow": 215.88,
-        "analysts": 45,
+        "targetMean": 576.55316,
+        "targetHigh": 1250,
+        "targetLow": 320,
+        "analysts": 47,
         "recommendation": "strong_buy",
-        "earningsDate": "2026-09-03",
+        "earningsDate": "2026-08-04",
         "source": "yahoo"
       }
     },
@@ -413,7 +413,7 @@
         "2026-07-30",
         "2026-07-31"
       ],
-      "volume": 10347350,
+      "volume": 10718268,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -438,6 +438,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260731",
+            "foreigner": 2205767,
+            "institution": 277183,
+            "individual": -2463959,
+            "foreignRatio": "51.16%"
+          },
           {
             "date": "20260730",
             "foreigner": 444498,
@@ -500,22 +507,15 @@
             "institution": -527040,
             "individual": 180897,
             "foreignRatio": "52.40%"
-          },
-          {
-            "date": "20260716",
-            "foreigner": -469637,
-            "institution": -628785,
-            "individual": 1067656,
-            "foreignRatio": "52.37%"
           }
         ],
         "sum5d": {
-          "foreigner": -3896412,
-          "institution": 847150
+          "foreigner": -713866,
+          "institution": 1608214
         },
         "sum10d": {
-          "foreigner": -2941754,
-          "institution": -655635
+          "foreigner": -266350,
+          "institution": 250333
         }
       },
       "consensus": null

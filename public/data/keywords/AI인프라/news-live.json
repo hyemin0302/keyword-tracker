@@ -1,22 +1,40 @@
 {
-  "updatedAt": "2026-07-31T02:15:27.389Z",
+  "updatedAt": "2026-07-31T05:51:33.604Z",
   "count": 40,
   "stats": {
-    "today": 2,
-    "yesterday": 5,
-    "weekAvg": 3.6,
-    "sources": 31,
-    "heat": "cool"
+    "today": 4,
+    "yesterday": 3,
+    "weekAvg": 3.4,
+    "sources": 34,
+    "heat": "warm"
   },
   "items": [
     {
+      "s": "전자신문",
+      "t": "“기업 GPU 활용률 5% 불과”…엘리스·노타·래블업 등 해법 제시",
+      "d": "기업 내 그래픽처리장치(GPU) 평균 활용률이 5%에 불과하다는 분석 결과가 나왔다. 인공지능(AI) 시대 필수 인프라인 GPU 보유 확대도 중요하지만 활용도를 극대화할 수 있는 기술적 뒷받침이 필요한 것으로 풀이된다. 31일 글로벌 클라우드 최적화 기업 캐스트 AI에 따르면 아마존웹서비스(AWS)·마이크로소프트(MS) 애저·구글 클라우드 등 빅3 클라우드 사업자의 약 2만3000개 실제 운영 클러스터를 분석한 결과, 쿠버네티스를 최적화하지 않",
+      "u": "https://www.etnews.com/20260731000240",
+      "m": "07. 31. AM 05:32",
+      "ts": 1785475973000,
+      "fullText": "AI·SW AI “기업 GPU 활용률 5% 불과”…엘리스·노타·래블업 등 해법 제시 발행일 : 2026-07-31 14:32 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 ⓒ게티이미지뱅크 기업 내 그래픽처리장치(GPU) 평균 활용률이 5%에 불과하다는 분석 결과가 나왔다. 인공지능(AI) 시대 필수 인프라인 GPU 보유 확대도 중요하지만 활용도를 극대화할 수 있는 기술적 뒷받침이 필요한 것으로 풀이된다. 31일 글로벌 클라우드 최적화 기업 캐스트 AI에 따르면 아마존웹서비스(AWS)·마이크로소프트(MS) 애저·구글 클라우드 등 빅3 클라우드 사업자의 약 2만3000개 실제 운영 클러스터를 분석한 결과, 쿠버네티스를 최적화하지 않은 기업 시스템 환경에서 GPU 평균 활용률은 5% 내외였다. 캐스트 AI는 기업 간 AI 투자 경쟁 과열로 GPU를 과다 확보했거나, 타임 슬라이싱 등 GPU 공유 빈도가 낮아서, 또는 리소스 자동 최적화 부족 등으로 GPU 용량 약 95%가 대다수 시간 어떠한 작업에도 활용되지 않는다고 진단했다. 적정 활용률 50%에 현저히 미치지 못한다고 평가했다. 이렇듯 GPU 물량 확보만으로 AI 인프라 확대가 완성되지 않는다는 게 국내외 업계 중론이다. GPU를 많이 확보하는 것도 중요하지만 데이터센터와 클라우드 플랫폼, 추론 소프트웨어, 운영 데이터를 얼마나 유기적으로 연결하고 실제 생산성으로 전환하는지가 AI 인프라 경쟁력을 가르는 기준이 되고 있다. 국내에서도 주요 AI 스타트업을 중심으로 자원 관리과 추론 최적화, 모니터링, 데이터센터 설계 등 각 레이어별 GPU 활용 효율을 높이고 있다. GPU 자원을 빠르게 서비스에 투입하고 안정적으로 가동하며 여러 작업에 지속 배분하는 등 기술이 해법이다. 엘리스그룹은 모듈형 데이터센터 '엘리스 AI PMDC'와 클라우드 인프라 소프트웨어 'ECI'를 연계해 기업별 워크로드에 맞춘 모듈 구축과 증설, GPU 가상화와 자원 스케줄링, 데이터센터 관제와 클러스터 모니터링까지 하나로 연결해 GPU 활용률을 최적화하고 있다. 노타는 자체 기술로 인프라 활용을 극대화한다. 업스테이지 '독자 AI 파운데이션 모델' 프로젝트에서 GPU 8개로 구동되던 '솔라 오픈2' 모델을 양자화로 GPU 2개로 구동할 수 있게 경량화한 게 대표 사례다. 래블업은 '백엔드닷에이아이' 가상화·분산 학습 등으로 AI 인프라 운영 효율을 최적화하고 있다. 또 프렌들리AI는 GPU로 들어오는 요청 스케줄링과 배치 최적화를 통해 추론 비용을 낮추는 방식에 집중한다. 와탭랩스 등 옵저버빌리티 기업은 인프라와 애플리케이션·AI 모델 상태를 통합 관찰하는 방식으로 효율화를 검토하고 있다. 박정국 엘리스그룹 최고기술책임자(CTO)는 “AI 인프라 경쟁력은 자원을 얼마나 빠르게 서비스에 투입하고 안정적으로 활용하느냐에 달렸다”며 “단순히 GPU 집적 규모를 늘리는 게 아닌 워크로드에 맞춘 인프라 통합 운영으로 동일 비용에 더 많은 유효 연산과 토큰을 처리하는 게 중요하다”고 말했다. 박종진 기자 truth@etnews.com 노타 래블업 엔비디아 엘리스그룹 인공지능 캐스트 클라우드 AI AWS GPU"
+    },
+    {
       "s": "동아일보",
-      "t": "“챗GPT 안 부럽다”…아마존 AI 승부수는 ‘플랫폼’",
-      "d": "아마존이 클라우드 사업 호조로 시장의 기대를 뛰어넘는 실적을 거뒀다. 고성능의 AI 모델을 직접 보유하기보다 다양한 AI 모델을 연결하는 플랫폼 전략이 성과를 냈다는 평가가 나온다.31일(현지시간) 비즈니스인사이더(BI)에 따르면 아마존은 전날 실적 발표에서 클라우드 사업인 아마존웹서비스(AWS) 매출이 전년 동기 대비 37% 증가했다고 밝혔다. 시장 예상치를 웃도는 성과다.AWS 성장에는 ‘아마존 베드록(Bedrock)’이 핵심 역할을 한 것으로 분석된다. 아마존 베드록은 앤트로픽과 오픈AI 등 주요 기업의 AI 모델을 제공하는 플랫폼이다.앤디 재시 아마존 최고경영자(CEO)는 실적 발표 후 콘퍼런스콜에서 “세상을 지배하는 단 하나의 AI 모델은 없을 것”이라며 “AWS는 자체 최첨단 모델이 없어도 충분히",
-      "u": "https://www.donga.com/news/Economy/article/all/20260731/134400080/1",
-      "m": "07. 31. AM 01:48",
-      "ts": 1785462520000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
+      "t": "경남 양산 41.4도…韓기상관측 사상 최고 기온",
+      "d": "경남 양산시의 낮 기온이 31일 최고 41.4도를 기록했다. 41.4도는 우리나라 기상관측 사상 역대 최고(공식 관측 기준) 기록이다. 앞서 2018년 강원 홍천군에서 41도가 관측된 것이 기존 최고 기록이었다. 이날 기상청에 따르면 양산시(동면) 관서용(ASOS) 관측지점의 기온은 오후 12시 39분 40.7도를 기록했다. 이후 오후 1시 22분에는 41.0도를 찍었고, 오후 1시 40분에는 41.4도로 기상관측 이래 역대 전국 최고기온 기록을 경신했다. 양산 기온은 지난 26일 해당 지역 역대 최고 기온인 39.3도를 기록한 뒤 사흘 만인 29일에 40.3도로 다시 최고치를 경신했으며, 30일에 이어 이날까지 3일 연속 40도를 넘어섰다. 자동기상관측장비(AWS)를 포함해 국내 한 지점에서 사흘 이상 4",
+      "u": "https://www.donga.com/news/Society/article/all/20260731/134400688/2",
+      "m": "07. 31. AM 04:27",
+      "ts": 1785472020000,
+      "fullText": "송치훈 기자 구독"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Thailand’s True Internet Data Center Seeks $2 Billion Loan",
+      "d": "Thailand’s True Internet Data Center Co. is seeking an about $2 billion-equivalent loan to build a new facility, according to people familiar with the matter, as the country looks to become a regional hub for artificial intelligence and cloud services.",
+      "u": "https://www.bloomberg.com/news/articles/2026-07-31/thailand-s-true-internet-data-center-seeks-2-billion-loan",
+      "m": "07. 31. AM 02:46",
+      "ts": 1785465985000,
+      "fullText": ""
     },
     {
       "s": "비즈니스플러스",
@@ -45,24 +63,6 @@
       "m": "07. 30. PM 10:41",
       "ts": 1785451301000,
       "fullText": "Amazon reported better-than-expected second-quarter earnings on Thursday, and investors loved what they saw. Net sales rose 20%, and cloud revenue stood out as a particular bright spot. This combination of positive results was enough to send Amazon&#8217;s stock up nearly 10% in after-hours trading. Crucially, Amazon isn’t slowing down on data center spending, despite the conventional wisdom that investors want companies to rein it in. One line item, in particular, illustrates Amazon&#8217;s appetite for investing in infrastructure. Amazon spent $173 billion for the fiscal year ended June 30 on property and equipment — a category that covers GPUs, natural gas turbines, and plots of land — up from $107.65 billion from the year before. It also raised its 2026 capex forecast from $200 billion to $220 billion — even as it has begun dipping into its cash reserves to help cover the cost. The company ended the quarter with $7.6 billion less cash than it had 12 months ago, marking its first period of negative free cash flow this year. Under normal circumstances, ballooning expenses would be a tough pill for investors to swallow. But Amazon has a revenue engine that helps justify the spending. AWS revenue rose 37% year over year, clocking $42 billion for the quarter. That’s not enough to balance out the capex spending in raw arithmetic, but it shows that demand is growing alongside supply. Given the years-long time lag between breaking ground on a data center and selling its capacity, that&#8217;s reassuring for investors. Critically, Amazon’s AI play isn’t limited to building large data centers. The company is also making serious long-term bets on chips like the Trainium TPU and the Arm-based Graviton processor. Those projects don’t show up in capex numbers, but they can meaningfully improve margins for the company’s cloud business. “We see the AI business following very much the same margin trajectory we saw in the core business before,” Jassy said during the company&#8217"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Marathon Asset Management on Hyperscalers’ Credit Risks",
-      "d": "Bruce Richards, Managing Partner and Head of CVC Marathon discusses the current state of credit markets and the cost of capital. With $80 billion in assets under management and extensive Wall Street experience, Richards provided valuable perspectives on market dynamics and financing conditions. He speaks with Romaine Bostick & Emily Graffeo on \"The Close.\" (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-07-30/marathon-asset-management-on-hyperscalers-credit-risks-video",
-      "m": "07. 30. PM 10:10",
-      "ts": 1785449417000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Amazon's AWS Result Is 'Remarkable,' Analyst Luria Says",
-      "d": "Gil Luria, D.A. Davidson's head of technology research, reacts to Amazon Web Services' revenue growth and discusses the outlook for Amazon.com Inc. on \"Bloomberg The Close.\" (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-07-30/amazon-s-aws-result-is-remarkable-analyst-luria-says-video",
-      "m": "07. 30. PM 10:06",
-      "ts": 1785449160000,
-      "fullText": ""
     },
     {
       "s": "TechCrunch",
@@ -112,7 +112,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "인공지능신문",
+      "s": "aitimes.kr",
       "t": "ITU, 개발도상국 AI 확산 지원 위한 'AI for Good Lab' 출범… 정책·인재·인프라 구축 본격화",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90UmdCZHU1STlrOFBxTkx0RGFvZHlvX0gzQkt3TUNwWHB1ejJfZE4tb25vVjduVmgyV2MyYnl1Z1N1TDEya05TTG9JcHNkYnYtS3F0Y0VzWWN1ak1pd0lZeDZaY3lCbjA?oc=5",
@@ -152,16 +152,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "CNBC Tech",
-      "t": "Federal judge blocks Minnesota’s prediction market ban days before it takes effect",
-      "d": "The ruling follows lawsuits from the Justice Department, the Commodity Futures Trading Commission, Polymarket and Kalshi.",
-      "u": "https://www.nbcnews.com/tech/tech-news/minnesota-prediction-market-ban-blocked-federal-judge-rcna589494",
-      "m": "07. 27. PM 09:53",
-      "ts": 1785189192000,
-      "fullText": "Tech News Federal judge blocks Minnesota’s prediction market ban days before it takes effect The ruling follows lawsuits by the Justice Department, the Commodity Futures Trading Commission, Polymarket and Kalshi. Listen to this article with a free profile 00:00 00:00 State Capitol building in St. Paul, Minn. Michael Siluk / UCG / Universal Images Group via Getty Images file Share Add NBC News to Google July 27, 2026, 5:53 PM EDT By Samantha Elkins A federal judge granted a preliminary injunction pausing Minnesota’s first-of-its-kind prediction market ban Monday, days before it was slated to go into effect. The ruling comes after the Justice Department and the Commodity Futures Trading Commission, along with Kalshi and Polymarket US, filed lawsuits responding to the law, which was scheduled to take effect Saturday. U.S. District Judge Katherine Menendez ruled that the plaintiffs “have met their burden to show they are likely to succeed, at least in part,” on their claims that federal law pre-empts the ban, and that they face a threat of irreparable harm if it took effect. The order forbids enforcement of the law against entities registered as designated contract markets with the CFTC. The plaintiffs argue the ban is pre-empted by federal law, which gives the CFTC exclusive authority to regulate the event contracts traded on their federally registered exchanges. Menendez wrote in a footnote of the order that “the Minnesota statute may not be preempted in all its applications. But the Court finds the state law is likely preempted in many respects. Therefore, temporarily enjoining enforcement of the statute maintains the status quo while enabling further development on this issue and others.” The decision comes following the CFTC’s letter Monday , which informed the court that it planned to escalate its motion to the appellate court if it didn’t receive a response by the next day. The CFTC has made several efforts to stop Minnesota’s prediction market ban and initially "
-    },
-    {
-      "s": "bloter.net",
+      "s": "블로터",
       "t": "과기정통부, AMD와 개방형 'AI 인프라' 구축…엔비디아 독점 막는다",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xMFBUdGJQMWJ3TTZIeFZ3T01oTnZudlVwSjNscHRqUU54WDZ1VzAwS1hVR3hmSkRUcnoybGl0R0lGWU5nY0xIeVkyN05yOEhIb20yNERFelFvTW1fRkJ5SXF6Z0tfVzRh0gFsQVVfeXFMUFlRbWY3bUwtdTVRUjFKYUREYWpLb0hhMmxHN2owcjRyeTF1T3BvVnVFZFJHbHVmYUNxbkFkX3ZiRndCRUlObmNobDYzbFNsZ1lpUGY5RFJNdm1XSGNkc0hhSXp5by04bVpHNjFa?oc=5",
@@ -191,7 +182,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "문화일보",
+      "s": "munhwa.com",
       "t": "AI 생태계 핵심국 선언과 시급한 규제 혁파·인프라 구축[사설]",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jRWhNeV9Jb1JUVHdBdTZmVGl2M1FhcERpdDhmWElOaTNYUS04MUE4Y1drQ1NOdktMd0YyWW1IOVpGNHVkRWpTSzl3NlFtOURR?oc=5",
@@ -231,7 +222,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "인공지능신문",
+      "s": "aitimes.kr",
       "t": "이 대통령, 샌프란시스코 AI 서밋서 1,375조원 반도체·AI 인프라 협력 성과…'AI 공급망 핵심국가' 선언",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SZVRWMVVkZWdUXzg0WlEzWHdoWnJXZXFtSC05V0c3eU9saHAzeXV0UTFyRlR2V1N1WTBCNXVoQVlzUzRzcEFSa3VjVmU2YlIzUkJmSWxJRExjeUMtbXBqOWN0WE1OSVk?oc=5",
@@ -280,7 +271,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "lawtimes.co.kr",
+      "s": "법률신문",
       "t": "지평·데이터센터연합회, 규제 개선 위한 MOU 체결",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CcWpsTGFtdUt1QVVtWU81NUUtMm90N1VVVDRHSWczWjNOOGZwQmpfcV9DOVRjZWpiM2JwSVBMdHRhd3M4a2JoMDBXY2NVZ2VrN3dpR0pxQm5aLWxDZklvbzRjZmlwdElZU0dpQ1h30gFyQVVfeXFMTzNNSmV6a0stOEVaQ0ZlSnZaUDNFQ3J5ZFRvbUN0MkJSYTBSUnN2Y3dpSFhDdXJZQlEzcU54eHlVYmw5RGE2OWtnVUFqLV9GcmVaUnNJemV5allzN044TjhwZllONmdvMDQtQzRhdG4tTGt3?oc=5",
@@ -368,16 +359,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "문화일보",
-      "t": "글로벌 AI 정책 전문가… 美정부 공공 AI 인프라 핵심 틀 직접 설계까지[문화미래리포트 2026]",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCNDI0U2Y1Y1JKZWt5cHU3OTBzbm5leXd3bmctb3daVjROeDg3NXNsTzJTNlg1NDN6NmdSMXRza1VVRHd2dERrZEwtUlJGMW5w?oc=5",
-      "m": "07. 20. AM 07:00",
-      "ts": 1784530800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "국토일보",
       "t": "법무법인 원, AI 데이터센터 전문팀 출범",
       "d": "",
@@ -394,6 +375,26 @@
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44MUVKQUpacGx5WVNueVNlcVJaWDg1V1ZoZ0FaSlRHTExvNVRWbzNadEJYTTRsNGFtR2haNTlGeTFqQW9NSHEzT1VXbzRkYzFqMlpkYXRxTWZoaTdmMWk4d2J5eGxOM3pfLXc?oc=5",
       "m": "07. 20. AM 01:13",
       "ts": 1784509994000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "일간투데이",
+      "t": "송기헌 과방위원장, AI 경쟁력 강화 위한 법·인프라 해법 모색",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tZE9wVk80ZzZfbnk4ODlrVXZsNEg4dVJJcnhhSlNLNG5LbDYteWNwVDFrTVM3ejhZbjYwNUMtWkVOZk9femtUeUYyVE9ybnh4Wks4SW1RLVBnMlFObHAyT3ZNMk1lWWZPSHFj?oc=5",
+      "m": "07. 19. AM 07:00",
+      "ts": 1784444400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "ebn.co.kr",
+      "t": "김용범 정책실장 \"AI 시대, 국가가 인프라·성과 재투자 설계해야\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HT2pySmMtamtSRzlYcGhvS0t0bk1LYnRKbzF0Q0E1YVJpZGdYZk01VGd5Z2lIbjVRSEw3Wi10bnhoUl95bHFDSG5VSXlCbXZKSHgzUDdEeEJZSFMxeHgtbU9uRzBMTVhD?oc=5",
+      "m": "07. 18. AM 08:12",
+      "ts": 1784362377000,
       "_policy": true,
       "fullText": "Google News"
     }

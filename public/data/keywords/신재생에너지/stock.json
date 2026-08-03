@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T08:42:58.709Z",
+  "updatedAt": "2026-08-03T12:24:22.597Z",
   "data": {
     "112610": {
       "name": "CSWIND",
@@ -52,7 +52,7 @@
         "2026-07-31",
         "2026-08-03"
       ],
-      "volume": 357780,
+      "volume": 358662,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -77,6 +77,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260803",
+            "foreigner": 25866,
+            "institution": 815,
+            "individual": -26531,
+            "foreignRatio": "15.89%"
+          },
           {
             "date": "20260731",
             "foreigner": -38980,
@@ -139,22 +146,15 @@
             "institution": -4260,
             "individual": 13554,
             "foreignRatio": "16.10%"
-          },
-          {
-            "date": "20260720",
-            "foreigner": -46284,
-            "institution": 43227,
-            "individual": 1235,
-            "foreignRatio": "16.12%"
           }
         ],
         "sum5d": {
-          "foreigner": -434065,
-          "institution": 138502
+          "foreigner": -251376,
+          "institution": 66781
         },
         "sum10d": {
-          "foreigner": -237731,
-          "institution": 296178
+          "foreigner": -165581,
+          "institution": 253766
         }
       },
       "consensus": null
@@ -210,7 +210,7 @@
         "2026-07-31",
         "2026-08-03"
       ],
-      "volume": 144300,
+      "volume": 130244,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -235,6 +235,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260803",
+            "foreigner": -20728,
+            "institution": 16251,
+            "individual": 3197,
+            "foreignRatio": "34.53%"
+          },
           {
             "date": "20260731",
             "foreigner": 29153,
@@ -297,22 +304,15 @@
             "institution": 23744,
             "individual": -9313,
             "foreignRatio": "34.42%"
-          },
-          {
-            "date": "20260720",
-            "foreigner": 13542,
-            "institution": -6676,
-            "individual": -6629,
-            "foreignRatio": "34.47%"
           }
         ],
         "sum5d": {
-          "foreigner": 54346,
-          "institution": -85997
+          "foreigner": 49726,
+          "institution": -72928
         },
         "sum10d": {
-          "foreigner": 64650,
-          "institution": -63383
+          "foreigner": 30380,
+          "institution": -40456
         }
       },
       "consensus": null
@@ -563,7 +563,7 @@
         "2026-07-31",
         "2026-08-03"
       ],
-      "volume": 2061789,
+      "volume": 2070258,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -588,6 +588,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260803",
+            "foreigner": -14973,
+            "institution": -119693,
+            "individual": 133119,
+            "foreignRatio": "11.91%"
+          },
           {
             "date": "20260731",
             "foreigner": 446481,
@@ -650,22 +657,15 @@
             "institution": -44157,
             "individual": -140937,
             "foreignRatio": "13.02%"
-          },
-          {
-            "date": "20260720",
-            "foreigner": 169403,
-            "institution": -98634,
-            "individual": -68130,
-            "foreignRatio": "12.91%"
           }
         ],
         "sum5d": {
-          "foreigner": -1408504,
-          "institution": 141097
+          "foreigner": -219852,
+          "institution": 479882
         },
         "sum10d": {
-          "foreigner": -1786319,
-          "institution": 292746
+          "foreigner": -1970695,
+          "institution": 271687
         }
       },
       "consensus": null
@@ -743,71 +743,6 @@
     ]
   },
   "etfs": {
-    "ICLN": {
-      "name": "iShares Global Clean Energy ETF",
-      "px": 17.55,
-      "dayChange": -0.68,
-      "periodChange": -13.03,
-      "prices": [
-        20.18,
-        19.67,
-        20.12,
-        19.33,
-        19.05,
-        19.33,
-        19.25,
-        18.63,
-        19.07,
-        19.08,
-        18.35,
-        18.37,
-        18.14,
-        18.52,
-        18.54,
-        18.37,
-        17.78,
-        17.81,
-        17.2,
-        16.87,
-        17.67,
-        17.55
-      ],
-      "dates": [
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31"
-      ],
-      "volume": 8027153,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 23.78,
-        "low52w": 13.51,
-        "volume": 8027153
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "TAN": {
       "name": "Invesco Solar ETF",
       "px": 49.33,
@@ -869,6 +804,71 @@
         "high52w": 75.6,
         "low52w": 35.98,
         "volume": 2019305
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "ICLN": {
+      "name": "iShares Global Clean Energy ETF",
+      "px": 17.55,
+      "dayChange": -0.68,
+      "periodChange": -13.03,
+      "prices": [
+        20.18,
+        19.67,
+        20.12,
+        19.33,
+        19.05,
+        19.33,
+        19.25,
+        18.63,
+        19.07,
+        19.08,
+        18.35,
+        18.37,
+        18.14,
+        18.52,
+        18.54,
+        18.37,
+        17.78,
+        17.81,
+        17.2,
+        16.87,
+        17.67,
+        17.55
+      ],
+      "dates": [
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31"
+      ],
+      "volume": 8027153,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 23.78,
+        "low52w": 13.51,
+        "volume": 8027153
       },
       "investorFlow": null,
       "consensus": null

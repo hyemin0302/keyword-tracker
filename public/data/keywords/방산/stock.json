@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T08:03:55.053Z",
+  "updatedAt": "2026-08-04T10:48:21.961Z",
   "data": {
     "LMT": {
       "name": "록히드마틴",
@@ -200,6 +200,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260804",
+            "foreigner": -19076,
+            "institution": -29797,
+            "individual": -89771,
+            "foreignRatio": "24.26%"
+          },
+          {
             "date": "20260803",
             "foreigner": 7580,
             "institution": -46370,
@@ -261,22 +268,15 @@
             "institution": 77271,
             "individual": -36576,
             "foreignRatio": "24.49%"
-          },
-          {
-            "date": "20260721",
-            "foreigner": -124128,
-            "institution": 119099,
-            "individual": 5827,
-            "foreignRatio": "24.51%"
           }
         ],
         "sum5d": {
-          "foreigner": 129310,
-          "institution": -240854
+          "foreigner": 69648,
+          "institution": -196195
         },
         "sum10d": {
-          "foreigner": -259972,
-          "institution": 249598
+          "foreigner": -154920,
+          "institution": 100702
         }
       },
       "consensus": null
@@ -332,7 +332,7 @@
         "2026-08-03",
         "2026-08-04"
       ],
-      "volume": 236746,
+      "volume": 292632,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -357,6 +357,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260804",
+            "foreigner": 29094,
+            "institution": 346,
+            "individual": -28608,
+            "foreignRatio": "45.34%"
+          },
           {
             "date": "20260803",
             "foreigner": 23105,
@@ -419,22 +426,15 @@
             "institution": -28104,
             "individual": 8971,
             "foreignRatio": "45.31%"
-          },
-          {
-            "date": "20260721",
-            "foreigner": -490,
-            "institution": 5641,
-            "individual": -4835,
-            "foreignRatio": "45.28%"
           }
         ],
         "sum5d": {
-          "foreigner": 2319,
-          "institution": 27261
+          "foreigner": 36245,
+          "institution": 23454
         },
         "sum10d": {
-          "foreigner": -11565,
-          "institution": 44091
+          "foreigner": 18019,
+          "institution": 38796
         }
       },
       "consensus": null
@@ -509,67 +509,6 @@
     ]
   },
   "etfs": {
-    "PPA": {
-      "name": "Invesco Aerospace & Defense ETF",
-      "px": 179.14,
-      "dayChange": 3.77,
-      "periodChange": -4.39,
-      "prices": [
-        182.44,
-        178.7,
-        175.51,
-        174.92,
-        174.3,
-        171.39,
-        171.7,
-        171.88,
-        168.8,
-        168.51,
-        167.83,
-        168.88,
-        170.2,
-        174.26,
-        175.26,
-        177.18,
-        177.66,
-        170.92,
-        172.63,
-        174.44
-      ],
-      "dates": [
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31"
-      ],
-      "volume": 148945,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 186.3,
-        "low52w": 143.44,
-        "volume": 148945
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "ITA": {
       "name": "iShares U.S. Aerospace & Defens",
       "px": 246.08,
@@ -627,6 +566,67 @@
         "high52w": 251.49,
         "low52w": 191.82,
         "volume": 564385
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "PPA": {
+      "name": "Invesco Aerospace & Defense ETF",
+      "px": 179.14,
+      "dayChange": 3.77,
+      "periodChange": -4.39,
+      "prices": [
+        182.44,
+        178.7,
+        175.51,
+        174.92,
+        174.3,
+        171.39,
+        171.7,
+        171.88,
+        168.8,
+        168.51,
+        167.83,
+        168.88,
+        170.2,
+        174.26,
+        175.26,
+        177.18,
+        177.66,
+        170.92,
+        172.63,
+        174.44
+      ],
+      "dates": [
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31"
+      ],
+      "volume": 148945,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 186.3,
+        "low52w": 143.44,
+        "volume": 148945
       },
       "investorFlow": null,
       "consensus": null

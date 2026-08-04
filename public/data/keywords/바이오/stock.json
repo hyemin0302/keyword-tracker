@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T08:03:58.343Z",
+  "updatedAt": "2026-08-04T10:48:30.339Z",
   "data": {
     "207940": {
       "name": "삼성바이오로직스",
@@ -78,6 +78,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260804",
+            "foreigner": 16941,
+            "institution": -7773,
+            "individual": -8927,
+            "foreignRatio": "12.97%"
+          },
+          {
             "date": "20260803",
             "foreigner": 1142,
             "institution": -13380,
@@ -139,52 +146,45 @@
             "institution": -1244,
             "individual": -764,
             "foreignRatio": "12.79%"
-          },
-          {
-            "date": "20260721",
-            "foreigner": -2572,
-            "institution": 11271,
-            "individual": -8420,
-            "foreignRatio": "12.78%"
           }
         ],
         "sum5d": {
-          "foreigner": -27905,
-          "institution": 59375
+          "foreigner": 9833,
+          "institution": -1512
         },
         "sum10d": {
-          "foreigner": 2413,
-          "institution": 171741
+          "foreigner": 21926,
+          "institution": 152697
         }
       },
       "consensus": null
     },
-    "DHR": {
-      "name": "Danaher Corporation",
-      "px": 197.5,
-      "dayChange": 0.68,
-      "periodChange": 0.7,
+    "TMO": {
+      "name": "Thermo Fisher Scientific Inc",
+      "px": 574.03,
+      "dayChange": -0.48,
+      "periodChange": 10.95,
       "prices": [
-        193.62,
-        194.19,
-        190.77,
-        195.98,
-        199.05,
-        200.16,
-        199.05,
-        200.79,
-        205.01,
-        203.83,
-        201.11,
-        179.01,
-        179.14,
-        192.5,
-        191.5,
-        196.5,
-        199.05,
-        196.49,
-        196.17,
-        194.98
+        517.6,
+        516.62,
+        510.13,
+        524.71,
+        527.05,
+        528.51,
+        534.07,
+        535.29,
+        543.19,
+        532.48,
+        526.23,
+        523.46,
+        526.46,
+        572.32,
+        568.26,
+        559.53,
+        576.41,
+        576.46,
+        576.77,
+        574.3
       ],
       "dates": [
         "2026-07-06",
@@ -208,14 +208,14 @@
         "2026-07-30",
         "2026-07-31"
       ],
-      "volume": 2949795,
+      "volume": 1294863,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 242.8,
-        "low52w": 160.93,
-        "volume": 2949795
+        "high52w": 643.99,
+        "low52w": 435.27,
+        "volume": 1294863
       },
       "investorFlow": null,
       "consensus": null
@@ -281,67 +281,6 @@
       "investorFlow": null,
       "consensus": null
     },
-    "TMO": {
-      "name": "Thermo Fisher Scientific Inc",
-      "px": 574.03,
-      "dayChange": -0.48,
-      "periodChange": 10.95,
-      "prices": [
-        517.6,
-        516.62,
-        510.13,
-        524.71,
-        527.05,
-        528.51,
-        534.07,
-        535.29,
-        543.19,
-        532.48,
-        526.23,
-        523.46,
-        526.46,
-        572.32,
-        568.26,
-        559.53,
-        576.41,
-        576.46,
-        576.77,
-        574.3
-      ],
-      "dates": [
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31"
-      ],
-      "volume": 1294863,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 643.99,
-        "low52w": 435.27,
-        "volume": 1294863
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "JNJ": {
       "name": "존슨앤존슨",
       "px": 254.41,
@@ -399,6 +338,67 @@
         "high52w": 274.9,
         "low52w": 166.64,
         "volume": 7644070
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "DHR": {
+      "name": "Danaher Corporation",
+      "px": 197.5,
+      "dayChange": 0.68,
+      "periodChange": 0.7,
+      "prices": [
+        193.62,
+        194.19,
+        190.77,
+        195.98,
+        199.05,
+        200.16,
+        199.05,
+        200.79,
+        205.01,
+        203.83,
+        201.11,
+        179.01,
+        179.14,
+        192.5,
+        191.5,
+        196.5,
+        199.05,
+        196.49,
+        196.17,
+        194.98
+      ],
+      "dates": [
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31"
+      ],
+      "volume": 2949795,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 242.8,
+        "low52w": 160.93,
+        "volume": 2949795
       },
       "investorFlow": null,
       "consensus": null
@@ -480,6 +480,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260804",
+            "foreigner": 138669,
+            "institution": -47026,
+            "individual": -90120,
+            "foreignRatio": "24.83%"
+          },
+          {
             "date": "20260803",
             "foreigner": -22355,
             "institution": -72045,
@@ -541,22 +548,15 @@
             "institution": -34971,
             "individual": -24827,
             "foreignRatio": "24.81%"
-          },
-          {
-            "date": "20260721",
-            "foreigner": 32731,
-            "institution": 3027,
-            "individual": -35481,
-            "foreignRatio": "24.78%"
           }
         ],
         "sum5d": {
-          "foreigner": -303254,
-          "institution": 717265
+          "foreigner": -8094,
+          "institution": 273507
         },
         "sum10d": {
-          "foreigner": -96686,
-          "institution": 977825
+          "foreigner": 9252,
+          "institution": 927772
         }
       },
       "consensus": null

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T08:05:33.781Z",
+  "updatedAt": "2026-08-04T10:49:53.934Z",
   "data": {
     "TSM": {
       "name": "TSMC",
@@ -296,7 +296,7 @@
         "2026-08-03",
         "2026-08-04"
       ],
-      "volume": 29246080,
+      "volume": 29433821,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -321,6 +321,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260804",
+            "foreigner": 850527,
+            "institution": -3924513,
+            "individual": 2927753,
+            "foreignRatio": "46.63%"
+          },
           {
             "date": "20260803",
             "foreigner": -3896489,
@@ -383,22 +390,15 @@
             "institution": -1718094,
             "individual": -381003,
             "foreignRatio": "46.71%"
-          },
-          {
-            "date": "20260721",
-            "foreigner": 1943936,
-            "institution": 1823763,
-            "individual": -3654326,
-            "foreignRatio": "46.63%"
           }
         ],
         "sum5d": {
-          "foreigner": -4986155,
-          "institution": 3677315
+          "foreigner": 2419040,
+          "institution": 388394
         },
         "sum10d": {
-          "foreigner": -6354197,
-          "institution": 771384
+          "foreigner": -7447606,
+          "institution": -4976892
         }
       },
       "consensus": null
@@ -454,7 +454,7 @@
         "2026-08-03",
         "2026-08-04"
       ],
-      "volume": 5729700,
+      "volume": 5391210,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -479,6 +479,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260804",
+            "foreigner": -418552,
+            "institution": 18945,
+            "individual": 376403,
+            "foreignRatio": "50.99%"
+          },
           {
             "date": "20260803",
             "foreigner": -1107357,
@@ -541,22 +548,15 @@
             "institution": -564978,
             "individual": -85833,
             "foreignRatio": "52.50%"
-          },
-          {
-            "date": "20260721",
-            "foreigner": -237417,
-            "institution": 366154,
-            "individual": -116422,
-            "foreignRatio": "52.39%"
           }
         ],
         "sum5d": {
-          "foreigner": -1205306,
-          "institution": 1089063
+          "foreigner": 202479,
+          "institution": 719335
         },
         "sum10d": {
-          "foreigner": -1705304,
-          "institution": 489361
+          "foreigner": -1886439,
+          "institution": 142152
         }
       },
       "consensus": null
@@ -631,67 +631,6 @@
     ]
   },
   "etfs": {
-    "SOXX": {
-      "name": "iShares PHLX SOX Semiconductor ",
-      "px": 507.68,
-      "dayChange": 0.62,
-      "periodChange": -13.18,
-      "prices": [
-        581.51,
-        551.69,
-        562.03,
-        581.7,
-        581.34,
-        553.61,
-        567.92,
-        555.27,
-        530.5,
-        521.81,
-        524.14,
-        552.69,
-        555.52,
-        551.24,
-        527.01,
-        516.23,
-        491.46,
-        465,
-        504.53,
-        504.89
-      ],
-      "dates": [
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31"
-      ],
-      "volume": 10155654,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 655.95,
-        "low52w": 233.67,
-        "volume": 10155654
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "SMH": {
       "name": "VanEck Semiconductor ETF",
       "px": 545.46,
@@ -749,6 +688,67 @@
         "high52w": 671.83,
         "low52w": 281.15,
         "volume": 7188954
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "SOXX": {
+      "name": "iShares PHLX SOX Semiconductor ",
+      "px": 507.68,
+      "dayChange": 0.62,
+      "periodChange": -13.18,
+      "prices": [
+        581.51,
+        551.69,
+        562.03,
+        581.7,
+        581.34,
+        553.61,
+        567.92,
+        555.27,
+        530.5,
+        521.81,
+        524.14,
+        552.69,
+        555.52,
+        551.24,
+        527.01,
+        516.23,
+        491.46,
+        465,
+        504.53,
+        504.89
+      ],
+      "dates": [
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31"
+      ],
+      "volume": 10155654,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 655.95,
+        "low52w": 233.67,
+        "volume": 10155654
       },
       "investorFlow": null,
       "consensus": null

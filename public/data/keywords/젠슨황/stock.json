@@ -1,6 +1,71 @@
 {
-  "updatedAt": "2026-08-05T08:00:50.130Z",
+  "updatedAt": "2026-08-05T10:58:39.497Z",
   "data": {
+    "AVGO": {
+      "name": "브로드컴",
+      "px": 418.16,
+      "dayChange": 6.61,
+      "periodChange": 11.84,
+      "prices": [
+        373.9,
+        370.78,
+        388.69,
+        401.11,
+        399.97,
+        384.05,
+        389.11,
+        394.28,
+        374.45,
+        370.83,
+        378.16,
+        386.5,
+        396.81,
+        392.47,
+        381.92,
+        383.22,
+        380.91,
+        370.32,
+        387.84,
+        389.28,
+        392.23,
+        418.16
+      ],
+      "dates": [
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04"
+      ],
+      "volume": 28050687,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 495,
+        "low52w": 281.87,
+        "volume": 28050687
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "TSM": {
       "name": "TSMC",
       "px": 417.17,
@@ -66,34 +131,34 @@
       "investorFlow": null,
       "consensus": null
     },
-    "AVGO": {
-      "name": "브로드컴",
-      "px": 418.16,
-      "dayChange": 6.61,
-      "periodChange": 11.84,
+    "000660": {
+      "name": "SK하이닉스",
+      "px": 1668000,
+      "dayChange": 5.77,
+      "periodChange": -28.81,
       "prices": [
-        373.9,
-        370.78,
-        388.69,
-        401.11,
-        399.97,
-        384.05,
-        389.11,
-        394.28,
-        374.45,
-        370.83,
-        378.16,
-        386.5,
-        396.81,
-        392.47,
-        381.92,
-        383.22,
-        380.91,
-        370.32,
-        387.84,
-        389.28,
-        392.23,
-        418.16
+        2343000,
+        2201000,
+        2076000,
+        2186000,
+        2180000,
+        1845000,
+        1913000,
+        2082000,
+        1842000,
+        1764000,
+        1836000,
+        1830000,
+        1919000,
+        1759000,
+        1816000,
+        1550000,
+        1401000,
+        1322000,
+        1718000,
+        1567000,
+        1577000,
+        1668000
       ],
       "dates": [
         "2026-07-06",
@@ -105,7 +170,6 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17",
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
@@ -117,18 +181,274 @@
         "2026-07-30",
         "2026-07-31",
         "2026-08-03",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
       ],
-      "volume": 28050687,
-      "currency": "USD",
+      "volume": 4242741,
+      "currency": "KRW",
       "state": "CLOSED",
-      "market": "US",
+      "market": "KR",
       "fundamentals": {
-        "high52w": 495,
-        "low52w": 281.87,
-        "volume": 28050687
+        "marketCap": "1,218조 4,613억",
+        "per": "16.11배",
+        "pbr": "7.19배",
+        "cnsPer": "4.82배",
+        "divYield": "0.18%",
+        "foreignRatio": "50.95%",
+        "high52w": "3,002,000",
+        "low52w": "244,000",
+        "consensus": {
+          "targetMean": 3322083,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "4.00",
+          "earningsDate": null,
+          "source": "naver"
+        }
       },
-      "investorFlow": null,
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260805",
+            "foreigner": 389804,
+            "institution": -28260,
+            "individual": -361605,
+            "foreignRatio": "51.00%"
+          },
+          {
+            "date": "20260804",
+            "foreigner": -418552,
+            "institution": 18945,
+            "individual": 376403,
+            "foreignRatio": "50.95%"
+          },
+          {
+            "date": "20260803",
+            "foreigner": -1107357,
+            "institution": -288012,
+            "individual": 1368737,
+            "foreignRatio": "51.04%"
+          },
+          {
+            "date": "20260731",
+            "foreigner": 2205767,
+            "institution": 277183,
+            "individual": -2463959,
+            "foreignRatio": "51.22%"
+          },
+          {
+            "date": "20260730",
+            "foreigner": 444498,
+            "institution": -80151,
+            "individual": -373392,
+            "foreignRatio": "50.86%"
+          },
+          {
+            "date": "20260729",
+            "foreigner": -921877,
+            "institution": 791370,
+            "individual": 103198,
+            "foreignRatio": "50.77%"
+          },
+          {
+            "date": "20260728",
+            "foreigner": -1826337,
+            "institution": 388673,
+            "individual": 1414492,
+            "foreignRatio": "52.11%"
+          },
+          {
+            "date": "20260727",
+            "foreigner": -615917,
+            "institution": 231139,
+            "individual": 376010,
+            "foreignRatio": "52.39%"
+          },
+          {
+            "date": "20260724",
+            "foreigner": -976779,
+            "institution": -483881,
+            "individual": 1431548,
+            "foreignRatio": "52.44%"
+          },
+          {
+            "date": "20260723",
+            "foreigner": 689697,
+            "institution": -148136,
+            "individual": -529529,
+            "foreignRatio": "52.60%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": 1514160,
+          "institution": -100295
+        },
+        "sum10d": {
+          "foreigner": -2137053,
+          "institution": 678870
+        }
+      },
+      "consensus": null
+    },
+    "005930": {
+      "name": "삼성전자",
+      "px": 246000,
+      "dayChange": 2.5,
+      "periodChange": -22.64,
+      "prices": [
+        318000,
+        296000,
+        277500,
+        278000,
+        285000,
+        254500,
+        263000,
+        279500,
+        255000,
+        244000,
+        259000,
+        260500,
+        270000,
+        249500,
+        254000,
+        220000,
+        208500,
+        207000,
+        262500,
+        239500,
+        240000,
+        246000
+      ],
+      "dates": [
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05"
+      ],
+      "volume": 23959208,
+      "currency": "KRW",
+      "state": "CLOSED",
+      "market": "KR",
+      "fundamentals": {
+        "marketCap": "1,438조 1,845억",
+        "per": "19.88배",
+        "pbr": "3.42배",
+        "cnsPer": "5.13배",
+        "divYield": "0.68%",
+        "foreignRatio": "46.63%",
+        "high52w": "380,000",
+        "low52w": "67,500",
+        "consensus": {
+          "targetMean": 493542,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "4.04",
+          "earningsDate": null,
+          "source": "naver"
+        }
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260805",
+            "foreigner": 2298577,
+            "institution": -2078706,
+            "individual": -222721,
+            "foreignRatio": "46.67%"
+          },
+          {
+            "date": "20260804",
+            "foreigner": 850527,
+            "institution": -3924513,
+            "individual": 2927753,
+            "foreignRatio": "46.63%"
+          },
+          {
+            "date": "20260803",
+            "foreigner": -3896489,
+            "institution": -5039954,
+            "individual": 8658155,
+            "foreignRatio": "46.61%"
+          },
+          {
+            "date": "20260731",
+            "foreigner": 8359011,
+            "institution": 3618959,
+            "individual": -11681307,
+            "foreignRatio": "46.70%"
+          },
+          {
+            "date": "20260730",
+            "foreigner": 656680,
+            "institution": -237928,
+            "individual": -413758,
+            "foreignRatio": "46.53%"
+          },
+          {
+            "date": "20260729",
+            "foreigner": -3550689,
+            "institution": 5971830,
+            "individual": -2434946,
+            "foreignRatio": "46.50%"
+          },
+          {
+            "date": "20260728",
+            "foreigner": -6554668,
+            "institution": -635592,
+            "individual": 7377129,
+            "foreignRatio": "46.54%"
+          },
+          {
+            "date": "20260727",
+            "foreigner": -3319368,
+            "institution": 487617,
+            "individual": 2801281,
+            "foreignRatio": "46.66%"
+          },
+          {
+            "date": "20260724",
+            "foreigner": -3428259,
+            "institution": -3378638,
+            "individual": 6675340,
+            "foreignRatio": "46.71%"
+          },
+          {
+            "date": "20260723",
+            "foreigner": 1299490,
+            "institution": -120579,
+            "individual": -1181665,
+            "foreignRatio": "46.76%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": 8268306,
+          "institution": -7662142
+        },
+        "sum10d": {
+          "foreigner": -7285188,
+          "institution": -5337504
+        }
+      },
       "consensus": null
     },
     "NVDA": {
@@ -203,326 +523,6 @@
         "earningsDate": "2026-08-26",
         "source": "yahoo"
       }
-    },
-    "005930": {
-      "name": "삼성전자",
-      "px": 246000,
-      "dayChange": 2.5,
-      "periodChange": -22.64,
-      "prices": [
-        318000,
-        296000,
-        277500,
-        278000,
-        285000,
-        254500,
-        263000,
-        279500,
-        255000,
-        244000,
-        259000,
-        260500,
-        270000,
-        249500,
-        254000,
-        220000,
-        208500,
-        207000,
-        262500,
-        239500,
-        240000,
-        246000
-      ],
-      "dates": [
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05"
-      ],
-      "volume": 23826527,
-      "currency": "KRW",
-      "state": "CLOSED",
-      "market": "KR",
-      "fundamentals": {
-        "marketCap": "1,438조 1,845억",
-        "per": "19.88배",
-        "pbr": "3.42배",
-        "cnsPer": "5.13배",
-        "divYield": "0.68%",
-        "foreignRatio": "46.63%",
-        "high52w": "380,000",
-        "low52w": "67,500",
-        "consensus": {
-          "targetMean": 493542,
-          "targetHigh": null,
-          "targetLow": null,
-          "analysts": null,
-          "recommendation": "4.04",
-          "earningsDate": null,
-          "source": "naver"
-        }
-      },
-      "investorFlow": {
-        "items": [
-          {
-            "date": "20260804",
-            "foreigner": 850527,
-            "institution": -3924513,
-            "individual": 2927753,
-            "foreignRatio": "46.63%"
-          },
-          {
-            "date": "20260803",
-            "foreigner": -3896489,
-            "institution": -5039954,
-            "individual": 8658155,
-            "foreignRatio": "46.61%"
-          },
-          {
-            "date": "20260731",
-            "foreigner": 8359011,
-            "institution": 3618959,
-            "individual": -11681307,
-            "foreignRatio": "46.70%"
-          },
-          {
-            "date": "20260730",
-            "foreigner": 656680,
-            "institution": -237928,
-            "individual": -413758,
-            "foreignRatio": "46.53%"
-          },
-          {
-            "date": "20260729",
-            "foreigner": -3550689,
-            "institution": 5971830,
-            "individual": -2434946,
-            "foreignRatio": "46.50%"
-          },
-          {
-            "date": "20260728",
-            "foreigner": -6554668,
-            "institution": -635592,
-            "individual": 7377129,
-            "foreignRatio": "46.54%"
-          },
-          {
-            "date": "20260727",
-            "foreigner": -3319368,
-            "institution": 487617,
-            "individual": 2801281,
-            "foreignRatio": "46.66%"
-          },
-          {
-            "date": "20260724",
-            "foreigner": -3428259,
-            "institution": -3378638,
-            "individual": 6675340,
-            "foreignRatio": "46.71%"
-          },
-          {
-            "date": "20260723",
-            "foreigner": 1299490,
-            "institution": -120579,
-            "individual": -1181665,
-            "foreignRatio": "46.76%"
-          },
-          {
-            "date": "20260722",
-            "foreigner": 2136159,
-            "institution": -1718094,
-            "individual": -381003,
-            "foreignRatio": "46.71%"
-          }
-        ],
-        "sum5d": {
-          "foreigner": 2419040,
-          "institution": 388394
-        },
-        "sum10d": {
-          "foreigner": -7447606,
-          "institution": -4976892
-        }
-      },
-      "consensus": null
-    },
-    "000660": {
-      "name": "SK하이닉스",
-      "px": 1668000,
-      "dayChange": 5.77,
-      "periodChange": -28.81,
-      "prices": [
-        2343000,
-        2201000,
-        2076000,
-        2186000,
-        2180000,
-        1845000,
-        1913000,
-        2082000,
-        1842000,
-        1764000,
-        1836000,
-        1830000,
-        1919000,
-        1759000,
-        1816000,
-        1550000,
-        1401000,
-        1322000,
-        1718000,
-        1567000,
-        1577000,
-        1668000
-      ],
-      "dates": [
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05"
-      ],
-      "volume": 4037772,
-      "currency": "KRW",
-      "state": "CLOSED",
-      "market": "KR",
-      "fundamentals": {
-        "marketCap": "1,218조 4,613억",
-        "per": "16.11배",
-        "pbr": "7.19배",
-        "cnsPer": "4.82배",
-        "divYield": "0.18%",
-        "foreignRatio": "50.95%",
-        "high52w": "3,002,000",
-        "low52w": "244,000",
-        "consensus": {
-          "targetMean": 3322083,
-          "targetHigh": null,
-          "targetLow": null,
-          "analysts": null,
-          "recommendation": "4.00",
-          "earningsDate": null,
-          "source": "naver"
-        }
-      },
-      "investorFlow": {
-        "items": [
-          {
-            "date": "20260804",
-            "foreigner": -418552,
-            "institution": 18945,
-            "individual": 376403,
-            "foreignRatio": "50.95%"
-          },
-          {
-            "date": "20260803",
-            "foreigner": -1107357,
-            "institution": -288012,
-            "individual": 1368737,
-            "foreignRatio": "51.04%"
-          },
-          {
-            "date": "20260731",
-            "foreigner": 2205767,
-            "institution": 277183,
-            "individual": -2463959,
-            "foreignRatio": "51.22%"
-          },
-          {
-            "date": "20260730",
-            "foreigner": 444498,
-            "institution": -80151,
-            "individual": -373392,
-            "foreignRatio": "50.86%"
-          },
-          {
-            "date": "20260729",
-            "foreigner": -921877,
-            "institution": 791370,
-            "individual": 103198,
-            "foreignRatio": "50.77%"
-          },
-          {
-            "date": "20260728",
-            "foreigner": -1826337,
-            "institution": 388673,
-            "individual": 1414492,
-            "foreignRatio": "52.11%"
-          },
-          {
-            "date": "20260727",
-            "foreigner": -615917,
-            "institution": 231139,
-            "individual": 376010,
-            "foreignRatio": "52.39%"
-          },
-          {
-            "date": "20260724",
-            "foreigner": -976779,
-            "institution": -483881,
-            "individual": 1431548,
-            "foreignRatio": "52.44%"
-          },
-          {
-            "date": "20260723",
-            "foreigner": 689697,
-            "institution": -148136,
-            "individual": -529529,
-            "foreignRatio": "52.60%"
-          },
-          {
-            "date": "20260722",
-            "foreigner": 640418,
-            "institution": -564978,
-            "individual": -85833,
-            "foreignRatio": "52.50%"
-          }
-        ],
-        "sum5d": {
-          "foreigner": 202479,
-          "institution": 719335
-        },
-        "sum10d": {
-          "foreigner": -1886439,
-          "institution": 142152
-        }
-      },
-      "consensus": null
     }
   },
   "benchmark": {

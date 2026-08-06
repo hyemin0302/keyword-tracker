@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T11:03:49.406Z",
+  "updatedAt": "2026-08-06T13:04:14.578Z",
   "related": [
     {
       "slug": "AI인프라",
@@ -27,7 +27,7 @@
   "risks": [
     "수소차의 가격 경쟁력",
     "세제개편안의 부정적 영향",
-    "수소경제의 국가적 실행전략의 시행착오"
+    "수소경제의 국가적 실행전략의 지연"
   ],
   "events": [
     {
@@ -39,7 +39,7 @@
   "key_players": [
     "두산퓨얼셀",
     "블룸에너지",
-    "린드",
+    "린데 플라",
     "에어 프로덕츠 앤드 케미칼스"
   ],
   "outlook": {
@@ -54,20 +54,20 @@
       "downside": "수소차의 가격 경쟁력"
     },
     "long_term": {
-      "thesis": "수소경제의 국가적 실행전략이 성공적으로 추진되면 수소차의 시장 확대와 세제개편안의 긍정적 영향이 장기적으로 나타날 것으로 예상됩니다.",
+      "thesis": "수소경제의 국가적 실행전략이 추진되면 수소차의 시장 확대와 세제개편안의 긍정적 영향이 장기적으로 나타날 것으로 예상됩니다.",
       "upside": "수소차의 시장 확대",
       "downside": "수소차의 가격 경쟁력"
     }
   },
   "capital_flow": {
-    "summary": "외국인과 기관의 순매수, ETF 자금 유입",
+    "summary": "외국인 순매수와 ETF 자금 유입이 주가에 긍정적 영향을 미칠 것으로 예상됩니다.",
     "signals": [
       "미래에셋 스페이스X 2차 청약 완판"
     ]
   },
   "scenarios": [
     {
-      "case": "기본",
+      "case": "기본(Base)",
       "probability": 60,
       "thesis": "수소차 도입과 세제개편안에 대한 반응으로 주가가 변동할 것으로 예상됩니다.",
       "trigger": "외인 5일 +300K주",
@@ -75,18 +75,18 @@
       "data_quality": "full"
     },
     {
-      "case": "강세",
+      "case": "강세(Bull)",
       "probability": 20,
       "thesis": "수소경제의 국가적 실행전략이 발표되면 주가가 상승할 가능성이 있습니다.",
-      "trigger": "측정 변수 데이터 부족 — 다음 갱신 시 보강 예정",
+      "trigger": "수소경제의 국가적 실행전략 발표",
       "watch_period": "기간",
-      "data_quality": "partial"
+      "data_quality": "full"
     },
     {
-      "case": "약세",
+      "case": "약세(Bear)",
       "probability": 20,
-      "thesis": "수소차의 가격 경쟁력과 세제개편안의 부정적 영향으로 주가가 하락할 가능성이 있습니다.",
-      "trigger": "FOMC 25bp 인상",
+      "thesis": "수소차의 가격 경쟁력과 세제개편안의 부정적 영향이 나타날 것으로 예상됩니다.",
+      "trigger": "수소차의 가격 경쟁력",
       "watch_period": "기간",
       "data_quality": "full"
     }
@@ -96,9 +96,9 @@
     "momentum_signals": "외인/기관 수급·모멘텀·신고가 근접",
     "fundamental_strength": "성장·마진·재무 안정성",
     "key_monitors": [
-      "IRA 수소 보조금",
-      "수소 설치량",
-      "청정수소 인증"
+      "수소차의 가격 경쟁력",
+      "세제개편안의 영향",
+      "수소경제의 국가적 실행전략의 추진"
     ],
     "position_sizing_view": "Core/Satellite/Trade"
   },
@@ -116,7 +116,7 @@
   "policy_tracker": [
     {
       "date": null,
-      "title": "수소경제의 국가적 실행전략 발표",
+      "title": "수소경제의 국가적 실행전략 추진",
       "region": "KR",
       "stance": "supportive"
     },
@@ -166,6 +166,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-08-06T11:02:57.435Z",
+  "generatedAt": "2026-08-06T13:03:34.147Z",
   "_model": "groq:llama-3.1-8b-instant"
 }

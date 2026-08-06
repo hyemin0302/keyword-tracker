@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T08:25:12.721Z",
+  "updatedAt": "2026-08-06T10:59:50.109Z",
   "data": {
     "AVGO": {
       "name": "브로드컴",
@@ -135,6 +135,81 @@
       "investorFlow": null,
       "consensus": null
     },
+    "NVDA": {
+      "name": "엔비디아",
+      "px": 219.22,
+      "dayChange": 3.43,
+      "periodChange": 12.1,
+      "prices": [
+        195.55,
+        196.93,
+        204.12,
+        202.78,
+        210.96,
+        203.53,
+        211.8,
+        212.5,
+        207.4,
+        202.81,
+        203.28,
+        207.29,
+        212.06,
+        208.76,
+        206.84,
+        196.51,
+        197.01,
+        190.01,
+        195.04,
+        200.75,
+        206.64,
+        211.94,
+        219.22
+      ],
+      "dates": [
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05"
+      ],
+      "volume": 156378175,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 236.54,
+        "low52w": 164.07,
+        "volume": 156378175
+      },
+      "investorFlow": null,
+      "consensus": {
+        "targetMean": 302.82758,
+        "targetHigh": 500,
+        "targetLow": 180,
+        "analysts": 58,
+        "recommendation": "strong_buy",
+        "earningsDate": "2026-08-26",
+        "source": "yahoo"
+      }
+    },
     "005930": {
       "name": "삼성전자",
       "px": 230500,
@@ -216,6 +291,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260806",
+            "foreigner": -3134136,
+            "institution": -1220335,
+            "individual": 4225347,
+            "foreignRatio": "46.63%"
+          },
+          {
             "date": "20260805",
             "foreigner": 2298577,
             "institution": -2078706,
@@ -277,100 +359,18 @@
             "institution": -3378638,
             "individual": 6675340,
             "foreignRatio": "46.71%"
-          },
-          {
-            "date": "20260723",
-            "foreigner": 1299490,
-            "institution": -120579,
-            "individual": -1181665,
-            "foreignRatio": "46.76%"
           }
         ],
         "sum5d": {
-          "foreigner": 8268306,
-          "institution": -7662142
+          "foreigner": 4477490,
+          "institution": -8644549
         },
         "sum10d": {
-          "foreigner": -7285188,
-          "institution": -5337504
+          "foreigner": -11718814,
+          "institution": -6437260
         }
       },
       "consensus": null
-    },
-    "NVDA": {
-      "name": "엔비디아",
-      "px": 219.22,
-      "dayChange": 3.43,
-      "periodChange": 12.1,
-      "prices": [
-        195.55,
-        196.93,
-        204.12,
-        202.78,
-        210.96,
-        203.53,
-        211.8,
-        212.5,
-        207.4,
-        202.81,
-        203.28,
-        207.29,
-        212.06,
-        208.76,
-        206.84,
-        196.51,
-        197.01,
-        190.01,
-        195.04,
-        200.75,
-        206.64,
-        211.94,
-        219.22
-      ],
-      "dates": [
-        "2026-07-06",
-        "2026-07-07",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05"
-      ],
-      "volume": 156378175,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 236.54,
-        "low52w": 164.07,
-        "volume": 156378175
-      },
-      "investorFlow": null,
-      "consensus": {
-        "targetMean": 302.82758,
-        "targetHigh": 500,
-        "targetLow": 180,
-        "analysts": 58,
-        "recommendation": "strong_buy",
-        "earningsDate": "2026-08-26",
-        "source": "yahoo"
-      }
     },
     "000660": {
       "name": "SK하이닉스",
@@ -453,6 +453,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260806",
+            "foreigner": -1101883,
+            "institution": -275040,
+            "individual": 1337421,
+            "foreignRatio": "50.88%"
+          },
+          {
             "date": "20260805",
             "foreigner": 389804,
             "institution": -28260,
@@ -514,22 +521,15 @@
             "institution": -483881,
             "individual": 1431548,
             "foreignRatio": "52.44%"
-          },
-          {
-            "date": "20260723",
-            "foreigner": 689697,
-            "institution": -148136,
-            "individual": -529529,
-            "foreignRatio": "52.60%"
           }
         ],
         "sum5d": {
-          "foreigner": 1514160,
-          "institution": -100295
+          "foreigner": -32221,
+          "institution": -295184
         },
         "sum10d": {
-          "foreigner": -2137053,
-          "institution": 678870
+          "foreigner": -3928633,
+          "institution": 551966
         }
       },
       "consensus": null

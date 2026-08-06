@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T08:28:40.132Z",
+  "updatedAt": "2026-08-06T11:03:49.405Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
@@ -82,6 +82,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260806",
+            "foreigner": -339156,
+            "institution": 70055,
+            "individual": 270942,
+            "foreignRatio": "17.92%"
+          },
+          {
             "date": "20260805",
             "foreigner": -815458,
             "institution": 369797,
@@ -143,22 +150,15 @@
             "institution": 102707,
             "individual": 74070,
             "foreignRatio": "22.23%"
-          },
-          {
-            "date": "20260723",
-            "foreigner": -116312,
-            "institution": 60575,
-            "individual": 53903,
-            "foreignRatio": "22.57%"
           }
         ],
         "sum5d": {
-          "foreigner": -1401328,
-          "institution": 1103096
+          "foreigner": -1578728,
+          "institution": 1233534
         },
         "sum10d": {
-          "foreigner": -2213391,
-          "institution": 116319
+          "foreigner": -2436235,
+          "institution": 125799
         }
       },
       "consensus": null
@@ -445,6 +445,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260806",
+            "foreigner": -212510,
+            "institution": 113743,
+            "individual": 86925,
+            "foreignRatio": "24.06%"
+          },
+          {
             "date": "20260805",
             "foreigner": -54586,
             "institution": 187425,
@@ -506,22 +513,15 @@
             "institution": -124306,
             "individual": 209421,
             "foreignRatio": "24.14%"
-          },
-          {
-            "date": "20260723",
-            "foreigner": 195539,
-            "institution": 54397,
-            "individual": -248049,
-            "foreignRatio": "24.23%"
           }
         ],
         "sum5d": {
-          "foreigner": 821344,
-          "institution": 312848
+          "foreigner": 443752,
+          "institution": 367477
         },
         "sum10d": {
-          "foreigner": 386425,
-          "institution": 844302
+          "foreigner": -21624,
+          "institution": 903648
         }
       },
       "consensus": null
@@ -605,6 +605,25 @@
     ]
   },
   "etfs": {
+    "HDRO": {
+      "name": "ETF Series Solutions Defiance N",
+      "px": 25.919,
+      "dayChange": 0,
+      "periodChange": 0,
+      "prices": [],
+      "dates": [],
+      "volume": 71341,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 39.26,
+        "low52w": 4.2,
+        "volume": 71341
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "HYDR": {
       "name": "Global X Hydrogen ETF",
       "px": 43.831,
@@ -668,25 +687,6 @@
         "high52w": 74.8,
         "low52w": 23.47,
         "volume": 46760
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "HDRO": {
-      "name": "ETF Series Solutions Defiance N",
-      "px": 25.919,
-      "dayChange": 0,
-      "periodChange": 0,
-      "prices": [],
-      "dates": [],
-      "volume": 71341,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 39.26,
-        "low52w": 4.2,
-        "volume": 71341
       },
       "investorFlow": null,
       "consensus": null

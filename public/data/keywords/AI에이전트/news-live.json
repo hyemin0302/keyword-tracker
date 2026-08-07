@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-07T18:15:41.505Z",
+  "updatedAt": "2026-08-07T19:33:14.489Z",
   "count": 40,
   "stats": {
-    "today": 7,
+    "today": 6,
     "yesterday": 8,
     "weekAvg": 5,
     "sources": 30,
@@ -16,7 +16,9 @@
       "u": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
       "m": "08. 07. PM 05:15",
       "ts": 1786122904000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "보안 우려로 Astra 모델 개발이 지연돼 AI 에이전트 성장에 제동"
     },
     {
       "s": "Bloomberg Tech",
@@ -25,7 +27,9 @@
       "u": "https://www.bloomberg.com/news/videos/2026-08-07/bloomberg-tech-8-07-2026-video",
       "m": "08. 07. PM 05:05",
       "ts": 1786122302000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "AI와 고용·실적 논의가 주제와 직접 연결되지 않아 중립"
     },
     {
       "s": "Bloomberg Tech",
@@ -34,7 +38,9 @@
       "u": "https://www.bloomberg.com/news/videos/2026-08-07/why-twilio-sees-more-ai-upside-ahead-video",
       "m": "08. 07. PM 05:04",
       "ts": 1786122240000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "Twilio의 AI 성장 기대가 에이전트·LLM 수요 확대에 긍정적"
     },
     {
       "s": "TechCrunch",
@@ -43,7 +49,9 @@
       "u": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
       "m": "08. 07. PM 04:16",
       "ts": 1786119369000,
-      "fullText": "Cloudflare is the latest company to join the race to build a new web browser. But instead of pitching a Chrome alternative to consumers, the internet infrastructure provider launched Kitesurf , a cloud-hosted browser designed specifically for AI agents. AI software is evolving from chatbots that answer questions to agents that can complete tasks on users&#8217; behalf. Browsers are a critical part of this transition, as they&#8217;ll need to navigate the web and use websites, as humans do. Unlike traditional web browsers built for humans, a browser built for AI agents doesn&#8217;t care about visual elements, like themes, tabs, or browser extensions, Cloudflare explained in its announcement . A browser designed for AI agents needs to manage context windows, performance, token costs, and scalability. It also faces a different threat model because an AI browser could be subject to vulnerabilities like prompt injection attacks and more, the company noted. With Kitesurf, AI developers will be able to build software that can navigate websites, fill out forms, and complete other browser-based tasks, without having to build their own browser software. Cloudflare says it decided to build Kitesurf just 12 weeks ago, and it runs entirely on top of the company&#8217;s serverless platform, called Workers. Kitesurf is available for free while in beta in Browser Run , which lets developers programmatically control and interact with headless browser instances on Cloudflare&#8217;s network. For developers, Cloudflare&#8217;s pitch is that this enables AI agents to use the web more efficiently while using less computing power than Chromium, which keeps costs down. &#8220;Kitesurf is significantly more efficient in CPU and memory consumption than Chromium for common agentic tasks like screenshots and HTML extraction,&#8221; according to the company. Image Credits: Cloudflare The browser itself was built from other technologies, including a modular rendering engine from Blitz ; Firefo"
+      "fullText": "Cloudflare is the latest company to join the race to build a new web browser. But instead of pitching a Chrome alternative to consumers, the internet infrastructure provider launched Kitesurf , a cloud-hosted browser designed specifically for AI agents. AI software is evolving from chatbots that answer questions to agents that can complete tasks on users&#8217; behalf. Browsers are a critical part of this transition, as they&#8217;ll need to navigate the web and use websites, as humans do. Unlike traditional web browsers built for humans, a browser built for AI agents doesn&#8217;t care about visual elements, like themes, tabs, or browser extensions, Cloudflare explained in its announcement . A browser designed for AI agents needs to manage context windows, performance, token costs, and scalability. It also faces a different threat model because an AI browser could be subject to vulnerabilities like prompt injection attacks and more, the company noted. With Kitesurf, AI developers will be able to build software that can navigate websites, fill out forms, and complete other browser-based tasks, without having to build their own browser software. Cloudflare says it decided to build Kitesurf just 12 weeks ago, and it runs entirely on top of the company&#8217;s serverless platform, called Workers. Kitesurf is available for free while in beta in Browser Run , which lets developers programmatically control and interact with headless browser instances on Cloudflare&#8217;s network. For developers, Cloudflare&#8217;s pitch is that this enables AI agents to use the web more efficiently while using less computing power than Chromium, which keeps costs down. &#8220;Kitesurf is significantly more efficient in CPU and memory consumption than Chromium for common agentic tasks like screenshots and HTML extraction,&#8221; according to the company. Image Credits: Cloudflare The browser itself was built from other technologies, including a modular rendering engine from Blitz ; Firefo",
+      "impact": "positive",
+      "takeaway": "AI 에이전트 전용 브라우저 Kitesurf 출시로 생태계 확장, 긍정"
     },
     {
       "s": "조선일보",
@@ -52,16 +60,9 @@
       "u": "https://www.chosun.com/economy/tech_it/2026/08/08/2N4WMWBG2FAO3MJVNVUFPBDVJM/",
       "m": "08. 07. PM 03:40",
       "ts": 1786117200000,
-      "fullText": ""
-    },
-    {
-      "s": "전자신문",
-      "t": "이스트시큐리티-퓨리오사AI, NPU 기반 AI 보안 인프라 공동개발",
-      "d": "이스트시큐리티는 퓨리오사에이아이와 국산 인공지능(AI) 반도체를 활용한 차세대 AI 보안 인프라를 공동 개발한다고 7일 밝혔다. 양사는 AI 에이전트 기반 '알약 EDR' 등 AI 보안 솔루션과 신경망처리장치(NPU)를 결합한다. 이를 통해 AI 보안 솔루션의 성능과 운영 효율을 높이고 차세대 AI 보안 시장을 공략할 계획이다. 특히 퓨리오사에이아이의 2세대 AI 추론 가속기 '레니게이드(RNGD)'와 소프트웨어 스택을 이스트시큐리티의 AI 보",
-      "u": "https://www.etnews.com/20260807000309",
-      "m": "08. 07. AM 10:06",
-      "ts": 1786097161000,
-      "fullText": "AI·SW 보안 이스트시큐리티-퓨리오사AI, NPU 기반 AI 보안 인프라 공동개발 발행일 : 2026-08-07 19:06 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 정상원 이스트시큐리티 대표(왼쪽)와 백준호 퓨리오사에이아이 대표는 지난 6일 '차세대 K-AI 보안 솔루션 개발 및 기술 협력을 위한 업무협약'을 체결했다. (사진=이스트시큐리티) 이스트시큐리티는 퓨리오사에이아이와 국산 인공지능(AI) 반도체를 활용한 차세대 AI 보안 인프라를 공동 개발한다고 7일 밝혔다. 양사는 AI 에이전트 기반 '알약 EDR' 등 AI 보안 솔루션과 신경망처리장치(NPU)를 결합한다. 이를 통해 AI 보안 솔루션의 성능과 운영 효율을 높이고 차세대 AI 보안 시장을 공략할 계획이다. 특히 퓨리오사에이아이의 2세대 AI 추론 가속기 '레니게이드(RNGD)'와 소프트웨어 스택을 이스트시큐리티의 AI 보안 솔루션과 보안 특화 소형언어모델(sLLM) 추론 엔진에 적용하는 방안을 추진한다. 양사는 제품 연동과 성능 검증을 거쳐 국내 환경에 맞는 AI 보안 인프라를 구축할 계획이다. 이를 위해 정례적인 워킹그룹을 구성하고 기술 융합과 제품 고도화를 추진한다. 공동 마케팅과 영업 기회 발굴에도 나선다. 국내외 주요 행사에 함께 참가하고 향후 공동 개발한 차세대 AI 보안 모델을 전시회와 세미나 등에서 선보일 예정이다. 이스트시큐리티와 퓨리오사에이아이는 독자 AI 파운데이션 모델 사업에도 LG AI연구원 컨소시엄으로 함께 참여하고 있다. 양사는 이번 협력을 통해 AI 모델 분야에 이어 AI 보안 인프라까지 협력 범위를 확대한다는 계획이다. 정상원 이스트시큐리티 대표는 “AI 에이전틱 EDR 등에서 진행될 양사의 협업이 차세대 K-AI 보안 생태계의 기틀을 마련하고 국내 AI 보안 기술 역량을 한 단계 끌어올리는 계기로 작용할 것”이라고 말했다. 백준호 퓨리오사에이아이 대표는 “이스트시큐리티와 함께 국내 환경에 최적화된 AI 보안 인프라를 구축하고 소버린 AI를 위한 차세대 AI 보안 플랫폼을 만들어 나가겠다”고 말했다. 박진형 기자 jin@etnews.com"
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "챗GPT 스피커 출시가 AI 에이전트 활용도를 높여 긍정적"
     },
     {
       "s": "한경 IT",
@@ -70,17 +71,21 @@
       "u": "https://www.hankyung.com/article/2026080712561",
       "m": "08. 07. AM 08:30",
       "ts": 1786091426000,
-      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 챗GPT 안에서도 어도비 쓴다 입력 2026.08.07 17:30 수정 2026.08.08 01:36 지면 A12 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 라현진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 세일즈포스&middot;SAP 등 SW기업들 AI와 협력하며 생존 전략 찾아 어도비가 포토샵과 프리미어(영상) 등 자사 대표 편집 도구를 챗GPT 안에서 사용할 수 있는 연동 기능을 내놨다. 여러 소프트웨어 작업 창을 오가며 작업하던 방식을 생성형 인공지능(AI) 중심으로 재편하려는 전략이다. 어도비는 크리에이티브 및 생산성 도구 70여개를 통합한 &lsquo;챗GPT 내 어도비 플러그인&rsquo;을 출시했다고 7일 밝혔다. 이번 플러그인은 기존에 개별 제공되던 도구를 통합해 포토샵, 프리미어, 라이트룸, 일러스트레이터, 인디자인 등을 대화창 안에서 바로 연동할 수 있도록 했다. 챗GPT 워크와 코덱스에서 이용할 수 있다. 사용자는 챗GPT와 대화하면서 아이디어 구상부터 콘텐츠 제작까지 한 번에 처리할 수 있다. 예컨대 캠페인 사진을 올리고 원하는 스타일을 설명하면 여러 이미지에 일관된 스타일을 적용한 뒤 결과물을 크리에이티브 클라우드에 저장한다. 데이터를 올리고 원하는 결과물을 설명하면, 인포그래픽 등의 PDF(휴대용문서형식)로도 제작할 수 있다. 생성형 AI가 서비스형소프트웨어(SaaS) 기업을 대체할 것이라는 사스포칼립스(SaaSpocalypse&middot;서비스형 소프트웨어 기업의 종말) 위협에 맞서 역으로 AI 생태계 내부에 들어간 전략이라는 평가다. 어도비는 챗GPT를 비롯해 클로드와 코파일럿 등으로 자사 도구의 연동 범위를 넓히고 있다. 향후 슬랙과 제미나이에서도 관련 서비스를 선보일 예정이다. 세일즈포스는 자사 고객관계관리(CRM) 플랫폼에 챗GPT, 클로드와의 연동을 확대하고 있다. 전사적자원관리(ERP) 기업 SAP 역시 마이크로소프트(MS) 코파일럿과 팀즈에서 업무 데이터를 조회할 수 있도록 지원한다. 라현진 기자 raraland@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 라현진 기자 안녕하세요. 한국경제신문 테크&사이언스부 라현진 기자입니다. ADVERTISEMENT 관련 뉴스 1 '창사 첫 파업' 카카오, 연봉 6.3% 인상 합의 카카오 노사가 노동조합 찬반 투표 절차를 거쳐 올해 임금 협약을 최종 타결했다.민주노총 화섬식품노조 카카오지회는 7일 “조합원 대상 잠정 합의 내용에 대한 투표가 마무리됐다”라며 “조... 2026.08.07 19:36 2 챗GPT 답변에 광고 노출?…'사기성 마케팅' 주의보 금융회사에 다니는 A씨는 최근 링크트인에서 한 인공지능(AI) 마케팅 대행사의 홍보 글을 보고 황당했다. 해당 업체 홈페이지에 자신이 속한 금융그룹 로고가 고객사 사례처럼 올라와 있어서다. A씨가 “어느 ... 2026.07.11 08:00 3 '챗GPT 돌풍' 서점까지 번졌다 인공지능(AI) 기반의 대화형 프로그램 ‘챗GPT’ 열풍이 출판가에서도 거세다. 인터넷 서점 예스24는 챗GPT 관련 도서 판매량이 올 들어 급증하고 있다고 8일 발표했다. 지난달 판매량은 전월... 2023.03.08 18:47 ADVERTISEMENT 많이 본 뉴스 1 서장훈, 경매로 28억에 산 양재역 빌딩 26년 만에…'초대박' 2026.08.07 13:41 2 \"일당 30만원 줘도 사람 못 구해\"…시골 마을에 무슨 일이 2026.08.06 17:51 3 \"정년도 못 채우고 은퇴\"…명함 빼앗긴 50대 직장인 향한 곳 2026.08.06 08:00 4 코스피 33% 급락했는데…피치가 내놓은 '뜻밖의 경고' 뭐길래 2026.08.06 22:00 5 톰 홀랜드·젠데이아, 9억 들여 극비리에 피로연…\"휴대폰 소"
+      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 챗GPT 안에서도 어도비 쓴다 입력 2026.08.07 17:30 수정 2026.08.08 01:36 지면 A12 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 라현진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 세일즈포스&middot;SAP 등 SW기업들 AI와 협력하며 생존 전략 찾아 어도비가 포토샵과 프리미어(영상) 등 자사 대표 편집 도구를 챗GPT 안에서 사용할 수 있는 연동 기능을 내놨다. 여러 소프트웨어 작업 창을 오가며 작업하던 방식을 생성형 인공지능(AI) 중심으로 재편하려는 전략이다. 어도비는 크리에이티브 및 생산성 도구 70여개를 통합한 &lsquo;챗GPT 내 어도비 플러그인&rsquo;을 출시했다고 7일 밝혔다. 이번 플러그인은 기존에 개별 제공되던 도구를 통합해 포토샵, 프리미어, 라이트룸, 일러스트레이터, 인디자인 등을 대화창 안에서 바로 연동할 수 있도록 했다. 챗GPT 워크와 코덱스에서 이용할 수 있다. 사용자는 챗GPT와 대화하면서 아이디어 구상부터 콘텐츠 제작까지 한 번에 처리할 수 있다. 예컨대 캠페인 사진을 올리고 원하는 스타일을 설명하면 여러 이미지에 일관된 스타일을 적용한 뒤 결과물을 크리에이티브 클라우드에 저장한다. 데이터를 올리고 원하는 결과물을 설명하면, 인포그래픽 등의 PDF(휴대용문서형식)로도 제작할 수 있다. 생성형 AI가 서비스형소프트웨어(SaaS) 기업을 대체할 것이라는 사스포칼립스(SaaSpocalypse&middot;서비스형 소프트웨어 기업의 종말) 위협에 맞서 역으로 AI 생태계 내부에 들어간 전략이라는 평가다. 어도비는 챗GPT를 비롯해 클로드와 코파일럿 등으로 자사 도구의 연동 범위를 넓히고 있다. 향후 슬랙과 제미나이에서도 관련 서비스를 선보일 예정이다. 세일즈포스는 자사 고객관계관리(CRM) 플랫폼에 챗GPT, 클로드와의 연동을 확대하고 있다. 전사적자원관리(ERP) 기업 SAP 역시 마이크로소프트(MS) 코파일럿과 팀즈에서 업무 데이터를 조회할 수 있도록 지원한다. 라현진 기자 raraland@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 라현진 기자 안녕하세요. 한국경제신문 테크&사이언스부 라현진 기자입니다. ADVERTISEMENT 관련 뉴스 1 '창사 첫 파업' 카카오, 연봉 6.3% 인상 합의 카카오 노사가 노동조합 찬반 투표 절차를 거쳐 올해 임금 협약을 최종 타결했다.민주노총 화섬식품노조 카카오지회는 7일 “조합원 대상 잠정 합의 내용에 대한 투표가 마무리됐다”라며 “조... 2026.08.07 19:36 2 챗GPT 답변에 광고 노출?…'사기성 마케팅' 주의보 금융회사에 다니는 A씨는 최근 링크트인에서 한 인공지능(AI) 마케팅 대행사의 홍보 글을 보고 황당했다. 해당 업체 홈페이지에 자신이 속한 금융그룹 로고가 고객사 사례처럼 올라와 있어서다. A씨가 “어느 ... 2026.07.11 08:00 3 '챗GPT 돌풍' 서점까지 번졌다 인공지능(AI) 기반의 대화형 프로그램 ‘챗GPT’ 열풍이 출판가에서도 거세다. 인터넷 서점 예스24는 챗GPT 관련 도서 판매량이 올 들어 급증하고 있다고 8일 발표했다. 지난달 판매량은 전월... 2023.03.08 18:47 ADVERTISEMENT 많이 본 뉴스 1 서장훈, 경매로 28억에 산 양재역 빌딩 26년 만에…'초대박' 2026.08.07 13:41 2 \"일당 30만원 줘도 사람 못 구해\"…시골 마을에 무슨 일이 2026.08.06 17:51 3 \"정년도 못 채우고 은퇴\"…명함 빼앗긴 50대 직장인 향한 곳 2026.08.06 08:00 4 코스피 33% 급락했는데…피치가 내놓은 '뜻밖의 경고' 뭐길래 2026.08.06 22:00 5 톰 홀랜드·젠데이아, 9억 들여 극비리에 피로연…\"휴대폰 소",
+      "impact": "positive",
+      "takeaway": "ChatGPT 내 Adobe 기능 추가가 에이전트 성능 강화에 긍정"
     },
     {
-      "s": "aifnlife.co.kr",
+      "s": "AI라이프경제",
       "t": "[AI 인사이드] 네이버, 20년 부동산 데이터로 ‘AI 에이전트’ 띄운다…“데이터 깊이가 곧 경쟁력”",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjR0lnSkpxWTlRRW80WkRiQTRsTVh4amt5QS0waE1aTGVNZTlqY2poV2dvR1ZIVUJtcUs2SVV4dzhHRVVJaFJfbTJEY0E5T09kcW0ycmNPOU5hWW5DZ0NGaEJYMm0zWFF6aVhZ0gFvQVVfeXFMT0YyX2hTUUN6Rkh5Q3R6NXByamI1bVZKU1hLZjlfc0JFTkt1UnNic2xId3NnWFVHMVFfbFlLMUYwT0RWb0RMNTYwYUVIM19MVl9FTTBYX3Ayb3QxU2Z1ZHh4OFhMUGJhZnFBV1NheWRn?oc=5",
       "m": "08. 06. PM 11:36",
       "ts": 1786059371000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "네이버 부동산 AI 에이전트 출시가 데이터 기반 경쟁력 강화, 긍정"
     },
     {
       "s": "TechCrunch",
@@ -89,7 +94,9 @@
       "u": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
       "m": "08. 06. PM 10:43",
       "ts": 1786056233000,
-      "fullText": "In Brief Posted: 3:43 PM PDT · August 6, 2026 Image Credits: SeongJoon Cho/Bloomberg / Getty Images Lucas Ropek OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400 More details continue to trickle out about OpenAI&#8217;s mysterious new hardware device — described previously as an AI-fueled smart speaker that will be the &#8220; physical manifestation &#8221; of ChatGPT. Bloomberg now reports that the device will be &#8220;donut-shaped,&#8221; designed thusly to allow users to carry it around their home and place it in different locations, like a bedside table or a kitchen counter. It will be constructed from &#8220;high-quality metal,&#8221; have a &#8220;premium look,&#8221; and (in a detail that mystifies) will have distinct &#8220;moving parts,&#8221; sources told Bloomberg. It also could be slightly more expensive than your average smart speaker, perhaps $300 to $400 per unit, according to this report. For comparison, most of Amazon&#8217;s smart home speakers range in price from $40 on the low end to $240 on the high end. So, to sum up: an expensive talking AI donut that has … moving parts? OpenAI releasing a smart home device has a certain logic to it, in that it would further integrate ChatGPT into users&#8217; lives. However, historically speaking, smart speakers have not always been profitable and may prove a difficult market to break into . The potentially high price point also might not help. The device, which is being developed in partnership with LoveFrom, the design studio founded by famous former Apple developer Jony Ive, will likely be released at some point in 2027, Bloomberg writes. The company&#8217;s attempt to enter the hardware market has not gone off without a hitch. OpenAI is being sued by the current king of hardware, Apple , which has accused the AI lab of stealing trade secrets. OpenAI has denied wrongdoing. Topics AI , ChatGPT , Gadgets , Hardware , In Brief , jony ive , OpenAI October 13 &#8211; 15 San Fra"
+      "fullText": "In Brief Posted: 3:43 PM PDT · August 6, 2026 Image Credits: SeongJoon Cho/Bloomberg / Getty Images Lucas Ropek OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400 More details continue to trickle out about OpenAI&#8217;s mysterious new hardware device — described previously as an AI-fueled smart speaker that will be the &#8220; physical manifestation &#8221; of ChatGPT. Bloomberg now reports that the device will be &#8220;donut-shaped,&#8221; designed thusly to allow users to carry it around their home and place it in different locations, like a bedside table or a kitchen counter. It will be constructed from &#8220;high-quality metal,&#8221; have a &#8220;premium look,&#8221; and (in a detail that mystifies) will have distinct &#8220;moving parts,&#8221; sources told Bloomberg. It also could be slightly more expensive than your average smart speaker, perhaps $300 to $400 per unit, according to this report. For comparison, most of Amazon&#8217;s smart home speakers range in price from $40 on the low end to $240 on the high end. So, to sum up: an expensive talking AI donut that has … moving parts? OpenAI releasing a smart home device has a certain logic to it, in that it would further integrate ChatGPT into users&#8217; lives. However, historically speaking, smart speakers have not always been profitable and may prove a difficult market to break into . The potentially high price point also might not help. The device, which is being developed in partnership with LoveFrom, the design studio founded by famous former Apple developer Jony Ive, will likely be released at some point in 2027, Bloomberg writes. The company&#8217;s attempt to enter the hardware market has not gone off without a hitch. OpenAI is being sued by the current king of hardware, Apple , which has accused the AI lab of stealing trade secrets. OpenAI has denied wrongdoing. Topics AI , ChatGPT , Gadgets , Hardware , In Brief , jony ive , OpenAI October 13 &#8211; 15 San Fra",
+      "impact": "positive",
+      "takeaway": "OpenAI 스마트 스피커 출시가 AI 에이전트 시장 확대에 긍정"
     },
     {
       "s": "데일리시큐",
@@ -99,7 +106,9 @@
       "m": "08. 06. PM 10:10",
       "ts": 1786054222000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "AI 시대 개인정보 규제 재검토가 에이전트 개발에 제약 가능, 부정적"
     },
     {
       "s": "지티티코리아",
@@ -109,7 +118,9 @@
       "m": "08. 06. PM 10:00",
       "ts": 1786053600000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "AI 에이전트 보안 강화가 안전성은 높이지만 성장에 직접적 영향은 제한적"
     },
     {
       "s": "TechCrunch",
@@ -170,6 +181,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "dailian.co.kr",
+      "t": "'AI시대 금융은?'…NH증권, 한경연과 정책세미나 공동 개최",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPZmljWFhsYTAyN2U5Z28zVVVHcWcxb0Ryek9rXzcyc0VIeGF4bHRfcFFwa015VGpsdURicG4zejY3YjQ5c3R4ZmlKVGpseHNmQkpIWVk4NllMOW1MQTJuN2hiV1VINzJzV0c3ZTJOOHdZejJVcUs5cVU0dGRZU200bTJhLVdlMFhTXzAybkY3eEN4TkVyaVhEUWhyLUZFdHBHVTRNbGNKMHpZbE9xeXlLV1I2TEp2QjQ5dUtPWmlmWVF5VHhTU0RaelZDRTd5SzdtbGs3blJja0dJYjlfd0huem9XMHRMMUJJWXB1SkNmeVB2bGQxUzJ0d0doZEl1bUFPUTBn?oc=5",
+      "m": "08. 05. AM 06:29",
+      "ts": 1785911340000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "퍼블릭뉴스통신",
       "t": "NH투자증권·한국경제연구학회, 'AI 시대 금융정책' 세미나 개최…책임·신뢰·소비자 보호 논의",
       "d": "",
@@ -196,6 +217,16 @@
       "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01TjB3RkJGRDlhZld5QmtyaVc1b0xxYmNVT25NOEIzN0o2SjNyck5XdVUxR2FCUERJM0RPejFHT2JQUlNHNE5PU3RmY0ZmMjNiQi1mVw?oc=5",
       "m": "08. 05. AM 04:34",
       "ts": 1785904440000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스로드",
+      "t": "[금융로드] “AI 사고 나도 책임질 사람 없다”…NH투자증권·한경연, 금융 규제 대전환 논의",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FQnZpQmpRNTlOTVlKN0I5VGxUZXo2Z3h1M1dyQWFlb3JmWF9PWTlvQXgxa29xRUhDWWVUNUlZMGFka0hON0RVTU1BUmdNc2FLZVFXcmgxajZVZHgyZFJ2ZHY1SWdvUTlTMTJn0gFvQVVfeXFMTVdiSlNPdXFEUlo5c184Z0l4R2lTU2RndER2cUZ6b3BUaU1fN0p4T3lqdUxTMmp0bzBTXzktdVJRSGV4bFR2WG8ybHRXOHA3VFkyRnE2b3VqckJTOS1HYm9ucEViUFQwYWdQZDl1Xzk4?oc=5",
+      "m": "08. 05. AM 04:25",
+      "ts": 1785903907000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -256,7 +287,7 @@
       "u": "https://www.nbcnews.com/now/video/white-house-hosts-meeting-with-top-ai-companies-267748933634",
       "m": "08. 04. PM 05:38",
       "ts": 1785865116000,
-      "fullText": "FOR SUBSCRIBERS Move over &#x27;people movers&#x27;: Inside Trump&#x27;s plans for Dulles"
+      "fullText": "Shooting at Thailand school leaves multiple dead"
     },
     {
       "s": "ESG비즈니스리뷰",
@@ -278,22 +309,22 @@
       "fullText": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency Linux Foundation publishing Request for Comments on Shared AI Findings Exchange (SAFE) guidelines to transform agentic cybersecurity incidents into better protection. August 4, 2026 by Justin Boitano 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchange (SAFE), a proposed set of guidelines designed to turn agentic cybersecurity incidents into shared protection for the entire ecosystem. The SAFE guidelines are being drafted by an Open Secure AI Alliance working group. NVIDIA, Cisco, CrowdStrike , Hugging Face and Red Hat are among Open Secure AI Alliance members working with the Linux Foundation to contribute to the initial proposal. The SAFE guidelines include proposals to confidentially collect and analyze AI incidents and near misses, inform those impacted, identify recurring control failures and publish evidence-based operating recommendations that reduce systemic risk. Cybersecurity is a race without a finish line. Every major technology shift has created new potential attack surfaces. Defenders must move now at agent speed to respond rapidly to protect infrastructure and intellectual property — and the best way to do that is together. When trusted ecosystems share threat intelligence openly, collective defense becomes a force multiplier. Open Secure AI Alliance Delivers More Tools for AI Cybersecurity The SAFE framework adds to technology contributions Open Secure AI Alliance members are making to build and share open, inspectable tools across the full AI security stack. An AI agent isn’t just a model. It’s a system — identity controls, harnesses, guardrails, logs and evaluati"
     },
     {
+      "s": "KB Think",
+      "t": "'AI 시대' 금융사고 나면 누가 책임지나…\"규제 공백\" 한목소리",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DN2k5MXVDdWZQRGEtZno5WGFhaFNyaGFzT0lpR19hbnp4M0cyUFNidVBDS3h2VjFDUUhCNmtWT2J0Q3lHSEg3akdrY1ZsQmgtWHUtWjVqajJfVm5SSVVDeFVzLVdsb2x5c0hMRnM3OC1OQQ?oc=5",
+      "m": "08. 04. AM 07:00",
+      "ts": 1785826858000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "뉴시안",
       "t": "[‘챗GPT 해킹’ 후폭풍③] AI에게 ‘자유’ 줄수록 커지는 위험… ‘자율 AI’ 통제 가능할까",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpc3BBdTJ3NWJNVlFVQ3ZkM1lPWnRrU2dPbW81aXlSVmpid0UtLTdWcEU4N1BMT0Yta2JIUVFqMENoQ3RmY0Q3WElSWWpsaUl2MFhrRkpyTnBfd3oyM0JlWXJKb2xDdHI4NFHSAW5BVV95cUxQbXZHZ3JGbFEwVmhMUDVmSng5ZTY1d0ZsVnlhM2ZQM3R4MFdrRjNPTnB3WndZYzdZVTRHQWpLbGlPNFpDX3ViSHNhd3lEa1pWaFlVWUlUcmJmR3hXWU5kSV9iWlloSTc0bUpoanVyZw?oc=5",
       "m": "08. 03. PM 09:49",
       "ts": 1785793792000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "kcemedia.com",
-      "t": "AI 에이전트의 '거짓말·속임수' 능력 연구가 기업 전략과 시장 비용 구조를 바꾼다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1NS0R1SVJ6Wk5XY0pRSms3ejVUengxQ2E5WTFEc0FtVDhtRlI3RnlsMk95Q3J6VzlfdHc4MVJ3WURqbnc?oc=5",
-      "m": "08. 03. PM 05:08",
-      "ts": 1785776885000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -338,16 +369,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "쿠키뉴스",
-      "t": "“마지막 확인만 누르세요”…AI 에이전트 시대, 선택권은 누구 손에",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaMGNYaTgzeVVYX2JCRWQxdERkMEotMHpXR2RLVkx1bUhZY3pRcTVFMzlnSlkxSHlXRWZuY09HbnJVc3ZERE91Y1N2eTRKRkxieWdtVFFMdnZCcWJtUWtSZ3ROVQ?oc=5",
-      "m": "08. 01. AM 09:59",
-      "ts": 1785578353000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "사이언스모니터",
       "t": "‘AI 에이전트 시대’가 던진 가장 위험한 질문",
       "d": "",
@@ -373,7 +394,7 @@
       "u": "https://www.nbcnews.com/nightly-news/video/urgent-warning-over-water-system-cyberattacks-267550277518",
       "m": "07. 30. PM 10:46",
       "ts": 1785451593000,
-      "fullText": "FOR SUBSCRIBERS Move over &#x27;people movers&#x27;: Inside Trump&#x27;s plans for Dulles"
+      "fullText": "Shooting at Thailand school leaves multiple dead"
     },
     {
       "s": "AI타임스",
@@ -392,7 +413,7 @@
       "u": "https://www.nbcnews.com/video/openai-s-rogue-ai-hacking-of-several-companies-opens-new-cybersecurity-questions-267492933762",
       "m": "07. 30. AM 01:44",
       "ts": 1785375890000,
-      "fullText": "FOR SUBSCRIBERS Move over &#x27;people movers&#x27;: Inside Trump&#x27;s plans for Dulles"
+      "fullText": "Shooting at Thailand school leaves multiple dead"
     }
   ]
 }

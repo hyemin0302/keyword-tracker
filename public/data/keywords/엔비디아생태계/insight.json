@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T20:10:55.305Z",
+  "updatedAt": "2026-08-07T21:15:14.273Z",
   "related": [
     {
       "slug": "젠슨황",
@@ -58,11 +58,7 @@
   ],
   "events": [],
   "key_players": [
-    "엔비디아",
-    "TSMC",
-    "브로드컴",
-    "LG전자",
-    "SK하이닉스"
+    "엔비디아"
   ],
   "outlook": {
     "short_term": {
@@ -82,15 +78,17 @@
     }
   },
   "capital_flow": {
-    "summary": "엔비디아의 루빈 울트라 칩 개발이 지연될 수 있으며, HBM 공급 부족의 영향으로 인해 엔비디아의 수익이 감소할 수 있다.",
-    "signals": []
+    "summary": "엔비디아의 루빈 울트라 칩 개발에 대한 관심이 높아지고 있다.",
+    "signals": [
+      "엔비디아의 루빈 울트라 칩 개발에 대한 관심이 높아지고 있다."
+    ]
   },
   "scenarios": [
     {
       "case": "기본(Base)",
       "probability": 60,
       "thesis": "엔비디아의 루빈 울트라 칩 개발이 지연될 수 있으며, HBM 공급 부족의 영향으로 인해 엔비디아의 수익이 감소할 수 있다.",
-      "trigger": "루빈 울트라 칩 개발 지연",
+      "trigger": "엔비디아의 루빈 울트라 칩 개발이 지연되거나, HBM 공급 부족의 영향으로 인해 수익이 감소할 수 있다.",
       "watch_period": "1~2주",
       "data_quality": "full"
     },
@@ -98,7 +96,7 @@
       "case": "강세(Bull)",
       "probability": 20,
       "thesis": "엔비디아가 루빈 울트라 칩 개발을 성공적으로 완료할 경우, 수익이 증가할 수 있다.",
-      "trigger": "루빈 울트라 칩 개발 성공",
+      "trigger": "엔비디아가 루빈 울트라 칩 개발을 성공적으로 완료할 경우",
       "watch_period": "기간",
       "data_quality": "full"
     },
@@ -106,32 +104,30 @@
       "case": "약세(Bear)",
       "probability": 20,
       "thesis": "엔비디아의 루빈 울트라 칩 개발이 지연되거나, HBM 공급 부족의 영향으로 인해 수익이 감소할 수 있다.",
-      "trigger": "루빈 울트라 칩 개발 지연",
+      "trigger": "엔비디아의 루빈 울트라 칩 개발이 지연되거나, HBM 공급 부족의 영향으로 인해 수익이 감소할 수 있다.",
       "watch_period": "기간",
       "data_quality": "full"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "엔비디아의 루빈 울트라 칩 개발이 지연될 수 있으며, HBM 공급 부족의 영향으로 인해 엔비디아의 수익이 감소할 수 있다.",
-    "momentum_signals": "엔비디아의 루빈 울트라 칩 개발이 지연될 수 있으며, HBM 공급 부족의 영향으로 인해 엔비디아의 수익이 감소할 수 있다.",
-    "fundamental_strength": "엔비디아의 루빈 울트라 칩 개발이 지연될 수 있으며, HBM 공급 부족의 영향으로 인해 엔비디아의 수익이 감소할 수 있다.",
+    "valuation_assessment": "엔비디아의 루빈 울트라 칩 개발에 대한 관심이 높아지고 있으며, HBM 공급 부족의 영향으로 인해 수익이 감소할 수 있다.",
+    "momentum_signals": "엔비디아의 루빈 울트라 칩 개발에 대한 관심이 높아지고 있으며, HBM 공급 부족의 영향으로 인해 수익이 감소할 수 있다.",
+    "fundamental_strength": "엔비디아의 루빈 울트라 칩 개발에 대한 관심이 높아지고 있으며, HBM 공급 부족의 영향으로 인해 수익이 감소할 수 있다.",
     "key_monitors": [
       "엔비디아의 루빈 울트라 칩 개발",
       "HBM 공급 부족의 영향"
     ],
-    "position_sizing_view": "엔비디아의 루빈 울트라 칩 개발이 지연될 수 있으며, HBM 공급 부족의 영향으로 인해 엔비디아의 수익이 감소할 수 있다."
+    "position_sizing_view": "엔비디아의 루빈 울트라 칩 개발에 대한 관심이 높아지고 있으며, HBM 공급 부족의 영향으로 인해 수익이 감소할 수 있다."
   },
   "value_chain": {
     "upstream": [
       "TSM"
     ],
     "midstream": [
-      "NVDA",
-      "AVGO"
+      "NVDA"
     ],
     "downstream": [
-      "066570",
-      "000660"
+      "AVGO"
     ]
   },
   "policy_tracker": [
@@ -181,6 +177,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-08-07T20:10:10.085Z",
+  "generatedAt": "2026-08-07T21:13:54.537Z",
   "_model": "groq:llama-3.1-8b-instant"
 }

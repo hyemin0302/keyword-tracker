@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-07T21:15:22.760Z",
+  "updatedAt": "2026-08-07T22:13:25.880Z",
   "count": 40,
   "stats": {
     "today": 7,
-    "yesterday": 8,
+    "yesterday": 7,
     "weekAvg": 5,
     "sources": 30,
     "heat": "warm"
@@ -16,7 +16,9 @@
       "u": "https://www.bloomberg.com/news/videos/2026-08-07/gen-ceo-on-earnings-new-cybersecurity-attack-tracker-video",
       "m": "08. 07. PM 08:17",
       "ts": 1786133870000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "Gen CEO의 이익 및 새로운 사이버 공격 트래커에 대한 언급은 테마와 직접 관련이 없다."
     },
     {
       "s": "Bloomberg Tech",
@@ -25,7 +27,9 @@
       "u": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
       "m": "08. 07. PM 05:15",
       "ts": 1786122904000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "negative",
+      "takeaway": "OpenAI가 새로운 Astra 모델 개발에 대한 우려로 일부 작업을 중단하는 것은 AI 에이전트·LLM에 부정적인 영향을 미친다."
     },
     {
       "s": "Bloomberg Tech",
@@ -34,7 +38,9 @@
       "u": "https://www.bloomberg.com/news/videos/2026-08-07/bloomberg-tech-8-07-2026-video",
       "m": "08. 07. PM 05:05",
       "ts": 1786122302000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "neutral",
+      "takeaway": "이 뉴스는 AI 에이전트·LLM에 대한 직접적인 언급이 없지만, AI와 관련된 테크니컬한 내용을 다룬다."
     },
     {
       "s": "Bloomberg Tech",
@@ -43,16 +49,20 @@
       "u": "https://www.bloomberg.com/news/videos/2026-08-07/why-twilio-sees-more-ai-upside-ahead-video",
       "m": "08. 07. PM 05:04",
       "ts": 1786122240000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "Twilio가 AI에 대한 더 큰 가능성을 보는 것은 AI 에이전트·LLM에 긍정적인 영향을 미친다."
     },
     {
       "s": "TechCrunch",
       "t": "Cloudflare launches Kitesurf, a browser built for AI agents",
-      "d": "Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "d": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
       "u": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
       "m": "08. 07. PM 04:16",
       "ts": 1786119369000,
-      "fullText": "Cloudflare is the latest company to join the race to build a new web browser. But instead of pitching a Chrome alternative to consumers, the internet infrastructure provider launched Kitesurf , a cloud-hosted browser designed specifically for AI agents. AI software is evolving from chatbots that answer questions to agents that can complete tasks on users&#8217; behalf. Browsers are a critical part of this transition, as they&#8217;ll need to navigate the web and use websites, as humans do. Unlike traditional web browsers built for humans, a browser built for AI agents doesn&#8217;t care about visual elements, like themes, tabs, or browser extensions, Cloudflare explained in its announcement . A browser designed for AI agents needs to manage context windows, performance, token costs, and scalability. It also faces a different threat model because an AI browser could be subject to vulnerabilities like prompt injection attacks and more, the company noted. With Kitesurf, AI developers will be able to build software that can navigate websites, fill out forms, and complete other browser-based tasks, without having to build their own browser software. Cloudflare says it decided to build Kitesurf just 12 weeks ago, and it runs entirely on top of the company&#8217;s serverless platform, called Workers. Kitesurf is available for free while in beta in Browser Run , which lets developers programmatically control and interact with headless browser instances on Cloudflare&#8217;s network. For developers, Cloudflare&#8217;s pitch is that this enables AI agents to use the web more efficiently while using less computing power than Chromium, which keeps costs down. &#8220;Kitesurf is significantly more efficient in CPU and memory consumption than Chromium for common agentic tasks like screenshots and HTML extraction,&#8221; according to the company. Image Credits: Cloudflare The browser itself was built from other technologies, including a modular rendering engine from Blitz ; Firefo"
+      "fullText": "Cloudflare is the latest company to join the race to build a new web browser. But instead of pitching a Chrome alternative to consumers, the internet infrastructure provider launched Kitesurf , a cloud-hosted browser designed specifically for AI agents. AI software is evolving from chatbots that answer questions to agents that can complete tasks on users&#8217; behalf. Browsers are a critical part of this transition, as they&#8217;ll need to navigate the web and use websites, as humans do. Unlike traditional web browsers built for humans, a browser built for AI agents doesn&#8217;t care about visual elements, like themes, tabs, or browser extensions, Cloudflare explained in its announcement . A browser designed for AI agents needs to manage context windows, performance, token costs, and scalability. It also faces a different threat model because an AI browser could be subject to vulnerabilities like prompt injection attacks and more, the company noted. With Kitesurf, AI developers will be able to build software that can navigate websites, fill out forms, and complete other browser-based tasks, without having to build their own browser software. Cloudflare says it decided to build Kitesurf just 12 weeks ago, and it runs entirely on top of the company&#8217;s serverless platform, called Workers. Kitesurf is available for free while in beta in Browser Run , which lets developers programmatically control and interact with headless browser instances on Cloudflare&#8217;s network. For developers, Cloudflare&#8217;s pitch is that this enables AI agents to use the web more efficiently while using less computing power than Chromium, which keeps costs down. &#8220;Kitesurf is significantly more efficient in CPU and memory consumption than Chromium for common agentic tasks like screenshots and HTML extraction,&#8221; according to the company. Image Credits: Cloudflare The browser itself was built from other technologies, including a modular rendering engine from Blitz ; Firefo",
+      "impact": "positive",
+      "takeaway": "Cloudflare가 AI 에이전트를 위한 브라우저를 출시하는 것은 AI 에이전트·LLM에 긍정적인 영향을 미친다."
     },
     {
       "s": "조선일보",
@@ -61,7 +71,9 @@
       "u": "https://www.chosun.com/economy/tech_it/2026/08/08/2N4WMWBG2FAO3MJVNVUFPBDVJM/",
       "m": "08. 07. PM 03:40",
       "ts": 1786117200000,
-      "fullText": ""
+      "fullText": "",
+      "impact": "positive",
+      "takeaway": "챗GPT 스피커의 내년 출시 전망은 AI 에이전트·LLM에 긍정적인 영향을 미친다."
     },
     {
       "s": "한경 IT",
@@ -70,7 +82,9 @@
       "u": "https://www.hankyung.com/article/2026080712561",
       "m": "08. 07. AM 08:30",
       "ts": 1786091426000,
-      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 챗GPT 안에서도 어도비 쓴다 입력 2026.08.07 17:30 수정 2026.08.08 01:36 지면 A12 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 라현진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 세일즈포스&middot;SAP 등 SW기업들 AI와 협력하며 생존 전략 찾아 어도비가 포토샵과 프리미어(영상) 등 자사 대표 편집 도구를 챗GPT 안에서 사용할 수 있는 연동 기능을 내놨다. 여러 소프트웨어 작업 창을 오가며 작업하던 방식을 생성형 인공지능(AI) 중심으로 재편하려는 전략이다. 어도비는 크리에이티브 및 생산성 도구 70여개를 통합한 &lsquo;챗GPT 내 어도비 플러그인&rsquo;을 출시했다고 7일 밝혔다. 이번 플러그인은 기존에 개별 제공되던 도구를 통합해 포토샵, 프리미어, 라이트룸, 일러스트레이터, 인디자인 등을 대화창 안에서 바로 연동할 수 있도록 했다. 챗GPT 워크와 코덱스에서 이용할 수 있다. 사용자는 챗GPT와 대화하면서 아이디어 구상부터 콘텐츠 제작까지 한 번에 처리할 수 있다. 예컨대 캠페인 사진을 올리고 원하는 스타일을 설명하면 여러 이미지에 일관된 스타일을 적용한 뒤 결과물을 크리에이티브 클라우드에 저장한다. 데이터를 올리고 원하는 결과물을 설명하면, 인포그래픽 등의 PDF(휴대용문서형식)로도 제작할 수 있다. 생성형 AI가 서비스형소프트웨어(SaaS) 기업을 대체할 것이라는 사스포칼립스(SaaSpocalypse&middot;서비스형 소프트웨어 기업의 종말) 위협에 맞서 역으로 AI 생태계 내부에 들어간 전략이라는 평가다. 어도비는 챗GPT를 비롯해 클로드와 코파일럿 등으로 자사 도구의 연동 범위를 넓히고 있다. 향후 슬랙과 제미나이에서도 관련 서비스를 선보일 예정이다. 세일즈포스는 자사 고객관계관리(CRM) 플랫폼에 챗GPT, 클로드와의 연동을 확대하고 있다. 전사적자원관리(ERP) 기업 SAP 역시 마이크로소프트(MS) 코파일럿과 팀즈에서 업무 데이터를 조회할 수 있도록 지원한다. 라현진 기자 raraland@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 라현진 기자 안녕하세요. 한국경제신문 테크&사이언스부 라현진 기자입니다. ADVERTISEMENT 관련 뉴스 1 '창사 첫 파업' 카카오, 연봉 6.3% 인상 합의 카카오 노사가 노동조합 찬반 투표 절차를 거쳐 올해 임금 협약을 최종 타결했다.민주노총 화섬식품노조 카카오지회는 7일 “조합원 대상 잠정 합의 내용에 대한 투표가 마무리됐다”라며 “조... 2026.08.07 19:36 2 챗GPT 답변에 광고 노출?…'사기성 마케팅' 주의보 금융회사에 다니는 A씨는 최근 링크트인에서 한 인공지능(AI) 마케팅 대행사의 홍보 글을 보고 황당했다. 해당 업체 홈페이지에 자신이 속한 금융그룹 로고가 고객사 사례처럼 올라와 있어서다. A씨가 “어느 ... 2026.07.11 08:00 3 '챗GPT 돌풍' 서점까지 번졌다 인공지능(AI) 기반의 대화형 프로그램 ‘챗GPT’ 열풍이 출판가에서도 거세다. 인터넷 서점 예스24는 챗GPT 관련 도서 판매량이 올 들어 급증하고 있다고 8일 발표했다. 지난달 판매량은 전월... 2023.03.08 18:47 ADVERTISEMENT 많이 본 뉴스 1 서장훈, 경매로 28억에 산 양재역 빌딩 26년 만에…'초대박' 2026.08.07 13:41 2 \"일당 30만원 줘도 사람 못 구해\"…시골 마을에 무슨 일이 2026.08.06 17:51 3 \"정년도 못 채우고 은퇴\"…명함 빼앗긴 50대 직장인 향한 곳 2026.08.06 08:00 4 코스피 33% 급락했는데…피치가 내놓은 '뜻밖의 경고' 뭐길래 2026.08.06 22:00 5 톰 홀랜드·젠데이아, 9억 들여 극비리에 피로연…\"휴대폰 소"
+      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 챗GPT 안에서도 어도비 쓴다 입력 2026.08.07 17:30 수정 2026.08.08 01:36 지면 A12 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 라현진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 세일즈포스&middot;SAP 등 SW기업들 AI와 협력하며 생존 전략 찾아 어도비가 포토샵과 프리미어(영상) 등 자사 대표 편집 도구를 챗GPT 안에서 사용할 수 있는 연동 기능을 내놨다. 여러 소프트웨어 작업 창을 오가며 작업하던 방식을 생성형 인공지능(AI) 중심으로 재편하려는 전략이다. 어도비는 크리에이티브 및 생산성 도구 70여개를 통합한 &lsquo;챗GPT 내 어도비 플러그인&rsquo;을 출시했다고 7일 밝혔다. 이번 플러그인은 기존에 개별 제공되던 도구를 통합해 포토샵, 프리미어, 라이트룸, 일러스트레이터, 인디자인 등을 대화창 안에서 바로 연동할 수 있도록 했다. 챗GPT 워크와 코덱스에서 이용할 수 있다. 사용자는 챗GPT와 대화하면서 아이디어 구상부터 콘텐츠 제작까지 한 번에 처리할 수 있다. 예컨대 캠페인 사진을 올리고 원하는 스타일을 설명하면 여러 이미지에 일관된 스타일을 적용한 뒤 결과물을 크리에이티브 클라우드에 저장한다. 데이터를 올리고 원하는 결과물을 설명하면, 인포그래픽 등의 PDF(휴대용문서형식)로도 제작할 수 있다. 생성형 AI가 서비스형소프트웨어(SaaS) 기업을 대체할 것이라는 사스포칼립스(SaaSpocalypse&middot;서비스형 소프트웨어 기업의 종말) 위협에 맞서 역으로 AI 생태계 내부에 들어간 전략이라는 평가다. 어도비는 챗GPT를 비롯해 클로드와 코파일럿 등으로 자사 도구의 연동 범위를 넓히고 있다. 향후 슬랙과 제미나이에서도 관련 서비스를 선보일 예정이다. 세일즈포스는 자사 고객관계관리(CRM) 플랫폼에 챗GPT, 클로드와의 연동을 확대하고 있다. 전사적자원관리(ERP) 기업 SAP 역시 마이크로소프트(MS) 코파일럿과 팀즈에서 업무 데이터를 조회할 수 있도록 지원한다. 라현진 기자 raraland@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 라현진 기자 안녕하세요. 한국경제신문 테크&사이언스부 라현진 기자입니다. ADVERTISEMENT 관련 뉴스 1 '창사 첫 파업' 카카오, 연봉 6.3% 인상 합의 카카오 노사가 노동조합 찬반 투표 절차를 거쳐 올해 임금 협약을 최종 타결했다.민주노총 화섬식품노조 카카오지회는 7일 “조합원 대상 잠정 합의 내용에 대한 투표가 마무리됐다”라며 “조... 2026.08.07 19:36 2 챗GPT 답변에 광고 노출?…'사기성 마케팅' 주의보 금융회사에 다니는 A씨는 최근 링크트인에서 한 인공지능(AI) 마케팅 대행사의 홍보 글을 보고 황당했다. 해당 업체 홈페이지에 자신이 속한 금융그룹 로고가 고객사 사례처럼 올라와 있어서다. A씨가 “어느 ... 2026.07.11 08:00 3 '챗GPT 돌풍' 서점까지 번졌다 인공지능(AI) 기반의 대화형 프로그램 ‘챗GPT’ 열풍이 출판가에서도 거세다. 인터넷 서점 예스24는 챗GPT 관련 도서 판매량이 올 들어 급증하고 있다고 8일 발표했다. 지난달 판매량은 전월... 2023.03.08 18:47 ADVERTISEMENT 많이 본 뉴스 1 서장훈, 경매로 28억에 산 양재역 빌딩 26년 만에…'초대박' 2026.08.07 13:41 2 \"일당 30만원 줘도 사람 못 구해\"…시골 마을에 무슨 일이 2026.08.06 17:51 3 \"정년도 못 채우고 은퇴\"…명함 빼앗긴 50대 직장인 향한 곳 2026.08.06 08:00 4 코스피 33% 급락했는데…피치가 내놓은 '뜻밖의 경고' 뭐길래 2026.08.06 22:00 5 톰 홀랜드·젠데이아, 9억 들여 극비리에 피로연…\"휴대폰 소",
+      "impact": "neutral",
+      "takeaway": "챗GPT 안에서도 어도비가 사용되는 것은 AI 에이전트·LLM에 대한 직접적인 언급이 없지만, AI 에이전트의 특징을 다룬다."
     },
     {
       "s": "AI라이프경제",
@@ -80,7 +94,9 @@
       "m": "08. 06. PM 11:36",
       "ts": 1786059371000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "네이버가 20년 부동산 데이터를 사용하여 AI 에이전트를 개발하는 것은 AI 에이전트·LLM에 긍정적인 영향을 미친다."
     },
     {
       "s": "TechCrunch",
@@ -89,7 +105,9 @@
       "u": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
       "m": "08. 06. PM 10:43",
       "ts": 1786056233000,
-      "fullText": "In Brief Posted: 3:43 PM PDT · August 6, 2026 Image Credits: SeongJoon Cho/Bloomberg / Getty Images Lucas Ropek OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400 More details continue to trickle out about OpenAI&#8217;s mysterious new hardware device — described previously as an AI-fueled smart speaker that will be the &#8220; physical manifestation &#8221; of ChatGPT. Bloomberg now reports that the device will be &#8220;donut-shaped,&#8221; designed thusly to allow users to carry it around their home and place it in different locations, like a bedside table or a kitchen counter. It will be constructed from &#8220;high-quality metal,&#8221; have a &#8220;premium look,&#8221; and (in a detail that mystifies) will have distinct &#8220;moving parts,&#8221; sources told Bloomberg. It also could be slightly more expensive than your average smart speaker, perhaps $300 to $400 per unit, according to this report. For comparison, most of Amazon&#8217;s smart home speakers range in price from $40 on the low end to $240 on the high end. So, to sum up: an expensive talking AI donut that has … moving parts? OpenAI releasing a smart home device has a certain logic to it, in that it would further integrate ChatGPT into users&#8217; lives. However, historically speaking, smart speakers have not always been profitable and may prove a difficult market to break into . The potentially high price point also might not help. The device, which is being developed in partnership with LoveFrom, the design studio founded by famous former Apple developer Jony Ive, will likely be released at some point in 2027, Bloomberg writes. The company&#8217;s attempt to enter the hardware market has not gone off without a hitch. OpenAI is being sued by the current king of hardware, Apple , which has accused the AI lab of stealing trade secrets. OpenAI has denied wrongdoing. Topics AI , ChatGPT , Gadgets , Hardware , In Brief , jony ive , OpenAI October 13 &#8211; 15 San Fra"
+      "fullText": "In Brief Posted: 3:43 PM PDT · August 6, 2026 Image Credits: SeongJoon Cho/Bloomberg / Getty Images Lucas Ropek OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400 More details continue to trickle out about OpenAI&#8217;s mysterious new hardware device — described previously as an AI-fueled smart speaker that will be the &#8220; physical manifestation &#8221; of ChatGPT. Bloomberg now reports that the device will be &#8220;donut-shaped,&#8221; designed thusly to allow users to carry it around their home and place it in different locations, like a bedside table or a kitchen counter. It will be constructed from &#8220;high-quality metal,&#8221; have a &#8220;premium look,&#8221; and (in a detail that mystifies) will have distinct &#8220;moving parts,&#8221; sources told Bloomberg. It also could be slightly more expensive than your average smart speaker, perhaps $300 to $400 per unit, according to this report. For comparison, most of Amazon&#8217;s smart home speakers range in price from $40 on the low end to $240 on the high end. So, to sum up: an expensive talking AI donut that has … moving parts? OpenAI releasing a smart home device has a certain logic to it, in that it would further integrate ChatGPT into users&#8217; lives. However, historically speaking, smart speakers have not always been profitable and may prove a difficult market to break into . The potentially high price point also might not help. The device, which is being developed in partnership with LoveFrom, the design studio founded by famous former Apple developer Jony Ive, will likely be released at some point in 2027, Bloomberg writes. The company&#8217;s attempt to enter the hardware market has not gone off without a hitch. OpenAI is being sued by the current king of hardware, Apple , which has accused the AI lab of stealing trade secrets. OpenAI has denied wrongdoing. Topics AI , ChatGPT , Gadgets , Hardware , In Brief , jony ive , OpenAI October 13 &#8211; 15 San Fra",
+      "impact": "positive",
+      "takeaway": "OpenAI의 새로운 AI 스마트 스피커가 300~400달러 사이에 판매될 예정인 것은 AI 에이전트·LLM에 긍정적인 영향을 미친다."
     },
     {
       "s": "데일리시큐",
@@ -99,7 +117,9 @@
       "m": "08. 06. PM 10:10",
       "ts": 1786054222000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "개인정보위가 AI 시대 개인정보 제도 전면 재검토를 하는 것은 AI 에이전트·LLM에 대한 직접적인 언급이 없지만, AI 관련 정책에 대한 언급이다."
     },
     {
       "s": "지티티코리아",
@@ -110,15 +130,6 @@
       "ts": 1786053600000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "ChatGPT brings unlimited text chats to free users",
-      "d": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
-      "u": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "m": "08. 06. PM 05:34",
-      "ts": 1786037682000,
-      "fullText": "OpenAI is removing limits on text-based chats for all users on ChatGPT, which recently crossed the 1 billion weekly user mark , the company announced today. The new GPT-5.6 Luna model will power this experience and will be the default model for Free and Go users, replacing GPT-5.5. Both users will also get a new &#8220;Think&#8221; button that lets them select higher reasoning power for complex questions. OpenAI said that there will still be separate limits for files, images, voice, and image generation. Image Credits: OpenAI The update brings changes for Plus and Pro users as well. They&#8217;ll gain access to an upgraded GPT-5.6 Sol model that&#8217;s better for quick tasks such as questions, web research, advice, planning, writing, and making decisions. The company noted that this new model will give more compact and robust answers. (Notably, this is a separate version from GPT-5.6 Sol used for Codex and Work, which is unchanged.) ChatGPT Plus and Pro users are also getting a thinking slider to adjust &#8220;how much&#8221; thought the model puts into an answer. They can tune the thinking slider based on complexity and steps involved in solving a query. Image Credits: OpenAI OpenAI said an internal evaluation found that, compared to GPT-5.5-Instant, factual errors were 62% less common for GPT-5.6 Luna and 68% less common for GPT-5.6 Sol. The updated version of GPT-5.6 Sol is available to Plus and Pro users today, while the other changes for Free and Go users are arriving this week. Next week, users will gain access to unlimited text chats and the new Think button for harder questions. Topics AI , Apps , ChatGPT , OpenAI When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Ivan Mehta Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web. You can contact or verify outreach f"
     },
     {
       "s": "데이터넷",
@@ -223,7 +234,7 @@
       "s": "디지털데일리",
       "t": "[22대 AI 입법 후반전②] 기본법 시행 반년만에 개정안 19건…업계 “규제 덧대기” 우려",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Xb1dTVVNzZktpSThWSVFsQkJsTHZTY1hLWHYtbS1OOUVNeXVsaGNQeV9CTG9hRHBNbkY3dDF2czM0N3JFNUp2SkktaUMtUlFHLTBmZTk2RGttQWJ3dW1CZnU2UC0?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2ZWJfaHdvMUM5ak9LUkxQYm1aTDR1WndSU21KeFMtNU82eEdzd3gxMUZpVjk2Mkx2SE5SWU9VRV9sVUZOc2E1Q3NNU0RCMVJMa1VETlpNQUpOZ1hBT08yNTFn?oc=5",
       "m": "08. 05. AM 01:59",
       "ts": 1785895147000,
       "_policy": true,
@@ -260,13 +271,23 @@
       "fullText": "Google News"
     },
     {
+      "s": "지티티코리아",
+      "t": "AI 코딩 에이전트의 파일 열람·셸 명령 실시간 통제...소스코드·기밀정보 유출 차단",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZVDd4clBPaHpEWUhZWTZPZk1FQXpQRjRsMHduNWozSk5ONmdNNkNmQmI1N2pmRzduVWMyeU1aYmZxdG1PYm42YlpnYWNiZXFid1dZN080bXFTa2dCWFI4bVBaWWVZQ3FvVXc?oc=5",
+      "m": "08. 04. PM 10:00",
+      "ts": 1785880800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "CNBC Tech",
       "t": "White House hosts meeting with top AI companies",
       "d": "The White House hosted a meeting with representatives from top AI companies, including Anthropic, Meta and OpenAI. President Trump did not attend the meeting which was focused on voluntary AI safety testing for advanced AI models.",
       "u": "https://www.nbcnews.com/now/video/white-house-hosts-meeting-with-top-ai-companies-267748933634",
       "m": "08. 04. PM 05:38",
       "ts": 1785865116000,
-      "fullText": "Video shows fatal shooting at Idaho In-N-Out Burger"
+      "fullText": "What is postpartum psychosis? Inside the Lindsay Clancy case"
     },
     {
       "s": "ESG비즈니스리뷰",
@@ -373,7 +394,7 @@
       "u": "https://www.nbcnews.com/nightly-news/video/urgent-warning-over-water-system-cyberattacks-267550277518",
       "m": "07. 30. PM 10:46",
       "ts": 1785451593000,
-      "fullText": "Video shows fatal shooting at Idaho In-N-Out Burger"
+      "fullText": "What is postpartum psychosis? Inside the Lindsay Clancy case"
     },
     {
       "s": "AI타임스",
@@ -392,7 +413,7 @@
       "u": "https://www.nbcnews.com/video/openai-s-rogue-ai-hacking-of-several-companies-opens-new-cybersecurity-questions-267492933762",
       "m": "07. 30. AM 01:44",
       "ts": 1785375890000,
-      "fullText": "Video shows fatal shooting at Idaho In-N-Out Burger"
+      "fullText": "What is postpartum psychosis? Inside the Lindsay Clancy case"
     }
   ]
 }

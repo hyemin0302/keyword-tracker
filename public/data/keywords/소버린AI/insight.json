@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T07:46:49.173Z",
+  "updatedAt": "2026-08-08T09:34:59.709Z",
   "related": [
     {
       "slug": "AI에이전트",
@@ -50,16 +50,16 @@
   ],
   "watch_points": [
     "네이버의 영업이익 감소",
-    "AI 투자 영향"
+    "AI 투자의 영향"
   ],
   "risks": [
-    "AI 투자 영향",
-    "영업이익 감소"
+    "AI 투자의 비용 증가",
+    "국방 AI 사업의 어려움"
   ],
   "events": [
     {
-      "date": "TBD",
-      "title": "네이버의 AI 팩토리 사업 성과 발표",
+      "date": "2026-08-08",
+      "title": "네이버의 AI 팩토리 사업",
       "impact": "positive"
     }
   ],
@@ -70,33 +70,33 @@
   ],
   "outlook": {
     "short_term": {
-      "thesis": "네이버의 AI 팩토리 사업이 성과를 거두고 영업이익이 증가할 것으로 예상됩니다. 하지만 AI 투자 영향으로 인해 영업이익은 소폭 감소할 수 있습니다.",
+      "thesis": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 주가가 상승할 수 있습니다. 하지만 AI 투자의 비용 증가와 국방 AI 사업의 어려움을 고려할 때 주가가 하락할 수도 있습니다.",
       "upside": "",
-      "downside": "AI 투자 영향으로 인해 영업이익이 5% 감소할 수 있습니다."
+      "downside": ""
     },
     "mid_term": {
-      "thesis": "네이버의 AI 팩토리 사업이 성과를 거두고 영업이익이 증가할 것으로 예상됩니다. 하지만 AI 투자 영향으로 인해 영업이익은 소폭 감소할 수 있습니다.",
+      "thesis": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 주가가 중장기적으로 상승할 수 있습니다. 하지만 AI 투자의 비용 증가와 국방 AI 사업의 어려움을 고려할 때 주가가 하락할 수도 있습니다.",
       "upside": "",
       "downside": ""
     },
     "long_term": {
-      "thesis": "네이버의 AI 팩토리 사업이 성과를 거두고 영업이익이 증가할 것으로 예상됩니다. 하지만 AI 투자 영향으로 인해 영업이익은 소폭 감소할 수 있습니다.",
+      "thesis": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 주가가 장기적으로 상승할 수 있습니다. 하지만 AI 투자의 비용 증가와 국방 AI 사업의 어려움을 고려할 때 주가가 하락할 수도 있습니다.",
       "upside": "",
       "downside": ""
     }
   },
   "capital_flow": {
-    "summary": "네이버의 AI 팩토리 사업이 성공적으로 진행되면 자금 흐름이 증가할 것으로 예상됩니다.",
+    "summary": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 자금 흐름이 긍정적으로 변할 수 있습니다.",
     "signals": [
-      "네이버의 AI 팩토리 사업이 성공적으로 진행되면 자금 흐름이 증가할 것으로 예상됩니다."
+      "네이버의 AI 팩토리 사업이 성공적으로 시작되면 자금 흐름이 긍정적으로 변할 수 있습니다."
     ]
   },
   "scenarios": [
     {
       "case": "기본(Base)",
       "probability": 60,
-      "thesis": "네이버의 AI 팩토리 사업이 성과를 거두고 영업이익이 증가할 것으로 예상됩니다.",
-      "trigger": "네이버의 AI 팩토리 사업이 성공적으로 진행되면",
+      "thesis": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 주가가 상승할 수 있습니다. 하지만 AI 투자의 비용 증가와 국방 AI 사업의 어려움을 고려할 때 주가가 하락할 수도 있습니다.",
+      "trigger": "네이버의 AI 팩토리 사업이 성공적으로 시작되면",
       "watch_period": "1~2주",
       "data_quality": "full"
     },
@@ -104,44 +104,43 @@
       "case": "강세(Bull)",
       "probability": 20,
       "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
-      "trigger": "네이버의 AI 팩토리 사업이 성공적으로 진행되면",
+      "trigger": "네이버의 AI 팩토리 사업이 성공적으로 시작되면",
       "watch_period": "기간",
       "data_quality": "partial"
     },
     {
       "case": "약세(Bear)",
       "probability": 20,
-      "thesis": "AI 투자 영향으로 인해 영업이익이 5% 감소할 수 있습니다.",
-      "trigger": "AI 투자 영향으로 인해",
+      "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
+      "trigger": "AI 투자의 비용 증가와 국방 AI 사업의 어려움",
       "watch_period": "기간",
-      "data_quality": "full"
+      "data_quality": "partial"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "네이버의 AI 팩토리 사업이 성공적으로 진행되면 PER가 25배로 증가할 수 있습니다.",
-    "momentum_signals": "네이버의 AI 팩토리 사업이 성공적으로 진행되면 외인/기관 수급이 증가할 수 있습니다.",
-    "fundamental_strength": "네이버의 AI 팩토리 사업이 성공적으로 진행되면 성장/마진/재무 안정성이 증가할 수 있습니다.",
+    "valuation_assessment": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 주가가 상승할 수 있습니다. 하지만 AI 투자의 비용 증가와 국방 AI 사업의 어려움을 고려할 때 주가가 하락할 수도 있습니다.",
+    "momentum_signals": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 자금 흐름이 긍정적으로 변할 수 있습니다.",
+    "fundamental_strength": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 주가가 상승할 수 있습니다.",
     "key_monitors": [
-      "외인/기관 수급",
-      "성장/마진/재무 안정성"
+      "네이버의 AI 팩토리 사업"
     ],
-    "position_sizing_view": "네이버의 AI 팩토리 사업이 성공적으로 진행되면 Core/Satellite/Trade 중 어느 성격이 증가할 수 있습니다."
+    "position_sizing_view": "네이버의 AI 팩토리 사업이 성공적으로 시작되면 주가가 상승할 수 있습니다."
   },
   "value_chain": {
     "upstream": [
       "NVDA"
     ],
     "midstream": [
-      "035420"
+      "017670"
     ],
     "downstream": [
-      "017670"
+      "035420"
     ]
   },
   "policy_tracker": [
     {
-      "date": null,
-      "title": "네이버의 AI 팩토리 사업에 대한 정부 지원",
+      "date": "2026-08-08",
+      "title": "네이버의 AI 팩토리 사업",
       "region": "KR",
       "stance": "supportive"
     },
@@ -197,8 +196,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-08-08T07:45:38.902Z",
-  "_model": "groq:llama-3.1-8b-instant",
-  "_stale": true,
-  "_failure": "rate_limit"
+  "generatedAt": "2026-08-08T09:33:57.820Z",
+  "_model": "groq:llama-3.1-8b-instant"
 }

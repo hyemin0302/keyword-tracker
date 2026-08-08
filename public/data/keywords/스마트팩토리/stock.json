@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T11:05:57.037Z",
+  "updatedAt": "2026-08-08T11:40:52.716Z",
   "data": {
     "SIEGY": {
       "name": "지멘스",
@@ -257,12 +257,111 @@
         "2026-08-06",
         "2026-08-07"
       ],
-      "volume": 1456931,
+      "volume": 1509489,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
-      "fundamentals": null,
-      "investorFlow": null,
+      "fundamentals": {
+        "marketCap": "30조 1,337억",
+        "per": "34.13배",
+        "pbr": "1.30배",
+        "cnsPer": "14.65배",
+        "divYield": "0.73%",
+        "foreignRatio": "29.16%",
+        "high52w": "467,500",
+        "low52w": "71,900",
+        "consensus": {
+          "targetMean": 230000,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "4.00",
+          "earningsDate": null,
+          "source": "naver"
+        }
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260807",
+            "foreigner": -205897,
+            "institution": 42575,
+            "individual": 157036,
+            "foreignRatio": "29.04%"
+          },
+          {
+            "date": "20260806",
+            "foreigner": -13464,
+            "institution": 21390,
+            "individual": -13175,
+            "foreignRatio": "29.16%"
+          },
+          {
+            "date": "20260805",
+            "foreigner": 1607,
+            "institution": 255705,
+            "individual": -257455,
+            "foreignRatio": "29.20%"
+          },
+          {
+            "date": "20260804",
+            "foreigner": 116794,
+            "institution": 38362,
+            "individual": -156264,
+            "foreignRatio": "29.18%"
+          },
+          {
+            "date": "20260803",
+            "foreigner": 4963,
+            "institution": 25202,
+            "individual": -29286,
+            "foreignRatio": "29.17%"
+          },
+          {
+            "date": "20260731",
+            "foreigner": -90804,
+            "institution": -13951,
+            "individual": 96793,
+            "foreignRatio": "29.08%"
+          },
+          {
+            "date": "20260730",
+            "foreigner": 131571,
+            "institution": -19680,
+            "individual": -110752,
+            "foreignRatio": "29.14%"
+          },
+          {
+            "date": "20260729",
+            "foreigner": 209682,
+            "institution": 79454,
+            "individual": -276996,
+            "foreignRatio": "29.07%"
+          },
+          {
+            "date": "20260728",
+            "foreigner": 13776,
+            "institution": -36062,
+            "individual": 22093,
+            "foreignRatio": "28.90%"
+          },
+          {
+            "date": "20260727",
+            "foreigner": -44272,
+            "institution": 30331,
+            "individual": 13623,
+            "foreignRatio": "28.92%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": -95997,
+          "institution": 383234
+        },
+        "sum10d": {
+          "foreigner": 123956,
+          "institution": 423326
+        }
+      },
       "consensus": null
     }
   },
@@ -344,73 +443,6 @@
     ]
   },
   "etfs": {
-    "ROBO": {
-      "name": "ROBO Global Robotics and Automa",
-      "px": 84.44,
-      "dayChange": 1.65,
-      "periodChange": 4.23,
-      "prices": [
-        81.01,
-        82.59,
-        82.96,
-        80.56,
-        80.78,
-        80.55,
-        79.39,
-        77.89,
-        77.31,
-        79.38,
-        79.4,
-        78.32,
-        77.83,
-        78.58,
-        77.5,
-        75.76,
-        78.58,
-        79.25,
-        81.19,
-        84.34,
-        84.37,
-        83.07,
-        84.44
-      ],
-      "dates": [
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07"
-      ],
-      "volume": 110022,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 90.51,
-        "low52w": 61.93,
-        "volume": 110022
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "BOTZ": {
       "name": "Global X Robotics & Artificial ",
       "px": 37.61,
@@ -474,6 +506,73 @@
         "high52w": 41.71,
         "low52w": 31.875,
         "volume": 682072
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "ROBO": {
+      "name": "ROBO Global Robotics and Automa",
+      "px": 84.44,
+      "dayChange": 1.65,
+      "periodChange": 4.23,
+      "prices": [
+        81.01,
+        82.59,
+        82.96,
+        80.56,
+        80.78,
+        80.55,
+        79.39,
+        77.89,
+        77.31,
+        79.38,
+        79.4,
+        78.32,
+        77.83,
+        78.58,
+        77.5,
+        75.76,
+        78.58,
+        79.25,
+        81.19,
+        84.34,
+        84.37,
+        83.07,
+        84.44
+      ],
+      "dates": [
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07"
+      ],
+      "volume": 110022,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 90.51,
+        "low52w": 61.93,
+        "volume": 110022
       },
       "investorFlow": null,
       "consensus": null

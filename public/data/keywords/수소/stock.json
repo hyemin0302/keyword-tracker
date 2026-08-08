@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T11:04:15.436Z",
+  "updatedAt": "2026-08-08T11:38:56.943Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
@@ -60,39 +60,138 @@
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
-      "fundamentals": null,
-      "investorFlow": null,
+      "fundamentals": {
+        "marketCap": "2조 8억",
+        "per": "N/A",
+        "pbr": "7.03배",
+        "cnsPer": "-27.80배",
+        "divYield": "N/A",
+        "foreignRatio": "17.94%",
+        "high52w": "108,900",
+        "low52w": "18,230",
+        "consensus": {
+          "targetMean": 58167,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "3.67",
+          "earningsDate": null,
+          "source": "naver"
+        }
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260807",
+            "foreigner": -113520,
+            "institution": 20898,
+            "individual": 82693,
+            "foreignRatio": "17.76%"
+          },
+          {
+            "date": "20260806",
+            "foreigner": -339156,
+            "institution": 70055,
+            "individual": 270942,
+            "foreignRatio": "17.94%"
+          },
+          {
+            "date": "20260805",
+            "foreigner": -815458,
+            "institution": 369797,
+            "individual": 446410,
+            "foreignRatio": "18.43%"
+          },
+          {
+            "date": "20260804",
+            "foreigner": -186378,
+            "institution": 163437,
+            "individual": 19585,
+            "foreignRatio": "19.85%"
+          },
+          {
+            "date": "20260803",
+            "foreigner": -211597,
+            "institution": 57394,
+            "individual": 154063,
+            "foreignRatio": "20.20%"
+          },
+          {
+            "date": "20260731",
+            "foreigner": -26139,
+            "institution": 572851,
+            "individual": -546683,
+            "foreignRatio": "20.64%"
+          },
+          {
+            "date": "20260730",
+            "foreigner": -161756,
+            "institution": -60383,
+            "individual": 217662,
+            "foreignRatio": "20.52%"
+          },
+          {
+            "date": "20260729",
+            "foreigner": -161300,
+            "institution": -204981,
+            "individual": 363824,
+            "foreignRatio": "20.77%"
+          },
+          {
+            "date": "20260728",
+            "foreigner": 108811,
+            "institution": -575357,
+            "individual": 489492,
+            "foreignRatio": "21.17%"
+          },
+          {
+            "date": "20260727",
+            "foreigner": -468441,
+            "institution": -369721,
+            "individual": 832036,
+            "foreignRatio": "21.20%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": -1666109,
+          "institution": 681581
+        },
+        "sum10d": {
+          "foreigner": -2374934,
+          "institution": 43990
+        }
+      },
       "consensus": null
     },
-    "APD": {
-      "name": "Air Products and Chemicals, Inc",
-      "px": 303.44,
-      "dayChange": 1.17,
-      "periodChange": 2.25,
+    "BE": {
+      "name": "블룸에너지",
+      "px": 219.34,
+      "dayChange": -4.2,
+      "periodChange": -13.74,
       "prices": [
-        296.75,
-        295.85,
-        299.53,
-        301.96,
-        299.4,
-        293.69,
-        297.29,
-        295.62,
-        296.63,
-        296.39,
-        297,
-        294.29,
-        297.87,
-        292.58,
-        292.85,
-        294.27,
-        300.2,
-        294.89,
-        292.94,
-        294.71,
-        295.09,
-        299.92,
-        303.44
+        254.29,
+        257.02,
+        244.61,
+        233.49,
+        243.4,
+        239.38,
+        206.73,
+        214.96,
+        197.06,
+        226.26,
+        218.22,
+        217.3,
+        184.89,
+        188.18,
+        166.84,
+        163.75,
+        207.12,
+        205.81,
+        218.32,
+        228.11,
+        234.33,
+        228.96,
+        219.34
       ],
       "dates": [
         "2026-07-08",
@@ -119,14 +218,14 @@
         "2026-08-06",
         "2026-08-07"
       ],
-      "volume": 515388,
+      "volume": 14771523,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 314.87,
-        "low52w": 229.11,
-        "volume": 515388
+        "high52w": 351.28,
+        "low52w": 36.8,
+        "volume": 14771523
       },
       "investorFlow": null,
       "consensus": null
@@ -198,35 +297,35 @@
       "investorFlow": null,
       "consensus": null
     },
-    "BE": {
-      "name": "블룸에너지",
-      "px": 219.34,
-      "dayChange": -4.2,
-      "periodChange": -13.74,
+    "APD": {
+      "name": "Air Products and Chemicals, Inc",
+      "px": 303.44,
+      "dayChange": 1.17,
+      "periodChange": 2.25,
       "prices": [
-        254.29,
-        257.02,
-        244.61,
-        233.49,
-        243.4,
-        239.38,
-        206.73,
-        214.96,
-        197.06,
-        226.26,
-        218.22,
-        217.3,
-        184.89,
-        188.18,
-        166.84,
-        163.75,
-        207.12,
-        205.81,
-        218.32,
-        228.11,
-        234.33,
-        228.96,
-        219.34
+        296.75,
+        295.85,
+        299.53,
+        301.96,
+        299.4,
+        293.69,
+        297.29,
+        295.62,
+        296.63,
+        296.39,
+        297,
+        294.29,
+        297.87,
+        292.58,
+        292.85,
+        294.27,
+        300.2,
+        294.89,
+        292.94,
+        294.71,
+        295.09,
+        299.92,
+        303.44
       ],
       "dates": [
         "2026-07-08",
@@ -253,14 +352,14 @@
         "2026-08-06",
         "2026-08-07"
       ],
-      "volume": 14771523,
+      "volume": 515388,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 351.28,
-        "low52w": 36.8,
-        "volume": 14771523
+        "high52w": 314.87,
+        "low52w": 229.11,
+        "volume": 515388
       },
       "investorFlow": null,
       "consensus": null
@@ -324,8 +423,107 @@
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
-      "fundamentals": null,
-      "investorFlow": null,
+      "fundamentals": {
+        "marketCap": "49조 3,873억",
+        "per": "319.92배",
+        "pbr": "6.15배",
+        "cnsPer": "156.39배",
+        "divYield": "N/A",
+        "foreignRatio": "24.02%",
+        "high52w": "139,200",
+        "low52w": "51,100",
+        "consensus": {
+          "targetMean": 129375,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "4.00",
+          "earningsDate": null,
+          "source": "naver"
+        }
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260807",
+            "foreigner": -137526,
+            "institution": 97151,
+            "individual": 38577,
+            "foreignRatio": "24.00%"
+          },
+          {
+            "date": "20260806",
+            "foreigner": -212510,
+            "institution": 113743,
+            "individual": 86925,
+            "foreignRatio": "24.02%"
+          },
+          {
+            "date": "20260805",
+            "foreigner": -54586,
+            "institution": 187425,
+            "individual": -172584,
+            "foreignRatio": "24.10%"
+          },
+          {
+            "date": "20260804",
+            "foreigner": 205065,
+            "institution": 194202,
+            "individual": -405029,
+            "foreignRatio": "24.13%"
+          },
+          {
+            "date": "20260803",
+            "foreigner": -89152,
+            "institution": -58153,
+            "individual": 145844,
+            "foreignRatio": "24.08%"
+          },
+          {
+            "date": "20260731",
+            "foreigner": 594935,
+            "institution": -69740,
+            "individual": -488363,
+            "foreignRatio": "24.21%"
+          },
+          {
+            "date": "20260730",
+            "foreigner": 165082,
+            "institution": 59114,
+            "individual": -211153,
+            "foreignRatio": "24.10%"
+          },
+          {
+            "date": "20260729",
+            "foreigner": 46907,
+            "institution": 504897,
+            "individual": -572500,
+            "foreignRatio": "24.06%"
+          },
+          {
+            "date": "20260728",
+            "foreigner": -152425,
+            "institution": 81800,
+            "individual": 103119,
+            "foreignRatio": "24.00%"
+          },
+          {
+            "date": "20260727",
+            "foreigner": -435793,
+            "institution": 14666,
+            "individual": 427051,
+            "foreignRatio": "24.03%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": -288709,
+          "institution": 534368
+        },
+        "sum10d": {
+          "foreigner": -70003,
+          "institution": 1125105
+        }
+      },
       "consensus": null
     }
   },
@@ -407,6 +605,25 @@
     ]
   },
   "etfs": {
+    "HDRO": {
+      "name": "ETF Series Solutions Defiance N",
+      "px": 25.919,
+      "dayChange": 0,
+      "periodChange": 0,
+      "prices": [],
+      "dates": [],
+      "volume": 71341,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 39.26,
+        "low52w": 4.2,
+        "volume": 71341
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "HYDR": {
       "name": "Global X Hydrogen ETF",
       "px": 43.556,
@@ -470,25 +687,6 @@
         "high52w": 74.8,
         "low52w": 23.68,
         "volume": 26528
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "HDRO": {
-      "name": "ETF Series Solutions Defiance N",
-      "px": 25.919,
-      "dayChange": 0,
-      "periodChange": 0,
-      "prices": [],
-      "dates": [],
-      "volume": 71341,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 39.26,
-        "low52w": 4.2,
-        "volume": 71341
       },
       "investorFlow": null,
       "consensus": null

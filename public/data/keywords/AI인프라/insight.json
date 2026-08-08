@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T12:37:58.197Z",
+  "updatedAt": "2026-08-08T14:29:07.091Z",
   "related": [
     {
       "slug": "HBM",
@@ -42,106 +42,108 @@
       "overlap": 2
     }
   ],
-  "summary": "AI 인프라 구축이 전 세계적으로 가속화되고, 한국에서는 최초 상업용 AI 전용 데이터센터가 가동되면서 산업 전반에 긍정적 모멘텀이 형성되고 있다. 동시에 데이터센터 기업인 Switch의 IPO 신청과 AI 관련 채권 매출 급증이 자금 흐름을 촉진한다.",
+  "summary": "AI 인프라와 데이터센터 구축이 전 세계와 국내에서 동시에 가속화되고 있다. NVIDIA의 아르메니아 AI 팩토리, 경북 포항 AI 전용 데이터센터, 그리고 Switch의 IPO 준비가 주요 동향이다.",
   "sentiment": "bullish",
   "key_drivers": [
-    "글로벌 AI 컴퓨팅 수요 급증",
-    "정부·정책 금융의 AI 데이터센터 지원",
-    "AI 전용 칩·전력 공급 인프라 확대",
-    "AI 기업들의 채권·주식 자금 조달 확대"
+    "AI 전용 데이터센터 신규 구축",
+    "AI 전용 칩 생산 확대",
+    "AI 관련 채권·자금 흐름 증가"
   ],
   "watch_points": [
-    "Firebird가 아르메니아에 구축한 AI 팩토리 가동 일정",
-    "Switch Inc. IPO 가격 및 청약 규모",
-    "한국 정책금융이 추가 지원하는 AI 데이터센터 건설 계획",
-    "SpaceX Terafab의 천연가스 전력 공급 비용 변동"
+    "Firebird AI 팩토리 가동 시점",
+    "Switch Inc. IPO 진행 상황",
+    "JPMorgan AI 채권 판매 규모 변동"
   ],
   "risks": [
-    "정책 승인 지연 또는 보조금 축소",
-    "전력 비용 상승으로 데이터센터 운영 마진 압박",
-    "칩·HBM 공급망 병목 현상"
+    "전력 공급 비용 상승",
+    "규제·정책 변화에 따른 데이터센터 인허가 지연"
   ],
   "events": [
     {
-      "date": "2026-08-08",
-      "title": "Firebird, NVIDIA 공식 발표: CIS 지역 최대 AI 팩토리 아르메니아 가동",
+      "date": "2026-08-15",
+      "title": "Firebird AI 팩토리 가동 시작",
       "impact": "positive"
     },
     {
       "date": "TBD",
-      "title": "Switch Inc. confidential IPO filing",
-      "impact": "positive"
+      "title": "Switch Inc. 미국 IPO 신청",
+      "impact": "neutral"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "JPMorgan AI 채권 판매 실적 발표",
+      "impact": "neutral"
     }
   ],
   "key_players": [
-    "엔비디아(NVDA)",
-    "Switch Inc.",
-    "JPMorgan Chase & Co.",
-    "SpaceX",
-    "경북 정책금융"
+    "엔비디아",
+    "파이어버드",
+    "경북 정책금융",
+    "스위치",
+    "JP모건",
+    "스페이스X"
   ],
   "outlook": {
     "short_term": {
-      "thesis": "다음 1~2주 내에 Firebird AI 팩토리 가동과 Switch IPO 신청이 시장에 긍정적 신호를 제공한다. 동시에 JPMorgan이 발표한 AI 채권 매출 규모가 투자자들의 위험 선호도를 높인다. 정책금융의 한국 AI 데이터센터 승인 절차가 순조롭게 진행될 경우 추가적인 수요가 발생한다. 그러나 전력 비용 변동이 데이터센터 운영 비용에 영향을 미칠 가능성도 존재한다.",
-      "upside": "Firebird 팩토리 가동이 성공하고 Switch IPO가 강력한 청약을 받으면 AI 인프라 투자 열기가 확대된다.",
-      "downside": "정책 승인 지연이나 전력 비용 급등이 발생하면 단기 모멘텀이 급락할 수 있다."
+      "thesis": "다음 1~2주 내에 Firebird AI 팩토리 가동과 Switch IPO 신청이 시장에 직접적인 자금 흐름을 촉진한다. AI 전용 데이터센터가 실제 운영을 시작하면 클라우드 서비스 수요가 급증할 가능성이 있다. 동시에 JPMorgan의 AI 채권 판매 실적 발표가 투자 심리를 좌우할 것이다. 이 기간 동안 전력 비용 변동이 수익성에 영향을 줄 수 있다.",
+      "upside": "Firebird 팩토리 가동이 성공하고 Switch IPO가 순조롭게 진행될 경우 AI 인프라 투자 확대가 가속화된다.",
+      "downside": "전력 비용 급등이나 JPMorgan 채권 판매 실적 부진이 나타나면 단기 모멘텀이 약화된다."
     },
     "mid_term": {
-      "thesis": "1~3개월 동안 한국 내 AI 전용 데이터센터 건설이 본격화되고, 추가적인 정책 지원이 발표될 가능성이 높다. Switch IPO가 실제 상장으로 이어지면 데이터센터 공급 측면에서 경쟁 구도가 재편될 것이다. 또한 AI 전용 칩 생산 확대와 천연가스 전력 공급 전략이 지속될 경우 전체 산업 성장률이 상승한다. 반면, 글로벌 반도체 공급 제약이 지속되면 장비·부품 가격 상승 압력이 나타날 수 있다.",
-      "upside": "추가적인 정부 보조금 발표와 Switch IPO 성공이 이어지면 중기 성장 모멘텀이 강화된다.",
-      "downside": "반도체·HBM 공급 부족이 심화되면 데이터센터 구축 일정이 지연될 수 있다."
+      "thesis": "1~3개월 내에 주요 빅테크(구글, 마이크로소프트, 아마존, 엔비디아)의 분기 실적이 AI 데이터센터 투자와 연계된 매출 성장 여부를 판단한다. 국내 정책금융의 추가 지원 여부와 미국의 AI 채권 시장 규모 확대가 중기 성장 동력을 제공한다. 또한 Switch IPO가 성공하면 데이터센터 장비 공급 체인에 새로운 자본이 유입된다. 경쟁 구도는 AI 전용 칩과 전력 인프라 공급업체 간 재편이 진행될 전망이다.",
+      "upside": "빅테크 기업들의 AI 매출이 기대치를 초과하고 정책 지원이 확대되면 중기 상승 여력이 커진다.",
+      "downside": "분기 실적이 부진하거나 정책 지원이 축소될 경우 중기 하방 압력이 발생한다."
     },
     "long_term": {
-      "thesis": "6~12개월 동안 AI 전용 데이터센터가 핵심 인프라로 자리매김하면서 전력·칩 공급망이 고도화된다. NVIDIA와 한미반도체·SK하이닉스 등 upstream 기업들의 기술 격차가 진입 장벽을 높이며, 대형 클라우드 기업들의 downstream 수요가 지속적으로 증가한다. 정책적으로는 AI 기본법 및 데이터센터 인허가 절차가 표준화돼 투자 환경이 안정된다. 그러나 전력 인프라(천연가스 vs 재생에너지) 전환 속도가 산업 비용 구조에 큰 영향을 미칠 것이다.",
-      "upside": "AI 전용 데이터센터에 대한 지속적인 정책 지원과 친환경 전력 전환이 성공하면 장기 성장 잠재력이 크게 확대된다.",
-      "downside": "전력 공급 구조가 천연가스 의존으로 남아 가격 변동성이 커지면 장기 수익성이 약화될 수 있다."
+      "thesis": "6~12개월 동안 AI 인프라와 데이터센터는 구조적 성장 단계에 진입한다. AI 전용 칩(엔비디아)과 고성능 메모리(HBM) 공급망이 안정화되면서 전력 인프라(두산에너빌리티)와 데이터센터 서비스(구글·마이크로소프트·아마존) 간의 가치 사슬이 견고해진다. 기술 격차와 진입 장벽이 높아지면서 기존 플레이어가 시장 점유율을 확대할 가능성이 크다.",
+      "upside": "AI 전용 데이터센터 수요가 지속적으로 증가하고 전력 인프라 공급이 원활하면 장기 성장률이 상승한다.",
+      "downside": "전력 공급 제약이나 규제 강화가 발생하면 장기 성장 잠재력이 제한된다."
     }
   },
   "capital_flow": {
-    "summary": "JPMorgan이 AI 관련 채권 매출이 반조 달러 규모에 달한다는 전망을 발표했으며, Switch Inc.의 IPO 신청으로 신규 주식 자금이 유입될 전망이다.",
+    "summary": "",
     "signals": [
-      "JPMorgan AI 채권 매출 반조 달러 규모",
-      "Switch Inc. confidential IPO filing",
-      "Firebird AI 팩토리 아르메니아 가동 발표"
+      "Switch Inc. IPO 청약 진행",
+      "Firebird AI 팩토리 건설 완료"
     ]
   },
   "scenarios": [
     {
       "case": "기본(Base)",
       "probability": 60,
-      "thesis": "AI 데이터센터 건설이 현재 발표된 일정대로 진행되고, 자금 조달 환경이 안정적이며, 전력 공급이 기존 계획대로 유지된다.",
-      "trigger": "Firebird AI 팩토리 가동 일정이 발표된 대로 진행",
-      "watch_period": "1~2주/분기",
+      "thesis": "Firebird AI 팩토리 가동과 Switch IPO가 순조롭게 진행되어 AI 인프라 투자 흐름이 지속된다.",
+      "trigger": "Firebird AI 팩토리 가동일 (2026-08-15)",
+      "watch_period": "1~2주",
       "data_quality": "full"
     },
     {
       "case": "강세(Bull)",
       "probability": 20,
-      "thesis": "한국 정부가 추가적인 AI 데이터센터 보조금을 발표하고, 전력 비용이 재생에너지 전환으로 하락하면 투자 열기가 크게 확대된다.",
-      "trigger": "한국 정책금융이 AI 데이터센터 추가 보조금 발표",
-      "watch_period": "1~3개월",
-      "data_quality": "full"
+      "thesis": "JPMorgan AI 채권 판매가 예상보다 크게 확대되어 추가 자금이 데이터센터 건설에 투입된다.",
+      "trigger": "측정 변수 데이터 부족 — 다음 갱신 시 보강 예정",
+      "watch_period": "분기",
+      "data_quality": "partial"
     },
     {
       "case": "약세(Bear)",
       "probability": 20,
-      "thesis": "천연가스 가격 급등으로 SpaceX Terafab 전력 비용이 상승하고, 정책 승인 지연이 발생하면 AI 인프라 투자 흐름이 위축된다.",
-      "trigger": "천연가스 가격 10% 이상 급등",
-      "watch_period": "1~2주/분기",
+      "thesis": "SpaceX가 자연가스 전력 의존을 확대하면서 전력 비용 상승이 AI 데이터센터 수익성을 압박한다.",
+      "trigger": "자연가스 전력 가격 10% 상승",
+      "watch_period": "1~2주",
       "data_quality": "full"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "뉴스에 PER·PBR 관련 수치가 제공되지 않아 현재 기업들의 상대적 가치 평가는 확인이 필요하다.",
-    "momentum_signals": "JPMorgan이 발표한 AI 채권 매출 급증과 Switch IPO 신청이 최근 자금 흐름에 긍정적 모멘텀을 제공한다.",
-    "fundamental_strength": "AI 컴퓨팅 수요와 정책 지원이 지속적으로 확대되고 있어 장기적인 성장 및 마진 개선 가능성이 높다.",
+    "valuation_assessment": "제공된 뉴스에 PER·PBR 정보가 없으며, 현재 가격만 확인 가능하다.",
+    "momentum_signals": "뉴스에 외인·기관 수급 관련 언급이 없으므로 모멘텀 신호는 확인되지 않는다.",
+    "fundamental_strength": "AI 전용 데이터센터와 칩 수요가 지속적으로 확대되고 있어 펀더멘털은 강한 편이다. 전력 인프라 공급이 핵심 요소로 작용한다.",
     "key_monitors": [
-      "NVDA 매출 성장률",
-      "Switch IPO 청약 규모",
-      "AI 데이터센터 전력 비용 변동",
-      "한국 정책금융 지원 규모"
+      "AI 데이터센터 전력 수요",
+      "AI 칩 출하량",
+      "데이터센터 CapEx",
+      "전력기기 수주"
     ],
-    "position_sizing_view": "Core 포지션으로 AI 인프라·데이터센터 테마에 편입, 이유는 정책·자금 흐름이 지속적으로 긍정적이며 구조적 성장 기대가 크기 때문이다."
+    "position_sizing_view": "Satellite – AI 인프라·데이터센터 테마에 대한 포트폴리오 비중을 보조적으로 확대한다."
   },
   "value_chain": {
     "upstream": [
@@ -153,12 +155,18 @@
       "034020"
     ],
     "downstream": [
-      "AMZN",
+      "GOOGL",
       "MSFT",
-      "GOOGL"
+      "AMZN"
     ]
   },
   "policy_tracker": [
+    {
+      "date": null,
+      "title": "경북 정책금융, 포항 AI 전용 데이터센터 지원",
+      "region": "KR",
+      "stance": "supportive"
+    },
     {
       "date": null,
       "title": "AI 기본법",
@@ -199,8 +207,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-08-08T12:37:07.178Z",
-  "_model": "cerebras:gpt-oss-120b",
-  "_stale": true,
-  "_failure": "rate_limit"
+  "generatedAt": "2026-08-08T14:28:19.534Z",
+  "_model": "cerebras:gpt-oss-120b"
 }

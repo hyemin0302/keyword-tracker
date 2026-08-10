@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T21:38:40.755Z",
+  "updatedAt": "2026-08-10T22:33:51.374Z",
   "related": [
     {
       "slug": "젠슨황",
@@ -49,8 +49,8 @@
     "반도체 수요 증가"
   ],
   "watch_points": [
-    "반도체 수요 증가",
-    "SK하이닉스 투자 규모 확정"
+    "반도체 수요 증가 대응",
+    "SK하이닉스 신규 팹 건설"
   ],
   "risks": [
     "반도체 수요 감소",
@@ -59,7 +59,7 @@
   "events": [
     {
       "date": "TBD",
-      "title": "SK하이닉스 신규 D램·낸드 생산 팹 건설",
+      "title": "SK하이닉스 신규 팹 건설",
       "impact": "positive"
     }
   ],
@@ -69,81 +69,91 @@
   ],
   "outlook": {
     "short_term": {
-      "thesis": "반도체 수요 증가와 SK하이닉스 투자 규모 확정에 힘입어 반도체 장비주가 상승할 것으로 예상된다. 단기 수급과 모멘텀에 초점을 맞추어야 한다. 반도체 수요 감소나 SK하이닉스 투자 규모 확정 미달에 따른 하락이 우려된다.",
-      "upside": "반도체 수요",
-      "downside": "반도체 수요"
+      "thesis": "반도체 수요 증가 대응을 위해 SK하이닉스가 신규 팹을 건설할 예정이다. 반도체 수요 증가로 인해 반도체 장비주가 급등할 가능성이 있다.",
+      "upside": "SK하이닉스 투자 규모 확정에 힘입어 반도체 장비주가 급등할 가능성이 있다.",
+      "downside": "반도체 수요 감소로 인해 반도체 장비주가 하락할 가능성이 있다."
     },
     "mid_term": {
-      "thesis": "반도체 수요 증가와 SK하이닉스 투자 규모 확정에 힘입어 반도체 장비주가 중기에도 상승할 것으로 예상된다. 반도체 수요 감소나 SK하이닉스 투자 규모 확정 미달에 따른 하락이 우려된다.",
-      "upside": "반도체 수요",
-      "downside": "반도체 수요"
+      "thesis": "반도체 수요 증가로 인해 반도체 장비주가 장기적으로 성장할 가능성이 있다. 반도체 수요 증가 대응을 위해 SK하이닉스가 신규 팹을 건설할 예정이다.",
+      "upside": "반도체 수요 증가로 인해 반도체 장비주가 장기적으로 성장할 가능성이 있다.",
+      "downside": "반도체 수요 감소로 인해 반도체 장비주가 하락할 가능성이 있다."
     },
     "long_term": {
-      "thesis": "반도체 수요 증가와 SK하이닉스 투자 규모 확정에 힘입어 반도체 장비주가 장기에도 상승할 것으로 예상된다. 반도체 수요 감소나 SK하이닉스 투자 규모 확정 미달에 따른 하락이 우려된다.",
-      "upside": "반도체 수요",
-      "downside": "반도체 수요"
+      "thesis": "반도체 수요 증가로 인해 반도체 장비주가 장기적으로 성장할 가능성이 있다. 반도체 수요 증가 대응을 위해 SK하이닉스가 신규 팹을 건설할 예정이다.",
+      "upside": "반도체 수요 증가로 인해 반도체 장비주가 장기적으로 성장할 가능성이 있다.",
+      "downside": "반도체 수요 감소로 인해 반도체 장비주가 하락할 가능성이 있다."
     }
   },
   "capital_flow": {
-    "summary": "반도체 장비주에 대한 외국인 투자 순매수가 증가하고 있다.",
+    "summary": "반도체 장비주가 SK하이닉스 투자 규모 확정에 힘입어 급등했다.",
     "signals": [
-      "미래에셋 스페이스X 2차 청약 완판"
+      "SK하이닉스 투자 규모 확정"
     ]
   },
   "scenarios": [
     {
       "case": "기본(Base)",
       "probability": 60,
-      "thesis": "반도체 수요 증가와 SK하이닉스 투자 규모 확정에 힘입어 반도체 장비주가 상승할 것으로 예상된다.",
-      "trigger": "외국인 투자 순매수 5일 +300K주",
+      "thesis": "반도체 수요 증가 대응을 위해 SK하이닉스가 신규 팹을 건설할 예정이다.",
+      "trigger": "SK하이닉스 투자 규모 확정",
       "watch_period": "1~2주",
       "data_quality": "full"
     },
     {
       "case": "강세(Bull)",
       "probability": 20,
-      "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
+      "thesis": "반도체 수요 증가로 인해 반도체 장비주가 급등할 가능성이 있다.",
       "trigger": "반도체 수요 증가",
       "watch_period": "기간",
-      "data_quality": "partial"
+      "data_quality": "full"
     },
     {
       "case": "약세(Bear)",
       "probability": 20,
-      "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
-      "trigger": "SK하이닉스 투자 규모 확정 미달",
+      "thesis": "반도체 수요 감소로 인해 반도체 장비주가 하락할 가능성이 있다.",
+      "trigger": "반도체 수요 감소",
       "watch_period": "기간",
-      "data_quality": "partial"
+      "data_quality": "full"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "반도체 장비주의 PER는 25배로 평가되고 있다. 동종업계 평균 PER는 20배로 평가되고 있다.",
-    "momentum_signals": "외국인 투자 순매수와 모멘텀에 힘입어 반도체 장비주가 상승하고 있다.",
-    "fundamental_strength": "반도체 장비주의 성장률은 10%로 평가되고 있다.",
+    "valuation_assessment": "반도체 장비주가 SK하이닉스 투자 규모 확정에 힘입어 급등했다.",
+    "momentum_signals": "반도체 수요 증가로 인해 반도체 장비주가 급등할 가능성이 있다.",
+    "fundamental_strength": "반도체 수요 증가로 인해 반도체 장비주가 장기적으로 성장할 가능성이 있다.",
     "key_monitors": [
       "장비 수주 (BB ratio)",
       "전·후공정 CapEx",
       "대중국 수출규제"
     ],
-    "position_sizing_view": "반도체 장비주에 대한 투자 포트폴리오의 20%를 할당하는 것이 적절하다."
+    "position_sizing_view": "Core/Satellite/Trade 중 어느 성격 + 근거"
   },
   "value_chain": {
     "upstream": [
-      "240810"
+      "240810",
+      "AMAT",
+      "KLAC",
+      "LRCX"
     ],
     "midstream": [
-      "000660"
+      "TSM",
+      "NVDA"
     ],
     "downstream": [
-      "NVDA"
+      "000660"
     ]
   },
   "policy_tracker": [
     {
       "date": null,
+      "title": "반도체 수출규제",
+      "region": "KR",
+      "stance": "supportive"
+    },
+    {
+      "date": null,
       "title": "미국 수출규제",
       "region": "US",
-      "stance": "restrictive"
+      "stance": "neutral"
     },
     {
       "date": null,
@@ -191,6 +201,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-08-10T21:37:44.259Z",
+  "generatedAt": "2026-08-10T22:33:10.318Z",
   "_model": "groq:llama-3.1-8b-instant"
 }

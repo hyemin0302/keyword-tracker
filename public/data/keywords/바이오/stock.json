@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T08:13:38.127Z",
+  "updatedAt": "2026-08-11T09:34:58.649Z",
   "data": {
     "207940": {
       "name": "삼성바이오로직스",
@@ -52,7 +52,7 @@
         "2026-08-10",
         "2026-08-11"
       ],
-      "volume": 61758,
+      "volume": 63957,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -77,6 +77,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260811",
+            "foreigner": 11247,
+            "institution": 16387,
+            "individual": -25900,
+            "foreignRatio": "13.11%"
+          },
           {
             "date": "20260810",
             "foreigner": 9765,
@@ -139,22 +146,15 @@
             "institution": 20572,
             "individual": -12304,
             "foreignRatio": "12.93%"
-          },
-          {
-            "date": "20260728",
-            "foreigner": -20797,
-            "institution": 53114,
-            "individual": -28304,
-            "foreignRatio": "12.93%"
           }
         ],
         "sum5d": {
-          "foreigner": 61753,
-          "institution": -3166
+          "foreigner": 56059,
+          "institution": 20994
         },
         "sum10d": {
-          "foreigner": 33848,
-          "institution": 56209
+          "foreigner": 65892,
+          "institution": 19482
         }
       },
       "consensus": null
@@ -488,6 +488,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260811",
+            "foreigner": 303455,
+            "institution": 55086,
+            "individual": -350518,
+            "foreignRatio": "25.31%"
+          },
+          {
             "date": "20260810",
             "foreigner": 146491,
             "institution": 5693,
@@ -549,22 +556,15 @@
             "institution": 270140,
             "individual": -225176,
             "foreignRatio": "24.69%"
-          },
-          {
-            "date": "20260728",
-            "foreigner": -156491,
-            "institution": 396732,
-            "individual": -239003,
-            "foreignRatio": "24.74%"
           }
         ],
         "sum5d": {
-          "foreigner": 627946,
-          "institution": 309231
+          "foreigner": 792732,
+          "institution": 411343
         },
         "sum10d": {
-          "foreigner": 324692,
-          "institution": 1026496
+          "foreigner": 784638,
+          "institution": 684850
         }
       },
       "consensus": null
@@ -642,69 +642,6 @@
     ]
   },
   "etfs": {
-    "IBB": {
-      "name": "iShares Biotechnology ETF",
-      "px": 200.02,
-      "dayChange": 1.17,
-      "periodChange": 5.52,
-      "prices": [
-        189.55,
-        188.67,
-        189.9,
-        189.51,
-        189.76,
-        186.53,
-        189.31,
-        187,
-        188.98,
-        188.14,
-        188.33,
-        190.52,
-        188.53,
-        189.96,
-        186.41,
-        185.91,
-        190.15,
-        191.8,
-        192.97,
-        197.71,
-        200.02
-      ],
-      "dates": [
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-10"
-      ],
-      "volume": 1899970,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 200.49,
-        "low52w": 131.82,
-        "volume": 1899970
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "XBI": {
       "name": "State Street SPDR S&P Biotech E",
       "px": 158.03,
@@ -764,6 +701,69 @@
         "high52w": 165.71,
         "low52w": 85.37,
         "volume": 6959140
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "IBB": {
+      "name": "iShares Biotechnology ETF",
+      "px": 200.02,
+      "dayChange": 1.17,
+      "periodChange": 5.52,
+      "prices": [
+        189.55,
+        188.67,
+        189.9,
+        189.51,
+        189.76,
+        186.53,
+        189.31,
+        187,
+        188.98,
+        188.14,
+        188.33,
+        190.52,
+        188.53,
+        189.96,
+        186.41,
+        185.91,
+        190.15,
+        191.8,
+        192.97,
+        197.71,
+        200.02
+      ],
+      "dates": [
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10"
+      ],
+      "volume": 1899970,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 200.49,
+        "low52w": 131.82,
+        "volume": 1899970
       },
       "investorFlow": null,
       "consensus": null

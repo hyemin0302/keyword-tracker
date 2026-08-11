@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T08:13:26.654Z",
+  "updatedAt": "2026-08-11T09:34:41.665Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
@@ -52,7 +52,7 @@
         "2026-08-10",
         "2026-08-11"
       ],
-      "volume": 1309544,
+      "volume": 1321670,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -77,6 +77,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260811",
+            "foreigner": -73697,
+            "institution": 134264,
+            "individual": -66097,
+            "foreignRatio": "17.82%"
+          },
           {
             "date": "20260810",
             "foreigner": 32825,
@@ -139,22 +146,15 @@
             "institution": -204981,
             "individual": 363824,
             "foreignRatio": "20.77%"
-          },
-          {
-            "date": "20260728",
-            "foreigner": 108811,
-            "institution": -575357,
-            "individual": 489492,
-            "foreignRatio": "21.17%"
           }
         ],
         "sum5d": {
-          "foreigner": -1421687,
-          "institution": 574058
+          "foreigner": -1309006,
+          "institution": 544885
         },
         "sum10d": {
-          "foreigner": -1873668,
-          "institution": 363582
+          "foreigner": -2056176,
+          "institution": 1073203
         }
       },
       "consensus": null
@@ -222,69 +222,6 @@
       "investorFlow": null,
       "consensus": null
     },
-    "APD": {
-      "name": "Air Products and Chemicals, Inc",
-      "px": 308.18,
-      "dayChange": 1.56,
-      "periodChange": 2.06,
-      "prices": [
-        301.96,
-        299.4,
-        293.69,
-        297.29,
-        295.62,
-        296.63,
-        296.39,
-        297,
-        294.29,
-        297.87,
-        292.58,
-        292.85,
-        294.27,
-        300.2,
-        294.89,
-        292.94,
-        294.71,
-        295.09,
-        299.92,
-        303.44,
-        308.18
-      ],
-      "dates": [
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-10"
-      ],
-      "volume": 635674,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 314.87,
-        "low52w": 229.11,
-        "volume": 635674
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "LIN": {
       "name": "Linde plc",
       "px": 492.46,
@@ -344,6 +281,69 @@
         "high52w": 548.2,
         "low52w": 387.78,
         "volume": 1877038
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "APD": {
+      "name": "Air Products and Chemicals, Inc",
+      "px": 308.18,
+      "dayChange": 1.56,
+      "periodChange": 2.06,
+      "prices": [
+        301.96,
+        299.4,
+        293.69,
+        297.29,
+        295.62,
+        296.63,
+        296.39,
+        297,
+        294.29,
+        297.87,
+        292.58,
+        292.85,
+        294.27,
+        300.2,
+        294.89,
+        292.94,
+        294.71,
+        295.09,
+        299.92,
+        303.44,
+        308.18
+      ],
+      "dates": [
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10"
+      ],
+      "volume": 635674,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 314.87,
+        "low52w": 229.11,
+        "volume": 635674
       },
       "investorFlow": null,
       "consensus": null
@@ -425,6 +425,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260811",
+            "foreigner": -308871,
+            "institution": -2617,
+            "individual": 322791,
+            "foreignRatio": "23.90%"
+          },
+          {
             "date": "20260810",
             "foreigner": -445846,
             "institution": 166450,
@@ -486,22 +493,15 @@
             "institution": 504897,
             "individual": -572500,
             "foreignRatio": "24.06%"
-          },
-          {
-            "date": "20260728",
-            "foreigner": -152425,
-            "institution": 81800,
-            "individual": 103119,
-            "foreignRatio": "24.00%"
           }
         ],
         "sum5d": {
-          "foreigner": -645403,
-          "institution": 758971
+          "foreigner": -1159339,
+          "institution": 562152
         },
         "sum10d": {
-          "foreigner": -80056,
-          "institution": 1276889
+          "foreigner": -236502,
+          "institution": 1192472
         }
       },
       "consensus": null
@@ -579,6 +579,25 @@
     ]
   },
   "etfs": {
+    "HDRO": {
+      "name": "ETF Series Solutions Defiance N",
+      "px": 25.919,
+      "dayChange": 0,
+      "periodChange": 0,
+      "prices": [],
+      "dates": [],
+      "volume": 71341,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 39.26,
+        "low52w": 4.2,
+        "volume": 71341
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "HYDR": {
       "name": "Global X Hydrogen ETF",
       "px": 43.474,
@@ -638,25 +657,6 @@
         "high52w": 74.8,
         "low52w": 23.68,
         "volume": 18114
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "HDRO": {
-      "name": "ETF Series Solutions Defiance N",
-      "px": 25.919,
-      "dayChange": 0,
-      "periodChange": 0,
-      "prices": [],
-      "dates": [],
-      "volume": 71341,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 39.26,
-        "low52w": 4.2,
-        "volume": 71341
       },
       "investorFlow": null,
       "consensus": null

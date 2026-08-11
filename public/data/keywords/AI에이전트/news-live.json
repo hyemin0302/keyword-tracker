@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-08-11T16:02:24.200Z",
+  "updatedAt": "2026-08-11T16:59:15.954Z",
   "count": 40,
   "stats": {
-    "today": 6,
+    "today": 8,
     "yesterday": 7,
-    "weekAvg": 3.1,
-    "sources": 30,
+    "weekAvg": 3.4,
+    "sources": 29,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "OpenAI Executive Brad Lightcap Leaves to ‘Start Something New’",
+      "d": "OpenAI executive Brad Lightcap is leaving the artificial intelligence company to start a new project, months after he stepped away from his role as chief operating officer.",
+      "u": "https://www.bloomberg.com/news/articles/2026-08-11/openai-executive-brad-lightcap-leaves-to-start-something-new",
+      "m": "08. 11. PM 04:33",
+      "ts": 1786466013000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "An unreleased Anthropic model made progress on one of math&#8217;s biggest unsolved problems",
+      "d": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it — but the company's models made more progress than you might expect.",
+      "u": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+      "m": "08. 11. PM 04:25",
+      "ts": 1786465520000,
+      "fullText": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics, a long-running mystery about the distribution of prime numbers. There is currently a $1 million bounty for a working general proof of the hypothesis, which remains unclaimed. Contemporary AI models still can&#8217;t solve it either — but they can make a lot more progress than you might expect, a finding that&#8217;s likely to reopen long-standing questions about contemporary AI&#8217;s ability to discover new scientific and mathematical ideas. On Monday , Anthropic announced that an as-yet-unreleased model had made significant progress on the Riemann hypothesis, significantly increasing the lower bound of solutions for which the hypothesis holds true. Even more impressive is how the progress was made: An Anthropic staff member without significant mathematical training prompted the model to &#8220;take a real stab&#8221; at proving the hypothesis, then left the model to coordinate the task across the following day and a half. All told, the model tested 650 different ideas for solving the problem, coordinating across 60 sub-agents and spending 31 million in total. &#8220;Out of the 60 subagents, two were responsible for developing the key mathematical ideas,&#8221; a footnote to the paper explains, &#8220;13 contributed ideas to these agents, 30 attempted (but were unable) to develop new ideas, 13 served as validators to check the correctness of the arguments, and the final two helped to write the initial paper.&#8221; The finding was confirmed by two of Anthropic&#8217;s in-house mathematicians, and formalized using the open-source proof assistant Lean . This is the latest in a string of mathematical breakthroughs led by Large Language Models, or LLMs. A number of Erdos problems have been solved by AI models over the course of this year, and the release of more powerful models has led to more impressive results. OpenAI recently released a set of ten major r"
+    },
     {
       "s": "조선일보",
       "t": "앤스로픽·오픈AI·딥시크·문샷AI ‘상장 전쟁’",
@@ -71,7 +89,7 @@
       "u": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
       "m": "08. 10. PM 11:56",
       "ts": 1786406175000,
-      "fullText": "Every day seems to bring fresh news of an AI agent going &#8220;rogue.&#8221; Whether that&#8217;s compromising Hugging Face , hacking a gym website , or creating its own fake profiles to socially engineer an intrusion , AI models are increasingly behaving like bad actors. So, the AI labs that make the models doing the hacking are expanding their cyber protection offerings. This week, OpenAI announced an expansion of Daybreak, its cyber defense service which it launched earlier this year, not long after Anthropic released its cyber-focused model Mythos. Daybreak is a service that bundles access to models, tools and workflows for defenders. The expansion includes access to a brand new cyber-focused model designed for defensive work. OpenAI said Monday that Daybreak would now consist of two tiers: Blue and Red. Both of these tiers will allow approved customers access to OpenAI&#8217;s limited-access frontier cyber models . Frontier models — the most advanced available — have been a subject of controversy. The Trump administration previously sought to collaborate with AI companies on the roll out of such models, purportedly over safety concerns. Previously, OpenAI deployed significant guar d rails to using these models, limiting what customers could do with them. Blue, which appears to be the more basic of the two, offers a variety of cyber services, including incident response, malware analysis, and patch validation. OpenAI calls Blue its &#8220;recommended starting point for most defenders,&#8221; implying that it should be more than enough for most enterprises. Red, on the other hand, offers a broader and potentially more dangerous toolkit. The company grants its users &#8220;purpose-trained cybersecurity models,&#8221; designed to carry out security testing and vulnerability research. With Red also comes the new model, GPT‑5.6‑Cyber, which is only available at that tier. 5.6-Cyber is built off of GPT‑5.6 Sol, and offers enhanced capabilities for certain specialized"
+      "fullText": "Every day seems to bring fresh news of an AI agent going &#8220;rogue.&#8221; Whether that&#8217;s compromising Hugging Face , hacking a gym website , or creating its own fake profiles to socially engineer an intrusion , AI models are increasingly behaving like bad actors. So, the AI labs that make the models doing the hacking are expanding their cyber protection offerings. This week, OpenAI announced an expansion of Daybreak, its cyber defense service which it launched earlier this year, not long after Anthropic released its cyber-focused model Mythos. Daybreak is a service that bundles access to models, tools, and workflows for defenders. The expansion includes access to a brand new cyber-focused model designed for defensive work. OpenAI said Monday that Daybreak would now consist of two tiers: Blue and Red. Both of these tiers will allow approved customers access to OpenAI&#8217;s limited-access frontier cyber models . Frontier models — the most advanced available — have been a subject of controversy. The Trump administration previously sought to collaborate with AI companies on the roll out of such models, purportedly over safety concerns. Previously, OpenAI deployed significant guar d rails to using these models, limiting what customers could do with them. Blue, which appears to be the more basic of the two, offers a variety of cyber services, including incident response, malware analysis, and patch validation. OpenAI calls Blue its &#8220;recommended starting point for most defenders,&#8221; implying that it should be more than enough for most enterprises. Red, on the other hand, offers a broader and potentially more dangerous toolkit. The company grants its users &#8220;purpose-trained cybersecurity models,&#8221; designed to carry out security testing and vulnerability research. With Red also comes the new model, GPT‑5.6 Cyber, which is only available at that tier. GPT-5.6 Cyber is built off of GPT‑5.6 Sol, and offers enhanced capabilities for certain specia"
     },
     {
       "s": "TechCrunch",
@@ -113,7 +131,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "startupn.kr",
+      "s": "스타트업엔(StartupN)",
       "t": "에티버스, ‘2026 Okta for AI Agents’ 실습 교육 개최…AI 에이전트 신원·권한 관리 직접 다룬다",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iNUE5c1pXTmRzaENwQkxCMHJjcEkwLVhWMm9FWDQ3cF9vY21aQVBSd0h5SmJ1Z3pBN3dZQVVpMHpnRDZvNDlXSS1scDR0M0tSUEZYZnAyNDAtX0NQblcxVDR4d2tncDJXR09EU9IBbEFVX3lxTE5iNUE5c1pXTmRzaENwQkxCMHJjcEkwLVhWMm9FWDQ3cF9vY21aQVBSd0h5SmJ1Z3pBN3dZQVVpMHpnRDZvNDlXSS1scDR0M0tSUEZYZnAyNDAtX0NQblcxVDR4d2tncDJXR09EUw?oc=5",
@@ -149,7 +167,7 @@
       "u": "https://www.nbcnews.com/video/inside-the-social-media-trend-teens-call-smellmaxxing-267971141616",
       "m": "08. 07. PM 11:38",
       "ts": 1786145899000,
-      "fullText": "Current with Christine Romans Luigi Mangione appears in pre-trial hearing before September trial begins"
+      "fullText": "NBC News NOW Official confirms Trump used elaborate ruse to fly out of Turkey amid Iran war"
     },
     {
       "s": "AI라이프경제",
@@ -172,7 +190,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "데이터넷",
+      "s": "datanet.co.kr",
       "t": "카카오, 과기정통부 ‘AI 에이전트 마켓플레이스 개발 지원 사업’ 수행",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tT2poQk56RlpCdnNFdGFGOHd2bXVOUThoTDZDNUNGWlhWejI3ckxBZmZVMlprVFlvbFJnUm00d2xEN2F6R2FrSTI1ZFNtWXVSU2pxMWJJMlZJZ05lclVYa1dMM3doLTk0azZ1Tg?oc=5",
@@ -218,7 +236,7 @@
       "u": "https://www.nbcnews.com/now/video/white-house-hosts-meeting-with-top-ai-companies-267748933634",
       "m": "08. 04. PM 05:38",
       "ts": 1785865116000,
-      "fullText": "Current with Christine Romans Luigi Mangione appears in pre-trial hearing before September trial begins"
+      "fullText": "NBC News NOW Official confirms Trump used elaborate ruse to fly out of Turkey amid Iran war"
     },
     {
       "s": "ESG비즈니스리뷰",
@@ -240,22 +258,22 @@
       "fullText": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency Linux Foundation publishing Request for Comments on Shared AI Findings Exchange (SAFE) guidelines to transform agentic cybersecurity incidents into better protection. August 4, 2026 by Justin Boitano 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchange (SAFE), a proposed set of guidelines designed to turn agentic cybersecurity incidents into shared protection for the entire ecosystem. The SAFE guidelines are being drafted by an Open Secure AI Alliance working group. NVIDIA, Cisco, CrowdStrike , Hugging Face and Red Hat are among Open Secure AI Alliance members working with the Linux Foundation to contribute to the initial proposal. The SAFE guidelines include proposals to confidentially collect and analyze AI incidents and near misses, inform those impacted, identify recurring control failures and publish evidence-based operating recommendations that reduce systemic risk. Cybersecurity is a race without a finish line. Every major technology shift has created new potential attack surfaces. Defenders must move now at agent speed to respond rapidly to protect infrastructure and intellectual property — and the best way to do that is together. When trusted ecosystems share threat intelligence openly, collective defense becomes a force multiplier. Open Secure AI Alliance Delivers More Tools for AI Cybersecurity The SAFE framework adds to technology contributions Open Secure AI Alliance members are making to build and share open, inspectable tools across the full AI security stack. An AI agent isn’t just a model. It’s a system — identity controls, harnesses, guardrails, logs and evaluati"
     },
     {
+      "s": "KB Think",
+      "t": "'AI 시대' 금융사고 나면 누가 책임지나…\"규제 공백\" 한목소리",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DN2k5MXVDdWZQRGEtZno5WGFhaFNyaGFzT0lpR19hbnp4M0cyUFNidVBDS3h2VjFDUUhCNmtWT2J0Q3lHSEg3akdrY1ZsQmgtWHUtWjVqajJfVm5SSVVDeFVzLVdsb2x5c0hMRnM3OC1OQQ?oc=5",
+      "m": "08. 04. AM 07:00",
+      "ts": 1785826858000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "뉴시안",
       "t": "[‘챗GPT 해킹’ 후폭풍③] AI에게 ‘자유’ 줄수록 커지는 위험… ‘자율 AI’ 통제 가능할까",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpc3BBdTJ3NWJNVlFVQ3ZkM1lPWnRrU2dPbW81aXlSVmpid0UtLTdWcEU4N1BMT0Yta2JIUVFqMENoQ3RmY0Q3WElSWWpsaUl2MFhrRkpyTnBfd3oyM0JlWXJKb2xDdHI4NFHSAW5BVV95cUxQbXZHZ3JGbFEwVmhMUDVmSng5ZTY1d0ZsVnlhM2ZQM3R4MFdrRjNPTnB3WndZYzdZVTRHQWpLbGlPNFpDX3ViSHNhd3lEa1pWaFlVWUlUcmJmR3hXWU5kSV9iWlloSTc0bUpoanVyZw?oc=5",
       "m": "08. 03. PM 09:49",
       "ts": 1785793792000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "인공지능신문",
-      "t": "EU, AI 생성 콘텐츠 '투명성 의무' 본격 시행…챗봇·딥페이크 모두 표시해야",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BVzZfaXNWTUNjMks1dmJnN3JsX0kzQzRxTHZUNnhYNWRmLWdtVTlzTjE5UHRRNmlYcU12YmhCU29MRUtYcDBpVDBjYkVCUzlMenJvMHRoWFZBbV9kWGJXV1lrX0dUZGc?oc=5",
-      "m": "08. 03. AM 09:28",
-      "ts": 1785749337000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -270,6 +288,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "인공지능신문",
+      "t": "EU, AI 생성 콘텐츠 '투명성 의무' 본격 시행…챗봇·딥페이크 모두 표시해야",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BVzZfaXNWTUNjMks1dmJnN3JsX0kzQzRxTHZUNnhYNWRmLWdtVTlzTjE5UHRRNmlYcU12YmhCU29MRUtYcDBpVDBjYkVCUzlMenJvMHRoWFZBbV9kWGJXV1lrX0dUZGc?oc=5",
+      "m": "08. 03. AM 07:00",
+      "ts": 1785740400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "AI넷",
       "t": "[캐나다, AI 투명성 공청회 개시… 딥페이크·챗봇 책임 규제 박차] 콘텐츠 라벨링부터 AI 에이전트 책임 소재까지, 'AI for All' 전략 가속화",
       "d": "",
@@ -280,10 +308,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "네이트",
-      "t": "EU 'AI 법' 발효…삼성·LG, 유럽향 AI 가전 '투명성 표기' 선제 대응",
+      "s": "아주경제",
+      "t": "EU AI 법 발효…삼성·LG, 유럽향 AI 가전 투명성 표기 선제 대응",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHT0I1TGRJS2lWUmRDRzJlNGljcnIwcFQ2eXhIT0NaOEhpdldEY2VvMnhIUTlrMWw2OXZqQTFvVnpqcFhKTFI1MlVkaWQ5cHdtQjBjbjZZRVJ3b0o5SUJEbA?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41MFRIXzZPSHd3ZFo1d1JHcDZuaE9HSGt6ZGhUREpFcW4wNS0xVWk5Z1VKLTNPV3dLVmVVVDlLd0xGVUJoSk8zenRTNGxPUmdQUWt6bW5CNXhVUdIBWEFVX3lxTFBIWWVPeHBndUhIMGk0Yi1GQlY4MkNDZVpRUENxT21fVXRUSnNnREtydEp3eEw0cktUcERqei1zbnhNX1NyempaVTBoZ0IwODU1SExtUThIc24?oc=5",
       "m": "08. 02. AM 07:00",
       "ts": 1785654000000,
       "_policy": true,
@@ -325,7 +353,7 @@
       "u": "https://www.nbcnews.com/nightly-news/video/urgent-warning-over-water-system-cyberattacks-267550277518",
       "m": "07. 30. PM 10:46",
       "ts": 1785451593000,
-      "fullText": "Current with Christine Romans Luigi Mangione appears in pre-trial hearing before September trial begins"
+      "fullText": "NBC News NOW Official confirms Trump used elaborate ruse to fly out of Turkey amid Iran war"
     },
     {
       "s": "AI타임스",
@@ -354,45 +382,15 @@
       "u": "https://www.nbcnews.com/video/openai-s-rogue-ai-hacking-of-several-companies-opens-new-cybersecurity-questions-267492933762",
       "m": "07. 30. AM 01:44",
       "ts": 1785375890000,
-      "fullText": "Current with Christine Romans Luigi Mangione appears in pre-trial hearing before September trial begins"
+      "fullText": "NBC News NOW Official confirms Trump used elaborate ruse to fly out of Turkey amid Iran war"
     },
     {
       "s": "아시아경제",
       "t": "페르소나에이아이, 과기정통부 AX 바우처 선정…AI 에이전트로 세포치료제 규제 대응 혁신 주도",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xc0xTZkxSdEoyRnktaTlTVm01OUY5cWttNGNQQi1TS2dXZ05SalVkSDJVbXl5VG00eUhLUXd6MGt1MldSTGlMRFBvcTRDNVZUcUpmOFZkYTBnMmt0QW54Qg?oc=5",
-      "m": "07. 29. AM 04:25",
-      "ts": 1785299100000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "매일경제 마켓",
-      "t": "이안 로저스 렛저 ‘최고인간대리인책임자’ “AI 에이전트, 인간 통제권 상실이 최대 위협”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kZWlSWTBTRW5hMmNPTWctaUJKbTVXYXJqQUxmemxMV0FneE9rVFBYcjFVRzJJU1NUSFBrMVJ1Zi0wVTd0WXNUcGJGNE9fS2U1TkE?oc=5",
-      "m": "07. 27. AM 07:00",
-      "ts": 1785135600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "kcemedia.com",
-      "t": "중국 인터넷산업, ‘모바일 플랫폼’에서 AI 에이전트 시대로",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBDaUZwTEk0bWtKUmhnNzUtMmYxdGNMVnNQb3JIZWNEd2g2V3RyU0kyS3FoRzRHYzdZMVF4WklzQUNkaUE?oc=5",
-      "m": "07. 23. PM 04:16",
-      "ts": 1784823403000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "e-patentnews.com",
-      "t": "\"AI가 정책도 쓴다\"... 지식재산처, AI 에이전트 직접 개발해 '공무원의 일하는 방식' 바꾼다 - e-patentnews.com",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Ja0xVaHpyS245WDZUek05Q0dpcnAtVkNYRm5Ob3lCdXBUU2lyeXllODlxU1dfa2tvM0RIT2FKQWxtZ3cta3pSdw?oc=5",
-      "m": "07. 22. AM 07:00",
-      "ts": 1784703600000,
+      "m": "07. 29. AM 07:00",
+      "ts": 1785308400000,
       "_policy": true,
       "fullText": "Google News"
     }

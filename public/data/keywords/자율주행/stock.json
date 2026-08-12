@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-12T12:58:32.055Z",
+  "updatedAt": "2026-08-12T14:22:06.130Z",
   "data": {
     "GOOGL": {
       "name": "알파벳(구글)",
-      "px": 343.8,
-      "dayChange": -3.84,
-      "periodChange": -2.47,
+      "px": 342.575,
+      "dayChange": -0.36,
+      "periodChange": -2.82,
       "prices": [
         352.51,
         359.51,
@@ -28,7 +28,8 @@
         357.75,
         354.3,
         357.52,
-        343.8
+        343.8,
+        342.58
       ],
       "dates": [
         "2026-07-13",
@@ -52,25 +53,26 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-10",
-        "2026-08-11"
+        "2026-08-11",
+        "2026-08-12"
       ],
-      "volume": 28664272,
+      "volume": 5767614,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 408.61,
         "low52w": 196.6,
-        "volume": 28664272
+        "volume": 5767614
       },
       "investorFlow": null,
       "consensus": null
     },
     "MBLY": {
       "name": "Mobileye Global Inc.",
-      "px": 8.87,
-      "dayChange": 1.37,
-      "periodChange": -9.03,
+      "px": 8.74,
+      "dayChange": -1.47,
+      "periodChange": -10.36,
       "prices": [
         9.75,
         10.09,
@@ -93,7 +95,8 @@
         8.42,
         8.73,
         8.75,
-        8.87
+        8.87,
+        8.74
       ],
       "dates": [
         "2026-07-13",
@@ -117,25 +120,26 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-10",
-        "2026-08-11"
+        "2026-08-11",
+        "2026-08-12"
       ],
-      "volume": 3051700,
+      "volume": 509817,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 15.81,
         "low52w": 6.47,
-        "volume": 3051700
+        "volume": 509817
       },
       "investorFlow": null,
       "consensus": null
     },
     "TSLA": {
       "name": "테슬라",
-      "px": 332.81,
-      "dayChange": 0.58,
-      "periodChange": -15.69,
+      "px": 326.78,
+      "dayChange": -1.81,
+      "periodChange": -17.22,
       "prices": [
         394.76,
         396.18,
@@ -158,7 +162,8 @@
         319.53,
         328.58,
         330.88,
-        332.81
+        332.81,
+        326.78
       ],
       "dates": [
         "2026-07-13",
@@ -182,18 +187,179 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-10",
-        "2026-08-11"
+        "2026-08-11",
+        "2026-08-12"
       ],
-      "volume": 23158961,
+      "volume": 7287458,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 498.83,
         "low52w": 297.38,
-        "volume": 23158961
+        "volume": 7287458
       },
       "investorFlow": null,
+      "consensus": null
+    },
+    "005380": {
+      "name": "현대차",
+      "px": 409500,
+      "dayChange": 1.61,
+      "periodChange": -7.77,
+      "prices": [
+        444000,
+        424500,
+        434000,
+        425000,
+        399000,
+        399000,
+        418000,
+        432000,
+        401000,
+        403000,
+        364000,
+        353500,
+        351000,
+        388000,
+        393000,
+        392500,
+        404500,
+        400000,
+        395500,
+        408000,
+        403000,
+        409500
+      ],
+      "dates": [
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12"
+      ],
+      "volume": 436525,
+      "currency": "KRW",
+      "state": "CLOSED",
+      "market": "KR",
+      "fundamentals": {
+        "marketCap": "83조 8,483억",
+        "per": "12.62배",
+        "pbr": "0.90배",
+        "cnsPer": "10.77배",
+        "divYield": "2.44%",
+        "foreignRatio": "24.98%",
+        "high52w": "787,000",
+        "low52w": "211,000",
+        "consensus": {
+          "targetMean": 722000,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "4.00",
+          "earningsDate": null,
+          "source": "naver"
+        }
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20260812",
+            "foreigner": 90750,
+            "institution": -52331,
+            "individual": -38910,
+            "foreignRatio": "25.03%"
+          },
+          {
+            "date": "20260811",
+            "foreigner": -6879,
+            "institution": -46597,
+            "individual": 53422,
+            "foreignRatio": "24.98%"
+          },
+          {
+            "date": "20260810",
+            "foreigner": 100751,
+            "institution": 28053,
+            "individual": -127990,
+            "foreignRatio": "25.13%"
+          },
+          {
+            "date": "20260807",
+            "foreigner": 885,
+            "institution": -28035,
+            "individual": 27835,
+            "foreignRatio": "25.03%"
+          },
+          {
+            "date": "20260806",
+            "foreigner": 19913,
+            "institution": 16996,
+            "individual": -34830,
+            "foreignRatio": "25.09%"
+          },
+          {
+            "date": "20260805",
+            "foreigner": 57484,
+            "institution": 38992,
+            "individual": -93745,
+            "foreignRatio": "25.09%"
+          },
+          {
+            "date": "20260804",
+            "foreigner": -33541,
+            "institution": -41461,
+            "individual": 76732,
+            "foreignRatio": "25.04%"
+          },
+          {
+            "date": "20260803",
+            "foreigner": 90752,
+            "institution": -67439,
+            "individual": -16567,
+            "foreignRatio": "25.09%"
+          },
+          {
+            "date": "20260731",
+            "foreigner": 110551,
+            "institution": -111934,
+            "individual": -2516,
+            "foreignRatio": "25.05%"
+          },
+          {
+            "date": "20260730",
+            "foreigner": 73521,
+            "institution": -9389,
+            "individual": -62913,
+            "foreignRatio": "24.97%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": 205420,
+          "institution": -81914
+        },
+        "sum10d": {
+          "foreigner": 504187,
+          "institution": -273145
+        }
+      },
       "consensus": null
     },
     "011070": {
@@ -515,166 +681,6 @@
         }
       },
       "consensus": null
-    },
-    "005380": {
-      "name": "현대차",
-      "px": 409500,
-      "dayChange": 1.61,
-      "periodChange": -7.77,
-      "prices": [
-        444000,
-        424500,
-        434000,
-        425000,
-        399000,
-        399000,
-        418000,
-        432000,
-        401000,
-        403000,
-        364000,
-        353500,
-        351000,
-        388000,
-        393000,
-        392500,
-        404500,
-        400000,
-        395500,
-        408000,
-        403000,
-        409500
-      ],
-      "dates": [
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12"
-      ],
-      "volume": 436525,
-      "currency": "KRW",
-      "state": "CLOSED",
-      "market": "KR",
-      "fundamentals": {
-        "marketCap": "83조 8,483억",
-        "per": "12.62배",
-        "pbr": "0.90배",
-        "cnsPer": "10.77배",
-        "divYield": "2.44%",
-        "foreignRatio": "24.98%",
-        "high52w": "787,000",
-        "low52w": "211,000",
-        "consensus": {
-          "targetMean": 722000,
-          "targetHigh": null,
-          "targetLow": null,
-          "analysts": null,
-          "recommendation": "4.00",
-          "earningsDate": null,
-          "source": "naver"
-        }
-      },
-      "investorFlow": {
-        "items": [
-          {
-            "date": "20260812",
-            "foreigner": 90750,
-            "institution": -52331,
-            "individual": -38910,
-            "foreignRatio": "25.03%"
-          },
-          {
-            "date": "20260811",
-            "foreigner": -6879,
-            "institution": -46597,
-            "individual": 53422,
-            "foreignRatio": "24.98%"
-          },
-          {
-            "date": "20260810",
-            "foreigner": 100751,
-            "institution": 28053,
-            "individual": -127990,
-            "foreignRatio": "25.13%"
-          },
-          {
-            "date": "20260807",
-            "foreigner": 885,
-            "institution": -28035,
-            "individual": 27835,
-            "foreignRatio": "25.03%"
-          },
-          {
-            "date": "20260806",
-            "foreigner": 19913,
-            "institution": 16996,
-            "individual": -34830,
-            "foreignRatio": "25.09%"
-          },
-          {
-            "date": "20260805",
-            "foreigner": 57484,
-            "institution": 38992,
-            "individual": -93745,
-            "foreignRatio": "25.09%"
-          },
-          {
-            "date": "20260804",
-            "foreigner": -33541,
-            "institution": -41461,
-            "individual": 76732,
-            "foreignRatio": "25.04%"
-          },
-          {
-            "date": "20260803",
-            "foreigner": 90752,
-            "institution": -67439,
-            "individual": -16567,
-            "foreignRatio": "25.09%"
-          },
-          {
-            "date": "20260731",
-            "foreigner": 110551,
-            "institution": -111934,
-            "individual": -2516,
-            "foreignRatio": "25.05%"
-          },
-          {
-            "date": "20260730",
-            "foreigner": 73521,
-            "institution": -9389,
-            "individual": -62913,
-            "foreignRatio": "24.97%"
-          }
-        ],
-        "sum5d": {
-          "foreigner": 205420,
-          "institution": -81914
-        },
-        "sum10d": {
-          "foreigner": 504187,
-          "institution": -273145
-        }
-      },
-      "consensus": null
     }
   },
   "benchmark": {
@@ -708,12 +714,15 @@
       7.01,
       0.2,
       -4.27,
+      -0.87,
+      -0.14,
       4.26,
       -1.71,
       -0.75,
       -11.51,
       -16.8,
       -17.83,
+      -3.11,
       -8.07,
       -6.58,
       -3.07,
@@ -730,30 +739,28 @@
       0.25,
       -0.77,
       -0.96,
-      -0.08,
-      -0.22,
       -1.42,
       -1.38,
       -1.36,
       -1.15,
       -2.65,
       -1.03,
-      -0.34,
       1.13,
       2.94,
       2.77,
       2.59,
       3.22,
       3.16,
-      2.83
+      2.83,
+      3.15
     ]
   },
   "etfs": {
     "DRIV": {
       "name": "Global X Autonomous & Electric ",
-      "px": 35.54,
-      "dayChange": -0.08,
-      "periodChange": 0.48,
+      "px": 35.975,
+      "dayChange": 1.22,
+      "periodChange": 1.7,
       "prices": [
         35.37,
         35.66,
@@ -761,11 +768,14 @@
         34.38,
         33.95,
         33.79,
+        35,
+        35.03,
         34.34,
         33.45,
         33.49,
         32.78,
         31.96,
+        33.41,
         33.41,
         33.89,
         35,
@@ -773,7 +783,8 @@
         34.89,
         35.78,
         35.57,
-        35.54
+        35.54,
+        35.97
       ],
       "dates": [
         "2026-07-13",
@@ -782,37 +793,41 @@
         "2026-07-16",
         "2026-07-17",
         "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-27",
         "2026-07-28",
         "2026-07-29",
         "2026-07-30",
+        "2026-07-31",
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
         "2026-08-10",
-        "2026-08-11"
+        "2026-08-11",
+        "2026-08-12"
       ],
-      "volume": 30112,
+      "volume": 7352,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 42.76,
         "low52w": 24.95,
-        "volume": 30112
+        "volume": 7352
       },
       "investorFlow": null,
       "consensus": null
     },
     "IDRV": {
       "name": "iShares Self-Driving EV and Tec",
-      "px": 37.145,
-      "dayChange": -0.5,
-      "periodChange": 2.2,
+      "px": 37.53,
+      "dayChange": 1.02,
+      "periodChange": 3.25,
       "prices": [
         36.35,
         36.7,
@@ -832,7 +847,8 @@
         36.12,
         37.25,
         37.33,
-        37.15
+        37.15,
+        37.53
       ],
       "dates": [
         "2026-07-13",
@@ -853,16 +869,17 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-10",
-        "2026-08-11"
+        "2026-08-11",
+        "2026-08-12"
       ],
-      "volume": 14704,
+      "volume": 876,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 45.64,
         "low52w": 34.3,
-        "volume": 14704
+        "volume": 876
       },
       "investorFlow": null,
       "consensus": null

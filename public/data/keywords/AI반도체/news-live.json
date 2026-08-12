@@ -1,14 +1,26 @@
 {
-  "updatedAt": "2026-08-12T14:20:19.807Z",
-  "count": 4,
+  "updatedAt": "2026-08-12T15:29:07.837Z",
+  "count": 40,
   "stats": {
-    "today": 0,
-    "yesterday": 2,
-    "weekAvg": 0.3,
-    "sources": 3,
-    "heat": "cold"
+    "today": 1,
+    "yesterday": 3,
+    "weekAvg": 1.4,
+    "sources": 31,
+    "heat": "cool"
   },
   "items": [
+    {
+      "s": "전자신문",
+      "t": "[기고] '반도체 특별법' 시행, 산업 투자와 혁신 앞당기는 계기",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB2R0R3Tm5rY3ZhSVpiY3hwb0pRX1lkMmZpQXJHUVkwaDA5eDJlVm9uMnNlQlZiaEtQRFVXZzBBNk1pdF9YN2w4RnVfbTV3QQ?oc=5",
+      "m": "08. 12. AM 07:00",
+      "ts": 1786518000000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "산업 투자와 혁신을 앞당길 수 있는 계기"
+    },
     {
       "s": "NVIDIA공식",
       "t": "Why Scaling AI Compute Performance Requires a New Power Architecture",
@@ -18,7 +30,7 @@
       "ts": 1786460406000,
       "fullText": "Why Scaling AI Compute Performance Requires a New Power Architecture NVIDIA 800 VDC helps existing and future AI factories scale compute performance beyond the limits of traditional power distribution. August 11, 2026 by Harry Petty 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more efficient, scalable power distribution. The bottleneck isn’t just wattage. It’s how power gets from the grid to the GPU. In traditional power delivery, electricity travels from the grid as an alternating current (AC) and gets converted multiple times, each time adding overhead and complexity as racks become denser. At the power levels that next-generation AI compute demands, even small inefficiencies compound quickly. 800 VDC simplifies that path. By distributing power at higher voltage through a direct current (DC), fewer conversion stages stand between the grid and the accelerator — which means more of the available power reaches the compute. NVIDIA DSX reference designs are built to guide AI factories through the transition from today’s AC infrastructure through hybrid architectures and into fully native 800 VDC facilities. NVIDIA, Google and Microsoft have been developing the 800 VDC architecture together through the Open Compute Project (OCP), and published a joint white paper March 2026 and the LVDC Solid-State Transformer Specification v0.3 July 2026. More than 80 equipment manufacturers and infrastructure companies are already building products to this specification. Existing Facilities Don’t Have to Wait Most of today’s AI factories were designed around AC distribution. The NVIDIA MGX-compatible 800 VDC power rack, arriving in the second half of 2026, creates a hybrid architecture that brings next-generation rack-scale compute performance to facilities that are already built and operational. It’s des",
       "impact": "positive",
-      "takeaway": "AI 성능 향상을 위한 새로운 아키텍처 필요"
+      "takeaway": "AI 컴퓨팅 성능 향상을 위한 새로운 전력 아키텍처 필요"
     },
     {
       "s": "한경 IT",
@@ -29,7 +41,181 @@
       "ts": 1786438079000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 '순환금융 확장판'…엔비디아, 월가와 AI 동맹 입력 2026.08.11 17:47 수정 2026.08.12 00:26 지면 A1 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김인엽 기자 구독하기 황정수 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 골드만 등 6곳과 700조 규모 AI칩을 금융상품으로 설계 한국경제신문의 투자 전문 유료 플랫폼 &#39;한경 프리미엄9&#39; (www.hankyung.com/premium9) 에 실린 기사입니다. &#39;한경 프리미엄9&#39; 을 구독하시면 더 많은 글로벌 투자 기사를 찾아볼 수 있습니다. 엔비디아가 월가 대표 금융회사들과 자본 5000억달러(약 700조원)를 모은다. 자사 인공지능(AI) 칩 고객사가 쓸 수 있는 금융 풀을 조성하겠다는 취지다. 엔비디아는 10일(현지시간) 골드만삭스, 아폴로글로벌, 브룩필드자산운용, 블랙록, 블랙스톤, KKR 등 여섯 곳과 이 같은 내용의 컴퓨팅 자금 플랫폼을 구축하기 위한 양해각서(MOU)를 맺었다고 발표했다. 젠슨 황 엔비디아 최고경영자(CEO)는 이날 X(옛 트위터)에 &ldquo;훌륭한 AI 기업과 클라우드업체들이 컴퓨팅 자원을 필요로 하지만 충분한 규모의 자금을 확보하지 못하고 있다&rdquo;며 MOU 체결 배경을 설명했다. 그간 엔비디아는 오픈AI, 앤트로픽 등 AI 모델 개발사와 코어위브, 네비우스 등 클라우드 제공업체가 그래픽처리장치(GPU)를 구매할 수 있도록 지분을 투자했다. 엔비디아가 투자한 돈으로 엔비디아 GPU를 산다는 점에서 &lsquo;순환 거래&rsquo; 논란이 제기됐다. 이를 엔비디아와 고객사 간 양자 거래가 아니라 제3자를 통한 금융 형태로 바꾸겠다는 전략이다. 엔비디아는 구형 GPU 가치가 떨어지는 위험을 일부 떠안아 최대 25%에 해당하는 잔존가치를 보상할 수 있다고 밝혔다. 금융회사들은 GPU를 장기적으로 수익화가 가능한 금융자산으로 전환할 계획이다. 래리 핑크 블랙록 CEO는 이날 CNBC 인터뷰에서 이 파트너십을 1970년대 주택저당증권(MBS)에 빗대 &ldquo;금융공학의 다음 미래&rdquo;라고 했다. 주택대출 상환금을 유동화해 발행한 채권인 MBS처럼 컴퓨팅 사용료를 대출, 채권 등 금융상품으로 발전시키겠다는 구상으로 해석된다. 실리콘밸리=김인엽/뉴욕=황정수 특파원 inside@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 김인엽 특파원 한국경제신문 실리콘밸리 김인엽 특파원입니다. 정치부, 국제부를 거쳐 테크앤사이언스부에 있습니다. 현재 실리콘밸리 빅테크와 스타트업, 캘리포니아에서 일어나는 흥미로운 일들을 취재하고 있습니다. 황정수 특파원 안녕하세요. 국제부 뉴욕특파원입니다. ADVERTISEMENT 관련 뉴스 1 기업은행, 주담대 금리 0.3%P↑…집단대출 중단 후 우대금리 축소 기업은행이 비대면 주택담보대출 금리를 인상했다. 11일 금융권에 따르면 기업은행은 지난 7일부터 비대면 주담대 상품인 ‘i-ONE 주택담보대출’의 금리 감면권을 0.3%포인트 축소했다. 금리 감... 2026.08.11 19:52 2 포인투, Arm 등서 1930억원 투자 유치 ▶마켓인사이트 8월 11일 오후 3시 40분 인공지능(AI) 데이터센터용 인터커넥트(반도체와 장비 연결) 기술을 개발하는 포인투테크놀로지가 대규모 투자 유치에 성공했다. 영국 반도체 기업... 2026.08.11 18:28 3 데이터센터 채권 규제 빗장 푼 美 데이터센터 건설을 위한 미국 빅테크의 자금 조달이 한층 쉬워질 것으로 전망된다. 미 증권거래위원회(SEC)가 데이터센터 관련 회사채 발행에 적용하던 규제를 완화하면서다.10일(현지시간) 블룸버그통신에 따르면 SEC는... 2026.08.11 18:06 ADVERTISEME",
       "impact": "positive",
-      "takeaway": "엔비디아의 AI 동맹으로 기술 경쟁력 강화"
+      "takeaway": "엔비디아의 AI 동맹으로 반도체 산업에 긍정적 영향"
+    },
+    {
+      "s": "쿠키뉴스",
+      "t": "“누굴 위한 산업 전환인가”…노동·시민사회, 정부 AI·반도체 정책에 ‘쓴소리’",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uaXhhbUxld1JSQ2J5SWdIOXJFUnZpemxMYVN6T0Zwc1dBUnMxTU9IN0FKV1Btc3F1d1MxaHdQU0JTTHNRV3JRWTBfbUFVUFZya3RQancwd1FMdEVhU05MSVVfOA?oc=5",
+      "m": "08. 11. AM 03:38",
+      "ts": 1786419493000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "노동자와 시민사회가 정부 정책에 대한 우려를 표명"
+    },
+    {
+      "s": "전자신문",
+      "t": "AI·반도체 시대 제조 경쟁력은 '전력'…IEA “에너지 인프라가 산업패권 좌우”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWdXpKN2lKR0VrRUNMSHA5YllEUkFyREQ4T1BkZEJGOGNyMTEyZHQ5MEhXWnpWWkQ4eEZMRTMxU2EtcTE2VDY2VFpkWE5vUQ?oc=5",
+      "m": "08. 10. AM 07:00",
+      "ts": 1786345200000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "에너지 인프라가 산업 패권을 좌우하는 중요 요소"
+    },
+    {
+      "s": "헬로디디",
+      "t": "김태유 서울대 교수 규제합리화위 부위원장에 \"AI·반도체·로봇 규제혁신\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Za0hCY0ZGUGZkdnhWSlRWZGtrZHpfTEpsbDVlS0FpekFlZ05uMXZvcld6ZkdONmtEYW1Gdzdvd0VhbUk4WmdBRkJaT09idndzbWlRUmw2NjNLMzcwdHZjZXVlcVF2UjlXbEE?oc=5",
+      "m": "08. 09. AM 08:10",
+      "ts": 1786263000000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "AI와 반도체 규제 혁신으로 산업 발전에 기여"
+    },
+    {
+      "s": "팔당유역신문",
+      "t": "이상일 용인시장, 다낭서 반도체·AI 정책 발표…“세계 최대 생태계 갖춘다”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKZWhfVWxPR0FrUXZZTjJWT1dKa0dEbDhtcHF0Ym9fNUpwdTNqaDNuNTdYNmtMZ1Y0X3ZFVWZyLTJndjRhdkhkSG1SbHMtR1llMWFBWFJia3VmencxRVBsbGp5YVFtM0tLSHVv?oc=5",
+      "m": "08. 08. PM 12:44",
+      "ts": 1786193094000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "용인시의 반도체와 AI 정책이 지역 산업 발전에 기여"
+    },
+    {
+      "s": "네이트",
+      "t": "[AI돋보기] 시장이 사라진 AI 반도체 전쟁…한국의 선택은",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5feGRpaUpiUF9YT3NuYmpuS1luODNCSVZMdEYyTDNzMjhtSEhDb0VoNWRVc3FVT3plY3dNeGZsZzJxUlpLd0lJZGpCWXRzV2VmNEpV?oc=5",
+      "m": "08. 07. PM 09:33",
+      "ts": 1786138380000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
+    },
+    {
+      "s": "IT비즈뉴스",
+      "t": "과기정통부, 국산 AI반도체 기반 3대 실증사업 착수",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Yblp3VWRJY3N2M3pRc3Z6VnYwdGlKc2tqYUhCcEpHZDE4SDd4VnlQWGltcWxWZUh1OTZEOVItVGIzQ3pxSi1aQS1nUUJKSUJQdEN0UU9HSThjQy0tb2llcVNaZmtSRzFoNV81bg?oc=5",
+      "m": "08. 06. PM 10:00",
+      "ts": 1786053600000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "국산 AI 반도체 기반 실증사업이 산업 발전에 기여"
+    },
+    {
+      "s": "인공지능신문",
+      "t": "국산 AI 반도체, 올해 600억원 이상 투입...생활·안전 등 분야의 피지컬 AI 실증 7건 등 총 22개 신규 과제 착수",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LWXg1Zm5oRDRWc3k0MVZPVEFlbkdNVDdib0VrWWJsQV9aYnI1bWtrYUhsTHhNcU5LcGM4a1lCeEVYWEdWeVo0VWx3ZWJJZ1VaWmdZa2tSTkJOMEU4ZmZUSUYwSWRVV1k?oc=5",
+      "m": "08. 06. AM 08:45",
+      "ts": 1786005954000,
+      "_policy": true,
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "국산 AI 반도체에 대한 투자와 신규 과제 착수가 산업 발전에 기여"
+    },
+    {
+      "s": "환경포커스",
+      "t": "기후부, 하반기 AI·반도체 지원 본격화…물·전기국가 인프라 속도",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BSDJQdWtrN244VDJJTkk1WWNLa3FnTlNwVWQ5eTlqRnFKMEVCQjRqWHRrS2NzemJ6Nmo3VkxCLXNMdkphaG9McGk2OUZwN2FRWmpubnlyV2lIVzZPMjEtVUpONA?oc=5",
+      "m": "08. 04. AM 07:14",
+      "ts": 1785827653000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "아시아투데이",
+      "t": "AI부터 MASGA까지…산업부 ‘초성장’ 승부수, 하반기 정책 총가동",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MYi1QUDNNOGJKTzAzVWt0SC14b015QUdOZHJBS1JzbE9iS1hQWldFYThzRFlkd2pXWjdxN2NLYW9fQmhNUDF1MGlZN0s2ZkxXY1ZwY1Z5Q2RyRUw3ZlRHbzBzQ19XLUEyVE1HSGR3?oc=5",
+      "m": "08. 04. AM 07:03",
+      "ts": 1785827030000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "경기일보",
+      "t": "평택대, AI·반도체 중심 앵커체제 강화…지역정주형 인재 키운다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96TFl5aVJDRkVoWXN0b2tnWFFXckNmMGdCX0lnNTNIVmwxWUMtdFlMTWd4Y3FkVngteHdKS2wtQ2lRVHdHTHRVMWQ0RXRDVFNmSjBnYnRoQmQtcWc?oc=5",
+      "m": "08. 04. AM 04:12",
+      "ts": 1785816727000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스핌",
+      "t": "[AI MY 뉴스] 3일 중국증시 '대외변수·vs 정책기대, AI·반도체 주축 순환매 지속될까'",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84dXlnNWZYUGdlMU4wbzB3c0FaZzNtS05KNDFaNGVKQnBNTW45RDN5cTQwMFRNZlJKT1lBLTFWUDJ0cnNCOHh0OEktUXV5RUVCbVI2U1lHeGNkQ1Fp?oc=5",
+      "m": "08. 02. PM 11:11",
+      "ts": 1785712260000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "광주일등뉴스",
+      "t": "민형배 전남광주통합시장, 국회서 첫 예산정책협의회… \"AI·반도체로 통합 성과 만들겠다\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iSkJQN1NoeXdKbzdBd05ZN3hqdDFqUW5UNWdvWFVCSjhnT1hZX0lnUWFZQjVfSmZzMjZqYktoTTRXa0dpaXl0OGhxQmoxejlqaFFIR1I3UzRCQkU5QUsyTTBHeGc2ZHfSAWtBVV95cUxOcDdMZmVQdjFwS2hfVm9ZVUxvdkRSUXhlS2s2T3RFQXE2M3paenpka0daQnRFZW1RdWx6T3l0aDR3ZmxfWlZra3Z4aWxoeXNtMzJMUTdOX2xxSWlNc1l6TWc5eWZrYVY4Mkg4Zw?oc=5",
+      "m": "07. 30. AM 07:10",
+      "ts": 1785395437000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "블로터",
+      "t": "美, 글로벌파운드리스에 3억달러 지원…AI 반도체 핵심기술 육성",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjVnZVdHV3b3lXZXVyc3hhN21DdUNxTmpNcFFNT1ItTXBrQWtCVkVWQWtqRlMwT211ZW5FYnhlQkplanYxVGxYcFR3NWZtMG5xaHdtRnpDdU45S001cGE4aU1wa1BJSTho0gFsQVVfeXFMTUYwMUkzNHF4bkljcDJhNWV5YVM3dlREaHptZ0FOa2NITkFtRldBMHJTTXRmMGp6MXNNbnFZWFFoczVIMEd6T0tWYnlrZGtabGpTWW9qc0ItVDF5SF9JWDlfZ1h1X2t0TkQ3bEg3?oc=5",
+      "m": "07. 29. PM 03:50",
+      "ts": 1785340243000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "글로벌이코노믹",
+      "t": "美, 글로벌파운드리스에 4356억원 지원…AI 반도체 공급망 자립 속도",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX0xGRHpvVkdWalJpekYzeEg2RDc5bGJKVEZpRTNwWWFtSVhqMTRSSGVrUVZxWTM0OTZTT3I3M1dwM013NGVQd1FEVFA0VUdNX1BTejEwaVpNb0tKLXZkNzc3eWRKYXhzajhKQnd0a1dPb0lWVXJsUnB2bGpZX1l6Qm5rdlV0Z3Ff?oc=5",
+      "m": "07. 29. PM 12:00",
+      "ts": 1785326400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "비즈니스포스트",
+      "t": "젠슨 황 미국 정부와 의회에 'AI 반도체 중국 수출' 적극 설득, 엔비디아에 더 절실해져",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zc1NqbTZJU0NYbGM3Sml2a2lVWmNlMW1JN3pPbFVIV3B2dHdLNFZiOHYtYmd1VGVTYWE1T0t4WGVvclduMHRCSUszeGprVktxbmRsaEcxZFZWMWUzOE14c0h3YkUzM0w4aF81eXZyWUF1NUk?oc=5",
+      "m": "07. 29. AM 07:00",
+      "ts": 1785308400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "조선일보",
+      "t": "견제? 활용?… 중국 AI·반도체 규제 놓고 갈라진 美 빅테크",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZGVmOXBLcVZIekhpMVp1T25wYXBiaV83ZVE4MlB0NU9pTnFpUzJmc1pYd050QWNMTUpKcXB2VjhEbWZmTHlOTWc1RTVhNTJNbFN4aWZPbUhEcFBMcVk5bkc0dzVBNnBDcDJ0SDJEYXZiZmRzTGFLOF81OUh3Zy04czk1TQ?oc=5",
+      "m": "07. 27. AM 07:00",
+      "ts": 1785135600000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -38,20 +224,207 @@
       "u": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
       "m": "07. 27. AM 12:45",
       "ts": 1785113142000,
-      "fullText": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs The Vera CPU is speeding up next-generation NVIDIA chip designs, and early testing shows up to 1.5x higher performance on key verification and simulation workloads. July 26, 2026 by Ivan Goldwasser 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across EDA workflows used to develop its next generation of CPUs and GPUs, demonstrating how high-performance CPU architecture can help accelerate some of the industry&#8217;s most demanding engineering workloads. Accelerating Critical EDA Workloads What’s at stake is the pace of chip production. In turn, the tempo of industry technologies that stand to benefit from boosted EDA workloads, driving development momentum. Simulation, verification and implementation technologies play a central role in semiconductor development. Long before a chip reaches manufacturing, engineers spend years validating behavior, identifying corner cases and refining designs through thousands of iterations. While GPUs and AI have accelerated many aspects of chip design, several critical EDA workloads remain heavily dependent on CPU performance. Logic simulation, formal verification and portions of digital implementation often depend on fast individual cores, efficient memory systems and strong overall throughput. That makes CPU architecture an important factor in determining how quickly engineering teams can validate designs, explore alternatives and move products toward tapeout. Vera cluster in NVIDIA Portland data center. Highlighting Early Results With Cadence and Synopsys NVIDIA&",
-      "impact": "positive",
-      "takeaway": "엔비디아의 CPU 및 GPU 설계 속도 향상"
+      "fullText": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs The Vera CPU is speeding up next-generation NVIDIA chip designs, and early testing shows up to 1.5x higher performance on key verification and simulation workloads. July 26, 2026 by Ivan Goldwasser 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across EDA workflows used to develop its next generation of CPUs and GPUs, demonstrating how high-performance CPU architecture can help accelerate some of the industry&#8217;s most demanding engineering workloads. Accelerating Critical EDA Workloads What’s at stake is the pace of chip production. In turn, the tempo of industry technologies that stand to benefit from boosted EDA workloads, driving development momentum. Simulation, verification and implementation technologies play a central role in semiconductor development. Long before a chip reaches manufacturing, engineers spend years validating behavior, identifying corner cases and refining designs through thousands of iterations. While GPUs and AI have accelerated many aspects of chip design, several critical EDA workloads remain heavily dependent on CPU performance. Logic simulation, formal verification and portions of digital implementation often depend on fast individual cores, efficient memory systems and strong overall throughput. That makes CPU architecture an important factor in determining how quickly engineering teams can validate designs, explore alternatives and move products toward tapeout. Vera cluster in NVIDIA Portland data center. Highlighting Early Results With Cadence and Synopsys NVIDIA&"
     },
     {
-      "s": "한겨레",
-      "t": "엔비디아, 1조 파라미터 ‘네모트론4' 개발키로...개방형 모델 승부수",
+      "s": "대한민국 정책브리핑",
+      "t": "청와대 \"국내 기업-글로벌 빅테크, 9500억 달러 반도체 협력 추진\"",
       "d": "",
-      "u": "https://www.hani.co.kr/arti/economy/it/1272547.html",
-      "m": "",
-      "ts": 0,
-      "fullText": "본문 경제 IT 엔비디아, 1조 파라미터 ‘네모트론4' 개발키로...개방형 모델 승부수 선담은 기자 수정 2026-08-12 18:56 펼침 0:00 Your browser does not support the audio element. 구글 선호 매체 등록 로이터 연합뉴스 광고 엔비디아가 최소 1조개의 파라미터(매개변수)를 갖춘 차세대 인공지능(AI) 모델 개발에 나선다. 그동안 자체 개발 개방형 모델 ‘네모트론’(Nemotron) 시리즈로 뚜렷한 경쟁력을 보여주지 못했던 엔비디아가 최첨단 오픈웨이트(가중치 공개형) 모델 개발에 시동을 걸면서, 주요 고객사와의 경쟁 구도가 형성될 수 있다는 전망이 나온다. 미 아이티(IT) 전문매체 디인포메이션은 11일(현지시각) 복수의 소식통을 인용해 엔비디아가 세계 최고 수준의 개방형 모델을 목표로 ‘네모트론4’를 개발하고 있다고 보도했다. 네모트론4는 최소 1조개의 파라미터(매개변수) 규모일 것으로 예상되는데, 이는 회사가 지난 6월 공개한 ‘네모트론3 울트라’(5500억개)의 약 두 배에 달하는 수준이다. 다만, 이 모델의 구체적인 출시 시점은 아직 정해지지 않은 것으로 전해졌다. 네모트론4는 최근 알리바바가 공개한 ‘큐원3.8 맥스’(2조4000억개)나 문샷에이아이(AI)의 ‘키미 K3’(2조8000억개) 등 중국 대형 오픈소스 모델보다는 여전히 규모가 작다. 다만 엔비디아는 모델의 압축 기술 등을 활용해 상대적으로 적은 파라미터로도 더 뛰어난 성능을 내는 데 주력하고 있는 것으로 알려졌다. 광고 카리 브리스키 엔비디아 생성형 인공지능 담당 부사장은 이메일 성명에서 “엔비디아가 네모트론에 투자하는 이유는 모든 기업과 국가가 안전과 보안을 강화하고 혁신을 가속화하는 한편, 세대를 거듭해 의지할 수 있는 기반을 제공하는 최첨단 오픈소스 모델을 필요로 한다고 믿기 때문”이라고 밝혔다. 엔비디아는 그간 자사 하드웨어 설계 방식을 개선하기 위해 자체 인공지능 모델을 개발해왔다. 하지만 회사의 최신 모델인 네모트론3 울트라는 글로벌 인공지능 성능 평가 플랫폼 아레나(옛 LM아레나)와 아티피셜 애널리시스 등의 평가에서 전체 모델 중 40위권 밖에 머무는 등 중국 최상위 개방형 모델에 견줘 뒤처진 성능을 보이고 있다. 광고 광고 그럼에도 엔비디아가 개방형 모델 생태계 확대에 적극적으로 나서는 건 그래픽처리장치(GPU) 수요를 확대하려는 전략으로 풀이된다. 개방형 모델의 성능이 개선되고 활용 범위가 넓어질수록 더 많은 기업이 자체 인공지능 모델을 개발·운영할 가능성이 커지기 때문이다. 이는 인공지능 모델의 학습과 추론에 필요한 컴퓨팅 수요를 늘리고, 결과적으로 엔비디아 그래픽처리장치 판매 증가에 도움이 된다. 선담은 기자 sun@hani.co.kr",
-      "impact": "positive",
-      "takeaway": "엔비디아의 네모트론4 개발로 AI 기술 경쟁력 강화"
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FLVdSeU1Ba1RBa3pFZW11QXNkMERXTWNYUGhWWUpSN1F3eTRIc2dGNy0wczh3VWR4YmtZWnozWGJRUWk4emhURHdFRHpFMWZXUjN5UnY1ZXVQZDRWT19VcVlKeE53SXhlWG14Nw?oc=5",
+      "m": "07. 25. AM 07:00",
+      "ts": 1784962800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "전기신문",
+      "t": "AI 반도체 시대 광반도체 혁신생태계, 전남광주가 정책허브 역할 수행해야",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRdWdZNjhmVkJ0QTBfYjRUenRTMncxelljVmNDNTFxSE5pUlI0UUlnTlg0dkh0SkRVaVFBUTQ2c3lQVHE5MERBTURCaVVBSjNsaDdIc0VHejlMMHE0Vkd0bVRtalJaXzhCdElTYdIBcEFVX3lxTE9DWkNyUWgtSlZpdFBNWW10YW9RU1Z2Sml5TkxHZUdqU2xzcDVpZHp6UlNTcWtfYmxFQUpDRkxWSTVVUS1qTGhBcDduaURlZXNKNC1LRTV4SU9GOHdBQ1dBUHVwQXFIelMwZUJZcG53bzY?oc=5",
+      "m": "07. 23. AM 07:00",
+      "ts": 1784790000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "FT \"중국, AI·반도체 기술 수출통제 강화 검토\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDX3B6M3pSa3BtYjV2aFM4OHdaYUJzMHBxN1hOWUpCUmJOb0w2a1JJQTc3eHE4X1BhZk5oV0Z2aXpKT01XeFhUTUlrN3NwZ08zQjZYaktEbTI1SVXSAWBBVV95cUxNbHloaE05NzUwaC1sU1NBZjZ0b1RqNFRTNGRndnN2b2ctd0ZPbFE3TUhsWUw4YXFjOTV4U1dVOFNyZ1NBemNOS2NQUG9PRWhKMjhxZXdtZjhNbTB3LTByUHA?oc=5",
+      "m": "07. 21. AM 07:00",
+      "ts": 1784617200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "경향신문",
+      "t": "반도체 규제 완화 ‘선물 보따리’ 받은 UAE···전쟁서 미국 편에 선 대가?",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQTZHaVlIQXg0Vmt3NVZoOUJJbGFZZGthT1ZLS3RwamlfZjFrRjJlUTVtVUZUZnhIOHRkdTJ5ZnBQMTZMRE5IWFo1bTc3Y3RHc1NQU3ZrMC00Z9IBX0FVX3lxTE9JWmtibnRiQWNGYzdaWjRpY1czQ2NpbDB4WW50RlRPakRGaEp4WFZkWkxHdTZBM3YyQ0hreDBicWl3SWx4QzB5SXBacmNwcVoxdU14Ynd0QjQ4LXhZc1Vz?oc=5",
+      "m": "07. 15. AM 07:00",
+      "ts": 1784098800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "대한민국 정책브리핑",
+      "t": "국산 AI반도체 도입부터 활용까지 밀착 지원…기술지원센터 개소",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TWExNRG1uOENGdGVUOVlBUGxEWXpoa1BOSjZrRlAteFFGaUIwTVN4MlZiZ011WF9CNXRVckFCa1B0bVRxTEhWdTZkZlFsWDJjbXJsNkZjSWtSNDV5MlNQblJ5SFFHZXgwTFdwaw?oc=5",
+      "m": "07. 07. AM 07:00",
+      "ts": 1783407600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "비즈니스포스트",
+      "t": "중국 화웨이 '엔비디아 빈 자리' 채운다, 미국의 AI 반도체 수출 규제로 반사이익",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPcHQ5eHN3cnJranlOSWJrU2tXWlVzZ2x3c0RzUzNEZTNBaUdHeVc2UUpUWm9lUDFheGc2THJBVWZqbVRzTHdqUC1CZk1yOVo3M1FLU3YzTEVHMTJROUcwTjJhUmdlZ2RNWU82MDlxNmlVNFE?oc=5",
+      "m": "06. 29. AM 07:00",
+      "ts": 1782716400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "대한민국 정책브리핑",
+      "t": "AI·반도체 등 첨단산업 협력 강화! - 카드/한컷 | 멀티미디어",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55bUJvRFptNXZxcUpyMTYwV0w4dkFXazZ2MmZUS25WbmRac2FvTGVHODkybFZKY1FLUXJGaDNONjcyVjFkQU1CbmctLWtSYXFRM0l1MzJCU0JqWUU4LXZyV29rQjBwZVNLTnVyMEp3?oc=5",
+      "m": "06. 15. AM 07:00",
+      "ts": 1781506800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Investing.com 한국어",
+      "t": "[글로벌 워치]\"화웨이 넘어 中 전체 통제\"…대만, AI 반도체 수출 규제 대폭 강화 By EBN",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51WlJNNXFZUlF1ekxzZVhuUmJ0a0FtOVByNHpvOHZfRWw0emF5aUl2LVdXSk1ENXg4cXZlN2V6OHVSREZ3Ul9YS21rMHEtOFZXLW4zS21TWWszLS1CODVHcXlmWmJVU1VUSmZlSER4ajY?oc=5",
+      "m": "06. 10. AM 07:00",
+      "ts": 1781074800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "EU '기술 주권' 강화 시동…반도체·AI·클라우드 자립 추진",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XN2tGd2ladVF3WVd6TEFENTBIN1V4dUZJeTBqY0dlbVh1SGRoZXhtd3p2NlBFaDJ1X0xzOEl2WExsMklra1dMOUN1R21QR2s4N1JqeHFrdDZjaDDSAWBBVV95cUxQV1pqSHpJbEJXLUhmVmVxM2xTYlQ0QWI2Ujg3YkZoQVIzMkg0TXpnZjhzakdwQzJoWVMxeklMdjhJcGlYZi1vZUdqa0JuVHVNWE5taDJOclJKMzVfRHBHWnc?oc=5",
+      "m": "06. 03. AM 07:00",
+      "ts": 1780470000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "서울경제",
+      "t": "“유럽 기술 주권 되찾겠다”...EU, 반도체·AI 육성 총력",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sN0I4VnFvUlRlcy16a3RYalp1b0lLVk83Z3VVUXdHd3U5YW14VFl4RzdqLVdXb2RWbHZlbXFSOG04UVg5Z3VwZTQ1VllVbHIxeUHSAVNBVV95cUxPVU1rQVJreUpxVjQ0SDZDX3laTzJVY3hWeDFwN0FtUlJwVDc0WXdzVXFJZk1oa3hyUWZKanhKU2IwWi1aaEdmVEFHUXRKMTJ1NVdGdw?oc=5",
+      "m": "05. 28. AM 07:00",
+      "ts": 1779951600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "초이스스탁US",
+      "t": "트럼프 對中 엔비디아 수출 규제 역풍?…“中, H200 구매 전면 거부”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40NUItRWxVSm0tSFlnaF8xcnNFMUJJNl90RmpSQ1ozcEJoLWJlM2ZKWXRPb3lVbk1abzNodWpHQW55RS1qMFZOeVVaMUM1aEpITUVQblRBd3RUd2hnTUpUZ1JR?oc=5",
+      "m": "05. 26. AM 07:00",
+      "ts": 1779778800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스핌",
+      "t": "젠슨 황 \"중국 AI칩 시장 사실상 화웨이에 넘겨\"…美 규제 역풍 인정",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wd21VZzlqbnQ1cjFkbmFVZ1MwSGJlOTY3cXVlN1VHSXdsczZpVUthX09PNnJYdk9WUFlxZHVGMU1WbEJ0bVpVU2Q5Z3Ywb2FrOExydWl2bkFRS1BJ?oc=5",
+      "m": "05. 21. AM 07:00",
+      "ts": 1779346800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Naver Blog",
+      "t": "한미반도체, 美 법인 설립…AI 반도체 공급망 정조준",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pckNSUy00TDJBYmFRdGV1ZE5ERGJYYmxxRjBuOU5TQWZsZkdUTDRJT05rZ0JuVjlORkl6WEVSLThVVmtUdFE0SE1ZT3pVU1VHSlpySzNSVm5LUQ?oc=5",
+      "m": "05. 17. AM 07:00",
+      "ts": 1779001200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "시사타파NEWS",
+      "t": "김용범 국민배당금에 “색깔론”…미국의 AI 배당 논쟁은 어디까지 왔나 [김헌식 칼럼]",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KN3l2bUpJZnpNYzREeHdEdzhJWWxlU3dtd3JvandWM2U4eFVlSzF1MFh4QXltX1FFOFZmVDYyMUFhREVXSlRTUkNsRDMxSTJxaGxacjdVbGlEUjduX3fSAWtBVV95cUxPQVNBX1VOeWtVM2Z3WnlqaVdnTXhUdHUxblVYZUJkaE9URXFGc3pnN2hHcXNQa09IQkExUjBRWEtONVBxNVdfYmRvMzl0cWd5b3MwQUptNFNwdklQOU9lZ21KeWtRUDJDd3dyZw?oc=5",
+      "m": "05. 17. AM 07:00",
+      "ts": 1779001200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "한미반도체, 미국법인 '한미USA' 설립…AI반도체 시장 공략",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Yc1d5YUFST0M0MGhGQk5fWU9DcWxwX2FJeW1ObnREUmVMQXJ1UGVxRDMwT0Q5ckRxREhDTnBKRk5ZaHE4VkFhTEhzVGRsUXkxQURiQk55VXVMcDTSAWBBVV95cUxPTEJEc2Nfc2VRZ1JucGZyLTMxLXdpQWNvSXJwNlZvTEhMN3d2NlhERktERE8wcnVpV0dnMk93M1BIbm5UT2NUb1dwQUlnUDR2VDdkYUFoM0h3M2V3NU5kMVQ?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "생생비즈플러스",
+      "t": "한미반도체, 美에 현지법인 '한미USA' 설립...AI반도체 시장 공략",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1udllGTmZjYWc4eDgtMGl2R3prZ3c5OGcwN1ZpN2NFcERFanV1ek5lVWFEZjJxXzV4b1ZSdERtUnA2WW5oYk4xRzg2MVI3OFNWWl9qMExPRWlTWk5ka2JpM3lCSU1kUnYyN1pJWA?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "viva100.com",
+      "t": "한미반도체, 올해 말 美 법인 세운다⋯ “장비 수주 확대 기대”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1emNHOEhQZVFZR2g4Z2FDWEFEbzh2eXB0Z3hhYUJpM0V0di1kb05uQThjblcyd005djVQbVZySTQ5YVFDSVB0c0VhMDVkZE1LS1FacnlyZnlIQQ?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Chosunbiz",
+      "t": "[2026 금융포럼] 손영채 금융위 단장 “국민성장펀드, 향후 20년 한국 산업 성장 마중물될 것” - 조선비즈",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWHFVMlhoaHdJNzlscUdGNXN3TGFrbUxaanAtdEh4ZFotSVRBNm42Qmc0cXF1bnJLazVPaWR2ajAzekxCcGE1RkoyZnNRQzhpY2VDcGpaMGRUcENxZmdjYzVqSWE0YmJUR2ZMN0FhSTB1dmJiVkotaUk0WllXS3RuadIBlAFBVV95cUxPZldFNjJ5cF8xZjhPeGlBVmZDekFmYXpDdGRRYkUtQlA5NDBPRTVXWWdnbHozRTNtYWZtWUZKbE5jWC1PNGdGc29wcWtDVUdsUUxPSzNKXzlFdFhRaDJDUENzU0xpbHJGUHpTek9POVlwTUxQdU1manpRRkxqdE9nVENPQzRzbWczVDVoWDBwTS1IQWtk?oc=5",
+      "m": "05. 13. AM 07:00",
+      "ts": 1778655600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "미·중 정상회담 D-1…\"반도체 규제 완화시 韓메모리 부정적\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jeS1IZHNyUEJfd0dBRF9pSjBheUZDXzJjX0ppa0o2SjlZckhxUlJOVTQ5anFPcDc1RXJnX19BSGNDTVVwZ2ROSEdfYTBTcjhQWjJuaEo4Rm1sN3fSAWBBVV95cUxNT3Q4MDUzWUxBVTFWdWp4TEd0dFBpeVBBZDk0QklNVmVZZlZfYnlMbXVHMFRJYm9uTy1IVnJMQ3ZJNzIycDFqalZBU0pxY19HU2VIOExKOV9WalB6LThkY1Y?oc=5",
+      "m": "05. 13. AM 07:00",
+      "ts": 1778655600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "머니투데이",
+      "t": "'반도체 전쟁' 참전 유럽, 투자유치 '협력적 경쟁' - 머니투데이",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mRzZVUmFXN0RIUnZOOEs4ejYzSHhUUFBidmpoYXVyZGRQTlZtUHRGdkZ2WDZtM3NGQ3MzMEs0TDE4ZXNwVEM5RzFlS2N0ZUw4QnUzakRIQThHN0IzRnNFRWZtMU52OXJVMEd4edIBckFVX3lxTE9Sd3g0WG9JWGI0UTR4eklMeVVHOW5qMlBodzdFRjN3WDI2M0V5YUdhOHl1ZVN5ZjB5NTk0Ymk1TEVydFRuNUtXYmlXdHlKWlJrZXRsU2xpcVBCNGdvWWJOSTRLVDdmWmhfYUlkNmNVSEl0QQ?oc=5",
+      "m": "05. 10. AM 07:00",
+      "ts": 1778396400000,
+      "_policy": true,
+      "fullText": "Google News"
     }
   ]
 }

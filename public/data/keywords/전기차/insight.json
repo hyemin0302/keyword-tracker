@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T11:00:33.017Z",
+  "updatedAt": "2026-08-13T11:48:16.295Z",
   "related": [
     {
       "slug": "K배터리",
@@ -42,80 +42,91 @@
       "overlap": 1
     }
   ],
-  "summary": "전기차·EV 테마는 최근 경기 침체로 인해 약세를 보이고 있습니다. 그러나 정부의 보조금 정책과 수요 증가로 인해 장기적으로 성장할 가능성이 있습니다.",
-  "sentiment": "bearish",
+  "summary": "전기차·EV 테마는 최근 경기 침체와 수급 불안에 따른 하락세를 보이고 있습니다. 그러나 정부 보조금과 수요 증가로 인해 장기적으로 성장할 가능성이 있습니다.",
+  "sentiment": "neutral",
   "key_drivers": [
-    "정부 보조금 정책",
+    "정부 보조금",
     "수요 증가"
   ],
   "watch_points": [
-    "경기 침체",
-    "수요 감소"
+    "수급 불안",
+    "경기 침체"
   ],
   "risks": [
-    "정부 정책 변경",
+    "정부 보조금 축소",
     "수요 감소"
   ],
-  "events": [],
+  "events": [
+    {
+      "date": "2026-08-13",
+      "title": "KIA 타이거즈 vs 삼성 라이온즈 경기",
+      "impact": "neutral"
+    }
+  ],
   "key_players": [
     "테슬라",
     "GM",
     "포드",
-    "현대차"
+    "현대차",
+    "현대차2우B"
   ],
   "outlook": {
     "short_term": {
-      "thesis": "단기적으로 전기차·EV 테마는 약세를 보일 것으로 예상됩니다. 경기 침체와 수요 감소로 인해 주가가 하락할 가능성이 있습니다.",
-      "upside": "그러나 정부의 보조금 정책과 수요 증가로 인해 장기적으로 성장할 가능성이 있습니다.",
-      "downside": "경기 침체와 수요 감소로 인해 주가가 하락할 가능성이 있습니다."
+      "thesis": "단기적으로 수급 불안과 경기 침체로 인해 하락세가 지속될 수 있습니다. 그러나 정부 보조금과 수요 증가로 인해 장기적으로 성장할 가능성이 있습니다.",
+      "upside": "정부 보조금이 증가할 경우, 수요가 증가하여 주가가 상승할 수 있습니다.",
+      "downside": "경기 침체와 수급 불안이 심화할 경우, 수요가 감소하여 주가가 하락할 수 있습니다."
     },
     "mid_term": {
-      "thesis": "중기적으로 전기차·EV 테마는 성장할 것으로 예상됩니다. 정부의 보조금 정책과 수요 증가로 인해 주가가 상승할 가능성이 있습니다.",
-      "upside": "정부의 보조금 정책과 수요 증가로 인해 주가가 상승할 가능성이 있습니다.",
-      "downside": "경기 침체와 수요 감소로 인해 주가가 하락할 가능성이 있습니다."
+      "thesis": "중기적으로 정부 보조금과 수요 증가로 인해 성장할 가능성이 있습니다. 그러나 경기 침체와 수급 불안이 심화할 경우, 성장 속도가 느려질 수 있습니다.",
+      "upside": "정부 보조금이 증가할 경우, 수요가 증가하여 주가가 상승할 수 있습니다.",
+      "downside": "경기 침체와 수급 불안이 심화할 경우, 수요가 감소하여 주가가 하락할 수 있습니다."
     },
     "long_term": {
-      "thesis": "장기적으로 전기차·EV 테마는 성장할 것으로 예상됩니다. 정부의 보조금 정책과 수요 증가로 인해 주가가 상승할 가능성이 있습니다.",
-      "upside": "정부의 보조금 정책과 수요 증가로 인해 주가가 상승할 가능성이 있습니다.",
-      "downside": "경기 침체와 수요 감소로 인해 주가가 하락할 가능성이 있습니다."
+      "thesis": "장기적으로 정부 보조금과 수요 증가로 인해 성장할 가능성이 있습니다. 그러나 경기 침체와 수급 불안이 심화할 경우, 성장 속도가 느려질 수 있습니다.",
+      "upside": "정부 보조금이 증가할 경우, 수요가 증가하여 주가가 상승할 수 있습니다.",
+      "downside": "경기 침체와 수급 불안이 심화할 경우, 수요가 감소하여 주가가 하락할 수 있습니다."
     }
   },
   "capital_flow": {
-    "summary": "전기차·EV 테마는 최근 경기 침체로 인해 약세를 보이고 있습니다. 그러나 정부의 보조금 정책과 수요 증가로 인해 장기적으로 성장할 가능성이 있습니다.",
-    "signals": []
+    "summary": "외국인과 기관은 순매수하고, ETF 자금이 유입되고 있습니다.",
+    "signals": [
+      "미래에셋 스페이스X 2차 청약 완판"
+    ]
   },
   "scenarios": [
     {
-      "case": "기본(Base)",
+      "case": "기본",
       "probability": 60,
-      "thesis": "단기적으로 전기차·EV 테마는 약세를 보일 것으로 예상됩니다.",
-      "trigger": "경기 침체",
-      "watch_period": "1주",
+      "thesis": "정부 보조금이 증가할 경우, 수요가 증가하여 주가가 상승할 수 있습니다.",
+      "trigger": "외인 5일 +300K주",
+      "watch_period": "1~2주",
       "data_quality": "full"
     },
     {
-      "case": "강세(Bull)",
+      "case": "강세",
       "probability": 20,
-      "thesis": "정부의 보조금 정책과 수요 증가로 인해 장기적으로 성장할 가능성이 있습니다.",
-      "trigger": "정부 보조금 정책",
-      "watch_period": "3개월",
-      "data_quality": "full"
+      "thesis": "정부 보조금이 증가할 경우, 수요가 증가하여 주가가 상승할 수 있습니다.",
+      "trigger": "측정 변수 데이터 부족 — 다음 갱신 시 보강 예정",
+      "watch_period": "기간",
+      "data_quality": "partial"
     },
     {
-      "case": "약세(Bear)",
+      "case": "약세",
       "probability": 20,
-      "thesis": "경기 침체와 수요 감소로 인해 주가가 하락할 가능성이 있습니다.",
-      "trigger": "경기 침체",
-      "watch_period": "1개월",
+      "thesis": "경기 침체와 수급 불안이 심화할 경우, 수요가 감소하여 주가가 하락할 수 있습니다.",
+      "trigger": "FOMC 25bp 인상",
+      "watch_period": "기간",
       "data_quality": "full"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "전기차·EV 테마의 평가가 저평가되어 있습니다.",
-    "momentum_signals": "전기차·EV 테마의 수요가 증가하고 있습니다.",
-    "fundamental_strength": "전기차·EV 테마의 성장 잠재력이 있습니다.",
-    "key_monitors": [],
-    "position_sizing_view": "Core"
+    "valuation_assessment": "PER/PBR + 동종업계/과거 대비 평가",
+    "momentum_signals": "외인/기관 수급·모멘텀·신고가 근접",
+    "fundamental_strength": "성장·마진·재무 안정성",
+    "key_monitors": [
+      "외인/기관 수급"
+    ],
+    "position_sizing_view": "Core/Satellite/Trade"
   },
   "value_chain": {
     "upstream": [
@@ -123,17 +134,17 @@
     ],
     "midstream": [
       "GM",
-      "F",
-      "005380"
+      "F"
     ],
     "downstream": [
+      "005380",
       "005387"
     ]
   },
   "policy_tracker": [
     {
       "date": null,
-      "title": "정부의 보조금 정책",
+      "title": "정부 보조금 정책",
       "region": "KR",
       "stance": "supportive"
     },
@@ -141,12 +152,6 @@
       "date": null,
       "title": "전기차 보조금",
       "region": "KR",
-      "stance": "neutral"
-    },
-    {
-      "date": null,
-      "title": "IRA",
-      "region": "US",
       "stance": "neutral"
     }
   ],
@@ -183,6 +188,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-08-13T10:59:44.207Z",
+  "generatedAt": "2026-08-13T11:47:22.518Z",
   "_model": "groq:llama-3.1-8b-instant"
 }

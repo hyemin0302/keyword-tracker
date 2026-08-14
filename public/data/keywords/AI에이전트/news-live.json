@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-08-14T14:21:39.656Z",
+  "updatedAt": "2026-08-14T15:23:08.954Z",
   "count": 40,
   "stats": {
-    "today": 10,
-    "yesterday": 21,
-    "weekAvg": 5.3,
+    "today": 12,
+    "yesterday": 22,
+    "weekAvg": 5.7,
     "sources": 30,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Kog is going deeper to squeeze more inference out of GPUs",
+      "d": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "u": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "m": "08. 14. PM 02:50",
+      "ts": 1786719011000,
+      "fullText": "The race for faster AI inference is on, and markets gave Cerebras and its purpose-built chips a warm welcome in its IPO debut in May. But French startup Kog is betting that there&#8217;s a lot more power to be squeezed out of conventional GPUs. The startup hit the front page of Hacker News in May with a tech preview aimed at proving that “extremely fast single-request decoding is possible on the standard datacenter GPUs enterprises already own” — such as the AMD MI300X and NVIDIA H200 GPUs it used for its demo. Some were disappointed to hear this didn’t extend to GPUs in our laptops, but others saw the potential. With inference speed and costs now being a critical bottleneck, Kog’s promise to unlock new capabilities on existing hardware with software optimization attracted more than onlookers . “We had 200 tangible business leads,” CEO Gaël Delalleau told TechCrunch. Based on early feedback, the solo founder expects software engineering to be the first use case. Veteran Claude Code users are well aware that they sometimes have to wait hours to get results. Anthropic itself understands that speed is worth money, and charges a price multiple for Claude’s Fast Mode. Kog is hoping to target customers put off by those delays, usually because they rely on AI workflows for professional tasks. But the startup also has design partners that let users generate games and apps with a prompt, and for whom a faster outcome thanks to the Kog Inference Engine (KIE) would mean more revenue, Delalleau said. The company realizes this market is not quite mature yet. While observing demand, Kog learned that its prospective customers aren’t prepared to fine-tune small models. “And that&#8217;s why since the launch, we&#8217;ve been fully focused on accelerating the development of larger models to meet the demand we&#8217;ve seen.” This leaves Kog with a huge leap to make to deliver on its promise of “30x faster LLM inference.” Its demo showed an impressive 3,000 per-request tokens per sec"
+    },
+    {
+      "s": "전자신문",
+      "t": "업스테이지 '솔라 프로4', 美·中 중심 AI 리더보드 첫 진입",
+      "d": "업스테이지가 자체 개발한 거대언어모델(LLM) '솔라 프로4'를 공개했다. 전작 '솔라 프로3'보다 추론 능력과 에이전트 역량을 한층 강화한 업스테이지 차세대 상용 인공지능(AI) 모델이다. 단발성 답변 위주 기존 벤치마크 점수가 아닌 문서 이해와 정보 추출, 긴 맥락 추론, 연속적인 의사결정 등 실제 업무 환경에서 요구되는 작업 흐름을 안정적으로 수행하는 데 최적화됐다. 솔라 프로4는 한국 모델 최초로 글로벌 개발자 플랫폼에 이름을 올렸다.",
+      "u": "https://www.etnews.com/20260814000345",
+      "m": "08. 14. PM 02:42",
+      "ts": 1786718550000,
+      "fullText": "AI·SW AI 업스테이지 '솔라 프로4', 美·中 중심 AI 리더보드 첫 진입 발행일 : 2026-08-14 23:42 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 업스테이지가 자체 개발한 거대언어모델(LLM) '솔라 프로4'를 공개했다. 전작 '솔라 프로3'보다 추론 능력과 에이전트 역량을 한층 강화한 업스테이지 차세대 상용 인공지능(AI) 모델이다. 단발성 답변 위주 기존 벤치마크 점수가 아닌 문서 이해와 정보 추출, 긴 맥락 추론, 연속적인 의사결정 등 실제 업무 환경에서 요구되는 작업 흐름을 안정적으로 수행하는 데 최적화됐다. 솔라 프로4는 한국 모델 최초로 글로벌 개발자 플랫폼에 이름을 올렸다. 미국 누스 리서치가 개발한 AI 에이전트 '헤르메스 에이전트'와 API 라우팅 플랫폼 '오픈라우터'에 등재됐다. 미국·중국 주요 AI기업 사이에 정식 프로바이더로 채택된 한국 기업은 업스테이지가 처음이다. 오픈라우터 등재 3일 만에 누적 토큰 소비량이 800억 토큰을 넘어섰다. 글로벌 주요 모델의 에이전트 성능을 비교하는 '에이전트 아레나' 리더보드에도 한국 모델 최초로 진입, 미국·중국 모델이 줄곧 독점해온 47개 주요 모델 순위표에 포함됐다. 한국 모델 중 처음이다. 에이전트 업무 성패를 가르는 영역을 집중 개선한 결과다. 터미널에서 여러 단계 작업을 끝까지 완수하는 능력을 평가하는 '터미널벤치'에서 57점을 기록, 전작보다 4.8배 높아졌다. 대화를 주고받으며 도구 사용 능력을 평가하는 '타우3-뱅킹'에서도 23점으로 2.6배 개선됐다. 솔라 프로4는 또 대량 장문 문서에서 정보를 추출하고 답을 추론하는 능력을 평가하는 장문 이해 벤치마크(AA-LCR)에서 71점을 기록, 전작보다 2.3배 이상 우수한 성능을 보였다. 국내 기업·공공기관 사무 환경에 특화된 한국어 성능과 문서 처리 능력도 향상, 문서 처리 통합 솔루션에도 탑재됐다. 종합 성능은 글로벌 AI 평가기관 '아티피셜 애널리시스(Artificial Analysis)' 기준 42점을 받았다. 전작보다 3배 이상 개선되며 엔비디아 '네모트론 3 울트라'(38점)와 구글 '제미나이 3.5 플래시-라이트'(37점), 미스트랄AI '미디엄 3.5'(30점), 코히어 '커맨드 A+'(23점) 등에 앞섰다. 김성훈 업스테이지 대표는 “실무에서 AI에게 필요한 것은 시험을 잘 보는 능력이 아니라 맡은 일을 끝까지 해내는 신뢰성”이라며 “우리 AI기술이 세계에서 통하는 만큼 앞으로도 현장 기술력을 바탕으로 한층 더 활용성 높은 AI를 만들어 나가겠다”고 말했다. 업스테이지는 솔라 프로4 공개에 앞서 독자 AI 파운데이션 모델 '솔라 오픈2'를 공개했다. 솔라 오픈2는 오픈웨이트 LLM으로 단순 질의응답을 넘어 수십 번의 추론과 도구 호출을 반복하며, 업무를 끝까지 처리하는 AI 에이전트에 최적화된 사용성을 지원한다. 박종진 기자 truth@etnews.com"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Reddit Climbs, Applied Materials, Gemini Fall | Stock Movers",
@@ -26,6 +44,16 @@
       "m": "08. 14. PM 12:55",
       "ts": 1786712133000,
       "fullText": ""
+    },
+    {
+      "s": "스타트업엔(StartupN)",
+      "t": "사이오닉에이아이, 스케일업 팁스 선정…금융·법률·공공 AI 에이전트 실증",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xZHNDdms4Y2Q1QVZ4U0Npa0RPOTNlYk5Rd1F3T2MtbGM0TzVWU044MzBqRDNNR0cxZUZ5MTNqXzNCRVhjOUhWVGV2d2dJLTB3VGw0UmFZY0FJMktKbWZjOWpId0dGOEszb0F2ZdIBbEFVX3lxTE9xZHNDdms4Y2Q1QVZ4U0Npa0RPOTNlYk5Rd1F3T2MtbGM0TzVWU044MzBqRDNNR0cxZUZ5MTNqXzNCRVhjOUhWVGV2d2dJLTB3VGw0UmFZY0FJMktKbWZjOWpId0dGOEszb0F2ZQ?oc=5",
+      "m": "08. 14. AM 10:53",
+      "ts": 1786704813000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "동아일보",
@@ -65,28 +93,18 @@
       "fullText": ""
     },
     {
-      "s": "와우테일",
-      "t": "사이오닉에이아이, ‘스케일업 팁스’ 선정…금융·법률·공공 AI 에이전트 개발",
+      "s": "유니콘팩토리",
+      "t": "사이오닉에이아이, 규제산업용 '자가진화 AI 에이전트' 개발 나선다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tUHBfQldlZEZ2OGlNMHJMS1V5dVRZcDdBNE14aklaRUNacE4xOGd4ZXR6Um1xWkt0d21jLU93OUEzdHNzangwUVRlRmdNejQ?oc=5",
-      "m": "08. 14. AM 04:37",
-      "ts": 1786682275000,
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xek1DUTI5ME1Cck5oeGlKVTNaNlZ3R19SZzZ4OWNBelVfX29rWDRVX3B5b0NRb1M3M1J5V045MEZrWndkanZ6TTJGaW82RlNCaV9pM3V0MnJhYkhJTGx5RnRoZnR0a1F6R2puNw?oc=5",
+      "m": "08. 14. AM 04:00",
+      "ts": 1786680000000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "파이낸셜포스트",
-      "t": "사이오닉에이아이, 스케일업 팁스 선정…금융·법률·공공 AI 에이전트 실증",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5neFF4VHFHamh5TnlTellrLUpHYTladkdNWi15RFpGLXktWWhNNGJocmRkdVQzV21md05SNHFzMDE0VHFCd0JUSUl1bmNwUUNhOUdkZmpUT1ZIOWF4cnJrTE45RDRBNWMwcXFKWjhaamFJMVRW?oc=5",
-      "m": "08. 14. AM 04:27",
-      "ts": 1786681667000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "e-focus.co.kr",
-      "t": "[테크 해설] AI 자율성으로 등급 매기자…국내법엔 한 번뿐 - e-focus.co.kr",
+      "s": "이포커스",
+      "t": "[테크 해설] AI 자율성으로 등급 매기자…국내법엔 한 번뿐",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JQWZLTmQ5THJwZ1pIZVBhVW9hQTNyMmRiaG5FWTI4ZTVoSTNwdEVMY2d1a3AwcHpxUzN2QWZKNnFuNTBFbVljT0RseGppWlUxemNXelNnNWNFVmZreVpxc1BCYjhUWVJ1OTc1M21B?oc=5",
       "m": "08. 14. AM 03:52",
@@ -178,7 +196,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "newstheai.com",
+      "s": "더에이아이",
       "t": "AWS, AI 에이전트 보안 강화...‘도그우드’로 연속 행동까지 검증",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vbE9peGFSZEZyMVBOTUdnQjhyS1NGZmFWVkp0UmY4cUZHVWFoX2tqemkwWE1BOHRYeE5vSEZsVGVsUEJnd1NYRUxvZllZNEg1eU5QVk9QNnBwcmVtUUctdFoyY1Q0alNSV0E?oc=5",
@@ -208,7 +226,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "테크월드",
+      "s": "epnc.co.kr",
       "t": "AWS, AI 에이전트 행동 흐름 통제하는 오픈소스 ‘도그우드’ 공개",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CSVZzZ0JZanB1UEtwZ2dJNEd1YjJ2eXNnY09BS2FSZ21waGZlc2hRNDZzYnVxMWVTM2JIb2xWbkxQWUdLa2JmNTg4VGh5TlFiTnd5NFpqaVZFa3I4aUZsWl9ma0xudk9j?oc=5",
@@ -218,7 +236,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "헬로티",
+      "s": "hellot.net",
       "t": "AWS, 에이전트 행동 흐름 전체 검증하는 시간 기반 정책 언어 '도그우드' 출시",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tRVJtZ0d5N1RrRThLaE5GeU9sOXUySzl5QUJzY3pyb0kzd2U0M3lMcjN6QjBuY3lNWkRxZElwUUhmR2xGd293Q21jNGJFRFV3NnJuYmNlcGdCcVN0dUZF?oc=5",
@@ -228,7 +246,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "metroseoul.co.kr",
+      "s": "메트로신문",
       "t": "AWS, AI 에이전트의 연속 행동을 통제하는 오픈소스 정책 언어 '도그우드' 공개",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oYTNQbUwyUndrZFNRdXA0OE9RNEF1TTBHcC03akNxYjFiMVk2UmlsLWNwSGc0TUZ6UmgyOWJmcWV5QXgxeXA5YnNkRDAwZDh0MDZ4S29VRWtfdDFXc3hpVA?oc=5",
@@ -238,7 +256,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "datanet.co.kr",
+      "s": "데이터넷",
       "t": "AWS, 오픈소스 정책 언어 ‘도그우드’ 공개 ··· AI 에이전트 정책 제어 고도화",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETXN2SlRxNXljY2RnMFpGcVlSOERRZF9sd1R3VWxfdTFrVGZ1NTEyZ1RBNVdlUXVTY3gzMkZvSVRrbkhMT3Eta181bmM4RllPc0lNcVplcFRUc1ZjbnNCRERDcUlrRmZTZVJqZg?oc=5",
@@ -248,7 +266,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "newspim.com",
+      "s": "뉴스핌",
       "t": "\"택시 불러줘\" 서울AI재단, AI 에이전트 '말하면척척' 출시",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91cHByMF9fZHptaUNCOWpfbEVjZ2kwdTlQOVBHZ19FUmJMdkdrZnRpSnROMEk3dGRwaGo2MktsQnRjczYzYU5aSXRUeXRQcUtOU0h2U0JyZHh5eUZm?oc=5",
@@ -294,7 +312,17 @@
       "u": "https://www.nbcnews.com/video/teen-charged-with-murder-of-mother-and-brother-allegedly-used-a-i-before-their-deaths-268226629546",
       "m": "08. 13. AM 12:53",
       "ts": 1786582428000,
-      "fullText": "Tourist boat goes up in flames off Turkish coast"
+      "fullText": "NBC News Channel Minnesota man fatally stabs his wife and daughter with a screwdriver"
+    },
+    {
+      "s": "뉴시스",
+      "t": "AWS, 오픈소스 '도그우드' 공개…AI 에이전트 위험 작업 차단",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjNEVERnFvSS10eEljeEljbHRfQ2RzVVZiMzZEM2E1SldzR09TMEEzRzlTRlFWa2RST2luXzk3ZlY2OFB5LUZ2TFU0SUtmYzVpY1NTRkdBSlUzcjF4TnNkVtIBeEFVX3lxTE9yUzdmX0kwV3F4bllHR2dmbzVNQ2lPaG9FM3VsbEJKNEs3S1NQSVpqaWNobEl5cUVvTXBDWVNRd1ZKOWU5SkthZExVOUdKd1dDVDd0M2pYaXFJZlkybEw2R3E3MHdDYkhwTUQwNHk2elB3OHVTZ214LQ?oc=5",
+      "m": "08. 13. AM 12:49",
+      "ts": 1786582153000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "edaily.co.kr",
@@ -336,7 +364,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "중소기업투데이",
+      "s": "sbiztoday.kr",
       "t": "AX시대 ‘빌런’, ‘자율AI 에이전트’ 확산...보안리스크도↑",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYOUhfLVBtM3d2Ri1DUWstT01ma2ZkajZPTC1PcVVma29xTWNVdlAtVnA3bUlNT2pRMnphMWVJSzYtaHpNczNpRFBkWEU4Z1hIODJraFZSVWpOMUZHamF0NDIySjk1bVZi0gFsQVVfeXFMTmtSUm53OWRWb3BjTFhYUHNGQ3FuOUljV1pTRGhjV1lxb0Z2d3BQYnhFY0dYOEc1cTAweUREYzl4RkVaelVhRF80NjkwMjd1YTdBTGxHZkwyclkyVDlfZmdvZ0FXYmRLOXEwM1l3?oc=5",
@@ -362,36 +390,7 @@
       "u": "https://www.nbcnews.com/video/inside-the-social-media-trend-teens-call-smellmaxxing-267971141616",
       "m": "08. 07. PM 11:38",
       "ts": 1786145899000,
-      "fullText": "Tourist boat goes up in flames off Turkish coast"
-    },
-    {
-      "s": "지티티코리아",
-      "t": "기업 3곳 중 2곳 ‘AI 에이전트 사고’...접근권한·자율행동 통제 시급",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hUE9PRWw2c2JHZ19fZXM2aE5HazlwbGxLSHlRNUZhajZpNGFhbVFSd2VvZjlXLURWLXFiUy1XZnhyRDUwT09XeVd2QWVmZFVSMURsYWIycXlXWG40NjV1LUpLbkxTakp6V3c?oc=5",
-      "m": "08. 05. PM 09:30",
-      "ts": 1785965400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "ESG비즈니스리뷰",
-      "t": "EU, AI 투명성 시대 개막…딥페이크 의무 표시·챗봇 고지 8월 2일부터 시행",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XMGxzWmJTOWlha0dfRlQ5SUxMbWdmWUJRQzhOV2ZTZnRUOWE5dVFETWFMblVGVGtyYmhTWVdwMUcydERkVExyMHRVN1ZNdkkwR3VWSXo2UWZ0QXBOTmdOTkd0ZFFJSTgyaGtrRTcwZGZZVU0?oc=5",
-      "m": "08. 04. PM 03:12",
-      "ts": 1785856363000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-      "d": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today.  The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchange (SAFE), a proposed set of guidelines [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-      "m": "08. 04. PM 01:00",
-      "ts": 1785848447000,
-      "fullText": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency Linux Foundation publishing Request for Comments on Shared AI Findings Exchange (SAFE) guidelines to transform agentic cybersecurity incidents into better protection. August 4, 2026 by Justin Boitano 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchange (SAFE), a proposed set of guidelines designed to turn agentic cybersecurity incidents into shared protection for the entire ecosystem. The SAFE guidelines are being drafted by an Open Secure AI Alliance working group. NVIDIA, Cisco, CrowdStrike , Hugging Face and Red Hat are among Open Secure AI Alliance members working with the Linux Foundation to contribute to the initial proposal. The SAFE guidelines include proposals to confidentially collect and analyze AI incidents and near misses, inform those impacted, identify recurring control failures and publish evidence-based operating recommendations that reduce systemic risk. Cybersecurity is a race without a finish line. Every major technology shift has created new potential attack surfaces. Defenders must move now at agent speed to respond rapidly to protect infrastructure and intellectual property — and the best way to do that is together. When trusted ecosystems share threat intelligence openly, collective defense becomes a force multiplier. Open Secure AI Alliance Delivers More Tools for AI Cybersecurity The SAFE framework adds to technology contributions Open Secure AI Alliance members are making to build and share open, inspectable tools across the full AI security stack. An AI agent isn’t just a model. It’s a system — identity controls, harnesses, guardrails, logs and evaluati"
+      "fullText": "NBC News Channel Minnesota man fatally stabs his wife and daughter with a screwdriver"
     }
   ]
 }

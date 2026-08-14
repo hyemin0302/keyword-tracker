@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-14T20:57:01.150Z",
+  "updatedAt": "2026-08-14T21:23:13.134Z",
   "count": 40,
   "stats": {
-    "today": 7,
+    "today": 8,
     "yesterday": 4,
-    "weekAvg": 3.7,
-    "sources": 32,
+    "weekAvg": 3.9,
+    "sources": 33,
     "heat": "warm"
   },
   "items": [
@@ -18,7 +18,7 @@
       "ts": 1786740230000,
       "fullText": "",
       "impact": "neutral",
-      "takeaway": "Amazon의 새로운 사용자 약관이 클래스 액션 소송을 억제하려는 시도이지만, AI 인프라·데이터센터에 직접적인 영향은 없다."
+      "takeaway": "클래스액션 제한은 AI 인프라와 직접 연관이 없어 중립적이다."
     },
     {
       "s": "Bloomberg Tech",
@@ -29,7 +29,7 @@
       "ts": 1786731234000,
       "fullText": "",
       "impact": "negative",
-      "takeaway": "오라클 데이터 센터의 가스 파이프라인 지연은 데이터 센터의 운영 비용과 환경 영향을 증가시킬 수 있다."
+      "takeaway": "Oracle 데이터센터용 가스 파이프라인 지연으로 구축 일정이 늦어져 부정적이다."
     },
     {
       "s": "동아일보",
@@ -40,7 +40,7 @@
       "ts": 1786725600000,
       "fullText": "이동훈 기자 외 2명",
       "impact": "positive",
-      "takeaway": "게이츠 회장의 방한 발표는 SMR 협력을 강조하며 AI 시대의 기술 발전을 촉진할 수 있다."
+      "takeaway": "게이츠와 SMR 협력은 AI 시대 전력 공급 안정화에 긍정적 영향을 준다."
     },
     {
       "s": "동아일보",
@@ -50,8 +50,8 @@
       "m": "08. 14. PM 04:40",
       "ts": 1786725600000,
       "fullText": "김철중 기자,주애진 기자",
-      "impact": "negative",
-      "takeaway": "미국이 중화인민공화국을 겨냥한 드론 부품에 최대 100% 관세를 부과하는 경우, 한국의 데이터 센터 산업에 부정적인 영향을 미칠 수 있다."
+      "impact": "neutral",
+      "takeaway": "드론 부품 관세는 AI 인프라 핵심 부품이 아니므로 무관하다."
     },
     {
       "s": "TechCrunch",
@@ -62,7 +62,18 @@
       "ts": 1786719011000,
       "fullText": "The race for faster AI inference is on, and markets gave Cerebras and its purpose-built chips a warm welcome in its IPO debut in May. But French startup Kog is betting that there&#8217;s a lot more power to be squeezed out of conventional GPUs. The startup hit the front page of Hacker News in May with a tech preview aimed at proving that “extremely fast single-request decoding is possible on the standard datacenter GPUs enterprises already own” — such as the AMD MI300X and Nvidia H200 GPUs it used for its demo. Some were disappointed to hear this didn’t extend to GPUs in our laptops, but others saw the potential. With inference speed and costs now being a critical bottleneck, Kog’s promise to unlock new capabilities on existing hardware with software optimization attracted more than onlookers . “We had 200 tangible business leads,” CEO Gaël Delalleau told TechCrunch. Based on early feedback, the solo founder expects software engineering to be the first use case. Veteran Claude Code users are well aware that they sometimes have to wait hours to get results. Anthropic itself understands that speed is worth money, and charges a price multiple for Claude’s Fast Mode. Kog is hoping to target customers put off by those delays, usually because they rely on AI workflows for professional tasks. But the startup also has design partners that let users generate games and apps with a prompt, and for whom a faster outcome thanks to the Kog Inference Engine (KIE) would mean more revenue, Delalleau said. The company realizes this market is not quite mature yet. While observing demand, Kog learned that its prospective customers aren’t prepared to fine-tune small models. “And that&#8217;s why since the launch, we&#8217;ve been fully focused on accelerating the development of larger models to meet the demand we&#8217;ve seen.” This leaves Kog with a huge leap to make to deliver on its promise of “30x faster LLM inference.” Its demo showed an impressive 3,000 per-request tokens per sec",
       "impact": "positive",
-      "takeaway": "Kog의 GPU 최적화 기술은 AI 인프라·데이터센터의 성능을 향상시키고 비용을 절감할 수 있다."
+      "takeaway": "GPU 추론 효율 향상은 AI 데이터센터 비용 절감에 도움이 된다."
+    },
+    {
+      "s": "전자신문",
+      "t": "업스테이지 '솔라 프로4', 美·中 중심 AI 리더보드 첫 진입",
+      "d": "업스테이지가 자체 개발한 거대언어모델(LLM) '솔라 프로4'를 공개했다. 전작 '솔라 프로3'보다 추론 능력과 에이전트 역량을 한층 강화한 업스테이지 차세대 상용 인공지능(AI) 모델이다. 단발성 답변 위주 기존 벤치마크 점수가 아닌 문서 이해와 정보 추출, 긴 맥락 추론, 연속적인 의사결정 등 실제 업무 환경에서 요구되는 작업 흐름을 안정적으로 수행하는 데 최적화됐다. 솔라 프로4는 한국 모델 최초로 글로벌 개발자 플랫폼에 이름을 올렸다.",
+      "u": "https://www.etnews.com/20260814000345",
+      "m": "08. 14. PM 02:42",
+      "ts": 1786718550000,
+      "fullText": "AI·SW AI 업스테이지 '솔라 프로4', 美·中 중심 AI 리더보드 첫 진입 발행일 : 2026-08-14 23:42 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 업스테이지가 자체 개발한 거대언어모델(LLM) '솔라 프로4'를 공개했다. 전작 '솔라 프로3'보다 추론 능력과 에이전트 역량을 한층 강화한 업스테이지 차세대 상용 인공지능(AI) 모델이다. 단발성 답변 위주 기존 벤치마크 점수가 아닌 문서 이해와 정보 추출, 긴 맥락 추론, 연속적인 의사결정 등 실제 업무 환경에서 요구되는 작업 흐름을 안정적으로 수행하는 데 최적화됐다. 솔라 프로4는 한국 모델 최초로 글로벌 개발자 플랫폼에 이름을 올렸다. 미국 누스 리서치가 개발한 AI 에이전트 '헤르메스 에이전트'와 API 라우팅 플랫폼 '오픈라우터'에 등재됐다. 미국·중국 주요 AI기업 사이에 정식 프로바이더로 채택된 한국 기업은 업스테이지가 처음이다. 오픈라우터 등재 3일 만에 누적 토큰 소비량이 800억 토큰을 넘어섰다. 글로벌 주요 모델의 에이전트 성능을 비교하는 '에이전트 아레나' 리더보드에도 한국 모델 최초로 진입, 미국·중국 모델이 줄곧 독점해온 47개 주요 모델 순위표에 포함됐다. 한국 모델 중 처음이다. 에이전트 업무 성패를 가르는 영역을 집중 개선한 결과다. 터미널에서 여러 단계 작업을 끝까지 완수하는 능력을 평가하는 '터미널벤치'에서 57점을 기록, 전작보다 4.8배 높아졌다. 대화를 주고받으며 도구 사용 능력을 평가하는 '타우3-뱅킹'에서도 23점으로 2.6배 개선됐다. 솔라 프로4는 또 대량 장문 문서에서 정보를 추출하고 답을 추론하는 능력을 평가하는 장문 이해 벤치마크(AA-LCR)에서 71점을 기록, 전작보다 2.3배 이상 우수한 성능을 보였다. 국내 기업·공공기관 사무 환경에 특화된 한국어 성능과 문서 처리 능력도 향상, 문서 처리 통합 솔루션에도 탑재됐다. 종합 성능은 글로벌 AI 평가기관 '아티피셜 애널리시스(Artificial Analysis)' 기준 42점을 받았다. 전작보다 3배 이상 개선되며 엔비디아 '네모트론 3 울트라'(38점)와 구글 '제미나이 3.5 플래시-라이트'(37점), 미스트랄AI '미디엄 3.5'(30점), 코히어 '커맨드 A+'(23점) 등에 앞섰다. 김성훈 업스테이지 대표는 “실무에서 AI에게 필요한 것은 시험을 잘 보는 능력이 아니라 맡은 일을 끝까지 해내는 신뢰성”이라며 “우리 AI기술이 세계에서 통하는 만큼 앞으로도 현장 기술력을 바탕으로 한층 더 활용성 높은 AI를 만들어 나가겠다”고 말했다. 업스테이지는 솔라 프로4 공개에 앞서 독자 AI 파운데이션 모델 '솔라 오픈2'를 공개했다. 솔라 오픈2는 오픈웨이트 LLM으로 단순 질의응답을 넘어 수십 번의 추론과 도구 호출을 반복하며, 업무를 끝까지 처리하는 AI 에이전트에 최적화된 사용성을 지원한다. 박종진 기자 truth@etnews.com",
+      "impact": "neutral",
+      "takeaway": "업스테이지 모델 진입은 AI 서비스 수요와 관련되지만 인프라 직접 영향은 적다."
     },
     {
       "s": "TechCrunch",
@@ -73,7 +84,7 @@
       "ts": 1786716300000,
       "fullText": "After years of snapping up wind and solar developments, hyperscalers like Amazon, Google, Meta, and Microsoft are betting that natural gas will power the data centers behind their lofty AI ambitions. But a new research report suggests they may regret their newfound affinity for the fossil fuel . Natural gas prices could triple in some parts of the U.S. in the coming years as hyperscaler demand collides with declining supply growth and rising exports of liquefied natural gas, according to Noreva , an energy research firm. Hyperscalers might not be prepared for future price shocks. “I think everyone in the energy markets has been lulled into a sense that gas prices can’t go up,” Peter Gardett, CEO of Noreva, told TechCrunch. “You just need simple arithmetic to get to a much tighter gas market than you were in just a few years ago.” Hyperscalers&#8217; big bets Cheap gas has pushed hyperscalers to lock up part of the market. In March, Meta said it would build a massive 7.5-gigawatt natural gas power plant in Louisiana to power its Hyperion data center . A few days later , Microsoft and Google each said they’d build their own gigawatt-scale gas power plants, both in Texas. And not to be left out, Amazon plans to build a 7.6-gigawatt gas power plant in Texas. For companies that historically have shied away from large capital expenditures, the data center building boom suddenly has them investing heavily in the physical world while also pushing them deeper into energy markets, which are even less familiar territory. Gardett said at least one investor he spoke with was “surprised” by how much natural gas price risk hyperscalers are willing to take on. “They’re doing things that are not normal for an off-taker to do,” he said. Noreva expects natural gas prices to soar above $10 per million BTUs in certain hubs, or delivery points for futures contracts. Today, prices range from about $2 to $4.50 per million BTUs, with the widely traded Henry Hub in Louisiana priced at just u",
       "impact": "negative",
-      "takeaway": "자연 가스에 의존하는 데이터 센터가 새로운 예측에 따라 후회할 수 있다."
+      "takeaway": "천연가스 의존 데이터센터 비용 상승 위험이 AI 인프라에 부정적이다."
     },
     {
       "s": "연합뉴스",
@@ -84,10 +95,10 @@
       "ts": 1786676328000,
       "fullText": "민형배 전남광주통합특별시장은 14일 \"조만간 SK에서 100조원 가량의 대규모 투자 계획을 발표하게 될 것이다\"고 밝혔다. 정부도 지난 11일 국무회의에서 기업 수요에 따라 광주 군공항 부지에 들어설 반도체 국가산단을 기존 반도체팹 4기에서 추가로 확대하는 방안을 검토하고 있다고 언급했다. 광주 군공항 부지는 250만평 상당으로 기존 반도체팹 4기를 넘어서는 상당수 팹을 수용할 수 있는 규모다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
       "impact": "positive",
-      "takeaway": "전남 동부권에 100조 데이터 센터를 투자하는 SK의 계획은 지역 경제를 활성화하고 데이터 센터 산업을 확대할 수 있다."
+      "takeaway": "SK의 100조원 데이터센터 투자 확대는 AI 인프라 성장에 긍정적이다."
     },
     {
-      "s": "뉴스핌",
+      "s": "newspim.com",
       "t": "AI 데이터센터에 월가 돈줄 풀린다…SEC 규제 완화에 '5000억달러' 자금 몰린다",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aNVZqV0ZMOHZ0VEp4UE5fSk90R3kyblZGR0gzX3lOZU9Xam5yRmN6XzNtbm9ZY3NfZ3RrR3FhOHRHS0FsT3BwN1NBbnZvUWZvT2pwS1hZOFpWdl9G?oc=5",
@@ -96,7 +107,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "SEC 규제 완화는 AI 데이터 센터에 월가의 자금을 몰아 AI 인프라 확대를 촉진할 수 있다."
+      "takeaway": "SEC 규제 완화와 5천억 달러 자금 유입은 AI 데이터센터 확장에 촉진제다."
     },
     {
       "s": "삼성뉴스룸",
@@ -107,7 +118,7 @@
       "ts": 1786609800000,
       "fullText": "삼성전자, 인도에 플랙트그룹 신규 생산라인 준공…AI 데이터센터 공략 강화 2026/08/13 AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성전자가 인도에 플랙트그룹의 신규 냉난방공조(HVAC) 생산라인을 준공하고, 인도와 아시아·태평양 지역의 AI 데이터센터 시장 공략을 강화한다. 삼성전자는 12일(현지시간) 인도 마하라슈트라주 푸네에서 플랙트그룹 신규 생산라인 준공식을 개최했다. 이날 행사에는 삼성전자 DA사업부장 김철기 부사장, 플랙트그룹 데이비드 도니(David Dorney) 대표 등 경영진과 주요 거래선 관계자 100여 명이 참석했다. 신규 생산라인은 기존 노이다 생산시설과 함께 인도는 물론 아시아·태평양 지역 고객에게 보다 신속하게 HVAC 솔루션을 공급하기 위한 핵심 생산기지 역할을 할 예정이다. 신규 생산라인이 위치한 푸네는 인도의 데이터센터 및 산업 인프라가 빠르게 성장하고 있는 지역이며, 뭄바이 항구와 인접해 공급망 효율을 높일 수 있는 전략적 입지를 갖추고 있다. 신규 생산시설은 생산라인과 사무실, 부대시설 등을 포함해 1만 3,826㎡(4,190여평) 규모로 조성됐으며, 올해 초 설비 및 장비 구축에 착수해 약 6개월 만에 양산 체제를 갖췄다. 완전 가동 단계에 들어서면 연간 최대 6,500대의 HVAC 장비를 생산할 수 있다. 푸네 생산라인에서는 플랙트그룹의 주력 제품인 공기조화기(Air Handling Unit, AHU)를 비롯해, 팬 월 유닛(Fan Wall Unit, FWU), 컴퓨터룸 공기 처리 장치(Computer Room Air Handler, CRAH) 등 다양한 HVAC 장비가 생산된다. AHU는 냉각수를 이용해 데이터센터와 대형 상업용 건물 내 공기를 식히고 공기질을 쾌적하게 관리해주는 제품이다. 벽면 설치형 송풍 장비인 FWU와 고정밀 공기 조절 장치인 CRAH는 서버실 내 IT 장비가 최적의 상태를 유지할 수 있도록 한다. 삼성전자 DA사업부장 김철기 부사장은 &#8220;이번 인도 푸네 생산라인 준공은 인도를 넘어 아시아·태평양 지역으로 HVAC 공급을 확대하는 중요한 이정표&#8221;라며 &#8220;삼성의 AI·플랫폼 기술력과 플랙트그룹의 HVAC 역량을 결합해 AI 데이터센터를 비롯한 다양한 고객에게 최상의 가치를 제공하겠다&#8221;고 말했다. ▲ 왼쪽부터 플랙트그룹 데브라지 싱(Devraj Singh) 아시아영업총괄, 삼성전자 김철기 DA사업부장(부사장), 플랙트그룹 데이비드 도니(David Dorney) CEO, 삼성전자 DA사업부 임성택 HVAC사업팀장(부사장). ▲ 삼성전자가 12일(현지시간) 인도 마하라슈트라주 푸네에서 플랙트그룹 신규 생산라인 준공식을 개최했다. HVAC 냉난방공조 제품뉴스 가전 프레스센터 보도자료 제품뉴스 프레스센터 삼성전자 뉴스룸의 직접 제작한 기사와 이미지는 누구나 자유롭게 사용하실 수 있습니다. 그러나 삼성전자 뉴스룸이 제공받은 일부 기사와 이미지는 사용에 제한이 있습니다. 삼성전자 뉴스룸 콘텐츠 이용에 대한 안내 바로가기 보다 다양한 삼성전자 소식은? 삼성전자, 플랙트그룹과 유럽 최대 공조 전시 MCE 참가 2026/03/24 보도자료 [인터뷰] “HVAC, 삼성의 차세대 핵심 성장 동력”…삼성전자, AI·초연결로 시장 주도권 잡는다 2026/02/06 삼성전자, 美 냉난방공조 전시회 참가…주거용·상업용 솔루션으로 북미 공략 2026/02/03 보도자료 [인터뷰] 데이비드 도니 플랙트그룹 CEO &#8220;삼성과 협력, 공조시장 글로벌 리더로 도약할 것&#8221; 2026/01/02 slide prev slide next 최신기사 더보기 다운로드 닫기 삼성전자-가전-인도-플랙트그룹-신규-생산라인-준공-1-DL.jpg 파일 다운로드 삼성전자-가전-인도-플랙트그룹-신규-생산라인-준공-1-DL.jpg 파일 다운로드 미리보기 삼성전자-가전-인도-플랙트그룹-신규-생산라인-준공-1-DL.jpg 삼성전자-가전-인도-플랙트그룹-신규-생산라인-준공-3-DL.jpg 파일 다운로드 삼성전자-가전-인도-플랙트그룹-신규-생산",
       "impact": "positive",
-      "takeaway": "삼성전자 인도의 플랙트그룹 신규 생산라인 준공은 AI 데이터 센터 공략을 강화하고 지역 경제를 활성화할 수 있다."
+      "takeaway": "삼성의 인도 생산라인 완공은 AI 데이터센터 공급망 강화에 기여한다."
     },
     {
       "s": "The Economy Korea",
@@ -117,9 +128,7 @@
       "m": "08. 13. AM 08:26",
       "ts": 1786609602000,
       "_policy": true,
-      "fullText": "Google News",
-      "impact": "negative",
-      "takeaway": "미국 전역의 데이터 센터 모라토리엄은 환경 및 전력 부담 우려로 인해 AI 인프라 확대의 진행을 지연시킬 수 있다."
+      "fullText": "Google News"
     },
     {
       "s": "한경 IT",
@@ -161,7 +170,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "뉴스핌",
+      "s": "newspim.com",
       "t": "[로펌이슈] 태평양, 'AI 인프라전략센터' 출범…100여명 전문가 원스톱 자문",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kU3VuWU83TkZzYk9sRS16Q1pudkw5WWFnQ1d5a0tZT0NGdkZtcXpOdU5qOGlad1VXdGJRam5pSjJyRUdhbFFXNGt6RGJCaDZ6dHl4cmdKNjMzam9l?oc=5",
@@ -171,7 +180,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "dnews.co.kr",
+      "s": "대한경제",
       "t": "[로펌 Biz] 개발ㆍ투자ㆍ전력ㆍ규제 ‘원스톱 자문’",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUb2hBTU1lUHZyc0tYaVFvYXJjd1kwQXNqT3JXUkY0UGxpOTVMd01xVmFJSS10WkNOVlloUkZPM1FiSXY5QXF1YnlQa2VwTUk1LVJXRmltaEplZmVMM2tyaHRMWWV3am5iX3I4ajVjdmphellO?oc=5",
@@ -216,7 +225,7 @@
       "u": "https://www.nbcnews.com/video/fears-grow-over-privacy-as-meta-a-i-glasses-gain-popularity-268149317783",
       "m": "08. 11. PM 11:44",
       "ts": 1786491881000,
-      "fullText": "Woman arrested for WWII Memorial vandalism in D.C."
+      "fullText": "Meet the Press Meet the Press NOW — August 14"
     },
     {
       "s": "더구루",
@@ -308,7 +317,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "뉴스핌",
+      "s": "newspim.com",
       "t": "용산 데이터센터 건립, 6일 주민설명회서 해법 찾을까…혐오시설 인식 부담",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XZE1HOWw1SDRMRzhPdmZEbEhqZHdaWjNqQlNDODZyWmJ6VEdPOGxETTA3Q2tFa2dlZHZOVGNrWFl3bDJRTkJjbXBYRWZ0Yk5hNy0xQWhiQzlwQ3NI?oc=5",
@@ -324,7 +333,7 @@
       "u": "https://www.nbcnews.com/video/at-t-needs-more-workers-to-help-install-new-fiber-lines-to-power-ai-centers-267851333577",
       "m": "08. 06. AM 01:03",
       "ts": 1785978211000,
-      "fullText": "Woman arrested for WWII Memorial vandalism in D.C."
+      "fullText": "Meet the Press Meet the Press NOW — August 14"
     },
     {
       "s": "쿠키뉴스",
@@ -337,7 +346,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "중소기업투데이",
+      "s": "sbiztoday.kr",
       "t": "산은-우정사업본부, AI 인프라에 1조원 투자…데이터센터·전력망 구축 나선다",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CR2JRVEhOSUlQNTRsNWU4M2QxRGc5UTBEejk1UWRxRmZKY2hPSVE1ZElIUnlYMG9oUjViZVd6TDJ5SFo5LUtqNTdBOGxWN2ZrUWV6OThKTm9LMDZPbVBQcjBZVTFZRGhD0gFsQVVfeXFMUGo1XzQycWxtM252TU9HYmRfYUhTc00wS0FHeFAzX1FDWG03WWpqemVESFlqSVNkZ2lkR1dsRzZuY3hXejJBa3JqWXpMeHM5V2ZRZGNEbDFDSGJJRVp1UnNrRk1ORWhqMUdIQ3BF?oc=5",
@@ -403,16 +412,6 @@
       "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BSDJQdWtrN244VDJJTkk1WWNLa3FnTlNwVWQ5eTlqRnFKMEVCQjRqWHRrS2NzemJ6Nmo3VkxCLXNMdkphaG9McGk2OUZwN2FRWmpubnlyV2lIVzZPMjEtVUpONA?oc=5",
       "m": "08. 04. AM 07:14",
       "ts": 1785827653000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "[AI 고속도로] 英, AI 데이터센터 투자 본격화…韓 전력·냉각 기업에 기회 열리나",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9adWNrLTlLVDY5eFZOenc0YzRSUVpLQTR2d3NRLVBxOVAzRF9YaEl4dHV0UWNuNkd2dl9qTTZ0ek9XNFh0ckhMb2E5el9ZTExSdURDSUlR?oc=5",
-      "m": "08. 04. AM 07:00",
-      "ts": 1785826800000,
       "_policy": true,
       "fullText": "Google News"
     }

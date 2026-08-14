@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-08-14T16:14:40.680Z",
+  "updatedAt": "2026-08-14T17:27:06.695Z",
   "count": 40,
   "stats": {
-    "today": 4,
-    "yesterday": 4,
+    "today": 5,
+    "yesterday": 3,
     "weekAvg": 2.1,
-    "sources": 32,
+    "sources": 34,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "동아일보",
+      "t": "엔비디아 두뇌-LG 몸체… 이족보행 합작 로봇 내년 나온다",
+      "d": "LG그룹이 글로벌 인공지능(AI) 반도체 1위 기업 엔비디아와 손잡고 ‘피지컬 AI 생태계 주도권 확보에 나섰다. 엔비디아의 소프트웨어 파워에 LG의 하드웨어 역량을 결합하는 전방위적 동맹이다. 양사는 내년 1분기(1∼3월) 차세대 휴머노이드 로봇을 공개하고, 2028년 상반기(1∼6월)에는 국내에 대규모 AI 팩토리를 공동 구축하는 등 글로벌 시장에 피지컬 AI의 새로운 표준을 제시한다는 계획이다. 14일 LG에 따르면 구광모 LG그룹 회장은 13일(현지 시간) 미국 캘리포니아주 엔비디아 본사에서 젠슨 황 엔비디아 최고경영자(CEO)를 만나 ‘전략적 사업협력을 위한 양해각서(MOU)’를 체결했다. 올해 6월 서울 여의도 LG 본사에서 구 회장과 황 CEO가 만나 그룹 차원의 협력을 공식화한 이후 2개월 만",
+      "u": "https://www.donga.com/news/Economy/article/all/20260814/134482310/2",
+      "m": "08. 14. PM 04:40",
+      "ts": 1786725600000,
+      "fullText": "이동훈 기자 구독",
+      "impact": "positive",
+      "takeaway": "엔비디아와 LG가 공동으로 개발하는 이족보행 로봇이 내년 출시될 예정이다."
+    },
     {
       "s": "조선일보",
       "t": "LG 몸체에 엔비디아 두뇌… 공동 개발 휴머노이드 내년 공개",
@@ -28,8 +39,8 @@
       "m": "08. 14. PM 02:50",
       "ts": 1786719011000,
       "fullText": "The race for faster AI inference is on, and markets gave Cerebras and its purpose-built chips a warm welcome in its IPO debut in May. But French startup Kog is betting that there&#8217;s a lot more power to be squeezed out of conventional GPUs. The startup hit the front page of Hacker News in May with a tech preview aimed at proving that “extremely fast single-request decoding is possible on the standard datacenter GPUs enterprises already own” — such as the AMD MI300X and Nvidia H200 GPUs it used for its demo. Some were disappointed to hear this didn’t extend to GPUs in our laptops, but others saw the potential. With inference speed and costs now being a critical bottleneck, Kog’s promise to unlock new capabilities on existing hardware with software optimization attracted more than onlookers . “We had 200 tangible business leads,” CEO Gaël Delalleau told TechCrunch. Based on early feedback, the solo founder expects software engineering to be the first use case. Veteran Claude Code users are well aware that they sometimes have to wait hours to get results. Anthropic itself understands that speed is worth money, and charges a price multiple for Claude’s Fast Mode. Kog is hoping to target customers put off by those delays, usually because they rely on AI workflows for professional tasks. But the startup also has design partners that let users generate games and apps with a prompt, and for whom a faster outcome thanks to the Kog Inference Engine (KIE) would mean more revenue, Delalleau said. The company realizes this market is not quite mature yet. While observing demand, Kog learned that its prospective customers aren’t prepared to fine-tune small models. “And that&#8217;s why since the launch, we&#8217;ve been fully focused on accelerating the development of larger models to meet the demand we&#8217;ve seen.” This leaves Kog with a huge leap to make to deliver on its promise of “30x faster LLM inference.” Its demo showed an impressive 3,000 per-request tokens per sec",
-      "impact": "positive",
-      "takeaway": "Kog가 GPU의 추론 성능을 향상시키기 위해 더 많은 노력을 기울일 예정이다."
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "한경 경제",
@@ -54,17 +65,6 @@
       "takeaway": "LG와 엔비디아가 AI 기술을 공동으로 개발하고 휴머노이드와 모빌리티까지 확장할 예정이다."
     },
     {
-      "s": "TechCrunch",
-      "t": "Nvidia&#8217;s new $500B plan is risky but brilliant, especially for aging GPUs",
-      "d": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
-      "u": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
-      "m": "08. 13. PM 03:08",
-      "ts": 1786633680000,
-      "fullText": "Nvidia announced this week that Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR were willing to commit up to $500 billion to build AI data centers. That eye-popping figure got a lot of the attention, but the bigger story is Nvidia&#8217;s effort to create a secondary market for aging GPUs. To convince those big-name financial companies, Nvidia has agreed to guarantee, with its own money, that its chips used as collateral in these deals will retain their value. Many have now commented on how unusual , smart , and dangerous this plan is. It is all of those things. The bond markets got so spooked that Nvidia CEO Jensen Huang took to X and business TV to better explain how Nvidia&#8217;s risk would be limited. But underneath the financial maneuvering to fund AI data centers (and keep revenue for Nvidia flowing), is something, perhaps, far more interesting for startups and enterprises: Huang wants to ensure an ecosystem of used AI hardware flourishes, helping sustain demand for Nvidia hardware as it ages. Specifically, Nvidia is promising that if GPUs used as collateral don&#8217;t retain their value as expected, the company will cover up to 25% of the difference. So, if a data center owner defaults on a loan and the lender must liquidate, but the chips can&#8217;t command the price the books say they should, Nvidia will chip in. The dangerous part for Nvidia is that this creates something financiers call &#8220;wrong way&#8221; risk. That is, Nvidia&#8217;s obligations will grow as demand weakens. Should that happen, its revenues will likely be squeezed as well. Still, the scheme is deliberately unlike the comparison to Lucent Technologies that some have been making. Lucent was the telecommunications equipment provider that rose and crashed with the dotcom bubble after lending its customers money to buy its wares. The Lucent comparison is a shadow over Nvidia, Huang knows. And not an unfair one. Nvidia definitely has committed billions toward those who",
-      "impact": "positive",
-      "takeaway": "엔비디아가 새로운 500조원 계획을 발표했으며, 나이가 많은 GPU에 대한 혁신을 가져올 것으로 기대된다."
-    },
-    {
       "s": "아시아투데이",
       "t": "삼성·SK, 美 로비에 850만달러…AI ‘룰 전쟁’ 본격화",
       "d": "",
@@ -73,8 +73,8 @@
       "ts": 1786609570000,
       "_policy": true,
       "fullText": "Google News",
-      "impact": "neutral",
-      "takeaway": "삼성과 SK가 미국 로비에 850만달러를 투자했으며, AI '룰 전쟁'이 본격화되었다."
+      "impact": "negative",
+      "takeaway": "삼성과 SK가 AI 기술에 대한 로비를 통해 경쟁을激化시키고 있다."
     },
     {
       "s": "한경 IT",
@@ -85,7 +85,7 @@
       "ts": 1786609526000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 리벨리온·퓨리오사AI·딥엑스, 국산 NPU 혁신제품 지정 입력 2026.08.13 17:25 수정 2026.08.14 01:07 지면 A14 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 리벨리온&middot;퓨리오사AI&middot;딥엑스 등 국내 인공지능(AI) 반도체 기업의 제품이 정부의 우수연구개발 혁신제품으로 지정됐다. 과학기술정보통신부는 13일 경기 성남 리벨리온 본사에서 &lsquo;우수연구개발 혁신제품 지정서 수여식&rsquo;을 열고 지난해와 올해 상반기 신규 지정된 13개 기업에 지정서와 현판을 수여했다. 올해 상반기에는 리벨리온의 딥러닝 추론 전용 신경망처리장치(NPU) 기반 AI 연산용 카드&middot;서버, 퓨리오사AI와 딥엑스의 AI 반도체 등이 혁신제품으로 지정됐다. 혁신제품으로 지정되면 기본 3년 동안 정부와 지방자치단체 등 공공기관이 수의계약으로 제품을 구매할 수 있다. 이영애 기자 0ae@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 이영애 ADVERTISEMENT 관련 뉴스 1 업스테이지·퓨리오사AI·AXZ, '소버린 AI' 위해 3사 뭉쳤다 “독자적으로 만든 대규모언어모델(LLM)이 국산 신경망처리장치(NPU)에서 돌아가고, 국산 포털의 실시간 서비스에서 실행되고 있습니다.”김성훈 업스테이지 대표는 15일 퓨리오사AI·... 2026.07.15 17:20 2 딥엑스, 日 AI 반도체 시장 공략 인공지능(AI) 반도체 기업 딥엑스가 일본 시장 공략에 속도를 낸다. 제조·로봇·자동차 등 현장형 AI 수요가 많은 일본에서 현지 유통망을 확보해 상용화 사례를 늘리겠다는 전략이다.딥엑스는 ... 2026.07.03 17:32 3 토종 AI기업들, IPO 행선지 고심 토종 인공지능(AI) 대표 기업들이 기업공개(IPO) 행선지를 놓고 고심에 빠졌다. 당초 코스닥시장 입성이 유력하게 점쳐졌으나 정부 자금을 유치하는 과정에서 기업가치가 급격히 커지자 유가증권시장 상장 가능성이 함께 ... 2026.07.01 17:33 ADVERTISEMENT 많이 본 뉴스 1 \"색깔별로 5~6장씩 사가요\"…외국인들 푹 빠진 한국 브랜드 2026.08.13 09:46 2 \"강남까지 15분\"…10억이던 아파트, 1년 만에 '대반전' 2026.08.13 08:00 3 '누가 사냐' 조롱받던 실패작…50년 만에 '3경 대박' 일냈다 2026.08.12 20:00 4 '고점' 찍고 추락하더니…\"일감 쏟아진다\" 반등 시작한 회사 2026.08.13 08:25 5 \"40억 강남 아파트 비워두겠다\"…기이한 방법 택한 집주인들 2026.08.13 06:30 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT",
       "impact": "positive",
-      "takeaway": "리벨리온, 퓨리오사AI, 딥엑스가 국산 NPU 혁신제품을 지정받았다."
+      "takeaway": "국산 NPU 혁신제품이 개발되면서 AI 반도체 기술이 발전하고 있다."
     },
     {
       "s": "헤럴드경제",
@@ -97,7 +97,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "김용범이 AI 반도체 기술이 다른 씨앗을 키우는 기반을 제공할 것이라고 말했다."
+      "takeaway": "AI 반도체 기술이 다른 기술을 키우는 기반을 제공하고 있다."
     },
     {
       "s": "전자신문",
@@ -109,7 +109,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "neutral",
-      "takeaway": "반도체 특별법이 시행되면서 산업 투자와 혁신이 앞당겨질 것으로 기대된다."
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "NVIDIA공식",
@@ -120,7 +120,7 @@
       "ts": 1786460406000,
       "fullText": "Why Scaling AI Compute Performance Requires a New Power Architecture NVIDIA 800 VDC helps existing and future AI factories scale compute performance beyond the limits of traditional power distribution. August 11, 2026 by Harry Petty 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more efficient, scalable power distribution. The bottleneck isn’t just wattage. It’s how power gets from the grid to the GPU. In traditional power delivery, electricity travels from the grid as an alternating current (AC) and gets converted multiple times, each time adding overhead and complexity as racks become denser. At the power levels that next-generation AI compute demands, even small inefficiencies compound quickly. 800 VDC simplifies that path. By distributing power at higher voltage through a direct current (DC), fewer conversion stages stand between the grid and the accelerator — which means more of the available power reaches the compute. NVIDIA DSX reference designs are built to guide AI factories through the transition from today’s AC infrastructure through hybrid architectures and into fully native 800 VDC facilities. NVIDIA, Google and Microsoft have been developing the 800 VDC architecture together through the Open Compute Project (OCP), and published a joint white paper March 2026 and the LVDC Solid-State Transformer Specification v0.3 July 2026. More than 80 equipment manufacturers and infrastructure companies are already building products to this specification. Existing Facilities Don’t Have to Wait Most of today’s AI factories were designed around AC distribution. The NVIDIA MGX-compatible 800 VDC power rack, arriving in the second half of 2026, creates a hybrid architecture that brings next-generation rack-scale compute performance to facilities that are already built and operational. It’s des",
       "impact": "neutral",
-      "takeaway": "AI 컴퓨트 성능을 향상시키기 위해 새로운 파워 아키텍처가 필요하다고 말했다."
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "헬로디디",
@@ -233,16 +233,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "글로벌이코노믹",
-      "t": "美, 글로벌파운드리스에 4356억원 지원…AI 반도체 공급망 자립 속도",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX0xGRHpvVkdWalJpekYzeEg2RDc5bGJKVEZpRTNwWWFtSVhqMTRSSGVrUVZxWTM0OTZTT3I3M1dwM013NGVQd1FEVFA0VUdNX1BTejEwaVpNb0tKLXZkNzc3eWRKYXhzajhKQnd0a1dPb0lWVXJsUnB2bGpZX1l6Qm5rdlV0Z3Ff?oc=5",
-      "m": "07. 29. AM 07:00",
-      "ts": 1785308400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "대한민국 정책브리핑",
       "t": "[과학기술정보통신부 × AMD] AI반도체 생태계 협력에 관한 양해각서 체결 - 카드/한컷 | 멀티미디어",
       "d": "",
@@ -263,6 +253,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "g-enews.com",
+      "t": "美, 글로벌파운드리스에 4356억원 지원…AI 반도체 공급망 자립 속도 - g-enews.com",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX0xGRHpvVkdWalJpekYzeEg2RDc5bGJKVEZpRTNwWWFtSVhqMTRSSGVrUVZxWTM0OTZTT3I3M1dwM013NGVQd1FEVFA0VUdNX1BTejEwaVpNb0tKLXZkNzc3eWRKYXhzajhKQnd0a1dPb0lWVXJsUnB2bGpZX1l6Qm5rdlV0Z3Ff?oc=5",
+      "m": "07. 29. AM 07:00",
+      "ts": 1785308400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "조선일보",
       "t": "견제? 활용?… 중국 AI·반도체 규제 놓고 갈라진 美 빅테크",
       "d": "",
@@ -273,16 +273,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "NVIDIA공식",
-      "t": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
-      "d": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
-      "m": "07. 27. AM 12:45",
-      "ts": 1785113142000,
-      "fullText": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs The Vera CPU is speeding up next-generation NVIDIA chip designs, and early testing shows up to 1.5x higher performance on key verification and simulation workloads. July 26, 2026 by Ivan Goldwasser 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across EDA workflows used to develop its next generation of CPUs and GPUs, demonstrating how high-performance CPU architecture can help accelerate some of the industry&#8217;s most demanding engineering workloads. Accelerating Critical EDA Workloads What’s at stake is the pace of chip production. In turn, the tempo of industry technologies that stand to benefit from boosted EDA workloads, driving development momentum. Simulation, verification and implementation technologies play a central role in semiconductor development. Long before a chip reaches manufacturing, engineers spend years validating behavior, identifying corner cases and refining designs through thousands of iterations. While GPUs and AI have accelerated many aspects of chip design, several critical EDA workloads remain heavily dependent on CPU performance. Logic simulation, formal verification and portions of digital implementation often depend on fast individual cores, efficient memory systems and strong overall throughput. That makes CPU architecture an important factor in determining how quickly engineering teams can validate designs, explore alternatives and move products toward tapeout. Vera cluster in NVIDIA Portland data center. Highlighting Early Results With Cadence and Synopsys NVIDIA&"
-    },
-    {
-      "s": "electimes.com",
+      "s": "전기신문",
       "t": "AI 반도체 시대 광반도체 혁신생태계, 전남광주가 정책허브 역할 수행해야",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRdWdZNjhmVkJ0QTBfYjRUenRTMncxelljVmNDNTFxSE5pUlI0UUlnTlg0dkh0SkRVaVFBUTQ2c3lQVHE5MERBTURCaVVBSjNsaDdIc0VHejlMMHE0Vkd0bVRtalJaXzhCdElTYdIBcEFVX3lxTE9DWkNyUWgtSlZpdFBNWW10YW9RU1Z2Sml5TkxHZUdqU2xzcDVpZHp6UlNTcWtfYmxFQUpDRkxWSTVVUS1qTGhBcDduaURlZXNKNC1LRTV4SU9GOHdBQ1dBUHVwQXFIelMwZUJZcG53bzY?oc=5",
@@ -362,7 +353,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "서울경제",
+      "s": "sedaily.com",
       "t": "“유럽 기술 주권 되찾겠다”...EU, 반도체·AI 육성 총력",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sN0I4VnFvUlRlcy16a3RYalp1b0lLVk83Z3VVUXdHd3U5YW14VFl4RzdqLVdXb2RWbHZlbXFSOG04UVg5Z3VwZTQ1VllVbHIxeUHSAVNBVV95cUxPVU1rQVJreUpxVjQ0SDZDX3laTzJVY3hWeDFwN0FtUlJwVDc0WXdzVXFJZk1oa3hyUWZKanhKU2IwWi1aaEdmVEFHUXRKMTJ1NVdGdw?oc=5",
@@ -382,20 +373,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "Naver Blog",
-      "t": "한미반도체, 美 법인 설립…AI 반도체 공급망 정조준",
+      "s": "시사타파NEWS",
+      "t": "김용범 국민배당금에 “색깔론”…미국의 AI 배당 논쟁은 어디까지 왔나 [김헌식 칼럼]",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pckNSUy00TDJBYmFRdGV1ZE5ERGJYYmxxRjBuOU5TQWZsZkdUTDRJT05rZ0JuVjlORkl6WEVSLThVVmtUdFE0SE1ZT3pVU1VHSlpySzNSVm5LUQ?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KN3l2bUpJZnpNYzREeHdEdzhJWWxlU3dtd3JvandWM2U4eFVlSzF1MFh4QXltX1FFOFZmVDYyMUFhREVXSlRTUkNsRDMxSTJxaGxacjdVbGlEUjduX3fSAWtBVV95cUxPQVNBX1VOeWtVM2Z3WnlqaVdnTXhUdHUxblVYZUJkaE9URXFGc3pnN2hHcXNQa09IQkExUjBRWEtONVBxNVdfYmRvMzl0cWd5b3MwQUptNFNwdklQOU9lZ21KeWtRUDJDd3dyZw?oc=5",
       "m": "05. 17. AM 07:00",
       "ts": 1779001200000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "시사타파NEWS",
-      "t": "김용범 국민배당금에 “색깔론”…미국의 AI 배당 논쟁은 어디까지 왔나 [김헌식 칼럼]",
+      "s": "Naver Blog",
+      "t": "한미반도체, 美 법인 설립…AI 반도체 공급망 정조준",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KN3l2bUpJZnpNYzREeHdEdzhJWWxlU3dtd3JvandWM2U4eFVlSzF1MFh4QXltX1FFOFZmVDYyMUFhREVXSlRTUkNsRDMxSTJxaGxacjdVbGlEUjduX3fSAWtBVV95cUxPQVNBX1VOeWtVM2Z3WnlqaVdnTXhUdHUxblVYZUJkaE9URXFGc3pnN2hHcXNQa09IQkExUjBRWEtONVBxNVdfYmRvMzl0cWd5b3MwQUptNFNwdklQOU9lZ21KeWtRUDJDd3dyZw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pckNSUy00TDJBYmFRdGV1ZE5ERGJYYmxxRjBuOU5TQWZsZkdUTDRJT05rZ0JuVjlORkl6WEVSLThVVmtUdFE0SE1ZT3pVU1VHSlpySzNSVm5LUQ?oc=5",
       "m": "05. 17. AM 07:00",
       "ts": 1779001200000,
       "_policy": true,
@@ -416,6 +407,16 @@
       "t": "한미반도체, 미국법인 '한미USA' 설립…AI반도체 시장 공략",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Yc1d5YUFST0M0MGhGQk5fWU9DcWxwX2FJeW1ObnREUmVMQXJ1UGVxRDMwT0Q5ckRxREhDTnBKRk5ZaHE4VkFhTEhzVGRsUXkxQURiQk55VXVMcDTSAWBBVV95cUxPTEJEc2Nfc2VRZ1JucGZyLTMxLXdpQWNvSXJwNlZvTEhMN3d2NlhERktERE8wcnVpV0dnMk93M1BIbm5UT2NUb1dwQUlnUDR2VDdkYUFoM0h3M2V3NU5kMVQ?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "브릿지경제",
+      "t": "한미반도체, 올해 말 美 법인 세운다⋯ “장비 수주 확대 기대”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1emNHOEhQZVFZR2g4Z2FDWEFEbzh2eXB0Z3hhYUJpM0V0di1kb05uQThjblcyd005djVQbVZySTQ5YVFDSVB0c0VhMDVkZE1LS1FacnlyZnlIQQ?oc=5",
       "m": "05. 15. AM 07:00",
       "ts": 1778828400000,
       "_policy": true,

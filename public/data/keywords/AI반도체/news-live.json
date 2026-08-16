@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-16T20:46:42.928Z",
+  "updatedAt": "2026-08-16T21:15:00.184Z",
   "count": 40,
   "stats": {
     "today": 0,
     "yesterday": 0,
     "weekAvg": 1.1,
-    "sources": 31,
+    "sources": 32,
     "heat": "cold"
   },
   "items": [
@@ -16,7 +16,9 @@
       "u": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
       "m": "08. 14. PM 02:50",
       "ts": 1786719011000,
-      "fullText": "The race for faster AI inference is on, and markets gave Cerebras and its purpose-built chips a warm welcome in its IPO debut in May. But French startup Kog is betting that there&#8217;s a lot more power to be squeezed out of conventional GPUs. The startup hit the front page of Hacker News in May with a tech preview aimed at proving that “extremely fast single-request decoding is possible on the standard datacenter GPUs enterprises already own” — such as the AMD MI300X and Nvidia H200 GPUs it used for its demo. Some were disappointed to hear this didn’t extend to GPUs in our laptops, but others saw the potential. With inference speed and costs now being a critical bottleneck, Kog’s promise to unlock new capabilities on existing hardware with software optimization attracted more than onlookers . “We had 200 tangible business leads,” CEO Gaël Delalleau told TechCrunch. Based on early feedback, the solo founder expects software engineering to be the first use case. Veteran Claude Code users are well aware that they sometimes have to wait hours to get results. Anthropic itself understands that speed is worth money, and charges a price multiple for Claude’s Fast Mode. Kog is hoping to target customers put off by those delays, usually because they rely on AI workflows for professional tasks. But the startup also has design partners that let users generate games and apps with a prompt, and for whom a faster outcome thanks to the Kog Inference Engine (KIE) would mean more revenue, Delalleau said. The company realizes this market is not quite mature yet. While observing demand, Kog learned that its prospective customers aren’t prepared to fine-tune small models. “And that&#8217;s why since the launch, we&#8217;ve been fully focused on accelerating the development of larger models to meet the demand we&#8217;ve seen.” This leaves Kog with a huge leap to make to deliver on its promise of “30x faster LLM inference.” Its demo showed an impressive 3,000 per-request tokens per sec"
+      "fullText": "The race for faster AI inference is on, and markets gave Cerebras and its purpose-built chips a warm welcome in its IPO debut in May. But French startup Kog is betting that there&#8217;s a lot more power to be squeezed out of conventional GPUs. The startup hit the front page of Hacker News in May with a tech preview aimed at proving that “extremely fast single-request decoding is possible on the standard datacenter GPUs enterprises already own” — such as the AMD MI300X and Nvidia H200 GPUs it used for its demo. Some were disappointed to hear this didn’t extend to GPUs in our laptops, but others saw the potential. With inference speed and costs now being a critical bottleneck, Kog’s promise to unlock new capabilities on existing hardware with software optimization attracted more than onlookers . “We had 200 tangible business leads,” CEO Gaël Delalleau told TechCrunch. Based on early feedback, the solo founder expects software engineering to be the first use case. Veteran Claude Code users are well aware that they sometimes have to wait hours to get results. Anthropic itself understands that speed is worth money, and charges a price multiple for Claude’s Fast Mode. Kog is hoping to target customers put off by those delays, usually because they rely on AI workflows for professional tasks. But the startup also has design partners that let users generate games and apps with a prompt, and for whom a faster outcome thanks to the Kog Inference Engine (KIE) would mean more revenue, Delalleau said. The company realizes this market is not quite mature yet. While observing demand, Kog learned that its prospective customers aren’t prepared to fine-tune small models. “And that&#8217;s why since the launch, we&#8217;ve been fully focused on accelerating the development of larger models to meet the demand we&#8217;ve seen.” This leaves Kog with a huge leap to make to deliver on its promise of “30x faster LLM inference.” Its demo showed an impressive 3,000 per-request tokens per sec",
+      "impact": "positive",
+      "takeaway": "GPU 추론 효율 향상이 AI 반도체 수요를 촉진"
     },
     {
       "s": "네이트",
@@ -26,7 +28,9 @@
       "m": "08. 13. AM 08:27",
       "ts": 1786609620000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "규제 경쟁 심화가 AI 반도체 투자 환경을 악화"
     },
     {
       "s": "헤럴드경제",
@@ -36,7 +40,9 @@
       "m": "08. 13. AM 12:09",
       "ts": 1786579790000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "AI 반도체가 신산업 성장 기반으로 평가돼 투자 매력 상승"
     },
     {
       "s": "전자신문",
@@ -46,7 +52,9 @@
       "m": "08. 12. AM 07:00",
       "ts": 1786518000000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "반도체 특별법 시행으로 AI 반도체 투자와 혁신이 가속화"
     },
     {
       "s": "NVIDIA공식",
@@ -55,7 +63,9 @@
       "u": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
       "m": "08. 11. PM 03:00",
       "ts": 1786460406000,
-      "fullText": "Why Scaling AI Compute Performance Requires a New Power Architecture NVIDIA 800 VDC helps existing and future AI factories scale compute performance beyond the limits of traditional power distribution. August 11, 2026 by Harry Petty 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more efficient, scalable power distribution. The bottleneck isn’t just wattage. It’s how power gets from the grid to the GPU. In traditional power delivery, electricity travels from the grid as an alternating current (AC) and gets converted multiple times, each time adding overhead and complexity as racks become denser. At the power levels that next-generation AI compute demands, even small inefficiencies compound quickly. 800 VDC simplifies that path. By distributing power at higher voltage through a direct current (DC), fewer conversion stages stand between the grid and the accelerator — which means more of the available power reaches the compute. NVIDIA DSX reference designs are built to guide AI factories through the transition from today’s AC infrastructure through hybrid architectures and into fully native 800 VDC facilities. NVIDIA, Google and Microsoft have been developing the 800 VDC architecture together through the Open Compute Project (OCP), and published a joint white paper March 2026 and the LVDC Solid-State Transformer Specification v0.3 July 2026. More than 80 equipment manufacturers and infrastructure companies are already building products to this specification. Existing Facilities Don’t Have to Wait Most of today’s AI factories were designed around AC distribution. The NVIDIA MGX-compatible 800 VDC power rack, arriving in the second half of 2026, creates a hybrid architecture that brings next-generation rack-scale compute performance to facilities that are already built and operational. It’s des"
+      "fullText": "Why Scaling AI Compute Performance Requires a New Power Architecture NVIDIA 800 VDC helps existing and future AI factories scale compute performance beyond the limits of traditional power distribution. August 11, 2026 by Harry Petty 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more efficient, scalable power distribution. The bottleneck isn’t just wattage. It’s how power gets from the grid to the GPU. In traditional power delivery, electricity travels from the grid as an alternating current (AC) and gets converted multiple times, each time adding overhead and complexity as racks become denser. At the power levels that next-generation AI compute demands, even small inefficiencies compound quickly. 800 VDC simplifies that path. By distributing power at higher voltage through a direct current (DC), fewer conversion stages stand between the grid and the accelerator — which means more of the available power reaches the compute. NVIDIA DSX reference designs are built to guide AI factories through the transition from today’s AC infrastructure through hybrid architectures and into fully native 800 VDC facilities. NVIDIA, Google and Microsoft have been developing the 800 VDC architecture together through the Open Compute Project (OCP), and published a joint white paper March 2026 and the LVDC Solid-State Transformer Specification v0.3 July 2026. More than 80 equipment manufacturers and infrastructure companies are already building products to this specification. Existing Facilities Don’t Have to Wait Most of today’s AI factories were designed around AC distribution. The NVIDIA MGX-compatible 800 VDC power rack, arriving in the second half of 2026, creates a hybrid architecture that brings next-generation rack-scale compute performance to facilities that are already built and operational. It’s des",
+      "impact": "positive",
+      "takeaway": "AI 연산 확대에 새로운 전력 설계 필요성이 AI 반도체 시장 확대를 예고"
     },
     {
       "s": "헬로디디",
@@ -65,7 +75,9 @@
       "m": "08. 11. AM 07:00",
       "ts": 1786431600000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "규제 혁신 논의가 AI 반도체 사업 환경을 개선할 전망"
     },
     {
       "s": "AI포스트",
@@ -75,7 +87,9 @@
       "m": "08. 11. AM 04:44",
       "ts": 1786423450000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "자체 기억 소멸 AI 반도체 구현이 차세대 기술 경쟁력을 높임"
     },
     {
       "s": "쿠키뉴스",
@@ -85,7 +99,9 @@
       "m": "08. 11. AM 03:38",
       "ts": 1786419493000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "정책 비판이 투자 심리를 위축시켜 AI 반도체 성장에 부정적"
     },
     {
       "s": "매일경제 마켓",
@@ -95,7 +111,9 @@
       "m": "08. 07. PM 09:33",
       "ts": 1786138381000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "negative",
+      "takeaway": "AI 반도체 시장 축소 우려가 국내 경쟁력 약화 위험을 시사"
     },
     {
       "s": "IT비즈뉴스",
@@ -105,7 +123,9 @@
       "m": "08. 06. PM 10:00",
       "ts": 1786053600000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "positive",
+      "takeaway": "국산 AI 반도체 실증사업 시작으로 국내 기술 개발과 투자 확대 기대"
     },
     {
       "s": "인공지능신문",
@@ -124,6 +144,16 @@
       "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BSDJQdWtrN244VDJJTkk1WWNLa3FnTlNwVWQ5eTlqRnFKMEVCQjRqWHRrS2NzemJ6Nmo3VkxCLXNMdkphaG9McGk2OUZwN2FRWmpubnlyV2lIVzZPMjEtVUpONA?oc=5",
       "m": "08. 04. AM 07:14",
       "ts": 1785827653000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "아시아투데이",
+      "t": "AI부터 MASGA까지…산업부 ‘초성장’ 승부수, 하반기 정책 총가동",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MYi1QUDNNOGJKTzAzVWt0SC14b015QUdOZHJBS1JzbE9iS1hQWldFYThzRFlkd2pXWjdxN2NLYW9fQmhNUDF1MGlZN0s2ZkxXY1ZwY1Z5Q2RyRUw3ZlRHbzBzQ19XLUEyVE1HSGR3?oc=5",
+      "m": "08. 04. AM 07:00",
+      "ts": 1785826800000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -248,7 +278,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "ytn.co.kr",
+      "s": "YTN",
       "t": "\"AI 반도체 다음은 로봇 팔\"...미국 상무부, 중국 로봇 추가 규제 시사",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwdDZ6ZURoQkYwNEZCZWJVcm01VFRnRGlwdFVEMFJSQUtteE1CdWlCUUNKS3E4QjN6QTRiVHNsMGI5ZmdGYjBBYUd3V3YzVWhLVWdjdUdBRVdWS2RQeWc?oc=5",
@@ -348,10 +378,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "viva100.com",
+      "s": "브릿지경제",
       "t": "한미반도체, 올해 말 美 법인 세운다⋯ “장비 수주 확대 기대”",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1emNHOEhQZVFZR2g4Z2FDWEFEbzh2eXB0Z3hhYUJpM0V0di1kb05uQThjblcyd005djVQbVZySTQ5YVFDSVB0c0VhMDVkZE1LS1FacnlyZnlIQQ?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스1",
+      "t": "한미반도체, 美 실리콘밸리에 한미USA 설립…美 시장 공략 박차",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xa1l2U0pYbENCS3lHaW5hcVY3V2FfbkM5LUQ2Z0NaWlRrdjdHSEUxSzl5M29iYW5ISkJyZUY0TlFGX0hzeGpuekdaQV8zRzNIMVVOTnZwTUZEYnh4MExSR183Q24?oc=5",
       "m": "05. 15. AM 07:00",
       "ts": 1778828400000,
       "_policy": true,
@@ -378,32 +418,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "ilyo.co.kr",
+      "s": "일요신문",
       "t": "삼성전자 역대급 분기 실적…글로벌 AI 반도체 전쟁 더 거세진다",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81NktDWUZuX0lPNjAyVnhCdks3UUgtMFpoRmJ2MVVpcTFtekpXZ3Q5emdjazdfREFIUXBsU3RVRk9YOUxJSGRpVFgzSTNFdDRJeGEyLUhnd0c3WXJyTU9xRVVGU1BqZw?oc=5",
       "m": "04. 09. AM 07:00",
       "ts": 1775718000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "글로벌이코노믹",
-      "t": "엔비디아 칩 수출에 '전자발찌' 단다…美 하원, AI 반도체 위치추적 의무화 법안 추진",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPM0FkVFVWRFhVc2RYWmdLcDBxanRhUHpiR2h3Z2FibkdlYTZMbXBRVDlySm4xUEtVVU1LTWRGOEVGZEhHWXB2NkJvRnFhdk9hcS00ZEVoaS0tbjRZbF81aF8yNmJybENyVjBpVlluOVc?oc=5",
-      "m": "03. 31. AM 07:00",
-      "ts": 1774940400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "데일리연합",
-      "t": "반도체 산업, AI 초격차 경쟁 속 미묘한 파고... 주도권 향방 주목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00czNVLVNHZGR5Tml4Ym1IdldNVTlHSlluTkpwb2FNVTJodnV4WHM0c2twWnNMRE5LbGFJT2FDN0N2WU42TFZzdkJtdW5YcDZFLXdMd2tzcmFfejA?oc=5",
-      "m": "03. 24. AM 07:00",
-      "ts": 1774335600000,
       "_policy": true,
       "fullText": "Google News"
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T15:48:09.656Z",
+  "updatedAt": "2026-08-16T20:48:26.217Z",
   "related": [
     {
       "slug": "HBM",
@@ -42,7 +42,7 @@
       "overlap": 2
     }
   ],
-  "summary": "AI 데이터센터에 대한 수요가 급증하고, K굴착기와 같은 한국의 기술이 남미에서 인기를 얻고 있습니다. 또한, hyperscalers가 자연 가스에 대한 위험을 감수하고 있습니다.",
+  "summary": "AI 데이터센터에 대한 수요가 급증하고, K굴착기와 같은 한국의 기술이 남미에서 인기를 얻고 있습니다. 또한, hyperscalers가 자연 가스에 대한 위험에 직면하고 있습니다.",
   "sentiment": "bullish",
   "key_drivers": [
     "AI 데이터센터 수요 증가",
@@ -56,7 +56,7 @@
   ],
   "risks": [
     "AI 데이터센터 수요 감소",
-    "K굴착기 기술 확산 어려움",
+    "K굴착기 기술 확산의 위험",
     "hyperscalers 자연 가스 위험"
   ],
   "events": [
@@ -69,23 +69,23 @@
   "key_players": [
     "삼성전자",
     "엔비디아",
-    "두산에너빌리티"
+    "마이크로소프트"
   ],
   "outlook": {
     "short_term": {
-      "thesis": "AI 데이터센터 수요가 급증하고, K굴착기와 같은 한국의 기술이 남미에서 인기를 얻고 있습니다. 또한, hyperscalers가 자연 가스에 대한 위험을 감수하고 있습니다. 단기적으로, AI 데이터센터 수요가 증가하고, K굴착기 기술이 확산될 것입니다.",
+      "thesis": "AI 데이터센터 수요가 급증하고, K굴착기와 같은 한국의 기술이 남미에서 인기를 얻고 있습니다. 또한, hyperscalers가 자연 가스에 대한 위험에 직면하고 있습니다. 단기적으로, AI 데이터센터 수요가 증가하고, K굴착기 기술이 확산될 것입니다.",
       "upside": "",
-      "downside": "K굴착기 기술 확산이 어려울 것입니다."
+      "downside": "K굴착기 기술 확산의 위험으로 인해 수요가 감소할 수 있습니다."
     },
     "mid_term": {
-      "thesis": "AI 데이터센터 수요가 지속적으로 증가하고, K굴착기 기술이 확산될 것입니다. 또한, hyperscalers가 자연 가스에 대한 위험을 감수하고 있습니다.",
+      "thesis": "AI 데이터센터 수요가 지속적으로 증가하고, K굴착기 기술이 확산될 것입니다. 또한, hyperscalers가 자연 가스에 대한 위험에 직면할 것입니다.",
       "upside": "",
-      "downside": "K굴착기 기술 확산이 어려울 것입니다."
+      "downside": "K굴착기 기술 확산의 위험으로 인해 수요가 감소할 수 있습니다."
     },
     "long_term": {
-      "thesis": "AI 데이터센터 수요가 지속적으로 증가하고, K굴착기 기술이 확산될 것입니다. 또한, hyperscalers가 자연 가스에 대한 위험을 감수하고 있습니다.",
+      "thesis": "AI 데이터센터 수요가 지속적으로 증가하고, K굴착기 기술이 확산될 것입니다. 또한, hyperscalers가 자연 가스에 대한 위험에 직면할 것입니다.",
       "upside": "",
-      "downside": "K굴착기 기술 확산이 어려울 것입니다."
+      "downside": "K굴착기 기술 확산의 위험으로 인해 수요가 감소할 수 있습니다."
     }
   },
   "capital_flow": {
@@ -98,38 +98,37 @@
     {
       "case": "기본",
       "probability": 60,
-      "thesis": "AI 데이터센터 수요가 급증하고, K굴착기와 같은 한국의 기술이 남미에서 인기를 얻고 있습니다.",
-      "trigger": "외인 5일 +300K주",
-      "watch_period": "1~2주",
-      "data_quality": "full"
+      "thesis": "AI 데이터센터 수요가 지속적으로 증가하고, K굴착기 기술이 확산될 것입니다.",
+      "trigger": "측정 변수 데이터 부족 — 다음 갱신 시 보강 예정",
+      "watch_period": "1주",
+      "data_quality": "partial"
     },
     {
       "case": "강세",
       "probability": 20,
       "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
-      "trigger": "K굴착기 기술 확산",
-      "watch_period": "기간",
+      "trigger": "K굴착기 기술 확산의 위험으로 인해 수요가 감소하지 않을 경우",
+      "watch_period": "1개월",
       "data_quality": "partial"
     },
     {
       "case": "약세",
       "probability": 20,
-      "thesis": "본문 데이터 부족 — 다음 갱신 시 보강 예정",
-      "trigger": "AI 데이터센터 수요 감소",
-      "watch_period": "기간",
+      "thesis": "K굴착기 기술 확산의 위험으로 인해 수요가 감소할 수 있습니다.",
+      "trigger": "측정 변수 데이터 부족 — 다음 갱신 시 보강 예정",
+      "watch_period": "1개월",
       "data_quality": "partial"
     }
   ],
   "pb_perspective": {
-    "valuation_assessment": "PER/PBR + 동종업계/과거 대비 평가",
-    "momentum_signals": "외인/기관 수급·모멘텀·신고가 근접",
-    "fundamental_strength": "성장·마진·재무 안정성",
+    "valuation_assessment": "AI 데이터센터 수요가 증가하고, K굴착기 기술이 확산될 것입니다. 따라서, PER/PBR가 증가할 수 있습니다.",
+    "momentum_signals": "외국인과 기관이 순매수하고, ETF 자금이 유입되고 있습니다.",
+    "fundamental_strength": "AI 데이터센터 수요가 증가하고, K굴착기 기술이 확산될 것입니다. 따라서, 성장과 마진이 증가할 수 있습니다.",
     "key_monitors": [
       "AI 데이터센터 수요",
-      "K굴착기 기술 확산",
-      "hyperscalers 자연 가스 위험"
+      "K굴착기 기술 확산"
     ],
-    "position_sizing_view": "Core/Satellite/Trade"
+    "position_sizing_view": "Core/Satellite/Trade 중 어느 성격 + 근거"
   },
   "value_chain": {
     "upstream": [
@@ -140,15 +139,15 @@
       "034020"
     ],
     "downstream": [
-      "MSFT",
       "AMZN",
-      "GOOGL"
+      "GOOGL",
+      "MSFT"
     ]
   },
   "policy_tracker": [
     {
       "date": null,
-      "title": "AI 데이터센터에 대한 정책 변화",
+      "title": "AI 데이터센터에 대한 정책과 규제",
       "region": "KR",
       "stance": "supportive"
     },
@@ -198,8 +197,6 @@
     }
   ],
   "disclaimer": "본 분석은 AI 생성 정보이며 투자 권유가 아닙니다.",
-  "generatedAt": "2026-08-16T15:47:03.061Z",
-  "_model": "groq:llama-3.1-8b-instant",
-  "_stale": true,
-  "_failure": "rate_limit"
+  "generatedAt": "2026-08-16T20:47:33.076Z",
+  "_model": "groq:llama-3.1-8b-instant"
 }

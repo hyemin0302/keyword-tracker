@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-17T03:29:00.836Z",
+  "updatedAt": "2026-08-17T04:13:01.249Z",
   "count": 40,
   "stats": {
-    "today": 4,
+    "today": 1,
     "yesterday": 1,
-    "weekAvg": 2.9,
-    "sources": 31,
-    "heat": "warm"
+    "weekAvg": 2.4,
+    "sources": 33,
+    "heat": "cool"
   },
   "items": [
     {
@@ -18,40 +18,7 @@
       "ts": 1786935600000,
       "fullText": "",
       "impact": "positive",
-      "takeaway": "스마트폰 재활용으로 AI 데이터센터 용량 확대 가능"
-    },
-    {
-      "s": "전자신문",
-      "t": "'독파모' 4강 승부처는 '효율'…모델별 전략 뜯어보니",
-      "d": "독자 인공지능(AI) 파운데이션 모델(독파모) 프로젝트 2차 평가 결과가 조만간 발표된다. 2차 평가에서는 모델 규모뿐 아니라 실제 추론 성능과 효율성 등이 주요 경쟁력으로 작용할 전망이다. 17일 전자신문이 독파모 2차 평가에 참여하는 LG AI연구원·업스테이지·SK텔레콤·모티프테크놀로지스 4팀이 허깅페이스에 공개한 모델 기술자료를 분석한 결과 각 모델은 서로 다른 파라미터 규모와 학습·설계 전략을 택한 것으로 나타났다. 독파모 1차 평가에서",
-      "u": "https://www.etnews.com/20260817000055",
-      "m": "08. 17. AM 03:00",
-      "ts": 1786935600000,
-      "fullText": "AI·SW SW '독파모' 4강 승부처는 '효율'…모델별 전략 뜯어보니 발행일 : 2026-08-17 12:00 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 과학기술정보통신부와 정보통신산업진흥원(NIPA)가 서울 삼성동 코엑스에서 '독자 AI 파운데이션 모델' 프로젝트 1차 발표회에서 배경훈 부총리 겸 과학기술부 장관이 환영사를 하고 있다. 박지호기자 jihopress@etnews.com 독자 인공지능(AI) 파운데이션 모델(독파모) 프로젝트 2차 평가 결과가 조만간 발표된다. 2차 평가에서는 모델 규모뿐 아니라 실제 추론 성능과 효율성 등이 주요 경쟁력으로 작용할 전망이다. 17일 전자신문이 독파모 2차 평가에 참여하는 LG AI연구원·업스테이지·SK텔레콤·모티프테크놀로지스 4팀이 허깅페이스에 공개한 모델 기술자료를 분석한 결과 각 모델은 서로 다른 파라미터 규모와 학습·설계 전략을 택한 것으로 나타났다. 독파모 1차 평가에서 1위를 차지했던 LG AI연구원은 기존 모델을 활용해 규모를 빠르게 확대하는 '업사이클링' 방식을 택했다. 기존 모델의 학습 결과와 가중치를 활용하면서 처음부터 새로운 초대형 모델을 만드는 데 필요한 시간과 비용을 줄이는 방식이다. LG AI연구원 측은 “K-엑사원 2.0은 업사이클링을 통해 이전 모델보다 3배 이상 규모를 확장했으며, 지속적인 사전 학습, 난이도 중심의 중간 학습, 사후 학습 과정을 거쳤다”면서 “특히 장문 문맥 검색과 안전성 측면에서 이전 모델 대비 상당한 성능 향상을 달성했다”고 설명했다. SK텔레콤의 'A.X K2'는 한국어 특화 소버린 AI를 내세웠다. 총 파라미터 규모는 688B에 달하지만 실제 추론 때 활성화되는 파라미터는 33B 수준이다. 전체 모델의 지식 규모는 유지하면서 실제 연산량을 줄이는 혼합전문가(MoE) 구조를 통해 대형 모델의 성능과 추론 효율을 함께 확보했다. SK텔레콤은 “한국어와 한국 문화에 대한 깊은 이해를 바탕으로 최첨단 모델을 구축하는 것을 목표로 한다”면서 “씽크 퓨전 학습 레시피를 통해 복잡한 문제 해결을 위한 사고 모드와 간결하고 지연 시간이 짧은 응답을 위한 비사고 모드를 지원해 품질과 비용 간의 균형을 선택할 수 있다”고 말했다. 업스테이지 솔라 오픈2는 전작 가중치의 일부만 계승하고 나머지는 무작위로 새로 초기화하는 전략으로 250B 모델을 만들었다. 업스테이지가 공개한 자료에 따르면 전작 모델에서 계승한 가중치는 약 2.3%에 그쳤다. 업스테이지는 “솔라 오픈 2는 사무 생산성, 문서 작업, 코딩과 같은 에이전트 기반 사용 사례에 최적화되어 있다”면서 “선형 어텐션을 적용한 하이브리드 어텐션 기반의 MoE 아키텍처는 긴 컨텍스트 환경에서도 매우 효율적인 추론을 제공한다”고 강조했다. 글로벌 AI 모델 성능 평가에서 가장 높은 점수를 기록하며 '다크호스'로 떠오른 모티프테크놀로지스의 '모티프 3'는 3140억개 파라미터 규모 모델로, 전체 파라미터 가운데 실제 추론 과정에서 활성화되는 규모는 132억개다. 자체 개발한 아키텍처를 적용해 모델의 전체 규모를 키우면서도 실제 연산량은 낮추는 데 초점을 맞췄다. 모티프 측은 “자체 개발한 독자적인 설계 방식을 기반으로 처음부터 새롭게 구축됐다”면서 “ 특히 한국어, 추론 집약적, 법률 및 금융 데이터에 중점을 뒀다”고 설명했다. 정부는 독파모 2차 평가 결과를 조만간 발표할 예정이다. 최종 평가에서 4개 참여사 중 3팀이 생존해 다음 단계로 진출한다. 2차 평가에서는 벤치마크 평가가 총 100점 만점 중 40점을 차지하며, 나머지 배점은 전문가 평가(35점)와 사용자 평가(25점)로 구성된다. 앞서 지난 13일 공개된 '아티피셜 애널리시스 인텔리전스 지수(AAII)'에서 모티프의 '모티프 3'가 47점으로 가장 높은 점수를 기록했다. 이어 업스테이지 '솔라 오픈2'가 37점, SK텔레콤 'A.X-K2'가 35점, LG AI연구원 'K-엑사원 2.0'은 31점을 각각 기록했다. 독파모 4개 컨소시엄별 모델 비교 정현정 기자 iam@etnew",
-      "impact": "neutral",
-      "takeaway": "테마와 직접 무관"
-    },
-    {
-      "s": "전자신문",
-      "t": "'광통신 강국' 韓, AI 핵심 '프리폼' 역량은 빈껍데기",
-      "d": "전 세계적으로 인공지능데이터센터(AIDC)와 해저케이블 투자가 급증하면서 광섬유가 핵심 인프라로 부상했지만 우리나라의 시장 경쟁력은 '빈껍데기' 수준인 것으로 나타났다. 광통신망 보급률은 세계 최상위권이지만, 부가가치의 핵심인 '프리폼' 제조 역량은 전무하다시피해 국가 공급망 안보 차원의 정책적 지원이 시급하다는 지적이다. 17일 산업연구원(KIET)이 발표한 'AI 시대 주목받는 광섬유, 한국의 현주소와 과제' 보고서에 따르면 한국은 유선 인",
-      "u": "https://www.etnews.com/20260817000090",
-      "m": "08. 17. AM 02:38",
-      "ts": 1786934312000,
-      "fullText": "정치·정책 정책 '광통신 강국' 韓, AI 핵심 '프리폼' 역량은 빈껍데기 발행일 : 2026-08-17 11:38 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 LG전자가 LG CNS, LG에너지솔루션과 싱가포르에서 열린 '데이터센터 월드 아시아(Data Center World Asia) 2025'에서 '원(One) LG' 통합 설루션을 선보였다. 모델들이 LG전자 냉각수 분배 장치(CDU)를 소개하고 있다. 전 세계적으로 인공지능데이터센터(AIDC)와 해저케이블 투자가 급증하면서 광섬유가 핵심 인프라로 부상했지만 우리나라의 시장 경쟁력은 '빈껍데기' 수준인 것으로 나타났다. 광통신망 보급률은 세계 최상위권이지만, 부가가치의 핵심인 '프리폼' 제조 역량은 전무하다시피해 국가 공급망 안보 차원의 정책적 지원이 시급하다는 지적이다. 17일 산업연구원(KIET)이 발표한 'AI 시대 주목받는 광섬유, 한국의 현주소와 과제' 보고서에 따르면 한국은 유선 인터넷 회선의 90.5%가 광케이블 기반으로 경제협력개발기구(OECD) 2위 수준의 인프라를 갖췄다. 하지만 이를 뒷받침하는 핵심 소재 생산 역량은 극히 취약한 상태다. 빛으로 신호를 전송하는 광섬유는 구리 배선 대비 발열과 신호 감쇠가 적어 AIDC 내부 및 센터 간 연결(DCI)의 필수 인프라로 꼽힌다. AI 서버는 기존 클라우드 서버보다 약 16배 많은 광섬유를 필요로 한다. 글로벌 AI용 케이블 수요도 2029년까지 연평균 26% 성장할 전망이다. 수요 폭증에 힘입어 글로벌 광섬유 가격지수(CRU 기준) 역시 2024년 3월 78.6에서 2026년 3월 263.0으로 급등했다. 그러나 광섬유 제조원가의 60~70%와 부가가치를 좌우하는 모재인 '프리폼(Preform)' 제조 역량에서 한국은 크게 뒤쳐져 있다. 나노미터 단위의 정밀 설계가 필요한 프리폼을 생산할 수 있는 기업은 전 세계 20개사에 불과한데, 미국 코닝, 일본 스미토모, 중국 기업 등 글로벌 선도기업이 수직계열화 체제를 갖추고 프리미엄 시장을 장악하고 있다. 반면 국내에서 프리폼을 자체 생산하는 기업은 대한광통신 1개사에 그치며, 그마저도 범용 규격에 한정돼 있다. DCI 백본용(G.654.E)이나 해저용(G.654.D), 다심(MCF) 등 고부가가치 프리미엄 제품 양산 역량은 미흡한 실정이다. LS전선은 프리폼 전량을 수입에 의존한다. 이로 인해 한국의 광섬유 수출액은 2022년 5800만달러에서 2025년 2700만달러로 반토막이 났고, 중국·인도의 저가 공세에 밀려 수출 단가도 하락세다. 미국(BABA 자국산 의무화), 중국(정부조달 국산 우대 20%), 일본(국책 R&D 및 초기수요 창출) 등 주요국이 공공조달과 지원책을 통해 자국 생태계를 육성한 반면, 한국은 소부장 200대 핵심전략기술에 광섬유 소재가 제외되는 등 정책적 지원이 턱없이 부족했다는 평가다. 보고서는 △프리미엄 광섬유 프리폼의 소부장 핵심전략기술 지정 및 원자재 공급망 안정화 △차세대 광섬유(MCF·HCF) 원천기술 국책 R&D 지원 △국가 기간망 사업 내 국산 소재 활용 확대 등 3대 정책 과제를 시급히 추진해야 한다고 제언했다. 탁은명 산연 연구원은 “현재의 산업구조가 지속되면 급성장하는 프리미엄 시장을 해외 기업에 내주고 범용 저가경쟁에 고착될 우려가 있다”며 “해저망 등 국가 기간망의 핵심 소재를 해외에 의존할 경우 공급망 안보의 취약성도 커지는 만큼 중장기 육성책이 절실하다”고 말했다. 안영국 기자 ang@etnews.com 광섬유 산업연구원 인공지능 프리폼 해저케이블 AI",
-      "impact": "negative",
-      "takeaway": "AI 핵심 프리폼 역량 부족이 인프라 성장에 제약"
-    },
-    {
-      "s": "전자신문",
-      "t": "연 1080억달러 인프라 부족한 아프리카…전력·용수·AI 투자시장 열린다",
-      "d": "아프리카가 전력망과 용수, 인공지능(AI)·디지털 인프라 부족으로 산업 전환에 어려움을 겪고 있다. 산업·인프라 투자 재원 부족액만 연간 최대 1080억달러에 달하는 것으로 추산됐다. 전력망·에너지저장장치(ESS), 수처리, 데이터센터 등 대규모 인프라 투자가 불가피해지면서 관련 기술과 사업 역량을 보유한 글로벌 기업의 아프리카 시장 진출 기회도 확대될 전망이다. 아프리카연합(AU), 아프리카개발은행(AfDB), 유엔개발계획(UNDP), 유엔",
-      "u": "https://www.etnews.com/20260817000072",
-      "m": "08. 17. AM 01:45",
-      "ts": 1786931122000,
-      "fullText": "정치·정책 정책 연 1080억달러 인프라 부족한 아프리카…전력·용수·AI 투자시장 열린다 발행일 : 2026-08-17 10:45 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 사진 출처 : '2026 아프리카 지속가능발전보고서(ASDR 2026)' 아프리카가 전력망과 용수, 인공지능(AI)·디지털 인프라 부족으로 산업 전환에 어려움을 겪고 있다. 산업·인프라 투자 재원 부족액만 연간 최대 1080억달러에 달하는 것으로 추산됐다. 전력망·에너지저장장치(ESS), 수처리, 데이터센터 등 대규모 인프라 투자가 불가피해지면서 관련 기술과 사업 역량을 보유한 글로벌 기업의 아프리카 시장 진출 기회도 확대될 전망이다. 아프리카연합(AU), 아프리카개발은행(AfDB), 유엔개발계획(UNDP), 유엔 아프리카경제위원회(ECA)가 최근 공동 발간한 '2026 아프리카 지속가능발전보고서(ASDR 2026)'에 따르면 아프리카는 17개 지속가능발전목표(SDGs) 가운데 12개에서 진전을 이뤘지만 현재 속도로는 2030년 목표 달성이 어렵다. 보고서는 자금 부족과 제한적인 제도 역량, 반복되는 기후·경제 충격을 주요 원인으로 꼽았다. 가장 큰 병목은 전력이다. 아프리카의 전력 접근률은 2015년 46%에서 2023년 53%로 높아졌지만 여전히 약 6억명이 전기를 사용하지 못한다. 농촌 전력 접근률은 40.1%에 그친 반면 도시는 85.6%에 달한다. 전력망의 질도 문제다. 보고서는 일부 국가의 송배전 손실률이 20~30%를 넘는다고 지적했다. 노후화되고 연결성이 떨어지는 전력망이 재생에너지 확대와 산업용 전력 공급을 동시에 제약하고 있다는 분석이다. 이에 보고서는 발전설비 확충뿐 아니라 배터리 ESS, 스마트미터, 전력망 디지털화에 대한 집중 투자를 주문했다. 국가 간 전력 거래를 확대하고 지역 전력망을 연결하는 것도 주요 과제로 제시했다. 용수 인프라 격차도 크다. 2023년 기본 식수 서비스 접근률은 81%까지 높아졌지만 안전하게 관리되는 식수 접근률은 36%에 그쳤다. 생활하수도 약 3분의 1만 안전하게 처리되고 있으며, 물·위생 분야 공적개발원조는 2023년 약 33억달러까지 감소했다. AI·디지털 전환에서도 기반시설 부족이 발목을 잡는다. 보고서는 아프리카 인터넷 보급률이 44.4%, 인구 100명당 고정형 광대역 가입은 3.8건에 불과하다고 분석했다. AI와 사물인터넷, 빅데이터, 클라우드 확산을 위해서는 초고속 연결망이 필수적이라고 강조했다. 특히 국경을 넘는 광통신망과 공동 데이터센터 구축, 규제 조화가 비용 효율적인 디지털 인프라 확충 방안으로 제시됐다. AU가 추진하는 대륙 AI 전략도 이러한 기반시설 확충을 전제로 한다. 시장 규모도 상당하다. 보고서는 아프리카의 산업·인프라 투자 재원 부족액을 연간 680억~1080억달러로 추산했다. 산업단지와 디지털 생태계, 스마트 밸류체인, 새로운 금융수단을 함께 확대해야 한다고 제언했다. 관건은 자금 조달이다. 보고서는 공공재정과 개발금융기관 대출만으로 투자 격차를 메우기 어렵다며 민간자본과 장기 개발금융, 기후금융을 물·에너지·인프라·도시 분야로 끌어들여야 한다고 강조했다. 보고서는 아프리카의 구조적 전환을 위해서는 발전소나 데이터센터 같은 개별 시설보다 전력·용수·디지털 인프라를 동시에 확충하는 접근이 필요하다고 강조했다. 향후 대규모 인프라 투자가 본격화될 경우 전력망, ESS, 수처리, 스마트시티, 데이터센터 등 관련 산업의 시장 확대도 예상된다. 이준희 기자 jhlee@etnews.com 반도체 용수 인프라 투자 전력 피지컬AI",
-      "impact": "positive",
-      "takeaway": "아프리카 전력·용수 부족이 AI 인프라 투자 촉진"
+      "takeaway": "스마트폰 재활용으로 AI 데이터센터 공급 확대, 인프라 수요 증가"
     },
     {
       "s": "한경 경제",
@@ -62,7 +29,7 @@
       "ts": 1786852713000,
       "fullText": "한경 프리미엄9 단독 [단독] AI 데이터센터에 구리 수요 급증…남미에서 뜨는 K굴착기 입력 2026.08.16 12:58 수정 2026.08.16 12:59 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 노유정 기자 구독하기 강해령 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 HD건설기계는 인공지능(AI) 관련 광물 수요 급증에 따라 칠레 국영 광산 기업과의 장비 공급 계약을 체결하는 등 중남미 광산 장비 시장 공략을 본격화하며 현지 시장 점유율 확대를 추진하고 있습니다. HD현대건설기계, 칠레에 대형 건설기계장비 14대 판매 계약 따내 HD현대건설기계의 굴착기 국내 대표 건설장비 업체인 HD건설기계가 중남미 시장을 적극 공략하고 있다. 구리와 희토류 등 인공지능(AI) 관련 광물 개발 수요가 전 세계적으로 급증하고 있어서다. 칠레 등 주요 자원 부국들이 포진한 중남미에서 굴착기 등 광산 장비 시장이 커지며 국내 기업들의 광산 장비도 주목받고 있다. 16일 업계에 따르면 HD건설기계는 최근 칠레 국영 광산 기업인 코델코에 굴착기 등 대형 장비 14대를 판매하는 계약을 체결했다. 살바도르 구리 광산 프로젝트에 쓰일 장비다. HD건설기계는 추가 계약이 이뤄질 것으로 보고 있다. 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 노유정 기자 산업부 노유정 기자입니다. 강해령 기사댓글 개의 댓글이 있습니다. 댓글 닫기",
       "impact": "positive",
-      "takeaway": "AI 데이터센터 구리 수요 급증이 인프라 확대를 견인"
+      "takeaway": "AI 데이터센터 구축에 구리 수요 급증, 인프라 투자 확대"
     },
     {
       "s": "TechCrunch",
@@ -73,7 +40,7 @@
       "ts": 1786719011000,
       "fullText": "The race for faster AI inference is on, and markets gave Cerebras and its purpose-built chips a warm welcome in its IPO debut in May. But French startup Kog is betting that there&#8217;s a lot more power to be squeezed out of conventional GPUs. The startup hit the front page of Hacker News in May with a tech preview aimed at proving that “extremely fast single-request decoding is possible on the standard datacenter GPUs enterprises already own” — such as the AMD MI300X and Nvidia H200 GPUs it used for its demo. Some were disappointed to hear this didn’t extend to GPUs in our laptops, but others saw the potential. With inference speed and costs now being a critical bottleneck, Kog’s promise to unlock new capabilities on existing hardware with software optimization attracted more than onlookers . “We had 200 tangible business leads,” CEO Gaël Delalleau told TechCrunch. Based on early feedback, the solo founder expects software engineering to be the first use case. Veteran Claude Code users are well aware that they sometimes have to wait hours to get results. Anthropic itself understands that speed is worth money, and charges a price multiple for Claude’s Fast Mode. Kog is hoping to target customers put off by those delays, usually because they rely on AI workflows for professional tasks. But the startup also has design partners that let users generate games and apps with a prompt, and for whom a faster outcome thanks to the Kog Inference Engine (KIE) would mean more revenue, Delalleau said. The company realizes this market is not quite mature yet. While observing demand, Kog learned that its prospective customers aren’t prepared to fine-tune small models. “And that&#8217;s why since the launch, we&#8217;ve been fully focused on accelerating the development of larger models to meet the demand we&#8217;ve seen.” This leaves Kog with a huge leap to make to deliver on its promise of “30x faster LLM inference.” Its demo showed an impressive 3,000 per-request tokens per sec",
       "impact": "positive",
-      "takeaway": "GPU 추론 효율 향상이 AI 데이터센터 성능 개선"
+      "takeaway": "GPU 추론 효율 향상으로 AI 데이터센터 운영 비용 절감"
     },
     {
       "s": "TechCrunch",
@@ -84,7 +51,7 @@
       "ts": 1786716300000,
       "fullText": "After years of snapping up wind and solar developments, hyperscalers like Amazon, Google, Meta, and Microsoft are betting that natural gas will power the data centers behind their lofty AI ambitions. But a new research report suggests they may regret their newfound affinity for the fossil fuel . Natural gas prices could triple in some parts of the U.S. in the coming years as hyperscaler demand collides with declining supply growth and rising exports of liquefied natural gas, according to Noreva , an energy research firm. Hyperscalers might not be prepared for future price shocks. “I think everyone in the energy markets has been lulled into a sense that gas prices can’t go up,” Peter Gardett, CEO of Noreva, told TechCrunch. “You just need simple arithmetic to get to a much tighter gas market than you were in just a few years ago.” Hyperscalers&#8217; big bets Cheap gas has pushed hyperscalers to lock up part of the market. In March, Meta said it would build a massive 7.5-gigawatt natural gas power plant in Louisiana to power its Hyperion data center . A few days later , Microsoft and Google each said they’d build their own gigawatt-scale gas power plants, both in Texas. And not to be left out, Amazon plans to build a 7.6-gigawatt gas power plant in Texas. For companies that historically have shied away from large capital expenditures, the data center building boom suddenly has them investing heavily in the physical world while also pushing them deeper into energy markets, which are even less familiar territory. Gardett said at least one investor he spoke with was “surprised” by how much natural gas price risk hyperscalers are willing to take on. “They’re doing things that are not normal for an off-taker to do,” he said. Noreva expects natural gas prices to soar above $10 per million BTUs in certain hubs, or delivery points for futures contracts. Today, prices range from about $2 to $4.50 per million BTUs, with the widely traded Henry Hub in Louisiana priced at just u",
       "impact": "negative",
-      "takeaway": "천연가스 의존이 AI 데이터센터 비용 상승 위험"
+      "takeaway": "천연가스 의존이 AI 데이터센터 비용 상승·리스크 초래"
     },
     {
       "s": "뉴스핌",
@@ -96,7 +63,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "positive",
-      "takeaway": "SEC 규제 완화와 5천억 달러 투자로 AI 데이터센터 확대"
+      "takeaway": "SEC 규제 완화와 5천억 달러 투자 유입으로 AI 데이터센터 확장 가속"
     },
     {
       "s": "삼성뉴스룸",
@@ -107,7 +74,7 @@
       "ts": 1786609800000,
       "fullText": "삼성전자, 인도에 플랙트그룹 신규 생산라인 준공…AI 데이터센터 공략 강화 2026/08/13 AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성전자가 인도에 플랙트그룹의 신규 냉난방공조(HVAC) 생산라인을 준공하고, 인도와 아시아·태평양 지역의 AI 데이터센터 시장 공략을 강화한다. 삼성전자는 12일(현지시간) 인도 마하라슈트라주 푸네에서 플랙트그룹 신규 생산라인 준공식을 개최했다. 이날 행사에는 삼성전자 DA사업부장 김철기 부사장, 플랙트그룹 데이비드 도니(David Dorney) 대표 등 경영진과 주요 거래선 관계자 100여 명이 참석했다. 신규 생산라인은 기존 노이다 생산시설과 함께 인도는 물론 아시아·태평양 지역 고객에게 보다 신속하게 HVAC 솔루션을 공급하기 위한 핵심 생산기지 역할을 할 예정이다. 신규 생산라인이 위치한 푸네는 인도의 데이터센터 및 산업 인프라가 빠르게 성장하고 있는 지역이며, 뭄바이 항구와 인접해 공급망 효율을 높일 수 있는 전략적 입지를 갖추고 있다. 신규 생산시설은 생산라인과 사무실, 부대시설 등을 포함해 1만 3,826㎡(4,190여평) 규모로 조성됐으며, 올해 초 설비 및 장비 구축에 착수해 약 6개월 만에 양산 체제를 갖췄다. 완전 가동 단계에 들어서면 연간 최대 6,500대의 HVAC 장비를 생산할 수 있다. 푸네 생산라인에서는 플랙트그룹의 주력 제품인 공기조화기(Air Handling Unit, AHU)를 비롯해, 팬 월 유닛(Fan Wall Unit, FWU), 컴퓨터룸 공기 처리 장치(Computer Room Air Handler, CRAH) 등 다양한 HVAC 장비가 생산된다. AHU는 냉각수를 이용해 데이터센터와 대형 상업용 건물 내 공기를 식히고 공기질을 쾌적하게 관리해주는 제품이다. 벽면 설치형 송풍 장비인 FWU와 고정밀 공기 조절 장치인 CRAH는 서버실 내 IT 장비가 최적의 상태를 유지할 수 있도록 한다. 삼성전자 DA사업부장 김철기 부사장은 &#8220;이번 인도 푸네 생산라인 준공은 인도를 넘어 아시아·태평양 지역으로 HVAC 공급을 확대하는 중요한 이정표&#8221;라며 &#8220;삼성의 AI·플랫폼 기술력과 플랙트그룹의 HVAC 역량을 결합해 AI 데이터센터를 비롯한 다양한 고객에게 최상의 가치를 제공하겠다&#8221;고 말했다. ▲ 왼쪽부터 플랙트그룹 데브라지 싱(Devraj Singh) 아시아영업총괄, 삼성전자 김철기 DA사업부장(부사장), 플랙트그룹 데이비드 도니(David Dorney) CEO, 삼성전자 DA사업부 임성택 HVAC사업팀장(부사장). ▲ 삼성전자가 12일(현지시간) 인도 마하라슈트라주 푸네에서 플랙트그룹 신규 생산라인 준공식을 개최했다. HVAC 냉난방공조 제품뉴스 가전 프레스센터 보도자료 제품뉴스 프레스센터 삼성전자 뉴스룸의 직접 제작한 기사와 이미지는 누구나 자유롭게 사용하실 수 있습니다. 그러나 삼성전자 뉴스룸이 제공받은 일부 기사와 이미지는 사용에 제한이 있습니다. 삼성전자 뉴스룸 콘텐츠 이용에 대한 안내 바로가기 보다 다양한 삼성전자 소식은? 삼성전자, 플랙트그룹과 유럽 최대 공조 전시 MCE 참가 2026/03/24 보도자료 [인터뷰] “HVAC, 삼성의 차세대 핵심 성장 동력”…삼성전자, AI·초연결로 시장 주도권 잡는다 2026/02/06 삼성전자, 美 냉난방공조 전시회 참가…주거용·상업용 솔루션으로 북미 공략 2026/02/03 보도자료 [인터뷰] 데이비드 도니 플랙트그룹 CEO &#8220;삼성과 협력, 공조시장 글로벌 리더로 도약할 것&#8221; 2026/01/02 slide prev slide next 최신기사 더보기 다운로드 닫기 삼성전자-가전-인도-플랙트그룹-신규-생산라인-준공-1-DL.jpg 파일 다운로드 삼성전자-가전-인도-플랙트그룹-신규-생산라인-준공-1-DL.jpg 파일 다운로드 미리보기 삼성전자-가전-인도-플랙트그룹-신규-생산라인-준공-1-DL.jpg 삼성전자-가전-인도-플랙트그룹-신규-생산라인-준공-3-DL.jpg 파일 다운로드 삼성전자-가전-인도-플랙트그룹-신규-생산",
       "impact": "positive",
-      "takeaway": "삼성·인도 신규 라인 구축이 AI 데이터센터 공급 확대"
+      "takeaway": "삼성·인도 신규 라인 구축으로 AI 데이터센터 공급망 강화"
     },
     {
       "s": "The Economy Korea",
@@ -119,7 +86,7 @@
       "_policy": true,
       "fullText": "Google News",
       "impact": "negative",
-      "takeaway": "미국 데이터센터 규제 강화가 AI 인프라 확장에 제동"
+      "takeaway": "미국 데이터센터 건설 규제 강화로 AI 인프라 확장 지연"
     },
     {
       "s": "네이트",
@@ -129,7 +96,9 @@
       "m": "08. 12. AM 04:32",
       "ts": 1786509120000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "edaily.co.kr",
@@ -139,7 +108,9 @@
       "m": "08. 12. AM 04:30",
       "ts": 1786509027000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "법률신문",
@@ -149,7 +120,9 @@
       "m": "08. 12. AM 03:18",
       "ts": 1786504730000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Google News",
+      "impact": "neutral",
+      "takeaway": "테마와 직접 무관"
     },
     {
       "s": "뉴스핌",
@@ -230,7 +203,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "강원일보",
+      "s": "kwnews.co.kr",
       "t": "AI데이터센터 기업 맞춤 행정지원·신속 인허가 체계 구축",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5TGg1aFRWS1A2SndwbWFYWk5xaklfTGJUQmV3X1I4TGdBdjRFNjF2VHRtUy1JeVJpOHJhSjczblk0V0VYdXNfZ3NTYzdPd21DQ0JvalZR?oc=5",
@@ -269,20 +242,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "뉴스핌",
-      "t": "용산 데이터센터 건립, 6일 주민설명회서 해법 찾을까…혐오시설 인식 부담",
+      "s": "수소신문",
+      "t": "AI·데이터 국가 인프라 구축 본격화…범정부 데이터 허브 추진",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XZE1HOWw1SDRMRzhPdmZEbEhqZHdaWjNqQlNDODZyWmJ6VEdPOGxETTA3Q2tFa2dlZHZOVGNrWFl3bDJRTkJjbXBYRWZ0Yk5hNy0xQWhiQzlwQ3NI?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04Y21MT2x0NnZPT19wdU5XYnZyYnE1RGszckFhSk5QNnZER3Y0RmZyLWdEUlNSQ1BnQTFDMW02UFRLejJxb1pwMWtnM2ZUUFhBZ1N3djJhWnlaTDNYUEhrbTU1M3BwZVRrRGtpbUlqUHPSAXRBVV95cUxOZjNXb0dYMWtqeVl3Y3VGMlBTNXh3OHFvZ3JVUWJUaERZb1BDSjE0NDl2LU9yNS1VZVROQ1kwNUcxT3hyeEM5LWpkc18yWjV1MUJjTFF6UmRadTl2NHR5Mk96NUtrX0hKS2hmM0hjbkQtemxPZw?oc=5",
       "m": "08. 06. AM 07:00",
       "ts": 1785999600000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "수소신문",
-      "t": "AI·데이터 국가 인프라 구축 본격화…범정부 데이터 허브 추진",
+      "s": "뉴스핌",
+      "t": "용산 데이터센터 건립, 6일 주민설명회서 해법 찾을까…혐오시설 인식 부담",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04Y21MT2x0NnZPT19wdU5XYnZyYnE1RGszckFhSk5QNnZER3Y0RmZyLWdEUlNSQ1BnQTFDMW02UFRLejJxb1pwMWtnM2ZUUFhBZ1N3djJhWnlaTDNYUEhrbTU1M3BwZVRrRGtpbUlqUHPSAXRBVV95cUxOZjNXb0dYMWtqeVl3Y3VGMlBTNXh3OHFvZ3JVUWJUaERZb1BDSjE0NDl2LU9yNS1VZVROQ1kwNUcxT3hyeEM5LWpkc18yWjV1MUJjTFF6UmRadTl2NHR5Mk96NUtrX0hKS2hmM0hjbkQtemxPZw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XZE1HOWw1SDRMRzhPdmZEbEhqZHdaWjNqQlNDODZyWmJ6VEdPOGxETTA3Q2tFa2dlZHZOVGNrWFl3bDJRTkJjbXBYRWZ0Yk5hNy0xQWhiQzlwQ3NI?oc=5",
       "m": "08. 06. AM 07:00",
       "ts": 1785999600000,
       "_policy": true,
@@ -358,7 +331,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "korea.kr",
+      "s": "대한민국 정책브리핑",
       "t": "AI고속도로 핵심 인프라, '국가 AI 컴퓨팅센터' 구축 첫 삽!",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCblF0N3FLdHVIRlJsSDdBUVhOWlpSbGoxanY4M0ZVQXY4Qi1SVkZjRFRiV29SRXU3RFJZa2pmV1oxY1VxZmN0WmtJdlVGWjVaM0VIZHY2NU5NVDdOdVFBTDVURHI1a1Y5?oc=5",
@@ -398,6 +371,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "신아일보",
+      "t": "국가AI컴퓨팅센터 첫삽…\"AI 인프라 허브로 도약\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQnFFdi1HOTVKOER3M25EWkdqQ1VGMDJhTXl0UmpEYXlnYlBTRmNZWFBneE5FSEtZUEMtS0o4Q0JPZjVtX2pCNkpYUk1nekNkcUgtaVBBMDhocHg5X1BRaUM1Q2VMbE5CTzluc3ZoOF8?oc=5",
+      "m": "08. 03. AM 07:00",
+      "ts": 1785740400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "연합뉴스",
       "t": "장성에 AI 데이터센터 구축…\"반도체 거점 도약\"",
       "d": "",
@@ -408,12 +391,32 @@
       "fullText": "Google News"
     },
     {
-      "s": "shinailbo.co.kr",
-      "t": "국가AI컴퓨팅센터 첫삽…\"AI 인프라 허브로 도약\"",
+      "s": "한국데이터경제신문",
+      "t": "[심층리포트] AI 데이터센터 전력 난제 풀린다…정부 범부처 TF 전력 공급 전략 총정리",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQnFFdi1HOTVKOER3M25EWkdqQ1VGMDJhTXl0UmpEYXlnYlBTRmNZWFBneE5FSEtZUEMtS0o4Q0JPZjVtX2pCNkpYUk1nekNkcUgtaVBBMDhocHg5X1BRaUM1Q2VMbE5CTzluc3ZoOF8?oc=5",
-      "m": "08. 03. AM 07:00",
-      "ts": 1785740400000,
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11UTZWV0ZqQ0tNemxpSjY2UDdyTkJ6bDFGbDg4ZEZod09yTHV0bjJ3Y3hieWstM2ZhWkwzNDFYZEhTaGg2cGdaMWRlanJ2Q3BQQldONEFTWENOUUhjbnY4WGszYXR0MGJ4VWRzZVFlQi3SAXRBVV95cUxQR2psMGZhMk5KU2ZLNjJQaFUwbm9UNjZtYWZBUlpFalg5WlNaWWNPVWsyMUQ5cmtpUEFsU2duYVlpSzU2R09BLWFfQlc2M0pWbUhYaUpJTnk0RkZGVk9Vc3NJaUNlZWlOR1JEZHFvRTVBbDdzWg?oc=5",
+      "m": "07. 31. AM 07:00",
+      "ts": 1785481200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "블로터",
+      "t": "과기정통부, AMD와 개방형 'AI 인프라' 구축…엔비디아 독점 막는다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xMFBUdGJQMWJ3TTZIeFZ3T01oTnZudlVwSjNscHRqUU54WDZ1VzAwS1hVR3hmSkRUcnoybGl0R0lGWU5nY0xIeVkyN05yOEhIb20yNERFelFvTW1fRkJ5SXF6Z0tfVzRh0gFsQVVfeXFMUFlRbWY3bUwtdTVRUjFKYUREYWpLb0hhMmxHN2owcjRyeTF1T3BvVnVFZFJHbHVmYUNxbkFkX3ZiRndCRUlObmNobDYzbFNsZ1lpUGY5RFJNdm1XSGNkc0hhSXp5by04bVpHNjFa?oc=5",
+      "m": "07. 27. AM 09:33",
+      "ts": 1785144795000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "기계설비신문",
+      "t": "김석기 국토부 건설정책국장 “기계설비, AI시대 핵심 인프라\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oc1lsWFhRM1FiRHlGeHlSQjF4LVVRSjZrc05JMnp6REd2RkNISUdXeW0tWldsMlJKaTNVUXBjZEppQ3Q3RVgtVjZ6bFVaVl9HNUt6QmQtR093R2RnOUtyVG9jdXRCUTN2VTJqSA?oc=5",
+      "m": "07. 27. AM 07:00",
+      "ts": 1785135600000,
       "_policy": true,
       "fullText": "Google News"
     }

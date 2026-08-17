@@ -1,16 +1,25 @@
 {
-  "updatedAt": "2026-08-17T09:08:00.563Z",
+  "updatedAt": "2026-08-17T10:04:55.612Z",
   "count": 40,
   "stats": {
-    "today": 1,
+    "today": 2,
     "yesterday": 1,
-    "weekAvg": 1.4,
+    "weekAvg": 1.6,
     "sources": 35,
     "heat": "cool"
   },
   "items": [
     {
-      "s": "한양경제",
+      "s": "전자신문",
+      "t": "[전파칼럼] AI시대의 보이지 않는 인프라, 전자파 공학",
+      "d": "인공지능(AI) 시대를 이야기할 때 흔히 그래픽처리장치(GPU), 초거대언어모델(LLM), 데이터와 알고리즘을 떠올린다. 그러나 AI를 산업과 사회를 움직이는 인프라로 확장하려면 전자파 공학이 필요하다. AI의 두뇌가 알고리즘과 반도체라면, 그 두뇌에 데이터를 전달하고 에너지를 공급하며 수많은 프로세서를 하나의 시스템처럼 연결하는 신경망은 전자파 기술이다. 국제에너지기구(IEA)는 세계 데이터센터 전력 소비가 2025년 약 485TWh에서 20",
+      "u": "https://www.etnews.com/20260817000061",
+      "m": "08. 17. AM 07:00",
+      "ts": 1786950000000,
+      "fullText": "통신 통신 [전파칼럼] AI시대의 보이지 않는 인프라, 전자파 공학 발행일 : 2026-08-17 16:00 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 황금철 성균관대학교 전자전기공학부 교수 인공지능(AI) 시대를 이야기할 때 흔히 그래픽처리장치(GPU), 초거대언어모델(LLM), 데이터와 알고리즘을 떠올린다. 그러나 AI를 산업과 사회를 움직이는 인프라로 확장하려면 전자파 공학이 필요하다. AI의 두뇌가 알고리즘과 반도체라면, 그 두뇌에 데이터를 전달하고 에너지를 공급하며 수많은 프로세서를 하나의 시스템처럼 연결하는 신경망은 전자파 기술이다. 국제에너지기구(IEA)는 세계 데이터센터 전력 소비가 2025년 약 485TWh에서 2030년 약 950TWh로 두 배 늘 것으로 전망한다. AI 중심 데이터센터의 전력 소비는 같은 기간 약 세 배 증가할 것으로 예상된다. 그러나 AI 데이터센터는 GPU를 많이 설치하고 전력을 공급하는 것만으로 완성되지 않는다. 수만개 이상의 GPU가 동시에 데이터를 교환하며 하나의 거대한 컴퓨터처럼 동작해야 하기 때문이다. 개별 GPU의 연산속도만큼이나 GPU와 고대역폭메모리(HBM), 서버와 서버 사이의 데이터 전달 속도가 중요하다. AI 서버를 설계하기 위해서는 임피던스 정합, 삽입손실, 반사손실, 누화, 모드 변환, 지터, 산란계수(S-파라미터)와 같은 전형적인 마이크로파·전자파 공학의 문제를 해결해야 한다. 결국 초고속 디지털 시스템과 무선주파수(RF) 시스템 사이의 전통적인 경계가 빠르게 사라지고 있는 것이다. AI 반도체 내부도 마찬가지다. 이제는 GPU와 중앙처리장치(CPU), HBM과 여러 칩렛을 하나의 패키지 안에서 얼마나 효율적으로 연결하는가가 중요해졌다. TSMC의 CoWoS와 같은 2.5차원 첨단 패키징이 핵심 기술로 부상한 이유다. 이 때 신호 무결성(SI)과 전력 무결성(PI), 접지 차폐, 고주파 전송손실이 핵심 설계 요소가 된다. AI 반도체의 경쟁력은 트랜지스터의 미세화가 아니라, 패키지에서 인터포저와 PCB, 커넥터까지 포함하는 거대한 전자기 시스템을 얼마나 정교하게 설계하는가로 결정된다. 구리 전송선로의 물리적 한계가 나타나면서 실리콘 포토닉스와 공동 패키지 광학기술(CPO)도 빠르게 발전하고 있다. 브로드컴은 51.2Tb/s급 CPO 기반 이더넷 스위치로 기존 착탈식 광모듈 대비 광 연결부의 전력 소비를 70% 이상 줄일 수 있다고 발표했다. 전력도 마찬가지다. 엔비디아는 1MW 이상의 서버 랙을 지원하기 위해 현재의 54V 직류 전력 구조를 800V로 전환하는 방안을 추진하고 있다. 낮은 전압에서 MW급 전력을 공급하려면 버스바에만 최대 약 200kg의 구리가 필요하기 때문이다. 대신 고주파 전력변환기와 기생 인덕턴스, 스위칭 잡음, 공통모드 전류, 전자파 간섭 필터 등 새로운 문제가 등장한다. 미래 데이터센터에서는 SI와 PI, 전자기 적합성(EMC)을 하나의 통합된 전자파 설계 문제로 다뤄야 한다. 전자파 공학의 역할은 데이터센터에만 머물지 않는다. AI가 현실세계로 나오려면 현실을 인지하는 감각기관이 필요하다. 레이더와 무선주파수 센싱은 물체의 거리와 움직임, 속도를 인식하며 카메라와 달리 어둠이나 안개에서도 측정이 가능하다. 비접촉으로 호흡 같은 미세 생체 신호도 검출한다. 자율주행차와 로봇, 스마트공장, 디지털 헬스케어에서 AI와 전자파 센서의 결합이 중요해진 이유다. 국제전기통신연합(ITU)의 IMT-2030도 AI와 통신의 결합, 통신·센싱 통합(ISAC)을 6G 핵심 활용 분야로 제시했다. 기지국은 데이터 전달을 넘어 차량과 사람의 위치를 감지하는 레이더 센서 역할까지 수행할 수 있다. 이들 기술은 하나의 시스템 안에서 연결된다. 칩 내부의 데이터가 첨단 패키징과 PCB, 광섬유를 거쳐 다른 서버로 전달되는 동안 수백 kW급 전력이 안정적으로 공급돼야 하고, 그 과정의 전자파 간섭도 제어해야 한다. AI 데이터센터 전체가 하나의 초대형 전자기 시스템인 셈이다. 변화에 대응하려면 대학의 전자파"
+    },
+    {
+      "s": "hanyangeconomy.com",
       "t": "[월스트리트 다락방 투자] 하반기 AI 반도체가 끌고, 정책 변동성이 흔드는 시장",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2SV9PeGdEcXZnOENhSkE4bW9JOUJjVVZMUXkxVkZGVFJWLWc1blpxTTh5M2RVMFRRT1Rxb1VLUWRFeUttelJqcndzMl9yUXdURXU1YWlUcEZKY3FVdTZ4YUhWQV9YRXJjbF9FWkg3ZjU?oc=5",
@@ -39,7 +48,7 @@
       "fullText": "The race for faster AI inference is on, and markets gave Cerebras and its purpose-built chips a warm welcome in its IPO debut in May. But French startup Kog is betting that there&#8217;s a lot more power to be squeezed out of conventional GPUs. The startup hit the front page of Hacker News in May with a tech preview aimed at proving that “extremely fast single-request decoding is possible on the standard datacenter GPUs enterprises already own” — such as the AMD MI300X and Nvidia H200 GPUs it used for its demo. Some were disappointed to hear this didn’t extend to GPUs in our laptops, but others saw the potential. With inference speed and costs now being a critical bottleneck, Kog’s promise to unlock new capabilities on existing hardware with software optimization attracted more than onlookers . “We had 200 tangible business leads,” CEO Gaël Delalleau told TechCrunch. Based on early feedback, the solo founder expects software engineering to be the first use case. Veteran Claude Code users are well aware that they sometimes have to wait hours to get results. Anthropic itself understands that speed is worth money, and charges a price multiple for Claude’s Fast Mode. Kog is hoping to target customers put off by those delays, usually because they rely on AI workflows for professional tasks. But the startup also has design partners that let users generate games and apps with a prompt, and for whom a faster outcome thanks to the Kog Inference Engine (KIE) would mean more revenue, Delalleau said. The company realizes this market is not quite mature yet. While observing demand, Kog learned that its prospective customers aren’t prepared to fine-tune small models. “And that&#8217;s why since the launch, we&#8217;ve been fully focused on accelerating the development of larger models to meet the demand we&#8217;ve seen.” This leaves Kog with a huge leap to make to deliver on its promise of “30x faster LLM inference.” Its demo showed an impressive 3,000 per-request tokens per sec"
     },
     {
-      "s": "news.nate.com",
+      "s": "네이트",
       "t": "삼성·SK, 美 로비에 850만달러…AI '룰 전쟁' 본격화",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wNG5JRmVNV1JIbk9KUkR5NjZBMno0LXMzTWMwYThPb3I1djlpZEJlTEhlb205MmFva29CNXlKRV9iSVM1akRaQUtkQk5uclVVcHFJ?oc=5",
@@ -188,7 +197,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "비즈니스포스트",
+      "s": "businesspost.co.kr",
       "t": "젠슨 황 미국 정부와 의회에 'AI 반도체 중국 수출' 적극 설득, 엔비디아에 더 절실해져",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zc1NqbTZJU0NYbGM3Sml2a2lVWmNlMW1JN3pPbFVIV3B2dHdLNFZiOHYtYmd1VGVTYWE1T0t4WGVvclduMHRCSUszeGprVktxbmRsaEcxZFZWMWUzOE14c0h3YkUzM0w4aF81eXZyWUF1NUk?oc=5",
@@ -248,7 +257,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "lawtimes.co.kr",
+      "s": "법률신문",
       "t": "EU 반도체법 2.0 제안: 논의 동향과 시사점",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QeFFhRjE1c0d2aGZxUXI2UXdHVFA0RGJ3cHFlVUNTVFozSEVEUnJoQW1ZWHpqWnFiT0dWSU1odG96QVRfX1h2R3VUYW8teW90Y2l1MjN0NEdMMUdTLXB5OHpqT2lBOEpfV1J4RjV30gFyQVVfeXFMUHdpdmFtbmh5c1dZbXN5dmV1Mk9ZZlhfWDdNenNWNE1PNFZ4blc4TGhuZFVFcGFrM014UVpFQVNIdHdYcVhQUTdITzRqYTdnQkw3QmNPTUxkeno2X1B3cDc0aTM2b2JzZGlRQUdEb3c4bV9n?oc=5",
@@ -278,7 +287,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "khan.co.kr",
+      "s": "경향신문",
       "t": "반도체 규제 완화 ‘선물 보따리’ 받은 UAE···전쟁서 미국 편에 선 대가?",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQTZHaVlIQXg0Vmt3NVZoOUJJbGFZZGthT1ZLS3RwamlfZjFrRjJlUTVtVUZUZnhIOHRkdTJ5ZnBQMTZMRE5IWFo1bTc3Y3RHc1NQU3ZrMC00Z9IBX0FVX3lxTE9JWmtibnRiQWNGYzdaWjRpY1czQ2NpbDB4WW50RlRPakRGaEp4WFZkWkxHdTZBM3YyQ0hreDBicWl3SWx4QzB5SXBacmNwcVoxdU14Ynd0QjQ4LXhZc1Vz?oc=5",
@@ -308,7 +317,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "비즈니스포스트",
+      "s": "businesspost.co.kr",
       "t": "중국 화웨이 '엔비디아 빈 자리' 채운다, 미국의 AI 반도체 수출 규제로 반사이익",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPcHQ5eHN3cnJranlOSWJrU2tXWlVzZ2x3c0RzUzNEZTNBaUdHeVc2UUpUWm9lUDFheGc2THJBVWZqbVRzTHdqUC1CZk1yOVo3M1FLU3YzTEVHMTJROUcwTjJhUmdlZ2RNWU82MDlxNmlVNFE?oc=5",
@@ -368,16 +377,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "시사타파NEWS",
-      "t": "김용범 국민배당금에 “색깔론”…미국의 AI 배당 논쟁은 어디까지 왔나 [김헌식 칼럼]",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KN3l2bUpJZnpNYzREeHdEdzhJWWxlU3dtd3JvandWM2U4eFVlSzF1MFh4QXltX1FFOFZmVDYyMUFhREVXSlRTUkNsRDMxSTJxaGxacjdVbGlEUjduX3fSAWtBVV95cUxPQVNBX1VOeWtVM2Z3WnlqaVdnTXhUdHUxblVYZUJkaE9URXFGc3pnN2hHcXNQa09IQkExUjBRWEtONVBxNVdfYmRvMzl0cWd5b3MwQUptNFNwdklQOU9lZ21KeWtRUDJDd3dyZw?oc=5",
-      "m": "05. 17. AM 07:00",
-      "ts": 1779001200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "Naver Blog",
       "t": "한미반도체, 美 법인 설립…AI 반도체 공급망 정조준",
       "d": "",
@@ -388,20 +387,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "생생비즈플러스",
-      "t": "한미반도체, 美에 현지법인 '한미USA' 설립...AI반도체 시장 공략",
+      "s": "시사타파NEWS",
+      "t": "김용범 국민배당금에 “색깔론”…미국의 AI 배당 논쟁은 어디까지 왔나 [김헌식 칼럼]",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1udllGTmZjYWc4eDgtMGl2R3prZ3c5OGcwN1ZpN2NFcERFanV1ek5lVWFEZjJxXzV4b1ZSdERtUnA2WW5oYk4xRzg2MVI3OFNWWl9qMExPRWlTWk5ka2JpM3lCSU1kUnYyN1pJWA?oc=5",
-      "m": "05. 15. AM 07:00",
-      "ts": 1778828400000,
+      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KN3l2bUpJZnpNYzREeHdEdzhJWWxlU3dtd3JvandWM2U4eFVlSzF1MFh4QXltX1FFOFZmVDYyMUFhREVXSlRTUkNsRDMxSTJxaGxacjdVbGlEUjduX3fSAWtBVV95cUxPQVNBX1VOeWtVM2Z3WnlqaVdnTXhUdHUxblVYZUJkaE9URXFGc3pnN2hHcXNQa09IQkExUjBRWEtONVBxNVdfYmRvMzl0cWd5b3MwQUptNFNwdklQOU9lZ21KeWtRUDJDd3dyZw?oc=5",
+      "m": "05. 17. AM 07:00",
+      "ts": 1779001200000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "연합뉴스",
-      "t": "한미반도체, 미국법인 '한미USA' 설립…AI반도체 시장 공략",
+      "s": "생생비즈플러스",
+      "t": "한미반도체, 美에 현지법인 '한미USA' 설립...AI반도체 시장 공략",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Yc1d5YUFST0M0MGhGQk5fWU9DcWxwX2FJeW1ObnREUmVMQXJ1UGVxRDMwT0Q5ckRxREhDTnBKRk5ZaHE4VkFhTEhzVGRsUXkxQURiQk55VXVMcDTSAWBBVV95cUxPTEJEc2Nfc2VRZ1JucGZyLTMxLXdpQWNvSXJwNlZvTEhMN3d2NlhERktERE8wcnVpV0dnMk93M1BIbm5UT2NUb1dwQUlnUDR2VDdkYUFoM0h3M2V3NU5kMVQ?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1udllGTmZjYWc4eDgtMGl2R3prZ3c5OGcwN1ZpN2NFcERFanV1ek5lVWFEZjJxXzV4b1ZSdERtUnA2WW5oYk4xRzg2MVI3OFNWWl9qMExPRWlTWk5ka2JpM3lCSU1kUnYyN1pJWA?oc=5",
       "m": "05. 15. AM 07:00",
       "ts": 1778828400000,
       "_policy": true,

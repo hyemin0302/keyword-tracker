@@ -1,16 +1,25 @@
 {
-  "updatedAt": "2026-08-17T02:19:32.442Z",
+  "updatedAt": "2026-08-17T03:29:09.194Z",
   "count": 40,
   "stats": {
-    "today": 0,
+    "today": 1,
     "yesterday": 2,
-    "weekAvg": 0.6,
-    "sources": 34,
-    "heat": "cold"
+    "weekAvg": 0.7,
+    "sources": 33,
+    "heat": "cool"
   },
   "items": [
     {
-      "s": "breaknews.com",
+      "s": "전자신문",
+      "t": "'독파모' 4강 승부처는 '효율'…모델별 전략 뜯어보니",
+      "d": "독자 인공지능(AI) 파운데이션 모델(독파모) 프로젝트 2차 평가 결과가 조만간 발표된다. 2차 평가에서는 모델 규모뿐 아니라 실제 추론 성능과 효율성 등이 주요 경쟁력으로 작용할 전망이다. 17일 전자신문이 독파모 2차 평가에 참여하는 LG AI연구원·업스테이지·SK텔레콤·모티프테크놀로지스 4팀이 허깅페이스에 공개한 모델 기술자료를 분석한 결과 각 모델은 서로 다른 파라미터 규모와 학습·설계 전략을 택한 것으로 나타났다. 독파모 1차 평가에서",
+      "u": "https://www.etnews.com/20260817000055",
+      "m": "08. 17. AM 03:00",
+      "ts": 1786935600000,
+      "fullText": "AI·SW SW '독파모' 4강 승부처는 '효율'…모델별 전략 뜯어보니 발행일 : 2026-08-17 12:00 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 과학기술정보통신부와 정보통신산업진흥원(NIPA)가 서울 삼성동 코엑스에서 '독자 AI 파운데이션 모델' 프로젝트 1차 발표회에서 배경훈 부총리 겸 과학기술부 장관이 환영사를 하고 있다. 박지호기자 jihopress@etnews.com 독자 인공지능(AI) 파운데이션 모델(독파모) 프로젝트 2차 평가 결과가 조만간 발표된다. 2차 평가에서는 모델 규모뿐 아니라 실제 추론 성능과 효율성 등이 주요 경쟁력으로 작용할 전망이다. 17일 전자신문이 독파모 2차 평가에 참여하는 LG AI연구원·업스테이지·SK텔레콤·모티프테크놀로지스 4팀이 허깅페이스에 공개한 모델 기술자료를 분석한 결과 각 모델은 서로 다른 파라미터 규모와 학습·설계 전략을 택한 것으로 나타났다. 독파모 1차 평가에서 1위를 차지했던 LG AI연구원은 기존 모델을 활용해 규모를 빠르게 확대하는 '업사이클링' 방식을 택했다. 기존 모델의 학습 결과와 가중치를 활용하면서 처음부터 새로운 초대형 모델을 만드는 데 필요한 시간과 비용을 줄이는 방식이다. LG AI연구원 측은 “K-엑사원 2.0은 업사이클링을 통해 이전 모델보다 3배 이상 규모를 확장했으며, 지속적인 사전 학습, 난이도 중심의 중간 학습, 사후 학습 과정을 거쳤다”면서 “특히 장문 문맥 검색과 안전성 측면에서 이전 모델 대비 상당한 성능 향상을 달성했다”고 설명했다. SK텔레콤의 'A.X K2'는 한국어 특화 소버린 AI를 내세웠다. 총 파라미터 규모는 688B에 달하지만 실제 추론 때 활성화되는 파라미터는 33B 수준이다. 전체 모델의 지식 규모는 유지하면서 실제 연산량을 줄이는 혼합전문가(MoE) 구조를 통해 대형 모델의 성능과 추론 효율을 함께 확보했다. SK텔레콤은 “한국어와 한국 문화에 대한 깊은 이해를 바탕으로 최첨단 모델을 구축하는 것을 목표로 한다”면서 “씽크 퓨전 학습 레시피를 통해 복잡한 문제 해결을 위한 사고 모드와 간결하고 지연 시간이 짧은 응답을 위한 비사고 모드를 지원해 품질과 비용 간의 균형을 선택할 수 있다”고 말했다. 업스테이지 솔라 오픈2는 전작 가중치의 일부만 계승하고 나머지는 무작위로 새로 초기화하는 전략으로 250B 모델을 만들었다. 업스테이지가 공개한 자료에 따르면 전작 모델에서 계승한 가중치는 약 2.3%에 그쳤다. 업스테이지는 “솔라 오픈 2는 사무 생산성, 문서 작업, 코딩과 같은 에이전트 기반 사용 사례에 최적화되어 있다”면서 “선형 어텐션을 적용한 하이브리드 어텐션 기반의 MoE 아키텍처는 긴 컨텍스트 환경에서도 매우 효율적인 추론을 제공한다”고 강조했다. 글로벌 AI 모델 성능 평가에서 가장 높은 점수를 기록하며 '다크호스'로 떠오른 모티프테크놀로지스의 '모티프 3'는 3140억개 파라미터 규모 모델로, 전체 파라미터 가운데 실제 추론 과정에서 활성화되는 규모는 132억개다. 자체 개발한 아키텍처를 적용해 모델의 전체 규모를 키우면서도 실제 연산량은 낮추는 데 초점을 맞췄다. 모티프 측은 “자체 개발한 독자적인 설계 방식을 기반으로 처음부터 새롭게 구축됐다”면서 “ 특히 한국어, 추론 집약적, 법률 및 금융 데이터에 중점을 뒀다”고 설명했다. 정부는 독파모 2차 평가 결과를 조만간 발표할 예정이다. 최종 평가에서 4개 참여사 중 3팀이 생존해 다음 단계로 진출한다. 2차 평가에서는 벤치마크 평가가 총 100점 만점 중 40점을 차지하며, 나머지 배점은 전문가 평가(35점)와 사용자 평가(25점)로 구성된다. 앞서 지난 13일 공개된 '아티피셜 애널리시스 인텔리전스 지수(AAII)'에서 모티프의 '모티프 3'가 47점으로 가장 높은 점수를 기록했다. 이어 업스테이지 '솔라 오픈2'가 37점, SK텔레콤 'A.X-K2'가 35점, LG AI연구원 'K-엑사원 2.0'은 31점을 각각 기록했다. 독파모 4개 컨소시엄별 모델 비교 정현정 기자 iam@etnew"
+    },
+    {
+      "s": "브레이크뉴스",
       "t": "〈메가프로젝트〉 ③ 회사에선 AI 회의, 집에선 “독파모가 뭐야?”…H그룹 김부장이 막혔다",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5qUGxCcFlMMkNWYVlCM2FsdGVZbS01SlE4bnBtTkZFSHhBblJ0WWJnLVZfT09xcm1FNmNFTDZ0N3BQUQ?oc=5",
@@ -48,8 +57,8 @@
       "fullText": "올해 상반기 국내 양대 정보기술 플랫폼인 네이버와 카카오의 최고경영자가 받은 보수가 공개됐다. 정 대표의 보수는 급여 5억원, 상여 7억600만원, 기타 근로소득 300만원으로 나타났다. 카카오는 수행 직무의 가치와 개인 역량에 따라 기본급을 균등 분할 지급했으며, 상여는 2025년 별도 기준 매출과 영업이익 등의 재무·전략 성과와 ESG 경영 지표 달성률 등을 종합적으로 평가해 기준연봉의 176% 수준으로 결정했다고 설명했다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
-      "s": "시사저널e",
-      "t": "'韓 진출' 코히어 “소버린AI 핵심은 데이터·모델·인프라 통제”",
+      "s": "sisajournal-e.com",
+      "t": "'韓 진출' 코히어 “소버린AI 핵심은 데이터·모델·인프라 통제” - sisajournal-e.com",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PcU05T2xjNmUwSzhTZEZjcUx0UFFIYm54YUhYRHRFLVFDN2dTdFk5dlBxd0ctckFCRWZqQ2YzYTNYSlZkZnQ0UHBqQ2Y1U0V5ejY1MDhpRXN1VHp5MURyLXd3V1B2OVBQYUhYbVlwZWFKZ9IBdkFVX3lxTE1oUnpRbmt1VzhmRG1vZm1vNW9ZSU9VLWJob0JCMG5DczlSSzNVTlBIbExNZGwwZDRtb3M2b0t2RmNHT2ZPbVNiazd6X3dNUWhya0RMWlRudEdhUV8tek5JZkJJRTNJdHl1VDZScGxHSDN2WmZ2QVE?oc=5",
       "m": "08. 05. AM 07:17",
@@ -278,7 +287,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "ddaily.co.kr",
+      "s": "디지털데일리",
       "t": "[소버린AI 허와실①] ‘AI주권’ 선언은 충분했다…단계별 실체 따져 전략 수립할 때",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mZjYySjkwWjhOeUtGaDZrQmpUOEs3dXRLVXg0M21naWx2QTZyazJzUmRteWZ0OUNNTkh0UUtqM1JuMFM0ZnNHeU5tc25MdGVNMk1RQWRFOUxYbzdDVE12alR3?oc=5",
@@ -328,7 +337,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "딜사이트",
+      "s": "dealsite.co.kr",
       "t": "'소버린 AI' 내걸었는데…독파모, 탈락 서바이벌로 변질",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BdzcwSXpicVBVSjZXUjFObEh6Z1FwSVUzVV9kSERkV1hDemJFTElMa05MSU5GdUphMDNTdHRaaFl4OS0taEhuOEt6ODVaYTA?oc=5",
@@ -338,7 +347,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "Naver Blog",
+      "s": "blog.naver.com",
       "t": "[AI 3강 어디로] '소버린 AI' 내걸었는데…독파모, 탈락 서바이벌로 변질 : 네이버 블로그",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR3JUTFJFZmZnZmRjcWc0VnJHaVJPTjcyOUdWRXNhaTRWOUM0NWNZUTBFOHFxVy1xeVJfUmlWMG1Sajl4ZWdVSFNiREkwRXhNa0JPVG1fdFA1ajFVdWNBNjU2ZXBxN25LZU44MVlvQzg5bEdPaS1rUUliVlJHb0hKc0lmZ2trRW1wR093QzZNZw?oc=5",
@@ -388,22 +397,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "skenews.kr",
+      "s": "산경e뉴스",
       "t": "[해설] ‘돈줄’ 뚫린 AI·바이오 고속도로…국민성장펀드, ‘소버린 AI’에 승부수",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XWkctV3NXOGlJZ3QwVDlTU0RabTdReEkwVzgybDNhekozekJZR3lWNjRnMGRoVXo0SXo2aW45VFFXTWRJdERvWkREZWpTTTFEalJqTmZvY2oyQ25zdVFPanJZUVZfaG8?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "인공지능신문",
-      "t": "“AI 고속도로 구축 본격화”…국가 AI컴퓨팅센터, 1.5만장 반도체 기반 ‘소버린 인프라’ 시동",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXOUpmUVB3ZGJzQUZjb1BqZ2pObGRzOWhwZTRJSVFITjJIR2JkdEg0SW53Q0RtdnhKLVRVdXpwbncxakYzaDhvQjlRSmZ3SVRCYWQ0Z1NFMDZ5ZVF3d0lVQm85YndTT1E?oc=5",
-      "m": "05. 03. AM 07:00",
-      "ts": 1777791600000,
       "_policy": true,
       "fullText": "Google News"
     }

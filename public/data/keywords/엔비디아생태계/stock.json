@@ -1,6 +1,67 @@
 {
-  "updatedAt": "2026-08-18T09:09:01.599Z",
+  "updatedAt": "2026-08-18T10:01:12.261Z",
   "data": {
+    "TSM": {
+      "name": "TSMC",
+      "px": 430.97,
+      "dayChange": 0.11,
+      "periodChange": 5.98,
+      "prices": [
+        402.3,
+        424.61,
+        421.21,
+        415.58,
+        403.41,
+        399.09,
+        392.31,
+        374.67,
+        403.31,
+        404.25,
+        406.11,
+        417.17,
+        414,
+        418.2,
+        420.04,
+        418.47,
+        422.06,
+        429.15,
+        430.49,
+        426.35
+      ],
+      "dates": [
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "volume": 7248242,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 479,
+        "low52w": 223.7,
+        "volume": 7248242
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "NVDA": {
       "name": "엔비디아",
       "px": 225.01,
@@ -50,14 +111,14 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "volume": 81442206,
+      "volume": 81437577,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 236.54,
         "low52w": 164.07,
-        "volume": 81442206
+        "volume": 81437577
       },
       "investorFlow": null,
       "consensus": null
@@ -119,67 +180,6 @@
         "high52w": 495,
         "low52w": 281.87,
         "volume": 19981730
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "TSM": {
-      "name": "TSMC",
-      "px": 430.97,
-      "dayChange": 0.11,
-      "periodChange": 5.98,
-      "prices": [
-        402.3,
-        424.61,
-        421.21,
-        415.58,
-        403.41,
-        399.09,
-        392.31,
-        374.67,
-        403.31,
-        404.25,
-        406.11,
-        417.17,
-        414,
-        418.2,
-        420.04,
-        418.47,
-        422.06,
-        429.15,
-        430.49,
-        426.35
-      ],
-      "dates": [
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "volume": 7248242,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 479,
-        "low52w": 223.7,
-        "volume": 7248242
       },
       "investorFlow": null,
       "consensus": null
@@ -261,6 +261,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260818",
+            "foreigner": -123470,
+            "institution": -58545,
+            "individual": 179899,
+            "foreignRatio": "29.28%"
+          },
+          {
             "date": "20260814",
             "foreigner": 180064,
             "institution": 4387,
@@ -322,22 +329,15 @@
             "institution": 38362,
             "individual": -156264,
             "foreignRatio": "29.18%"
-          },
-          {
-            "date": "20260803",
-            "foreigner": 4963,
-            "institution": 25202,
-            "individual": -29286,
-            "foreignRatio": "29.17%"
           }
         ],
         "sum5d": {
-          "foreigner": 668325,
-          "institution": 353308
+          "foreigner": 480762,
+          "institution": 163138
         },
         "sum10d": {
-          "foreigner": 572328,
-          "institution": 736542
+          "foreigner": 443895,
+          "institution": 652795
         }
       },
       "consensus": null
@@ -393,7 +393,7 @@
         "2026-08-14",
         "2026-08-18"
       ],
-      "volume": 5121374,
+      "volume": 5406459,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -418,6 +418,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260818",
+            "foreigner": 441470,
+            "institution": -73791,
+            "individual": -355906,
+            "foreignRatio": "51.13%"
+          },
           {
             "date": "20260814",
             "foreigner": 747508,
@@ -480,22 +487,15 @@
             "institution": 18945,
             "individual": 376403,
             "foreignRatio": "50.95%"
-          },
-          {
-            "date": "20260803",
-            "foreigner": -1107357,
-            "institution": -288012,
-            "individual": 1368737,
-            "foreignRatio": "51.04%"
           }
         ],
         "sum5d": {
-          "foreigner": 1460037,
-          "institution": 154329
+          "foreigner": 2188082,
+          "institution": 12439
         },
         "sum10d": {
-          "foreigner": -834308,
-          "institution": -385130
+          "foreigner": 714519,
+          "institution": -170909
         }
       },
       "consensus": null
@@ -546,15 +546,12 @@
     ],
     "sp500": [
       0,
-      0.89,
-      0.75,
       -0.47,
       -0.42,
       -0.4,
       -0.19,
       -1.71,
       -0.08,
-      0.62,
       2.11,
       3.94,
       3.77,
@@ -678,14 +675,14 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "volume": 5274068,
+      "volume": 5266206,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 655.95,
         "low52w": 237.1,
-        "volume": 5274068
+        "volume": 5266206
       },
       "investorFlow": null,
       "consensus": null

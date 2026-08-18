@@ -1,6 +1,67 @@
 {
-  "updatedAt": "2026-08-18T09:05:12.822Z",
+  "updatedAt": "2026-08-18T09:57:28.329Z",
   "data": {
+    "NVDA": {
+      "name": "엔비디아",
+      "px": 225.01,
+      "dayChange": -0.13,
+      "periodChange": 10.76,
+      "prices": [
+        203.28,
+        207.29,
+        212.06,
+        208.76,
+        206.84,
+        196.51,
+        197.01,
+        190.01,
+        195.04,
+        200.75,
+        206.64,
+        211.94,
+        219.22,
+        218.99,
+        223.96,
+        217.55,
+        217.5,
+        224.09,
+        225.3,
+        225.16
+      ],
+      "dates": [
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "volume": 81437577,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 236.54,
+        "low52w": 164.07,
+        "volume": 81437577
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "AVGO": {
       "name": "브로드컴",
       "px": 392.43,
@@ -123,67 +184,6 @@
       "investorFlow": null,
       "consensus": null
     },
-    "NVDA": {
-      "name": "엔비디아",
-      "px": 225.01,
-      "dayChange": -0.13,
-      "periodChange": 10.76,
-      "prices": [
-        203.28,
-        207.29,
-        212.06,
-        208.76,
-        206.84,
-        196.51,
-        197.01,
-        190.01,
-        195.04,
-        200.75,
-        206.64,
-        211.94,
-        219.22,
-        218.99,
-        223.96,
-        217.55,
-        217.5,
-        224.09,
-        225.3,
-        225.16
-      ],
-      "dates": [
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "volume": 81437577,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 236.54,
-        "low52w": 164.07,
-        "volume": 81437577
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "000660": {
       "name": "SK하이닉스",
       "px": 1662000,
@@ -235,7 +235,7 @@
         "2026-08-14",
         "2026-08-18"
       ],
-      "volume": 5121374,
+      "volume": 5406459,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -260,6 +260,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260818",
+            "foreigner": 441470,
+            "institution": -73791,
+            "individual": -355906,
+            "foreignRatio": "51.13%"
+          },
           {
             "date": "20260814",
             "foreigner": 747508,
@@ -322,22 +329,15 @@
             "institution": 18945,
             "individual": 376403,
             "foreignRatio": "50.95%"
-          },
-          {
-            "date": "20260803",
-            "foreigner": -1107357,
-            "institution": -288012,
-            "individual": 1368737,
-            "foreignRatio": "51.04%"
           }
         ],
         "sum5d": {
-          "foreigner": 1460037,
-          "institution": 154329
+          "foreigner": 2188082,
+          "institution": 12439
         },
         "sum10d": {
-          "foreigner": -834308,
-          "institution": -385130
+          "foreigner": 714519,
+          "institution": -170909
         }
       },
       "consensus": null
@@ -393,7 +393,7 @@
         "2026-08-14",
         "2026-08-18"
       ],
-      "volume": 24003581,
+      "volume": 26042555,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -418,6 +418,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260818",
+            "foreigner": 577859,
+            "institution": -941461,
+            "individual": 410513,
+            "foreignRatio": "46.81%"
+          },
           {
             "date": "20260814",
             "foreigner": 4913433,
@@ -480,22 +487,15 @@
             "institution": -3924513,
             "individual": 2927753,
             "foreignRatio": "46.63%"
-          },
-          {
-            "date": "20260803",
-            "foreigner": -3896489,
-            "institution": -5039954,
-            "individual": 8658155,
-            "foreignRatio": "46.61%"
           }
         ],
         "sum5d": {
-          "foreigner": 8382584,
-          "institution": 5435073
+          "foreigner": 13354908,
+          "institution": 3868557
         },
         "sum10d": {
-          "foreigner": 2763696,
-          "institution": -6791831
+          "foreigner": 7238044,
+          "institution": -2693338
         }
       },
       "consensus": null
@@ -546,15 +546,12 @@
     ],
     "sp500": [
       0,
-      0.89,
-      0.75,
       -0.47,
       -0.42,
       -0.4,
       -0.19,
       -1.71,
       -0.08,
-      0.62,
       2.11,
       3.94,
       3.77,
@@ -678,14 +675,14 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "volume": 5274068,
+      "volume": 5266206,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 655.95,
         "low52w": 237.1,
-        "volume": 5274068
+        "volume": 5266206
       },
       "investorFlow": null,
       "consensus": null
@@ -737,7 +734,7 @@
         "2026-08-14",
         "2026-08-18"
       ],
-      "volume": 2370786,
+      "volume": 2557762,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -748,6 +745,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260818",
+            "foreigner": 39677,
+            "institution": 2460,
+            "individual": -45778,
+            "foreignRatio": "0.54%"
+          },
           {
             "date": "20260814",
             "foreigner": -19317,
@@ -810,22 +814,15 @@
             "institution": 2138,
             "individual": 2108,
             "foreignRatio": "0.52%"
-          },
-          {
-            "date": "20260803",
-            "foreigner": 69340,
-            "institution": -157683,
-            "individual": 70184,
-            "foreignRatio": "0.53%"
           }
         ],
         "sum5d": {
-          "foreigner": -7972,
-          "institution": 115278
+          "foreigner": 10132,
+          "institution": 88891
         },
         "sum10d": {
-          "foreigner": 36754,
-          "institution": -52871
+          "foreigner": 7091,
+          "institution": 107272
         }
       },
       "consensus": null

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T17:24:10.366Z",
+  "updatedAt": "2026-08-19T17:51:57.290Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
@@ -161,9 +161,9 @@
     },
     "BE": {
       "name": "블룸에너지",
-      "px": 202.5,
-      "dayChange": -3.11,
-      "periodChange": 2.76,
+      "px": 202.46,
+      "dayChange": -3.13,
+      "periodChange": 2.74,
       "prices": [
         197.06,
         226.26,
@@ -187,7 +187,7 @@
         229.94,
         232.16,
         209.01,
-        202.5
+        202.46
       ],
       "dates": [
         "2026-07-20",
@@ -214,90 +214,23 @@
         "2026-08-18",
         "2026-08-19"
       ],
-      "volume": 6357516,
+      "volume": 6665749,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 351.28,
         "low52w": 40.56,
-        "volume": 6357516
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "APD": {
-      "name": "Air Products and Chemicals, Inc",
-      "px": 303.61,
-      "dayChange": 0.13,
-      "periodChange": 2.35,
-      "prices": [
-        296.63,
-        296.39,
-        297,
-        294.29,
-        297.87,
-        292.58,
-        292.85,
-        294.27,
-        300.2,
-        294.89,
-        292.94,
-        294.71,
-        295.09,
-        299.92,
-        303.44,
-        308.18,
-        309.31,
-        304.07,
-        305.52,
-        308.97,
-        300.86,
-        303.23,
-        303.61
-      ],
-      "dates": [
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14",
-        "2026-08-17",
-        "2026-08-18",
-        "2026-08-19"
-      ],
-      "volume": 270440,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 314.87,
-        "low52w": 229.11,
-        "volume": 270440
+        "volume": 6665749
       },
       "investorFlow": null,
       "consensus": null
     },
     "LIN": {
       "name": "Linde plc",
-      "px": 482.88,
-      "dayChange": 0.87,
-      "periodChange": -5.7,
+      "px": 483.038,
+      "dayChange": 0.9,
+      "periodChange": -5.67,
       "prices": [
         512.05,
         505.03,
@@ -321,7 +254,7 @@
         482.74,
         474.33,
         478.71,
-        482.88
+        483.04
       ],
       "dates": [
         "2026-07-20",
@@ -348,14 +281,81 @@
         "2026-08-18",
         "2026-08-19"
       ],
-      "volume": 1129327,
+      "volume": 1186635,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 548.2,
         "low52w": 387.78,
-        "volume": 1129327
+        "volume": 1186635
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "APD": {
+      "name": "Air Products and Chemicals, Inc",
+      "px": 303.98,
+      "dayChange": 0.25,
+      "periodChange": 2.48,
+      "prices": [
+        296.63,
+        296.39,
+        297,
+        294.29,
+        297.87,
+        292.58,
+        292.85,
+        294.27,
+        300.2,
+        294.89,
+        292.94,
+        294.71,
+        295.09,
+        299.92,
+        303.44,
+        308.18,
+        309.31,
+        304.07,
+        305.52,
+        308.97,
+        300.86,
+        303.23,
+        303.98
+      ],
+      "dates": [
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19"
+      ],
+      "volume": 297124,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 314.87,
+        "low52w": 229.11,
+        "volume": 297124
       },
       "investorFlow": null,
       "consensus": null
@@ -587,15 +587,34 @@
       3.82,
       3.28,
       2.57,
-      2.86
+      2.89
     ]
   },
   "etfs": {
+    "HDRO": {
+      "name": "ETF Series Solutions Defiance N",
+      "px": 25.919,
+      "dayChange": 0,
+      "periodChange": 0,
+      "prices": [],
+      "dates": [],
+      "volume": 71341,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 39.26,
+        "low52w": 4.2,
+        "volume": 71341
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "HYDR": {
       "name": "Global X Hydrogen ETF",
-      "px": 43.73,
-      "dayChange": 1.91,
-      "periodChange": 5.45,
+      "px": 43.464,
+      "dayChange": 1.29,
+      "periodChange": 4.8,
       "prices": [
         41.47,
         43.95,
@@ -618,7 +637,7 @@
         45.22,
         45.32,
         42.91,
-        43.73
+        43.46
       ],
       "dates": [
         "2026-07-20",
@@ -644,33 +663,14 @@
         "2026-08-18",
         "2026-08-19"
       ],
-      "volume": 8760,
+      "volume": 9028,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 74.8,
         "low52w": 24.14,
-        "volume": 8760
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "HDRO": {
-      "name": "ETF Series Solutions Defiance N",
-      "px": 25.919,
-      "dayChange": 0,
-      "periodChange": 0,
-      "prices": [],
-      "dates": [],
-      "volume": 71341,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 39.26,
-        "low52w": 4.2,
-        "volume": 71341
+        "volume": 9028
       },
       "investorFlow": null,
       "consensus": null

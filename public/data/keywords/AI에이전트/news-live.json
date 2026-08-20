@@ -1,22 +1,31 @@
 {
-  "updatedAt": "2026-08-20T17:28:09.702Z",
+  "updatedAt": "2026-08-20T17:59:13.465Z",
   "count": 40,
   "stats": {
-    "today": 8,
-    "yesterday": 4,
-    "weekAvg": 3.1,
+    "today": 9,
+    "yesterday": 3,
+    "weekAvg": 3.3,
     "sources": 30,
     "heat": "warm"
   },
   "items": [
     {
+      "s": "Bloomberg Tech",
+      "t": "Anthropic Plans to Change Data Retention Policy for Advanced AI",
+      "d": "Anthropic PBC plans to allow business customers to keep greater control of their data when using its most capable artificial intelligence models, a stark change from an earlier data retention policy intended to mitigate potential cyberattacks.The Claude chatbot maker expects to roll out a new safety system later this year that will still require enterprise customers to retain data for 30 days but ",
+      "u": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai",
+      "m": "08. 20. PM 05:51",
+      "ts": 1787248260000,
+      "fullText": ""
+    },
+    {
       "s": "TechCrunch",
-      "t": "A third of webpages published since ChatGPT&#8217;s launch show signs of AI authorship, study finds",
+      "t": "A third of web pages published since ChatGPT&#8217;s launch show signs of AI authorship, study finds",
       "d": "ChatGPT and other AI models are now authoring and editing much of the new web.",
       "u": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
       "m": "08. 20. PM 05:18",
       "ts": 1787246338000,
-      "fullText": "Over one-third of webpages published after the release of ChatGPT show signs of being written by AI, according to a new study from Pew Research released on Thursday. The report corroborates other studies that detail how much of the web&#8217;s newer webpages are now either written by or &#8220;substantially edited&#8221; by AI, the firm says. It also arrives shortly after internet infrastructure provider Cloudflare reported that bot web traffic had overtaken human web traffic &#8212; a milestone that was reached sooner than the company had estimated. Pew&#8217;s data, however, is focused not on who or what is browsing the web, but on what is being browsed. And apparently, much of it is bots reading webpages written by other bots. To compile the report, Pew said it used the Common Crawl web archive to collect nearly half a million English-language webpages from the past five or so years, starting a couple of years before ChatGPT&#8217;s November 2022 release. Pew then used Open Pangram&#8217;s technology to detect how many were likely written or heavily edited by AI. In a random sample of 10,000 webpages collected in July 2026, around 10% showed &#8220;significant signs of AI authorship,&#8221; Pew said. However, Pew pointed out that a random sample like this would inevitably include older webpages — ones published before AI writing tools even existed, and therefore couldn&#8217;t have been AI-written. % of webpages showing significant AI editing or authorship Image Credits: Pew Research To get a better sense of how much of the web is now being written by AI, Pew filtered out the older webpages and focused only on those published after the release of ChatGPT. In this same snapshot with the older pages removed, signs of AI authorship were found in over one-third (35%) of the pages. Screenshot Image Credits: Pew Research Drilling down into domains themselves, Pew found that URLs with a .com domain showed signs of AI authorship at around 10 times the rate of a .edu or ."
+      "fullText": "Over one-third of web pages published after the release of ChatGPT show signs of being written by AI, according to a new study from Pew Research released on Thursday. The report corroborates other studies that detail how much of the web&#8217;s newer web pages are now either written by or &#8220;substantially edited&#8221; by AI, the firm says. It also arrives shortly after internet infrastructure provider Cloudflare reported that bot web traffic had overtaken human web traffic &#8212; a milestone that was reached sooner than the company had estimated. Pew&#8217;s data, however, is focused not on who or what is browsing the web, but on what is being browsed. And apparently, much of it is bots reading web pages written by other bots. To compile the report, Pew said it used the Common Crawl web archive to collect nearly half a million English-language web pages from the past five or so years, starting a couple of years before ChatGPT&#8217;s November 2022 release. Pew then used Open Pangram&#8217;s technology to detect how many were likely written or heavily edited by AI. In a random sample of 10,000 web pages collected in July 2026, around 10% showed &#8220;significant signs of AI authorship,&#8221; Pew said. However, Pew pointed out that a random sample like this would inevitably include older web pages — ones published before AI writing tools even existed, and therefore couldn&#8217;t have been AI written. % of web pages showing significant AI editing or authorship. Image Credits: Pew Research To get a better sense of how much of the web is now being written by AI, Pew filtered out the older web pages and focused only on those published after the release of ChatGPT. In this same snapshot with the older pages removed, signs of AI authorship were found in over one-third (35%) of the pages. Image Credits: Pew Research Drilling down into domains themselves, Pew found that URLs with a .com domain showed signs of AI authorship at around 10x the rate of a .edu or .gov dom"
     },
     {
       "s": "조선일보",
@@ -92,15 +101,6 @@
       "m": "08. 19. PM 10:10",
       "ts": 1787177446000,
       "fullText": "As AI models have become more powerful, the potential for those models to be misused has grown — as has a clamor for safety guardrails that can stop such abuse from happening. AI companies must now walk a delicate tight rope between respecting their enterprise customers&#8217; privacy while also watching usage for possible issues. Sensing an opportunity to one-up its rival Anthropic, OpenAI just announced a privacy-centric safety approach to monitoring for misuse. The company is previewing a new service to select customers that it calls Private Safety Processing. This is an automated system that watches for potential abuse while simultaneously retaining none of the customer&#8217;s data. This system clearly runs counter to Anthropic&#8217;s recently announced data-retention policy. The policy, which has aggravated some customers, enables the AI lab to keep user data (all of their sessions — and the conversations therein) for a period of 30 days, when it comes to &#8220;covered models.&#8221; Those models include all Mythos-class models and &#8220;future models with similar capabilities,&#8221; the company says. This policy, which was announced in July, was designed for the purposes of safety, allowing the lab to sift and analyze potential impropriety. However, it has deeply concerned some enterprises that handle large amounts of sensitive data and don&#8217;t want it harbored (or inspected) by the AI lab. OpenAI — like most other AI companies — already afford customers a relative level of privacy by adhering to a policy known as Zero Data Retention. ZDR uses agents within the OpenAI API to monitor for abuse on a per session basis. In this way, customer data isn&#8217;t retained by the company but companies are still able to scan for bad activity without the need for human intervention. It&#8217;s worth noting that Anthropic also largely abides by ZDR — except when it comes to &#8220;covered models,&#8221; like Fable. OpenAI says that Private Safety Processing is a n"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-      "d": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
-      "u": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
-      "m": "08. 19. PM 09:51",
-      "ts": 1787176283000,
-      "fullText": "Elon Musk’s SpaceX attempted to acquire AI coding startup Cognition as it works to catch up to OpenAI, Anthropic, and Google in the AI race, Bloomberg reported Wednesday , citing sources familiar with the matter. Cognition CEO Scott Wu disputed the report soon after it published, writing on X that the story was inaccurate and that Cognition &#8220; is not for sale ,&#8221; adding that the two companies haven&#8217;t been in talks. The report comes a few days after SpaceX’s $60 billion acquisition of Cursor, another AI coding startup, whose deal closed last week. SpaceX acquired Musk’s AI company, xAI, earlier this year. It then went public in a blockbuster IPO in June , with its market capitalization rising to nearly $2.3 trillion at its peak. SpaceX has sold investors on its AI ambitions, which include eventually building data centers in space . But the xAI business remains relatively early-stage and has fallen behind competitors. It&#8217;s also had to contend with its chatbot Grok’s penchant for controversy, including last year’s “MechaHitler” incident and this year’s nonconsensual sexual imagery scandals , as it tries to win over enterprise customers. Last week, Musk told SpaceX’s employees that in about “four or five years, AI will be 99% of the value” of the company, but achieving that feat will require SpaceX to pull in much more revenue from AI. AI-assisted coding has emerged as one of the clearest ways to monetize the technology. Anthropic’s meteoric growth, fueled in large part by Claude Code, is proof of that. Bringing Cursor into the fold was part of that equation, and the companies were already working together before the acquisition closed. This month, Cursor and SpaceX jointly released Grok 4.6, a new model that scores higher on benchmarks for coding and complex multi-step agentic tasks. Adding Cognition and its coding agent Devin — along with an enterprise customer base that includes Mercedes-Benz, Citi, and Goldman Sachs — would have given SpaceX an"
     },
     {
       "s": "지티티코리아",
@@ -203,6 +203,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "스타트업엔(StartupN)",
+      "t": "사이오닉에이아이, 스케일업 팁스 선정…금융·법률·공공 AI 에이전트 실증",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ncy01aEFhNEdlZjZQZlk0S0dya2kzak95NXdCX2NZcGx3RzJaMjF6bHdEbU5lSkhZa2JnNVVyV1NDZTZMVzE1Wm1tQTVZaVdfVFRKVWk1aXdUcGZ3akVjakVIcXJkYjlD0gFsQVVfeXFMT3Fkc0N2azhjZDVBVnhTQ2lrRE85M2ViTlF3UXdPYy1sYzRPNVZTTjgzMGpEM01HRzFlRnkxM2pfM0JFWGM5SFZUZXZ3Z0ktMHdUbDRSYVljQUkyS0ptZmM5akh3R0Y4SzNvQXZl?oc=5",
+      "m": "08. 14. AM 10:06",
+      "ts": 1786702018000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "시사저널e",
       "t": "AI로 상품 찾아도 결제율은 17%뿐···'규제·보안' 장벽에 막힌 에이전틱 커머스",
       "d": "",
@@ -299,7 +309,7 @@
       "u": "https://www.nbcnews.com/video/teen-charged-with-murder-of-mother-and-brother-allegedly-used-a-i-before-their-deaths-268226629546",
       "m": "08. 13. AM 12:53",
       "ts": 1786582428000,
-      "fullText": "Dozens gather at a silent rally in support of Clancy"
+      "fullText": "Chaplain Cavanaugh recalls conversations with Lindsay Clancy"
     },
     {
       "s": "뉴시스",
@@ -386,16 +396,6 @@
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53T3hLUmZaazhQLTlCenh5NUJUNXNkMjdudmEySkR6Z3Y0Z1FkNHZBX3BVYWJWRmVwS21oclE5QlNnMGJyT1pmV1Nqdmc1VnI5eE1qRG55T2dZVG1qYzJXMWdFRVVOZ0xza2c?oc=5",
       "m": "07. 30. AM 07:00",
       "ts": 1785394800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "특허뉴스",
-      "t": "\"AI가 정책도 쓴다\"... 지식재산처, AI 에이전트 직접 개발해 '공무원의 일하는 방식' 바꾼다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Ja0xVaHpyS245WDZUek05Q0dpcnAtVkNYRm5Ob3lCdXBUU2lyeXllODlxU1dfa2tvM0RIT2FKQWxtZ3cta3pSdw?oc=5",
-      "m": "07. 22. AM 07:00",
-      "ts": 1784703600000,
       "_policy": true,
       "fullText": "Google News"
     }

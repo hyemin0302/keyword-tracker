@@ -1,32 +1,14 @@
 {
-  "updatedAt": "2026-08-20T10:38:19.467Z",
+  "updatedAt": "2026-08-20T11:21:35.207Z",
   "count": 40,
   "stats": {
-    "today": 4,
-    "yesterday": 4,
-    "weekAvg": 1.3,
-    "sources": 30,
-    "heat": "warm"
+    "today": 3,
+    "yesterday": 3,
+    "weekAvg": 1,
+    "sources": 32,
+    "heat": "cool"
   },
   "items": [
-    {
-      "s": "전자신문",
-      "t": "클라우데라, 엔비디아와 협력해 아파치 스파크 가속… 클라우드 비용 절감",
-      "d": "클라우데라가 인공지능(AI)과 빅데이터 처리 과정의 고질적인 속도 저하와 비용 부담을 기존 코드 수정 없이 그래픽처리장치(GPU)를 통해 해결하는 방안을 발표했다. 클라우데라는 클라우데라 데이터 엔지니어링(CDE)에 엔비디아 쿠다-X 라이브러리인 'cuDF'를 기반으로 한 아파치 스파크 4.1용 네이티브 GPU 가속 기능을 도입한다고 20일 밝혔다. 아파치 스파크용 엔비디아 cuDF 플러그인은 최근 발표한 클라우데라 애니웨어 클라우드를 지원할",
-      "u": "https://www.etnews.com/20260820000377",
-      "m": "08. 20. AM 10:00",
-      "ts": 1787220000000,
-      "fullText": "AI·SW SW 클라우데라, 엔비디아와 협력해 아파치 스파크 가속… 클라우드 비용 절감 발행일 : 2026-08-20 19:00 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 클라우데라가 인공지능(AI)과 빅데이터 처리 과정의 고질적인 속도 저하와 비용 부담을 기존 코드 수정 없이 그래픽처리장치(GPU)를 통해 해결하는 방안을 발표했다. 클라우데라는 클라우데라 데이터 엔지니어링(CDE)에 엔비디아 쿠다-X 라이브러리인 'cuDF'를 기반으로 한 아파치 스파크 4.1용 네이티브 GPU 가속 기능을 도입한다고 20일 밝혔다. 아파치 스파크용 엔비디아 cuDF 플러그인은 최근 발표한 클라우데라 애니웨어 클라우드를 지원할 예정이다. 이를 통해 파이스파크나 SQL 코드를 수정하지 않고도 스파크 워크로드를 가속할 수 있으며, 하이브리드 환경 전반에서 클라우드 인프라 비용을 절감하면서 'AI-레디' 데이터를 빠르게 준비할 수 있다. 기업이 AI 이니셔티브를 확대하면서 데이터 준비 속도는 핵심 과제로 부상했다. 대규모 스파크 워크로드는 완료까지 수 시간이 소요되는 경우가 많아 분석과 AI 애플리케이션 도입이 지연되는 동시에 클라우드 컴퓨팅 비용도 증가한다. 클라우데라 데이터 엔지니어링에 GPU 가속 기능을 직접 통합한다면 기존 스파크 애플리케이션을 그대로 사용하면서 코드나 운영 워크플로우를 변경할 필요 없이 처리 시간을 크게 단축할 수 있다. 아파치 스파크는 기업 데이터 파이프라인의 상당수를 구동하고 있다. 클라우데라 데이터 엔지니어링에 네이티브 GPU 가속 기능을 내장함으로써 기업은 운영 워크로드에 필요한 보안 및 거버넌스를 유지하면서 성능을 향상시킬 수 있다. 클라우데라는 스파크 워크로드에 엔비디아 cuDF를 활용해 기존 CPU 인프라 대비 엔비디아 GPU에서 최대 4배의 워크로드 가속을 제공할 예정이다. 이를 통해 기업은 데이터 처리 주기를 크게 단축할 수 있다. 엔비디아 쿠다-X 라이브러리를 통해 클라우데라 데이터 엔지니어링은 아파치 스파크 4.1 워크로드를 다룰 때 기존 코드를 전혀 고칠 필요가 없는 '제로 코드' 방식으로 GPU 가속을 곧바로 적용할 수 있다. 이와 함께 분석과 인공지능(AI) 구현에 필수적인 ETL 작업과 데이터 준비 속도를 끌어올려 준다. 컴퓨팅 실행 시간이 짧아지는 만큼 자연스럽게 클라우드 인프라 비용을 줄이는 효과도 거둘 수 있다. 복잡하고 번거로운 수동 드라이버 설정 과정이 아예 필요 없도록 내장형 배포 방식을 선택했다. 여기에 클라우데라 통합 데이터 패브릭을 바탕으로 기업 수준의 강력한 보안과 거버넌스를 유지해 준다. 퍼블릭 클라우드뿐만 아니라 프라이빗 클라우드, 소버린 클라우드, 그리고 온프레미스 환경에 이르기까지 어디서나 똑같이 일관된 성능을 발휘한다는 점이 가장 큰 강점이다. 단일 클라우드 공급업체에 한정되는 GPU 가속 솔루션과 달리, 클라우데라는 하이브리드 환경 전반으로 해당 기능을 확장하면서 일관된 거버넌스와 운영 환경을 유지한다. 기업은 온프레미스, 클라우드, 엣지 등 데이터가 있는 곳 어디서나 보안이나 유연성을 저해하지 않고 스파크 워크로드를 가속할 수 있다. 클라우데라가 최근 발표한 'AI 아키텍처 대전환' 보고서에 따르면, 응답자의 다수인 84%가 AI 워크로드로 인해 인프라 비용이 증가했다고 답했다. 스파크 처리를 가속하면 기업은 정제된 AI-레디 데이터를 빠르게 확보해 인프라 비용을 절감하는 동시에 데이터 엔지니어링, AI, 분석팀 전반의 생산성을 향상시킬 수 있다. 레오 브루닉 클라우데라 최고제품책임자(CPO)는 “많은 기업에서 AI의 걸림돌은 모델이 아닌, 원시 데이터를 얼마나 빠르게 신뢰할 수 있고 활용 가능한 인사이트로 전환할 수 있는지 여부”라며, “클라우데라 데이터 엔지니어링 내에서 스파크를 가속하면 이러한 병목을 해소할 수 있다. 이를 통해 고객은 데이터 준비 단계에서 분석과 AI 단계로 더욱 빠르게 나아가는 동시에 거버넌스, 보안, 운영의 일관성을 전략의 중심에 유지할 수 있다”고 전했다. 팻 리 엔비디아 전략적 "
-    },
-    {
-      "s": "동아일보",
-      "t": "구글, 마벨과 AI칩 공동 개발…17조원 규모 신주인수권 부여",
-      "d": "구글이 미국 반도체 기업 마벨 테크놀로지와 손잡고 자체 인공지능(AI) 반도체 공동 개발에 나섰다. AI 인프라 시장을 장악한 엔비디아의 그래픽처리장치(GPU)나 브로드컴에만 의존하지 않고 자체 AI칩인 텐서처리장치(TPU)를 비롯한 자체 AI 반도체의 생산 기반을 확대하려는 전략으로 풀이된다.19일(현지 시간) 마벨이 미국 증권거래위원회(SEC)에 제출한 공시에 따르면 마벨은 구글의 TPU를 비롯한 맞춤형 반도체를 공동 개발하기로 했다. 또 마벨은 구글에 자사 주식 약 5900만 주를 주당 206.58달러(약 29만 원)에 살 수 있는 신주인수권을 부여했다. 사업 성과에 따라 이를 전량 행사하면 규모는 121억8000만달러(약 17조원)에 달하며, 구글은 마벨의 5대 주주가 된다.구글은 자체 AI칩인 TP",
-      "u": "https://www.donga.com/news/Economy/article/all/20260820/134512813/1",
-      "m": "08. 20. AM 07:54",
-      "ts": 1787212440000,
-      "fullText": "전혜진 기자 구독"
-    },
     {
       "s": "경인경제",
       "t": "“평택, 수도권AI·반도체 거점 넘어 재생에너지 전환 골든타임 잡아야”",
@@ -34,6 +16,16 @@
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBINXhDM0lSWHI4b0JvcDh1a3ZMNjUxd0haYUxLZnFpOWNzbXVMaVRETjRyUmZLUGQ5bnM1M0dUMWs4U1QtNTRDcVlXS25nX21tR0UxV2V4WHNQV1lzcjlRWXpXZG1nbVRP?oc=5",
       "m": "08. 20. AM 06:48",
       "ts": 1787208516000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "파이낸셜리뷰",
+      "t": "허종식 의원 발의 ‘전력망 3법’ 국회 통과, AI·반도체 전력망 확충 속도낸다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kRlY1LThGZ280NVZpLXc5aEM5S2xjVmltRTBtYkozZHFPY0FlVEN5THI1SjB0WFoteHI5NTBnZ2JNdEpFVV96dlBxdUhweVlLOUpjZm1zYlA3b003cTRDN1dfR0ZLMVJNTEM4bzJPOTNLTGRu?oc=5",
+      "m": "08. 20. AM 05:15",
+      "ts": 1787202918000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -46,15 +38,6 @@
       "ts": 1787202903000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Harry and Meghan set to return to UK",
-      "d": "The Duke and Duchess of Sussex are expected to move back to the UK. The Telegraph newspaper reports that six years after they stepped down as working royals, they will make the UK their primary base with their children. NBC News’ Daniele Hamamdjian has more.",
-      "u": "https://www.nbcnews.com/nightly-news/video/harry-and-meghan-set-to-return-to-uk-268559941528",
-      "m": "08. 19. PM 11:10",
-      "ts": 1787181047000,
-      "fullText": "Pilot killed, 2 state troopers hurt after small plane and helicopter collide"
     },
     {
       "s": "TechCrunch",
@@ -155,10 +138,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "연합뉴스",
+      "s": "매일경제 마켓",
       "t": "[AI돋보기] 시장이 사라진 AI 반도체 전쟁…한국의 선택은",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95ZE1MRW1uSC05QlVjaHRBRWI3ZVl6ZjBnVHQyV1NxN1gtOE5NSTRKc2xCY1NPOHg5dTJhZ2FhazJOaENNdFZLZlZyZkZSZkNyQU5QazBCelVBdk3SAWBBVV95cUxNb290X2h6dXZOVkZjbWpEQzl5T2gwUVlJR2Y1QnBHMXBadHhwdTNlZVkzSDUwNGM3X2VrTzQ0UW5HWE1nZ1hUSnlpa1JhcV8welpmNHdEazI4WW81QmdCMmg?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkWEp5S2FRVWJjeDdOSTNRRmp3Z1pFLVpZQU9vT1Z2dDBDQkxfTWgxY0dCT2lxbzJBbHNjVXVBMnQyZ0tJS25tZFdrQ3p0Z3I1bmc?oc=5",
       "m": "08. 08. AM 07:00",
       "ts": 1786172400000,
       "_policy": true,
@@ -215,20 +198,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "비즈니스포스트",
-      "t": "젠슨 황 미국 정부와 의회에 'AI 반도체 중국 수출' 적극 설득, 엔비디아에 더 절실해져",
+      "s": "글로벌이코노믹",
+      "t": "美, 글로벌파운드리스에 4356억원 지원…AI 반도체 공급망 자립 속도",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zc1NqbTZJU0NYbGM3Sml2a2lVWmNlMW1JN3pPbFVIV3B2dHdLNFZiOHYtYmd1VGVTYWE1T0t4WGVvclduMHRCSUszeGprVktxbmRsaEcxZFZWMWUzOE14c0h3YkUzM0w4aF81eXZyWUF1NUk?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX0xGRHpvVkdWalJpekYzeEg2RDc5bGJKVEZpRTNwWWFtSVhqMTRSSGVrUVZxWTM0OTZTT3I3M1dwM013NGVQd1FEVFA0VUdNX1BTejEwaVpNb0tKLXZkNzc3eWRKYXhzajhKQnd0a1dPb0lWVXJsUnB2bGpZX1l6Qm5rdlV0Z3Ff?oc=5",
       "m": "07. 29. AM 07:00",
       "ts": 1785308400000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "글로벌이코노믹",
-      "t": "美, 글로벌파운드리스에 4356억원 지원…AI 반도체 공급망 자립 속도",
+      "s": "비즈니스포스트",
+      "t": "젠슨 황 미국 정부와 의회에 'AI 반도체 중국 수출' 적극 설득, 엔비디아에 더 절실해져",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX0xGRHpvVkdWalJpekYzeEg2RDc5bGJKVEZpRTNwWWFtSVhqMTRSSGVrUVZxWTM0OTZTT3I3M1dwM013NGVQd1FEVFA0VUdNX1BTejEwaVpNb0tKLXZkNzc3eWRKYXhzajhKQnd0a1dPb0lWVXJsUnB2bGpZX1l6Qm5rdlV0Z3Ff?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zc1NqbTZJU0NYbGM3Sml2a2lVWmNlMW1JN3pPbFVIV3B2dHdLNFZiOHYtYmd1VGVTYWE1T0t4WGVvclduMHRCSUszeGprVktxbmRsaEcxZFZWMWUzOE14c0h3YkUzM0w4aF81eXZyWUF1NUk?oc=5",
       "m": "07. 29. AM 07:00",
       "ts": 1785308400000,
       "_policy": true,
@@ -265,20 +248,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "연합뉴스",
-      "t": "FT \"중국, AI·반도체 기술 수출통제 강화 검토\"",
+      "s": "법률신문",
+      "t": "EU 반도체법 2.0 제안: 논의 동향과 시사점",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDX3B6M3pSa3BtYjV2aFM4OHdaYUJzMHBxN1hOWUpCUmJOb0w2a1JJQTc3eHE4X1BhZk5oV0Z2aXpKT01XeFhUTUlrN3NwZ08zQjZYaktEbTI1SVXSAWBBVV95cUxNbHloaE05NzUwaC1sU1NBZjZ0b1RqNFRTNGRndnN2b2ctd0ZPbFE3TUhsWUw4YXFjOTV4U1dVOFNyZ1NBemNOS2NQUG9PRWhKMjhxZXdtZjhNbTB3LTByUHA?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QeFFhRjE1c0d2aGZxUXI2UXdHVFA0RGJ3cHFlVUNTVFozSEVEUnJoQW1ZWHpqWnFiT0dWSU1odG96QVRfX1h2R3VUYW8teW90Y2l1MjN0NEdMMUdTLXB5OHpqT2lBOEpfV1J4RjV30gFyQVVfeXFMUHdpdmFtbmh5c1dZbXN5dmV1Mk9ZZlhfWDdNenNWNE1PNFZ4blc4TGhuZFVFcGFrM014UVpFQVNIdHdYcVhQUTdITzRqYTdnQkw3QmNPTUxkeno2X1B3cDc0aTM2b2JzZGlRQUdEb3c4bV9n?oc=5",
       "m": "07. 21. AM 07:00",
       "ts": 1784617200000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "법률신문",
-      "t": "EU 반도체법 2.0 제안: 논의 동향과 시사점",
+      "s": "연합뉴스",
+      "t": "FT \"중국, AI·반도체 기술 수출통제 강화 검토\"",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QeFFhRjE1c0d2aGZxUXI2UXdHVFA0RGJ3cHFlVUNTVFozSEVEUnJoQW1ZWHpqWnFiT0dWSU1odG96QVRfX1h2R3VUYW8teW90Y2l1MjN0NEdMMUdTLXB5OHpqT2lBOEpfV1J4RjV30gFyQVVfeXFMUHdpdmFtbmh5c1dZbXN5dmV1Mk9ZZlhfWDdNenNWNE1PNFZ4blc4TGhuZFVFcGFrM014UVpFQVNIdHdYcVhQUTdITzRqYTdnQkw3QmNPTUxkeno2X1B3cDc0aTM2b2JzZGlRQUdEb3c4bV9n?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDX3B6M3pSa3BtYjV2aFM4OHdaYUJzMHBxN1hOWUpCUmJOb0w2a1JJQTc3eHE4X1BhZk5oV0Z2aXpKT01XeFhUTUlrN3NwZ08zQjZYaktEbTI1SVXSAWBBVV95cUxNbHloaE05NzUwaC1sU1NBZjZ0b1RqNFRTNGRndnN2b2ctd0ZPbFE3TUhsWUw4YXFjOTV4U1dVOFNyZ1NBemNOS2NQUG9PRWhKMjhxZXdtZjhNbTB3LTByUHA?oc=5",
       "m": "07. 21. AM 07:00",
       "ts": 1784617200000,
       "_policy": true,
@@ -319,16 +302,6 @@
       "t": "중국 화웨이 '엔비디아 빈 자리' 채운다, 미국의 AI 반도체 수출 규제로 반사이익",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPcHQ5eHN3cnJranlOSWJrU2tXWlVzZ2x3c0RzUzNEZTNBaUdHeVc2UUpUWm9lUDFheGc2THJBVWZqbVRzTHdqUC1CZk1yOVo3M1FLU3YzTEVHMTJROUcwTjJhUmdlZ2RNWU82MDlxNmlVNFE?oc=5",
-      "m": "06. 29. AM 07:00",
-      "ts": 1782716400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대한민국 정책브리핑",
-      "t": "이 대통령 \"반도체·피지컬AI·데이터센터 삼각축으로 초격차 산업강국 대도약\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3M2MwcUZlempPNWJPTHlZbi1jWEhrc0xjd0s4dFhRdG1jcVpDODJpdTdpSW5OLVNWMnpFRlV6VUZtSm5iTGIzQ1gzS015QjlPcXAyQ2J2YzR1R0Q5M2M2UmlOSC1GUmZaWC1zVQ?oc=5",
       "m": "06. 29. AM 07:00",
       "ts": 1782716400000,
       "_policy": true,
@@ -401,6 +374,36 @@
       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Yc1d5YUFST0M0MGhGQk5fWU9DcWxwX2FJeW1ObnREUmVMQXJ1UGVxRDMwT0Q5ckRxREhDTnBKRk5ZaHE4VkFhTEhzVGRsUXkxQURiQk55VXVMcDTSAWBBVV95cUxPTEJEc2Nfc2VRZ1JucGZyLTMxLXdpQWNvSXJwNlZvTEhMN3d2NlhERktERE8wcnVpV0dnMk93M1BIbm5UT2NUb1dwQUlnUDR2VDdkYUFoM0h3M2V3NU5kMVQ?oc=5",
       "m": "05. 15. AM 07:00",
       "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "브릿지경제",
+      "t": "한미반도체, 올해 말 美 법인 세운다⋯ “장비 수주 확대 기대”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1emNHOEhQZVFZR2g4Z2FDWEFEbzh2eXB0Z3hhYUJpM0V0di1kb05uQThjblcyd005djVQbVZySTQ5YVFDSVB0c0VhMDVkZE1LS1FacnlyZnlIQQ?oc=5",
+      "m": "05. 15. AM 07:00",
+      "ts": 1778828400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "미·중 정상회담 D-1…\"반도체 규제 완화시 韓메모리 부정적\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jeS1IZHNyUEJfd0dBRF9pSjBheUZDXzJjX0ppa0o2SjlZckhxUlJOVTQ5anFPcDc1RXJnX19BSGNDTVVwZ2ROSEdfYTBTcjhQWjJuaEo4Rm1sN3fSAWBBVV95cUxNT3Q4MDUzWUxBVTFWdWp4TEd0dFBpeVBBZDk0QklNVmVZZlZfYnlMbXVHMFRJYm9uTy1IVnJMQ3ZJNzIycDFqalZBU0pxY19HU2VIOExKOV9WalB6LThkY1Y?oc=5",
+      "m": "05. 13. AM 07:00",
+      "ts": 1778655600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "머니투데이",
+      "t": "'반도체 전쟁' 참전 유럽, 투자유치 '협력적 경쟁' - 머니투데이",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mRzZVUmFXN0RIUnZOOEs4ejYzSHhUUFBidmpoYXVyZGRQTlZtUHRGdkZ2WDZtM3NGQ3MzMEs0TDE4ZXNwVEM5RzFlS2N0ZUw4QnUzakRIQThHN0IzRnNFRWZtMU52OXJVMEd4edIBckFVX3lxTE9Sd3g0WG9JWGI0UTR4eklMeVVHOW5qMlBodzdFRjN3WDI2M0V5YUdhOHl1ZVN5ZjB5NTk0Ymk1TEVydFRuNUtXYmlXdHlKWlJrZXRsU2xpcVBCNGdvWWJOSTRLVDdmWmhfYUlkNmNVSEl0QQ?oc=5",
+      "m": "05. 10. AM 07:00",
+      "ts": 1778396400000,
       "_policy": true,
       "fullText": "Google News"
     }

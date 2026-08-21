@@ -1,14 +1,50 @@
 {
-  "updatedAt": "2026-08-21T19:11:46.351Z",
+  "updatedAt": "2026-08-21T19:50:13.504Z",
   "count": 40,
   "stats": {
-    "today": 8,
+    "today": 10,
     "yesterday": 6,
-    "weekAvg": 3.1,
-    "sources": 29,
-    "heat": "warm"
+    "weekAvg": 3.4,
+    "sources": 27,
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "d": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "u": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "m": "08. 21. PM 07:43",
+      "ts": 1787341419000,
+      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. The tldr: simply by using a custom harness tweaked to handled memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, acting like the agent&#8217;s brain, it is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: it handles memory, context, feedback. &#8220;Generally speaking the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracting and going off in la-la land is one of the holy grails in agentic research. For example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be p"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Wall Street Struggles to Absorb AI’s Debt Boom",
+      "d": "Broadcom is lining up another massive bet on AI. Bloomberg has learned the chipmaker is in talks to raise more than $60 billion in debt to help Anthropic and others secure chips and computing power. The deal highlights a bigger concern hanging over the AI trade: the cost of funding it all. Erica Klauer, Science and Technology Partners founder and CIO, discusses concerns around circular financing a",
+      "u": "https://www.bloomberg.com/news/videos/2026-08-21/wall-street-struggles-to-absorb-ai-s-debt-boom-video",
+      "m": "08. 21. PM 07:14",
+      "ts": 1787339685000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Anthropic Preps for Blockbuster Public Listing | Bloomberg Tech 8/21/2026",
+      "d": "Bloomberg’s Ed Ludlow takes a look at Anthropic as the AI company expects to match or top the size of SpaceX's record-setting IPO. Plus, sources say Broadcom is in talks to raise more than $60 billion in debt to help Anthropic and others secure chips and computing power, and all eyes are on Nvidia as the chipmaker reports earnings next week. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-08-21/bloomberg-tech-8-21-2026-video",
+      "m": "08. 21. PM 07:12",
+      "ts": 1787339571000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Anthropic Aims to Match or Top SpaceX IPO",
+      "d": "Anthropic is aiming for an IPO that could make history, expecting to match or even top SpaceX's record-setting debut, according to sources. The maker of Claude could file publicly by the end of this month. The company raised $65 billion in May at a $965 billion valuation. Bloomberg's Shirin Ghaffary, who leads coverage of Anthropic, and Bloomberg's Liana Baker, who leads the deals team, join Ed Lu",
+      "u": "https://www.bloomberg.com/news/videos/2026-08-21/anthropic-aims-to-match-or-top-spacex-ipo-video",
+      "m": "08. 21. PM 07:12",
+      "ts": 1787339531000,
+      "fullText": ""
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Anthropic Investor Blasts Traditional Venture Capital",
@@ -34,24 +70,6 @@
       "u": "https://www.bloomberg.com/news/articles/2026-08-21/deepseek-unveils-test-model-to-rival-anthropic-s-opus-4-8",
       "m": "08. 21. AM 11:04",
       "ts": 1787310273000,
-      "fullText": ""
-    },
-    {
-      "s": "한경 경제",
-      "t": "[단독] 챗GPT로 LG 에어컨·공기청정기 원격 제어",
-      "d": "",
-      "u": "https://www.hankyung.com/article/2026082154681",
-      "m": "08. 21. AM 08:37",
-      "ts": 1787301443000,
-      "fullText": ""
-    },
-    {
-      "s": "한경 경제",
-      "t": "[단독] LG전자, 씽큐에 챗GPT 탑재… PC 웹·외부 AI로 오픈형 AI홈 생태계 속도",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202608215055i",
-      "m": "08. 21. AM 06:40",
-      "ts": 1787294409000,
       "fullText": ""
     },
     {
@@ -116,7 +134,7 @@
       "s": "디지털데일리",
       "t": "[FRC 2026] 이광욱 화우 변호사 “AI 결제해도 금융사 책임…에이전트 통제해야”",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HQmRsRzBqakdaZ084Q0VFbXZRR2JUdURYLXgxeXZmLS1rVWhJRkFLNVdqNjAxcmR0ZzlsYnpCUHVVREZzSDlidm0yNWRiQld2ODY5QlpGR1NxZnlmSnNWYmxn?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OMnVkYVpSZjlHemlWTzl3Y2swWDVkWVdpc3VpVk45ZXQ1OGZTdGltOGdoWVdGLVVZaDhEYjJCaHI1eFQ4dmtBUVNReTBsTEN0QTdlcXhvUUxWX3NVeHQ2c0c3dTE?oc=5",
       "m": "08. 20. AM 07:24",
       "ts": 1787210693000,
       "_policy": true,
@@ -126,7 +144,7 @@
       "s": "디지털데일리",
       "t": "[FRC 2026] 조민기 SAS코리아 상무 “AI 에이전트가 금융거래하는 시대…신원·권한 검증해야”",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9GTzZjZ0dQRDAzYnByMHdCdVB6bkJKc2lfdEY0TW04YlVCVlhYaHFtOUVXVHNpLUNCY3lzOWo0UGI2dE9JRVJlYlIwTHBzSkpsRnVLa3RmQnJRZVd5aWQ5WUhn?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tWEtUOS1rU1FfQ21XTFNWQXhjVlljR3gyT2lCNFQ5emVabEJMelBKVVlVN1dscUpxemc1RFpPeUMyYXFFT2pCamk3dGQwM0tnOVExZHh3d203dEpEcldYYWhLaXo?oc=5",
       "m": "08. 20. AM 05:20",
       "ts": 1787203211000,
       "_policy": true,
@@ -328,7 +346,7 @@
       "u": "https://www.nbcnews.com/video/teen-charged-with-murder-of-mother-and-brother-allegedly-used-a-i-before-their-deaths-268226629546",
       "m": "08. 13. AM 12:53",
       "ts": 1786582428000,
-      "fullText": "NBC News NOW Supreme Court temporarily allows Trump&#x27;s White House ballroom construction to proceed"
+      "fullText": "Supreme Court allows ballroom construction to proceed"
     },
     {
       "s": "NVIDIA공식",
@@ -377,26 +395,6 @@
       "m": "08. 04. PM 01:00",
       "ts": 1785848447000,
       "fullText": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency Linux Foundation publishing Request for Comments on Shared AI Findings Exchange (SAFE) guidelines to transform agentic cybersecurity incidents into better protection. August 4, 2026 by Justin Boitano 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchange (SAFE), a proposed set of guidelines designed to turn agentic cybersecurity incidents into shared protection for the entire ecosystem. The SAFE guidelines are being drafted by an Open Secure AI Alliance working group. NVIDIA, Cisco, CrowdStrike , Hugging Face and Red Hat are among Open Secure AI Alliance members working with the Linux Foundation to contribute to the initial proposal. The SAFE guidelines include proposals to confidentially collect and analyze AI incidents and near misses, inform those impacted, identify recurring control failures and publish evidence-based operating recommendations that reduce systemic risk. Cybersecurity is a race without a finish line. Every major technology shift has created new potential attack surfaces. Defenders must move now at agent speed to respond rapidly to protect infrastructure and intellectual property — and the best way to do that is together. When trusted ecosystems share threat intelligence openly, collective defense becomes a force multiplier. Open Secure AI Alliance Delivers More Tools for AI Cybersecurity The SAFE framework adds to technology contributions Open Secure AI Alliance members are making to build and share open, inspectable tools across the full AI security stack. An AI agent isn’t just a model. It’s a system — identity controls, harnesses, guardrails, logs and evaluati"
-    },
-    {
-      "s": "인공지능신문",
-      "t": "EU, AI 생성 콘텐츠 '투명성 의무' 본격 시행…챗봇·딥페이크 모두 표시해야",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BVzZfaXNWTUNjMks1dmJnN3JsX0kzQzRxTHZUNnhYNWRmLWdtVTlzTjE5UHRRNmlYcU12YmhCU29MRUtYcDBpVDBjYkVCUzlMenJvMHRoWFZBbV9kWGJXV1lrX0dUZGc?oc=5",
-      "m": "08. 03. AM 07:00",
-      "ts": 1785740400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "v.daum.net",
-      "t": "EU 'AI 법' 발효…삼성·LG, 유럽향 AI 가전 '투명성 표기' 선제 대응",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlNWxGMGM1S3hzUTdqMDZFU2piamZRUkZaUHJZNE10Y3ItTWFmMnlDRHBIMUMybXN2RkhiTWRvc3VwNGlkRUxiVkVQZw?oc=5",
-      "m": "08. 02. AM 07:00",
-      "ts": 1785654000000,
-      "_policy": true,
-      "fullText": "Google News"
     }
   ]
 }

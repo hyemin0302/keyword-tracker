@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-08-21T19:06:58.862Z",
-  "count": 17,
+  "updatedAt": "2026-08-21T19:46:24.712Z",
+  "count": 19,
   "stats": {
-    "today": 2,
+    "today": 4,
     "yesterday": 2,
-    "weekAvg": 0.6,
-    "sources": 4,
-    "heat": "cool"
+    "weekAvg": 0.9,
+    "sources": 5,
+    "heat": "warm"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "d": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "u": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "m": "08. 21. PM 07:43",
+      "ts": 1787341419000,
+      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. The tldr: simply by using a custom harness tweaked to handled memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, acting like the agent&#8217;s brain, it is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: it handles memory, context, feedback. &#8220;Generally speaking the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracting and going off in la-la land is one of the holy grails in agentic research. For example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be p"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Anthropic Preps for Blockbuster Public Listing | Bloomberg Tech 8/21/2026",
+      "d": "Bloomberg’s Ed Ludlow takes a look at Anthropic as the AI company expects to match or top the size of SpaceX's record-setting IPO. Plus, sources say Broadcom is in talks to raise more than $60 billion in debt to help Anthropic and others secure chips and computing power, and all eyes are on Nvidia as the chipmaker reports earnings next week. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-08-21/bloomberg-tech-8-21-2026-video",
+      "m": "08. 21. PM 07:12",
+      "ts": 1787339571000,
+      "fullText": ""
+    },
     {
       "s": "한국경제",
       "t": "엔비디아, 월가는 실적보다 '이것'에 더 관심[박신영의 개장전 요것만]",

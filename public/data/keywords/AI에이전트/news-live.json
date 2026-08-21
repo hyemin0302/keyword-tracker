@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-08-21T19:50:13.504Z",
+  "updatedAt": "2026-08-21T20:24:12.826Z",
   "count": 40,
   "stats": {
     "today": 10,
     "yesterday": 6,
     "weekAvg": 3.4,
-    "sources": 27,
+    "sources": 28,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Anthropic Taps Google Chip Veteran as Part of Push Into Hardware",
+      "d": "Anthropic PBC has hired Amir Salek, a founder of the custom chip program at Alphabet Inc.’s Google, as the AI lab lays the groundwork for a push into making its own semiconductors.",
+      "u": "https://www.bloomberg.com/news/articles/2026-08-21/anthropic-taps-google-chip-veteran-as-part-of-push-into-hardware",
+      "m": "08. 21. PM 07:59",
+      "ts": 1787342395000,
+      "fullText": ""
+    },
     {
       "s": "TechCrunch",
       "t": "Nvidia just showed that the harness, not the AI model, is now the real hero",
@@ -16,7 +25,7 @@
       "u": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
       "m": "08. 21. PM 07:43",
       "ts": 1787341419000,
-      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. The tldr: simply by using a custom harness tweaked to handled memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, acting like the agent&#8217;s brain, it is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: it handles memory, context, feedback. &#8220;Generally speaking the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracting and going off in la-la land is one of the holy grails in agentic research. For example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be p"
+      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. The tldr: simply by using a custom harness tweaked to handled memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness, Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, acting like the agent&#8217;s brain, it is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: it handles memory, context, feedback. &#8220;Generally speaking, the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracting and going off in la-la land is one of the holy grails in agentic research. For example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be"
     },
     {
       "s": "Bloomberg Tech",
@@ -46,30 +55,21 @@
       "fullText": ""
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Anthropic Investor Blasts Traditional Venture Capital",
-      "d": "Early Anthropic investor Anjney Midha unloads on traditional venture capital, arguing firms failed investors by missing the AI revolution. He explains why he’s still buying Anthropic, predicts public markets will embrace frontier AI, and reveals why Stripe’s OpenRouter acquisition may really be a massive bet on securing the agentic internet. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-08-21/anthropic-investor-blasts-traditional-venture-capital-video",
-      "m": "08. 21. PM 04:00",
-      "ts": 1787328044000,
+      "s": "한경 경제",
+      "t": "[단독] 챗GPT로 LG 에어컨·공기청정기 원격 제어",
+      "d": "",
+      "u": "https://www.hankyung.com/article/2026082154681",
+      "m": "08. 21. AM 08:37",
+      "ts": 1787301443000,
       "fullText": ""
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Broadcom Seeking More Than $60 Billion in Latest AI Debt Deal",
-      "d": "Broadcom is in talks to raise more than $60 billion in debt for an AI chip financing deal that will benefit Anthropic PBC and other companies. Ed Ludlow reports on Bloomberg Television. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-08-21/broadcom-seeking-more-than-60b-in-latest-ai-debt-deal-video",
-      "m": "08. 21. PM 02:35",
-      "ts": 1787322909000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "DeepSeek Unveils Test Model to Rival Anthropic’s Opus 4.8",
-      "d": "DeepSeek unveiled an experimental AI model that can understand visual prompts, saying the tool nears the performance of an advanced model by US rival Anthropic PBC.",
-      "u": "https://www.bloomberg.com/news/articles/2026-08-21/deepseek-unveils-test-model-to-rival-anthropic-s-opus-4-8",
-      "m": "08. 21. AM 11:04",
-      "ts": 1787310273000,
+      "s": "한경 경제",
+      "t": "[단독] LG전자, 씽큐에 챗GPT 탑재… PC 웹·외부 AI로 오픈형 AI홈 생태계 속도",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202608215055i",
+      "m": "08. 21. AM 06:40",
+      "ts": 1787294409000,
       "fullText": ""
     },
     {
@@ -134,7 +134,7 @@
       "s": "디지털데일리",
       "t": "[FRC 2026] 이광욱 화우 변호사 “AI 결제해도 금융사 책임…에이전트 통제해야”",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OMnVkYVpSZjlHemlWTzl3Y2swWDVkWVdpc3VpVk45ZXQ1OGZTdGltOGdoWVdGLVVZaDhEYjJCaHI1eFQ4dmtBUVNReTBsTEN0QTdlcXhvUUxWX3NVeHQ2c0c3dTE?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HQmRsRzBqakdaZ084Q0VFbXZRR2JUdURYLXgxeXZmLS1rVWhJRkFLNVdqNjAxcmR0ZzlsYnpCUHVVREZzSDlidm0yNWRiQld2ODY5QlpGR1NxZnlmSnNWYmxn?oc=5",
       "m": "08. 20. AM 07:24",
       "ts": 1787210693000,
       "_policy": true,
@@ -144,7 +144,7 @@
       "s": "디지털데일리",
       "t": "[FRC 2026] 조민기 SAS코리아 상무 “AI 에이전트가 금융거래하는 시대…신원·권한 검증해야”",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tWEtUOS1rU1FfQ21XTFNWQXhjVlljR3gyT2lCNFQ5emVabEJMelBKVVlVN1dscUpxemc1RFpPeUMyYXFFT2pCamk3dGQwM0tnOVExZHh3d203dEpEcldYYWhLaXo?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9GTzZjZ0dQRDAzYnByMHdCdVB6bkJKc2lfdEY0TW04YlVCVlhYaHFtOUVXVHNpLUNCY3lzOWo0UGI2dE9JRVJlYlIwTHBzSkpsRnVLa3RmQnJRZVd5aWQ5WUhn?oc=5",
       "m": "08. 20. AM 05:20",
       "ts": 1787203211000,
       "_policy": true,
@@ -346,7 +346,7 @@
       "u": "https://www.nbcnews.com/video/teen-charged-with-murder-of-mother-and-brother-allegedly-used-a-i-before-their-deaths-268226629546",
       "m": "08. 13. AM 12:53",
       "ts": 1786582428000,
-      "fullText": "Supreme Court allows ballroom construction to proceed"
+      "fullText": "NBC News NOW Green card holder detained by ICE after immigration judge dismissed her case"
     },
     {
       "s": "NVIDIA공식",

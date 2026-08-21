@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-08-21T19:50:47.964Z",
+  "updatedAt": "2026-08-21T20:23:56.083Z",
   "count": 40,
   "stats": {
     "today": 11,
-    "yesterday": 5,
-    "weekAvg": 2.7,
+    "yesterday": 4,
+    "weekAvg": 2.6,
     "sources": 21,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Ask Emily Chang About Interviewing Tech’s Biggest Names on The Circuit",
+      "d": "Emily Chang interviews the top names in tech and business on The Circuit. Bring your questions and join her for an interactive Live Q&amp;A conversation on Sept. 1 at 1 p.m. EDT",
+      "u": "https://www.bloomberg.com/sessions/2026-09-01/live-q-amp-a-ask-emily-chang-about-interviewing-tech-s-biggest-names",
+      "m": "08. 21. PM 07:57",
+      "ts": 1787342260000,
+      "fullText": ""
+    },
     {
       "s": "TechCrunch",
       "t": "Nvidia just showed that the harness, not the AI model, is now the real hero",
@@ -16,7 +25,7 @@
       "u": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
       "m": "08. 21. PM 07:43",
       "ts": 1787341419000,
-      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. The tldr: simply by using a custom harness tweaked to handled memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, acting like the agent&#8217;s brain, it is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: it handles memory, context, feedback. &#8220;Generally speaking the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracting and going off in la-la land is one of the holy grails in agentic research. For example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be p"
+      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. The tldr: simply by using a custom harness tweaked to handled memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness, Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, acting like the agent&#8217;s brain, it is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: it handles memory, context, feedback. &#8220;Generally speaking, the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracting and going off in la-la land is one of the holy grails in agentic research. For example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be"
     },
     {
       "s": "Bloomberg Tech",
@@ -100,15 +109,6 @@
       "fullText": "Starcloud , a startup developing satellites that can perform AI inference in orbit, told TechCrunch that it has added a $250 million extension to its March $170 million Series A funding round. The extension values the company at $2.3 billion. The additional capital will allow the company to open a larger manufacturing facility and advance its largest orbital data center spacecraft, Starcloud-3, which is intended to fly on SpaceX&#8217;s forthcoming Starship rocket. CEO Philip Johnston is also amassing capital to ensure that he can launch his satellites as the market for rocket transportation tightens up. &#8220;We can see what&#8217;s coming — we&#8217;re going to need to book an enormous amount of launch,&#8221; Johnston told TechCrunch. Starcloud has already requested permission from the FCC to operate 88,000 spacecraft. &#8220;As soon as we can, we want to get under contract with things like Starship,&#8221; Johnston said. &#8220;One of the biggest costs is now on securing your launch capacity&#8230;launch is pretty constrained right now because [SpaceX&#8217;s] Falcon 9 program is scheduled to end in 2028.&#8221; Launch costs were already one of the biggest challenges for orbital data center startups, to the point that one startup has decided to build its own rockets. SpaceX is now planning to phase out its workhorse vehicle and bring the much larger, but still unproven, Starship rocket online, making planning more difficult for satellite operators. That&#8217;s especially true while competing rockets, like Blue Origin&#8217;s New Glenn and ULA&#8217;s Vulcan, are not flying regularly, and new vehicles like Rocket Lab&#8217;s Neutron are not yet on the pad. For now, Starcloud is focused on launching two of the company&#8217;s new generation of 8 kW compute satellites (dubbed Starcloud-2) on rideshare flights in 2027. These will perform orbital inference tasks for customers including U.S. government agencies. Starcloud is considering buying a dedicated Falcon 9 l"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Salesforce, ServiceNow Fight AI Fears With Buybacks and Bluster",
-      "d": "Software companies are facing a crisis of confidence on Wall Street and trying increasingly aggressive strategies to address it.",
-      "u": "https://www.bloomberg.com/news/articles/2026-08-21/salesforce-servicenow-fight-ai-fears-with-buybacks-and-bluster",
-      "m": "08. 21. AM 11:00",
-      "ts": 1787310000000,
-      "fullText": ""
-    },
-    {
       "s": "TechCrunch",
       "t": "Learn what VCs actually want, from a founder who&#8217;s raised $1B",
       "d": "Investors want founders who understand the financial reality of their business. Messy data, misunderstood metrics, or waiting until you’re nearly out of cash to start fundraising can cost founders leverage, valuation, and even a term sheet. In this episode of Build Mode, host Isabelle Johannessen sits down with Sasha Orloff, founder and CEO of Puzzle [&#8230;]",
@@ -134,15 +134,6 @@
       "m": "08. 20. PM 10:09",
       "ts": 1787263791000,
       "fullText": "If you&#8217;ve ever wanted to share all of your digital conversations with OpenAI, we have good news for you: The AI lab has just launched an Apple Messages plug-in for ChatGPT, allowing interested users to connect their Messages inbox with the chatbot. The benefits of doing this, OpenAI argues, are numerous. Users can use the plug-in to sort, analyze, or edit their messages directly from ChatGPT. The plug-in also works with Codex and ChatGPT Work, so users can use it professionally, not just personally. A brief commercial advertising the new plug-in shows a user asking the chatbot to suggest follow-up messages to their contacts based on the messages received the previous day. You can also ask ChatGPT to delete messages for you, draft and send messages on your behalf, or search for information buried deep in your message history. As with most things related to AI, this new feature raises some privacy questions. OpenAI has specified some permissions protections but the overall privacy framework remains somewhat unclear. When reached for comment by TechCrunch on Thursday, OpenAI explained that ChatGPT does not create a full index of a user&#8217;s messages. The company further stated that the Messages plugin runs locally on a user&#8217;s device and that, for ChatGPT to read a user&#8217;s messages, the user must make a specific request for it to do so. To set the plugin up, users must also enable Full Disk Access, which should give the app the ability to read and write files on a user&#8217;s device. Still, the full context about what sort of information gets retained by ChatGPT isn&#8217;t totally clear. TechCrunch reached out for additional context. When it comes to message sending, OpenAI encourages users to keep an eye on what ChatGPT is doing and discourages turning on persistent approval, warning that doing so &#8220;removes your final chance to review a message before ChatGPT sends it as you,&#8221; the company writes . This post has been updated with additio"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Someone targeted security researchers using a fake crypto conference as a lure",
-      "d": "A hacker pretending to work for a leading cryptocurrency news website targeted several cybersecurity professionals using Google Docs as a way to deliver malware.",
-      "u": "https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/",
-      "m": "08. 20. PM 08:00",
-      "ts": 1787256000000,
-      "fullText": "If you are a malicious hacker, cybersecurity professionals may very well be the worst people in the world to try to hack, as there is a very good chance they are going to catch you. A person pretending to work for a leading crypto news site targeted several cybersecurity professionals around the time of the Black Hat and Def Con hacking conferences earlier this month. The hacker approached attendees on the social media site X, both via public replies and DMs, and then leveraged Google Docs in an attempt to trick the targets into installing malware, according to researchers. On Wednesday, security firm Huntress published a blog post detailing the hacking campaign, which targeted one of its researchers, who pretended to go along with it to learn what the hacker was trying to do. In broken English, the hacker asked the researcher if they had plans to attend a conference next, and then mentioned a conference allegedly organized by the crypto news website, according to a screenshot of the conversation. After that, the hacker shared a legitimate Google Doc that looked like it was a planning document for the fake conference. The document displayed a sidebar designed to make the target think it was encrypted. The goal was to first trick the target into entering a fake decryption key provided by the hacker. That was the first step in a process that would lead to the installation of malware for macOS and Windows, depending on the operating system used by the target, according to Huntress. To make the sidebar appear real, the hacker used Google App Script , a platform that allows developers to customize the user interface of Google Docs with menus and sidebars, for example. A screenshot of the Google Doc sent by the hacker to the Huntress researcher. Image Credits: Huntress/Screenshot The hacker tried to trick Huntress’ researcher into installing an infostealer for Apple computers; a remote desktop viewing tool repurposed as malware for Windows; and a fake installer for the cr"
     },
     {
       "s": "에너지데일리",
@@ -171,7 +162,7 @@
       "u": "https://www.nbcnews.com/video/more-dating-apps-turn-to-a-i-to-fight-swipe-fatigue-268430917972",
       "m": "08. 17. PM 10:52",
       "ts": 1787007157000,
-      "fullText": "Supreme Court allows ballroom construction to proceed"
+      "fullText": "NBC News NOW Green card holder detained by ICE after immigration judge dismissed her case"
     },
     {
       "s": "NVIDIA공식",
@@ -198,7 +189,7 @@
       "u": "https://www.nbcnews.com/video/flock-unveils-new-safeguards-addressing-reports-of-police-misusing-data-268286021797",
       "m": "08. 13. PM 11:28",
       "ts": 1786663733000,
-      "fullText": "Supreme Court allows ballroom construction to proceed"
+      "fullText": "NBC News NOW Green card holder detained by ICE after immigration judge dismissed her case"
     },
     {
       "s": "NVIDIA공식",
@@ -385,7 +376,17 @@
       "m": "07. 21. AM 07:00",
       "ts": 1784617200000,
       "_policy": true,
-      "fullText": ""
+      "fullText": "Google News"
+    },
+    {
+      "s": "에너지경제신문",
+      "t": "중국산 견제 수혜…한화솔루션, 美 대체 불가능한 ‘소수 업체’로 우뚝",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5V2xlREVYdnRlZW92MVFlSldwejA1VjhYQ05Jdm1BRFB5UGdSYUJVSXVVVXdCOERmbjVtMEZPZEhrYS1Ia3VMNS1zUjE5OEFIQmwtSUNScFU3dFk?oc=5",
+      "m": "07. 01. AM 07:00",
+      "ts": 1782889200000,
+      "_policy": true,
+      "fullText": "Google News"
     }
   ]
 }

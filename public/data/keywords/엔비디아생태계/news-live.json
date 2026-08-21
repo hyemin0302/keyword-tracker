@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T20:23:39.228Z",
+  "updatedAt": "2026-08-21T20:52:22.208Z",
   "count": 40,
   "stats": {
     "today": 6,
@@ -16,7 +16,7 @@
       "u": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
       "m": "08. 21. PM 07:43",
       "ts": 1787341419000,
-      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. The tldr: simply by using a custom harness tweaked to handled memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness, Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, acting like the agent&#8217;s brain, it is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: it handles memory, context, feedback. &#8220;Generally speaking, the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracting and going off in la-la land is one of the holy grails in agentic research. For example: Microsoft published research in April that tested 19 LLMs on long-horizon tasks involving document editing and discovered that all the models, including frontier ones, filled the documents with errors. (If humans produced work like that, they would be"
+      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. A harness is the software wrapper around an AI model — the tools, memory management, and rules that turn a raw model into something that can act on its own. The TL;DR: Simply by using a custom harness tweaked to handle memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3 — a set of 2D games with no instructions, where the model has to figure out how to play and win, similar to how a human would. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness, Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, the model itself — the part that acts as the agent&#8217;s &#8220;brain&#8221; — is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: It handles memory, context, and feedback. &#8220;Generally speaking, the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracted and going of"
     },
     {
       "s": "Bloomberg Tech",
@@ -385,10 +385,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "AI포스트",
-      "t": "엔비디아 젠슨 황 \"중국 점유율 0%로 추락\"…美 수출 규제로 中 자급자족 가속화",
+      "s": "굿모닝베트남미디어",
+      "t": "젠슨 황 “중국에서 엔비디아 AI 점유율 0%로 추락…미국 수출 통제가 역효과”",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyOTlUNGxvUC1Qc3p3ME5Xa0R3WjNHU0t6MEhfbHg5NEY0ZTdYOVN1Rl9IWGFuVjcxVTVsdE1ONHhmS21XUS1xamFmY2g1M2UzQkFaNlVQRU9XU2Vvdm5mVmpydTZxVEhmTkJzdGd30gFyQVVfeXFMTlRBWGFmc1YySi1vb3VxX09XVE1OWkkxazgweFpROE9zZFJlMHU5RW1oNW9PRlVMMnB1NFFWbkNsaWstclBNUDZRaXB3MzdEUlZsYXB4S3ZvSW1DaERKekRyeVRnYmZGNmZLRjdiRVZWNENR?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PS1lmakFsQzY5dFVXcmVkbENrUDI0eC01OFB2SE1zVDFsaEp6ODc4NzYxTUZvTzJQaE5JYUQxei1nUFVNT2pTeFYxY1M4YjBWVGFKNVQ2UEVldVlBeGlBX3FrV0N3RVg3clpoYWpySnk?oc=5",
       "m": "05. 04. AM 07:00",
       "ts": 1777878000000,
       "_policy": true,

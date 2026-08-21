@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-21T22:22:09.166Z",
+  "updatedAt": "2026-08-21T22:53:34.653Z",
   "count": 40,
   "stats": {
     "today": 11,
-    "yesterday": 5,
-    "weekAvg": 3.4,
-    "sources": 28,
+    "yesterday": 4,
+    "weekAvg": 3.3,
+    "sources": 29,
     "heat": "hot"
   },
   "items": [
@@ -35,7 +35,7 @@
       "u": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
       "m": "08. 21. PM 07:43",
       "ts": 1787341419000,
-      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. A harness is the software wrapper around an AI model — the tools, memory management, and rules that turn a raw model into something that can act on its own. The TL;DR: Simply by using a custom harness tweaked to handle memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3 — a set of 2D games with no instructions, where the model has to figure out how to play and win, similar to how a human would. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness, Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, the model itself — the part that acts as the agent&#8217;s &#8220;brain&#8221; — is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: It handles memory, context, and feedback. &#8220;Generally speaking, the world interprets an agent almost as an API of the model,&#8221; Adel El Hallack, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracted and going of"
+      "fullText": "Nvidia published some interesting new research on Friday suggesting it&#8217;s the harness, more than the underlying model, that is far more important when asking an AI to do long-horizon tasks. A harness is the software wrapper around an AI model — the tools, memory management, and rules that turn a raw model into something that can act on its own. The TL;DR: Simply by using a custom harness tweaked to handle memory well and including a &#8220;supervisor&#8221; boss-like component, researchers got Claude Opus 5 to achieve a 100% score on the interactive reasoning benchmark ARC-AGI-3 — a set of 2D games with no instructions, where the model has to figure out how to play and win, similar to how a human would. (That&#8217;s a benchmark that has particularly irked rival frontier lab OpenAI.) Without the harness, Opus 5 scored 30%, which was the top result among all the models tested. Nvidia&#8217;s research is another indicator that, while model choice does matter, the model itself — the part that acts as the agent&#8217;s &#8220;brain&#8221; — is a smaller part of an agentic system than many AI users realize, especially for long-horizon tasks. The harness is what makes a model an agent: It handles memory, context, and feedback. &#8220;Generally speaking, the world interprets an agent almost as an API of the model,&#8221; Adel El Hallak, vice president of product in Nvidia&#8217;s AI unit (pictured above), tells TechCrunch. But an agent is actually more than that. &#8220;It is the model. It is the scaffolding around the model, which we call the harness, i.e. the set of tools that it utilizes. It is the runtime and the associated skills and libraries that we give it access to.&#8221; Long-horizon tasks are those that require stringing many decisions together, sometimes over days, to produce completed work. This is in contrast to an AI just spitting out a response to a prompt. Figuring out how to get an AI to do long-horizon tasks without getting distracted and going off"
     },
     {
       "s": "Bloomberg Tech",
@@ -111,15 +111,6 @@
       "ts": 1787278156000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI is gaining on Anthropic with business users, new data indicates",
-      "d": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
-      "u": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-      "m": "08. 20. PM 10:36",
-      "ts": 1787265397000,
-      "fullText": "Until both OpenAI and Anthropic get close enough to their planned IPOs to release their financials, we have to look to other sources for signs of how well their businesses are doing. One of those sources, Ramp, the corporate credit card and expense management company, has just released some surprising new data: OpenAI has started gaining on Anthropic with U.S. businesses. OpenAI, which was once the runaway leader with both businesses and consumers, lost the lead among Ramp&#8217;s paying business users back in May. That&#8217;s when Anthropic hit 41% market share to OpenAI&#8217;s 39%. The ChatGPT maker has never regained that lead. As of July, Anthropic has nearly 44% to OpenAI&#8217;s nearly 40%. The data covers more than 70,000 American businesses that spend billions via Ramp’s bill pay and corporate card products. Ramp&#8217;s customers are spread across industries but, as a popular Silicon Valley corporate credit card, they do skew toward the tech industry. A closer look at the most recent data, according to Ramp economist Ara Kharazian, shows that OpenAI is currently growing faster among this segment in Q3 to date than Anthropic. Mind you, there&#8217;s still a month left in the quarter and that&#8217;s like 30 AI years, so the trend could easily shift again before it&#8217;s over. Ramp also declined to provide actual dollars spent, sharing only percentages. To borrow ChatGPT&#8217;s own hedging style for a moment: This isn&#8217;t a measure of the total market. It excludes large enterprises that use spend-management tools from providers like American Express, rather than Ramp. But it&#8217;s enough data to show market indications. And what it shows is that Anthropic hasn&#8217;t won permanently. Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies&#8217; investors pause about how &#8220;sticky&#8221; enterprise AI spending really is. &#8220;GPT-5.6 Sol is really good, increasingly the choice"
     },
     {
       "s": "지티티코리아",
@@ -394,6 +385,16 @@
       "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlNWxGMGM1S3hzUTdqMDZFU2piamZRUkZaUHJZNE10Y3ItTWFmMnlDRHBIMUMybXN2RkhiTWRvc3VwNGlkRUxiVkVQZw?oc=5",
       "m": "08. 02. AM 07:00",
       "ts": 1785654000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "AI타임스",
+      "t": "알트먼, 미 의회·백악관 연쇄 방문... '통제 벗어난 AI 에이전트' 규제 논의",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53T3hLUmZaazhQLTlCenh5NUJUNXNkMjdudmEySkR6Z3Y0Z1FkNHZBX3BVYWJWRmVwS21oclE5QlNnMGJyT1pmV1Nqdmc1VnI5eE1qRG55T2dZVG1qYzJXMWdFRVVOZ0xza2c?oc=5",
+      "m": "07. 30. AM 07:00",
+      "ts": 1785394800000,
       "_policy": true,
       "fullText": "Google News"
     }

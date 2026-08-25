@@ -1,22 +1,40 @@
 {
-  "updatedAt": "2026-08-25T14:44:18.173Z",
+  "updatedAt": "2026-08-25T15:41:08.107Z",
   "count": 40,
   "stats": {
-    "today": 19,
-    "yesterday": 6,
-    "weekAvg": 4.9,
+    "today": 20,
+    "yesterday": 5,
+    "weekAvg": 4.6,
     "sources": 27,
     "heat": "hot"
   },
   "items": [
     {
+      "s": "동아일보",
+      "t": "엔비디아, AI추론칩 ‘그록3’ 양산 돌입… 삼성 파운드리가 전담, 흑자전환 기대",
+      "d": "인공지능(AI) 연산에 필요한 칩에서부터 시스템, 소프트웨어 등을 모두 아우르는 ‘풀스택’ 기업으로 거듭나고 있는 엔비디아가 AI 추론 특화 가속기 ‘그록3 LPX’ 양산을 시작했다. 엔비디아의 그래픽처리장치(GPU)로 AI를 학습시키고, 그록3 LPX를 통해 추론까지 이어지는 플랫폼을 제공하겠다는 것이다. 그록3 LPX의 생산은 전량 삼성전자 파운드리가 맡게 돼 삼성전자 파운드리의 흑자 전환에 대한 기대감도 커지고 있다.  24일(현지 시간) 엔비디아는 AI 에이전트 구동을 위해 추론 속도를 높인 그록3 LPX 양산을 시작했다고 밝혔다. AI 에이전트는 답변에서 그치는 것이 아니라 실행까지 하는 AI로, 대화의 맥락을 이해하기 위해 추론 기능이 반드시 필요하다.  그록3 LPX는 추론 전용 칩인 언어처리장",
+      "u": "https://www.donga.com/news/Economy/article/all/20260825/134542430/2",
+      "m": "08. 25. PM 03:30",
+      "ts": 1787671800000,
+      "fullText": "최지원 기자 구독"
+    },
+    {
+      "s": "조선일보",
+      "t": "엔비디아, 드론·소형 로봇용 AI 컴퓨터 ‘젯슨 오린 나노2’ 공개… “추론 성능 2배”",
+      "d": "엔비디아가 드론과 가정용 로봇 등에 생성형 인공지능(AI)을 탑재하기 위한 보급형 로보틱스 컴퓨터 ‘젯슨 오린 나노 2(Jetson Orin Nano 2)’를 공개했다. 기존 제품보다 AI 추론 성능을 2배 높이고 전력 효율을 개선해 소형 기기에서도 대규모언어모델(LLM)과 비전언어모델(VLM)을 구동할 수 있도록 했다. 엔비디아는 젯슨 오린 나노 2 모듈",
+      "u": "https://www.chosun.com/economy/tech_it/2026/08/26/GU4WCOLFGI2WKYZWGZRDOM3FMI/",
+      "m": "08. 25. PM 03:00",
+      "ts": 1787670000000,
+      "fullText": ""
+    },
+    {
       "s": "TechCrunch",
       "t": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-      "d": "Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "d": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
       "u": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
       "m": "08. 25. PM 02:22",
       "ts": 1787667724000,
-      "fullText": "At the Hot Chips conference on Tuesday, OpenAI shared a more detailed look at Jalapeño, including the first batch of benchmark results for the new system. Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the-art inference processors. “The bottom line is that the results show a very, very significant performance advance over state of the art,” said Richard Ho, OpenAI’s head of hardware, in a press call. “Jalapeño can serve more AI work per unit of power, while also returning responses more quickly. It&#8217;s very efficient to serve a lot of customers, but it can also be very low latency.” Notably, that comparison is against an Nvidia Blackwell system — but by the time Jalapeño reaches full deployment, the competition may have advanced significantly. Ho estimated that Jalapeño would deploy at the end of 2026 “in very small volumes,” with more significant deployment coming in 2027. First announced last October, Jalapeño was developed by OpenAI in close collaboration with Broadcom, with OpenAI&#8217;s own models assisting in the development process. The company plans to make Jalapeño a multigenerational platform, allowing AI products, models, chips and memory all developed in concert. Because of that full-stack approach, OpenAI was able to address specific phases in the inference process that often cause friction during inference processing. In particular, Jalapeño is designed to minimize delays during the prefill and communication phases of processing, which OpenAI says often act as bottlenecks. “We designed Jalapeño to minimize data movement and communication delays,” the company said in a blog post presenting the results. “This means that model state, including the KV cache used while generating a response, can be explicitly placed and kept local while the system activates the right combination of compute, memory, and networking for each inference phase"
+      "fullText": "At the Hot Chips conference on Tuesday, OpenAI shared a more detailed look at Jalapeño, including the first batch of benchmark results for the new system. Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the-art inference processors. “The bottom line is that the results show a very, very significant performance advance over state of the art,” said Richard Ho, OpenAI’s head of hardware, in a press call. “Jalapeño can serve more AI work per unit of power, while also returning responses more quickly. It&#8217;s very efficient to serve a lot of customers, but it can also be very low latency.” Notably, that comparison is against an Nvidia Blackwell system — but by the time Jalapeño reaches full deployment, the competition may have advanced significantly. Ho estimated that Jalapeño would deploy at the end of 2026 “in very small volumes,” with more significant deployment coming in 2027. First announced last October, Jalapeño was developed by OpenAI in close collaboration with Broadcom, with OpenAI&#8217;s own models assisting in the development process. The company plans to make Jalapeño a multigenerational platform, allowing AI products, models, chips, and memory all developed in concert. Because of that full-stack approach, OpenAI was able to address specific phases in the inference process that often cause friction during inference processing. In particular, Jalapeño is designed to minimize delays during the prefill and communication phases of processing, which OpenAI says often act as bottlenecks. “We designed Jalapeño to minimize data movement and communication delays,” the company said in a blog post presenting the results. “This means that model state, including the KV cache used while generating a response, can be explicitly placed and kept local while the system activates the right combination of compute, memory, and networking for each inference phase"
     },
     {
       "s": "Bloomberg Tech",
@@ -34,7 +52,7 @@
       "u": "https://www.etnews.com/20260825000007",
       "m": "08. 25. PM 01:15",
       "ts": 1787663700000,
-      "fullText": "전국 [BEYOND DGIST] 세상을 바꾸는 기술 창업, 차세대 '유니콘' 향해 뛴다 〈2〉어퍼바운드 발행일 : 2026-08-25 22:15 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 “상호명만 치면 30분 만에 숏폼 뚝딱”…외식업 소상공인 마케팅 장벽 허문 AI DGIST 전폭 지원 딛고 고속 성장…과기부 장관상 등 휩쓸며 기술력 입증 유료 고객 2000곳 돌파…“완전 자동화 솔루션 구축해 글로벌 AX 기업 도약” 대구경북과학기술원(DGIST) 컴퓨터공학 트랙 4학년에 재학 중이던 장현영 대표와 전민수 CTO가 함께 창업한 스타트업 '어퍼바운드(Upperbound)'는 디퓨전(Diffusion)-LLM 기반의 외식업 소상공인을 위한 인공지능 전환(AX) 마케팅 솔루션을 제공하는 기업이다. 빠르게 발전하는 AI를 실생활에 접목해 외식업분야 소상공인 생존 문제인 마케팅 부담을 획기적으로 줄여주자는 것이 이 기업의 설립 목표다. 그동안 외식업 소상공인들은 마케팅이 필수라는 것을 잘 알지만 당장 가게 문을 닫고 영상을 찍을 여유나 수백만원의 비용을 감당할 여력이 부족했다. 또 기존 마케팅 대행사를 이용하려면 촬영 스케줄을 잡거나 복잡한 편집 툴을 배워야 하는 등 높은 진입 장벽이 한계로 지적돼 왔다. 어퍼바운드의 숏폼제작, SNS업로드, 전략추천 프로세스 이미지 어퍼바운드는 이러한 한계를 극복하기 위해 기획자의 뇌와 편집자의 손을 대체하는 'Generative AI 기반의 외식업 소상공인 숏폼 자동제작 파이프라인' 솔루션을 독자 개발했다. 점주가 단순히 상호명만 입력하면 당사의 AI 엔진이 공개된 웹 데이터를 분석해 매장의 특장점을 파악하고, 단 30분 안에 모든 영상 제작 과정을 자동으로 완료하는 것이 특징이다. 구체적으로는 이미지 선별부터 시나리오 구성, 영상 생성, 나레이션, BGM 삽입은 물론 음식의 질감을 살리는 후처리 보정까지 수행한다. 디퓨전 AI가 음식 종류에 맞는 최적의 카메라 무빙과 연출 효과를 구현하고 마케팅에 효과적인 톤앤매너로 나레이션을 입혀, 촬영 없이도 실제 촬영물 수준의 고품질 숏폼 광고를 만들어내는 독보적인 경쟁력을 갖췄다. 특히 촬영 인프라가 부족한 곳에서도 누구나 고품질 숏폼 광고를 가질 수 있게 만드는 것이 이 회사의 핵심 서비스다. 기술적 완성도와 완전 자동화가 이 회사의 경쟁력이다. 어퍼바운드의 빠른 기술 고도화 배경에는 DGIST의 체계적 창업 지원이 큰 몫을 했다. 이 회사는 DGIST의 1년 단위 창의적 연구 프로그램인 UGRP 프로젝트를 통해 창업의 기틀을 다졌다. 지난 2024년 700만원의 창업 자금도 지원받았다. 이어 올해는 D-Tech Program 참여기업으로 선정돼 3000만원을 지원받는 등 체계적인 액셀러레이팅이 고속 성장에 큰 밑거름이 됐다. 탁월한 기술력을 입증하듯 수상 실적도 남다르다. 2024년 K-해커톤 대상과 2025년 4대 과학기술원 공동창업 경진대회에서 연이어 과학기술정보통신부 장관상을 거머쥐었다. 또, 2025년 한남대 창업중심대학 최우수 기업 선정, 2026년 청년창업사관학교 선정 및 대구경북경제자유구역청장 표창을 받으며 기술 공신력을 확인했다. 어퍼바운드의 B2C, B2B 모델 시장 반응도 뜨거워지고 있다. 어퍼바운드는 진입 장벽을 획기적으로 낮춘 직관적인 메시지의 D2C 퍼포먼스 마케팅과 B2B 제휴 확장을 통해 현재 전국 유료 고객 2000개 업체를 유치하는 성과를 거뒀다. 특히 기술 소외 계층인 고연령대 점주들의 호응을 얻으며, 마케팅 에이전시 및 프랜차이즈 기업들과의 파트너십을 통해 플랫폼에 유용한 부가 서비스를 제공하는 윈윈 구조를 만들고 있다. 어퍼바운드는 향후 콘텐츠 제작 SaaS 모델을 넘어, 영상 제작과 업로드부터 광고 집행 및 성과 분석까지 한 번에 관리하는 완전 자동화 마케팅 솔루션으로 고도화할 계획이다. 이를 위해 2027년 상반기 투자 유치를 목표로 하고 있으며, 외식업을 넘어 뷰티, 패션 등 다양한 도메인으로 서비스 범위를 확장할 예정이다. 장현영 대표는 “고연령대 점"
+      "fullText": "전국 [BEYOND DGIST] 세상을 바꾸는 기술 창업, 차세대 '유니콘' 향해 뛴다 〈2〉어퍼바운드 발행일 : 2026-08-25 22:15 지면 : 2026-08-26 18면 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 “상호명만 치면 30분 만에 숏폼 뚝딱”…외식업 소상공인 마케팅 장벽 허문 AI DGIST 전폭 지원 딛고 고속 성장…과기부 장관상 등 휩쓸며 기술력 입증 유료 고객 2000곳 돌파…“완전 자동화 솔루션 구축해 글로벌 AX 기업 도약” 대구경북과학기술원(DGIST) 컴퓨터공학 트랙 4학년에 재학 중이던 장현영 대표와 전민수 CTO가 함께 창업한 스타트업 '어퍼바운드(Upperbound)'는 디퓨전(Diffusion)-LLM 기반의 외식업 소상공인을 위한 인공지능 전환(AX) 마케팅 솔루션을 제공하는 기업이다. 빠르게 발전하는 AI를 실생활에 접목해 외식업분야 소상공인 생존 문제인 마케팅 부담을 획기적으로 줄여주자는 것이 이 기업의 설립 목표다. 그동안 외식업 소상공인들은 마케팅이 필수라는 것을 잘 알지만 당장 가게 문을 닫고 영상을 찍을 여유나 수백만원의 비용을 감당할 여력이 부족했다. 또 기존 마케팅 대행사를 이용하려면 촬영 스케줄을 잡거나 복잡한 편집 툴을 배워야 하는 등 높은 진입 장벽이 한계로 지적돼 왔다. 어퍼바운드의 숏폼제작, SNS업로드, 전략추천 프로세스 이미지 어퍼바운드는 이러한 한계를 극복하기 위해 기획자의 뇌와 편집자의 손을 대체하는 'Generative AI 기반의 외식업 소상공인 숏폼 자동제작 파이프라인' 솔루션을 독자 개발했다. 점주가 단순히 상호명만 입력하면 당사의 AI 엔진이 공개된 웹 데이터를 분석해 매장의 특장점을 파악하고, 단 30분 안에 모든 영상 제작 과정을 자동으로 완료하는 것이 특징이다. 구체적으로는 이미지 선별부터 시나리오 구성, 영상 생성, 나레이션, BGM 삽입은 물론 음식의 질감을 살리는 후처리 보정까지 수행한다. 디퓨전 AI가 음식 종류에 맞는 최적의 카메라 무빙과 연출 효과를 구현하고 마케팅에 효과적인 톤앤매너로 나레이션을 입혀, 촬영 없이도 실제 촬영물 수준의 고품질 숏폼 광고를 만들어내는 독보적인 경쟁력을 갖췄다. 특히 촬영 인프라가 부족한 곳에서도 누구나 고품질 숏폼 광고를 가질 수 있게 만드는 것이 이 회사의 핵심 서비스다. 기술적 완성도와 완전 자동화가 이 회사의 경쟁력이다. 어퍼바운드의 빠른 기술 고도화 배경에는 DGIST의 체계적 창업 지원이 큰 몫을 했다. 이 회사는 DGIST의 1년 단위 창의적 연구 프로그램인 UGRP 프로젝트를 통해 창업의 기틀을 다졌다. 지난 2024년 700만원의 창업 자금도 지원받았다. 이어 올해는 D-Tech Program 참여기업으로 선정돼 3000만원을 지원받는 등 체계적인 액셀러레이팅이 고속 성장에 큰 밑거름이 됐다. 탁월한 기술력을 입증하듯 수상 실적도 남다르다. 2024년 K-해커톤 대상과 2025년 4대 과학기술원 공동창업 경진대회에서 연이어 과학기술정보통신부 장관상을 거머쥐었다. 또, 2025년 한남대 창업중심대학 최우수 기업 선정, 2026년 청년창업사관학교 선정 및 대구경북경제자유구역청장 표창을 받으며 기술 공신력을 확인했다. 어퍼바운드의 B2C, B2B 모델 시장 반응도 뜨거워지고 있다. 어퍼바운드는 진입 장벽을 획기적으로 낮춘 직관적인 메시지의 D2C 퍼포먼스 마케팅과 B2B 제휴 확장을 통해 현재 전국 유료 고객 2000개 업체를 유치하는 성과를 거뒀다. 특히 기술 소외 계층인 고연령대 점주들의 호응을 얻으며, 마케팅 에이전시 및 프랜차이즈 기업들과의 파트너십을 통해 플랫폼에 유용한 부가 서비스를 제공하는 윈윈 구조를 만들고 있다. 어퍼바운드는 향후 콘텐츠 제작 SaaS 모델을 넘어, 영상 제작과 업로드부터 광고 집행 및 성과 분석까지 한 번에 관리하는 완전 자동화 마케팅 솔루션으로 고도화할 계획이다. 이를 위해 2027년 상반기 투자 유치를 목표로 하고 있으며, 외식업을 넘어 뷰티, 패션 등 다양한 도메인으로 서비스 범위를 확장할 예"
     },
     {
       "s": "TechCrunch",
@@ -160,16 +178,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "대한민국 정책브리핑",
-      "t": "에이전틱 AI 글로벌 표준 선점을 위해 에이전트형 인공지능 재단(AAIF)과의 협력 추진",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTWJ1b0tYZ3diNERVVFI1UjlQeTNONGFkeWhDNlNRUXFlVFVsV1JwUEc1WTNlSDRDeFZIWVA1ak9fbHBtS1U3VnBYN2t0NENkY0dvNVdtTG5jS2Z3RU9sbTZVenBOZm1MR3FnQmY0dUd0eEtOMlR1SUZEcXhXRV9MN3V2eS03QXFqNTBDdGJkOTVIZw?oc=5",
-      "m": "08. 25. AM 03:00",
-      "ts": 1787626800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "디지털데일리",
       "t": "李 대통령 “모두의AI, 행정실무 직접 해내는 수준돼야”…체감성능↑·안정성 확보 주문",
       "d": "",
@@ -198,15 +206,6 @@
       "ts": 1787604137000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Alabama launches investigation into OpenAI&#8217;s hack of Hugging Face",
-      "d": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s attorney general announced an investigation into the incident.",
-      "u": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
-      "m": "08. 24. PM 07:58",
-      "ts": 1787601497000,
-      "fullText": "Alabama’s attorney general announced Monday that it sent a subpoena to OpenAI as part of an investigation into the company’s alleged &#8220;complete lack of oversight and adequate safeguards” in the Hugging Face incident. The investigation comes weeks after OpenAI admitted that one of its unreleased and guardrail-free cybersecurity models had escaped an isolated environment, connected to the internet, and hacked AI dataset platform Hugging Face. As Reuters first reported , Hugging Face was only one of four victims of what was supposed to be “an internal evaluation” of a model with “maximal cyber capabilities,” as OpenAI put it. The press release announcing the subpoena sent by the state’s attorney general Steve Marshall said that the state was seeking to understand if OpenAI’s &#8220;inability or unwillingness to ensure the safety of its products&#8221; violated the state&#8217;s consumer protection laws. When reached by TechCrunch for comment, OpenAI spokesperson Nate Evans provided the statement: &#8220;The Hugging Face incident marked an important moment for AI safety and we are conducting a thorough review along with external advisors. Once the review is complete, we will share a technical report with relevant government authorities and publish our findings publicly.” Earlier this month, Marshall, along with the attorneys general of 14 other states, including Florida, Missouri, Pennsylvania, and Texas, sent a letter to OpenAI’s CEO Sam Altman, requesting that he and his company preserve all records related to the Hugging Face incident. The letter also asked OpenAI to “immediately cease and desist” from any internal cybersecurity evaluations. In the wake of the Hugging Face incident, and several other incidents disclosed by Anthropic, the U.K.’s AI Security Institute, Meta, and workers at AI companies — including executives and technical leaders — signed an open letter called “ Pacing the Frontier ,” which called for developing AI capabilities slowly and more res"
     },
     {
       "s": "NVIDIA공식",
@@ -298,16 +297,6 @@
     },
     {
       "s": "디지털데일리",
-      "t": "[FRC 2026] 이광욱 화우 변호사 “AI 결제해도 금융사 책임…에이전트 통제해야”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HQmRsRzBqakdaZ084Q0VFbXZRR2JUdURYLXgxeXZmLS1rVWhJRkFLNVdqNjAxcmR0ZzlsYnpCUHVVREZzSDlidm0yNWRiQld2ODY5QlpGR1NxZnlmSnNWYmxn?oc=5",
-      "m": "08. 20. AM 07:24",
-      "ts": 1787210693000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "디지털데일리",
       "t": "[FRC 2026] 조민기 SAS코리아 상무 “AI 에이전트가 금융거래하는 시대…신원·권한 검증해야”",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9GTzZjZ0dQRDAzYnByMHdCdVB6bkJKc2lfdEY0TW04YlVCVlhYaHFtOUVXVHNpLUNCY3lzOWo0UGI2dE9JRVJlYlIwTHBzSkpsRnVLa3RmQnJRZVd5aWQ5WUhn?oc=5",
@@ -327,72 +316,81 @@
       "fullText": "Google News"
     },
     {
-      "s": "핀테크경제신문",
-      "t": "구글 클라우드, 신한투자증권 차세대 AI 에이전트 플랫폼 자체 구축 지원… 한국형 금융 AX 선도",
+      "s": "지디넷코리아",
+      "t": "AI 에이전트 방문 거부하는 플랫폼, 고립인가 생존인가",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iSWltNUJkZlowenhYV2lnMWI3TE5GQlVSRG9Ybm01M3VjTnhEbWEyLUFJemJRTFpxaXlQdVFfb2tXTmV3SUtodDFsVTNMQ2pvTkhHeWhPcDZ3SDFVdkpzeTJ4dw?oc=5",
-      "m": "08. 18. PM 10:44",
-      "ts": 1787093067000,
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3dlY1aVFwVWJ6NTNJODRaN3JOY1hMalhvR2N1X1FRRm4zazB5bWFNWjVpWS1RaHpjZ3dCcVlRQ0h5cDQ1SFRkeWIxdUNUN0tBMW9FempR?oc=5",
+      "m": "08. 14. AM 07:00",
+      "ts": 1786690800000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "금융경제플러스",
-      "t": "구글 클라우드, 신한투자증권 AI 에이전트 플랫폼 구축 지원…금융 AX 확대",
+      "s": "데일리시큐",
+      "t": "AWS, AI 에이전트 행동 통제하는 오픈소스 정책 언어 도그우드 공개",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zZm5mbTEzaG5GaXA2TEJHR1F1Tl8tUmhtVUJQa3k4cl9XVGxqOFlrUWtuYWllZnFRRm1qbUVobm5MS0VXaVVzWF9KQXljVUUxbDI3SFprZExLYWJGUjBYRlk2d2xQN280MUdKbw?oc=5",
-      "m": "08. 18. AM 11:15",
-      "ts": 1787051700000,
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qSnZaSllKV3VYbEhWdHR5TGNsRF96NUVyV1dCU0xlU1ptdG1nUlQ5Y2tnOEN4Qlc5aEpnM2xZSWJtWjZhLVd4MlEwd2tVUlNmREJSWnA5Ulg0VGFYOFZjZmdwZmhydEsxOC1oZg?oc=5",
+      "m": "08. 13. AM 07:15",
+      "ts": 1786605338000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "전자신문",
-      "t": "구글 클라우드, 신한투자증권 '차세대 AI 에이전트 플랫폼' 구축 지원",
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "d": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.5 Lightning, the highest-efficiency model in its class for long-running agentic AI workloads. This release follows Nemotron [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "m": "08. 11. PM 01:00",
+      "ts": 1786453205000,
+      "fullText": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI The new lightweight open model and routing library delivers greater control over AI, data and workflows across edge devices, PCs, workstations, data centers and the cloud. August 11, 2026 by Kari Briski 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.5 Lightning, the highest-efficiency model in its class for long-running agentic AI workloads. This release follows Nemotron 3 Nano and reflects NVIDIA’s commitment to continually improving open models for greater accuracy and speed. Built for specialized tasks within larger multi-agent systems, Nemotron 3.5 Lightning, a 30-billion-parameter mixture-of-experts model, helps create smarter and more efficient agentic applications. Also, NVIDIA is releasing NeMo Switchyard, an open source library for smart routing inside popular agent tools. Enterprises can use it to build a router based on their specific needs. When deployed, NeMo Switchyard can intelligently direct each request to the most capable and suitable model for the job, across developers’ own mix of open, proprietary and NVIDIA models, without requiring developers to rewrite their applications. Together, Nemotron 3.5 Lightning and NeMo Switchyard deliver greater control over how AI is deployed, where it runs and how efficiently it operates — across PCs, workstations, data centers and the cloud. Nemotron 3.5 Lightning delivers frontier-level intelligence in a small, customizable open model built for high-volume agentic workflows. Always-On Agents Need a System of Models Modern agentic systems — always-on agents — increasingly operate as systems of models , or model ensembles, with different models specialized "
+    },
+    {
+      "s": "중소기업투데이",
+      "t": "AX시대 ‘빌런’, ‘자율AI 에이전트’ 확산...보안리스크도↑",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LNHFyeXJSeWdUM2V5aEk2a0RraE5ZZVJ4bE1HWlFnSGYxM3Nyd25ybEMtbEJHUWJqbHdlZG9aaFVud1puV1hHZzBCR3hUUQ?oc=5",
-      "m": "08. 18. AM 04:56",
-      "ts": 1787028996000,
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYOUhfLVBtM3d2Ri1DUWstT01ma2ZkajZPTC1PcVVma29xTWNVdlAtVnA3bUlNT2pRMnphMWVJSzYtaHpNczNpRFBkWEU4Z1hIODJraFZSVWpOMUZHamF0NDIySjk1bVZi0gFsQVVfeXFMTmtSUm53OWRWb3BjTFhYUHNGQ3FuOUljV1pTRGhjV1lxb0Z2d3BQYnhFY0dYOEc1cTAweUREYzl4RkVaelVhRF80NjkwMjd1YTdBTGxHZkwyclkyVDlfZmdvZ0FXYmRLOXEwM1l3?oc=5",
+      "m": "08. 10. AM 05:24",
+      "ts": 1786339466000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "데이터넷",
-      "t": "구글클라우드, 신한투자증권 차세대 AI 에이전트 플랫폼 구축 지원",
+      "s": "더쎈뉴스",
+      "t": "EU, AI법 전격 시행… 대형 언론·빅테크 ‘통제 이탈’ 첫 점검 착수",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSFFEY2pvYm1jal9sSzhINE9LaGNlcTNyd0RYT0ozQjZudTJlSWZzWjh1dFRGYURWWXc5bUpWUGdSU016YjI3UXBEdDJvN202Zkowam5CZE4xMkNPYzhTVHpka1VZQlZHTWFmdg?oc=5",
-      "m": "08. 18. AM 03:47",
-      "ts": 1787024833000,
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zeUFUOWNPcFl0ZTFIWl9Uay0xZ1lJMEM3Nml6N2tKaUpkdlNsNnJMNURNN1NlRHFHVVFObjZhaGp4MkI3X1JqdWtCbEhfQVp5aWF5TDdFdFdkTG5oc3d6YmlWODhidGdC?oc=5",
+      "m": "08. 03. AM 07:00",
+      "ts": 1785740400000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "데일리비즈온",
-      "t": "[D-BIZ 차세대 AI] 구글 클라우드, 신한투자증권 차세대 AI 에이전트 플랫폼 구축 지원…\"규제 준수하며 금융 AX 선도\"",
+      "s": "아주경제",
+      "t": "EU AI 법 발효…삼성·LG, 유럽향 AI 가전 투명성 표기 선제 대응",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SMlEyWEhVdVRKcGI3MDlRdEdEV1Z5aFltU2M3dlNJUEFrcjI0M050ck9aSzdZaHhTd2lKcmVJVmVOR3VicE84RWZudjNRa0pMOXRZWWx6UkVPUmt4MWRLZGgxUEVIVndJYk90TA?oc=5",
-      "m": "08. 18. AM 02:58",
-      "ts": 1787021932000,
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41MFRIXzZPSHd3ZFo1d1JHcDZuaE9HSGt6ZGhUREpFcW4wNS0xVWk5Z1VKLTNPV3dLVmVVVDlLd0xGVUJoSk8zenRTNGxPUmdQUWt6bW5CNXhVUdIBWEFVX3lxTFBIWWVPeHBndUhIMGk0Yi1GQlY4MkNDZVpRUENxT21fVXRUSnNnREtydEp3eEw0cktUcERqei1zbnhNX1NyempaVTBoZ0IwODU1SExtUThIc24?oc=5",
+      "m": "08. 02. AM 07:00",
+      "ts": 1785654000000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "BI KOREA",
-      "t": "구글 클라우드, 신한투자증권 ‘AI 에이전트’ 구축 지원",
+      "s": "특허뉴스",
+      "t": "\"AI가 정책도 쓴다\"... 지식재산처, AI 에이전트 직접 개발해 '공무원의 일하는 방식' 바꾼다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EMmdYeWVJREhjU0xTVGotM3pGQmdWYWxyRmFrT1VocldYS0tHbmgwemE5UDlNM2F0alU5Nl96NGxEQXpRWmxHT01yaHd2bDBrZjFpV01neV9CeTE5QXM2cE5ocTB4dw?oc=5",
-      "m": "08. 18. AM 01:26",
-      "ts": 1787016381000,
+      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Ja0xVaHpyS245WDZUek05Q0dpcnAtVkNYRm5Ob3lCdXBUU2lyeXllODlxU1dfa2tvM0RIT2FKQWxtZ3cta3pSdw?oc=5",
+      "m": "07. 22. AM 07:00",
+      "ts": 1784703600000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "스타트업엔(StartupN)",
-      "t": "사이오닉에이아이, 스케일업 팁스 선정…금융·법률·공공 AI 에이전트 실증",
+      "s": "마켓인",
+      "t": "금융위 “스테이블코인 조속 입법…AI 커머스 신중 검토”(종합)",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ncy01aEFhNEdlZjZQZlk0S0dya2kzak95NXdCX2NZcGx3RzJaMjF6bHdEbU5lSkhZa2JnNVVyV1NDZTZMVzE1Wm1tQTVZaVdfVFRKVWk1aXdUcGZ3akVjakVIcXJkYjlD0gFsQVVfeXFMT3Fkc0N2azhjZDVBVnhTQ2lrRE85M2ViTlF3UXdPYy1sYzRPNVZTTjgzMGpEM01HRzFlRnkxM2pfM0JFWGM5SFZUZXZ3Z0ktMHdUbDRSYVljQUkyS0ptZmM5akh3R0Y4SzNvQXZl?oc=5",
-      "m": "08. 14. AM 10:06",
-      "ts": 1786702018000,
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FRE9INnJZZ1BHcmdjZlh0MGJwdmFycUpzYkRLV1dickZuZVhpOFF5V2pBaVFrdnhvYzlzc0lqRlZpbTVzcTdaZG1LUnhpVTRqazVRcGZtczh0dnNzX2FEblZUZko1cVRkOXFHM2dPaHdsZVU?oc=5",
+      "m": "07. 21. AM 07:00",
+      "ts": 1784617200000,
       "_policy": true,
       "fullText": "Google News"
     }

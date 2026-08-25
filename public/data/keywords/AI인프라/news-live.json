@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-08-25T13:45:23.859Z",
+  "updatedAt": "2026-08-25T14:40:55.431Z",
   "count": 40,
   "stats": {
     "today": 9,
     "yesterday": 7,
-    "weekAvg": 3.7,
-    "sources": 30,
+    "weekAvg": 3.9,
+    "sources": 29,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "d": "Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "u": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "m": "08. 25. PM 02:22",
+      "ts": 1787667724000,
+      "fullText": "At the Hot Chips conference on Tuesday, OpenAI shared a more detailed look at Jalapeño, including the first batch of benchmark results for the new system. Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the-art inference processors. “The bottom line is that the results show a very, very significant performance advance over state of the art,” said Richard Ho, OpenAI’s head of hardware, in a press call. “Jalapeño can serve more AI work per unit of power, while also returning responses more quickly. It&#8217;s very efficient to serve a lot of customers, but it can also be very low latency.” Notably, that comparison is against an Nvidia Blackwell system — but by the time Jalapeño reaches full deployment, the competition may have advanced significantly. Ho estimated that Jalapeño would deploy at the end of 2026 “in very small volumes,” with more significant deployment coming in 2027. First announced last October, Jalapeño was developed by OpenAI in close collaboration with Broadcom, with OpenAI&#8217;s own models assisting in the development process. The company plans to make Jalapeño a multigenerational platform, allowing AI products, models, chips and memory all developed in concert. Because of that full-stack approach, OpenAI was able to address specific phases in the inference process that often cause friction during inference processing. In particular, Jalapeño is designed to minimize delays during the prefill and communication phases of processing, which OpenAI says often act as bottlenecks. “We designed Jalapeño to minimize data movement and communication delays,” the company said in a blog post presenting the results. “This means that model state, including the KV cache used while generating a response, can be explicitly placed and kept local while the system activates the right combination of compute, memory, and networking for each inference phase"
+    },
     {
       "s": "한국경제",
       "t": "中 AI 기업, 동남아 데이터센터 장악",
@@ -35,15 +44,6 @@
       "m": "08. 25. AM 09:05",
       "ts": 1787648720000,
       "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "삼성, 엔비디아 ‘그록3 LPX’ 전량 생산…하반기 흑자 전환 기대",
-      "d": "인공지능(AI) 연산에 필요한 칩에서부터 시스템, 소프트웨어 등을 모두 아우르는 ‘풀스택’ 기업으로 거듭나고 있는 엔비디아가 AI 추론 특화 가속기 ‘그록3 LPX’ 양산을 시작했다. 엔비디아의 그래픽처리장치(GPU)로 AI를 학습시키고, 그록3 LPX를 통해 추론까지 이어지는 플랫폼을 제공하겠다는 것이다. 그록3 LPX의 생산은 전량 삼성전자 파운드리가 맡게 돼 삼성전자 파운드리의 흑자 전환에 대한 기대감도 커지고 있다.   24일(현지 시간) 엔비디아는 AI 에이전트 구동을 위해 추론 속도를 높인 그록3 LPX 양산을 시작했다고 밝혔다. AI 에이전트는 답변에서 그치는 것이 아니라 실행까지 하는 AI로, 대화의 맥락을 이해하기 위해 추론 기능이 반드시 필요하다.   그록3 LPX는 추론 전용 칩인 언어처",
-      "u": "https://www.donga.com/news/Economy/article/all/20260825/134539979/1",
-      "m": "08. 25. AM 08:10",
-      "ts": 1787645400000,
-      "fullText": "최지원 기자 구독"
     },
     {
       "s": "연합뉴스",
@@ -239,6 +239,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "simplywall.st",
+      "t": "캐터필러(CAT) 전망에 AI 데이터센터 규제 리스크가 커졌다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYVVjdjVVU0s4WVpKdFl3TnI3QzM3OWpRUlJBRlZ5VFZuVjhqTWJ3dG82V2o5WUgyeS1Md09sNHgteTIweHV5eVJUUHN4ZDBMQ05UamgzV0E1OVpZck9IRGVhS3hIY1ZrWVBvMFcwbWMzYjEzSDUtU0hJckZuclpqVlhveHhXWGR4c1pFUjBlcm5xN1I1N1HSAZsBQVVfeXFMTmpmZVdBenVkQVZub1lHNHE3Y2NMenJCZHlUVlF0MnVoNlZOMC0zN0FEZzRtS1l1M0RmS2hLcTk3cFVFR1N5bUdrSU5OMHBIZU1fRVhTU0dtNDlyb2VidW14V3JPck00RnRuVVpiZ0lDbEVBa1d1WHZPMGZSOGVVUVhXd3Y4cFpMRzZtUGtfWHhqT0MyazBUTVczbGc?oc=5",
+      "m": "08. 19. AM 07:00",
+      "ts": 1787122800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "앱스토리",
       "t": "AI데이터센터 급증에 제동…미 펜실베이니아주, 인허가 기준 강화",
       "d": "",
@@ -283,6 +293,16 @@
       "t": "태평양, ‘AI 인프라전략센터’ 출범",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52VnhPTkZLS3VNYUNodkx4UHkxdlFmaFVkLWROSVY2R3JZeWJQc3JUNWozMEtQRG5xczBqY192TlR4MmV4MlprUzh3LURnTXJyREk5RVp4aFlKai1sTkUxSGZselR1aDFKUFk1cUhR0gFyQVVfeXFMUG1UNHdKeXBOTmt0aGM0MmZQT0c5bno2S2U5dU1jTXdLM1NxS3VfQklURDRockVEU1lzTjNsTnVhTU1HeHAxMHg0bkRUTUVIWGd4SGJuZXRlbzdkbnpfamd3WEJmXzVxczJvTVN2SGVrcElB?oc=5",
+      "m": "08. 12. AM 07:00",
+      "ts": 1786518000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Chosunbiz",
+      "t": "법무법인 태평양, ‘AI 인프라전략센터’ 출범… 자문 능력 강화 - 조선비즈",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQd1RlV1BtSHdNR1Y3LVpPczRMMWVoTnJ5X1JoalNnQUQ2cHRaSXdsakRIY2g0XzZPOFVDcnZsMXNubXJDTlAwbnJESm1oWmxlLUZpMmhrR2VvUU53cDd2eEpBd1J0NHJndWVqa3RTWnlPb0dxVmdJVXB3SnRibVBzRXpsSdIBlwFBVV95cUxNTXVNY2pXSHRFTmdReXkzSncxcmUzSVpFLU1QcWpuQllGVjgxSXlfaGc5OEc0cmtpMVpwblZCcENockxyS1RCeWs2aFBEZW00S2UzZDdIME1fMWdaVmhwcVFxMXRxR2ExSWpUWWphdTRETVkwWEV6VjVrSHZ6UnlsdjdKMlQ5aE42OFlEbGdBcnVwUFhIUGxj?oc=5",
       "m": "08. 12. AM 07:00",
       "ts": 1786518000000,
       "_policy": true,
@@ -371,26 +391,6 @@
       "t": "中 광트랜시버 규제 호재·실적 온기에 상승…AI 인프라·메모리주 동반 강세-[美증시 특징주]",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jbkl4TURpUzRWdDJxSXlnZnZDU1pEdDRmd1Z4ZTRUdHJ2UG8wUnhfRl9lUDZ2ZHJDQ2Q1X2J5SHo1Y21aQms0NWVYUGEwVG8?oc=5",
-      "m": "08. 05. AM 07:00",
-      "ts": 1785913200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "매일일보",
-      "t": "산업은행·우정사업본부, 'AI인프라 금융협력 업무협약' 체결",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pZlZBM1A1UlBxVHpHelVuYk16emlueDJ4VkVpWFlMQzlFUXVrUjFvLVIyS1FwTmRCRVRtcXc1c2EwZUFUbnllWUkwcDlMLUJUZnRKcDlkOTQ5UlRxRjFnS1FQTFU?oc=5",
-      "m": "08. 05. AM 07:00",
-      "ts": 1785913200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "스트레이트뉴스",
-      "t": "산업은행x우본, ‘AI 인프라 구축’ 1조 펀드 조성",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5INFplUVZlcGxvWkE3bkw5b1VGc3o4SVg4VnBPMGY5bHhxNnlUTnZjUmU1cW96NHNGSE5mUmNXc0psbHcyb0lnYmpNUjROdUhWRzN0SEJxWTB0SERBbGxEMXp4bTA5NUJ3V0xyZlpNX0NRQ3fSAXdBVV95cUxPNENldms5dXRmV1loYVhZOFBEUzRvWElPT3NhZmZyQnR5VU16UUZxa0NqeXU2ZXAwMHd2S000OHE4NjJHLThxN2VtakJNS3NsUkVYWUhXZzkxOWhwNVFFOV9EV2lIOWd4SnpMMVhwbGZUbXl3NWNIRQ?oc=5",
       "m": "08. 05. AM 07:00",
       "ts": 1785913200000,
       "_policy": true,

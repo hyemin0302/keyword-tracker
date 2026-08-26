@@ -1,14 +1,50 @@
 {
-  "updatedAt": "2026-08-26T18:17:30.560Z",
+  "updatedAt": "2026-08-26T20:33:06.643Z",
   "count": 40,
   "stats": {
-    "today": 17,
+    "today": 19,
     "yesterday": 8,
-    "weekAvg": 5.1,
-    "sources": 30,
+    "weekAvg": 5.4,
+    "sources": 29,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Google&#8217;s Gemini has a branding problem, and so does the rest of AI",
+      "d": "Consumer AI apps need to stop making users learn their product architecture.",
+      "u": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+      "m": "08. 26. PM 07:37",
+      "ts": 1787773054000,
+      "fullText": "Google gets something right in its Wednesday announcement about new Gemini Live voice features when it says, &#8220;You shouldn&#8217;t have to guess whether a task requires Spark, a Daily Brief, or a quick inbox search.&#8221; Google means that as a promise &#8212; that the updated Gemini app can handle a variety of tasks via voice commands. But there&#8217;s a ridiculousness here: Google has given every Gemini AI feature under the sun its own branding, which undercuts that very message. In the Gemini app, users can switch between chat, Spark, and Daily Brief &#8212; three separate features, each with its own icon and place in the app&#8217;s navigation. This clutters up what could otherwise be a more straightforward consumer experience, and it suggests that Gemini is still struggling to find a killer feature. Take Daily Brief, for example. The feature comes across as the kind of thing an AI engineer, not an everyday user, would think is clever. It&#8217;s essentially an AI-enabled agenda that offers &#8220;proactive, personalized updates&#8221; using data pulled from Google&#8217;s apps, like Gmail and Calendar. In practice, though, the Brief can&#8217;t tell the difference between information that&#8217;s urgent or actionable and unsolicited nudges to follow up on other things &#8212; like prompting you to continue research you started in the chatbot, or worse, resurfacing your prior Google searches. That second part doesn&#8217;t feel useful; it feels creepy. So what if I had been researching college scholarships or animal rescues on Google? That doesn&#8217;t mean I want an AI tapping me on the shoulder about them later. Spark has the opposite problem. It&#8217;s one of the more useful aspects of Gemini&#8217;s app &#8212; an AI agent that can take action on your behalf &#8212; but Google has packaged it as its own standalone brand, which it doesn&#8217;t need to be. Sure, internally, Google engineers may want to be on the Spark team, and that&#8217;s fine &#82"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "How do we explain OpenAI&#8217;s executive exodus?",
+      "d": "Was Greg Brockman the right executive all along?",
+      "u": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "m": "08. 26. PM 07:34",
+      "ts": 1787772844000,
+      "fullText": "OpenAI is the original frontier lab. Its latest publicly released model, GPT-5.6, is one of the most capable and efficient on the market. Its desktop app for agentic coding and workplace tasks has seen its user base grow by about 15 million subscribers in the last two months. OpenAI has also already filed to go public. So why are all the executives heading out the door? Since the turn of the year, more than a dozen executives have departed, including CEO Sam Altman&#8217;s top deputy , the chief operating officer , a chief revenue officer , its chief marketing officer , as well as several different team leads . Yesterday, news broke that Chris Malone, the company&#8217;s head of data centers, left the company last week after joining in March 2025. Some of those departures have come due to health issues, and others are were due to reorganization that occurred as Altman sought to cut expensive &#8220;side projects&#8221; and focus on revenue-generating opportunities. Still, Malone&#8217;s unexplained departure is striking, if only because OpenAI&#8217;s primary advantage over rivals like Anthropic or SpaceX is its investment in compute. OpenAI noted to TechCrunch that the departure follows a reorganization of the company&#8217;s infrastructure team, which is now led by vice president Sachin Katti, whereas Malone once reported directly to president Greg Brockman. It&#8217;s not surprising that a senior executive might leave a company if he suddenly finds himself several rungs further down the ladder. The frontier lab declined to comment on broader changes at the company, but it seems apparent that Brockman is reasserting his leadership at the company. As co-founder and president, he played important roles building OpenAI&#8217;s early infrastructure, but he was relieved of most management responsibilities in 2019, when Altman became CEO. After that, Brockman played a disruptive role at the company, according to Karen Hao&#8217;s book &#8220;Empire of AI.&#8221; His con"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "OpenAI Says It Could Have Reacted Sooner to Prevent AI Hack of Hugging Face",
+      "d": "OpenAI could have reacted sooner to prevent an inadvertent hack that its artificial intelligence models carried out on Hugging Face Inc., the company said in a report Wednesday.",
+      "u": "https://www.bloomberg.com/news/articles/2026-08-26/openai-says-it-could-have-reacted-sooner-to-prevent-ai-hack-of-hugging-face",
+      "m": "08. 26. PM 07:06",
+      "ts": 1787771171000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "OpenAI releases its official report on the Hugging Face breach",
+      "d": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "u": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "m": "08. 26. PM 07:05",
+      "ts": 1787771122000,
+      "fullText": "OpenAI released its official report Wednesday on the Hugging Face breach, offering the clearest picture yet of how an unusual chain of events allowed an AI model to escape its testing environment and triggered a sprawling cybersecurity incident. The report, released more than a month after the incident became public, spans several discrete cybersecurity compromises. “This incident reflects misaligned behavior in an outlier scenario involving a rare and unexpected confluence of events: the presence of impossible tasks in the ExploitGym evaluation, model persistence over long task horizons, and messages to peer models that caused those models to deviate from their goal,” the report reads. Many of the details in OpenAI&#8217;s report were previously made public in a Black Hat presentation on August 6 , but OpenAI’s official report gives a more thorough accounting of the incident, including more detail on the testing that initiated it. The report also gives critical new detail into how OpenAI aims to prevent future incidents, including chain-of-thought monitoring and a more advanced system for halting rogue agents.&#8221; METR and Redwood Research also conducted third-party assessments of the models’ behavior during the incident; both groups are planning to publish their own reports on the incident on it. In broad strokes, the report describes how an OpenAI model was presented with an unsolvable problem in testing and proceeded to chain together previously undiscovered exploits in order to bypass security measures and complete its task. The model initially compromised the Artifactory package management tool in order to gain access to the internet, then compromised various systems across OpenAI, Hugging Face, and other vendors. The report gives critical new details about the models that carried out the breach. The primary model was from the same family as OpenAI’s forthcoming Astra model, although the report emphasizes that it was “a distinct model with different post-tr"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "AI Data Center Demand Isn’t Slowing: Southern CEO",
@@ -43,7 +79,7 @@
       "u": "https://www.hankyung.com/article/202608265254i",
       "m": "08. 26. PM 02:56",
       "ts": 1787756202000,
-      "fullText": ""
+      "fullText": "글로벌마켓 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 반도체 야심 드러낸 오픈AI…엔비디아 고객에서 경쟁사로[박신영의 개장전 요것만] 입력 2026.08.26 23:56 수정 2026.08.27 00:00 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 박신영 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 영상 모듈 닫기 1. 화웨이, 이집트에 최신 AI칩 2008개 공급 제안 26일(현지시간)블룸버그에 따르면 화웨이가 이집트 정부가 추진하는 AI 데이터센터 사업 입찰에 참여했습니다. 화웨이가 제안한 핵심은 자체 AI 가속기 어센드(Ascend) 950 시리즈입니다. 구체적으로 AI 모델을 학습시키는 클라우드 구축에 최상위급 어센드 950 시리즈 1408개를 공급하고, 학습이 끝난 AI 모델을 실제 서비스하는 두 개의 추론 클러스터에는 950 시리즈 또는 이전 세대 910B 칩 600개를 추가 공급하는 방안을 제시했습니다. 총 2008개의 AI칩을 공급하는 셈입니다. 화웨이는 이 같은 AI 인프라를 12개월 안에 구축한다는 계획도 제시했습니다. 이번 계약이 성사될 경우 의미가 상당히 큽니다. 화웨이는 미국의 제재를 받으면서 엔비디아를 대체할 자체 AI칩을 개발해왔지만, 그동안 첨단 어센드 AI 가속기를 해외에 대규모로 수출하는 데 어려움을 겪었습니다. 블룸버그는 이번 계약이 성사될 경우 화웨이 어센드 가속기의 첫 번째 알려진 해외 수출 사례가 될 가능성이 있다고 전했습니다. 동시에 화웨이는 인구 1억명이 넘는 이집트의 핵심 AI 공급업체로 자리 잡으면서 아프리카와 중동 AI 시장으로 진출할 교두보까지 확보할 수 있습니다. 화웨이는 이미 케냐 등 아프리카 국가에서 교육과 의료를 비롯한 다양한 사업을 추진하고 있습니다. 화웨이의 움직임에 미국 정부도 대응에 나섰습니다. 트럼프 행정부가 화웨이의 제안을 파악한 뒤 미 국무부는 엔비디아와 AMD, 마이크로소프트 등에 접촉해 미국 기업들로 컨소시엄을 구성하는 방안을 논의했습니다. 화웨이가 AI칩과 데이터센터를 묶은 패키지를 제안하자 미국 역시 자국 기업들을 묶어 대항하려는 것입니다. 이번 입찰은 미국과 중국이 동일한 정부 AI 데이터센터 사업을 놓고 직접 경쟁하는 사례라는 점에서도 주목됩니다. 이집트는 자체적으로 첨단 AI칩을 생산할 수 없기 때문에 대규모 AI 데이터센터를 구축하려면 미국이나 중국 등에서 칩을 공급받아야 합니다. 그런데 미국은 2023년 수출통제를 강화하면서 이집트에 대한 고성능 AI칩 수출에도 정부 허가를 요구하기 시작했습니다. 이집트의 AI 산업 자체를 견제하기보다는 중국이 제3국을 통해 미국산 첨단 AI칩을 우회적으로 확보하는 것을 차단하려는 목적이 컸습니다. 하지만 이런 규제가 예상하지 못한 결과를 가져올 가능성이 있습니다. 이집트가 미국산 첨단 AI칩을 도입하려면 미국 정부의 허가를 받아야 하는 반면 화웨이는 자체 개발한 어센드 AI칩과 데이터센터 구축을 하나의 패키지로 제안하고 있습니다. 미국산 칩을 구입하기 어렵거나 허가 절차가 복잡해질수록 이집트 같은 국가 입장에서는 중국산 AI 인프라를 선택할 유인이 커질 수 있습니다. 결국 미국이 중국의 첨단 AI 기술 확보를 막기 위해 만든 규제가 역설적으로 일부 제3국 시장에서는 화웨이 AI칩이 진입할 공간을 만들어줄 가능성이 있는 것입니다. 더 중요한 것은 칩 한 번을 판매하는 것으로 끝나지 않는다는 점입니다. 화웨이 칩이 데이터센터에 들어가면 해당 데이터센터에서 사용하는 소프트웨어와 네트워크, 개발도구 역시 자연스럽게 화웨이 생태계를 중심으로 구축될 가능성이 있습니다. 따라서 이번 경쟁은 AI칩 2008개를 누가 판매하느냐보다 향후 이집트의 AI 인프라가 어느 나라의 기술 표준 위에서 구축되느냐의 문제로 볼 수 있습니다. 젠슨 황 엔비디아 CEO는 그동안 미국의 과도한 대중국 AI칩 수출규제가 오히려 중국 AI 산업과 화웨이를 키울 수 있다고 "
     },
     {
       "s": "CNBC Tech",
@@ -70,25 +106,7 @@
       "u": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
       "m": "08. 26. PM 01:00",
       "ts": 1787749200000,
-      "fullText": "Shapor Naghibzadeh learned the value of a good story in 2009 as a Google sysops engineer. When hackers backed by China set their sights on the search giant as part of an effort dubbed Operation Aurora, he was called into a hastily assembled war room to explain what exactly was going on in the company&#8217;s servers. Tracing cyberattacks through disparate networks taught Naghibzadeh the value of verified knowledge. But it was a costly and time-consuming task. He thinks that LLMs can bring that same functionality to databases of all kinds in a fraction of the time. Naghibzadeh would spend the next six years focused on the nexus of data and cybersecurity, using Google&#8217;s resources to build tools that allowed security analysts to query complex data. In 2016, he co-founded a startup in Google&#8217;s X Labs called Chronicle that would bring that same functionality to other companies. Last year, as large language models took a larger role in data analysis, Naghibzadeh saw a new opportunity to take the techniques he developed for cybersecurity and apply them to a variety of analytics. He co-founded QueryStory , where he is CEO, alongside CTO Stanley Yang, a former Google colleague and lead engineer at EvolutionIQ, and CPO David Glusic, an Accenture veteran. The startup emerged from stealth today. &#8220;You get this pattern of an investigation — you ask a bunch of questions of the data, and after you have been able to ask a number of questions, you assemble that together into a narrative,&#8221; Naghibzadeh said. &#8220;That became the genesis for the name QueryStory. It&#8217;s about telling stories with data, right? Putting a narrative together that&#8217;s grounded in truth.&#8221; QueryStory raised a $6 million seed round in late 2025 from Brightmind Ventures and New York Life Ventures at a valuation of $60 million, and has spent the intervening time developing and piloting its product with customers. QueryStory is aimed squarely at large enterprises that manage "
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Arga Labs is building a better way to train enterprise AI agents",
-      "d": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
-      "u": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
-      "m": "08. 26. PM 12:55",
-      "ts": 1787748928000,
-      "fullText": "Making AI agents work in practice is a lot harder than many companies expected — but there&#8217;s help on the way. A new crop of startups is finding better ways to test and train those agents before they get deployed, particularly on the complexities of the modern enterprise. Arga Labs is one such company, which announced its $10 million seed round on Wednesday. The round was led by General Catalyst with participation from Box Group, Emergence, Gradient, and SV Angel. Arga Labs builds training environments for enterprise software like Salesforce, Workday, and email clients. Where most testing environments settle for a stateless API end point, Arga builds a full-scale digital twin of the program, effectively cloning an entire enterprise program with permission systems and web hooks intact. The result is a more robust way to train agents across multiple systems. CEO and co-founder Phillip Li gives the example of a prospective client creating a lead in Salesforce, while their colleague reaches out separately through HubSpot. “Can the agent correctly identify that these two are the same company?” Li says. “Are they able to check whether or not they&#8217;ve only sent the email once? Are they able to identify who to send the email to out of the two opportunities?” Agentic systems still struggle with this kind of ambiguity — and he sees Arga Labs’ tools as critical to helping them improve. Normally, the agent could be trained for a task like this through reinforcement learning: essentially, running the scenario tens of thousands of times and letting only the successful strategies through. But the nature of enterprise software makes that scale of testing nearly impossible. There’s no easy way to “reset” a system like Salesforce or Outlook when you need to run the same scenario again, much less clone it Arga Labs’ solution is to create a digital re-creation of that software — replicating its structure the way a crash-test dummy replicates a person. Because Arga has complet"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
-      "d": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
-      "u": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
-      "m": "08. 26. AM 11:00",
-      "ts": 1787742000000,
-      "fullText": "As artificial intelligence makes it easier than ever to build websites and apps, Indian startup Runable is betting the next opportunity lies in what comes after: finding customers and helping businesses grow. The startup has raised $21 million to expand in that direction. The Series A was co-led by Susquehanna Venture Capital and Nexus Venture Partners, with existing investors Together Fund and Array VC also participating. The all-equity, primary funding valued Runable at $65 million after investment, co-founder and CEO Umesh Kumar (pictured above, right) said in an exclusive interview. Founded in 2025, Runable is targeting small businesses in an increasingly crowded market that includes AI giants such as Anthropic and OpenAI and coding platforms including Cursor, Lovable, and Replit. But the Bengaluru-based startup with its 15-person team is looking beyond software creation, with an AI agent designed to find customers, run ad campaigns, create presentations, and promote businesses across search, social media, and AI chatbots. &#8220;In the end, a business doesn&#8217;t require Codex or Claude Code or anything. They require real outcomes,&#8221; Kumar told TechCrunch. &#8220;If I am paying an agency $10,000 to run my Google Ads, can someone come in and do it for me for a lower price? That&#8217;s where Runable comes in.&#8221; Kumar and co-founder Saksham Sarda (pictured above, left) founded Runable initially as an AI infrastructure startup, building browser technology to scrape data at scale. However, the duo noticed users increasingly asked its browser-based agent to create things like slide decks and websites. That led the startup to eventually pivot toward a general-purpose AI agent. The shift helped Runable go from zero to a $2 million annualized revenue run rate within three weeks of launching payments in March, Kumar stated. Today, Runable&#8217;s agent allows users to build websites, apps, presentations, and other content by using natural language prompts, w"
+      "fullText": "Shapor Naghibzadeh learned the value of a good story in 2009 as a Google SysOps engineer. When hackers backed by China set their sights on the search giant as part of an effort dubbed Operation Aurora, he was called in to a hastily assembled war room to explain what exactly was going on in the company&#8217;s servers. Tracing cyberattacks through disparate networks taught Naghibzadeh the value of verified knowledge. But it was a costly and time-consuming task. He thinks that LLMs can bring that same functionality to databases of all kinds in a fraction of the time. Naghibzadeh would spend the next six years focused on the nexus of data and cybersecurity, using Google&#8217;s resources to build tools that allowed security analysts to query complex data. In 2016, he co-founded a startup in Google&#8217;s X Labs called Chronicle that would bring that same functionality to other companies. Last year, as large language models took a larger role in data analysis, Naghibzadeh saw a new opportunity to take the techniques he developed for cybersecurity and apply them to a variety of analytics. He co-founded QueryStory , where he is CEO, alongside CTO Stanley Yang, a former Google colleague and lead engineer at EvolutionIQ, and CPO David Glusic, an Accenture veteran. The startup emerged from stealth today. &#8220;You get this pattern of an investigation — you ask a bunch of questions of the data, and after you have been able to ask a number of questions, you assemble that together into a narrative,&#8221; Naghibzadeh said. &#8220;That became the genesis for the name QueryStory. It&#8217;s about telling stories with data, right? Putting a narrative together that&#8217;s grounded in truth.&#8221; QueryStory raised a $6 million seed round in late 2025 from Brightmind Partners and New York Life Ventures at a valuation of $60 million, and has spent the intervening time developing and piloting its product with customers. QueryStory is aimed squarely at large enterprises that manage"
     },
     {
       "s": "KDI 경제교육·정보센터",
@@ -117,7 +135,7 @@
       "u": "https://www.hankyung.com/article/202608264504i",
       "m": "08. 26. AM 07:49",
       "ts": 1787730599000,
-      "fullText": ""
+      "fullText": "반도체인사이트 메모리 삼성전자, 오픈AI 자체 AI칩에 HBM4 공급…‘빅3’ 고객사 확보 입력 2026.08.26 16:49 수정 2026.08.26 16:50 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 원종환 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 사진=오픈AI 글로벌 인공지능(AI) 기업 오픈AI가 자체 AI 칩 &#39;할라페뇨(Jalapeno)&#39;이 성능 테스트에서 엔비디아의 칩을 앞섰다고 25일 밝혔다. 업계에선 이 칩에 들어간 6세대 고대역폭메모리(HBM)4가 삼성전자의 제품으로 보고 있다. ▶본지 3월 20일자 A1, 8면 참조 오픈AI 리처드 호 하드웨어 총괄은 이날 블룸버그통신과 인터뷰를 통해 할라페뇨가 전력 단위당 처리할 수 있는 AI 작업량과 응답 속도 등 두 가지 지표에서 엔비디아 최고 성능 칩 &#39;GB300&#39;을 앞섰다고 밝혔다. 호 총괄은 앞서 구글의 AI 칩 텐서처리장치(TPU) 프로젝트를 맡다 2023년 오픈AI에 합류했다. 호 총괄은 연내 이 칩을 자사 AI 모델 구동에 투입할 계획이라고 설명했다. 할라페뇨는 맞춤형 칩을 공급하는 브로드컴과 협력해 만들어졌다. 지난해 협력을 발표한 두 회사는 지난 6월 할라페뇨를 공개했다. 할라페뇨는 처리 능력과 응답 속도 모두 강점이라는 게 그의 설명이다. 호 총괄은 &quot;할라페뇨는 저전력인 700와트에서 우수한 성능을 낸다&quot;고 덧붙였다. 호 총괄은 &quot;우리는 컴퓨팅 수요가 워낙 커서 많은 공급업체와 계약을 맺은 것이고, 이런 상황은 당분간 계속될 것&quot;이라며 &quot;엔비디아는 정말 좋은 파트너이며, 우리는 앞으로도 엔비디아가 매우 필요하다&quot;고 말했다. 자체 칩이 당장 엔비디아 제품을 대체하지는 않을 것이라는 의미로 풀이된다. 업계에서는 할라페뇨에 탑재된 차세대 고대역폭메모리(HBM4)가 삼성전자의 제품인 것으로 추정하고 있다.삼성전자는 올 하반기부터 오픈AI에 HBM4를 단독 공급할 예정이다. 엔비디아와 AMD에 이어 삼성전자 HBM 공급망 중 세 번째로 큰 규모다. 삼성전자의 이번 대형 수주는 이재용 삼성전자 회장의 네트워크와 맞춤형 전략이 결합된 결과로 풀이된다. 이 회장은 지난해 10월 샘 올트먼 오픈AI 최고경영자(CEO)를 만나 최첨단 AI 메모리 공급을 위한 구매의향서(LOI)를 체결하는 등 계약 성사를 직접 이끈 것으로 알려졌다. 업계에서는 삼성전자가 엔비디아 공급선 다변화와 함께 오픈AI라는 거대 빅테크 고객사를 독점 확보함에 따라 차세대 HBM 시장에서의 주도권을 크게 강화할 것으로 전망하고 있다. 원종환 기자 won0403@hankyung.com 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 원종환 기자 안녕하세요, 원종환 한국경제 산업부 기자입니다. 중소기업부에서 소부장기업을, 정치부에서 민주당을 출입했습니다. 기사댓글 개의 댓글이 있습니다. 댓글 닫기"
     },
     {
       "s": "CEO경제신문",
@@ -374,26 +392,6 @@
       "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LNHFyeXJSeWdUM2V5aEk2a0RraE5ZZVJ4bE1HWlFnSGYxM3Nyd25ybEMtbEJHUWJqbHdlZG9aaFVud1puV1hHZzBCR3hUUQ?oc=5",
       "m": "08. 18. AM 07:00",
       "ts": 1787036400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "구글클라우드, 신한투자증권 차세대 AI 에이전트 플랫폼 구축…금융 AX 박차",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82Z0ZDM1VLTFFnTUtjcjdLUVAtTVJWd3l0dXp6NWZ5dlBSVHBMSXBKRDRfUERxdjVwOHFDUklCNzVmd2dVZDVKUFhSWnJBZUdQckdVVXJ3?oc=5",
-      "m": "08. 18. AM 06:24",
-      "ts": 1787034268000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "데일리비즈온",
-      "t": "[D-BIZ 차세대 AI] 구글 클라우드, 신한투자증권 차세대 AI 에이전트 플랫폼 구축 지원…\"규제 준수하며 금융 AX 선도\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SMlEyWEhVdVRKcGI3MDlRdEdEV1Z5aFltU2M3dlNJUEFrcjI0M050ck9aSzdZaHhTd2lKcmVJVmVOR3VicE84RWZudjNRa0pMOXRZWWx6UkVPUmt4MWRLZGgxUEVIVndJYk90TA?oc=5",
-      "m": "08. 18. AM 02:58",
-      "ts": 1787021932000,
       "_policy": true,
       "fullText": "Google News"
     }

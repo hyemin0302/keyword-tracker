@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-27T08:19:32.410Z",
+  "updatedAt": "2026-08-27T19:12:37.544Z",
   "data": {
     "NVDA": {
       "name": "엔비디아",
-      "px": 209.66,
-      "dayChange": -1.59,
-      "periodChange": 6.69,
+      "px": 226.54,
+      "dayChange": 8.05,
+      "periodChange": 15.28,
       "prices": [
         196.51,
         197.01,
@@ -29,7 +29,8 @@
         214.72,
         208.48,
         213.05,
-        209.66
+        209.66,
+        226.54
       ],
       "dates": [
         "2026-07-27",
@@ -54,16 +55,17 @@
         "2026-08-21",
         "2026-08-24",
         "2026-08-25",
-        "2026-08-26"
+        "2026-08-26",
+        "2026-08-27"
       ],
-      "volume": 145070184,
+      "volume": 237033015,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 236.54,
         "low52w": 164.07,
-        "volume": 145070184
+        "volume": 237033015
       },
       "investorFlow": null,
       "consensus": null
@@ -71,8 +73,8 @@
     "035420": {
       "name": "NAVER",
       "px": 216500,
-      "dayChange": -1.59,
-      "periodChange": -3.78,
+      "dayChange": -1.81,
+      "periodChange": -2.22,
       "prices": [
         225000,
         210000,
@@ -95,8 +97,7 @@
         222000,
         223500,
         220500,
-        220000,
-        216500
+        220000
       ],
       "dates": [
         "2026-07-27",
@@ -120,10 +121,9 @@
         "2026-08-21",
         "2026-08-24",
         "2026-08-25",
-        "2026-08-26",
-        "2026-08-27"
+        "2026-08-26"
       ],
-      "volume": 765068,
+      "volume": 0,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -148,6 +148,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260827",
+            "foreigner": -87909,
+            "institution": -145355,
+            "individual": 229300,
+            "foreignRatio": "36.04%"
+          },
           {
             "date": "20260826",
             "foreigner": -22826,
@@ -210,22 +217,15 @@
             "institution": 277776,
             "individual": -426339,
             "foreignRatio": "35.28%"
-          },
-          {
-            "date": "20260812",
-            "foreigner": 42070,
-            "institution": -28814,
-            "individual": -10428,
-            "foreignRatio": "35.02%"
           }
         ],
         "sum5d": {
-          "foreigner": -266623,
-          "institution": 889140
+          "foreigner": -542968,
+          "institution": 669556
         },
         "sum10d": {
-          "foreigner": -28199,
-          "institution": 906369
+          "foreigner": -158178,
+          "institution": 789828
         }
       },
       "consensus": null
@@ -233,8 +233,8 @@
     "017670": {
       "name": "SK텔레콤",
       "px": 99100,
-      "dayChange": -0.5,
-      "periodChange": 1.23,
+      "dayChange": 0.2,
+      "periodChange": 1.74,
       "prices": [
         97900,
         82200,
@@ -257,8 +257,7 @@
         102200,
         102300,
         98900,
-        99600,
-        99100
+        99600
       ],
       "dates": [
         "2026-07-27",
@@ -282,10 +281,9 @@
         "2026-08-21",
         "2026-08-24",
         "2026-08-25",
-        "2026-08-26",
-        "2026-08-27"
+        "2026-08-26"
       ],
-      "volume": 901404,
+      "volume": 0,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -310,6 +308,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260827",
+            "foreigner": -92942,
+            "institution": -4882,
+            "individual": 96807,
+            "foreignRatio": "34.43%"
+          },
           {
             "date": "20260826",
             "foreigner": -134387,
@@ -372,22 +377,15 @@
             "institution": -130582,
             "individual": 54339,
             "foreignRatio": "35.56%"
-          },
-          {
-            "date": "20260812",
-            "foreigner": -131404,
-            "institution": -10550,
-            "individual": 91465,
-            "foreignRatio": "35.49%"
           }
         ],
         "sum5d": {
-          "foreigner": -1418641,
-          "institution": 772537
+          "foreigner": -1254458,
+          "institution": 758529
         },
         "sum10d": {
-          "foreigner": -2152438,
-          "institution": 1572747
+          "foreigner": -2113976,
+          "institution": 1578415
         }
       },
       "consensus": null
@@ -416,8 +414,7 @@
       4.47,
       4.36,
       1.7,
-      2.64,
-      1.38
+      2.64
     ],
     "kospi": [
       0,
@@ -441,41 +438,39 @@
       2.33,
       -0.87,
       -0.19,
-      0.78,
-      2.32
+      0.78
     ],
     "sp500": [
       0,
-      0.21,
-      -1.31,
-      0.33,
-      1.03,
-      2.53,
-      4.36,
-      4.19,
-      4,
-      4.65,
-      4.59,
-      4.25,
-      4.52,
-      5.2,
-      5.03,
-      4.48,
-      3.76,
-      3.98,
-      3.08,
-      3.52,
-      3.23,
-      3.56,
-      3.54
+      1.66,
+      2.37,
+      3.89,
+      5.75,
+      5.57,
+      5.38,
+      6.03,
+      5.97,
+      5.63,
+      5.91,
+      6.6,
+      6.42,
+      5.86,
+      5.13,
+      5.36,
+      4.44,
+      4.9,
+      4.6,
+      4.94,
+      4.91,
+      5.52
     ]
   },
   "etfs": {
     "AIQ": {
       "name": "Global X Artificial Intelligenc",
-      "px": 63.07,
-      "dayChange": -0.02,
-      "periodChange": 8.18,
+      "px": 64.355,
+      "dayChange": 2.04,
+      "periodChange": 10.39,
       "prices": [
         58.3,
         57.24,
@@ -499,7 +494,8 @@
         63.43,
         62.3,
         63.08,
-        63.07
+        63.07,
+        64.36
       ],
       "dates": [
         "2026-07-27",
@@ -524,16 +520,17 @@
         "2026-08-21",
         "2026-08-24",
         "2026-08-25",
-        "2026-08-26"
+        "2026-08-26",
+        "2026-08-27"
       ],
-      "volume": 1114708,
+      "volume": 996907,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 70.26,
         "low52w": 44.01,
-        "volume": 1114708
+        "volume": 996907
       },
       "investorFlow": null,
       "consensus": null

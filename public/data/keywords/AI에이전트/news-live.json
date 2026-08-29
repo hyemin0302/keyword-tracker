@@ -1,14 +1,42 @@
 {
-  "updatedAt": "2026-08-28T15:55:14.482Z",
+  "updatedAt": "2026-08-29T00:25:10.010Z",
   "count": 40,
   "stats": {
-    "today": 12,
-    "yesterday": 9,
-    "weekAvg": 4.9,
-    "sources": 29,
-    "heat": "hot"
+    "today": 0,
+    "yesterday": 12,
+    "weekAvg": 4.7,
+    "sources": 30,
+    "heat": "cold"
   },
   "items": [
+    {
+      "s": "네이트",
+      "t": "AI 에이전트가 해킹하면 누가 책임지나…미국선 기존 법으로 판단",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wVjRqWnhnaVozUXVlZHNEa29TUkVOMFZLTkZSZUtjYTlwNFl5ZjNhUjd6YUU3ejlSdFViSTZUY3djWElUZG5HVEo0TWRCV2czX19r?oc=5",
+      "m": "08. 28. PM 10:31",
+      "ts": 1787956260000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "d": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "u": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "m": "08. 28. PM 07:30",
+      "ts": 1787945438000,
+      "fullText": "Training AI models with other AI models has become a very popular goal for neolabs — and now, a researcher in Anthropic’s fellows program has given us an early look at what it might look like in practice. On Friday, Anthropic published a new paper titled “ Automated Researchers Can Reliably Mitigate Alignment Failures ,” detailing how AI systems could reliably improve a model&#8217;s performance on a set of alignment benchmarks. When given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance. Led by Anthropic fellow Chen Yueh-Han, the system replicates much of the traditional approach to research. Each automated system searches the available literature, proposes a method, and trains the model using that method for 30 minutes, gradually increasing the benchmark over several iterations. Effective methods are preserved while ineffective ones are discarded, allowing the system to operate quickly and at a great scale. “Overall, these results provide early evidence that automated alignment post-training could become practical in the near term,” the paper reads. The paper is a step toward recursive self-improvement , which many see as the next significant step in AI progress. If models can improve their own alignment training, it’s plausible they could improve training practices more broadly — at which point, human AI researchers might soon become obsolete. The paper isn’t shy about addressing this idea, explicitly comparing the Automated Alignment Researcher (AAR) to its human equivalent. “The best AAR method beats what experienced humans propose, on average within six hours,” the paper reads. “Human guided research directions do not lead to stronger performance.” There’s even a cost comparison, in case anyone wasn’t convinced. “An AAR costs roughly $4 per hour in API inference against the $150 per hour we pay our human researchers.” In fairness, the paper also poi"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Jackson Hole, Anthropic’s Court Win and PayPal Deal Collapse | Bloomberg Tech 8/28/2026",
+      "d": "Bloomberg’s Tim Stenovec zeroes in on Jackson Hole after Federal Reserve Chairman Kevin Warsh delivered his first address at the Symposium. Plus, a US judge rules that the Trump administration must lift its ban on Anthropic's AI tech for federal agencies. And, a consortium of Advent and Stripe decided to abandon its pursuit of PayPal, a deal that would have ranked as one of the biggest-ever levera",
+      "u": "https://www.bloomberg.com/news/videos/2026-08-28/bloomberg-tech-8-28-2026-video",
+      "m": "08. 28. PM 05:52",
+      "ts": 1787939563000,
+      "fullText": ""
+    },
     {
       "s": "TechCrunch",
       "t": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
@@ -25,16 +53,7 @@
       "u": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
       "m": "08. 28. PM 12:21",
       "ts": 1787919666000,
-      "fullText": "Meta&#8217;s India and Southeast Asia vice president, Sandhya Devanathan, is leaving the social media giant to join OpenAI, the ChatGPT maker told TechCrunch. Devanathan will be based in Singapore and report to OpenAI&#8217;s Asia-Pacific managing director, Kiran Mani. She will oversee consumer growth, enterprise adoption and partnerships, regulatory engagement and operations across Southeast Asia and Australia, OpenAI said. The executive is leaving Meta after more than a decade at the company, which has been the subject of growing scrutiny over issues such as online safety and content moderation. Devanathan was involved in the company&#8217;s decision process in the country, a person familiar with the matter said. Devanathan&#8217;s appointment comes days after Prabhjeet Singh joined OpenAI as its India head. Singh had spent more than a decade at Uber, where he led its India and South Asia business. OpenAI has been expanding its presence across the Asia Pacific, opening offices in Singapore, Tokyo, Seoul, Sydney and Delhi over the past two years. Following Devanathan&#8217;s departure, Meta&#8217;s India managing director, Arun Srinivas, will report directly to Benjamin Joe, the company&#8217;s vice president for Asia-Pacific, a person familiar with the matter told TechCrunch. Devanathan joined Meta in 2016 and held several leadership roles at the company, including leading its Asia Pacific gaming business, before being appointed vice president for India and Southeast Asia in June last year. Meta has faced growing pressure from Indian authorities in recent weeks. Earlier this month, the company apologized after Instagram mistakenly restricted a post by Prime Minister Narendra Modi in July. The Indian government summoned Meta executives including its chief global affairs officer, Joel Kaplan, over the incident. New Delhi has also raised concerns over child sexual abuse material on the company&#8217;s platforms. Last month, the Indian government sought an explanation"
-    },
-    {
-      "s": "동아일보",
-      "t": "“너도 내 공격법 써봐”…오픈AI 해킹사태, 1200개 AI 뭉친 합동작전이었다",
-      "d": "오픈AI의 격리된 AI 에이전트 약 1200개가 몰래 게시판을 만들어 7만 건 넘는 정보를 교환했고, 약 700개는 허깅페이스 해킹에 가담한 것으로 확인됐다.",
-      "u": "https://www.donga.com/news/It/article/all/20260828/134563511/2",
-      "m": "08. 28. AM 09:16",
-      "ts": 1787908588000,
-      "fullText": "김영호 기자 구독"
+      "fullText": "Meta&#8217;s India and Southeast Asia vice president, Sandhya Devanathan, is leaving the social media giant to join OpenAI, the ChatGPT maker told TechCrunch. Devanathan will be based in Singapore and report to OpenAI&#8217;s Asia-Pacific managing director, Kiran Mani. She will oversee consumer growth, enterprise adoption and partnerships, regulatory engagement, and operations across Southeast Asia and Australia, OpenAI said. The executive is leaving Meta after more than a decade at the company, which has been the subject of growing scrutiny over issues such as online safety and content moderation. Devanathan was involved in the company&#8217;s decision process in the country, a person familiar with the matter said. Devanathan&#8217;s appointment comes days after Prabhjeet Singh joined OpenAI as its India head. Singh had spent more than a decade at Uber, where he led its India and South Asia business. OpenAI has been expanding its presence across the Asia Pacific, opening offices in Singapore, Tokyo, Seoul, Sydney, and Delhi over the past two years. Following Devanathan&#8217;s departure, Meta&#8217;s India managing director, Arun Srinivas, will report directly to Benjamin Joe, the company&#8217;s vice president for Asia Pacific, a person familiar with the matter told TechCrunch. Devanathan joined Meta in 2016 and held several leadership roles at the company, including leading its Asia Pacific gaming business, before being appointed vice president for India and Southeast Asia in June last year. Meta has faced growing pressure from Indian authorities in recent weeks. Earlier this month, the company apologized after Instagram mistakenly restricted a post by Prime Minister Narendra Modi in July. The Indian government summoned Meta executives, including its chief global affairs officer, Joel Kaplan, over the incident. New Delhi has also raised concerns over child sexual abuse material on the company&#8217;s platforms. Last month, the Indian government sought an explanat"
     },
     {
       "s": "헬로디디",
@@ -45,24 +64,6 @@
       "ts": 1787906273000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "OpenAI Hires Meta Executive to Lead Southeast Asia, Australia",
-      "d": "OpenAI has hired a longtime Meta Platforms Inc. executive to lead Southeast Asia and Australia as it aims to tap growth across markets that are home to more than 600 million people.",
-      "u": "https://www.bloomberg.com/news/articles/2026-08-28/openai-hires-meta-executive-to-lead-southeast-asia-australia",
-      "m": "08. 28. AM 07:58",
-      "ts": 1787903905000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "SoftBank Seeks Another $10 Billion Loan for OpenAI Stake Funding",
-      "d": "SoftBank Group Corp. is seeking a $10 billion loan, as it looks for more funding to help refinance debt used for its investment in US tech giant OpenAI, according to people familiar with the matter.",
-      "u": "https://www.bloomberg.com/news/articles/2026-08-28/softbank-seeks-another-10-billion-loan-for-openai-stake-funding",
-      "m": "08. 28. AM 06:50",
-      "ts": 1787899818000,
-      "fullText": ""
     },
     {
       "s": "헬로티",
@@ -144,24 +145,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "TechCrunch",
-      "t": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "d": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
-      "u": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-      "m": "08. 27. PM 07:52",
-      "ts": 1787860372000,
-      "fullText": "In Brief Posted: 12:52 PM PDT · August 27, 2026 Image Credits: Beata Zawrzel/NurPhoto / Getty Images Lucas Ropek Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google The game of musical chairs for AI executives continues. Barret Zoph, a co-founder of the AI startup Thinking Machines who left the company earlier this year to rejoin OpenAI, has found yet another job. Zoph spent two years at OpenAI and left in October 2024 to co-found Thinking Machines with Mira Murati, who had left the AI lab the month prior. In January, Zoph and another Thinking Machines co-founder, Luke Metz, quite dramatically departed from the startup to return to OpenAI. It was later revealed that Zoph had been fired . His return didn&#8217;t quite stick. Zoph spent only five months at OpenAI, where he was tasked with heading AI enterprise sales. He left the company in June. And now we know where he landed. Zoph has taken a position as vice president of research at Google (which happens to be another company where he previously worked). “We look forward to Barret returning to Google and bringing his RL and post-training expertise to Gemini,” a Google spokesperson told the Wall Street Journal . TechCrunch reached out to OpenAI and Google for more information. It&#8217;s not always easy to divine why tech executives seem to be spending less time in their roles. The turnover rate in the AI industry is high , and it&#8217;s been especially high at OpenAI — a company that, despite readying itself for an IPO and being one of the most powerful presences in the tech world, has lost a lot of critical staff over the last eight months. The turnover of high-level executives — from the departure of its COO to the recent loss of one of its top data center execs — has left onlookers scratching their heads . This story has been updated to include the fact that Zoph was fired from Thinking Machines. Topics AI , Barret Zoph , Google , In Brief , OpenAI , Thinking Machines La"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-      "d": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
-      "u": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "m": "08. 27. PM 05:43",
-      "ts": 1787852604000,
-      "fullText": "Over a hundred tech companies — including OpenAI, Anthropic, Google, and Microsoft — have signed an open letter urging both the private and public sectors to work together to defend themselves from AI-related cyber threats. The letter — which was also signed by prominent cyber firms like CrowdStrike, Okta, and Fortinet, as well as prominent financial institutions and internet infrastructure firms — calls for the adoption of new forms of cyber defense, while also encouraging governments at the &#8220;local, national, and international levels&#8221; to collaborate on security. &#8220;In the coming months, AI-enabled cyber attacks will become far more widespread and sophisticated as models around the world become increasingly capable,&#8221; the letter states. &#8220;The companies and public services our communities depend on — from hospitals to water treatment plants to the infrastructure that powers the internet — are at risk.&#8221; The problem AI poses to traditional cybersecurity defenses has been thrust into the spotlight lately by a string of bizarre incidents in which AI agents have attacked companies. The Hugging Face incident — in which one of OpenAI’s agents autonomously broke out of its sandboxed environment and attacked the tech company — has been followed by a trail of other reported break-ins involving agents developed by other AI companies, including Anthropic and Meta. These incidents have bolstered the argument that the field of cybersecurity has been fundamentally altered and that bold new commercial solutions are necessary to mitigate them. The letter further suggests the mobilization of a &#8220;collective response,&#8221; one in which &#8220;new partnerships&#8221; are formed &#8220;to raise security standards and find new solutions to emerging cyber threats.&#8221; Several of the AI companies that have signed the letter are still actively developing ever more advanced AI models, highlighting their conflicted position. At the same time, they are a"
-    },
-    {
       "s": "아시아투데이",
       "t": "[이영환의 AI 에이전틱 이코노미⑳] 거대 AI 하나보다, 작은 여럿이 나은 이유",
       "d": "",
@@ -227,7 +210,7 @@
       "u": "https://www.today.com/video/shop-steals-deals-get-up-to-85-off-jeans-totes-and-more-268881989897",
       "m": "08. 26. PM 01:37",
       "ts": 1787751448000,
-      "fullText": "Hot List: Our Favorite Fall Routine Essentials, Plus an Exclusive Code IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY TODAY Flashback Shop Shop the Show Hair Awards Deals and Sales Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY Jokes Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Upgrade Your Wardrobe and Accessories for Fall with These Deals Aug. 26, 2026 05:05 Shop Fall Routine Essentials: Shackets, Eye Patches, More 04:37 Shop These Essentials to Return to Your Fall Routine With Ease 04:10 6 Essential Back-to-School Supplies to Stay Organized 04:04 Now Playing Upgrade Your Wardrobe and Accessories for Fall with These Deals 05:05 UP NEXT Shop Smart"
+      "fullText": "Hot List: Our Favorite Fall Routine Essentials, Plus an Exclusive Code IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY TODAY Flashback Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY Jokes Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Upgrade Your Wardrobe and Accessories for Fall with These Deals Aug. 26, 2026 05:05 Shop Fall Routine Essentials: Shackets, Eye Patches, More 04:37 Shop These Essentials to Return to Your Fall Routine With Ease 04:10 6 Essential Back-to-School Supplies to Stay Organized 04:04 Now Playing Upgrade Your Wardrobe and Accessories for Fall with These Deals 05:05 UP "
     },
     {
       "s": "특허뉴스",
@@ -236,6 +219,16 @@
       "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QRTdpYkF2R3dvdWk0UHkyTi03NXJlNWo2S3ROZlV0dEFQWmkxbmJtdzJqNjAzbjNRSXJqNzRjWmt0bmxDWUR4QQ?oc=5",
       "m": "08. 26. AM 09:06",
       "ts": 1787735160000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "YTN 사이언스",
+      "t": "마이데이터, 서비스 범위 확대...AI가 정책자금도 대신 신청",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrUkNNaHdrS3RiTXNKTzh3WGdEcktkWnZRQ19oWm5Oc1Z0Ty1UblYwa1JUXzE4THRXODhweVpZcFlqUm03MGx6YWZlZHNDQmV1cUNQVTFBWlBBcmF0R1lVdG1MZm5Qb2pjZXpFclEzYWhOU1AxNEFFM2hVQm1adTQ?oc=5",
+      "m": "08. 26. AM 12:00",
+      "ts": 1787702400000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -306,7 +299,7 @@
       "u": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
       "m": "08. 24. PM 03:00",
       "ts": 1787583641000,
-      "fullText": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents August 24, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today , the NVIDIA Vera Rubin rack-scale system NVIDIA Groq 3 LPX is in full production. In an Artificial Analysis benchmark running Gemma 4 31B, an open source agentic model, it delivered 3,400 output tokens per second for 100,000-token long-context use cases critical to agentic systems, 4x faster than the nearest alternative platform. Industry partners worldwide are adopting Vera Rubin platform solutions. SpaceXAI announced that NVIDIA Vera CPUs will power its next generation of agentic AI. CoreWeave has deployed into production Spectrum-X Multiplane, which connects NVIDIA Vera Rubin racks using multiple parallel switches to provide high-bandwidth, flat and lossless AI networks. Nebius is the first AI cloud to adopt NVIDIA Groq 3 LPX. As AI shifts from training to reasoning and agentic, inference has become the new frontier. Agentic AI systems are generating more tokens, processing dramatically larger context windows and increasingly collaborating with other AI systems to solve complex problems. These workloads demand a new class of infrastructure optimized not just for performance but for throughput, responsiveness and economics at unprecedented scale. At the Hot Chips conference this week in Palo Alto, California, NVIDIA is showcasing how extreme codesign is reshaping the AI factory from end to end. By architecting compute, networking and inference acceleration as a unified system, NVIDIA is helping customers build infrastructure purpose-built for the emerging demands of long-context inference and multi"
+      "fullText": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents August 24, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today , the NVIDIA Vera Rubin rack-scale system NVIDIA Groq 3 LPX is in full production. In an Artificial Analysis benchmark running Gemma 4 31B, an open source agentic model, it delivered 3,400 output tokens per second for 100,000-token long-context use cases critical to agentic systems, 4x faster than the nearest alternative platform. Industry partners worldwide are adopting Vera Rubin platform solutions. SpaceXAI announced that NVIDIA Vera CPUs will power its next generation of agentic AI. CoreWeave has deployed into production Spectrum-X Multiplane, which connects NVIDIA Vera Rubin racks using multiple parallel switches to provide high-bandwidth, flat and lossless AI networks. Nebius is the first AI cloud to adopt NVIDIA Groq 3 LPX. As AI shifts from training to reasoning and agentic, inference has become the new frontier. Agentic AI systems are generating more tokens, processing dramatically larger context windows and increasingly collaborating with other AI systems to solve complex problems. https://blogs.nvidia.com/wp-content/uploads/2026/08/HotChips_DionHarris_v5_28MB.mp4 These workloads demand a new class of infrastructure optimized not just for performance but for throughput, responsiveness and economics at unprecedented scale. At the Hot Chips conference this week in Palo Alto, California, NVIDIA is showcasing how extreme codesign is reshaping the AI factory from end to end. By architecting compute, networking and inference acceleration as a unified system, NVIDIA is helping customers build infra"
     },
     {
       "s": "NVIDIA공식",
@@ -379,21 +372,31 @@
     },
     {
       "s": "지디넷코리아",
-      "t": "구글클라우드, 신한투자증권 차세대 AI 에이전트 플랫폼 구축…금융 AX 박차",
+      "t": "AI 에이전트 방문 거부하는 플랫폼, 고립인가 생존인가",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82Z0ZDM1VLTFFnTUtjcjdLUVAtTVJWd3l0dXp6NWZ5dlBSVHBMSXBKRDRfUERxdjVwOHFDUklCNzVmd2dVZDVKUFhSWnJBZUdQckdVVXJ3?oc=5",
-      "m": "08. 18. AM 07:00",
-      "ts": 1787036400000,
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3dlY1aVFwVWJ6NTNJODRaN3JOY1hMalhvR2N1X1FRRm4zazB5bWFNWjVpWS1RaHpjZ3dCcVlRQ0h5cDQ1SFRkeWIxdUNUN0tBMW9FempR?oc=5",
+      "m": "08. 14. AM 07:00",
+      "ts": 1786690800000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "머니투데이",
-      "t": "사이오닉에이아이, 규제산업용 '자가진화 AI 에이전트' 개발 나선다 - 머니투데이",
+      "s": "유니콘팩토리",
+      "t": "사이오닉에이아이, 규제산업용 '자가진화 AI 에이전트' 개발 나선다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hMHpBYm9kcmhUYWxqTWVIQmVsaU1GaTFuQ1dPVlNkQ2hGTktDeGdCUGU4YjI3TWE0Zm9YT2JGSFZ0N1NvQkozR3J5RWZYZE5WVXBVY3JiMnNxRGt0WWpDSmRqRXRIWWM0QVHSAW9BVV95cUxOeDhtLTlwcjVfUi1Dank2Y3htOENia0RPV3U3NHVGNG9KWG1MdTVnX21maEVNWWh1dGJsUnFzY2xVVjFoLUwycU90cUpUVnlTbmF0NGIyS09hVFg0eGVobkVBRXVjSGV2OGNsNzBPVEk?oc=5",
-      "m": "08. 16. AM 07:00",
-      "ts": 1786863600000,
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xek1DUTI5ME1Cck5oeGlKVTNaNlZ3R19SZzZ4OWNBelVfX29rWDRVX3B5b0NRb1M3M1J5V045MEZrWndkanZ6TTJGaW82RlNCaV9pM3V0MnJhYkhJTGx5RnRoZnR0a1F6R2puNw?oc=5",
+      "m": "08. 14. AM 04:00",
+      "ts": 1786680000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "AI 에이전트 행동 흐름 통제한다…AWS, 오픈소스 정책 언어 '도그우드' 공개",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56XzRYWllxeHVxWkgyVVdnUXh6Qmd3elhkSktlcFRHamI3Ui0xRkVmRnloT2s5cW9RQ1cySHdpbVV4dEx6ejZXZmRrbVBWQXdHYWIzbjRB?oc=5",
+      "m": "08. 13. AM 07:00",
+      "ts": 1786604400000,
       "_policy": true,
       "fullText": "Google News"
     }

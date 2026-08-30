@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T22:12:12.015Z",
+  "updatedAt": "2026-08-30T00:30:56.335Z",
   "count": 40,
   "stats": {
-    "today": 3,
+    "today": 0,
     "yesterday": 3,
-    "weekAvg": 2.1,
-    "sources": 29,
-    "heat": "cool"
+    "weekAvg": 2,
+    "sources": 28,
+    "heat": "cold"
   },
   "items": [
     {
@@ -19,7 +19,7 @@
       "fullText": "Before this week, the dominant story about Nvidia went something like this: For the first few years of the AI boom, Nvidia was the only source for state-of-the-art GPUs, which became immensely profitable as the industry scaled out. In the last few years, hyperscalers like Amazon and Google have started building their own chips, and Nvidia is no longer the only game in town, leading many investors to wonder how durable its advantage really is. It’s a compelling story, and mostly true. After growing its market cap 10x between the start of 2023 and mid-2025, Nvidia shares have been on a more modest trajectory for the past year, driven by concerns about GPU competition. A new narrative has taken shape since the company’s earnings on Wednesday and investors are starting to realize that Nvidia’s advantage goes far beyond GPUs. As AI’s compute grows into the gigawatt scale, orchestration has become an increasingly complex task. Not surprisingly, Nvidia has built much of the state-of-the-art hardware needed to handle it, giving the company a huge advantage in the systems that surround the GPU even as it sees increased competition on the GPUs themselves. For all the talk of compute as a commodity , it’s still incredibly difficult to operate a megascale data center at peak efficiency — and as deployments get bigger and faster, that challenge is only growing. Rack by Rack You can see some of this just by looking at the details of what Nvidia is actually selling. The company is currently rolling out its Vera Rubin architecture, which pairs the Rubin GPU with a collection of other units, including the Vera CPU, the Groq 3 LPX inference accelerator and similar racks for storage and networking. Over the past week, I’ve been talking to folks at Nvidia about what those systems actually do, and the results have been surprising. Like the Rubin GPU itself, they’re extremely specialized systems, but instead of churning through tokens, they’re making sure everything outside the GPU works"
     },
     {
-      "s": "한국경제",
+      "s": "한경 경제",
       "t": "블랙웰→루빈→파인만…젠슨 황이 GPU 이름에 숨긴 '비밀코드'  [강경주의 테크X]",
       "d": "",
       "u": "https://www.hankyung.com/article/2026082898886",
@@ -81,16 +81,6 @@
       "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uaThUQmRhR3JRN0ZpY2YxREJ1M3pwbHpTV29lM0ZId2phREpnNjJsdE83bWdDRmtCOFUzSkxReDA0djVYZ0ZqM083a1FUQkkwY0E?oc=5",
       "m": "08. 27. PM 06:00",
       "ts": 1787853621000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴스핌",
-      "t": "'메이드 인 USA' HBM 간절한 美…통큰 지원에 SK하이닉스도 공급망 선점 '윈윈'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EaVBtWUJUM1E1VDVXVG9wREh0amdUUUlCNHNUcVdEeTROUG9xRkhtazVBVHp6Nk5yMjZzRVFLeGRyZGRPYTZnM2JEUWsxWkhwS21QRHZwbl9Qa2hu?oc=5",
-      "m": "08. 27. PM 04:30",
-      "ts": 1787848200000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -361,16 +351,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "디지털데일리",
-      "t": "美의 中 반도체 규제 역효과?…AI칩 점유율, 엔비디아↓ 화웨이↑[AI 인포그래픽]",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16STNybmxya0hzVkl4OUNGRXQ4MTE5UXU0TkNNYm5ncnZjVTNkcWw1WTMxVkt4NS1rckhmVXBRTUxuWm1ZVW8tT2NQUVA4aTJYeVpvY0pBSTNqS0F3TkhrRm53?oc=5",
-      "m": "06. 30. AM 07:00",
-      "ts": 1782802800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "비즈니스포스트",
       "t": "중국 화웨이 '엔비디아 빈 자리' 채운다, 미국의 AI 반도체 수출 규제로 반사이익",
       "d": "",
@@ -391,12 +371,32 @@
       "fullText": "Google News"
     },
     {
+      "s": "연합뉴스",
+      "t": "EU '기술 주권' 강화 시동…반도체·AI·클라우드 자립 추진",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XN2tGd2ladVF3WVd6TEFENTBIN1V4dUZJeTBqY0dlbVh1SGRoZXhtd3p2NlBFaDJ1X0xzOEl2WExsMklra1dMOUN1R21QR2s4N1JqeHFrdDZjaDDSAWBBVV95cUxQV1pqSHpJbEJXLUhmVmVxM2xTYlQ0QWI2Ujg3YkZoQVIzMkg0TXpnZjhzakdwQzJoWVMxeklMdjhJcGlYZi1vZUdqa0JuVHVNWE5taDJOclJKMzVfRHBHWnc?oc=5",
+      "m": "06. 03. AM 07:00",
+      "ts": 1780470000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "서울경제",
       "t": "“유럽 기술 주권 되찾겠다”...EU, 반도체·AI 육성 총력",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sN0I4VnFvUlRlcy16a3RYalp1b0lLVk83Z3VVUXdHd3U5YW14VFl4RzdqLVdXb2RWbHZlbXFSOG04UVg5Z3VwZTQ1VllVbHIxeUE?oc=5",
       "m": "05. 28. AM 07:00",
       "ts": 1779951600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "문화체육관광부 한국문화원",
+      "t": "코리아넷뉴스 - [이재명 정부 365일] ② AI·반도체·코스피···성장동력 키운 한국경제",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uZHAzeFhEeTQ2RW8tNlk5YmozZ2o3WUxEeHFlR1BOTTY5UWhlakJ5VlBLb01FRGt6Z05yNVhNMGU1dmt2SWNMeWU0MmFqaW5ZTFN5eGRTSmF0MHN5RVBfWTlZaUo2Y3Vaby1F?oc=5",
+      "m": "05. 27. AM 07:00",
+      "ts": 1779865200000,
       "_policy": true,
       "fullText": "Google News"
     }

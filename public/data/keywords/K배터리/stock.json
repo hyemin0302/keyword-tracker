@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T07:14:03.043Z",
+  "updatedAt": "2026-09-01T12:41:40.658Z",
   "data": {
     "247540": {
       "name": "에코프로비엠",
@@ -75,6 +75,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260901",
+            "foreigner": -48949,
+            "institution": -108996,
+            "individual": 153351,
+            "foreignRatio": "14.77%"
+          },
+          {
             "date": "20260831",
             "foreigner": 11204,
             "institution": -45586,
@@ -136,22 +143,15 @@
             "institution": 24059,
             "individual": -51229,
             "foreignRatio": "14.76%"
-          },
-          {
-            "date": "20260818",
-            "foreigner": -4391,
-            "institution": -138647,
-            "individual": 142685,
-            "foreignRatio": "14.73%"
           }
         ],
         "sum5d": {
-          "foreigner": -36180,
-          "institution": -21189
+          "foreigner": -61168,
+          "institution": -60345
         },
         "sum10d": {
-          "foreigner": 101932,
-          "institution": -77732
+          "foreigner": 57374,
+          "institution": -48081
         }
       },
       "consensus": null
@@ -207,7 +207,7 @@
         "2026-08-31",
         "2026-09-01"
       ],
-      "volume": 341687,
+      "volume": 330966,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -232,6 +232,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260901",
+            "foreigner": 22102,
+            "institution": 7895,
+            "individual": -12172,
+            "foreignRatio": "5.50%"
+          },
           {
             "date": "20260831",
             "foreigner": 8692,
@@ -294,24 +301,78 @@
             "institution": 5186,
             "individual": -17325,
             "foreignRatio": "5.52%"
-          },
-          {
-            "date": "20260818",
-            "foreigner": 40677,
-            "institution": -86274,
-            "individual": 56894,
-            "foreignRatio": "5.50%"
           }
         ],
         "sum5d": {
-          "foreigner": -99111,
-          "institution": 318405
+          "foreigner": -35807,
+          "institution": 324534
         },
         "sum10d": {
-          "foreigner": -34870,
-          "institution": 330130
+          "foreigner": -53445,
+          "institution": 424299
         }
       },
+      "consensus": null
+    },
+    "GM": {
+      "name": "GM",
+      "px": 86.32,
+      "dayChange": 0.06,
+      "periodChange": -1.55,
+      "prices": [
+        87.68,
+        88.31,
+        89.16,
+        86.94,
+        87.58,
+        87.96,
+        89.35,
+        86.76,
+        86.39,
+        86.77,
+        84.37,
+        83.71,
+        84.96,
+        86.15,
+        87.93,
+        86.98,
+        85.81,
+        86.33,
+        86.18,
+        86.32
+      ],
+      "dates": [
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-31"
+      ],
+      "volume": 7813744,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 91.85,
+        "low52w": 54.33,
+        "volume": 7813744
+      },
+      "investorFlow": null,
       "consensus": null
     },
     "TSLA": {
@@ -373,69 +434,6 @@
         "high52w": 498.83,
         "low52w": 297.38,
         "volume": 61157428
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "GM": {
-      "name": "GM",
-      "px": 86.32,
-      "dayChange": 0.06,
-      "periodChange": -1.55,
-      "prices": [
-        87.68,
-        88.31,
-        89.16,
-        86.94,
-        87.58,
-        87.96,
-        89.35,
-        86.76,
-        86.39,
-        86.77,
-        84.37,
-        83.71,
-        84.96,
-        86.15,
-        87.93,
-        86.98,
-        85.81,
-        86.33,
-        86.18,
-        86.27,
-        86.32
-      ],
-      "dates": [
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14",
-        "2026-08-17",
-        "2026-08-18",
-        "2026-08-19",
-        "2026-08-20",
-        "2026-08-21",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28",
-        "2026-08-31"
-      ],
-      "volume": 7813744,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 91.85,
-        "low52w": 54.33,
-        "volume": 7813744
       },
       "investorFlow": null,
       "consensus": null
@@ -517,6 +515,13 @@
       "investorFlow": {
         "items": [
           {
+            "date": "20260901",
+            "foreigner": -33215,
+            "institution": 40182,
+            "individual": -6731,
+            "foreignRatio": "37.28%"
+          },
+          {
             "date": "20260831",
             "foreigner": -11517,
             "institution": 16679,
@@ -578,22 +583,15 @@
             "institution": -19483,
             "individual": 9882,
             "foreignRatio": "37.56%"
-          },
-          {
-            "date": "20260818",
-            "foreigner": 19928,
-            "institution": -28022,
-            "individual": 8715,
-            "foreignRatio": "37.56%"
           }
         ],
         "sum5d": {
-          "foreigner": -21076,
-          "institution": 56880
+          "foreigner": -25173,
+          "institution": 94943
         },
         "sum10d": {
-          "foreigner": -25159,
-          "institution": 58416
+          "foreigner": -78302,
+          "institution": 126620
         }
       },
       "consensus": null
@@ -649,7 +647,7 @@
         "2026-08-31",
         "2026-09-01"
       ],
-      "volume": 590465,
+      "volume": 597086,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -674,6 +672,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260901",
+            "foreigner": -108811,
+            "institution": 76260,
+            "individual": 33457,
+            "foreignRatio": "25.88%"
+          },
           {
             "date": "20260831",
             "foreigner": -125143,
@@ -736,22 +741,15 @@
             "institution": -9956,
             "individual": -6559,
             "foreignRatio": "26.33%"
-          },
-          {
-            "date": "20260818",
-            "foreigner": -68982,
-            "institution": -17876,
-            "individual": 88007,
-            "foreignRatio": "26.31%"
           }
         ],
         "sum5d": {
-          "foreigner": -184543,
-          "institution": 602545
+          "foreigner": -242772,
+          "institution": 598344
         },
         "sum10d": {
-          "foreigner": -297701,
-          "institution": 779213
+          "foreigner": -337530,
+          "institution": 873349
         }
       },
       "consensus": null
@@ -778,51 +776,51 @@
       12.01,
       17.03,
       17.73,
-      18.76
+      18.77
     ],
     "kospi": [
       0,
-      3.76,
-      -0.98,
-      -1.58,
-      -0.93,
-      -0.21,
-      3.46,
-      7.15,
-      9.73,
-      8.03,
-      1.76,
+      1.62,
+      5.45,
+      0.62,
+      0.02,
+      0.67,
+      1.41,
+      5.14,
+      8.88,
+      11.51,
+      9.79,
+      3.42,
+      9.51,
+      10.48,
+      7.02,
       7.76,
-      8.71,
-      5.32,
-      6.04,
-      7.06,
-      8.7,
-      6.76,
-      7.25,
-      7.5
+      8.8,
+      10.47,
+      8.99,
+      9.24
     ],
     "sp500": [
       0,
-      -0.17,
-      -0.34,
-      0.27,
-      0.21,
-      -0.11,
-      0.15,
-      0.81,
-      0.64,
-      0.11,
-      -0.58,
-      -0.37,
-      -1.23,
-      -0.8,
-      -1.08,
-      -0.77,
-      -0.79,
-      -0.07,
-      -0.32,
-      -0.65
+      1.79,
+      1.62,
+      1.44,
+      2.07,
+      2.01,
+      1.68,
+      1.95,
+      2.61,
+      2.44,
+      1.9,
+      1.2,
+      1.41,
+      0.53,
+      0.97,
+      0.69,
+      1.01,
+      0.99,
+      1.72,
+      1.13
     ]
   },
   "etfs": {
@@ -877,7 +875,7 @@
         "2026-08-31",
         "2026-09-01"
       ],
-      "volume": 895342,
+      "volume": 905057,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -888,6 +886,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260901",
+            "foreigner": 4465,
+            "institution": -62361,
+            "individual": 45728,
+            "foreignRatio": "1.28%"
+          },
           {
             "date": "20260831",
             "foreigner": -15834,
@@ -950,22 +955,15 @@
             "institution": 78541,
             "individual": -27783,
             "foreignRatio": "1.25%"
-          },
-          {
-            "date": "20260818",
-            "foreigner": -12570,
-            "institution": 46732,
-            "individual": -41158,
-            "foreignRatio": "1.33%"
           }
         ],
         "sum5d": {
-          "foreigner": -50838,
-          "institution": 39572
+          "foreigner": -21376,
+          "institution": -44970
         },
         "sum10d": {
-          "foreigner": -35605,
-          "institution": 132275
+          "foreigner": -18570,
+          "institution": 23182
         }
       },
       "consensus": null
@@ -1021,7 +1019,7 @@
         "2026-08-31",
         "2026-09-01"
       ],
-      "volume": 4647350,
+      "volume": 5099081,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -1032,6 +1030,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260901",
+            "foreigner": -183945,
+            "institution": 150512,
+            "individual": 36422,
+            "foreignRatio": "0.34%"
+          },
           {
             "date": "20260831",
             "foreigner": 22766,
@@ -1094,22 +1099,15 @@
             "institution": 8656,
             "individual": -5911,
             "foreignRatio": "0.39%"
-          },
-          {
-            "date": "20260818",
-            "foreigner": -104665,
-            "institution": 106031,
-            "individual": 7238,
-            "foreignRatio": "0.38%"
           }
         ],
         "sum5d": {
-          "foreigner": -36114,
-          "institution": -189114
+          "foreigner": -70028,
+          "institution": -90584
         },
         "sum10d": {
-          "foreigner": 36926,
-          "institution": -30091
+          "foreigner": -42354,
+          "institution": 14390
         }
       },
       "consensus": null
@@ -1139,7 +1137,6 @@
         76.59,
         75.92,
         77.13,
-        76.07,
         76.37
       ],
       "dates": [
@@ -1162,7 +1159,6 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28",
         "2026-08-31"
       ],
       "volume": 192004,

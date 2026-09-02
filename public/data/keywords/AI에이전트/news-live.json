@@ -1,14 +1,41 @@
 {
-  "updatedAt": "2026-09-02T18:02:35.046Z",
+  "updatedAt": "2026-09-02T20:43:50.286Z",
   "count": 40,
   "stats": {
-    "today": 10,
-    "yesterday": 7,
-    "weekAvg": 3.6,
-    "sources": 24,
-    "heat": "hot"
+    "today": 9,
+    "yesterday": 5,
+    "weekAvg": 3.1,
+    "sources": 25,
+    "heat": "warm"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "OpenAI’s new reasoning technique alarms AI safety experts",
+      "d": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+      "u": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "m": "09. 02. PM 08:19",
+      "ts": 1788380354000,
+      "fullText": "OpenAI&#8217;s new Astra model will use a reasoning technique called &#8220;recurrent depth&#8221; that allows it to operate outside of the sequential thinking that characterizes most reasoning models, the The Information reported on Tuesday. This technique, also called “opaque recurrence,” will likely make the model’s chain of thought more difficult to monitor — and that has AI safety experts rattled. While Astra’s use of the technique is reportedly limited, its emergence has still raised significant concerns among AI safety experts. &#8220;I am extremely concerned by the reporting that Astra uses opaque recurrence,” wrote Redwood CEO Buck Shlegeris in a post after the news broke. “I don’t know whether Astra is much less CoT monitorable than previous models. But if OpenAI pushes this technique further, they’ll have the option to massively increase the recurrence and totally destroys CoT monitorability.” Longtime AI safety advocate Zvi Mowshowitz also weighed in and wrote that laws might be necessary to prevent a “race to the bottom” among AI labs. “The technique is playing with fire, risking a taboo that OpenAI and Anthropic have fought to establish that we work hard to maintain Chain of Thought faithfulness and monitorability for as long as we can,” Mowshowitz wrote. “More intensive use of such techniques would probably damage monitorability.” Under normal circumstances, a reasoning model’s chain of thought provides the sequential steps taken by the model as it attempts to solve a problem. While the representation is imperfect, it still serves as a valuable tool for monitoring misbehavior or misalignment. In the case of OpenAI’s recent rogue agent activity, chain-of-thought records were an important tool in teasing out why agents behaved the way they did. In opaque recurrence, the model takes a less linear approach, processing the same query several times in a loop. The result leaves fewer legible traces, effectively side-stepping a conventional chain-of-thought r"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Lutnick Says Anthropic Has Patched Relations With US Government",
+      "d": "US Commerce Secretary Howard Lutnick said that Anthropic PBC has patched its relationship with the Trump administration, signaling a possible end to months of sharp differences over security between the US and the artificial intelligence developer.",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-02/lutnick-says-anthropic-has-patched-relations-with-us-government",
+      "m": "09. 02. PM 08:13",
+      "ts": 1788380007000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Altman Says AI Will Be Greatest Boom in Business the World Has Ever Seen",
+      "d": "OpenAI Chief Executive Officer Sam Altman says artificial intelligence will be the greatest boom in business the world has ever seen. He speaks to US Commerce Secretary Howard Lutnick at a tech event in North Carolina hosted by the US for G20 members.  (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-09-02/altman-says-ai-is-helping-create-small-businesses-video",
+      "m": "09. 02. PM 06:48",
+      "ts": 1788374909000,
+      "fullText": ""
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Napster Shifts Course to Penny-a-Minute AI Agents Via Microsoft",
@@ -21,47 +48,11 @@
     {
       "s": "TechCrunch",
       "t": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "d": "\"The United States has a strong interest in continuing to develop a robust and competitive\nartificial intelligence industry that sets the standard for the practice and procedure of AI use\nglobally,\" the brief reads.",
+      "d": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use\nglobally,\" the brief reads.",
       "u": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
       "m": "09. 02. PM 05:09",
       "ts": 1788368946000,
       "fullText": "In a lawsuit that The New York Times filed against OpenAI, the Trump administration has contributed a 20-page brief in defense of the ChatGPT maker&#8217;s unlicensed use of copyrighted material to train its LLMs. &#8220;The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally&#8230; As such, it is critical for the United States to &#8216;retain global leadership in artificial intelligence,&#8217;&#8221; the brief reads, referencing an executive order that President Donald Trump signed last year. The LLMs powering chatbots like ChatGPT, Claude, and Gemini are trained on incomprehensibly massive databases of published works, including copyrighted books, articles, and other media that AI companies feed into these databases without permission. Many publishers, including The New York Times in this case, have sought to argue that it is illegal for AI companies like OpenAI to train AI models on their copyrighted material. This question &#8212; can you use copyrighted material to train an AI? &#8212; isn&#8217;t black and white, hence the extensive legal debate around the subject. These conversations often center on fair use, a carve out of copyright law that makes exceptions for certain scenarios when it can be ruled legal to use someone else&#8217;s copyrighted work without permission. In this case, the fair use debate addresses whether AI companies&#8217; use of copyrighted work is &#8220;transformative&#8221; enough for a judge to rule it legal. &#8220;Constraining LLM development under a misunderstanding of fair use doctrine would thwart such creative and scientific progress while hindering American prosperity and economic mobility,&#8221; the brief says. So far, cases about AI training and copyright infringement have largely been favorable to AI companies. Last year, Judge William Alsup ordered Anthropic to pay a $1.5 billion copy"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "NYSE Used Anthropic’s Project Glasswing to Find Cyber Flaws",
-      "d": "The New York Stock Exchange used Anthropic PBC’s Project Glasswing to find and fix vulnerabilities in its cyber security systems, its president, Lynn Martin, told Congress.",
-      "u": "https://www.bloomberg.com/news/articles/2026-09-02/nyse-used-anthropic-s-project-glasswing-to-find-cyber-flaws",
-      "m": "09. 02. PM 04:34",
-      "ts": 1788366840000,
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "“AI가 직원 업무 80% 해낸다”…스타트업 대표 “사람 줄여야 하나”",
-      "d": "한 스타트업 대표가 직접 만든 AI 에이전트의 성능을 확인한 뒤 직원들의 역할과 인력 운영을 놓고 고민을 털어놔 온라인에서 화제가 되고 있다. 지난달 30일 한 직장인 커뮤니티에는 약 15명 규모의 IT 스타트업을 운영하고 있다는 A씨의 글이 올라왔다.A씨는 “직원들에게 각종 유료 AI 모델과 사용 비용을 제한 없이 지원했지만 몇 개월이 지나도 실질적인 생산성 향상으로 이어지는 폭이 생각보다 너무 제한적었다”라고 밝혔다.반면 엔지니어 출신인 자신이 직접 AI 에이전트를 구축해 업무를 맡긴 결과는 달랐다고 했다. AI 에이전트는 사람의 지시를 받아 특정 업무를 수행하는 것을 넘어 여러 작업을 스스로 처리하도록 만든 AI 프로그램이다.그는 “솔직히 직원 한 명의 80% 수준까지 성능이 나온다”며 “피드백할 때 ",
-      "u": "https://www.donga.com/news/Society/article/all/20260903/134595741/1",
-      "m": "09. 02. PM 04:28",
-      "ts": 1788366502000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "How Microsoft Is Helping Napster Reinvent Itself",
-      "d": "John Acunto, Napster CEO, joins \"Bloomberg Tech\" to talk about how Microsoft is helping the company reinvent itself through the use of agentic AI. He says the company is going from streaming music to streaming intelligence.  (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-09-02/how-microsoft-is-helping-napster-reinvent-itself-video",
-      "m": "09. 02. PM 04:26",
-      "ts": 1788366396000,
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "AI 쓰자 논문 수 3배 늘었는데… 연구 주제 범위는 4.63% 좁아져[박재혁의 데이터로 보는 세상]",
-      "d": "《AI가 과학 혁신을 보장할까인공지능(AI)이 과학 연구의 풍경을 바꾸고 있다. 정부는 AI를 활용해 첨단 바이오와 양자, 우주 등 8대 분야의 12개 국가 임무를 2035년까지 해결하겠다는 ‘K-문샷(Moonshot)’ 프로젝트에 착수했다. 미국도 AI로 과학 연구 패러다임을 혁신하는 ‘제네시스 미션(Genesis Mission)’을 출범시키고 50억 달러(약 6조8000억 원) 이상의 연방정부 투자를 약속했다.》일선 연구 현장에서도 AI를 활용한 데이터 분석 및 거대언어모델(LLM)을 활용한 데이터 분석과 논문 작성이 점차 확산하고 있다. AI가 연구의 속도와 효율을 높인다는 데는 이견이 많지 않다. 하지만 과학의 본질인 다양성과 혁신성에도 긍정적인 영향을 미칠까? 최근 발표된 두 연구는 AI가 연구자의",
-      "u": "https://www.donga.com/news/Opinion/article/all/20260902/134594747/2",
-      "m": "09. 02. PM 02:00",
-      "ts": 1788357600000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
     },
     {
       "s": "TechCrunch",
@@ -110,24 +101,6 @@
       "fullText": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier New CrowdStrike SafeMind agentic cybersecurity system built with NVIDIA Nemotron open models delivers greater protection and cost savings for cyber defense. September 1, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! “We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined CrowdStrike CEO and founder George Kurtz to announce CrowdStrike SafeMind , its agentic cybersecurity system developed by the CrowdStrike Cyber Superintelligence Lab. “This is the beginning of a new age of cybersecurity,” Huang told the crowd of 10,000 security professionals. “On the one hand, the adversaries are going to be more armed than ever. On the other hand, all of you are going to be more armed than ever.” SafeMind combines CrowdStrike’s purpose-built, beyond frontier-capable models and customized agentic harnesses, with defensive models built on NVIDIA Nemotron , in a continuous coevolution loop where offense and defense repeatedly challenge and improve each other. CrowdStrike also announced CrowdStrike Falcon IQ to operationalize Project QuiltWorks through agentic workload automation and expanded its CrowdStrike Guardian AI safety solution. “We have asymmetric advantages because we have a large community of cybersecurity experts who want to work with each other and keep the world safe,” Huang told the crowd. CrowdStrike’s annual conference drew security leaders from financial services, healthcare, the public sector and critical infrastructure. “The real gap that I saw was that the attackers had frontier AI, and the defenders didn’t,” Kurtz told them. “And that changes now.” SafeMind CrowdStrike built SafeMind’s defensive model using NVIDIA Nemotron open models, post-trained with CrowdStrike’s cyber experienc"
     },
     {
-      "s": "TechCrunch",
-      "t": "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems",
-      "d": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
-      "u": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "m": "09. 01. PM 09:06",
-      "ts": 1788296784000,
-      "fullText": "OpenAI shared new details on its forthcoming Astra model, which the company said is the first large language model to meet its &#8220;critical cybersecurity threshold,&#8221; in preparation for its imminent release. &#8220;We plan to make Astra available soon,&#8221; OpenAI&#8217;s blog post reads, &#8220;but access to its most advanced cybersecurity capabilities will be more limited.&#8221; The frontier lab determined that Astra is capable of finding unknown security flaws in computer systems, and exploiting them without a person&#8217;s guidance. That&#8217;s similar to the concerns Anthropic raised about its Mythos model earlier this year, and OpenAI is taking comparable precautions as it prepares to roll out the Astra. Without any third-party confirmation, it is difficult to evaluate OpenAI&#8217;s claims about safety or preparedness. The company said it would preview the model with a group of testers but did not say who they were or how they would be chosen. It&#8217;s not clear if OpenAI is working with the U.S. government to evaluate the model ahead of release. OpenAI noted that Astra scored a perfect score on ExploitBench, an evaluation of an LLM&#8217;s ability to hack into known system vulnerabilities. In a modified version of the test developed by OpenAI engineers, the model discovered and exploited two zero-day vulnerabilities, the company said. To ensure that its models are neither exploited by bad actors nor capable of bad behavior itself, OpenAI said it had already begun improving the model&#8217;s harness to detect abuses and prevent jailbreaks. For Astra, however, the company invested in unspecified new techniques designed to make the model safer. OpenAI has also started identifying &#8220;accounts assessed as higher risk&#8221; and restricting the model&#8217;s responses to their prompts, though it also doesn&#8217;t say how. Finally, though the company describes Astra as its &#8220;most aligned model to date,&#8221; it will deploy the model with a"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Google&#8217;s Android update tackles motion sickness, accessibility, and more",
-      "d": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
-      "u": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
-      "m": "09. 01. PM 08:53",
-      "ts": 1788295985000,
-      "fullText": "On Tuesday, Google announced it&#8217;s rolling out five new updates designed to make Android phones more accessible, useful, and personalized. Announced in a blog post , the features include those aimed at reducing motion sickness, helping blind and low-vision users navigate their surroundings, remembering where users leave important items, and another that adds new ways to personalize Google Messages. While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements. The most interesting update is “Motion Assist,” a feature designed to help people who experience motion sickness while using their phones in a moving vehicle. It adds a bubble overlay to the screen that moves in response to the vehicle’s motion, helping reduce the disconnect between what users see on their screens and what their bodies feel. The concept isn’t entirely new, however. Apple introduced “ Vehicle Motion Cues ” in 2024, which uses animated dots around the edges of the display that move in response to a vehicle’s motion. Users can set &#8220;Motion Assist&#8221; to turn on automatically, add it to Quick Settings, and customize the bubble’s shape, color, and transparency. Google says this feature is available to Android 17 users. Image Credits: Google Google is also introducing “Guided Vision,” a feature designed with blind and low-vision users in mind. It combines the phone’s camera with Gemini to help with tasks such as reading small print on a food label, viewing a menu in a dark restaurant, or identifying objects around the house. The feature can also provide voice guidance when the camera isn’t positioned correctly, telling users to move the phone, pan around, or center an object. Guided Vision is coming to phones running Android 9 and newer in countries where Gemini is available. Image Credits: Google Another update gives Gemini a new way to help users remember wher"
-    },
-    {
       "s": "한경 IT",
       "t": "챗GPT 광고 시작 200일만에…연매출 1조3700억원 돌파",
       "d": "",
@@ -167,7 +140,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "지티티코리아",
+      "s": "gttkorea.com",
       "t": "금융 AI 에이전트 기업망과 분리...실시간 행동 통제·기록으로 보안과 규제준수 강화",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxQUxaWkJ0a29LdTBuNFdWZEhUSzhvdmdRNUhZbnllN3Eza3FuMXg5dWVBZTl1WDNacGhBVElOU2dnTUgtbmozek1SUExZbktVOElIM3V0MFUteGtjbUQtWWFURnV4RnlyRHc?oc=5",
@@ -177,7 +150,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "지티티코리아",
+      "s": "gttkorea.com",
       "t": "AI 모델·에이전트 데이터 접근 통제...권한 자동 만료로 규제준수 입증",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fTG5lZlAyTG9CV0cyY0NGc19BNVBxc0RzTXczQUpla0FoczJHMFZDeGZPcjNQR2JmcHhJNDlPUVY0Ukp4cDNTQXYtTGpCS3FocEx4bkxzTkFablNSekZLUDBMaEJpajBqSmc?oc=5",
@@ -255,16 +228,6 @@
       "fullText": "Amazon Bestsellers: A $10 ‘Spoonula,’ a Doom-Scrolling Blocker, More IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY TODAY Flashback Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY Jokes Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Upgrade Your Wardrobe and Accessories for Fall with These Deals Aug. 26, 2026 05:05 Cozy Up to &#x27;Grandmacore&#x27; With These Nostalgic Hobbies 04:25 Shop These Home and Beauty September Bestsellers on Amazon 03:52 Just In Case: Shop These Emergency Items to Keep in Your Home 05:34 Revive and Revamp Your Skin With These Vitamin C Powerhouses 03:55 Shop Fall "
     },
     {
-      "s": "서울경제",
-      "t": "소상공인 마이데이터 도입...AI에이전트로 금리인하 ‘손쉽게’",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9LWElMR25wTGI0Y0N1UldJVGR3NkVsX1F5Uk9nQzFHNnQ0S1JsZHkzRDdSTEdqVXlMX2RNcEF2b2FDX0NHSWZLOHctXzNkb2dYaXfSAVNBVV95cUxPM2Z2QTBiX2xrbVZvemUyQmsta3JEbVFTakFLTXZmdUdLMzZiZjZ0cUExYUN3dzZUWFFoQ0RqcDVjUXlmazl3akNUOVhwTUp0WF9Rcw?oc=5",
-      "m": "08. 25. AM 07:46",
-      "ts": 1787644007000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "연합뉴스",
       "t": "마이데이터, 개인사업자로 확대…AI로 정책자금 등 대리 신청도",
       "d": "",
@@ -303,16 +266,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "zdnet.co.kr",
-      "t": "'다중 AI 에이전트' 위협 현실로, 편의 좇다 통제 불능",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kbVdONnRGc1dtNzVLOWxVRkx0UEt0dzJBZ2xkVE0zTzRETXNZalpxNTFYRlZveEJlT2xPSGhYRmxXLVM1bUwzZDV1Q2tKUGhFY2xHUFd3?oc=5",
-      "m": "08. 22. AM 07:00",
-      "ts": 1787382000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "헬로티",
       "t": "산업 AI 확산 속 규제·데이터 대응 어떻게…산업지능화협회, 31일 세미나 개최",
       "d": "",
@@ -333,20 +286,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "zdnet.co.kr",
-      "t": "[인터뷰] \"AI 에이전트, 보안 허점 순식간에 드러낼 수도\"…클라우데라가 경고한 이유는",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IaTVTN3VCdUVtQzNOTk9kNl9DcjBtemNUbktPaHpER3FrV1p6R3hvLThjeWl4QXdiY1dvNnFIZEs1Y2tQQ3haM01BNEhWWXBqVEdlQ3Bn?oc=5",
-      "m": "08. 20. AM 07:00",
-      "ts": 1787209200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "전자신문",
       "t": "구글 클라우드, 신한투자증권 '차세대 AI 에이전트 플랫폼' 구축 지원",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LNHFyeXJSeWdUM2V5aEk2a0RraE5ZZVJ4bE1HWlFnSGYxM3Nyd25ybEMtbEJHUWJqbHdlZG9aaFVud1puV1hHZzBCR3hUUQ?oc=5",
+      "m": "08. 18. AM 07:00",
+      "ts": 1787036400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "BI KOREA",
+      "t": "구글 클라우드, 신한투자증권 ‘AI 에이전트’ 구축 지원",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EMmdYeWVJREhjU0xTVGotM3pGQmdWYWxyRmFrT1VocldYS0tHbmgwemE5UDlNM2F0alU5Nl96NGxEQXpRWmxHT01yaHd2bDBrZjFpV01neV9CeTE5QXM2cE5ocTB4dw?oc=5",
       "m": "08. 18. AM 07:00",
       "ts": 1787036400000,
       "_policy": true,
@@ -363,7 +316,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "zdnet.co.kr",
+      "s": "지디넷코리아",
       "t": "AI 에이전트 방문 거부하는 플랫폼, 고립인가 생존인가",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3dlY1aVFwVWJ6NTNJODRaN3JOY1hMalhvR2N1X1FRRm4zazB5bWFNWjVpWS1RaHpjZ3dCcVlRQ0h5cDQ1SFRkeWIxdUNUN0tBMW9FempR?oc=5",
@@ -383,12 +336,61 @@
       "fullText": "Google News"
     },
     {
-      "s": "데일리시큐",
-      "t": "AWS, AI 에이전트 행동 통제하는 오픈소스 정책 언어 도그우드 공개",
+      "s": "지디넷코리아",
+      "t": "AI 에이전트 행동 흐름 통제한다…AWS, 오픈소스 정책 언어 '도그우드' 공개",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qSnZaSllKV3VYbEhWdHR5TGNsRF96NUVyV1dCU0xlU1ptdG1nUlQ5Y2tnOEN4Qlc5aEpnM2xZSWJtWjZhLVd4MlEwd2tVUlNmREJSWnA5Ulg0VGFYOFZjZmdwZmhydEsxOC1oZg?oc=5",
-      "m": "08. 13. AM 07:15",
-      "ts": 1786605338000,
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56XzRYWllxeHVxWkgyVVdnUXh6Qmd3elhkSktlcFRHamI3Ui0xRkVmRnloT2s5cW9RQ1cySHdpbVV4dEx6ejZXZmRrbVBWQXdHYWIzbjRB?oc=5",
+      "m": "08. 13. AM 07:00",
+      "ts": 1786604400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "헬로티",
+      "t": "AWS, 에이전트 행동 흐름 전체 검증하는 시간 기반 정책 언어 '도그우드' 출시",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tRVJtZ0d5N1RrRThLaE5GeU9sOXUySzl5QUJzY3pyb0kzd2U0M3lMcjN6QjBuY3lNWkRxZElwUUhmR2xGd293Q21jNGJFRFV3NnJuYmNlcGdCcVN0dUZF?oc=5",
+      "m": "08. 13. AM 07:00",
+      "ts": 1786604400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "메트로신문",
+      "t": "AWS, AI 에이전트의 연속 행동을 통제하는 오픈소스 정책 언어 '도그우드' 공개",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oYTNQbUwyUndrZFNRdXA0OE9RNEF1TTBHcC03akNxYjFiMVk2UmlsLWNwSGc0TUZ6UmgyOWJmcWV5QXgxeXA5YnNkRDAwZDh0MDZ4S29VRWtfdDFXc3hpVA?oc=5",
+      "m": "08. 13. AM 07:00",
+      "ts": 1786604400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "d": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.5 Lightning, the highest-efficiency model in its class for long-running agentic AI workloads. This release follows Nemotron [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "m": "08. 11. PM 01:00",
+      "ts": 1786453205000,
+      "fullText": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI The new lightweight open model and routing library delivers greater control over AI, data and workflows across edge devices, PCs, workstations, data centers and the cloud. August 11, 2026 by Kari Briski 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.5 Lightning, the highest-efficiency model in its class for long-running agentic AI workloads. This release follows Nemotron 3 Nano and reflects NVIDIA’s commitment to continually improving open models for greater accuracy and speed. Built for specialized tasks within larger multi-agent systems, Nemotron 3.5 Lightning, a 30-billion-parameter mixture-of-experts model, helps create smarter and more efficient agentic applications. Also, NVIDIA is releasing NeMo Switchyard, an open source library for smart routing inside popular agent tools. Enterprises can use it to build a router based on their specific needs. When deployed, NeMo Switchyard can intelligently direct each request to the most capable and suitable model for the job, across developers’ own mix of open, proprietary and NVIDIA models, without requiring developers to rewrite their applications. Together, Nemotron 3.5 Lightning and NeMo Switchyard deliver greater control over how AI is deployed, where it runs and how efficiently it operates — across PCs, workstations, data centers and the cloud. Nemotron 3.5 Lightning delivers frontier-level intelligence in a small, customizable open model built for high-volume agentic workflows. Always-On Agents Need a System of Models Modern agentic systems — always-on agents — increasingly operate as systems of models , or model ensembles, with different models specialized "
+    },
+    {
+      "s": "전자신문",
+      "t": "에티버스, AI 에이전트 구축 지원 위한 '2026 Okta for AI Agents Hands-on Training' 진행",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yUzNYZnlRSWVmLXFCQXo4N2lxYzRXTTJXUkoyaE9meGQyOVRCekhVQ2lQams5aWo0Q3E4TmdOU0RyWHpZT1loU011ZGZHUQ?oc=5",
+      "m": "08. 11. AM 07:00",
+      "ts": 1786431600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "중소기업투데이",
+      "t": "AX시대 ‘빌런’, ‘자율AI 에이전트’ 확산...보안리스크도↑",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYOUhfLVBtM3d2Ri1DUWstT01ma2ZkajZPTC1PcVVma29xTWNVdlAtVnA3bUlNT2pRMnphMWVJSzYtaHpNczNpRFBkWEU4Z1hIODJraFZSVWpOMUZHamF0NDIySjk1bVZi0gFsQVVfeXFMTmtSUm53OWRWb3BjTFhYUHNGQ3FuOUljV1pTRGhjV1lxb0Z2d3BQYnhFY0dYOEc1cTAweUREYzl4RkVaelVhRF80NjkwMjd1YTdBTGxHZkwyclkyVDlfZmdvZ0FXYmRLOXEwM1l3?oc=5",
+      "m": "08. 10. AM 07:00",
+      "ts": 1786345200000,
       "_policy": true,
       "fullText": "Google News"
     }

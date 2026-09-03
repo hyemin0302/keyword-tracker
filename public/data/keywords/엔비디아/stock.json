@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T05:27:54.872Z",
+  "updatedAt": "2026-09-03T10:01:11.108Z",
   "data": {
     "TSM": {
       "name": "TSMC",
@@ -370,9 +370,9 @@
     },
     "000660": {
       "name": "SK하이닉스",
-      "px": 1619000,
-      "dayChange": 0.37,
-      "periodChange": 3.32,
+      "px": 1596000,
+      "dayChange": -1.05,
+      "periodChange": 1.85,
       "prices": [
         1567000,
         1577000,
@@ -396,7 +396,7 @@
         1674000,
         1693000,
         1613000,
-        1619000
+        1596000
       ],
       "dates": [
         "2026-08-03",
@@ -423,15 +423,15 @@
         "2026-09-02",
         "2026-09-03"
       ],
-      "volume": 1443056,
+      "volume": 2827435,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,140조 2,986억",
-        "per": "6.96배",
-        "pbr": "4.21배",
-        "cnsPer": "4.47배",
+        "marketCap": "1,165조 8,658억",
+        "per": "7.12배",
+        "pbr": "4.31배",
+        "cnsPer": "4.57배",
         "divYield": "0.19%",
         "foreignRatio": "50.47%",
         "high52w": "3,002,000",
@@ -448,6 +448,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260903",
+            "foreigner": -234626,
+            "institution": -187288,
+            "individual": -220315,
+            "foreignRatio": "50.44%"
+          },
           {
             "date": "20260902",
             "foreigner": -651507,
@@ -510,22 +517,15 @@
             "institution": 66258,
             "individual": -720118,
             "foreignRatio": "51.05%"
-          },
-          {
-            "date": "20260820",
-            "foreigner": 312973,
-            "institution": -13214,
-            "individual": -922172,
-            "foreignRatio": "51.05%"
           }
         ],
         "sum5d": {
-          "foreigner": -1121227,
-          "institution": -1688511
+          "foreigner": -1196468,
+          "institution": -1735470
         },
         "sum10d": {
-          "foreigner": -3177576,
-          "institution": -1609480
+          "foreigner": -3725175,
+          "institution": -1783554
         }
       },
       "consensus": null
@@ -555,7 +555,7 @@
       0.55,
       1.18,
       -0.51,
-      0.19
+      -0.06
     ],
     "kospi": [
       0,
@@ -580,7 +580,7 @@
       8.99,
       9.24,
       4.88,
-      5.81
+      5.15
     ],
     "sp500": [
       0,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T05:28:18.929Z",
+  "updatedAt": "2026-09-03T10:01:37.815Z",
   "data": {
     "AMD": {
       "name": "AMD",
@@ -204,9 +204,9 @@
     },
     "000660": {
       "name": "SK하이닉스",
-      "px": 1619000,
-      "dayChange": 0.37,
-      "periodChange": 3.32,
+      "px": 1596000,
+      "dayChange": -1.05,
+      "periodChange": 1.85,
       "prices": [
         1567000,
         1577000,
@@ -230,7 +230,7 @@
         1674000,
         1693000,
         1613000,
-        1619000
+        1596000
       ],
       "dates": [
         "2026-08-03",
@@ -257,15 +257,15 @@
         "2026-09-02",
         "2026-09-03"
       ],
-      "volume": 1443056,
+      "volume": 2827435,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,140조 2,986억",
-        "per": "6.96배",
-        "pbr": "4.21배",
-        "cnsPer": "4.47배",
+        "marketCap": "1,165조 8,658억",
+        "per": "7.12배",
+        "pbr": "4.31배",
+        "cnsPer": "4.57배",
         "divYield": "0.19%",
         "foreignRatio": "50.47%",
         "high52w": "3,002,000",
@@ -282,6 +282,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260903",
+            "foreigner": -234626,
+            "institution": -187288,
+            "individual": -220315,
+            "foreignRatio": "50.44%"
+          },
           {
             "date": "20260902",
             "foreigner": -651507,
@@ -344,31 +351,24 @@
             "institution": 66258,
             "individual": -720118,
             "foreignRatio": "51.05%"
-          },
-          {
-            "date": "20260820",
-            "foreigner": 312973,
-            "institution": -13214,
-            "individual": -922172,
-            "foreignRatio": "51.05%"
           }
         ],
         "sum5d": {
-          "foreigner": -1121227,
-          "institution": -1688511
+          "foreigner": -1196468,
+          "institution": -1735470
         },
         "sum10d": {
-          "foreigner": -3177576,
-          "institution": -1609480
+          "foreigner": -3725175,
+          "institution": -1783554
         }
       },
       "consensus": null
     },
     "005930": {
       "name": "삼성전자",
-      "px": 251500,
-      "dayChange": 0.4,
-      "periodChange": 5.01,
+      "px": 250000,
+      "dayChange": -0.2,
+      "periodChange": 4.38,
       "prices": [
         239500,
         240000,
@@ -392,7 +392,7 @@
         260000,
         261000,
         250500,
-        251500
+        250000
       ],
       "dates": [
         "2026-08-03",
@@ -419,16 +419,16 @@
         "2026-09-02",
         "2026-09-03"
       ],
-      "volume": 7738233,
+      "volume": 14830923,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,427조 9,536억",
-        "per": "10.96배",
-        "pbr": "2.84배",
-        "cnsPer": "5.05배",
-        "divYield": "0.68%",
+        "marketCap": "1,461조 5,697억",
+        "per": "11.21배",
+        "pbr": "2.91배",
+        "cnsPer": "5.17배",
+        "divYield": "0.67%",
         "foreignRatio": "46.69%",
         "high52w": "380,000",
         "low52w": "69,300",
@@ -444,6 +444,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260903",
+            "foreigner": 91825,
+            "institution": -839601,
+            "individual": -1234260,
+            "foreignRatio": "46.70%"
+          },
           {
             "date": "20260902",
             "foreigner": -1321536,
@@ -506,22 +513,15 @@
             "institution": 1306652,
             "individual": -2671260,
             "foreignRatio": "46.87%"
-          },
-          {
-            "date": "20260820",
-            "foreigner": 4221606,
-            "institution": 599886,
-            "individual": -4742281,
-            "foreignRatio": "46.86%"
           }
         ],
         "sum5d": {
-          "foreigner": -2576734,
-          "institution": -7417457
+          "foreigner": -3866695,
+          "institution": -8159625
         },
         "sum10d": {
-          "foreigner": -6155149,
-          "institution": -11073143
+          "foreigner": -10284930,
+          "institution": -12512630
         }
       },
       "consensus": null
@@ -551,7 +551,7 @@
       2.15,
       3.08,
       0.37,
-      0.97
+      0.55
     ],
     "kospi": [
       0,
@@ -576,7 +576,7 @@
       8.99,
       9.24,
       4.88,
-      5.81
+      5.15
     ],
     "sp500": [
       0,
@@ -605,6 +605,73 @@
     ]
   },
   "etfs": {
+    "SMH": {
+      "name": "VanEck Semiconductor ETF",
+      "px": 550.48,
+      "dayChange": 0.96,
+      "periodChange": 0.92,
+      "prices": [
+        545.46,
+        575.71,
+        569.7,
+        571.48,
+        582.7,
+        569.41,
+        572.93,
+        584.83,
+        589.12,
+        587.82,
+        594.07,
+        569.77,
+        560.92,
+        562.65,
+        560.42,
+        546.8,
+        555.82,
+        555.77,
+        573,
+        553.11,
+        556.63,
+        545.22,
+        550.48
+      ],
+      "dates": [
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02"
+      ],
+      "volume": 5071467,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 671.83,
+        "low52w": 284.3,
+        "volume": 5071467
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "SOXX": {
       "name": "iShares PHLX SOX Semiconductor ",
       "px": 501.44,
@@ -672,76 +739,11 @@
       "investorFlow": null,
       "consensus": null
     },
-    "SMH": {
-      "name": "VanEck Semiconductor ETF",
-      "px": 550.48,
-      "dayChange": 0.96,
-      "periodChange": 0.92,
-      "prices": [
-        545.46,
-        575.71,
-        569.7,
-        571.48,
-        582.7,
-        569.41,
-        572.93,
-        584.83,
-        589.12,
-        587.82,
-        594.07,
-        569.77,
-        560.92,
-        562.65,
-        560.42,
-        546.8,
-        555.82,
-        555.77,
-        573,
-        556.63,
-        545.22,
-        550.48
-      ],
-      "dates": [
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14",
-        "2026-08-17",
-        "2026-08-18",
-        "2026-08-19",
-        "2026-08-20",
-        "2026-08-21",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-31",
-        "2026-09-01",
-        "2026-09-02"
-      ],
-      "volume": 5071467,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 671.83,
-        "low52w": 284.3,
-        "volume": 5071467
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "091160": {
       "name": "KODEX SEMICON",
-      "px": 120770,
-      "dayChange": -0.27,
-      "periodChange": 7.92,
+      "px": 119330,
+      "dayChange": -1.46,
+      "periodChange": 6.64,
       "prices": [
         111905,
         114485,
@@ -765,7 +767,7 @@
         124680,
         124720,
         121100,
-        120770
+        119330
       ],
       "dates": [
         "2026-08-03",
@@ -792,7 +794,7 @@
         "2026-09-02",
         "2026-09-03"
       ],
-      "volume": 628098,
+      "volume": 1210025,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -803,6 +805,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260903",
+            "foreigner": -6488,
+            "institution": 30833,
+            "individual": -22587,
+            "foreignRatio": "0.38%"
+          },
           {
             "date": "20260902",
             "foreigner": -44349,
@@ -865,22 +874,15 @@
             "institution": 45247,
             "individual": -15923,
             "foreignRatio": "0.38%"
-          },
-          {
-            "date": "20260820",
-            "foreigner": -243,
-            "institution": 67061,
-            "individual": -56271,
-            "foreignRatio": "0.44%"
           }
         ],
         "sum5d": {
-          "foreigner": -22534,
-          "institution": 133365
+          "foreigner": -725,
+          "institution": 83218
         },
         "sum10d": {
-          "foreigner": -22519,
-          "institution": 242935
+          "foreigner": -28764,
+          "institution": 206707
         }
       },
       "consensus": null

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-09T06:25:15.282Z",
+  "updatedAt": "2026-09-09T11:43:01.741Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
-      "px": 53500,
-      "dayChange": 8.63,
-      "periodChange": 60.42,
+      "px": 53900,
+      "dayChange": 9.44,
+      "periodChange": 61.62,
       "prices": [
         33350,
         35500,
@@ -28,7 +28,7 @@
         43850,
         49900,
         49250,
-        53500
+        53900
       ],
       "dates": [
         "2026-08-10",
@@ -54,7 +54,7 @@
         "2026-09-08",
         "2026-09-09"
       ],
-      "volume": 2980488,
+      "volume": 3041549,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -79,6 +79,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260909",
+            "foreigner": -131667,
+            "institution": 186331,
+            "individual": -36944,
+            "foreignRatio": "14.76%"
+          },
           {
             "date": "20260908",
             "foreigner": 64651,
@@ -141,22 +148,15 @@
             "institution": 110371,
             "individual": -24494,
             "foreignRatio": "16.31%"
-          },
-          {
-            "date": "20260826",
-            "foreigner": -221820,
-            "institution": 433754,
-            "individual": -210937,
-            "foreignRatio": "16.46%"
           }
         ],
         "sum5d": {
-          "foreigner": -478558,
-          "institution": 529338
+          "foreigner": 676020,
+          "institution": 778758
         },
         "sum10d": {
-          "foreigner": -1020614,
-          "institution": 1055677
+          "foreigner": -930461,
+          "institution": 808254
         }
       },
       "consensus": null
@@ -352,9 +352,9 @@
     },
     "034020": {
       "name": "두산에너빌리티",
-      "px": 91800,
-      "dayChange": 2.57,
-      "periodChange": 14.89,
+      "px": 91700,
+      "dayChange": 2.46,
+      "periodChange": 14.77,
       "prices": [
         79900,
         77900,
@@ -377,7 +377,7 @@
         79200,
         87900,
         89500,
-        91800
+        91700
       ],
       "dates": [
         "2026-08-10",
@@ -403,7 +403,7 @@
         "2026-09-08",
         "2026-09-09"
       ],
-      "volume": 3462893,
+      "volume": 3708953,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -428,6 +428,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260909",
+            "foreigner": 208476,
+            "institution": 160403,
+            "individual": -363026,
+            "foreignRatio": "23.64%"
+          },
           {
             "date": "20260908",
             "foreigner": -226972,
@@ -490,22 +497,15 @@
             "institution": 840638,
             "individual": -707768,
             "foreignRatio": "23.88%"
-          },
-          {
-            "date": "20260826",
-            "foreigner": 62068,
-            "institution": 1124591,
-            "individual": -1223240,
-            "foreignRatio": "23.92%"
           }
         ],
         "sum5d": {
-          "foreigner": -1287422,
-          "institution": 2559507
+          "foreigner": -700652,
+          "institution": 3103607
         },
         "sum10d": {
-          "foreigner": -2149864,
-          "institution": 4960810
+          "foreigner": -2003456,
+          "institution": 3996622
         }
       },
       "consensus": null
@@ -556,7 +556,7 @@
       5.38,
       10.24,
       9.6,
-      11.33
+      11.13
     ],
     "sp500": [
       0,
@@ -640,7 +640,7 @@
       "market": "US",
       "fundamentals": {
         "high52w": 74.8,
-        "low52w": 25.55,
+        "low52w": 26.69,
         "volume": 36092
       },
       "investorFlow": null,

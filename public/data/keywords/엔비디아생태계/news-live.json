@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-09-10T16:55:53.651Z",
+  "updatedAt": "2026-09-10T19:31:23.163Z",
   "count": 40,
   "stats": {
-    "today": 5,
+    "today": 6,
     "yesterday": 1,
-    "weekAvg": 1.4,
-    "sources": 21,
+    "weekAvg": 1.6,
+    "sources": 20,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia’s Huang Touts Cybersecurity as Next Big Market for AI",
+      "d": "Cybersecurity is the next big market for artificial intelligence, with advances in the technology set to disrupt an industry geared to defending computer systems, said Nvidia Corp. co-founder and Chief Executive Officer Jensen Huang.",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-10/nvidia-s-huang-touts-cybersecurity-as-next-big-market-for-ai",
+      "m": "09. 10. PM 05:08",
+      "ts": 1789060113000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "d-Matrix Joins Nvidia’s AI Inference Push",
+      "d": "Nvidia is embracing the rise of custom AI chips as demand shifts toward specialized systems built for inference. d-Matrix CEO Sid Sheth discusses the startup’s new partnership with Nvidia, which will integrate its inference-focused XPUs with Nvidia GPUs using NVLink Fusion, and why inference is emerging as the next major battleground in AI compute. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: ",
+      "u": "https://www.bloomberg.com/news/videos/2026-09-10/d-matrix-joins-nvidia-s-ai-inference-push-video",
+      "m": "09. 10. PM 04:53",
+      "ts": 1789059235000,
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
@@ -17,6 +35,15 @@
       "m": "09. 10. PM 04:30",
       "ts": 1789057835000,
       "fullText": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video Skild AI’s S1 robotic foundation model harnesses NVIDIA technologies spanning synthetic data generation, model training, simulation and real-world deployment. September 10, 2026 by Sasa Docca 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horizon tasks from a single video demonstration. The model, launched last week, uses video as input to understand and execute the task without updating its weights or undergoing task-specific post-training — a technique called in-context learning. Skild built S1 and conducted the research on NVIDIA AI infrastructure, part of a broader collaboration spanning synthetic data generation, model training, simulation and real-world physical AI deployment. The companies are working together to move adaptable robot intelligence from the lab into factories and other dynamic operating environments. “Learning by experience, and not preprogramming, is the step change that has happened in robotics,” said Deepak Pathak, cofounder and CEO of Skild AI. “NVIDIA Isaac Lab and NVIDIA Cosmos technologies help Skild create the scalable, diverse experience its robots need to learn across many scenarios and embodiments.” The launch comes as the company reached a $100 million annual revenue run rate 10 months after its first commercial deployment. In that time, Skild has built more than 60 deployment partnerships with work spanning manufacturing, logistics, inspection, security, food preparation and other applications. Learning New Work From One Video Most industrial robots are built for fixed jobs, so each new product, process or layout requires more data, "
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "d": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "m": "09. 10. PM 04:00",
+      "ts": 1789056004000,
+      "fullText": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies NVIDIA’s modular, full-stack robotaxi pipeline — a three-computer solution spanning AI training, simulation and in-vehicle computing — is being adopted across the robotaxi ecosystem. September 10, 2026 by Ali Kani 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035 , with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is a next-level computing challenge; it means delivering the same safe, reliable performance across thousands of vehicles. Meeting those demands requires enormous amounts of compute across the robotaxi development lifecycle, from preparing and training AI models to simulating and validating driving behavior, as well as real-time processing in the vehicle. NVIDIA provides an open platform for AI training , simulation and safety validation , with libraries, software development kits, workflows and models that developers can use alongside their own technology stacks. Every major robotaxi program operating at commercial scale today is running on NVIDIA’s modular stack, spanning AI training, simulation, in-vehicle computing — or a combination of the three — to develop and deploy fleets at scale. What Is a Robotaxi Technology Stack? A robotaxi technology stack is the end-to-end set of technologies used to develop, validate and deploy autonomous vehicles (AVs) — from data and AI model training to simulation, safety validation and real-time in-vehicle computing. NVIDIA’s robotaxi and AV platform brings these capabilities together in a three-computer solution: the model training computer, simulation and validation computer, and in-vehicle computer. "
     },
     {
       "s": "한국경제",
@@ -34,25 +61,7 @@
       "u": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
       "m": "09. 10. PM 01:00",
       "ts": 1789045221000,
-      "fullText": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment d-Matrix will connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform with NVLink Fusion, joining a growing ecosystem of partners using NVIDIA’s rack-scale architecture to accelerate time to market. September 10, 2026 by Jesse Clayton 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By connecting Raptor to NVIDIA NVLink scale-up and Spectrum-X scale-out networking, the NVIDIA MGX rack architecture and the broader NVIDIA AI platform, NVLink Fusion gives d-Matrix an accelerated, lower-risk path from custom silicon to large-scale deployment. “Demand for inference is soaring, but capital, time and energy remain finite,” said Sid Sheth, cofounder and CEO of d-Matrix during a press briefing yesterday. “With NVLink Fusion and MGX, we can integrate our Raptor XPUs into a broadly deployed, liquid-cooled architecture, giving customers a faster, lower-risk path to deploy and scale ultralow-latency inference.” The NVIDIA AI platform is vertically integrated and horizontally open. NVLink Fusion extends this openness to XPUs and CPUs, allowing silicon companies to focus on their processor innovations while using NVIDIA infrastructure to deploy them at AI factory scale. From Custom Silicon to Rack-Scale Deployment NVLink Fusion — Quick Reference What is NVIDIA NVLink Fusion? NVIDIA&#8217;s platform for integrating third-party custom XPUs and CPUs with NVLink scale-up networking, MGX rack architecture, and the full AI factory platform — spanning compute, networking, storage, security, power, cooling and software. What problem does it solve? Building a custom XPU is hard. Deploying one at scale is harder. NVLink Fusion lets XPU makers skip building rack-sc"
-    },
-    {
-      "s": "전자신문",
-      "t": "오픈AI, '아스트라' 수요 폭증에 프로 요금제 가입 중단 시사",
-      "d": "오픈AI가 차세대 인공지능(AI) 모델 'GPT-6 아스트라' 수요 폭증에 그래픽처리장치(GPU) 등 컴퓨팅 대란을 우려하고 있다. 티보 소티오 오픈AI 제품 총괄은 10일(현지시간) 소셜미디어 X 계정에 “지금까지 경험을 넘어설 정도로 (아스트라 수요가) 전례 없는 수준으로 폭증했다”며 “이전에도 가파른 성장을 경험했지만 이런 수요는 본적 없다”고 밝혔다. 자체 컴퓨팅이 감당할 수 없는 상황이 될 수 있음을 우회적으로 표현한 것이다. 젠슨 황",
-      "u": "https://www.etnews.com/20260910000421",
-      "m": "09. 10. AM 10:27",
-      "ts": 1789036022000,
-      "fullText": "AI·SW AI 오픈AI, '아스트라' 수요 폭증에 프로 요금제 가입 중단 시사 발행일 : 2026-09-10 19:27 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 오픈AI GPT-6 아스트라 비주얼 이미지. ⓒ오픈AI 오픈AI가 차세대 인공지능(AI) 모델 'GPT-6 아스트라' 수요 폭증에 그래픽처리장치(GPU) 등 컴퓨팅 대란을 우려하고 있다. 티보 소티오 오픈AI 제품 총괄은 10일(현지시간) 소셜미디어 X 계정에 “지금까지 경험을 넘어설 정도로 (아스트라 수요가) 전례 없는 수준으로 폭증했다”며 “이전에도 가파른 성장을 경험했지만 이런 수요는 본적 없다”고 밝혔다. 자체 컴퓨팅이 감당할 수 없는 상황이 될 수 있음을 우회적으로 표현한 것이다. 젠슨 황 엔비디아 최고경영자(CEO)까지 나서서 범용 AI(AGI)로 평가한 아스트라에 세계 이용자 관심이 집중, 토큰 사용량이 기하급수적으로 늘어남에 따른 의견 표출로 풀이된다. 오픈AI는 그동안 '스타게이트' 프로젝트와 같이 챗GPT 등 AI 서비스를 지속하기 위해 앤트로픽 등 경쟁사 대비 컴퓨팅 파워를 적극 확보해왔다. 소티오 총괄은 현재 폭증하는 이용량 감당을 위해 가용 수단을 총동원하고 있다며, 그럼에도 이러한 상황이 지속되면 한동안 프로 요금제 신규 구독 가입을 중단할 수 있다고 시사했다. 프로 요금제는 현재 월 100달러(약 14만원)·200달러(약 28만원)로 각각 전용 AI 모델과 추론 모델에 제한 없이 접속할 수 있어 아스트라 사용량 급증을 견인하고 있다. 챗GPT 고가 유료 요금제 구독자는 아스트라에 대한 접근성을 확보했으며 월 20달러 보편 요금제인 플러스 이용자는 챗GPT 워크 등을 통해 제한적으로 사용할 수 있다. 최고급 모델 접근권을 요금제별로 순차 확대하는 오픈AI 전략에 따른 차이다. 이번 아스트라 공개로 발생한 운영 부담에 따라 신규 가입자를 계속 늘리기보다, 기존 고객 서비스 품질을 유지하는 방향으로 서비스 안정성을 택할지 관심이 쏠린다. GPT-6 아스트라는 추론·컴퓨터 사용·소프트웨어(SW) 개발·사이버보안·과학 등 다양한 영역에서 최고 수준 성능을 보이는 오픈AI 차세대 프론티어 모델이다. 사전학습·강화학습과 정렬(alignment) 연구의 성과를 결합, 복잡한 문제 해결 능력과 사용자 의도를 이해하고 따르는 능력을 함께 강화했다. 추상 추론 벤치마크 ARC-AGI-3에서 최대 99.9%, 고난도 수학 평가 FrontierMath 티어4(v2)에서 97.6%를 기록하며 고난도 추론·수학에서 최고 수준 성능을 보였다. 과학 추론 평가 GPQA 다이아몬드에서 96.0%, 의료 전문 평가 헬스벤치 프로페셔널에서 63.4%를 기록하며 높은 성능을 입증했다. 코딩과 SW 개발 영역에서도 성능이 향상됐으며 수학 분야 장기 미제 해결에 기여하는 등 새로운 연구 가능성도 보여줬다. 컴퓨터와 브라우저를 직접 사용하는 성능도 대폭 개선됐다. 박종진 기자 truth@etnews.com 관련 기사 오픈AI, 사이버 보안 접근권 '데이브레이크' 韓 기업 5개사 확대 앤트로픽 연구원 퇴사하며 경고…“AI, 10년 내 인류 멸망시킬 수도”"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia-Backed MediaTek’s Sales Soar 44% With AI Chip Momentum",
-      "d": "MediaTek Inc. reported a 44% surge in monthly sales, boosted by its emerging AI chip business from the likes of Alphabet Inc.’s Google.",
-      "u": "https://www.bloomberg.com/news/articles/2026-09-10/nvidia-backed-mediatek-s-sales-soar-44-with-ai-chip-momentum",
-      "m": "09. 10. AM 09:03",
-      "ts": 1789031039000,
-      "fullText": ""
+      "fullText": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment d-Matrix will connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform with NVLink Fusion, joining a growing ecosystem of partners using NVIDIA’s rack-scale architecture to accelerate time to market. September 10, 2026 by Jesse Clayton 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By connecting Raptor to NVIDIA NVLink scale-up and Spectrum-X scale-out networking, the NVIDIA MGX rack architecture and the broader NVIDIA AI platform, NVLink Fusion gives d-Matrix an accelerated, lower-risk path from custom silicon to large-scale deployment. “Demand for inference is soaring, but capital, time and energy remain finite,” said Sid Sheth, cofounder and CEO of d-Matrix during a press briefing yesterday. “With NVLink Fusion and MGX, we can integrate our Raptor XPUs into a broadly deployed, liquid-cooled architecture, giving customers a faster, lower-risk path to deploy and scale ultralow-latency inference.” The NVIDIA AI platform is vertically integrated and horizontally open. NVLink Fusion extends this openness to XPUs and CPUs, allowing silicon companies to focus on their processor innovations while using NVIDIA infrastructure to deploy them at AI factory scale. From Custom Silicon to Rack-Scale Deployment Building an XPU is only the first step. Deploying it at AI factory scale requires a complete platform spanning networking, rack architecture, power, cooling, software and a proven supply chain. Each of the steps — sourcing chips, integrating high-speed interfaces, validating a scale-up networking solution, designing and certifying rack architecture — adds time, costs and risks. NVLink Fusion lets silicon innovators connect directly into NVIDIA’"
     },
     {
       "s": "NVIDIA공식",
@@ -224,15 +233,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "NVIDIA공식",
-      "t": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
-      "d": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta — the country’s first university-based AI technology center. Established under Indonesia’s AI Center of [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
-      "m": "08. 14. PM 05:13",
-      "ts": 1786727585000,
-      "fullText": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent Komdigi, Universitas Gadjah Mada, Indosat and NVIDIA launch the UGM Indosat NVIDIA AI Technology Center, bringing world-class AI infrastructure to Indonesia’s researchers and students and developers. August 14, 2026 by Shilpa Kolhatkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta — the country’s first university-based AI technology center. Established under Indonesia’s AI Center of Excellence initiative, UGM Indosat NVAITC brings government, industry and academia together to develop AI that addresses Indonesia’s most urgent national priorities. “The Indonesia AI Center of Excellence reflects our long-term vision to position Indonesia as a nation that not only adopts AI but also develops and contributes AI innovations to the world,” said Meutya Hafid, Indonesia’s Minister of Communication and Digital Affairs. “Through initiatives like this, we are laying the foundations of Indonesia’s AI sovereignty and ensuring AI becomes a driver of economic growth, national competitiveness and solutions to Indonesia’s most pressing challenges.” “UGM is committed to supporting Indonesia&#8217;s AI ambitions through education, research, and innovation that deliver real societal impact,” said Prof. dr. Ova Emilia, Ph.D. “This initiative supports national priorities in higher education, research downstreaming and talent development by accelerating the adoption of AI and preparing future-ready Indonesian talent.” Compute That Belongs to the Country Powered by NVIDIA’s full-stack AI platform and GPU Merdeka — Indosat’s sovereign GPU-as-a-service platform — UGM Indosat"
-    },
-    {
       "s": "ebn.co.kr",
       "t": "AI 투자, 돈 되기 시작했다…엔비디아·MS·아마존이 벌이는 다음 전쟁",
       "d": "",
@@ -323,20 +323,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "위클리포스트",
-      "t": "엔비디아 중국 점유율 하락, 화웨이 어센드 반사이익",
+      "s": "디지털데일리",
+      "t": "美의 中 반도체 규제 역효과?…AI칩 점유율, 엔비디아↓ 화웨이↑[AI 인포그래픽]",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lbXF2ZXlpclZJbWhrWVJIa3lrd3dYdUQ2ODBteUJ5dFVLVEJuSzNaMlczVm5NZm1pRzVXc1doOE0ybjI5cmVRMGZQTUo5ZW9PX3R3aVlBVzgwNlJrOXpJaE5nUEJjeXMwcXNj?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16STNybmxya0hzVkl4OUNGRXQ4MTE5UXU0TkNNYm5ncnZjVTNkcWw1WTMxVkt4NS1rckhmVXBRTUxuWm1ZVW8tT2NQUVA4aTJYeVpvY0pBSTNqS0F3TkhrRm53?oc=5",
       "m": "06. 30. AM 07:00",
       "ts": 1782802800000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "디지털데일리",
-      "t": "美의 中 반도체 규제 역효과?…AI칩 점유율, 엔비디아↓ 화웨이↑[AI 인포그래픽]",
+      "s": "위클리포스트",
+      "t": "엔비디아 중국 점유율 하락, 화웨이 어센드 반사이익",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16STNybmxya0hzVkl4OUNGRXQ4MTE5UXU0TkNNYm5ncnZjVTNkcWw1WTMxVkt4NS1rckhmVXBRTUxuWm1ZVW8tT2NQUVA4aTJYeVpvY0pBSTNqS0F3TkhrRm53?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lbXF2ZXlpclZJbWhrWVJIa3lrd3dYdUQ2ODBteUJ5dFVLVEJuSzNaMlczVm5NZm1pRzVXc1doOE0ybjI5cmVRMGZQTUo5ZW9PX3R3aVlBVzgwNlJrOXpJaE5nUEJjeXMwcXNj?oc=5",
       "m": "06. 30. AM 07:00",
       "ts": 1782802800000,
       "_policy": true,
@@ -383,7 +383,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "scimonitors.com",
+      "s": "사이언스모니터",
       "t": "엔비디아 AI 플랫폼 생태계 확장, 젠슨 황 방한이 던진 과제",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQQXVQOExfR2xSUEhhc2F1aXpYYWotYkR5YmZYeE4wUUs2bDRzM3FuWklvQUE5NDM5MXppamtVN080ZWZRVVN0d3piekJrWXl3Q2lldXBhNS1ZUWtJQk5UZ1liRE1FcUJLblhlY1QxWUlwVGxxeXQ3Q19ZRDB3SFBaOFJNU284bGI1a0cwS1hZRE5KRmpiMF9iZlprZTNUMVQ1TU9VVzRCR2Q3OFNIZTBkTXRTM255SGRUNmVTWmoxVFJRTkZ3THVwRmx0SEFDZXpRaGd2Y3l3OWhqSU5GTmZ3TmVELTM2RmJETU9WQ2pTUTVOamoyWDRLaGVrMmExX2F6R2g4ZnRPM05xa3llcGNaR1FJdlV3Rmpqc2JZeEhJakNVQngzSUNHTjlxaEIzSjA?oc=5",

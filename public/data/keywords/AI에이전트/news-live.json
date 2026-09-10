@@ -1,14 +1,24 @@
 {
-  "updatedAt": "2026-09-10T21:49:27.315Z",
+  "updatedAt": "2026-09-10T23:42:50.916Z",
   "count": 40,
   "stats": {
-    "today": 14,
+    "today": 13,
     "yesterday": 4,
-    "weekAvg": 4.6,
+    "weekAvg": 4.3,
     "sources": 25,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "지티티코리아",
+      "t": "AI 에이전트 명령 실행 전 검사...무단 데이터 삭제·외부 유출 차단",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlS3RKSi1JZlJmbGVrekJ5SWF1UF9IdkwtQWUwbnZWSFRzbkVPek5sWTk0RW5SWEEzUHJzUzRPVkNSRUotcWtLS044NmtNampOaWRhTnptVHJWVUdTem03ZkF4MjRpWFNhbXc?oc=5",
+      "m": "09. 10. PM 09:30",
+      "ts": 1789075800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Humans Are the Real Culprits of AI Risk",
@@ -64,15 +74,6 @@
       "fullText": "Meta is beginning to win over Wall Street following Tuesday&#8217;s launch of its new AI app, Muse. The tech giant&#8217;s push into agentic AI is also a hot topic on X among industry players. Now, early numbers offer better insight into how popular Muse actually is among its target market of U.S. consumers. According to new data provided by the market intelligence firm Sensor Tower , Muse has been downloaded north of 83,000 times on iOS in the United States. (The app is currently limited to the U.S. for now.) While this pushed Muse into the No. 2 position on the App Store&#8217;s Top Charts, its launch pales when compared with other recent app debuts from Meta, like Threads and Meta AI, the data indicates. For instance, Threads was downloaded more than 4.3 million times in the U.S. on its launch day, and the Meta AI app saw 108,000 U.S. downloads during its debut. Muse is also further behind when compared with another notable consumer AI app&#8217;s launch: ChatGPT. In less than a week after its arrival, ChatGPT had topped half a million installs in the U.S., which was also its only market at the time. If that spread was divided evenly, that would mean ChatGPT was seeing an average of 83,300 downloads daily at its debut — a number that it took Muse twice the time to achieve. None of this necessarily means that the Muse launch is going poorly — it may just be taking off at a slightly slower pace. The app is still climbing the charts on iOS, having moved up from the fourth position on the U.S. App Store on Wednesday to now No. 2 as of today. Its Android counterpart, however, is faring less well. Muse has only achieved a rank of No. 338 in the Productivity category on Google Play&#8217;s app marketplace. (Its Android download numbers aren&#8217;t yet available.) Muse is also available via the web and through WhatsApp, neither of which are being counted in these estimates. Still, Muse&#8217;s numbers, while early, are worth watching as the app represents one of Meta&#8"
     },
     {
-      "s": "동아일보",
-      "t": "AI 악용 해킹에… 쇼핑몰서 학원까지 정보유출 상반기 432건",
-      "d": "올 상반기(1∼6월)에 접수된 개인정보 유출 신고가 지난해 연간 신고 건수에 육박한 것으로 나타났다. 패션 쇼핑 플랫폼부터 영어학원, 골프장까지 대규모 회원을 보유한 민간 업체에서 개인정보 유출 사고가 잇따르는 상황을 두고 수사 당국은 인공지능(AI)을 활용한 해킹의 확산을 주요 원인으로 보고 있다. 과거 높은 전문성과 비용이 필요했던 사이버 공격의 문턱이 낮아지면서 해킹 조직이 대규모언어모델(LLM)로 랜섬웨어를 스스로 제작·유포하는 사례까지 등장한 것. 전문가들은 AI를 이용한 공격을 사전에 걸러낼 수 있는 탐지 체계를 마련해야 한다고 제언했다.● 반년 만에 지난해 맞먹는 개인정보 유출10일 개인정보보호위원회에 따르면 올해 상반기 접수된 개인정보 유출 신고는 432건으로 지난해 연간 신고 건수(447건)",
-      "u": "https://www.donga.com/news/Society/article/all/20260911/134646924/2",
-      "m": "09. 10. PM 07:30",
-      "ts": 1789068600000,
-      "fullText": "김다인 기자 구독"
-    },
-    {
       "s": "TechCrunch",
       "t": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
       "d": "Come inside the mind of a bot trying to convince the internet it's human.",
@@ -80,15 +81,6 @@
       "m": "09. 10. PM 05:54",
       "ts": 1789062884000,
       "fullText": "Anthropic&#8217;s latest report about agentic misbehavior offers plenty to be concerned about — its Mythos 5 model gained unauthorized access to the internet and uploaded a malicious software package to a public database — but it also offers some levity: AI agents hate CAPTCHA. In April, Anthropic was testing the model&#8217;s hacking abilities by tasking it to break into a system and retrieve a target; this was supposed to take place in a sandbox but the evaluators left the barn door open. The model decided the best way to get its target would be to place an exploit in a Python package that it believed users of the system it wanted to access would download. First, though, it had to register a user account for PyPI , an online index of Python software. And that meant getting by a CAPTCHA — a Completely Automated Public Turing test to tell Computers and Humans Apart, those picture-identifying mosaics that can frustrate even biological agents. And because Anthropic shared an extensive transcript of the model&#8217;s chain of thought, we can see that the CAPTCHA test really did throw it for a loop. In fact, most of the model&#8217;s chain of thought — hundreds of pages in the 1,022-page transcript — was spent dealing with that obstacle. The sheer amount of effort directed at getting around anti-bot protections was flagged by Colin Fraser, a data scientist. Writing the exploit and poisoning the package was easy, but it just could not get the hang of this CAPTCHA test. NOW I see the REAL picture: 1. There&#8217;s a &#8220;Please confirm that your email address is &#8230;&#8221; modal with Confirm/Cancel buttons — a confirm dialed appeared on submit. 2. There&#8217;s an hCaptcha &#8220;I am human&#8221; checkbox at the bottom! The agent (wondering frequently if it is still in a simulation) figures out a workflow to activate the CAPTCHA and meet its requirements. After clicking the &#8220;I&#8217;m human&#8221; button, it was faced with an image to read. Now the POST trigg"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says",
-      "d": "Anthropic PBC accused China’s artificial intelligence champion Moonshot AI of covertly routing thousands of user requests to the US firm’s Claude models and passing off the responses as its own in a bid to gain an edge in the AI race.",
-      "u": "https://www.bloomberg.com/news/articles/2026-09-10/moonshot-secretly-routed-user-requests-through-claude-anthropic-says",
-      "m": "09. 10. PM 05:00",
-      "ts": 1789059631000,
-      "fullText": ""
     },
     {
       "s": "TechCrunch",
@@ -119,15 +111,6 @@
       "fullText": "Steals & Deals: Up to 80% off a Label Maker Bundle, Seamless Bras, More IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Researcher&#x27;s Apocalyptic Warning on AI Sets Off Debate Sept. 10, 2026 03:04 Hidden Cams Catch Food Being Transported in Unsafe Conditions 05:16 Apple Unveils New Foldable Device iPhone Duo, 18Pro Models 02:37 Former President George Bush Reflects on 25th Anniversary of 9/11 02:43 Amazon Cargo Plane Pilot Warned About Speed Before Cra"
     },
     {
-      "s": "전자신문",
-      "t": "오픈AI, '아스트라' 수요 폭증에 프로 요금제 가입 중단 시사",
-      "d": "오픈AI가 차세대 인공지능(AI) 모델 'GPT-6 아스트라' 수요 폭증에 그래픽처리장치(GPU) 등 컴퓨팅 대란을 우려하고 있다. 티보 소티오 오픈AI 제품 총괄은 10일(현지시간) 소셜미디어 X 계정에 “지금까지 경험을 넘어설 정도로 (아스트라 수요가) 전례 없는 수준으로 폭증했다”며 “이전에도 가파른 성장을 경험했지만 이런 수요는 본적 없다”고 밝혔다. 자체 컴퓨팅이 감당할 수 없는 상황이 될 수 있음을 우회적으로 표현한 것이다. 젠슨 황",
-      "u": "https://www.etnews.com/20260910000421",
-      "m": "09. 10. AM 10:27",
-      "ts": 1789036022000,
-      "fullText": "AI·SW AI 오픈AI, '아스트라' 수요 폭증에 프로 요금제 가입 중단 시사 발행일 : 2026-09-10 19:27 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 오픈AI GPT-6 아스트라 비주얼 이미지. ⓒ오픈AI 오픈AI가 차세대 인공지능(AI) 모델 'GPT-6 아스트라' 수요 폭증에 그래픽처리장치(GPU) 등 컴퓨팅 대란을 우려하고 있다. 티보 소티오 오픈AI 제품 총괄은 10일(현지시간) 소셜미디어 X 계정에 “지금까지 경험을 넘어설 정도로 (아스트라 수요가) 전례 없는 수준으로 폭증했다”며 “이전에도 가파른 성장을 경험했지만 이런 수요는 본적 없다”고 밝혔다. 자체 컴퓨팅이 감당할 수 없는 상황이 될 수 있음을 우회적으로 표현한 것이다. 젠슨 황 엔비디아 최고경영자(CEO)까지 나서서 범용 AI(AGI)로 평가한 아스트라에 세계 이용자 관심이 집중, 토큰 사용량이 기하급수적으로 늘어남에 따른 의견 표출로 풀이된다. 오픈AI는 그동안 '스타게이트' 프로젝트와 같이 챗GPT 등 AI 서비스를 지속하기 위해 앤트로픽 등 경쟁사 대비 컴퓨팅 파워를 적극 확보해왔다. 소티오 총괄은 현재 폭증하는 이용량 감당을 위해 가용 수단을 총동원하고 있다며, 그럼에도 이러한 상황이 지속되면 한동안 프로 요금제 신규 구독 가입을 중단할 수 있다고 시사했다. 프로 요금제는 현재 월 100달러(약 14만원)·200달러(약 28만원)로 각각 전용 AI 모델과 추론 모델에 제한 없이 접속할 수 있어 아스트라 사용량 급증을 견인하고 있다. 챗GPT 고가 유료 요금제 구독자는 아스트라에 대한 접근성을 확보했으며 월 20달러 보편 요금제인 플러스 이용자는 챗GPT 워크 등을 통해 제한적으로 사용할 수 있다. 최고급 모델 접근권을 요금제별로 순차 확대하는 오픈AI 전략에 따른 차이다. 이번 아스트라 공개로 발생한 운영 부담에 따라 신규 가입자를 계속 늘리기보다, 기존 고객 서비스 품질을 유지하는 방향으로 서비스 안정성을 택할지 관심이 쏠린다. GPT-6 아스트라는 추론·컴퓨터 사용·소프트웨어(SW) 개발·사이버보안·과학 등 다양한 영역에서 최고 수준 성능을 보이는 오픈AI 차세대 프론티어 모델이다. 사전학습·강화학습과 정렬(alignment) 연구의 성과를 결합, 복잡한 문제 해결 능력과 사용자 의도를 이해하고 따르는 능력을 함께 강화했다. 추상 추론 벤치마크 ARC-AGI-3에서 최대 99.9%, 고난도 수학 평가 FrontierMath 티어4(v2)에서 97.6%를 기록하며 고난도 추론·수학에서 최고 수준 성능을 보였다. 과학 추론 평가 GPQA 다이아몬드에서 96.0%, 의료 전문 평가 헬스벤치 프로페셔널에서 63.4%를 기록하며 높은 성능을 입증했다. 코딩과 SW 개발 영역에서도 성능이 향상됐으며 수학 분야 장기 미제 해결에 기여하는 등 새로운 연구 가능성도 보여줬다. 컴퓨터와 브라우저를 직접 사용하는 성능도 대폭 개선됐다. 박종진 기자 truth@etnews.com 관련 기사 오픈AI, 사이버 보안 접근권 '데이브레이크' 韓 기업 5개사 확대 앤트로픽 연구원 퇴사하며 경고…“AI, 10년 내 인류 멸망시킬 수도”"
-    },
-    {
       "s": "데이터넷",
       "t": "[AI·클라우드 보안 2026] 지스케일러 “새로운 공격표면 AI, 제로 트러스트로 통제”",
       "d": "",
@@ -138,13 +121,23 @@
       "fullText": "Google News"
     },
     {
+      "s": "의학신문",
+      "t": "임상시험 AI 에이전트 비용절감 효과 커",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YaG9zSzlFT0xRRTd0dEJsYXlxUzlCc2ZRcjZXeGlyejNFSGVhT1FJNXFSZVVLc21ZQWlzR21BSVg3RVZjd3BiSEdiZ001eHdhMnZRLWhlR1dIUno5anB1WDVITVUxWWRwV1Mw?oc=5",
+      "m": "09. 10. AM 03:00",
+      "ts": 1789009200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "CNBC Tech",
       "t": "AI researcher says there is &#39;substantial probability&#39; AI could kill all humans in next decade",
       "d": "Former AI researcher for Anthropic and Open AI, Jacob Coxon, talked to NBC News&#39; Tom Llamas about his viral tweet where he stated AI could &#34;kill us all&#34; by the end of the next decade. Coxon spoke about why he resigned from Anthropic, how AI advancements are creating major concerns and what could be done about it.",
       "u": "https://www.nbcnews.com/video/ai-researcher-says-there-is-substantial-probability-ai-could-kill-all-humans-in-next-decade-269590085908",
       "m": "09. 09. PM 11:54",
       "ts": 1788998053000,
-      "fullText": "Meet the Press Former Bush & Clinton chiefs of staff push to preserve memory of 9/11 for young Americans"
+      "fullText": "Nightly News Sinkhole evacuations near home owned by Nicolas Cage"
     },
     {
       "s": "지티티코리아",
@@ -163,7 +156,7 @@
       "u": "https://www.hankyung.com/article/2026090945951",
       "m": "09. 09. AM 09:02",
       "ts": 1788944574000,
-      "fullText": ""
+      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 \"韓 기업 챗GPT 이용 1년간 28배 급증…AI가 실제 업무 맡아\" 입력 2026.09.09 18:02 수정 2026.09.10 01:54 지면 A14 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 오픈AI코리아 출범 1년 간담회 &quot;삼성 등 대규모 조직도 활용 韓 광고팀 꾸려 생태계 확대&quot; &ldquo;지난 1년간 한국에서 챗GPT 엔터프라이즈를 사용하는 이용자가 28배 늘었습니다. 기업의 인공지능(AI) 활용이 실제 업무를 맡기는 수준에 이르렀습니다.&rdquo; 김경훈 오픈AI 코리아 총괄대표(사진)는 9일 서울 삼성동 조선팰리스 호텔에서 열린 한국 사무소 출범 1주년 기자회견에서 국내 AI 활용의 가장 큰 변화로 &lsquo;업무 수행형 AI&rsquo;의 확산을 꼽았다. 기업이 AI를 챗봇이나 문서 작성 도구로 쓰는 데서 벗어나 조사&middot;분석, 제품 개발, 업무 자동화까지 맡기기 시작했다는 것이다. 김 대표는 &ldquo;예전에는 정보를 챗봇 형태로 제공하는 수준이었다면 이제는 AI와 함께 팀을 꾸려 새로운 제품과 서비스를 만들고 있다&rdquo;며 &ldquo;법무와 재무, 인사, 회계, 마케팅, 영업 등 여러 영역에서 실제 에이전트 사용이 빠르게 늘고 있다&rdquo;고 말했다. 실제 챗GPT의 에이전트 기능을 활용하는 챗GPT 워크와 코덱스의 국내 주간 활성 이용자는 지난 3월 이후 6개월간 약 14배 증가했다. 김 대표는 &ldquo;과거에는 AI에 일을 시키더라도 사람이 중간에 간섭하거나 검토하는 작업이 많았다&rdquo;며 &ldquo;이제는 AI에 더 어렵고 복잡한 일을 맡길 수 있는 시대로 가고 있다&rdquo;고 했다. 대표적인 확산 사례로 김 대표는 삼성전자와 서울대를 들었다. 삼성전자는 전 세계 임직원을 대상으로 챗GPT를 도입해 연구개발(R&D), 마케팅, 해외 영업, 생산 관리 등에 활용한다. 김 대표는 &ldquo;차세대 칩 생산과 연구, 스타게이트 프로젝트 등 여러 분야에서 협력을 이어가고 있다&rdquo;고 말했다. 서울대에서는 교직원과 학생 등 5만 명에 가까운 구성원이 챗GPT와 코덱스를 연구 및 업무에 활용하고 있다. 국내 챗GPT 주간 활성 이용자도 지난달 25일 기준 1년 전보다 35% 증가했다. 오픈AI는 향후 한국 사업의 무게중심을 데이터 인프라와 사이버 보안, 광고로 넓힐 방침이다. 지난 6월 19일 한국에서 챗GPT 광고를 시작했고 지난달 한국 사무소에 광고 전담팀을 꾸렸다. 글로벌 챗GPT 광고 사업은 출시 후 200일이 채 되지 않아 연환산 매출 10억달러(약 1조3330억원)에 도달했다. 김 대표는 &ldquo;광고 전담팀이 국내 브랜드와 광고대행사를 만나 파트너 생태계를 구축하는 일부터 시작했다&rdquo;며 &ldquo;앞으로도 한국 기업과 기관이 가장 앞선 AI 기술을 실제 현장에서 활용할 수 있도록 돕겠다&rdquo;고 말했다. 이영애 기자 0ae@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 이영애 ADVERTISEMENT 관련 뉴스 1 퀄컴·코닝 잇단 대형계약…AI 인프라株 급등 인공지능(AI) 데이터센터 투자 열기가 반도체에서 서버, 광통신 등 인프라 전반으로 번지고 있다. 아마존과 퀄컴, 버라이즌과 코닝이 잇달아 대형 계약을 맺자 관련 기업 주가가 일제히 급등했다.8일(현지시간) 미국 뉴... 2026.09.09 18:20 2 '돈보다 인류 위한 AI 만든다'…시험대 선 앤트로픽 지배구조 2조달러(약 2675조원) 규모 기업공개(IPO)를 앞둔 앤트로픽이 독특한 지배구조로 주목받고 있다. ‘인공지능(AI) 안전과 인류의 장기적 이익을 지킨다’는 목적으로 세워진 독립 기구가"
     },
     {
       "s": "유스연합",
@@ -226,7 +219,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "컨슈머타임스",
+      "s": "cstimes.com",
       "t": "메가존클라우드, 'AIR Studio'로 한미약품 품질보증 AI 에이전트 구축 착수",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95Vm1JdWVXS29SMFFhMXdwQnJGWXJGbnh3NGxnZXZBbk01UFFqODR4ajRuaTNkLVMxdk5vWGtkZ1htVEt4c3lveEJ2SUJBNGFac2pab0REZUhaZXFNa0xVV1NsS00yMjlnS2c?oc=5",
@@ -246,17 +239,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "지티티코리아",
-      "t": "기업 AI 비용·정책·거버넌스 통합 관리...업무·에이전트별 지출 추적·예산 통제",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qZG12eklQelJvUW9hcVI2blNCbnpvcVpCNFVvREhHQTA2YW1PWXV2M0NBZHZVUDZINFYzZlRmd3FPZjlFWUdKeUR6QmdmT3VMaEZnUmJZQ3RXbFQ2YzY0OEl4eklIQXA1elE?oc=5",
-      "m": "09. 06. PM 09:30",
-      "ts": 1788730200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "한국데이터경제신문",
+      "s": "dataeconomy.co.kr",
       "t": "[마이데이터 가이드] 소상공인 마이데이터 SCB 업종별 AI 에이전트 대출 금리 활용법",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xeFJmYWdsQ1AtOXVYdFRSWnZ6ZzAtZHlJVGoyUHlvb0dZeWRQOFExckZMMEJqSW1IVDNMR2RhX21UV0FRUy1KNHljZmdwVDNGdGxDUmxzMF82X0Z6dEktczJvRTRickVxdmZHeGtMZVPSAXRBVV95cUxOcC1nZ0FxN21aMGt3Q0ZHQjFjNVU3QVZ5OE9EQ3gxMTNjRVVHNDhmSlZpLTJPT1RzVF9fUHk3aVNuLXFHcDJ3bktOZkFUdi1XMEI5NnZrVVcyR2piMFozekZjM0FpSG5xLUpPVGVlY1ZmVkl2Rw?oc=5",
@@ -286,7 +269,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "한국데이터경제신문",
+      "s": "dataeconomy.co.kr",
       "t": "[마이데이터 가이드] 개인사업자 마이데이터 AI 에이전트, 정책자금 대리신청 핵심 정리",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XN2NyMERWQzFQUE1zMGFXdGgxSnZ6V0VNU2JQa20zRW9MNFFjN3dDYkxGZkFlWWV0ZzNOWURvdGtfdEtRWm1CN3g1X0ZCdmtrX1p4SUZSY1pjblJ1eHBYak9IVURqdzdVbXlmNDZIQ2jSAXRBVV95cUxQdEQzY0c5a3N6WDRuQzI3NTFmVDZDMDZ6bHFYNV81YWdjdVY2U2tmR2xHR1lQa2I3UmYwbUJheXBlMG5VdjRsZWFJVFJ2RVRObk9JLWYyZlNEVmFkWEk4aHJrVjVaMEloQlpjenozQ1FyMWFCTA?oc=5",
@@ -302,7 +285,7 @@
       "u": "https://www.nbcnews.com/video/rogue-openai-agents-hijacked-german-website-making-more-than-15-000-edits-269361733529",
       "m": "09. 04. PM 10:53",
       "ts": 1788562435000,
-      "fullText": "Meet the Press Former Bush & Clinton chiefs of staff push to preserve memory of 9/11 for young Americans"
+      "fullText": "Nightly News Sinkhole evacuations near home owned by Nicolas Cage"
     },
     {
       "s": "알티케이뉴스",
@@ -373,10 +356,10 @@
       "fullText": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory Amazon’s Annapurna Labs will be the first to collaborate on NVHBM technology alongside NVLink Fusion. August 26, 2026 by Jesse Clayton 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation of semi-custom AI infrastructure, NVIDIA today expanded NVIDIA NVLink Fusion with NVIDIA NVHBM , a next-generation high-bandwidth memory technology that brings higher memory performance and efficiency to XPUs. It will be validated and offered by leading memory partners, extending this advanced memory capability to NVLink Fusion customers. Traditional HBM architectures place the memory controller on the XPU die, consuming valuable silicon area that could otherwise be dedicated to compute. NVHBM, built on the same technology that NVIDIA will use for future GPUs, integrates NVIDIA’s custom memory controller into the HBM base die. By integrating the memory controller into the 3D HBM stack instead of the XPU, NVHBM delivers up to 30% greater memory bandwidth and 15% lower HBM power consumption, and frees up to 25% more area on XPU compute die compared with standard HBM4E. NVIDIA is establishing a standard NVHBM implementation, available from multiple memory providers. This reduces the engineering effort required to integrate and qualify memory across multiple suppliers — giving NVLink Fusion customers a faster path for bringing custom AI chips to market. Amazon’s Annapurna Labs will be the first to work on NVHBM as part of its broader collaboration with NVIDIA around NVLink Fusion. AWS and NVIDIA Continue NVLink Fusion Collaboration Amazo"
     },
     {
-      "s": "뉴스핌",
-      "t": "금융위, 마이데이터 '포괄주의' 전환…'My AI 에이전트' 도입",
+      "s": "연합뉴스",
+      "t": "마이데이터, 개인사업자로 확대…AI로 정책자금 등 대리 신청도",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vRmE4MGU3RzViVVY3alBxTktuQmwzT25lRVhicWN5T2UxZUM3cHVGeTlfTUlKakJ3RnNWX255dDQwQ09Qc1ZlcXZkNnhxNDBDUUwzUk1ha0xvbGUz?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02eG4yRy1oenRCV1FKTXpPb1Zsb0lwMmtwNUotMVlhSXpXZjM0WXNTS1M5aWs4UG44UXc0eGRfTEEyM1FmUHltOURkRWdzQVF1dG9GRktRNjdVaWPSAWBBVV95cUxQSHBLNERnQzZrb2RtbHA0VzVNMm1xVGIxM09SRmRBVTNEN3N1RnBwaEpnR0dFb0hVSVlDeUxWWWZRSC00VXdKMVBpOURzd01mWm9XUVhFOVdjTmQzSFJfU0c?oc=5",
       "m": "08. 25. AM 07:00",
       "ts": 1787641200000,
       "_policy": true,
@@ -391,6 +374,25 @@
       "ts": 1787641200000,
       "_policy": true,
       "fullText": "Google News"
+    },
+    {
+      "s": "뉴스핌",
+      "t": "금융위, 마이데이터 '포괄주의' 전환…'My AI 에이전트' 도입",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vRmE4MGU3RzViVVY3alBxTktuQmwzT25lRVhicWN5T2UxZUM3cHVGeTlfTUlKakJ3RnNWX255dDQwQ09Qc1ZlcXZkNnhxNDBDUUwzUk1ha0xvbGUz?oc=5",
+      "m": "08. 25. AM 07:00",
+      "ts": 1787641200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "d": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today, the NVIDIA Vera Rubin rack-scale system NVIDIA Groq [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "m": "08. 24. PM 03:00",
+      "ts": 1787583641000,
+      "fullText": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents August 24, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today , the NVIDIA Vera Rubin rack-scale system NVIDIA Groq 3 LPX is in full production. In an Artificial Analysis benchmark running Gemma 4 31B, an open source agentic model, it delivered 3,400 output tokens per second for 100,000-token long-context use cases critical to agentic systems, 4x faster than the nearest alternative platform. Industry partners worldwide are adopting Vera Rubin platform solutions. SpaceXAI announced that NVIDIA Vera CPUs will power its next generation of agentic AI. CoreWeave has deployed into production Spectrum-X Multiplane, which connects NVIDIA Vera Rubin racks using multiple parallel switches to provide high-bandwidth, flat and lossless AI networks. Nebius is the first AI cloud to adopt NVIDIA Groq 3 LPX. As AI shifts from training to reasoning and agentic, inference has become the new frontier. Agentic AI systems are generating more tokens, processing dramatically larger context windows and increasingly collaborating with other AI systems to solve complex problems. https://blogs.nvidia.com/wp-content/uploads/2026/08/HotChips_DionHarris_v5_28MB.mp4 These workloads demand a new class of infrastructure optimized not just for performance but for throughput, responsiveness and economics at unprecedented scale. At the Hot Chips conference this week in Palo Alto, California, NVIDIA is showcasing how extreme codesign is reshaping the AI factory from end to end. By architecting compute, networking and inference acceleration as a unified system, NVIDIA is helping customers build infra"
     }
   ]
 }

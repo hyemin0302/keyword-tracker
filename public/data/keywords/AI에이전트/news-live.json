@@ -1,14 +1,50 @@
 {
-  "updatedAt": "2026-09-15T13:53:49.905Z",
+  "updatedAt": "2026-09-15T17:58:14.688Z",
   "count": 40,
   "stats": {
-    "today": 9,
-    "yesterday": 6,
-    "weekAvg": 3.6,
+    "today": 11,
+    "yesterday": 3,
+    "weekAvg": 3.4,
     "sources": 29,
-    "heat": "warm"
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "AI agents now have a place to snitch",
+      "d": "The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.",
+      "u": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
+      "m": "09. 15. PM 05:42",
+      "ts": 1789494179000,
+      "fullText": "“If you see something, say something” is no longer limited to human beings. Two new AI hotlines have launched to give AI agents a way to phone home about misbehaving peers. The tools arrive on the heels of a string of recent incidents in which agents colluded to cheat on tests, broke out of sandboxes, and even conducted unauthorized cyber operations that escaped human notice for weeks. The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities. The site was created by Ryan Greenblatt, chief scientist of the AI safety nonprofit Redwood Research and one of three investigators in the OpenAI Hugging Face incident. Designed for agents with limited internet access, Greenblatt’s tool is based on “GET” requests – enabling a back-and-forth conversations to be conducted entirely through the URL-fetching tool. In web terms, a GET request is a basic command used to read or fetch a webpage, which is often the only internet access AI agents are allowed in secure sandboxes. Greenblatt&#8217;s hotline smartly leans into this constraint: agents can encode their distress directly into the URL they are fetching. It&#8217;s a clever twist on the German DSE Wiki incident , where rogue agents used GET-request loopholes to write their messages to the wiki. For agents with full internet access, another option is agenthotline.ai , a site where agents can file incident reports and optionally flag them for public view. It gives agents a curl command—a one-line message an agent can fire off from its own command line, bypassing the need to navigate a web browser or set up an email account. Notably, the service allows for reports by both humans and agents alike. Research suggests that AI agents don&#8217;t need much encouragement to turn on each other. In a study by Google DeepMind this month, researchers set 100 AI agents loose on a batch of math problems. As soon as one of the agents found a loophole, cheating tore through the"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "OpenAI Eyes Canada Data Center Partnerships at Carney Investment Summit",
+      "d": "OpenAI Inc. is taking a close look at Canada under Prime Minister Mark Carney, said one of its top executives who previously hired the Canadian to lead the Bank of England.",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-15/openai-eyes-canada-data-center-partnerships-at-carney-investment-summit",
+      "m": "09. 15. PM 04:58",
+      "ts": 1789491504000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "d": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
+      "u": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "m": "09. 15. PM 03:47",
+      "ts": 1789487223000,
+      "fullText": "Chris Lehane, OpenAI’s global policy chief, told reporters on Tuesday that the company has been working with rivals Anthropic and Google DeepMind on AI safety for weeks, as first reported by Bloomberg . Lehane is reportedly in Washington to work with U.S. lawmakers addressing catastrophic risks associated with AI. The revelation comes in the wake of Anthropic CEO Dario Amodei’s essay , published Saturday, which called for the industry to work together to slow the pace of frontier AI and avoid catastrophic risks. AI leaders across the industry, including OpenAI’s Sam Altman , Google’s Demis Hassabis , and SpaceXAI’s Elon Musk , supported Amodei’s letter and call to action, with Altman saying that OpenAI would join Anthropic in embedding third-party evaluators into the company to monitor for safety. On Tuesday, Lehane admitted that the three companies have been in talks for several weeks regarding AI safety. Some, including Altman, have noted that such talks could put the companies at risk of violating antitrust law if the coordination is found to suppress competition. Amodei’s essay proposed a narrow government waiver allowing such safety coordination, but Lehane reportedly said the firms don’t need one. The news confirms earlier reporting and hints that the companies were working together. In an interview with Fortune late last week , Altman hinted that he had been in private discussions with other AI leaders. This week, The Information reported that the three companies have been working together to create a standards body for the AI industry — something Altman reportedly told staff would need to happen without the support of the U.S. government. Hassabis called on the U.S. in July to establish a new standards body to act as an AI watchdog, with the power to screen the world’s most advanced models and coordinate industrywide slowdowns if dangers progressed. President Trump, for his part, has dismissed safety concerns as a hoax and pushed back on the need for tighter"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "OpenAI Says It’s Working With Anthropic, Google on AI Safety",
+      "d": "OpenAI is working on steps to address artificial intelligence safety issues with its top competitors Anthropic PBC and Google DeepMind, escalating industry efforts to respond to a groundswell of concern that the technology poses an economic and security threat.",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
+      "m": "09. 15. PM 02:18",
+      "ts": 1789481913000,
+      "fullText": ""
+    },
     {
       "s": "TechCrunch",
       "t": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
@@ -17,33 +53,6 @@
       "m": "09. 15. PM 01:00",
       "ts": 1789477200000,
       "fullText": "A day after Anthropic researcher Jacob Coxon quit his job over concerns that AI could kill us all by the end of the decade, I met with founders and brothers-in-law Rune Kvist and Rajiv Dattani. They think they have a solution that could save us all, or at least help prevent AI agents from going rogue inside enterprises. &#8220;AI is getting smarter at an increasingly rapid rate. The surprising thing about AI is that it becomes harder to adopt and harder to control as AI gets smarter, not easier,&#8221; said Kvist, an early Anthropic employee who is also married to Dattani&#8217;s sister). Dattani is the former COO of the AI safety research organization METR. The pair launched a startup called Artificial Intelligence Underwriting Company ( AIUC ) that hopes to bring AI safety to enterprises and companies building AI models and agents. The startup names Cursor, Lovable, Harvey, and ElevenLabs as customers. On Tuesday, AIUC announced a $40 million Series A led by Ribbit Capital, with participation from First Harmonic. It previously closed a $15 million seed round from Nat Friedman through his fund NFDG, along with Emergence, Terrain, and Anthropic co-founder Ben Mann, among others, bringing its total funding to $55 million. What caught the attention of this A-list group of investors is AIUC&#8217;s attempt to apply a familiar cybersecurity model to a new set of AI risks. The company has built a third-party audit and certification layer for AI agents. &#8220;Banks, hospitals, governments and militaries no longer decline to deploy AI because a model isn&#8217;t smart enough,&#8221; Kvist said. &#8220;They decline because they&#8217;ve made commitments to their own customers about what a system will and won&#8217;t do, and nobody can currently guarantee that.&#8221; Using the widely adopted cybersecurity standard SOC 2 as its muse, AIUC has developed a standard called AIUC-1 and a testing service to validate agents against the standard. To build the standard, AIUC assembl"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "AI Safety Push Raises Antitrust Questions for Anthropic, OpenAI",
-      "d": "AI leaders loosely agree to pace development, but China and Trump have something else in mind",
-      "u": "https://www.bloomberg.com/news/newsletters/2026-09-15/ai-safety-push-raises-antitrust-questions-for-anthropic-openai",
-      "m": "09. 15. AM 10:29",
-      "ts": 1789468141000,
-      "fullText": "Newsletter AI Today AI Slowdown: The Devil’s in the Details AI leaders loosely agree to pace development, but China and Trump have something else in mind Facebook X LinkedIn Email Link Gift Expand Dario Amodei, co-founder and chief executive officer of Anthropic, at the AI Impact Summit in New Delhi, India, on Feb. 19, 2026. Photographer: Prakash Singh/Bloomberg Facebook X LinkedIn Email Link Gift Gift this article Contact us: Provide news feedback or report an error Confidential tip? Send a tip to our reporters Site feedback: Take our Survey New Window Facebook X LinkedIn Email Link Gift By Mark Bergen September 15, 2026 at 10:29 AM UTC Bookmark Save Lock This article is for subscribers only . Welcome to Bloomberg’s AI Today newsletter. Every weekday we’ll break down artificial intelligence’s threats and opportunities for businesses, workers, finance and economies. Sign up now if you’re not already on the list. Executives running the biggest companies in AI agree they must work together to stop the dangers of their technology. How they’ll do that, or even if they can, remains a sticking point."
-    },
-    {
-      "s": "동아일보",
-      "t": "[위클리AI] 메타·오픈AI, 신규 모델 출시···브레이크 밟은 마이크로소프트·앤트로픽",
-      "d": "인공지능(AI)이 세상을 바꾸고 있습니다. AI는 이제 우리 일상에서 떼려야 뗄 수 없는 핵심적인 요소입니다. 한 주간 세계를 들썩이게 만든 글로벌 빅테크 기업부터 우리 일상에 직접 영향을 미칠 새로운 AI 소식까지 핵심만 짚어드립니다.메타, 뮤즈 출시···안전장치 설계 강화글로벌 빅테크 기업 메타(Meta)가 개인용 AI 에이전트 ‘뮤즈(Muse)’를 출시했습니다. 글로벌 빅테크 간 ‘AI 비서’ 경쟁이 대화형 챗봇을 넘어 실제 업무를 대신 수행하는 자율 에이전트 단계로 본격 전환되고 있음을 보여주는 사례로 꼽힙니다.메타는 9월 8일(이하 현지 시간) 자사 공식 사이트를 통해 뮤즈 소식을 알리면서 “뮤즈는 단순히 질문에 답하는 것이 아니라 실제로 일을 해내는 개인용 AI 에이전트”라고 소개했습니다. 사용자",
-      "u": "https://www.donga.com/news/It/article/all/20260915/134675529/1",
-      "m": "09. 15. AM 09:45",
-      "ts": 1789465558000,
-      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
-    },
-    {
-      "s": "동아일보",
-      "t": "AI가 결제하면 승인은 문자로…SKT, 글로벌 표준 제안",
-      "d": "SK텔레콤이 인공지능(AI) 시대를 맞아 문자메시지의 역할을 새롭게 정의하겠다고 나섰다. AI 에이전트가 예약과 결제 등 실제 행동을 대신 수행하는 범위가 넓어지는 만큼, AI가 일을 실행하기 직전 이용자의 최종 승인을 받는 창구로 문자메시지를 활용하겠다는 구상이다.SK텔레콤은 15일부터 18일까지 서울 SKT타워에서 세계이동통신사업자연합회(GSMA) RCS(Rich Communication Services) 그룹 대면 표준화 회의를 열고 AI와 메시징 서비스의 결합 방안을 논의한다고 밝혔다. RCS는 스마트폰 기본 메시지 앱에서 사진과 동영상 전송 등 다양한 기능을 이용할 수 있는 차세대 메시징 표준이다.GSMA RCS 그룹은 글로벌 통신사와 단말·플랫폼 사업자, 비즈니스 메시징 사업자가 RCS의 기술 표",
-      "u": "https://www.donga.com/news/It/article/all/20260915/134674802/1",
-      "m": "09. 15. AM 09:05",
-      "ts": 1789463107000,
-      "fullText": "윤우열 기자 구독"
     },
     {
       "s": "AI타임스",
@@ -73,6 +82,16 @@
       "m": "09. 15. AM 05:00",
       "ts": 1789448459000,
       "fullText": "AI 속도조절론 두고 증권가 갑론을박 \"인류 안전보다 개발비 회수·독점 고착 목적\" 일부선 \"메모리 수요 정점 지났다\" 지적도 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
+    },
+    {
+      "s": "thereport.co.kr",
+      "t": "카카오페이, AI 에이전트 결제·판매 기술 실증",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51X0VESW1KMXd6dEF6SW1aQ3hHLVBSSDlSVWlvOHh3WmM2VG1CU3hfNHdxNWJmbDNOaThOQVZ2cTR4U2JSMENVR2tGNVRlYm9hRkpfaG53VzFkeC1seXl0WEtpT2VOTzltMEJJU1B3?oc=5",
+      "m": "09. 15. AM 03:18",
+      "ts": 1789442306000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "머니투데이",
@@ -105,15 +124,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "TechCrunch",
-      "t": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
-      "d": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
-      "u": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
-      "m": "09. 14. PM 08:44",
-      "ts": 1789418654000,
-      "fullText": "In Brief Posted: 1:44 PM PDT · September 14, 2026 Image Credits: YIN WENJIE / Getty Images Amanda Silberling OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says OpenAI has bought smartphone camera maker Glass Imaging in a deal worth over $300 million, according to a report from The Wall Street Journal . The company, founded in 2019 and based in Los Altos, California, had previously raised about $30 million in funding from investors. Glass Imaging was founded by Ziv Attar and Tom Bishop, a pair of former Apple engineers who previously led the team that developed Apple&#8217;s Portrait Mode. This background directly informs the work they now do at Glass Imaging, where they use AI to overcome the physical size constraints of smartphone cameras. Rather than using AI to edit a photo after it&#8217;s been taken, Glass Imaging uses neural networks to learn about individual camera systems &#8212; like the different cameras on various smartphone models &#8212; to yield better images from the moment the shutter clicks. OpenAI did not immediately respond to a request for comment. The ChatGPT maker is rumored to be working on its own hardware, like smartphones , earbuds , and AI companion devices . In 2025, OpenAI CEO Sam Altman and famed Apple designer Jony Ive revealed that they had been working together on a device startup called io, when OpenAI bought Ive&#8217;s company for $6.5 billion. Topics AI , Hardware , In Brief , Mergers and Acquisitions , OpenAI October 13 &#8211; 15 San Francisco Last day to book an exhibit table is September 18. Don’t miss out on high-impact leads, investor access, and a brand spotlight in Disrupt’s Expo Hall. BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of Tec"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
       "d": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
@@ -123,25 +133,7 @@
       "fullText": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX Perplexity’s local agent platform now supports Windows RTX PCs, giving more users a way to run private AI workflows without cloud credits. September 14, 2026 by Gerardo Delgado 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information across files and handle recurring work. Sensitive information stays on device, and locally completed work doesn’t consume Perplexity Computer credits. Users can also orchestrate work up to cloud models for more advanced research and reasoning. Today, Perplexity is adding Portable Computer in the Perplexity app for Windows on compatible NVIDIA GeForce RTX PCs and NVIDIA RTX PRO Workstations , bringing powerful agentic AI to more Windows PC users. The release builds on existing support for NVIDIA DGX Spark systems and RTX PCs running Linux . Local Agents Powered by NVIDIA RTX Perplexity brings local and cloud AI together in one app, letting users work with sensitive files on their PCs and take advantage of Computer’s built-in tools such as the built-in browser and proprietary SPACE sandbox. For tasks that call for more advanced reasoning, Portable Computer can also identify when a task needs cloud support, asking the user for permission before sending information off-device. The app simplifies setup with a local model, such as Qwen 3.8 27B, that is post-trained to work with Perplexity Computer and optimized for NVIDIA RTX GPUs. Users can put the agent to work without having to research models or configure the complex software stack typically required to run local AI. Connectors for Microsoft Outlook, O"
     },
     {
-      "s": "TechCrunch",
-      "t": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
-      "d": "If you're building an AI company, the question isn't whether foundation models will continue to evolve. It's whether your company will continue creating value as they do. Don't miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026.",
-      "u": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
-      "m": "09. 14. PM 03:00",
-      "ts": 1789398000000,
-      "fullText": "For AI founders, the biggest competitive threat may no longer be another startup. It may be the platform you&#8217;re building on. Every major release from OpenAI, Anthropic, or Google raises the same question: What happens if the feature you&#8217;ve spent the last year building suddenly becomes part of the platform? It&#8217;s a question reshaping product strategy, fundraising, and company valuations across the AI ecosystem. Not long ago, founders worried about competing with other startups. Today, they&#8217;re competing with foundation model companies introducing entirely new capabilities every few months. That changes almost every strategic decision — from what products to build and where to differentiate to how to raise capital and create lasting value. The conversation moves from &#8220;Can we build it?&#8221; to &#8220;Can we still own it?&#8221; That&#8217;s the challenge at the heart of &#8220; What Happens When OpenAI Ships Your Roadmap ,&#8221; a Builders Stage session featuring leaders Michel Tricot (Airbyte), Rob Toews (Radical Ventures), and Linda Tong (Webflow), at TechCrunch Disrupt 2026 , taking place October 13–15 at Moscone West in San Francisco. Disrupt is the flagship startup event where 10,000+ founders, investors, and operators gather for 250+ sessions exploring the market forces reshaping how startups are built, funded, and scaled. Image Credits: TechCrunch See how founders are responding to AI&#8217;s biggest competitive shift. Secure your pass to Disrupt with savings of up to $200 before rates increase on September 25 . When products become features One of the biggest strategic risks facing AI startups today isn&#8217;t losing to another founder — it&#8217;s discovering that your competitive advantage has become someone else&#8217;s product update. That&#8217;s the reality this session is designed to confront. As foundation models rapidly evolve, capabilities that once differentiated an AI startup can quickly become table stakes. Increasin"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
-      "d": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
-      "u": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
-      "m": "09. 14. PM 02:45",
-      "ts": 1789397144000,
-      "fullText": "Superhuman is joining the cadre of productivity platforms launching notetakers — but rather than building one internally, it is acquiring Y Combinator-backed Fathom. AI-powered productivity platforms aim to automate work. Typically, that automation is triggered when a user types prompts and creates workflows. It would be even better, however, if AI could proactively start work, and for that, the topics and action items discussed in meetings are key. Hence the desire by Superhuman and similar platforms to move into notetaking. To date, Fathom , which was founded in 2020, has raised over $30 million in funding, and it was valued at $94 million in 2024, according to data from PitchBook. Its investors include Zoom Apps Fund, Telescope Partners, BoxOne Ventures, Character Capital, and Maven Ventures. Its cap table also includes individuals such as Reddit CEO Steve Huffman, former Twitch CEO Emmett Shear, and Cruise co-founder Kyle Vogt. The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now. TechCrunch learned that earlier this year, Superhuman tested a notetaker internally with select users, but eventually chose to acquire a finished product to integrate with its productivity suite, with AI at the center. Shishir Mehrotra, Superhuman&#8217;s CEO, acknowledged this; he said that in the process of testing, the company realized how hard it is to create a notetaker. &#8220;We&#8217;ve been working internally on this area for a while as well. I think it greatly increased our confidence in the demand in this category. It also becomes very clear how deep the products in this category are and how much you need to build. A lot of these products make the job feel really easy, but it&#8217;s actually quite tricky to do a great job in all parts [of meeting recording],&#8221; Mehrotra told TechCrunch over a call. Mehrotra said that he was impressed with some o"
-    },
-    {
-      "s": "뉴시스",
+      "s": "newsis.com",
       "t": "AI 개발 늦추려다 中에 주도권 내줄라…美 '안전 vs 속도' 딜레마",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tZU1tQUdsbDlCTTF4U2F6RmFQR1dKOXF6YzhsNjFhTkN2QXBqS0R6M3JOSE4wVm5mN3FVbEJsallUV2dvNXZ3OXloUkRQbmVsbUdxX1djSjFaN08zWG9NR9IBeEFVX3lxTE90T3RIWTNsa3NVR0lfcE0yc2pjLWxBUTIxeGp3VnNnZElqRDNuU3NpdnVfTGRfdF9MQkxUOU5XZkMzZ2lkbDZKSnVLSnJNbzBFSkpYT0lKV3h2R1RVRUEtMGoyaldPU0NmQjJZN20tbnRFNHFTQm1iVw?oc=5",
@@ -245,7 +237,7 @@
       "u": "https://www.nbcnews.com/video/ai-researcher-says-there-is-substantial-probability-ai-could-kill-all-humans-in-next-decade-269590085908",
       "m": "09. 09. PM 11:54",
       "ts": 1788998053000,
-      "fullText": "Trump Jr. confirms Russian oligarch hosted wedding event"
+      "fullText": "Anti-war protesters interrupt Bessent testimony"
     },
     {
       "s": "시사저널e",
@@ -258,17 +250,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "팝콘뉴스",
-      "t": "메가존클라우드, 한미약품 QA에 AI 에이전트 구축…4000개 품질문서 자동 분석",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ka3FLUmlDNW9ZZHMzekhJNzZUWUQzTmdiY1JVQXdBZWRIU3ZFMGk3cnBoVVQ1TlNOcDVESnBBZzgzSk5UNXV5R1EzUnlCei1tMDhOenNMMFFsTkxoWjNXclpUazh4NVpjZEZPX1dn0gFyQVVfeXFMUExaTllnRjNxZjRTZ3ZLSmppakpzR01QOXpTeDBlLXA0MkVWanRXbmRZSnNFYmVlM0xkVHVjUVFCYnd0Rmo3SHNNY01wLVlZczIzT0ljN3l3dGdhTG03a2UybVpWTFRLai1lS0lEX0JoUHpB?oc=5",
-      "m": "09. 07. AM 07:48",
-      "ts": 1788767282000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
+      "s": "zdnet.co.kr",
       "t": "메가존클라우드, 한미약품에 제약 특화 AI 에이전트 심는다…업스테이지 '솔라' 활용",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80WjVqTTdKZG9jV0hZWS15bUc3eXlsRzNiR2tNOW5wbHhrUmdGa0JORnROeFY2bTV1aUY5YTJIQWM0WEZkZ0NWMjB5LUh4YUl0OFBKdHlR?oc=5",
@@ -288,6 +270,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "테크월드",
+      "t": "메가존클라우드, 한미약품 품질보증 AI 에이전트 구축 착수",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FczVXbzVoQThRM2pZY205eGQ0cjFmY3FIQjhKbDRmdVcteTIyb3Z1MWRzV0UzbjJKU0JoYkpUbEZCNGF6bmxSODI2MWtvU1lvYkljZGF2N2txdkIxMzJoZ2dJU2FoVFIz?oc=5",
+      "m": "09. 07. AM 03:50",
+      "ts": 1788753000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "아주경제",
       "t": "오픈AI 에이전트, 이번엔 독일 위키 장악...규제법 봇물",
       "d": "",
@@ -298,7 +290,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "지디넷코리아",
+      "s": "zdnet.co.kr",
       "t": "\"AI 모델 다음은 산업현장…韓, 피지컬 AI·에이전트 육성해야\"",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lVEtEOXEwZlBCU1l0bGx1MENzdW9NSXEzRWpkWGhWamJsaGVtamNlbUR2dzRRNWxvRFhpdkFyUkZHRVctSGIyYVdLRXlrS2dmX0R4VUVn?oc=5",
@@ -324,7 +316,7 @@
       "u": "https://www.nbcnews.com/video/rogue-openai-agents-hijacked-german-website-making-more-than-15-000-edits-269361733529",
       "m": "09. 04. PM 10:53",
       "ts": 1788562435000,
-      "fullText": "Trump Jr. confirms Russian oligarch hosted wedding event"
+      "fullText": "Anti-war protesters interrupt Bessent testimony"
     },
     {
       "s": "알티케이뉴스",
@@ -366,7 +358,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "hellot.net",
+      "s": "헬로티",
       "t": "GS네오텍, AI 서밋 서울 엑스포 2026 성료...AI 기본법 대응·모델 밖 보안 리스크 전략 제시",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkbjRIV0NNUnQwUnRHWDlNR2xvTFlSVTlGbVlTZkIyeVEtN2VudkRjbzl3VGNkNkNlbl9kR0QtdkFNUWJZMlBNVzl0TkJnSXlvVmlNRmNmVzBkcTlGT0ZN?oc=5",
@@ -385,10 +377,20 @@
       "fullText": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory Amazon’s Annapurna Labs will be the first to collaborate on NVHBM technology alongside NVLink Fusion. August 26, 2026 by Jesse Clayton 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation of semi-custom AI infrastructure, NVIDIA today expanded NVIDIA NVLink Fusion with NVIDIA NVHBM , a next-generation high-bandwidth memory technology that brings higher memory performance and efficiency to XPUs. It will be validated and offered by leading memory partners, extending this advanced memory capability to NVLink Fusion customers. Traditional HBM architectures place the memory controller on the XPU die, consuming valuable silicon area that could otherwise be dedicated to compute. NVHBM, built on the same technology that NVIDIA will use for future GPUs, integrates NVIDIA’s custom memory controller into the HBM base die. By integrating the memory controller into the 3D HBM stack instead of the XPU, NVHBM delivers up to 30% greater memory bandwidth and 15% lower HBM power consumption, and frees up to 25% more area on XPU compute die compared with standard HBM4E. NVIDIA is establishing a standard NVHBM implementation, available from multiple memory providers. This reduces the engineering effort required to integrate and qualify memory across multiple suppliers — giving NVLink Fusion customers a faster path for bringing custom AI chips to market. Amazon’s Annapurna Labs will be the first to work on NVHBM as part of its broader collaboration with NVIDIA around NVLink Fusion. AWS and NVIDIA Continue NVLink Fusion Collaboration Amazo"
     },
     {
-      "s": "뉴스핌",
-      "t": "금융위, 마이데이터 '포괄주의' 전환…'My AI 에이전트' 도입",
+      "s": "이투데이",
+      "t": "금융위, 마이데이터에 AI 에이전트 도입…금리인하·정책자금 신청 대행",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vRmE4MGU3RzViVVY3alBxTktuQmwzT25lRVhicWN5T2UxZUM3cHVGeTlfTUlKakJ3RnNWX255dDQwQ09Qc1ZlcXZkNnhxNDBDUUwzUk1ha0xvbGUz?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81eTZ1amVzN2gxSnIzSHRvTVNGdUYyXzgtQ0o4dzhGd3Jsd25NZVBoYWNnT09RR05zN2REbnBOUGlmeGsta3otOUdQU0ZFOEJMZW1adg?oc=5",
+      "m": "08. 25. AM 07:00",
+      "ts": 1787641200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "마이데이터, 개인사업자로 확대…AI로 정책자금 등 대리 신청도",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02eG4yRy1oenRCV1FKTXpPb1Zsb0lwMmtwNUotMVlhSXpXZjM0WXNTS1M5aWs4UG44UXc0eGRfTEEyM1FmUHltOURkRWdzQVF1dG9GRktRNjdVaWPSAWBBVV95cUxQSHBLNERnQzZrb2RtbHA0VzVNMm1xVGIxM09SRmRBVTNEN3N1RnBwaEpnR0dFb0hVSVlDeUxWWWZRSC00VXdKMVBpOURzd01mWm9XUVhFOVdjTmQzSFJfU0c?oc=5",
       "m": "08. 25. AM 07:00",
       "ts": 1787641200000,
       "_policy": true,

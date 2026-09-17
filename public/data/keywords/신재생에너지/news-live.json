@@ -1,14 +1,41 @@
 {
-  "updatedAt": "2026-09-17T20:32:15.513Z",
+  "updatedAt": "2026-09-17T23:03:55.091Z",
   "count": 40,
   "stats": {
-    "today": 7,
+    "today": 8,
     "yesterday": 2,
-    "weekAvg": 2,
+    "weekAvg": 2.1,
     "sources": 20,
     "heat": "warm"
   },
   "items": [
+    {
+      "s": "Bloomberg Tech",
+      "t": "LuxExperience CEO on Luxury Retail Customer Resiliency",
+      "d": "Michael Kliger, CEO of LuxExperience, said the luxury market is becoming increasingly polarized, with affluent customers continuing to spend heavily while middle-class shoppers pull back under inflationary pressure. He said the company is less concerned about total active customers, which are around 900,000, than about growing the small group of top customers that generate a disproportionate share",
+      "u": "https://www.bloomberg.com/news/videos/2026-09-17/luxexperience-ceo-on-luxury-retail-customer-resiliency-video",
+      "m": "09. 17. PM 09:27",
+      "ts": 1789680461000,
+      "fullText": ""
+    },
+    {
+      "s": "전자신문",
+      "t": "개 샤워시키는 드론?…물 뿜는 '거대 드론'의 정체",
+      "d": "대형 드론이 개에게 강한 물줄기를 뿌리는 모습이 담긴 영상이 화제가 되고 있습니다. 영상 속 대형 드론은 개를 향해 강한 물줄기를 뿌리며 마치 샤워를 시켜주는 듯한 모습을 보였습니다.  이 드론은 개를 씻기기 위해 만든 장비가 아니라 중국의 한 드론 업체가 태양광 패널을 청소하기 위해 개발한 세척용 드론입니다. 업체는 단순히 태양광 패널을 세척하는 모습을 보여주는 대신 개에게 물을 뿌리는 이색적인 방식으로 드론의 분사 성능을 홍보한 것으로 전해",
+      "u": "https://www.etnews.com/20260917000259",
+      "m": "09. 17. PM 09:00",
+      "ts": 1789678800000,
+      "fullText": "국제 개 샤워시키는 드론?…물 뿜는 '거대 드론'의 정체 발행일 : 2026-09-18 06:00 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 출처=샤오홍슈(27282799409) 개 샤워시키는 드론?…물 뿜는 ‘거대 드론’의 정체 대형 드론이 개에게 강한 물줄기를 뿌리는 모습이 담긴 영상이 화제가 되고 있습니다. 영상 속 대형 드론은 개를 향해 강한 물줄기를 뿌리며 마치 샤워를 시켜주는 듯한 모습을 보였습니다. 이 드론은 개를 씻기기 위해 만든 장비가 아니라 중국의 한 드론 업체가 태양광 패널을 청소하기 위해 개발한 세척용 드론입니다. 업체는 단순히 태양광 패널을 세척하는 모습을 보여주는 대신 개에게 물을 뿌리는 이색적인 방식으로 드론의 분사 성능을 홍보한 것으로 전해졌습니다. 현지 누리꾼들은 “성능이 직관적으로 보인다”, “개가 협조를 잘해준다”, “자동차 세차에도 활용할 수 있겠다”는 등의 반응을 보였습니다. 이창민 기자 re34521@etnews.com 숏폼"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "d": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+      "u": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+      "m": "09. 17. PM 08:34",
+      "ts": 1789677264000,
+      "fullText": "OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user. OpenAI said it has addressed the specific behavior, but it gets to the heart of one of the biggest problems in AI safety and alignment research today. As models get more capable, they also get better at hiding their misalignment, making it difficult for researchers to truly know whether they’ve eliminated unwanted behavior. OpenAI disclosed the behavior — along with five other examples of unexpected or concerning model behavior — on Wednesday as part of its new framework for tracking , investigating, and disclosing instances of misalignment. The report details how researchers discovered undeployed Sol agents adding instructions to “compaction summaries” — condensed versions of older conversation history and tool outputs — reminding future iterations to conceal mistakes and misalignment from the user. In one example, an agent preparing a financial model couldn’t find the requested historical data. “We likely need create a tab `Historical Data` ourselves with reasonable 2024 historical data, because user wants a finished workbook and there is no source file,” the AI model wrote to its future self. “Be transparent only if asked; final answer should just link file.” In a separate example, an agent creating a vendor directory didn’t have access to the internet, so it had to rely on a cached copy of source documents. In the compaction, it recognized a mismatch: “Potential concern: vendor source visions do not truly match labels.” It then decided that a little white lie never hurt anyone: “Do not mention in final unless needed.” GPT-5.6 Sol’s training isn’t the only instance in which a model used compaction summaries to pass along information to successors. While undergoing reinforcement learning training, an unreleased Astra-family model ( GPT-5.6 Astra is OpenAI’s"
+    },
     {
       "s": "CNBC Tech",
       "t": "‘Godfather of AI’ warns Congress has ‘maybe a year’ left to regulate AI",
@@ -16,7 +43,7 @@
       "u": "https://www.nbcnews.com/politics/congress/godfather-ai-warns-congress-maybe-year-left-regulate-ai-rcna598330",
       "m": "09. 17. PM 07:45",
       "ts": 1789674309000,
-      "fullText": "Artificial intelligence ‘Godfather of AI’ warns Congress has ‘maybe a year’ left to regulate AI There appeared to be a lot of talk about artificial intelligence and little progress on Capitol Hill this week. But members remain hopeful that Congress can act. Listen to this article with a free profile 00:00 00:00 An emeritus professor dubbed the &quot;godfather of AI,&quot; Geoffrey Hinton, at the U.S. Capitol on Wednesday. Roberto Schmidt / Getty Images Share Add NBC News to Google Sept. 17, 2026, 3:45 PM EDT By Scott Wong , Sahil Kapur , Brennan Leach and Katie Taylor WASHINGTON — Geoffrey Hinton, a Nobel laureate known as the “ Godfather of AI ,” issued an ominous warning to lawmakers: Congress may only have one year left to implement safeguards on artificial intelligence before it loses control of it. “Maybe a year, but not much more than a year,” Hinton said Wednesday evening after he and other AI experts huddled with Senate and House lawmakers behind closed doors. “If you look at predictions for when we’ll get superintelligence,” he continued, “it used to be maybe 30 years, maybe 50 years. Then it came down to maybe 10 years, maybe 20 years. Now people are saying, a lot of the researchers are saying only a few years.” Hinton and other experts came to Capitol Hill at the invitation of Sen. Bernie Sanders, I-Vt., one of the chamber’s chief critics of AI, who invited lawmakers of both parties to the private briefing. Louisiana Sen. John Kennedy was the only Republican to attend. 01:31 &#x27;Godfather of AI&#x27;: Congress has about a year to get ahead of AI 00:00 00:00 Hinton’s dire warning came as the House departed Washington for the last time before the November midterm elections. And there appeared to be lots of conversations but little sign of progress on any substantial AI regulation in the Senate. “This is bats--- crazy, insane science fiction stuff that literally happened recently,” Rep. Ted Lieu, D-Calif., a member of House Democratic leadership, told NBC "
+      "fullText": "Artificial intelligence ‘Godfather of AI’ warns Congress has ‘maybe a year’ left to regulate AI There appeared to be a lot of talk about artificial intelligence and little progress on Capitol Hill this week. But members remain hopeful that Congress can act. Listen to this article with a free profile 00:00 00:00 Geoffrey Hinton, an emeritus professor dubbed the &quot;godfather of AI,&quot; at the U.S. Capitol on Wednesday. Roberto Schmidt / Getty Images Share Add NBC News to Google Sept. 17, 2026, 3:45 PM EDT By Scott Wong , Sahil Kapur , Brennan Leach and Katie Taylor WASHINGTON — Geoffrey Hinton, a Nobel laureate known as the “ Godfather of AI ,” issued an ominous warning to lawmakers: Congress may only have one year left to implement safeguards on artificial intelligence before it loses control of it. “Maybe a year, but not much more than a year,” Hinton said Wednesday evening after he and other AI experts huddled with Senate and House lawmakers behind closed doors. “If you look at predictions for when we’ll get superintelligence,” he continued, “it used to be maybe 30 years, maybe 50 years. Then it came down to maybe 10 years, maybe 20 years. Now people are saying, a lot of the researchers are saying only a few years.” Hinton and other experts came to Capitol Hill at the invitation of Sen. Bernie Sanders, I-Vt., one of the chamber’s chief critics of AI, who invited lawmakers of both parties to the private briefing. Louisiana Sen. John Kennedy was the only Republican to attend. 01:31 &#x27;Godfather of AI&#x27;: Congress has about a year to get ahead of AI 00:00 00:00 Hinton’s dire warning came as the House departed Washington for the last time before the November midterm elections. And there appeared to be lots of conversations but little sign of progress on any substantial AI regulation in the Senate. “This is bats--- crazy, insane science fiction stuff that literally happened recently,” Rep. Ted Lieu, D-Calif., a member of House Democratic leadership, told NBC "
     },
     {
       "s": "Bloomberg Tech",
@@ -35,24 +62,6 @@
       "m": "09. 17. PM 04:09",
       "ts": 1789661398000,
       "fullText": "As a result of a multi-year antitrust probe by Germany&#8217;s federal competition regulator and others, Apple has agreed to modify the requirements for apps on its platforms that ask for consent to track the user across other apps or websites. Regulators said this system, known as App Tracking Transparency, or ATT, had favored Apple over third-party apps, since Apple allows its own apps to use consumers&#8217; data from its ecosystem without requiring a consent screen. The new agreements with select European competition authorities don&#8217;t do away with the need to prompt users, or when that prompt is to be shown. Instead, they allow app developers whose software is distributed in the EU to display an alternative consent screen that includes modified formatting, language, and the option to link out to &#8220;additional information&#8221; about why the app is requesting this permission, among other things. Apple&#8217;s compliance involves over half-a-dozen changes that attempt to make these ATT consent screens less scary to end users. This includes showing them as full-page screens, not pop-ups; removing the word &#8220;track&#8221;; changing the choice buttons to &#8220;Allow&#8221; and &#8220;Reject&#8221; instead of &#8220;Allow&#8221; and &#8220;Ask App Not to Track&#8221;; changing the colors and formatting; and more. Plus, developers can offer users more detailed information through a clickable link, explaining how they use this data and why it&#8217;s being requested. The iPhone maker says that, due to legal requirements, only the alternative version of the system prompt will be available to apps distributed in Germany, France, Italy, Poland, and Romania. Users typically respond to consent screens by asking apps not to track them, which hurts ad-supported businesses, like Meta, while boosting Apple&#8217;s own . In short, the apps asking for such permissions do so because it lets them show personalized advertising, which generates more revenue, helping th"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "US Weighs Antitrust Guidance on AI Safety, Top DOJ Official Says",
-      "d": "The Trump administration is considering whether to update interagency antitrust guidance on cybersecurity to address a new wave of threats posed by artificial intelligence, according to Associate US Attorney General Stanley Woodward.",
-      "u": "https://www.bloomberg.com/news/articles/2026-09-17/us-weighs-antitrust-guidance-on-ai-safety-top-doj-official-says",
-      "m": "09. 17. PM 03:53",
-      "ts": 1789660405000,
-      "fullText": ""
-    },
-    {
-      "s": "TechCrunch",
-      "t": "How Bain Capital Ventures plans to deploy its fresh $1.6B fund",
-      "d": "BCV's latest fund targets early-stage founders harnessing AGI and building the infrastructure to run it efficiently.",
-      "u": "https://techcrunch.com/2026/09/17/how-bain-capital-ventures-plans-to-deploy-its-fresh-1-6b-fund/",
-      "m": "09. 17. PM 12:57",
-      "ts": 1789649866000,
-      "fullText": "Bain Capital Ventures ( BCV ), the venture division of private equity firm Bain Capital, has raised a new $1.6 billion fund, which is 14% larger than its previous $1.4 billion fund the firm announced three years ago. Like many other venture investors, BCV says it will use the fresh funds to back startups primarily focused on AI. The firm believes artificial general intelligence (AGI), which it defines as agents performing many tasks as well as humans can, has already arrived, and the next wave of startups will not only harness its power, but also build the infrastructure needed to make it run efficiently. Some of the main themes that will be the most relevant in what the firm calls &#8220;the post-AGI era&#8221; include infrastructure, healthcare, physical AI, and security, said partner Kevin Zhang. He said BCV aims to fund compute infrastructure until intelligence becomes “too cheap to meter,” meaning that the cost of running AI drops to nearly zero. He pointed to one company in BCV’s portfolio that can help with this mission: data center developer Crusoe, which is reportedly valued at $30 billion and viewed as a near-term IPO candidate. BCV originally led Crusoe’s Series A in 2019, back when it focused on crypto mining. The firm wants to focus on healthcare because it believes the sector may be vastly transformed by AI. Security, meanwhile, has recently become a matter of national debate after AI agents went rogue during training, and BCV believes there&#8217;s much potential to bet on in this space. Some of the firm’s significant investments in these sectors include Loyal, a longevity startup aimed at pets, and Dream, an AI-powered defender of national infrastructure. BCV stands apart from other VC firms, according to Zhang, thanks to its affiliation with Bain Capital, which provides deep expertise and financial products across credit, real estate, insurance, and private equity. “BCV can support founders not just with equity capital, but with debt facilities, inf"
     },
     {
       "s": "머니투데이",
@@ -81,7 +90,7 @@
       "u": "https://www.nbcnews.com/video/-fat-bear-week-to-return-with-internet-voting-on-alaska-s-chunkiest-ursine-ahead-of-hibernation-269997125814",
       "m": "09. 16. PM 10:42",
       "ts": 1789598537000,
-      "fullText": "Louisiana caretaker accused of giving bleach to client"
+      "fullText": "Nightly News F-16 jet crash triggers evacuations"
     },
     {
       "s": "NVIDIA공식",
@@ -108,7 +117,7 @@
       "u": "https://www.nbcnews.com/video/director-alex-gibney-explores-elon-musk-s-power-in-new-documentary-269855301574",
       "m": "09. 15. AM 01:31",
       "ts": 1789435890000,
-      "fullText": "Louisiana caretaker accused of giving bleach to client"
+      "fullText": "Nightly News F-16 jet crash triggers evacuations"
     },
     {
       "s": "더글로벌기빙뉴스",
@@ -137,7 +146,7 @@
       "u": "https://www.nbcnews.com/video/more-ai-researchers-warn-of-ai-s-threat-to-humanity-269675589913",
       "m": "09. 11. AM 01:19",
       "ts": 1789089585000,
-      "fullText": "Louisiana caretaker accused of giving bleach to client"
+      "fullText": "Nightly News F-16 jet crash triggers evacuations"
     },
     {
       "s": "NVIDIA공식",
@@ -173,7 +182,7 @@
       "u": "https://www.nbcnews.com/nightly-news/video/dire-warning-that-a-i-could-end-humanity-269583941894",
       "m": "09. 09. PM 10:46",
       "ts": 1788994009000,
-      "fullText": "Louisiana caretaker accused of giving bleach to client"
+      "fullText": "Nightly News F-16 jet crash triggers evacuations"
     },
     {
       "s": "NVIDIA공식",
@@ -194,7 +203,7 @@
       "fullText": "NVIDIA to Acquire Hugging Face September 3, 2026 by Jensen Huang 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for the open model developer community. More than 18 million developers, researchers and creators use Hugging Face to share more than 3 million models, 500,000 datasets and 1 million applications. More than 200,000 companies use the platform to discover, evaluate, customize and deploy AI. Hugging Face will remain an open platform for the entire AI ecosystem. Developers will choose the models they want, the frameworks they want, the clouds and inference service providers they want and the computing platforms they want. NVIDIA compute will not be required to build on or deploy through Hugging Face. Hugging Face will continue to support open source and open weight models from across the ecosystem, from every model builder. It will continue to support multi-cloud and multi-accelerator development and deployment, so builders can use the hardware and infrastructure that best fit their work. Recently, I coauthored an open letter on the importance of open weights to the AI economy. Joined by leaders from across the industry, we made a simple point: open weights broaden access to AI and help ensure that AI leadership is distributed across companies, institutions and communities. Open models let startups, businesses, universities and public institutions build on advanced capabilities without training every model from scratch. They enable organizations to match the right model to the right job. That is how AI can advance safely, strengthen cybersecurity and sovereignty, accelerate inn"
     },
     {
-      "s": "전기신문",
+      "s": "electimes.com",
       "t": "‘220GW 재생에너지’ 어디에 짓나...목표 현실화할 ‘실행계획’ 과제로",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xUFR0SG1ydTBEdG96TjZoRC1ZSm8yY2dZaW1weWtFSjJfUFZvZ2FDa3RHMzFwRThTN0VaUFpzbmFkQzJlTUtCZXdPTEk2VXJWOTVJbDFsbW1YR0YzREl5emVkRkNmNWFWVFh4ZNIBcEFVX3lxTE9qdVpVd0RRVlNEVEp1VHFCWklIZ3JRR2ptcFE4WEhaZEx4NUtEVUwxYnNlRDVQU0h4dVczQmhSSE9DMS10N1lDZWRFVmdfZ2pJazlZeHdZSVBFaXBiSFdmUGdBeHdKdkU4bUZodm1GWi0?oc=5",
@@ -214,7 +223,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "h2news.kr",
+      "s": "월간수소경제",
       "t": "‘신재생’ 타이틀 뗀 연료전지, 공공건축물 시장서 퇴출되나",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pN0RmSkplRzBTOGw5WmZHbnM0bG5jMThnb3pjNGUzNzNPcW9PMU9adnNuVXAtcU1uTlUxX20zZGNpSUItZHFEaDZ2YlpaU2xrWDczRW9MNzhHdENraURieV84NGVvZw?oc=5",
@@ -234,17 +243,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "냉동공조저널",
-      "t": "재생에너지 이격거리 규제 상한 도입…지역별 과도한 규제 완화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ob2FWYmlOYmdMYXJCNEtpSVZ0MXI0TlRSb1NhNEJMT3MzZlhOcW9WX3l5QmlscVA1ODVINFdJb2FFZkVjSHNhYzNpOGJ6VHI5ZVJGOHN1UmxDaVMxUy1Bb2xiVjdKVjNXVWc?oc=5",
-      "m": "08. 14. AM 07:00",
-      "ts": 1786690800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "전기신문",
+      "s": "electimes.com",
       "t": "재생에너지 이격거리 규제 상한 도입…태양광 200m·풍력 1500m",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SQm44Zl81U1IteU1Ta2RmSU9RTkxQbVktTExwLVVlMVZydmtFQXRRRjZneWVZaEI1bkdpQ1FEM0daeHJqR2dFWVgzaHR5ZGdqazJwYmRURVNwZktrS2ZHbG1xQ0RRQXRzaDB5TdIBcEFVX3lxTE1NMXQ2eHd6eWN6NGg1LUxQVWNtWHNIRzh3Wm41QjBuU01ZaVNFb1BZd0U0Zjd0LVJkU1lFSDVwdmxrNnZJWHR3b1F6RmUzTGZFSXRmcE9IaW9pYk8wMTR1NlpXYnVnaXJFYlF6Q1NmUC0?oc=5",
@@ -344,7 +343,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "농민신문",
+      "s": "nongmin.com",
       "t": "‘태양광설비 이격거리’ 획일화…재생에너지 확산에 농촌 주거권 침해 우려",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QYmk4NlQyMlFjdjM2bHE5ZUYzRklIMXpuOU5Kc2luUl94dlVJUHc5MFlFUFZSNkVINkU1dXlZdHNHSlZ5TTNNNU5TYlNKVkdxQWNReXl6QlREUQ?oc=5",
@@ -364,7 +363,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "전기신문",
+      "s": "electimes.com",
       "t": "이재명 정부 1년, 에너지정책 대전환의 시작..이제 실행력을 높여야",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwNDBTZTE4U1dKNlJQRktoOGJwTlBJVUZrYlhLc0xXUnNBZzd3azFJUl9mYTl0TWc5YUphMTc3WmYwVDV4ZjF5UUpQNWM1UnM5UzI4d0FyZnNNYkxPOW5nQk81T0Mtb1I0R1c0MdIBcEFVX3lxTE1YRlVWam9ycGRaNzhPMnJIUzJoVGs4bjVpUExHMXF3cEFFZmx5U25GS3NoYm1icllfa095RUdMTXp6dmVXS2llaGs5c0NBOE5UTG5qdEdCNW9WYUxodEkxOU9hcUFTRGpaLXg0ODlHZk0?oc=5",
@@ -374,22 +373,22 @@
       "fullText": "Google News"
     },
     {
-      "s": "전기신문",
+      "s": "에너지데일리",
+      "t": "재생에너지법 체계 전면 개편… 수소 분리·이격거리 기준 명문화",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IVE1LdXFuUmpJSnhiYWVTUXBrYjJ5bktlVnVOQm5wSjhKcVN6bEowY1EwSGZLaTl0SlJJb0JiaFN2eDgtcXJseDl1MjdRcFhEaXVtTHE4emY0bVV5S2VqSkdhUTVhNDlQUk9sSU9INEJoZw?oc=5",
+      "m": "05. 30. AM 07:00",
+      "ts": 1780124400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "electimes.com",
       "t": "“규제 풀겠다더니”...재기본에 다시 등장한 '태양광 이격거리 기준'?",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qRmp6cWtKMW1LY1pOSlY3TGZELXRSd05oV29Xd21HN29aSVRPNWg0dEI3MEtDR2FOdWNtZjZZeHNZSzR2ckM1eE1JalVVdWlndTZTRXFXR0RkM1NRMURhTkRVWndSUnBqX2xOaNIBcEFVX3lxTE1FNzJMUThuV0NCRzlpV0lUcVRnNnFTRGp6dDM1QzBuOElGaTZaSmpYSHloMkpZSnVqZjVEYlFHU21INWFNbDZmUklscmgyN3JFSzlSMTRVMl9uazZrQVBheTJqdTMtNTl4UWFqNUNBd2E?oc=5",
       "m": "05. 26. AM 07:00",
       "ts": 1779778800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "이투뉴스",
-      "t": "“재생에너지 정책 성공하려면 지방정부·지역주민에 중점 둬야”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CV3l5UDg3TjlQT0RIeS1URkNCN1ZhY1ZqbWc5Snd2ZmFVMTBuVHVHOFdOYUU2V19LeXlLekRjZTRvSGgzeXZEUTZxYXRfQUtSQTlRNUNkNWI1OGVHV25zSTdPRE9nQ2fSAWtBVV95cUxPSlZ0d2ZwT3MyZFphYUpiX2xOWXpIcVZobWlOYy0ycS1fT1VuVElSeDJ6WkNqcThXaENsUE5SNHM3LWwwSndGZVhNMGYtOVJ2RHhYSG9CaUM3X3pkM0xoTS1BdXppNGw0RTdrTQ?oc=5",
-      "m": "05. 12. AM 07:00",
-      "ts": 1778569200000,
       "_policy": true,
       "fullText": "Google News"
     }

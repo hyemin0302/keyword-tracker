@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T07:05:36.397Z",
+  "updatedAt": "2026-09-17T12:43:45.723Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
@@ -56,15 +56,15 @@
         "2026-09-16",
         "2026-09-17"
       ],
-      "volume": 449992,
+      "volume": 482326,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "3조 2,943억",
+        "marketCap": "3조 3,402억",
         "per": "N/A",
-        "pbr": "13.74배",
-        "cnsPer": "-44.87배",
+        "pbr": "13.93배",
+        "cnsPer": "-45.50배",
         "divYield": "N/A",
         "foreignRatio": "13.98%",
         "high52w": "108,900",
@@ -81,6 +81,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260917",
+            "foreigner": -95651,
+            "institution": -35680,
+            "individual": 124326,
+            "foreignRatio": "13.84%"
+          },
           {
             "date": "20260916",
             "foreigner": -69748,
@@ -143,24 +150,82 @@
             "institution": 271482,
             "individual": -482660,
             "foreignRatio": "14.18%"
-          },
-          {
-            "date": "20260903",
-            "foreigner": 59457,
-            "institution": 242006,
-            "individual": -292705,
-            "foreignRatio": "13.71%"
           }
         ],
         "sum5d": {
-          "foreigner": -444393,
-          "institution": -193976
+          "foreigner": -421728,
+          "institution": 289832
         },
         "sum10d": {
-          "foreigner": 231627,
-          "institution": 584782
+          "foreigner": 76519,
+          "institution": 307096
         }
       },
+      "consensus": null
+    },
+    "APD": {
+      "name": "Air Products and Chemicals, Inc",
+      "px": 287.08,
+      "dayChange": -1.2,
+      "periodChange": -4.58,
+      "prices": [
+        300.86,
+        303.23,
+        303.22,
+        300.33,
+        305.1,
+        306.24,
+        303.85,
+        306.66,
+        305.47,
+        308.09,
+        309.46,
+        305.32,
+        309.45,
+        304.22,
+        301.27,
+        297.71,
+        295.24,
+        293.65,
+        291.43,
+        287.13,
+        290.56,
+        287.08
+      ],
+      "dates": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "volume": 1465770,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 314.87,
+        "low52w": 229.11,
+        "volume": 1465770
+      },
+      "investorFlow": null,
       "consensus": null
     },
     "BE": {
@@ -293,71 +358,6 @@
       "investorFlow": null,
       "consensus": null
     },
-    "APD": {
-      "name": "Air Products and Chemicals, Inc",
-      "px": 287.08,
-      "dayChange": -1.2,
-      "periodChange": -4.58,
-      "prices": [
-        300.86,
-        303.23,
-        303.22,
-        300.33,
-        305.1,
-        306.24,
-        303.85,
-        306.66,
-        305.47,
-        308.09,
-        309.46,
-        305.32,
-        309.45,
-        304.22,
-        301.27,
-        297.71,
-        295.24,
-        293.65,
-        291.43,
-        287.13,
-        290.56,
-        287.08
-      ],
-      "dates": [
-        "2026-08-17",
-        "2026-08-18",
-        "2026-08-19",
-        "2026-08-20",
-        "2026-08-21",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28",
-        "2026-08-31",
-        "2026-09-01",
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-08",
-        "2026-09-09",
-        "2026-09-10",
-        "2026-09-11",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16"
-      ],
-      "volume": 1465770,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 314.87,
-        "low52w": 229.11,
-        "volume": 1465770
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "034020": {
       "name": "두산에너빌리티",
       "px": 85400,
@@ -413,15 +413,15 @@
         "2026-09-16",
         "2026-09-17"
       ],
-      "volume": 1746191,
+      "volume": 1839911,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "54조 8,320억",
-        "per": "302.47배",
-        "pbr": "6.70배",
-        "cnsPer": "167.84배",
+        "marketCap": "55조 3,445억",
+        "per": "305.30배",
+        "pbr": "6.77배",
+        "cnsPer": "169.41배",
         "divYield": "N/A",
         "foreignRatio": "23.27%",
         "high52w": "139,200",
@@ -438,6 +438,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260917",
+            "foreigner": -80957,
+            "institution": 97945,
+            "individual": 948,
+            "foreignRatio": "23.25%"
+          },
           {
             "date": "20260916",
             "foreigner": -601267,
@@ -500,22 +507,15 @@
             "institution": 266790,
             "individual": 148838,
             "foreignRatio": "23.53%"
-          },
-          {
-            "date": "20260903",
-            "foreigner": -249502,
-            "institution": 291424,
-            "individual": -77089,
-            "foreignRatio": "23.61%"
           }
         ],
         "sum5d": {
-          "foreigner": -1838189,
-          "institution": -1452214
+          "foreigner": -1787929,
+          "institution": -796230
         },
         "sum10d": {
-          "foreigner": -2538841,
-          "institution": 1651393
+          "foreigner": -2370296,
+          "institution": 1457914
         }
       },
       "consensus": null

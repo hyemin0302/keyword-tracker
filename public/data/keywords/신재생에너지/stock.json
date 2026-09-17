@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T07:07:08.351Z",
+  "updatedAt": "2026-09-17T12:45:28.407Z",
   "data": {
     "112610": {
       "name": "CSWIND",
@@ -56,15 +56,15 @@
         "2026-09-16",
         "2026-09-17"
       ],
-      "volume": 225393,
+      "volume": 236172,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "2조 1,634억",
-        "per": "498.06배",
+        "marketCap": "2조 1,676억",
+        "per": "499.03배",
         "pbr": "1.66배",
-        "cnsPer": "11.65배",
+        "cnsPer": "11.67배",
         "divYield": "1.95%",
         "foreignRatio": "16.75%",
         "high52w": "79,400",
@@ -81,6 +81,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260917",
+            "foreigner": -4648,
+            "institution": 37502,
+            "individual": -30136,
+            "foreignRatio": "16.74%"
+          },
           {
             "date": "20260916",
             "foreigner": -45441,
@@ -143,22 +150,15 @@
             "institution": 57464,
             "individual": -18375,
             "foreignRatio": "17.13%"
-          },
-          {
-            "date": "20260903",
-            "foreigner": -1479,
-            "institution": 19746,
-            "individual": -18167,
-            "foreignRatio": "17.12%"
           }
         ],
         "sum5d": {
-          "foreigner": -179757,
-          "institution": 369291
+          "foreigner": -135104,
+          "institution": 355022
         },
         "sum10d": {
-          "foreigner": -214263,
-          "institution": 681145
+          "foreigner": -217432,
+          "institution": 698901
         }
       },
       "consensus": null
@@ -218,16 +218,16 @@
         "2026-09-16",
         "2026-09-17"
       ],
-      "volume": 79452,
+      "volume": 82267,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "25조 6,656억",
-        "per": "30.17배",
-        "pbr": "11.36배",
-        "cnsPer": "26.92배",
-        "divYield": "1.00%",
+        "marketCap": "25조 8,097억",
+        "per": "30.34배",
+        "pbr": "11.43배",
+        "cnsPer": "27.07배",
+        "divYield": "0.99%",
         "foreignRatio": "34.35%",
         "high52w": "1,449,000",
         "low52w": "538,000",
@@ -243,6 +243,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260917",
+            "foreigner": -7015,
+            "institution": 8446,
+            "individual": -1499,
+            "foreignRatio": "34.33%"
+          },
           {
             "date": "20260916",
             "foreigner": -11513,
@@ -305,89 +312,17 @@
             "institution": 11940,
             "individual": -2332,
             "foreignRatio": "34.30%"
-          },
-          {
-            "date": "20260903",
-            "foreigner": -21099,
-            "institution": 8742,
-            "individual": 12181,
-            "foreignRatio": "34.33%"
           }
         ],
         "sum5d": {
-          "foreigner": 8418,
-          "institution": -52718
+          "foreigner": -56715,
+          "institution": 13552
         },
         "sum10d": {
-          "foreigner": -607,
-          "institution": -27830
+          "foreigner": 13477,
+          "institution": -28126
         }
       },
-      "consensus": null
-    },
-    "FSLR": {
-      "name": "퍼스트솔라",
-      "px": 191.07,
-      "dayChange": -5.57,
-      "periodChange": -12.29,
-      "prices": [
-        217.85,
-        220.01,
-        222.4,
-        214.06,
-        214.28,
-        208.31,
-        206.82,
-        205.93,
-        210.1,
-        204.46,
-        201.9,
-        199.65,
-        202.6,
-        207.42,
-        204.45,
-        213.25,
-        203.1,
-        207.17,
-        209.03,
-        207.04,
-        202.34,
-        191.07
-      ],
-      "dates": [
-        "2026-08-17",
-        "2026-08-18",
-        "2026-08-19",
-        "2026-08-20",
-        "2026-08-21",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28",
-        "2026-08-31",
-        "2026-09-01",
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-08",
-        "2026-09-09",
-        "2026-09-10",
-        "2026-09-11",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16"
-      ],
-      "volume": 3090340,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 320.95,
-        "low52w": 182.99,
-        "volume": 3090340
-      },
-      "investorFlow": null,
       "consensus": null
     },
     "ENPH": {
@@ -451,6 +386,71 @@
         "high52w": 73.74,
         "low52w": 25.78,
         "volume": 3912863
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "FSLR": {
+      "name": "퍼스트솔라",
+      "px": 191.07,
+      "dayChange": -5.57,
+      "periodChange": -12.29,
+      "prices": [
+        217.85,
+        220.01,
+        222.4,
+        214.06,
+        214.28,
+        208.31,
+        206.82,
+        205.93,
+        210.1,
+        204.46,
+        201.9,
+        199.65,
+        202.6,
+        207.42,
+        204.45,
+        213.25,
+        203.1,
+        207.17,
+        209.03,
+        207.04,
+        202.34,
+        191.07
+      ],
+      "dates": [
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "volume": 3090340,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 320.95,
+        "low52w": 182.99,
+        "volume": 3090340
       },
       "investorFlow": null,
       "consensus": null
@@ -575,15 +575,15 @@
         "2026-09-16",
         "2026-09-17"
       ],
-      "volume": 808400,
+      "volume": 886587,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "6조 4,094억",
+        "marketCap": "6조 4,432억",
         "per": "N/A",
         "pbr": "0.56배",
-        "cnsPer": "13.66배",
+        "cnsPer": "13.73배",
         "divYield": "N/A",
         "foreignRatio": "13.27%",
         "high52w": "59,300",
@@ -600,6 +600,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260917",
+            "foreigner": -72532,
+            "institution": -113860,
+            "individual": 185014,
+            "foreignRatio": "13.24%"
+          },
           {
             "date": "20260916",
             "foreigner": 50308,
@@ -662,22 +669,15 @@
             "institution": -34222,
             "individual": 72587,
             "foreignRatio": "12.83%"
-          },
-          {
-            "date": "20260903",
-            "foreigner": 232384,
-            "institution": -114131,
-            "individual": -110377,
-            "foreignRatio": "12.80%"
           }
         ],
         "sum5d": {
-          "foreigner": 372293,
-          "institution": -1032787
+          "foreigner": 131501,
+          "institution": -738655
         },
         "sum10d": {
-          "foreigner": 979436,
-          "institution": -2140191
+          "foreigner": 674520,
+          "institution": -2139920
         }
       },
       "consensus": null

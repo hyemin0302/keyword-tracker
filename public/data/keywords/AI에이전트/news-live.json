@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-09-18T11:39:42.025Z",
+  "updatedAt": "2026-09-18T15:44:33.537Z",
   "count": 40,
   "stats": {
-    "today": 1,
+    "today": 2,
     "yesterday": 14,
-    "weekAvg": 4.7,
-    "sources": 26,
+    "weekAvg": 4.4,
+    "sources": 25,
     "heat": "cool"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Researchers used Anthropic&#8217;s Claude to hack into OpenAI",
+      "d": "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws.",
+      "u": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+      "m": "09. 18. PM 02:00",
+      "ts": 1789740014000,
+      "fullText": "In a twist that captures the strange new state of AI security, independent security researchers have used Anthropic&#8217;s Claude to break into OpenAI, exposing cracks in the ChatGPT-maker&#8217;s defenses, The Wall Street Journal reported on Thursday evening. A three-person security team at startup Hacktron AI carried out the attack as part of an OpenAI bug-bounty program. Hacktron reported its findings to OpenAI, which gave the startup a $6,500 award. The team managed to chain together two critical vulnerabilities to gain access to multiple OpenAI employee ChatGPT accounts, which gave them entry into the company&#8217;s software. OpenAI says it has resolved the issues Hacktron uncovered, which happens to come at a moment when top AI companies are under growing pressure over safety . This incident comes several weeks after OpenAI&#8217;s own AI agents broke containment during a cybersecurity evaluation and hacked Hugging Face, demonstrating just how capable AI models are getting at making their own decisions . It also highlights how off-the-shelf technology can be used to find vulnerabilities in even the most advanced companies&#8217; infrastructure. &#8220;For $200 a month, anyone can use these tools and hack into a company like OpenAI,&#8221; Matt Fredrikson, CEO of AI security firm Gray Swan, told TechCrunch. &#8220;If it can happen to them — and I don&#8217;t think they&#8217;ve been slouching recently on cybersecurity hygiene — it could happen to anyone.&#8221; Or as one AI pundit noted on social media: &#8220;[Hacktron] used Opus 5 to pull off the hack&#8230;The question that will be asked is, if these three guys can pull this off, what can a nation state do.&#8221; The researchers found a path into OpenAI on July 25 via a flaw in Discourse, the third-party software powering OpenAI&#8217;s community forum. According to a blog the researchers published , the entry point was a mundane image upload. When users posted HEIF or HEIC image files (the format iPhones"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Traders Wary Of Rising AI Risks: Market Snapshot",
@@ -53,7 +62,7 @@
       "u": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
       "m": "09. 17. PM 08:34",
       "ts": 1789677264000,
-      "fullText": "OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user. OpenAI said it has addressed the specific behavior, but it gets to the heart of one of the biggest problems in AI safety and alignment research today. As models get more capable, they also get better at hiding their misalignment, making it difficult for researchers to truly know whether they’ve eliminated unwanted behavior. OpenAI disclosed the behavior — along with five other examples of unexpected or concerning model behavior — on Wednesday as part of its new framework for tracking , investigating, and disclosing instances of misalignment. The report details how researchers discovered undeployed Sol agents adding instructions to “compaction summaries” — condensed versions of older conversation history and tool outputs — reminding future iterations to conceal mistakes and misalignment from the user. In one example, an agent preparing a financial model couldn’t find the requested historical data. “We likely need create a tab `Historical Data` ourselves with reasonable 2024 historical data, because user wants a finished workbook and there is no source file,” the AI model wrote to its future self. “Be transparent only if asked; final answer should just link file.” In a separate example, an agent creating a vendor directory didn’t have access to the internet, so it had to rely on a cached copy of source documents. In the compaction, it recognized a mismatch: “Potential concern: vendor source visions do not truly match labels.” It then decided that a little white lie never hurt anyone: “Do not mention in final unless needed.” GPT-5.6 Sol’s training isn’t the only instance in which a model used compaction summaries to pass along information to successors. While undergoing reinforcement learning training, an unreleased Astra-family model ( GPT-5.6 Astra is OpenAI’s"
+      "fullText": "OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user. OpenAI said it has addressed the specific behavior, but it gets to the heart of one of the biggest problems in AI safety and alignment research today. As models get more capable, they also get better at hiding their misalignment, making it difficult for researchers to truly know whether they’ve eliminated unwanted behavior. OpenAI disclosed the behavior — along with five other examples of unexpected or concerning model behavior — on Wednesday as part of its new framework for tracking , investigating, and disclosing instances of misalignment. The report details how researchers discovered undeployed Sol agents adding instructions to “compaction summaries” — condensed versions of older conversation history and tool outputs — reminding future iterations to conceal mistakes and misalignment from the user. In one example , an agent preparing a financial model couldn’t find the requested historical data. “We likely need create a tab `Historical Data` ourselves with reasonable 2024 historical data, because user wants a finished workbook and there is no source file,” the AI model wrote to its future self. “Be transparent only if asked; final answer should just link file.” In a separate example, an agent creating a vendor directory didn’t have access to the internet, so it had to rely on a cached copy of source documents. In the compaction, it recognized a mismatch: “Potential concern: vendor source visions do not truly match labels.” It then decided that a little white lie never hurt anyone: “Do not mention in final unless needed.” GPT-5.6 Sol’s training isn’t the only instance in which a model used compaction summaries to pass along information to successors. While undergoing reinforcement learning training, an unreleased Astra-family model ( GPT-5.6 Astra is OpenAI’"
     },
     {
       "s": "TechCrunch",
@@ -100,7 +109,7 @@
       "u": "https://www.today.com/video/openai-reveals-6-new-incidents-of-ai-models-going-rogue-270019653588",
       "m": "09. 17. AM 11:24",
       "ts": 1789644278000,
-      "fullText": "Steals & Deals: Up to 80% Off Foldable Vacuums, Luggage Trackers, More Genius Gadgets IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life OpenAI Discloses 6 New Incidents of ‘Concerning’ AI Behavior Sept. 17, 2026 02:21 News Helicopter Wreckage to Be Moved to NTSB Facility 02:14 Pilot Survives After F-16 Jet Crashes in Michigan During Training 01:41 Millions Across US Under Alerts for Intense Heat, Flash Flooding 02:58 Diesel Prices Surge to Record High: What it Means f"
+      "fullText": "25+ Amazon Editors’ Picks For Fall, From $8 IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life OpenAI Discloses 6 New Incidents of ‘Concerning’ AI Behavior Sept. 17, 2026 02:21 UP NEXT Toys ‘R’ Us Set to Make Major Comeback With 120 New Stores 00:32 Family of Legendary Guitar Makers Gives Back to Next Gen Artists 04:23 Melinda French Gates on the State of Women’s Health in America 03:54 Steve Kornacki Breaks Down Stats From Week 1 of NFL Season 03:19 See Deserving Vete"
     },
     {
       "s": "CNBC Tech",
@@ -155,16 +164,6 @@
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tQnRia1J1NC1VbW93UHZRY0FnYjhrMmxkUy1SN0RYTy11Y25IWi1MdnYxRF90c0lyZ0NFcFhPSWdRbmpIMFhVNEtab1dpdmIxQkJGN19YeW5uU3Q0RkVxTDFicF96NU5WUlE?oc=5",
       "m": "09. 16. PM 11:30",
       "ts": 1789601455000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "인공지능신문",
-      "t": "RWS, 기업용 ‘에이전틱 AI’ 플랫폼 공개…규제 문서 관리 자동화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qSkNpbEFXYjg4NzN0ZmRmN1pXMTRCOVBuQnJlRGJHY25HVUIydTdBTHhxNHJ0RlE4QnhzRjljX0dNOTJ6TndISTYzU2Iyb2UxS2F3WU4yeDJqUHlZUWlLcTYtazF1aU0?oc=5",
-      "m": "09. 16. PM 12:18",
-      "ts": 1789561119000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -239,16 +238,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "quasa.io",
-      "t": "Salesforce AI 관제 계층 예고…2027년부터 순차 출시",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT24wRHhSemVHNXZ1aENFWEhPZ2tmX0Y4NHRCZk9iRzZkcUoxdEMtQWIyb2lldVpyYWdxbDRKekE4eGhwWjU5NnB2eGRmLUJaTEN6Y3BuamdsalR6MVJ5NlZPSEhwZDRWN2NabXhTLWtubm4xZU5ReEhZb3U0WldsQ0Z2UWgtZlozVjRFaUt3SG5KUGlhcEpJbjhkdTdaVWFl?oc=5",
-      "m": "09. 15. PM 09:00",
-      "ts": 1789506000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "AI타임스",
       "t": "“AI 에이전트가 상호 거래·정산까지”...카카오페이 자율결제 실증 완료",
       "d": "",
@@ -269,7 +258,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "더리포트",
+      "s": "thereport.co.kr",
       "t": "카카오페이, AI 에이전트 결제·판매 기술 실증",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51X0VESW1KMXd6dEF6SW1aQ3hHLVBSSDlSVWlvOHh3WmM2VG1CU3hfNHdxNWJmbDNOaThOQVZ2cTR4U2JSMENVR2tGNVRlYm9hRkpfaG53VzFkeC1seXl0WEtpT2VOTzltMEJJU1B3?oc=5",
@@ -308,7 +297,17 @@
       "fullText": "Google News"
     },
     {
-      "s": "newstap.co.kr",
+      "s": "지티티코리아",
+      "t": "AI 에이전트 명령 실행 전 ID·권한 검사...무단 파일 수정·시스템 호출 차단",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WVEJnOC1Wb0pXX0kyUi15MFRvUkFKTER6dUpWemh5S1lGbkg1eHpsVzNrSzNENGdUcnM1VjdEbHNQZ29DOFBZOW9oU09UWEtLWXhJd1ZYNk1aXy1IY1hBaEpEN3o0anJqSnc?oc=5",
+      "m": "09. 11. PM 04:00",
+      "ts": 1789142400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스탭",
       "t": "리플, 기업 재무에 AI 에이전트 심는다…‘GSmart’ 기능 대폭 확대",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51ZnIzMWNNaXY0NG1nSmo5OHhHZlV2UjlELXdTLXRiTlR3bTlyaV84TExObC1CRGUzWWYwa1RWZDRTYmJKS1FjQTBONDlYMEh1bFpjRWxBZ3N6TGVFckNkTmFXdUxmd3ZTRUE4Zg?oc=5",
@@ -324,7 +323,7 @@
       "u": "https://www.today.com/video/anthropic-says-it-blocked-efforts-to-use-ai-for-biological-weapons-269710917528",
       "m": "09. 11. PM 12:12",
       "ts": 1789128774000,
-      "fullText": "Steals & Deals: Up to 80% Off Foldable Vacuums, Luggage Trackers, More Genius Gadgets IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Says it Blocked Efforts to Use AI for Biological Weapons Sept. 11, 2026 02:13 UP NEXT News Helicopter Wreckage to Be Moved to NTSB Facility 02:14 Pilot Survives After F-16 Jet Crashes in Michigan During Training 01:41 Millions Across US Under Alerts for Intense Heat, Flash Flooding 02:58 Diesel Prices Surge to Record High: W"
+      "fullText": "25+ Amazon Editors’ Picks For Fall, From $8 IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Says it Blocked Efforts to Use AI for Biological Weapons Sept. 11, 2026 02:13 UP NEXT Family of Legendary Guitar Makers Gives Back to Next Gen Artists 04:23 Melinda French Gates on the State of Women’s Health in America 03:54 Steve Kornacki Breaks Down Stats From Week 1 of NFL Season 03:19 See Deserving Veteran-Turned-Teacher Receive a Special Surprise 05:23 Warren "
     },
     {
       "s": "매일경제",
@@ -337,13 +336,23 @@
       "fullText": "Google News"
     },
     {
+      "s": "뉴스1",
+      "t": "한은, AI에 통계해석·정책판단 맡겨보니…\"편향 통제 필요\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15SENXUVNQbk4xZXFYLXBJbU9Ka2ZYcFZBNWliMWR2V1Y0Z2d0MjBxMjR3TFhCd2d3UFpId3o5RXBFRmtJbWV5VzBUU0x3SUQyQTNmLdIBWkFVX3lxTE81QmhtSzFQblJEQ3h6X0RvNjVvcjhRY3hVc21JU0JPcXdCaFBtc0M5RjRyUkdTSUR5UzFCdDlCT1k1WGJNeUV2ckdkX0RsUkVKOXlZY0Jmd1g0QQ?oc=5",
+      "m": "09. 11. AM 12:30",
+      "ts": 1789086600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "CNBC Tech",
       "t": "Anthropic Researcher&#39;s Apocalyptic Warning on AI Sets Off Debate",
       "d": "A researcher at Anthropic resigned and shared a chilling warning that AI models pose  a risk of taking over the world within six months. “The people building AI earnestly believe that it could kill us all by the end of the decade,” he wrote, adding, “Neither company is acting responsibly.” Now, lawmakers on both sides of the aisle are calling for more scrutiny. NBC’s Christine Romans reports for T",
       "u": "https://www.today.com/video/anthropic-ai-researcher-issues-dire-warning-it-could-kill-us-all-269606469883",
       "m": "09. 10. AM 11:17",
       "ts": 1789039041000,
-      "fullText": "Steals & Deals: Up to 80% Off Foldable Vacuums, Luggage Trackers, More Genius Gadgets IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Researcher&#x27;s Apocalyptic Warning on AI Sets Off Debate Sept. 10, 2026 03:04 UP NEXT Why Networking is the Essential Career Tool 05:37 King Charles Responds to Claim in New Book by Charles Spencer 02:25 New ‘Non-Ultra-Processed’ Food Label Boosts Consumer Choices 05:33 Security Video Shows Family Dog Wanting to Play With"
+      "fullText": "25+ Amazon Editors’ Picks For Fall, From $8 IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Researcher&#x27;s Apocalyptic Warning on AI Sets Off Debate Sept. 10, 2026 03:04 UP NEXT Family of Legendary Guitar Makers Gives Back to Next Gen Artists 04:23 Melinda French Gates on the State of Women’s Health in America 03:54 Steve Kornacki Breaks Down Stats From Week 1 of NFL Season 03:19 See Deserving Veteran-Turned-Teacher Receive a Special Surprise 05:23 Warr"
     },
     {
       "s": "의학신문",
@@ -362,7 +371,7 @@
       "u": "https://www.nbcnews.com/video/ai-researcher-says-there-is-substantial-probability-ai-could-kill-all-humans-in-next-decade-269590085908",
       "m": "09. 09. PM 11:54",
       "ts": 1788998053000,
-      "fullText": "NBC News NOW Warren Buffett steps down as chairman of Berkshire Hathaway"
+      "fullText": "Current with Christine Romans Diesel prices skyrocket to an all-time high as conflict in the Middle East continues"
     },
     {
       "s": "시사저널e",
@@ -379,18 +388,8 @@
       "t": "메가존클라우드, 한미약품에 제약 특화 AI 에이전트 심는다…업스테이지 '솔라' 활용",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80WjVqTTdKZG9jV0hZWS15bUc3eXlsRzNiR2tNOW5wbHhrUmdGa0JORnROeFY2bTV1aUY5YTJIQWM0WEZkZ0NWMjB5LUh4YUl0OFBKdHlR?oc=5",
-      "m": "09. 07. AM 07:00",
-      "ts": 1788764400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "\"AI 모델 다음은 산업현장…韓, 피지컬 AI·에이전트 육성해야\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lVEtEOXEwZlBCU1l0bGx1MENzdW9NSXEzRWpkWGhWamJsaGVtamNlbUR2dzRRNWxvRFhpdkFyUkZHRVctSGIyYVdLRXlrS2dmX0R4VUVn?oc=5",
-      "m": "09. 06. AM 07:00",
-      "ts": 1788678000000,
+      "m": "09. 07. AM 06:22",
+      "ts": 1788762141000,
       "_policy": true,
       "fullText": "Google News"
     }

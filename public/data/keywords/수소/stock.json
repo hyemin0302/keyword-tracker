@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-18T06:16:43.847Z",
+  "updatedAt": "2026-09-18T11:38:01.694Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
-      "px": 50200,
-      "dayChange": -0.2,
-      "periodChange": 38.67,
+      "px": 50900,
+      "dayChange": 1.19,
+      "periodChange": 40.61,
       "prices": [
         36200,
         39800,
@@ -30,7 +30,7 @@
         51600,
         51300,
         50300,
-        50200
+        50900
       ],
       "dates": [
         "2026-08-18",
@@ -58,15 +58,15 @@
         "2026-09-17",
         "2026-09-18"
       ],
-      "volume": 376063,
+      "volume": 559820,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "3조 3,140억",
+        "marketCap": "3조 2,878억",
         "per": "N/A",
-        "pbr": "13.82배",
-        "cnsPer": "-45.14배",
+        "pbr": "13.71배",
+        "cnsPer": "-44.78배",
         "divYield": "N/A",
         "foreignRatio": "13.74%",
         "high52w": "108,900",
@@ -83,6 +83,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260918",
+            "foreigner": 78374,
+            "institution": -96863,
+            "individual": 18819,
+            "foreignRatio": "13.86%"
+          },
           {
             "date": "20260917",
             "foreigner": -95651,
@@ -145,24 +152,82 @@
             "institution": -57753,
             "individual": -433264,
             "foreignRatio": "14.93%"
-          },
-          {
-            "date": "20260904",
-            "foreigner": 200337,
-            "institution": 271482,
-            "individual": -482660,
-            "foreignRatio": "14.18%"
           }
         ],
         "sum5d": {
-          "foreigner": -421728,
-          "institution": 289832
+          "foreigner": -221552,
+          "institution": 197138
         },
         "sum10d": {
-          "foreigner": 76519,
-          "institution": 307096
+          "foreigner": -45444,
+          "institution": -61249
         }
       },
+      "consensus": null
+    },
+    "APD": {
+      "name": "Air Products and Chemicals, Inc",
+      "px": 286.12,
+      "dayChange": -0.33,
+      "periodChange": -5.64,
+      "prices": [
+        303.23,
+        303.22,
+        300.33,
+        305.1,
+        306.24,
+        303.85,
+        306.66,
+        305.47,
+        308.09,
+        309.46,
+        305.32,
+        309.45,
+        304.22,
+        301.27,
+        297.71,
+        295.24,
+        293.65,
+        291.43,
+        287.13,
+        290.56,
+        287.08,
+        286.12
+      ],
+      "dates": [
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17"
+      ],
+      "volume": 1475211,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 314.87,
+        "low52w": 229.11,
+        "volume": 1475211
+      },
+      "investorFlow": null,
       "consensus": null
     },
     "BE": {
@@ -295,76 +360,11 @@
       "investorFlow": null,
       "consensus": null
     },
-    "APD": {
-      "name": "Air Products and Chemicals, Inc",
-      "px": 286.12,
-      "dayChange": -0.33,
-      "periodChange": -5.64,
-      "prices": [
-        303.23,
-        303.22,
-        300.33,
-        305.1,
-        306.24,
-        303.85,
-        306.66,
-        305.47,
-        308.09,
-        309.46,
-        305.32,
-        309.45,
-        304.22,
-        301.27,
-        297.71,
-        295.24,
-        293.65,
-        291.43,
-        287.13,
-        290.56,
-        287.08,
-        286.12
-      ],
-      "dates": [
-        "2026-08-18",
-        "2026-08-19",
-        "2026-08-20",
-        "2026-08-21",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28",
-        "2026-08-31",
-        "2026-09-01",
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-08",
-        "2026-09-09",
-        "2026-09-10",
-        "2026-09-11",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-17"
-      ],
-      "volume": 1475211,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 314.87,
-        "low52w": 229.11,
-        "volume": 1475211
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "034020": {
       "name": "두산에너빌리티",
-      "px": 85350,
-      "dayChange": -0.06,
-      "periodChange": 9.56,
+      "px": 84900,
+      "dayChange": -0.58,
+      "periodChange": 8.99,
       "prices": [
         77900,
         76200,
@@ -389,7 +389,7 @@
         86200,
         83800,
         85400,
-        85350
+        84900
       ],
       "dates": [
         "2026-08-18",
@@ -417,15 +417,15 @@
         "2026-09-17",
         "2026-09-18"
       ],
-      "volume": 1508723,
+      "volume": 2338766,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "54조 5,118억",
-        "per": "300.71배",
-        "pbr": "6.67배",
-        "cnsPer": "166.86배",
+        "marketCap": "54조 8,961억",
+        "per": "302.83배",
+        "pbr": "6.71배",
+        "cnsPer": "168.04배",
         "divYield": "N/A",
         "foreignRatio": "23.23%",
         "high52w": "139,200",
@@ -442,6 +442,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260918",
+            "foreigner": -654328,
+            "institution": -273893,
+            "individual": 937214,
+            "foreignRatio": "23.13%"
+          },
           {
             "date": "20260917",
             "foreigner": -80957,
@@ -504,22 +511,15 @@
             "institution": 1053105,
             "individual": -1083536,
             "foreignRatio": "23.63%"
-          },
-          {
-            "date": "20260904",
-            "foreigner": -413237,
-            "institution": 266790,
-            "individual": 148838,
-            "foreignRatio": "23.53%"
           }
         ],
         "sum5d": {
-          "foreigner": -1787929,
-          "institution": -796230
+          "foreigner": -2300112,
+          "institution": -1244475
         },
         "sum10d": {
-          "foreigner": -2370296,
-          "institution": 1457914
+          "foreigner": -2611387,
+          "institution": 917231
         }
       },
       "consensus": null
@@ -572,7 +572,7 @@
       -3.29,
       -1.96,
       -2,
-      0.45
+      0.61
     ],
     "sp500": [
       0,

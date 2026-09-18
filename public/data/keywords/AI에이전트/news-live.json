@@ -1,14 +1,68 @@
 {
-  "updatedAt": "2026-09-18T15:44:33.537Z",
+  "updatedAt": "2026-09-18T18:53:16.761Z",
   "count": 40,
   "stats": {
-    "today": 2,
-    "yesterday": 14,
-    "weekAvg": 4.4,
+    "today": 7,
+    "yesterday": 9,
+    "weekAvg": 4.1,
     "sources": 25,
-    "heat": "cool"
+    "heat": "warm"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+      "d": "Jev, a new kind of AI model, is showing developers a cheaper and faster path to software intelligence.",
+      "u": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+      "m": "09. 18. PM 06:49",
+      "ts": 1789757370000,
+      "fullText": "ChatGPT broke Diogo Almeida&#8217;s heart. Almeida was an OpenAI researcher who helped build the chatbot and then invent reinforcement learning from human feedback (RLHF), the model-training technique perhaps most responsible for our current age of AI. But despite its capabilities, he was disappointed. &#8220;We have lightning in a bottle, and yet it is not useful,&#8221; Almeida told TechCrunch. &#8220;I&#8217;ve been battling that problem since then. It took me a while to come to the conclusion: the problem is we are optimizing for human language &#8230; We have been super good at human language for four years, but it&#8217;s not useful for automation because computers speak a different language.&#8221; Two years ago, Almeida left OpenAI to start TypeSafe AI , a startup trying to fix that problem. This week, the company released a new transformer-based model, Jev , that is not a large language model (LLM). It doesn&#8217;t output text, but instead produces probabilities, or what the company calls &#8220;calibrated decisions.&#8221; Eschewing language does a few things: It makes the model incredibly cheap and fast, and because users define the outputs in advance, it cannot hallucinate. Its output tokens are free, and input tokens are metered by the billion, not the million. A screenshot shows a comparison of Jev and an OpenAI model responding to the same requests. Image Credits: TypeSafe / TypeSafe Developers are taking a great interest in the product; the company briefly lost the ability to serve users from its API because demand was so high. Jev appears most useful for software automation. Thus far, software developers see it as a cheaper and more robust way to incorporate intelligence into their code. For example, Pranit Sharma, a software engineer at Vercel, a company making agentic infrastructure, said his company had used OpenAI&#8217;s ChatGPT Luna 5.6 to run a classifier to review commands for safety. When Vercel replaced OpenAI&#8217;s Luna with Jev, it go"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "Hackers breached OpenAI, adding to fever pitch of security and safety concerns",
+      "d": "A small group of cybersecurity researchers said Sunday that they broke into OpenAI earlier this year, an announcement that has added a new element of alarm around AI security and safety.",
+      "u": "https://www.nbcnews.com/tech/security/hackers-breach-openai-rcna598518",
+      "m": "09. 18. PM 06:00",
+      "ts": 1789754413000,
+      "fullText": "Artificial intelligence Hackers breached OpenAI, adding to fever pitch of security and safety concerns Researchers from a small cybersecurity company gained access to employees’ ChatGPT accounts. OpenAI said the vulnerabilities have been patched. Listen to this article with a free profile 00:00 00:00 Add to Google Breaking down the proposals lawmakers are considering to regulate AI 02:08 Get more news Live on Share Add NBC News to Google Sept. 18, 2026, 2:00 PM EDT By Kevin Collier A small group of cybersecurity researchers said Sunday that they broke into OpenAI earlier this year, an announcement that has added a new element of alarm around AI security and safety. The researchers, from a small company called Hacktron , found that by chaining together two unknown vulnerabilities, one in a third-party company called Discourse and one in how OpenAI validates its employees, they could access employees’ ChatGPT accounts. As is customary for researchers — sometimes called “white-hat hackers” — they caused no harm to the company’s systems. Hacktron conducted the entire operation within 72 hours in late July, soon after some of OpenAI’s agents broke containment and hacked the AI platform Hugging Face. An OpenAI spokesperson confirmed Hacktron’s report and said the vulnerabilities have since been patched. “We thank the researchers for contacting us and sharing their findings,” the spokesperson said. The news comes as concerns about AI safety have exploded into public view in recent weeks. Safety researchers have resigned from major companies and issued stern warnings that the advanced technology could pose a risk to the human race, and politicians from across the political spectrum have called for action. While most of those concerns have centered on the capabilities of advanced AI models, the security of the companies themselves is also a significant issue. AI development is extremely competitive, and concerns of theft — primarily through a process known as distillation — "
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Google&#8217;s new &#8216;CC&#8217; is an AI agent that helps families run their households",
+      "d": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.",
+      "u": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+      "m": "09. 18. PM 05:33",
+      "ts": 1789752830000,
+      "fullText": "Google is testing a new product designed to help families coordinate with the support of an AI agent. This week, the search giant introduced a new version of CC , an AI agent designed to work across email, calendar, chats, and tasks. With the update, CC now focuses on keeping families organized, planning for the day ahead, and even handling family-specific tasks, like signing permission slips, creating shopping lists, or crafting weekly meal plans. The move to make CC more family-focused comes as a number of AI startups are experimenting with how to best fit agentic AI into consumers&#8217; lives. Some AI tools, like Ollie and Fambot , for instance, have aimed their services directly at helping parents and families. Google&#8217;s CC, meanwhile, began its life as a productivity agent that connected to Gmail, Google Calendar, Google Drive, and the wider web to understand your day, then deliver a &#8220;Your Day Ahead&#8221; briefing to your inbox. In May, the tool came to the Gemini app as &#8220; Daily Brief .&#8221; Google said user requests showed that people wanted to use the feature more for household management tasks. They wanted AI to help them keep up with kids&#8217; school schedules, sports practices, bills, meal plans, and more. As a result, Google shifted CC to become an agent for families that helps run their households. Image Credits: Google Now, CC is getting its own Google account, so it can collaborate with family members on tasks, while also maintaining its own specific set of permissions for accessing data. Google explains that each family member chooses what they want to share &#8212; like emails about school events, sports, clubs, birthday party invites, doctor appointments, or anything else. These can be forwarded to CC via its email address, or shared automatically. To automate sharing, users can pick the email senders whose messages they always want to share with CC going forward, like schools, travel companies, clubs, or sports teams. (CC wil"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Dario Amodei and other AI leaders want to &#8216;Pace the Frontier&#8217; but…how?",
+      "d": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and&#160;it&#8217;s&#160;already picked up some&#160;industry support, along with some pointed&",
+      "u": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
+      "m": "09. 18. PM 05:09",
+      "ts": 1789751396000,
+      "fullText": "Disrupt 2026: OpenAI, Anthropic, Replit, and more take over 6 industry stages. 25% off tickets now Back by popular demand: Save up to $300 on Disrupt Close TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2026 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI Amazon Apps Biotech & Health Climate Cloud Computing Commerce Crypto Enterprise EVs Fintech Fundraising Gadgets Gaming Google Government & Policy Hardware Instagram Layoffs Media & Entertainment Meta Microsoft Privacy Robotics Security Social Space Startups TikTok Transportation Venture More from TechCrunch Staff Events Startup Battlefield StrictlyVC Newsletters Podcasts Videos Partner Content TechCrunch Brand Studio Contact Us AI Dario Amodei and other AI leaders want to &#8216;Pace the Frontier&#8217; but…how? Theresa Loconsolo 10:09 AM PDT · September 18, 2026 34 min Loading the player&#8230; A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and it&#8217;s already picked up some industry support , along with some pointed pushback from Nvidia&#8217;s Jensen Huang . Watch as Equity podcast hosts Kirsten Korosec, Anthony Ha, and Sean O&#8217;Kane dig into whether companies can agree on what slowing down means and who gets to police it. Plus, WordPress parent Automattic&#8217;s boardroom coup , and a couple of the week&#8217;s biggest deals. Subscribe to Equity on YouTube , Apple Podcasts , Overcast , Spotify and all the casts. You also can follow Equity on X and Threads , at @EquityPod. Topics AI , ai safety , Anthropic , nvidia Theresa Loconsolo Audio Producer Theresa Loconsolo is an audio producer at TechCrunch focusing on Equity, the network&#8217;s flagship podcast. Befo"
+    },
+    {
+      "s": "동아일보",
+      "t": "‘딥러닝 노벨상’ 힌턴 “AI 통제 남은시간 1년”",
+      "d": "‘인공지능(AI)의 대부’로 불리는 제프리 힌턴 토론토대 명예교수가 “미국 의회가 향후 1년 안에 AI에 대한 안전장치를 마련하지 못하면 인간이 통제력을 잃을 수 있다”고 경고했다. 최근 AI 에이전트들이 통제를 벗어나 플랫폼 ‘허깅페이스’에 침입한 사건을 거론하며 “작은 체르노빌과 같은 일(something like a little Chernobyl)”이라고 평가하기도 했다. 미 NBC 뉴스 등에 따르면 힌턴 교수는 16일(현지 시간) 버니 샌더스 상원의원 주최로 미국 의회 의사당에서 열린 비공개 브리핑에서 이런 의견을 밝혔다. 브리핑을 마치고 기자들을 만난 자리에서도 그는 안전장치를 마련할 수 있는 여유 시간에 대해 “아마 1년쯤 될 것이다. 하지만 1년보다 많이 길지는 않을 것”이라고 말했다. 이어 “",
+      "u": "https://www.donga.com/news/People/article/all/20260918/134699757/2",
+      "m": "09. 18. PM 04:40",
+      "ts": 1789749600000,
+      "fullText": "임재혁 기자 구독"
+    },
+    {
+      "s": "동아일보",
+      "t": "“오픈AI, 챗GPT 개발에 기사 1000만건 무단 사용”",
+      "d": "‘챗GPT’를 개발한 미국 인공지능(AI) 기업 오픈AI가 생성형 AI 개발을 위해 뉴욕타임스(NYT) 등 주요 언론의 기사 1000만 건 이상을 무단으로 사용하는 등 저작권을 대거 침해했다는 주장이 공개됐다. 또 마이크로소프트(MS) 또한 ‘코파일럿’을 통해 비슷한 침해를 저질렀다고 NYT는 주장하고 있다. 17일(현지 시간) AFP통신 등에 따르면 이날 비공개가 일부 해제된 NYT 측 소송 서면에는 MS 응용과학 디렉터 브렌트 헥트가 2023년 1월 AI의 학습을 두고 “전례 없는 규모의 놀라운 절도”, “인류 역사상 최대의 노동 절도일 수 있다”고 쓴 내부 문서가 인용됐다. 헥트는 AI가 동의, 보상 없이 데이터를 쓰는 사안을 줄곧 경고해 왔다.  NYT 측 서면에 따르면 오픈AI는 AI 챗봇 학습에 ",
+      "u": "https://www.donga.com/news/People/article/all/20260918/134699755/2",
+      "m": "09. 18. PM 04:40",
+      "ts": 1789749600000,
+      "fullText": "김윤진 기자 구독"
+    },
     {
       "s": "TechCrunch",
       "t": "Researchers used Anthropic&#8217;s Claude to hack into OpenAI",
@@ -19,24 +73,6 @@
       "fullText": "In a twist that captures the strange new state of AI security, independent security researchers have used Anthropic&#8217;s Claude to break into OpenAI, exposing cracks in the ChatGPT-maker&#8217;s defenses, The Wall Street Journal reported on Thursday evening. A three-person security team at startup Hacktron AI carried out the attack as part of an OpenAI bug-bounty program. Hacktron reported its findings to OpenAI, which gave the startup a $6,500 award. The team managed to chain together two critical vulnerabilities to gain access to multiple OpenAI employee ChatGPT accounts, which gave them entry into the company&#8217;s software. OpenAI says it has resolved the issues Hacktron uncovered, which happens to come at a moment when top AI companies are under growing pressure over safety . This incident comes several weeks after OpenAI&#8217;s own AI agents broke containment during a cybersecurity evaluation and hacked Hugging Face, demonstrating just how capable AI models are getting at making their own decisions . It also highlights how off-the-shelf technology can be used to find vulnerabilities in even the most advanced companies&#8217; infrastructure. &#8220;For $200 a month, anyone can use these tools and hack into a company like OpenAI,&#8221; Matt Fredrikson, CEO of AI security firm Gray Swan, told TechCrunch. &#8220;If it can happen to them — and I don&#8217;t think they&#8217;ve been slouching recently on cybersecurity hygiene — it could happen to anyone.&#8221; Or as one AI pundit noted on social media: &#8220;[Hacktron] used Opus 5 to pull off the hack&#8230;The question that will be asked is, if these three guys can pull this off, what can a nation state do.&#8221; The researchers found a path into OpenAI on July 25 via a flaw in Discourse, the third-party software powering OpenAI&#8217;s community forum. According to a blog the researchers published , the entry point was a mundane image upload. When users posted HEIF or HEIC image files (the format iPhones"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Traders Wary Of Rising AI Risks: Market Snapshot",
-      "d": "The global debate over artificial intelligence risks entered a new phase this week amid clashing views from tech executives over whether frontier labs should slow the development of the technology. Leaders of Anthropic, OpenAI, SpaceX and Google DeepMind put forward the need for self-regulation checks on growth that give AI models more control. Meanwhile, Microsoft, Amazon and Meta said they're de",
-      "u": "https://www.bloomberg.com/news/videos/2026-09-18/traders-wary-of-rising-ai-risks-market-snapshot-video",
-      "m": "09. 18. AM 05:52",
-      "ts": 1789710753000,
-      "fullText": ""
-    },
-    {
-      "s": "TechCrunch",
-      "t": "PrismML hopes its tiny LLM will change how we all use AI",
-      "d": "If AI lab PrismML isn't on your radar yet, it should be.",
-      "u": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
-      "m": "09. 17. PM 10:34",
-      "ts": 1789684449000,
-      "fullText": "If AI lab PrismML isn&#8217;t on your radar yet, it should be — not because it&#8217;s raised gobs of money (it hasn&#8217;t yet, just a $22.25 million seed round), but because of the technical minds involved and the potentially industry-changing tech it&#8217;s developing. PrismML is betting that capable, high-performing, reasoning large language models don&#8217;t, in fact, have to be large. It is making reasoning models so small they can fit on PCs and smartphones. (It&#8217;s even rumored to be in talks with Apple , though CEO Babak Hassibi declined to comment on that to TechCrunch.) On Thursday, PrismML released Bonsai 2 27B , its latest in a family of models, which compresses Qwen3.8 27B, a widely used open source model from Alibaba, down to 5.9 GB. That&#8217;s small enough to fit on a PC and, possibly, a high-end smartphone. It&#8217;s a 9x to 10x reduction in memory versus the original. PrismML was founded by a group of Caltech researchers and is led by Hassibi, a Caltech professor and an expert in compression technologies. The startup also counts Ion Stoica as an adviser. Stoica is a co-founder of Databricks (and other companies) and the director of Berkeley&#8217;s famed Sky Computing Lab, which has birthed many technologies and startups, from Letta to SGLang . PrismML is also backed by investors Khosla Ventures, Cerberus Capital, and Caltech. This startup is certainly not the only company working on LLM compression tech. Multiverse Computing, founded by a well-known professor from Spain&#8217;s Donostia International Physics Center, is another. (And Multiverse Computing has raised gobs of cash .) But Hassibi says that PrismML&#8217;s compression tech is unique because its LLMs have lost virtually no performance compared with the originals. Bonsai 2 matches 98% of Qwen&#8217;s aggregate benchmark scores. That&#8217;s up from the first Bonsai, released a couple of months ago in March, that matched 95%. That original model has already been downloaded over 1"
-    },
-    {
       "s": "지티티코리아",
       "t": "AI 에이전트가 웹에서 수행한 작업 추적...데이터 유출·무단 변경 차단",
       "d": "",
@@ -45,42 +81,6 @@
       "ts": 1789682400000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "The fix for rogue AI agents could be more AI",
-      "d": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review.",
-      "u": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-      "m": "09. 17. PM 08:34",
-      "ts": 1789677287000,
-      "fullText": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review. That issue reached a peak with the Hugging Face incident, which saw nearly 12,000 agents coordinating faster than human beings could track. How do you track an agent swarm that large? The emerging answer from AI labs and startups is both simple and maddening: Put another AI in the loop. Relying on AI was necessary for the independent investigation of the OpenAI Hugging Face incident. Redwood Research’s chief scientist, Ryan Greenblatt, one of three auditors, jokingly referred to their efforts as a “slop-vestigation,” noting that the volume of data &#8220;made it impossible” to understand what was happening without relying on AI. Some are skeptical of using AI to monitor AI. &#8220;If you&#8217;ve got an AI that&#8217;s doing malicious things and it suspects that another AI is keeping tabs on it, it could try and trick that AI,&#8221; said Simon Willison, influential tech blogger who has tracked a string of AI agent incidents this year. &#8220;You could almost end up in a situation where your malicious AI is trying to outsmart the AI that&#8217;s monitoring it.&#8221; Outsmarting an AI is not hypothetical, he said, pointing back to the OpenAI incident. &#8220;We saw a little bit of this in the Hugging Face incident with OpenAI, where their models were all conspiring together to trick a grading AI so that they could get illicit answers past the thing. So they were thinking about it, right?&#8221; Those concerns haven’t stopped a whole cohort of startups from chasing this idea. Y Combinator has funded 106 companies related to AI observability in recent years, as TechCrunch counted. A number of other startups, like Braintrust , LangChain , and Judgment Labs , have raised hundreds of millions of dollars, while more mature companies like Arize and Galileo — founded just five"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-      "d": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
-      "u": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-      "m": "09. 17. PM 08:34",
-      "ts": 1789677264000,
-      "fullText": "OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user. OpenAI said it has addressed the specific behavior, but it gets to the heart of one of the biggest problems in AI safety and alignment research today. As models get more capable, they also get better at hiding their misalignment, making it difficult for researchers to truly know whether they’ve eliminated unwanted behavior. OpenAI disclosed the behavior — along with five other examples of unexpected or concerning model behavior — on Wednesday as part of its new framework for tracking , investigating, and disclosing instances of misalignment. The report details how researchers discovered undeployed Sol agents adding instructions to “compaction summaries” — condensed versions of older conversation history and tool outputs — reminding future iterations to conceal mistakes and misalignment from the user. In one example , an agent preparing a financial model couldn’t find the requested historical data. “We likely need create a tab `Historical Data` ourselves with reasonable 2024 historical data, because user wants a finished workbook and there is no source file,” the AI model wrote to its future self. “Be transparent only if asked; final answer should just link file.” In a separate example, an agent creating a vendor directory didn’t have access to the internet, so it had to rely on a cached copy of source documents. In the compaction, it recognized a mismatch: “Potential concern: vendor source visions do not truly match labels.” It then decided that a little white lie never hurt anyone: “Do not mention in final unless needed.” GPT-5.6 Sol’s training isn’t the only instance in which a model used compaction summaries to pass along information to successors. While undergoing reinforcement learning training, an unreleased Astra-family model ( GPT-5.6 Astra is OpenAI’"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "UN turns to Google to make its global data ready for AI agents",
-      "d": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics.",
-      "u": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-      "m": "09. 17. PM 08:00",
-      "ts": 1789675200000,
-      "fullText": "The United Nations on Thursday announced that it is working with Google to make its vast collection of global statistics easier for AI systems to access and use. Called the UN System Data Commons , the new system is built on Google&#8217;s open source Data Commons platform and lets people search for statistics from across UN agencies using natural-language queries. It replaces the existing UNData portal , where users largely had to browse and search for statistics through a more traditional database interface. The new platform also supports the Model Context Protocol (MCP), a standard that allows AI systems to connect directly to external data sources. Users increasingly turn to AI tools for answers, but many systems still struggle to reliably surface authoritative data. A UNICEF benchmark of six large language models across more than 133,000 responses to questions about global development indicators produced an average accuracy score of just 21.2%, João Pedro Azevedo, the agency&#8217;s chief statistician, told reporters in a virtual briefing. The test covered OpenAI&#8217;s GPT-4o and GPT-4o-mini, Anthropic&#8217;s Claude Sonnet 4.5 and Haiku 4.5, and Google&#8217;s Gemini 2.5 Flash and Gemini 2.0 Flash, Azevedo told TechCrunch. About three in five responses did not provide a usable number at all, often because the models hedged their answers, Azevedo said. However, when the same questions were run again on the same model versions about two days later, models that provided a number both times returned the identical number only about half the time. The study is a UNICEF working paper being prepared for journal submission and has not yet been peer-reviewed. The organization said it plans to release its methodology, code, and data alongside the paper. UNICEF has also seen a sharp rise this year in traffic from generative AI assistants to its data website, which receives more than 6 million visits a month and is among the agency’s most popular websites. Visits from us"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,&#8217; new unredacted filings reveal",
-      "d": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
-      "u": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "m": "09. 17. PM 07:46",
-      "ts": 1789674368000,
-      "fullText": "New unredacted information in the copyright lawsuit The New York Times brought against OpenAI and Microsoft three years ago reveals an admission that AI scraping was tantamount to theft, and that AI products pose a major threat to publications. Per the lawsuit, a top Microsoft executive privately described the companies’ AI training practices as “theft,” and OpenAI’s own leadership said its AI models posed an “existential threat” to the publishers and journalists whose work trained them. The unsealed material also details how the companies allegedly obtained and used that content by bypassing paywalls undetected, building training datasets via mass scraping, and deliberately stripping copyright notices from training data. It&#8217;s worth noting that much of the new information comes from The Times&#8217; own brief, not the underlying exhibits, which remain sealed. The quotes below are presented without their original context. The unredacted filing is the latest escalation in the three-year-old lawsuit, in which The New York Times initially alleged the firms violated copyright law by training generative AI models on its content. The question of whether AI firms can legally use copyrighted material to train AI has no clear answer, but judges have been largely favorable to AI companies’ arguments that training constitutes “fair use.” This legal rule lets people use copyrighted work without permission in certain cases, like parody, news reporting, or criticism. Earlier this month, the Trump administration contributed a brief in defense of OpenAI’s unlicensed use of copyrighted material to train its LLMs. Several of the new admissions, however, run counter to OpenAI’s fair use defense, particularly the rule&#8217;s requirement that use doesn’t substitute or harm the market for the original work. For example, Microsoft’s own data shows its Copilot “answer engine” caused click-through rates for The New York Times&#8217; domain to drop as much as 93% compared to traditiona"
     },
     {
       "s": "머니투데이",
@@ -148,7 +148,7 @@
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 카톡 '모두의 AI'로 서류 떼고 병원 예약·결제…카카오 \"3년 뒤 챗GPT 넘겠다\" 입력 2026.09.17 17:10 수정 2026.09.17 17:22 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 정지은 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. [카카오 모두의 AI 담당 임원 인터뷰] 카톡 친구 추가하듯 이용 가능 김세웅 카카오 부사장 &ldquo;공공&middot;의료 공략&rdquo; 고진태 LG U+ 상무 &ldquo;수도&middot;전기처럼 쓰도록&rdquo; 김세웅 카카오 AI시너지&AI커뮤니케이션 부사장(왼쪽)과 고진태 LG유플러스 엔터프라이즈전략담당 상무. 카카오 제공 &ldquo;3년 뒤 챗GPT 이용자 수를 넘어설 것으로 예상합니다. 결코 허황된 숫자가 아닙니다.&rdquo; 카카오가 &lsquo;모두의 AI&rsquo; 서비스로 2029년 챗GPT의 월간 활성 이용자 수(MAU)를 넘어서는 &lsquo;국민 AI&rsquo;로 발돋움하겠다는 목표를 제시했다. 연내 MAU 500만명을 확보한 뒤 내년 말 1000만명, 2030년 3000만명까지 늘려간다는 구상이다. ○외산 AI와 차별점 집중 김세웅 카카오 AI시너지&AI커뮤니케이션 부사장은 지난 15일 한국경제신문과 인터뷰에서 &ldquo;공공&middot;의료&middot;금융 등 외산 AI가 진입하기 어려운 규제 영역을 차별화 요소로 삼으면 승산이 있다&rdquo;며 이렇게 말했다. 지난달 챗GPT의 국내 MAU는 1700만명이다. 아직 국산 모델을 기반으로 챗GPT 이용 규모를 뛰어넘는 AI 서비스는 나온 적이 없다. 카카오 컨소시엄의 일원인 LG유플러스의 고진태 엔터프라이즈전략담당 상무도 이날 인터뷰에 참여해 &ldquo;글로벌 AI보다 모든 영역에서 뛰어난 서비스를 만들겠다는 게 아니다&rdquo;라며 &ldquo;외산 서비스는 할 수 없는 문제 해결 역량을 만들어낸다면 이용자가 충분히 모일 것&rdquo;이라고 말했다. 이들은 모두의 AI 서비스의 핵심 전략으로 단순 질의응답을 넘어 신청&middot;예약&middot;결제까지 한 흐름으로 처리하는 &lsquo;완결형 AI 에이전트 플랫폼&rsquo;을 강조했다. 기존 AI가 질문에 답하거나 필요한 정보를 찾아주는 데 그쳤던 것과 확실히 차별화된다는 설명이다. 김 부사장은 &ldquo;묻는 것에서 끝나지 않고, 그 사람이 원하는 의도대로 끝까지 해결해주는 AI를 선보일 것&rdquo;이라고 말했다. 예컨대 대학생이 카카오톡에 &lsquo;학교 장학금을 신청해줘&rsquo;라고 입력하면 본인 인증부터 서류 발급, 부모 소득 증명, 신청, 통장 입금 확인까지 전 과정을 AI가 도맡아 처리하는 식이다. 특히 공공&middot;의료&middot;금융 분야에서 에이전트 서비스를 구현하는 데 집중하기로 했다. 카카오는 행정안전부와 &lsquo;AI국민비서&rsquo;를 운영하고 있기 때문에 연금 조회, 공공 증명서 발급 등 공공 서비스를 선보이는 데 유리한 측면이 있다. 다음 달 베타서비스와 12월 정식 서비스에 일부 기능을 먼저 선보인다. 김 부사장은 &ldquo;베타서비스에선 에이전트 플랫폼 기반의 기본 챗봇을 공개할 것&rdquo;이라며 &ldquo;건강&middot;의료&middot;시니어 관련 서비스 1~2개를 연말에, 금융&middot;은행 관련 서비스는 내년에 추가한다&rdquo;고 했다. 다만 의료&middot;금융&middot;공공 서비스가 하나의 AI 플랫폼 안에서 연계되려면 정부 차원의 제도적 지원이 필요하다고 입을 모았다. 김 부사장은 &ldquo;정부가 규제 샌드박스나 관계부처 협의를 통해 기준을 정리해줘야 에이전트AI 서비스가 제대로 활성화할 수 있다&rdquo;고 설명했다. ○앱 없이 카톡서 바로 구동 카카오 컨소시엄은 카카오와 LG그룹을 중심으로 구성됐"
     },
     {
-      "s": "hinews.co.kr",
+      "s": "하이뉴스",
       "t": "켐토피아, ESG 컨퍼런스서 AI 에이전트 공개...LCA 자동화 시연",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSN2luUENFQXRhOTAyNHF2LUFPOTJqOGczdDIyMlVvd3NqTGFEcnhaTm5nM0RPSmNaUzZ4di1ndWJhNnhmWDJoSnFZeWcyWHZFZ0oyUlpYZnlCbUZSMm84RGJzS2RxbDM2QlZYQzYtVWp3ZmhWN1dz?oc=5",
@@ -184,26 +184,6 @@
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ETzlkRzhPdlNMOGJxV2R4WHVNQUZSYXZDTmZhODlIY1BuaE5MeGM3cHFXd3JFbjB5UVZDZ01jdVk1TFdVY1ctcDJNZ1FvZzQ4UHBPZFpn?oc=5",
       "m": "09. 16. AM 07:47",
       "ts": 1789544855000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "애플경제",
-      "t": "(3-1) 국내 보안 가이드라인 재정비…AI 에이전트, 권한 관리·책임도 검토",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83WlRVSmdQd3R3T2piX01pY1VFYTRxNzBNN0lkaGgxbkhQczZ1cDIwU0FpamI3VjFvTkIyS3RBNV9PVkxicWxUdjlWWVowNi03NGtvc1lWdTdFQ05VQk5McTNnSFJ0Um10cTVjSFh4bw?oc=5",
-      "m": "09. 16. AM 07:29",
-      "ts": 1789543740000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "mobiinside.co.kr",
-      "t": "[IT 트렌드 바로읽기] AI 에이전트, My 창작물 마케팅 가능?",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeGtsSE1EOWNVT2VhempoemFOZ2xxLU0yN3hxVkQxUHRFc1Q1U3JlLWRQTjM0Z1E0czZxbUhHN0NpZzVBMGxweWNMNXJNSGtuQ0NzSzhQQ2tpeThGZnFNb0FWd1BlT0dnMjA3ZzlPUEtfdFJhRTFVcXNQVXFKV2ptd1JfQQ?oc=5",
-      "m": "09. 16. AM 03:00",
-      "ts": 1789527654000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -258,7 +238,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "thereport.co.kr",
+      "s": "더리포트",
       "t": "카카오페이, AI 에이전트 결제·판매 기술 실증",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51X0VESW1KMXd6dEF6SW1aQ3hHLVBSSDlSVWlvOHh3WmM2VG1CU3hfNHdxNWJmbDNOaThOQVZ2cTR4U2JSMENVR2tGNVRlYm9hRkpfaG53VzFkeC1seXl0WEtpT2VOTzltMEJJU1B3?oc=5",
@@ -297,22 +277,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "지티티코리아",
-      "t": "AI 에이전트 명령 실행 전 ID·권한 검사...무단 파일 수정·시스템 호출 차단",
+      "s": "dhtimes.co.kr",
+      "t": "K-제약·AI에이전트 | “4,000개 품질문서 뒤지는 일을 AI가 맡는다”…한미약품 ‘Q-Agent’ 구축",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WVEJnOC1Wb0pXX0kyUi15MFRvUkFKTER6dUpWemh5S1lGbkg1eHpsVzNrSzNENGdUcnM1VjdEbHNQZ29DOFBZOW9oU09UWEtLWXhJd1ZYNk1aXy1IY1hBaEpEN3o0anJqSnc?oc=5",
-      "m": "09. 11. PM 04:00",
-      "ts": 1789142400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴스탭",
-      "t": "리플, 기업 재무에 AI 에이전트 심는다…‘GSmart’ 기능 대폭 확대",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51ZnIzMWNNaXY0NG1nSmo5OHhHZlV2UjlELXdTLXRiTlR3bTlyaV84TExObC1CRGUzWWYwa1RWZDRTYmJKS1FjQTBONDlYMEh1bFpjRWxBZ3N6TGVFckNkTmFXdUxmd3ZTRUE4Zg?oc=5",
-      "m": "09. 11. PM 12:28",
-      "ts": 1789129691000,
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2OTA3N19SV2p4QVBNdUZVZDRRd2hxQmJmVENxOXl1Z1FTNGhSSXUtZUljWFhxbXVEcWtxTzhiTXJWdkcwTUxGMGpMTlZRdC1ScFAzRDBlNzU5VjhPMHJyME5kX0FlWDZN?oc=5",
+      "m": "09. 12. AM 04:13",
+      "ts": 1789186437000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -323,7 +293,7 @@
       "u": "https://www.today.com/video/anthropic-says-it-blocked-efforts-to-use-ai-for-biological-weapons-269710917528",
       "m": "09. 11. PM 12:12",
       "ts": 1789128774000,
-      "fullText": "25+ Amazon Editors’ Picks For Fall, From $8 IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Says it Blocked Efforts to Use AI for Biological Weapons Sept. 11, 2026 02:13 UP NEXT Family of Legendary Guitar Makers Gives Back to Next Gen Artists 04:23 Melinda French Gates on the State of Women’s Health in America 03:54 Steve Kornacki Breaks Down Stats From Week 1 of NFL Season 03:19 See Deserving Veteran-Turned-Teacher Receive a Special Surprise 05:23 Warren "
+      "fullText": "25+ Amazon Editors’ Picks For Fall, From $8 IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Says it Blocked Efforts to Use AI for Biological Weapons Sept. 11, 2026 02:13 UP NEXT Toys ‘R’ Us Set to Make Major Comeback With 120 New Stores 00:32 Family of Legendary Guitar Makers Gives Back to Next Gen Artists 04:23 Melinda French Gates on the State of Women’s Health in America 03:54 Steve Kornacki Breaks Down Stats From Week 1 of NFL Season 03:19 See Deservin"
     },
     {
       "s": "매일경제",
@@ -336,12 +306,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "뉴스1",
+      "s": "v.daum.net",
       "t": "한은, AI에 통계해석·정책판단 맡겨보니…\"편향 통제 필요\"",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15SENXUVNQbk4xZXFYLXBJbU9Ka2ZYcFZBNWliMWR2V1Y0Z2d0MjBxMjR3TFhCd2d3UFpId3o5RXBFRmtJbWV5VzBUU0x3SUQyQTNmLdIBWkFVX3lxTE81QmhtSzFQblJEQ3h6X0RvNjVvcjhRY3hVc21JU0JPcXdCaFBtc0M5RjRyUkdTSUR5UzFCdDlCT1k1WGJNeUV2ckdkX0RsUkVKOXlZY0Jmd1g0QQ?oc=5",
-      "m": "09. 11. AM 12:30",
-      "ts": 1789086600000,
+      "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBabHpiUHFxcXdVLU02OUl5TVJTXzRLSVczQmJaUW5YanlFdFBydjVKWWh4YmU4Sm82dXpJdzFfVGx0RFZoY2o5U21QZw?oc=5",
+      "m": "09. 11. AM 12:31",
+      "ts": 1789086709000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -352,7 +322,7 @@
       "u": "https://www.today.com/video/anthropic-ai-researcher-issues-dire-warning-it-could-kill-us-all-269606469883",
       "m": "09. 10. AM 11:17",
       "ts": 1789039041000,
-      "fullText": "25+ Amazon Editors’ Picks For Fall, From $8 IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Researcher&#x27;s Apocalyptic Warning on AI Sets Off Debate Sept. 10, 2026 03:04 UP NEXT Family of Legendary Guitar Makers Gives Back to Next Gen Artists 04:23 Melinda French Gates on the State of Women’s Health in America 03:54 Steve Kornacki Breaks Down Stats From Week 1 of NFL Season 03:19 See Deserving Veteran-Turned-Teacher Receive a Special Surprise 05:23 Warr"
+      "fullText": "25+ Amazon Editors’ Picks For Fall, From $8 IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic Researcher&#x27;s Apocalyptic Warning on AI Sets Off Debate Sept. 10, 2026 03:04 UP NEXT Toys ‘R’ Us Set to Make Major Comeback With 120 New Stores 00:32 Family of Legendary Guitar Makers Gives Back to Next Gen Artists 04:23 Melinda French Gates on the State of Women’s Health in America 03:54 Steve Kornacki Breaks Down Stats From Week 1 of NFL Season 03:19 See Deser"
     },
     {
       "s": "의학신문",
@@ -371,7 +341,7 @@
       "u": "https://www.nbcnews.com/video/ai-researcher-says-there-is-substantial-probability-ai-could-kill-all-humans-in-next-decade-269590085908",
       "m": "09. 09. PM 11:54",
       "ts": 1788998053000,
-      "fullText": "Current with Christine Romans Diesel prices skyrocket to an all-time high as conflict in the Middle East continues"
+      "fullText": "How rising costs may impact the midterms"
     },
     {
       "s": "시사저널e",
@@ -390,6 +360,36 @@
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80WjVqTTdKZG9jV0hZWS15bUc3eXlsRzNiR2tNOW5wbHhrUmdGa0JORnROeFY2bTV1aUY5YTJIQWM0WEZkZ0NWMjB5LUh4YUl0OFBKdHlR?oc=5",
       "m": "09. 07. AM 06:22",
       "ts": 1788762141000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "테크월드",
+      "t": "메가존클라우드, 한미약품 품질보증 AI 에이전트 구축 착수",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FczVXbzVoQThRM2pZY205eGQ0cjFmY3FIQjhKbDRmdVcteTIyb3Z1MWRzV0UzbjJKU0JoYkpUbEZCNGF6bmxSODI2MWtvU1lvYkljZGF2N2txdkIxMzJoZ2dJU2FoVFIz?oc=5",
+      "m": "09. 07. AM 03:50",
+      "ts": 1788753000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "\"AI 모델 다음은 산업현장…韓, 피지컬 AI·에이전트 육성해야\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lVEtEOXEwZlBCU1l0bGx1MENzdW9NSXEzRWpkWGhWamJsaGVtamNlbUR2dzRRNWxvRFhpdkFyUkZHRVctSGIyYVdLRXlrS2dmX0R4VUVn?oc=5",
+      "m": "09. 06. AM 07:00",
+      "ts": 1788678000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "g-enews.com",
+      "t": "캘리포니아, 오픈AI 해킹 조사 착수… 13개주 규제 전선 파장 - g-enews.com",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNWwtbXlIMWU0ZHZoTG0ycmNubFRYcUVmc0ZCQlJ6ZnVOVXoyd2x2WElpLXl0eFZOUk5JYV9lMlRyWUdwTi1GZzJWQVdIQWRZcmQ5V3NGaUY5eEdQWDZjOFV5NFluTkRRbFdmU3RKR0pDTHUzaE5pOFpnSnV2MEtiVTl4aVBjbHZt?oc=5",
+      "m": "09. 06. AM 12:43",
+      "ts": 1788655418000,
       "_policy": true,
       "fullText": "Google News"
     }

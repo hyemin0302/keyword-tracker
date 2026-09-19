@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-19T17:45:58.484Z",
+  "updatedAt": "2026-09-19T19:59:44.697Z",
   "count": 40,
   "stats": {
     "today": 7,
-    "yesterday": 10,
+    "yesterday": 9,
     "weekAvg": 5.7,
-    "sources": 24,
+    "sources": 25,
     "heat": "warm"
   },
   "items": [
@@ -145,15 +145,6 @@
       "fullText": "ChatGPT broke Diogo Almeida&#8217;s heart. Almeida was an OpenAI researcher who helped build the chatbot and then invent reinforcement learning from human feedback (RLHF), the model-training technique perhaps most responsible for our current age of AI. But despite its capabilities, he was disappointed. &#8220;We have lightning in a bottle, and yet it is not useful,&#8221; Almeida told TechCrunch. &#8220;I&#8217;ve been battling that problem since then. It took me a while to come to the conclusion: The problem is we are optimizing for human language &#8230; We have been super good at human language for four years, but it&#8217;s not useful for automation because computers speak a different language.&#8221; Two years ago, Almeida left OpenAI to start TypeSafe AI , a startup trying to fix that problem. This week, the company released a new transformer-based model, Jev , that is not a large language model (LLM). It doesn&#8217;t output text, but instead produces probabilities, or what the company calls &#8220;calibrated decisions.&#8221; Eschewing language does a few things: It makes the model incredibly cheap and fast, and because users define the outputs in advance, it cannot hallucinate. Its output tokens are free, and input tokens are metered by the billion, not the million. A screenshot shows a comparison of Jev and an OpenAI model responding to the same requests Image Credits: TypeSafe AI Developers are taking a great interest in the product; the company briefly lost the ability to serve users from its API because demand was so high. Jev appears most useful for software automation. Thus far, software developers see it as a cheaper and more robust way to incorporate intelligence into their code. For example, Pranit Sharma, a software engineer at Vercel, a company making agentic infrastructure, said his company had used OpenAI&#8217;s ChatGPT Luna 5.6 to run a classifier to review commands for safety. When Vercel replaced OpenAI&#8217;s Luna with Jev, it got results"
     },
     {
-      "s": "CNBC Tech",
-      "t": "Hackers breached OpenAI, adding to fever pitch of security and safety concerns",
-      "d": "A small group of cybersecurity researchers said Sunday that they broke into OpenAI earlier this year, an announcement that has added a new element of alarm around AI security and safety.",
-      "u": "https://www.nbcnews.com/tech/security/hackers-breach-openai-rcna598518",
-      "m": "09. 18. PM 06:00",
-      "ts": 1789754413000,
-      "fullText": "Artificial intelligence Hackers breached OpenAI, adding to fever pitch of security and safety concerns Researchers from a small cybersecurity company gained access to employees’ ChatGPT accounts. OpenAI said the vulnerabilities have been patched. Listen to this article with a free profile 00:00 00:00 Add to Google Breaking down the proposals lawmakers are considering to regulate AI 02:08 Get more news Live on Share Add NBC News to Google Sept. 18, 2026, 2:00 PM EDT By Kevin Collier A small group of cybersecurity researchers said Sunday that they broke into OpenAI earlier this year, an announcement that has added a new element of alarm around AI security and safety. The researchers, from a small company called Hacktron , found that by chaining together two unknown vulnerabilities, one in a third-party company called Discourse and one in how OpenAI validates its employees, they could access employees’ ChatGPT accounts. As is customary for researchers — sometimes called “white-hat hackers” — they caused no harm to the company’s systems. Hacktron conducted the entire operation within 72 hours in late July, soon after some of OpenAI’s agents broke containment and hacked the AI platform Hugging Face. An OpenAI spokesperson confirmed Hacktron’s report and said the vulnerabilities have since been patched. “We thank the researchers for contacting us and sharing their findings,” the spokesperson said. The news comes as concerns about AI safety have exploded into public view in recent weeks. Safety researchers have resigned from major companies and issued stern warnings that the advanced technology could pose a risk to the human race, and politicians from across the political spectrum have called for action. While most of those concerns have centered on the capabilities of advanced AI models, the security of the companies themselves is also a significant issue. AI development is extremely competitive, and concerns of theft — primarily through a process known as distillation — "
-    },
-    {
       "s": "TechCrunch",
       "t": "Google&#8217;s new &#8216;CC&#8217; is an AI agent that helps families run their households",
       "d": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.",
@@ -169,7 +160,7 @@
       "u": "https://www.nbcnews.com/video/gov-shapiro-call-for-ai-regulation-without-pausing-development-as-safety-concerns-grow-270066757714",
       "m": "09. 17. PM 11:14",
       "ts": 1789686868000,
-      "fullText": "Doorbell camera captures the moment a school bus crashes"
+      "fullText": "Professor advocates for diversity in AI regulation"
     },
     {
       "s": "지티티코리아",
@@ -179,7 +170,7 @@
       "m": "09. 17. PM 10:00",
       "ts": 1789682400000,
       "_policy": true,
-      "fullText": ""
+      "fullText": "Google News"
     },
     {
       "s": "머니투데이",
@@ -278,7 +269,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "zdnet.co.kr",
+      "s": "지디넷코리아",
       "t": "VTI 코리아, 기업 AI 에이전트 도입·운영 전략 제시…\"보안부터 성과까지\"",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ETzlkRzhPdlNMOGJxV2R4WHVNQUZSYXZDTmZhODlIY1BuaE5MeGM3cHFXd3JFbjB5UVZDZ01jdVk1TFdVY1ctcDJNZ1FvZzQ4UHBPZFpn?oc=5",
@@ -375,7 +366,7 @@
       "m": "09. 15. AM 03:18",
       "ts": 1789442306000,
       "_policy": true,
-      "fullText": ""
+      "fullText": "Google News"
     },
     {
       "s": "IT조선",
@@ -386,6 +377,15 @@
       "ts": 1789423200000,
       "_policy": true,
       "fullText": "Google News"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "d": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "m": "09. 14. PM 03:00",
+      "ts": 1789398052000,
+      "fullText": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX Perplexity’s local agent platform now supports Windows RTX PCs, giving more users a way to run private AI workflows without cloud credits. September 14, 2026 by Gerardo Delgado 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information across files and handle recurring work. Sensitive information stays on device, and locally completed work doesn’t consume Perplexity Computer credits. Users can also orchestrate work up to cloud models for more advanced research and reasoning. Today, Perplexity is adding Portable Computer in the Perplexity app for Windows on compatible NVIDIA GeForce RTX PCs and NVIDIA RTX PRO Workstations , bringing powerful agentic AI to more Windows PC users. The release builds on existing support for NVIDIA DGX Spark systems and RTX PCs running Linux . Local Agents Powered by NVIDIA RTX Perplexity brings local and cloud AI together in one app, letting users work with sensitive files on their PCs and take advantage of Computer’s built-in tools such as the built-in browser and proprietary SPACE sandbox. For tasks that call for more advanced reasoning, Portable Computer can also identify when a task needs cloud support, asking the user for permission before sending information off-device. The app simplifies setup with a local model, such as Qwen 3.8 27B, that is post-trained to work with Perplexity Computer and optimized for NVIDIA RTX GPUs. Users can put the agent to work without having to research models or configure the complex software stack typically required to run local AI. Connectors for Microsoft Outlook, O"
     }
   ]
 }

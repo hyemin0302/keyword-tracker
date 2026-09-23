@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T07:13:55.943Z",
+  "updatedAt": "2026-09-23T12:55:05.868Z",
   "data": {
     "207940": {
       "name": "삼성바이오로직스",
@@ -56,15 +56,15 @@
         "2026-09-22",
         "2026-09-23"
       ],
-      "volume": 37069,
+      "volume": 38947,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "63조 3,723억",
-        "per": "37.82배",
-        "pbr": "7.57배",
-        "cnsPer": "33.81배",
+        "marketCap": "63조 5,575억",
+        "per": "37.93배",
+        "pbr": "7.59배",
+        "cnsPer": "33.91배",
         "divYield": "N/A",
         "foreignRatio": "13.21%",
         "high52w": "1,987,000",
@@ -81,6 +81,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260923",
+            "foreigner": -7120,
+            "institution": -6886,
+            "individual": 13835,
+            "foreignRatio": "13.19%"
+          },
           {
             "date": "20260922",
             "foreigner": 2375,
@@ -143,22 +150,15 @@
             "institution": -27651,
             "individual": 6586,
             "foreignRatio": "13.19%"
-          },
-          {
-            "date": "20260909",
-            "foreigner": 5096,
-            "institution": -5602,
-            "individual": 555,
-            "foreignRatio": "13.14%"
           }
         ],
         "sum5d": {
-          "foreigner": 3241,
-          "institution": -20136
+          "foreigner": 658,
+          "institution": -28704
         },
         "sum10d": {
-          "foreigner": 34793,
-          "institution": -55744
+          "foreigner": 22577,
+          "institution": -57028
         }
       },
       "consensus": null
@@ -224,67 +224,6 @@
       "investorFlow": null,
       "consensus": null
     },
-    "DHR": {
-      "name": "Danaher Corporation",
-      "px": 221.09,
-      "dayChange": 2.43,
-      "periodChange": 0.34,
-      "prices": [
-        215.11,
-        215.97,
-        215.36,
-        215.68,
-        216.07,
-        213.56,
-        206.93,
-        209.91,
-        211.03,
-        207.66,
-        205.23,
-        204.85,
-        200.53,
-        200.14,
-        203.25,
-        209.36,
-        208.36,
-        212.5,
-        211.81,
-        215.84
-      ],
-      "dates": [
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28",
-        "2026-08-31",
-        "2026-09-01",
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-08",
-        "2026-09-09",
-        "2026-09-10",
-        "2026-09-11",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-17",
-        "2026-09-18",
-        "2026-09-21"
-      ],
-      "volume": 4632925,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 242.8,
-        "low52w": 160.93,
-        "volume": 4632925
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "TMO": {
       "name": "Thermo Fisher Scientific Inc",
       "px": 658.52,
@@ -342,6 +281,67 @@
         "high52w": 663.57,
         "low52w": 435.27,
         "volume": 2103278
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "DHR": {
+      "name": "Danaher Corporation",
+      "px": 221.09,
+      "dayChange": 2.43,
+      "periodChange": 0.34,
+      "prices": [
+        215.11,
+        215.97,
+        215.36,
+        215.68,
+        216.07,
+        213.56,
+        206.93,
+        209.91,
+        211.03,
+        207.66,
+        205.23,
+        204.85,
+        200.53,
+        200.14,
+        203.25,
+        209.36,
+        208.36,
+        212.5,
+        211.81,
+        215.84
+      ],
+      "dates": [
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21"
+      ],
+      "volume": 4632925,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 242.8,
+        "low52w": 160.93,
+        "volume": 4632925
       },
       "investorFlow": null,
       "consensus": null
@@ -462,15 +462,15 @@
         "2026-09-22",
         "2026-09-23"
       ],
-      "volume": 286497,
+      "volume": 315959,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "41조 3,128억",
-        "per": "27.04배",
-        "pbr": "2.27배",
-        "cnsPer": "26.09배",
+        "marketCap": "41조 4,291억",
+        "per": "27.12배",
+        "pbr": "2.28배",
+        "cnsPer": "26.16배",
         "divYield": "0.40%",
         "foreignRatio": "25.19%",
         "high52w": "258,500",
@@ -487,6 +487,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20260923",
+            "foreigner": -4112,
+            "institution": -4646,
+            "individual": 8470,
+            "foreignRatio": "25.19%"
+          },
           {
             "date": "20260922",
             "foreigner": -61291,
@@ -549,22 +556,15 @@
             "institution": -323786,
             "individual": 65696,
             "foreignRatio": "25.29%"
-          },
-          {
-            "date": "20260909",
-            "foreigner": -2107,
-            "institution": -40255,
-            "individual": -19194,
-            "foreignRatio": "25.25%"
           }
         ],
         "sum5d": {
-          "foreigner": -236000,
-          "institution": 185280
+          "foreigner": -147645,
+          "institution": 133323
         },
         "sum10d": {
-          "foreigner": 162537,
-          "institution": -548901
+          "foreigner": 160532,
+          "institution": -513292
         }
       },
       "consensus": null

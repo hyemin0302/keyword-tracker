@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-29T19:32:20.753Z",
+  "updatedAt": "2026-09-29T23:22:45.586Z",
   "data": {
     "AAPL": {
       "name": "애플",
-      "px": 330.478,
-      "dayChange": -2.34,
-      "periodChange": 4.3,
+      "px": 329.4,
+      "dayChange": -2.66,
+      "periodChange": 3.96,
       "prices": [
         316.85,
         325.13,
@@ -27,7 +27,7 @@
         335.92,
         341.07,
         338.4,
-        330.48
+        329.4
       ],
       "dates": [
         "2026-08-31",
@@ -52,94 +52,23 @@
         "2026-09-28",
         "2026-09-29"
       ],
-      "volume": 23053198,
+      "volume": 37773928,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 345.34,
         "low52w": 243.42,
-        "volume": 23053198
+        "volume": 37773928
       },
       "investorFlow": null,
       "consensus": null
     },
-    "TSM": {
-      "name": "TSMC",
-      "px": 458.64,
-      "dayChange": 1.27,
-      "periodChange": 10.43,
-      "prices": [
-        415.32,
-        414,
-        415.5,
-        417.01,
-        428.91,
-        439,
-        435.36,
-        428.03,
-        433.24,
-        418.01,
-        413.75,
-        417.72,
-        430.26,
-        434.67,
-        445.14,
-        452,
-        446.57,
-        451.15,
-        450.61,
-        452.88,
-        458.64
-      ],
-      "dates": [
-        "2026-08-31",
-        "2026-09-01",
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-08",
-        "2026-09-09",
-        "2026-09-10",
-        "2026-09-11",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-17",
-        "2026-09-18",
-        "2026-09-21",
-        "2026-09-22",
-        "2026-09-23",
-        "2026-09-24",
-        "2026-09-25",
-        "2026-09-28",
-        "2026-09-29"
-      ],
-      "volume": 7292184,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 479,
-        "low52w": 266.82,
-        "volume": 7292184
-      },
-      "investorFlow": null,
-      "consensus": {
-        "targetMean": 552.2594,
-        "targetHigh": 700,
-        "targetLow": 440,
-        "analysts": 20,
-        "recommendation": "strong_buy",
-        "earningsDate": "2026-10-15",
-        "source": "yahoo"
-      }
-    },
     "MU": {
       "name": "마이크론",
-      "px": 1071.03,
-      "dayChange": 1.62,
-      "periodChange": 11.71,
+      "px": 1065.08,
+      "dayChange": 1.05,
+      "periodChange": 11.09,
       "prices": [
         958.73,
         933.44,
@@ -161,7 +90,7 @@
         1080.53,
         1082.28,
         1053.98,
-        1071.03
+        1065.08
       ],
       "dates": [
         "2026-08-31",
@@ -186,14 +115,14 @@
         "2026-09-28",
         "2026-09-29"
       ],
-      "volume": 14199582,
+      "volume": 18673307,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 1255,
         "low52w": 163.96,
-        "volume": 14199582
+        "volume": 18673307
       },
       "investorFlow": null,
       "consensus": {
@@ -203,6 +132,77 @@
         "analysts": 46,
         "recommendation": "strong_buy",
         "earningsDate": "2026-09-30",
+        "source": "yahoo"
+      }
+    },
+    "TSM": {
+      "name": "TSMC",
+      "px": 456.94,
+      "dayChange": 0.9,
+      "periodChange": 10.02,
+      "prices": [
+        415.32,
+        414,
+        415.5,
+        417.01,
+        428.91,
+        439,
+        435.36,
+        428.03,
+        433.24,
+        418.01,
+        413.75,
+        417.72,
+        430.26,
+        434.67,
+        445.14,
+        452,
+        446.57,
+        451.15,
+        450.61,
+        452.88,
+        456.94
+      ],
+      "dates": [
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29"
+      ],
+      "volume": 9876633,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 479,
+        "low52w": 266.82,
+        "volume": 9876633
+      },
+      "investorFlow": null,
+      "consensus": {
+        "targetMean": 552.2594,
+        "targetHigh": 700,
+        "targetLow": 440,
+        "analysts": 20,
+        "recommendation": "strong_buy",
+        "earningsDate": "2026-10-15",
         "source": "yahoo"
       }
     },
@@ -260,14 +260,14 @@
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,607조 7,266억",
-        "per": "12.34배",
-        "pbr": "3.20배",
-        "cnsPer": "5.72배",
+        "marketCap": "1,593조 1,109억",
+        "per": "12.22배",
+        "pbr": "3.17배",
+        "cnsPer": "5.67배",
         "divYield": "0.61%",
-        "foreignRatio": "46.52%",
+        "foreignRatio": "46.47%",
         "high52w": "380,000",
-        "low52w": "83,400",
+        "low52w": "84,100",
         "consensus": {
           "targetMean": 493864,
           "targetHigh": null,
@@ -285,7 +285,7 @@
             "foreigner": -2508369,
             "institution": 53759,
             "individual": 422277,
-            "foreignRatio": "46.48%"
+            "foreignRatio": "46.47%"
           },
           {
             "date": "20260928",
@@ -424,14 +424,14 @@
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,307조 5,813억",
-        "per": "7.98배",
-        "pbr": "4.83배",
-        "cnsPer": "5.10배",
+        "marketCap": "1,289조 3,190억",
+        "per": "7.87배",
+        "pbr": "4.76배",
+        "cnsPer": "5.02배",
         "divYield": "0.17%",
-        "foreignRatio": "49.94%",
+        "foreignRatio": "49.82%",
         "high52w": "3,002,000",
-        "low52w": "347,500",
+        "low52w": "351,000",
         "consensus": {
           "targetMean": 3296818,
           "targetHigh": null,
@@ -599,7 +599,7 @@
       0.95,
       1.47,
       0.68,
-      0.56
+      0.52
     ]
   },
   "etfs": null,

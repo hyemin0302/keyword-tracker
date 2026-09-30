@@ -1,14 +1,78 @@
 {
-  "updatedAt": "2026-09-30T08:53:00.678Z",
+  "updatedAt": "2026-09-30T15:36:31.722Z",
   "count": 40,
   "stats": {
-    "today": 7,
-    "yesterday": 27,
-    "weekAvg": 5.7,
-    "sources": 26,
-    "heat": "warm"
+    "today": 12,
+    "yesterday": 17,
+    "weekAvg": 5.6,
+    "sources": 30,
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "동아일보",
+      "t": "HSAD, AI에이전트 통해 20여개사 프로젝트 수주",
+      "d": "HSAD는 사내 인공지능 전환(AX) 역량을 바탕으로 20여 개 기업 프로젝트를 확보했다고 30일 밝혔다. 앞서 HSAD는 자체 인공지능(AI) 에이전트 플랫폼 ‘대시’를 통해 임직원이 자신의 업무에 필요한 AI를 직접 만들어 활용할 수 있도록 지원해 왔다. 이 가운데 활용성과 확장 가능성을 검증한 48개 이상을 전 사 공통 에이전트 활용 모델로 발굴했다. 또 이렇게 확보한 AI 기반 소비자 데이터를 마케팅에 활용해 20여 개 기업으로부터 프로젝트를 얻는 성과를 거뒀다고 설명했다.",
+      "u": "https://www.donga.com/news/Economy/article/all/20260930/134763000/2",
+      "m": "09. 30. PM 03:30",
+      "ts": 1790782200000,
+      "fullText": "이소정 기자 구독"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "FTC Probing OpenAI, Anthropic Over Product Safety Concerns",
+      "d": "The Federal Trade Commission is scrutinizing OpenAI, Anthropic PBC and other artificial intelligence companies about the safety of their products amid high-profile cybersecurity incidents, according to a person familiar with the matter.",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-30/ftc-probing-openai-and-anthropic-over-product-safety-concerns",
+      "m": "09. 30. PM 03:01",
+      "ts": 1790780485000,
+      "fullText": ""
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "d": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced [&#823",
+      "u": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "m": "09. 30. PM 03:00",
+      "ts": 1790780400000,
+      "fullText": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI NVIDIA Vera Rubin NVL72 and Vera CPU on CoreWeave accelerate agentic AI for companies including Cognition, extending a nearly decade-long run on NVIDIA infrastructure that stays productive, durable and fungible across generations. September 30, 2026 by Stuart Pitts 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced availability of NVIDIA Vera Rubin NVL72 systems with Spectrum-X 102.4T Ethernet networking. Cognition, the applied AI lab behind the Devin AI software engineer, is the first customer running production workloads on Vera Rubin. CoreWeave will also offer NVIDIA Vera , the first CPU built for AI agents. In addition, CoreWeave launched CoreWeave Forge, a connected environment for training, evaluating and improving models and agents on NVIDIA accelerated computing. “NVIDIA accelerated computing delivers value across generations,” said Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA. “CoreWeave’s NVIDIA V100 GPUs are still running customer workloads nearly a decade after Volta launched, even as CoreWeave brings Vera Rubin NVL72 into production. That’s the strength of the NVIDIA platform: infrastructure that keeps earning for years, and the flexibility to put the right GPU on the right workload. ” Cognition Runs on Vera Rubin NVL72 With 4.8x Higher Token Throughput Cognition runs training, reinforcement learning and production inference for Devin on CoreWeave. The company scaled to thousands of GPUs on CoreWeave in nine months, powering Co"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "d": "Founded by Apache Flink veterans, the startup is taking on workflow heavyweight Temporal.",
+      "u": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+      "m": "09. 30. PM 02:27",
+      "ts": 1790778431000,
+      "fullText": "When Stephen Ewen co-founded Restate in 2022 to provide durable workflow infrastructure, he couldn’t have anticipated how valuable such an offering would become for managing AI agent processes. The Berlin-based startup had set out to build an execution engine that made multi-step workflows resilient to crashes and network interruptions &#8212; something that made it a fit for the agentic era. “It never was built for agents in the beginning, but it just happened to be a perfect match for all these problems that agents surface,” Ewen told TechCrunch. Ensuring durability is especially critical for agent workflows, which run longer and take inherently unpredictable paths compared to traditional software. “You need to make sure you track exactly what you do to make it reproducible and have a consistent outcome,” Ewen said. The explosion of AI agents has provided a powerful tailwind for the startup. Over the last few months, Restate has closed multiple six- and seven-figure customer contracts, according to Ewen. That momentum has led Restate to secure a $20 million Series A led by Singular with participation from Redpoint Ventures and Capital One Ventures. The fresh capital will help Restate take on Temporal, the heavyweight in the durable infrastructure space. Temporal, which was founded in 2019, announced a $550 million Series E at a $12.55 billion valuation earlier this month. Despite being a much smaller provider of increasingly important technology, Restate has already managed to attract high-profile customers, including vibe coding platform Replit. Instead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers. This architecture allows Restate to be exceptionally fast and lightweight, Ewen said. Although many companies tend to use durability engines for so-called heavy-weight workflows, Restate is trying to change this with its more efficient and cost-effective system. Ewen s"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Valor, Atreides Bet on AI Hardware Venture Flow Engineering",
+      "d": "Valor Equity Partners and Atreides Management led a $50 million investment into agentic hardware company Flow Engineering, as the race to automate the physical world heats up.",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-30/valor-atreides-bet-on-ai-hardware-venture-flow-engineering",
+      "m": "09. 30. PM 01:00",
+      "ts": 1790773200000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "DoorDash Unveils Text-to-Order AI Agent That Works With Apple's iMessage",
+      "d": "DoorDash Inc. unveiled an artificial intelligence agent for ordering food that works inside Apple Inc.'s Messages app, stepping up efforts to integrate personal AI assistants ahead of its e-commerce rivals.",
+      "u": "https://www.bloomberg.com/news/articles/2026-09-30/doordash-unveils-text-to-order-ai-agent-that-works-with-apple-s-imessage",
+      "m": "09. 30. PM 12:57",
+      "ts": 1790773020000,
+      "fullText": ""
+    },
+    {
+      "s": "v.daum.net",
+      "t": "AI가 인류 멸망?…빅테크 '자체 통제' 규제 합의",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5SFkwRVJOTnJTSTlUMW9KVHRDZmtNVkpEQUtFdjBVeFRvQkRtbFdCeVI0M1RRNmJpWXhXV0hFVVRtRXR3NWUwNHpPYUxHb1U?oc=5",
+      "m": "09. 30. AM 10:59",
+      "ts": 1790765940000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
     {
       "s": "삼성뉴스룸",
       "t": "삼성전자, ‘에이전틱 시프트’ 주제로 삼성 AI 포럼 2026 개최",
@@ -19,25 +83,7 @@
       "fullText": "삼성전자, &#8216;에이전틱 시프트&#8217; 주제로 삼성 AI 포럼 2026 개최 2026/09/30 AI 요약 새로운 뉴스룸 AI 기능을 살펴보세요! 닫기 --> AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성전자는 30일 서울 서초구 삼성전자 서초사옥에서 AI 분야의 세계적 석학과 업계 전문가들이 참석해 최신 연구 성과와 적용 사례를 공유하는 &#8216;삼성 AI 포럼 2026&#8217;을 개최했다. 올해로 10회째를 맞는 이번 포럼은 &#8216;The Agentic Shift: From Intelligence to Impact(에이전틱 시프트: 지능에서 임팩트로)&#8217;를 주제로, 에이전틱 AI(Agentic AI)와 피지컬 AI(Physical AI) 등 AI 기술을 실제 업무와 성과로 연결하는 방안에 대해 논의했다. 포럼에는 국내 AI 대학원 교수와 연구원 100명과 삼성전자 AI 분야 임직원 300명 등 400명이 참석했으며, 유튜브를 통해 온라인으로 생중계됐다. 삼성전자 전영현 대표이사 부회장은 환영사를 통해 &#8220;에이전틱 AI는 단순한 기술 혁신을 넘어 일하는 방식과 조직 문화의 근본적인 변화를 가져올 것&#8221;이라며 &#8220;글로벌 AI 리더들과 함께 우리가 나아갈 방향을 모색하고 실질적인 AI 기술 혁신을 추진해 나갈 것&#8221;이라고 밝혔다. 오픈AI·AWS의 AI 전문가와 저명한 연구자의 강연… AI의 미래 논의 오전 세션에서는 글로벌 AI 생태계를 이끄는 빅테크 기업 전문가와 석학들의 기조 강연이 이어졌다. 오픈AI의 리처드 호(Richard Ho) 하드웨어담당 부사장은 거대언어모델(LLM)을 기반으로 자율 의사결정을 내리는 에이전틱 AI가 기업과 산업 전반에 가져올 변화에 대해 소개했다. 이어서 AWS의 아시아 태평양 및 일본지역 AI 기술 리더인 데이비드 그린(David Green)은 기업 환경에서 에이전틱 AI를 안전하고 경제적으로 구현하기 위한 보안 및 거버넌스 전략을 제시해 큰 주목을 받았다. 피지컬 AI 분야의 저명한 연구자인 란제이 크리슈나(Ranjay Krishna) 워싱턴대 교수는 시각-언어 모델의 추론 한계를 극복하고 소형 모델로도 고성능 로보틱스 AI를 구현할 수 있는 새로운 패러다임을 제시했으며, 생성형 AI와 언어모델 분야의 선도적인 연구자인 김윤형 삼성리서치 상무(MIT 교수 겸임)는 에이전트의 역량을 강화하고 적용 범위를 확장하기 위한 차세대 &#8216;에이전틱 인텔리전스(Agentic Intelligence)&#8217; 아키텍처 혁신 방안을 소개했다. DX/DS 2개 트랙으로 나눠, AI 기술 혁신과 실제 활용 사례 소개 오후 세션은 2개 트랙으로 나눠 DX부문의 AI Technology 트랙과 DS부문의 AX Innovation 트랙에서 구체적인 연구 성과와 적용 사례를 다뤘다. AI Technology 트랙에서는 ▲효율적인 AI(Efficient AI) ▲피지컬 AI(Physical AI) ▲지속 학습(Continual Learning)에 대한 발표가 진행됐다. &#8216;효율적인 AI&#8217; 세션에서는 최적의 사용자 경험을 구현하기 위한 디바이스 설계 원칙과 최적화 기술, 온디바이스 AI 플랫폼(On-device AI Platform)이 적용된 제품 사례를 소개했다. &#8216;피지컬 AI&#8217; 세션에서는 피지컬 AI의 돌파구 중 하나로 평가되고 있는 월드 모델(World Model) 및 로봇 기반 모델(Robot Foundation Model)의 가능성과 한계, 미래 전망과 함께 삼성전자의 관련 연구성과를 소개했다. ※ 월드 모델(World Model): 현실 세계의 작동 원리를 학습해 다음에 일어날 상황을 예측하고 행동의 결과를 미리 시뮬레이션 하는 AI 모델 &#8216;지속 학습&#8217; 세션에서는 이전 지식을 망각하지 않으면서 새로운 정보를 빠르게 학습하고 신뢰성 있게 기억을 편집하는 &#8216;사용자 맞춤형 AI(Personalizing AI)&#8217; 기술과 함"
     },
     {
-      "s": "조선일보",
-      "t": "AMD, ‘에이전틱 PC’ 출시… “클라우드 없이 3000억개 매개변수 AI 구동”",
-      "d": "AMD가 클라우드에 연결하지 않고도 최대 3000억개 이상의 매개변수를 가진 인공지능(AI) 모델을 구동할 수 있는 ‘에이전틱 PC’를 출시했다. 최대 192기가바이트(GB)의 통합 메모리를 활용해 여러 AI 에이전트가 연속적으로 작업하는 복잡한 업무를 PC 안에서 처리하도록 한 것이 특징이다. AMD는 ‘라이젠 AI 맥스+ 프로 400(Ryzen AI M",
-      "u": "https://www.chosun.com/economy/tech_it/2026/09/30/GM3TMZRVHEZDQNBQMFQTSZBSMI/",
-      "m": "09. 30. AM 08:29",
-      "ts": 1790756947000,
-      "fullText": ""
-    },
-    {
-      "s": "전자신문",
-      "t": "케이에스넷, '솔라나 서밋'서 AI 결제 인프라 실증 공개",
-      "d": "케이에스넷은 30일 서울 여의도에서 열린 '솔라나 서밋 코리아'에서 AI가 구매와 결제를 보조하는 차세대 결제 인프라 실증(PoC) 결과를 발표했다. '코리아 블록체인 위크(KBW) 2026'의 공식 서브 행사로 열린 서밋에는 국내외 금융기관, 핀테크 기업, 정책·규제 당국 관계자 등이 참석해 디지털자산 결제 인프라와 금융권 활용 방안을 논의했다. 이날 김성현 케이에스넷 블록체인사업팀 팀장은 패널토론에 참여해 AI에이전트가 주유소를 찾고 결제까",
-      "u": "https://www.etnews.com/20260930000426",
-      "m": "09. 30. AM 07:51",
-      "ts": 1790754690000,
-      "fullText": "경제 금융 케이에스넷, '솔라나 서밋'서 AI 결제 인프라 실증 공개 발행일 : 2026-09-30 16:51 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 케이에스넷(KSNET)이 30일 '솔라나 서밋 코리아'에서 AI가 구매와 결제를 보조하는 차세대 결제 인프라 실증(PoC) 결과를 발표했다. (사진=케이에스넷) 케이에스넷은 30일 서울 여의도에서 열린 '솔라나 서밋 코리아'에서 AI가 구매와 결제를 보조하는 차세대 결제 인프라 실증(PoC) 결과를 발표했다. '코리아 블록체인 위크(KBW) 2026'의 공식 서브 행사로 열린 서밋에는 국내외 금융기관, 핀테크 기업, 정책·규제 당국 관계자 등이 참석해 디지털자산 결제 인프라와 금융권 활용 방안을 논의했다. 이날 김성현 케이에스넷 블록체인사업팀 팀장은 패널토론에 참여해 AI에이전트가 주유소를 찾고 결제까지 연결하는 모빌리티 결제 시나리오를 소개했다. 이번 PoC에는 AP2(이용자 승인·서명 절차), x402(기계 간 결제 요청·전송 규격), 솔라나 네트워크가 적용됐다. 차량 내 AI 에이전트가 주유소별 가격, 거리, 대기 정보 등을 비교하고, 이용자가 최종 선택과 승인을 마치면 솔라나 테스트망에서 달러 기반 스테이블코인 USDC 결제 구조가 작동하는지 검증했다. 이용자가 미리 결제를 마치고 주유소에 도착해 간편하게 바로 주유할 수 있는 방식이다. 데이터·API 구매 등 소액 결제 영역에서 주로 논의되던 기계 간 결제를 주유와 같은 실물 상거래로 확장할 수 있는 가능성을 확인했다. 지급결제 사업자로서의 역할도 제시했다. 블록체인으로 결제 요청과 전송이 이뤄지더라도 실제 상거래에는 결제 확인, 정산, 환불 등 운영 절차가 뒤따라야 한다. 케이에스넷은 자체 결제 시스템 KSPAY가 결제 검증, 영수증 처리, 정산 요청 등 후속 절차를 담당하고 가맹점은 가상자산을 직접 보유하지 않고도 원화로 정산받는 구조를 제시했다. 케이에스넷은 향후 전기차 충전, 편의점, 유통 등 다양한 오프라인 상거래 영역으로 실증을 확대할 계획이다. 아울러 여러 블록체인에서 발생한 결제의 원화 정산, 정산·환불 정책, 환율 변동 대응 등 전자결제대행(PG) 사업자 관점의 검증도 이어갈 방침이다. 박한국 케이에스넷 대표는 “AI 에이전트가 구매와 결제를 보조하는 환경에서도 가맹점과 소비자를 안전하게 잇는 결제 인프라의 역할은 필수적”이라며 “30만 가맹점 네트워크와 검증된 결제망 운영 역량을 바탕으로 규제 환경과 안전장치를 고려한 미래 결제 인프라 기술을 신중하게 검증해 나가겠다”고 밝혔다. 김신영 기자 spicyzero@etnews.com"
-    },
-    {
-      "s": "한국경제",
+      "s": "한경 IT",
       "t": "\"속초 호텔 추천해줘\" 챗GPT와 대화 알고 보니…'깜짝 반전'",
       "d": "",
       "u": "https://www.hankyung.com/article/202609304021g",
@@ -46,16 +92,17 @@
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 \"개천절 연휴 속초 갈까?\"…광고주들 눈독 들이는 '이 대화' 입력 2026.09.30 16:24 수정 2026.09.30 16:24 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 홍민성 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 오픈AI, 챗GPT 광고 외부 플랫폼 연동 확대 200일 안돼 연환산 10억弗&hellip;광고주 수만곳 대화 맥락 활용&hellip;검색광고와 차별화 시도 강원 속초 해수욕장 / 사진=연합뉴스 오픈AI가 챗GPT를 광고 플랫폼으로 빠르게 키우고 있다. 광고 도입 200일도 안 돼 연환산 매출 10억달러를 넘어선 데 이어 이달에는 아마존 광고, 허브스팟, 쇼피파이 등 외부 플랫폼과의 연결을 넓혔다. 검색어뿐 아니라 대화에서 드러나는 이용자의 예산과 사용 목적 등 구체적인 조건까지 광고 선택에 활용하는 게 특징이다. 대화 맥락 활용하는 챗GPT 광고 30일 IT(정보기술) 업계에 따르면 오픈AI는 지난달 광고주&middot;대행사 대상 웨비나에서 이용자가 무엇을 살지 정하기까지 챗GPT와 주고받는 대화를 광고 기회로 내세웠다. 여러 검색&middot;쇼핑 사이트를 오가며 하던 상품 탐색과 비교가 하나의 대화 안에서 이뤄질 수 있다는 설명이다. 가령 개천절 연휴에 강원 속초에서 묵을 곳을 찾는다면 검색창에는 &quot;속초 호텔&quot;이나 &quot;속초 숙소 추천&quot;을 입력하는 식이다. 챗GPT에는 &quot;부모님과 속초에 가는데 대형마트와 가깝고 밤에 조용하면서 1박 20만원을 넘지 않는 호텔&quot;을 찾아달라고 할 수 있다. 같은 숙소를 찾더라도 대화에는 동행인과 예산, 원하는 조건이 함께 담긴다. 광고주는 자사 상품이 어떤 상황에 맞는지 알려주는 &#39;맥락 힌트(Context Hint)&#39;를 입력할 수 있다. 특정 검색어뿐 아니라 상품의 용도와 이용자의 필요를 광고 시스템에 전달하는 정보다. 광고는 챗GPT 답변 하단의 별도 &#39;스폰서드(Sponsored)&#39; 영역에 카드 형태로 표시되며, 노출 대상은 무료&middot;Go 요금제를 쓰는 성인이다. 오픈AI가 웨비나에서 공개한 자료를 보면 상품 관련 이용은 상품 발견 31%, 상품 비교 22%, 단일 상품 평가 23% 등 세 단계에 76%가 몰렸다. 구매 단계는 13%였다. 광고주에게는 이용자가 구매할 상품을 정하기 전에 브랜드를 알릴 기회가 되는 셈이다. 이용자 대화가 광고주에게 넘어가는 것은 아니라는 게 오픈AI 설명이다. 광고주는 채팅과 채팅 기록, 메모리, 이름, 이메일에 접근할 수 없고 조회수&middot;클릭수 등 집계된 광고 성과 정보를 받는다. 다만 광고 개인화를 허용한 이용자의 과거 대화와 메모리, 광고 반응 등 일부 정보는 챗GPT 내부에서 광고를 고르는 데 활용될 수 있다. 한국도 정식 서비스&hellip;광고 집행 창구 확대 생성형 인공지능(AI)을 활용해 제작된 이미지입니다. 챗GPT 광고의 연환산 매출은 지난달 말 10억달러를 넘어섰다. 연환산 매출은 당시 매출 속도가 1년간 이어진다고 가정해 계산한 수치로, 실제 누적 매출과는 다르다. 광고주는 수만 곳으로 늘었고 챗GPT 주간 활성 이용자는 10억명을 넘어섰다. 광고 제공 지역은 60개국 이상이다. 한국에서는 지난 6월 19일 파일럿을 시작해 8월 11일 정식 서비스로 전환했다. 국내 광고주는 광고 관리자에서 도달&middot;클릭&middot;전환 등 목적에 맞춰 캠페인을 직접 운영하고, 전환 측정 도구로 성과를 확인할 수 있다. KT그룹 디지털마케팅 회사 나스미디어는 국내 파일럿 초기부터 약 3개월간 게임&middot;교육&middot;금융&middot;식음료&middot;패션 등 여러 업종의 광고를 운영했다. 회사 측은 최근 보고서에서 시험 집행을 마친 뒤 광고를 이어가는 사례가 늘고 있다고 밝혔다. 일부 광"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "OpenAI Targets $30 Billion Funding at $1.4 Trillion Value",
-      "d": "OpenAI aims to raise at least $30 billion from investors in a new round of funding, according to people familiar with the matter. The company is seeking a valuation of around $1.4 trillion, not including the money raised, said the people. This comes after the artificial intelligence startup pushed back its plans for an initial public offering. Bloomberg's Neil Campling reports. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-09-30/openai-targets-30b-funding-at-1-4t-value-video",
-      "m": "09. 30. AM 05:55",
-      "ts": 1790747734000,
-      "fullText": ""
+      "s": "반론보도닷컴",
+      "t": "뉴스테크 이니셔티브, '뉴스룸의 AI 에어전트 활용 전략 워크숍' 개최",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FSEh3MW8wWkdyZG5ORk0xdFI0VlhxQVk1NTJhN2Z4Z3dtdURfMmVac3N3WDZid0plRzRuS08zaVB3MXgyNDlvMUVPWDRzVnZYWld1WFNmRGE3WFgzdzV2RHFodFlueHJxSkZqUdIBcEFVX3lxTE55eXNWNE1PVU1aaEtBX2k0ZEJvQng4XzFsZktfMEgzTEdueFBTQ2RMSHNheW9hSXNLd2UxN29CNWdZMlJubnpTNTRNa3d0bVg2SXVrWVhSMUlpSkE2cFBJanZDZUFRQXJ6UThEb3hoVWg?oc=5",
+      "m": "09. 30. AM 05:37",
+      "ts": 1790746639000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
-      "s": "etnews.com",
+      "s": "전자신문",
       "t": "“회의실 예약해줘” 한마디면 끝…서울시, 행정지원 AI 에이전트 구축",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10eFdLSld5ZjQwWWFlOUpmVWJQVUdHME85VmhvZ0Vrekw3WElMRU5OdTFfT0paZlBRZE5RVTB2dnJEaGlJSEczNTd2c0xQZw?oc=5",
@@ -65,7 +112,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "etnews.com",
+      "s": "전자신문",
       "t": "HSAD, AI 에이전트로 프로젝트 20개 수주",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wNnNGQzNUU1BmbUdnbVV0SU0ya2JwSnRLQWFKZEpRWmdkWFRqRzJ4ZmlhR0hXbkJzWEdrQ1ZmSEF4anN4MWcxbFlKTmlkUQ?oc=5",
@@ -100,16 +147,7 @@
       "u": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
       "m": "09. 29. PM 10:20",
       "ts": 1790720459000,
-      "fullText": "In Brief Posted: 3:20 PM PDT · September 29, 2026 Image Credits: Sean Gallup / Getty Images Julie Bort The internet is convinced Elon Musk&#8217;s xAI trolled OpenAI&#8217;s &#8216;Dots&#8217; launch On Tuesday, OpenAI launched a new product called Dots, an always-on AI agent with a bubbly, blobby avatar. While the colorful avatar might evoke a smile, the biggest laugh from the launch is (we imagine) being had by Elon Musk, the former OpenAI founder who left, launched competitor Grok, and unsuccessfully sued. That&#8217;s because the domain &#8220;dot.com&#8221; belongs to Musk&#8217;s xAI, and it currently redirects to the download page for xAI&#8217;s Grok chatbot app. According to the Whois domain owner registry, that domain name was just transferred in July. It is entirely possible that xAI bought the domain for normal domain-buying reasons. &#8220;Dot&#8221; could be a typo of &#8220;bot,&#8221; so it nabbed it to grab mistyped searches. We&#8217;ve reached out to xAI and asked. But xAI doesn&#8217;t own the &#8220;bot.com&#8221; name, nor does it own other obvious typo domains like &#8220;vot.com,&#8221; which is listed for sale. The internet&#8217;s theory is far funnier: that Musk (or his team) pulled off a prank, getting wind of OpenAI&#8217;s new product and its name and buying the domain name. In fact, anonymous X user and xAI watcher @birdabo (this person calls themselves &#8220;chief shitposting officer @SpaceXAI &#8220;) was first to spot the domain name in a now-viral post. Whatever the motivation, the circumstance is funny. And as for the &#8220;dots.com&#8221; domain, a more direct fit to the product name, it currently belongs to a long-defunct company. So if a petty revenge prank was really the motivation, grabbing that name, too, would be next level. AHAHAHAHAHAHAHAHAHAHAHA NO WAY. > OpenAI just announced Dots. > SpaceXAI bought https://t.co/WdFqpl07IQ it redirects straight to the Grok Bot download page. based lmao. pic.twitter.com/HF95hLF0T9 &mda"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Altman on OpenAI's IPO Plans, AI Agent Dots, AI Security",
-      "d": "OpenAI CEO Sam Altman talks about launching its new AI personal agent called Dots, which he says is a premium product. Altman also says the company will go public at some point, but it's being patient. He speaks to Bloomberg's Ed Ludlow in San Francisco. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video",
-      "m": "09. 29. PM 09:34",
-      "ts": 1790717653000,
-      "fullText": ""
+      "fullText": "In Brief Posted: 3:20 PM PDT · September 29, 2026 Image Credits: Sean Gallup / Getty Images Julie Bort The internet is convinced Elon Musk&#8217;s xAI trolled OpenAI&#8217;s &#8216;Dots&#8217; launch On Tuesday, OpenAI launched a new product called Dots, an always-on AI agent with a bubbly, blobby avatar. While the colorful avatar might evoke a smile, the biggest laugh from the launch is (we imagine) being had by Elon Musk, the former OpenAI founder who left, launched competitor Grok, and unsuccessfully sued. That&#8217;s because the domain &#8220;dot.com&#8221; belongs to Musk&#8217;s xAI, and it currently redirects to the download page for xAI&#8217;s Grok chatbot app. According to the Whois domain owner registry, that domain name was just transferred in July. It is entirely possible that xAI bought the domain for normal domain-buying reasons. &#8220;Dot&#8221; could be a typo of &#8220;bot,&#8221; so it nabbed it to grab mistyped searches. We&#8217;ve reached out to xAI and asked. But xAI doesn&#8217;t own the &#8220;bot.com&#8221; name, nor does it own other obvious typo domains like &#8220;vot.com,&#8221; which is listed for sale. The internet&#8217;s theory is far funnier: that Musk (or his team) pulled off a prank, getting wind of OpenAI&#8217;s new product and its name and buying the domain name. In fact, anonymous X user and xAI watcher @birdabo (this person calls themselves &#8220;chief shitposting officer @SpaceXAI &#8220;) was first to spot the domain name in a now-viral post. Whatever the motivation, the circumstance is funny. And as for the &#8220;dots.com&#8221; domain, a more direct fit to the product name, it currently belongs to a long-defunct company. So if a petty revenge prank was really the motivation, grabbing that name, too, would be next-level. AHAHAHAHAHAHAHAHAHAHAHA NO WAY. > OpenAI just announced Dots. > SpaceXAI bought https://t.co/WdFqpl07IQ it redirects straight to the Grok Bot download page. based lmao. pic.twitter.com/HF95hLF0T9 &mda"
     },
     {
       "s": "한경 IT",
@@ -127,79 +165,7 @@
       "u": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
       "m": "09. 29. PM 08:15",
       "ts": 1790712947000,
-      "fullText": "The focus of OpenAI&#8217;s Dev Day on Tuesday may have been on its agentic assistants known as Dots , or its new AI models , but combined, the AI company&#8217;s announcements pointed towards a bigger plan: a disruption of the traditional app store model. Taken together, today&#8217;s announcements turn ChatGPT itself into the place where software can be discovered, launched, and used by people and agents alike. In addition, OpenAI introduced a way for people to bring their ChatGPT identity with them, while also allowing them to use their existing AI allowance in third-party apps. This isn&#8217;t the first time OpenAI has experimented with how apps could operate within its familiar chatbot interface, but the current vision feels more fleshed out than before. For starters, the company is turning ChatGPT itself into a surface for launching apps. The chatbot, which the company says now has 1.2 billion weekly users, has yet to fully capitalize on its potential as a discovery mechanism for finding and using apps that work with AI. To change that, ChatGPT will begin to make app suggestions within the flow of conversation when it recognizes that a particular app could help the user complete their task. From there, the user will be able to connect the app and begin using it directly within ChatGPT. This is also aided by the expansion of ChatGPT&#8217;s plugin architecture, which now supports extensions. This allows app developers to build interactive panels where users can work with their tools while they’re chatting with ChatGPT. This essentially turns the apps and services that users would have previously used via the web or through a native desktop or mobile app into something that&#8217;s operated directly within ChatGPT. Developers that sign on with the system can build AI-native versions of their apps through ChatGPT, the same way they would through the open web or a mobile app store. As more and more discovery happens through AI chat, it&#8217;s a distribution chan"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-      "d": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
-      "u": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-      "m": "09. 29. PM 07:52",
-      "ts": 1790711557000,
-      "fullText": "In Brief Posted: 12:52 PM PDT · September 29, 2026 Image Credits: Kyle Grillot/Bloomberg / Getty Images Marina Temkin OpenAI reportedly in talks to raise $30B round at $1.4T valuation OpenAI is in talks with investors to raise at least $30 billion in a pre-IPO funding round at a valuation of roughly $1.4 trillion, Bloomberg reported on Tuesday. Investors are eager to pour more funds into the ChatGPT maker ahead of its anticipated public market debut next year. While Anthropic momentarily outpaced OpenAI at the start of the year, recent strategic refocus on key areas like coding has fueled a 70% jump in run-rate revenue since July, reaching $40 billion in August, according to the report. The company previously raised $122 billion in March at an $852 billion valuation. That funding round was supposed to be its last private raise before an IPO, which had been, until recently, expected to take place this year. However, CEO Sam Altman has now ruled out a public debut in 2026 to prioritize AI safety first. “I think it is unacceptable to be taking like a 10% chance of killing everybody by the end of the decade,” he recently told Fortune, in response to warnings from safety researchers about AI posing an existential risk to humanity. The new fundraising, if it transpires, will serve as a bridge round to the IPO, according to Bloomberg. OpenAI didn&#8217;t respond to TechCrunch&#8217;s request for comment. Topics AI , In Brief , IPO , OpenAI October 13 &#8211; 15 San Francisco Get 50% off a second pass The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem. BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Here&#8217;s why OpenAI is absent from Nvidia&#8217;s industry-wide effort to end rogue AI agents",
-      "d": "OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
-      "u": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
-      "m": "09. 29. PM 06:35",
-      "ts": 1790706900000,
-      "fullText": "When Nvidia announced on Monday a new consortium of more than 100 companies dedicated to solving rogue AI agents, there was one name notably missing: OpenAI. While OpenAI wasn&#8217;t the only Big Tech player that didn&#8217;t sign on — Amazon, Google, and Apple haven&#8217;t joined either — it was the most obvious missing player, especially because Anthropic is a supporter. However, despite OpenAI&#8217;s lack of a public pledge to the consortium, which presumably means that each company will use and sell some version of the technology and contribute features back to the project, an OpenAI spokesperson told TechCrunch that the company is supportive of Nvidia&#8217;s work. The new effort, dubbed Nvidia&#8217;s Open Agent Safety Platform, is Nvidia&#8217;s attempt to spread its homegrown, and largely open source, AI agent-security tech throughout the AI ecosystem as a direct response to the types of ongoing rogue AI agent incidents frontier labs like Anthropic and OpenAI have disclosed. Nvidia CEO Jensen Huang has been calling rogue AIs an ordinary engineering problem that can be solved like any other tech issue. The Open Agent Safety Platform is Huang putting his money where his mouth is. OpenAI is working with Nvidia on agent security, including on one of the key bits of software that&#8217;s part of this platform: OpenShell. OpenShell is open source software that creates a sandbox specifically designed to keep agents from escaping. While it is still curious that OpenAI didn&#8217;t simply become a supporter of the initiative like its archrival Anthropic did, the fact that the frontier AI lab is supporting the effort is good news. That&#8217;s because OpenAI, in particular, could benefit from this tech, at least according to Hugging Face founder and CEO Clem Delangue (who just sold his company to Nvidia for $12.9 billion earlier this month ). &#8220;From what we know (take with a grain of salt, we need much more transparency!), if @OpenAI had been running this on t"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT&#8217;s own office suite",
-      "d": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-      "u": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-      "m": "09. 29. PM 05:45",
-      "ts": 1790703951000,
-      "fullText": "OpenAI has been a close partner of Microsoft from the jump, but the AI lab is increasingly going after the company&#8217;s bread and butter, workplace software, with new features that closely resemble an office software suite like Microsoft&#8217;s. At its DevDay developer conference in San Francisco on Tuesday, OpenAI announced several new ChatGPT features designed for office workers. Most notably, OpenAI launched a feature called Space, a shared workspace inside ChatGPT where co-workers can collaborate with the chatbot and with their own Dots, OpenAI&#8217;s newly launched AI agent personas (that can carry out tasks on a user&#8217;s behalf), on a range of work tasks. &#8220;Your pages and files all live together in Space, like they would in a drive,&#8221; said CEO Sam Altman during Tuesday&#8217;s presentation. &#8220;But spaces feel alive.&#8221; Altman said users can give a page specific instructions, such as checking a team channel and updating the page with what it finds. OpenAI also launched Pages, a companion word processor that the company describes as &#8220;a new type of document, built for human and agent collaboration.&#8221; It appears to be OpenAI&#8217;s answer to Google Docs and Microsoft Word. Users can &#8220;write, research, generate charts, create images, or visualize information&#8221; in it, OpenAI says. OpenAI has also announced its answer to PowerPoint with what it calls collaborative slides. These slides can be created by merely talking about them within ChatGPT. Once the slides are generated, multiple workers and agents can work together within them and will have the ability to leave comments and edit them. Slides isn&#8217;t available quite yet but will roll out to users in the coming weeks, an OpenAI representative said. As OpenAI edges into Microsoft&#8217;s territory, Microsoft and other software companies like Salesforce are busy trying to become more like OpenAI. Over the past year, both companies have released a slew of AI product"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "AI-powered app maker Wabi pivots to a messaging experience",
-      "d": "Wabi is repositioning its prompt-based app builder as a personal AI agent that can create interfaces on demand, combining chat, apps, and ongoing tasks.",
-      "u": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
-      "m": "09. 29. PM 05:20",
-      "ts": 1790702400000,
-      "fullText": "Wabi , the AI startup that allowed anyone to use prompts to build apps , is undergoing a slight pivot as demand for AI agents, like Meta&#8217;s Muse and Instinct , takes off. The company announced this week that it is now becoming an AI messenger of sorts &#8212; but one that&#8217;s still capable of making apps to help you get things done. The startup&#8217;s founder, Eugenia Kuyda, who previously founded the AI companion startup Replika, described Wabi 2.0 as a &#8220;personal agent that does stuff for you and builds the interface you need in the moment.&#8221; Introducing Wabi 2.0: a new kind of messenger that makes apps and gets things done for you and your friends. We’re building the OS for the agentic era &#8211; software that adapts to your life, gets things done, and makes more room for the people and things that matter. Invite-only… pic.twitter.com/x9UlzrJSXs &mdash; wabi (@wabi) September 28, 2026 It&#8217;s a similar value proposition to that offered by the original version of Wabi &#8212; but one that users will interact with in a different way. Instead of positioning itself up against other vibe-coding tools, Wabi 2.0 aims to compete more directly with AI agents that combine both conversations and productivity tasks in a single interface. It also comes as companies like OpenAI and others are thinking about how apps will work inside their more generalized chatbot user interfaces; for instance, OpenAI today announced at its DevDay event an update to ChatGPT&#8217;s plug-ins , which will allow apps to offer interactive experiences within ChatGPT, and where the app&#8217;s name gets pinned in a more visible spot on ChatGPT&#8217;s sidebar. In a post on X , Kuyda explained how Wabi&#8217;s new experience will make more sense for consumers, who want to do more than just type to an agent. &#8220;The more you use a chat-only agent, the worse the experience gets. Your history and ongoing tasks end up buried in one endless scroll. People don&#8217;t just want to"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI launches Dots, its bubbly agentic avatar",
-      "d": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
-      "u": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-      "m": "09. 29. PM 05:17",
-      "ts": 1790702235000,
-      "fullText": "At OpenAI&#8217;s DevDay event on Tuesday, the company announced the launch of Dots , a new personal agentic assistant powered by GPT-6 Astra. The company describes Dots as &#8220;remarkably capable, always-on agents built to handle everything.&#8221; Unlike Codex or ChatGPT, Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight. &#8220;Today, you can start with your primary dot, give it a name, and make it your own,&#8221; OpenAI said in its announcement post. &#8220;Over time, we envision teams of Dots working together on your behalf.&#8221; Dots will be available starting Tuesday in ChatGPT, for Pro and Business Premium users in eligible markets. Users can launch Dots from Codex or ChatGPT. In its announcement, OpenAI envisions a variety of ways Dots could be put to work. In one scenario, a software developer deploys a dedicated dot to monitor customer feedback, implementing bug fixes and requested features as necessary. In another, a scientist employs a dot to rerun analysis and investigate unexpected results as experimental data becomes available. Users can message Dots through Slack, Teams, and other organizational platforms, with text message support coming soon. OpenAI also envisions &#8220;specialist Dots&#8221; that take on specific responsibilities. Individual Dots can be provisioned with specific identities, credentials, and tools through existing systems. OpenAI is already working with Microsoft to integrate into the company&#8217;s Agent 365 security controls. Much of this functionality was already possible through Codex and similar agentic harnesses — but Dots bundles together those features in a new package with a focus on independent agentic actions. The branding also presents a bubbly, cartoonish persona, similar to Meta&#8217;s recently released Muse agent. The Dots look like … well, dots. The little floating cartoons are a makeover for OpenAI&"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI gives Codex reusable cloud environments that work across devices",
-      "d": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
-      "u": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-      "m": "09. 29. PM 05:15",
-      "ts": 1790702100000,
-      "fullText": "OpenAI introduced new capabilities for its software engineering agent Codex, making it more useful beyond a developer’s laptop with reusable cloud development environments that can be accessed from any device. The update, announced at OpenAI&#8217;s DevDay on Tuesday, is one of several for Codex. OpenAI also announced a refreshed Codex CLI, a new code review experience, tools to harden infrastructure, and other API enhancements. While Codex could already spin up cloud tasks to do work remotely, today&#8217;s announcement shows that OpenAI is making those cloud environments more persistent and configurable, rather than treating each cloud task as an isolated remote sandbox. As the company explains, developers will now be able to run Codex wherever they need it, whether that&#8217;s on a computer, remotely from a phone, or in the cloud. The reusable development environments are designed to help tasks start more quickly and give teams a shared workspace with approved settings and permissions, OpenAI said. Image Credits: OpenAI Meanwhile, the Codex CLI is getting an update that allows developers to start and direct tasks using their voice. A new /agents view is meant to make it easier to delegate work and track multiple tasks at the same time. Other changes include improvements to everyday tasks such as editing prompts, resuming sessions, and using worktrees. OpenAI is also rolling out a &#8220;cleaner&#8221; terminal user interface designed to make longer sessions easier to read. Image Credits: OpenAI Codex can also be pulled into a new code review experience within the ChatGPT desktop app, where users can read summaries, explore code changes, or ask Codex about potential issues before sharing feedback on GitHub pull requests or GitLab merge requests. Automatic code reviews also let Codex perform an initial review while users step away from their computers. Image Credits: OpenAI On the security side, OpenAI is rolling out a new set of tools called Codex Security Cloud,"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
-      "d": "OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multistep business workflows.",
-      "u": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-      "m": "09. 29. PM 05:15",
-      "ts": 1790702100000,
-      "fullText": "At OpenAI&#8217;s DevDay event on Tuesday, the company showed off GPT-6.1 Sol, a mere week after it launched GPT-6 Sol . OpenAI says the new model delivers nearly the same level of intelligence as GPT-6 Astra for agentic coding, computer use, and professional work, at one-fifth the standard input and output token prices. Notably, the company is not launching GPT-6.1 Astra, as was originally expected. The Wall Street Journal reported this week that OpenAI scrapped the release over safety concerns raised by researchers during internal testing after the model showed higher levels of deception and a tendency to move forward with tasks without asking the user for permission. OpenAI says GPT-6.1 Sol delivers significant improvements over its predecessor GPT-6 Sol across complex tasks, including programming and debugging, understanding documents, and executing multistep workflows. The company claims that on several of these fronts, the model approaches GPT-6 Astra&#8217;s performance. OpenAI also says the new model improves factual accuracy when given difficult prompts. Its largest gain over GPT-6 Sol on this front appears at low reasoning effort, where the share of responses containing a factual error drops from 11.4% to 7.7%. Across all reasoning settings, the company says, the new model&#8217;s error rate stays within 1.9% of GPT-6 Astra. Additionally, the company says GPT-6.1 Sol is more up front about its limitations and more reliable when it comes to honoring user intent and safety constraints. In challenging evaluations, it&#8217;s said to fail less often than GPT-6 Sol at flagging broken search tools, following explicit restrictions, and avoiding unauthorized outcomes during tasks. OpenAI claims it observed no attempts to circumvent the automated safety reviewer, consistent with GPT-6 Astra and GPT-6 Sol. GPT-6.1 Sol is available starting today to all Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex. OpenAI notes that the model is not yet av"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI expands ChatGPT&#8217;s plug-ins with app-like interfaces and automations",
-      "d": "OpenAI is expanding ChatGPT plug-ins with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations.",
-      "u": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
-      "m": "09. 29. PM 05:15",
-      "ts": 1790702100000,
-      "fullText": "OpenAI isn&#8217;t only coming after productivity software with ChatGPT&#8217;s new Pages, Slides, and Space features — the AI lab is now targeting any application that could work better when integrated with ChatGPT. At the company&#8217;s DevDay presentation on Tuesday, the AI company said it is now allowing developers to build their own app-like experiences within ChatGPT using plug-in extensions. OpenAI already supports plug-ins , which connect ChatGPT to everyday tools like Slack, SharePoint, Airtable, and Google Drive, but the new plug-in extensions will give apps a dedicated home in the ChatGPT sidebar. Plus, developers will be able to build interactive panels that let users work with their tools while they&#8217;re chatting with ChatGPT. This experience can also include file viewers that support whatever file formats the developer&#8217;s product uses, the company notes. In addition, OpenAI says it&#8217;s making it easier for developers to build plug-ins and streamline the discovery process for end users. Devs are getting a new Plugin Creator tool for building and can submit them to the plug-in directory via a redesigned flow that offers clearer feedback. Meanwhile, the company says it has improved how plug-ins are ranked and recommended within its directory, as well as when they&#8217;re surfaced in conversations. When users choose a plug-in to work with, they can approve its access needs individually as well. In addition, ChatGPT Sites, the lightweight websites users can build with ChatGPT, can host these plug-ins, too. For example, this would let someone share their apps with colleagues, who can use them with their own connected data and permissions. OpenAI also said it&#8217;s adding support for the proposed MCP Events specification, which would allow plug-ins to start automations based on events in a connected app. The company is also making automations easier to add and manage. Topics AI , Apps , ChatGPT , OpenAI , OpenAI DevDay When you purchase throu"
+      "fullText": "The focus of OpenAI&#8217;s Dev Day on Tuesday may have been on its agentic assistants known as Dots , or its new AI models , but combined, the AI company&#8217;s announcements pointed toward a bigger plan: a disruption of the traditional app store model. Taken together, today&#8217;s announcements turn ChatGPT itself into the place where software can be discovered, launched, and used by people and agents alike. In addition, OpenAI introduced a way for people to bring their ChatGPT identity with them, while also allowing them to use their existing AI allowance in third-party apps. This isn&#8217;t the first time OpenAI has experimented with how apps could operate within its familiar chatbot interface, but the current vision feels more fleshed out than before. For starters, the company is turning ChatGPT itself into a surface for launching apps. The chatbot, which the company says now has 1.2 billion weekly users, has yet to fully capitalize on its potential as a discovery mechanism for finding and using apps that work with AI. To change that, ChatGPT will begin to make app suggestions within the flow of conversation when it recognizes that a particular app could help the user complete their task. From there, the user will be able to connect the app and begin using it directly within ChatGPT. This is also aided by the expansion of ChatGPT&#8217;s plug-in architecture, which now supports extensions. This allows app developers to build interactive panels where users can work with their tools while they’re chatting with ChatGPT. This essentially turns the apps and services that users would have previously used via the web or through a native desktop or mobile app into something that&#8217;s operated directly within ChatGPT. Developers that sign on with the system can build AI-native versions of their apps through ChatGPT, the same way they would through the open web or a mobile app store. As more and more discovery happens through AI chat, it&#8217;s a distribution chan"
     },
     {
       "s": "지티티코리아",
@@ -228,16 +194,7 @@
       "u": "https://www.today.com/video/ai-concerns-in-spotlight-amid-white-house-meeting-270708805834",
       "m": "09. 29. AM 11:12",
       "ts": 1790680341000,
-      "fullText": "From Start to Finish: Exclusive Illy Coffee Deals Seen on TODAY IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Trump Set to Host Top Tech Leaders Amid AI Safety Concerns Sept. 29, 2026 02:50 Dennis Haskins, Principal on ‘Saved by the Bell,’ Dies at 75 02:10 Inside Look at NBC’s &#x27;Common Ground&#x27; Event Highlighting Unity 07:31 Lindsay Clancy to Appear in Court for First Time Since Mistrial 02:08 Cornell Sexual Assault Investigation Reopened by Prosecutors 02"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Anthropic Flags ‘Catastrophic’ Risks in IPO Filing: Reuters",
-      "d": "Anthropic PBC warned that its technology poses “catastrophic or existential risks to humanity” and mapped out plans to spend hundreds of billions of dollars in its prospectus as the artificial intelligence company prepared for its initial public offering, Reuters reported.",
-      "u": "https://www.bloomberg.com/news/articles/2026-09-29/anthropic-flags-catastrophic-ai-risks-in-ipo-filing-reuters",
-      "m": "09. 29. AM 08:11",
-      "ts": 1790669489000,
-      "fullText": ""
+      "fullText": "Steals & Deals: Up to 84% off Cashmere Accessories, Women’s Coats, More IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Hair Awards Deals and Sales Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Trump Set to Host Top Tech Leaders Amid AI Safety Concerns Sept. 29, 2026 02:50 Meet the Sisters Who Saved Their Family’s Farm With Yogurt 04:41 New Progress Update on Breast Cancer Vaccine Research 05:04 New Details Into Cornell University Gang Rape Investigation 02:12 Ken Griffin Announces Record $3B Donation to Carnegie Mellon 04:05 TSA Officers"
     },
     {
       "s": "스페셜타임스",
@@ -270,12 +227,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "v.daum.net",
+      "s": "보안뉴스",
       "t": "울타리 넘으면 칩이 잡아 세운다... 엔비디아, AI 에이전트 감시 장치 하드웨어에 심었다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhaEREWWM3cERROTBnMTZiRVdxblVQWHh3QkQ0bUMxVlpKVGNhb3FLYS1XcVNSckVFcFpVZFZkSnVkbFJPbHI2VEx1OXYyOEU?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZMGZyMVZxSnRONTJEN2NtdmlCMnI1VkpBOUhZRUZ3UGp6OWppM2RPaHRXUk1FZ2VpQ0NaYkRNY2FFOWFad2dqU1M3SFUydHlSbUczOVN1LURoeVB0dHhWMi1YSFZJZ3F0cXVN?oc=5",
       "m": "09. 29. AM 05:21",
-      "ts": 1790659301000,
+      "ts": 1790659300000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -309,7 +266,7 @@
       "fullText": "Google News"
     },
     {
-      "s": "강남내일신문",
+      "s": "ignnews.co.kr",
       "t": "한국지식재산연구원 ‘AI 에이전트’ 가동, 연구 효율 높인다",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByaUVuOUtHX0Y5b3RUb1ZrUnBVYmZfV2k2WGViaTA1aUdsXzdmZEw3RHlUeUdIWGdUbFZoNm5PLUpJR3ozd29tdVg3QkxUSDRLTmZxcXA1MXBBelRGdmdmY0tJVHgyVWc?oc=5",
@@ -385,6 +342,55 @@
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XVXhtX0pQdTRxaXF5azV2eW9hRWhKb1pBRjBRM0tGSkJ3SjViam1uQlFtN3lveE0tU3pCeTFZX3Q5ajh5MXdIWEpYdV9rTE5zVm5GNGlZdHJhRGQ2WXF1M2pSRVZxV0dkZDg1eQ?oc=5",
       "m": "09. 26. AM 04:43",
       "ts": 1790397787000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "simplywall.st",
+      "t": "메타 플랫폼스(META), 美 42개 주 검찰총장 AI 안전장치 공조 규제 직면",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZVpDQ2hYNDJWUDVRWGtNNkVyTFRNMC1UVTZiMFNzMWVEUGRjdjA1UXRhWHdRY3hEclN3Rks0WFNPUXVjZklXUTlaS1RtWWczZTI2dEtMRzRPX094NlJDa0ptOWNldENVTzFhVWFfcWp1T1FacnNwSkNTQ1JCM3oxbUJ4NV92VVJJRUpDZmw0bUlJRDTSAZgBQVVfeXFMTWpwOHdVZHhUTk9zZ2UwWDFqb29ZeHlxbURlcm9UMEhtemtaZ1QxQWdCaEhrOXh5dUlNSnE2dDE1US10bWF1QlJtWm13MDU2NUxReVdON09RSmFWcmR5MXJpVmV3VDlPMXluZUl0T1Jnd3JNbVNKUUdneG02clVxNmU0TlNBeHdZeURtd1o4MmpKWnpSNi1PS2s?oc=5",
+      "m": "09. 26. AM 01:19",
+      "ts": 1790385553000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Unite.AI",
+      "t": "FTC 위원장 Ferguson, AI 에이전트가 스스로 행동한다는 아이디어를 거부",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONjhfZjhmMGhHeG9XYk83OGU2dmNTSjhBdEx2b1BxTXNSQTJIQ05ob3BxeWE4VUJkZkpuaEJId19BaVRFNEdXYUV0azdtQ3pIWVlNem1aUWY3NVlKeUJ3TkYxU0NfYUp6Y3RzRTk1RklYbjFFR2FIV045WURFQmRHeDF4bFRNUENuTWZUZnNhSV96aXVRbkIw?oc=5",
+      "m": "09. 25. PM 10:11",
+      "ts": 1790374273000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "AI포스트",
+      "t": "오픈AI AI 에이전트, 호주 정부 의료 DB까지 무단 침투…\"원하는 데이터 안 나오자 해킹\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pdVJWWm4xd1dVcFdFMm01RFp3Zy1udnBBek9QOVVuUm9JdEI0Uk5MQUVhOFRwc2JseURKT3pUTWE5NHhZNUNUN0pNczFXUFlBSUljRU5fREdpbzZRMThrRjBXXzhhZ2lPaFlaSEpB0gFyQVVfeXFMUGtXZkUzRlhFQXNCbGxnRGpBMzl1a2txTFNyY2ZId3ZzZVRHeFVLZVhfQW5tTUdVdkdjZWJod0xQZU9aeVl0OTh5enBJWEVvalEyV3dkWkJmVVBSaE5lU1h3YjBxeDg0emN0bjRvWVBtMlRn?oc=5",
+      "m": "09. 24. PM 03:25",
+      "ts": 1790263540000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "&#39;People must remain at the center of AI decision-making,&#39; OpenAI CEO says",
+      "d": "OpenAI CEO Sam Altman and Dario Amodei, the CEO of Anthropic, spoke about the risks of artificial intelligence in their remarks at the United Nations General Assembly. The top AI chief executives stressed that people should remain at the center of AI decision-making.",
+      "u": "https://www.nbcnews.com/video/top-ai-chief-executives-on-risks-of-the-powerful-technology-270394949898",
+      "m": "09. 23. PM 08:44",
+      "ts": 1790196288000,
+      "fullText": "NBC News NOW Cornell student body president describes what it&#x27;s like on campus right now"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "AI에이전트 시대, 프라이버시보호는?...개보위, 2차 민관 회의",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VY21ZWmZmY0RiRFJQZzV4N0g2cVBuLW9aM1lVSHl5Y0JHci1vSWRPREZ2T0pZakI1VWJtSzB5MWRkbW0xb1pVcDNYbF9Kb3N4RV84RHZR?oc=5",
+      "m": "09. 23. AM 07:00",
+      "ts": 1790146803000,
       "_policy": true,
       "fullText": "Google News"
     }

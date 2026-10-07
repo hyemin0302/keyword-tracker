@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-07T10:52:06.738Z",
+  "updatedAt": "2026-10-07T17:42:59.978Z",
   "data": {
     "GOOGL": {
       "name": "알파벳(구글)",
-      "px": 347.68,
-      "dayChange": 0.35,
-      "periodChange": 2.75,
+      "px": 347.26,
+      "dayChange": -0.12,
+      "periodChange": 2.63,
       "prices": [
         338.36,
         330.65,
@@ -27,7 +27,8 @@
         338.24,
         343.5,
         346.47,
-        347.68
+        347.68,
+        347.26
       ],
       "dates": [
         "2026-09-08",
@@ -50,25 +51,26 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ],
-      "volume": 18702460,
+      "volume": 10359170,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 408.61,
         "low52w": 235.84,
-        "volume": 18702460
+        "volume": 10359170
       },
       "investorFlow": null,
       "consensus": null
     },
     "NVDA": {
       "name": "엔비디아",
-      "px": 239.24,
-      "dayChange": 0.14,
-      "periodChange": 5.99,
+      "px": 236.92,
+      "dayChange": -0.97,
+      "periodChange": 4.96,
       "prices": [
         225.73,
         223.67,
@@ -90,7 +92,8 @@
         230.86,
         233.95,
         238.9,
-        239.24
+        239.24,
+        236.92
       ],
       "dates": [
         "2026-09-08",
@@ -113,25 +116,26 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ],
-      "volume": 101482897,
+      "volume": 46482770,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 243.37,
         "low52w": 164.27,
-        "volume": 101482897
+        "volume": 46482770
       },
       "investorFlow": null,
       "consensus": null
     },
     "MSFT": {
       "name": "마이크로소프트",
-      "px": 529.3,
-      "dayChange": 0.78,
-      "periodChange": 7.16,
+      "px": 529.215,
+      "dayChange": -0.02,
+      "periodChange": 7.14,
       "prices": [
         493.95,
         491.65,
@@ -153,7 +157,8 @@
         512.8,
         517.53,
         525.18,
-        529.3
+        529.3,
+        529.22
       ],
       "dates": [
         "2026-09-08",
@@ -176,16 +181,17 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ],
-      "volume": 21098949,
+      "volume": 7679937,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 553.72,
         "low52w": 349.2,
-        "volume": 21098949
+        "volume": 7679937
       },
       "investorFlow": null,
       "consensus": null
@@ -194,7 +200,7 @@
       "name": "NAVER",
       "px": 189000,
       "dayChange": -1.1,
-      "periodChange": -13.3,
+      "periodChange": -12.34,
       "prices": [
         218000,
         214500,
@@ -214,8 +220,7 @@
         193700,
         191200,
         192200,
-        191100,
-        189000
+        191100
       ],
       "dates": [
         "2026-09-07",
@@ -236,10 +241,9 @@
         "2026-09-30",
         "2026-10-01",
         "2026-10-02",
-        "2026-10-06",
-        "2026-10-07"
+        "2026-10-06"
       ],
-      "volume": 530286,
+      "volume": 0,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -264,6 +268,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261007",
+            "foreigner": -171582,
+            "institution": -42799,
+            "individual": 215833,
+            "foreignRatio": "35.34%"
+          },
           {
             "date": "20261006",
             "foreigner": -141938,
@@ -326,22 +337,15 @@
             "institution": -198695,
             "individual": 103849,
             "foreignRatio": "35.72%"
-          },
-          {
-            "date": "20260918",
-            "foreigner": -281888,
-            "institution": -304964,
-            "individual": 574283,
-            "foreignRatio": "35.65%"
           }
         ],
         "sum5d": {
-          "foreigner": -373226,
-          "institution": -520740
+          "foreigner": -537491,
+          "institution": -437164
         },
         "sum10d": {
-          "foreigner": -592318,
-          "institution": -1298484
+          "foreigner": -482012,
+          "institution": -1036319
         }
       },
       "consensus": null
@@ -367,8 +371,7 @@
       -1.67,
       -1.4,
       -1.45,
-      -0.6,
-      0.31
+      -0.6
     ],
     "kospi": [
       0,
@@ -389,38 +392,36 @@
       -2.25,
       -0.34,
       0.12,
-      -0.77,
-      -2.74
+      -0.77
     ],
     "sp500": [
       0,
-      -0.58,
-      0.27,
-      -0.21,
-      -0.66,
-      -1.11,
-      0.02,
-      0.19,
-      1.68,
-      1.68,
-      0.91,
-      0.89,
-      1.4,
+      -0.48,
+      -0.93,
+      -1.37,
+      -0.25,
+      -0.08,
+      1.41,
+      1.41,
+      0.64,
       0.62,
-      0.45,
-      0.2,
-      0.39,
       1.13,
-      1.8,
-      2.39
+      0.35,
+      0.18,
+      -0.07,
+      0.12,
+      0.86,
+      1.53,
+      2.12,
+      1.87
     ]
   },
   "etfs": {
     "BOTZ": {
       "name": "Global X Robotics & Artificial ",
-      "px": 36.17,
-      "dayChange": -0.08,
-      "periodChange": 1.57,
+      "px": 35.65,
+      "dayChange": -1.44,
+      "periodChange": 0.11,
       "prices": [
         35.61,
         35.18,
@@ -442,7 +443,8 @@
         35.43,
         36.03,
         36.2,
-        36.17
+        36.17,
+        35.65
       ],
       "dates": [
         "2026-09-08",
@@ -465,25 +467,26 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ],
-      "volume": 510646,
+      "volume": 314643,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 41.71,
         "low52w": 31.875,
-        "volume": 510646
+        "volume": 314643
       },
       "investorFlow": null,
       "consensus": null
     },
     "AIQ": {
       "name": "Global X Artificial Intelligenc",
-      "px": 67.05,
-      "dayChange": 0.3,
-      "periodChange": 4.24,
+      "px": 66.65,
+      "dayChange": -0.6,
+      "periodChange": 3.62,
       "prices": [
         64.32,
         64.11,
@@ -505,7 +508,8 @@
         65.67,
         66.23,
         66.85,
-        67.05
+        67.05,
+        66.65
       ],
       "dates": [
         "2026-09-08",
@@ -528,16 +532,17 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ],
-      "volume": 1530279,
+      "volume": 639232,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 70.26,
         "low52w": 44.46,
-        "volume": 1530279
+        "volume": 639232
       },
       "investorFlow": null,
       "consensus": null

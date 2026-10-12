@@ -1,25 +1,178 @@
 {
-  "updatedAt": "2026-10-12T01:30:27.435Z",
+  "updatedAt": "2026-10-12T07:53:11.093Z",
   "count": 40,
   "stats": {
-    "today": 2,
-    "yesterday": 6,
-    "weekAvg": 3.1,
-    "sources": 31,
-    "heat": "cool"
+    "today": 18,
+    "yesterday": 5,
+    "weekAvg": 4.1,
+    "sources": 26,
+    "heat": "hot"
   },
   "items": [
     {
-      "s": "전자신문",
-      "t": "AWS, 피지컬 AI 개발 전 과정 지원하는 오픈소스 툴체인 공개",
-      "d": "아마존웹서비스(AWS)가 제조·물류 현장에서 활용하는 지능형 로봇과 자율 시스템 개발을 지원하는 오픈소스 툴체인을 공개했다. 합성 데이터 생성부터 모델 학습, 시뮬레이션, 현장 배포, 지속적인 모델 개선까지 피지컬 인공지능(AI) 개발 전 과정을 지원한다. 엔비디아의 로보틱스 기술과 아마존의 로봇 운영 경험을 결합해 기업의 피지컬 AI 개발과 상용화를 지원한다는 목표다. AWS는 12일(현지시간) 지능형 기계 구축을 위한 오픈소스 스택 'AWS",
-      "u": "https://www.etnews.com/20261012000055",
-      "m": "10. 12. AM 12:52",
-      "ts": 1791766351000,
-      "fullText": "AI·SW SW AWS, 피지컬 AI 개발 전 과정 지원하는 오픈소스 툴체인 공개 발행일 : 2026-10-12 09:52 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 아마존웹서비스(AWS)가 제조·물류 현장에서 활용하는 지능형 로봇과 자율 시스템 개발을 지원하는 오픈소스 툴체인을 공개했다. 합성 데이터 생성부터 모델 학습, 시뮬레이션, 현장 배포, 지속적인 모델 개선까지 피지컬 인공지능(AI) 개발 전 과정을 지원한다. 엔비디아의 로보틱스 기술과 아마존의 로봇 운영 경험을 결합해 기업의 피지컬 AI 개발과 상용화를 지원한다는 목표다. AWS는 12일(현지시간) 지능형 기계 구축을 위한 오픈소스 스택 'AWS 피지컬 AI 툴체인'을 발표했다. 피지컬 AI는 AI가 현실 세계를 인식하고 판단해 로봇 등 물리적 장치를 직접 움직이는 기술이다. 정해진 명령을 반복 수행하는 기존 자동화 기계와 달리 주변 환경을 감지하고 상황에 맞춰 작업을 수행하는 것이 특징이다. 제조 현장의 협동 로봇부터 물류창고의 자율 이동 로봇, 휴머노이드까지 활용 범위가 넓다. AWS 피지컬 AI 툴체인은 개발자가 필요한 기술을 처음부터 구축하지 않고도 피지컬 AI 개발 환경을 구성할 수 있도록 설계됐다. 아키텍처 가이드와 레퍼런스 코드, 배포 자동화를 오픈소스로 제공하며 엔비디아의 피지컬 AI 소프트웨어 스택과 통합했다. 핵심 기능은 △합성 데이터 생성 △모델 학습 △시뮬레이션·검증 △엣지 배포 △지속적 개선 등 5개 영역이다. 가상 환경에서 다양한 학습 데이터를 생성하고 AI 모델을 학습시킨 뒤, 실제 기계에 적용하기 전 시뮬레이션으로 동작을 검증하는 방식이다. 검증된 모델은 현장 기기에 배포할 수 있으며, 운영 과정에서 수집한 데이터는 다시 학습에 활용된다. 기술 구성에는 아마존 세이지메이커(Amazon SageMaker), 아마존 EC2 GPU 인스턴스, AWS IoT 그린그래스(AWS IoT Greengrass), 아마존 베드록 에이전트코어(Amazon Bedrock AgentCore) 등 AWS 서비스가 포함된다. 엔비디아의 아이작 심(Isaac Sim), 아이작 랩(Isaac Lab), 그루트(GR00T), 코스모스(Cosmos) 등 로보틱스 관련 도구와 모델도 연계한다. 기업은 전체 툴체인을 활용하거나 시뮬레이션·학습·배포 등 필요한 구성 요소만 기존 개발 환경에 통합할 수 있다. 기계군 관리 기능을 통해 여러 기기에 대한 원격 프로비저닝과 보안 관리, 무선 소프트웨어 업데이트(OTA)도 지원한다. AWS는 이번 툴체인이 제조·물류 산업의 자동화와 지능화를 지원할 것으로 기대했다. 제조사는 새로운 조립 작업에 적응하는 협동 로봇을 개발하거나 생산 현황을 실시간으로 분석·최적화할 수 있다. 자율 로봇 개발사는 새로운 부품과 작업에 대한 로봇의 대응 능력을 높이고, 산업 장비 제조사는 자사 제품에 지능형 기능을 접목할 수 있다. AWS는 아마존의 로봇 운영 경험도 툴체인에 반영했다. 아마존은 운영 네트워크 전반에 100만대 이상의 로봇을 배치해 물류 작업에 활용하고 있다. AWS는 실제 환경에서 자율적으로 작동하는 로봇을 구축·운영하며 축적한 경험을 아키텍처 가이드와 레퍼런스 코드, 배포 자동화에 반영했다. 우웸 우퐁 AWS 인더스트리 부문 부사장은 “고객들이 혁신보다 인프라 구축에 지나치게 많은 엔지니어링 역량을 투입하고 있다는 이야기를 듣고 AWS 피지컬 AI 툴체인을 개발했다”며 “이 비중을 뒤집고자 한다”고 말했다. 아밋 고엘 엔비디아 로보틱스 개발자 에코시스템 및 엣지 AI 제품 총괄은 “오픈소스 기반의 AWS 피지컬 AI 툴체인은 AWS 서비스와 엔비디아의 피지컬 AI 모델, 도구, 라이브러리를 결합해 개발자가 지능형 로보틱스 애플리케이션의 생성, 학습, 검증, 배포를 가속할 수 있는 확장 가능한 엔드투엔드 워크플로를 제공한다”고 말했다. 최호 기자 snoop@etnews.com"
+      "s": "동아일보",
+      "t": "중국 로봇 기업이 춤과 격투에 매달리는 이유 [자동차팀의 비즈워치]",
+      "d": "지난달 18일 미국 캘리포니아주 샌프란시스코에서 인간과 로봇이 격투기 대결을 벌이는 행사가 열렸습니다. 행사에서는 로봇 3대가 인간과 격투를 벌였는데, 이 중에는 영화 ‘터미네이터’의 인간 살상 로봇인 ‘T800’ 외형을 그대로 본뜬 로봇도 있었습니다. 높이 180cm, 무게 90kg이 넘는 이 로봇의 발차기 한 방에 인간이 나가떨어지는 장면을 지켜본 일부 누리꾼들은 공포를 나타내기도 했습니다.   행사는 미국의 한 스타트업 회사가 주최했지만, 참여한 로봇 기업은 유니트리와 엔진AI 등 중국 회사였습니다. 중국 로봇 기업들은 유독 ‘보여주기’식 이벤트에 집중하고 있죠. 휴머노이드 로봇을 대거 동원해 춤을 추게 하거나 무술 동작을 시연하는 식입니다. 최근에는 달리기 등을 대결하는 ‘로봇 올림픽’을 열기도 했습",
+      "u": "https://www.donga.com/news/Economy/article/all/20261012/134826740/1",
+      "m": "10. 12. AM 07:36",
+      "ts": 1791790560000,
+      "fullText": "이원주 기자 구독"
     },
     {
-      "s": "한국경제",
+      "s": "조선일보",
+      "t": "150조 굴리는 美VC a16z, 한국서 반도체·로봇 투자처 물색",
+      "d": "150조원을 굴리는 미국 벤처캐피털(VC) 앤드리슨 호로위츠(a16z)가 한국의 반도체와 로보틱스 생태계를 주목하고 나섰다. 12일 VC 업계에 따르면 a16z 인프라 투자팀은 이번 주 라구 라구람(Raghu Raghuram) a16z 매니징 파트너 겸 제너럴 파트너와 함께 한국을 찾아 국내 AI 하드웨어·인프라 기업을 만나기로 했다. a16z는 지난 7월",
+      "u": "https://www.chosun.com/economy/stock-finance/2026/10/12/MRQTAMJYMVSWCMZQMVTDQYJYGA/",
+      "m": "10. 12. AM 07:25",
+      "ts": 1791789940000,
+      "fullText": ""
+    },
+    {
+      "s": "매일일보",
+      "t": "\"기술·정책·투자 한자리에\"…과기정통부, '피지컬 AI Tech Week' 13일 개막",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLQWF1aGlLYTBSMUd0TmhGRnVrd1dodnlHM01OeUswakVmMzc0b2tIME82SlN0ZkRYM09sN3VEUU11dkpXYk52dGJTZFgwN0VPc0Roc2N3cmN3YTVIaHo1TkhOUTc?oc=5",
+      "m": "10. 12. AM 07:22",
+      "ts": 1791789774000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "전자신문",
+      "t": "中 휴머노이드 톱10 중 8곳, 韓 진출 채비…KC·상표·판매망 확보",
+      "d": "중국 휴머노이드 판매 상위 10개 기업 중 8곳이 한국에서 인증·상표·판매처를 1개 이상 확보한 것으로 나타났다. 초기 단계인 국내 휴머노이드 시장에서 중국 업체들이 제품 인증과 브랜드 권리, 유통망을 선제적으로 확보하려는 움직임이 빨라졌다. 12일 산업 분석 보고서 '랩스딥리포트'에 따르면 중국 주요 휴머노이드 로봇 기업이 국내에서 KC 전파인증과 상표권, 판매 채널을 잇따라 확보하며 한국 시장 진입을 타진하고 있다. 세계 시장 출하 기준 상",
+      "u": "https://www.etnews.com/20261012000274",
+      "m": "10. 12. AM 07:00",
+      "ts": 1791788400000,
+      "fullText": "AI·SW AI 中 휴머노이드 톱10 중 8곳, 韓 진출 채비…KC·상표·판매망 확보 발행일 : 2026-10-12 16:00 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 게티이미지뱅크 중국 휴머노이드 판매 상위 10개 기업 중 8곳이 한국에서 인증·상표·판매처를 1개 이상 확보한 것으로 나타났다. 초기 단계인 국내 휴머노이드 시장에서 중국 업체들이 제품 인증과 브랜드 권리, 유통망을 선제적으로 확보하려는 움직임이 빨라졌다. 12일 산업 분석 보고서 '랩스딥리포트'에 따르면 중국 주요 휴머노이드 로봇 기업이 국내에서 KC 전파인증과 상표권, 판매 채널을 잇따라 확보하며 한국 시장 진입을 타진하고 있다. 세계 시장 출하 기준 상위권 기업은 이미 제품 인증까지 마쳤다. 애지봇은 지난 4월 중국 본사 명의로 휴머노이드 'X2 울트라'의 KC 인증받은 뒤 열흘 만에 한국 기업 아이엘과 독점 파트너 계약을 체결했다. 애지봇은 올해 상반기 세계 휴머노이드 출하 1위를 기록한 회사다. 유니트리는 지난해 12월 휴머노이드 'G1'을 본사 명의로 인증받았다. 부스터로보틱스도 소형 휴머노이드 'T1'과 'K1'의 KC 인증을 각각 2025년 1월과 올해 4월 완료했다. 국내 수입사 대신 중국 본사 명의로 직접 인증을 받는 건 한국 시장을 직접 수출 대상으로 관리하는 행보로 풀이된다. 본체 인증 전 단계에서 상표와 판매망을 먼저 확보하는 시도도 늘고 있다. 갤봇은 코스닥 상장사 트윔을 한국 공식 대리점으로 두고 휠형 휴머노이드 'G1'과 산업용 'S1'을 국내 전시회에서 공개했다. 트윔은 G1에 자체 로봇 관제 플랫폼을 적용, 국내 고객사 대상 개념검증(PoC)을 하고 있다. 갤봇은 로봇 두뇌·운영체제 브랜드 '아스트라' 계열 상표 8건을 국내에 출원했고, 최근에는 한국 사업을 총괄하는 책임자도 선임했다. 유비테크는 국내 총판을 확보한 데 이어 휴머노이드 브랜드 'WALKER' 상표 등록 절차를 밟았다. 로케 역시 국내 기업 명의로 출원된 'ROKAE' 상표의 지정상품에 휴머노이드를 포함했다. 유비테크 '워커 S2', 갤봇 'G1' 등 공장·물류 현장을 겨냥한 대형 휴머노이드는 아직 KC 인증 전이지만 상표 출원과 총판 확보, 전시·PoC 등 사전 영업 활동은 이미 진행 중이다. 중국 기업의 국내 진출은 현재 대규모 판매 확대 단계라기보다 시장 진입에 필요한 인증과 브랜드 권리, 유통 기반을 선제적으로 확보하는 과정으로 볼 수 있다. 휴머노이드 완제품뿐 아니라 로봇 두뇌·운영체제 상표까지 먼저 출원하면서 향후 국내 시장 개화에 대비하려는 것으로 분석된다. 시장 진입 준비를 제품·소프트웨어·판매망 전반에서 동시다발적으로 추진하는 셈이다. 유효정 랩스딥 대표는 “중국 휴머노이드 기업들은 완제품보다 상표와 로봇 두뇌 브랜드를 먼저 한국에 들여놓고 있다”며 “국내 휴머노이드 시장이 본격적으로 열리기 전에 중국 기업들이 인증과 이름을 선점하고 있는 만큼, 한국 기업들은 경쟁사이자 잠재 파트너로서 이들의 움직임을 정확히 파악할 필요가 있다”고 말했다. 김명희 기자 noprint@etnews.com"
+    },
+    {
+      "s": "전자신문",
+      "t": "[포토] AI 영상분석 접목한 자율주행 순찰로봇",
+      "d": "국내 인공지능(AI) 기업들이 피지컬 AI기반 자율주행 로봇 기술을 고도화하고 있다. 12일 서울 서초구 인텔리빅스에서 연구원들이 4족 보행 로봇 및 다양한 모빌리티 플랫폼에 AI 영상 분석 기술을 접목해 사각지대까지 스스로 찾아가 감시정찰을 하는 피지컬 AI 순찰로봇 아르고스를 테스트하고 있다.",
+      "u": "https://www.etnews.com/20261012000307",
+      "m": "10. 12. AM 06:48",
+      "ts": 1791787693000,
+      "fullText": "AI·SW AI [포토] AI 영상분석 접목한 자율주행 순찰로봇 발행일 : 2026-10-12 15:48 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 국내 인공지능(AI) 기업들이 피지컬 AI기반 자율주행 로봇 기술을 고도화하고 있다. 12일 서울 서초구 인텔리빅스에서 연구원들이 4족 보행 로봇 및 다양한 모빌리티 플랫폼에 AI 영상 분석 기술을 접목해 사각지대까지 스스로 찾아가 감시정찰을 하는 피지컬 AI 순찰로봇 아르고스를 테스트하고 있다. 박지호기자 jihopress@etnews.com 포토&영상"
+    },
+    {
+      "s": "전자신문",
+      "t": "[포토] 피지컬 AI 입은 4족 보행 로봇 '아르고스'",
+      "d": "국내 인공지능(AI) 기업들이 피지컬 AI기반 자율주행 로봇 기술을 고도화하고 있다. 12일 서울 서초구 인텔리빅스에서 연구원들이 4족 보행 로봇 및 다양한 모빌리티 플랫폼에 AI 영상 분석 기술을 접목해 사각지대까지 스스로 찾아가 감시정찰을 하는 피지컬 AI 순찰로봇 아르고스를 테스트하고 있다.",
+      "u": "https://www.etnews.com/20261012000306",
+      "m": "10. 12. AM 06:47",
+      "ts": 1791787672000,
+      "fullText": "AI·SW AI [포토] 피지컬 AI 입은 4족 보행 로봇 '아르고스' 발행일 : 2026-10-12 15:47 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 국내 인공지능(AI) 기업들이 피지컬 AI기반 자율주행 로봇 기술을 고도화하고 있다. 12일 서울 서초구 인텔리빅스에서 연구원들이 4족 보행 로봇 및 다양한 모빌리티 플랫폼에 AI 영상 분석 기술을 접목해 사각지대까지 스스로 찾아가 감시정찰을 하는 피지컬 AI 순찰로봇 아르고스를 테스트하고 있다. 박지호기자 jihopress@etnews.com 포토&영상"
+    },
+    {
+      "s": "전자신문",
+      "t": "[포토] AI로 사각지대까지 감시…자율주행 순찰로봇 고도화",
+      "d": "국내 인공지능(AI) 기업들이 피지컬 AI기반 자율주행 로봇 기술을 고도화하고 있다. 12일 서울 서초구 인텔리빅스에서 연구원들이 4족 보행 로봇 및 다양한 모빌리티 플랫폼에 AI 영상 분석 기술을 접목해 사각지대까지 스스로 찾아가 감시정찰을 하는 피지컬 AI 순찰로봇 아르고스를 테스트하고 있다.",
+      "u": "https://www.etnews.com/20261012000305",
+      "m": "10. 12. AM 06:47",
+      "ts": 1791787649000,
+      "fullText": "AI·SW AI [포토] AI로 사각지대까지 감시…자율주행 순찰로봇 고도화 발행일 : 2026-10-12 15:47 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 국내 인공지능(AI) 기업들이 피지컬 AI기반 자율주행 로봇 기술을 고도화하고 있다. 12일 서울 서초구 인텔리빅스에서 연구원들이 4족 보행 로봇 및 다양한 모빌리티 플랫폼에 AI 영상 분석 기술을 접목해 사각지대까지 스스로 찾아가 감시정찰을 하는 피지컬 AI 순찰로봇 아르고스를 테스트하고 있다. 박지호기자 jihopress@etnews.com 포토&영상"
+    },
+    {
+      "s": "전자신문",
+      "t": "[포토] 피지컬 AI로 진화하는 자율주행 순찰로봇 기술 고도화",
+      "d": "국내 인공지능(AI) 기업들이 피지컬 AI 기반 자율주행 로봇 기술 고도화에 속도를 내고 있다. 12일 서울 서초구 인텔리빅스 연구원들이 4족 보행 로봇과 다양한 모빌리티 플랫폼에 AI 영상분석 기술을 접목해 사각지대까지 스스로 이동하며 감시·정찰하는 피지컬 AI 순찰로봇 '아르고스(ARGOS)'를 테스트하고 있다.",
+      "u": "https://www.etnews.com/20261012000303",
+      "m": "10. 12. AM 06:46",
+      "ts": 1791787578000,
+      "fullText": "AI·SW AI [포토] 피지컬 AI로 진화하는 자율주행 순찰로봇 기술 고도화 발행일 : 2026-10-12 15:46 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 국내 인공지능(AI) 기업들이 피지컬 AI 기반 자율주행 로봇 기술 고도화에 속도를 내고 있다. 12일 서울 서초구 인텔리빅스 연구원들이 4족 보행 로봇과 다양한 모빌리티 플랫폼에 AI 영상분석 기술을 접목해 사각지대까지 스스로 이동하며 감시·정찰하는 피지컬 AI 순찰로봇 '아르고스(ARGOS)'를 테스트하고 있다. 박지호기자 jihopress@etnews.com 포토&영상"
+    },
+    {
+      "s": "동아일보",
+      "t": "삼성전자, 청년 SW·AI 아카데미 17기 모집…월 100만원 지원",
+      "d": "삼성전자가 청년 소프트웨어(SW)·인공지능(AI) 인재 육성 프로그램인 ‘삼성청년SW·AI아카데미(SSAFY)’ 17기 교육생을 이달 26일부터 다음 달 9일까지 모집한다. 이번 17기부터는 기존 프로그래밍 언어 중심의 교육과정을 AI 활용 분야 중심으로 개편한다. 전체 교육시간 1725시간 중 약 70%인 1205시간을 AI 학습에 배정했다. 교육생들은 AI 서비스와 AI 에이전트를 개발하는 ‘AI 애플리케이션’과 로봇·센서 등 하드웨어에 AI를 적용하는 ‘피지컬 AI’ 중 하나를 선택할 수 있다. 지원 대상은 29세 이하 미취업 청년으로, 대학 또는 지정 마이스터고 졸업자와 졸업예정자라면 전공에 관계없이 지원할 수 있다. 선발된 교육생은 내년 1월부터 서울·대전·광주·구미·부울경 등 전국 5개 캠퍼스에서",
+      "u": "https://www.donga.com/news/Economy/article/all/20261012/134826250/1",
+      "m": "10. 12. AM 06:40",
+      "ts": 1791787200000,
+      "fullText": "이민아 기자 구독"
+    },
+    {
+      "s": "로봇신문",
+      "t": "‘피지컬 AI 테크위크’ 13일 개막…관련 기술·산업·정책·투자 ‘한자리에’",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mOERGek5oSm5NMWNjZ3k5TVhZa2hyWW1qLTRZZmpiNWdCQjdfTlRYOG5JaHpmaDdQeXNFY1pMaDJuUVBXVXN2SkpCYzFyWkJGRTRIOEVBUDcyTkowTU9semxua0RGb0xIWkJhWQ?oc=5",
+      "m": "10. 12. AM 05:52",
+      "ts": 1791784348000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "신아일보",
+      "t": "'피지컬AI 테크위크' 13일 개막…크래프톤·엔비디아 '특강'",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfNUNaeGtoSzBxZk1VQTMxR1RZSHRmVHlHdFNtLTRkb2h5elljMTRzbDg1ZHdiVUxUYWVyamhYMWVJWTI4WGFzcXFWTjRoZGdXcEwxOWFKX3RCSV9JXzJYZmhOZ0Jna1RzZF94NzFYVDM?oc=5",
+      "m": "10. 12. AM 05:36",
+      "ts": 1791783413000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "강소기업뉴스",
+      "t": "피지컬 AI 기술·산업·정책·투자 한자리에…테크 위크 개막",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWDNxMWZnX2tDNTV2YjRXZlY4UGxrYWtOLVpPQ09GY2NNaTkxbnpIbjJXTXROSWtpQ3dFOUptcWV3WkZVNUcxQWdUdFlQU09nNkhz?oc=5",
+      "m": "10. 12. AM 04:23",
+      "ts": 1791778989000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "메가충청뉴스",
+      "t": "피지컬 AI 기술·산업·정책·투자를 한자리에 ‘피지컬 AI Tech Week’ 13일 개막",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Ec0dsR2tMeFBqQmY0UTBLbnp6WWp6Zi1Mb1p4Z2JzcVFuMElqYThrN1NNODRNRUFBZjdFMnNGQy1UdWNzTmRoMXZNdXhqLU1nQnNhVHp1UTNiVC1WRjFsUlBDcmJNU1MzYWRv?oc=5",
+      "m": "10. 12. AM 04:14",
+      "ts": 1791778463000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "핀포인트뉴스",
+      "t": "크래프톤·엔비디아·인텔 한자리에…서울서 피지컬AI 테크위크 열린다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1yY0R6Wi1IeW1PQlJoT2JNcHd2UGxocUp2ZU5EeTI4eldiSkxvcFo0Zzc2N1ZERUxIaUVqel8zTGloUDNWamk1ZmVZUlM4Zm5KYjIzUkhyaWlWZkRVNjRRdmlqUkNoTGlqY2lYRmtBSzhIaE9Ra1A00gF3QVVfeXFMTXJjRHpaLUh5bU9CUmhPYk1wd3ZQbGhxSnZlTkR5Mjh6V2JKTG9wWjRnNzY3VkRFTEhpRWp6XzNMaWhQM1ZqaTVmZVlSUzhmbkpiMjNSSHJpaVZmRFU2NFF2aWpSQ2hMaWpjaVhGa0FLOEhoT1FrUDQ?oc=5",
+      "m": "10. 12. AM 04:05",
+      "ts": 1791777915000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "파이낸셜뉴스",
+      "t": "AI 기술·산업·정책 한자리에…'피지컬 AI 테크위크' 13일 개막",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2QWN4akUxZzNFUkFQTDBtRWc2OVQxZU51dmY4TndpckZUUVI2UU1TQnVCVk1mbV91LTB6YU5MQkxOQVRrT0NPakQ2aEVVMUpncmNFSmw0Y0p0UQ?oc=5",
+      "m": "10. 12. AM 03:02",
+      "ts": 1791774122000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "로봇과 AI가 만나는 미래…코엑스서 '피지컬AI 테크위크'",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CTVJuTF9GNmNIMFNzLWFhSXJfOUM0a1RKbmQ2SUFyb2lQT0c2Szg4NzA4RVBFM19pZ09JOVdGWmgzcEdqVEtyWUZDTExWeVBGZzBsbWZYZE41Ql9wcklCVtIBYEFVX3lxTE9CTVJuTF9GNmNIMFNzLWFhSXJfOUM0a1RKbmQ2SUFyb2lQT0c2Szg4NzA4RVBFM19pZ09JOVdGWmgzcEdqVEtyWUZDTExWeVBGZzBsbWZYZE41Ql9wcklCVg?oc=5",
+      "m": "10. 12. AM 03:00",
+      "ts": 1791774011000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "서울파이낸스",
+      "t": "\"기술·산업·정책 한 자리\"···'피지컬 AI 테크위크' 개최",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45U1BEZ3IwcVRUYmRWU0dWRzBjemd3dEdhZm9zMXlVWEpWUGJ4cS1KZG5Bb3pyOGozVUZ6bE1BZEdTSXY2SU9BQnJDNDllRTYwQm9QcE5TMVNxdmI5bnh2YzZSeUIwMlRkeFE?oc=5",
+      "m": "10. 12. AM 03:00",
+      "ts": 1791774000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "한경 IT",
       "t": "[단독] SK스퀘어, 日 피지컬AI 기업 투자",
       "d": "",
       "u": "https://www.hankyung.com/article/2026101144131",
@@ -48,18 +201,8 @@
       "fullText": "Google News"
     },
     {
-      "s": "전민일보",
-      "t": "전북 제조현장 과제, 피지컬AI 국가사업으로 키운다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94Q3VyOEFpLXI5V19kOHVFNl9oM2Jrbk94M0QzdUxlRlVXOFZwRGJFV0N4MGpRN29XMmJ6dFlJUGQ3RlBNYTgzeXp3VGdRWVh6R1VtTXRwWkZncmhtODFBaWY5bWQ0QQ?oc=5",
-      "m": "10. 11. AM 05:57",
-      "ts": 1791698255000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "한경 IT",
-      "t": "[단독] SK스퀘어, 日 피지컬AI 스타트업 무진 투자... AI·반도체 밸류체인 확장",
+      "t": "[단독] SK스퀘어, 日 피지컬AI 스타트업 무진 투자…AI·반도체 밸류체인 확장",
       "d": "",
       "u": "https://www.hankyung.com/article/202610114219i",
       "m": "10. 11. AM 05:52",
@@ -87,32 +230,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "더팩트",
-      "t": "전북도, 피지컬AI·로봇 글로벌 전략 조찬포럼 첫 회의 개최",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80bFBzelFDeXhsTVRsMlQ2elBoOGRnTEdFaXdfbE9GUzFGZndadjdYMUx2LUpOMmotbC1PVXdKQ0t4OWpFeHdNZ1NidklNT3FuQXdyQmlNNEc2MW_SAVZBVV95cUxQRUxmdk5iWUV5M1ZKZzQ1SGdzMG41UC00eFhHcWktNmJhaGNMeGRDenJsWmV0VGV6YV9uTV9HR3VqU2pXWXlKenhEdzZHdWVpYXhfNnhDdw?oc=5",
-      "m": "10. 08. AM 08:39",
-      "ts": 1791448797000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "데이터솜",
-      "t": "BNK금융, 철강·자동차는 공급망...피지컬AI는 정책금융 연계",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DcldKNDFzcGFrWUdUSzdiRG9IamNHMlFMdDA1LUNaX2c4M056UkRNX3liTVQyTEMwc2ZzTlJ6djJCUm5WbUpKTVlwZDZNcDdIdFpiLWJCcl9sWjVEUE5oMENEdS01bXBuSENUTNIBcEFVX3lxTE5TMEsyWEhCa056SEtvRkZQYXpKZVBTVmVQbXZwdXlOZzBfbDhwWjk5TUZPTjN5QlhtUlZHdENKN01KckJFaDJ1dEhFVzFjVVNMNHBuSFVCRk83VjFVQjItcncwakU1Y2VqR2YxYTBZVU0?oc=5",
-      "m": "10. 08. AM 08:24",
-      "ts": 1791447896000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "네이트",
+      "s": "파이낸셜뉴스",
       "t": "기획처, 규제샌드박스 법령정비 지연 개선 논의…피지컬AI 육성도",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqck5OMWdMNXBobmwwM1JocjZIeXNXWEM4MnRueFdzZlBDbENpZEE1YnUxRi1HRll2QVAxZHVPcUxkeGc1UVd0MDN2bEtIS2o2VlZz?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sMzQ1VEFnUEJzclc1TGlJenpibEZ4ZEdfQlVHRGpvYkcxeVQzRTFaSmd6UHhRRC1LdmZnTEZ3bGd2LUNoYW5sNnJVSUJQbFVqV3dPYWFlMmhjQQ?oc=5",
       "m": "10. 08. AM 06:56",
-      "ts": 1791442560000,
+      "ts": 1791442570000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -147,26 +270,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "헬로디디",
-      "t": "AI 패권, '산업판'으로···1GW 전력·핵융합·핵잠수함·피지컬AI '동시 질주'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwZ3BhNzNjaXdKRVFPOUJKcllFNkpkV3B0RExWNnJBOEZXckpwR3UtMDlDWVhHejltLThYeUFFLXRYSEt2STBZQm43RlRQb3pFUTJkTFRoZDdHNE5IUjJDLU5hWEtLcHd2WFE?oc=5",
-      "m": "10. 07. AM 11:07",
-      "ts": 1791371246000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "로봇신문",
-      "t": "인천시, '피지컬 AI 실증센터' 구축 나섰다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WYW9aT0xBeVhxOGxoWjdnUUNPYmN2bWZ0NnNDVFdfQ3VVLVJJRmQwRE8zelZuQjhyOGZkYkNjX1k1UmRhVEY2STBOaVE5TGFOTWZBckZidjF2Y2ZYV3Z2bHBVUmJVQVE5NkttSg?oc=5",
-      "m": "10. 07. AM 08:11",
-      "ts": 1791360715000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": ":: 위즈경제 ::",
       "t": "가상을 넘어 현실로 온 AI 위협…피지컬 AI 보안 공백 메워야",
       "d": "",
@@ -178,41 +281,11 @@
     },
     {
       "s": "지디넷코리아",
-      "t": "AI페스타26 개막…에이전틱·피지컬 AI 앞세워 '역대 최대' 규모",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RaEM2UWJ0NllmM3RSLWJ4TWNncHpKS1luOTAyVWZuZXJFaFJEa3Z5Y2V0bFhPclpiR185cmhnQllVZm9DcVZsZlhnVnJpTXpNaTh5dVZR?oc=5",
-      "m": "10. 06. AM 05:19",
-      "ts": 1791263958000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "머니투데이",
-      "t": "\"6조 퍼부었다\" 국감장 들어온 중국산 로봇...의원 손잡고 \"안녕하세요\" - 머니투데이",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kal92ZDZWUzJEQldzMlZMaWhvQzlUckV4UFRXZEUwdXRjNmYwVGxhc2o1VUY0Z3FwRGpmVGcwQV9MZ08wOUpxZUdieGNDcUxJZDlFUFM5c2hRZ0J6ajZVbjFrVFl0b3NfTWFwZ9IBckFVX3lxTE5hNU03eHJwM2dwV2ZEbGtadWJRMVp6aUo2aS1RQWk2Z0wwUVdoYUNTMEFIUjRkaHNWSGFSWllUcHo3SjRjQ1hVSC1CWDE1X0ptNTFsR2NZckpuX1hWd0tvRWZ2MFNMekJXeDBHM1BCVmZxQQ?oc=5",
-      "m": "10. 06. AM 03:34",
-      "ts": 1791257698000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
       "t": "배경훈 \"연내 전국민 무료 AI...데이터센터 규제 신속히 푼다\"",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3MUltR3RibVZzX3ZpVHE0XzUtRHN4ancwODZ4bTdqWWlXS0hEOU1Mc1VWMXVLeWN1MnpHTnQtZmtFM2ZNb0tqT1hlZUcxb0dRZVNZU21B?oc=5",
       "m": "10. 06. AM 02:21",
       "ts": 1791253288000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "정보통신신문",
-      "t": "과방위 국감장에 휴머노이드 등장…“피지컬 AI 육성 서둘러야”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiMmd4X045MHFtNmNyX2U5WFdrVG1SUVhQNlNzRFdkMjBTazhxRXVZTTh2RllJSEh3RjlKYkVVclVmMU9ydF9rSXBtc2d0Y19GU0t0NTlxaW1CeENRN29Pb2puUTBENU550gFsQVVfeXFMTmdVdDNYc3daNjc0M1p5aHZ6VUE1N2hoaVlmUjdnalVWOS1IU3otZFE4NWV2ZUV3OUc4elExdmRuQjNOWlRmamJZN1lHaGlBR2dkY05ZMDRoU0k2eDdlSlJTTGJRQlhpWXFIVlZ4?oc=5",
-      "m": "10. 05. PM 10:31",
-      "ts": 1791239481000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -233,7 +306,7 @@
       "u": "https://www.nbcnews.com/video/could-humanoid-robot-soldiers-be-on-the-horizon-270862405957",
       "m": "10. 01. PM 05:40",
       "ts": 1790876425000,
-      "fullText": "Nightly News Tiger kills man who entered its enclosure at wildlife park"
+      "fullText": "DOJ investigates TV networks over Trump pool coverage"
     },
     {
       "s": "Daum",
@@ -255,16 +328,6 @@
       "fullText": "삼성전자, &#8216;에이전틱 시프트&#8217; 주제로 삼성 AI 포럼 2026 개최 2026/09/30 AI 요약 새로운 뉴스룸 AI 기능을 살펴보세요! 닫기 --> AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성전자는 30일 서울 서초구 삼성전자 서초사옥에서 AI 분야의 세계적 석학과 업계 전문가들이 참석해 최신 연구 성과와 적용 사례를 공유하는 &#8216;삼성 AI 포럼 2026&#8217;을 개최했다. 올해로 10회째를 맞는 이번 포럼은 &#8216;The Agentic Shift: From Intelligence to Impact(에이전틱 시프트: 지능에서 임팩트로)&#8217;를 주제로, 에이전틱 AI(Agentic AI)와 피지컬 AI(Physical AI) 등 AI 기술을 실제 업무와 성과로 연결하는 방안에 대해 논의했다. 포럼에는 국내 AI 대학원 교수와 연구원 100명과 삼성전자 AI 분야 임직원 300명 등 400명이 참석했으며, 유튜브를 통해 온라인으로 생중계됐다. 삼성전자 전영현 대표이사 부회장은 환영사를 통해 &#8220;에이전틱 AI는 단순한 기술 혁신을 넘어 일하는 방식과 조직 문화의 근본적인 변화를 가져올 것&#8221;이라며 &#8220;글로벌 AI 리더들과 함께 우리가 나아갈 방향을 모색하고 실질적인 AI 기술 혁신을 추진해 나갈 것&#8221;이라고 밝혔다. 오픈AI·AWS의 AI 전문가와 저명한 연구자의 강연… AI의 미래 논의 오전 세션에서는 글로벌 AI 생태계를 이끄는 빅테크 기업 전문가와 석학들의 기조 강연이 이어졌다. 오픈AI의 리처드 호(Richard Ho) 하드웨어담당 부사장은 거대언어모델(LLM)을 기반으로 자율 의사결정을 내리는 에이전틱 AI가 기업과 산업 전반에 가져올 변화에 대해 소개했다. 이어서 AWS의 아시아 태평양 및 일본지역 AI 기술 리더인 데이비드 그린(David Green)은 기업 환경에서 에이전틱 AI를 안전하고 경제적으로 구현하기 위한 보안 및 거버넌스 전략을 제시해 큰 주목을 받았다. 피지컬 AI 분야의 저명한 연구자인 란제이 크리슈나(Ranjay Krishna) 워싱턴대 교수는 시각-언어 모델의 추론 한계를 극복하고 소형 모델로도 고성능 로보틱스 AI를 구현할 수 있는 새로운 패러다임을 제시했으며, 생성형 AI와 언어모델 분야의 선도적인 연구자인 김윤형 삼성리서치 상무(MIT 교수 겸임)는 에이전트의 역량을 강화하고 적용 범위를 확장하기 위한 차세대 &#8216;에이전틱 인텔리전스(Agentic Intelligence)&#8217; 아키텍처 혁신 방안을 소개했다. DX/DS 2개 트랙으로 나눠, AI 기술 혁신과 실제 활용 사례 소개 오후 세션은 2개 트랙으로 나눠 DX부문의 AI Technology 트랙과 DS부문의 AX Innovation 트랙에서 구체적인 연구 성과와 적용 사례를 다뤘다. AI Technology 트랙에서는 ▲효율적인 AI(Efficient AI) ▲피지컬 AI(Physical AI) ▲지속 학습(Continual Learning)에 대한 발표가 진행됐다. &#8216;효율적인 AI&#8217; 세션에서는 최적의 사용자 경험을 구현하기 위한 디바이스 설계 원칙과 최적화 기술, 온디바이스 AI 플랫폼(On-device AI Platform)이 적용된 제품 사례를 소개했다. &#8216;피지컬 AI&#8217; 세션에서는 피지컬 AI의 돌파구 중 하나로 평가되고 있는 월드 모델(World Model) 및 로봇 기반 모델(Robot Foundation Model)의 가능성과 한계, 미래 전망과 함께 삼성전자의 관련 연구성과를 소개했다. ※ 월드 모델(World Model): 현실 세계의 작동 원리를 학습해 다음에 일어날 상황을 예측하고 행동의 결과를 미리 시뮬레이션 하는 AI 모델 &#8216;지속 학습&#8217; 세션에서는 이전 지식을 망각하지 않으면서 새로운 정보를 빠르게 학습하고 신뢰성 있게 기억을 편집하는 &#8216;사용자 맞춤형 AI(Personalizing AI)&#8217; 기술과 함"
     },
     {
-      "s": "아이티데일리",
-      "t": "정부, ‘피지컬 AI 1강 도약’ 청사진 공개…“미·중에 종속 않는 독자 기술”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MS2NLZktJYkZtbzBpQ0pYODFYSWdsUkVqQ3llT2ViWExLbjZGQnlrLWE3RU9icUd3UkN3a1JxZDdwSWxWRFdrTVBTWkhVY05PdUhLUzJvVEgwclEyWGNEbHBTUVRYQUZR?oc=5",
-      "m": "09. 25. AM 07:00",
-      "ts": 1790319600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "지디넷코리아",
       "t": "AI기본법 연구반, 조문화 착수…제도개선 속도낸다",
       "d": "",
@@ -281,7 +344,7 @@
       "u": "https://www.nbcnews.com/nightly-news/video/man-versus-robot-influencer-takes-on-humanoid-robot-in-cage-match-270338629508",
       "m": "09. 23. AM 12:50",
       "ts": 1790124622000,
-      "fullText": "Nightly News Tiger kills man who entered its enclosure at wildlife park"
+      "fullText": "DOJ investigates TV networks over Trump pool coverage"
     },
     {
       "s": "CNBC Tech",
@@ -290,7 +353,7 @@
       "u": "https://www.nbcnews.com/video/promoter-of-human-vs-robot-kickboxing-match-sees-demand-for-more-270329413893",
       "m": "09. 22. PM 10:38",
       "ts": 1790116713000,
-      "fullText": "Nightly News Tiger kills man who entered its enclosure at wildlife park"
+      "fullText": "DOJ investigates TV networks over Trump pool coverage"
     },
     {
       "s": "NVIDIA공식",
@@ -327,76 +390,6 @@
       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0Q1dIS0VrQS14VjNsTENRS0UyMDZ1ZHAwaHNPX0Z4Q3JsVHp5Z255ZUlodEZkbzRxWi1ZNkFQdTZMTVpGb2pzV3ZjZ1FHWGNRR1ZwUjFGcE5OdzjSAWBBVV95cUxPTjVSSkExMGpQMzFPZ1lLV0tnMFVhZmpaWFlmZGM1Rk5aRzhqUG9nZUtUOGRtdDdhX2JvMmVadG5ZaXFUeGs4NkhNUmEyeVRxMlhSOWo4Sko5U0RDbUxRSjc?oc=5",
       "m": "09. 16. AM 07:00",
       "ts": 1789542000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "전자신문",
-      "t": "피지컬 AI 막는 전파규제 개선…로봇 레이다 실외 운용 허용",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ndTFtRVFWVlc5d0FGMlVXdF82VmIzYzF6XzJhUXFVTW1NaFRiR2pOQXlDMl9qM0pTRmkteHRCVnc4Z0RoZG1Na2NlcE9KZw?oc=5",
-      "m": "09. 16. AM 07:00",
-      "ts": 1789542000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "edaily.co.kr",
-      "t": "\"中, 로봇 현장 데이터 빠르게 쌓는데 韓피지컬AI, 규제·실증 문턱 못넘어\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYlhJWHJVbkJtaDNuYzVwRjg4Wld5dURUMm5wN3g1OW95OGJiYUJNNmtWYlp1TXBPYnpYdWhCUmdlcXNCQnYzcHRRdEhhWTVTM3l6bzRyeHQyVVNMNUJkeTFkaVgzTWFTYk5oY1RtejA5T05hcnBCMlVJQlFhTlp3aw?oc=5",
-      "m": "09. 06. AM 07:00",
-      "ts": 1788678000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "AI타임스",
-      "t": "[게시판] 라온피플, 702억 규모 ‘피지컬 AI 국책사업’ 선정 등 단신",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFUjNBdnhaNWpqVFFhN1FwY3Bqa3pfZ2RGRl85bUpEU3JTbDlaS0hHOGdKN2dKTjN5aDVBWFVZcmFualB3Y01jMnlaaU1DR2YybEVmMkg4azF3WDFINTZrNlpCT24ySmJ5Mnc?oc=5",
-      "m": "09. 03. AM 07:00",
-      "ts": 1788418800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "데일리메디",
-      "t": "피지컬 AI 의료기기…“허가 포함 전주기 관리”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tU01nc1h0TDgyd05BQmc1RHdNUVpNS2JqcFNxZTBkWnJjOTV1SDJCRG5vRWQwMzMxaU5ISnltUUVSUzB5ME5OTkxJUEdaN3BUWGVhWWJxeFVZbFBKZjAydDUtNTkzcFNa?oc=5",
-      "m": "08. 31. AM 07:00",
-      "ts": 1788159600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "디지털데일리",
-      "t": "“피지컬AI, 데이터·인프라·규제 장벽 넘어야”… 정부·학계·기업, 기술자립 머리 맞대",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WSVBYdG4zM1Q4b1poSGYxR0IwOHZhdFFlSlpydkNiQ2xmLW9OdW94Qkd1M3dhM09oSzFadmZDaVZBYkpDeGJwaWRkRDREaS1oRkNkYlhobnVrTzB2amx2NXd3?oc=5",
-      "m": "08. 26. AM 07:00",
-      "ts": 1787727600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "디지털데일리",
-      "t": "“피지컬AI 규제 최소한으로…과방위 중심 진흥 법안 속도전 다짐”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03TGVqVWx3WXY2Y25HM1lMaXVJTDNVaXo2b3k4eWZSeF9Ibnk2NWF3TTN1RjR0d2lNX3NrRjg0Q0NGRWMxbV8yeVhETWJGNGFJOEFvMF85by0yTjhSVU85Tk53?oc=5",
-      "m": "08. 25. AM 07:00",
-      "ts": 1787641200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "법률신문",
-      "t": "피지컬 AI 시대, 규제 해법은 ‘한·중·일 협력’",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfQkd2Y19GRzV1M3BMNjBudG02YzlJTDZRd1RTVXFkMlJUVFRKTFhaMC03RjBITEh1NWFXdnBCUzZVR1BsMk5LYkdDbHJqbTNJY1FlLXk1XzJ3MGlhTEs4dGtaNUdEUXhhbGF1Y3J30gFyQVVfeXFMTkFUY0N3YWtVTDdNcnNya2g5Z25KTzREbGFyNTcxQ0dqbVktUnh2UjJ3dEZtOVhWQVIxYi1ITXRZbkp2Y3RkN2NqTllLbzgzMWY4dFdnR1dkcUNydFVPazNYV2FOaVN6XzN6UlNtZHk3aTR3?oc=5",
-      "m": "08. 25. AM 07:00",
-      "ts": 1787641200000,
       "_policy": true,
       "fullText": "Google News"
     }

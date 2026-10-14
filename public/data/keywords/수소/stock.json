@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T08:57:50.587Z",
+  "updatedAt": "2026-10-14T14:19:34.656Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
@@ -48,15 +48,15 @@
         "2026-10-13",
         "2026-10-14"
       ],
-      "volume": 663594,
+      "volume": 684719,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "2조 5,477억",
+        "marketCap": "2조 5,313억",
         "per": "N/A",
-        "pbr": "10.63배",
-        "cnsPer": "-34.70배",
+        "pbr": "10.56배",
+        "cnsPer": "-34.48배",
         "divYield": "N/A",
         "foreignRatio": "15.49%",
         "high52w": "108,900",
@@ -73,6 +73,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261014",
+            "foreigner": 23362,
+            "institution": -106408,
+            "individual": 78428,
+            "foreignRatio": "15.53%"
+          },
           {
             "date": "20261013",
             "foreigner": 26108,
@@ -135,31 +142,24 @@
             "institution": -485539,
             "individual": 239479,
             "foreignRatio": "14.84%"
-          },
-          {
-            "date": "20260928",
-            "foreigner": -5856,
-            "institution": -69216,
-            "individual": 76855,
-            "foreignRatio": "14.43%"
           }
         ],
         "sum5d": {
-          "foreigner": 197705,
-          "institution": -351903
+          "foreigner": 214193,
+          "institution": -454085
         },
         "sum10d": {
-          "foreigner": 569509,
-          "institution": -915321
+          "foreigner": 598727,
+          "institution": -952513
         }
       },
       "consensus": null
     },
     "BE": {
       "name": "블룸에너지",
-      "px": 263.45,
-      "dayChange": 0.45,
-      "periodChange": 2.49,
+      "px": 252.575,
+      "dayChange": -4.13,
+      "periodChange": -1.74,
       "prices": [
         257.05,
         259.35,
@@ -182,7 +182,8 @@
         272.82,
         280.5,
         262.28,
-        263.45
+        263.45,
+        252.57
       ],
       "dates": [
         "2026-09-14",
@@ -206,90 +207,26 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ],
-      "volume": 12661087,
+      "volume": 2836828,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 351.28,
         "low52w": 75.7,
-        "volume": 12661087
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "APD": {
-      "name": "Air Products and Chemicals, Inc",
-      "px": 288.96,
-      "dayChange": 1.79,
-      "periodChange": 0.64,
-      "prices": [
-        287.13,
-        290.56,
-        287.08,
-        286.12,
-        284.18,
-        279.46,
-        287.86,
-        286.97,
-        284.49,
-        281.76,
-        278.75,
-        279.19,
-        278.23,
-        273.33,
-        277.57,
-        279.45,
-        281,
-        278.12,
-        278.38,
-        281.26,
-        283.87,
-        288.96
-      ],
-      "dates": [
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-17",
-        "2026-09-18",
-        "2026-09-21",
-        "2026-09-22",
-        "2026-09-23",
-        "2026-09-24",
-        "2026-09-25",
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13"
-      ],
-      "volume": 891380,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 314.87,
-        "low52w": 229.11,
-        "volume": 891380
+        "volume": 2836828
       },
       "investorFlow": null,
       "consensus": null
     },
     "LIN": {
       "name": "Linde plc",
-      "px": 492.11,
-      "dayChange": 0.98,
-      "periodChange": 5.96,
+      "px": 491.955,
+      "dayChange": -0.03,
+      "periodChange": 5.93,
       "prices": [
         464.41,
         462.96,
@@ -312,7 +249,8 @@
         481.7,
         483.73,
         487.35,
-        492.11
+        492.11,
+        491.95
       ],
       "dates": [
         "2026-09-14",
@@ -336,16 +274,84 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ],
-      "volume": 1386042,
+      "volume": 226639,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 548.2,
         "low52w": 387.78,
-        "volume": 1386042
+        "volume": 226639
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "APD": {
+      "name": "Air Products and Chemicals, Inc",
+      "px": 290.07,
+      "dayChange": 0.38,
+      "periodChange": 1.02,
+      "prices": [
+        287.13,
+        290.56,
+        287.08,
+        286.12,
+        284.18,
+        279.46,
+        287.86,
+        286.97,
+        284.49,
+        281.76,
+        278.75,
+        279.19,
+        278.23,
+        273.33,
+        277.57,
+        279.45,
+        281,
+        278.12,
+        278.38,
+        281.26,
+        283.87,
+        288.96,
+        290.07
+      ],
+      "dates": [
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "volume": 53844,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 314.87,
+        "low52w": 229.11,
+        "volume": 53844
       },
       "investorFlow": null,
       "consensus": null
@@ -397,15 +403,15 @@
         "2026-10-13",
         "2026-10-14"
       ],
-      "volume": 2361076,
+      "volume": 2489012,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "44조 2,628억",
-        "per": "244.17배",
-        "pbr": "5.41배",
-        "cnsPer": "130.62배",
+        "marketCap": "44조 1,347억",
+        "per": "243.46배",
+        "pbr": "5.40배",
+        "cnsPer": "130.25배",
         "divYield": "N/A",
         "foreignRatio": "22.14%",
         "high52w": "139,200",
@@ -422,6 +428,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261014",
+            "foreigner": -92581,
+            "institution": -74677,
+            "individual": 165595,
+            "foreignRatio": "22.13%"
+          },
           {
             "date": "20261013",
             "foreigner": -10066,
@@ -484,22 +497,15 @@
             "institution": -394067,
             "individual": 956458,
             "foreignRatio": "22.71%"
-          },
-          {
-            "date": "20260928",
-            "foreigner": -128386,
-            "institution": -48275,
-            "individual": 222511,
-            "foreignRatio": "22.74%"
           }
         ],
         "sum5d": {
-          "foreigner": -2675254,
-          "institution": 243680
+          "foreigner": -2769220,
+          "institution": 295395
         },
         "sum10d": {
-          "foreigner": -4182224,
-          "institution": -355157
+          "foreigner": -4146419,
+          "institution": -381559
         }
       },
       "consensus": null
@@ -550,32 +556,32 @@
     ],
     "sp500": [
       0,
-      0.17,
-      1.66,
-      1.66,
-      0.89,
-      0.87,
-      1.38,
-      0.6,
+      1.49,
+      1.49,
+      0.73,
+      0.7,
+      1.21,
       0.43,
-      0.18,
-      0.38,
-      1.11,
-      1.78,
-      2.37,
-      2.15,
-      1.67,
-      2.28,
-      2.22,
-      2.2
+      0.27,
+      0.01,
+      0.21,
+      0.94,
+      1.61,
+      2.2,
+      1.98,
+      1.5,
+      2.1,
+      2.05,
+      2.03,
+      1.42
     ]
   },
   "etfs": {
     "HYDR": {
       "name": "Global X Hydrogen ETF",
-      "px": 40.871,
-      "dayChange": 0.92,
-      "periodChange": -5.35,
+      "px": 40.09,
+      "dayChange": -1.62,
+      "periodChange": -7.16,
       "prices": [
         43.18,
         43.51,
@@ -598,7 +604,8 @@
         42.24,
         42.66,
         40.5,
-        40.87
+        40.87,
+        40.09
       ],
       "dates": [
         "2026-09-14",
@@ -622,16 +629,17 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ],
-      "volume": 20054,
+      "volume": 5217,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 74.8,
         "low52w": 31.69,
-        "volume": 20054
+        "volume": 5217
       },
       "investorFlow": null,
       "consensus": null

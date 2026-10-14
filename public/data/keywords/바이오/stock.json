@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T08:58:16.004Z",
+  "updatedAt": "2026-10-14T14:19:17.853Z",
   "data": {
     "207940": {
       "name": "삼성바이오로직스",
@@ -48,15 +48,15 @@
         "2026-10-13",
         "2026-10-14"
       ],
-      "volume": 52646,
+      "volume": 60119,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "54조 3,919억",
-        "per": "32.73배",
-        "pbr": "6.55배",
-        "cnsPer": "28.96배",
+        "marketCap": "54조 5,770억",
+        "per": "32.84배",
+        "pbr": "6.57배",
+        "cnsPer": "29.06배",
         "divYield": "N/A",
         "foreignRatio": "12.92%",
         "high52w": "1,987,000",
@@ -73,6 +73,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261014",
+            "foreigner": -7242,
+            "institution": -4088,
+            "individual": 10724,
+            "foreignRatio": "12.90%"
+          },
           {
             "date": "20261013",
             "foreigner": -1259,
@@ -135,96 +142,24 @@
             "institution": -694,
             "individual": 4850,
             "foreignRatio": "13.23%"
-          },
-          {
-            "date": "20260928",
-            "foreigner": 5938,
-            "institution": 877,
-            "individual": -6703,
-            "foreignRatio": "13.25%"
           }
         ],
         "sum5d": {
-          "foreigner": -86720,
-          "institution": -1715
+          "foreigner": -49881,
+          "institution": -6740
         },
         "sum10d": {
-          "foreigner": -104244,
-          "institution": -2867
+          "foreigner": -117424,
+          "institution": -7832
         }
       },
       "consensus": null
     },
-    "DHR": {
-      "name": "Danaher Corporation",
-      "px": 222.84,
-      "dayChange": 0.74,
-      "periodChange": 9.64,
-      "prices": [
-        203.25,
-        209.36,
-        208.36,
-        212.5,
-        211.81,
-        215.84,
-        221.09,
-        221.56,
-        223.77,
-        224.49,
-        227.33,
-        226.11,
-        221.55,
-        211.76,
-        214.06,
-        221.21,
-        215.61,
-        218.49,
-        217.46,
-        219.81,
-        221.2,
-        222.84
-      ],
-      "dates": [
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-17",
-        "2026-09-18",
-        "2026-09-21",
-        "2026-09-22",
-        "2026-09-23",
-        "2026-09-24",
-        "2026-09-25",
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13"
-      ],
-      "volume": 6007542,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 242.8,
-        "low52w": 160.93,
-        "volume": 6007542
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "TMO": {
       "name": "Thermo Fisher Scientific Inc",
-      "px": 663.04,
-      "dayChange": 0.12,
-      "periodChange": 8.05,
+      "px": 676.43,
+      "dayChange": 2.02,
+      "periodChange": 10.24,
       "prices": [
         613.62,
         641.39,
@@ -247,7 +182,8 @@
         651.98,
         658.02,
         662.24,
-        663.04
+        663.04,
+        676.43
       ],
       "dates": [
         "2026-09-14",
@@ -271,25 +207,93 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ],
-      "volume": 2299304,
+      "volume": 417776,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 694.33,
         "low52w": 435.27,
-        "volume": 2299304
+        "volume": 417776
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "DHR": {
+      "name": "Danaher Corporation",
+      "px": 224.42,
+      "dayChange": 0.71,
+      "periodChange": 10.42,
+      "prices": [
+        203.25,
+        209.36,
+        208.36,
+        212.5,
+        211.81,
+        215.84,
+        221.09,
+        221.56,
+        223.77,
+        224.49,
+        227.33,
+        226.11,
+        221.55,
+        211.76,
+        214.06,
+        221.21,
+        215.61,
+        218.49,
+        217.46,
+        219.81,
+        221.2,
+        222.84,
+        224.42
+      ],
+      "dates": [
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ],
+      "volume": 539569,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 242.8,
+        "low52w": 160.93,
+        "volume": 539569
       },
       "investorFlow": null,
       "consensus": null
     },
     "PFE": {
       "name": "화이자",
-      "px": 28.37,
-      "dayChange": -0.11,
-      "periodChange": 2.34,
+      "px": 29.105,
+      "dayChange": 2.59,
+      "periodChange": 4.98,
       "prices": [
         27.72,
         27.55,
@@ -312,7 +316,8 @@
         27.82,
         28.28,
         28.4,
-        28.37
+        28.37,
+        29.1
       ],
       "dates": [
         "2026-09-14",
@@ -336,25 +341,26 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ],
-      "volume": 26828084,
+      "volume": 7988019,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 29.21,
+        "high52w": 29.27,
         "low52w": 23.62,
-        "volume": 26828084
+        "volume": 7988019
       },
       "investorFlow": null,
       "consensus": null
     },
     "JNJ": {
       "name": "존슨앤존슨",
-      "px": 248.61,
-      "dayChange": -5.73,
-      "periodChange": -6.65,
+      "px": 251.29,
+      "dayChange": 1.08,
+      "periodChange": -5.64,
       "prices": [
         266.32,
         267.2,
@@ -377,7 +383,8 @@
         256.48,
         261.44,
         263.73,
-        248.61
+        248.61,
+        251.29
       ],
       "dates": [
         "2026-09-14",
@@ -401,16 +408,17 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ],
-      "volume": 16640951,
+      "volume": 1814262,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 281.07,
         "low52w": 184.66,
-        "volume": 16640951
+        "volume": 1814262
       },
       "investorFlow": null,
       "consensus": null
@@ -462,7 +470,7 @@
         "2026-10-13",
         "2026-10-14"
       ],
-      "volume": 458656,
+      "volume": 524932,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -487,6 +495,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261014",
+            "foreigner": -49246,
+            "institution": 75435,
+            "individual": -76629,
+            "foreignRatio": "25.26%"
+          },
           {
             "date": "20261013",
             "foreigner": -18701,
@@ -549,22 +564,15 @@
             "institution": -9785,
             "individual": -5654,
             "foreignRatio": "25.39%"
-          },
-          {
-            "date": "20260928",
-            "foreigner": 30509,
-            "institution": 5043,
-            "individual": -35753,
-            "foreignRatio": "25.26%"
           }
         ],
         "sum5d": {
-          "foreigner": -68112,
-          "institution": 70747
+          "foreigner": -58158,
+          "institution": 140427
         },
         "sum10d": {
-          "foreigner": -90509,
-          "institution": 101942
+          "foreigner": -170264,
+          "institution": 172334
         }
       },
       "consensus": null
@@ -615,32 +623,32 @@
     ],
     "sp500": [
       0,
-      0.17,
-      1.66,
-      1.66,
-      0.89,
-      0.87,
-      1.38,
-      0.6,
+      1.49,
+      1.49,
+      0.73,
+      0.7,
+      1.21,
       0.43,
-      0.18,
-      0.38,
-      1.11,
-      1.78,
-      2.37,
-      2.15,
-      1.67,
-      2.28,
-      2.22,
-      2.2
+      0.27,
+      0.01,
+      0.21,
+      0.94,
+      1.61,
+      2.2,
+      1.98,
+      1.5,
+      2.1,
+      2.05,
+      2.03,
+      1.42
     ]
   },
   "etfs": {
     "XBI": {
       "name": "State Street SPDR S&P Biotech E",
-      "px": 146.8,
-      "dayChange": -3.04,
-      "periodChange": -6.85,
+      "px": 148.03,
+      "dayChange": 0.84,
+      "periodChange": -6.07,
       "prices": [
         157.6,
         154.03,
@@ -663,7 +671,8 @@
         149.29,
         153.77,
         151.4,
-        146.8
+        146.8,
+        148.03
       ],
       "dates": [
         "2026-09-14",
@@ -687,25 +696,26 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ],
-      "volume": 9751587,
+      "volume": 2744374,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 169.89,
         "low52w": 105.37,
-        "volume": 9751587
+        "volume": 2744374
       },
       "investorFlow": null,
       "consensus": null
     },
     "IBB": {
       "name": "iShares Biotechnology ETF",
-      "px": 200.02,
-      "dayChange": -2.08,
-      "periodChange": -2.24,
+      "px": 203.11,
+      "dayChange": 1.54,
+      "periodChange": -0.73,
       "prices": [
         204.6,
         202,
@@ -728,7 +738,8 @@
         200.48,
         206.49,
         204.26,
-        200.02
+        200.02,
+        203.11
       ],
       "dates": [
         "2026-09-14",
@@ -752,16 +763,17 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-13"
+        "2026-10-13",
+        "2026-10-14"
       ],
-      "volume": 1092640,
+      "volume": 192299,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 217.12,
         "low52w": 151.01,
-        "volume": 1092640
+        "volume": 192299
       },
       "investorFlow": null,
       "consensus": null

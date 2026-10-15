@@ -1,14 +1,50 @@
 {
-  "updatedAt": "2026-10-14T22:02:16.478Z",
+  "updatedAt": "2026-10-15T00:25:41.398Z",
   "count": 40,
   "stats": {
-    "today": 10,
-    "yesterday": 1,
-    "weekAvg": 2.1,
-    "sources": 26,
-    "heat": "hot"
+    "today": 0,
+    "yesterday": 10,
+    "weekAvg": 2.3,
+    "sources": 24,
+    "heat": "cold"
   },
   "items": [
+    {
+      "s": "한국경제",
+      "t": "[기고]AI 추론의 시대, 한국 시스템반도체 도약의 골든타임",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202610153018i",
+      "m": "10. 14. PM 11:54",
+      "ts": 1792022051000,
+      "fullText": "산업 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 입력 2026.10.15 08:54 수정 2026.10.15 08:54 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김용석 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 김용석 가천대 석좌교수, AI반도체설계전문대학원장 AI시대는 반도체가 열었다. AI는 학습과 추론의 두가지를 수행한다. 이 과정에서 데이터 센터향 AI반도체는 거대언어모델(LLM)의 학습(Training)과 추론(Inference)을 담당한다. 이와 달리 온디바이스AI향 AI반도체는 중앙 서버나 클라우드를 거치지 않고, 스마트폰&middot;로봇&middot;CCTV 같은 기기 자체(Edge)에서 직접 추론만을 수행하게 된다. AI반도체는 연산을 담당하므로 가속기가 주된 역할이다. 학습은 데이터를 받아서 순방향 연산과 역전파 메커니즘을 통해서, 인간 뉴런의 시냅스에 해당되는 모델의 가중치(Weights)를 구하는 과정에서 대규모의 행렬연산이 생긴다. 추론은 학습에서 구한 가중치를 이용해서 질문에 대한 예측값을 구하는데 행렬연산이 있다. 학습, 추론의 실제 구현에서, AI 반도체는 연산을 담당하는 가속기 역할을 하고, 메모리는 대용량 데이터를 고속으로 서로 주고받으며 이를 뒷받침하게 된다. 다행스러운 것은 우리나라가 강한 메모리 반도체가 AI시대에서는 핵심역할을 담당한다는 사실이다. AI 데이터센터 투자가 크게 늘어나면서 HBM뿐만 아니라 DDR, 플래시메모리도 많이 사용되면서 SK하이닉스, 삼성전자는 큰 수혜를 보고 있다. 그러나 우리나라 반도체 산업이 성장하고 있지만, 지금의 실적은 HBM을 비롯한 메모리 분야에서 나온다. 반도체 산업전반으로 성과로 이어 지려면 시스템반도체 분야로 확대되어야 한다. 팹리스&middot;디자인하우스&middot;OSAT 등 설계부터 후공정까지 공급망 전반에 중소, 중견기업이 폭넓게 분포하고 있기 때문이다. 하지만 AI 패러다임이 &#39;추론&#39;으로 이동하는 지금의 거대한 전환기는 우리가 시스템 반도체 시장의 주역으로 도약할 수 있는 중요한 기회이다. 국내 AI반도체 팹리스의 기회: 데이터센터용과 온디바이스용 NPU기반 추론 시장 지금은 AI 시장의 중심축이 학습에서 추론으로 이동중이다. 가트너의 지난 8월, &lsquo;2026 전 세계 AI 최적화 IaaS 전망 분석&rsquo; 보고서에 의하면, 2026년도 전 세계 AI 추론 분야 지출이 233억달러(약 33조원) 달해 학습 관련 지출 190억달러(약 27조원)를 넘어설 것으로 전망했다. 추론 시장이 커진다는 것은 분명히 좋은 기회이나 이를 차지하기 위해서는 범국가 차원의 주도면밀한 전략이 필요 하다. 국내 AI반도체 팹리스가 도전해야 할 두 가지 영역이 있다. 첫째는 데이터센터용 추론 시장이다. 데이터센터에서의 학습은 한번의 큰 연산이지만, 추론은 수없이 반복되는 연산이다. 사용자들은 하루 수십억 번 질문을 할 수 있다. 추론 비용이 커질 수 있다는 이야기이다. 데이터센터 운영자 입장에서는 추론 비용을 낮추는 것이 매우 중요 해졌다. 단순 답변을 넘어 사용자의 비서 역할을 하는 &#39;AI 에이전트&#39;는 추론 수요를 촉발시킨다. 전 세계 수억 명의 사용자가 실시간으로 AI 서비스를 일상과 업무에 쓰기 시작하면서 추론 연산의 빈도와 절대적인 양이 학습 연산을 넘어서기 시작했다. 글로벌 AI 반도체 시장은 큰 변화가 이미 시작되었다. 엔비디아 GPU 독주 시대에서 벗어나려는 하이퍼스케일러의 전력소모와 가격을 낮춘 NPU기반의 AI반도체 개발이 진행중이다. 이회사들은AI 모델을 가지고 있고, 자신의 모델에 맞는 칩, 소프트웨어를 직접 만들어 사용한다는 점이 강점이다. 엔비디어 GPU는 학습에만 활용하고, 추론은 국내외 각 회사별로 NPU기반의 맞춤형 형태의 ASIC으로 개발하여 사용 하겠다는 복안이다. 구글 TPU(Tensor Processin"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "SK증권 \"KT, 4분기 실적 반등 가능성…지금이 매수 적기\"",
+      "d": "(서울=연합뉴스) 곽윤아 기자 = SK증권은 15일 KT[030200]에 대해 4분기 실적 반등이 예상되는 가운데 주주환원, 인공지능데이터센터(...",
+      "u": "https://www.yna.co.kr/view/AKR20261015025300008",
+      "m": "10. 14. PM 11:31",
+      "ts": 1792020694000,
+      "fullText": "SK증권 \"KT 매수 적기…목표가 7만2천원\" 3분기 영업익 감소 전망, 4분기 반등 예상 자사주 매입·AIDC로 기업가치 상승 평가 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
+    },
+    {
+      "s": "전자신문",
+      "t": "[라이징 2026] 워크데이 파트너 AI·SW기업 사이 대한항공 등장",
+      "d": "대한항공이 아마존웹서비스(AWS)·구글 클라우드·인포시스·알리바바 등 글로벌 소프트웨어(SW) 기업과 나란히 전시부스를 열었다. 12일(현지시간)부터 15일까지 미국 라스베이거스에서 나흘간 열리는 워크데이 연례행사 '라이징 2026' 전시에 참여했다. 승무원 정복을 입은 대한항공 직원들이 부스 운영에 참여한 데다 행사장 가운데 위치해 오가는 참관객들의 눈길을 끌었다. 대한항공 관계자는 “워크데이 인사 솔루션을 사용하는 고객사 자격으로 전시 참여",
+      "u": "https://www.etnews.com/20261015000004",
+      "m": "10. 14. PM 10:30",
+      "ts": 1792017000000,
+      "fullText": "AI·SW SW [라이징 2026] 워크데이 파트너 AI·SW기업 사이 대한항공 등장 발행일 : 2026-10-15 07:30 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 미국 라스베이거스에서 열린 워크데이 연례행사 '라이징 2026' 행사장 내 대한항공 전시부스. 14일(현지시간) 참관객들이 부스 프로그램 참여를 위해 대기하고 있다. ⓒ박종진기자 대한항공이 아마존웹서비스(AWS)·구글 클라우드·인포시스·알리바바 등 글로벌 소프트웨어(SW) 기업과 나란히 전시부스를 열었다. 12일(현지시간)부터 15일까지 미국 라스베이거스에서 나흘간 열리는 워크데이 연례행사 '라이징 2026' 전시에 참여했다. 승무원 정복을 입은 대한항공 직원들이 부스 운영에 참여한 데다 행사장 가운데 위치해 오가는 참관객들의 눈길을 끌었다. 대한항공 관계자는 “워크데이 인사 솔루션을 사용하는 고객사 자격으로 전시 참여를 권유 받았다”며 “대한항공 브랜드를 북미 시장에 알릴 기회라고 판단돼 참여하게 됐다”고 말했다. 대한항공은 실제 2023년 7월 워크데이 엔터프라이즈 매니지먼트 클라우드 기반 코어 인력자원관리(HCM) 시스템을 도입했다. 인사(HR) 평가, 승진 기록 등 모든 데이터를 플랫폼 하나에 통합해 모바일 환경에서 제공하는 게 특징이다. 항공 승무원 외에도 전체 직원의 70%가 항공기·공항·활주로 등 현장 근무자인 대한항공 구성원 특성을 고려했다. 이러한 인적 구성과 현장에서도 접근 가능한 인사 시스템 구축을 위한 검토 끝에 워크데이 HCM을 채택했다. 이러한 양사 관계로 대한항공이 라이징 전시장에 초청 받은 것이다. 앞서 2년 전 미국 라스베이거스에서 열린 '라이징 2024'에는 조원태 한진그룹 회장이 고객사 대표 자격으로 참석하기도 했다. 미국 라스베이거스에서 열린 워크데이 연례행사 '라이징 2026' 행사장 내 대한항공 전시부스. 14일(현지시간) 한 외국인 참관객이 약과에 대한 설명을 듣고 있다. ⓒ박종진기자 대한항공은 이번 전시에서 AI 채택, 데이터 드리븐 기반 의사결정, 임직원 커리어 성장 등을 키워드로 자사 인사 관리체계에 대한 설명과 함께 브랜드 홍보를 진행했다. 한옥 느낌으로 새단장한 라운지부터 프라이버시가 보장되는 프레스티지(비즈니스)석 등을 소개했다. 또 에이전틱 AI 시대를 맞아 워크데이와 협업 방향성에 대한 대한항공 구성원의 스토리도 영상으로 전달했다. 특히 워크데이와 파트너십으로 인사 관련 빠르고 정확한 의사결정을 하게 됐다고 설명했다. '에이전틱 AI 시대 전망과 인력 혁신의 미래 탐구'를 슬로건으로 미래 지향적 항공사 면모도 드러냈다. 이번 전시기간 대한항공은 부스 방문객들에 전통 주전부리인 약과와 김부각을 무료로 제공했다. 대한항공이라는 브랜드에 대한 관심만큼 전시장 내 낯설지만 특색 있는 먹거리에 대한 주목도는 높았다. 레티샤(호주·여성) 씨는 “처음 보는 디저트지만 식감이 재밌다”고 평가했다. 푸타(일본·남성) 씨는 “많이 달지 않아 좋다”고, 제이쉬(인도·남성) 씨는 “달콤한데 인도 전통 간식과 비슷하다”고 전했다. 이들은 약과라는 이름과 재료, 만드는 방법 등에 대해 질문했다. 라스베이거스= 박종진 기자 truth@etnews.com 관련 기사 [라이징 2026] 워크데이, 앤트로픽·일레븐랩스와 협업…“파트너십 지속 확대” [라이징 2026] 워크데이, AI '사나' 홈 배치…자율 업무환경 실현 [라이징 2026] 헬러마크 워크데이 CAIO “HR·IT 업무, AI 에이전트 하나로 해결”"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "CreditSights Head of Strategy on Bond Market Volatility",
+      "d": "Winnie Cisar, Global Head of Strategy at CreditSights, discusses the strain from heavy corporate borrowing, including debt tied to AI infrastructure. She said individual issuer problems such as CoreWeave’s may coexist with a broader surge in issuance that is challenging investors’ ability to absorb new debt. She speaks to Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-14/creditsights-head-of-strategy-on-bond-market-volatility-video",
+      "m": "10. 14. PM 10:14",
+      "ts": 1792016085000,
+      "fullText": ""
+    },
     {
       "s": "Bloomberg Tech",
       "t": "CAIS Summit Panel on AI Buildout",
@@ -26,15 +62,6 @@
       "m": "10. 14. PM 07:51",
       "ts": 1792007494000,
       "fullText": "Ambrosia Energy has begun work on a massive, 10 gigawatt-hour battery factory near Austin, Texas, co-founder and CEO Ben Longmier announced onstage Tuesday at TechCrunch Disrupt in San Francisco. &#8220;That allows us to build about a 300 megawatt power plant per year out at our field sites,” he said. The factory will occupy 150,000 square feet, and Longmier said that Ambrosia plans to reach full production in two to three years. The startup emerged from stealth in June to build power plants for data centers at a cost of $100 per megawatt hour. Longmier and his co-founder, Sara Spangelo, had settled on solar plus batteries as the cheapest option that’s the fastest to deploy. Solar panels power the load during the day and charge the batteries, which discharge at night and on cloudy days to keep the data center operating round the clock. Longmier and Spangelo previously founded the satellite constellation startup Swarm, which they sold to SpaceX. Ambrosia is also beginning work on its first commercial power plant in West Texas later this year, Longmier said. The facility will pair 300 megawatts of solar panels with 660 megawatt-hours of batteries to deliver 30 megawatts of continuous power, with a goal of 99.3% uptime. Even with “overbuilding” solar and batteries to deliver continuous uptime, Longmier said the company can be profitable at $100 per megawatt-hour, making it competitive with natural gas turbines that many hyperscalers are planning to use to power their data centers. Sections of Ambrosia’s first pilot-scale power plant have been operating continuously for more than 100 days, Longmier said. The pilot is capable of generating 200 kilowatts of electricity 24/7. To hit its cost targets, Ambrosia has been finding ways to simplify its components, including solar mounts and battery packs. By reducing part counts, and manufacturing many components in a factory, the startup has been able to reduce costs relative to buying from outside suppliers. “We buy existing c"
-    },
-    {
-      "s": "동아일보",
-      "t": "SK, 美웨스팅하우스 지분 확보 나선다",
-      "d": "SK그룹이 미국 원전 설계기업 웨스팅하우스에 대한 지분 투자를 적극 검토하고 있다. 정부가 추진하는 국내 기업 컨소시엄의 웨스팅하우스 지분 인수에 참여해 에너지 사업을 확대하려는 구상이다.  14일 재계에 따르면 산업통상부는 전날 웨스팅하우스 투자 방안을 논의하는 ‘팀 코리아’ 관련 회의를 열었다. 회의에는 원전 건설 사업을 하는 삼성물산, 원전 주기기 제작사인 두산에너빌리티 등 원전 관련 기업 관계자 등도 참여했으며 이 자리에서 SK그룹 측이 “적극적으로 참여하고 싶다”는 의사를 전달한 것으로 알려졌다. 다만 SK의 구체적인 투자 규모는 아직 정해지지 않았다. 다른 기업들도 투자를 검토 중인 것으로 전해진다.  정부는 국내 기업들과 함께 웨스팅하우스 지분을 확보하는 방안을 추진하고 있다. 산업통상부는 지난",
-      "u": "https://www.donga.com/news/Economy/article/all/20261015/134843948/2",
-      "m": "10. 14. PM 07:30",
-      "ts": 1792006200000,
-      "fullText": "이민아 기자 구독"
     },
     {
       "s": "머니투데이",
@@ -58,39 +85,12 @@
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Meta’s Use of R&D Credits for Data Centers Probed by Democrats",
-      "d": "Senate Democrats demanded answers from Meta Platforms, Inc. on whether it used a dubious tax strategy to reap billions in federal breaks to fund data center construction.",
-      "u": "https://www.bloomberg.com/news/articles/2026-10-14/meta-s-use-of-r-d-credits-for-data-centers-probed-by-democrats",
-      "m": "10. 14. PM 06:05",
-      "ts": 1792001128000,
-      "fullText": ""
-    },
-    {
-      "s": "조선일보",
-      "t": "필리핀 50조원 AI 인프라 시장에 韓 40곳 집결… 美 주도 공급망 재편 올라타",
-      "d": "",
-      "u": "https://www.chosun.com/international/international_general/2026/10/15/X256A4MUTJDINHIL2ZRRGLFALY/",
-      "m": "10. 14. PM 03:59",
-      "ts": 1791993550000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
       "t": "Uruguay Hails $5.7 Billion Project in Solar Plant, Data Centers",
       "d": "Uruguay President Yamandu Orsi unveiled plans for $5.7 billion in data centers and solar power, touting them as the largest private investment in the South American nation’s history.",
       "u": "https://www.bloomberg.com/news/articles/2026-10-14/spain-s-solaria-to-build-solar-plant-for-uruguay-data-center",
       "m": "10. 14. PM 03:53",
       "ts": 1791993217000,
       "fullText": ""
-    },
-    {
-      "s": "전자신문",
-      "t": "피지컬 AI 상용화 속도…“에이전트 시대, 추론 인프라가 경쟁력”",
-      "d": "인공지능(AI)이 디지털 공간을 넘어 물리적 세계에서 행동하는 피지컬 AI 기술의 상용화를 위해 '두뇌'에 해당하는 프런티어 AI 모델 개발과 추론 효율화가 핵심 과제로 떠올랐다. 전병곤 프렌들리AI 대표는 14일 서울 삼성동 코엑스에서 열린 '피지컬 AI 테크 데이'에서 “지금은 에이전트 시대”라며 “로봇의 두뇌를 구현하는 프런티어 AI 모델뿐 아니라 추론 인프라도 매우 중요하다”고 말했다. 과학기술정보통신부가 주최하고 정보통신산업진흥원(NI",
-      "u": "https://www.etnews.com/20261014000471",
-      "m": "10. 14. AM 10:59",
-      "ts": 1791975591000,
-      "fullText": "AI·SW SW 피지컬 AI 상용화 속도…“에이전트 시대, 추론 인프라가 경쟁력” 발행일 : 2026-10-14 19:59 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 전병곤 프렌들리AI 대표가 14일 서울 삼성동 코엑스에서 열린 '피지컬 AI 테크데이'에서 강연하고 있다. 이번 행사는 과기정통부가 주최하고 정보통신산업진흥원(NIPA)과 피지컬 AI 얼라이언스가 주관했다. 인공지능(AI)이 디지털 공간을 넘어 물리적 세계에서 행동하는 피지컬 AI 기술의 상용화를 위해 '두뇌'에 해당하는 프런티어 AI 모델 개발과 추론 효율화가 핵심 과제로 떠올랐다. 전병곤 프렌들리AI 대표는 14일 서울 삼성동 코엑스에서 열린 '피지컬 AI 테크 데이'에서 “지금은 에이전트 시대”라며 “로봇의 두뇌를 구현하는 프런티어 AI 모델뿐 아니라 추론 인프라도 매우 중요하다”고 말했다. 과학기술정보통신부가 주최하고 정보통신산업진흥원(NIPA)과 피지컬 AI 얼라이언스가 주관한 이날 행사는 '행동하는 두뇌'를 주제로 열렸다. 국내외 전문가들은 국가 연구개발(R&D) 관점에서 피지컬 AI 풀스택 기술의 발전 방향을 모색했다. 전 대표는 “로봇을 실제 산업 현장에 배치하려면 상당히 큰 인텔리전스가 필요하다”며 “클라우드에서 로봇들이 학습한 정보를 모으고 지능을 발전시키려면 많은 사용자가 AI 모델을 동시에 빠르게 활용할 수 있도록 추론 기술을 효율화해야 한다”고 강조했다. 그는 이어 “에이전트 시대가 되면서 AI 모델이 긴 문맥을 처리하고 외부 도구와 추론을 반복적으로 호출하는 등 작업 방식이 달라졌다”며 “모델 차원에서는 연산량과 저장 공간을 줄이고, 시스템 차원에서는 GPU 활용 효율을 높이고 기존 문맥을 재사용하는 것이 중요하다”고 짚었다. 14일 서울 강남구 코엑스에서 열린 '피지컬 AI 테크 데이'에서 참석자들이 기념촬영을 하고 있다. 왼쪽부터 박윤규 정보통신산업진흥원장, 박태완 정보통신산업정책관, 최형두 국회의원, 정동영 국회의원, 류제명 과학기술정보통신부 제2차관, 전병곤 프렌들리AI 대표, 이규빈 광주과학기술원(GIST) 교수. 과학기술정보통신부 피지컬 AI 구현을 위해 지능 구조 설계의 중요성도 강조됐다. 김상배 미국 매사추세츠공과대학교(MIT) 교수는 “물리적 환경에서는 로봇이 동작할 때 매 순간 불확실성이 존재한다”며 “느리더라도 끝까지 로봇의 작업 성공률을 높일 수 있는 인텔리전스 아키텍처를 고민해야 한다”고 말했다. 로봇 파운데이션 모델(RFM)의 발전 방향도 제시됐다. 이규빈 광주과학기술원(GIST) 교수는 “RFM은 다양한 형태의 데이터를 입력하는 동시에 언어와 동작을 모두 출력할 수 있어야 한다”며 “앞으로 피지컬 AI R&D도 텍스트와 행동을 동시에 출력하는 모델 구현을 목표로 발전해야 한다”고 제언했다. 이날 행사는 '피지컬 AI 테크 위크'의 일환으로 마련됐다. '피지컬 AI 얼라이언스' 출범 이후 기술·협력 성과를 실증·사업화로 확산하기 위한 자리다. 오후 세션에서는 NC AI·원프레딕트 등 국내 기업·기관이 AI 팩토리·디지털트윈·데이터 표준화 등 피지컬 AI 풀스택 기술의 적용 사례를 소개했다. 류제명 과기정통부 제2차관은 “피지컬 AI를 현장에 구현하려면 산·학·연의 긴밀한 협력이 중요하다”며 “AI·ICT 역량과 제조 기반을 결집해 현장의 성과가 산업·지역으로 확산되고 국가 전체의 피지컬이 AI 경쟁력으로 이어지도록 적극 지원하겠다”고 말했다. 조벼리 기자 starry@etnews.com"
     },
     {
       "s": "한경 IT",
@@ -100,6 +100,16 @@
       "m": "10. 14. AM 09:29",
       "ts": 1791970163000,
       "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 롯데이노베이트-CMC, 베트남 데이터센터 동맹 입력 2026.10.14 18:29 수정 2026.10.15 01:37 지면 A15 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 라현진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 롯데이노베이트가 베트남 IT 기업인 CMC그룹과 손잡고 현지 데이터센터 및 전기차 충전 인프라 시장 공략에 나섰다. 롯데이노베이트는 베트남 하노이에서 CMC그룹과 전략적 사업 협력을 위한 업무협약(MOU)을 체결했다고 14일 발표했다. CMC그룹은 30년 이상의 업력을 보유한 베트남 주요 IT 기업이다. 두 회사는 이번 협약을 통해 하이퍼스케일 데이터센터, 전기차 충전사업(CPO), 사이버보안, 오프쇼어 IT 서비스, 클라우드 등 5개 분야에서 협력하기로 했다. 롯데이노베이트의 기술&middot;운영 역량과 CMC그룹의 현지 사업 네트워크를 결합해 신규 고객을 확보한다는 계획이다. 최종필 롯데이노베이트 베트남 법인장은 &ldquo;CMC그룹과의 협력을 통해 현지 사업 기반을 강화하고 미래 성장 분야에서 새로운 사업 기회를 적극 발굴하겠다&rdquo;고 말했다. 라현진 기자 raraland@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 라현진 기자 안녕하세요. 한국경제신문 테크&사이언스부 라현진 기자입니다. ADVERTISEMENT 관련 뉴스 1 이지스 안산 데이터센터, 롯데이노베이트가 운영 ▶마켓인사이트 9월 3일 오후 2시 12분 롯데이노베이트는 이지스자산운용의 안산 초지동 데이터센터 위탁운영 사업을 수주했다고 3일 밝혔다. 롯데이노와 이지스는 지난 2월 엣지 데이터센터의... 2026.09.03 17:35 2 롯데이노베이트, 자율주행 셔틀 확대 운영 롯데이노베이트는 자율주행 셔틀 ‘무부(MUVU·사진)’를 강릉과 제주, 경주 등 주요 관광지에서 확대 운영하고 있다고 24일 밝혔다. 전국에서 약 10만㎞를 달리며 쌓은 운행 데이터... 2026.08.24 18:12 3 [포토] 롯데월드타워 '스카이런' 뛴 휴머노이드 롯데이노베이트는 휴머노이드 로봇 ‘로이’가 지난 19일 ‘2026 롯데월드타워 스카이런’에 처음으로 참가했다고 20일 밝혔다. 한 참가자가 출발하기 전 로이와 기념 촬영을 ... 2026.04.20 17:19 ADVERTISEMENT 많이 본 뉴스 1 \"처음엔 웃었는데\"…유튜브 휩쓴 정동영 27세 북한 딸 정체 2026.10.14 11:16 2 \"월급만으론 못 버틴다\"…직장인 '제2의 명함'으로 뜨는 직업 2026.10.14 06:00 3 \"경제대국이 어쩌다\"…67년 만에 와르르 무너진 '이 나라' 2026.10.14 15:12 4 노소영, 9440억 재산분할 맞상고 포기…최태원 재상고로 대법 판단 남아 2026.10.14 06:18 5 \"알아서 굴려준다더니\"…노후자금 날린 4050 개미들 '비명' 2026.10.14 14:18 ADVERTISEMENT 이 시각 관심정보 AD ADVERTISEMENT --> ADVERTISEMENT"
+    },
+    {
+      "s": "머니투데이",
+      "t": "[알림]AI DC부터 OT보안까지…'AI 인프라 프런티어' 29일 막 오른다 - 머니투데이",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DRWxtZ0xzNkV6X3AxZTdZTWVOWnM5QlQ0YmliSXExeS1hYU53NEZkWmtrdktZT1pyMWRGdlJlUGNLYm80eFJtdnhRalRlX2x2NmczamV4clBaOXQ5cHRsdEFCTHFCM2Z5SUlTV9IBbEFVX3lxTE1DRWxtZ0xzNkV6X3AxZTdZTWVOWnM5QlQ0YmliSXExeS1hYU53NEZkWmtrdktZT1pyMWRGdlJlUGNLYm80eFJtdnhRalRlX2x2NmczamV4clBaOXQ5cHRsdEFCTHFCM2Z5SUlTVw?oc=5",
+      "m": "10. 13. PM 08:30",
+      "ts": 1791923400000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "뉴시스",
@@ -230,16 +240,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "디지털투데이",
-      "t": "코어위브 \"데이터센터 반발, AI 수요 위축으로 안 이어져…주문 감소 없다\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuTUxTWDhaNDNzZF9mSzAyWTdqaWdQLUdobS02ZW55cHVjLTVQWG1CWWhqalNmTzRScHBDcjJ2ZUxseG1NTmZwSzA2TjgzbHZLcUtjb1EtcGlkdnhEZnAtTEZJWWJKU2QwemQwMUVuYW9KWHM?oc=5",
-      "m": "10. 01. AM 07:00",
-      "ts": 1790838000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "수소신문",
       "t": "'전기국가' 속도내는 정부...AI·재생에너지·물 인프라 구축 '총력전'",
       "d": "",
@@ -250,12 +250,22 @@
       "fullText": "Google News"
     },
     {
-      "s": "핀포인트뉴스",
-      "t": "美 반도체 규제에 中 텐센트가 택한 방법… 오라클 데이터센터 통째로 빌린다",
+      "s": "전자신문",
+      "t": "[관망경]국가 AI 인프라 지도 재설계하자",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lTGVXaWVVWjdHTlJSa3RfNURXazVkZTl0dmpzUEJtOEluSnFYMVpwQnhGX2hBbG1DVzhCMXNNYWZmWmxmQ0JrYi1halVrSEVON0cxRF9kNkcyYTF4R0c2Q3I4TzhBNWd6WHg1WWRiMXVmcEnSAXdBVV95cUxPbHp3UlZUSFhuQ05POXU2VWFpbWlOdXQtODR5bk5JN1RycG12X2ExWTFzU0l2V1hDQndZV24wMTlxYi1HZmdzZ21mdkhMSzJEMTBfbVZyNTFBc1lUbGZhVEFWbU80UV96YnZGeVEwaGt2YWsxMXREYw?oc=5",
-      "m": "10. 01. AM 06:12",
-      "ts": 1790835169000,
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53MnRJNnhGX2hKUFI3RTUwVllGQnNYV3B5MmdCcWpHcHZvU2dtMnIxRXhyRHZtTUV5OXJMLXpGbWxvWHF0QjhBTjdkZ0V1dw?oc=5",
+      "m": "10. 01. AM 07:00",
+      "ts": 1790838000000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "디지털투데이",
+      "t": "코어위브 \"데이터센터 반발, AI 수요 위축으로 안 이어져…주문 감소 없다\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuTUxTWDhaNDNzZF9mSzAyWTdqaWdQLUdobS02ZW55cHVjLTVQWG1CWWhqalNmTzRScHBDcjJ2ZUxseG1NTmZwSzA2TjgzbHZLcUtjb1EtcGlkdnhEZnAtTEZJWWJKU2QwemQwMUVuYW9KWHM?oc=5",
+      "m": "10. 01. AM 07:00",
+      "ts": 1790838000000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -349,16 +359,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "전자신문",
-      "t": "AI 규제·속도조절 반대하는 트럼프, 관련주·인프라 투자 확대",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XY1VPTXV6YjYxZ0k4TXE1M09ZWkk3aFlrZDZvM1pqRmI5aXBqWjZaaDZWM1dJdElaRl9ISDQ2MHowQUNXQUVzMnA0dkJKUQ?oc=5",
-      "m": "09. 21. AM 07:00",
-      "ts": 1789974000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "지디넷코리아",
       "t": "'정책통' 엄열·'실행력' 김경만…국가 AI 컨트롤타워 실무 투톱 구축",
       "d": "",
@@ -369,12 +369,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "글로벌이코노믹",
-      "t": "“규제는 일방향 톱니바퀴\"…머스크, AI 안전 논쟁 속 인프라 수주전",
+      "s": "전자신문",
+      "t": "AI 규제·속도조절 반대하는 트럼프, 관련주·인프라 투자 확대",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZjhvVnp0dk5sOGRMNGR2WG9NSkpUZlhyZzZkZWlMb2FCSFYzb2h4b2g0bi1ZdUY1QjlhVUNVX2hETERSQzdTREMwTzVDNThQSUhTSUhaM01FY01walZ5czROcWJWVzdEM1BRRmR6RHpuUXY5YzNrUmJvd2thQW5XeFg0bG1qVVJO?oc=5",
-      "m": "09. 20. AM 07:00",
-      "ts": 1789887600000,
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XY1VPTXV6YjYxZ0k4TXE1M09ZWkk3aFlrZDZvM1pqRmI5aXBqWjZaaDZWM1dJdElaRl9ISDQ2MHowQUNXQUVzMnA0dkJKUQ?oc=5",
+      "m": "09. 21. AM 07:00",
+      "ts": 1789974000000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -389,10 +389,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "지디넷코리아",
-      "t": "[AI 고속도로] 美 데이터센터 규제 확산…최대 밀집지역도 직격탄",
+      "s": "파이낸셜뉴스",
+      "t": "AI시대 통신망은 AI인프라...통신정책, 투자유인책으로 전환해야",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EVVczNk4tR01jdG5UQ2FfM0o0ank2T09COEpsMlh3X2VhYzNCWDQ5cXNVSGJldUFVYU1xZ1ZlLXBtaDZ0REZ3NnZac2lpTEdsWmp6eldn?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIeDlIems0elhGWnVfWHBPTndmX3Zkak5JckpDai1GLVZQLUgydUFndlhGSURob2ItaFU5NFRpZnJ6cEkzSlpmQjNnMXp3SEVhZnV6VjNock1kQQ?oc=5",
       "m": "09. 17. AM 07:00",
       "ts": 1789628400000,
       "_policy": true,

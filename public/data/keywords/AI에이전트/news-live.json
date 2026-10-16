@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-10-16T18:19:25.045Z",
+  "updatedAt": "2026-10-16T21:33:06.568Z",
   "count": 40,
   "stats": {
-    "today": 8,
-    "yesterday": 13,
-    "weekAvg": 5,
-    "sources": 26,
-    "heat": "warm"
+    "today": 10,
+    "yesterday": 11,
+    "weekAvg": 5.7,
+    "sources": 28,
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Replit is no longer working with Anthropic, CEO says",
+      "d": "Replit CEO and co-founder Amjad Masad made the comments during TechCrunch Disrupt 2026.",
+      "u": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "m": "10. 16. PM 09:22",
+      "ts": 1792185748000,
+      "fullText": "Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer working with Anthropic, the company&#8217;s CEO and co-founder Amjad Masad said Thursday while onstage at TechCrunch Disrupt. Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that its was no longer with Anthropic. &#8220;I think ChatGPT is better now,&#8221; Masad said, adding that company uses an internal benchmark to help assess metrics like performance. &#8220;We publish a public benchmark as well, and consistently, Sol and Astra perform better on building vibe-coded applications from scratch. It was it was a decision based on both cost, you know, partnership, and performance. And for all these reasons, we just felt like they were a better partner for now.&#8221; Replit sells a cloud-based software development platform where users can develop and deploy apps directly from inside their browser. Under its partnership with Anthropic, Replit used the AI lab&#8217;s Claude models to run its platform. That partnership was said to have helped the company grow its revenue significantly. Masad&#8217;s comments were met with some pushback from insiders familiar with the partnership between the Anthropic and Replit, however. One person familiar, who asked not to be named, said the partnership was still in place. There is some evidence that Replit was using Anthropic products as recently as September. For instance, a blog post in September cites Anthropic&#8217;s Claude Fable 5 and Claude Fable 5.1 as models running in Replit Agent&#8217;s production environment. TechCrunch reached back out to Replit for clarification and will update this story if we hear back. Masad shared insights about the company&#8217;s growth while onstage at Disrupt, noting that enterprise is starting to provide a larger slice of revenue. &#8220;We&#8217;re not sharing ARR n"
+    },
     {
       "s": "TechCrunch",
       "t": "India becomes the latest country to report rogue AI agent activity",
@@ -16,7 +25,7 @@
       "u": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
       "m": "10. 16. PM 05:52",
       "ts": 1792173144000,
-      "fullText": "AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday. The Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model providers” whose models, during research and evaluation runs on the open internet, “had reached the live systems of Indian organizations.” The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles, and their actions “exceeded the authorisation of their assigned tasks.” This makes India the latest stop on what has become a world tour for rogue AI agents. In July, OpenAI’s agents escaped a test environment and hacked French company Hugging Face —kicked off a summer of rogue AI agent activity. Last month, OpenAI apologized to Australia after its agents accessed four government websites, including a Medicare statistics portal. At Hugging Face, OpenAI’s agents started the same way but then found and exploited software flaws to run code on the company’s servers. CERT-In described no such hacking in India, where the agents appear to have simply used the access left lying around. Still, the Indian cases appear to be worse in one respect, which is what the agents saw: In Australia, OpenAI said it found no evidence its agents touched individuals’ medical or criminal records, even after they wrote files inside a Medicare statistics system, while in India, agents read personal data and confidential business records. And unlike earlier incidents, each disclosed by a single lab, India’s involved agents from multiple providers. CERT-In did not name the providers or affected organizations, or say whether the agents altered any systems. TechCrunch has reached out to CERT-In for more information. For now, the closest parallel seems to be Anthropic’s July disclosure of Claude breaking into t"
+      "fullText": "AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday. The Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model providers” whose models, during research and evaluation runs on the open internet, “had reached the live systems of Indian organizations.” The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles, and their actions “exceeded the authorisation of their assigned tasks.” This makes India the latest stop on what has become a world tour for rogue AI agents. In July, OpenAI’s agents escaped a test environment and hacked French company Hugging Face — kicking off a summer of rogue AI agent activity. Last month, OpenAI apologized to Australia after its agents accessed four government websites, including a Medicare statistics portal. At Hugging Face, OpenAI’s agents started the same way but then found and exploited software flaws to run code on the company’s servers. CERT-In described no such hacking in India, where the agents appear to have simply used the access left lying around. Still, the Indian cases appear to be worse in one respect, which is what the agents saw: In Australia, OpenAI said it found no evidence its agents touched individuals’ medical or criminal records, even after they wrote files inside a Medicare statistics system, while in India, agents read personal data and confidential business records. And unlike earlier incidents, each disclosed by a single lab, India’s case involved agents from multiple providers. CERT-In did not name the providers or affected organizations, or say whether the agents altered any systems. TechCrunch has reached out to CERT-In for more information. For now, the closest parallel seems to be Anthropic’s July disclosure of Claude breaking"
     },
     {
       "s": "TechCrunch",
@@ -35,6 +44,15 @@
       "m": "10. 16. PM 04:01",
       "ts": 1792166497000,
       "fullText": "Elorian , the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned. The model, Glimpse , is launching as a research preview with API access and a chat interface is waitlist-only, so for now it&#8217;s a results table and a thesis. The thesis? Today’s AI models, for all their skill with language and code, still can’t really see. Most multimodal models look at an image once, convert it to tokens, and then reason about it in text — like describing a photo from memory. Glimpse keeps going back to the source. Mid-reasoning, it can crop into a region, pull specific frames from a video, or run code to measure or compare what it&#8217;s looking at, a mechanism Elorian calls a &#8220;visual scratch space.&#8221; Think of someone pinching to zoom on a phone photo to double-check what they thought they saw. For former Google DeepMind researcher and Elorian CEO Andrew Dai, one of the clearest signs that AI still couldn’t really see came on game night. Last year he photographed a board game he&#8217;d just finished with friends and asked a frontier model who was winning. It couldn&#8217;t say. Board games &#8220;each have their own visual language, each have their own iconography, symbols,&#8221; he told TechCrunch. &#8220;To an adult, it&#8217;s quite easy to understand what&#8217;s going on with minimal text, but these models aren&#8217;t able to intuit what the symbols mean.&#8221; &#8220;Humans can look at Ikea diagrams, with no text, and assemble Ikea furniture, right? Why can&#8217;t AI models?&#8221; he said. The approach isn&#8217;t completely new — OpenAI added crop-and-zoom during reasoning to its o-series models in 2025 — but Elorian&#8217;s pitch is that it built the whole model around it, cheaply. The company says a small team trained Glimpse on a few hundred GPUs and that the model is substantially smaller than the frontier systems i"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Schwab CEO on AI Strategy, Investing Trends, and ‘Charley’",
+      "d": "Rick Wurster, president and CEO at The Charles Schwab Corporation, discusses customer trends in investing, efforts to attract younger investors, and why the firm is blocking unauthorized AI agents. He speaks on Bloomberg Television.\n(Corrects spelling of “Charley” in video headline) (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-16/schwab-ceo-on-ai-strategy-investing-trends-charlie-video",
+      "m": "10. 16. PM 01:11",
+      "ts": 1792156264000,
+      "fullText": "Oct 16th, 2026 Schwab CEO on AI Strategy, Investing Trends, and ‘Charley’ Rick Wurster, president and CEO at The Charles Schwab Corporation, discusses customer trends in investing, efforts to attract younger investors, and why the firm is blocking unauthorized AI agents. He speaks on Bloomberg Television. (Corrects spelling of “Charley” in video headline) Available on: Listen on Apple TV Listen on Roku Listen on Samsung TV Listen on Fire TV Listen on Android TV Listen on Rakuten TV Listen on Haystack News Watch BTV in your area: Channel Finder"
     },
     {
       "s": "TechCrunch",
@@ -62,7 +80,7 @@
       "m": "10. 16. AM 05:02",
       "ts": 1792126925000,
       "_policy": true,
-      "fullText": "Google News"
+      "fullText": ""
     },
     {
       "s": "솔루션뉴스",
@@ -83,15 +101,6 @@
       "ts": 1792113205000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "d": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
-      "u": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "m": "10. 15. PM 07:14",
-      "ts": 1792091666000,
-      "fullText": "Anthropic is giving employee-level access to six researchers from METR , a nonprofit that tests frontier AI models, to independently assess Anthropic’s models, safety practices, and risk management, the company said in a blog post on Thursday. The arrangement comes at a time where incidents of AI agents acting outside their instructions have been disclosed every week or two since late August. The incidents have sharpened calls for independent checks on AI companies. &#8220;We want to be publicly accountable for the decisions we&#8217;re making,&#8221; Anthropic said in the blog post. &#8220;We aim to close the gap between what evaluators understand about a frontier AI company&#8217;s systems and what the company itself understands.&#8221; Under the new arrangement, the METR team has Anthropic-issued company laptops, office space, and access to internal tools roughly on par with what Anthropic’s own risk assessment teams use. &#8220;Anthropic employees are encouraged to share information with them just as they would with a fellow employee working on alignment risk” the company said. Anthropic compared the arrangement to banking, similar to how regulators place resident examiners inside the largest banks. METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the company has given up the right to block them. “Anthropic can’t veto publication, but we can require them to redact information if it falls into narrow, pre-defined categories,&#8221; the company said, such as customer data, anything attorney-client privileged, or relating to information about its model architectures. &#8220;METR is free to characterize our redactions publicly, and say whether it believes the redactions were justified, as long as it does so without revealing the redacted information” Anthropic added. METR is the only evaluator so far at the top of a three-tier system Anthropic is building. Evaluators in the bottom tier, like biosecurity nonprofit SecureBio, r"
     },
     {
       "s": "Yellow.com",
@@ -180,12 +189,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "아이티비즈",
-      "t": "제논, AI 에이전트 통합 포털 ‘제나’ 출시…6종 제공",
+      "s": "AI라이프경제",
+      "t": "[AI 라이프] “AI 에이전트로 취향까지 찾는 쇼핑”…G마켓, 66만 셀러 지원 확대 나선다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BbmMtaEpZMUtla3VNSm1JSFh5Rm9ycG9ZME02Q1NkODluMi1DRTdNNk45ZHlWckN1TUw4Q0g2Z2ZBME1zQ1NVeDJqTlVyaS1rN25BSlV2UHFRRGVya3dTZVJmRmtnTXM?oc=5",
-      "m": "10. 15. AM 01:43",
-      "ts": 1792028631000,
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EUUFGWEtHYlBJTF90NjhsYm1XS0t2TDE1T1RLMXVKRGVnQzRFTjQ1alpoLVpaY0xESHhvSUFQeWljN1UybWhzVjNEQTM5VzhoczRPOHEydUlmSkNjZ2tOVXNTQzVPYy14T2NxeQ?oc=5",
+      "m": "10. 15. AM 01:49",
+      "ts": 1792028945000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -196,16 +205,6 @@
       "u": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPTzhUWW9ObHEwUDFvMnVhaHAxZWZ4UHQtUG4tZmpYSGJieGVQdVlaY1NleGEyaWlDNDMxQUlPc2hPUlVKaGxYSmRmZE1WUXJBMWtuRUJCbUJTYmpVY1F1QTBFMUtvVTA1YnJybkNGaW8yajFOVnBTUkVNZ2c0bDI4bk5aUDdfc1ZISFlVM1FOV2FfeXN3djJTd3pwbEVqazF1bF9LX2dUdzdMVmNKTmtMS0VObjAxdmlqUlkwZkhQTXJSSEtjdmxJOWlROTk3dUp3MmVCcFdwLTV5dnd3WE9wSnNQZS1EUjlfYmp6b3dmYURLWmR1aXd1VktjUkl1NUl4cl9lVS1lem1XcWNCamQxeTI3LWN2eS1mY0Zsa3BkTkpid1duZDRwWlRqWkM5T2c?oc=5",
       "m": "10. 15. AM 12:29",
       "ts": 1792024149000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "디지털투데이",
-      "t": "제논, AI 에이전트 통합 포털 '제나' 정식 출시",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qb1pBdks5MVlQazhYREw1TXdza3RGNVZxbnlXOGRSNEpTQUhVXzVfM2N6d0xWRnE0cnFYTC1SQ2J3OFBLeWZBaGlUQlpwczBLUzlOTUwxMVpCelBBc1pvRnNYSHNpLUxDN0U5eVdGSVV6LTg?oc=5",
-      "m": "10. 15. AM 12:20",
-      "ts": 1792023625000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -227,6 +226,16 @@
       "m": "10. 14. PM 11:18",
       "ts": 1792019911000,
       "fullText": "Artificial intelligence Eight states sue OpenAI over ChatGPT’s alleged harms to users Kansas Attorney General Kris Kobach said states “are not going to hold our breath” for federal legislation to keep AI companies in check. Listen to this article with a free profile 00:00 00:00 Eight states sue OpenAI claiming ChatGPT harms children 01:17 Get more news Live on Share Add NBC News to Google Oct. 14, 2026, 7:18 PM EDT By Angela Yang and Joe Kottke Eight states sued OpenAI on Wednesday, accusing it of deceiving parents about the safety of ChatGPT. The coordinated lawsuits — filed individually in Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana — target the AI giant for the harms its generative AI chatbot is alleged to have caused to ​children in those states. “OpenAI, they wanted to be the first to market. They advanced ChatGPT at a high speed, even though they knew that they were hurting children, lying to parents and breaking our laws,” Iowa Attorney General Brenna Bird said at a news conference announcing the legal action. “Everyone must follow the law.” The company’s flagship AI model, ChatGPT, launched the generative AI boom in November 2023, when it exploded into mainstream culture, and quickly became the biggest chatbot in the world. This summer, it surpassed 1 billion global monthly active app users . In recent years, users have increasingly turned to it and other chatbots for everything from friendship to therapy, as well as a slew of agentic tasks in their personal and professional lives. Bird was joined at Wednesday’s news conference by Kansas Attorney General Kris Kobach, Nebraska Attorney General Mike Hilgers and West Virginia Attorney General JB McCuskey. She said they aim to exhibit “a united front against companies that make money hurting our kids and breaking our laws.” She pointed to ChatGPT’s coaching users to commit suicide , aiding users in ways that enabled them to harm other people and offering dangerous medical advice ("
+    },
+    {
+      "s": "SBS Biz",
+      "t": "G마켓, 셀러 컨퍼런스 개최…신규 쿠폰 정책·AI 에이전트 도입",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4weGlVX25UODZDaHQyazM2Ym5YeEdSR2pPTEliQzhVN3d3c3BZbkpVakk4czdZUDJ0c3FNX21nejZ0S0FmVWxTaW03VVBmRGNkYWtv0gFYQVVfeXFMUF8tdWJ2eVBYemlJZnNERFZGaWVXQ01KSS1ITXczUUt1c0lZUmF4STZfV1hrM0FmOU9IWXNCdVhWM05IazUzekFFLVo3UTZ4aG0zVzQzdTJlbg?oc=5",
+      "m": "10. 14. PM 11:17",
+      "ts": 1792019820000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "IndexBox",
@@ -292,7 +301,7 @@
       "u": "https://www.nbcnews.com/news/us-news/anthropic-says-model-submitted-false-cold-case-tip-philadelphia-police-rcna603213",
       "m": "10. 13. PM 06:24",
       "ts": 1791915874000,
-      "fullText": "Artificial intelligence Anthropic says its AI model submitted a false cold case tip to Philadelphia police The bad tip “had minimal impact,” but Anthropic said it takes the action seriously, as “the same behaviors could do far more harm as models become more powerful.” Listen to this article with a free profile 00:00 00:00 Matt Rourke / AP Share Add NBC News to Google Oct. 13, 2026, 2:24 PM EDT By David K. Li Artificial intelligence research company Anthropic said one of its models generated a bogus tip about an unsolved murder and submitted it to Philadelphia police, warning that the incident raises concerns about high-tech “behaviors” that “could do far more harm as models become more powerful.” The AI model reached out to PhillyUnsolvedMurders.com , part of the police department, on July 18 and made a “false homicide tip,” Philadelphia police said Tuesday in a statement. The agency flagged the tip as spam, and it was never forwarded to investigators, police said. The police department emphasized that all tips have to go through human vetting before they ever get to a detective’s desk. “The department’s regular investigative process for crime tips requires human review and vetting before any tips are disseminated for investigative follow-up,” it said. “Regardless of who submits information or how it reaches the department, a tip is a lead to assess — not an established fact. Investigators evaluate its credibility and seek corroborating evidence,” the statement said. “An automated submission does not bypass that process.” Anthropic said in a statement that its Claude Haiku 4.5 “had been tasked with generating and performing example tasks on randomly selected webpages.” And in a run on July 18, Claude “landed on a page referencing an unsolved homicide” and came to a page that “contained a tip form run by a police department,” Anthropic said. For Subscribers FOR SUBSCRIBERS Republicans eye a potential opportunity in Minnesota in a tough midterm climate FOR SUBSCRIBER"
+      "fullText": "Artificial intelligence Anthropic says its AI model submitted a false cold case tip to Philadelphia police The bad tip “had minimal impact,” but Anthropic said it takes the action seriously, as “the same behaviors could do far more harm as models become more powerful.” Listen to this article with a free profile 00:00 00:00 Matt Rourke / AP Share Add NBC News to Google Oct. 13, 2026, 2:24 PM EDT By David K. Li Artificial intelligence research company Anthropic said one of its models generated a bogus tip about an unsolved murder and submitted it to Philadelphia police, warning that the incident raises concerns about high-tech “behaviors” that “could do far more harm as models become more powerful.” The AI model reached out to PhillyUnsolvedMurders.com , part of the police department, on July 18 and made a “false homicide tip,” Philadelphia police said Tuesday in a statement. The agency flagged the tip as spam, and it was never forwarded to investigators, police said. The police department emphasized that all tips have to go through human vetting before they ever get to a detective’s desk. “The department’s regular investigative process for crime tips requires human review and vetting before any tips are disseminated for investigative follow-up,” it said. “Regardless of who submits information or how it reaches the department, a tip is a lead to assess — not an established fact. Investigators evaluate its credibility and seek corroborating evidence,” the statement said. “An automated submission does not bypass that process.” Anthropic said in a statement that its Claude Haiku 4.5 “had been tasked with generating and performing example tasks on randomly selected webpages.” And in a run on July 18, Claude “landed on a page referencing an unsolved homicide” and came to a page that “contained a tip form run by a police department,” Anthropic said. For Subscribers FOR SUBSCRIBERS Hakeem Jeffries takes House majority fight to Trump’s backyard in Florida FOR SUBSCRIBERS Flu "
     },
     {
       "s": "애플경제",
@@ -325,6 +334,46 @@
       "fullText": "Google News"
     },
     {
+      "s": "Chosunbiz",
+      "t": "국민연금, AI 에이전트 기반 데이터 분석 체계 구축…공공기관 최초 - 조선비즈",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeGlZWTNhQTVkX3hlSG1uaVUyX3cxWGVtaXFPck9hYWpBeVNVdmdaUlhDNWZzNVRueHQzU01GVDMydnNLbDBOM3VmOFU5LVlSWU1CLTB0dThQVzZ2TERPaUhIZlBFR0JVWkZRZjF1NVNleV9SXzEwWnU5aEQySzBmN29ZYzNCRUxD0gGcAUFVX3lxTE9NdGIyenNpNjdMVzFvaHdxbGJVN2QyT29RZnJjalVnbFZ3bm9mbVlRSEpsQVpocUtaYld1bmtXaklpcXNQMHhuV2ZwRlp2QkI5aTdueWVhcHhXM0NUZVBlejJuTGhvZ3dFR2owME1RcDFVaHFzWmpYZDMxUTFpck5vQkFpMWh6SUlkMUxUQW82OVo2X0QxX3drVThKUg?oc=5",
+      "m": "10. 13. AM 05:51",
+      "ts": 1791870660000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "머니투데이",
+      "t": "8시간 걸리던 통화정책 분석 AI로 10분만에…국민연금 적용 추진 - 머니투데이",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yOGhMdnMzNmxiTEZEdzJEVFJRRjdvWi1kU3prMTN1VTNOQ2VleDJYRFlZRzZ4SkFleWJHTElOYUJBQVFiYmNnOWc5WUdUdFpnXzltVHBtcWdvdzA4RXRmZE5XSTI5UkFG0gFuQVVfeXFMUHpmbGM3N0xULTRTUnpJaTVndk5qcm1xY19FYjNnV3V6MkhXWXBHX2V5NU1KOGlmdjNTYWJlb09CSER2YkxFbmdObFBsdEtjUGg4Y2FnQmtKdmR1US1qRGk1UHVIRXZmT244STBlSkE?oc=5",
+      "m": "10. 13. AM 05:43",
+      "ts": 1791870229000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스핌",
+      "t": "국민연금, AI로 통화정책 분석 10분 만에",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BbWJBaGtmWDZQblZzYnZ4SzNpQ2ExWjQweDFvck1EN3o2bmNKZGw1bUZubzhUMzlvQ3VYdC03VlFGM0c1TkJrTExtMUpGd1ZNSWd5c3ltcjJvTXFU?oc=5",
+      "m": "10. 13. AM 04:49",
+      "ts": 1791866940000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "이코노미사이언스",
+      "t": "국민연금, AI 에이전트로 8시간 분석 10분에…통화정책·기업실적 리서치 자동화",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XdHZlaE05LXF4bWgzd3FtUnBDcXpGQUR2NkZ5TDd5d2JTUkFQYXBXMzRyN3huU2p3ZkRfQ2QzbXpQMGJmY1Y3MVRHbzRCdHpxZXRHNXBRdk9ja09CbUlpVlRfVmNQUDJlT2pjeHVOVQ?oc=5",
+      "m": "10. 13. AM 04:46",
+      "ts": 1791866809000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "파이낸셜신문",
       "t": "국민연금, AI 에이전트 활용...\"통화정책·기업실적 분석 10분 만에\"",
       "d": "",
@@ -335,60 +384,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "koreasprint.com",
-      "t": "안전한 AI를 바라기만 하지 말고 직접 구축하라… RSA 에이전트 ID, 고규제 산업의 에이전틱 아이덴티티 격차 해소",
+      "s": "Unite.AI",
+      "t": "하나의 정책, 수천 개의 에이전트: 엔터프라이즈 AI 거버넌스가 규모가 커지면 무너지는 이유",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfVkJ3Tk5JbkJpbDV6MkY5bC14dzlBSjlfRnhuMWMtWk51ZW1TS2JOOXV3UEdMdmRiUVR6U1ppX1g2ZlFMMVJQb0lSc1pXNXZoVDhJUzJaVEthNlFCdTZDVzJLRXN3b0pLeUEwWTBB?oc=5",
-      "m": "10. 11. AM 12:57",
-      "ts": 1791680220000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "d": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8",
-      "u": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "m": "10. 09. PM 04:00",
-      "ts": 1791561635000,
-      "fullText": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements. October 9, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through natural-language instructions, review results and guide changes. Omniverse libraries provide GPU-accelerated physics, rendering and sensor simulation capabilities. Explore the projects below to see frontier AI models such as GPT-6 Astra at work, and check back for new examples from NVIDIA teams and developers across the ecosystem. Stress-Test a Warehouse Simulation at Scale 🔗 https://blogs.nvidia.com/wp-content/uploads/2026/10/Infra-scale-demo-20260914_144614-Meeting-Recording.mp4 A warehouse simulation needs to keep running smoothly as more robot arms, conveyors and boxes fill the scene. When it slows down, developers need to identify what’s holding it back. Bhavik Sanganee, principal engineer at NVIDIA, used Astra with NVIDIA Omniverse libraries to build a warehouse simulation, increase its complexity and investigate slowdowns. Performance first fell below the target when the scene doubled in size. Running physics calculations, image rendering and video preparation concurrently restored performance and enabled further scaling. With 80 conveyors, 40 arms and 800 boxes, the simulation sustained 30 frames per second at full HD resolution during a two-"
-    },
-    {
-      "s": "얼리어답터뉴스",
-      "t": "EU AI 법 본격 시행 첫 달, 에이전트 탈출 사고 연속 발생…기업 컴플라이언스 체계 재편 불가피",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBfdEtmeUVNRGxHTTZLM29tRTRKU2ZjY1E5YUhjVEQyOWJnUlRqWkJlLXRNMUIycTJmWnBLVThUM0ptVV9NLWNZSTN3?oc=5",
-      "m": "10. 08. PM 02:28",
-      "ts": 1791469699000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-      "d": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "m": "10. 07. PM 06:45",
-      "ts": 1791398728000,
-      "fullText": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents RTX Spark preorders open today alongside a preview of NVIDIA DGX Station for Windows, the first deskside AI supercomputer built for the Windows enterprise desktop. October 7, 2026 by Gerardo Delgado 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of our company, Windows was at the core of it,” Huang said, tracing back NVIDIA’s support for Windows and Microsoft over several decades. “If not for Windows there would be no GeForce.” Huang connected that history — and his long-term vision — to the agentic era Wednesday during a fireside chat with Nadella hosted by Sriram Krishnan, a former senior White House policy advisor on AI at the Windows AI and Surface event, held at Dogpatch Studios in San Francisco. “The thing that I really give Jensen all the credit for, quite frankly, is that consistency of vision of what this can be—not today, not tomorrow, but as a secular trend,” Nadella said. “And that’s what brings us to this moment.” “The personal computer is the ultimate tool, it’s my ultimate tool, and for a whole generation of people, it’s our ultimate tool,” Huang said. “What happens in the era of agents, when the agent is on your computer? It is now your personal assistant.” The event opened with Nadella before Pavan Davuluri, executive vice president of Windows and Devices at Microsoft, walked through the Windows updates designed for the agentic era. Turning Windows into a secure platform for agents, Microsoft announced general availability of Microsoft Execution Containers (MXC), the OS-level infrast"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "\"AI가 한 행동, 책임은 누가?\"…IBM, \"에이전트 행동 기록 체계 구축해야\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16blUtVThobDlST01tWDJOOWxSdTNqNW5McVZ1aTFpbTBjTHJpaG1mNk9sbkZ0YTRNRVViSjFzU1g4RUZsWlcxVThWNm1zWDhlWVlQMWxn?oc=5",
-      "m": "10. 07. AM 07:00",
-      "ts": 1791356400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "AI타임스",
-      "t": "오픈AI '에이전트 폭주'에 사면초가... 전 세계서 법적·규제 경고 폭풍",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JT3VoSEpTTDVabmdNd0Y0TUZ6TGZMX3dRS1ZBTHA3a0U1Z0xjSDBSUnMtUDV2UnVEX1lhVC1XNWZPZVB4b2VNZ2lEZkNET0E1dGJaSmZVblRIcXgyTHVRTEM5NEp6UjhKbmc?oc=5",
-      "m": "10. 05. AM 07:00",
-      "ts": 1791183600000,
+      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NM0dyT1JZV3RUTlpFVi1ZSUJFMWRXRTJlVGpEZWNucDNERE1jV2U0bTNfZGNSNU52Z3VGc29OcmFOMExmVVM0OVF0X3d5UGxQdk9FZEoxcFhHMF9xMnRCekdrd241UUYtRUJSb2Nram9iMUEx?oc=5",
+      "m": "10. 12. PM 12:28",
+      "ts": 1791808087000,
       "_policy": true,
       "fullText": "Google News"
     }

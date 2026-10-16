@@ -1,22 +1,40 @@
 {
-  "updatedAt": "2026-10-16T14:11:17.604Z",
+  "updatedAt": "2026-10-16T18:19:25.045Z",
   "count": 40,
   "stats": {
-    "today": 5,
-    "yesterday": 15,
-    "weekAvg": 5.7,
-    "sources": 27,
+    "today": 8,
+    "yesterday": 13,
+    "weekAvg": 5,
+    "sources": 26,
     "heat": "warm"
   },
   "items": [
     {
-      "s": "Bloomberg Tech",
-      "t": "Schwab CEO on AI Strategy, Investing Trends, and ‘Charlie’",
-      "d": "Rick Wurster, president and CEO at The Charles Schwab Corporation, discusses customer trends in investing, efforts to attract younger investors, and why the firm is blocking unauthorized AI agents. He speaks on Bloomberg Television. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-10-16/schwab-ceo-on-ai-strategy-investing-trends-charlie-video",
-      "m": "10. 16. PM 01:11",
-      "ts": 1792156264000,
-      "fullText": ""
+      "s": "TechCrunch",
+      "t": "India becomes the latest country to report rogue AI agent activity",
+      "d": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "u": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "m": "10. 16. PM 05:52",
+      "ts": 1792173144000,
+      "fullText": "AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday. The Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model providers” whose models, during research and evaluation runs on the open internet, “had reached the live systems of Indian organizations.” The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles, and their actions “exceeded the authorisation of their assigned tasks.” This makes India the latest stop on what has become a world tour for rogue AI agents. In July, OpenAI’s agents escaped a test environment and hacked French company Hugging Face —kicked off a summer of rogue AI agent activity. Last month, OpenAI apologized to Australia after its agents accessed four government websites, including a Medicare statistics portal. At Hugging Face, OpenAI’s agents started the same way but then found and exploited software flaws to run code on the company’s servers. CERT-In described no such hacking in India, where the agents appear to have simply used the access left lying around. Still, the Indian cases appear to be worse in one respect, which is what the agents saw: In Australia, OpenAI said it found no evidence its agents touched individuals’ medical or criminal records, even after they wrote files inside a Medicare statistics system, while in India, agents read personal data and confidential business records. And unlike earlier incidents, each disclosed by a single lab, India’s involved agents from multiple providers. CERT-In did not name the providers or affected organizations, or say whether the agents altered any systems. TechCrunch has reached out to CERT-In for more information. For now, the closest parallel seems to be Anthropic’s July disclosure of Claude breaking into t"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "d": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
+      "u": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "m": "10. 16. PM 04:30",
+      "ts": 1792168200000,
+      "fullText": "&#8211;:&#8211;:&#8211;:&#8211; Last day to save up to $200 to TechCrunch Founder Summit on Oct. 16. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Close TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2026 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI Amazon Apps Biotech & Health Climate Cloud Computing Commerce Crypto Enterprise EVs Fintech Fundraising Gadgets Gaming Google Government & Policy Hardware Instagram Layoffs Media & Entertainment Meta Microsoft Privacy Robotics Security Social Space Startups TikTok Transportation Venture More from TechCrunch Staff Events Startup Battlefield StrictlyVC Newsletters Podcasts Videos Partner Content TechCrunch Brand Studio Contact Us Venture An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet Theresa Loconsolo 9:30 AM PDT · October 16, 2026 30 min Loading the player&#8230; Amulya Vishwanath , who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have its “ChatGPT moment” — that day when the shockingly capable chatbot was launched in late 2022. (General Intuition CEO Pim de Witte told Equity earlier this year that a single general foundation model would make much of today’s specialized robotics work redundant, and be that moment.) On this episode of TechCrunch’s Equity podcast, Dominic-Madori Davis caught up with Vishwanath to discuss where she’s writing first checks as the founder and managing partner of Techable VC. They also talked about what she’s learned as one of the first women executives to spin out of Nvidia and launch her own early-sta"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Elorian’s first AI model wants to reason with images, not just about them",
+      "d": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "u": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "m": "10. 16. PM 04:01",
+      "ts": 1792166497000,
+      "fullText": "Elorian , the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned. The model, Glimpse , is launching as a research preview with API access and a chat interface is waitlist-only, so for now it&#8217;s a results table and a thesis. The thesis? Today’s AI models, for all their skill with language and code, still can’t really see. Most multimodal models look at an image once, convert it to tokens, and then reason about it in text — like describing a photo from memory. Glimpse keeps going back to the source. Mid-reasoning, it can crop into a region, pull specific frames from a video, or run code to measure or compare what it&#8217;s looking at, a mechanism Elorian calls a &#8220;visual scratch space.&#8221; Think of someone pinching to zoom on a phone photo to double-check what they thought they saw. For former Google DeepMind researcher and Elorian CEO Andrew Dai, one of the clearest signs that AI still couldn’t really see came on game night. Last year he photographed a board game he&#8217;d just finished with friends and asked a frontier model who was winning. It couldn&#8217;t say. Board games &#8220;each have their own visual language, each have their own iconography, symbols,&#8221; he told TechCrunch. &#8220;To an adult, it&#8217;s quite easy to understand what&#8217;s going on with minimal text, but these models aren&#8217;t able to intuit what the symbols mean.&#8221; &#8220;Humans can look at Ikea diagrams, with no text, and assemble Ikea furniture, right? Why can&#8217;t AI models?&#8221; he said. The approach isn&#8217;t completely new — OpenAI added crop-and-zoom during reasoning to its o-series models in 2025 — but Elorian&#8217;s pitch is that it built the whole model around it, cheaply. The company says a small team trained Glimpse on a few hundred GPUs and that the model is substantially smaller than the frontier systems i"
     },
     {
       "s": "TechCrunch",
@@ -25,7 +43,16 @@
       "u": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
       "m": "10. 16. PM 12:55",
       "ts": 1792155309000,
-      "fullText": "Replit CEO and co-founder Amjad Masad has seen how AI is impacting the workplace firsthand, with businesses adopting his company&#8217;s AI coding tools to develop and launch their own software. At TechCrunch Disrupt in San Francisco on Thursday, Masad shared what Replit has learned about what that means for the future of work in the AI age, including how humans will still play key roles as AI agents come to work alongside them. He described his vision of a &#8220;self-driving company,&#8221; referring not to robotaxi makers, but how agents will come to do much of the grunt work at companies while people become more valued for their judgement and taste. &#8220;The reality is, all of our jobs — perhaps everyone in this audience, especially — changed over the past year,&#8221; he said, addressing the audience at Disrupt. &#8220;But a big part of America and the world, they still don&#8217;t know that that change is coming, and it&#8217;s going to be surprising to a lot of people,&#8221; Masad said. He said Replit&#8217;s team had been reflecting on how AI technology impacted their own workplace over the past year, particularly after AI agents became more reliable sometime earlier this year. &#8220;Our company entirely changed how we operate, and I would say the closest analogy is a &#8216;self-driving company&#8217;,&#8221; Masad said. &#8220;The company is sort of self-improving, so a lot of the work that&#8217;s going on is driven by agents.&#8221; Illustrating the shift, Masad said that when support tickets come in at Replit, they&#8217;re first examined by an agent, which performs the initial triaging by looking at GitHub issues, the codebase, and Linear tickets. By the time the support request reaches a person, they have all the additional information that helps them decide how best to proceed. And when that support person decides to submit a patch to apply a fix, it&#8217;s just a click to deploy another agent. &#8220;You have an entire loop where agents did mos"
+      "fullText": "Replit CEO and co-founder Amjad Masad has seen how AI is impacting the workplace firsthand, with businesses adopting his company&#8217;s AI coding tools to develop and launch their own software. At TechCrunch Disrupt in San Francisco on Thursday, Masad shared what Replit has learned about what that means for the future of work in the AI age, including how humans will still play key roles as AI agents come to work alongside them. He described his vision of a &#8220;self-driving company,&#8221; referring not to robotaxi makers, but how agents will come to do much of the grunt work at companies while people become more valued for their judgment and taste. &#8220;The reality is, all of our jobs — perhaps everyone in this audience, especially — changed over the past year,&#8221; he said, addressing the audience at Disrupt. &#8220;But a big part of America and the world, they still don&#8217;t know that that change is coming, and it&#8217;s going to be surprising to a lot of people,&#8221; Masad said. He said Replit&#8217;s team had been reflecting on how AI technology impacted their own workplace over the past year, particularly after AI agents became more reliable sometime earlier this year. &#8220;Our company entirely changed how we operate, and I would say the closest analogy is a &#8216;self-driving company&#8217;,&#8221; Masad said. &#8220;The company is sort of self-improving, so a lot of the work that&#8217;s going on is driven by agents.&#8221; Illustrating the shift, Masad said that when support tickets come in at Replit, they&#8217;re first examined by an agent, which performs the initial triaging by looking at GitHub issues, the codebase, and Linear tickets. By the time the support request reaches a person, they have all the additional information that helps them decide how best to proceed. And when that support person decides to submit a patch to apply a fix, it&#8217;s just a click to deploy another agent. &#8220;You have an entire loop where agents did most"
+    },
+    {
+      "s": "전자신문",
+      "t": "엔비디아, RTX 스파크 노트북 공식 출시…'개인용 에이전틱 AI 시대' 연다",
+      "d": "엔비디아는 '엔비디아 RTX 스파크'를 탑재한 노트북이 16일 공식 출시된다고 밝혔다. RTX 스파크는 엔비디아 블랙웰 RTX 그래픽처리장치(GPU)와 엔비디아 그레이스 중앙처리장치(CPU)를 하나로 결합한 슈퍼칩이자 AI PC용 플랫폼이다. 1페타플롭의 FP4 AI 성능으로 대규모언어모델(LLM)과과 AI 에이전트를 실행할 수 있다. 최대 128GB 통합 메모리를 제공한다. 마이크로소프트(MS) 윈도 운용체계(OS) PC로, 에이수스·델·HP",
+      "u": "https://www.etnews.com/20261016000313",
+      "m": "10. 16. PM 12:00",
+      "ts": 1792152000000,
+      "fullText": "반도체 반도체 엔비디아, RTX 스파크 노트북 공식 출시…'개인용 에이전틱 AI 시대' 연다 발행일 : 2026-10-16 21:00 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 엔비디아 RTX 스파크 노트북 이미지 엔비디아는 '엔비디아 RTX 스파크'를 탑재한 노트북이 16일 공식 출시된다고 밝혔다. RTX 스파크는 엔비디아 블랙웰 RTX 그래픽처리장치(GPU)와 엔비디아 그레이스 중앙처리장치(CPU)를 하나로 결합한 슈퍼칩이자 AI PC용 플랫폼이다. 1페타플롭의 FP4 AI 성능으로 대규모언어모델(LLM)과과 AI 에이전트를 실행할 수 있다. 최대 128GB 통합 메모리를 제공한다. 마이크로소프트(MS) 윈도 운용체계(OS) PC로, 에이수스·델·HP·레노버·MS·MSI를 통해 출시된다. 엔비디아는 자사의 모든 플랫폼을 RTX 스파크에 담았다고 강조했다. RTX 스파크에서 엔비디아 쿠다, DLSS, 옵틱스, 리플렉스, 지싱크, 텐서RT, 하드웨어 가속 비디오 기술 등을 활용할 수 있다. 사용자는 안내에 따른 설정과 간편한 설치 프로그램으로 명령 프롬프트를 사용하지 않고도 깃허브 코파일럿, 헤르메스, 오픈클로, 퍼플렉시티, 파이, 워크버디 등 에이전트를 쉽게 시작할 수 있다. 또 코딩부터 테스트, 프로토타이핑까지 하나의 기기에서 수행하도록 지원한다. RTX 스파크는 크리에이터가 완성된 콘텐츠를 쉽게 구현할 수 있도록 지원한다. 전원에 연결하지 않은 상태에서도 8K 4:2:2 영상 편집과 최대 90GB 규모 대형 3D 장면 렌더링이 가능하다. RTX 스파크 출시에 맞춰 어도비는 포토샵과 프리미어, 서브스턴스 3D 등 창작 애플리케이션의 AI 편집 기능에 엔비디아 텐서RT 가속을 적용한다. 몰입감 높은 게이밍 경험도 제공한다. 출시 시점부터 싱글플레이 모험 타이틀과 온라인 멀티플레이 게임이 지원된다. 지원 게임에는 △사이버펑크 2077 △포트나이트 △기어스 오브 워: E-데이 △마블 라이벌즈 △월드 오브 워크래프트 △NBA 2K27 등이 포함된다. RTX 스파크 노트북은 에이수스·델·HP·레노버·MS·MSI 웹사이트와 주요 판매처를 통해 전 세계에서 판매된다. 가격은 2599달러부터 시작한다. 젠슨 황 엔비디아 CEO는 “엔비디아는 MS와 PC 업계 파트너사들과 함께 크리에이터, 개발자, 게이머에게 새로운 세대의 윈도 PC를 선보인다”며 “오늘날의 업무는 물론 앞으로 함께 일하게 될 개인용 AI 에이전트까지 고려해 설계된 제품”이라고 말했다. 권동준 기자 djkwon@etnews.com"
     },
     {
       "s": "톱스타뉴스",
@@ -86,15 +113,6 @@
       "fullText": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark Explore a new era of local AI, join launch celebrations around the world and #ShareYourSpark. October 15, 2026 by Shreevar Rastogi 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and what did it spark a love for? Join the celebration online by sharing responses with #ShareYourSpark for a chance to win an ASUS ProArt P14 RTX Spark laptop signed by NVIDIA founder and CEO Jensen Huang. See the campaign and official rules . See What Reviewers Are Saying From local AI workflows to creative apps and gaming, see what reviewers are saying about RTX Spark — then experience it at a launch celebration. “The fact that NVIDIA, Microsoft and their partners have delivered such a capable, compatible and polished platform even in its first at-bat should put the rest of the PC industry on notice.” — Tom’s Hardware “I tested NVIDIA’s RTX Spark for gaming and local AI – the performance absolutely stunned me.” — TrustedReviews , UK “I&#8217;m very happy to report that performance is actually looking really good when it comes to AI, gaming and creative workflows.” — Microcenter “[RTX Spark] is a different species of computer that has arrived early. It is a statement of intent from NVIDIA about where computing is going — trading raw benchmarking crowns for the ability to carry a self-rewriting, fully autonomous, CUDA-accelerated digital brain in your backpack.” — Tom’s Guide “One of the most impressive parts of the launch is how many apps NVIDIA has worked with to ensure optimisation with the Spark technology.” — Creative Bloq Independent testing from Artificial Analysis offers an early look at the po"
     },
     {
-      "s": "TechCrunch",
-      "t": "AI agents are coming to Rivian&#8217;s cars",
-      "d": "We'll likely learn more about how this will work at the company's upcoming \"AI &#038; Autonomy Day\" event in December.",
-      "u": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-      "m": "10. 15. PM 03:02",
-      "ts": 1792076556000,
-      "fullText": "Rivian recently rolled out an AI assistant that lets drivers and passengers interact with the company&#8217;s electric vehicles just by talking to them. But the carmaker&#8217;s founder and CEO, RJ Scaringe, said at TechCrunch Disrupt this week that, in the future, Rivian&#8217;s cars will be able to run AI agents made by other companies like Anthropic. &#8220;That&#8217;s where it becomes magical,&#8221; Scaringe said onstage. Scaringe didn&#8217;t say when Rivian would implement this, and the company declined to offer more details, pointing instead to the &#8220;AI & Autonomy Day&#8221; event it&#8217;s hosting in December. But it&#8217;s not hard to imagine how Rivian might integrate something like Claude, OpenAI&#8217;s Dots, or Meta&#8217;s Muse assistant into its software. The company has developed its in-car software from the ground up, instead of leaning on Apple CarPlay or Android Auto, and built a lot of its own applications, like navigation (though it has worked to integrate popular in-car apps like Apple Music). Rivian says it has created its own in-house agentic framework that understands what action a person wants to take when they talk to the vehicle, and routes it to the right part of the car&#8217;s software. Most of the time, that involves what you&#8217;d expect: asking the car to turn down the temperature, activate the seat warmers, or summarize the news. &#8220;Think of it as like a traffic light. So if you ask the vehicle something, it decides what model it&#8217;s going to use. It can use a local model that&#8217;s running on the edge and the vehicle. If it&#8217;s a more complex question, it can go up to the cloud. And then even for that, we have different models that we use,&#8221; Scaringe said. As of May of this year, the agent could access external apps like Google Calendar. And Scaringe said at Disrupt the next step would be to add products from the frontier AI companies, though making them work in the car won&#8217;t be easy. &#8220;The"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
       "d": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
@@ -112,15 +130,6 @@
       "ts": 1792074801000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Google’s Universal Cart shopping tool launches in the US",
-      "d": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-      "u": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "m": "10. 15. PM 02:29",
-      "ts": 1792074573000,
-      "fullText": "Google on Thursday said “Universal Cart,” a tool that lets users collect and monitor products they find across search and in the Gemini app, is now available to U.S. users. The company first previewed the tool at Google I/O in May. The idea is to make online shopping easier to manage. Find something you like, save it to your cart, and move on. When you return later, your items and shopping progress are still there, so you don’t have to hunt down the same products or start over. Universal Cart can collect items from multiple retailers, turning it into a central hub for browsing and keeping track of potential purchases. Google says the cart can also help shoppers stay on top of deals and availability. The tool can send notifications when a saved product’s price drops or when an out-of-stock item becomes available again. The tool is also designed to offer more tailored help during the shopping process. Google says it can take credit card perks into account when helping users choose how to pay, and also surface relevant promo codes. Checkout is tied to Google’s Universal Commerce Protocol, or UCP, an open standard the company introduced earlier this year. UCP is designed to help AI agents and retailers work together across different parts of the shopping journey, including checkout. Google is already deeply invested in AI-powered shopping, and Universal Cart is its latest effort to make the experience more convenient. It joins features such as conversational product discovery in Search’s AI Mode and Google’s “Let Google Call” tool, which uses an AI agent to contact nearby stores and check whether an item is in stock. Google isn’t the only company bringing AI into e-commerce. Amazon , OpenAI , and other rivals have added agentic commerce features as companies look for ways to make chatbots useful beyond answering questions. Topics AI , Apps , Commerce , e-commerce , gemini , Google , online shopping , shopping carts When you purchase through links in our articles, we may"
     },
     {
       "s": "IT조선",
@@ -143,23 +152,13 @@
       "fullText": "Google News"
     },
     {
-      "s": "지디넷코리아",
-      "t": "제논, AI 에이전트 포털 '제나' 모바일로 확장",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwR0EyeTNMalpXdUlVdTRuR2lraEduUTlSUm8yVzJKakx2ekU2cEQxM19oQV9ZSE4xcVFzQW9yUzhmMWlzSTJzektVM3g0bEdNM0JHWE1B?oc=5",
-      "m": "10. 15. AM 05:27",
-      "ts": 1792042050000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "한경 IT",
       "t": "\"화장지에 도청장치 숨겼다\"…챗GPT 개발사 발칵 뒤집힌 이유",
       "d": "",
       "u": "https://www.hankyung.com/article/202610153717i",
       "m": "10. 15. AM 04:39",
       "ts": 1792039172000,
-      "fullText": ""
+      "fullText": "사회 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 \"화장지에 도청장치 숨겼다\"…챗GPT 개발사 발칵 뒤집힌 이유 입력 2026.10.15 13:39 수정 2026.10.15 13:47 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이영애 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 임원 전용 회의실 TV 뒤에 설치 챗봇에 녹음&middot;실시간 청취 방법 질문 2만원짜리 초소형 장치 활용 AI 생성 이미지 챗GPT 개발사 오픈AI의 직원이 회사 임원 회의실에 몰래 도청장치를 설치한 혐의로 체포됐다. 이 직원은 인공지능(AI) 챗봇을 활용해 도청장치 제작 방법을 조사한 것으로 드러났다. 도청장치는 화장지에 감싼 채 회의실 TV 뒷면에 숨겨져 있었다. 14일(현지시간) 미국 정보기술(IT) 전문매체 와이어드와 영국 가디언 등 외신에 따르면 미국 법무부는 오픈AI 엔지니어 압둘라흐만 알포잔을 불법 감청 혐의로 체포해 기소했다. 사우디아라비아 국적의 알포잔은 지난해 7월 오픈AI에 입사해 미국 샌프란시스코 사무실에서 근무해왔다. 사건은 지난달 30일 오픈AI 보안팀이 사내 임원 전용 회의실을 점검하는 과정에서 드러났다. 회의실 TV 뒷면의 USB 포트에 정체불명의 전자장치가 꽂혀 있었던 것이다. 장치는 화장지로 감춰져 있었으며, 내부 저장장치에는 암호화까지 적용돼 있었다. 문제의 회의실은 오픈AI 임원과 임원 비서만 예약할 수 있는 공간이었다. 회사의 AI 연구개발 현황과 신제품 출시 계획, 사업 전략 등 핵심 기밀이 논의되는 장소다. 정부 관계자나 외부 사업 파트너와의 회의도 이곳에서 열렸다. 수사당국에 따르면 알포잔은 지난달 28일께 해당 장치를 설치한 것으로 추정된다. 그는 회의실 출입 권한이 없었지만, 사내 폐쇄회로TV(CCTV)에는 회의실 주변을 여러 차례 드나드는 모습이 포착됐다. 특히 범행을 준비하는 과정에서 AI 챗봇을 활용한 정황이 드러났다. 알포잔은 회사 내부 도구를 이용해 건물 주소와 회의실 위치, 회의 일정 등을 검색한 것으로 조사됐다. 그의 배우자와 연관된 챗봇 계정에서는 지난달 24일부터 30일까지 녹음장치 제작과 설치 방법에 관한 질문이 잇따라 확인됐다. 질문에는 &#39;연속으로 음성을 녹음하는 방법&#39;, &#39;와이파이 연결을 설정하는 방법&#39;, &#39;실시간 청취 기능을 개선하는 방법&#39;, &#39;SD카드를 암호화하는 방법&#39; 등이 포함됐다. 실제 발견된 도청장치의 고유 식별 정보와 관련된 질문도 있었던 것으로 파악됐다. 도청장치의 정체도 눈길을 끈다. 와이어드에 따르면 해당 기기는 손가락 크기의 초소형 개발 보드다. 마이크와 저장장치 등을 연결할 수 있으며 시중 판매 가격은 13.99달러(약 2만원)에 불과하다. 알포잔의 수상한 행동은 도청장치가 발견된 이후에도 이어졌다. 지난 5일 그는 다시 임원 회의실에 들어가 장치가 설치돼 있던 TV 뒷면을 살펴보는 모습이 CCTV에 포착됐다. 같은 날 사무실 내 다른 공간에 놓인 그의 가방에서도 두 번째 녹음장치가 발견됐다. 가방 안에는 알포잔의 지갑과 신분증도 들어 있었다. 그는 이후 회사에 가방을 분실했다고 신고했지만, 가방에서 사라진 물품을 문의하면서도 두 번째 녹음장치는 언급하지 않은 것으로 전해졌다. 오픈AI는 사건을 확인한 뒤 미 연방수사국(FBI)에 신고했고, 알포잔은 지난 9일 체포됐다. 회사도 체포 당일 그를 해고했다. 다만 실제로 회사 기밀이 외부에 유출됐는지는 확인되지 않았다. 오픈AI는 현재까지 AI 모델의 핵심 기술 정보인 모델 가중치나 소스코드, 고객 데이터에 부적절하게 접근하거나 이를 외부로 빼돌린 정황은 발견되지 않았다고 밝혔다. 도청장치에 녹음된 내용 역시 암호화돼 있어 확인되지 않은 상태다. 수사당국은 범행 동기를 공개하지 않았다. 유죄가 인정되면 알포잔은 최대 징역 5년과 벌금 25만달러(약 3억5000만원)에 처해질 수 있다. "
     },
     {
       "s": "한경 IT",
@@ -168,7 +167,7 @@
       "u": "https://www.hankyung.com/article/202610153829i",
       "m": "10. 15. AM 04:34",
       "ts": 1792038896000,
-      "fullText": ""
+      "fullText": "글로벌 시장 브리핑 국제 뉴스 픽 앤트로픽, 오픈AI 매출 제치고 흑자 냈지만…성장세는 둔화 입력 2026.10.15 13:34 수정 2026.10.15 13:35 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김인엽 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 투자자에 장부 공개한 앤트로픽 3분기 매출 168억달러, 2분기 연속 흑자 연환산 매출은 672억달러로 오픈AI 웃돌아 매출 증가율은 147%&rarr;45%로 둔화 코어위브 파산 우려에 주가 15% 폭락 엔비디아 등 반도체 주가도 영향 다리오 아모데이 앤트로픽 최고경영자(CEO)가 지난달 29일(현지시간) 미국 백악관에서 열린 테크리더 오찬 행사에 참석하고 있다. 로이터연합뉴스 인공지능(AI) 모델 개발사 앤트로픽이 상장을 앞두고 투자자들에게 2분기 연속 흑자를 내고 있다고 밝혔다. 그간 베일 속에 감춰진 비상장사 앤트로픽의 장부가 처음으로 공개된 것이다. 14일(현지시간) 파이낸셜타임스(FT) 등에 따르면 앤트로픽은 이날 미국 샌프란시스코 본사에서 투자자 설명회를 열고 올해 3분기 매출이 168억달러(약 24조원)를 기록했다고 밝혔다. 직전 분기(116억달러)보다 45% 증가한 수치다. 3분기 조정 영업이익률은 11%를 기록했다. 앤트로픽은 올해 2~3분기 연속 흑자를 기록했다고 밝혔다. 앤트로픽이 공개한 매출은 경쟁사 오픈AI를 웃도는 수준이다. 3분기 매출을 1년 치로 환산하면 672억달러다. 앞서 FT는 지난 8일 오픈AI의 9월 기준 연환산 매출이 약 500억달러라고 보도했다. 다만 두 회사의 매출을 직접 비교하기는 어렵다. 앤트로픽은 아마존웹서비스(AWS), 구글클라우드 등 외부 클라우드 사업자를 통한 판매액까지 매출에 포함하지만 오픈AI는 이를 제외하기 때문이다. 앤트로픽은 3개월간의 매출을, 오픈AI는 9월 한 달 매출을 기준으로 연환산했다는 차이도 있다. 다만 시장의 우려는 매출 규모보다 성장 속도에 집중되고 있다. 앤트로픽의 올해 1분기 매출은 47억달러였다. 2분기에는 116억달러로 147% 급증했지만 3분기에는 증가율이 45%로 낮아졌다. 절대적인 매출은 늘고 있지만 성장 속도는 둔화하고 있다는 뜻이다. 이는 AI 산업에 대한 투자자들의 기대가 달라지고 있음을 보여준다. 그동안 AI 기업들은 폭발적인 매출 증가를 앞세워 천문학적인 데이터센터 투자와 기업가치를 정당화했다. 하지만 성장률이 낮아지면 미래에 벌어들일 돈으로 현재의 투자금을 회수할 수 있을지에 대한 의문이 커진다. 앤트로픽은 앞으로 10년간 클라우드와 컴퓨팅 인프라 등에 최소 5180억달러를 투입하기로 약정한 상태다. 이런 불안은 AI 데이터센터 기업들의 주가와 채권 가격에 먼저 반영되고 있다. 앤트로픽 매출이 알려지기 전 뉴욕증시에서 AI 클라우드 기업 코어위브는 15.46% 폭락한 65.78달러에 거래를 마쳤다. 앤트로픽의 실적이 알려진 뒤에도 시간외 거래에서 주가가 61.88달러까지 떨어졌다. 네비우스(-10.08%), 아이렌(-12.18%), 어플라이드디지털(-9.43%) 등 다른 AI 인프라 기업들도 일제히 급락했다. 코어위브가 지난 6월 연 9.625%의 금리로 발행한 2032년 만기 회사채의 시장 수익률은 최근 연 15%를 넘어섰다. 투자자들이 코어위브에 돈을 빌려주는 위험을 감수하려면 더 높은 수익률을 요구한다는 의미다. 채무불이행 위험에 대비한 보험 성격의 신용부도스와프(CDS) 비용도 급등했다. 코어위브가 추가 자금 조달이나 차환에 나설 때 높은 금융비용을 부담해야 할 수 있다는 우려가 나온다. 코어위브의 주식과 채권 가격을 흔드는 요인은 오픈AI의 수익성 논란이다. 코어위브는 오픈AI와 총 224억달러 규모의 컴퓨팅 인프라 공급 계약을 체결한 기업이다. 대규모 차입으로 데이터센터와 엔비디아의 AI 반도체를 확보한 뒤 오픈AI 등에 빌려주고 사용료를 받는 사업 구조다. AI 기업들이 충분한 매출을 올리지 못하거나 컴퓨팅 수요를 줄이면 코어위브의 투자금 "
     },
     {
       "s": "코리아리포트",
@@ -181,12 +180,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "AI라이프경제",
-      "t": "[AI 라이프] “AI 에이전트로 취향까지 찾는 쇼핑”…G마켓, 66만 셀러 지원 확대 나선다",
+      "s": "아이티비즈",
+      "t": "제논, AI 에이전트 통합 포털 ‘제나’ 출시…6종 제공",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EUUFGWEtHYlBJTF90NjhsYm1XS0t2TDE1T1RLMXVKRGVnQzRFTjQ1alpoLVpaY0xESHhvSUFQeWljN1UybWhzVjNEQTM5VzhoczRPOHEydUlmSkNjZ2tOVXNTQzVPYy14T2NxeQ?oc=5",
-      "m": "10. 15. AM 01:49",
-      "ts": 1792028945000,
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BbmMtaEpZMUtla3VNSm1JSFh5Rm9ycG9ZME02Q1NkODluMi1DRTdNNk45ZHlWckN1TUw4Q0g2Z2ZBME1zQ1NVeDJqTlVyaS1rN25BSlV2UHFRRGVya3dTZVJmRmtnTXM?oc=5",
+      "m": "10. 15. AM 01:43",
+      "ts": 1792028631000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -197,6 +196,16 @@
       "u": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPTzhUWW9ObHEwUDFvMnVhaHAxZWZ4UHQtUG4tZmpYSGJieGVQdVlaY1NleGEyaWlDNDMxQUlPc2hPUlVKaGxYSmRmZE1WUXJBMWtuRUJCbUJTYmpVY1F1QTBFMUtvVTA1YnJybkNGaW8yajFOVnBTUkVNZ2c0bDI4bk5aUDdfc1ZISFlVM1FOV2FfeXN3djJTd3pwbEVqazF1bF9LX2dUdzdMVmNKTmtMS0VObjAxdmlqUlkwZkhQTXJSSEtjdmxJOWlROTk3dUp3MmVCcFdwLTV5dnd3WE9wSnNQZS1EUjlfYmp6b3dmYURLWmR1aXd1VktjUkl1NUl4cl9lVS1lem1XcWNCamQxeTI3LWN2eS1mY0Zsa3BkTkpid1duZDRwWlRqWkM5T2c?oc=5",
       "m": "10. 15. AM 12:29",
       "ts": 1792024149000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "디지털투데이",
+      "t": "제논, AI 에이전트 통합 포털 '제나' 정식 출시",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qb1pBdks5MVlQazhYREw1TXdza3RGNVZxbnlXOGRSNEpTQUhVXzVfM2N6d0xWRnE0cnFYTC1SQ2J3OFBLeWZBaGlUQlpwczBLUzlOTUwxMVpCelBBc1pvRnNYSHNpLUxDN0U5eVdGSVV6LTg?oc=5",
+      "m": "10. 15. AM 12:20",
+      "ts": 1792023625000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -218,16 +227,6 @@
       "m": "10. 14. PM 11:18",
       "ts": 1792019911000,
       "fullText": "Artificial intelligence Eight states sue OpenAI over ChatGPT’s alleged harms to users Kansas Attorney General Kris Kobach said states “are not going to hold our breath” for federal legislation to keep AI companies in check. Listen to this article with a free profile 00:00 00:00 Eight states sue OpenAI claiming ChatGPT harms children 01:17 Get more news Live on Share Add NBC News to Google Oct. 14, 2026, 7:18 PM EDT By Angela Yang and Joe Kottke Eight states sued OpenAI on Wednesday, accusing it of deceiving parents about the safety of ChatGPT. The coordinated lawsuits — filed individually in Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana — target the AI giant for the harms its generative AI chatbot is alleged to have caused to ​children in those states. “OpenAI, they wanted to be the first to market. They advanced ChatGPT at a high speed, even though they knew that they were hurting children, lying to parents and breaking our laws,” Iowa Attorney General Brenna Bird said at a news conference announcing the legal action. “Everyone must follow the law.” The company’s flagship AI model, ChatGPT, launched the generative AI boom in November 2023, when it exploded into mainstream culture, and quickly became the biggest chatbot in the world. This summer, it surpassed 1 billion global monthly active app users . In recent years, users have increasingly turned to it and other chatbots for everything from friendship to therapy, as well as a slew of agentic tasks in their personal and professional lives. Bird was joined at Wednesday’s news conference by Kansas Attorney General Kris Kobach, Nebraska Attorney General Mike Hilgers and West Virginia Attorney General JB McCuskey. She said they aim to exhibit “a united front against companies that make money hurting our kids and breaking our laws.” She pointed to ChatGPT’s coaching users to commit suicide , aiding users in ways that enabled them to harm other people and offering dangerous medical advice ("
-    },
-    {
-      "s": "SBS Biz",
-      "t": "G마켓, 셀러 컨퍼런스 개최…신규 쿠폰 정책·AI 에이전트 도입",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4weGlVX25UODZDaHQyazM2Ym5YeEdSR2pPTEliQzhVN3d3c3BZbkpVakk4czdZUDJ0c3FNX21nejZ0S0FmVWxTaW03VVBmRGNkYWtv0gFYQVVfeXFMUF8tdWJ2eVBYemlJZnNERFZGaWVXQ01KSS1ITXczUUt1c0lZUmF4STZfV1hrM0FmOU9IWXNCdVhWM05IazUzekFFLVo3UTZ4aG0zVzQzdTJlbg?oc=5",
-      "m": "10. 14. PM 11:17",
-      "ts": 1792019820000,
-      "_policy": true,
-      "fullText": "Google News"
     },
     {
       "s": "IndexBox",
@@ -284,7 +283,7 @@
       "u": "https://www.nbcnews.com/video/openai-employee-accused-of-bugging-an-executive-conference-room-271539781828",
       "m": "10. 14. AM 03:02",
       "ts": 1791946936000,
-      "fullText": "Danger of &#x27;humanitarian catastrophe&#x27; in Yemen"
+      "fullText": "The effect of Trump&#x27;s policies in Iowa"
     },
     {
       "s": "CNBC Tech",
@@ -293,7 +292,7 @@
       "u": "https://www.nbcnews.com/news/us-news/anthropic-says-model-submitted-false-cold-case-tip-philadelphia-police-rcna603213",
       "m": "10. 13. PM 06:24",
       "ts": 1791915874000,
-      "fullText": "Artificial intelligence Anthropic says its AI model submitted a false cold case tip to Philadelphia police The bad tip “had minimal impact,” but Anthropic said it takes the action seriously, as “the same behaviors could do far more harm as models become more powerful.” Listen to this article with a free profile 00:00 00:00 Matt Rourke / AP Share Add NBC News to Google Oct. 13, 2026, 2:24 PM EDT By David K. Li Artificial intelligence research company Anthropic said one of its models generated a bogus tip about an unsolved murder and submitted it to Philadelphia police, warning that the incident raises concerns about high-tech “behaviors” that “could do far more harm as models become more powerful.” The AI model reached out to PhillyUnsolvedMurders.com , part of the police department, on July 18 and made a “false homicide tip,” Philadelphia police said Tuesday in a statement. The agency flagged the tip as spam, and it was never forwarded to investigators, police said. The police department emphasized that all tips have to go through human vetting before they ever get to a detective’s desk. “The department’s regular investigative process for crime tips requires human review and vetting before any tips are disseminated for investigative follow-up,” it said. “Regardless of who submits information or how it reaches the department, a tip is a lead to assess — not an established fact. Investigators evaluate its credibility and seek corroborating evidence,” the statement said. “An automated submission does not bypass that process.” Anthropic said in a statement that its Claude Haiku 4.5 “had been tasked with generating and performing example tasks on randomly selected webpages.” And in a run on July 18, Claude “landed on a page referencing an unsolved homicide” and came to a page that “contained a tip form run by a police department,” Anthropic said. For Subscribers FOR SUBSCRIBERS Democrats eye a ‘once in a generation’ opportunity to flip state legislative chambers FOR SUBS"
+      "fullText": "Artificial intelligence Anthropic says its AI model submitted a false cold case tip to Philadelphia police The bad tip “had minimal impact,” but Anthropic said it takes the action seriously, as “the same behaviors could do far more harm as models become more powerful.” Listen to this article with a free profile 00:00 00:00 Matt Rourke / AP Share Add NBC News to Google Oct. 13, 2026, 2:24 PM EDT By David K. Li Artificial intelligence research company Anthropic said one of its models generated a bogus tip about an unsolved murder and submitted it to Philadelphia police, warning that the incident raises concerns about high-tech “behaviors” that “could do far more harm as models become more powerful.” The AI model reached out to PhillyUnsolvedMurders.com , part of the police department, on July 18 and made a “false homicide tip,” Philadelphia police said Tuesday in a statement. The agency flagged the tip as spam, and it was never forwarded to investigators, police said. The police department emphasized that all tips have to go through human vetting before they ever get to a detective’s desk. “The department’s regular investigative process for crime tips requires human review and vetting before any tips are disseminated for investigative follow-up,” it said. “Regardless of who submits information or how it reaches the department, a tip is a lead to assess — not an established fact. Investigators evaluate its credibility and seek corroborating evidence,” the statement said. “An automated submission does not bypass that process.” Anthropic said in a statement that its Claude Haiku 4.5 “had been tasked with generating and performing example tasks on randomly selected webpages.” And in a run on July 18, Claude “landed on a page referencing an unsolved homicide” and came to a page that “contained a tip form run by a police department,” Anthropic said. For Subscribers FOR SUBSCRIBERS Republicans eye a potential opportunity in Minnesota in a tough midterm climate FOR SUBSCRIBER"
     },
     {
       "s": "애플경제",
@@ -326,52 +325,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "Chosunbiz",
-      "t": "국민연금, AI 에이전트 기반 데이터 분석 체계 구축…공공기관 최초 - 조선비즈",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeGlZWTNhQTVkX3hlSG1uaVUyX3cxWGVtaXFPck9hYWpBeVNVdmdaUlhDNWZzNVRueHQzU01GVDMydnNLbDBOM3VmOFU5LVlSWU1CLTB0dThQVzZ2TERPaUhIZlBFR0JVWkZRZjF1NVNleV9SXzEwWnU5aEQySzBmN29ZYzNCRUxD0gGcAUFVX3lxTE9NdGIyenNpNjdMVzFvaHdxbGJVN2QyT29RZnJjalVnbFZ3bm9mbVlRSEpsQVpocUtaYld1bmtXaklpcXNQMHhuV2ZwRlp2QkI5aTdueWVhcHhXM0NUZVBlejJuTGhvZ3dFR2owME1RcDFVaHFzWmpYZDMxUTFpck5vQkFpMWh6SUlkMUxUQW82OVo2X0QxX3drVThKUg?oc=5",
-      "m": "10. 13. AM 05:51",
-      "ts": 1791870660000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "머니투데이",
-      "t": "8시간 걸리던 통화정책 분석 AI로 10분만에…국민연금 적용 추진 - 머니투데이",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6ZmxjNzdMVC00U1J6SWk1Z3ZOanJtcWNfRWIzZ1d1ejJIV1lwR19leTVNSjhpZnYzU2FiZW9PQkhEdmJMRW5nTmxQbHRLY1BoOGNhZ0JrSnZkdVEtakRpNVB1SEV2Zk9uOEkwZUpB0gFuQVVfeXFMUHpmbGM3N0xULTRTUnpJaTVndk5qcm1xY19FYjNnV3V6MkhXWXBHX2V5NU1KOGlmdjNTYWJlb09CSER2YkxFbmdObFBsdEtjUGg4Y2FnQmtKdmR1US1qRGk1UHVIRXZmT244STBlSkE?oc=5",
-      "m": "10. 13. AM 05:43",
-      "ts": 1791870229000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴스핌",
-      "t": "국민연금, AI로 통화정책 분석 10분 만에",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BbWJBaGtmWDZQblZzYnZ4SzNpQ2ExWjQweDFvck1EN3o2bmNKZGw1bUZubzhUMzlvQ3VYdC03VlFGM0c1TkJrTExtMUpGd1ZNSWd5c3ltcjJvTXFU?oc=5",
-      "m": "10. 13. AM 04:49",
-      "ts": 1791866940000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "파이낸셜신문",
       "t": "국민연금, AI 에이전트 활용...\"통화정책·기업실적 분석 10분 만에\"",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4MG5DREpqVE5iTXZtSnhLZ1NvcXdZMlBlVnpqbFJVTjQ0ZzNvMlBlbTVCQXJIZldGRVFXWldXZ2lNTmczRVVXZXRHN25icjhHN3FRME16b2djMmxJa1lBcEJWWjBSQjJ6dlJn?oc=5",
       "m": "10. 13. AM 04:35",
       "ts": 1791866100000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "Unite.AI",
-      "t": "하나의 정책, 수천 개의 에이전트: 엔터프라이즈 AI 거버넌스가 규모가 커지면 무너지는 이유",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NM0dyT1JZV3RUTlpFVi1ZSUJFMWRXRTJlVGpEZWNucDNERE1jV2U0bTNfZGNSNU52Z3VGc29OcmFOMExmVVM0OVF0X3d5UGxQdk9FZEoxcFhHMF9xMnRCekdrd241UUYtRUJSb2Nram9iMUEx?oc=5",
-      "m": "10. 12. PM 12:28",
-      "ts": 1791808087000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -393,6 +352,45 @@
       "m": "10. 09. PM 04:00",
       "ts": 1791561635000,
       "fullText": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements. October 9, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through natural-language instructions, review results and guide changes. Omniverse libraries provide GPU-accelerated physics, rendering and sensor simulation capabilities. Explore the projects below to see frontier AI models such as GPT-6 Astra at work, and check back for new examples from NVIDIA teams and developers across the ecosystem. Stress-Test a Warehouse Simulation at Scale 🔗 https://blogs.nvidia.com/wp-content/uploads/2026/10/Infra-scale-demo-20260914_144614-Meeting-Recording.mp4 A warehouse simulation needs to keep running smoothly as more robot arms, conveyors and boxes fill the scene. When it slows down, developers need to identify what’s holding it back. Bhavik Sanganee, principal engineer at NVIDIA, used Astra with NVIDIA Omniverse libraries to build a warehouse simulation, increase its complexity and investigate slowdowns. Performance first fell below the target when the scene doubled in size. Running physics calculations, image rendering and video preparation concurrently restored performance and enabled further scaling. With 80 conveyors, 40 arms and 800 boxes, the simulation sustained 30 frames per second at full HD resolution during a two-"
+    },
+    {
+      "s": "얼리어답터뉴스",
+      "t": "EU AI 법 본격 시행 첫 달, 에이전트 탈출 사고 연속 발생…기업 컴플라이언스 체계 재편 불가피",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBfdEtmeUVNRGxHTTZLM29tRTRKU2ZjY1E5YUhjVEQyOWJnUlRqWkJlLXRNMUIycTJmWnBLVThUM0ptVV9NLWNZSTN3?oc=5",
+      "m": "10. 08. PM 02:28",
+      "ts": 1791469699000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "d": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "m": "10. 07. PM 06:45",
+      "ts": 1791398728000,
+      "fullText": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents RTX Spark preorders open today alongside a preview of NVIDIA DGX Station for Windows, the first deskside AI supercomputer built for the Windows enterprise desktop. October 7, 2026 by Gerardo Delgado 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of our company, Windows was at the core of it,” Huang said, tracing back NVIDIA’s support for Windows and Microsoft over several decades. “If not for Windows there would be no GeForce.” Huang connected that history — and his long-term vision — to the agentic era Wednesday during a fireside chat with Nadella hosted by Sriram Krishnan, a former senior White House policy advisor on AI at the Windows AI and Surface event, held at Dogpatch Studios in San Francisco. “The thing that I really give Jensen all the credit for, quite frankly, is that consistency of vision of what this can be—not today, not tomorrow, but as a secular trend,” Nadella said. “And that’s what brings us to this moment.” “The personal computer is the ultimate tool, it’s my ultimate tool, and for a whole generation of people, it’s our ultimate tool,” Huang said. “What happens in the era of agents, when the agent is on your computer? It is now your personal assistant.” The event opened with Nadella before Pavan Davuluri, executive vice president of Windows and Devices at Microsoft, walked through the Windows updates designed for the agentic era. Turning Windows into a secure platform for agents, Microsoft announced general availability of Microsoft Execution Containers (MXC), the OS-level infrast"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "\"AI가 한 행동, 책임은 누가?\"…IBM, \"에이전트 행동 기록 체계 구축해야\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16blUtVThobDlST01tWDJOOWxSdTNqNW5McVZ1aTFpbTBjTHJpaG1mNk9sbkZ0YTRNRVViSjFzU1g4RUZsWlcxVThWNm1zWDhlWVlQMWxn?oc=5",
+      "m": "10. 07. AM 07:00",
+      "ts": 1791356400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "AI타임스",
+      "t": "오픈AI '에이전트 폭주'에 사면초가... 전 세계서 법적·규제 경고 폭풍",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JT3VoSEpTTDVabmdNd0Y0TUZ6TGZMX3dRS1ZBTHA3a0U1Z0xjSDBSUnMtUDV2UnVEX1lhVC1XNWZPZVB4b2VNZ2lEZkNET0E1dGJaSmZVblRIcXgyTHVRTEM5NEp6UjhKbmc?oc=5",
+      "m": "10. 05. AM 07:00",
+      "ts": 1791183600000,
+      "_policy": true,
+      "fullText": "Google News"
     }
   ]
 }

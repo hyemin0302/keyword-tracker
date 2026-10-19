@@ -1,14 +1,68 @@
 {
-  "updatedAt": "2026-10-19T15:50:53.001Z",
+  "updatedAt": "2026-10-19T20:54:53.451Z",
   "count": 40,
   "stats": {
-    "today": 11,
+    "today": 14,
     "yesterday": 5,
     "weekAvg": 5.7,
-    "sources": 24,
+    "sources": 25,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "d": "OpenCode is an open-source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+      "u": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "m": "10. 19. PM 07:28",
+      "ts": 1792438114000,
+      "fullText": "OpenCode , an open-source AI coding agent that has been gaining ground among developers as an alternative to Claude Code and Cursor, said Saturday that attackers broke into an older system overnight, affecting 1.4% of users of its online platform, OpenCode Console, where some users store the API keys, or digital passwords, they use to access AI services. As the OpenCode team struggled to keep pace with the attack, the scramble to respond highlighted a growing problem: companies without vetted access to AI models with fewer safety restrictions have a hard time defending against large-scale, AI-driven cyberattacks. &#8220;We had a security breach last night related to a large-scale distillation attack that impacted 1.4% of OpenCode Console users,&#8221; the company wrote on X. &#8220;We have notified them all this morning via email.&#8221; Users who did not receive an email were not impacted, the company said. While the company didn’t specify how the distillation attack occurred, leaked API keys can help users in countries with restricted access to American models generate the high volume of outputs needed for that process. Some skeptics called the framing an overstretch, arguing that the incident was a straightforward breach whose use for distillation remains unproven. Overnight, developers began posting spending alerts and unauthorized charges on Reddit and X. “ I saw my Open AI, Anthropic, and Google AI spend alerts all fire off before going to bed wondering what was going on ,” a developer wrote . Other users reported charges in the hundreds of dollars on individual accounts; a few described totals above $1,000. Anthropic and Google both blocked the API keys they believed were exposed, while OpenAI said it worked with OpenCode to restore access and refund its API customers for credits used in the attack. OpenCode said refunds for unauthorized charges are underway. The exposed keys were confined to Console, where some users had them in workspaces. The open-source a"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal",
+      "d": "Nscale Ltd., the AI cloud computing firm, is in talks to sell computing power to Anthropic PBC in a deal that could be worth about $45 billion, according to people familiar with the negotiations.",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
+      "m": "10. 19. PM 07:24",
+      "ts": 1792437846000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Hamilton Lane: AI’s Biggest Returns Have Been Private",
+      "d": "Hamilton Lane Executive Co-Chairman Erik Hirsch says much of the wealth created by the AI boom has so far accrued in the private markets, as companies stay private longer and tap increasingly deep pools of capital. With exposure to OpenAI and Anthropic through its venture and growth relationships, Hirsch discusses how investors can access private AI companies through funds, secondaries and co-inve",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-19/hamilton-lane-ai-s-biggest-returns-have-been-private-video",
+      "m": "10. 19. PM 06:10",
+      "ts": 1792433425000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Anthropic, Musk Offer Competing Visions for Sharing AI Wealth",
+      "d": "Anthropic plans to dedicate 5% of its shares to a public benefit fund, offering its own approach to sharing the potential wealth created by AI as concerns grow about AI-driven labor disruption. Bloomberg’s Mike Shepard discusses how the plan differs from proposals for a government-run fund - and from Elon Musk’s pledge to give every child in America a share of SpaceX - as technology leaders confro",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-19/anthropic-and-musk-on-ai-wealth-sharing-video",
+      "m": "10. 19. PM 06:07",
+      "ts": 1792433269000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nscale’s $30B IPO Ambition Meets Investor Pushback",
+      "d": "Bloomberg’s Ed Ludlow looks at why Nscale is facing pushback to its $30 billion IPO valuation target, with some investors suggesting $16 to $19 billion instead. Plus, Anthropic plans to put 5% of its shares into a new public benefit fund to address \"the public good,\" and a former OpenAI software engineer charged with placing a recording device in one of the company's offices is set to appear in co",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-19/bloomberg-tech-10-19-2026-video",
+      "m": "10. 19. PM 05:59",
+      "ts": 1792432747000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "People are using AI to make their smart TVs dumb again",
+      "d": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "u": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "m": "10. 19. PM 04:13",
+      "ts": 1792426402000,
+      "fullText": "The latest use case for AI? Dumbing down your smart TV to get rid of the bloat. A number of developers and vibe coders have recently been sharing solutions for &#8220;vibe-coding&#8221; your TV to get rid of sponsored ads, speed up the app launcher, redesign the home screen, disable tracking features, and more. One such solution, called &#8220;dumbtv,&#8221; describes its mission on its GitHub page thus: &#8220;Your TV should do what you paid for: your apps, your HDMI inputs, and nothing else. No ads from the TV itself, no watch tracking, no update you did not ask for.&#8221; Another, &#8220; cleanyourtv ,&#8221; promises to strip the bloatware from any Android TV or Google TV over Wi-Fi, to replace the launcher with one that resembles Apple TV. While hacking consumer electronics devices to gain more control over their systems is hardly a new idea, the latest advances in AI technology have made such efforts much more accessible to anyone. With smart TVs in particular, the hacks come at a time when people have grown frustrated with being forced to watch ads and put up with their devices surveilling their viewing habits. Modern smart TVs ship with a technology called automatic content recognition (ACR), which identifies what&#8217;s playing on the screen using screenshots, audio clips, or other forms of digital fingerprinting. If these &#8220;dumb TV&#8221; hacks become more popular among everyday consumers, they have the potential to disrupt the smart TV ad industry, which profits from selling viewing data to advertisers or using it to display personalized ads on their own interfaces. As the creator of cleanyourtv, Gathin T., puts it, the idea to clean up the smart TV interface started one afternoon when he got tired of seeing the ads on his parents&#8217; TV set. Vibe coded my parents&#39; TV this afternoon! It was showing a sponsored ad before you could even get to Netflix. Gave Claude Code the model number, it found the TV on wifi, removed 25 Xiaomi packages and w"
+    },
     {
       "s": "Bloomberg Tech",
       "t": "Proofpoint's $6.3 Billion Cybersecurity Bet",
@@ -25,26 +79,7 @@
       "u": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
       "m": "10. 19. PM 03:37",
       "ts": 1792424229000,
-      "fullText": "Nvidia on Thursday launched new open-weight models designed for always-on agents and edge computing. The Nemotron 3.5 Super VL is a large, 120-billion-parameter model geared for agents used by the enterprise. While it uses fewer parameters than the Nemotron 3 Ultra model, Nvidia says it can deliver similar accuracy in instruction-following and tool-use tasks. At the other end of the spectrum, the company also launched two lightweight Bolt models. These are intended to run locally on the new AI PCs (running the Nvidia RTX Spark chip) and workstations running the DGX Spark. Such PCs, aimed at consumers, programmers and enterprise knowledge workers, are being released right now into the market through partners like Microsoft and Dell. “Any organization that wants to run agents on Nvidia infrastructure now has an open, optimized model for their tier without having to choose between capability and deployability,” Nvidia’s vice president of Open Models and Software, Kari Briski, wrote in the blog post announcing these models. Nvidia claims that the Super VL completes tasks faster than competing models from Anthropic and OpenAI (Opus 5, GPT 6.1 Sol, Luna, Astra) when post-trained on specific agentic tasks. These tasks include document intelligence, financial accounting, scientific experimentation, medical insurance claims, and security attack resilience. While such claims are standard whenever a major tech company announces a new model, Nvidia has backed it up with a list of heavy-hitter companies that it says are using Super VL. These include Skydance, EY, Ramp, Crowdstrike, Perplexity and Salesforce . Of course, these aren’t the first open-weight models that Nvidia has released that compete with the proprietary frontier labs – companies that are both its customers and its investments. The GPU giant has an entire family of Nemotron models that do everything from multimodal artificial intelligence to reasoning, coding, math, and enterprise automation. However, those fast-g"
-    },
-    {
-      "s": "조선일보",
-      "t": "\"AI 비서가 새 보안 위협… 최소 권한만 부여해야\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeTl3OGk0dHNtam1faWdKMzBnUGdmQUgwRU5KYjBEa2ZuX2g5YXRLZ2hOZHN6NUZReWRLNXFxMHlxblNadjZnQmRIY1VjZ2cyQllJdkV0UE1yWTczZ1pNdElhYno2THA2VzBSV2N4bS04U1l1VDJsWkx4M1drejkySTVnMA?oc=5",
-      "m": "10. 19. PM 03:34",
-      "ts": 1792424040000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "DOJ Calls for Detaining OpenAI Engineer, Citing Saudi Ties",
-      "d": "The Justice Department urged a federal judge to deny a request for bail by the OpenAI software engineer charged with using a hidden recording device in one of the company’s offices.",
-      "u": "https://www.bloomberg.com/news/articles/2026-10-19/doj-calls-for-detaining-openai-engineer-citing-saudi-ties",
-      "m": "10. 19. PM 03:15",
-      "ts": 1792422950000,
-      "fullText": ""
+      "fullText": "Nvidia on Thursday launched new open-weight models designed for always-on agents and edge computing. The Nemotron 3.5 Super VL is a large, 120-billion-parameter model geared for agents used by the enterprise. While it uses fewer parameters than the Nemotron 3 Ultra model, Nvidia says it can deliver similar accuracy in instruction-following and tool-use tasks. At the other end of the spectrum, the company also launched two lightweight Bolt models. These are intended to run locally on the new AI PCs (running the Nvidia RTX Spark chip) and workstations running the DGX Spark. Such PCs, aimed at consumers, programmers, and enterprise knowledge workers, are being released right now into the market through partners like Microsoft and Dell. “Any organization that wants to run agents on Nvidia infrastructure now has an open, optimized model for their tier without having to choose between capability and deployability,” Nvidia’s vice president of Open Models and Software, Kari Briski, wrote in the blog post announcing these models. Nvidia claims that the Super VL completes tasks faster than competing models from Anthropic and OpenAI (Opus 5, GPT 6.1 Sol, Luna, Astra) when post-trained on specific agentic tasks. These tasks include document intelligence, financial accounting, scientific experimentation, medical insurance claims, and security attack resilience. While such claims are standard whenever a major tech company announces a new model, Nvidia has backed it up with a list of heavy-hitter companies that it says are using Super VL. These include Skydance, EY, Ramp, Crowdstrike, Perplexity, and Salesforce . Of course, these aren’t the first open-weight models that Nvidia has released that compete with the proprietary frontier labs — companies that are both its customers and its investments. The GPU giant has an entire family of Nemotron models that do everything from multimodal artificial intelligence to reasoning, coding, math, and enterprise automation. However, those fast"
     },
     {
       "s": "NVIDIA공식",
@@ -65,22 +100,22 @@
       "fullText": "Artificial intelligence Elon Musk and Anthropic make promises to give the public a piece of the AI pie The promises come as the public has broadly soured on AI and concerns about its economic impact grow. Listen to this article with a free profile 00:00 00:00 Elon Musk is awarded the National Medal of Science during the &quot;Golden Age of American Innovation Summit&quot; in Washington on Oct. 8. Kent Nishimura / AFP via Getty Share Add NBC News to Google Oct. 19, 2026, 10:39 AM EDT By Rob Wile Elon Musk and officials at AI giant Anthropic are pledging to give coveted shares in their companies to the general public as concerns about AI’s economic and societal impact continue to pile up . “Next year, I will give one of my SpaceX shares to every kid in America,” Musk posted on X on Monday. “This will be the first of many.” One SpaceX share is currently valued at about $150. With approximately 72 million children under the age of 18 in the U.S., Musk’s donation would currently be worth about $10.8 billion — less than 2% of his current net worth. He provided no additional information. Musk could not be reached for additional comment. His statement comes one day after officials at Anthropic said the company would commit 5% of company shares to a “public benefit fund” in order to address “labor market impacts” of AI.In a statement, Anthropic officials said the fund could make charitable donations or direct money to “specific populations,” emphasizing the fund’s “versatility.” “Given the pace of AI progress, bolder approaches may be needed,” they said. Anthropic has been preparing for an initial public offering — releasing its stock for trading on public markets — that analysts say would value the company at more than $1 trillion. The company has long championed employees’ charitable giving by promising to match their donations. Dario Amodei, co-founder and chief executive officer of Anthropic. Jason Henry / Bloomberg via Getty Images file Musk replied to Anthropic on X sa"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Anthropic May Put Some Shares in 'Public Good' Fund",
-      "d": "Anthropic PBC says it plans on depositing 5% of its shares in a new fund for \"the public good.\" The money could be used to offset AI's impact on the job market. The artificial intelligence startup is preparing for what could be one of the biggest IPOs ever. Bloomberg's Ed Ludlow reports.  (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-10-19/anthropic-may-put-some-shares-in-public-good-fund-video",
-      "m": "10. 19. PM 01:51",
-      "ts": 1792417875000,
-      "fullText": ""
+      "s": "TechCrunch",
+      "t": "Musk pledges to give &#8216;every kid in America&#8217; one of his SpaceX shares",
+      "d": "Musk's post came just a few hours after Anthropic promised to put 5% of its shares into a new \"public benefit fund,\" which it intends to use to make \"large donations to traditional nonprofits or direct distributions to specific populations\" after its upcoming IPO.",
+      "u": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
+      "m": "10. 19. PM 12:42",
+      "ts": 1792413775000,
+      "fullText": "Elon Musk claims he will give one of his SpaceX shares to &#8220;every kid in America&#8221; in 2027, which would result in a gift worth more than $10 billion based on the current $146 share price of his combination spaceflight and AI company. That&#8217;s roughly 1% of his $1 trillion net worth. It&#8217;s not clear how Musk plans to do this, though he said in a separate post that he wants to give the shares &#8220;directly to the public,&#8221; and that this will be the &#8220;first of many&#8221; shares he&#8217;ll donate. President Donald Trump, who Musk spent around $300 million to help elect, has set up bank accounts for children through the Treasury, called Trump Accounts, that can accept stock donations from wealthy donors. Musk did not immediately respond to a request for comment. Musk&#8217;s post came just a few hours after Anthropic promised to put 5% of its shares into a new &#8220;public benefit fund,&#8221; which it intends to use to make &#8220;large donations to traditional nonprofits or direct distributions to specific populations&#8221; after its upcoming IPO. On Sunday afternoon, Musk replied directly to Anthropic&#8217;s post on X about its new fund, suggesting the company should give &#8220;directly to the public&#8221; instead. &#8220;This is what I will be doing,&#8221; he wrote in another reply four hours later. Then, overnight, he announced his plans to donate SpaceX stock. There are currently more than 70 million children under the age of 18 in the United States, according to the Federal Interagency Forum on Child and Family Statistics . Musk owns around 849 million Class A common shares of SpaceX and more than 5.5 billion Class B supervoting shares. He stands to earn many more. Musk&#8217;s philanthropic giving to date has been almost exclusively done through his Musk Foundation. Despite his negative opinions about philanthropy, it&#8217;s the fifth-largest private charitable foundation in the U.S. However, a recent review by The Economis"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Musk Pledges SpaceX Shares to ‘Every Kid in America’",
-      "d": "Elon Musk says he will gift a share of SpaceX to each American child, in a post on X, the social media platform he owns. The move comes just hours after artificial intelligence competitor Anthropic PBC said it would set aside a portion of its shares for the public benefit. Matt Bloxham of Bloomberg Intelligence has more. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-10-19/musk-pledges-spacex-shares-to-every-kid-in-america-video",
-      "m": "10. 19. AM 10:43",
-      "ts": 1792406600000,
-      "fullText": ""
+      "s": "TechCrunch",
+      "t": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "d": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "u": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "m": "10. 19. PM 12:30",
+      "ts": 1792413000000,
+      "fullText": "If there’s one lesson the OpenAI-Hugging Face incident taught us, it’s that AI agents can be unpredictable. “Imagine if something like that happened in the physical world,” Howie Sun, CEO and co-founder of Laplace Intelligence , told TechCrunch. “AI agents are moving from computers into the real world, and we don&#8217;t really want physical AI to fail in the real world.” Ann Arbor-based Laplace is building automated red-teaming — essentially, stress-testing a system by deliberately trying to make it fail — for robotics and physical AI. The company is betting that the only way to make sure physical AI is safe is to have AI test it. &#8220;Our goal is to help companies discover and fix problems before deployment — and, over time, build a shared foundation of evidence that customers, insurers, and regulators can trust,&#8221; Sun said. Laplace is one of 20 startups competing in Startup Battlefield 200, the startup pitch competition taking place at TechCrunch Disrupt in San Francisco this week, October 13-15. It will present on the Disrupt Stage Tuesday afternoon , October 13. Howie Sun, CEO, Laplace Intelligence. Image Credits: Laplace Intelligence Sun, alongside his co-founder and chief scientist Henry Liu, founded Laplace a year ago out of the University of Michigan. Sun has spent the last eight years in academia researching how to challenge autonomous driving AI in simulation. In 2023, he and Liu — his then-PhD adviser — published a paper on the subject that made it onto the cover of the top scientific journal Nature. That’s when the calls started coming in from autonomous vehicle companies interested in implementing their ideas. “I realized that I wanted to build this and take it from purely academic research into a product that’s useful in the real world,” Sun said. Using their academic research as a base, Sun and Liu built Laplace, so named for “Laplace’s demon,” an 1814 thought experiment by French scholar Pierre-Simon Laplace, who imagined that if you knew the"
     },
     {
       "s": "뉴시스",
@@ -91,15 +126,6 @@
       "ts": 1792399129000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "전자신문",
-      "t": "AI Agent가 기업의 '실행 주체'로… 'AX & 하이퍼오토메이션 코리아 2026-Fall' 10월 23일 개막",
-      "d": "기업 업무자동화 시장이 또 한 번의 큰 전환점을 맞고 있다. 정해진 규칙에 따라 반복 업무를 처리하던 RPA와 하이퍼오토메이션을 넘어, 이제는 AI가 기업의 데이터와 업무 맥락을 이해하고 스스로 판단해 실제 업무와 후속 조치까지 수행하는 'Agentic Automation' 시대로 빠르게 이동하고 있다. 이러한 변화의 흐름을 가장 오랫동안 현장에서 추적해 온 국내 대표 엔터프라이즈 업무자동화 콘퍼런스가 다시 열린다. 전자신문인터넷이 오는 10월",
-      "u": "https://www.etnews.com/20261019000406",
-      "m": "10. 19. AM 08:35",
-      "ts": 1792398901000,
-      "fullText": "이코노미 > IT AI Agent가 기업의 '실행 주체'로… 'AX & 하이퍼오토메이션 코리아 2026-Fall' 10월 23일 개막 발행일 : 2026-10-19 17:35 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 - 생성형 AI 넘어 Agentic Enterprise로… 업무자동화 시장의 다음 단계 제시 - AI Agent 통제·오케스트레이션·온톨로지·RPA·Document AI 등 핵심 이슈 집중 조명 기업 업무자동화 시장이 또 한 번의 큰 전환점을 맞고 있다. 정해진 규칙에 따라 반복 업무를 처리하던 RPA와 하이퍼오토메이션을 넘어, 이제는 AI가 기업의 데이터와 업무 맥락을 이해하고 스스로 판단해 실제 업무와 후속 조치까지 수행하는 'Agentic Automation' 시대로 빠르게 이동하고 있다. 이러한 변화의 흐름을 가장 오랫동안 현장에서 추적해 온 국내 대표 엔터프라이즈 업무자동화 콘퍼런스가 다시 열린다. 전자신문인터넷이 오는 10월 23일 서울 엘타워 그레이스홀에서 'AX & 하이퍼오토메이션 코리아 2026-Fall'을 개최한다. 2018년 시작돼 올해로 8년째를 맞은 'AX & 하이퍼오토메이션 코리아'는 국내 최대 규모의 엔터프라이즈 업무자동화 전문 행사로, RPA에서 지능형 자동화, 생성형 AI를 거쳐 최근 AI Agent와 Agentic Automation에 이르기까지 기업 업무자동화 기술과 시장의 변화를 한자리에서 조망해왔다. 특히 올해 행사는 'From AI Agent to Agentic Enterprise'를 핵심 메시지로 내세운다. 개별 업무를 자동화하는 수준을 넘어 AI Agent가 기업의 데이터·업무 지식·애플리케이션을 이해하고 여러 시스템 및 Agent와 협업하면서 실제 비즈니스 프로세스를 실행하는 Agentic Enterprise로의 전환을 집중적으로 다룬다. 이를 위해 AI Agent뿐 아니라 Ontology·Knowledge Graph, MCP, Orchestration, Governance 등 기업이 AI Agent를 실제 업무 환경에 적용하기 위해 필요한 기술과 운영 체계를 폭넓게 살펴본다. “잘못된 답변에서 잘못된 행동으로”… Agent 시대의 통제와 신뢰 행사의 문을 여는 특별강연에서는 최대선 숭실대학교 AI대학장 겸 AI안전성연구센터장이 'AI Agent에게 어디까지 맡길 것인가: 행동하는 AI의 권한·통제·신뢰'를 주제로 발표한다. AI가 단순히 답변을 생성할 때와 달리 Agent가 기업 데이터와 시스템에 직접 접근해 행동하기 시작하면 위험의 성격도 달라진다. 최 교수는 AI Agent의 위험을 악용과 이탈 관점에서 살펴보고, Agent를 활용한 취약점 점검·침투 테스트 사례 등을 통해 업무 위임의 경계를 어디에 설정해야 할지 짚는다. 권한 설계와 실행 감시, 인간 승인 등 Agent 활용 범위를 확대하기 위해 필요한 Governance 요건도 제시할 예정이다. 유아이패스·삼성SDS… 기존 자동화에서 Agentic Automation으로 첫 번째 키노트는 유아이패스 이재원 파트너가 맡는다. 'Agentic AI 트렌드 및 E2E 프로세스 관리 방안'을 주제로 AI가 개별 업무를 넘어 기업의 End-to-End 비즈니스 프로세스를 실행·관리하는 방향으로 발전하는 최근 흐름을 설명한다. AI 기반 PI, 지속적인 SOP 데이터 수집·관리와 함께 정형·비정형 업무를 아우르는 새로운 E2E 비즈니스 프로세스 오케스트레이션 방향을 제시한다. 이어 아이티센클로잇 강기식 전무는 'Agentic AI 플랫폼의 시대, 기업은 왜 AgentGo를 선택해야 하는가'를 통해 기업이 AI Agent를 실제 업무 환경에 적용하면서 마주하게 되는 통제·거버넌스·인프라 종속성 문제를 짚고, 멀티 Agent를 통합 관리하는 엔터프라이즈 AI 플랫폼 전략을 소개한다. 삼성SDS 김효영 그룹장은 'AI 시대, 자동화의 새로운 공식: AI Intelligence × Automation Execution'을"
     },
     {
       "s": "아이티데일리",
@@ -124,11 +150,11 @@
     {
       "s": "TechCrunch",
       "t": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "d": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "d": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
       "u": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "m": "10. 18. PM 08:37",
       "ts": 1792355860000,
-      "fullText": "In Brief Posted: 1:37 PM PDT · October 18, 2026 Image Credits: Jakub Porzycki / NurPhoto / Getty Images Anthony Ha Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ Anthropic announced today that it’s creating a “public benefit fund” that will give the company “increased flexibility and scale” to support projects for societal good. Anthropic said that it will commit 5% of its shares to the fund — structured as a wholly-owned entity within the company — with the option to contribute an additional 2% for every 50% increase in Anthropic’s value. And it offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.” There&#8217;s also the impact that AI might have on the job market, which Anthropic has already committed $200 million to study . But the company said, “Given the pace of AI progress, bolder approaches may be needed. The Fund will have the versatility to pursue them.” Anthropic’s announcement comes as the AI industry faces increasingly negative public sentiment, which CEO Dario Amodei has described as “fundamentally a crisis of trust.” If you’re wondering who will actually decide which public benefits are worth funding, Anthropic said it will share more information about structure and governance in the coming months. Topics AI , Anthropic November 4 Boston Get 50% off a second pass Cover more ground at TechCrunch&#8217;s ultimate founder bootcamp of the year by bringing your co-founder or partner. Save 50% off a second pass. Meet scaling and investment leaders, ask questions, find solutions, and more. Last day to save Oct. 16 Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are "
+      "fullText": "In Brief Posted: 1:37 PM PDT · October 18, 2026 Image Credits: Jakub Porzycki / NurPhoto / Getty Images Anthony Ha Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ Anthropic announced on Sunday that it’s creating a “public benefit fund” that will give the company “increased flexibility and scale” to support projects for societal good. Anthropic said that it will commit 5% of its shares to the fund — structured as a wholly owned entity within the company — with the option to contribute an additional 2% for every 50% increase in Anthropic’s value. And it offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.” There&#8217;s also the impact that AI might have on the job market, which Anthropic has already committed $200 million to study . But, the company said, “given the pace of AI progress, bolder approaches may be needed. The Fund will have the versatility to pursue them.” Anthropic’s announcement comes as the AI industry faces increasingly negative public sentiment, which CEO Dario Amodei has described as “fundamentally a crisis of trust.” If you’re wondering who will actually decide which public benefits are worth funding, Anthropic said it will share more information about structure and governance in the coming months. Topics AI , Anthropic , In Brief November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch&#8217;s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. "
     },
     {
       "s": "대한경제",
@@ -141,10 +167,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "얼리어답터뉴스",
+      "s": "didimkorea.net",
       "t": "AI 에이전트, 실행 권한을 쥐다—법이 따라가지 못하는 자율화의 속도",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE84Q0V0VXdDNWRlWldLemVmcG1CLTdWQ085VTlRZ1RDR2NPY3Q5VEZpVGFhcmtXSzZ3YjVxQ01FTTZVSHNXWThybGVR?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZcUFBNWlsRm1kZWI2NDdicEF6MTVvRElTdXJ2bmNaelBDc094WmVEenFxUnE2ckVhMWszcjNJNjN1QnpvcUhrWEZSY1ZqcFU?oc=5",
       "m": "10. 18. PM 04:10",
       "ts": 1792339849000,
       "_policy": true,
@@ -161,57 +187,32 @@
       "fullText": "Google News"
     },
     {
-      "s": "TechCrunch",
-      "t": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "d": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
-      "u": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "m": "10. 17. PM 08:21",
-      "ts": 1792268479000,
-      "fullText": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year, according to a report that the AI company published on Friday. Anthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, and labor demand across the economy,” especially since the company “has thoroughly molded its workflows around AI.” But even if other organizations never embrace AI as thoroughly or in the exact same way as Anthropic, the report offers an intriguing glimpse at how the company currently operates. Notably, Anthropic is making fewer junior hires, with the proportion of junior-level employees in technical departments falling from 21% to 14% since early 2025, and the proportion of junior technical hires falling even more sharply, from 27% to 9%. Anthropic also says that technical teams now represent a smaller share of the overall workforce, falling from 61% to 56% — a trend that it attributes to “natural expansion of business functions as the company scales,” as well as “coding tools increasingly allowing non-technical employees to make software themselves.” One employee reportedly described an “eternal pressure at Anthropic to move as fast as possible and use Claude for everything.” In an April 2026 survey, 27% of employees said they had become more productive because of Claude and 20% said their job had shifted “from actually doing work to managing Claudes”; apparently one engineer compared this to babysitting: “When you are babysitting, every child brings to you concerns with an equal demand for your attention and the various [Claudes] also do that.” In fact, the report suggests “human attention and judgement” are becoming a “bottleneck” for productivity, as Claude produces a “deluge” of text that needs to be read and organized. Unsurprisingly, the report argues that AI adoption has made the company more productive, as indicated by “more code per person, closing more sales p"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "d": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "u": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "m": "10. 17. PM 06:48",
-      "ts": 1792262888000,
-      "fullText": "Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer working with Anthropic, the company&#8217;s CEO and co-founder Amjad Masad said Thursday while onstage at TechCrunch Disrupt . Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer partnering with Anthropic. &#8220;I think ChatGPT is better now,&#8221; Masad said, adding that the company uses an internal benchmark to help assess metrics like performance. &#8220;We publish a public benchmark as well, and consistently, Sol and Astra perform better on building vibe-coded applications from scratch. It was a decision based on both cost, partnership, and performance. And for all these reasons, we just felt like they were a better partner for now.&#8221; It seems, however, that Anthropic hasn’t been completely cut out of Replit, which sells a cloud-based software development platform where users can develop and deploy apps directly from inside their browser. After Disrupt, Masad clarified that customers can still access Anthropic models on the platform, but that OpenAI’s ChatGPT is now the default. This shift could significantly reduce Replit&#8217;s spend with Anthropic since most customers stick with the default rather than selecting a model themselves. Prior to striking a deal with OpenAI, Replit relied on Anthropic&#8217;s Claude models to run its platform. That partnership was said to have helped the company grow its revenue significantly, and Masad noted on stage that Replit had been, until recently, a top-five customer of Anthropic’s. &#8220;Replit remains model agnostic,&#8221; Masad told TechCrunch over the weekend. &#8220;Our users can choose Anthropic&#8217;s Claude or other supported models&#8230;OpenAI is now our preferred partner for powering Replit Agent, based on performance, economics, and the strength of our par"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "India becomes the latest country to report rogue AI agent activity",
-      "d": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "u": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "m": "10. 16. PM 05:52",
-      "ts": 1792173144000,
-      "fullText": "AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday. The Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model providers” whose models, during research and evaluation runs on the open internet, “had reached the live systems of Indian organizations.” The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles, and their actions “exceeded the authorisation of their assigned tasks.” This makes India the latest stop on what has become a world tour for rogue AI agents. In July, OpenAI’s agents escaped a test environment and hacked French company Hugging Face — kicking off a summer of rogue AI agent activity. Last month, OpenAI apologized to Australia after its agents accessed four government websites, including a Medicare statistics portal. At Hugging Face, OpenAI’s agents started the same way but then found and exploited software flaws to run code on the company’s servers. CERT-In described no such hacking in India, where the agents appear to have simply used the access left lying around. Still, the Indian cases appear to be worse in one respect, which is what the agents saw: In Australia, OpenAI said it found no evidence its agents touched individuals’ medical or criminal records, even after they wrote files inside a Medicare statistics system, while in India, agents read personal data and confidential business records. And unlike earlier incidents, each disclosed by a single lab, India’s case involved agents from multiple providers. CERT-In did not name the providers or affected organizations, or say whether the agents altered any systems. TechCrunch has reached out to CERT-In for more information. For now, the closest parallel seems to be Anthropic’s July disclosure of Claude breaking"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "d": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
-      "u": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "m": "10. 16. PM 04:30",
-      "ts": 1792168200000,
-      "fullText": "&#8211;:&#8211;:&#8211;:&#8211; Last day to save up to $200 to TechCrunch Founder Summit on Oct. 16. Register now. Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Close TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2026 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI Amazon Apps Biotech & Health Climate Cloud Computing Commerce Crypto Enterprise EVs Fintech Fundraising Gadgets Gaming Google Government & Policy Hardware Instagram Layoffs Media & Entertainment Meta Microsoft Privacy Robotics Security Social Space Startups TikTok Transportation Venture More from TechCrunch Staff Events Startup Battlefield StrictlyVC Newsletters Podcasts Videos Partner Content TechCrunch Brand Studio Contact Us Venture An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet Theresa Loconsolo 9:30 AM PDT · October 16, 2026 30 min Loading the player&#8230; Amulya Vishwanath , who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have its “ChatGPT moment” — that day when the shockingly capable chatbot was launched in late 2022. (General Intuition CEO Pim de Witte told Equity earlier this year that a single general foundation model would make much of today’s specialized robotics work redundant, and be that moment.) On this episode of TechCrunch’s Equity podcast, Dominic-Madori Davis caught up with Vishwanath to discuss where she’s writing first checks as the founder and managing partner of Techable VC. They also talked about what she’s learned as one of the first women executives to spin out of Nvidia and launch her own early-sta"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Elorian’s first AI model wants to reason with images, not just about them",
-      "d": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "u": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-      "m": "10. 16. PM 04:01",
-      "ts": 1792166497000,
-      "fullText": "Elorian , the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned. The model, Glimpse , is launching as a research preview with API access and a chat interface. The thesis? Today’s AI models, for all their skill with language and code, still can’t really see. Most multimodal models look at an image once, convert it to tokens, and then reason about it in text — like describing a photo from memory. Glimpse keeps going back to the source. Mid-reasoning, it can crop into a region, pull specific frames from a video, or run code to measure or compare what it&#8217;s looking at, a mechanism Elorian calls a &#8220;visual scratch space.&#8221; Think of someone pinching to zoom on a phone photo to double-check what they thought they saw. For former Google DeepMind researcher and Elorian CEO Andrew Dai, one of the clearest signs that AI still couldn’t really see came on game night. Last year he photographed a board game he&#8217;d just finished with friends and asked a frontier model who was winning. It couldn&#8217;t say. Board games &#8220;each have their own visual language, each have their own iconography, symbols,&#8221; he told TechCrunch. &#8220;To an adult, it&#8217;s quite easy to understand what&#8217;s going on with minimal text, but these models aren&#8217;t able to intuit what the symbols mean.&#8221; &#8220;Humans can look at Ikea diagrams, with no text, and assemble Ikea furniture, right? Why can&#8217;t AI models?&#8221; he said. The approach isn&#8217;t completely new — OpenAI added crop-and-zoom during reasoning to its o-series models in 2025 — but Elorian&#8217;s pitch is that it built the whole model around it, cheaply. The company says a small team trained Glimpse on a few hundred GPUs and that the model is substantially smaller than the frontier systems it&#8217;s benchmarked against. Glimpse costs $0.60 per million tokens"
-    },
-    {
       "s": "톱스타뉴스",
       "t": "박태웅 “AI 추천 알고리즘, 제조자 책임 물어야”…빅테크 규제 촉구(김어준의 뉴스공장)",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tUVZ3RmltYThVREdhQ3NSNUx3TTl6eGFwem15Z2Y0aWlJVzlQbnRTbDZZWjNUY2c4dk1CdlR0OGE5ZGVQdzVSTTdlZzdldnZGQ1hseHFULXhfQzNzY0FSSTk3NzMxYmRxeXVFS3h3T1V0UQ?oc=5",
       "m": "10. 16. AM 05:02",
       "ts": 1792126925000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "데이터넷",
+      "t": "가트너 “AI 이상행위 중단 정책 마련한 기업 20% 뿐”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTQlRURWJrMWdmVXZzNThuNUpZSXZuUWVBSXZXdzJ6YmpwYWFoSGx2VUtFS0J0cUlzakVmT2k4bVVfV09hUlV6UHVOOVpDbnNzbVRKYndBZUhQVkNSU21VX0tKT3VfbEFfSGJDQQ?oc=5",
+      "m": "10. 16. AM 01:13",
+      "ts": 1792113205000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "서울경제",
+      "t": "‘명령 vs 데이터’ 구분 못 한다?…AI 에이전트 해킹 비상",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBwX2I0ZjRPdXN3T3EwazBvQWJsZWVidnpBNkpvV2hoNTdJS2tFOThpUHZmZ1c0WE1oS2RINTkzZkdlWkhkU2JFQ0JTWDl3NUJ3Z0HSAVNBVV95cUxQd0JHSGVTRHJmdmYxYndvX3NFV1JxMEE4SDJSd01LdG1zSW1KOGI1RVA3QmNwcnEwX1lORDZiWnBDVG4xWXFIR202WHQ3SW9Yb1dwTQ?oc=5",
+      "m": "10. 16. AM 01:00",
+      "ts": 1792112400000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -270,6 +271,16 @@
       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kenR0eURfMHM0UUJHU0tJeWd2YVdQNVRDMEdrVnlGRTFsdDhNeHE2Q0lHcXkxOTFsajlRNTkyTlhwYU1mcVdlV2pCT2xTNk9hektEX19BSF9Pb2NtVHRZc0VnSlA?oc=5",
       "m": "10. 15. AM 05:54",
       "ts": 1792043645000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "제논, AI 에이전트 포털 '제나' 모바일로 확장",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwR0EyeTNMalpXdUlVdTRuR2lraEduUTlSUm8yVzJKakx2ekU2cEQxM19oQV9ZSE4xcVFzQW9yUzhmMWlzSTJzektVM3g0bEdNM0JHWE1B?oc=5",
+      "m": "10. 15. AM 05:27",
+      "ts": 1792042050000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -379,15 +390,6 @@
       "ts": 1791952848000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "OpenAI employee accused of bugging an executive conference room",
-      "d": "OpenAI said the FBI has arrested Abdulrahman Alfozan, one of its employees, after being accused of bugging an executive conference room at the company&#39;s San Francisco office. Alfozan is a Saudi national and began working with OpenAI in 2025. NBC News&#39; Liz Kreutz has more on the arrest and charges.",
-      "u": "https://www.nbcnews.com/video/openai-employee-accused-of-bugging-an-executive-conference-room-271539781828",
-      "m": "10. 14. AM 03:02",
-      "ts": 1791946936000,
-      "fullText": "Injured Ukrainian soldier rescued with a drone"
     }
   ]
 }

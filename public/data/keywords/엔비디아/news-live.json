@@ -1,14 +1,41 @@
 {
-  "updatedAt": "2026-10-19T08:23:38.327Z",
-  "count": 17,
+  "updatedAt": "2026-10-19T15:46:55.399Z",
+  "count": 19,
   "stats": {
-    "today": 0,
+    "today": 3,
     "yesterday": 0,
-    "weekAvg": 1.6,
-    "sources": 2,
-    "heat": "cold"
+    "weekAvg": 1.9,
+    "sources": 3,
+    "heat": "cool"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "d": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+      "u": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "m": "10. 19. PM 03:37",
+      "ts": 1792424229000,
+      "fullText": "Nvidia on Thursday launched new open-weight models designed for always-on agents and edge computing. The Nemotron 3.5 Super VL is a large, 120-billion-parameter model geared for agents used by the enterprise. While it uses fewer parameters than the Nemotron 3 Ultra model, Nvidia says it can deliver similar accuracy in instruction-following and tool-use tasks. At the other end of the spectrum, the company also launched two lightweight Bolt models. These are intended to run locally on the new AI PCs (running the Nvidia RTX Spark chip) and workstations running the DGX Spark. Such PCs, aimed at consumers, programmers and enterprise knowledge workers, are being released right now into the market through partners like Microsoft and Dell. “Any organization that wants to run agents on Nvidia infrastructure now has an open, optimized model for their tier without having to choose between capability and deployability,” Nvidia’s vice president of Open Models and Software, Kari Briski, wrote in the blog post announcing these models. Nvidia claims that the Super VL completes tasks faster than competing models from Anthropic and OpenAI (Opus 5, GPT 6.1 Sol, Luna, Astra) when post-trained on specific agentic tasks. These tasks include document intelligence, financial accounting, scientific experimentation, medical insurance claims, and security attack resilience. While such claims are standard whenever a major tech company announces a new model, Nvidia has backed it up with a list of heavy-hitter companies that it says are using Super VL. These include Skydance, EY, Ramp, Crowdstrike, Perplexity and Salesforce . Of course, these aren’t the first open-weight models that Nvidia has released that compete with the proprietary frontier labs – companies that are both its customers and its investments. The GPU giant has an entire family of Nemotron models that do everything from multimodal artificial intelligence to reasoning, coding, math, and enterprise automation. However, those fast-g"
+    },
+    {
+      "s": "한경 경제",
+      "t": "\"엔비디아의 진짜 해자 CUDA에 도전\"…아마존,AI칩 소프트웨어 공개",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202610191823i",
+      "m": "10. 19. PM 03:11",
+      "ts": 1792422664000,
+      "fullText": "반도체인사이트 \"엔비디아의 진짜 해자 CUDA에 도전\"…아마존,AI칩 소프트웨어 공개 입력 2026.10.20 00:11 수정 2026.10.20 00:11 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김정아 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 아마존이 자사 AI 칩 '트레이니엄'에서 파이토치 코드를 손쉽게 실행할 수 있는 소프트웨어 '토치 뉴런'을 공개하며 엔비디아의 CUDA 독점 생태계에 도전장을 내밀었다. 아마존, CUDA생태계에 도전하는 소프트웨어 출시 아마존 트레이니엄칩으로 전환비용 낮추는 소프트웨어 사진=REUTERS 아마존닷컴은 자사의 맞춤형 인공지능(AI) 칩에서 널리 사용되는 AI 코딩 언어로 작성된 코드를 그대로 실행할 수 있는 소프트웨어를 공개할 계획이다. 이는 CUDA 소프트웨어를 통해 AI칩 컴퓨팅 생태계를 지배해온 엔비디아에 대해 소프트웨어 부문에서도 도전하는 시도로 해석된다. 엔비디아는 그래픽처리장치(GPU)의 연산 성능뿐만이 아니라 CUDA 소프트웨어를 통해 AI개발자들을 엔비디아에 묶어두는 효과를 누리고 있다. 19일(현지시간) 로이터에 따르면, 아마존은 &lsquo;토치 뉴런&rsquo;이라는 자체 개발 소프트웨어를 사용하면 AI개발자들이 주로 사용하는 파이토치 언어로 작성된 코드를 이 회사의 트레이니엄 칩에서 한 번의 설정 변경만으로 실행할 수 있다고 밝혔다. 이 소프트웨어는 이 날 실리콘밸리에서 열리는 개발자 컨퍼런스에서 발표되며 무료 오픈 소스로 공개된다. 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 김정아 객원기자 기자로 14년, 자본시장에서 18년 일했습니다. 글로벌 기업과 자본시장을 주시하고 있습니다. 기사댓글 개의 댓글이 있습니다. 댓글 닫기"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "d": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "m": "10. 19. PM 03:00",
+      "ts": 1792422031000,
+      "fullText": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production Expanded sovereign standards with the EBU help European broadcasters protect editorial independence and cultural identity, while NVIDIA-accelerated Adobe Frame.io workflows help studios find content faster across massive content libraries. October 19, 2026 by Richard Kerris 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe , Bertelsmann , NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration partners, while Adobe Frame.io is accelerating video agent search capabilities with NVIDIA GPUs, helping German TV and film producer UFA find the right moments faster. Read more about both announcements below. Sovereign Clouds and Open Models Built for European Broadcasters The EBU and NVIDIA are expanding the sovereign standards they introduced last year for European public service media. The initiative now brings in sovereign cloud providers, open model developers and systems integrators to define how broadcasters can deploy agents while keeping control of their data, infrastructure, models and security. Read All NVIDIA in Europe Announcements The EBU is the world’s leading alliance of public service media, with over 115 member organizations in more than 55 countries reaching over 1 billion people. As agents move into newsrooms, production and audience services, those broadcasters need a foundation that protects editorial independence, data sovereignty and national resilience. The expanded initiative is turning those principles into deployable services. It’ll define requirements and reference architectures for where workloads run, how data is governed, which m"
+    },
     {
       "s": "NVIDIA공식",
       "t": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
@@ -152,15 +179,6 @@
       "m": "10. 02. PM 01:00",
       "ts": 1790946039000,
       "fullText": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI Starting Friday, Oct. 23, the new configuration will be available from Acer, ASUS, Dell, Gigabyte, HP and MSI; plus, NVIDIA Sync Cluster Assistant scales projects and workloads seamlessly. October 2, 2026 by Allen Bourgoyne 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, ASUS, Dell, Gigabyte, HP and MSI — giving developers, researchers and AI enthusiasts a new configuration with DGX OS and the NVIDIA AI software stack ready to use from day one. The new SKU runs capable local agents on device — privately, without cloud dependency. And when workloads grow, two units can cluster together via NVIDIA Sync Cluster Assistant without any additional setup. A New Starting Point for Personal AI Supercomputing DGX Spark combines NVIDIA Grace Blackwell compute, unified memory, NVIDIA ConnectX-7 networking and an NVIDIA CUDA -accelerated AI software stack in one system. It’s a complete local AI platform for agents, inference, fine-tuning, data science and edge development. The compact, personal AI supercomputer provides a place to experiment with models and developers’ own data without turning to a cloud instance for every task. The new 64GB configuration, available exclusively from manufacturer partners, keeps the platform at an accessible price point while retaining the GB10 Grace Blackwell Superchip, DGX OS and full NVIDIA AI software stack — same as the 128GB model. It supports up to 100-billion-parameter models and the agentic applications built on them, fully on device. Two 64GB units clustered together don’t just double the memory. In "
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "d": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users.  Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "m": "10. 01. PM 11:44",
-      "ts": 1790898253000,
-      "fullText": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast Running on NVIDIA Blackwell GPUs and accelerated by continuous inference optimizations through OpenAI’s models, GPT-6 Astra Ultrafast delivers faster model responses across code generation, tool use and interactive applications. October 1, 2026 by Dion Harris 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs , is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, faster generation can shorten coding agents’ edit-test-debug cycles, reduce the time spent generating responses between tool calls and make interactive applications feel more responsive. A faster response matters most when it’s repeated across a workflow: an agent writes code, uses a tool, checks the result and decides what to do next. Ultrafast brings Astra’s capabilities into these time-sensitive loops. NVIDIA AI infrastructure helps OpenAI serve more useful model outputs when developers need it. “NVIDIA’s deep investment in tooling and documentation has enabled us to make our models exceptionally good at programming Blackwell and Rubin GPUs,” said Philippe Tillet, inference lead at OpenAI. “Astra can turn that knowledge into high-performance kernels that make NVIDIA hardware compelling across the full frontier of latency, throughput and cost. With Astra Ultrafast, that means faster model responses as agents write code, use tools and work through complex tasks.” Continually Improving Performance Performance gains don’t stop when a model is deployed. OpenAI is using its own models to help refine the inference software running on NVIDIA GPUs, taking advantage of the platform’s programmability to test and impleme"
     }
   ]
 }

@@ -1,14 +1,41 @@
 {
-  "updatedAt": "2026-10-20T15:15:15.930Z",
-  "count": 19,
+  "updatedAt": "2026-10-20T19:27:20.277Z",
+  "count": 21,
   "stats": {
-    "today": 2,
-    "yesterday": 3,
-    "weekAvg": 1.9,
-    "sources": 3,
-    "heat": "cool"
+    "today": 5,
+    "yesterday": 2,
+    "weekAvg": 2.1,
+    "sources": 4,
+    "heat": "warm"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Google has joined Amazon in attacking Nvidia&#8217;s stronghold with AI app developers",
+      "d": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+      "u": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "m": "10. 20. PM 06:38",
+      "ts": 1792521504000,
+      "fullText": "On Tuesday, Google announced that TorchTPU, its long-awaited version of PyTorch, is now available as an open-source project. With this, Google joins Amazon in trying to break Nvidia’s stranglehold on the AI industry, where most AI apps are written by default to run on Nvidia&#8217;s chips, or GPUs. PyTorch is the popular open-source toolkit that AI app developers and startups use to build, train, and run AI models. It is, by some accounts, used by 85% of the AI apps. PyTorch was originally developed by Meta (then Facebook) in 2016, long before the world had an inkling that LLMs would change the world. At the time, Nvidia’s GPUs were already the standard hardware for AI research, so many of PyTorch’s features were built to work specifically with them. In 2022, Meta turned PyTorch over to the Linux Foundation, a nonprofit that manages many important open source projects. Google&#8217;s version, TorchTPU, lets AI apps run on Google&#8217;s AI chips, called Tensor Processing Units (TPUs). It also makes it easy to move existing PyTorch apps to TPUs and, therefore, to Google Cloud. Developers can do this with a simple configuration change and no re-writing of their apps. Amazon made a similar announcement Monday, when it released its own version of PyTorch, called TorchNeuron. TorchNeuron allows AI apps to be ported to Amazon&#8217;s homegrown AI chip, Trainium, and to AWS with no rewriting. Amazon also said it going even further in its effort to loosen Nvidia&#8217;s hold on PyTorch. It is submitting code to the main PyTorch project that decouples various features from Nvidia&#8217;s chips, making it more open to any hardware by default. Google may be one-upping Amazon in a few ways, however. It says it worked directly with Meta, Hugging Face, Inferact (maker of vLLM) RadixArk (maker of SGLang), and others to ensure that TorchTPU&#8217;s features and code libraries work well with these popular AI development tools, just as the original PyTorch does. Plus the search giant"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "NScale, Anthropic in Talks for $45B AI Computing Deal",
+      "d": "Anthropic is in talks with Nscale for a massive new computing deal that could be worth as much as $45 billion. The deal would be for a second facility at Nscale's Monarch data center campus in West Virginia, which would deliver 460 megawatts of computing power using Nvidia's advanced Vera Rubin AI chips. Bloomberg's Bailey Lipschultz joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-20/nscale-anthropic-in-talks-for-45b-ai-computing-deal-video",
+      "m": "10. 20. PM 05:14",
+      "ts": 1792516483000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Ex-Nvidia-turned-VC Amulya Vishwanath: &#8216;Physical AI is in it&#8217;s LEGO era&#8217;",
+      "d": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
+      "u": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+      "m": "10. 20. PM 04:20",
+      "ts": 1792513206000,
+      "fullText": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity. She is the founder and managing partner of Techable Ventures, a VC firm focused on physical AI, which she started after spending nearly seven years as a product marketer at Nvidia. Before that, she held the same role at a company that was later bought by Intel and was a digital signal processing engineer at Interconnect Systems, which was later bought by the electronics manufacturer Molex. Listen on Apple Podcasts Listen on Spotify She stopped by Equity to talk about the future of physical AI — one of the industry’s latest buzzwords. “ A lot of companies and experts have been talking about the ChatGPT moment for robotics,” she said, adding that right now the industry was more in a “LEGO era.” “There are a lot of foundational software and building blocks for robotics that are being rethought right now as we speak, and it’s super important in order for innovation to scale,” she continued. Right now, people are building the basics — the robotic hands or the actuators — that can one day come together and build that big-ticket-item, like a bunch of LEGOs coming together. There’s general- and special-purpose robots being built right now too, and eventually, as people continue building them, they will get better and more advanced. “We’ve done this during the internet era,” she said. “We’ve done this long, long time ago with the Industrial Revolution. I think it’s just a matter of time before things fall into place.” “Talent is also going to be very critical,” she continued, adding elsewhere in the convo that talent is still a key definer of the U.S. market. This is one of the &#8220;moats&#8221; of her firm, she said, helping connect founders to top talent so they can stay competitive right now, as so much talent is going to big companies like Anthropic and Nvidia. She pointed out that she&#8217;s built up a strong network to help founders from her"
+    },
     {
       "s": "한국경제",
       "t": "\"47조원어치 칩 달라\"…中빅테크들 주문에 엔비디아도 '난감'",
@@ -26,15 +53,6 @@
       "m": "10. 20. AM 05:00",
       "ts": 1792472400000,
       "fullText": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center Part of NVIDIA Inception and the BSC AI Factory Accelerator Programme, the companies are advancing technologies for healthcare providers, utilities and more. October 19, 2026 by Tobias Halloran 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The Barcelona Supercomputing Center (BSC) ’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some of the BSC AI Factory services are available through the NVIDIA Inception portal . NVIDIA Inception complements the BSC AI Factory Accelerator Programme by providing members with training through NVIDIA Deep Learning Institute open courses, business mentoring, venture capital connections and other resources. An upcoming extension of MareNostrum 5 — BSC’s public infrastructure serving scientific and technological innovation, powered by NVIDIA accelerated computing — will deliver supercomputing access through the BSC AI Factory and other AI Factories across Europe. BSC AI Factory is among Europe’s first AI factories and the first in Spain, and has delivered more than 800 services to private and public-sector clients since its April 2025 launch. Read All NVIDIA in Europe Announcements Three Inception members were recently named the BSC AI Factory Accelerator Programme’s AI Champions at the pilot initiative’s demo day: Qatium ’s water-network platform — already used by more than 250 utilities in 16 countries — is now in early production with its Neural Water Intelligence technology, powered by proprietary AI models trained on MareNostrum 5. Built on NVIDIA accelerated computing, the NVIDIA cuGraph library, the NVIDIA PhysicsNeMo framework and NV"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-      "d": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
-      "u": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-      "m": "10. 19. PM 08:09",
-      "ts": 1792440564000,
-      "fullText": "On Monday, Amazon Web Services released a tool called TorchNeuron that lets AI startups easily move their AI apps onto Amazon&#8217;s AI chip, Trainium. In doing so, Amazon is also taking a direct stab at the software advantage that has helped Nvidia become the default hardware choice for AI apps and spurred its rise as AI hardware provider of choice. TorchNeuron works with PyTorch, a free, open source toolkit that developers use to build, train, and run AI models. It lets AI apps written with PyTorch run on Trainium by changing just one line of configuration, according to Amazon — no code rewrite required. Amazon says about 85% of AI apps are written with PyTorch. Facebook originally developed it, but since 2022, it has been part of the Linux Foundation, which maintains open source projects. Nvidia has spent years ensuring its CUDA software — the software infrastructure that allows apps to run on Nvidia GPUs and its other hardware — seamlessly supports AI apps written with PyTorch. As a result, Nvidia&#8217;s hardware is now deeply embedded in the toolkit, essentially by default. TorchNeuron is adapted from PyTorch, so developers who know PyTorch already know how to use it. Amazon isn&#8217;t the first company to attempt to easily bring their chips to the platform. PyTorch users can also port their apps to AMD GPUs or even Apple&#8217;s chips with a simple configuration change. However, Amazon argues that porting to Trainium is not only easy, but it also gives AI startups access to Amazon&#8217;s entire cloud. Unsurprisingly, AWS claims that this is a better choice for startups than using neoclouds, many of which are tied to Nvidia and its hardware, like CoreWeave, Nebius, and Firmus. &#8220;You’re building on AWS. You’re not betting on a single-purpose compute provider and scrambling to build everything else around it,&#8221; Colin Brace, VP of Technology Software at AWS Annapurna Labs (the unit that makes Amazon&#8217;s custom chips), told TechCrunch via email. &"
     },
     {
       "s": "NVIDIA공식",

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-20T10:16:47.366Z",
+  "updatedAt": "2026-10-20T15:16:54.314Z",
   "data": {
     "NVDA": {
       "name": "엔비디아",
-      "px": 217.09,
-      "dayChange": 1.38,
-      "periodChange": -4.53,
+      "px": 216.77,
+      "dayChange": -0.15,
+      "periodChange": -4.67,
       "prices": [
         227.38,
         228.87,
@@ -27,7 +27,8 @@
         221.3,
         217.23,
         214.13,
-        217.09
+        217.09,
+        216.77
       ],
       "dates": [
         "2026-09-21",
@@ -50,16 +51,17 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-19"
+        "2026-10-19",
+        "2026-10-20"
       ],
-      "volume": 98236684,
+      "volume": 34773345,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 243.37,
         "low52w": 164.27,
-        "volume": 98236684
+        "volume": 34773345
       },
       "investorFlow": null,
       "consensus": null
@@ -68,7 +70,7 @@
       "name": "NAVER",
       "px": 178000,
       "dayChange": -2.68,
-      "periodChange": -10.06,
+      "periodChange": -7.58,
       "prices": [
         197900,
         201000,
@@ -86,8 +88,7 @@
         179400,
         173600,
         180000,
-        182900,
-        178000
+        182900
       ],
       "dates": [
         "2026-09-21",
@@ -106,19 +107,18 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-19",
-        "2026-10-20"
+        "2026-10-19"
       ],
-      "volume": 455825,
+      "volume": 467395,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "26조 9,537억",
-        "per": "13.75배",
+        "marketCap": "26조 8,929억",
+        "per": "13.72배",
         "pbr": "0.90배",
-        "cnsPer": "14.53배",
-        "divYield": "1.48%",
+        "cnsPer": "14.50배",
+        "divYield": "1.49%",
         "foreignRatio": "35.34%",
         "high52w": "308,500",
         "low52w": "171,000",
@@ -134,6 +134,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261020",
+            "foreigner": 1337,
+            "institution": -76017,
+            "individual": 75407,
+            "foreignRatio": "35.34%"
+          },
           {
             "date": "20261019",
             "foreigner": -29330,
@@ -196,22 +203,15 @@
             "institution": -36244,
             "individual": 178780,
             "foreignRatio": "35.45%"
-          },
-          {
-            "date": "20261002",
-            "foreigner": -43338,
-            "institution": -75184,
-            "individual": 117666,
-            "foreignRatio": "35.52%"
           }
         ],
         "sum5d": {
-          "foreigner": 113569,
-          "institution": 433582
+          "foreigner": 100308,
+          "institution": 268770
         },
         "sum10d": {
-          "foreigner": -441675,
-          "institution": 235401
+          "foreigner": -397000,
+          "institution": 234568
         }
       },
       "consensus": null
@@ -220,7 +220,7 @@
       "name": "SK텔레콤",
       "px": 77300,
       "dayChange": -1.53,
-      "periodChange": -11.15,
+      "periodChange": -9.77,
       "prices": [
         87000,
         87300,
@@ -238,8 +238,7 @@
         81900,
         78800,
         78400,
-        78500,
-        77300
+        78500
       ],
       "dates": [
         "2026-09-21",
@@ -258,10 +257,9 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-19",
-        "2026-10-20"
+        "2026-10-19"
       ],
-      "volume": 694633,
+      "volume": 703819,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -286,6 +284,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261020",
+            "foreigner": 113154,
+            "institution": -88856,
+            "individual": -27994,
+            "foreignRatio": "35.34%"
+          },
           {
             "date": "20261019",
             "foreigner": 59630,
@@ -348,22 +353,15 @@
             "institution": 44954,
             "individual": -45749,
             "foreignRatio": "34.88%"
-          },
-          {
-            "date": "20261002",
-            "foreigner": 60480,
-            "institution": 8675,
-            "individual": -58091,
-            "foreignRatio": "34.88%"
           }
         ],
         "sum5d": {
-          "foreigner": 457015,
-          "institution": -21917
+          "foreigner": 468117,
+          "institution": -180618
         },
         "sum10d": {
-          "foreigner": 728593,
-          "institution": -297183
+          "foreigner": 781267,
+          "institution": -394714
         }
       },
       "consensus": null
@@ -387,8 +385,7 @@
       -4.62,
       -6.96,
       -6.47,
-      -5.62,
-      -7.96
+      -5.62
     ],
     "kospi": [
       0,
@@ -407,36 +404,34 @@
       -14.25,
       -20.74,
       -19.12,
-      -17.69,
-      -20.76
+      -17.69
     ],
     "sp500": [
       0,
+      -0.17,
+      -0.42,
+      -0.22,
       0.51,
-      -0.27,
-      -0.43,
-      -0.68,
-      -0.49,
-      0.24,
-      0.91,
-      1.49,
-      1.27,
+      1.17,
+      1.76,
+      1.54,
+      1.06,
+      1.66,
+      1.61,
+      1.58,
+      0.46,
       0.79,
-      1.39,
-      1.34,
-      1.32,
-      0.19,
-      0.52,
-      -0.58,
-      -0.17
+      -0.32,
+      0.09,
+      0.31
     ]
   },
   "etfs": {
     "AIQ": {
       "name": "Global X Artificial Intelligenc",
-      "px": 62.96,
-      "dayChange": 1.52,
-      "periodChange": -5.05,
+      "px": 63.275,
+      "dayChange": 0.5,
+      "periodChange": -4.57,
       "prices": [
         66.31,
         66.72,
@@ -458,7 +453,8 @@
         63.94,
         64.09,
         62.02,
-        62.96
+        62.96,
+        63.28
       ],
       "dates": [
         "2026-09-21",
@@ -481,16 +477,17 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-19"
+        "2026-10-19",
+        "2026-10-20"
       ],
-      "volume": 828094,
+      "volume": 408452,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 70.26,
         "low52w": 44.46,
-        "volume": 828094
+        "volume": 408452
       },
       "investorFlow": null,
       "consensus": null

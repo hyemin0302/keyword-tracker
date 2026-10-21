@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-10-21T00:49:59.615Z",
+  "updatedAt": "2026-10-21T05:40:10.689Z",
   "count": 40,
   "stats": {
-    "today": 1,
+    "today": 2,
     "yesterday": 7,
     "weekAvg": 2.1,
     "sources": 35,
     "heat": "cool"
   },
   "items": [
+    {
+      "s": "조선일보",
+      "t": "AI 칩 열 관리 놓치면 데이터센터 주도권도 없다 …냉각 장비 100% 수입하는 韓",
+      "d": "",
+      "u": "https://www.chosun.com/economy/science/2026/10/21/YCP4L2TT5ZCFLKZD64OTIJTHRQ/",
+      "m": "10. 21. AM 05:08",
+      "ts": 1792559289000,
+      "fullText": ""
+    },
     {
       "s": "연합뉴스",
       "t": "[게시판] 한투증권, 삼일PwC와 GPU 파이낸싱 전략적 MOU",
@@ -25,7 +34,7 @@
       "u": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
       "m": "10. 20. PM 06:38",
       "ts": 1792521504000,
-      "fullText": "On Tuesday, Google announced that TorchTPU, its long-awaited version of PyTorch, is now available as an open-source project. With this, Google joins Amazon in trying to break Nvidia’s stranglehold on the AI industry, where most AI apps are written by default to run on Nvidia&#8217;s chips, or GPUs. PyTorch is the popular open-source toolkit that AI app developers and startups use to build, train, and run AI models. It is, by some accounts, used by 85% of the AI apps. PyTorch was originally developed by Meta (then Facebook) in 2016, long before the world had an inkling that LLMs would change the world. At the time, Nvidia’s GPUs were already the standard hardware for AI research, so many of PyTorch’s features were built to work specifically with them. In 2022, Meta turned PyTorch over to the Linux Foundation, a nonprofit that manages many important open source projects. Google&#8217;s version, TorchTPU, lets AI apps run on Google&#8217;s AI chips, called Tensor Processing Units (TPUs). It also makes it easy to move existing PyTorch apps to TPUs and, therefore, to Google Cloud. Developers can do this with a simple configuration change and no re-writing of their apps. Amazon made a similar announcement Monday, when it released its own version of PyTorch, called TorchNeuron. TorchNeuron allows AI apps to be ported to Amazon&#8217;s homegrown AI chip, Trainium, and to AWS with no rewriting. Amazon also said it going even further in its effort to loosen Nvidia&#8217;s hold on PyTorch. It is submitting code to the main PyTorch project that decouples various features from Nvidia&#8217;s chips, making it more open to any hardware by default. Google may be one-upping Amazon in a few ways, however. It says it worked directly with Meta, Hugging Face, Inferact (maker of vLLM) RadixArk (maker of SGLang), and others to ensure that TorchTPU&#8217;s features and code libraries work well with these popular AI development tools, just as the original PyTorch does. Plus the search giant"
+      "fullText": "On Tuesday, Google announced that TorchTPU, its long-awaited version of PyTorch, is now available as an open source project. With this, Google joins Amazon in trying to break Nvidia’s stranglehold on the AI industry, where most AI apps are written by default to run on Nvidia&#8217;s chips, or GPUs. PyTorch is the popular open source toolkit that AI app developers and startups use to build, train, and run AI models. It is, by some accounts, used by 85% of the AI apps. PyTorch was originally developed by Meta (then Facebook) in 2016, long before the world had an inkling that LLMs would change the world. At the time, Nvidia’s GPUs were already the standard hardware for AI research, so many of PyTorch’s features were built to work specifically with them. In 2022, Meta turned PyTorch over to the Linux Foundation, a nonprofit that manages many important open source projects. Google&#8217;s version, TorchTPU, lets AI apps run on Google&#8217;s AI chips, called Tensor Processing Units (TPUs). It also makes it easy to move existing PyTorch apps to TPUs and, therefore, to Google Cloud. Developers can do this with a simple configuration change and no rewriting of their apps. Amazon made a similar announcement Monday, when it released its own version of PyTorch, called TorchNeuron. TorchNeuron allows AI apps to be ported to Amazon&#8217;s homegrown AI chip, Trainium, and to AWS with no rewriting. Amazon also said it&#8217;s going even further in its effort to loosen Nvidia&#8217;s hold on PyTorch. It is submitting code to the main PyTorch project that decouples various features from Nvidia&#8217;s chips, making it more open to any hardware by default. Google may be one-upping Amazon in a few ways, however. It says it worked directly with Meta, Hugging Face, Inferact (maker of vLLM), RadixArk (maker of SGLang), and others to ensure that TorchTPU&#8217;s features and code libraries work well with these popular AI development tools, just as the original PyTorch does. Plus the sear"
     },
     {
       "s": "한경 경제",
@@ -146,16 +155,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "블루밍비트",
-      "t": "美 규제에 발목 잡힌 엔비디아…中 AI 반도체 점유율 34%로 급락",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQNldRQjFWTm4ybnAwZWJRNFdycTR4NEFrZHFxMUFtby1zTnJyUXhvTVFTRE14Nkd0VTJpM0xoX2VuSW1QbV9tdmlJVklTYThq?oc=5",
-      "m": "10. 14. AM 05:35",
-      "ts": 1791956111000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "핀포인트뉴스",
       "t": "미국 수출 규제에 엔비디아 흔들…중국 AI 칩 시장 판도 바뀐다",
       "d": "",
@@ -216,20 +215,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "지디넷코리아",
-      "t": "[AI 고속도로] \"中서 못 구하니 해외로\"…텐센트, 오라클서 AI칩 10만개 확보",
+      "s": "에너지데일리",
+      "t": "한전, 변전소 AI 감시에 ‘국산 AI 반도체(NPU)’ 사용 검토",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5raWplek83OUpVV1diNS1BbTRYQzB1eXFRNDY0SW9mdXByVVNzRmFNQVlDcE54NUdlLXdSbmZlNGNDVjFtaWdjaW5TWlltVHF1SmhETm5n?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3V0NfanFFYll1LXl5NUpxQ3Npek9kdTJGUUt2RHpYMDhTTkZXWW92X2tmYk9PeThnN3RPb2c1akl1LUJxdmpuLWw3UG1nZU9ka2xEdlBkdkJGekRYbFFyY0NudUNBbGZUeHNiT3Y1Q3owZw?oc=5",
       "m": "10. 02. AM 07:00",
       "ts": 1790924400000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "에너지데일리",
-      "t": "한전, 변전소 AI 감시에 ‘국산 AI 반도체(NPU)’ 사용 검토",
+      "s": "지디넷코리아",
+      "t": "[AI 고속도로] \"中서 못 구하니 해외로\"…텐센트, 오라클서 AI칩 10만개 확보",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3V0NfanFFYll1LXl5NUpxQ3Npek9kdTJGUUt2RHpYMDhTTkZXWW92X2tmYk9PeThnN3RPb2c1akl1LUJxdmpuLWw3UG1nZU9ka2xEdlBkdkJGekRYbFFyY0NudUNBbGZUeHNiT3Y1Q3owZw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5raWplek83OUpVV1diNS1BbTRYQzB1eXFRNDY0SW9mdXByVVNzRmFNQVlDcE54NUdlLXdSbmZlNGNDVjFtaWdjaW5TWlltVHF1SmhETm5n?oc=5",
       "m": "10. 02. AM 07:00",
       "ts": 1790924400000,
       "_policy": true,
@@ -326,6 +325,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "중앙일보",
+      "t": "오픈AI는 ‘자체 칩’ 삼성은 ‘연산 메모리’…AI반도체 병목 푼다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xOFlydG5na2VUZEl6b1ltUXYwRjZBTGw1c3NHTWtFV1Q4TUZMU1JsaDBJb2UyWVhudzY5a01LN3NvSGV4ODk2QjdWY1JmeW12ZmcyNFl3?oc=5",
+      "m": "08. 28. AM 07:00",
+      "ts": 1787900400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "전자신문",
       "t": "[기고] '반도체 특별법' 시행, 산업 투자와 혁신 앞당기는 계기",
       "d": "",
@@ -392,16 +401,6 @@
       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDX3B6M3pSa3BtYjV2aFM4OHdaYUJzMHBxN1hOWUpCUmJOb0w2a1JJQTc3eHE4X1BhZk5oV0Z2aXpKT01XeFhUTUlrN3NwZ08zQjZYaktEbTI1SVXSAWBBVV95cUxNbHloaE05NzUwaC1sU1NBZjZ0b1RqNFRTNGRndnN2b2ctd0ZPbFE3TUhsWUw4YXFjOTV4U1dVOFNyZ1NBemNOS2NQUG9PRWhKMjhxZXdtZjhNbTB3LTByUHA?oc=5",
       "m": "07. 21. AM 07:00",
       "ts": 1784617200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "더구루",
-      "t": "美 상무부 \"반도체·AI 추가 규제 곧 발표\"…수출통제 새 정책 예고",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11UF9YNS16MnlJX0dnZS1BQ29kVW10empodVJtRUlQczBRSk45dkhDQXBHTmFOMVhZeXVpckxzR0tiTVVZanlqMHVuZFJfdnBDY2VzYjlOU1pEby0zWmdMVGc4MA?oc=5",
-      "m": "07. 15. AM 07:00",
-      "ts": 1784098800000,
       "_policy": true,
       "fullText": "Google News"
     }

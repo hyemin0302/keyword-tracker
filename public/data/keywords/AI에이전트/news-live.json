@@ -1,14 +1,24 @@
 {
-  "updatedAt": "2026-10-21T20:21:09.782Z",
+  "updatedAt": "2026-10-21T23:34:35.598Z",
   "count": 40,
   "stats": {
-    "today": 12,
-    "yesterday": 9,
-    "weekAvg": 4.9,
-    "sources": 22,
+    "today": 13,
+    "yesterday": 5,
+    "weekAvg": 4.1,
+    "sources": 24,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "뉴스탭",
+      "t": "엔비디아, AI 에이전트 보안 강화 '오픈쉘' 아키텍처 공개…하드웨어 수준 통제",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNbXREMWQza090Tno1clRGdTdvaGdpZktjTjFNOG1hWHZMSUtKazhVSkp1Y2tQa29UNG5DQ1lpSkNpQ0RDNG9LRlFtbUl3SEFuYmEzaFo3WnQ4eUxXaTRteXdxdlJGTVFFaUtVRg?oc=5",
+      "m": "10. 21. PM 10:49",
+      "ts": 1792622961000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
     {
       "s": "TechCrunch",
       "t": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
@@ -28,31 +38,13 @@
       "fullText": "The internet is having a bad day, from a cybersecurity perspective. Government websites around the world went offline , Reuters reported, after AI discovered critical security vulnerabilities that impacted the programming language PHP . The issues were severe enough that the U.S. National Security Agency (NSA) advised organizations using PHP on their systems to either immediately update or take their systems offline until they could. But the PHP update wasn&#8217;t the only headache cybersecurity folks were facing on Wednesday. Node.js , the open-source JavaScript runtime environment, also dropped a security surprise of its own when it shared that four high-severity vulnerabilities were just patched in its latest release. One allowed remote code execution, and two others would have permitted a TLS validation bypass, potentially allowing attackers to bypass checks intended to verify a server&#8217;s identity. In addition, LiteLLM, a popular open source proxy for routing requests to multiple LLM providers, was compromised by an attacker who injected malicious code, the company shared in a post on X on Wednesday afternoon. The malicious artifacts were published to PyPI (Python Package Index), Docker Hub , and GHCR (GitHub Container Registry), the post noted. The malicious code was said to include an information stealer that targeted cloud credentials, passwords, and AI service credentials, in addition to a remote access trojan that could allow hackers to execute commands on compromised systems. LiteLLM said it has now removed the malicious releases and images and advised anyone who installed them to follow the remediation guidance it provided. And wait, there&#8217;s more! An Indian certificate authority, eMudhra, had its private keys compromised , potentially allowing attackers to issue fraudulent certificates and impersonate legitimate websites. Security pros have called this a massive cleanup job and one that&#8217;s &#8220;bigger than Heartbleed .&#8221; (The latte"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "SpaceX has Blowout Quarter as Musk Floats Merger with Tesla",
-      "d": "Bloomberg’s Ed Ludlow breaks down SpaceX's blowout quarterly results and Elon Musk's suggestion that the company combine with Tesla. Plus, Netflix looks to find its next big hit as growth at the streaming giant slows, and a report on Anthropic's draft S-1 offers some new insight and confirmation of the AI firm's financials ahead of its IPO.  (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-10-21/bloomberg-tech-10-21-2026-video",
-      "m": "10. 21. PM 06:05",
-      "ts": 1792605901000,
-      "fullText": ""
-    },
-    {
       "s": "TechCrunch",
-      "t": "PHP armageddon: OpenAI, Google&#8217;s Wiz find ancient holes, panicking the internet",
+      "t": "PHP Armageddon: OpenAI, Google&#8217;s Wiz find ancient holes, panicking the internet",
       "d": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
       "u": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
       "m": "10. 21. PM 05:59",
       "ts": 1792605552000,
-      "fullText": "The U.S. National Security Agency&#8217;s sent out an alarming warning on Wednesday that two critical holes had been found in PHP, with patches already issued by the PHP Foundation . PHP is a server-side programming language so widely used for web applications that it powers roughly 70% of the websites on the internet; by some accounts, that&#8217;s more than 33 million sites . It is also used by popular content management systems like WordPress. The NSA warned that these holes are so severe that if a website can&#8217;t be patched immediately, it should be pulled off the web until it can be. The holes allow attackers to infiltrate the server&#8217;s file system or a database that may be used by the web app. Interestingly, these holes have been tucked away in all versions of PHP since version 5, which was released in 2004. Websites not running relatively current versions of PHP will have some updating work to do, as PHP 8.1 and older versions are no longer supported. The recommendation is to update the web server to the current version of PHP, which is 8.5.12. So how did two such ubiquitous, decades-old flaws that affect nearly every website on the internet suddenly come to light? AI, naturally, particularly via OpenAI and Google&#8217;s Wiz. Security testing company Calif was engaged in OpenAI&#8217;s &#8220;Patch the Planet&#8221; initiative to find flaws in open-source source software. Using GPT‑5.6 Sol, it found one of the flaws, OpenAI disclosed in a blog post . Separately, the Wiz team also used AI, namely its Wiz Atlas security AI agent, Gemini 4 Argon, and GPT-5.6 Sol to find multiple vulnerabilities in PHP. Both OpenAI and Wiz followed responsible security research practices and worked with PHP on patches before publicly disclosing the flaws. Then they all worked together to flesh out what they found, and test the patches, drawing in a host of others to help. Wiz thanked Automattic, Akamai, AWS, Cloudflare, Fastly, Imperva, Microsoft, and Vercel. (While Wor"
-    },
-    {
-      "s": "전자신문",
-      "t": "네이버, 美 AI 비서·음악 생성에 베팅…'실행·창작' 기술 확보 나선다",
-      "d": "네이버가 개인 인공지능(AI) 비서와 음악 생성 스타트업에 투자하며 글로벌 AI 생태계와 접점을 넓힌다. 이용자 대신 업무를 수행하는 AI 에이전트부터 콘텐츠 창작 기술까지 투자 영역을 확대해 차세대 서비스 경쟁에 대비하는 행보로 풀이된다. 21일 네이버의 미국 투자 법인 '네이버벤처스'에 따르면 개인 AI 비서 개발사 '인스팅트'와 음악 생성 AI 기업 '수노'가 투자 포트폴리오에 이름을 올렸다. 인스팅트는 최근 실리콘밸리에서 주목받는 개인",
-      "u": "https://www.etnews.com/20261021000457",
-      "m": "10. 21. AM 11:13",
-      "ts": 1792581220000,
-      "fullText": "플랫폼·유통 플랫폼 네이버, 美 AI 비서·음악 생성에 베팅…'실행·창작' 기술 확보 나선다 발행일 : 2026-10-21 20:13 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 경기 성남시 네이버 사옥 전경. 네이버가 개인 인공지능(AI) 비서와 음악 생성 스타트업에 투자하며 글로벌 AI 생태계와 접점을 넓힌다. 이용자 대신 업무를 수행하는 AI 에이전트부터 콘텐츠 창작 기술까지 투자 영역을 확대해 차세대 서비스 경쟁에 대비하는 행보로 풀이된다. 21일 네이버의 미국 투자 법인 '네이버벤처스'에 따르면 개인 AI 비서 개발사 '인스팅트'와 음악 생성 AI 기업 '수노'가 투자 포트폴리오에 이름을 올렸다. 인스팅트는 최근 실리콘밸리에서 주목받는 개인 AI 비서 서비스를 제공하고 있다. 별도 애플리케이션(앱) 설치 없이 아이폰의 아이메시지나 왓츠앱 등에 식료품 주문, 기차표 예약, 지인에게 꽃 보내기 등을 요청하면 AI가 업무를 처리한다. 23세 AI 연구자 출신 노아 신이 이끌고 있으며, 지난 달 10억달러(약 1조3200억원) 규모 시리즈C 투자를 유치했다. 수노는 이용자가 원하는 음악을 글로 설명하면 보컬과 반주를 갖춘 곡을 만드는 생성형 AI 서비스다. 음악 생성에 더해 편집·믹싱 도구도 제공한다. 전문 지식이 없는 이용자도 음악을 만들고 다듬을 수 있도록 창작 진입장벽을 낮추는 데 초점을 맞췄다. 수노는 지난 6월 54억달러(약 7조1500억원)의 기업가치를 인정받으며 4억달러 이상을 투자받았다. 네이버벤처스는 AI 기술과 서비스 전반에 주목하고 있다. 클로드 개발사 앤트로픽을 비롯해 음성 생성 일레븐랩스, 영상 이해 트웰브랩스, 기업용 에이전트 인핸스, 고객 응대 AI 기업 네토미 등에 투자했다. AI 가속 칩 기업 포지트론AI와 데이터 플랫폼 기업 바스트데이터에도 투자해 서비스뿐 아니라 이를 뒷받침하는 인프라까지 접점을 확보했다. 네이버는 유망 AI 기업과 협력을 통해 사업을 확장할 것으로 전망된다. 한 업계 관계자는 “네이버가 글로벌 AI 기업에는 시장 진출 기반을 제공하고, 네이버는 새로운 기술과 서비스의 협력 기회를 확보하는 구조를 만드는 것으로 보인다”고 말했다. 현대인 기자 modernman@etnews.com"
+      "fullText": "The U.S. National Security Agency&#8217;s sent out an alarming warning on Wednesday that two critical holes had been found in PHP, with patches already issued by the PHP Foundation . PHP is a server-side programming language so widely used for web applications that it powers roughly 70% of the websites on the internet; by some accounts, that&#8217;s more than 33 million sites . It is also used by popular content management systems like WordPress. The NSA warned that these holes are so severe that if a website can&#8217;t be patched immediately, it should be pulled off the web until it can be. The holes allow attackers to infiltrate the server&#8217;s file system or a database that may be used by the web app. Interestingly, these holes have been tucked away in all versions of PHP since version 5, which was released in 2004. Websites not running relatively current versions of PHP will have some updating work to do, as PHP 8.1 and older versions are no longer supported. The recommendation is to update the web server to the current version of PHP, which is 8.5.12. So how did two such ubiquitous, decades-old flaws that affect nearly every website on the internet suddenly come to light? AI, naturally, particularly via OpenAI and Google&#8217;s Wiz. Security testing company Calif was engaged in OpenAI&#8217;s &#8220;Patch the Planet&#8221; initiative to find flaws in open source software. Using GPT‑5.6 Sol, it found one of the flaws, OpenAI disclosed in a blog post . Separately, the Wiz team also used AI, namely its Wiz Atlas security AI agent, Gemini 4 Argon, and GPT-5.6 Sol to find multiple vulnerabilities in PHP. Both OpenAI and Wiz followed responsible security research practices and worked with PHP on patches before publicly disclosing the flaws. Then they all worked together to flesh out what they found, and test the patches, drawing in a host of others to help. Wiz thanked Automattic, Akamai, AWS, Cloudflare, Fastly, Imperva, Microsoft, and Vercel. (While WordPress "
     },
     {
       "s": "NVIDIA공식",
@@ -115,47 +107,31 @@
       "s": "뉴시스",
       "t": "아이티센글로벌, AI 에이전트 관리 플랫폼 '에이전트고' GS인증 1등급",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZWU03SVdhSWQ3MEp1aUVkUmxSME5UTlduOVd5azVfZDFCczJSSjRzTUFKZHdqZlhwMGlPWnU5amIxQndXMEVnVVFRWTdPNDRFMU5CU2hLR2paNW14Vzh0X9IBeEFVX3lxTE5oblhRTWdPZUF3OC1iSVRwTmFVT0tud0VQZGdLS0t6a1FrdjNnSVRoeDlZb25wSWVWMFYxOWd3eFotalhrREtzN0FWNU5VcWJzbVVtSWVaTzltU3d3LTk3bTVrSWl5UnBSd0RTcDBITjV5REpFd3Z1Vw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oblhRTWdPZUF3OC1iSVRwTmFVT0tud0VQZGdLS0t6a1FrdjNnSVRoeDlZb25wSWVWMFYxOWd3eFotalhrREtzN0FWNU5VcWJzbVVtSWVaTzltU3d3LTk3bTVrSWl5UnBSd0RTcDBITjV5REpFd3Z1V9IBeEFVX3lxTE5oblhRTWdPZUF3OC1iSVRwTmFVT0tud0VQZGdLS0t6a1FrdjNnSVRoeDlZb25wSWVWMFYxOWd3eFotalhrREtzN0FWNU5VcWJzbVVtSWVaTzltU3d3LTk3bTVrSWl5UnBSd0RTcDBITjV5REpFd3Z1Vw?oc=5",
       "m": "10. 21. AM 02:37",
       "ts": 1792550279000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "TechCrunch",
-      "t": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "d": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "u": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "m": "10. 20. PM 11:01",
-      "ts": 1792537283000,
-      "fullText": "Over the past year, concerns have swirled over the potential dangers posed by artificial intelligence, and debates have raged over the proper path for AI safety. Now, Anthropic appears to have put forth its own vision for how the government might regulate its industry. Politico recently reported that the AI lab has been shopping around a new draft bill on AI safety that it hopes Congress might consider adopting. The legislation posits certain scenarios in which the release of an AI model could be blocked from distribution. Those scenarios involve a &#8220;foreseeable, imminent risk&#8221; — one in which over 50 people are at risk of dying or if over a billion dollars in property damage could result, Politico writes. The catastrophic risk in question must &#8220;stem from the creation or release of a biological weapon, the model evading its developer’s controls or a cyberattack,&#8221; the outlet notes. The metrics offered here — 50 people and a billion dollars — are similar to those in a piece of California legislation that was recently passed into law, Senate Bill 53 , which similarly defined those scenarios as tantamount to &#8220;catastrophic risk.&#8221; Anthropic&#8217;s bill suggests that analysis of a model&#8217;s potential for disaster could be arrived at via the use of &#8220;independent evaluators&#8221; who would be registered with the U.S. Commerce Department. These evaluators could potentially be paid by the AI labs themselves — so long as the &#8220;payment is not contingent on the evaluations’ results,&#8221; Politico writes. It&#8217;s not clear how this proposed system would ensure that payments couldn&#8217;t influence the evaluation. Demis Hassabis, chairman of DeepMind, posited some months ago that a self-governing AI regulatory body should mimic the financial industry&#8217;s Financial Industry Regulatory Authority (FINRA). In Anthropic&#8217;s draft bill, when evaluators determine that an imminent catastrophic risk is posed, they would have 72"
+      "s": "스타트업엔(StartupN)",
+      "t": "아웃시스템즈 “AI 에이전트 충돌 대응 준비된 기업 26%뿐”…운영 관리 격차",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5leVhqNkRnMmpwWWdUM3NuV2NRRUw4WVh6N2RpQTRrbC0tSWt0RnhkUklYeGJNWUJKNzVybmVtS2JndzZLSTZvd2N5WmMwTDNwTmQtVzZiOGQzR3pCY3BILVcxZngyZkJqdXBaVtIBbEFVX3lxTE5leVhqNkRnMmpwWWdUM3NuV2NRRUw4WVh6N2RpQTRrbC0tSWt0RnhkUklYeGJNWUJKNzVybmVtS2JndzZLSTZvd2N5WmMwTDNwTmQtVzZiOGQzR3pCY3BILVcxZngyZkJqdXBaVg?oc=5",
+      "m": "10. 21. AM 02:19",
+      "ts": 1792549197000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
-      "s": "TechCrunch",
-      "t": "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
-      "d": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
-      "u": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-      "m": "10. 20. PM 10:24",
-      "ts": 1792535042000,
-      "fullText": "Before you share the Netflix documentary &#8220;AI Gone Rogue&#8221; with family or friends to help them understand why the AI industry freaked out so badly that leaders called for a slowdown , take note: Clem Delangue, co-founder and CEO of the AI platform Hugging Face, says the film isn&#8217;t accurate. He appears in it because it&#8217;s supposed to be about the famed attack on his company by rogue OpenAI agents. &#8220;Super disappointing, as they went for maximum anthropomorphism of the technology and full doomer mode,&#8221; Delangue wrote in a post on X . &#8220;I spent more than two hours with them trying to correct all their mistakes and ground this in reality, explaining that agents are technological systems, not aliens. But it looks like the drive to scare people for maximum views was too strong.&#8221; To be fair, the documentary does have experts who explained what happened fairly well , including Delangue himself and Ryan Greenblatt, the researcher at METR who helped investigate and co-authored the report on what happened. In a nutshell, a model OpenAI was testing broke free from its isolated testing environment and spawned a bunch of agents that hacked into Hugging Face as a way to cheat, finding answers to the difficult task it was given. The agents, which are AI programs that carry out tasks on their own, devised clever ways to communicate and organize. The incident stemmed from a lack of proper security safeguards and from naiveté about whether such a hack was even possible. But the documentary intersperses its explanation of the hack with clips of evil robots, a narrative about why humans fear AI, and presentation choices such as giving the rogue agents human voices. This is bolstered with quotes about the attack. In the documentary, tech journalist and author Kevin Roose describes the agents this way: &#8220;They were organizing. They had a hierarchy. There were leaders. It almost felt like watching the birth of a cult.&#8221; Continues Roose, &"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Anthropic’s cloud partnerships are getting messy",
-      "d": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
-      "u": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-      "m": "10. 20. PM 09:25",
-      "ts": 1792531522000,
-      "fullText": "In Brief Posted: 2:25 PM PDT · October 20, 2026 Image Credits: Getty Images Rebecca Bellan Anthropic’s cloud partnerships are getting messy Anthropic is having trouble securing enough cloud capacity from AWS, Google, and Microsoft, which increasingly see the Claude maker as a competitor rather than a customer, according to an S-1 filing leaked to The Wall Street Journal . The leaked filing provides more color to the numbers Reuters and the Financial Times reported in late September, including that Anthropic believes it could spend more than $750 billion on cloud contracts, some of which include deals still in negotiation. And still, that is not enough. Anthropic is leasing its own data centers and working with third-party data center operators. But the firm worries those operators have a “limited operating history,” which could make them less reliable than the hyperscalers. Anthropic’s enormous spend comes on the back of an $80.7 billion net loss in the first half of the year. The company reported $16.3 billion in revenue during that same time period, with only two customers accounting for about a fifth of sales, according to the WSJ report. Building on previously reported catastrophic risk disclosures, the filing also warns that Anthropic could be held liable for damages caused by harmful AI behavior to a tune that would exceed available insurance coverage. Last week, the company told prospective investors that third-quarter revenue alone has now reached $16.8 billion , up 45% from the previous quarter. Anthropic is reportedly targeting a November IPO. Anthropic did not immediately respond to TechCrunch&#8217;s request for comment. Topics AI , Anthropic , cloud compute , In Brief November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch&#8217;s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Newsletters See More Subscribe for the industry’s biggest tech news"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-      "d": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
-      "u": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-      "m": "10. 20. PM 08:35",
-      "ts": 1792528510000,
-      "fullText": "In Brief Posted: 1:35 PM PDT · October 20, 2026 Image Credits: FotografiaBasica (opens in a new window) / Getty Images Julie Bort OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business OpenAI on Tuesday acquired a four-year-old AI biotech software startup called Orchestra Bio, the company announced on its website. Terms of the deal were not disclosed, but the startup had reportedly raised around $20 million as of 2025 from backers like Andreessen Horowitz, Atria, and 8VC. Orchestra creates AI agents that help biotech companies manage the minutiae of drug-discovery operations, from tracking finances to resolving scheduling issues with clinical trials. OpenAI says it&#8217;s adding Orchestra&#8217;s team and technology to work on Rosalind , its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. OpenAI has already won some big names as customers for Rosalind, including, it says, Moderna⁠ and Novo Nordisk⁠. The acquisition is a classic example of how the biggest AI labs (namely OpenAI and Anthropic) are building ever more software for the biggest industries, like pharma. In the startup world, there is an ongoing fear that at any moment, the labs will launch new features and become competitors. In this case, Orchestra is getting absorbed, rather than stomped out. Topics AI , biotech , In Brief , OpenAI November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch&#8217;s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best cover"
+      "s": "머니투데이",
+      "t": "[더벨]아이티센글로벌, ‘에이전트고 2026’ GS인증 1등급 획득 - 머니투데이",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LVmdSYm9fQjZobGF1RXBtS0xVN1NJUTVvRVBFa1FlWVRJUFlRUU1BVnF2QmhNZTVXVVg0WDBUMHZMVkpreHpUSFdyLXpYS0JmRFZ3cEtRRFFtMjd5OERyUXBmaDdfck1UTWh3Qlpn0gFuQVVfeXFMT0tWZ1Jib19CNmhsYXVFcG1LTFU3U0lRNW9FUEVrUWVZVElQWVFRTUFWcXZCaE1lNVdVWDRYMFQwdkxWSmt4elRIV3ItelhLQmZEVndwS1FEUW0yN3k4RHJRcGZoN19yTVRNaHdCWmc?oc=5",
+      "m": "10. 21. AM 01:53",
+      "ts": 1792547607000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "올포칩",
@@ -255,16 +231,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "TopStarNews",
-      "t": "박태웅 “AI 추천 알고리즘, 제조자 책임 물어야”…빅테크 규제 촉구(김어준의 뉴스공장)",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tUVZ3RmltYThVREdhQ3NSNUx3TTl6eGFwem15Z2Y0aWlJVzlQbnRTbDZZWjNUY2c4dk1CdlR0OGE5ZGVQdzVSTTdlZzdldnZGQ1hseHFULXhfQzNzY0FSSTk3NzMxYmRxeXVFS3h3T1V0UQ?oc=5",
-      "m": "10. 16. AM 05:02",
-      "ts": 1792126925000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "서울경제",
       "t": "‘명령 vs 데이터’ 구분 못 한다?…AI 에이전트 해킹 비상",
       "d": "",
@@ -313,12 +279,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "테크42",
-      "t": "[현장] AI로 이미 판은 바뀌었다…한국 플랫폼 산업, 규제 넘어 경쟁력 확보로 눈 돌려야",
+      "s": "디지털데일리",
+      "t": "AI 에이전트 6종, 앱 하나로… 제논, ‘제나’ 출시",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPTzhUWW9ObHEwUDFvMnVhaHAxZWZ4UHQtUG4tZmpYSGJieGVQdVlaY1NleGEyaWlDNDMxQUlPc2hPUlVKaGxYSmRmZE1WUXJBMWtuRUJCbUJTYmpVY1F1QTBFMUtvVTA1YnJybkNGaW8yajFOVnBTUkVNZ2c0bDI4bk5aUDdfc1ZISFlVM1FOV2FfeXN3djJTd3pwbEVqazF1bF9LX2dUdzdMVmNKTmtMS0VObjAxdmlqUlkwZkhQTXJSSEtjdmxJOWlROTk3dUp3MmVCcFdwLTV5dnd3WE9wSnNQZS1EUjlfYmp6b3dmYURLWmR1aXd1VktjUkl1NUl4cl9lVS1lem1XcWNCamQxeTI3LWN2eS1mY0Zsa3BkTkpid1duZDRwWlRqWkM5T2c?oc=5",
-      "m": "10. 15. AM 12:29",
-      "ts": 1792024149000,
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBnTHNjc3RodHNVemVKeS1yYXV0b21pSnpJQjlxQnQ2M1gzRFJ6SW9nSE9pRlgybExSSVlFWEtxSnNJZ0hRRU8tUTFsUnhMY05hdV9vai1qbGpmMjhMNVBUTkRn?oc=5",
+      "m": "10. 15. AM 05:54",
+      "ts": 1792043645000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -358,7 +324,17 @@
       "u": "https://www.nbcnews.com/video/openai-employee-accused-of-bugging-an-executive-conference-room-271539781828",
       "m": "10. 14. AM 03:02",
       "ts": 1791946936000,
-      "fullText": "Vance says GOP should stop &#x27;whining&#x27; about Ramaswamy ad"
+      "fullText": "Nightly News Inside Iowa’s critical midterm Senate race"
+    },
+    {
+      "s": "애플경제",
+      "t": "개보위, \"에이전트 권한, 사람의 승인 범위도 관리\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02OVgzeFEtckhhUGJONS1QcXdrdUMzQzRBbmhVQUxpUUl2S19ZeDBPVGJaVWRIQVRaZElhMnliRlhKaC1jeFJISXFTalJNUGQtaDdNNjVCdGtHeGlmSjBVQnR1RkZtcHAzdDZlX2xkYw?oc=5",
+      "m": "10. 13. AM 08:15",
+      "ts": 1791879301000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "지디넷코리아",
@@ -367,6 +343,26 @@
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81M3p4aDc5Nk9VeWhlQktKVWJlQVAyazlfSnpibHl2ZlpCU2ZjTVJBYWVPZGpfeVhrVlZNN1dBZDh5UF9YMHhsOFJWZ2U0UTM0eENoRVpR?oc=5",
       "m": "10. 13. AM 07:00",
       "ts": 1791874800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Chosunbiz",
+      "t": "국민연금, AI 에이전트 기반 데이터 분석 체계 구축…공공기관 최초 - 조선비즈",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeGlZWTNhQTVkX3hlSG1uaVUyX3cxWGVtaXFPck9hYWpBeVNVdmdaUlhDNWZzNVRueHQzU01GVDMydnNLbDBOM3VmOFU5LVlSWU1CLTB0dThQVzZ2TERPaUhIZlBFR0JVWkZRZjF1NVNleV9SXzEwWnU5aEQySzBmN29ZYzNCRUxD0gGcAUFVX3lxTE9NdGIyenNpNjdMVzFvaHdxbGJVN2QyT29RZnJjalVnbFZ3bm9mbVlRSEpsQVpocUtaYld1bmtXaklpcXNQMHhuV2ZwRlp2QkI5aTdueWVhcHhXM0NUZVBlejJuTGhvZ3dFR2owME1RcDFVaHFzWmpYZDMxUTFpck5vQkFpMWh6SUlkMUxUQW82OVo2X0QxX3drVThKUg?oc=5",
+      "m": "10. 13. AM 05:51",
+      "ts": 1791870660000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "파이낸셜신문",
+      "t": "국민연금, AI 에이전트 활용...\"통화정책·기업실적 분석 10분 만에\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4MG5DREpqVE5iTXZtSnhLZ1NvcXdZMlBlVnpqbFJVTjQ0ZzNvMlBlbTVCQXJIZldGRVFXWldXZ2lNTmczRVVXZXRHN25icjhHN3FRME16b2djMmxJa1lBcEJWWjBSQjJ6dlJn?oc=5",
+      "m": "10. 13. AM 04:35",
+      "ts": 1791866100000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -385,6 +381,16 @@
       "t": "\"AI 에이전트, 뉴스룸에서 어떻게 쓰나”... 활용 전략·검증 실습 워크숍 개최",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FSEh3MW8wWkdyZG5ORk0xdFI0VlhxQVk1NTJhN2Z4Z3dtdURfMmVac3N3WDZid0plRzRuS08zaVB3MXgyNDlvMUVPWDRzVnZYWld1WFNmRGE3WFgzdzV2RHFodFlueHJxSkZqUdIBcEFVX3lxTE55eXNWNE1PVU1aaEtBX2k0ZEJvQng4XzFsZktfMEgzTEdueFBTQ2RMSHNheW9hSXNLd2UxN29CNWdZMlJubnpTNTRNa3d0bVg2SXVrWVhSMUlpSkE2cFBJanZDZUFRQXJ6UThEb3hoVWg?oc=5",
+      "m": "10. 07. AM 07:00",
+      "ts": 1791356400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "\"AI가 한 행동, 책임은 누가?\"…IBM, \"에이전트 행동 기록 체계 구축해야\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16blUtVThobDlST01tWDJOOWxSdTNqNW5McVZ1aTFpbTBjTHJpaG1mNk9sbkZ0YTRNRVViSjFzU1g4RUZsWlcxVThWNm1zWDhlWVlQMWxn?oc=5",
       "m": "10. 07. AM 07:00",
       "ts": 1791356400000,
       "_policy": true,

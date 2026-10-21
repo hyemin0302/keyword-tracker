@@ -1,22 +1,58 @@
 {
-  "updatedAt": "2026-10-21T16:06:11.715Z",
+  "updatedAt": "2026-10-21T20:21:09.782Z",
   "count": 40,
   "stats": {
-    "today": 11,
-    "yesterday": 13,
-    "weekAvg": 5.6,
-    "sources": 23,
+    "today": 12,
+    "yesterday": 9,
+    "weekAvg": 4.9,
+    "sources": 22,
     "heat": "hot"
   },
   "items": [
     {
+      "s": "TechCrunch",
+      "t": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "d": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+      "u": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "m": "10. 21. PM 07:30",
+      "ts": 1792611000000,
+      "fullText": "Walmart is embracing agentic commerce with the launch of its own Agent Gateway to manage transactions and other new features aimed at customers using AI agents, the retailer announced on Wednesday. The move comes shortly after Walmart&#8217;s top competitor, Amazon, began blocking AI agents from making purchases on behalf of online shoppers. The company&#8217;s embrace of AI technology differentiates it from other online businesses, including not only Amazon but also various travel and booking sites, which have responded to the growing consumer adoption of AI agents by locking them out of their websites completely . Walmart, on the other hand, had already announced a partnership with a leading agent in the space, Meta&#8217;s Muse, and offers integrations with popular AI apps like ChatGPT, Gemini, and others. Now, it&#8217;s expanding on those efforts with more technology to prepare for a world where AI agents become mainstream, said Walmart President and CEO John Furner, speaking at the Masters of Scale Summit in San Francisco on Wednesday. The technology will support agentic shopping from both Walmart and the company&#8217;s discount warehouse, Sam&#8217;s Club. It starts with Walmart&#8217;s Agent Gateway, the company&#8217;s new MCP server, which is designed to help approved agents connect to Walmart over the model context protocol (MCP). The protocol, originally created by Anthropic, allows AI agents to connect to external data sources, tools, and other workflows. In this case, it lets an AI agent search across Walmart&#8217;s online inventory and make purchases on behalf of the agent&#8217;s user. What&#8217;s more, the retailer says that its Agent Gateway will be able to help customers shop for their usual brands or items without having to share their personal information or purchase history directly with the agent. The company has also developed new technology to differentiate an agent&#8217;s purchases from those initiated directly by the customer, and to g"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "The internet is having a very bad cybersecurity day",
+      "d": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week.",
+      "u": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+      "m": "10. 21. PM 07:03",
+      "ts": 1792609408000,
+      "fullText": "The internet is having a bad day, from a cybersecurity perspective. Government websites around the world went offline , Reuters reported, after AI discovered critical security vulnerabilities that impacted the programming language PHP . The issues were severe enough that the U.S. National Security Agency (NSA) advised organizations using PHP on their systems to either immediately update or take their systems offline until they could. But the PHP update wasn&#8217;t the only headache cybersecurity folks were facing on Wednesday. Node.js , the open-source JavaScript runtime environment, also dropped a security surprise of its own when it shared that four high-severity vulnerabilities were just patched in its latest release. One allowed remote code execution, and two others would have permitted a TLS validation bypass, potentially allowing attackers to bypass checks intended to verify a server&#8217;s identity. In addition, LiteLLM, a popular open source proxy for routing requests to multiple LLM providers, was compromised by an attacker who injected malicious code, the company shared in a post on X on Wednesday afternoon. The malicious artifacts were published to PyPI (Python Package Index), Docker Hub , and GHCR (GitHub Container Registry), the post noted. The malicious code was said to include an information stealer that targeted cloud credentials, passwords, and AI service credentials, in addition to a remote access trojan that could allow hackers to execute commands on compromised systems. LiteLLM said it has now removed the malicious releases and images and advised anyone who installed them to follow the remediation guidance it provided. And wait, there&#8217;s more! An Indian certificate authority, eMudhra, had its private keys compromised , potentially allowing attackers to issue fraudulent certificates and impersonate legitimate websites. Security pros have called this a massive cleanup job and one that&#8217;s &#8220;bigger than Heartbleed .&#8221; (The latte"
+    },
+    {
       "s": "Bloomberg Tech",
-      "t": "Stord Acquires AMS Fulfillment in Nine-Figure Deal",
-      "d": "E-Commerce logistics provider Stord made its largest acquisition to date acquiring competitor AMS Fulfillment. The deal includes 10 warehouses, which will bring Stord's global network to over 100 locations. \nSean Henry, CEO and founder of Stord discusses the deal as well as the overall outlook for the shipping and logistics space. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-10-21/stord-acquires-ams-fulfillment-in-nine-figure-deal-video",
-      "m": "10. 21. PM 03:36",
-      "ts": 1792596966000,
+      "t": "SpaceX has Blowout Quarter as Musk Floats Merger with Tesla",
+      "d": "Bloomberg’s Ed Ludlow breaks down SpaceX's blowout quarterly results and Elon Musk's suggestion that the company combine with Tesla. Plus, Netflix looks to find its next big hit as growth at the streaming giant slows, and a report on Anthropic's draft S-1 offers some new insight and confirmation of the AI firm's financials ahead of its IPO.  (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-21/bloomberg-tech-10-21-2026-video",
+      "m": "10. 21. PM 06:05",
+      "ts": 1792605901000,
       "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "PHP armageddon: OpenAI, Google&#8217;s Wiz find ancient holes, panicking the internet",
+      "d": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+      "u": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "m": "10. 21. PM 05:59",
+      "ts": 1792605552000,
+      "fullText": "The U.S. National Security Agency&#8217;s sent out an alarming warning on Wednesday that two critical holes had been found in PHP, with patches already issued by the PHP Foundation . PHP is a server-side programming language so widely used for web applications that it powers roughly 70% of the websites on the internet; by some accounts, that&#8217;s more than 33 million sites . It is also used by popular content management systems like WordPress. The NSA warned that these holes are so severe that if a website can&#8217;t be patched immediately, it should be pulled off the web until it can be. The holes allow attackers to infiltrate the server&#8217;s file system or a database that may be used by the web app. Interestingly, these holes have been tucked away in all versions of PHP since version 5, which was released in 2004. Websites not running relatively current versions of PHP will have some updating work to do, as PHP 8.1 and older versions are no longer supported. The recommendation is to update the web server to the current version of PHP, which is 8.5.12. So how did two such ubiquitous, decades-old flaws that affect nearly every website on the internet suddenly come to light? AI, naturally, particularly via OpenAI and Google&#8217;s Wiz. Security testing company Calif was engaged in OpenAI&#8217;s &#8220;Patch the Planet&#8221; initiative to find flaws in open-source source software. Using GPT‑5.6 Sol, it found one of the flaws, OpenAI disclosed in a blog post . Separately, the Wiz team also used AI, namely its Wiz Atlas security AI agent, Gemini 4 Argon, and GPT-5.6 Sol to find multiple vulnerabilities in PHP. Both OpenAI and Wiz followed responsible security research practices and worked with PHP on patches before publicly disclosing the flaws. Then they all worked together to flesh out what they found, and test the patches, drawing in a host of others to help. Wiz thanked Automattic, Akamai, AWS, Cloudflare, Fastly, Imperva, Microsoft, and Vercel. (While Wor"
+    },
+    {
+      "s": "전자신문",
+      "t": "네이버, 美 AI 비서·음악 생성에 베팅…'실행·창작' 기술 확보 나선다",
+      "d": "네이버가 개인 인공지능(AI) 비서와 음악 생성 스타트업에 투자하며 글로벌 AI 생태계와 접점을 넓힌다. 이용자 대신 업무를 수행하는 AI 에이전트부터 콘텐츠 창작 기술까지 투자 영역을 확대해 차세대 서비스 경쟁에 대비하는 행보로 풀이된다. 21일 네이버의 미국 투자 법인 '네이버벤처스'에 따르면 개인 AI 비서 개발사 '인스팅트'와 음악 생성 AI 기업 '수노'가 투자 포트폴리오에 이름을 올렸다. 인스팅트는 최근 실리콘밸리에서 주목받는 개인",
+      "u": "https://www.etnews.com/20261021000457",
+      "m": "10. 21. AM 11:13",
+      "ts": 1792581220000,
+      "fullText": "플랫폼·유통 플랫폼 네이버, 美 AI 비서·음악 생성에 베팅…'실행·창작' 기술 확보 나선다 발행일 : 2026-10-21 20:13 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 경기 성남시 네이버 사옥 전경. 네이버가 개인 인공지능(AI) 비서와 음악 생성 스타트업에 투자하며 글로벌 AI 생태계와 접점을 넓힌다. 이용자 대신 업무를 수행하는 AI 에이전트부터 콘텐츠 창작 기술까지 투자 영역을 확대해 차세대 서비스 경쟁에 대비하는 행보로 풀이된다. 21일 네이버의 미국 투자 법인 '네이버벤처스'에 따르면 개인 AI 비서 개발사 '인스팅트'와 음악 생성 AI 기업 '수노'가 투자 포트폴리오에 이름을 올렸다. 인스팅트는 최근 실리콘밸리에서 주목받는 개인 AI 비서 서비스를 제공하고 있다. 별도 애플리케이션(앱) 설치 없이 아이폰의 아이메시지나 왓츠앱 등에 식료품 주문, 기차표 예약, 지인에게 꽃 보내기 등을 요청하면 AI가 업무를 처리한다. 23세 AI 연구자 출신 노아 신이 이끌고 있으며, 지난 달 10억달러(약 1조3200억원) 규모 시리즈C 투자를 유치했다. 수노는 이용자가 원하는 음악을 글로 설명하면 보컬과 반주를 갖춘 곡을 만드는 생성형 AI 서비스다. 음악 생성에 더해 편집·믹싱 도구도 제공한다. 전문 지식이 없는 이용자도 음악을 만들고 다듬을 수 있도록 창작 진입장벽을 낮추는 데 초점을 맞췄다. 수노는 지난 6월 54억달러(약 7조1500억원)의 기업가치를 인정받으며 4억달러 이상을 투자받았다. 네이버벤처스는 AI 기술과 서비스 전반에 주목하고 있다. 클로드 개발사 앤트로픽을 비롯해 음성 생성 일레븐랩스, 영상 이해 트웰브랩스, 기업용 에이전트 인핸스, 고객 응대 AI 기업 네토미 등에 투자했다. AI 가속 칩 기업 포지트론AI와 데이터 플랫폼 기업 바스트데이터에도 투자해 서비스뿐 아니라 이를 뒷받침하는 인프라까지 접점을 확보했다. 네이버는 유망 AI 기업과 협력을 통해 사업을 확장할 것으로 전망된다. 한 업계 관계자는 “네이버가 글로벌 AI 기업에는 시장 진출 기반을 제공하고, 네이버는 새로운 기술과 서비스의 협력 기회를 확보하는 구조를 만드는 것으로 보인다”고 말했다. 현대인 기자 modernman@etnews.com"
     },
     {
       "s": "NVIDIA공식",
@@ -43,17 +79,7 @@
       "u": "https://www.hankyung.com/article/202610216380i",
       "m": "10. 21. AM 07:05",
       "ts": 1792566313000,
-      "fullText": ""
-    },
-    {
-      "s": "비즈니스포스트",
-      "t": "정부 'AI 에이전트' 확산에 개인정보 동의제도 바꾼다, 네이버·카카오 포함 기업들 사업 영향에 '촉각'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81bEl5QnlZZ19NZHpYSDF5N1FJeWZpNGk4Ty1pNkhCN3h2UENraTJ3NFFYeTZQUzYwNnlXbEtaS1p2N000X3lTRWt3NFdDQU9yZUEzSzFycWlqR3dTNklfMnI1QWlPZ2VBVlFkcl9wQnFsMG8?oc=5",
-      "m": "10. 21. AM 06:13",
-      "ts": 1792563216000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "테크 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 크래프톤, 독자 LLM 공개…게임 넘어 AI 기술 내재화 속도 입력 2026.10.21 16:05 수정 2026.10.21 16:05 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 안정훈 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 크래프톤이 자체 개발한 대규모언어모델(LLM)을 공개했다. AI 모델부터 인프라까지 핵심 기술을 직접 확보하려는 전략이다. 게임 속 AI 캐릭터와 에이전트 활용이 늘어나는 상황에서 AI 운영 비용을 낮추기 위한 기술 경쟁력을 강화하고 있다는 분석이 나온다. 크래프톤은 21일 300억개 매개변수(파라미터) 규모의 LLM &#39;라온-1 미니&#39; 프리뷰 버전을 공개했다. 모델 설계부터 학습까지 전 과정을 독자적으로 수행했다. 한국어와 영어를 지원하며 글로벌 AI 플랫폼 허깅페이스를 통해 누구나 무료로 내려받아 상업적으로 활용할 수 있도록 했다. 이번 모델의 핵심은 비용 효율성이다. 전체 300억개 매개변수 가운데 필요한 40억개만 활성화하는 전문가 혼합(MoE) 구조를 적용했다. 자체 개발한 선형 어텐션 기술도 결합했다. AI 모델을 구동할 때 필요한 연산량을 줄여 응답 속도를 높이고 추론 비용을 낮추는 방식이다. 크래프톤은 해외 동급 모델보다 우수한 성능을 확보했으며 일부 지표에서는 국내 대형 모델에 근접했다고 설명했다. 시장에선 크래프톤이 AI 원천기술 확보에 속도를 내고 있다는 점에 주목하고 있다. 크래프톤은 지난해 &#39;AI 퍼스트&#39; 기업 전환을 선언하고 1000억원 규모의 그래픽처리장치(GPU) 클러스터 구축에 나섰다. 지난 6월에는 AI 추론용 반도체를 개발하는 국내 스타트업 하이퍼엑셀에 500억원 규모의 전략적 투자를 추진했다. AI 인프라와 반도체에 이어 독자 LLM까지 확보하며 기술 내재화 범위를 넓히고 있는 셈이다. 게임 산업에서 AI 추론 비용은 중요한 경쟁 요소로 떠오르고 있다. 이용자와 실시간으로 대화하고 상황에 맞춰 행동하는 AI 캐릭터가 늘어날수록 연산 비용도 커지기 때문이다. 크래프톤은 엔비디아와 공동 개발한 AI 캐릭터 기술을 활용해 지난 6월 &#39;배틀그라운드&#39;에서 AI 동료 &#39;PUBG 앨라이&#39;의 베타 서비스를 선보인 바 있다. 자체 LLM 기술은 향후 이 같은 게임 AI 서비스를 고도화하고 운영 비용을 최적화하는 기반이 될 수 있다. 이강욱 크래프톤 최고AI책임자(CAIO)는 &quot;5년 넘게 축적한 AI 연구개발 역량을 통해 경쟁력 있는 언어모델을 독립적으로 개발한 성과&quot;라며 &quot;성능은 높이고 비용 부담은 낮춘 가성비 LLM으로 다양한 산업 현장에서 AI 활용의 폭을 넓혀 나가겠다&quot;고 말했다. 안정훈 기자 ajh6321@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 안정훈 ADVERTISEMENT 관련 뉴스 1 엔비디아 \"피지컬 AI 승부처는 시뮬레이션\"…정부도 실증 지원 \"피지컬 AI에서는 시뮬레이션이 굉장히 중요합니다. 실제 환경의 데이터가 부족하고 안전과 비용 문제도 해결해야 하기 때문입니다.\"정소영 엔비디아코리아 대표는 13일 서울 삼성동 코엑스에서 열린 &#39;피지... 2026.10.13 15:01 2 논란 터진 지 나흘 만에야…\"방플 맞다\" 크래프톤 결국 고개 숙였다 크래프톤의 대표 지식재산권(IP) ‘PUBG: 배틀그라운드’를 둘러싼 ‘방플’ 논란이 한국 참가자 전원의 경기 불참과 대회 조기 종료, 스폰서십 중단·보류로 번... 2026.09.22 08:49 3 경기 파행에 스폰서 줄줄이 발 뺐다…크래프톤 'PUBG' 무슨 일이 크래프톤의 대표 지식재산권(IP) &#39;PUBG: 배틀그라운드&#39;를 둘러싼 후폭풍이 거세지고 있다. 아시아 지역 이벤트 대회에서 불거진 공정"
     },
     {
       "s": "지디넷코리아",
@@ -89,29 +115,9 @@
       "s": "뉴시스",
       "t": "아이티센글로벌, AI 에이전트 관리 플랫폼 '에이전트고' GS인증 1등급",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oblhRTWdPZUF3OC1iSVRwTmFVT0tud0VQZGdLS0t6a1FrdjNnSVRoeDlZb25wSWVWMFYxOWd3eFotalhrREtzN0FWNU5VcWJzbVVtSWVaTzltU3d3LTk3bTVrSWl5UnBSd0RTcDBITjV5REpFd3Z1V9IBeEFVX3lxTE5oblhRTWdPZUF3OC1iSVRwTmFVT0tud0VQZGdLS0t6a1FrdjNnSVRoeDlZb25wSWVWMFYxOWd3eFotalhrREtzN0FWNU5VcWJzbVVtSWVaTzltU3d3LTk3bTVrSWl5UnBSd0RTcDBITjV5REpFd3Z1Vw?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZWU03SVdhSWQ3MEp1aUVkUmxSME5UTlduOVd5azVfZDFCczJSSjRzTUFKZHdqZlhwMGlPWnU5amIxQndXMEVnVVFRWTdPNDRFMU5CU2hLR2paNW14Vzh0X9IBeEFVX3lxTE5oblhRTWdPZUF3OC1iSVRwTmFVT0tud0VQZGdLS0t6a1FrdjNnSVRoeDlZb25wSWVWMFYxOWd3eFotalhrREtzN0FWNU5VcWJzbVVtSWVaTzltU3d3LTk3bTVrSWl5UnBSd0RTcDBITjV5REpFd3Z1Vw?oc=5",
       "m": "10. 21. AM 02:37",
       "ts": 1792550279000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "스타트업엔(StartupN)",
-      "t": "아웃시스템즈 “AI 에이전트 충돌 대응 준비된 기업 26%뿐”…운영 관리 격차",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5leVhqNkRnMmpwWWdUM3NuV2NRRUw4WVh6N2RpQTRrbC0tSWt0RnhkUklYeGJNWUJKNzVybmVtS2JndzZLSTZvd2N5WmMwTDNwTmQtVzZiOGQzR3pCY3BILVcxZngyZkJqdXBaVtIBbEFVX3lxTE5leVhqNkRnMmpwWWdUM3NuV2NRRUw4WVh6N2RpQTRrbC0tSWt0RnhkUklYeGJNWUJKNzVybmVtS2JndzZLSTZvd2N5WmMwTDNwTmQtVzZiOGQzR3pCY3BILVcxZngyZkJqdXBaVg?oc=5",
-      "m": "10. 21. AM 02:19",
-      "ts": 1792549197000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "머니투데이",
-      "t": "[더벨]아이티센글로벌, ‘에이전트고 2026’ GS인증 1등급 획득 - 머니투데이",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LVmdSYm9fQjZobGF1RXBtS0xVN1NJUTVvRVBFa1FlWVRJUFlRUU1BVnF2QmhNZTVXVVg0WDBUMHZMVkpreHpUSFdyLXpYS0JmRFZ3cEtRRFFtMjd5OERyUXBmaDdfck1UTWh3Qlpn0gFuQVVfeXFMT0tWZ1Jib19CNmhsYXVFcG1LTFU3U0lRNW9FUEVrUWVZVElQWVFRTUFWcXZCaE1lNVdVWDRYMFQwdkxWSmt4elRIV3ItelhLQmZEVndwS1FEUW0yN3k4RHJRcGZoN19yTVRNaHdCWmc?oc=5",
-      "m": "10. 21. AM 01:53",
-      "ts": 1792547607000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -152,24 +158,6 @@
       "fullText": "In Brief Posted: 1:35 PM PDT · October 20, 2026 Image Credits: FotografiaBasica (opens in a new window) / Getty Images Julie Bort OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business OpenAI on Tuesday acquired a four-year-old AI biotech software startup called Orchestra Bio, the company announced on its website. Terms of the deal were not disclosed, but the startup had reportedly raised around $20 million as of 2025 from backers like Andreessen Horowitz, Atria, and 8VC. Orchestra creates AI agents that help biotech companies manage the minutiae of drug-discovery operations, from tracking finances to resolving scheduling issues with clinical trials. OpenAI says it&#8217;s adding Orchestra&#8217;s team and technology to work on Rosalind , its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. OpenAI has already won some big names as customers for Rosalind, including, it says, Moderna⁠ and Novo Nordisk⁠. The acquisition is a classic example of how the biggest AI labs (namely OpenAI and Anthropic) are building ever more software for the biggest industries, like pharma. In the startup world, there is an ongoing fear that at any moment, the labs will launch new features and become competitors. In this case, Orchestra is getting absorbed, rather than stomped out. Topics AI , biotech , In Brief , OpenAI November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch&#8217;s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best cover"
     },
     {
-      "s": "TechCrunch",
-      "t": "Google is bringing a more personal version of its Gemini AI assistant to your car",
-      "d": "Google is bringing Gemini's Personal Intelligence feature to cars, allowing its AI assistant to draw on information from Gmail, Calendar, Maps, YouTube, and other Google services to deliver more personalized responses while driving.",
-      "u": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
-      "m": "10. 20. PM 08:00",
-      "ts": 1792526400000,
-      "fullText": "Google is making the Gemini AI assistant that&#8217;s already in millions of cars, trucks, and SUVs a lot more personal — a move that could push consumers even deeper into the company&#8217;s ecosystem of products. The company said Tuesday it&#8217;s upgrading Gemini in vehicles with a personal intelligence feature that can draw on information from Gmail, Google Calendar, YouTube, Maps, Google Search history, and other connected Google services to understand your preferences, activities, and past experiences. Google said it will roll out &#8220;Personal Intelligence with Gemini&#8221; to vehicles in two ways — through Android Auto, an app that runs on the user’s phone and wirelessly communicates with and projects navigation, media, and messaging to the vehicle’s infotainment system, and Google Built-in , software and services that have been directly integrated into the vehicle. The feature will launch in Android Auto, starting today, and expand to cars with Google Built-in in the coming months. Google initially launched Gemini last November in Android Auto. Meanwhile, Gemini&#8217;s &#8220;Personal Intelligence&#8221; feature rolled out across the U.S. in March and is now in beta in global markets. This latest upgrade would connect the dots — as Google put it in its blog post — across users&#8217; Google apps. Drivers will have to opt in for Personalized Intelligence to work. Once a user does so, they should expect all sorts of cross-pollination. For instance, a driver who is navigating to the airport may be alerted that the flight on their calendar is delayed. Google said the feature will allow users to make complex requests using natural language. Returning to that airport example, a user might ask the AI assistant for their flight gate before quickly following up with a question about whether it&#8217;s still on time. Gemini will give the user answers to both questions at the same time, the company said. That level of emmeshing might make consumers uncomfortable,"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "ChatGPT now lets you lock your chats",
-      "d": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
-      "u": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-      "m": "10. 20. PM 06:36",
-      "ts": 1792521413000,
-      "fullText": "OpenAI announced on Tuesday that users can now lock ChatGPT conversations to keep sensitive chats private when others may have access to their screen or device. Users can secure their locked chats with a four-digit PIN, or use Face ID or Touch ID on supported devices. Unlike the app&#8217;s Temporary Chats, which provide a separate session that doesn&#8217;t appear in chat history, users can return to Locked Chats at any time. The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat. The addition of locked chats adds a new layer of privacy to ChatGPT, as the app is increasingly used for personal conversations . Of course, while locking a chat can limit access, it doesn&#8217;t address concerns about how sensitive information is stored or handled. OpenAI notes that locking a chat doesn&#8217;t create end-to-end encryption or a separate encrypted vault, change how long it retains the chat, remove information that ChatGPT remembered before a chat was locked, or change the &#8220;Improve the model for everyone&#8221; setting. Once users lock a chat, it moves to a dedicated “Locked Chats” section, where it&#8217;s kept separate from regular chat history, pinned conversations, and chat search results. With Memory enabled, Locked Chats has its own separate memory shared across conversations within the section. New messages sent after locking a chat can update that memory but don&#8217;t update regular Memory. That means new information from locked chats won&#8217;t leak into regular chats. OpenAI says resetting a PIN permanently deletes all locked chats, files, and other content protected by the previous PIN. Additionally, the Locked Chats option isn&#8217;t available for temporary chats, archived chats, group chats, chats created from a shared link, chats with scheduled t"
-    },
-    {
       "s": "올포칩",
       "t": "AI 에이전트 확산에 대응… 기업 전반의 AI 활동·작업 실행 통합 제어",
       "d": "",
@@ -178,24 +166,6 @@
       "ts": 1792520486000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-      "d": "Eric Schmidt’s fortune is about to get even bigger.",
-      "u": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-      "m": "10. 20. PM 05:55",
-      "ts": 1792518912000,
-      "fullText": "In Brief Posted: 10:55 AM PDT · October 20, 2026 Image Credits: Eva Marie Uzcategui/Bloomberg / Getty Images Marina Temkin Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei Eric Schmidt’s fortune is about to get even bigger. The former Google CEO is reported to own about 1% of Anthropic after investing tens of millions of dollars in the leading AI lab’s Series A round in 2021, per Bloomberg. The startup was valued at $461 million at the time, according to PitchBook data. If Bloomberg&#8217;s estimate is accurate, Schmidt&#8217;s stake is remarkably large compared with the 2% of the company that co-founder and CEO Dario Amodei holds. Anthropic is widely expected to go public before the end of the year, with top-end market estimates valuing the company at as much as $2 trillion. At that valuation, Schmidt would add as much as $20 billion to his net worth, which Bloomberg currently puts at $57.5 billion. Schmidt has been an active tech investor since stepping down as Google CEO in 2011. He deploys capital through multiple entities, including Tomorrow Ventures, Innovation Endeavors Management, and his family office, Hillspire. His other AI bets include Mistral, General Intuition, and Reflection AI. Schmidt and Anthropic didn’t immediately respond to our request for comment. Topics AI , Anthropic , Eric Schmidt , In Brief , Startups November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch&#8217;s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mobility is your destination for transportation news and insight. Startups Weekly Startups are the core of TechCrunch, so get our best coverage delivered weekly. StrictlyVC Provides movers and shakers w"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Ex-Nvidia-turned-VC Amulya Vishwanath: &#8216;Physical AI is in its LEGO era&#8217;",
-      "d": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
-      "u": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
-      "m": "10. 20. PM 04:20",
-      "ts": 1792513206000,
-      "fullText": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity. She is the founder and managing partner of Techable Ventures, a VC firm focused on physical AI, which she started after spending nearly seven years as a product marketer at Nvidia. Before that, she held the same role at a company that was later bought by Intel and was a digital signal processing engineer at Interconnect Systems, which was later bought by the electronics manufacturer Molex. Listen on Apple Podcasts Listen on Spotify She stopped by Equity to talk about the future of physical AI — one of the industry’s latest buzzwords. &#8220;A lot of companies and experts have been talking about the ChatGPT moment for robotics,” she said, adding that right now the industry was more in a “LEGO era.” “There are a lot of foundational software and building blocks for robotics that are being rethought right now as we speak, and it’s super important in order for innovation to scale,” she continued. Right now, people are building the basics — the robotic hands or the actuators — that can one day come together and build that big-ticket-item, like a bunch of LEGOs coming together. There’s general- and special-purpose robots being built right now, too, and eventually, as people continue building them, they will get better and more advanced. “We’ve done this during the internet era,” she said. “We’ve done this long, long time ago with the Industrial Revolution. I think it’s just a matter of time before things fall into place.” “Talent is also going to be very critical,” she continued, adding elsewhere in the convo that talent is still a key definer of the U.S. market. This is one of the &#8220;moats&#8221; of her firm, she said, helping connect founders to top talent so they can stay competitive right now, as so much talent is going to big companies like Anthropic and Nvidia. She pointed out that she&#8217;s built up a strong network to help founders fr"
     },
     {
       "s": "데일리시큐",
@@ -333,32 +303,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "IT조선",
-      "t": "“업무·일상 AI 에이전트 6종 한곳에”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MaE5vb3huNUo0UDVvVGdMbjZodWxPaVFwOU5DZW9mbzQ1ZGpWS1ZZWHU0OFNHWlBENWVHNC16X1lONkdOaTVjeDl6UThfOGZOdDJYMlhWS2JRSTJySmZFbUlRQVlDVmRXaEVUa0J6OVTSAXRBVV95cUxPY1V0Z2YxT0NYOWNMa0tYQUk1QnRUTmJTcUh5My13c25Id1pVajFHMGwyQUNGSXlhczFIbW9MS1BrVlVHQTMyTEp5X2h2NFhNdzBKOHJZSFEtS0xLU0RBT0I1bXVIMEMySUxEYlNFaWdSdW1vNQ?oc=5",
-      "m": "10. 15. AM 09:06",
-      "ts": 1792055196000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "AI타임스",
       "t": "허사비스 \"AI 에이전트 해킹, 시스템 보안 강화 촉구하는 조기 경고\"",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Wa1VmQ0NTdnpVMFJMb0ZRZjdUeU9PdDNwdG9HT0U0b240TGplMzZrUkhYSDNFcEE2cEZCZ1dCS3cwdTFsS09mNU9sR0lMUGt3T29acGtVd0xRRTBWX3YySjVZaUg5R1RQQ0E?oc=5",
       "m": "10. 15. AM 07:14",
       "ts": 1792048450000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "디지털데일리",
-      "t": "AI 에이전트 6종, 앱 하나로… 제논, ‘제나’ 출시",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBnTHNjc3RodHNVemVKeS1yYXV0b21pSnpJQjlxQnQ2M1gzRFJ6SW9nSE9pRlgybExSSVlFWEtxSnNJZ0hRRU8tUTFsUnhMY05hdV9vai1qbGpmMjhMNVBUTkRn?oc=5",
-      "m": "10. 15. AM 05:54",
-      "ts": 1792043645000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -388,6 +338,55 @@
       "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOVVCN29QZGpYaEJMNTktaTcweFpnY21UZFpfbGJHNHR6V2J1Z2cyQVJCTWdMcHdPOXl0a0dWN2VETVc3M2F2TmwxbEVJa21NeHMtbU02ak9jYmljNkpVOTV2Y1JRQW1WajREcDRfRktGWXhMLXYyQ19wUG8xaE5IVnYwQkZfM05SWGVtSURxd0FyVlY2ZjMwRWxTN1ZXeGhmNjBR?oc=5",
       "m": "10. 14. PM 01:00",
       "ts": 1791982847000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Unite.AI",
+      "t": "EU, AI 에이전트 사고 이후 AI법 첫 집행 조치 발표",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd1VtR3J3bkZrMW9FVU1nV2h2cHhXdlhNVENTckJHRi10bjY4clpBVVpLajk0azVGYm5CSlIwNXZ2c1ZPY2J4aEFETFNyZ1FyZmRCR0NaTUxVeG94VGpTVEpYMm9ZdmF1Z2x5SUdqY19TUlgyNk96bjhLVi1nMS1kY1dWQmRiSm16RTZQQThuZW5TUzBwR2hwemZZSQ?oc=5",
+      "m": "10. 14. PM 01:00",
+      "ts": 1791982808000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "OpenAI employee accused of bugging an executive conference room",
+      "d": "OpenAI said the FBI has arrested Abdulrahman Alfozan, one of its employees, after being accused of bugging an executive conference room at the company&#39;s San Francisco office. Alfozan is a Saudi national and began working with OpenAI in 2025. NBC News&#39; Liz Kreutz has more on the arrest and charges.",
+      "u": "https://www.nbcnews.com/video/openai-employee-accused-of-bugging-an-executive-conference-room-271539781828",
+      "m": "10. 14. AM 03:02",
+      "ts": 1791946936000,
+      "fullText": "Vance says GOP should stop &#x27;whining&#x27; about Ramaswamy ad"
+    },
+    {
+      "s": "지디넷코리아",
+      "t": "AI 에이전트 위험 사전에 잡는다…카카오, 세이프티 장치 마련 속도",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81M3p4aDc5Nk9VeWhlQktKVWJlQVAyazlfSnpibHl2ZlpCU2ZjTVJBYWVPZGpfeVhrVlZNN1dBZDh5UF9YMHhsOFJWZ2U0UTM0eENoRVpR?oc=5",
+      "m": "10. 13. AM 07:00",
+      "ts": 1791874800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "https://www.didimkorea.net/",
+      "t": "EU AI 법 본격 시행 첫 달, 에이전트 탈출 사고 연속 발생…기업 컴플라이언스 체계 재편 불가피",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wcWh1azhOYWdjQWVnMFRLV096b1RHQ3QyQ1dtUjN0VGs0bFktRUNPYi0tYl9hWkVpR3pYYzc2YXlXZE8zZWtoemtzaHJzbDQ?oc=5",
+      "m": "10. 08. PM 02:28",
+      "ts": 1791469699000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "반론보도닷컴",
+      "t": "\"AI 에이전트, 뉴스룸에서 어떻게 쓰나”... 활용 전략·검증 실습 워크숍 개최",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FSEh3MW8wWkdyZG5ORk0xdFI0VlhxQVk1NTJhN2Z4Z3dtdURfMmVac3N3WDZid0plRzRuS08zaVB3MXgyNDlvMUVPWDRzVnZYWld1WFNmRGE3WFgzdzV2RHFodFlueHJxSkZqUdIBcEFVX3lxTE55eXNWNE1PVU1aaEtBX2k0ZEJvQng4XzFsZktfMEgzTEdueFBTQ2RMSHNheW9hSXNLd2UxN29CNWdZMlJubnpTNTRNa3d0bVg2SXVrWVhSMUlpSkE2cFBJanZDZUFRQXJ6UThEb3hoVWg?oc=5",
+      "m": "10. 07. AM 07:00",
+      "ts": 1791356400000,
       "_policy": true,
       "fullText": "Google News"
     }

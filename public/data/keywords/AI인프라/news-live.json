@@ -1,22 +1,40 @@
 {
-  "updatedAt": "2026-10-21T16:03:35.990Z",
+  "updatedAt": "2026-10-21T20:18:00.976Z",
   "count": 40,
   "stats": {
-    "today": 8,
+    "today": 10,
     "yesterday": 4,
-    "weekAvg": 3.1,
-    "sources": 31,
-    "heat": "warm"
+    "weekAvg": 3.6,
+    "sources": 32,
+    "heat": "hot"
   },
   "items": [
     {
+      "s": "TechCrunch",
+      "t": "The internet is having a very bad cybersecurity day",
+      "d": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week.",
+      "u": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+      "m": "10. 21. PM 07:03",
+      "ts": 1792609408000,
+      "fullText": "The internet is having a bad day, from a cybersecurity perspective. Government websites around the world went offline , Reuters reported, after AI discovered critical security vulnerabilities that impacted the programming language PHP . The issues were severe enough that the U.S. National Security Agency (NSA) advised organizations using PHP on their systems to either immediately update or take their systems offline until they could. But the PHP update wasn&#8217;t the only headache cybersecurity folks were facing on Wednesday. Node.js , the open-source JavaScript runtime environment, also dropped a security surprise of its own when it shared that four high-severity vulnerabilities were just patched in its latest release. One allowed remote code execution, and two others would have permitted a TLS validation bypass, potentially allowing attackers to bypass checks intended to verify a server&#8217;s identity. In addition, LiteLLM, a popular open source proxy for routing requests to multiple LLM providers, was compromised by an attacker who injected malicious code, the company shared in a post on X on Wednesday afternoon. The malicious artifacts were published to PyPI (Python Package Index), Docker Hub , and GHCR (GitHub Container Registry), the post noted. The malicious code was said to include an information stealer that targeted cloud credentials, passwords, and AI service credentials, in addition to a remote access trojan that could allow hackers to execute commands on compromised systems. LiteLLM said it has now removed the malicious releases and images and advised anyone who installed them to follow the remediation guidance it provided. And wait, there&#8217;s more! An Indian certificate authority, eMudhra, had its private keys compromised , potentially allowing attackers to issue fraudulent certificates and impersonate legitimate websites. Security pros have called this a massive cleanup job and one that&#8217;s &#8220;bigger than Heartbleed .&#8221; (The latte"
+    },
+    {
       "s": "Bloomberg Tech",
-      "t": "US Urges Fix for Widely Used Software After Critical Alerts",
-      "d": "The US government is working to address and stop any potential cybersecurity issues stemming from flaws in PHP, a widely used open-source software, that may impact federal agencies and American critical infrastructure, according to a White House official.",
-      "u": "https://www.bloomberg.com/news/articles/2026-10-21/governments-take-websites-offline-after-php-security-warnings",
-      "m": "10. 21. PM 12:07",
-      "ts": 1792584473000,
+      "t": "SpaceX, Tesla Boards Study Possible $3.5 Trillion Merger",
+      "d": "Elon Musk openly endorsed the prospect of combining SpaceX with Tesla Inc. in what would be the biggest-ever corporate merger, uniting assets from electric cars to AI data centers to rocket and satellite capabilities. Bloomberg's Sana Pashankar joined Bloomberg Intelligence to discuss this as well as SpaceX's recent earnings. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-21/spacex-tesla-boards-study-possible-3-5-trillion-merger-video-mvibr4ut",
+      "m": "10. 21. PM 04:26",
+      "ts": 1792599994000,
       "fullText": ""
+    },
+    {
+      "s": "전자신문",
+      "t": "IBK기업은행, '글로벌 AI 혁신 어워즈' 북아시아 최우수 SME 은행 선정",
+      "d": "IBK기업은행이 글로벌 금융 전문지 디지털뱅커가 주관하는 '글로벌 AI 혁신 어워즈 2026'에서 대한민국 및 북아시아 지역 '최우수 AI 기반 중소기업(SME) 은행'으로 선정됐다. 기업은행은 중소기업 금융 전문성에 인공지능(AI) 기술을 접목한 디지털 역량을 인정받아 한국과 중국, 일본 등 북아시아 시장에서의 경쟁력을 입증했다. 디지털뱅커는 기업은행이 자체 생성형 AI와 데이터센터 등 인프라를 개발해 내부 AI 전문성을 구축한 점을 핵심 시",
+      "u": "https://www.etnews.com/20261021000459",
+      "m": "10. 21. AM 11:57",
+      "ts": 1792583861000,
+      "fullText": "경제 금융 IBK기업은행, '글로벌 AI 혁신 어워즈' 북아시아 최우수 SME 은행 선정 발행일 : 2026-10-21 20:57 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 기업은행 본사 전경. [사진= 기업은행 제공] IBK기업은행이 글로벌 금융 전문지 디지털뱅커가 주관하는 '글로벌 AI 혁신 어워즈 2026'에서 대한민국 및 북아시아 지역 '최우수 AI 기반 중소기업(SME) 은행'으로 선정됐다. 기업은행은 중소기업 금융 전문성에 인공지능(AI) 기술을 접목한 디지털 역량을 인정받아 한국과 중국, 일본 등 북아시아 시장에서의 경쟁력을 입증했다. 디지털뱅커는 기업은행이 자체 생성형 AI와 데이터센터 등 인프라를 개발해 내부 AI 전문성을 구축한 점을 핵심 시상 사유로 평가했다. AI를 활용한 신용평가·사후관리·위험 관리 고도화, 중기금융 데이터 기반 맞춤형 서비스 확대, 포용·생산적 금융 지원을 위한 초개인화 서비스 추진 등도 높은 점수를 받았다. 장민영 기업은행장은 “이번 수상은 중기금융 경쟁력을 강화하기 위한 IBK의 차별화된 노력이 인정받은 결과”라며 “앞으로도 AI 기술을 활용해 고객 불편을 덜고 중소기업 경쟁력을 높여나가겠다”고 말했다. 류태웅 기자 bigheroryu@etnews.com"
     },
     {
       "s": "NVIDIA공식",
@@ -34,7 +52,26 @@
       "u": "https://www.hankyung.com/article/2026102168061",
       "m": "10. 21. AM 09:01",
       "ts": 1792573269000,
-      "fullText": "경제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 \"데이터센터 투자, 수도권·지방 분리해 접근해야\" 입력 2026.10.21 18:01 수정 2026.10.21 18:01 지면 A8 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 민경진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. ASK 싱가포르 2026 상업용 부동산 시장 전망 '클라우드' 수도권&middot;'AI학습' 지방 입지 따른 투자전략 차별화 필요 상업용 부동산 시장의 투자 전략이 개별 자산 가치를 높여 초과수익(알파)을 창출하는 방향으로 진화하고 있다는 분석이 나왔다. 서울 오피스와 인공지능(AI) 데이터센터가 새로운 투자 기회의 중심에 설 것으로 전망된다. 김대혁 삼성SRA자산운용 국내투자본부장은 21일 싱가포르 파크로열컬렉션피커링호텔에서 열린 &lsquo;ASK 싱가포르 2026&rsquo;에서 서울 오피스 시장의 구조적 경쟁력을 강조했다. 대기업과 금융회사, 정보기술(IT) 기업 본사가 집중된 데다 글로벌 주요 도시와 달리 재택근무 확산에도 사무실 수요가 견조하게 유지되고 있다는 분석이다. 다만 신규 오피스 공급이 늘어나는 만큼 단순한 가격 상승에 기대는 투자에서 벗어나야 한다고 진단했다. 김 본부장은 기업의 사옥 수요를 겨냥한 맞춤형 개발, 데이터센터&middot;호텔 전환 등 용도 변경을 새로운 투자 전략으로 제시했다. 그는 &ldquo;앞으로는 좋은 건물을 사는 것보다 건물의 미래 가치를 얼마나 끌어올릴 수 있느냐가 투자 성패를 가를 것&rdquo;이라고 말했다. 현철호 이지스자산운용 디지털사업그룹장은 AI 산업 성장에 따른 데이터센터 투자 기회에 주목했다. 특히 전력 확보와 우량 임차인 유치가 투자 수익률을 좌우하는 핵심 경쟁력이라고 했다. 전력과 토지, 인허가를 확보한 뒤 우량 임차인과 장기 계약을 체결하고 개발부터 운영까지 위험을 단계적으로 줄이는 게 핵심이다. 입지에 따른 투자 전략의 차별화도 강조했다. 고객 접근성이 중요한 클라우드&middot;AI 추론용 데이터센터는 수도권에, 대규모 연산이 필요한 AI 학습용 시설은 전력 확보 여건 등을 고려해 지방에 개발하는 방식을 제시했다. 이지스는 경기 하남 40㎿(메가와트), 고양 삼송 80㎿ 등 총 120㎿ 규모의 데이터센터 개발 실적을 확보했다. 양병우 마스턴APAC투자운용 대표 주재로 한국 부동산 투자 기회를 논의하는 좌담회도 마련됐다. 양 대표는 &ldquo;한국 부동산에 대한 관심이 높아지고 있지만, 잦은 규제와 세제 변화 등은 투자 확대의 걸림돌&rdquo;이라고 지적했다. 싱가포르=민경진 기자 min@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 민경진 기자 한국경제신문 마켓인사이트부에서 국민연금을 비롯한 연기금 및 공제회, 대체투자(사모·부동산·인프라), 상업용부동산 시장 등을 두루 취재하고 있습니다. 글로벌 금융투자시장의 값진 정보를 빠르고 정확하게 보도하겠습니다. ADVERTISEMENT 관련 뉴스 1 글로벌 큰손 \"반도체·K팝의 나라, 韓에 장기투자\" “한국은 전략적으로 중요한 시장이며 위상이 계속 높아지고 있습니다.”싱가포르 국부펀드 테마섹 산하 자산운용그룹 세비오라의 여홍핑 최고운영책임자(COO)는 21일 싱가포르 파크로열컬렉션피커링호텔에... 2026.10.21 17:48 2 코오롱베니트·에티버스 등 올 매출 두 배로 국내 그래픽처리장치(GPU) 서버·소프트웨어 등 AI 인프라 유통시장도 빠르게 커지고 있다. 시스템통합(SI) 업체와 통신회사, 포털 등이 AI 데이터센터 투자를 확대하고, IT·금융&mid... 2026.10.19 18:03 3 \"美 데이터센터 사업 65%, 건설 장담 못해\" 최근 미국에서 대형 데이터센터 개발 사업이 잇달아 지연되거나 철회되고 있다. 인공지능(AI) 인프라 투자 열풍 속에 전력망 인허가"
+      "fullText": "경제 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 \"데이터센터 투자, 수도권·지방 분리해 접근해야\" 입력 2026.10.21 18:01 수정 2026.10.22 02:20 지면 A8 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 민경진 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. ASK 싱가포르 2026 상업용 부동산 시장 전망 입지 따른 투자전략 차별화 필요 기업 본사 몰린 서울 오피스 관심 상업용 부동산 시장의 투자 전략이 개별 자산 가치를 높여 초과수익을 창출하는 방향으로 진화하고 있다는 분석이 나왔다. 서울 오피스와 인공지능(AI) 데이터센터가 새로운 투자 기회의 중심에 설 것으로 전망된다. 김대혁 삼성SRA자산운용 국내투자본부장은 21일 싱가포르 파크로열컬렉션피커링호텔에서 열린 &lsquo;ASK 싱가포르 2026&rsquo;에서 서울 오피스 시장의 구조적 경쟁력을 강조했다. 대기업과 금융회사, 정보기술(IT) 기업 본사가 집중된 데다 글로벌 주요 도시와 달리 재택근무 확산에도 사무실 수요가 견조하게 유지되고 있다는 분석이다. 다만 신규 오피스 공급이 늘어나는 만큼 단순한 가격 상승에 기대는 투자에서 벗어나야 한다고 진단했다. 김 본부장은 기업의 사옥 수요를 겨냥한 맞춤형 개발, 데이터센터&middot;호텔 전환 등 용도 변경을 새로운 투자 전략으로 제시했다. 그는 &ldquo;앞으로는 좋은 건물을 사는 것보다 건물의 미래 가치를 얼마나 끌어올릴 수 있느냐가 투자 성패를 가를 것&rdquo;이라고 말했다. 현철호 이지스자산운용 디지털사업그룹장은 AI 산업 성장에 따른 데이터센터 투자 기회에 주목했다. 특히 전력 확보와 우량 임차인 유치가 투자 수익률을 좌우하는 핵심 경쟁력이라고 했다. 전력과 토지, 인허가를 확보한 뒤 우량 임차인과 장기 계약을 체결하고 개발부터 운영까지 위험을 단계적으로 줄이는 게 핵심이다. 입지에 따른 투자 전략의 차별화도 강조했다. 고객 접근성이 중요한 클라우드&middot;AI 추론용 데이터센터는 수도권에, 대규모 연산이 필요한 AI 학습용 시설은 전력 확보 여건 등을 고려해 지방에 개발하는 방식을 제시했다. 이지스는 경기 하남 40㎿(메가와트), 고양 삼송 80㎿ 등 총 120㎿ 규모의 데이터센터 개발 실적을 확보했다. 양병우 마스턴APAC투자운용 대표 주재로 한국 부동산 투자 기회를 논의하는 좌담회도 마련됐다. 양 대표는 &ldquo;한국 부동산에 대한 관심이 높아지고 있지만, 잦은 규제와 세제 변화 등은 투자 확대의 걸림돌&rdquo;이라고 지적했다. 싱가포르=민경진 기자 min@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 민경진 기자 한국경제신문 마켓인사이트부에서 국민연금을 비롯한 연기금 및 공제회, 대체투자(사모·부동산·인프라), 상업용부동산 시장 등을 두루 취재하고 있습니다. 글로벌 금융투자시장의 값진 정보를 빠르고 정확하게 보도하겠습니다. ADVERTISEMENT 관련 뉴스 1 글로벌 자산가 '블랙홀' 된 싱가포르 싱가포르는 전 세계 자산가의 돈을 빨아들이는 ‘블랙홀’이라는 평가를 받는다. 21일 열린 ‘ASK 싱가포르 2026’의 WM·패밀리오피스 세션에서 연사들은 정치... 2026.10.21 20:04 2 韓 AI 데이터센터 투자, 건설주 내년 수혜 본격화 한국경제신문의 투자 전문 유료 플랫폼 &#39;한경 프리미엄9&#39;(www.hankyung.com/premium9)에 실린 기사입니다. &#39;한경 프리미엄9&#39;을 구독하시면 더 많은 주식 투자 기사를 찾... 2026.10.21 18:17 3 토스 투자해 38배 번 테마섹 운용사 \"韓 혁신이 큰손 끌어들여\" “한국의 수출 성장세와 혁신 수준이 장기 투자를 끌어들이고 있습니다.”21일 한국경제신문사가 싱가포르에서 개최한 제2회 ‘ASK 싱가포르 2026’에"
+    },
+    {
+      "s": "전자신문",
+      "t": "“AI 데이터센터 유치 적기…세액공제 확대·전력 규제 개선 필요”",
+      "d": "한국이 글로벌 인공지능(AI) 데이터센터 유치 경쟁에서 우위를 확보하기 위해 투자세액공제 대상을 확대하고 전력 관련 규제 부담을 줄여야 한다는 제언이 나왔다. 안정적인 전력 공급과 반도체 산업 경쟁력을 갖춘 만큼, 해외 빅테크의 투자 수요를 적극 유치할 수 있도록 정부 제도적 지원이 필요하다는 주장이다. 이영탁 SK텔레콤 AIDC통합추진단 부사장은 21일 서울 강남구 삼성동 한국통신사업자연합회(KTOA)에서 열린 '제12차 AI 미래가치 포럼'",
+      "u": "https://www.etnews.com/20261021000446",
+      "m": "10. 21. AM 08:57",
+      "ts": 1792573077000,
+      "fullText": "통신 통신 “AI 데이터센터 유치 적기…세액공제 확대·전력 규제 개선 필요” 발행일 : 2026-10-21 17:57 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 이영탁 SK텔레콤 AIDC통합추진단 부사장이 21일 오후 서울 강남구 삼성동 한국통신사업자연합회(KTOA)에서 열린 '제12차 AI 미래가치 포럼'에서 AIDC 정책 지원을 요구했다. 한국이 글로벌 인공지능(AI) 데이터센터 유치 경쟁에서 우위를 확보하기 위해 투자세액공제 대상을 확대하고 전력 관련 규제 부담을 줄여야 한다는 제언이 나왔다. 안정적인 전력 공급과 반도체 산업 경쟁력을 갖춘 만큼, 해외 빅테크의 투자 수요를 적극 유치할 수 있도록 정부 제도적 지원이 필요하다는 주장이다. 이영탁 SK텔레콤 AIDC통합추진단 부사장은 21일 서울 강남구 삼성동 한국통신사업자연합회(KTOA)에서 열린 '제12차 AI 미래가치 포럼'에서 이같이 밝혔다. 이 부사장은 한국이 안정적인 전력계통과 지리적 위치, 해저케이블 인프라, 반도체 산업 기반 등을 갖춰 AI 데이터센터 유치에 유리한 조건을 확보했다고 평가했다. 일본은 전력 공급 제약과 지진 위험, 동남아시아는 AI 산업 생태계 부족, 호주는 주요 AI 수요지와의 접근성에서 한계가 있다는 판단에서다. 그는 “외국 빅테크의 AI 데이터센터를 유치할 수 있는 골든타임이 와 있다”며 “지금 기회를 놓치면 글로벌 빅테크들이 다시 일본, 호주, 동남아로 갈 수 있다”고 말했다. 이 부사장은 AI 데이터센터의 경제적 파급효과를 강조하며 제도적 지원의 필요성을 강조했다. 국회입법조사처 분석에 따르면 105㎿급 AI 데이터센터의 생산유발효과는 3조5000억원, 부가가치 창출 효과는 1조3000억원으로 추산됐다. AI 데이터센터 구축이 반도체뿐 아니라 전력·냉각·공조 등 연관 산업의 성장과 지역경제 활성화에도 기여할 수 있다는 설명이다. 이 부사장은 이러한 경제적 효과를 확대하기 위해 먼저 '투자세액공제 적용 범위'를 개선해야 한다고 제언했다. 정부가 AI 데이터센터를 국가전략기술 사업화시설에 포함해 15%의 투자세액공제를 도입했지만, 현행 제도에서는 코로케이션(임대) 방식의 데이터센터가 혜택을 받기 어렵다는 지적이다. 조세특례제한법상 임대용 자산은 투자세액공제 대상에서 제외돼 있어 시설의 임대 여부에 따라 공제 적용이 제한될 수 있다. 그는 “AI 데이터센터는 자가 소비가 아니라 지능을 생산해 외부에 제공하는 시설”이라며 코로케이션 방식에도 일정 수준의 세액공제를 적용하는 방안을 검토해야 한다고 설명했다. 전력계통 안정성을 위한 '그리드코드(Grid Code)' 도입에 대해서도 합리적인 규제 수준을 주문했다. 그리드코드는 대규모 전력 사용 시설의 전력망 연결과 운영에 필요한 기술 기준이다. 전력 사용량의 급격한 변동에 대응하기 위해 에너지저장장치(ESS) 등의 설치 의무가 과도해지면 사업자의 투자비와 부지 확보 부담이 커질 수 있다는 설명이다. 이 부사장은 “전력계통의 안정성을 위해 그리드코드는 반드시 필요하다”면서도 “너무 과도해서 빅테크 투자를 유치하는 데 장애가 된다면 힘들지 않겠느냐”고 말했다. 이어 정부와 민간 사업자, 전문가가 협의를 통해 전력망 안정성과 투자 여건을 모두 고려한 기준을 마련해야 한다고 강조했다. 남궁경 기자 nkk@etnews.com"
+    },
+    {
+      "s": "포쓰저널",
+      "t": "[국감] AI 데이터센터에 전력망 규제 복병…투자 속도 꺾이나",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YNTBmS1RRUnk1aWpibWFUZ0dGWV9sWGNXaVpTUUF1S3phc2pMdzdhRHNmaEkwYjhMNk1PYUNPeVo5eXB4WlZjOTBjcjBPVWpiNEp4ZHkzY0c5VnBWUWJHNGZNRS0?oc=5",
+      "m": "10. 21. AM 08:15",
+      "ts": 1792570546000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "정보통신신문",
@@ -43,16 +80,6 @@
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44a2RmS0l1LWM0WXFXZWVsUUxGbEd5LXBUQjRDbUZ0Wm5UakFtdlVqVS10cnNWOGJ2cGFtMm0yTHVwMHVLZ1VXb0dJU0ptSGZCTXlaZkxkVVVBLXFIMXhxY0ZHYVcwMnZG0gFsQVVfeXFMUEwyYkRzdXpIX0lsWXZJbWZ3eU9nNm9aRDd1dlhiblctTjRacGpsVDFwekI2MFlhTmtfV0FBRGZHcTk3aVpnOGhGY05lcWt1Y1JoMUp2eUVlRXZNU0c3OG45d0dIcFdPc1EtQklz?oc=5",
       "m": "10. 21. AM 07:20",
       "ts": 1792567235000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "Chosunbiz",
-      "t": "韓 증시 급락할 때 대만은 신고가… ‘희비’ 가른건 AI·주주환원 정책 - 조선비즈",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS1ZYR0lzTG9wTGNXV2d4VjN5RTdONDNJQ0pJVjF0QXZGQmRWTWNCUmg2ZzVweEZyX25ac1MtekJONlYwd2o5aTBkT3dDeDE2MnlYZTNmR08xNmltM1F6dkRyeFdJMldBSGktN2hZOXlOd3hWS21tY19ndEFMRDlWVWM1VUg1cVVN0gGcAUFVX3lxTE9nTmRTRGtKVGVEdFpvdmdSMGNDTjBWdTFJaHFTMmpqWWdIZmdWLW5zR3dORF9DMnV4aWFkQnB4Z0VvLU0tejZkSVZSakZJSmNOdFJ3Z2ZhUWZwajFKNVFESmxnSVljYzN5a3FrZm5UVC1tRGFNZmRSX29SV0JicVppNThLeG1QNG1JZVdYNzNBSGo4ZHFMMWhGcXgxRQ?oc=5",
-      "m": "10. 21. AM 06:52",
-      "ts": 1792565520000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -74,15 +101,6 @@
       "ts": 1792551600000,
       "_policy": true,
       "fullText": "Google News"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "DayOne Said to Weigh Options for IPO After Data Center Rout",
-      "d": "DayOne Data Centers Ltd. is weighing options for its US initial public offering, including a potential delay or size cut, as volatility around data centers increases, according to people familiar with the matter.",
-      "u": "https://www.bloomberg.com/news/articles/2026-10-21/dayone-is-said-to-weigh-options-for-us-ipo-amid-data-center-rout",
-      "m": "10. 21. AM 01:44",
-      "ts": 1792547097000,
-      "fullText": ""
     },
     {
       "s": "한양경제",
@@ -125,12 +143,32 @@
       "fullText": "Google News"
     },
     {
+      "s": "매일경제",
+      "t": "지으면 안 남고 멈추면 경제가 망한다…‘10조’ 베팅 美데이터센터의 그늘",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBaRmh6dGg4bzgxd0N4ZjZGbkdqNlZNUnp6cFEtN1dUQ1piS29lYkpmZGpCOVQwSEtCMGpFTkJQVERHN1FSUEE?oc=5",
+      "m": "10. 19. PM 01:05",
+      "ts": 1792415104000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "TradingView",
       "t": "\"美 데이터센터 사업 65%, 건설 장담 못해\"",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SVkVxX092dnlucjZkVFJQdDRXRlNwNTUyMmFkWVdMaUo4czhvZlZHQS0xNHRXcDlPcm5ld2w2cHpKTGZMR1lLOHFjVEJuczNUaUxkSDcxbHc0TUJHbFp2OGVPRDlXQzRv?oc=5",
       "m": "10. 19. AM 08:41",
       "ts": 1792399299000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "데일리머니",
+      "t": "AI 안전 전쟁의 개막 -&gt; 규제와 속도 사이에 선 빅테크 &gt; 앤트로픽 \"위험 AI 막아야\" =&gt; 美 의회 규제 논의 &gt; 본격화 = 모델 지식 훔치는 전쟁 &gt;&gt; AI 기술 탈취가 새 안보 위협이다",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yZzVXVVpDU2JtM0RrRjE1YTFQUklqaWZPRE5lSHg3b1VZZ2FnYm5RVnJjRDFwa1cyYVZQUkZRT1hLY0tUV2tyRndTeUpHR0JjMi1Xc0E4eGN5QlBJbTFvcTNxUERHOUcyZWJxcmhpVFh3TTQ?oc=5",
+      "m": "10. 19. AM 07:59",
+      "ts": 1792396799000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -214,26 +252,6 @@
       "fullText": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models 5x faster, accurate and customizable Nemotron 3.5 Super VL expands NVIDIA’s open models for always-on agents, with Nemotron 3.5 Bolt bringing agentic intelligence to local NVIDIA systems. October 15, 2026 by Kari Briski 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized for intelligence per GB for fast conversational agents. Super VL and Bolt 74B-A9B are available now, with Bolt E4B coming Oct. 23. The three open models together cover the full range of agent deployments, from large enterprise servers down to edge devices and local hardware. Any organization that wants to run agents on NVIDIA infrastructure now has an open, optimized model for their tier, without having to choose between capability and deployability. Super VL and Bolt join the Nemotron family alongside Lightning and Ultra. Lightning, released in August, handles high-throughput workloads; Ultra handles the hardest reasoning tasks; and Bolt brings intelligence to the edge. Nemotron 3.5 Super VL: Frontier Accuracy at One-Fifth the Size Super VL, built in collaboration with the Nemotron Coalition , delivers leading accuracy on multimodal agentic tasks — instruction following, tool use, multistep business workflows, and visual understanding — comparable with NVIDIA’s largest reasoning model at roughly one-fifth the parameter count. Nemotron 3.5 Super VL delivers frontier-level intelligence in its class for high-volume agentic workflows. As the fastest open agentic model in its class — 5x faster than the ne"
     },
     {
-      "s": "파이낸셜뉴스",
-      "t": "글로벌 디지털 경쟁력 평가 하락...'IT 강국'韓, 통신정책 개편 시급",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnN190MWNISUNwZk1PNGwyZndzSWNHb1VMeHplUXBQU3A3YnhEbHZjNjRkWWZLdDdOUEZZRkt0b0tWUnVHdmxDdTZxTWRJODdPMF9uRnFpUnVWQQ?oc=5",
-      "m": "10. 15. AM 09:18",
-      "ts": 1792055936000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "머니투데이",
-      "t": "[알림]AI DC부터 OT보안까지…'AI 인프라 프런티어' 29일 막 오른다 - 머니투데이",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BbzRvTHJWamowczJmVWdlYnJXdGJiclVicUxKeTVRTHRJc3I3blpDLWNKbkdPbVc3UjNTOTJESFczel8yS3ludnJRRmFsaVh4WG9TWk5mOGtzRWd5UHFHMWpaWFY2Qk3SAWxBVV95cUxNQ0VsbWdMczZFel9wMWU3WU1lTlpzOUJUNGJpYklxMXktYWFOdzRGZFpra3ZLWU9acjFkRnZSZVBjS2JvNHhSbXZ4UWpUZV9sdjZnM2pleHJQWjl0OXB0bHRBQkxxQjNmeUlJU1c?oc=5",
-      "m": "10. 13. PM 08:30",
-      "ts": 1791923400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "Calgary Roughnecks",
       "t": "토토 기록식 디시 : 새로운 아이디어와 접근법",
       "d": "",
@@ -254,22 +272,22 @@
       "fullText": "Google News"
     },
     {
+      "s": "서울경제",
+      "t": "중복상장 규제 넘은 디티에스 “AI 데이터센터 신사업 단계적 확장” [시그널]",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWeDNjY080WDNaSXYwTnZsMTUzTXRrc2EwSGp1TWtkbDMyRlNmaFl1NTFVd0lBVG03NTRoV1paWTVqTkc3c2tWb1dCRXBzZEpHYzdtX1VB?oc=5",
+      "m": "10. 08. AM 07:00",
+      "ts": 1791442800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "알파경제",
       "t": "알리바바, 스페인서 AI 인프라 구축 모색…현지 규제가 변수",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JT0hPN3RibWNKZk4tZHh6ejI2RnNROXh4V3VxdFU0SmxsbzhreVlpOGgxemFFUjRaLUZFeGVJaTE4TWVodHlha2hYdWV1eWc0US1WcUZyM09ieWJvSERqT2Iwd2l4WEhUVUtQWjBR?oc=5",
       "m": "10. 06. AM 07:00",
       "ts": 1791270000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "인사이트N파워",
-      "t": "한전, 리벨리온-TTA, 전력 AI 인프라 국산화 추진",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPQUdmS25FSmNzM2tPNjJFSjZSMFJZM05VSENUNzdYalo2aHpXaWtlNS1uTlpaWjhDUUkyRjJqNGYtNnhYa09Gcy1KNklqVUliY1R5VWlDM0xDTUZRb3ZEUFdya0lIZw?oc=5",
-      "m": "10. 06. AM 03:36",
-      "ts": 1791257785000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -284,32 +302,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "수소신문",
-      "t": "'전기국가' 속도내는 정부...AI·재생에너지·물 인프라 구축 '총력전'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PMDMyTFVrajB4NFRBSWprX0ZMQ09OaTl5VFlON3MwT2l5a180ZGdkQmpjT3BlVjBDQlJzczFHZTdxVGN6aS0wZ00za2ZCeUZJaHRnaUVUaXdpczQwR1ZWbVRWT2QyWVNfY1BIRVRQaGrSAXRBVV95cUxOMjNIcDg3cllsdHpTc1pyUTNBVFM3R2xqOExISkpTTE56N01QOFlrRXluT2FlbUpad3dkeDVZQ2wwYlVUSUx4anRHbjJIeWlDMjVoZ0c3NmZDV3dDcnpqZjdLOWJqc1JsWGFFUnRNOHBhVWpyOQ?oc=5",
-      "m": "10. 01. AM 07:00",
-      "ts": 1790838000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "법무법인 세종",
       "t": "법무법인(유) 세종 ‘AIDC 인프라센터’ 출범, AI·반도체·데이터센터 3대 메가프로젝트 통합 대응",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TeXE4Nmw0ZUZ6bVlYWGZHd2FOUXJ0aXQzUkRWZ2J1WTNLM2NCdlhMb3RMOVAtSWVWWUZuS2ZzX1h0TGd0YVN5VHlxWDJXbjdKRUFaZEI5Wk4?oc=5",
       "m": "10. 01. AM 07:00",
       "ts": 1790838000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "전자신문",
-      "t": "[AI 인프라 투자 패러다임 전환]〈상〉통신 투자, '망 구축'에서 'AI 인프라' 전반으로 새 판 짜야",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAySjc2MU94Y0hha2ZLM1doRDNDOHVlMHVSUlBBa1RCMzhzLTFoMTBXeGwwLVFqRlJXdmRTdEtMbWtGeGRMZE5SV0diUjN1QQ?oc=5",
-      "m": "09. 27. AM 07:00",
-      "ts": 1790492400000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -335,16 +333,6 @@
     },
     {
       "s": "지디넷코리아",
-      "t": "오라클, 스타게이트 데이터센터에 '불가항력' 통지…전력 확보 차질",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84NzBUWkJ5ZklnTk1aY2ZjWC1RYkdrMnAyY2I0Y1FLUGRCZGpjUlpYWWUxOEVycjE3WW4yQV8yTndKSHAwaFFLSGI3R2Y5WXBJU0thVHRR?oc=5",
-      "m": "09. 25. AM 07:00",
-      "ts": 1790319600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
       "t": "[AI 고속도로] AI 데이터센터 키우던 텍사스도 제동…美 규제 확산",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWdW9lbUdaTlFtMWdjdWlJOVJub2JqS1I0Y1NwdXpTYWlFWmpZZmdNbzB5elQ2akMtNmE5RXRPWVdOeE9WQ2ZqNGFJMkZKc2s1cm5CWkxB?oc=5",
@@ -354,22 +342,32 @@
       "fullText": "Google News"
     },
     {
-      "s": "전자신문",
-      "t": "AI 규제·속도조절 반대하는 트럼프, 관련주·인프라 투자 확대",
+      "s": "정보통신신문",
+      "t": "AX·6G 시대, 통신망이 국가 AI 인프라로…투자·규제 전환 시급",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XY1VPTXV6YjYxZ0k4TXE1M09ZWkk3aFlrZDZvM1pqRmI5aXBqWjZaaDZWM1dJdElaRl9ISDQ2MHowQUNXQUVzMnA0dkJKUQ?oc=5",
-      "m": "09. 21. AM 07:00",
-      "ts": 1789974000000,
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lb1ZSVU0xbjl4VElmcWNMTF9NS0N3YkdVd1VscTBnM2xyQ29nUUVaYzA3RDRMQ3ZVS290YXVWOWtUbmZfUzJUckVzdHEwN2FGbnFHRUpvb2l6U01iNGVqY3BzWjJFdWpN0gFsQVVfeXFMTWFnd1k0U1BiYzdNbThLNXVReEZJZnF6Z1VsSHpKbG1nV1ZzbUgwd25XUnU4SG9lOTFKb0g3Ul81eWZCTGNSVkJJTTJKcEgxSFVvNDlTOU5KQl9SZ3ZuYkh6OWUzWHZBNEczQ1Vh?oc=5",
+      "m": "09. 17. AM 07:00",
+      "ts": 1789628400000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "더구루",
-      "t": "블룸버그 \"AI 규제 논의에도 투자·IPO 그대로…반도체주 끄떡없다\"",
+      "s": "파이낸셜뉴스",
+      "t": "AI시대 통신망은 AI인프라...통신정책, 투자유인책으로 전환해야",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tX2oyMDNtTzJYMkY5WlZXdEJyeDRZRFByNnB0X1ZGWHZrbEFYZnAwS0tzN3Y0bUt6LUhtWDNXTUh3WE1kbnkzTEkwRHhvVldRVEc4eXp6Rm03TGR1X0hsZ1VDNA?oc=5",
-      "m": "09. 16. AM 07:00",
-      "ts": 1789542000000,
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIeDlIems0elhGWnVfWHBPTndmX3Zkak5JckpDai1GLVZQLUgydUFndlhGSURob2ItaFU5NFRpZnJ6cEkzSlpmQjNnMXp3SEVhZnV6VjNock1kQQ?oc=5",
+      "m": "09. 17. AM 07:00",
+      "ts": 1789628400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "백세시대",
+      "t": "신한카드, 자율 의사결정 AI 인프라 구축…정책·규정 실시간 반영",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xRDlTTW9LcEJFcGljYlVvVkNXb3Rfa1NueU1CRmRLejVxRUFQcGFHWWRJSUNEbTB2RjJhMThDX0JmcDFSQnFnbnRvS0JEeDRDWmFSRnpQTzNjT3QyVHZuNUtOZVV3d2tiN0RZ?oc=5",
+      "m": "09. 09. AM 07:00",
+      "ts": 1788937200000,
       "_policy": true,
       "fullText": "Google News"
     },

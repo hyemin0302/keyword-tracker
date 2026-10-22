@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T07:02:21.587Z",
+  "updatedAt": "2026-10-22T12:54:35.194Z",
   "data": {
     "336260": {
       "name": "두산퓨얼셀",
@@ -48,15 +48,15 @@
         "2026-10-21",
         "2026-10-22"
       ],
-      "volume": 502214,
+      "volume": 541677,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "2조 1,908억",
+        "marketCap": "2조 1,777억",
         "per": "N/A",
-        "pbr": "9.14배",
-        "cnsPer": "-29.84배",
+        "pbr": "9.08배",
+        "cnsPer": "-29.66배",
         "divYield": "N/A",
         "foreignRatio": "15.79%",
         "high52w": "108,900",
@@ -73,6 +73,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261022",
+            "foreigner": -40,
+            "institution": -9641,
+            "individual": 9181,
+            "foreignRatio": "15.79%"
+          },
           {
             "date": "20261021",
             "foreigner": 101036,
@@ -135,22 +142,15 @@
             "institution": -90965,
             "individual": 21628,
             "foreignRatio": "15.08%"
-          },
-          {
-            "date": "20261007",
-            "foreigner": -101968,
-            "institution": 1439,
-            "individual": 99981,
-            "foreignRatio": "14.95%"
           }
         ],
         "sum5d": {
-          "foreigner": 96207,
-          "institution": -212483
+          "foreigner": -11931,
+          "institution": 51308
         },
         "sum10d": {
-          "foreigner": 310400,
-          "institution": -666568
+          "foreigner": 412328,
+          "institution": -677648
         }
       },
       "consensus": null
@@ -220,71 +220,6 @@
       "investorFlow": null,
       "consensus": null
     },
-    "LIN": {
-      "name": "Linde plc",
-      "px": 500.57,
-      "dayChange": -0.26,
-      "periodChange": 7.67,
-      "prices": [
-        464.91,
-        469.72,
-        468.14,
-        469.89,
-        472.04,
-        473.37,
-        474.65,
-        469.45,
-        479.48,
-        482.38,
-        489.95,
-        483.98,
-        481.7,
-        483.73,
-        487.35,
-        492.11,
-        492.7,
-        493.22,
-        498.43,
-        503.44,
-        501.89,
-        500.57
-      ],
-      "dates": [
-        "2026-09-22",
-        "2026-09-23",
-        "2026-09-24",
-        "2026-09-25",
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21"
-      ],
-      "volume": 1403022,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 548.2,
-        "low52w": 387.78,
-        "volume": 1403022
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "APD": {
       "name": "Air Products and Chemicals, Inc",
       "px": 302.66,
@@ -350,6 +285,71 @@
       "investorFlow": null,
       "consensus": null
     },
+    "LIN": {
+      "name": "Linde plc",
+      "px": 500.57,
+      "dayChange": -0.26,
+      "periodChange": 7.67,
+      "prices": [
+        464.91,
+        469.72,
+        468.14,
+        469.89,
+        472.04,
+        473.37,
+        474.65,
+        469.45,
+        479.48,
+        482.38,
+        489.95,
+        483.98,
+        481.7,
+        483.73,
+        487.35,
+        492.11,
+        492.7,
+        493.22,
+        498.43,
+        503.44,
+        501.89,
+        500.57
+      ],
+      "dates": [
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ],
+      "volume": 1403022,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 548.2,
+        "low52w": 387.78,
+        "volume": 1403022
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "034020": {
       "name": "두산에너빌리티",
       "px": 61600,
@@ -397,15 +397,15 @@
         "2026-10-21",
         "2026-10-22"
       ],
-      "volume": 1497599,
+      "volume": 1616276,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "39조 4,586억",
-        "per": "217.67배",
-        "pbr": "4.82배",
-        "cnsPer": "113.65배",
+        "marketCap": "39조 2,664억",
+        "per": "216.61배",
+        "pbr": "4.80배",
+        "cnsPer": "113.10배",
         "divYield": "N/A",
         "foreignRatio": "22.26%",
         "high52w": "139,200",
@@ -422,6 +422,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261022",
+            "foreigner": 39982,
+            "institution": -48620,
+            "individual": 9423,
+            "foreignRatio": "22.27%"
+          },
           {
             "date": "20261021",
             "foreigner": 129688,
@@ -484,22 +491,15 @@
             "institution": 342722,
             "individual": 1171673,
             "foreignRatio": "22.21%"
-          },
-          {
-            "date": "20261007",
-            "foreigner": -484351,
-            "institution": -73547,
-            "individual": 561441,
-            "foreignRatio": "22.49%"
           }
         ],
         "sum5d": {
-          "foreigner": -13944,
-          "institution": -202497
+          "foreigner": 388516,
+          "institution": -585643
         },
         "sum10d": {
-          "foreigner": -2783164,
-          "institution": 92898
+          "foreigner": -2258831,
+          "institution": 117825
         }
       },
       "consensus": null

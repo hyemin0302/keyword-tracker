@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T13:49:34.386Z",
+  "updatedAt": "2026-10-24T17:10:31.288Z",
   "data": {
     "247540": {
       "name": "에코프로비엠",
@@ -308,6 +308,71 @@
       },
       "consensus": null
     },
+    "TSLA": {
+      "name": "테슬라",
+      "px": 372.22,
+      "dayChange": -0.63,
+      "periodChange": -1.51,
+      "prices": [
+        377.94,
+        372.11,
+        357.45,
+        352.84,
+        354.81,
+        354.11,
+        370.59,
+        378.73,
+        380.68,
+        377.81,
+        375,
+        382.7,
+        378.03,
+        375.23,
+        367.16,
+        362.44,
+        354.72,
+        368.06,
+        373.71,
+        386.47,
+        374.58,
+        372.22
+      ],
+      "dates": [
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "volume": 34615357,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 498.83,
+        "low52w": 297.38,
+        "volume": 34615357
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "GM": {
       "name": "GM",
       "px": 75.92,
@@ -373,48 +438,42 @@
       "investorFlow": null,
       "consensus": null
     },
-    "TSLA": {
-      "name": "테슬라",
-      "px": 372.22,
-      "dayChange": -0.63,
-      "periodChange": -1.51,
+    "006400": {
+      "name": "삼성SDI",
+      "px": 490500,
+      "dayChange": -4.2,
+      "periodChange": -5.85,
       "prices": [
-        377.94,
-        372.11,
-        357.45,
-        352.84,
-        354.81,
-        354.11,
-        370.59,
-        378.73,
-        380.68,
-        377.81,
-        375,
-        382.7,
-        378.03,
-        375.23,
-        367.16,
-        362.44,
-        354.72,
-        368.06,
-        373.71,
-        386.47,
-        374.58,
-        372.22
+        521000,
+        533000,
+        511000,
+        515000,
+        517000,
+        529000,
+        575000,
+        562000,
+        569000,
+        561000,
+        560000,
+        591000,
+        540000,
+        530000,
+        592000,
+        556000,
+        554000,
+        512000,
+        490500
       ],
       "dates": [
-        "2026-09-24",
-        "2026-09-25",
+        "2026-09-23",
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
         "2026-10-01",
         "2026-10-02",
-        "2026-10-05",
         "2026-10-06",
         "2026-10-07",
         "2026-10-08",
-        "2026-10-09",
         "2026-10-12",
         "2026-10-13",
         "2026-10-14",
@@ -426,16 +485,111 @@
         "2026-10-22",
         "2026-10-23"
       ],
-      "volume": 34615357,
-      "currency": "USD",
+      "volume": 679976,
+      "currency": "KRW",
       "state": "CLOSED",
-      "market": "US",
+      "market": "KR",
       "fundamentals": {
-        "high52w": 498.83,
-        "low52w": 297.38,
-        "volume": 34615357
+        "marketCap": "39조 437억",
+        "per": "1,057.86배",
+        "pbr": "1.57배",
+        "cnsPer": "40.45배",
+        "divYield": "N/A",
+        "foreignRatio": "24.90%",
+        "high52w": "820,000",
+        "low52w": "258,000",
+        "consensus": {
+          "targetMean": 746947,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "3.95",
+          "earningsDate": null,
+          "source": "naver"
+        }
       },
-      "investorFlow": null,
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20261023",
+            "foreigner": -68888,
+            "institution": -40511,
+            "individual": 111578,
+            "foreignRatio": "24.81%"
+          },
+          {
+            "date": "20261022",
+            "foreigner": -83497,
+            "institution": -114905,
+            "individual": 199671,
+            "foreignRatio": "24.90%"
+          },
+          {
+            "date": "20261021",
+            "foreigner": -139079,
+            "institution": -24260,
+            "individual": 172360,
+            "foreignRatio": "25.01%"
+          },
+          {
+            "date": "20261020",
+            "foreigner": -64724,
+            "institution": -39216,
+            "individual": 104033,
+            "foreignRatio": "25.26%"
+          },
+          {
+            "date": "20261019",
+            "foreigner": 189884,
+            "institution": 201650,
+            "individual": -400462,
+            "foreignRatio": "25.40%"
+          },
+          {
+            "date": "20261016",
+            "foreigner": -89492,
+            "institution": -41340,
+            "individual": 124444,
+            "foreignRatio": "25.01%"
+          },
+          {
+            "date": "20261015",
+            "foreigner": -329269,
+            "institution": -5434,
+            "individual": 328817,
+            "foreignRatio": "25.08%"
+          },
+          {
+            "date": "20261014",
+            "foreigner": 42949,
+            "institution": 160741,
+            "individual": -212577,
+            "foreignRatio": "25.57%"
+          },
+          {
+            "date": "20261013",
+            "foreigner": -158392,
+            "institution": 54093,
+            "individual": 96765,
+            "foreignRatio": "25.44%"
+          },
+          {
+            "date": "20261012",
+            "foreigner": -93904,
+            "institution": 35194,
+            "individual": 56301,
+            "foreignRatio": "25.67%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": -166304,
+          "institution": -17242
+        },
+        "sum10d": {
+          "foreigner": -794412,
+          "institution": 186012
+        }
+      },
       "consensus": null
     },
     "051910": {
@@ -588,160 +742,6 @@
         "sum10d": {
           "foreigner": -182827,
           "institution": 4260
-        }
-      },
-      "consensus": null
-    },
-    "006400": {
-      "name": "삼성SDI",
-      "px": 490500,
-      "dayChange": -4.2,
-      "periodChange": -5.85,
-      "prices": [
-        521000,
-        533000,
-        511000,
-        515000,
-        517000,
-        529000,
-        575000,
-        562000,
-        569000,
-        561000,
-        560000,
-        591000,
-        540000,
-        530000,
-        592000,
-        556000,
-        554000,
-        512000,
-        490500
-      ],
-      "dates": [
-        "2026-09-23",
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23"
-      ],
-      "volume": 665714,
-      "currency": "KRW",
-      "state": "CLOSED",
-      "market": "KR",
-      "fundamentals": {
-        "marketCap": "39조 437억",
-        "per": "1,057.86배",
-        "pbr": "1.57배",
-        "cnsPer": "40.45배",
-        "divYield": "N/A",
-        "foreignRatio": "24.90%",
-        "high52w": "820,000",
-        "low52w": "258,000",
-        "consensus": {
-          "targetMean": 746947,
-          "targetHigh": null,
-          "targetLow": null,
-          "analysts": null,
-          "recommendation": "3.95",
-          "earningsDate": null,
-          "source": "naver"
-        }
-      },
-      "investorFlow": {
-        "items": [
-          {
-            "date": "20261023",
-            "foreigner": -68888,
-            "institution": -40511,
-            "individual": 111578,
-            "foreignRatio": "24.81%"
-          },
-          {
-            "date": "20261022",
-            "foreigner": -83497,
-            "institution": -114905,
-            "individual": 199671,
-            "foreignRatio": "24.90%"
-          },
-          {
-            "date": "20261021",
-            "foreigner": -139079,
-            "institution": -24260,
-            "individual": 172360,
-            "foreignRatio": "25.01%"
-          },
-          {
-            "date": "20261020",
-            "foreigner": -64724,
-            "institution": -39216,
-            "individual": 104033,
-            "foreignRatio": "25.26%"
-          },
-          {
-            "date": "20261019",
-            "foreigner": 189884,
-            "institution": 201650,
-            "individual": -400462,
-            "foreignRatio": "25.40%"
-          },
-          {
-            "date": "20261016",
-            "foreigner": -89492,
-            "institution": -41340,
-            "individual": 124444,
-            "foreignRatio": "25.01%"
-          },
-          {
-            "date": "20261015",
-            "foreigner": -329269,
-            "institution": -5434,
-            "individual": 328817,
-            "foreignRatio": "25.08%"
-          },
-          {
-            "date": "20261014",
-            "foreigner": 42949,
-            "institution": 160741,
-            "individual": -212577,
-            "foreignRatio": "25.57%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -158392,
-            "institution": 54093,
-            "individual": 96765,
-            "foreignRatio": "25.44%"
-          },
-          {
-            "date": "20261012",
-            "foreigner": -93904,
-            "institution": 35194,
-            "individual": 56301,
-            "foreignRatio": "25.67%"
-          }
-        ],
-        "sum5d": {
-          "foreigner": -166304,
-          "institution": -17242
-        },
-        "sum10d": {
-          "foreigner": -794412,
-          "institution": 186012
         }
       },
       "consensus": null

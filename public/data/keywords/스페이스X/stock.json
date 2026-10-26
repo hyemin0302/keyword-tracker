@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T05:49:48.892Z",
+  "updatedAt": "2026-10-26T12:10:26.633Z",
   "data": {
     "274090": {
       "name": "켄코아에어로스페이스",
@@ -50,9 +50,9 @@
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,419억",
+        "marketCap": "1,393억",
         "per": "N/A",
-        "pbr": "0.82배",
+        "pbr": "0.80배",
         "cnsPer": "N/A",
         "divYield": "N/A",
         "foreignRatio": "0.03%",
@@ -62,6 +62,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261026",
+            "foreigner": -12950,
+            "institution": -29087,
+            "individual": 41547,
+            "foreignRatio": "0.00%"
+          },
           {
             "date": "20261023",
             "foreigner": -83728,
@@ -124,89 +131,17 @@
             "institution": -551,
             "individual": -25408,
             "foreignRatio": "1.75%"
-          },
-          {
-            "date": "20261012",
-            "foreigner": 33298,
-            "institution": -971,
-            "individual": -30246,
-            "foreignRatio": "1.53%"
           }
         ],
         "sum5d": {
-          "foreigner": -319456,
-          "institution": -25271
+          "foreigner": -150733,
+          "institution": -59791
         },
         "sum10d": {
-          "foreigner": -180402,
-          "institution": -22283
+          "foreigner": -226650,
+          "institution": -50399
         }
       },
-      "consensus": null
-    },
-    "TSLA": {
-      "name": "테슬라",
-      "px": 372.22,
-      "dayChange": -0.63,
-      "periodChange": -1.51,
-      "prices": [
-        377.94,
-        372.11,
-        357.45,
-        352.84,
-        354.81,
-        354.11,
-        370.59,
-        378.73,
-        380.68,
-        377.81,
-        375,
-        382.7,
-        378.03,
-        375.23,
-        367.16,
-        362.44,
-        354.72,
-        368.06,
-        373.71,
-        386.47,
-        374.58,
-        372.22
-      ],
-      "dates": [
-        "2026-09-24",
-        "2026-09-25",
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23"
-      ],
-      "volume": 34762967,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 498.83,
-        "low52w": 297.38,
-        "volume": 34762967
-      },
-      "investorFlow": null,
       "consensus": null
     },
     "RKLB": {
@@ -274,41 +209,48 @@
       "investorFlow": null,
       "consensus": null
     },
-    "047810": {
-      "name": "한국항공우주",
-      "px": 99100,
-      "dayChange": -3.03,
-      "periodChange": -23.53,
+    "TSLA": {
+      "name": "테슬라",
+      "px": 372.22,
+      "dayChange": -0.63,
+      "periodChange": -1.51,
       "prices": [
-        129600,
-        127400,
-        126200,
-        127100,
-        133500,
-        129200,
-        121800,
-        121400,
-        115500,
-        112200,
-        111000,
-        105800,
-        108400,
-        116600,
-        109300,
-        109300,
-        105900,
-        102200,
-        99100
+        377.94,
+        372.11,
+        357.45,
+        352.84,
+        354.81,
+        354.11,
+        370.59,
+        378.73,
+        380.68,
+        377.81,
+        375,
+        382.7,
+        378.03,
+        375.23,
+        367.16,
+        362.44,
+        354.72,
+        368.06,
+        373.71,
+        386.47,
+        374.58,
+        372.22
       ],
       "dates": [
+        "2026-09-24",
+        "2026-09-25",
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
         "2026-10-01",
         "2026-10-02",
+        "2026-10-05",
         "2026-10-06",
         "2026-10-07",
         "2026-10-08",
+        "2026-10-09",
         "2026-10-12",
         "2026-10-13",
         "2026-10-14",
@@ -318,121 +260,25 @@
         "2026-10-20",
         "2026-10-21",
         "2026-10-22",
-        "2026-10-23",
-        "2026-10-26"
+        "2026-10-23"
       ],
-      "volume": 283643,
-      "currency": "KRW",
+      "volume": 34762967,
+      "currency": "USD",
       "state": "CLOSED",
-      "market": "KR",
+      "market": "US",
       "fundamentals": {
-        "marketCap": "9조 6,500억",
-        "per": "54.43배",
-        "pbr": "5.08배",
-        "cnsPer": "42.58배",
-        "divYield": "0.51%",
-        "foreignRatio": "23.83%",
-        "high52w": "215,500",
-        "low52w": "95,100",
-        "consensus": {
-          "targetMean": 175950,
-          "targetHigh": null,
-          "targetLow": null,
-          "analysts": null,
-          "recommendation": "3.95",
-          "earningsDate": null,
-          "source": "naver"
-        }
+        "high52w": 498.83,
+        "low52w": 297.38,
+        "volume": 34762967
       },
-      "investorFlow": {
-        "items": [
-          {
-            "date": "20261023",
-            "foreigner": 40255,
-            "institution": -9325,
-            "individual": -32843,
-            "foreignRatio": "23.83%"
-          },
-          {
-            "date": "20261022",
-            "foreigner": 52913,
-            "institution": -43156,
-            "individual": -9768,
-            "foreignRatio": "23.76%"
-          },
-          {
-            "date": "20261021",
-            "foreigner": -6012,
-            "institution": -13095,
-            "individual": 18862,
-            "foreignRatio": "23.70%"
-          },
-          {
-            "date": "20261020",
-            "foreigner": -3537,
-            "institution": -16000,
-            "individual": 19363,
-            "foreignRatio": "23.69%"
-          },
-          {
-            "date": "20261019",
-            "foreigner": 8103,
-            "institution": 43777,
-            "individual": -51288,
-            "foreignRatio": "23.72%"
-          },
-          {
-            "date": "20261016",
-            "foreigner": -38583,
-            "institution": 11409,
-            "individual": 28037,
-            "foreignRatio": "23.61%"
-          },
-          {
-            "date": "20261015",
-            "foreigner": -3962,
-            "institution": 105159,
-            "individual": -101021,
-            "foreignRatio": "23.72%"
-          },
-          {
-            "date": "20261014",
-            "foreigner": 23751,
-            "institution": 7619,
-            "individual": -30919,
-            "foreignRatio": "23.72%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": 86392,
-            "institution": 59651,
-            "individual": -146792,
-            "foreignRatio": "23.78%"
-          },
-          {
-            "date": "20261012",
-            "foreigner": -10319,
-            "institution": 18978,
-            "individual": -9179,
-            "foreignRatio": "23.64%"
-          }
-        ],
-        "sum5d": {
-          "foreigner": 91722,
-          "institution": -37799
-        },
-        "sum10d": {
-          "foreigner": 149001,
-          "institution": 165017
-        }
-      },
+      "investorFlow": null,
       "consensus": null
     },
     "012450": {
       "name": "한화에어로스페이스",
-      "px": 761000,
-      "dayChange": -3.91,
-      "periodChange": -26.4,
+      "px": 760000,
+      "dayChange": -4.04,
+      "periodChange": -26.5,
       "prices": [
         1034000,
         1012000,
@@ -452,7 +298,7 @@
         814000,
         811000,
         792000,
-        761000
+        760000
       ],
       "dates": [
         "2026-09-28",
@@ -475,16 +321,16 @@
         "2026-10-23",
         "2026-10-26"
       ],
-      "volume": 106352,
+      "volume": 186461,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "39조 1,882억",
-        "per": "18.95배",
-        "pbr": "3.26배",
-        "cnsPer": "17.26배",
-        "divYield": "0.92%",
+        "marketCap": "38조 8,272억",
+        "per": "18.78배",
+        "pbr": "3.23배",
+        "cnsPer": "17.10배",
+        "divYield": "0.93%",
         "foreignRatio": "44.92%",
         "high52w": "1,713,000",
         "low52w": "739,500",
@@ -500,6 +346,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261026",
+            "foreigner": 17924,
+            "institution": -17809,
+            "individual": -302,
+            "foreignRatio": "44.96%"
+          },
           {
             "date": "20261023",
             "foreigner": 13164,
@@ -562,22 +415,169 @@
             "institution": 22664,
             "individual": -2698,
             "foreignRatio": "45.00%"
-          },
-          {
-            "date": "20261012",
-            "foreigner": -9088,
-            "institution": 18637,
-            "individual": -6611,
-            "foreignRatio": "45.04%"
           }
         ],
         "sum5d": {
-          "foreigner": -15836,
-          "institution": -30146
+          "foreigner": 17166,
+          "institution": -62372
         },
         "sum10d": {
-          "foreigner": -58172,
-          "institution": 64985
+          "foreigner": -31160,
+          "institution": 28539
+        }
+      },
+      "consensus": null
+    },
+    "047810": {
+      "name": "한국항공우주",
+      "px": 97800,
+      "dayChange": -4.3,
+      "periodChange": -24.54,
+      "prices": [
+        129600,
+        127400,
+        126200,
+        127100,
+        133500,
+        129200,
+        121800,
+        121400,
+        115500,
+        112200,
+        111000,
+        105800,
+        108400,
+        116600,
+        109300,
+        109300,
+        105900,
+        102200,
+        97800
+      ],
+      "dates": [
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-26"
+      ],
+      "volume": 430295,
+      "currency": "KRW",
+      "state": "CLOSED",
+      "market": "KR",
+      "fundamentals": {
+        "marketCap": "9조 4,551억",
+        "per": "53.33배",
+        "pbr": "4.98배",
+        "cnsPer": "41.72배",
+        "divYield": "0.52%",
+        "foreignRatio": "23.83%",
+        "high52w": "215,500",
+        "low52w": "95,100",
+        "consensus": {
+          "targetMean": 175950,
+          "targetHigh": null,
+          "targetLow": null,
+          "analysts": null,
+          "recommendation": "3.95",
+          "earningsDate": null,
+          "source": "naver"
+        }
+      },
+      "investorFlow": {
+        "items": [
+          {
+            "date": "20261026",
+            "foreigner": 99587,
+            "institution": -45514,
+            "individual": -54003,
+            "foreignRatio": "23.94%"
+          },
+          {
+            "date": "20261023",
+            "foreigner": 40255,
+            "institution": -9325,
+            "individual": -32843,
+            "foreignRatio": "23.83%"
+          },
+          {
+            "date": "20261022",
+            "foreigner": 52913,
+            "institution": -43156,
+            "individual": -9768,
+            "foreignRatio": "23.76%"
+          },
+          {
+            "date": "20261021",
+            "foreigner": -6012,
+            "institution": -13095,
+            "individual": 18862,
+            "foreignRatio": "23.70%"
+          },
+          {
+            "date": "20261020",
+            "foreigner": -3537,
+            "institution": -16000,
+            "individual": 19363,
+            "foreignRatio": "23.69%"
+          },
+          {
+            "date": "20261019",
+            "foreigner": 8103,
+            "institution": 43777,
+            "individual": -51288,
+            "foreignRatio": "23.72%"
+          },
+          {
+            "date": "20261016",
+            "foreigner": -38583,
+            "institution": 11409,
+            "individual": 28037,
+            "foreignRatio": "23.61%"
+          },
+          {
+            "date": "20261015",
+            "foreigner": -3962,
+            "institution": 105159,
+            "individual": -101021,
+            "foreignRatio": "23.72%"
+          },
+          {
+            "date": "20261014",
+            "foreigner": 23751,
+            "institution": 7619,
+            "individual": -30919,
+            "foreignRatio": "23.72%"
+          },
+          {
+            "date": "20261013",
+            "foreigner": 86392,
+            "institution": 59651,
+            "individual": -146792,
+            "foreignRatio": "23.78%"
+          }
+        ],
+        "sum5d": {
+          "foreigner": 183206,
+          "institution": -127090
+        },
+        "sum10d": {
+          "foreigner": 258907,
+          "institution": 100525
         }
       },
       "consensus": null
@@ -622,7 +622,7 @@
       -16.52,
       -19.46,
       -19.22,
-      -19.61
+      -20.4
     ],
     "sp500": [
       0,
@@ -646,71 +646,6 @@
     ]
   },
   "etfs": {
-    "UFO": {
-      "name": "Procure Space ETF",
-      "px": 39.86,
-      "dayChange": 1.12,
-      "periodChange": -8.2,
-      "prices": [
-        43.42,
-        43.55,
-        42.91,
-        42.42,
-        42.31,
-        41.95,
-        43.13,
-        43.56,
-        44.33,
-        43.04,
-        42.01,
-        41.98,
-        41.51,
-        40.74,
-        39.73,
-        40.01,
-        39.28,
-        39.45,
-        39.44,
-        40.64,
-        39.42,
-        39.86
-      ],
-      "dates": [
-        "2026-09-24",
-        "2026-09-25",
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23"
-      ],
-      "volume": 211608,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 68.212,
-        "low52w": 30.89,
-        "volume": 211608
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "ARKX": {
       "name": "ARK Space & Defense Innovation ",
       "px": 29.84,
@@ -772,6 +707,71 @@
         "high52w": 37.89,
         "low52w": 25.17,
         "volume": 312316
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "UFO": {
+      "name": "Procure Space ETF",
+      "px": 39.86,
+      "dayChange": 1.12,
+      "periodChange": -8.2,
+      "prices": [
+        43.42,
+        43.55,
+        42.91,
+        42.42,
+        42.31,
+        41.95,
+        43.13,
+        43.56,
+        44.33,
+        43.04,
+        42.01,
+        41.98,
+        41.51,
+        40.74,
+        39.73,
+        40.01,
+        39.28,
+        39.45,
+        39.44,
+        40.64,
+        39.42,
+        39.86
+      ],
+      "dates": [
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "volume": 211608,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 68.212,
+        "low52w": 30.89,
+        "volume": 211608
       },
       "investorFlow": null,
       "consensus": null

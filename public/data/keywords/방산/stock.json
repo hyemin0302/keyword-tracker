@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-10-27T07:17:29.557Z",
+  "updatedAt": "2026-10-27T13:30:56.924Z",
   "data": {
-    "LMT": {
-      "name": "록히드마틴",
-      "px": 635.2,
-      "dayChange": 5.13,
-      "periodChange": 22.6,
-      "prices": [
-        518.1,
-        512.21,
-        509.25,
-        505.5,
-        505.41,
-        506.63,
-        510.12,
-        499.22,
-        507.89,
-        509.59,
-        511.88,
-        504.02,
-        522.23,
-        532.64,
-        552.09,
-        548.23,
-        548.71,
-        551.51,
-        589.91,
-        604.18,
-        635.2
-      ],
-      "dates": [
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23",
-        "2026-10-26"
-      ],
-      "volume": 2653451,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 692,
-        "low52w": 437.25,
-        "volume": 2653451
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "RTX": {
       "name": "RTX",
       "px": 197.48,
@@ -127,6 +64,69 @@
       "investorFlow": null,
       "consensus": null
     },
+    "LMT": {
+      "name": "록히드마틴",
+      "px": 635.2,
+      "dayChange": 5.13,
+      "periodChange": 22.6,
+      "prices": [
+        518.1,
+        512.21,
+        509.25,
+        505.5,
+        505.41,
+        506.63,
+        510.12,
+        499.22,
+        507.89,
+        509.59,
+        511.88,
+        504.02,
+        522.23,
+        532.64,
+        552.09,
+        548.23,
+        548.71,
+        551.51,
+        589.91,
+        604.18,
+        635.2
+      ],
+      "dates": [
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-26"
+      ],
+      "volume": 2653451,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 692,
+        "low52w": 437.25,
+        "volume": 2653451
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "047810": {
       "name": "한국항공우주",
       "px": 98700,
@@ -176,15 +176,15 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 349974,
+      "volume": 383149,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "9조 6,208억",
-        "per": "54.26배",
-        "pbr": "5.06배",
-        "cnsPer": "42.22배",
+        "marketCap": "9조 6,598억",
+        "per": "54.48배",
+        "pbr": "5.08배",
+        "cnsPer": "42.39배",
         "divYield": "0.51%",
         "foreignRatio": "23.96%",
         "high52w": "215,500",
@@ -201,6 +201,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": 78156,
+            "institution": -28715,
+            "individual": -45102,
+            "foreignRatio": "24.04%"
+          },
           {
             "date": "20261026",
             "foreigner": 99587,
@@ -263,22 +270,15 @@
             "institution": 7619,
             "individual": -30919,
             "foreignRatio": "23.72%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": 86392,
-            "institution": 59651,
-            "individual": -146792,
-            "foreignRatio": "23.78%"
           }
         ],
         "sum5d": {
-          "foreigner": 183206,
-          "institution": -127090
+          "foreigner": 264899,
+          "institution": -139805
         },
         "sum10d": {
-          "foreigner": 258907,
-          "institution": 100525
+          "foreigner": 250671,
+          "institution": 12159
         }
       },
       "consensus": null
@@ -332,15 +332,15 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 139249,
+      "volume": 141057,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "39조 6,007억",
-        "per": "19.15배",
-        "pbr": "3.29배",
-        "cnsPer": "17.47배",
+        "marketCap": "39조 8,585억",
+        "per": "19.28배",
+        "pbr": "3.31배",
+        "cnsPer": "17.58배",
         "divYield": "0.91%",
         "foreignRatio": "44.96%",
         "high52w": "1,713,000",
@@ -357,6 +357,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": 20035,
+            "institution": -4982,
+            "individual": -14112,
+            "foreignRatio": "45.00%"
+          },
           {
             "date": "20261026",
             "foreigner": 17924,
@@ -419,22 +426,15 @@
             "institution": 10764,
             "individual": 6122,
             "foreignRatio": "44.94%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -19277,
-            "institution": 22664,
-            "individual": -2698,
-            "foreignRatio": "45.00%"
           }
         ],
         "sum5d": {
-          "foreigner": 17166,
-          "institution": -62372
+          "foreigner": 76097,
+          "institution": -42995
         },
         "sum10d": {
-          "foreigner": -31160,
-          "institution": 28539
+          "foreigner": 8152,
+          "institution": 893
         }
       },
       "consensus": null

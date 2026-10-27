@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T07:16:07.034Z",
+  "updatedAt": "2026-10-27T13:29:23.929Z",
   "data": {
     "240810": {
       "name": "240810",
@@ -52,10 +52,10 @@
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "4조 5,844억",
-        "per": "26.49배",
-        "pbr": "4.23배",
-        "cnsPer": "21.54배",
+        "marketCap": "4조 6,924억",
+        "per": "27.11배",
+        "pbr": "4.33배",
+        "cnsPer": "22.04배",
         "divYield": "0.21%",
         "foreignRatio": "15.29%",
         "high52w": "187,800",
@@ -72,6 +72,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": -3970,
+            "institution": 50889,
+            "individual": -46156,
+            "foreignRatio": "15.28%"
+          },
           {
             "date": "20261026",
             "foreigner": 99610,
@@ -134,22 +141,15 @@
             "institution": -147065,
             "individual": 223382,
             "foreignRatio": "14.91%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -22697,
-            "institution": 69219,
-            "individual": -46177,
-            "foreignRatio": "15.06%"
           }
         ],
         "sum5d": {
-          "foreigner": 43079,
-          "institution": -148377
+          "foreigner": 86043,
+          "institution": -155129
         },
         "sum10d": {
-          "foreigner": -239234,
-          "institution": -36552
+          "foreigner": -220507,
+          "institution": -54882
         }
       },
       "consensus": null
@@ -280,33 +280,33 @@
       "investorFlow": null,
       "consensus": null
     },
-    "LRCX": {
-      "name": "램리서치",
-      "px": 237.5,
-      "dayChange": 3.22,
-      "periodChange": -24.48,
+    "TSM": {
+      "name": "TSMC",
+      "px": 424.37,
+      "dayChange": 1.4,
+      "periodChange": -6.3,
       "prices": [
-        314.47,
-        323.86,
-        328.51,
-        340.1,
-        347.49,
-        345.8,
-        333.89,
-        329.51,
-        320.59,
-        318.84,
-        309.56,
-        301.11,
-        286.92,
-        277.46,
-        263.94,
-        272.2,
-        263.45,
-        260.81,
-        230.15,
-        230.1,
-        237.5
+        452.88,
+        456.94,
+        456.19,
+        459.2,
+        472.78,
+        485.8,
+        482.3,
+        472.2,
+        457.99,
+        453.31,
+        444.35,
+        445.12,
+        430,
+        422.25,
+        412.61,
+        420.22,
+        425.08,
+        431.89,
+        412.35,
+        418.51,
+        424.37
       ],
       "dates": [
         "2026-09-28",
@@ -331,14 +331,14 @@
         "2026-10-23",
         "2026-10-26"
       ],
-      "volume": 11585728,
+      "volume": 9505049,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 438.5,
-        "low52w": 135.5,
-        "volume": 11585728
+        "high52w": 487.47,
+        "low52w": 266.82,
+        "volume": 9505049
       },
       "investorFlow": null,
       "consensus": null
@@ -406,33 +406,33 @@
       "investorFlow": null,
       "consensus": null
     },
-    "TSM": {
-      "name": "TSMC",
-      "px": 424.37,
-      "dayChange": 1.4,
-      "periodChange": -6.3,
+    "LRCX": {
+      "name": "램리서치",
+      "px": 237.5,
+      "dayChange": 3.22,
+      "periodChange": -24.48,
       "prices": [
-        452.88,
-        456.94,
-        456.19,
-        459.2,
-        472.78,
-        485.8,
-        482.3,
-        472.2,
-        457.99,
-        453.31,
-        444.35,
-        445.12,
-        430,
-        422.25,
-        412.61,
-        420.22,
-        425.08,
-        431.89,
-        412.35,
-        418.51,
-        424.37
+        314.47,
+        323.86,
+        328.51,
+        340.1,
+        347.49,
+        345.8,
+        333.89,
+        329.51,
+        320.59,
+        318.84,
+        309.56,
+        301.11,
+        286.92,
+        277.46,
+        263.94,
+        272.2,
+        263.45,
+        260.81,
+        230.15,
+        230.1,
+        237.5
       ],
       "dates": [
         "2026-09-28",
@@ -457,14 +457,14 @@
         "2026-10-23",
         "2026-10-26"
       ],
-      "volume": 9505049,
+      "volume": 11585728,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
-        "high52w": 487.47,
-        "low52w": 266.82,
-        "volume": 9505049
+        "high52w": 438.5,
+        "low52w": 135.5,
+        "volume": 11585728
       },
       "investorFlow": null,
       "consensus": null
@@ -518,15 +518,15 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 3135556,
+      "volume": 3441073,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "981조 7,817억",
-        "per": "5.99배",
-        "pbr": "3.64배",
-        "cnsPer": "3.77배",
+        "marketCap": "1,003조 6,965억",
+        "per": "6.13배",
+        "pbr": "3.72배",
+        "cnsPer": "3.86배",
         "divYield": "0.22%",
         "foreignRatio": "48.66%",
         "high52w": "3,002,000",
@@ -543,6 +543,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": -51049,
+            "institution": 113396,
+            "individual": -67933,
+            "foreignRatio": "48.66%"
+          },
           {
             "date": "20261026",
             "foreigner": -310340,
@@ -605,22 +612,15 @@
             "institution": 123833,
             "individual": -85326,
             "foreignRatio": "49.02%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -1613929,
-            "institution": 414821,
-            "individual": 782218,
-            "foreignRatio": "49.12%"
           }
         ],
         "sum5d": {
-          "foreigner": -893947,
-          "institution": 366075
+          "foreigner": -656006,
+          "institution": 605555
         },
         "sum10d": {
-          "foreigner": -4130588,
-          "institution": 474113
+          "foreigner": -2567708,
+          "institution": 172688
         }
       },
       "consensus": null
@@ -674,14 +674,14 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 1592885,
+      "volume": 1686472,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "8조 1,017억",
-        "per": "1,131.82배",
-        "pbr": "13.45배",
+        "marketCap": "8조 2,876억",
+        "per": "1,157.79배",
+        "pbr": "13.76배",
         "cnsPer": "N/A",
         "divYield": "0.03%",
         "foreignRatio": "9.74%",
@@ -699,6 +699,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": 9622,
+            "institution": 15962,
+            "individual": -27392,
+            "foreignRatio": "9.76%"
+          },
           {
             "date": "20261026",
             "foreigner": 22790,
@@ -761,22 +768,15 @@
             "institution": -63208,
             "individual": 407514,
             "foreignRatio": "9.70%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -72346,
-            "institution": 24840,
-            "individual": 40115,
-            "foreignRatio": "10.50%"
           }
         ],
         "sum5d": {
-          "foreigner": -69202,
-          "institution": -172259
+          "foreigner": -68056,
+          "institution": -89841
         },
         "sum10d": {
-          "foreigner": -709698,
-          "institution": -303676
+          "foreigner": -627730,
+          "institution": -312554
         }
       },
       "consensus": null
@@ -848,69 +848,6 @@
     ]
   },
   "etfs": {
-    "SOXX": {
-      "name": "iShares PHLX SOX Semiconductor ",
-      "px": 491.83,
-      "dayChange": 2.85,
-      "periodChange": -12.3,
-      "prices": [
-        560.79,
-        567.44,
-        568.64,
-        576.33,
-        588.9,
-        589.51,
-        589.45,
-        582.82,
-        563.28,
-        559.4,
-        544.85,
-        543.9,
-        519.42,
-        514.71,
-        493.39,
-        501.93,
-        500.01,
-        510.36,
-        475.69,
-        478.2,
-        491.83
-      ],
-      "dates": [
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23",
-        "2026-10-26"
-      ],
-      "volume": 9067814,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 655.95,
-        "low52w": 260.44,
-        "volume": 9067814
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "SMH": {
       "name": "VanEck Semiconductor ETF",
       "px": 541.62,
@@ -974,6 +911,69 @@
       "investorFlow": null,
       "consensus": null
     },
+    "SOXX": {
+      "name": "iShares PHLX SOX Semiconductor ",
+      "px": 491.83,
+      "dayChange": 2.85,
+      "periodChange": -12.3,
+      "prices": [
+        560.79,
+        567.44,
+        568.64,
+        576.33,
+        588.9,
+        589.51,
+        589.45,
+        582.82,
+        563.28,
+        559.4,
+        544.85,
+        543.9,
+        519.42,
+        514.71,
+        493.39,
+        501.93,
+        500.01,
+        510.36,
+        475.69,
+        478.2,
+        491.83
+      ],
+      "dates": [
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-26"
+      ],
+      "volume": 9067814,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 655.95,
+        "low52w": 260.44,
+        "volume": 9067814
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "091160": {
       "name": "KODEX SEMICON",
       "px": 108195,
@@ -1023,7 +1023,7 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 1286835,
+      "volume": 1468659,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -1034,6 +1034,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": -26831,
+            "institution": 19407,
+            "individual": 10166,
+            "foreignRatio": "0.74%"
+          },
           {
             "date": "20261026",
             "foreigner": 28283,
@@ -1096,22 +1103,15 @@
             "institution": -39368,
             "individual": 10284,
             "foreignRatio": "0.49%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": 17302,
-            "institution": -26852,
-            "individual": 8705,
-            "foreignRatio": "0.44%"
           }
         ],
         "sum5d": {
-          "foreigner": 90077,
-          "institution": -17458
+          "foreigner": 7046,
+          "institution": 91835
         },
         "sum10d": {
-          "foreigner": 172255,
-          "institution": -216104
+          "foreigner": 128122,
+          "institution": -169845
         }
       },
       "consensus": null

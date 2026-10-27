@@ -1,22 +1,49 @@
 {
-  "updatedAt": "2026-10-27T07:18:19.220Z",
+  "updatedAt": "2026-10-27T13:32:04.595Z",
   "count": 40,
   "stats": {
-    "today": 1,
+    "today": 4,
     "yesterday": 1,
-    "weekAvg": 2.9,
-    "sources": 21,
-    "heat": "cool"
+    "weekAvg": 3.3,
+    "sources": 20,
+    "heat": "warm"
   },
   "items": [
     {
+      "s": "TechCrunch",
+      "t": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+      "d": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+      "u": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "m": "10. 27. PM 01:00",
+      "ts": 1793106000000,
+      "fullText": "CoreWeave, a publicly traded neocloud that rents out computing power for AI, has seen its stock price fall to a 12-month low, and Elon Musk is flexing $40 billion in debt for buying computing capacity and predicting that “200+ neoclouds are going to see guppy-level death and consolidation.” It’s not exactly the ideal week to announce a Series A for a neocloud. General Compute co-founder and CEO Finn Puklowski is unfazed. He&#8217;s bullish on CoreWeave&#8217;s chances, and thinks Musk is just talking his book to drive down the prices of the GPUs he wants to buy. Fears of a chip-led collapse are &#8220;massively overstated. I have people calling me up every single week asking me to do TPUs, GPUs, any chip, to get them more compute.&#8221; Just as important, he says, Anthropic&#8217;s bullish S-1 is &#8220;settling fears for today.&#8221; General Compute has found a niche building its cloud out of specialized inference chips built by Nvidia rivals. The company struck a $400 million deal to purchase new chips from SambaNova—the first debt financing of inference chips—and now has added Positron and Cerebras to its portfolio of chip suppliers. A deal with a large customer worth $100 million in annual recurring revenue has paved the way for the company to raise $100 million in Series A funding led by Blackbird Ventures and Abstract Ventures. Valued at $60 million after a May seed round , General Compute is now worth $800 million post-money to its investors. The startup&#8217;s strategy is to zig where others zag. It focused on chips built for inference while everyone else chased GPUs. And instead of taking on a complex effort to build huge data centers, it uses smaller power sources, rents space in other companies’ data centers, and converts former bitcoin-mining sites into places that run AI models. That approach means General Compute isn&#8217;t going to catapult into the top ranks of neoclouds or compete with hyperscalers any time soon. But it&#8217;s also not subject "
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "d": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "u": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "m": "10. 27. AM 11:00",
+      "ts": 1793098800000,
+      "fullText": "As the AI boom strains computing capacity, Nvidia has backed Indian startup Simplismart in a $14 million funding round, betting on software that helps companies run AI models more efficiently and, in some cases, with fewer GPUs. Nvidia participated in the all-primary Series B round alongside Accel, Shastra VC, and Micromax, with Dallas Venture Capital leading the investment. The deal values the four-year-old startup at about $100 million, including the new funding. Companies are nowadays spending heavily on GPUs to power AI applications, but running those models reliably and economically at scale remains a challenge. Different workloads demand distinct trade-offs between speed, cost, and performance. Deploying and operating AI models to meet business requirements often also requires complex adjustments. Simplismart says its software automates much of that work, tailoring how models run on existing computing infrastructure instead of requiring customers to manage those configurations themselves. &#8220;Nobody actually needs the fastest or the cheapest inference,&#8221; Amritanshu Jain (pictured above, left), co-founder and CEO of Simplismart, said in an interview. He added that companies instead need to run AI models at speeds and costs that make sense for their specific applications. Simplismart&#8217;s software sits between AI models and the computing infrastructure they run on and adjusts how models are deployed and managed to meet customers&#8217; requirements. It says it can optimize factors such as how quickly a model responds, how many requests it handles, and how much computing power it consumes, helping companies get more out of their existing GPU stack. The Bengaluru-based startup offers companies a way to deploy and run AI models through its own platform or within their existing cloud and on-premises infrastructure. It also provides tools to fine-tune models, automatically scale computing resources as demand changes, and monitor performance. Additionally, "
+    },
+    {
       "s": "동아일보",
-      "t": "메타, 창사 이래 최대 126조원 증자…AI 인프라에  ‘영끌 투자’",
-      "d": "메타가 인공지능(AI) 인프라 투자금을 마련하려 창사 이래 최대인 950억 달러(약 126조 원) 증자에 나선다. 같은 날 앤스로픽은 630억 달러(약 84조 원) 금융 지원 계약을 맺고 마이크로소프트(MS)는 직원 6만 명에게 희망퇴직을 제안했다. 글로벌 빅테크들이 AI 투자비를 마련하기 위해 증자를 하고 인력 구조조정에 나서는 등 이른바 ‘영끌 투자’에 나서는 것이다.  26일(현지 시간) 메타가 미 증권거래위원회(SEC)에 낸 공시에 따르면 메타는 약 350억 달러만큼 주식을 발행한다. 이어 내년 1분기(1~3월)부터 최대 600억 달러어치를 시장 상황에 맞춰 나눠 팔 계획이지만 시기와 조건은 아직 정하지 않았다. 메타에 AI 칩을 공급하는 엔비디아·AMD·브로드컴도 이번 증자에서 최대 50억 달러어치",
-      "u": "https://www.donga.com/news/Economy/article/all/20261027/134916329/1",
-      "m": "10. 27. AM 06:55",
-      "ts": 1793084100000,
-      "fullText": "김재형 기자 구독"
+      "t": "네이버, 브룩필드와 12조 원 AI 인프라 계약…엔비디아 협력 사업 본격화",
+      "d": "네이버가 브룩필드와 90억 달러(약 12조 원) 규모의 인공지능(AI) 컴퓨팅 인프라 확보 계약을 체결했다. 엔비디아의 10억달러 규모 전략적 지분투자를 위한 선결 조건이 충족되면서 3사가 공동 추진하는 1기가와트(GW)급 글로벌 AI 팩토리 사업이 본궤도에 올랐다네이버는 27일 이 같은 내용을 담은 ‘장래사업·경영 계획’ 정정공시를 제출했다. 이는 지난 6월 8일 공시 당시 브룩필드와 협의 중이던 컴퓨팅 인프라 확보 방안을 계약 체결 완료에 맞춰 구체화한 것이다.계약에 따라 AI 팩토리 구축에 필요한 컴퓨팅 인프라는 브룩필드 AI 인프라 펀드의 투자목적회사가 ‘애셋코(Asset Co·가칭)’를 설립하고, 네이버클라우드가 이를 사용하는 방식으로 진행하기로 했다. 네이버클라우드는 애셋코로부터 GPU 기반 컴퓨",
+      "u": "https://www.donga.com/news/Economy/article/all/20261027/134919589/1",
+      "m": "10. 27. AM 09:07",
+      "ts": 1793092074000,
+      "fullText": "윤우열 기자 구독"
+    },
+    {
+      "s": "연합뉴스",
+      "t": "네이버, 브룩필드와 12조원 AI인프라 계약…AI팩토리 본격 공략",
+      "d": "(서울=연합뉴스) 오지은 기자 = 네이버가 글로벌 자산운용사 브룩필드와 약 12조원 규모의 컴퓨팅 인프라 확보 계약을 체결하면서 엔비디아와 함께...",
+      "u": "https://www.yna.co.kr/view/AKR20261027150700017",
+      "m": "10. 27. AM 07:32",
+      "ts": 1793086337000,
+      "fullText": "네이버, 브룩필드와 12조원 AI인프라 계약 엔비디아 1조3천억 유증, 3대 주주 등극 전망 3사 역할 분담으로 설비투자 부담 최소화 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
       "s": "데일리연합",
@@ -212,16 +239,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "대한경제",
-      "t": "AI칩·노광장비 자립… 中 ‘반도체 굴기’ 박차",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBaTjN1WFgzeUVmR25oSUxhNlhhZGlCLTBRQTFzUEtCQlNZUmVDY3pXNFpDaXpyaUlyZWxiR3FzaVJlWDVwbmpPdGZYdEJmQk1DUlliZnY1dnR4X2V0QXc0cHgtX1ZUQlVFV1NBbnl3RDI2VGc?oc=5",
-      "m": "09. 14. AM 07:00",
-      "ts": 1789369200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "머니투데이",
       "t": "중국 AI칩 시장, 엔비디아 빈자리 채우는 화웨이·GPU 4소룡 - 머니투데이",
       "d": "",
@@ -322,20 +339,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "초이스스탁US",
-      "t": "딥시크 \"화웨이 칩 4개=엔비디아 1개\"…中 AI 병목 실토",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoanNsNmp0aGYxbDg2SkVQUVBEQmNWbV9FaW9RczJsZ1NyUzFNUk83UmtYWW11MzRZQm5JaXg5MEMwcXVQRWV3bzhva3Rka1plc0UxSThtei1LdzJzcDZabTl3?oc=5",
-      "m": "07. 28. AM 07:00",
-      "ts": 1785222000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "연합뉴스TV",
       "t": "엔비디아·MS 등 \"개방형 AI 규제 반대\"…미 빅테크, 공개서한 발표",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUMzRtb25oVWNMR0pVeWZnOTRuUGhjMDJsSGw2WlRCYXUzY3NsMldYNW5ja3VLaDlJaGxsTzRpdlRnaUJPVlRVcS1NcS14akN5QTU3STljU3d4QklhNDRZMDluUHFHTGc?oc=5",
+      "m": "07. 25. AM 07:00",
+      "ts": 1784962800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "중앙일보",
+      "t": "젠슨 황 첫 X 글 남겼다…미·중 AI 패권경쟁, 실리콘밸리 내부전으로 번져",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kckZMdndQNGdoSUF4NkR0OWV3TjY4OWlqSmVzNml2ejlSRWpkRWhKbjFLbVBDUm9ndTNmdVpjc3ZtMk81OUxGeDFudkJXMktDTUtEcWl3?oc=5",
       "m": "07. 25. AM 07:00",
       "ts": 1784962800000,
       "_policy": true,
@@ -368,26 +385,6 @@
       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lN2FoOWhldVhpM2oyVlpRVGFRMXM5UlR5ZTl4eV9ZUFdMU0NSdGdTN0dqSGdMSmVfQ2RGZXN1THlUZzdDUGZxOVN6UlJkUnZGcVhpci1BXzdiTUVNMXByYllvdWVMazNJeXc2VQ?oc=5",
       "m": "07. 08. AM 07:00",
       "ts": 1783494000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴스핌",
-      "t": "딥시크도 '자체 AI 반도체' 개발 추진…중국 '탈 엔비디아' 속도전",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FaktUVVVTNVZLNXI3WkhkLUk3VS0yNDEzWmVRQ09SZ3JrR3FKRGFobjBkMU5Cd2g5aWdwNWdEWW9jb1RzMnF3NEY5emJ5cnZod0RXRlM4dWdlWVV4?oc=5",
-      "m": "07. 07. AM 07:00",
-      "ts": 1783407600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "디지털데일리",
-      "t": "美의 中 반도체 규제 역효과?…AI칩 점유율, 엔비디아↓ 화웨이↑[AI 인포그래픽]",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16STNybmxya0hzVkl4OUNGRXQ4MTE5UXU0TkNNYm5ncnZjVTNkcWw1WTMxVkt4NS1rckhmVXBRTUxuWm1ZVW8tT2NQUVA4aTJYeVpvY0pBSTNqS0F3TkhrRm53?oc=5",
-      "m": "06. 30. AM 07:00",
-      "ts": 1782802800000,
       "_policy": true,
       "fullText": "Google News"
     }

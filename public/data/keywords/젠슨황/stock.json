@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-10-27T07:14:09.532Z",
+  "updatedAt": "2026-10-27T13:27:31.061Z",
   "data": {
-    "TSM": {
-      "name": "TSMC",
-      "px": 424.37,
-      "dayChange": 1.4,
-      "periodChange": -6.3,
-      "prices": [
-        452.88,
-        456.94,
-        456.19,
-        459.2,
-        472.78,
-        485.8,
-        482.3,
-        472.2,
-        457.99,
-        453.31,
-        444.35,
-        445.12,
-        430,
-        422.25,
-        412.61,
-        420.22,
-        425.08,
-        431.89,
-        412.35,
-        418.51,
-        424.37
-      ],
-      "dates": [
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23",
-        "2026-10-26"
-      ],
-      "volume": 9505049,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 487.47,
-        "low52w": 266.82,
-        "volume": 9505049
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "AVGO": {
       "name": "브로드컴",
       "px": 329.17,
@@ -127,6 +64,69 @@
       "investorFlow": null,
       "consensus": null
     },
+    "TSM": {
+      "name": "TSMC",
+      "px": 424.37,
+      "dayChange": 1.4,
+      "periodChange": -6.3,
+      "prices": [
+        452.88,
+        456.94,
+        456.19,
+        459.2,
+        472.78,
+        485.8,
+        482.3,
+        472.2,
+        457.99,
+        453.31,
+        444.35,
+        445.12,
+        430,
+        422.25,
+        412.61,
+        420.22,
+        425.08,
+        431.89,
+        412.35,
+        418.51,
+        424.37
+      ],
+      "dates": [
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-26"
+      ],
+      "volume": 9505049,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 487.47,
+        "low52w": 266.82,
+        "volume": 9505049
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
     "005930": {
       "name": "삼성전자",
       "px": 222000,
@@ -176,16 +176,16 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 15188267,
+      "volume": 16033321,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "1,294조 9,507억",
-        "per": "9.94배",
-        "pbr": "2.57배",
-        "cnsPer": "4.87배",
-        "divYield": "0.75%",
+        "marketCap": "1,315조 4,127억",
+        "per": "10.09배",
+        "pbr": "2.61배",
+        "cnsPer": "4.94배",
+        "divYield": "0.74%",
         "foreignRatio": "46.10%",
         "high52w": "380,000",
         "low52w": "93,500",
@@ -201,6 +201,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": 1052520,
+            "institution": 412198,
+            "individual": -1576114,
+            "foreignRatio": "46.11%"
+          },
           {
             "date": "20261026",
             "foreigner": -984399,
@@ -263,22 +270,15 @@
             "institution": 310050,
             "individual": 505494,
             "foreignRatio": "46.16%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -5943474,
-            "institution": 1016744,
-            "individual": 5221370,
-            "foreignRatio": "46.18%"
           }
         ],
         "sum5d": {
-          "foreigner": 1417717,
-          "institution": -1592423
+          "foreigner": 668578,
+          "institution": 1580010
         },
         "sum10d": {
-          "foreigner": -10487536,
-          "institution": 635407
+          "foreigner": -3491542,
+          "institution": 30861
         }
       },
       "consensus": null
@@ -332,15 +332,15 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 3135537,
+      "volume": 3441073,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "981조 512억",
-        "per": "5.99배",
-        "pbr": "3.64배",
-        "cnsPer": "3.77배",
+        "marketCap": "1,003조 6,965억",
+        "per": "6.13배",
+        "pbr": "3.72배",
+        "cnsPer": "3.86배",
         "divYield": "0.22%",
         "foreignRatio": "48.66%",
         "high52w": "3,002,000",
@@ -357,6 +357,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": -51049,
+            "institution": 113396,
+            "individual": -67933,
+            "foreignRatio": "48.66%"
+          },
           {
             "date": "20261026",
             "foreigner": -310340,
@@ -419,22 +426,15 @@
             "institution": 123833,
             "individual": -85326,
             "foreignRatio": "49.02%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -1613929,
-            "institution": 414821,
-            "individual": 782218,
-            "foreignRatio": "49.12%"
           }
         ],
         "sum5d": {
-          "foreigner": -893947,
-          "institution": 366075
+          "foreigner": -656006,
+          "institution": 605555
         },
         "sum10d": {
-          "foreigner": -4130588,
-          "institution": 474113
+          "foreigner": -2567708,
+          "institution": 172688
         }
       },
       "consensus": null

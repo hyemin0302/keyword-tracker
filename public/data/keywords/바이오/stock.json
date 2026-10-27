@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T07:17:12.769Z",
+  "updatedAt": "2026-10-27T13:30:48.472Z",
   "data": {
     "207940": {
       "name": "삼성바이오로직스",
@@ -50,15 +50,15 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 97852,
+      "volume": 98787,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "63조 1,871억",
-        "per": "38.02배",
-        "pbr": "7.61배",
-        "cnsPer": "34.42배",
+        "marketCap": "63조 6,963억",
+        "per": "38.33배",
+        "pbr": "7.67배",
+        "cnsPer": "34.70배",
         "divYield": "N/A",
         "foreignRatio": "12.70%",
         "high52w": "1,987,000",
@@ -75,6 +75,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": 1811,
+            "institution": -14943,
+            "individual": 13133,
+            "foreignRatio": "12.70%"
+          },
           {
             "date": "20261026",
             "foreigner": 5298,
@@ -137,22 +144,15 @@
             "institution": -4088,
             "individual": 10724,
             "foreignRatio": "12.89%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -1259,
-            "institution": 8896,
-            "individual": -7490,
-            "foreignRatio": "12.92%"
           }
         ],
         "sum5d": {
-          "foreigner": -10602,
-          "institution": 70011
+          "foreigner": -3987,
+          "institution": 43087
         },
         "sum10d": {
-          "foreigner": -112869,
-          "institution": 272809
+          "foreigner": -109799,
+          "institution": 248970
         }
       },
       "consensus": null
@@ -216,6 +216,69 @@
         "high52w": 242.8,
         "low52w": 160.93,
         "volume": 3120946
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "TMO": {
+      "name": "Thermo Fisher Scientific Inc",
+      "px": 684.89,
+      "dayChange": 1.64,
+      "periodChange": 0.93,
+      "prices": [
+        678.6,
+        679.61,
+        675.05,
+        652.51,
+        654.8,
+        676.76,
+        656.58,
+        662.06,
+        651.98,
+        658.02,
+        662.24,
+        663.04,
+        673.2,
+        696.49,
+        690,
+        679.38,
+        687.37,
+        694.02,
+        676.54,
+        673.82,
+        684.89
+      ],
+      "dates": [
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-26"
+      ],
+      "volume": 1946836,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 705.79,
+        "low52w": 435.27,
+        "volume": 1946836
       },
       "investorFlow": null,
       "consensus": null
@@ -346,69 +409,6 @@
       "investorFlow": null,
       "consensus": null
     },
-    "TMO": {
-      "name": "Thermo Fisher Scientific Inc",
-      "px": 684.89,
-      "dayChange": 1.64,
-      "periodChange": 0.93,
-      "prices": [
-        678.6,
-        679.61,
-        675.05,
-        652.51,
-        654.8,
-        676.76,
-        656.58,
-        662.06,
-        651.98,
-        658.02,
-        662.24,
-        663.04,
-        673.2,
-        696.49,
-        690,
-        679.38,
-        687.37,
-        694.02,
-        676.54,
-        673.82,
-        684.89
-      ],
-      "dates": [
-        "2026-09-28",
-        "2026-09-29",
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23",
-        "2026-10-26"
-      ],
-      "volume": 1946836,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 705.79,
-        "low52w": 435.27,
-        "volume": 1946836
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "068270": {
       "name": "셀트리온",
       "px": 188600,
@@ -458,15 +458,15 @@
         "2026-10-26",
         "2026-10-27"
       ],
-      "volume": 453290,
+      "volume": 471806,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "43조 6,993억",
-        "per": "28.67배",
-        "pbr": "2.40배",
-        "cnsPer": "27.51배",
+        "marketCap": "43조 8,386억",
+        "per": "28.76배",
+        "pbr": "2.41배",
+        "cnsPer": "27.59배",
         "divYield": "0.38%",
         "foreignRatio": "25.64%",
         "high52w": "258,500",
@@ -483,6 +483,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261027",
+            "foreigner": -58626,
+            "institution": -1745,
+            "individual": 1329,
+            "foreignRatio": "25.61%"
+          },
           {
             "date": "20261026",
             "foreigner": -45985,
@@ -545,22 +552,15 @@
             "institution": 75435,
             "individual": -76629,
             "foreignRatio": "25.27%"
-          },
-          {
-            "date": "20261013",
-            "foreigner": -18701,
-            "institution": 102323,
-            "individual": -131936,
-            "foreignRatio": "25.28%"
           }
         ],
         "sum5d": {
-          "foreigner": -12333,
-          "institution": 328745
+          "foreigner": -57821,
+          "institution": 181696
         },
         "sum10d": {
-          "foreigner": 198908,
-          "institution": 1234918
+          "foreigner": 158983,
+          "institution": 1130850
         }
       },
       "consensus": null

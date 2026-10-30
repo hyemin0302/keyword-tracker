@@ -1,22 +1,76 @@
 {
-  "updatedAt": "2026-10-30T16:10:59.018Z",
+  "updatedAt": "2026-10-30T20:59:18.062Z",
   "count": 40,
   "stats": {
-    "today": 10,
-    "yesterday": 6,
-    "weekAvg": 3.3,
-    "sources": 27,
+    "today": 18,
+    "yesterday": 5,
+    "weekAvg": 4.1,
+    "sources": 25,
     "heat": "hot"
   },
   "items": [
     {
       "s": "Bloomberg Tech",
-      "t": "Largest US Grid Seeks to Hold Data Center Power Auction in March",
-      "d": "America’s largest grid operator plans a special March auction to secure new generating capacity for data-center demand if federal regulators approve revised rules governing who pays.",
-      "u": "https://www.bloomberg.com/news/articles/2026-10-30/largest-us-grid-seeks-to-hold-data-center-power-auction-in-march",
-      "m": "10. 30. PM 03:50",
-      "ts": 1793375432000,
+      "t": "Big Tech Holds $3 Trillion in Spending Commitments for AI Boom",
+      "d": "The five largest players in the data center race have committed more than $3 trillion in spending over the coming years, pointing to massive ongoing investment in AI infrastructure.",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-holds-3-trillion-in-spending-commitments-for-ai-boom",
+      "m": "10. 30. PM 07:25",
+      "ts": 1793388331000,
       "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Satlyt takes another step toward turning satellites into space data centers",
+      "d": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites,  into virtual data centers.",
+      "u": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+      "m": "10. 30. PM 06:01",
+      "ts": 1793383284000,
+      "fullText": "Naturally, Rama Afullo’s first reaction was, “Let’s GOOOO,” he said. His company, Satlyt , is building software to turn existing satellites into data processing networks, similar to the orbital data center concept. And he just took another step closer to that. After 13 months of work, the company had a successful test earlier this month. Working with the University of Houston on a NASA-funded research project, the test showed how the startup&#8217;s software can spread out tasks among computers while in orbit based on communication and available compute. He said the goal is to create software that connects to multiple satellites to share computing assignments. Users of the system “will only need to define permissions, priorities, and operating limits,” while the software will make decisions within those limits, Afullo told TechCrunch. Its software is already on three satellites in orbit and the first step to that vision was this test. While the test used NASA-funded research, the agency has not yet selected it for any particular mission or chosen it to deploy its technology. Afullo said NASA missions face the same constraints that Satlyt hopes to address — “limited computing resources, intermittent communication, and the need to get useful information back to people.” In this test, the company created a simulated network with four computers, four users, and eight services. The software then assessed how to assign and run tasks on those computers, accounting for compute and communication availability. One physical computer aboard a spacecraft ran the experiment, evaluating a simulated network of four computing hosts, then returned the results to Earth. The test proved that Satlyt’s software can generate plans on hardware in orbit, but more testing will be done to see how those computers transfer information amongst each other in practice when multiple physical computers are used. “The finding is a trade-off,” he said. One approach worked best, though it required more"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth",
+      "d": "Bloomberg’s Ed Ludlow looks at the fall in Intel shares as a bleak outlook exposes the chipmaker's struggle with a deepening PC slump and difficulty meeting CPU demand. Plus, AWS CEO Matt Garman discusses the cloud giant's accelerating growth and massive AI buildout. And, Bitcoin tumbles after hackers siphoned off $6.3 billion from Binance in an attack that rocked the crypto world. (Source: Bloomb",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-30/bloomberg-tech-10-30-2026-video",
+      "m": "10. 30. PM 05:28",
+      "ts": 1793381332000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "AI to Drive 40% Growth for AWS: CEO Garman",
+      "d": "AWS CEO Matt Garman discusses how the company is looking to “responsibly fund” its AI buildout to meet customer demand. Revenue at the Amazon cloud unit grew for the sixth straight quarter, and the company is projecting it could grow more than 40% year over year in each of the next two years. Garman joins Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-30/ai-to-drive-40-growth-for-aws-ceo-garman-video",
+      "m": "10. 30. PM 05:22",
+      "ts": 1793380947000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Google&#8217;s first data center satellite is online and writing poetry",
+      "d": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "u": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "m": "10. 30. PM 05:00",
+      "ts": 1793379600000,
+      "fullText": "Google Suncatcher&#8217;s prototype space data center is online and communicating with the ground after launching earlier this month alongside more than 100 other spacecraft on a SpaceX Falcon 9 rocket. The satellite, which carries four Google Tensor Processing Units (TPUs) and generates up to 1 kW of electricity, is intended to pave the way for future networks of close-flying satellites performing large inference workloads in orbit. However, the power demands of the TPU mean it can only turn one on for about 20 minutes at a time, complicating the already tricky business of space-to-ground communications. After a commissioning process that tested out the satellite&#8217;s subsystems over about three weeks, the spacecraft was ready to work. When engineers on the ground sent their first prompt this week, they asked the model pre-loaded onto the satellite, Google DeepMind&#8217;s Gemma 4, to write a haiku about being in space. And thus: Blue marble below Data streams in silent grace Starlight feeds my core. ✨ Google said it tested the model with these space-themed limericks (they should have sent a poet?) and, perhaps more importantly, the company asked the spacecraft to report on the orbital conditions around the satellite. A spokesperson told TechCrunch that the satellite was operating nominally. The ongoing test campaign will examine how the chips perform under thermal stress and in the space radiation environment. Google has extensively tested its TPUs in particle accelerators on Earth, but now needs to see how radiation&#8217;s real effects on their hardware in space affect their processor. Radiation can cause &#8220;bit flips&#8221; — causing a stored value in computer memory — and that in turn can corrupt data without triggering typical monitoring tools. Testing on the ground suggested the impact of radiation would be minimal for inference workloads and more of a problem for training a model, but now the Google team will get to assess those dynamics in reality, "
+    },
+    {
+      "s": "동아일보",
+      "t": "“젠슨 황과 ‘긴밀한’ 여성 기업인, 中 스파이였다”",
+      "d": "중국의 여성 스파이 앨리스 황이 대만계인 젠슨 황 엔비디아 최고경영자(CEO)와 ‘긴밀한(close)’ 관계를 맺고 정보를 수집해 온 것으로 미국 정보 당국이 판단했다고 29일(현지 시간) 뉴욕타임스(NYT)가 보도했다. 중국 정부와 엔비디아는 모두 보도 내용을 부인했다. 미국 정보 당국은 2024년 싱가포르에 본사를 둔 데이터센터 회사 메가스피드 임원인 앨리스 황을 조사하는 과정에서 그가 황 CEO와 접촉하고 있다는 점을 파악했다. 당국은 메가스피드가 중국 수출이 금지된 엔비디아의 첨단 인공지능(AI) 칩을 중국으로 우회 공급할 가능성을 의심한 것으로 알려졌다. 소셜미디어 링크트인에는 황 CEO가 2024년 대만 타이베이의 술집에서 앨리스 황의 옆자리에서 술을 마시는 사진이 있다. NYT에 따르면 도널드 ",
+      "u": "https://www.donga.com/news/People/article/all/20261030/134941727/2",
+      "m": "10. 30. PM 04:40",
+      "ts": 1793378400000,
+      "fullText": "홍정수 기자 구독"
+    },
+    {
+      "s": "동아일보",
+      "t": "주가 반토막 났던 ‘삼전닉스’… 3분기 실적 호재에 반등 기대감",
+      "d": "‘반도체 투톱’인 삼성전자와 SK하이닉스의 주가가 인공지능(AI) 버블론이 불거질 때마다 높은 변동성을 보이고 있다. 미국 빅테크의 대규모 AI 투자가 축소되거나 중단되면 메모리 반도체 수요가 줄어들면서 삼성전자와 SK하이닉스의 향후 실적도 꺾일 것이라는 우려가 반복적으로 나오기 때문이다.다만 삼성전자와 SK하이닉스가 3분기(7∼9월) 실적 발표 콘퍼런스콜에서 각각 내년 이후에도 메모리 반도체 수요 증가세가 이어질 것이라는 자신감을 내비치며 주가도 다시 반등 조짐을 보이고 있다. 여기에 미국 AI 모델 기업 앤스로픽이 11월 나스닥 상장을 통해 최대 1000억 달러(약 134조 원)를 조달할 것으로 보이면서 AI 인프라 투자 심리가 살아날 것이라는 기대감이 커졌다. 30일 한국거래소에 따르면 삼성전자 주가는",
+      "u": "https://www.donga.com/news/Economy/article/all/20261030/134941587/2",
+      "m": "10. 30. PM 04:40",
+      "ts": 1793378400000,
+      "fullText": "지민구 기자 구독"
     },
     {
       "s": "TechCrunch",
@@ -25,7 +79,7 @@
       "u": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
       "m": "10. 30. PM 01:00",
       "ts": 1793365200000,
-      "fullText": "AI infrastructure company Runware is making news again, just months after unveiling the Sonic Inference Pod, a modular data center built in a factory and shipped to customers ready to install. Now the company has bigger plans. It told TechCrunch it wants to build a factory that assembles these pods on a production line, as if they were cars. The idea isn’t entirely new. Companies like Crusoe and Schneider Electric also sell prefabricated pods, but Runware says it can ship its pods faster. Flaviu Radulescu, co-founder and CEO of Runware, told TechCrunch that the company plans to scale production at its Romania-based factory to 30 megawatts of data center capacity per day by 2028, or nearly 1 gigawatt per month. That’s a whole lot of capacity: at that pace, Runware would produce roughly as much in a year as the entire U.S. was expected to add in data center power this year, about 10 gigawatts . But it also reflects an industry-wide push to deploy data centers faster more efficiently. Nvidia announced, for example, the Vera Rubin AI factories and the DSX POD earlier this year. Both are also meant to make it faster and easier for companies to build their own AI data centers. The difference with Runware, though, is that it says it has actually built a factory rather than just designed the infrastructure that would let others build one. Radulescu said Runware will gradually increase production starting next year and that it already has two factories — one it has used for a few years to build the pods, and a second it started building earlier this year. The second is expected to be finished within months and go online early next year. Runware will manufacture the modular data centers on an assembly line. Customers can provide their own site to assemble them, or Runware can find one for them. Radulescu said Runware aims to bring the pods online within 48 hours. That time covers installation and set-up time, not build time. A pod once took three weeks to build but it will so"
+      "fullText": "AI infrastructure company Runware is making news again, just months after unveiling the Sonic Inference Pod, a modular data center built in a factory and shipped to customers ready to install. Now the company has bigger plans. It told TechCrunch it wants to build a factory that assembles these pods on a production line, as if they were cars. The idea isn’t entirely new. Companies like Crusoe and Schneider Electric also sell prefabricated pods, but Runware says it can ship its pods faster. Flaviu Radulescu, co-founder and CEO of Runware, told TechCrunch that the company plans to scale production at its Romania-based factory to 30 megawatts of data center capacity per day by 2028, or nearly 1 gigawatt per month. That’s a whole lot of capacity: At that pace, Runware would produce roughly as much in a year as the entire U.S. was expected to add in data center power this year, about 10 gigawatts . But it also reflects an industrywide push to deploy data centers faster and more efficiently. Nvidia announced, for example, the Vera Rubin AI factories and the DSX POD earlier this year. Both are also meant to make it faster and easier for companies to build their own AI data centers. The difference with Runware, though, is that it says it has actually built a factory rather than just designed the infrastructure that would let others build one. Radulescu said Runware will gradually increase production starting next year and that it already has two factories — one it has used for a few years to build the pods, and a second it started building earlier this year. The second is expected to be finished within months and go online early next year. Runware will manufacture the modular data centers on an assembly line. Customers can provide their own site to assemble them, or Runware can find one for them. Radulescu said Runware aims to bring the pods online within 48 hours. That time covers installation and set-up time, not build time. A pod once took three weeks to build but it will"
     },
     {
       "s": "전자신문",
@@ -46,6 +100,15 @@
       "fullText": "AI·SW SW LG CNS, 3분기 영업익 1382억…AI·클라우드 사업 성장 견인 발행일 : 2026-10-30 20:36 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 LG CNS 본사 전경 LG CNS는 지난 3분기 영업이익이 1382억원으로 전년 동기 대비 15% 증가한 것으로 잠정 집계됐다고 30일 공시했다. 같은기간 매출은 1조6643억원으로 9.3% 늘었다. 사업별로 보면 3분기 인공지능(AI)·클라우드 분야 매출은 전년 동기 대비 9.3% 증가한 9615억원을 기록했다. AI 인프라 사업에서 성과가 이어진 영향이다. 삼송 AI데이터센터 구축·운영을 비롯해 LG CNS가 위탁 운영 중인 AI데이터센터의 코로케이션 매출이 증가했다. 또한 금융, 게임, 항공, 제조 등 다양한 분야에서 AI 사용이 확산되며 클라우드 매출도 함께 증가했다. 챗GPT 엔터프라이즈, 클로드 등 글로벌 생성형 AI를 활용한 기업 고객 사업도 확대했다. 디지털 비즈니스 서비스 분야 매출은 4082억원으로 전년 동기 대비 21.3% 증가했다. 앞서 수주한 NH농협은행, 미래에셋생명보험, KB국민은행 등 금융권 차세대 시스템 구축 사업이 본격적인 개발 단계에 접어들면서 매출 증가를 이끌었다. 스마트엔지니어링 분야 3분기 매출은 제조산업의 업황 둔화 영향으로 전년 동기 대비 소폭 감소한 2945억원으로 집계됐다. LG CNS는 이러한 환경속에서도 대외 사업을 확대하며 고객 기반을 넓히는 성과를 거뒀다. 스마트팩토리 사업은 방산, 제약, 전자, 배터리 등 다양한 산업의 고객 레퍼런스를 확보했고, 스마트물류 사업은 해외에 진출한 국내 기업을 대상으로 물류 자동화 프로젝트를 확대했다. AI 수요 급증에 발맞춰 LG CNS는 AI가 업무 전반을 자율적으로 수행하는 에이전틱AI 서비스와 이를 안정적으로 뒷받침하는 AI 인프라를 양대 축으로 AI 사업 경쟁력을 강화할 방침읻. 미래 성장을 위한 AI 투자도 확대하고 있다. LG CNS는 AI 팩토리 구축·운영에 필요한 GPU 확보를 위해 약 3800억원 규모의 유형자산을 취득했다. 이어 글로벌 대표 투자기업 '제너럴 애틀랜틱'과 엔터프라이즈 SW, AI 사업 공동투자에 본격 나섰다. 로봇 전환(RX) 사업은 물류, 제조 현장을 중심으로 로봇 학습·운영 플랫폼 피지컬웍스 기반의 개념검증(PoC)을 수행하고, 이를 본사업으로 전환해 수주를 확대하고 있다. LG CNS 관계자는 “순찰과 접객, 안전 등 서비스 영역을 넓히기 위해 대내외 고객과 사업화도 논의 중”이라며 “엔비디아, 마이크로소프트·아마존웹서비스(AWS) 등과의 협력도 강화할 계획”이라고 말했다. 강성전 기자 castlekang@etnews.com"
     },
     {
+      "s": "Bloomberg Tech",
+      "t": "Chevron Keeps Microsoft Data Center Plan Despite Texas Pause",
+      "d": "Chevron Corp. expects to power up a Microsoft Corp. data center project in West Texas on schedule despite Governor Greg Abbott’s suspension of digital infrastructure permits.",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/chevron-keeps-microsoft-data-center-timeline-despite-texas-pause",
+      "m": "10. 30. AM 10:41",
+      "ts": 1793356871000,
+      "fullText": ""
+    },
+    {
       "s": "한경 경제",
       "t": "현대차그룹 \"새만금 AI데이터센터 내년 3월 착공\"",
       "d": "",
@@ -62,6 +125,16 @@
       "m": "10. 30. AM 08:35",
       "ts": 1793349343000,
       "fullText": "글로벌마켓 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 美 10개주, 데이터센터 찬반 투표…아마존 투자 무산 위기 입력 2026.10.30 17:35 수정 2026.10.31 00:55 지면 A10 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 손주형 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 중간선거 날, 신규 승인 주민투표 민주&middot;공화 지지층 과반이 '반대' 사업 지연 땐 반도체 매출 타격 미국 중간선거가 치러지는 11월 3일은 인공지능(AI) 공급망 관련 기업에도 중요한 이벤트가 있는 날이다. 미국 10개 주에서 AI 데이터센터 개발 제한 여부를 놓고 주민투표를 하기 때문이다. 투표에서 규제를 강화하는 것으로 결론 나면 데이터센터 건설이 지연돼 반도체와 전력 설비 등 관련 기업이 영향을 받을 수 있다는 우려가 나온다. 29일(현지시간) 로이터통신 등에 따르면 다음달 3일 미국 10개 주의 38개 지역에서 최소 41건의 데이터센터 개발 안건이 투표에 부쳐진다. 미국에서 데이터센터 건설이 가장 빠르게 늘고 있는 오하이오주는 안건이 21개에 이른다. 건설 규모 및 전력&middot;물 사용량 제한이 주요 안건이다. 오하이오주 선버리와 피콰는 전력수요 25㎿를 초과하는 신규 데이터센터 건설을 금지할지 결정한다. 캔자스주 엠포리아는 전력수요 10㎿ 또는 하루 용수량 약 38만L를 초과하는 시설을 금지하는 것을 안건으로 올렸다. 플로리다주 에지워터는 신규 데이터센터의 승인&middot;건설&middot;확장&middot;운영 자체를 금지하는 방안을 투표에 부친다. 여론만 놓고 보면 대다수 지역에서 데이터센터 건설이 제한될 가능성이 높다. 미 펜실베이니아대 애넌버그 공공정책센터 조사에서는 민주당 지지층 69%와 공화당 지지층 54%가 거주 지역 내 데이터센터 건설에 반대했다. 지난 28일까지 치러진 6건의 주민투표에서도 전부 개발 제한 주장이 승리했다. 지역사회에 가져올 경제적 이익보다 주민이 부담할 비용과 피해가 더 크다는 우려에서다. 이에 따라 아마존, 메타 등의 대규모 사업이 영향을 받을 수 있다. 아마존은 선버리에서 20억달러(약 2조6694억원) 규모 데이터센터 프로젝트를 추진하고 있다. 메타가 건설을 추진하는 피콰에서는 2033년까지 최대 140㎿의 전력 공급이 단계적으로 요청된 상태다. 사업이 지연되면 반도체 업체 매출에도 악영향을 줄 수 있다. 글로벌 컨설팅사 딜로이트는 2월 보고서에서 인허가 문제에 따른 데이터센터 건설 지연이 장기화하면 반도체업계의 2027~2028년 실적이 당초 전망보다 악화할 수 있다고 분석했다. 메모리와 첨단 패키징 등이 특히 영향을 받을 수 있다고 지적했다. 반면 시장조사업체 델오로그룹의 배런 펑 리서치 부사장은 &ldquo;데이터센터 건설 규제가 강화되더라도 개발업체가 사업을 포기하기보다 다른 지역으로 이전할 가능성이 크다&rdquo;며 궁극적으로는 큰 영향이 없을 것이라고 했다. 미국 전역의 데이터센터 건설 규모는 증가하는 추세다. 부동산 컨설팅업체 쿠시먼앤드웨이크필드에 따르면 미국에서 건설 중인 데이터센터의 전력 용량은 GW 기준으로 올해 상반기에만 직전 6개월 대비 48% 증가했다. 손주형 기자 handbro@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 손주형 기자 손주형 기자는 한국경제에서 글로벌 경제 및 사회 이슈를 취재합니다. 최근에는 미국·이란 전쟁의 전황과 그 여파를 전달하고 있습니다. 토요일자 지면 코너에서는 테크(기술) 이슈를 중심으로 세계에서 벌어지는 흥미로운 소식을 소개합니다. 2024년 입사해 편집부와 건설부동산부를 거쳐 국제부에서 취재 중입니다. ADVERTISEMENT 관련 뉴스 1 [단독] 한화시스템 ICT 직원 1700명 정보 유출 한화시스템이 정보통신기술(ICT) 부문에서 외부 비인가 접속"
+    },
+    {
+      "s": "인공지능신문",
+      "t": "울산 제조AI 창업 활성화 나선 이소영 장관…대학 연구기술·대기업 제조 인프라 연계 추진",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tT01INFNVZl9OLVNqS0ZKa2syQnZBOExTNWticktOVlkyQTltX19kRmFMMEFHb0YxSFJoQVV4UlVxOHNLSHh5em9uSlAwWW90T0FZWGtqY0EwdHZNRnNOTk5VdnRyQ1k?oc=5",
+      "m": "10. 30. AM 05:49",
+      "ts": 1793339375000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "연합뉴스",
@@ -119,15 +192,6 @@
       "fullText": "모닝 글로벌 뉴스 AWS 39% 성장에도 아마존 주가 7% 급락…AI 투자에 현금흐름 악화 입력 2026.10.30 05:22 수정 2026.10.30 06:01 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김인엽 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 3분기 영업이익 61% 증가&hellip;영업이익률 사상 최고 최근 12개월 잉여현금흐름 424억달러 적자 광고 매출은 예상 밑돌아 연간 투자 계획 2200억달러 유지 사진=REUTERS 아마존의 클라우드 사업이 최근 5년 사이 가장 빠른 성장세를 기록했다. 영업이익은 역대 최대를 기록했고 영업이익률도 사상 최고 수준으로 올라섰다. 그러나 주가는 실적 발표 직후 7% 넘게 급락했다. 인공지능(AI) 사업의 성장세에도 불구하고 천문학적인 데이터센터 투자로 현금흐름이 악화하고 있기 때문이다. 연말 쇼핑 성수기 매출 전망까지 시장 기대에 못 미치면서 아마존의 수익성에 대한 우려가 커지고 있다. 아마존은 29일(현지시간) 올해 3분기 매출이 전년 동기 대비 12% 증가한 2019억달러를 기록했다고 발표했다. 금융정보업체 팩트셋이 집계한 월가 전망치인 2022억달러를 소폭 밑돌았다. 영업이익은 281억달러로 61% 늘었다. 영업이익률은 13.9%로 사상 최고를 기록했다. 순이익은 207억달러로 전년 동기(212억달러)보다 감소했다. 주당순이익(EPS)은 1.89달러로 시장 예상치인 1.97달러를 밑돌았다. 순이익 감소에는 지난해 3분기 앤트로픽 투자에서 발생한 95억달러의 세전 평가이익이 기저효과로 작용했다. 실적을 견인한 것은 클라우드 사업인 아마존웹서비스(AWS)였다. AWS 매출은 460억달러로 전년 동기 대비 39.3% 증가했다. 시장 전망치인 456억달러를 웃도는 실적이다. 성장률은 지난 2분기 37%에서 더 높아졌다. AWS 영업이익 역시 114억달러에서 178억달러로 급증했다. 앤디 재시 아마존 최고경영자(CEO)는 실적 발표에서 2027년과 2028년에도 AWS 매출 성장률이 40%를 넘을 것으로 전망했다. AI 인프라에 대한 수요가 일시적인 현상이 아니라는 자신감을 드러낸 것이다. 문제는 성장에 필요한 투자 비용이다. 아마존은 올해 설비투자에 약 2200억달러를 투입하겠다는 기존 계획을 유지했다. 올해 3분기에만 유형자산 취득에 773억달러를 지출했다. 전년 동기(351억달러)의 두 배가 넘는 규모다. 같은 기간 영업활동으로 벌어들인 현금은 424억달러에 그쳤다. 영업으로 창출한 현금보다 설비투자에 쓴 돈이 349억달러 더 많았다는 의미다. 이 같은 투자 확대는 현금흐름 악화로 이어졌다. 최근 12개월간 아마존의 영업현금흐름은 1683억달러로 전년 동기 대비 29% 증가했다. 그러나 같은 기간 잉여현금흐름(FCF)은 148억달러 흑자에서 424억달러 적자로 돌아섰다. 아마존은 이를 AI 투자를 중심으로 유형자산 취득 비용이 급증한 결과라고 설명했다. 아마존은 3분기에 장기차입으로만 481억달러를 조달했다. 사업에서 벌어들이는 현금이 늘어나는 속도보다 투자 지출이 훨씬 빠르게 증가하고 있는 셈이다. 기존 전자상거래 사업의 성장 둔화도 부담이다. 3분기 북미 사업 매출은 1129억달러로 6%, 해외 사업 매출은 431억달러로 5% 증가하는 데 그쳤다. 아마존은 지난해 3분기에 진행했던 연례 할인행사 프라임데이를 올해는 2분기로 앞당긴 영향이 있다고 설명했다. 행사 시점 변경 효과를 제외하면 전체 매출 성장률은 약 4%포인트 높았을 것이라는 주장이다. 시장이 특히 실망한 것은 연말 쇼핑 성수기를 포함한 4분기 전망이다. 아마존은 4분기 매출을 2400억~2470억달러로 예상했다. 전망치 중간값인 2435억달러는 시장 예상치인 2445억달러를 밑돈다. 물가 상승과 가계 부담 확대로 소비자들의 지출 여력이 줄어들 수 있다는 우려가 반영됐다. 아마존 주가는 실적 발표 직후 시간외 거래에서 7% 넘게 하락했다. 실리콘밸리=김인엽 특파원 inside@hankyu"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Intel Shares Plunge After Outlook Hit by PC Slump, Supply",
-      "d": "Intel Corp.’s shares plummeted the most in more than two years after its revenue forecast missed analysts’ estimates, hurt by sputtering demand for PC processors and supply-chain problems with its lucrative data center components.",
-      "u": "https://www.bloomberg.com/news/articles/2026-10-29/intel-outlook-hurt-by-weak-market-for-personal-computer-chips",
-      "m": "10. 29. PM 08:02",
-      "ts": 1793304157000,
-      "fullText": ""
-    },
-    {
       "s": "건설이코노미뉴스",
       "t": "선엔지니어링, 구미 200MW AI 데이터센터 설계·CM 수주",
       "d": "",
@@ -141,7 +205,7 @@
       "s": "머니투데이",
       "t": "내년 '돈 버는 AI' 시대 본격화…\"해법은 하이브리드형 AI 인프라\" - 머니투데이",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkNDFMVlZ1MkJWRzdsNjlZLXJXMDhXaGhZQ0hxUHNuVFZXcFpkMm5FcHBJcGExVlotdUZBYjQ0SVhZbnpNNXlvS0diQWVqZlROZUgtRlA3Z3dIcDV2a3FoY3lTOUdZUlhuMFRxetIBbEFVX3lxTFBkNDFMVlZ1MkJWRzdsNjlZLXJXMDhXaGhZQ0hxUHNuVFZXcFpkMm5FcHBJcGExVlotdUZBYjQ0SVhZbnpNNXlvS0diQWVqZlROZUgtRlA3Z3dIcDV2a3FoY3lTOUdZUlhuMFRxeg?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qZGRwOTRpM3VaNTdlYWxUdkVKdzlHeDdNOGp4NEVaRDNVV01zcUNTeHZiSndRWE1SakhuN29Iam0tVkxwRDZTaTVZc0ZiVkhkY3FDZWYyTGtoeHJOcnpxZ1llWHV2NVRXdGdGVG10M2M4RmhQ0gF6QVVfeXFMUElxVEhFRkdFOG1NYVpScDBFZlEwZGkzRkk1elV2Zkl1aXhHOUhjLWdoVWRGZTZ4czhQRWV2YVc3SzhGUGVWYXR1NW9yVUZPSlBYOUZHRzJyUm5hM0dzYjVtRHdlRVBNQmNLZE5RX0JUMFlYNVJMUThlOFE?oc=5",
       "m": "10. 29. AM 04:00",
       "ts": 1793246444000,
       "_policy": true,
@@ -151,7 +215,7 @@
       "s": "머니투데이",
       "t": "[사진]'AI 정책과 산업의 변화' - 머니투데이",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqZkxJZ1IzUjJKVFV2MTZzRXRHdE1TcnRXSHBidjBrdmhrY19ZWjdrdkwxdTRrYzdBLXp6OVBBWGJNOXhZTWVJRkQzUU5OY0pnclI3MjJiRWp0VEdKR0lJa2RCUUtUWjk1c0w0R2M4bG5vUdIBckFVX3lxTFBqZkxJZ1IzUjJKVFV2MTZzRXRHdE1TcnRXSHBidjBrdmhrY19ZWjdrdkwxdTRrYzdBLXp6OVBBWGJNOXhZTWVJRkQzUU5OY0pnclI3MjJiRWp0VEdKR0lJa2RCUUtUWjk1c0w0R2M4bG5vUQ?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE43SDRVVkwwWEhRVHM2eW1laVhsMWJfenloRnRRQVBHSGkxVl84dzlYaDBaejA5R2k1bm1SbmxiZWZISEdrcjdKZXNxcVVZdW1UcVhOZVhWSTVfMGh4dEg0b0pZRmgzZUNtM3paRWRKWmQzRkl0N2VRVU930gF_QVVfeXFMTm1pSE5wa0VFaWxIV0ZGdFdmTEc0YXRJYWxSNUhUSVVnYlp0b05sVzhIbzQxTFlzdWFBNnJPYlRnYnZYcDNnOEtEd0FkeC1VaktYaWtzVlYtbzZ4aEF5NUEtd2hhemhsRmVZRGJRcl9jdnQ1dUNaOF8xdFp5S1BFTQ?oc=5",
       "m": "10. 29. AM 02:22",
       "ts": 1793240520000,
       "_policy": true,
@@ -168,33 +232,13 @@
       "fullText": "Google News"
     },
     {
-      "s": "전자신문",
-      "t": "[2026 K-오픈소스 AX] 과기정통부 “AI 인프라·모델·활용 경쟁력 강화로 3강 도약”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jb200ZzlROHNUZ3RWdWJNay1USnh4Z2dYZDhsRUJtWXVVR2I5R2hBTnQyWFJxdlY0OVpxTy1HcW1vUlU0NHlkU3dNcnVKZw?oc=5",
-      "m": "10. 28. AM 08:00",
-      "ts": 1793174400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴스N연합",
-      "t": "미국 2026년 3분기 기술 규제, AI 인프라 비용과 알고리즘 책임을 기업에 되돌리다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5scFY5MjFMY2JoczgxZ2Y1MEFzcnZ3VmdxeFp1alNuV1R4bEswS1Fib2dwazNRblkxWUUtWWQySzN5Z2VjaEJUVk13?oc=5",
-      "m": "10. 28. AM 03:54",
-      "ts": 1793159654000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "CNBC Tech",
       "t": "Advocate for Elizabeth Holmes&#39; innocence threatens to sue A24, Nathan Fielder over doc",
       "d": "New bombshell A24 documentary “You Can See Everything” draws backlash from a supporter of Elizabeth Holmes’ technology after clips of him were in the film, he says, without his permission. Now, he’s threatening to sue the filmmakers if they don&#39;t apologize. NBC News’ Chloe Melas reports.",
       "u": "https://www.nbcnews.com/video/supporter-of-elizabeth-holmes-threatens-to-sue-a24-fielder-over-doc-272372805798",
       "m": "10. 27. PM 11:42",
       "ts": 1793144552000,
-      "fullText": "Pike releases first statement after failed execution"
+      "fullText": "North Korea&#x27;s Kim Jong Un tours a drone exhibition"
     },
     {
       "s": "글로벌이코노믹",
@@ -214,6 +258,16 @@
       "m": "10. 26. PM 08:52",
       "ts": 1793047928000,
       "fullText": "FIRST ON NBC NEWS Artificial intelligence Artificial intelligence Data center group jumps into the Kansas governor’s race to boost Republicans Building the Future is an offshoot of the pro-AI super PAC Leading the Future, arguably the leading super PAC promoting industry interests in the November midterm elections. Listen to this article with a free profile 00:00 00:00 Kansas GOP gubernatorial candidate Ty Masterson at the Heartland Credit Union Arena in Park City, Kansas, a suburb of Wichita, on Oct. 19. Kent Nishimura / AFP via Getty Share Add NBC News to Google Oct. 26, 2026, 4:52 PM EDT By Allan Smith Building the Future, a new pro-data center super PAC, is spending more than $1.5 million to back Kansas state Sen. Ty Masterson, a Republican, in the state’s battle for governor , a person familiar with the spending said Monday in details first shared with NBC News. Building the Future is an offshoot of the pro-AI super PAC Leading the Future, backed by AI heavyweights and arguably the leading super PAC promoting industry interests in the midterm elections. Earlier Monday, The New York Times reported that Building the Future is also set to spend about $1.5 million in advertising to boost GOP Sen. Darline Graham in the South Carolina Senate race. In August, Build American AI, a nonprofit that is also in the Leading the Future network, announced a multimillion-dollar ad campaign in Kansas, Ohio and Wisconsin seeking to boost preferred policies to govern data center growth. At the time, it announced the formation of the political group, Building the Future. The group said in August it would back candidates who support “responsible policies that strengthen and protect communities, preserve water resources, and prevent rate hikes on electricity bills, while ensuring American leadership in AI and creating good-paying jobs for American workers.” Opposition to data center development has been intensifying for months, with the sprawling structures needed to power the AI boo"
+    },
+    {
+      "s": "블로그",
+      "t": "돈 있어도 못 짓는 美 AI 데이터센터…물·전력에 발목 : 네이버 블로그",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ia21SZkxMN3B2NkhlOFBTQi10MUxueUpzR0VKWkp0UFdHemd0cjZMd25uVTVhS1NJbGg2MENTOFJrMFB4OFROMmZQS0FLb1Y3VTVtQ25NYmpWQQ?oc=5",
+      "m": "10. 26. AM 05:00",
+      "ts": 1792990800000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "Simply Wall Street",
@@ -236,22 +290,22 @@
       "fullText": "Google News"
     },
     {
-      "s": "뉴시스",
-      "t": "\"韓 AI 경쟁력 높이려면…데이터 규제 풀고 인프라 확충 서둘러야\"",
+      "s": "우리경제신문",
+      "t": "[규제 대전환] ②AI 데이터센터 건축규제 최대 3분의 1로…전력·인허가 장벽 낮춘다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16SFpXc2xwWEROcE56blZCMzRZeXFFWlEtZUdOOF8yQ29uTHdCeFg2NDJ3cnNzTV9oU0RvanZ4N1IweUYtT1dpMFZOSEUzQkl5VlpGcnJacF9BVlYxemk5bdIBeEFVX3lxTE1acDlVT1RJNUJEanJNeS13TTJHVTBEU0c5ZEdORkY4MGF3MHRqREVwUU5YcmhSWHJJdzkxajI4YXR6eExEcFVxc1MyX3czQ0tNbExUMmFnMllla2lydGRLdUxEYktPaERfRU9VcnJYcXZyd2RJQ1hMVQ?oc=5",
-      "m": "10. 23. AM 07:20",
-      "ts": 1792740039000,
+      "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94dHFkQTktTGp5eTdGekwwZ3B4ZWphVk9VZmNpbjU4enR1c0EtRXZuV1RRaHZ6MVhIRFpzQnJOeVduVWpxTksxV1NpUlhBZ3gwZjQ5UUNUeTM?oc=5",
+      "m": "10. 23. AM 10:00",
+      "ts": 1792749614000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "지디넷코리아",
-      "t": "[AI 고속도로] 네비우스, GPU 확충에 35억 달러 금융 약정…AI 인프라 투자 가속",
+      "s": "데일리안",
+      "t": "정부, AI데이터센터 인허가 묶어 풀고 주차 규제 완화한다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjS0VzOTVfb3FnaEhzMHp4Y3RLSTJkSTFOT3U1dXdraEJpbmZpLUJKSnJWT1NiNW9lVkZQMWM2SHZoa3h6NHQxYk1WdEVSVm5Uam9VODR3?oc=5",
-      "m": "10. 23. AM 01:28",
-      "ts": 1792718928000,
+      "u": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNGsyT1Jtald0V3NxSGtpTjNFQTF2aldqbENFS0s1SHBFckNQVFNaV0hSSmo5cUVMZVo4X3hjOE94ZmgtQ0RNMVlyUmRrd21fWkRCX1pPbnpxSXBhbkdWa0ZQaWNCT2dpMHJSdDMzR3dnZ21kOU5iV2pScEd4eEhYbl95LUNvblQ2eHZIaVJ5aVZJTG5EME5DWDJta3ZXZUJZSUtvVjFtdVY3bmhKSVh2Yk1SN05KSVRmN2tGdU9BSVR4Qi1NV0RPUVo5b09KTlZSUnBJRG9uUlY4ZmwxbDRjV0JmcDZUd0dxbzNYS0V6THQ3UVJHVGFRbDg0b25zQnhQRnc?oc=5",
+      "m": "10. 23. AM 05:01",
+      "ts": 1792731660000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -260,8 +314,8 @@
       "t": "젠슨 황, 유럽에 AI 투자 확대 촉구…인프라 격차·규제 부담 과제",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QX2ZhVlFVdHRKaWo4NUMyTjNoM2dKRm1TWkpoaFprWEFZMGRMU2pTaXdlN3p3MDV5LV91ZENxZGg3SGcyYjE5U1cwdnhsb2k0Zk9sdnZUUkRXazJQS0dsdzlGOUhJRnBKVTFRc1JtQWRtT2ZrYjExZHo0bGVTMW8?oc=5",
-      "m": "10. 22. AM 07:43",
-      "ts": 1792655016000,
+      "m": "10. 22. AM 07:00",
+      "ts": 1792652400000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -304,26 +358,6 @@
       "fullText": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure Google Cloud A5X instances, accelerated by NVIDIA Vera Rubin NVL72 systems, support European innovators with next-generation agentic and reinforcement learning infrastructure. October 21, 2026 by Uttara Kumar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for demanding agentic inference and reinforcement learning workloads at scale. Google Cloud plans to scale its Vera Rubin-based infrastructure to as many as 960,000 Rubin GPUs across multiple sites. Ineffable Intelligence , a London-based technology company founded by AlphaGo creator David Silver, was the first customer to access A5X. Ineffable is using the platform to advance large-scale reinforcement learning and shape “superlearner” systems that learn continuously from experience. Read All NVIDIA in Europe Announcements Learning through interaction requires a continuous cycle of generating experience, evaluating outcomes and updating models, requiring infrastructure that can support the entire process at scale. A5X brings Vera Rubin into Google Cloud’s AI Hypercomputer as an integrated system, combining compute, networking and storage to support experience-driven learning at scale. “We’re building superlearners that continually improve through their own experience,” said David Silver, founder and CEO of Ineffable Intelligence. “That demands both substantial compute and a tight connection between generating experience and training on it, so each improvement in the agent can quickly shape its n"
     },
     {
-      "s": "디지털투데이",
-      "t": "AI 데이터센터 육성 속도전…산업계 \"규제 완화·세액공제 필요\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DTnZ1UE0wOHVSQ1NmQ3NCYU00eWpRcGNHc3BXX3hjXzZRUUZCSHFTc0pQVHJnVlNOX2U1RTZOZ2ltZG1wZGdzcnk2Z1o3SnN2aDRXN0VScDg1TzIybDRPeTUzT2g2NFlrT3BjVnl6MmtaLTg?oc=5",
-      "m": "10. 21. AM 08:28",
-      "ts": 1792571284000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "포쓰저널",
-      "t": "[국감] AI 데이터센터에 전력망 규제 복병…투자 속도 꺾이나",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YNTBmS1RRUnk1aWpibWFUZ0dGWV9sWGNXaVpTUUF1S3phc2pMdzdhRHNmaEkwYjhMNk1PYUNPeVo5eXB4WlZjOTBjcjBPVWpiNEp4ZHkzY0c5VnBWUWJHNGZNRS0?oc=5",
-      "m": "10. 21. AM 08:15",
-      "ts": 1792570546000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "정보통신신문",
       "t": "AI 데이터센터 투자 유치 골든타임…전력·인허가 규제 풀어야",
       "d": "",
@@ -344,52 +378,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "지디넷코리아",
-      "t": "하정우 부위원장, 강원 AI 정책 현장 점검…의료·교통·인프라 살펴",
+      "s": "TradingView",
+      "t": "\"美 데이터센터 사업 65%, 건설 장담 못해\"",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HMERFZVNnYXg1bmt3WXRIRVp0RS1sT1ZMbTFwSHZyajdXSHdFakNoU1BQMk85TjAyd1NKd19LS0cxZlRGaXB3UWlqc1VnOWJKRU1CRkNn?oc=5",
-      "m": "10. 20. AM 07:00",
-      "ts": 1792479600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "아시아경제",
-      "t": "불붙은 'AI 신냉전'…美 딥시크 퇴출·日 데이터 인프라 규제로 中 견제 강화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFRnJBQUQ0aDZrMVhzTTl2ZF9vSWZSTDliS2lwV3VyMFpSSGJ2RnpMaHVjbkpxYUgwb29wT05tVi1GcGsxQ2Q0RC1lZk5YQ2JKaWthWXpodGh4NE9Ibk1ESQ?oc=5",
-      "m": "10. 20. AM 07:00",
-      "ts": 1792479600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "간호사신문",
-      "t": "복지부, AI 의료·신약 인프라 현장점검 나섰다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pX01sbWo1LWxHekxnT1BvV2RjdW9YRmNHTlY4ZlJjZzlNMjZha3VtbHBnMnhWMVNodjR1VXJFeXBqS1k3akc3WU5zZklpX2NLbldQUDB4bHNNQk1nUVNVaGt6dEpwV0RLSmdZdzB3?oc=5",
-      "m": "10. 19. AM 07:00",
-      "ts": 1792393200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "서울뉴스통신",
-      "t": "의료AI 인프라 구축 속도…복지부, 네이버 데이터센터 운영·보안체계 점검",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16ZDRiQXNsbWVXZVNjeFBocDdIai1nd2ZVcjZpQ000VU4zbTJMRnUtMWFaM0FtcUJ6UUJteVlyQnR6Q0ExUnN4ZEp4UDBPVmZEOEFzQ25OYzRaQkZSb29Td1hpS1BlWlBzdy13?oc=5",
-      "m": "10. 19. AM 07:00",
-      "ts": 1792393200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "매일경제 마켓",
-      "t": "\"미국 데이터센터 47건 차질…AI 인프라 붐 균열",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FcVdxa1pPcW1ody1aNFVxZ2JybzBEV2lRclBiMDlzMDFDTnpab2k4QTVUbTBVZXl3THBjVUR4R0E5MWhDTVFEVnpvVVZRSWlXZkE?oc=5",
-      "m": "10. 19. AM 07:00",
-      "ts": 1792393200000,
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SVkVxX092dnlucjZkVFJQdDRXRlNwNTUyMmFkWVdMaUo4czhvZlZHQS0xNHRXcDlPcm5ld2w2cHpKTGZMR1lLOHFjVEJuczNUaUxkSDcxbHc0TUJHbFp2OGVPRDlXQzRv?oc=5",
+      "m": "10. 19. AM 08:41",
+      "ts": 1792399299000,
       "_policy": true,
       "fullText": "Google News"
     }

@@ -1,14 +1,59 @@
 {
-  "updatedAt": "2026-10-30T21:02:07.457Z",
+  "updatedAt": "2026-10-31T00:30:22.520Z",
   "count": 40,
   "stats": {
-    "today": 6,
-    "yesterday": 5,
-    "weekAvg": 2.1,
-    "sources": 22,
-    "heat": "warm"
+    "today": 1,
+    "yesterday": 8,
+    "weekAvg": 3.4,
+    "sources": 28,
+    "heat": "cool"
   },
   "items": [
+    {
+      "s": "전자신문",
+      "t": "GIST, 전력망 출력 조정 여력 계산 기술 개발…전압 이상·선로 과부하 발생률 6.7→0%",
+      "d": "광주과학기술원(GIST·총장 임기철)은 김윤수 전기전자컴퓨터공학과 교수팀이 태양광 발전·에너지저장장치(ESS) 등 분산에너지자원(DER) 출력을 조정할 때 전력망의 안전을 보장하고, 각 장치가 추가로 조정할 수 있는 전력량을 실시간으로 계산·제공하는 기술을 개발했다고 31일 밝혔다. 이 기술은 여러 발전·저장장치를 하나의 발전소처럼 묶어 운영하는 가상발전소(VPP)나 전력거래 과정에서 각 장치의 출력 조정이 전력망에 미치는 영향을 함께 고려하는",
+      "u": "https://www.etnews.com/20261030000010",
+      "m": "10. 31. AM 12:00",
+      "ts": 1793404800000,
+      "fullText": "전국 GIST, 전력망 출력 조정 여력 계산 기술 개발…전압 이상·선로 과부하 발생률 6.7→0% 발행일 : 2026-10-31 09:00 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 분산에너지자원 자율 운전을 위한 실시간 배전망 관제 개념도. 광주과학기술원(GIST·총장 임기철)은 김윤수 전기전자컴퓨터공학과 교수팀이 태양광 발전·에너지저장장치(ESS) 등 분산에너지자원(DER) 출력을 조정할 때 전력망의 안전을 보장하고, 각 장치가 추가로 조정할 수 있는 전력량을 실시간으로 계산·제공하는 기술을 개발했다고 31일 밝혔다. 이 기술은 여러 발전·저장장치를 하나의 발전소처럼 묶어 운영하는 가상발전소(VPP)나 전력거래 과정에서 각 장치의 출력 조정이 전력망에 미치는 영향을 함께 고려하는 일종의 '안전 가드레일'이다. 문제는 각 장치가 자체 용량을 지키더라도 여러 장치가 동시에 출력을 바꾸면 전력망의 전압이 지나치게 높거나 낮아지거나 특정 선로에 과부하가 걸릴 수 있다는 점이다. 같은 양의 전력을 조정하더라도 장치가 연결된 위치와 주변 전력 흐름에 따라 전력망에 미치는 영향이 달라진다. 전력망의 상태를 한 번 점검한 뒤 다음 점검까지의 시간에도 개별 장치의 출력이 달라질 수 있어, 장치별 용량만 확인하는 방식으로는 전력망의 안전을 충분히 판단하기 어렵다. 연구팀은 전력망의 현재 전압과 전력 흐름을 점검하고, 운전 한계를 벗어난 경우 일부 분산에너지자원의 출력을 조정해 안전한 상태를 확보한 뒤, '운전 유연성 여유량(OFM)'을 계산·검증하는 프레임워크를 개발했다. 전력망 상태를 15분 단위로 모니터링하고, 운전 여유량을 계산·검증하는 과정을 하나로 연결한 것이 특징이다. 왼쪽부터 조우영 GIST 에너지융합대학원 석박사통합과정생, 김윤수 전기전자컴퓨터공학과 교수, 노승길 에너지융합대학원 박사. 새로 개발한 프레임워크는 먼저 전력망의 전압과 전력 흐름을 확인하고, 운전 한계를 벗어난 경우 일부 분산에너지자원의 출력을 조정해 안전한 상태로 복구한다. 전력망이 안전한 상태인지 확인한 뒤 운전 여유량 계산을 진행한다. 이어 여러 장치의 출력 조정량을 함께 계산하고, 해당 조정량만큼 동시에 출력을 바꿨을 때도 전압과 선로의 운전 한계를 지키는지 반복적으로 검증한다. 이렇게 검증된 결과는 각 장치의 운전 판단에 활용할 수 있도록 제공한다. 연구팀이 실제 프레임워크가 전력망의 안전을 유지하면서 ESS의 활용도 유지할 수 있는지 확인한 결과, 개별 ESS의 기기 조건만 고려했을 때 6.7%였던 전력망 운전 한계 위반율이 개발 기술을 적용한 경우 0%로 감소했다. 반면 전체 ESS의 충·방전 처리량은 거의 그대로 유지됐다. 전력망에 부담을 주는 위치의 장치 대신 상대적으로 여유가 있는 위치의 장치에 출력 조정량을 배분함으로써, 전력망의 안전성을 확보하면서도 ESS의 활용 수준을 유지할 수 있음을 확인했다. 실제 배전선로 규모에서도 관제 주기 안에 계산을 마칠 수 있는지 제주도의 배전선로 데이터를 활용한 추가 모의실험해 15분 관제 주기 안에서 여러 배전선로의 운전 여유를 산정할 수 있는 계산 성능을 규명했다. 김윤수 교수는 “이번 연구는 배전망 운영자가 개별 분산자원의 자율적인 운전을 최대한 보장하면서도 전력망의 물리적 한계를 침범하지 않도록 실시간 안전 가드레일을 제공하는 핵심 기술”이라며, “현재 한국전력의 실제 배전계통 시스템(DSO-MD)에 적용되고 있는 만큼, 향후 재생에너지 수용성을 높이고 한국형 배전계통 운영체계와 지역 전력시장을 안착시키는 데 크게 기여할 것”이라고 말했다. 전남광주=김한식 기자 hskim@etnews.com"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Meta’s Rating Outlook Cut to Negative by S&P on AI Spending",
+      "d": "S&amp;P Global Ratings took an early step toward potentially downgrading Meta Platforms Inc.’s credit rating within the next two years, amid growing pressure on the tech company’s balance sheet stemming from elevated spending tied to artificial intelligence.",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/meta-s-credit-rating-outlook-downgraded-to-negative-by-s-p",
+      "m": "10. 30. PM 09:56",
+      "ts": 1793397360000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Anthropic expected to receive high &#8216;junk&#8217; rating from credit agencies following IPO, FT report says",
+      "d": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "u": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "m": "10. 30. PM 09:52",
+      "ts": 1793397123000,
+      "fullText": "In Brief Posted: 2:52 PM PDT · October 30, 2026 Image Credits: Anna Moneymaker / Getty Images Lucas Ropek Anthropic expected to receive high &#8216;junk&#8217; rating from credit agencies following IPO, FT report says Anthropic is expected to receive a high &#8220;junk&#8221; rating from credit rating agencies following its initial public offering, according to a report from the Financial Times. The FT says the investment giant Blackstone, the anchor investor in a recent $63 billion deal to finance Anthropic’s chips, told investors in the deal that it expects the AI lab to receive a “high” junk rating after its IPO. Previously, the FT notes, Blackstone had said the opposite: that the Claude maker would receive an investment-grade rating (indicating low risk for lenders) before 2027 rolls around. Now Blackstone expects double B range rating, the top tier of speculative &#8220;junk&#8221; grade, according to the reporting. TechCrunch reached out to Anthropic and Blackstone but both declined to comment. Blackstone&#8217;s forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business. The lab has been on a spending spree, racking up large compute power deals throughout the past 12 months, which has worried investors . Anthropic officially filed to go public earlier this week, kicking off a wave of speculation about how the massive IPO would impact the broader AI industry . Topics AI , Anthropic , In Brief , IPO November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch&#8217;s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Newsletters See More Subscribe for the industry’s biggest tech news TechCrunch Daily News Every weekday and Sunday, you can get the best of TechCrunch’s coverage. TechCrunch Mobility TechCrunch Mob"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Applebee&#8217;s exposed customers&#8217; personal data after leaving database password in app",
+      "d": "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.",
+      "u": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+      "m": "10. 30. PM 09:48",
+      "ts": 1793396933000,
+      "fullText": "Applebee&#8217;s has fixed a security flaw that allowed anyone to access the personal information of its registered customers, after a researcher found a password for an internal database inside Applebee&#8217;s mobile app, TechCrunch has learned. The popular restaurant chain confirmed on Thursday that it had taken action to address the security issue to prevent any unauthorized access to its customer database. TechCrunch withheld publication of this story until the bug was confirmed to be fixed. Robert Wiggins , a U.K.-based cybersecurity researcher at What Security , discovered the security lapse earlier this month. Wiggins is no stranger to discovering security issues , including exposed or sensitive information that should not be publicly accessible. For this latest discovery, Wiggins used AI to help find the credential buried inside thousands of lines of source code in Applebee&#8217;s Android app, which has more than a million downloads on Google Play. The credential allowed access to the company&#8217;s customer database. Storing a password or private key in software, known as hardcoding credentials, is one of the most severe types of security vulnerabilities because anyone with the app can extract the key and use it to log in to a remote system as if they were an authorized user. Wiggins said that the hardcoded credential could have also allowed a malicious attacker to modify customer data in the database. TechCrunch verified Wiggins&#8217; findings by downloading and decompiling Applebee&#8217;s Android app to examine its source code and confirm that it contained the exposed credential. We also created an Applebee&#8217;s account with dummy account data, which allowed Wiggins to retrieve our information from the company&#8217;s database. The exposed database contained customer names, email addresses (including whether or not the customer verified their email), dates of birth, phone numbers, and ZIP codes. The data also included veteran status, the number of"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Illumina CEO on Q3 Results and Business Outlook",
+      "d": "Jacob Thaysen says Illumina delivered a strong third quarter, beat expectations and raised its fourth-quarter outlook. He said the company has moved from essentially flat performance to mid-single-digit growth over the past 18 months and remains committed to its high-single-digit growth target for 2027, with clinical business serving as the main growth driver. He speaks with Romaine Bostick on \"Th",
+      "u": "https://www.bloomberg.com/news/videos/2026-10-30/illumina-ceo-on-q3-results-and-business-outlook-video",
+      "m": "10. 30. PM 09:33",
+      "ts": 1793395981000,
+      "fullText": ""
+    },
     {
       "s": "Bloomberg Tech",
       "t": "AI Media Firm Needs Privacy Ombudsman in Disney Deal, Judge Says",
@@ -46,24 +91,6 @@
       "fullText": ""
     },
     {
-      "s": "전자신문",
-      "t": "포스코퓨처엠, LG에너지솔루션과 7년간 72만톤 규모 공급 합의",
-      "d": "30일 포스코퓨처엠은 LG에너지솔루션과 '미래 협력 MOU'를 체결하고 급변하는 전기차(EV)·에너지저장장치(ESS) 시장과 글로벌 통상환경에 공동 대응하기 위한 협력 체계를 강화하기로 했다. 미래 협력 MOU에는 최근 이차전지업계에서 이슈가 되고 있는 리튬·인산·철(LFP)와 인조흑연 음극재를 포함해 Ultra Hi-Ni 양극재, 그리고 나트륨이온전지, 실리콘 음극재 등 차세대 제품 공급과 기술개발 협력 등이 포함됐으며, 양사는 시장 변화에",
-      "u": "https://www.etnews.com/20261030000342",
-      "m": "10. 30. AM 08:41",
-      "ts": 1793349677000,
-      "fullText": "반도체 소부장 포스코퓨처엠, LG에너지솔루션과 7년간 72만톤 규모 공급 합의 발행일 : 2026-10-30 17:41 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 포스코퓨처엠 포항 양극재 공장 전경 30일 포스코퓨처엠은 LG에너지솔루션과 '미래 협력 MOU'를 체결하고 급변하는 전기차(EV)·에너지저장장치(ESS) 시장과 글로벌 통상환경에 공동 대응하기 위한 협력 체계를 강화하기로 했다. 미래 협력 MOU에는 최근 이차전지업계에서 이슈가 되고 있는 리튬·인산·철(LFP)와 인조흑연 음극재를 포함해 Ultra Hi-Ni 양극재, 그리고 나트륨이온전지, 실리콘 음극재 등 차세대 제품 공급과 기술개발 협력 등이 포함됐으며, 양사는 시장 변화에 대응하기 위한 양·음극재 제품 다변화와 공급 로드맵을 구체화해 연내 정식계약을 체결할 계획이다. 이날 합의에 따라 포스코퓨처엠은 2027년부터 2033년까지 7년간 총 72만톤 규모의 양·음극재를 LG에너지솔루션에 공급하게 될 전망이다. 기존에 LG에너지솔루션에 공급하던 삼원계 니켈·코발트·망간(NCM) 양극재는 중·장기적으로 폐배터리에서 추출한 회수 금속 사용을 확대해 원가 경쟁력을 더욱 높이는 방안을 추진하고, 최근 AI 데이터센터 증설과 보급형 전기차 판매 확대로 수요가 급증하고 있는 LFP 양극재까지 협력 범위를 넓히기로 했다. 우선 포스코퓨처엠은 포항 양극재 공장 하이니켈 삼원계 양극재 생산라인을 LFP 양극재 생산라인으로 전환하는 작업을 속도감 있게 추진해 내년 초부터 LG에너지솔루션에 LFP 양극재를 본격 공급한다는 계획이다. 향후에는 포스코그룹의 아르헨티나 염호리튬을 활용하는 신공법을 개발해 원가경쟁력과 품질을 더욱 향상시킨 차세대 LFP 양극재를 공급한다는 방침이다. 또한 포스코퓨처엠은 배터리 급속충전 성능과 수명 향상에 유리해 수요가 꾸준히 증가하고 있는 인조흑연 음극재를 한국과 베트남에서 생산해 LG에너지솔루션에 공급한다. 김명희 기자 noprint@etnews.com"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Foxconn: AI Will Boost Consumer Electronics",
-      "d": "Foxconn Rotating CEO Michael Chiang says AI industry will boost the consumer electronics business. In an exclusive conversation with Bloomberg's Annabelle Droulers, Chiang says that in-region manufacturing is more critical. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-10-30/foxconn-ai-will-boost-consumer-electronics-video",
-      "m": "10. 30. AM 01:51",
-      "ts": 1793325085000,
-      "fullText": ""
-    },
-    {
       "s": "TechCrunch",
       "t": "Andy Jassy says Prime Video is on track to earn &#8216;tens of billions of dollars&#8217;",
       "d": "The success of blockbuster hits like \"Project Hail Mary\" and \"Verity\" is only part of the story, Amazon's CEO says.",
@@ -73,31 +100,24 @@
       "fullText": "It&#8217;s been four years since Amazon bought MGM for $8.5 billion . But coming off the blockbuster success of this year&#8217;s hit movie &#8220;Project Hail Mary,&#8221; Hollywood has become a lucrative business for the e-commerce giant. Prime Video, Amazon’s streaming service, &#8220;has emerged as a significant business with a revenue run rate in the tens of billions of dollars and is now profitable in its own right,&#8221; Amazon CEO Andy Jassy said on the quarterly earnings call on Thursday. Jassy had previously told investors in May that Prime Video was profitable , but being on track to generate tens of billions is a new detail. Amazon said its movie studio, Amazon MGM Studios, has brought in more than $1.2 billion in global box office sales so far this year, helped by hits like &#8220;Project Hail Mary&#8221; and &#8220;Verity.&#8221; &#8220;Project Hail Mary&#8221; grossed an estimated $684 million worldwide, according to The Numbers . Starring Ryan Gosling and based on Andy Weir’s novel , the film opened in theaters in March and became Amazon MGM Studios’ highest-grossing release, according to entertainment reports. (The studio also had at least one notable flop this year: &#8220;Melania.&#8221; ) Jassy also named a number of TV shows as hits, including &#8220;Carrie,&#8221; &#8220;The Summer I Turned Pretty,&#8221; &#8220;The Boys,&#8221; &#8220;Off Campus,&#8221; &#8220;Fallout,&#8221; and &#8220;Reacher.&#8221; Season 4 of &#8220;Reacher&#8221; drew 66 million viewers globally in its first 28 days, the company says, with more to come. Season 5 is filming now, and the show was picked up for a sixth season. (And if you don&#8217;t follow Alan Ritchson, the star of &#8220;Reacher,&#8221; on Threads, you are missing out on an actor who has turned a friendly-yet-witty reply into an art form.) Sports have also been a significant driver. Prime Video broadcasts NASCAR, the Masters, and UEFA Champions League soccer, but Thursday Night Football appears to be it"
     },
     {
-      "s": "TechCrunch",
-      "t": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "d": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "u": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "m": "10. 29. PM 11:42",
-      "ts": 1793317342000,
-      "fullText": "Andy Jassy has made it known that he believes AWS can be a trillion-dollar revenue business. During Amazon&#8217;s quarterly earnings call on Thursday, he repeated this ambition. &#8220;What we&#8217;re building at Amazon is unlike anything that&#8217;s ever been seen before. There has never been a business with a trillion dollars of annual revenue,&#8221; he said. However, before the cloud business gets there, Amazon is going to have to ramp up its capital expenditures to build out the infrastructure necessary to support that blossoming business. &#8220;We still expect 2026 cash capex of approximately $220 billion — the majority for AWS — and expect to spend meaningfully more in 2027, with a clear line of sight to attract its financial returns,&#8221; Jassy revealed on Thursday. Amazon&#8217;s big spending on its AI infrastructure buildout has been an ongoing source of concern for investors this year. Indeed, during Thursday&#8217;s call, Wall Street analysts repeatedly asked Jassy to explain the spending, the signals that the growth really will come, and the profit margins expected. Jassy told them it was all money well spent because the e-commerce giant planned to capitalize on a historic moment in global cloud demand driven by AI. AWS revenue increased 39% from the year-ago quarter, a trend of steady growth for the sixth straight quarter . And the CEO forecast that it would increase by 40% not just next year, but in 2028, too. &#8220;AWS is a $184 billion annualized revenue run-rate business, and yet the opportunity remains extraordinary,&#8221; Jassy enthused. &#8220;With our continued pace of innovation, new core and AI functionality, enterprises wanting to run their core and AI workloads in AWS, and the amount of capacity that we&#8217;re adding each year, we believe that AWS can grow north of 40% in each 2027 and in 2028, and be a trillion-dollar revenue business in the next five to 10 years.&#8221; Jassy added that the company was &#8220;in the very early d"
+      "s": "한라일보",
+      "t": "[신재생에너지] (7·끝)제주 신재생에너지 모범도시 성공 방안은",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZLTJFRjVMQXp0OFNqZ2dldTBHcFlBeXRrdDl4RFczb1JmSnZEUFRzem9SSkZ0VURtbXhnMXRJa2tOVmh5N3d6dWVpU0Zmck1fR245ZFY5NVRHZXc5dGwyN3JCSTZ0Vzgx?oc=5",
+      "m": "10. 29. PM 06:00",
+      "ts": 1793296800000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
-      "s": "TechCrunch",
-      "t": "GM reaches $220M settlement over selling drivers&#8217; private data",
-      "d": "As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data.",
-      "u": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
-      "m": "10. 29. PM 09:01",
-      "ts": 1793307664000,
-      "fullText": "General Motors will pay $220 million to 36 states to settle allegations that it illegally sold private driving behavior and location information to data brokers. As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data — terms that are in line with separate agreements it previously reached with California and the Federal Trade Commission (FTC). This settlement does contain a new requirement that GM must have a third party assess the automaker&#8217;s compliance with the privacy program it has put in place. The agreement announced Thursday settles a lawsuit brought by a coalition of attorneys general from 36 states that alleged GM had sold the information to data brokers, which in turn then sold it to insurance providers. &#8220;This agreement addresses Smart Driver, a product we ended in 2024, and reinforces steps we’ve taken to strengthen our privacy practices,&#8221; GM said in an emailed statement. &#8220;Safer, more helpful and personalized experiences are enabled by connected vehicle data, and GM is committed to being clear about what information is used, how it’s protected, and the choices customers have about what they share.” The settlement comes more than two years after a New York Times report showed how GM and OnStar collected, used, and sold drivers’ precise geolocation data and driving behavior to third parties, including data brokers LexisNexis and Verisk. The data was collected through GM’s Smart Driver program, a free feature contained within its connected car apps that tracked and rated driving behaviors and seat belt use. Data brokers sold this information to insurance providers, which could affect customers’ rates, the NYT reported at the time. GM discontinued Smart Driver in 2024, but that didn&#8217;t stop legal action. In January, the FTC finalized an order that bans GM and its OnStar telematics service from sharing certain consumer data. The FTC settlement, as well as the mult"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "As search traffic dries up, Reddit announces it&#8217;s shifting to a logged-in experience",
-      "d": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "u": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "m": "10. 29. PM 08:08",
-      "ts": 1793304511000,
-      "fullText": "Reddit has long attracted millions of users to its site through Google, with many even appending the word &#8220;Reddit&#8221; to their search queries for better answers. But as search traffic dries up amid the shift to AI-powered search, Reddit is rethinking its relationship with the open internet. In its third-quarter earnings call on Thursday, the company announced it&#8217;s transitioning to a primarily &#8220;logged-in experience.&#8221; The move is designed to protect its data from AI scraping, allowing the company to instead forge lucrative licensing deals with model providers. But just as important, such a shift could help Reddit to increase its revenue even as it faces daily active user declines in its largest market, the U.S. Overall, Reddit&#8217;s global daily active users were flat quarter-over-quarter in Q3, reaching 130.3 million, while U.S. daily active users dropped from 53.2 million in Q2 to 50.7 million in Q3 and were down 2% year-over-year. Image Credits: Reddit The company is not alone in seeing such declines; the shift to an AI-centered web has impacted most websites and publishers by now, leading to fewer click-throughs, as AI summaries provide answers that don&#8217;t require website visits and Google&#8217;s traditional &#8220;ten blue links&#8221; have reduced relevance. (The change is now even impacting Google&#8217;s bottom line , its earnings revealed.) But at Reddit&#8217;s scale, the numbers associated with such a decline are enormous. The company said search traffic referrals dropped by more than 1 million referrals on average per week in October. It warned that if the trend continues, daily active users could decline to a low-double-digit percentage by next quarter. (To play that out: a hypothetical 10% to 12% decline could bring Reddit to roughly 115 million to 117 million daily actives, down from 130.3 million in Q3. That&#8217;s a huge drop!) At the same time, Reddit has gotten significantly better at monetizing its audience even "
+      "s": "뉴스워커",
+      "t": "담양군, RE100 생태계 구축 위한 규제혁신 협약 체결",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pdTlHb1F4ZWZSUEhycDUxb2RlUDFmYjhIUHFjSFVibEZIOUFpY3JMLWRYZ1Zkc1VmeWhDeFAxbjJiUUZJWUpEQzlCVEdZOURkTVNHb3lWYkVLWWpDZ1J4M2lzTlZMcGZfazhqLVZGZzB5aW5p0gF0QVVfeXFMTWl1OUdvUXhlZlJQSHJwNTFvZGVQMWZiOEhQcWNIVWJsRkg5QWljckwtZFhnVmRzVWZ5aEN4UDFuMmJRRklZSkRDOUJUR1k5RGRNU0dveVZiRUtZakNnUngzaXNOVkxwZl9rOGotVkZnMHlpbmk?oc=5",
+      "m": "10. 29. AM 05:55",
+      "ts": 1793253317000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "제주투데이",
@@ -110,12 +130,42 @@
       "fullText": "Google News"
     },
     {
+      "s": "뉴스워커",
+      "t": "함평군, '아태 재생에너지 포럼'... 반도체 연계 생태계 구축 선언",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuNUlKSDFZYVBneWNPVUZybmt0WTRBMTR4X0lZVkloRXphM2EtbjFjZnFuX2RlYjdxNk43Tmo4TUhLNjhNR0tTS3Z2STJGaGlhdDJvNkhWNE4xRmtOQ2NVMzdzYkJOeHJEd0VQMEVqRWLSAXRBVV95cUxPWm1jSFJMaktvUWZ6cVRubnEyQzZ5b2liaDRqbjFBVlVPOU9qWjB6ZV94VlR0cnpLR2tFRzJHWHlHdjRrbC1PRDZwQnpzNEFyd0R6aUxwWmgyYXlQLVAtVHA4bFc1NVRFMWFjLUJSZWNteDlxTQ?oc=5",
+      "m": "10. 29. AM 01:10",
+      "ts": 1793236200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴스임팩트",
+      "t": "[이슈] 미 중간선거가 바꿀 신재생에너지 주가…‘블루 웨이브’에 태양광·ESS 반등하나",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE55bGFKN2FXNkpDem9WanFDRFZlQnhBY0MydVdiUWpfNl9zQ1Q1cXNyUFFLRkxYVHNsSDFOenZYQS1zQmlsUE1BSXduOGZ2ZXg3QkQ4WGp1LUptQnBnRzdVWU5TcFBWZjRISnpQdFEyNmdDQQ?oc=5",
+      "m": "10. 28. PM 09:05",
+      "ts": 1793221500000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "SK브로드밴드 회사소개",
       "t": "[연계] ② “계획 넘어 실행으로”…천안시 재생에너지 정책 과제",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PTGoyblkxSWxEc3F0Z0FIY3ItZWtPb1hSNUFISDZmdXZhVzAyaEVuYWMweWpEQng4NE94aGYwa0JpRHlqeks0aWlxMFZzUjdlSlRrV3FHUmlTS01xRTB4UlNubmd1anN5NDhvbE5hUkc?oc=5",
       "m": "10. 28. AM 09:06",
       "ts": 1793178391000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "대한데일리",
+      "t": "[ESG] 친환경 에너지 정책·기술 한자리에 ‘스마트에너지플러스 2026’",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBobkhlekNNclFha3lwcXkteEZFaWZTSEo1QUFEWmpwX3NIUjBBNWpfVTJVU21PLVBlTzdyU2pjaWNrSGlwRnB5ZG95anBPQTJQMFFBODFJWHcxM29YeXlTS1huUXdoZ1NhbnRj?oc=5",
+      "m": "10. 28. AM 08:14",
+      "ts": 1793175245000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -146,7 +196,47 @@
       "u": "https://www.nbcnews.com/nightly-news/video/screens-crack-on-apple-s-new-foldable-iphone-272369221776",
       "m": "10. 27. PM 11:09",
       "ts": 1793142584000,
-      "fullText": "Meet the Press Mississippi Dem. Senate candidate: Trump promised &#x27;America First,&#x27; but delivered ‘Mississippi last’"
+      "fullText": "NBC News NOW Independent voters hold the key in New Hampshire&#x27;s high-stakes Senate race"
+    },
+    {
+      "s": "산경e뉴스",
+      "t": "한국재생에너지단체총연합회, 공식 홈페이지 개설",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DOEhqZzhwUEwxYUZkbzRpQ0FhZ0JyVnYtekZCdDRtdUZpVFhNRWktZndQRmRSQVZ3bkpWR0Q3Vk80Q0IzUy1wOW1KVTBDLWtDTS1OOGd1bkJJWWk1V3RpSWZycFhnVkU?oc=5",
+      "m": "10. 26. PM 12:34",
+      "ts": 1793018061000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "에너지신문",
+      "t": "한재연, 재생에너지 정책·현장 의견 모을 온라인 창구 마련",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qTldDYWlNbXVxeXU3dGJWbE15Y2hTX1FtOW9OdGRjcWxDQzVBNHBOZ3gwWXVtWnVyLUlKRDVLSWFZbTVKT21KdXh6RUh2V0VacXhyZVd5RThCNW5kTllfSVdQbW8zN3g5aUYtLUY3VmRsUQ?oc=5",
+      "m": "10. 26. AM 10:06",
+      "ts": 1793009178000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "이투뉴스",
+      "t": "[국감] 나경원 의원 “한전 부담 키우는 에너지정책, 표리부동”",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fZV92dUxpZUpWb0JxT2xOOGpsd2h1RlBVN0p3eE5EbGQ0UWxJelRxeHVwZ2ZVT1otc3pZcEtPUUtaeGd6N0htakFvYkRTSE1NSG9xQnB0cXpGZ0NxVUhvTXRZNGJkYkHSAWtBVV95cUxQM2dleXFpdndOYUpxVk15N0hHNWp5SWZuVlhtVzAyeTlqUjNVWFlVZnRYRHFBQ3JNVWN3MkY4WmdJSmZuLXR2NE5BVHU0UzkyODE3Uk90MWx5Yk5zUXphX2NLN2pmcTdHTDFnQQ?oc=5",
+      "m": "10. 26. AM 08:40",
+      "ts": 1793004046000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "중부매일",
+      "t": "당진시, 공공건축물 신재생에너지 정책 선도",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PRG5CUVpEcktaR25IaUdyV0tzRHFwYzNDa0h4bDVCTzRTbjFXdlZzc2Z0V2JvSkRwdGNpcDZ0LXFIWWxETlRpQ3F6dTQ4WUVfNFpRaGY5RGRyUGR2RmpTaVM4VDZBWDJKWEHSAW5BVV95cUxNZ3pMX2lzb1VjV1ltc3YzQUcwS3ZxeUlfNklSdHFWbVBjQVY4SGltV19NM095M2diamhERDQzWVRfTnRaTHdNV0g3bVpINnVNcTRjSXY3RUV0TFlHN1R1UVZRTEMxMF9fdXA1aUEwUQ?oc=5",
+      "m": "10. 24. PM 06:48",
+      "ts": 1792867729000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "거제인터넷신문",
@@ -165,7 +255,7 @@
       "u": "https://www.nbcnews.com/video/goldman-sachs-spends-big-to-give-small-businesses-an-ai-boost-272042053796",
       "m": "10. 22. PM 04:00",
       "ts": 1792684801000,
-      "fullText": "Meet the Press Mississippi Dem. Senate candidate: Trump promised &#x27;America First,&#x27; but delivered ‘Mississippi last’"
+      "fullText": "NBC News NOW Independent voters hold the key in New Hampshire&#x27;s high-stakes Senate race"
     },
     {
       "s": "NVIDIA공식",
@@ -177,22 +267,52 @@
       "fullText": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction October 21, 2026 by Niall Robinson 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a family of open AI models and tools they can customize with their own data. Running on NVIDIA computing, these technologies support global weather prediction, detailed regional forecasts and environmental research. Read All NVIDIA in Europe Announcements StormScope EU is the latest model to join Earth-2 — a regional version of the StormScope model for short-term forecasting, trained over Europe weather and climate data. It uses EUMETSAT satellite observations to predict evolving cloud conditions across 16 Meteosat channels at 10-minute intervals. At GTC Berlin, NVIDIA is showcasing a live StormScope EU pipeline in an interactive weather demo built in partnership with Earthmover . The demo uses Earth2Studio to run forecasts and Earthmover’s data platform to manage and serve the real-time results, which are updated as soon as new satellite observations come in, every 10 minutes. Earthmover serves these results as map tiles, letting visitors explore predictions across Europe without downloading entire datasets. Developers can combine Earth-2 models in workflows tailored to regional needs, using StormScope for short-term forecasting and CorrDiff to add local detail to coarser weather data. Developers can also pick up these model architectures and train them for new environmental applications such as air-quality modeling. The open source NVIDIA PhysicsNeMo framework provides training a"
     },
     {
+      "s": "전자신문",
+      "t": "전북도, 재생에너지 정책 전환 대응·분산에너지 특화지역 육성 '총력'",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yVTZHbXo1R24tME1FcjFOU3NPMmsyOGpIb0hxQXNqMzE3QXhZVjNReE1RODM0YUpDZ1B3UnZWbjBlYzQ3X2poX3BsajYtZw?oc=5",
+      "m": "10. 22. AM 01:31",
+      "ts": 1792632679000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "보험신보",
+      "t": "정부, ‘신재생에너지 보급확대정책’ 가속도 보험상품 개발은 저속",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nM25rU0JGV3pFZUNXa2FGLTRwSW5kQW9XUGxhU1NoZUlNMWp1VHZmbmdMV0RPYXg3TUJnblFNSTQyTXVlUUs0Szl2bmxLLXRiUkFnd3RrYWRvQWRqYnlqWWtyTXhtSVVJeFJV?oc=5",
+      "m": "10. 18. PM 03:00",
+      "ts": 1792335600000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "영남경제",
+      "t": "[기획①]세계는 신재생에너지 전쟁 중… 보급 확대 넘어 제도 혁신 시급",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sd1VfNkZneWhaSmd3ZWduUFI1ZkNTTDk4RDVzY194R0ZBOVd1OUtxRW5mb2dtbzlUMlN2UXJPVzh6Wi1NT0tWTFlHNGgxYXZmYlFndnozU185bmZiNHd4eHhpZk1yTDg?oc=5",
+      "m": "10. 18. AM 07:00",
+      "ts": 1792306800000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "한국금융경제신문",
+      "t": "[기획] 한화솔루션 태양광, 영업익보다 큰 AMPC",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6b0R0ekJ1ZGlld3hGR2pFUFR1bTNmY2JJTk84YUJGdUZqNF8zZ3hSZHhhWW5pN05mMmVDT1luOG5lYVRuMDlKV0h1dkNmRC1vRmNQRmNxQTk1WFBLYkUwblBJaHdRZGZYNWI3VdIBcEFVX3lxTE9OeTY2czBZUUNCclNtMmNYcFM2d2RMOWs1MFkzLUVTZ29DNW44Z0lZUkh2SGtveG1XZkQ5dVNacFdSdTJId0t0ZW42QWppNmdvRmtrVEhHN0ZOYnkxMWMtc29ORlFyTjNFMm5Hekp2amQ?oc=5",
+      "m": "10. 02. AM 07:00",
+      "ts": 1790924400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "비즈니스포스트",
       "t": "한화솔루션 정부의 재생에너지 확대정책 반갑다, 박승덕 '한국판 IRA'로 새 기회 잡나",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jUmFkUDZRSlc2dTRQZ0JwMTl0WFZsblU3VncweWxmTEh6MDh3NTRWYUttTTdBUFktTjlOQmhNVllGbkx6OE94SUIwWnhoSUNTb2lyN0N4WTVQRVRGYlJJWEJMQllyUGhuRDFfTWd1bkJPM1E?oc=5",
       "m": "08. 23. AM 07:00",
       "ts": 1787468400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대한민국 정책브리핑",
-      "t": "재생에너지 보급제도가 15년 만에 새롭게 바뀝니다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Ba2tqWlJLN1lBWjloRWxCWjVLVXBxSUN4OTQyVjdZellQMU9RQThjcGlUOTZSZV95NlhfVzNjaHVid0RRNk16VHRMZ3dITXBJdm8tVVlzZ0NuWjlxbGNaUUpfX29uZHYzVjNkWS13?oc=5",
-      "m": "08. 21. AM 07:00",
-      "ts": 1787295600000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -237,16 +357,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "부산일보",
-      "t": "‘재생에너지 이격거리 규제’ 상한 도입…태양광은 주거지서 최대 200m 이내",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MS2t1Z1RBd1ZpUFNFck1XOFRNSEJ3YW5oQjg0ZFl2VXQ4QUM3OXhSamkxd0U0cFg0eUVrU1lOZHI5NXFGLWVNRUNRM1NTUXJfdVdiR1NSdmJPbUVucFo5bE9KQmJ1SjVaQ0VJSkN2ODg3SkVY?oc=5",
-      "m": "08. 11. AM 07:00",
-      "ts": 1786431600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "대한경제",
       "t": "한화솔루션 ‘어닝 서프라이즈’…2개 분기 연속 흑자, 당장 3분기는 ‘글쎄’",
       "d": "",
@@ -277,122 +387,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "기후에너지데이터뱅크",
-      "t": "재생에너지 이격거리 규제 완화…태양광 도로 이격거리 제외",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4yeWpKUmhZaDFnNS1sSEVMVk9rX3VGcXE0Wi16M284dUN4NFZCN1kyOEJwajdYQkU5MTNqR3F0VEcwUTFneXdGbEZ1cUVvRFZTTURWODBteURDOC1oNUE?oc=5",
-      "m": "07. 23. AM 07:00",
-      "ts": 1784790000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "에너지데일리",
       "t": "[초점] '신재생' 시대 막 내리고 '재생에너지' 시대 연다… 이격거리 기준도 첫 법제화",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE80OE04d1A4M3JZYkhzX2N0UmxxYzVHT210c0w2WkFaSHg2WG1JSEp5Q0NYOTlySUt3YTkxMmJzZTVLbUtHTWNvU3VncFhtdVA4QmZZUGhxTXk0dFJZVFRNWGdoNGxTX0JhM2ZqblhBM0FvUQ?oc=5",
       "m": "07. 21. AM 07:00",
       "ts": 1784617200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "법률신문",
-      "t": "재생에너지 발전시장 규제 변화에 따른 프로젝트 금융계약에 대한 시사점",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Tb05wejhVZmNrazdiRHlDN01McHFXemlILUM4djR4a1d2YmdtUDF5czFBN0FlcEV2YWhZRkxTanZzaVZUUnVTVExaS2xlQ0tid2pXaWJBWGtlakxHZzlrOGpxdWZfTDBPTllfWUhB0gFyQVVfeXFMT3pPVEMybHRLLV9nb19EWndtMHc5X1ZvX3NFQTN6UWxWZkRwRGpvclJDZnZDeTFRb0ZMbUlvU0tPZm1EVnJCZHJhRUxfQ0NaSmM2UUo3SFB4eUktek9yM0NtZDRpZDNmWHhuRGwySUNsbDVR?oc=5",
-      "m": "07. 16. AM 07:00",
-      "ts": 1784185200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "에너지경제신문",
-      "t": "“재생에너지 100GW 물리적 한계…12차 전기본에 신규 원전 3기 이상·SMR 2기 반영 필요”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50WjI2Q0JHOEFVOGZqVTJDbXRZRGRsYUVnUlF5aVM4ZjB4TTdmbXY1RmhyY3RESjl6VDNRUENJb2Vla2xwYWpPN1FrVG5Ld2E1Y25IdDNwalphZW8?oc=5",
-      "m": "06. 16. AM 07:00",
-      "ts": 1781593200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "전기신문",
-      "t": "이재명 정부 1년, 에너지정책 대전환의 시작..이제 실행력을 높여야",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwNDBTZTE4U1dKNlJQRktoOGJwTlBJVUZrYlhLc0xXUnNBZzd3azFJUl9mYTl0TWc5YUphMTc3WmYwVDV4ZjF5UUpQNWM1UnM5UzI4d0FyZnNNYkxPOW5nQk81T0Mtb1I0R1c0MdIBcEFVX3lxTE1YRlVWam9ycGRaNzhPMnJIUzJoVGs4bjVpUExHMXF3cEFFZmx5U25GS3NoYm1icllfa095RUdMTXp6dmVXS2llaGs5c0NBOE5UTG5qdEdCNW9WYUxodEkxOU9hcUFTRGpaLXg0ODlHZk0?oc=5",
-      "m": "06. 05. AM 07:00",
-      "ts": 1780642800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "에너지데일리",
-      "t": "“태양광 이격거리 규제 개선, 과거보다 후퇴했다”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lUFdhYUJLSEtXRlY1SnZ0VXdLeWk0UUU1SDQzaGI0R0dUZFhrVE1rdmZyQTItdk1OWkVkTWpxbHdWdGI4ZS1BM2dHYXVjcHRic2hkeDRaWkFLSE51WW5PUE9xQ2VqczlhcXNWcldkNlZ3Zw?oc=5",
-      "m": "05. 22. AM 07:00",
-      "ts": 1779433200000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "전기신문",
-      "t": "이재명 정부, 에너지정책 속도 높인다…RPS 폐지 등 주요 법안 신속처리",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DRW1rNk9ObWVpWWk1SGpsaU43TUZtdFRBUGY5SFlZY1l5VkVjSlU0RmN6dWxHUEJUMFZIRXlqNGVXd1FoLXFlclkyZGZIeHlyZU9tb3BhLU9PWnY2MVFyNmZ5cXotNVlwQ2Y0aNIBcEFVX3lxTE9qS1l3ZElYMWJMRnZaY1BLUXFqVmozQTFzN2VOWHYxT2tNLTJfUWdMVWc2eFVtZEFLQVdJaXBQekdqNTdQUmNQTGdzT180SC1PaFZEa2IzNUlPVlRsMVlpejR1NC1NQW5zU3o2clM1TlU?oc=5",
-      "m": "05. 21. AM 07:00",
-      "ts": 1779346800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대한민국 정책브리핑",
-      "t": "에너지 대전환 정책 발표",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFdjMxdXJnVjB2eVlpR011QnpqMlVBWVBBNU9yY0laRWlJOW9nSjRoNklnYnd3Q3A1ZXdTbnQ3WGJPRnBTclhjWjBQWnI3ZG9OcVJlY0tYNDZoTFRuX2o1ZEZEQlBuVl9PVkFpZUpNejR4UnNlOURV?oc=5",
-      "m": "04. 06. AM 07:08",
-      "ts": 1775459292000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대한민국 정책브리핑",
-      "t": "정부, 에너지 체계 혁신…2030년 재생에너지 비중 20% 이상",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TSzZ0MUVxTFpuMEZxTzlvNWFZT3dnMDBJUkNETmZWU05nLVh1WFNMYjJyelVkYUp6aU9XbHJPbUJoYUlYYWhuT2dLU09IcXRtU0FoMHktZmtWVDVqMWtxNlp4UjdnTFY5ZnJJUw?oc=5",
-      "m": "04. 06. AM 07:00",
-      "ts": 1775458800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "법률신문",
-      "t": "에너지 법령 개정안 통과 - 재생에너지법 및 수소법 개정안 분석",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpR2JFZTZlMmllWWNLWTRzUkstT3hBZjhGN2V4ME9XVXQtM0tmdVNBU2w4ZTAzTldwaGxLWEZHTzNCOWhoMVk1a2RsSmhWVmNNdUM0R3Z0am1mcUFOQUE5Y0Nudm9xaWJvdlNkcWxn0gFyQVVfeXFMUHhKSkpTaWxqRXdGWEh6TmhFVXJJcDBhSmRHWTMwek1Ya2VrSXA3RUZZUHdHaW4tdUlnMGF4WkI4RmR5alNkMDlhVUlSQlBPVTdWa2pHaXdjb3d0X3owRHhCdzh0cW9rR3VuOG5kLWdUbnhB?oc=5",
-      "m": "03. 03. AM 08:00",
-      "ts": 1772524800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "에너지경제신문",
-      "t": "주목할 논문 ‘보수층은 왜 재생에너지 싫어하고, 원전 선호할까’",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yWkIwUVFXbnRoVDFaai1IYWtFTWhDWGZrZU9QU0w2eEZwOWFwOEFKWmNOZ1dWUUpFZHowS1B2SDZJR0VZZnR5M3ltS1Z4VUhKM29mcFB4THZ2eEE?oc=5",
-      "m": "02. 19. AM 08:00",
-      "ts": 1771488000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "한겨레",
-      "t": "재생에너지 가로막던 ‘이격거리 규제’ 완화된다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OemZvNGZQYzBPekE5RVBZTjNQbWhfSzVaOERqb3pKYmUtSTVBT2toTk1XWGNReHBzejB4RmdYblp5bVpDNlJVcUpRX0VvbTQ4bkVFeV8xbjZYMHNCREFHSWlvamE5U3ducjl6Wg?oc=5",
-      "m": "02. 12. AM 08:00",
-      "ts": 1770883200000,
       "_policy": true,
       "fullText": "Google News"
     }

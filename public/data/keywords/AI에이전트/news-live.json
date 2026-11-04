@@ -1,22 +1,31 @@
 {
-  "updatedAt": "2026-11-04T15:42:48.923Z",
+  "updatedAt": "2026-11-04T21:45:36.922Z",
   "count": 40,
   "stats": {
-    "today": 9,
-    "yesterday": 8,
-    "weekAvg": 3.4,
-    "sources": 30,
-    "heat": "warm"
+    "today": 10,
+    "yesterday": 5,
+    "weekAvg": 3.3,
+    "sources": 31,
+    "heat": "hot"
   },
   "items": [
     {
+      "s": "TechCrunch",
+      "t": "OpenAI is already trying to shape the 2028 election",
+      "d": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+      "u": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "m": "11. 04. PM 09:25",
+      "ts": 1793827544000,
+      "fullText": "OpenAI’s chief global affairs officer Chris Lehane thinks the 2028 presidential election could be a defining moment for AI. And he wants politicians to start developing policies that address Americans’ concerns about the technology, rather than simply paying lip service to anti-AI sentiment and the backlash against data centers . In a new essay , Lehane compares AI’s potential to reshape the economy to President Franklin D. Roosevelt’s New Deal, the 1930s set of federal programs and reforms enacted after industrialization and the Great Depression shattered the old economic order. He observes that Americans today feel similarly anxious about losing control over their economic futures and urges politicians to find a “compelling third path” that allows people to share in AI’s benefits. He lays out five policy priorities, spanning worker protections and education to AI safety and data center development. The essay comes on the heels of a stunning Democratic victory in the midterm elections, in which Democrats flipped control of Congress amid widespread voter frustration over the cost of living. Kate Brennan, who leads AI and corporate power policy at the AI Now Institute, told TechCrunch that Lehane’s rhetoric marks a notable shift from OpenAI’s policy agenda last year, which focused on accelerating AI development, reducing regulatory barriers, and expanding infrastructure. Unsurprisingly, many of Lehane’s proposals would encourage wider AI adoption and support the infrastructure expansion companies like OpenAI need to grow. The original New Deal established protections for workers and placed constraints on corporate power. It’s less clear how Lehane’s vision would hold AI companies accountable for the economic disruption their technology could create. “Invoking a New Deal metaphor is to invoke state capacity to actually benefit the public,” Brennan said. “This is written by a private company that is trying to advocate for policies for its own benefit. It is ahistorical"
+    },
+    {
       "s": "동아일보",
-      "t": "광고모델 선정부터 신제품 기획까지… SNS 속 일상 읽어내는 AI",
-      "d": "소셜네트워크서비스(SNS)에 쌓이는 일상 사진과 댓글이 기업 마케팅의 핵심 데이터로 자리 잡고 있다. 사람이 일일이 소비자 취향을 살피던 과거와 달리 인공지능(AI)으로 분석한 SNS 빅데이터를 광고모델 선정, 신제품 기획 등 의사결정에 쓰기 시작한 것이다. SNS를 활용하는 범위도 단순 홍보가 아니라 무엇을 만들어 누구에게 팔지 결정하는 단계까지 넓어지고 있다.● 콘텐츠 4억 건 분석해 마케팅 자동화국내 SNS 마케팅 업체 ‘피처링’은 지난달 28일 자체 소셜 마케팅 행사 ‘퓨처링 26’을 열고 인플루언서 마케팅 실무를 자동화하는 AI 에이전트 기능을 공개했다. 이 에이전트의 분석 대상은 유튜브, 인스타그램 등에서 운영되는 국내외 인플루언서 채널 1800만 개와 콘텐츠 약 4억 건이다. AI가 자동으로 이",
-      "u": "https://www.donga.com/news/Economy/article/all/20261104/134966752/2",
-      "m": "11. 04. PM 03:30",
-      "ts": 1793806200000,
-      "fullText": "임재혁 기자 구독"
+      "t": "마돈나 등 스타들도 “AI학습, 저작권료 내야”",
+      "d": "“인공지능(AI)이 저작권자의 허락 없이 콘텐츠를 사용해선 안 된다.” 팝스타 마돈나와 배우 로버트 드 니로 등 세계적인 스타들이 뉴욕타임스(NYT)와 오픈AI·마이크로소프트(MS)의 저작권 소송에 가세했다. AI 학습에 저작권이 있는 콘텐츠를 사용하는 게 적법한지를 둘러싼 법적 공방이 대중문화 전반으로 확대되는 양상이다. 미국 정치매체 액시오스는 3일(현지 시간) “영화와 음악, 방송, 문학 분야의 창작자와 관련 단체들이 최근 NYT와 오픈AI 등의 소송과 관련해 법원에 ‘법정조언자 의견서(amicus briefs)’를 잇달아 제출했다”고 전했다. 법정조언자 의견서란 소송 당사자는 아니지만 해당 판결에 법적 이해관계가 큰 제3자가 재판에 참고할 전문적 의견을 전달하는 문서다.해당 의견서는 대형 연예기획사 ",
+      "u": "https://www.donga.com/news/People/article/all/20261105/134968197/2",
+      "m": "11. 04. PM 07:30",
+      "ts": 1793820600000,
+      "fullText": "사지원 기자 구독"
     },
     {
       "s": "뉴스프리존",
@@ -116,24 +125,6 @@
       "fullText": "Anthropic is working on an open source system to verify which AI model produced a given output, according to a blog post published Tuesday. The system, called FlashProve , is built to provide what researchers call &#8220;provable inference&#8221; &#8212; a cryptographic proof, essentially a mathematical guarantee, that a given output came from a specific model. It&#8217;s meant to let users confirm that the answer they received really came from the model they think they’re using. Similar to cryptographic email signatures that let recipients confirm a message really came from its claimed sender, FlashProve would be robust against impostors attempting to disguise one model as another, even when the impostor is the lab that built and runs the model. In particular, the researchers note that the system could be used to prevent an AI company from secretly swapping in a cheaper model to cut costs, or a more expensive model to inflate its performance results. FlashProve could also be used to verify claims by third parties that a specific task was done by an advanced model. &#8220;A developer might claim that their software library was scanned for vulnerabilities by a frontier cybersecurity model, or a company might claim that its business plan was given the go-ahead by an appropriate model,&#8221; the researchers write. &#8220;How can a user verify these claims?&#8221; To work, the system requires AI labs to publish a &#8220;fingerprint&#8221; of each model they release that can later be matched to specific outputs and verified cryptographically. Crucially, the fingerprints don’t reveal a model’s weights, the internal numbers that define how it behaves and which closed-model makers like Anthropic and OpenAI keep private. That means labs could publish the fingerprints without giving up their most valuable asset, enabling the system to work with commercial models, too. The system is also designed to be lightweight, so verification could be performed on a local device. As part"
     },
     {
-      "s": "TechCrunch",
-      "t": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
-      "d": "CrowdStrike said it will buy Fiddler AI, which makes AI agent observability software, and Dreadnode, which helps companies automate AI security testing.",
-      "u": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
-      "m": "11. 03. PM 05:56",
-      "ts": 1793728612000,
-      "fullText": "Cybersecurity giant CrowdStrike is buying two AI security companies that expand its products to more broadly monitor, test, and cover AI models and agents, as companies across industries start rolling out AI agents and models wholesale. CrowdStrike said it will buy Fiddler AI , which makes observability software for monitoring AI agents inside enterprises, and Dreadnode , which helps companies automate security testing specifically aimed at detecting flaws in AI models, apps, and agents before they are set live. The company is paying around $400 million for Fiddler AI, and about $95 million for Dreadnode, according to The Wall Street Journal . The deals are happening at a time of significant upheaval in the cybersecurity space, especially as companies&#8217; policies and processes lag behind AI adoption within their walls. Teams and individual employees alike are experimenting with AI tools, automating workflows, vibe-coding custom apps, and deploying armies of AI agents to do their bidding, which is understandably causing headaches for security teams. CrowdStrike, whose products are used widely across enterprises and governments, is clearly trying to leverage its already significant heft and presence to capture a share of this quickly burgeoning market . It&#8217;s not alone, of course, as we&#8217;ve already seen several startups and cybersecurity vendors raising dozens of millions in funding to solve issues for companies, though most of these approaches are essentially based on the conviction that existing security software isn&#8217;t enough to monitor and control AI tools, connectors, or usage. The company has itself been building detection and response controls , dubbed Falcon Guardian, to help companies see and understand what agents are doing on their devices, and these acquisitions seem to further flesh out its offerings. Fiddler AI is going to be part of CrowdStrike&#8217;s Falcon platform as Falcon Observe, where it&#8217;ll ostensibly help the company&#8"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Anthropic is still grappling with the economics of compute",
-      "d": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
-      "u": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
-      "m": "11. 03. PM 05:07",
-      "ts": 1793725621000,
-      "fullText": "There’s a lot of mystery around the finances of major AI labs, and as Anthropic inches towards it IPO, we’re starting to get some answers. In particular, the company is finally disclosing more about the economics of compute, and how much of Anthropic’s skyrocketing revenue is being lost to compute costs. In a new filing on Monday , Anthropic released data that showed those margins on compute actually getting worse. The filing was an update to the S-1 released last week — but where that filing’s financial disclosures only covered through June 30 of this year, the new data extended to disclose results through an extra quarter, to September 30. Broadly, Anthropic had a good quarter: revenue reached $17 billion, up from $11.5 billion in the previous quarter, suggesting durable growth. But the operating loss grew at the same time, thanks in large part to growing compute costs. Looking at the compute margins makes the picture even worse. In the new quarter, compute took up 58% of the company’s revenue, up from 48% the quarter before. At a moment when the company could win over IPO investors by showing margins improving, they’re getting worse. A chart in the filing shows this even more clearly, tracking the company’s revenue for every dollar spent on compute. Since the start of 2025, it’s been steadily growing, peaking at just over 2x this past quarter, then falling back down to 1.72x. Image Credits: Anthropic S-1 filing Many indications imply that this shift in compute margins is more of a blip than a long-term problem, but it still tells us important things about the business of running a major lab. Trying to keep up with demand, Anthropic’s compute bill shot up to $10 billion for the quarter, including, as the filing notes, “$5.0 billion of compute under short-term commitments, which currently costs significantly more than comparable compute procured under our multi-year commitments.” Basically, demand was growing so fast that Anthropic had to scramble for compute, whic"
-    },
-    {
       "s": "머니투데이",
       "t": "AI가 검색·거래하는 시대…플랫폼 자율규제 개편 논의한다 - 머니투데이",
       "d": "",
@@ -159,15 +150,15 @@
       "u": "https://www.nbcnews.com/video/inside-openai-s-election-war-room-and-ai-s-impact-on-the-midterms-272739909869",
       "m": "11. 03. AM 02:23",
       "ts": 1793672622000,
-      "fullText": "Kornacki&#x27;s reaction to major race calls"
+      "fullText": "Meet the Press Democrats look to chart path forward with historic ‘mandate’ after landslide victory"
     },
     {
-      "s": "머니투데이",
-      "t": "SKT, 사내 AI 에이전트 경연대회 개최…5개 팀 시상 - 머니투데이",
+      "s": "Unite.AI",
+      "t": "Ebix와 Intentyx, AI 에이전트 행동 추적을 위한 SMARE 출시",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5lN1J0eFdieTg0T3RycHY0WmszOHBJSmJZT29JaHVLczAzaExDaXlyY09uMmpicUVNcGw4aHRvUGtJWk5xMDV1MjZud3dBVTVMZUdmN1FpNmpqckFSeTcxcVhYS1BwcmPSAWxBVV95cUxOckNDUjMxWG92bkk3UXVpRUx3ZlhDT3R0N09LaFQ1WFRMNnlxQ3NmOUpGZk9McmlHXy1qRms5S2llY0dONlhEa1UwTi1uMGtBNkFaNXY3WWtNMlNpSjFrVW5NeGt0Q25xQWJHYkc?oc=5",
-      "m": "11. 03. AM 12:29",
-      "ts": 1793665749000,
+      "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNTd6aHFCSWpabko5eld5aThodDlpNGkxcXA5dXZBZzRmUmVBOEJLV0NpcXdYU2poYVJab3RFVjU1WV9EakdKQkYxNUtZeGgtY3JXQ3F1WmFDNlJiRDRaNXpudGZJSDJpUlVzZ29NQk41VU1tamtSb0d1M09zUE9lZEQxQTdtYTNoZHc?oc=5",
+      "m": "11. 02. PM 12:54",
+      "ts": 1793624041000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -245,7 +236,7 @@
       "u": "https://www.nbcnews.com/video/ai-startup-anthropic-unveils-its-public-ipo-filing-for-the-first-time-272224837929",
       "m": "10. 26. PM 02:57",
       "ts": 1793026649000,
-      "fullText": "Kornacki&#x27;s reaction to major race calls"
+      "fullText": "Meet the Press Democrats look to chart path forward with historic ‘mandate’ after landslide victory"
     },
     {
       "s": "뉴스웨이",
@@ -274,7 +265,7 @@
       "u": "https://www.nbcnews.com/video/goldman-sachs-spends-big-to-give-small-businesses-an-ai-boost-272042053796",
       "m": "10. 22. PM 04:00",
       "ts": 1792684801000,
-      "fullText": "Kornacki&#x27;s reaction to major race calls"
+      "fullText": "Meet the Press Democrats look to chart path forward with historic ‘mandate’ after landslide victory"
     },
     {
       "s": "NVIDIA공식",
@@ -290,16 +281,6 @@
       "t": "허사비스 \"AI 에이전트 해킹, 시스템 보안 강화 촉구하는 조기 경고\"",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Wa1VmQ0NTdnpVMFJMb0ZRZjdUeU9PdDNwdG9HT0U0b240TGplMzZrUkhYSDNFcEE2cEZCZ1dCS3cwdTFsS09mNU9sR0lMUGt3T29acGtVd0xRRTBWX3YySjVZaUg5R1RQQ0E?oc=5",
-      "m": "10. 15. AM 07:00",
-      "ts": 1792047600000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "서울경제",
-      "t": "AI 기업 10곳 중 8곳 “개인정보 규제 부담”…데이터 확보도 발목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fX0VTc0tUNzc4MkFJNVowd0U5dWxtaFI5cUtTUVQ0QTFVcWhlOWoyVjBOSGZUWEJSaXRCeHF2WC05cWxoVWU1Z1dtU2Vfd2JEVlHSAVNBVV95cUxPcFRmMjhEbERGampyUHVsVUtDMExka2xxZ0UtZXJGdGhwaHpqNUVzUm5DdThtcWFsRE9NOWFzY0ItekpMN2swYVRiMjFRSEY0dzgwUQ?oc=5",
       "m": "10. 15. AM 07:00",
       "ts": 1792047600000,
       "_policy": true,
@@ -346,20 +327,20 @@
       "fullText": "Google News"
     },
     {
-      "s": "넷제로뉴스",
-      "t": "오픈AI 에이전트, 정부 웹 무단 접근 뒤 \"추적 은폐\" 시도",
+      "s": "폴리뉴스 Polinews",
+      "t": "[입법이 산업을 바꾼다] AI가 사고 치면 누가 책임지나…국감 앞두고 'AI 에이전트 규제' 뜬다",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIR2Npem1XRFZBdS0yMnZzVjRFUTUxNDRvckFnNDQtQXZ2SUNDMHAtZ1M4cDJkWHBBSDc1VGlrb0VDX1hRSDltMnF2NzRfU2tXbGxCTllfY3NQVW1kbnBBYXV1ZTc4clRQTXc?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NWk40QmR5d2pieF9IZy1oS21aR3VPeXpYdW9UQ0haZ2hWSmZscWpCdm1ueGo2b0dYaVJJb3VTV0doT3QyTmJJaG0xdkNtb0x5d2ZQX0dTbDFYTmZXekJLT1ZSa1dKUHBWQ08zLVVB?oc=5",
       "m": "10. 02. AM 07:00",
       "ts": 1790924400000,
       "_policy": true,
       "fullText": "Google News"
     },
     {
-      "s": "폴리뉴스 Polinews",
-      "t": "[입법이 산업을 바꾼다] AI가 사고 치면 누가 책임지나…국감 앞두고 'AI 에이전트 규제' 뜬다",
+      "s": "넷제로뉴스",
+      "t": "오픈AI 에이전트, 정부 웹 무단 접근 뒤 \"추적 은폐\" 시도",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NWk40QmR5d2pieF9IZy1oS21aR3VPeXpYdW9UQ0haZ2hWSmZscWpCdm1ueGo2b0dYaVJJb3VTV0doT3QyTmJJaG0xdkNtb0x5d2ZQX0dTbDFYTmZXekJLT1ZSa1dKUHBWQ08zLVVB?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIR2Npem1XRFZBdS0yMnZzVjRFUTUxNDRvckFnNDQtQXZ2SUNDMHAtZ1M4cDJkWHBBSDc1VGlrb0VDX1hRSDltMnF2NzRfU2tXbGxCTllfY3NQVW1kbnBBYXV1ZTc4clRQTXc?oc=5",
       "m": "10. 02. AM 07:00",
       "ts": 1790924400000,
       "_policy": true,
@@ -392,6 +373,26 @@
       "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNnVRQWJ1bDB6bFpXeGphU0FfeTlrV3diaGctd2prZFhNTFRISWwyV25KZGVfcXVfekVWYnNDanMtdEZCb1k0c01xM2hEaURrbFZKb09YVTl1RVZHU2ctOGRTNGZXOVVVTmFiV3FqdnpEbExKUDFHUG9iamRyb2dRRw?oc=5",
       "m": "09. 29. AM 07:00",
       "ts": 1790665200000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "KDI 경제교육·정보센터",
+      "t": "AI 에이전트 시대의 경쟁 이슈와 한국의 정책적 대응",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPck9DbXNJank3LUlob252NDFkVjU4Q2hySThkaUJiTGJBUlQzaTlGd1FYSW81aHh2Vl9xMVdITkpEc0hRMWs1YkxCYjJHTXM2WWVRajJpX3YwY2ZzaDVnV3UxX2Q2NldXTlJSam9lbV9ld0NXSnBTLXhyZjR4bjl0dw?oc=5",
+      "m": "09. 22. AM 07:37",
+      "ts": 1790062651000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "한국경제",
+      "t": "\"AI 기술, 새 보호원칙 필요…무조건 규제부터 적용하진 않을 것\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwYXdhMEd0WFRfWWtfN0laNDFzY2VnX013ZDNRal9QNUF2bVZmY1JDRExoRWJaU3libEltQzdIRnJqb3hLV0ViVGt1VG9pNTJsZ2ItVDAtVnh3Zw?oc=5",
+      "m": "09. 20. AM 07:00",
+      "ts": 1789887600000,
       "_policy": true,
       "fullText": "Google News"
     }

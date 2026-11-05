@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-11-05T17:10:19.770Z",
-  "count": 22,
+  "updatedAt": "2026-11-05T22:45:08.455Z",
+  "count": 21,
   "stats": {
     "today": 10,
     "yesterday": 0,
-    "weekAvg": 1.7,
+    "weekAvg": 1.6,
     "sources": 6,
     "heat": "hot"
   },
   "items": [
+    {
+      "s": "동아일보",
+      "t": "[속보]뉴욕증시 기술주 급락…엔비디아 9.2%↓ 테슬라 10.8%↓",
+      "d": "미국 뉴욕증시의 3대 지수가 5일(현지시간) 급락했다. 민주당이 상·하원을 모두 장악한 이후 인공지능(AI) 산업과 데이터센터에 대한 규제 강화 우려가 확산하면서 기술주를 중심으로 매도세가 쏟아졌다.이날 뉴욕증권거래소에서 기술주 중심의 나스닥 종합지수는 전장보다 1421.52포인트(5.52%) 급락한 2만4315.00에 거래를 마쳤다. 지난달 기록한 사상 최고치 대비 10% 넘게 떨어지며 조정 국면에 진입했다. 다우존스30 산업평균지수는 전장보다 1833.06포인트(3.44%) 하락한 5만1523.06에, 스탠더드앤드푸어스(S&P) 500지수는 334.89포인트(4.36%) 떨어진 7353.73에 각각 마감했다.전날 다우지수는 민주당의 중간선거 승리에 따른 정치적 불확실성 해소 기대감으로 1500포인트 넘게",
+      "u": "https://www.donga.com/news/Inter/article/all/20261106/134976044/2",
+      "m": "11. 05. PM 10:04",
+      "ts": 1793916240000,
+      "fullText": "김예슬 기자 구독"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia Plunges 9% as AI Selloff Wipes Out $2.3 Trillion | Closing Bell",
+      "d": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Kailey Leinz, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-05/nvidia-plunges-as-ai-sells-off-closing-bell-video",
+      "m": "11. 05. PM 09:32",
+      "ts": 1793914374000,
+      "fullText": ""
+    },
     {
       "s": "NVIDIA공식",
       "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
@@ -16,16 +34,7 @@
       "u": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "m": "11. 05. PM 05:00",
       "ts": 1793898035000,
-      "fullText": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements. October 29, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through natural-language instructions, review results and guide changes. Omniverse libraries provide GPU-accelerated physics, rendering and sensor simulation capabilities. Explore the projects below to see frontier AI models such as GPT-6 Astra at work, and check back for new examples from NVIDIA teams and developers across the ecosystem. Create an Editable Building Model From Site Scans 🔗 https://blogs.nvidia.com/wp-content/uploads/2026/10/relay-video-v14-1080p.mp4 Planning warehouse automation requires a model of the building itself, but shelving and machinery can obscure its structure in site scans. Omniverse brings together real-to-sim tools and agent skills to help developers turn real-world captures into editable starting environments for physical AI simulation. David Wehr, from NVIDIA’s simulation technology team, built on that work using Astra to develop a workflow for digitally reconstructing a building without its contents. The goal is an editable, simulation-ready building model where developers can add or reposition shelving and machinery to evaluate warehouse layouts and automation plans before making physical changes. Wehr guided Astra to inte"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Colony: AI Investment Will Continue Despite Tech Selloff",
-      "d": "George Colony, Forrester Research Founder, Chairman & CEO says the AI boom may be entering a new phase. Custom chips could challenge Nvidia's dominance, while value shifts toward software. But the transition won't be smooth: companies must adapt to AI computing, or risk being left behind. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-05/colony-ai-investment-will-continue-despite-tech-selloff-video",
-      "m": "11. 05. PM 04:42",
-      "ts": 1793896965000,
-      "fullText": ""
+      "fullText": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements. November 5, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through natural-language instructions, review results and guide changes. Omniverse libraries provide GPU-accelerated physics, rendering and sensor simulation capabilities. Explore the projects below to see frontier AI models such as GPT-6 Astra at work, and check back for new examples from NVIDIA teams and developers across the ecosystem. Create Editable 3D Assets With Houdini and AI Agents 🔗 Creating animated 3D content requires connecting modeling, simulation, materials and rendering. Nick Scarcella, a senior technical artist on NVIDIA’s BondLab team, directed AI agents — primarily using Claude — to work with CUDA libraries and Isaac Sim to create animations. The BondLab team uses SideFX Houdini and the NVIDIA ovrtx library to develop materials, lighting and the final rendered appearance. In one experiment, Scarcella guided Astra to recreate an OP-1 portable synthesizer using product images, manuals and technical direction. He exported the model into the OpenUSD framework, tested it in Houdini and Blender, then used Astra and Opus to refine details before adjusting materials and textures for ovrtx rendering. Scarcella also used a publicly shared robot-han"
     },
     {
       "s": "NVIDIA공식",
@@ -82,15 +91,6 @@
       "fullText": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW Look forward to 24 games coming in November, including eight this week, and claim a ‘World of Warcraft: Forever’ launch reward. November 5, 2026 by GeForce NOW Community 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW . Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions for Tom Clancy’s The Division 2 and Anno 117: Pax Romana . It’s all part of a packed month of play, with two-dozen games joining the GeForce NOW library throughout November, including eight this week. Hogwarts in a New Light NVIDIA DLSS 5 with 3D-Guided Neural Rendering arrives in Hogwarts Legacy today, giving members a new reason to return to Hogwarts, streaming from Steam, Epic Games and Xbox with Play Anywhere support. Published by Warner Bros. Games under the Portkey Games label and developed by Avalanche Software, Hogwarts Legacy is an immersive, open-world action role-playing game set in the 1800s wizarding world. Begin as a fifth-year student, encounter magical creatures, brew potions and learn spells while exploring both recognizable and unfamiliar places. The update adds lifelike lighting and material detail while retaining underlying geometry and textures. Avalanche Software has tuned the integration through DLSS 5’s developer controls to maintain the game’s artistic intent and style. Hogwarts Legacy also includes support for the DLSS Multi Frame Generation and Ray Reconstruction features, accelerating and enhancing the ray-traced graphics that immerse players in Hogwarts School of Witchcraft and Wizardry. Thanks to NVIDIA DLSS 4.5 controls in the cloud, members ca"
     },
     {
-      "s": "TechCrunch",
-      "t": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
-      "d": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
-      "u": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
-      "m": "11. 05. PM 02:00",
-      "ts": 1793887200000,
-      "fullText": "At its developer conference on Thursday, Box showed off a new feature that will build Nvidia’s Nemotron embedding system into the core of its product. Called Box Content Retrieval, the new feature allows agents to answer queries far more effectively by relying on the embedded metadata created by Nemotron. Box says the upshot for users is faster, more accurate and less expensive queries. Nvidia’s VP of generative AI software, Kari Briski, told TechCrunch that she expects queries to be answered four times faster, with 20% fewer errors and 90% fewer tokens used. The system will be available to all of Box&#8217;s Enterprise Advance customers, rolling out early next year. “This dramatically boosts both the relevance of our search technology for agents,” Box CEO Aaron Levie said. “Instead of an agent having to kind of read through each document, we can send back chunks from the documents that are most relevant to the user&#8217;s query or whatever the task is that the agent is doing.” The feature is an implementation of Nvidia’s Nemotron Embed project, which offers open-weight embedding models to improve automated retrieval systems. Major labs have often overlooked such models, which use LLMs to pre-process data so it can be better used by agents. The sector has been a focus for Nvidia’s open-source model project, with its recent Nemotron release in July topping the RTEB benchmark, which measures retrieval quality. The system will be most useful when paired with active agents, Box says, giving the example of lawyers, who will ostensibly be able to find relevant clauses and precedents more easily under the new system. Because Nemotron’s embeddings go beyond simple keywords to map underlying concepts, a search tool can surface related legal themes even when different wording or language is used. While the Nemotron models are freely available, the system also relies heavily on Box’s pre-existing metadata and permission controls, which will make it challenging to recreate fro"
-    },
-    {
       "s": "한경 IT",
       "t": "[단독] 리벨리온 등 엔비디아와 간담회…AI 스타트업 해외진출 길 열리나",
       "d": "",
@@ -115,7 +115,7 @@
       "u": "https://www.nbcnews.com/video/new-report-says-nvidia-ceo-was-possible-target-of-chinese-spy-plot-272497733989",
       "m": "10. 29. PM 09:51",
       "ts": 1793310674000,
-      "fullText": "Melania Trump on Oleshky ceasefire: Russia and Ukraine have chosen &#x27;humanity over war&#x27;"
+      "fullText": "Hallie Jackson NOW Stocks tumble after post-election rally"
     },
     {
       "s": "NVIDIA공식",
@@ -197,15 +197,6 @@
       "m": "10. 22. AM 05:00",
       "ts": 1792645223000,
       "fullText": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations October 21, 2026 by Mavi Nafria 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open and frontier models to advance agentic commerce, digital product discovery and retail R&D. Shopify post-trains open models to reach frontier-level accuracy at a fraction of the cost. Its engineers use the NVIDIA Megatron Bridge library for faster fine-tuning and NVIDIA NeMo RL for reinforcement learning. Shopify has post-trained NVIDIA Nemotron 3.5 Lightning for the GraphQL subagent integrated into Sidekick, Shopify&#8217;s AI assistant for merchants. The subagent retrieves store data for several Sidekick features, including Sidekick Pulse, which researches a merchant&#8217;s store and recommends ways to improve it. Read All NVIDIA in Europe Announcements On Shopify&#8217;s internal benchmark, the post-trained model surpasses a leading frontier model in accuracy while cutting serving costs by 90% and delivering responses 7x faster. Beyond Sidekick, NVIDIA CCluster vLLM inference optimization software helped Shopify achieve 4.5x faster performance and up to 12x lower inference cost across five additional use cases: catalog enrichment, merchant assistant, e-commerce shopping simulation, product taxonomy classification, and merchant and buyer recommendations. Zooplus , Europe’s leading online pet retailer, with Infosys and NVIDIA technologies rebuilt its product discovery stack for the agentic era. A production ready prototype deployed inside Zooplus ’ Amazon Web Services (AWS) environment achieved 86% search acc"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-      "d": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-      "m": "10. 22. AM 05:00",
-      "ts": 1792645219000,
-      "fullText": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction October 21, 2026 by Niall Robinson 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a family of open AI models and tools they can customize with their own data. Running on NVIDIA computing, these technologies support global weather prediction, detailed regional forecasts and environmental research. Read All NVIDIA in Europe Announcements StormScope EU is the latest model to join Earth-2 — a regional version of the StormScope model for short-term forecasting, trained over Europe weather and climate data. It uses EUMETSAT satellite observations to predict evolving cloud conditions across 16 Meteosat channels at 10-minute intervals. At GTC Berlin, NVIDIA is showcasing a live StormScope EU pipeline in an interactive weather demo built in partnership with Earthmover . The demo uses Earth2Studio to run forecasts and Earthmover’s data platform to manage and serve the real-time results, which are updated as soon as new satellite observations come in, every 10 minutes. Earthmover serves these results as map tiles, letting visitors explore predictions across Europe without downloading entire datasets. Developers can combine Earth-2 models in workflows tailored to regional needs, using StormScope for short-term forecasting and CorrDiff to add local detail to coarser weather data. Developers can also pick up these model architectures and train them for new environmental applications such as air-quality modeling. The open source NVIDIA PhysicsNeMo framework provides training a"
     }
   ]
 }

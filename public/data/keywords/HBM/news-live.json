@@ -1,22 +1,31 @@
 {
-  "updatedAt": "2026-11-05T08:58:59.185Z",
+  "updatedAt": "2026-11-05T17:10:53.232Z",
   "count": 40,
   "stats": {
-    "today": 6,
-    "yesterday": 4,
-    "weekAvg": 3.1,
-    "sources": 23,
+    "today": 5,
+    "yesterday": 5,
+    "weekAvg": 3,
+    "sources": 22,
     "heat": "warm"
   },
   "items": [
     {
-      "s": "전자신문",
-      "t": "삼성전자 D램 시장 점유율 '38%'…1위 수성",
-      "d": "삼성전자가 3분기 D램 시장 점유율 1위를 지켰다. 고대역폭메모리(HBM) 판매 확대에 따른 실적 성장이 지속되는 모습이다. 시장조사업체 카운터포인트리서치는 3분기 D램 시장 점유율 1위는 삼성전자로 38%를 차지했다고 5일 밝혔다. SK하이닉스 29%, 마이크론 21%, CXMT 9% 순이다. 카운터포인트리서치 조사 결과에 따르면, 삼성전자는 지난해 1분기 HBM 공급 난항으로 D램 시장 점유율 1위를 SK하이닉스에 내준 적 있다. 이후 주요",
-      "u": "https://www.etnews.com/20261105000460",
-      "m": "11. 05. AM 07:56",
-      "ts": 1793865383000,
-      "fullText": "반도체 반도체 삼성전자 D램 시장 점유율 '38%'…1위 수성 발행일 : 2026-11-05 16:56 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 2026년 3분기 D램 시장 점유율 현황(사진=카운터포인트리서치) 삼성전자가 3분기 D램 시장 점유율 1위를 지켰다. 고대역폭메모리(HBM) 판매 확대에 따른 실적 성장이 지속되는 모습이다. 시장조사업체 카운터포인트리서치는 3분기 D램 시장 점유율 1위는 삼성전자로 38%를 차지했다고 5일 밝혔다. SK하이닉스 29%, 마이크론 21%, CXMT 9% 순이다. 카운터포인트리서치 조사 결과에 따르면, 삼성전자는 지난해 1분기 HBM 공급 난항으로 D램 시장 점유율 1위를 SK하이닉스에 내준 적 있다. 이후 주요 인공지능(AI) 반도체 고객에 HBM 공급을 성사시키고, D램 공급 능력을 앞세워 지난해 4분기 다시 1위에 올랐다. 카운터포인트리서치는 3분기 세계 D램 전체 매출이 전년 대비 5배 가까운 2000억달러에 달했다고 설명했다. 분기 비트 출하량은 4% 늘어난데 불과하지만, 평균판매가격(ASP) 상승이 매출 성장을 견인한 것이다. 최정구 카운터포인트리서치 책임연구원은 “AI는 메모리를 범용재에서 희소한 고부가 자원으로 바꿔놓았고, 구매자들은 이제 가격 협상이 아니라 공급 확보 경쟁을 벌이고 있다”며 “가격 상승이 계속되는 만큼 공급업체들은 다음 분기에도 사상 최대 실적을 경신할 전망”이라고 밝혔다. 권동준 기자 djkwon@etnews.com"
+      "s": "NVIDIA공식",
+      "t": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "d": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack.  [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "m": "11. 05. PM 04:00",
+      "ts": 1793894400000,
+      "fullText": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge November 5, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. But the approach isn’t to simply pack more memory onto the GPU. It’s full-stack codesign. NVIDIA intentionally designs GPUs, CPUs, networking, storage and software together to get more useful work out of memory at every layer of the AI factory. That matters because an AI factory runs on a memory and storage hierarchy. GPU high-bandwidth memory (HBM) is the fastest, most expensive and most contested tier — with model weights and KV cache competing for limited capacity. Below it sit CPU memory, local SSDs and shared storage, each trading speed for more capacity at a lower cost per bit. How much useful work a byte does depends on how well the whole hierarchy is used: shrinking what must be stored, placing it on the right tier and bringing it back to the GPU before it’s needed. Byte for byte, NVIDIA makes the most efficient use of memory at every layer — and the results show it. From NVIDIA Blackwell Ultra to the Vera Rubin platform, HBM capacity per GPU rose roughly 3%, while agentic throughput per dollar rose by up to 30x on SemiAnalysis AgentX. Agentic Inference Is Putting More Pressure on HBM Frontier models now have trillions of parameters — the values that hold what an AI model learned in training. KV cache, which holds the context the model needs to understand each active request without reprocessing the same information, is also expanding. Agentic trajectories carry prior context across repeated model and to"
+    },
+    {
+      "s": "동아일보",
+      "t": "KAIST “AI가 반도체 설계-검증” 11일 AI에이전트 공개",
+      "d": "인공지능(AI)이 정보 검색과 문답을 넘어 반도체 설계와 검증까지 거드는 단계로 들어서고 있다. 고대역폭메모리(HBM) 같은 차세대 반도체는 신호·전력·열 문제를 한꺼번에 따져야 할 만큼 설계가 복잡한데, 이 같은 반도체 설계에 AI ‘에이전트’를 도입하려는 것이다.  5일 김정호 KAIST 전기및전자공학부 교수가 이끄는 테라랩(TERA Lab)은 11일 온라인 행사 ‘테라 AI 에이전트 데이’를 열고 반도체 설계에 적용 중인 AI 에이전트 생태계를 공개한다고 밝혔다. 김 교수는 기조연설에서 엔지니어 1명이 다수의 전문 AI를 지휘하는 ‘1인 다중 에이전트’ 청사진을 제시한다. 반도체 설계에 필요한 여러 전문 기능을 AI 모델 하나에 맡기지 않고, 업무별로 특화된 에이전트와 설계 소프트웨어를 연결해 복잡한 ",
+      "u": "https://www.donga.com/news/Economy/article/all/20261105/134974503/2",
+      "m": "11. 05. PM 03:30",
+      "ts": 1793892600000,
+      "fullText": "이동훈 기자 구독"
     },
     {
       "s": "연합뉴스",
@@ -47,25 +56,6 @@
       "fullText": "삼성전자·SK하이닉스 등 대규모 주주환원 삼전닉스 현금배당 44조·자사주 취득 발표 거래소 저PBR 명단 공개로 제고 공시 확산 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
     },
     {
-      "s": "한경 경제",
-      "t": "삼성전자·SK하이닉스·인텔 한자리에…부산으로 세계 반도체 전문가 800명 집결",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202611057831i",
-      "m": "11. 05. AM 01:56",
-      "ts": 1793843770000,
-      "fullText": "산업 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 삼성전자·SK하이닉스·인텔 한자리에…부산으로 세계 반도체 전문가 800명 집결 입력 2026.11.05 10:56 수정 2026.11.05 10:56 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이광식 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 9~13일 부산서 KISM 2026 개최 15개국&middot;지역서 연구논문 300여 편 발표 AI 시대 반도체 제조 혁신 논의 전 세계 반도체 전문가 800여 명이 부산에 모인다. 인공지능(AI) 시대에 반도체 기술의 발전 방향을 논의하기 위해서다. 한국반도체디스플레이기술학회(반디학회)는 오는 9일부터 13일까지 부산 해운대 파라다이스호텔에서 &lsquo;제5회 국제반도체제조기술학술대회(KISM 2026 BUSAN)&rsquo;를 개최한다고 5일 밝혔다. 이번 행사는 경북구미반도체특화단지추진단과 부산테크노파크, 한국반도체산업협회가 공동 주최한다. 이번 학술대회의 주제는 &lsquo;미세화의 한계를 넘어: AI 시대의 스마트 제조(Beyond Scaling: Smart Manufacturing for AI Era)&rsquo;다. 삼성전자와 SK하이닉스, 인텔, 일본 도쿄일렉트론(TEL) 등 글로벌 반도체 기업과 연구기관의 전문가들이 참여해 최신 제조공정과 소재&middot;부품&middot;장비 기술을 공유한다. 발표 예정인 연구논문은 300여 편이다. 기조강연에는 심지혜 삼성전자 마스터, 심규찬 SK하이닉스 부사장, 사토 모토유키 도쿄일렉트론 박사가 나선다. 첨단 패키징과 AI 기반 스마트 제조, 차세대 메모리 공정 및 소재 혁신 등 반도체 산업의 주요 기술 동향을 소개할 예정이다. 학술 프로그램은 박막증착, 화학적기계연마(CMP)&middot;세정, 식각, 노광&middot;패터닝, 첨단 패키징, 공정진단&middot;제어 및 수율관리, 전력반도체, 탄소중립 등 8개 분야로 구성된다. 벨기에 반도체 연구기관 아이멕(IMEC)과 일본 에바라, 독일 아익스트론 등도 연구 성과를 발표한다. 이 밖에 반도체 소부장 신기술 전시회와 인재채용 프로그램, 반도체 제조기술 발전에 기여한 연구자 등을 대상으로 하는 &lsquo;반디기술상&rsquo; 시상식도 열린다. 박진섭 한양대 교수(대회장)는 &ldquo;이번 학술대회가 AI 시대 반도체 제조기술의 혁신 방향을 공유하고 글로벌 기술협력과 국내 소부장 산업의 경쟁력을 강화하는 계기가 되기를 기대한다&rdquo;고 말했다. 이광식 기자 bumeran@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 이광식 기자 한국경제신문 중소기업부 소속 이광식 기자입니다. ADVERTISEMENT 관련 뉴스 1 '3분기 쇼크' CMTX \"외주 공정 내재화…수익성 회복 총력\" 반도체 공정용 소재·부품업체 씨엠티엑스(CMTX)가 올해 4분기부터 비용 절감에 나서고 내년에는 외주 공정의 내재화를 통해 수익성을 끌어올리겠다고 밝혔다. 3분기 실적 부진으로 주가가 ... 2026.11.04 10:05 2 모닝 글로벌 뉴스 AMD, 데이터센터 매출 1년 새 2배…4분기 66% 성장 예고 AMD가 인공지능(AI) 데이터센터용 반도체를 앞세워 매출의 약 3분의 2를 데이터센터에서 벌어들이는 회사로 바뀌고 있다. 지난 3분기 데이터센터 사업 매출이 1년 만에 두 배 가까이 늘면서 전체 매출도 45% 증가... 2026.11.04 06:50 3 기술주 저가매수 유입 …반도체 생명력 어디까지? [박신영의 개장전 요것만] 1. AMD, &#39;인텔 폭락&#39; 피하려면 &#39;깜짝 전망&#39; 필요미국 반도체 기업 AMD가 3일(현지시간) 장 마감 후 실적 발표를 앞두고 시험대에 올랐습니다. 인공지능(AI... 2026.11.04 00:24 ADVERTISEMENT "
-    },
-    {
-      "s": "법률방송뉴스",
-      "t": "'블루 웨이브' 이틀째 반도체 직격... '데이터센터 규제' 위기 속 '세액공제 연장' 기회도",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yaFlfbzdQOEhfSTZTMlA4NTJlQlp5VUwzbXZCVUtnZU5zdXpaSXkzbTJzQ0VnQjJLMUZ2RVNaR2NkRVFIVTRGWjFIQXVRS2szNUNKNU9nYXFYeWhuYVdhR05YTms?oc=5",
-      "m": "11. 05. AM 01:00",
-      "ts": 1793840439000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "삼성뉴스룸",
       "t": "삼성전자, 갤럭시 버즈 ‘청력 체크’ · ‘청력 케어’ 기능 식약처 허가 획득",
       "d": "삼성전자가 갤럭시 버즈에 탑재될 ‘청력 체크(Hearing Test)’와 ‘청력 케어(Hearing Aid)’ 기능으로 식품의약품안전처(이하 식약처)의 의료기기 허가를 획득했다. 이번 허가로 갤럭시 버즈4 프로와 갤럭시 버즈3 프로 사용자는 기존에 사용하던 갤럭시 버즈를 ‘청력 체크’와 ‘청력 케어’ 용도로 활용할 수 있다. 갤럭시 버즈의 ‘청력 체크’와 ‘청력 케어’ 기능은 국내 갤럭시 버즈4 프로와 갤럭시 버즈3 프로에 소프트웨어 업데이트를 통해 내년 […]",
@@ -82,6 +72,16 @@
       "m": "11. 04. AM 08:00",
       "ts": 1793779200000,
       "fullText": "삼성전자서비스, 한국서비스품질지수 에어컨 AS 부문 2년 연속 1위 2026/11/04 AUDIO Play Download 공유 레이어 열기 인쇄하기 삼성전자서비스(대표이사 김영호 부사장)가 한국표준협회가 주관하는 2026 한국서비스품질지수(KS-SQI) 에어컨 AS 부문에서 2년 연속 1위에 선정됐다. * KS-SQI: Korean Standard-Service Quality Index 삼성전자서비스는 지난해 에어컨 AS 부문에서 원년 1위에 선정된데 이어 올해도 정상을 지키며 업계 최고의 자리를 다시 한번 입증했다. 실제로 2월 &#8216;한국에서 가장 존경받는 기업&#8217; 서비스센터 부문 1위, 6월 &#8216;국가서비스대상&#8217; 가전 AS 대상, 7월 &#8216;한국서비스품질지수(KS-SQI)&#8217;, &#8216;국가고객만족도(NCSI)&#8217;, &#8216;한국산업의 서비스품질지수(KSQI)&#8217; 가전·휴대전화·컴퓨터 AS 부문 1위 등 주요 서비스 품질 평가를 모두 석권했다. 이번 조사에서는 ▲서비스 품질 ▲고객 서비스 신뢰도 ▲사회적 공헌 등 전반적인 부분에서 업계 최고 점수를 획득하며 1위에 올랐다. &#8216;삼성 AI 구독&#8217; 블루패스 서비스에 대한 높은 고객 만족도 역시 에어컨 AS 부문 1위 달성의 주요 요인으로 작용했다. 삼성전자서비스는 선제적인 서비스 체계와 AI(인공지능) 기술을 기반으로 고객 편의성을 높이고 있다. 제품별 사용 시기를 고려한 사전점검 캠페인을 적극 실시하여 고객의 불편을 예방하는 데 주력하고 있다. 에어컨 사용이 집중되는 여름이 시작되기 전에 에어컨 사전점검 캠페인을 실시했으며, 엔지니어도 50% 이상 확충했다. AI를 활용한 원격진단 서비스로 고객의 편의를 강화하고 있다. 스마트싱스(SmartThings) 기반의 &#8216;가전제품 원격진단(HRM)&#8217;을 통해 엔지니어 방문 없이도 제품 상태를 원격으로 진단하고 문제 해결을 지원한다. * HRM: Home Appliance Remote Management 실제로 올해 10월까지 에어컨 원격 상담을 진행한 고객 10명 중 6명이 출장서비스 없이 원격으로 문제를 해결했다. &#8216;삼성 AI 구독&#8217; 이용 고객 증가에 맞춰 구독 고객을 위한 &#8216;블루패스&#8217; 서비스도 강화하고 있다. 제품 이상 징후를 사전에 감지해 안내하는 &#8216;AI 사전케어 알림&#8217;, 신속한 AS 접수와 서비스를 지원하는 &#8216;A/S 패스트트랙&#8217;, 방문 케어 중 다른 삼성전자 제품을 추가로 무상 점검하는 &#8216;하나 더 서비스&#8217; 등 기존 제공하던 &#8216;블루패스&#8217; 서비스에 더해 신혼부부에게 특화된 &#8216;신혼 패스&#8217;와 시니어들에게 특화된 &#8216;이지케어 패스&#8217; 서비스가 추가됐다. * A/S 패스트트랙 1~5월, 9~12월 제공 &#8216;신혼 패스&#8217; 고객에게는 ▲전문 엔지니어가 이사 후 가전의 동작 상태를 점검해 주는 &#8216;이사 후 종합점검&#8217; ▲맞벌이 부부 등 평일 낮에 시간을 내기 어려운 고객을 위해 야간·공휴일 등 원하는 시간에 전문 세척팀이 방문하는 &#8216;시간맞춤 세척&#8217; 등을 제공한다. &#8216;이지케어 패스&#8217; 고객에게는 상담사가 정기적으로 전화해 소모품 교체·제품 사용 방법을 안내하는 &#8216;안심케어콜&#8217; 서비스를 제공한다. 이지케어 패스 고객 전용 &#8216;시니어 맞춤 응대 상담 채널&#8217;도 운영해 보다 쉽게 AI 가전을 활용할 수 있도록 돕는다. 삼성전자서비스는 수해, 산불 등 국가적 재난이 발생할 경우 특별서비스팀을 현장에 파견해 가전제품 무상점검, 세척, 수리 등을 통해 주민들의 빠른 일상 회복을 돕고 있다. 삼성전자서비스 대표이사 김영호 부사장은 &#8220;한국서비스품질지수 에어컨 AS 부문에서 2년 연속 1위에 선정해 주신 고객 여러분께 진심으로 감사드린다&#8221"
+    },
+    {
+      "s": "디지털데일리",
+      "t": "[美 중간선거] AI 데이터센터 규제 강화?…삼성전자·하이닉스, 미국 중간선거에 주가 출렁",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLMnJ5TVcybDFrMmxHQUowUVFvdUJKTE9zdmtabVBTM2NqQWsxV2UxQmZ6Y1lfWkFtbENkTmdIanRnOGxWRXJFWVdadVJwZ19MekhkbTZUUGZtbU9ZUnE0MHhn?oc=5",
+      "m": "11. 04. AM 04:54",
+      "ts": 1793768045000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "AI타임스",
@@ -281,6 +281,16 @@
       "fullText": "Google News"
     },
     {
+      "s": "한국경제",
+      "t": "\"삼성전자 HBM 가격 2배 뛴다…D램 3사 중 가장 높은 가격 전망\"",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SdzE0TFFTakFzeE1oWmdLRnlwN0F4Umo2SFRnWEMwWXpRMnhXM3hPLUlMbWhXazVITXJvRXlOcHJoXzVGRGVOSVpUMk1VcjJaWVMwYmtkd200UQ?oc=5",
+      "m": "10. 07. AM 07:00",
+      "ts": 1791356400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
       "s": "매일경제 마켓",
       "t": "“삼성전자, 업황 확장·HBM 경쟁력 강화…긍정적 접근 필요”",
       "d": "",
@@ -331,16 +341,6 @@
       "fullText": "Google News"
     },
     {
-      "s": "한국경제",
-      "t": "SK하이닉스, 미국산 HBM 생산 박차…美인디애나팹 착공",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TZXF5Q0RJODhrb3l4U2xrYlNiVVIxai0zX21GeldpV3N1aXRxNkJDOU41OWJTRV9yR191cGNlLVZ4M3NaejlIUnJMMWlXXzVBM3JtOWpXWW5Zdw?oc=5",
-      "m": "08. 28. AM 07:00",
-      "ts": 1787900400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "연합뉴스",
       "t": "SK하이닉스, 인디애나서 年수십만장 '메이드인 USA' HBM 만든다(종합)",
       "d": "",
@@ -361,10 +361,10 @@
       "fullText": "Google News"
     },
     {
-      "s": "YTN",
-      "t": "SK하이닉스, 미 인디애나에 HBM 생산공장...\"연 수십만 장 규모\"",
+      "s": "한국경제",
+      "t": "SK하이닉스, 미국산 HBM 생산 박차…美인디애나팹 착공",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE11TlUtQXdmQ2RGbDZ2NGxLdl9UVmVKZHNhM0ZMVy1hTUpIa3hIeGFSc3hvY0NUcGdrUGkxN1FRR0xOUml0OFIwT1ozdmpUNUlNM2JIN29BRTlrVDAzTEE?oc=5",
+      "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TZXF5Q0RJODhrb3l4U2xrYlNiVVIxai0zX21GeldpV3N1aXRxNkJDOU41OWJTRV9yR191cGNlLVZ4M3NaejlIUnJMMWlXXzVBM3JtOWpXWW5Zdw?oc=5",
       "m": "08. 28. AM 07:00",
       "ts": 1787900400000,
       "_policy": true,

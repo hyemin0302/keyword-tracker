@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-11-05T08:58:50.684Z",
-  "count": 20,
+  "updatedAt": "2026-11-05T17:10:28.166Z",
+  "count": 19,
   "stats": {
-    "today": 4,
+    "today": 3,
     "yesterday": 2,
-    "weekAvg": 1.9,
-    "sources": 5,
-    "heat": "warm"
+    "weekAvg": 1.6,
+    "sources": 4,
+    "heat": "cool"
   },
   "items": [
     {
-      "s": "전자신문",
-      "t": "삼성전자 D램 시장 점유율 '38%'…1위 수성",
-      "d": "삼성전자가 3분기 D램 시장 점유율 1위를 지켰다. 고대역폭메모리(HBM) 판매 확대에 따른 실적 성장이 지속되는 모습이다. 시장조사업체 카운터포인트리서치는 3분기 D램 시장 점유율 1위는 삼성전자로 38%를 차지했다고 5일 밝혔다. SK하이닉스 29%, 마이크론 21%, CXMT 9% 순이다. 카운터포인트리서치 조사 결과에 따르면, 삼성전자는 지난해 1분기 HBM 공급 난항으로 D램 시장 점유율 1위를 SK하이닉스에 내준 적 있다. 이후 주요",
-      "u": "https://www.etnews.com/20261105000460",
-      "m": "11. 05. AM 07:56",
-      "ts": 1793865383000,
-      "fullText": "반도체 반도체 삼성전자 D램 시장 점유율 '38%'…1위 수성 발행일 : 2026-11-05 16:56 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 2026년 3분기 D램 시장 점유율 현황(사진=카운터포인트리서치) 삼성전자가 3분기 D램 시장 점유율 1위를 지켰다. 고대역폭메모리(HBM) 판매 확대에 따른 실적 성장이 지속되는 모습이다. 시장조사업체 카운터포인트리서치는 3분기 D램 시장 점유율 1위는 삼성전자로 38%를 차지했다고 5일 밝혔다. SK하이닉스 29%, 마이크론 21%, CXMT 9% 순이다. 카운터포인트리서치 조사 결과에 따르면, 삼성전자는 지난해 1분기 HBM 공급 난항으로 D램 시장 점유율 1위를 SK하이닉스에 내준 적 있다. 이후 주요 인공지능(AI) 반도체 고객에 HBM 공급을 성사시키고, D램 공급 능력을 앞세워 지난해 4분기 다시 1위에 올랐다. 카운터포인트리서치는 3분기 세계 D램 전체 매출이 전년 대비 5배 가까운 2000억달러에 달했다고 설명했다. 분기 비트 출하량은 4% 늘어난데 불과하지만, 평균판매가격(ASP) 상승이 매출 성장을 견인한 것이다. 최정구 카운터포인트리서치 책임연구원은 “AI는 메모리를 범용재에서 희소한 고부가 자원으로 바꿔놓았고, 구매자들은 이제 가격 협상이 아니라 공급 확보 경쟁을 벌이고 있다”며 “가격 상승이 계속되는 만큼 공급업체들은 다음 분기에도 사상 최대 실적을 경신할 전망”이라고 밝혔다. 권동준 기자 djkwon@etnews.com"
+      "s": "NVIDIA공식",
+      "t": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "d": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack.  [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "m": "11. 05. PM 04:00",
+      "ts": 1793894400000,
+      "fullText": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge November 5, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. But the approach isn’t to simply pack more memory onto the GPU. It’s full-stack codesign. NVIDIA intentionally designs GPUs, CPUs, networking, storage and software together to get more useful work out of memory at every layer of the AI factory. That matters because an AI factory runs on a memory and storage hierarchy. GPU high-bandwidth memory (HBM) is the fastest, most expensive and most contested tier — with model weights and KV cache competing for limited capacity. Below it sit CPU memory, local SSDs and shared storage, each trading speed for more capacity at a lower cost per bit. How much useful work a byte does depends on how well the whole hierarchy is used: shrinking what must be stored, placing it on the right tier and bringing it back to the GPU before it’s needed. Byte for byte, NVIDIA makes the most efficient use of memory at every layer — and the results show it. From NVIDIA Blackwell Ultra to the Vera Rubin platform, HBM capacity per GPU rose roughly 3%, while agentic throughput per dollar rose by up to 30x on SemiAnalysis AgentX. Agentic Inference Is Putting More Pressure on HBM Frontier models now have trillions of parameters — the values that hold what an AI model learned in training. KV cache, which holds the context the model needs to understand each active request without reprocessing the same information, is also expanding. Agentic trajectories carry prior context across repeated model and to"
     },
     {
       "s": "연합뉴스",
@@ -35,15 +35,6 @@
       "m": "11. 05. AM 03:05",
       "ts": 1793847957000,
       "fullText": "삼성전자·SK하이닉스 등 대규모 주주환원 삼전닉스 현금배당 44조·자사주 취득 발표 거래소 저PBR 명단 공개로 제고 공시 확산 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다."
-    },
-    {
-      "s": "한경 경제",
-      "t": "삼성전자·SK하이닉스·인텔 한자리에…부산으로 세계 반도체 전문가 800명 집결",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202611057831i",
-      "m": "11. 05. AM 01:56",
-      "ts": 1793843770000,
-      "fullText": "산업 한경 PREMIUM9 AI를 넘어서는 성공투자 구독하기 AI 추천 뉴스 AI 추천 뉴스 팝업 닫기 삼성전자·SK하이닉스·인텔 한자리에…부산으로 세계 반도체 전문가 800명 집결 입력 2026.11.05 10:56 수정 2026.11.05 10:56 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 이광식 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 9~13일 부산서 KISM 2026 개최 15개국&middot;지역서 연구논문 300여 편 발표 AI 시대 반도체 제조 혁신 논의 전 세계 반도체 전문가 800여 명이 부산에 모인다. 인공지능(AI) 시대에 반도체 기술의 발전 방향을 논의하기 위해서다. 한국반도체디스플레이기술학회(반디학회)는 오는 9일부터 13일까지 부산 해운대 파라다이스호텔에서 &lsquo;제5회 국제반도체제조기술학술대회(KISM 2026 BUSAN)&rsquo;를 개최한다고 5일 밝혔다. 이번 행사는 경북구미반도체특화단지추진단과 부산테크노파크, 한국반도체산업협회가 공동 주최한다. 이번 학술대회의 주제는 &lsquo;미세화의 한계를 넘어: AI 시대의 스마트 제조(Beyond Scaling: Smart Manufacturing for AI Era)&rsquo;다. 삼성전자와 SK하이닉스, 인텔, 일본 도쿄일렉트론(TEL) 등 글로벌 반도체 기업과 연구기관의 전문가들이 참여해 최신 제조공정과 소재&middot;부품&middot;장비 기술을 공유한다. 발표 예정인 연구논문은 300여 편이다. 기조강연에는 심지혜 삼성전자 마스터, 심규찬 SK하이닉스 부사장, 사토 모토유키 도쿄일렉트론 박사가 나선다. 첨단 패키징과 AI 기반 스마트 제조, 차세대 메모리 공정 및 소재 혁신 등 반도체 산업의 주요 기술 동향을 소개할 예정이다. 학술 프로그램은 박막증착, 화학적기계연마(CMP)&middot;세정, 식각, 노광&middot;패터닝, 첨단 패키징, 공정진단&middot;제어 및 수율관리, 전력반도체, 탄소중립 등 8개 분야로 구성된다. 벨기에 반도체 연구기관 아이멕(IMEC)과 일본 에바라, 독일 아익스트론 등도 연구 성과를 발표한다. 이 밖에 반도체 소부장 신기술 전시회와 인재채용 프로그램, 반도체 제조기술 발전에 기여한 연구자 등을 대상으로 하는 &lsquo;반디기술상&rsquo; 시상식도 열린다. 박진섭 한양대 교수(대회장)는 &ldquo;이번 학술대회가 AI 시대 반도체 제조기술의 혁신 방향을 공유하고 글로벌 기술협력과 국내 소부장 산업의 경쟁력을 강화하는 계기가 되기를 기대한다&rdquo;고 말했다. 이광식 기자 bumeran@hankyung.com 좋아요 싫어요 후속기사 원해요 ⓒ 한경닷컴, 무단전재 및 재배포 금지 한국경제 구독신청 한경 프리미엄9 구독신청 이광식 기자 한국경제신문 중소기업부 소속 이광식 기자입니다. ADVERTISEMENT 관련 뉴스 1 '3분기 쇼크' CMTX \"외주 공정 내재화…수익성 회복 총력\" 반도체 공정용 소재·부품업체 씨엠티엑스(CMTX)가 올해 4분기부터 비용 절감에 나서고 내년에는 외주 공정의 내재화를 통해 수익성을 끌어올리겠다고 밝혔다. 3분기 실적 부진으로 주가가 ... 2026.11.04 10:05 2 모닝 글로벌 뉴스 AMD, 데이터센터 매출 1년 새 2배…4분기 66% 성장 예고 AMD가 인공지능(AI) 데이터센터용 반도체를 앞세워 매출의 약 3분의 2를 데이터센터에서 벌어들이는 회사로 바뀌고 있다. 지난 3분기 데이터센터 사업 매출이 1년 만에 두 배 가까이 늘면서 전체 매출도 45% 증가... 2026.11.04 06:50 3 기술주 저가매수 유입 …반도체 생명력 어디까지? [박신영의 개장전 요것만] 1. AMD, &#39;인텔 폭락&#39; 피하려면 &#39;깜짝 전망&#39; 필요미국 반도체 기업 AMD가 3일(현지시간) 장 마감 후 실적 발표를 앞두고 시험대에 올랐습니다. 인공지능(AI... 2026.11.04 00:24 ADVERTISEMENT "
     },
     {
       "s": "삼성뉴스룸",

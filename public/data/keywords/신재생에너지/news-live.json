@@ -1,14 +1,302 @@
 {
-  "updatedAt": "2026-11-10T09:10:54.936Z",
+  "updatedAt": "2026-11-10T17:15:51.152Z",
   "count": 40,
   "stats": {
-    "today": 7,
-    "yesterday": 13,
-    "weekAvg": 4.3,
-    "sources": 24,
-    "heat": "warm"
+    "today": 40,
+    "yesterday": 0,
+    "weekAvg": 5.7,
+    "sources": 10,
+    "heat": "hot"
   },
   "items": [
+    {
+      "s": "TechCrunch",
+      "t": "Sundrop turns your endless baby photos into recaps, time-lapses and more — without AI",
+      "d": "Sundrop is a new iPhone app that uses Apple's on-device AI to help parents rediscover their favorite photos and create keepsakes without uploading images to the cloud.",
+      "u": "https://techcrunch.com/2026/11/10/sundrop-turns-your-endless-baby-photos-into-recaps-time-lapses-and-more-without-ai/",
+      "m": "11. 10. PM 04:50",
+      "ts": 1794329438000,
+      "fullText": "New parents take a lot of pictures of their children, but those photos often end up languishing in photo galleries, never to be seen again after the initial snap and share. A new app, Sundrop , aims to make those pictures more useful by turning them into weekly recaps, highlights, time-lapses of the child growing up, and other cute scenes, like putting the child&#8217;s photo on a magazine cover or a rookie card. While Google Photos and Apple Photos already provide extensive tools to organize and manage photos, Sundrop is taking aim at a particular niche: Parents with a new baby (usually their first!) who take an overwhelming number of photos and want to do more with those pictures. Image Credits: Sundrop The app was developed over the past few months by the same team behind the read-it-later app, Matter: Ben Springwater, Sky Lan, and Rob Mackenzie (all dads themselves). Notably, Sundrop claims it is designed to be private, and processes all photos locally on the device it is installed on. To make this possible, Sundrop taps into Apple&#8217;s Vision framework and on-device Core ML (machine learning) models instead of uploading photos to a cloud server or some other hosted AI service. Both of the child&#8217;s parents can use Sundrop together by linking their accounts, which allows the app to sync their shared photos via Apple&#8217;s iCloud service. This feature, the company says, means the pictures aren&#8217;t sent to any external servers it runs. Image Credits: Sundrop In addition, the team notes that no generative AI is used in the creation of its scenes or highlights. This differentiates it from many photo editing apps on the market, including Google&#8217;s, which are increasingly tapping generative AI to create new versions of your photos. Image Credits: Sundrop To find highlights and recaps, Sundrop scans pictures in the parents&#8217; respective Camera Rolls on their iPhones, skipping things like screenshots or duplicates. It then creates highlights or fun"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Where Does Jensen Huang’s Dishonesty End?",
+      "d": "What does Jensen Huang’s affair with a suspected Chinese spy mean for US security? It’s up to Congress to investigate where Huang’s dishonesty ends, Dave Lee says. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-10/opinion-where-does-jensen-huang-s-dishonesty-end-video",
+      "m": "11. 10. PM 04:07",
+      "ts": 1794326842000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Apple TV makes sign language interpretation a built-in accessibility feature",
+      "d": "Apple TV's new accessibility feature lets viewers turn on sign language interpretation within supported titles.",
+      "u": "https://techcrunch.com/2026/11/10/apple-tv-makes-sign-language-interpretation-a-built-in-accessibility-feature/",
+      "m": "11. 10. PM 04:00",
+      "ts": 1794326400000,
+      "fullText": "Apple TV is making its content more accessible to Deaf audiences with the launch of a new Sign Language Interpretation feature, the company announced on Tuesday. The feature will initially be available across a limited set of titles, starting this Friday with the release of &#8220; Being Heumann ,&#8221; a biopic about disability rights activist Judy Heumann. American Sign Language (ASL) and British Sign Language (BSL) will also be made available for Apple&#8217;s hit movie &#8220;F1.&#8221; Later this year, other titles will follow, including &#8220;Way of the Warrior Kid&#8221; and &#8220;Greyhound.&#8221; What makes Apple&#8217;s offering different from other platforms is that the sign language version of the film is not a separate product &#8212; that is, it&#8217;s not a separate film designed just for Deaf viewers. Instead, Apple&#8217;s support for sign language is just a setting you enable that&#8217;s integrated with the main title, similar to how you could turn on or off closed captions. When a title with the sign language option is playing, an interpreter appears in the bottom right of the screen, translating the spoken words into signs. Apple says it has partnered with a group of DASLs (Directors of Artistic Sign Language) to ensure that the interpreter for each film fits the tone of the film. Notably, the company is not using any AI-generated interpreters, as Apple says that&#8217;s not what the Deaf community has said it needs. The feature is shipping in the latest release of iOS 27.2, and can be turned on through a new sign language option in Settings. After being enabled, a new button will appear in the supported Apple Original titles on Apple TV indicating that sign language is available. These titles are labeled with a sign language icon that appears on the title page alongside other features like closed captions or audio descriptions. There&#8217;s also a new section under languages that will list the specific sign languages that are available wit"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "d": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "u": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "m": "11. 10. PM 03:54",
+      "ts": 1794326048000,
+      "fullText": "Google is notching up its chipmaking game as the company seeks to reduce its dependence on chips made by other companies for its cloud computing business. Google on Monday unveiled two new variants of its tensor processing units (TPUs), in-house-developed chips meant for AI workloads, that broaden its chip portfolio to additional use cases: confidential inference and more memory capacity for large workloads. The new units, TPU 8tx and TPU 8i Max, are part of the company&#8217;s eighth generation of chips introduced in April this year, and build on what those chips offered, which was more inference capacity and support for large training requirements. TPU 8tx, designed with AMD, is based on the TPU 8t chip, and is geared specifically for confidentially training and running AI models, Google said in a blog post. The chip &#8220;builds security directly into the hardware layer, keeping sensitive data and model weights protected and isolated even while in active use,&#8221; the company wrote. The chip also has a custom inferencing network that lets it run reasoning alongside training, so it can be used to distill and train small models on the fly. That ability, according to Google, could prove useful for cases where a company might want to train a model on its proprietary data without having to move the data between devices. Meanwhile, TPU 8i Max basically combines two of the inference-focused TPU 8i chips the company launched in April, doubling the memory capacity, processing power and bandwidth, but in a single package. The result is a chip that lets AI models handle a larger range of information during queries. The chip launch comes as hyperscalers like Microsoft , Amazon , and even AI labs like OpenAI and Anthropic are working on their own lines of AI-specific semiconductors and accompanying software in order to reduce their reliance on the dominance of Nvidia. The news also comes at a particularly vulnerable moment for Nvidia, whose CEO Jensen Huang over the weeken"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "More Suicides at Spy, Cyber Agencies Scrutinized by Congress",
+      "d": "At least 11 National Security Agency and US Cyber Command workers died by suicide over roughly the past year, according to US officials and public records, a greater number than previously known.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-10/more-suicides-at-spy-cyber-agencies-scrutinized-by-congress",
+      "m": "11. 10. PM 03:45",
+      "ts": 1794325552000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "N-able takes its remote access service offline after researcher publishes dozens of zero-day bugs",
+      "d": "The remote access giant also urged its self-hosted customers to take down their own servers amid a \"critical security incident,\" fearing the possibility of cyberattacks.",
+      "u": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/",
+      "m": "11. 10. PM 03:45",
+      "ts": 1794325527000,
+      "fullText": "In Brief Posted: 7:45 AM PST · November 10, 2026 Image Credits: Bryce Durbin / TechCrunch Zack Whittaker N-able takes its remote access service offline after researcher publishes dozens of zero-day bugs Remote access company N-able has confirmed it took down its cloud-hosted offering to fix a slew of security vulnerabilities that were published online this week, giving the company no advance notice to fix them. In a status update on its website, the company said its hosted N-Central offering for customers is now offline &#8220;while we take the necessary actions to secure the environments and implement appropriate remediation.&#8221; The company also urged customers to take down their own self-hosted deployments of N-Central, fearing that attackers could use the publicly disclosed exploits to hack into customer networks. N-able said during this time customers will not be able to use their N-Central service, which allows corporate customers to remotely access and manage other devices and systems on the same network. Remote access technologies are a frequent target of hackers, as these systems can grant vast access to a company&#8217;s network and internal data. Security researcher Ben Bales released the &#8220;zero-day&#8221; bugs on GitHub on Sunday. In a post on X , Bales dubbed the bugs Able2Shell, describing them as a mix of vulnerabilities capable of stealing credentials, creating new administrative accounts, and gaining root access to affected N-able systems. Bales told Bleeping Computer that he publicly released the bugs as the company allegedly failed to patch the flaws reported in a different product. N-able said that it has no evidence of successful exploitation against any of its customer environments. A spokesperson for the company did not respond to a request for comment about whether it has the ability to check, such as server logs, or if it has no way to check. Topics cyberattack , cybersecurity , In Brief , n-able , remote access , Security 2027 San F"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Carlyle's Thomas Warns About AI Infrastructure Financing Risks",
+      "d": "Jason Thomas, Carlyle’s head of global research and investment strategy, says the Federal Reserve’s tightening aims to cool inflation by making cash more attractive, raising borrowing costs and encouraging savings, pressures that could also constrain AI investment. He speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-10/carlyle-s-thomas-warns-on-ai-buildout-financing-risks-video",
+      "m": "11. 10. PM 03:40",
+      "ts": 1794325233000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Meta&#8217;s AI agent Muse lands on Apple Watch and Android Wear OS",
+      "d": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+      "u": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "m": "11. 10. PM 03:29",
+      "ts": 1794324570000,
+      "fullText": "Meta is bringing its Muse AI agent to the Apple Watch and Android&#8217;s Wear OS, the company announced on Monday. With the launch, users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation directly on their smartwatch. Works around the clock, and now on your wrist. Muse is now on Apple Watch and Wear OS ⌚️ pic.twitter.com/97QRap5XKz &mdash; Muse (@Muse) November 9, 2026 The smartwatch launch comes just a month after Meta introduced a dedicated iPad app for Muse. First launched on the App Store in September, the AI assistant’s expansion across Apple devices signals Meta’s growing ambitions for its consumer AI product and its focus on making Muse a central part of its ecosystem. Muse is now one of dozens of consumer-facing AI agents competing for users’ attention. Like many of its competitors, it allows users to connect their accounts to manage email, meetings, bills, and more, while also handling tasks such as booking reservations, ordering groceries, setting goals, and making purchases. Users can also personalize their Muse avatar to their liking and change it into something that resembles a person, an animal, or another type of character. Despite being a relatively new product, Meta has wasted little time introducing new capabilities to Muse. A few days ago, Meta launched Spaces , a new way to communicate and collaborate with Muse. Spaces function as dedicated conversations around specific topics, which Meta describes as “custom experiences&#8221; as they&#8217;re mini apps that are built on the fly. They appear in the sidebar of the Muse interface and bring up a focused conversation where the AI agent works toward a particular goal on the user’s behalf. Last week, Meta rolled out the ability for users in the U.S. to video chat with their Muse AI avatar. Meta said Muse will use “subtle expressions and gestures” that reflect the tone and context of the conversation as it speaks. It&#8217;s worth noting that Muse doesn’t actua"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Aura&#8217;s newest e-ink photo frame is even better and more affordable than its last",
+      "d": "Aura is unveiling a new product: a 10-inch digital e-ink frame that can blend in seamlessly with printed photos.",
+      "u": "https://techcrunch.com/2026/11/10/auras-newest-e-ink-photo-frame-is-even-better-and-more-affordable-than-its-last/",
+      "m": "11. 10. PM 02:00",
+      "ts": 1794319200000,
+      "fullText": "If you&#8217;re into interior design, decorating, or just love displaying your family photos, Aura &#8216;s latest product line will feel magical. Aura&#8217;s cordless Ink photo frames have the versatility of a digital photo frame, but their e-ink displays don&#8217;t even look digital, blending seamlessly into the rest of your framed photos. A follow-up to its 13-inch, $499 Ink frame , Aura is unveiling a new product that&#8217;s a little less pricey: a 10-inch Ink frame that is now on sale for $349. &#8220;Ten years ago when we were first starting Aura, we were interested in making an e-ink picture frame. We just wanted a frame that looked like a printed photo and magically changed, but the tech was not there at that point,&#8221; Aura co-founder and CTO Eric Jensen told TechCrunch. &#8220;So it&#8217;s great to be able to see it moving forward.&#8221; Aura uses E Ink&#8217;s Spectra 6 display for its Ink frames, which can only render six different colors. What sets Aura apart is its proprietary dithering algorithm, a technique that blends a limited color palette into patterns that the eye reads as smooth gradients. How Aura&#8217;s dithering algorithm breaks photos down into six e-ink colors Image Credits: Aura While the 13&#8243; Ink frame looks beautiful, it is obvious that the colors are not exact to the original photo. For the new 10&#8243; Ink frame, Aura worked with E Ink on expanding its Spectra 6 technology to incorporate three new proprietary colors: off white, mustard, and orange. &#8220;The net effect is that the edges are smoothed a bit more,&#8221; Jensen said. &#8220;You can see if you zoom in on a face, the places where we would’ve had to previously put white next to red, or something a little more jarring, we can now fill in with the right color, and it effectively makes it a little bit higher resolution.&#8221; With the extra three colors, the Ink 10&#8243; is getting truer to representing an original photo, but the colors still appear less satu"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Spotify&#8217;s AI DJ gets new voices, personalities, and an option for less chatter",
+      "d": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+      "u": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "m": "11. 10. PM 02:00",
+      "ts": 1794319200000,
+      "fullText": "Spotify&#8217;s AI DJ, one of the company&#8217;s earlier efforts in embracing AI technology to connect people with their favorite music, is getting an upgrade. On Tuesday, the streamer announced that users will now be able to customize their DJ more like they can an AI assistant, by choosing between different voices and personalities. Those who like the feature, but not all the chatter, can also now opt for an experience with less commentary in between sets. Since first launching the AI DJ in 2023 , Spotify has leveraged AI across to improve all areas of its app. Most recently, that has included updates that allow users to chat with a conversational AI agent about music, fine-tune their recommendations with prompts , create playlists with AI, and work with third-party agents like ChatGPT and Claude. However, the DJ remains one of Spotify&#8217;s most popular AI features, as it&#8217;s used by over 94M Spotify Premium listeners. Now, it&#8217;s revisiting one of its first major AI features, taking a cue from the personalization options other AI assistants routinely offer. With the update, Spotify Premium subscribers will be able to choose from an expanded set of AI DJ voices in both English and Spanish. The voices include seven English options with British, American, Irish, Australian, and Indian accents, and two new Spanish options. The different voices will have their own unique personalities as well. For instance, users can pick between three American voices, one of which is laid-back and warm (Casey), another that&#8217;s direct and has an edge (Tess), and a third that has a Southern accent and a youthful energy (Lane). In addition to the other various regional accents, there are also two new Spanish voices, one that&#8217;s more down-to-earth (Nico) and one that&#8217;s more witty and friendly (Fabi). The voices will not replace the AI DJ&#8217;s original voice, &#8220;X,&#8221; which was based on that of a Spotify employee&#8217;s real voice recordings. Howeve"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Amazon’s Ring Unveils $250 Flying Security Camera After Delays",
+      "d": "The brand’s entry into robotics also includes a rebranded version of Amazon’s unsuccessful Astro rover.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-10/amazon-s-ring-unveils-250-flying-security-camera-after-delays",
+      "m": "11. 10. PM 01:30",
+      "ts": 1794317405000,
+      "fullText": ""
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "d": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+      "u": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "m": "11. 10. PM 01:30",
+      "ts": 1794317400000,
+      "fullText": "Ring, the Amazon-owned home security company, is launching its own robotics division, with an eye toward automating security at both the home and the office. The company announced Ring Robotics on Tuesday, debuting two new devices that are sure to stir more than a little bit of controversy. The first new device is a home security drone that users will be able to deploy to patrol their domiciles when they&#8217;re out. The other item that the company is launching is a roving enterprise security robot, designed for businesses. First, the drone. Ring calls the device a &#8220;flying indoor security camera&#8221; — which should give you a pretty good idea of what it&#8217;s supposed to do and how it&#8217;s supposed to work. Ring Drone Cam is designed to fly from room to room, inspecting what is happening in a user&#8217;s house and, if there&#8217;s trouble, to alert them. It has been built to integrate with Ring&#8217;s other home security devices so, for instance, if a Ring alarm goes off in a particular part of the home (say, the backdoor), the bot will supposedly fly to that location and investigate. When it&#8217;s not in use, the drone stays inactive in a docking bay. The drone shoots video in 2K and it also comes equipped with LED lights so that it can keep watch at night and record video in low light. It can be controlled via Amazon&#8217;s Alexa Home Map , and the bot can also be scheduled to patrol the house at specific times — so, if you know you&#8217;re going to be out for the night or even on vacation, the drone can keep you apprised of what&#8217;s happening while you&#8217;re away. Now, let&#8217;s turn to Ring Rover Cam. Like the drone, this roving robot can be set to patrol specific routes, at specific times, within the user&#8217;s business. The robot streams video in continuous 4K, which is viewable via Ring&#8217;s mobile app, and a trigger can be set to automatically record if it detects a human. It also comes with a periscope camera, which can be"
+    },
+    {
+      "s": "TechCrunch",
+      "t": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
+      "d": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open-source communities valuable to developers worldwide.",
+      "u": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "m": "11. 10. PM 01:00",
+      "ts": 1794315600000,
+      "fullText": "Loading the player&#8230; The very qualities that make open AI platforms valuable, like open doors and rich data, might also make them vulnerable to more hacks, Irene Solaiman, chief policy officer and SVP of strategy at Hugging Face said on a recent episode of the Equity podcast. The October attack on OpenCode , which targeted users’ third-party API keys and caused financial damage, is the latest example. It follows an incident this summer in which an OpenAI agent swarm breached Hugging Face in an apparent attempt to cover its tracks after accessing answers to cybersecurity evaluations. The risks aren’t limited to platforms that invite open community contributions. On Monday, AI infrastructure startup Fireworks, which helps developers run and train open AI models, disclosed that attackers had accessed some customers’ model weights, datasets, and billing information. The company temporarily disabled certain self-service dataset functions as it investigates. While the attack isn’t necessarily due to Fireworks’ openness, it highlights how much valuable information is concentrated within AI infrastructure providers. “The things I worry about making an open community targeted are also what makes it special,” Solaiman said on Equity. “We are necessarily permissive. We want the average hobbyist in their basement who doesn’t have an institutional affiliation to be able to contribute.” “You want people to be able to just submit pull requests and allow anybody without a valid affiliation to contribute…but then you have some losers who ruin it for the rest,” she added in a separate conversation. That permissiveness isn’t the only thing drawing attackers. The wealth of information open platforms host also make them targets. Hugging Face became a temptation for OpenAI’s agent swarm because of the evaluation datasets it holds, whereas OpenCode’s target in this case came from its “juicy third-party API keys,” per Solaiman. “The combination of that makes us prime targets,” Solaima"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Alibaba Chip Design Unit T-Head Files for Hong Kong Listing",
+      "d": "Alibaba Group Holding Ltd.’s chip design unit T-Head has filed for a Hong Kong listing, moving ahead with a proposed spinoff of a business that supplies data center processors in China.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-10/alibaba-s-chip-design-unit-t-head-files-for-hong-kong-listing",
+      "m": "11. 10. PM 12:51",
+      "ts": 1794315086000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Nvidia CEO Jensen Huang’s Affair Shows Pitfalls of Imperious Leaders",
+      "d": "Don’t make your CEO your mascot, unless you’re really truly sure",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-11-10/nvidia-ceo-jensen-huang-s-affair-shows-pitfalls-of-imperious-leaders",
+      "m": "11. 10. PM 12:01",
+      "ts": 1794312061000,
+      "fullText": ""
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 이호정, '날씨 거스르는 초미니 패션'",
+      "d": "배우 이호정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000498",
+      "m": "11. 10. AM 11:58",
+      "ts": 1794311923000,
+      "fullText": "라이프 > 포토 [ET포토] 이호정, '날씨 거스르는 초미니 패션' 발행일 : 2026-11-10 20:58 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 이호정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 빠니보틀·궤도, 보드게임 예능 '카우몰'로 뭉쳤다···오는 12월 18일 첫 방송 규현의 귀환…설렘 가득 'CONTINUE' 발매 D-1 '10주년 투어' 볼빨간사춘기, 'Red Square' 포문 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답] 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 미즈하라 키코, '그윽한 시선'",
+      "d": "일본 모델 미즈하라 키코가 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000497",
+      "m": "11. 10. AM 11:56",
+      "ts": 1794311818000,
+      "fullText": "라이프 > 포토 [ET포토] 미즈하라 키코, '그윽한 시선' 발행일 : 2026-11-10 20:56 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 일본 모델 미즈하라 키코가 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답] 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료 에이티즈의 세계관 힌트?! 'UP' MV 티저 공개 日 애니 '그로테스크'가 찾아온다! 메가박스 '단독 개봉' 확정 웬디, 새 앨범 6곡 전곡 작사…'Gleam Hour' 트랙리스트 공개"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 미즈하라 키코, '포즈는 엣지 있게'",
+      "d": "일본 모델 미즈하라 키코가 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000496",
+      "m": "11. 10. AM 11:55",
+      "ts": 1794311757000,
+      "fullText": "라이프 > 포토 [ET포토] 미즈하라 키코, '포즈는 엣지 있게' 발행일 : 2026-11-10 20:55 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 일본 모델 미즈하라 키코가 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 음악의 시각화…박재정, 단콘 '기록' 성황리 마무리 베이비돈크라이 이현·베니 목소리로 '문학' 만난다 누에라, 'KGMA'서 'IS 루키' 수상 아이브·투어스, 한터 '주간차트 주인공' 등극 '남편도 할 말 있다'…'말자쇼'의 특별한 결혼 이야기"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 미즈하라 키코, '유니크한 매력 발산'",
+      "d": "일본 모델 미즈하라 키코가 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000495",
+      "m": "11. 10. AM 11:54",
+      "ts": 1794311666000,
+      "fullText": "라이프 > 포토 [ET포토] 미즈하라 키코, '유니크한 매력 발산' 발행일 : 2026-11-10 20:54 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 일본 모델 미즈하라 키코가 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 음악의 시각화…박재정, 단콘 '기록' 성황리 마무리 베이비돈크라이 이현·베니 목소리로 '문학' 만난다 누에라, 'KGMA'서 'IS 루키' 수상 아이브·투어스, 한터 '주간차트 주인공' 등극 '남편도 할 말 있다'…'말자쇼'의 특별한 결혼 이야기"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 미즈하라 키코, '과거 지드래곤의 옛 연인'",
+      "d": "일본 모델 미즈하라 키코가 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000494",
+      "m": "11. 10. AM 11:52",
+      "ts": 1794311564000,
+      "fullText": "라이프 > 포토 [ET포토] 미즈하라 키코, '과거 지드래곤의 옛 연인' 발행일 : 2026-11-10 20:52 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 일본 모델 미즈하라 키코가 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 이현도·故 김성재, 31년 만에 다시 '듀스'로…AI가 이은 음악 이기찬과 팬들이 함께한 30년…연말 콘서트 '우리 서른해' 개최 음악의 시각화…박재정, 단콘 '기록' 성황리 마무리 베이비돈크라이 이현·베니 목소리로 '문학' 만난다 누에라, 'KGMA'서 'IS 루키' 수상"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 이수혁, '현실감 없는 비율'",
+      "d": "배우 이수혁이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000493",
+      "m": "11. 10. AM 11:49",
+      "ts": 1794311393000,
+      "fullText": "라이프 > 포토 [ET포토] 이수혁, '현실감 없는 비율' 발행일 : 2026-11-10 20:49 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 이수혁이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 누에라, 두 번째 글로벌 여정…마카오 공연 확정 이현도·故 김성재, 31년 만에 다시 '듀스'로…AI가 이은 음악 이기찬과 팬들이 함께한 30년…연말 콘서트 '우리 서른해' 개최 음악의 시각화…박재정, 단콘 '기록' 성황리 마무리 베이비돈크라이 이현·베니 목소리로 '문학' 만난다"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 이수혁, '섹시한 무드'",
+      "d": "배우 이수혁이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000492",
+      "m": "11. 10. AM 11:48",
+      "ts": 1794311305000,
+      "fullText": "라이프 > 포토 [ET포토] 이수혁, '섹시한 무드' 발행일 : 2026-11-10 20:48 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 이수혁이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 누에라, 두 번째 글로벌 여정…마카오 공연 확정 이현도·故 김성재, 31년 만에 다시 '듀스'로…AI가 이은 음악 이기찬과 팬들이 함께한 30년…연말 콘서트 '우리 서른해' 개최 음악의 시각화…박재정, 단콘 '기록' 성황리 마무리 베이비돈크라이 이현·베니 목소리로 '문학' 만난다"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 이수혁, '프린스 분위기'",
+      "d": "배우 이수혁이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000491",
+      "m": "11. 10. AM 11:46",
+      "ts": 1794311202000,
+      "fullText": "라이프 > 포토 [ET포토] 이수혁, '프린스 분위기' 발행일 : 2026-11-10 20:46 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 이수혁이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 지훈, 데뷔 첫 EP '잊어도 된다는 마음으로' 발표 누에라, 두 번째 글로벌 여정…마카오 공연 확정 이현도·故 김성재, 31년 만에 다시 '듀스'로…AI가 이은 음악 이기찬과 팬들이 함께한 30년…연말 콘서트 '우리 서른해' 개최 음악의 시각화…박재정, 단콘 '기록' 성황리 마무리"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 이수혁, '어둠 밝히는 하얀 비주얼'",
+      "d": "배우 이수혁이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000490",
+      "m": "11. 10. AM 11:45",
+      "ts": 1794311114000,
+      "fullText": "라이프 > 포토 [ET포토] 이수혁, '어둠 밝히는 하얀 비주얼' 발행일 : 2026-11-10 20:45 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 이수혁이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료 에이티즈의 세계관 힌트?! 'UP' MV 티저 공개 日 애니 '그로테스크'가 찾아온다! 메가박스 '단독 개봉' 확정 웬디, 새 앨범 6곡 전곡 작사…'Gleam Hour' 트랙리스트 공개 '말자쇼', 스킨십부터 취미·성형까지…부부 사이 동상이몽"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 김유정, '단발머리 찰랑이며'",
+      "d": "배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000488",
+      "m": "11. 10. AM 11:42",
+      "ts": 1794310975000,
+      "fullText": "라이프 > 포토 [ET포토] 김유정, '단발머리 찰랑이며' 발행일 : 2026-11-10 20:42 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답] 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료 에이티즈의 세계관 힌트?! 'UP' MV 티저 공개 日 애니 '그로테스크'가 찾아온다! 메가박스 '단독 개봉' 확정 웬디, 새 앨범 6곡 전곡 작사…'Gleam Hour' 트랙리스트 공개"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 김유정, '세련된 미모'",
+      "d": "배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000487",
+      "m": "11. 10. AM 11:40",
+      "ts": 1794310841000,
+      "fullText": "라이프 > 포토 [ET포토] 김유정, '세련된 미모' 발행일 : 2026-11-10 20:40 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 육성재와의 만남…팬미팅 '5 to 7' 포스터 공개 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답] 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료 에이티즈의 세계관 힌트?! 'UP' MV 티저 공개 日 애니 '그로테스크'가 찾아온다! 메가박스 '단독 개봉' 확정"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 김유정, '과감한 튜브탑 패션'",
+      "d": "배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000486",
+      "m": "11. 10. AM 11:37",
+      "ts": 1794310622000,
+      "fullText": "라이프 > 포토 [ET포토] 김유정, '과감한 튜브탑 패션' 발행일 : 2026-11-10 20:37 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 육성재와의 만남…팬미팅 '5 to 7' 포스터 공개 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답] 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료 에이티즈의 세계관 힌트?! 'UP' MV 티저 공개 日 애니 '그로테스크'가 찾아온다! 메가박스 '단독 개봉' 확정"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 김유정, '귀여움 터지는 미소'",
+      "d": "배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000485",
+      "m": "11. 10. AM 11:34",
+      "ts": 1794310457000,
+      "fullText": "라이프 > 포토 [ET포토] 김유정, '귀여움 터지는 미소' 발행일 : 2026-11-10 20:34 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 '10주년 투어' 볼빨간사춘기, 'Red Square' 포문 육성재와의 만남…팬미팅 '5 to 7' 포스터 공개 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답] 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료 에이티즈의 세계관 힌트?! 'UP' MV 티저 공개"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 김유정, '예쁜 볼터치'",
+      "d": "배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000484",
+      "m": "11. 10. AM 11:32",
+      "ts": 1794310369000,
+      "fullText": "라이프 > 포토 [ET포토] 김유정, '예쁜 볼터치' 발행일 : 2026-11-10 20:32 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 '10주년 투어' 볼빨간사춘기, 'Red Square' 포문 육성재와의 만남…팬미팅 '5 to 7' 포스터 공개 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답] 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료 에이티즈의 세계관 힌트?! 'UP' MV 티저 공개"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 김유정, '그림같은 손 키스'",
+      "d": "배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000483",
+      "m": "11. 10. AM 11:30",
+      "ts": 1794310242000,
+      "fullText": "라이프 > 포토 [ET포토] 김유정, '그림같은 손 키스' 발행일 : 2026-11-10 20:30 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 규현의 귀환…설렘 가득 'CONTINUE' 발매 D-1 '10주년 투어' 볼빨간사춘기, 'Red Square' 포문 육성재와의 만남…팬미팅 '5 to 7' 포스터 공개 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답] 베이온과의 잊지 못할 시간…첫 日 팬미팅 성료"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET포토] 김유정, '블링블링한 미소'",
+      "d": "배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com)",
+      "u": "https://www.etnews.com/20261110000481",
+      "m": "11. 10. AM 11:28",
+      "ts": 1794310133000,
+      "fullText": "라이프 > 포토 [ET포토] 김유정, '블링블링한 미소' 발행일 : 2026-11-10 20:28 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 배우 김유정이 10일 서울 성북구 한국가구박물관에서 진행된 프렌치 하이 주얼리 브랜드 메시카(MESSIKA) 포토월 행사 일정에 참석해 포즈를 취하고 있다. 이승훈 기자 (mozart1205@etnews.com) 관련 기사 빠니보틀·궤도, 보드게임 예능 '카우몰'로 뭉쳤다···오는 12월 18일 첫 방송 규현의 귀환…설렘 가득 'CONTINUE' 발매 D-1 '10주년 투어' 볼빨간사춘기, 'Red Square' 포문 육성재와의 만남…팬미팅 '5 to 7' 포스터 공개 숏폼 알고리즘 강타! 키빗업, '나가리' 컴백 [일문일답]"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Siemens Expands Chip-Design Business With Software Deal",
+      "d": "Siemens AG agreed to buy family-owned Lauterbach GmbH to expand its chip-design portfolio, part of a strategy of acquiring specialist technology firms to help meet rising demand for state-of-the-art semiconductors.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-10/siemens-expands-chip-design-business-with-latest-software-deal",
+      "m": "11. 10. AM 09:20",
+      "ts": 1794302401000,
+      "fullText": ""
+    },
     {
       "s": "연합뉴스",
       "t": "엔젠바이오 \"솔라에이엠홀딩스 주식 20억원에 취득\"",
@@ -39,13 +327,13 @@
       "fullText": "Google News"
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Moonshot Rents Nvidia’s Top AI Chips in China, Documents Show",
-      "d": "Moonshot AI accessed a trove of Nvidia Corp.’s most advanced chips this summer, according to documents filed with Beijing regulators, highlighting the Chinese artificial intelligence champion’s reliance on American hardware despite US export restrictions.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-10/moonshot-rents-nvidia-s-top-ai-chips-in-china-documents-show",
-      "m": "11. 10. AM 04:54",
-      "ts": 1794286477000,
-      "fullText": ""
+      "s": "TechCrunch",
+      "t": "Jensen Huang&#8217;s alleged honeypot scandal has inspired some top-notch memes",
+      "d": "Huang publicly confessed to the affair just yesterday, so the internet has the rest of the week to get creative.",
+      "u": "https://techcrunch.com/2026/11/09/jensen-huangs-alleged-honeypot-scandal-has-inspired-some-top-notch-memes/",
+      "m": "11. 10. AM 04:34",
+      "ts": 1794285255000,
+      "fullText": "Jensen Huang, the CEO and co-founder of the world’s most prominent chip company, has allegedly been honey-trapped by a suspected Chinese spy, and the news has struck the internet like a match to gasoline. Huang has long been seen as a wife guy (or so everyone assumed). He and his wife, Lori, have been together since the 1980s, and both of their children work at Nvidia. Huang has been the closest thing the tech world has to a rock star, with fans lining up for selfies and autographs. Of all the AI overlords, the leather-jacket wearing Huang has seemed like the most level-headed and least erratic, which is why this plot twist has hit so hard . The potential fallout is mind-boggling. Nvidia looms so large over the U.S. stock market that even the company&#8217;s domestic drama is a market risk. Countless AI startups depend on Nvidia chips, so any shake-up at the top would ripple far beyond the company. And Nvidia has no publicly disclosed succession plan, so if Huang leaves, it&#8217;s unclear who&#8217;d take over. Is this how the AI bubble bursts? It&#8217;s a question that will be answered in time, but in the meantime, a more pressing matter demands our attention: ranking the funniest memes about the scandal, with bonus points for AI images presumably generated using Nvidia chips. There&#8217;s admittedly a lot to choose from, ranging from “500 Days of Summer” jokes to jokes about divorce lawyers to an AI adaptation of the music video for Usher ‘s song “Confessions Pt. II,” a track about cheating. Another person created a viral AI video that re-creates the Coldplay concert where a startup CEO was caught on the Jumbotron hugging a colleague. Huang publicly confessed to the affair just yesterday, so the internet has the rest of the week to get creative. For the sake of the US economy I really hope Jensen&#39;s wife can be chill about this. &mdash; Comfortably Smug (@ComfortablySmug) November 8, 2026 if i had a billionaire husband and no prenup, i’d introduce him to the"
     },
     {
       "s": "강원신문",
@@ -64,7 +352,7 @@
       "u": "https://www.nbcnews.com/video/drone-delivers-food-to-stranded-chimpanzee-after-florida-flooding-273170501926",
       "m": "11. 10. AM 01:49",
       "ts": 1794275349000,
-      "fullText": "Drone delivers food to stranded chimpanzee after flood"
+      "fullText": "Current with Christine Romans Ohio State University suspends fraternity after two men appear to catch fire at party"
     },
     {
       "s": "위클리오늘",
@@ -77,315 +365,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "재경일보",
-      "t": "美 중간선거 후폭풍…전력망·데이터센터 규제 시험대..블루 웨이브 탄 미국 에너지시장, 신재생·ESS 주목",
+      "s": "www.reporternside.com",
+      "t": "산골마을도 에너지 자립 시대… 인제군, 전국 최고 신재생에너지 도시 입증",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNR1BSd1doOGROcmZOR1RnVWhic2NQaFdhUHE3MDBzakZLRUNaWWlQMHlUeXNFRGtfUGdmSDI0WThjdjlUWkhkaG91dw?oc=5",
-      "m": "11. 09. PM 11:59",
-      "ts": 1794268740000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Nvidia CEO Jensen Huang's Affair With Alleged Spy Raises Succession Concerns",
-      "d": "The board is probing whether its CEO was targeted by a foreign agent and facing the risk of a future without its singular leader.",
-      "u": "https://www.bloomberg.com/news/features/2026-11-09/nvidia-ceo-jensen-huang-s-affair-with-alleged-spy-raises-succession-concerns",
-      "m": "11. 09. PM 11:41",
-      "ts": 1794267686000,
-      "fullText": ""
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
-      "d": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
-      "u": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-      "m": "11. 09. PM 11:28",
-      "ts": 1794266917000,
-      "fullText": "In Brief Posted: 3:28 PM PST · November 9, 2026 Image Credits: Jose Sarmento Matos/Bloomberg / Getty Images Marina Temkin Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago Nvidia CEO Jensen Huang hired Heller Inc., a crisis communications firm known for handling sex scandals, at least a year before he publicly acknowledged an extramarital affair with a woman suspected of spying for China, Wired reported . Heller Inc. founder Risa Heller has advised prominent men through personal scandals and sexual misconduct accusations, according to a 2023 New York Magazine profile. Her reported clients include former congressman Anthony Weiner , celebrity chef Mario Batali , and former New Yorker writer Jeffrey Toobin. Wired also reported that Nvidia’s internal communications team was told to copy Heller Inc. on press inquiries about Huang shortly after an October 2025 New York Times report about whether Nvidia was helping Chinese companies evade U.S. chip export restrictions. The Times reported that Megaspeed, a then little-known Singapore-based data center company with ties to China, had acquired nearly $2 billion worth of Nvidia chips. It described Megaspeed CEO Alice Huang, the woman later linked to Jensen Huang, standing next to him at a Taipei gathering of Nvidia customers. Heller and Nvidia didn’t immediately respond to requests for comment. On Sunday, Nvidia published a statement from Huang acknowledging an affair with a former Megaspeed executive, though he didn&#8217;t name Alice Huang. Nvidia&#8217;s board separately announced an independent investigation, citing reports that Huang &#8220;has been the target of a foreign intelligence effort.&#8221; Topics AI , China , Government & Policy , In Brief , Jensen Huang , nvidia 2027 San Francisco Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Trump Media cashes in on high-speed access to social media posts",
-      "d": "The firm’s revenue jumped more than 200% after it started selling a direct feed of posts from Truth Social, whose most prominent user is President Trump.",
-      "u": "https://www.nbcnews.com/business/media/trump-media-revenue-surges-truth-social-rcna608428",
-      "m": "11. 09. PM 11:11",
-      "ts": 1794265861000,
-      "fullText": "Media Trump Media cashes in on high-speed access to social media posts The company’s revenue jumped more than 200% after it started selling a direct feed of posts from Truth Social, whose most prominent user is President Donald Trump. Listen to this article with a free profile 00:00 00:00 President Donald Trump&#x27;s revocable trust owns more than 41% of Trump Media and Technology Group. Alex Wong / Getty Share Add NBC News to Google Nov. 9, 2026, 6:11 PM EST By Steve Kopack Trump Media and Technology Group reported Monday that revenue surged 205% in the third quarter, which it says was “primarily driven” by selling a high-speed feed of posts on Truth Social. The “Truth API,” as the company calls it, allows news organizations, Wall Street trading firms and other services to pay $60,000 to $100,000 per month for a direct feed of posts on the social network. Critics have slammed the feed as an attempt to profit from President Donald Trump’s posts. Trump, whose revocable trust is the largest single shareholder of Trump Media, is the most prominent user of Truth Social. Trump’s trust owns more than 41% of Trump Media, according to S&P Capital IQ data. In a June filing with the Securities and Exchange Commission, the trust said Donald Trump Jr. was “the sole trustee and has sole voting and investment power” over its holdings. Trump Media’s stock, which trades under the symbol DJT for Trump’s initials, closed at $4.06 on Monday, giving it a market valuation of $1.13 billion. It’s down 69% so far this year. In July, Trump Media announced the high-speed feed offering , saying it would allow “real-time access to posts from the highest-ranking Truth Social accounts.” The company acknowledged that the service could be market-moving and highly valuable to any trading firm. “Markets already move on Truth Social posts,” Kevin McGurn, interim CEO of Trump Media, said at the time. He added that “high frequency and algorithmic trading firms that require a low-latency, machine-reada"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Hotel giant Wyndham exposed customer data after app security lapse",
-      "d": "Exclusive: Wyndham left a hardcoded credential in its customer app, allowing anyone to access customer data. The hotel giant wouldn't say if it has the ability to check for any past unauthorized access.",
-      "u": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
-      "m": "11. 09. PM 11:03",
-      "ts": 1794265426000,
-      "fullText": "Hotel and resort giant Wyndham has acknowledged a cybersecurity incident after a good-faith security researcher discovered a bug that allowed anyone to access customers&#8217; personal information. Security researcher Robert Wiggins at What Security exclusively told TechCrunch that he found a password inside the source code of Wyndham&#8217;s Android app, which granted access to an internal company database, hosted by tech company Salesforce. Wiggins told TechCrunch that the credential exposed personal information including customer names, email addresses, and Wyndham member numbers. The database also stores customer login tokens ( called JWTs ) that keep customers logged-in to their apps without having to repeatedly enter their own passwords. The database also contained Wyndham files and documents. According to Wiggins, the database had millions of entries, but he was unable to determine an accurate number of exposed customer records. Wyndham touts some 129 million enrolled rewards members. The researcher said Wyndham has no way to report security flaws, and asked for TechCrunch&#8217;s help in alerting the company. Soon after TechCrunch made contact with Wyndham&#8217;s cybersecurity staff, the exposed credential was revoked, preventing any further access to the database. “Our team has taken steps to address the issue,&#8221; a Wyndham spokesperson told TechCrunch. &#8220;Our security teams have no evidence of any unauthorized access,&#8221; the statement added, without providing any further details about the claim. Wyndham&#8217;s spokesperson would not say, when asked, whether the company had the technical means, such as server logs, to determine if anyone had access to the customer database prior to Wiggins&#8217; discovery. TechCrunch also asked Wyndham whether it planned to notify customers whose information was exposed, or disclose the incident to U.S. regulators, such as filing a notice with the U.S. Securities and Exchange Commission, as public companies a"
-    },
-    {
-      "s": "독립신문",
-      "t": "“원전 PPA 2,800억은 특혜라면서 재생에너지 RPS 누적 28조 원은 정당한가”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QRWMxWEthaFhHUUdHTUJtQlNQdXVXS3RreTBIbDBXMnV5SmZjRnpqLVhRZ1BUSnVzbElwTHF0OVEwbmpaX3dLOW1BZ2laNWhTQmJuMWoyZFg0SGNFTDFoMF9kd3ZHUmhUX09r?oc=5",
-      "m": "11. 09. PM 11:01",
-      "ts": 1794265310000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Trump: Jensen Huang said &#39;I had no idea that she was a spy&#39;",
-      "d": "During an impromptu press conference, President Trump said that he had spoken to Nvidia CEO Jensen Huang earlier in the day after it was revealed that Nvidia&#39;s board had launched an investigation into his extramarital affair with an alleged Chinese spy.",
-      "u": "https://www.nbcnews.com/now/video/trump-jensen-huang-said-i-had-no-idea-that-she-was-a-spy-273160261991",
-      "m": "11. 09. PM 10:50",
-      "ts": 1794264641000,
-      "fullText": "Drone delivers food to stranded chimpanzee after flood"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-      "d": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-      "u": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-      "m": "11. 09. PM 06:09",
-      "ts": 1794247792000,
-      "fullText": "Nvidia CEO Jensen Huang has never been quiet about his belief that the U.S. should continue selling AI chips to China, rather than shutting the country off from the technology. The revelation that he had an affair with an alleged Chinese spy threatens to complicate that argument. The Financial Times reported Friday on Huang&#8217;s relationship with Alice Huang, a former executive at Megaspeed, an Nvidia customer. Jensen Huang admitted to the affair and apologized in a memo to the company on Sunday. U.S. intelligence officials believe Alice Huang was recruited by Chinese intelligence to gather information about the CEO and influence the company’s efforts to loosen chip export restrictions. Nvidia’s independent directors, working with outside legal counsel, are investigating the matter, and Congress is already demanding answers . The controversy comes at a sensitive moment for Nvidia. Historically, China has been a big market for the company. It has shrunk in recent years due to strict U.S. export controls and an aggressive push by Beijing for domestic alternatives. In the three months ended July 26, Nvidia recorded $7.9 billion in revenue from customers headquartered in China, roughly 8% of total revenue. Huang has repeatedly lobbied the U.S. government to expand access to China , and some of his persuasion tactics have been successful. Huang met repeatedly with President Donald Trump and administration officials last year; afterward, the government reversed restrictions on Nvidia’s H20 chips and allowed exports of its more powerful H200 processors. On numerous occasions, Huang has publicly lamented export controls, calling them a “ failure ” at a conference last year and saying in May that it was “ not wise ” for the U.S. and China to create two distinct AI ecosystems. He has also warned that shutting Nvidia out of China’s compute market would enable the country to develop its own AI chips to challenge Nvidia internationally. China is already moving in that directi"
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Medium&#8217;s new TK app brings AI assistance directly into the writing process",
-      "d": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
-      "u": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
-      "m": "11. 09. PM 04:12",
-      "ts": 1794240748000,
-      "fullText": "Online publishing platform Medium on Monday launched a new app, called TK, which aims to bring AI technology deeper into the writing process. The idea behind TK is to make it easier to turn ideas into written words by incorporating an AI assistant into the editor itself, allowing users to ask for help by typing &#8220;@TK&#8221; followed by their request or prompt. In publishing and journalism, the term &#8220;TK&#8221; serves as a placeholder used to mark where missing information can be added later. The &#8220;TK&#8221; stands for &#8220;to come,&#8221; but uses a &#8220;K&#8221; instead of &#8220;C&#8221; as there are few English words where the &#8220;tk&#8221; letter combination exists, making it stand out more easily in written text where it could be caught by proofreaders. In Medium&#8217;s app , TK takes on a new role as it tries to help users fill in the blanks. The company suggests the AI assistant could help answer questions that you might normally have to switch to another tab to quickly look up, like how many days are in a particular month. The app could also pull in bits of writing you had previously saved to the app when you were still fleshing out your ideas. In addition, Medium says TK will ship with particular skills for editorial feedback, headline feedback, and others that could match your draft to the style guide for Medium publications. Medium&#8217;s move to embrace AI in the early stages of writing could prove controversial at a time when the publishing and literary worlds have been reckoning with the role that artificial intelligence has played in the creation of new long-form prose. Multiple authors have lost book deals over suspicions that they used AI technology to help them write, while other literary awards have come under scrutiny after winners were suspected of writing with AI assistance . While writers have long used automated tools for proofreading and light grammatical edits, there is growing concern across the publishing industry "
-    },
-    {
-      "s": "TechCrunch",
-      "t": "Meta expands Instagram&#8217;s AI age-guessing tech globally",
-      "d": "Meta says it will use its AI technology to look for clues about people it suspects to be teenagers — even if they use an adult birthday.",
-      "u": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
-      "m": "11. 09. PM 03:32",
-      "ts": 1794238347000,
-      "fullText": "Meta announced on Monday that it&#8217;s expanding its AI-powered age-estimation technology on Instagram worldwide to identify more teens and place them under its Teen Account protections, as it faces numerous lawsuits accusing its platforms of harming teens. The social media giant says it will use the AI technology to find people it suspects to be teens, even if they use an adult birthday. Teen Accounts place users into a stricter account experience with additional safeguards, such as receiving direct messages only from people they follow or are already connected to, hiding harmful comments, and setting accounts to private by default. Meta&#8217;s age-guessing tools use AI to analyze entire profiles for contextual clues, such as birthday celebrations or mentions of school grades. Meta also looks for these signals across different formats, such as posts, comments, bios, captions, and more. The company also looks at visual cues from photos and videos, including a person’s height or bone structure. Meta said it&#8217;s continuing to roll out the technology on Facebook, with a similar global rollout planned for Threads later this year. The global expansion comes as Meta reached settlements worth up to $18 billion with nearly every U.S. state and territory in August to resolve lawsuits alleging its platforms harm teens. As part of the settlements, Meta agreed to improve how it identifies teens and children under 13. &#8220;We’ll continue to do our part to proactively ensure teens are in age-appropriate experiences on our apps,&#8221; Meta wrote in a blog post . &#8220;That’s why as part of our agreement with 52 bipartisan attorneys general across US states, territories, and the District of Columbia, we’re investing in even stronger technology to proactively catch accounts that may belong to children under 13. We’re also strengthening the technology we use to identify accounts that may belong to teens between the ages of 13 and 17 so we can ensure those accounts are plac"
-    },
-    {
-      "s": "한양경제",
-      "t": "美 '블루웨이브' 이후 AI·친환경株 향방은…정책 변화 주목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pLW1KZzZlS1hCd0kxSWw2SmRIc2RDdkJYazNUQXdQUVdLOEk2d1Uxc2RYelFhOW9kaEsyNnR0bDFGUHlfWGZxYmVwZWd1Zk1MZWd2d0VqR1dDNVpsMUJMZGwtaFRNdUx0Mlh5TEo3YWVGdw?oc=5",
-      "m": "11. 09. AM 08:23",
-      "ts": 1794212635000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
-      "d": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
-      "m": "11. 09. AM 05:00",
-      "ts": 1794200400000,
-      "fullText": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production November 8, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom , K-EXAONE 2.0 from LG AI Research , Solar Open 2 from Upstage and Motif-3 from Motif Technologies . As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing and communication to maintain performance. NVIDIA Dynamo is an open source, distributed inference-serving framework built to deploy models in multi-node environments at data center scale. It handles this routing and communication to maximize inference performance. Optimized for NVIDIA B200 GPUs, these recipes take the guesswork out of deployment, delivering up to 2x performance out of the box. They help developers bring Korea’s open models into production faster and turn them into broadly accessible AI for All services. Learn more about NVIDIA Dynamo . The Best of GTC Berlin Deep dive on tech advances. Watch On Demand Recent News Robotics Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation November 9, 2026"
-    },
-    {
-      "s": "CBC뉴스",
-      "t": "미국 민주당 압승 '블루 쓰나미'…한화솔루션·SK이터닉스·대명에너지 등 신재생에너지주 주목",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfRmJKcGZmN0JzQnNEa245RWp1R2lMRnpFQmVoOUlhWXI4VVllWlBjWDVMX3ZTNl80TDhHQmZraGZlbnRabjdEamlUUk5xVmp5cTVlZXNOc0oycDlEZXFSR1l6SzAta0Ra?oc=5",
-      "m": "11. 09. AM 12:48",
-      "ts": 1794185308000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "산업인뉴스",
-      "t": "[이슈] 난방전기화ㆍ공기열 바람… 대성히트에너시스, 서오창 신공장 닻 올렸다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HY3BQY2dxWEE0b0pqUWdyejFPMlV3bkMwQ2V2N0RmQ0JUa0ZfR2t6QzVtMF9RX29ldnBFaFUxanFPMGpZbmxPd3pfU1BEbGNfQjlsZ2VqQ0F2VFE2VnhtTHFSUFJzR0c5djhCYjRn?oc=5",
-      "m": "11. 08. PM 01:36",
-      "ts": 1794144975000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "독립신문",
-      "t": "'가격 눌러놓기'의 역풍… 원전 경쟁력 외면한 에너지 정책이 전기요금 참사 불렀다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qbmdNWkc2aFBtTDc3cXpOWkgxZ0U3cWZCWUtQejZwUjBTRFVSaWZGaHJIRFhDNXo4ZDBlRC1DdE4tdzZHbmQ4TmNfU2VHY0FzMWJWS0s2dVY4aHJYUlA5Q2FNVDVrcG1JcFJN?oc=5",
-      "m": "11. 07. PM 05:57",
-      "ts": 1794074255000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "머니투데이",
-      "t": "[적중! 대박예감] '美 정책 수혜 태양광株' 월요일에 선택할 이 종목은? - 머니투데이",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvTzBMTFdoeU5RZDhLaUNmUFozaWNJY2pFalc5VGl2ZHBxbENHWDlUZUthMFJEcTVpTVFTTWwyMGpLalRWRDUwMmVlVm42UTVCUWsybDhZQ193YlhhSFRYRWdyWl9GdnIy0gFuQVVfeXFMT3phUnlLSTQ1X0x4Ujk2QjFXMURma2d0TjJhSUM2NkZYWHdjdFc2V2hhdWR6QnVDV0trRHVWYWhxRTdpYVlPSTR5ZFIzTlBTRXIwSWI5WEs3NjBhcHR2am5feGFaTnJzVFdQcjdYelE?oc=5",
-      "m": "11. 07. AM 06:11",
-      "ts": 1794031882000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "d": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "m": "11. 06. PM 04:00",
-      "ts": 1793980835000,
-      "fullText": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks With over a million downloads, NVIDIA’s open source 5G/6G tools are equipping research institutions worldwide to develop wireless systems that help robots react faster, improve signal reception and match network capacity to demand. November 6, 2026 by Soma Velayutham 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. A year ago, NVIDIA open sourced its Aerial wireless software , joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless systems. Today, researchers and developers are using these tools to build 6G-ready networks that do more than just transmit data — receiving signals more effectively, keeping robots and autonomous systems connected when it matters most, and adapting in real time as devices move through the world. Over the past year, global developer adoption of NVIDIA AI Aerial and NVIDIA Sionna software has grown 10x, while NVIDIA’s open source 5G/6G tools have surpassed 1 million downloads. More than 8,000 research and academic institutions worldwide are using these platforms. The projects emerging today offer a view of how future networks could look. Each addresses a different challenge, but together point toward a broader ambition for building AI-native 6G networks that deliver connectivity, computing and sensing over a converged software-defined platform for billions of people, machines and agents. Networks That Help Robots React Faster A robot picking up an object needs to understand its surroundings and act before they change. When the AI powering that decision runs on a nearby server or in the cloud,"
-    },
-    {
-      "s": "경기일보",
-      "t": "[영상] 중간선거에 뒤바뀐 트럼프 운명…국내 증시 영향은?",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5QXhGd2QyUzBpRU8yYWhKYWdPQ3ZlZHNMMks0V1FOWHl5NC0tZ29sNFpaV2tJVzFHN2xyRFEyNi1jS1BCcW02Q0ZvM2FVcG00T2cwcFVwWlV3U1k?oc=5",
-      "m": "11. 06. AM 07:04",
-      "ts": 1793948654000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "d": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action.  Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task.  As businesses put more agents to work, AI factories need CPUs that can execute those [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-      "m": "11. 05. PM 08:00",
-      "ts": 1793908841000,
-      "fullText": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents November 5, 2026 by Hannah Coutand 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those steps quickly and support many agents at once, all within the limits of available power. What this means: AI infrastructure providers need to support more agents without making each one wait longer to get work done. And critically, AI factories are power limited. This means operators need to choose infrastructure that maximizes the work done for every watt. Why it matters: NVIDIA Vera delivers both fast agent performance and high capacity per watt within a single CPU. That gives providers one CPU for a range of agent workloads, rather than having to mix and match fast and dense x86 parts to balance speed and capacity. The data that proves it: In a 100-megawatt data center comparison, NVIDIA found that a single Vera CPU performs better than the fastest x86 CPU and the most energy-efficient x86 CPU. Vera delivers industry-leading agent speed while enabling 1.6x more agents per watt versus the fastest x86 CPU. Vera delivers 2x faster agent speed with leading energy efficiency compared with the most energy-efficient x86 CPU. Partners are already putting Vera to work. Early adopters see the same exceptional performance in production-style tests: Perplexity : Ran agentic coding tasks 1.5x faster with Vera than on traditional CPUs. Perplexity plans to deploy Vera in an upcoming production system. DeepInfra : Delivered up to 2.2x speed of the best x86 processor on agentic orchestration for its production agent workload, achieving the fastest of the four architectures t"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-      "d": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack.  [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-      "m": "11. 05. PM 04:00",
-      "ts": 1793894400000,
-      "fullText": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge November 5, 2026 by Amr Elmeleegy 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. But the approach isn’t to simply pack more memory onto the GPU. It’s full-stack codesign. NVIDIA intentionally designs GPUs, CPUs, networking, storage and software together to get more useful work out of memory at every layer of the AI factory. That matters because an AI factory runs on a memory and storage hierarchy. GPU high-bandwidth memory (HBM) is the fastest, most expensive and most contested tier — with model weights and KV cache competing for limited capacity. Below it sit CPU memory, local SSDs and shared storage, each trading speed for more capacity at a lower cost per bit. How much useful work a byte does depends on how well the whole hierarchy is used: shrinking what must be stored, placing it on the right tier and bringing it back to the GPU before it’s needed. Byte for byte, NVIDIA makes the most efficient use of memory at every layer — and the results show it. From NVIDIA Blackwell Ultra to the Vera Rubin platform, HBM capacity per GPU rose roughly 3%, while agentic throughput per dollar rose by up to 30x on SemiAnalysis AgentX. Agentic Inference Is Putting More Pressure on HBM Frontier models now have trillions of parameters — the values that hold what an AI model learned in training. KV cache, which holds the context the model needs to understand each active request without reprocessing the same information, is also expanding. Agentic trajectories carry prior context across repeated model and to"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
-      "d": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
-      "m": "11. 05. PM 02:00",
-      "ts": 1793887234000,
-      "fullText": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW Look forward to 24 games coming in November, including eight this week, and claim a ‘World of Warcraft: Forever’ launch reward. November 5, 2026 by GeForce NOW Community 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW . Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions for Tom Clancy’s The Division 2 and Anno 117: Pax Romana . It’s all part of a packed month of play, with two-dozen games joining the GeForce NOW library throughout November, including eight this week. Hogwarts in a New Light NVIDIA DLSS 5 with 3D-Guided Neural Rendering arrives in Hogwarts Legacy today, giving members a new reason to return to Hogwarts, streaming from Steam, Epic Games and Xbox with Play Anywhere support. Published by Warner Bros. Games under the Portkey Games label and developed by Avalanche Software, Hogwarts Legacy is an immersive, open-world action role-playing game set in the 1800s wizarding world. Begin as a fifth-year student, encounter magical creatures, brew potions and learn spells while exploring both recognizable and unfamiliar places. The update adds lifelike lighting and material detail while retaining underlying geometry and textures. Avalanche Software has tuned the integration through DLSS 5’s developer controls to maintain the game’s artistic intent and style. Hogwarts Legacy also includes support for the DLSS Multi Frame Generation and Ray Reconstruction features, accelerating and enhancing the ray-traced graphics that immerse players in Hogwarts School of Witchcraft and Wizardry. Thanks to NVIDIA DLSS 4.5 controls in the cloud, members ca"
-    },
-    {
-      "s": "ER 이코노믹리뷰",
-      "t": "[미 중간선거] 민주당 압승, 신재생에너지 산업 뜬다…‘친환경 정책’ 시선집중",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55THhncGRzX0FudFJtRDFkQ0Rfb0gyVDdhSUVBUnpXOENqTVdhTGc5ejZ5R2Z5UXdDUVJHNk5YV3NpMGVYejI0Y0lVa3hhWk1FR093b3o2RUhMSUhER0ZqblBMR1FiY1YwWEVseA?oc=5",
-      "m": "11. 05. AM 02:50",
-      "ts": 1793847023000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "NVIDIA공식",
-      "t": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "d": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor [&#8230;]",
-      "u": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-      "m": "11. 03. PM 04:00",
-      "ts": 1793721645000,
-      "fullText": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It An AI-defined fab uses accelerated simulation, learned physics models and AI agents to give engineers faster answers across design, testing and manufacturing. November 3, 2026 by Timothy Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing — and these analyses can take days. Physical experiments on a fab line are slow and expensive. A wrong call on yield or process quality has real consequences. AI is transforming semiconductor manufacturing, impacting what engineers can do — and how fast. Accelerated computing shortens simulation time, allowing engineers to evaluate more alternatives before committing to physical trials. Physics-based AI helps engineers predict process behavior without running a full simulation every time. AI agents handle sequences of engineering tasks that once consumed hours. And digital twins let teams test changes in a virtual environment before committing to physical trials. Together, these capabilities describe an AI-defined fab: a semiconductor manufacturing factory where AI helps engineers optimize processes, catch problems earlier and make better decisions across the full manufacturing chip lifecycle. Engineers direct the work and make decisions based on their expertise while spending less time waiting for answers. Shorter Simulation Cycles Change What Engineers Can Explore Accelerated computing doesn’t just speed up individual calculations — it changes how many alternatives engineers can test before commi"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "TikTok creator makes an interactive website for midterm elections",
-      "d": "Can a little TikTok creativity get Gen Z to pay more attention to politics? One content creator is betting on it. She&#39;s bringing the Senate races to the internet with a website called “Senate Island,” hoping to make politics a little more entertaining and a lot more accessible.",
-      "u": "https://www.nbcnews.com/video/tiktok-creator-makes-an-interactive-website-for-midterm-elections-272738885518",
-      "m": "11. 03. AM 02:09",
-      "ts": 1793671771000,
-      "fullText": "Drone delivers food to stranded chimpanzee after flood"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Screens crack on Apple’s new foldable iPhone",
-      "d": "The iPhone Duo went on sale less than a week ago, but some users are already reporting cracks and bright lines across the inner display near the hinge. NBC News’ Brian Cheung reports.",
-      "u": "https://www.nbcnews.com/nightly-news/video/screens-crack-on-apple-s-new-foldable-iphone-272369221776",
-      "m": "10. 27. PM 11:09",
-      "ts": 1793142584000,
-      "fullText": "Drone delivers food to stranded chimpanzee after flood"
-    },
-    {
-      "s": "에너지신문",
-      "t": "한재연, 재생에너지 정책·현장 의견 모을 온라인 창구 마련",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qTldDYWlNbXVxeXU3dGJWbE15Y2hTX1FtOW9OdGRjcWxDQzVBNHBOZ3gwWXVtWnVyLUlKRDVLSWFZbTVKT21KdXh6RUh2V0VacXhyZVd5RThCNW5kTllfSVdQbW8zN3g5aUYtLUY3VmRsUQ?oc=5",
-      "m": "10. 26. AM 10:06",
-      "ts": 1793009178000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "CNBC Tech",
-      "t": "Goldman Sachs spends big to give small businesses an AI boost",
-      "d": "The Wall Street giant is committing $500 million to expand its 10,000 Small Businesses program and launch an AI institute, partnering with Google, Meta, OpenAI and Anthropic to bring AI know-how to Main Street. NBC&#39;s Christine Romans spoke exclusively with Goldman Sachs CEO David Solomon and with small businesses figuring out how to make AI work for them.",
-      "u": "https://www.nbcnews.com/video/goldman-sachs-spends-big-to-give-small-businesses-an-ai-boost-272042053796",
-      "m": "10. 22. PM 04:00",
-      "ts": 1792684801000,
-      "fullText": "Drone delivers food to stranded chimpanzee after flood"
-    },
-    {
-      "s": "비즈니스포스트",
-      "t": "한화솔루션 정부의 재생에너지 확대정책 반갑다, 박승덕 '한국판 IRA'로 새 기회 잡나",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jUmFkUDZRSlc2dTRQZ0JwMTl0WFZsblU3VncweWxmTEh6MDh3NTRWYUttTTdBUFktTjlOQmhNVllGbkx6OE94SUIwWnhoSUNTb2lyN0N4WTVQRVRGYlJJWEJMQllyUGhuRDFfTWd1bkJPM1E?oc=5",
-      "m": "08. 23. AM 07:00",
-      "ts": 1787468400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "냉동공조저널",
-      "t": "재생에너지 이격거리 규제 상한 도입…지역별 과도한 규제 완화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ob2FWYmlOYmdMYXJCNEtpSVZ0MXI0TlRSb1NhNEJMT3MzZlhOcW9WX3l5QmlscVA1ODVINFdJb2FFZkVjSHNhYzNpOGJ6VHI5ZVJGOHN1UmxDaVMxUy1Bb2xiVjdKVjNXVWc?oc=5",
-      "m": "08. 14. AM 07:00",
-      "ts": 1786690800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대한경제",
-      "t": "재생에너지 이격거리 상한 생긴다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzSWFOanIxWnh3aTVaSl9NYVJRdG5WQTVZVE91Y1pHQVRSNWVVUHR1b2h4TWg5bWN5NnltTFlacXJuU0xqVVhsM2RTTmpxV21STi1iU1VYRXB3aE1iVGx4VU5MNW95NzZ2cVJiQWpTMVlFQXM?oc=5",
-      "m": "08. 12. AM 07:00",
-      "ts": 1786518000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "에너지플랫폼뉴스",
-      "t": "지자체별 제각각이던 재생에너지 발전 이격거리, 규제 상한 도입",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBteGVJTUthT3dPeFdNZjJLdXZaZlYxeVF4dTkyeUhMSFliZjFMQ3VDc2owMTNGMEd0aFJsaVVsRzFvbjl1N0VnTTFuQ1NqSFdNemhZbnhDR1lrNU1ybUJBakVtVm9QSlBsczQ3ZdIBcEFVX3lxTE9mVWFYMjg3UEZiVWhxb0pxa0E0VGlvMnlkdTBPN1JGQkctSXlUNkhsSDQwSnZDal82SUN3YUM2LWN3d0t3QmU5MjF6Y2hCQlhrcWUtOWpVMy1RV2trNVBxZnRtdE94bVJwWGlhNFBrbEI?oc=5",
-      "m": "08. 12. AM 07:00",
-      "ts": 1786518000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "산경e뉴스",
-      "t": "태양광 200m·풍력 1500m...재생에너지 ‘이격거리 규제’ 상한 생긴다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ISHZmODNiX1pnZWJ1VTRoYmRyTUgxOXE0dTBrNHl4Q3VHS3RxUk13NzhrZjRUS3RKWmJSd2NIVS1CdGNPcTYtTjRSUXBzSThWajV5TE5zVmlySEVhRk51aHNTWFpBUTQ?oc=5",
-      "m": "08. 12. AM 07:00",
-      "ts": 1786518000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "대한민국 정책브리핑",
-      "t": "재생에너지 이격거리 규제 상한 도입…태양광 200m, 풍력 1500m",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95TWhaZkhsaG4tN1Z0bms2b3R6NzJjQm9wSllMb2E5XzQyUjBjWGU0a3lPX1JtNDlIejF1VUhqVVQ2V1VWaVRFV2dSVmhLT2xBbERKM2dnOC1MazR4Y3RvQ040YU1kRGdtcTRIaw?oc=5",
-      "m": "08. 11. AM 07:00",
-      "ts": 1786431600000,
+      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XemF4RFk4WlA0Zm03dnBETzh5UkEyR29QaE5sOEtjNzdNdDl4Nm04TFFMTmZUNzZGN1BMcndzd19LLVlmQ3BPNWRMMFFsUzM2NE1FQ2tLclRvUmd4ZmFUcXM0cU9jQXlubWR2YXVkTkVtdw?oc=5",
+      "m": "11. 10. AM 12:49",
+      "ts": 1794271756000,
       "_policy": true,
       "fullText": "Google News"
     }

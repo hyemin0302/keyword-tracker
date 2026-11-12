@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T05:52:44.012Z",
+  "updatedAt": "2026-11-12T14:31:49.030Z",
   "data": {
     "247540": {
       "name": "에코프로비엠",
@@ -60,10 +60,10 @@
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "9조 5,342억",
-        "per": "197.99배",
-        "pbr": "4.82배",
-        "cnsPer": "-750.00배",
+        "marketCap": "9조 5,989억",
+        "per": "199.33배",
+        "pbr": "4.86배",
+        "cnsPer": "-755.08배",
         "divYield": "0.11%",
         "foreignRatio": "13.51%",
         "high52w": "260,000",
@@ -80,6 +80,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261112",
+            "foreigner": -223979,
+            "institution": 161536,
+            "individual": 62153,
+            "foreignRatio": "13.30%"
+          },
           {
             "date": "20261111",
             "foreigner": 40275,
@@ -142,31 +149,24 @@
             "institution": -42190,
             "individual": 31766,
             "foreignRatio": "14.29%"
-          },
-          {
-            "date": "20261029",
-            "foreigner": 54787,
-            "institution": -142399,
-            "individual": 87540,
-            "foreignRatio": "14.29%"
           }
         ],
         "sum5d": {
-          "foreigner": -320275,
-          "institution": 348078
+          "foreigner": -417366,
+          "institution": 505390
         },
         "sum10d": {
-          "foreigner": -452707,
-          "institution": 320933
+          "foreigner": -731473,
+          "institution": 624868
         }
       },
       "consensus": null
     },
     "373220": {
       "name": "LG에너지솔루션",
-      "px": 325500,
-      "dayChange": -2.98,
-      "periodChange": -18.22,
+      "px": 329500,
+      "dayChange": -1.79,
+      "periodChange": -17.21,
       "prices": [
         398000,
         410000,
@@ -191,7 +191,7 @@
         318000,
         330500,
         335500,
-        325500
+        329500
       ],
       "dates": [
         "2026-10-12",
@@ -219,15 +219,15 @@
         "2026-11-11",
         "2026-11-12"
       ],
-      "volume": 176036,
+      "volume": 327643,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "75조 9,330억",
+        "marketCap": "76조 6,350억",
         "per": "N/A",
-        "pbr": "3.40배",
-        "cnsPer": "-79.77배",
+        "pbr": "3.43배",
+        "cnsPer": "-80.51배",
         "divYield": "N/A",
         "foreignRatio": "5.40%",
         "high52w": "506,000",
@@ -244,6 +244,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261112",
+            "foreigner": 6731,
+            "institution": -21583,
+            "individual": 15023,
+            "foreignRatio": "5.40%"
+          },
           {
             "date": "20261111",
             "foreigner": -32843,
@@ -306,98 +313,24 @@
             "institution": 58592,
             "individual": -39430,
             "foreignRatio": "5.50%"
-          },
-          {
-            "date": "20261029",
-            "foreigner": 97514,
-            "institution": -221279,
-            "individual": 125100,
-            "foreignRatio": "5.51%"
           }
         ],
         "sum5d": {
-          "foreigner": -70603,
-          "institution": 113564
+          "foreigner": -65214,
+          "institution": 52111
         },
         "sum10d": {
-          "foreigner": -188014,
-          "institution": 21253
+          "foreigner": -278797,
+          "institution": 220949
         }
       },
       "consensus": null
     },
-    "TSLA": {
-      "name": "테슬라",
-      "px": 390.84,
-      "dayChange": 2.91,
-      "periodChange": 3.39,
-      "prices": [
-        378.03,
-        375.23,
-        367.16,
-        362.44,
-        354.72,
-        368.06,
-        373.71,
-        386.47,
-        374.58,
-        372.22,
-        391.62,
-        407.46,
-        404.22,
-        403.3,
-        399.81,
-        403.82,
-        398.5,
-        385.19,
-        343.69,
-        358.22,
-        378.05,
-        379.78,
-        390.84
-      ],
-      "dates": [
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23",
-        "2026-10-26",
-        "2026-10-27",
-        "2026-10-28",
-        "2026-10-29",
-        "2026-10-30",
-        "2026-11-02",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-09",
-        "2026-11-10",
-        "2026-11-11"
-      ],
-      "volume": 27590811,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 498.83,
-        "low52w": 297.38,
-        "volume": 27590811
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
     "GM": {
       "name": "GM",
-      "px": 88.9,
-      "dayChange": 0.24,
-      "periodChange": 7.93,
+      "px": 88.857,
+      "dayChange": -0.04,
+      "periodChange": 7.88,
       "prices": [
         82.37,
         84,
@@ -421,75 +354,8 @@
         86.16,
         89.65,
         88.69,
-        88.9
-      ],
-      "dates": [
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23",
-        "2026-10-26",
-        "2026-10-27",
-        "2026-10-28",
-        "2026-10-29",
-        "2026-10-30",
-        "2026-11-02",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-09",
-        "2026-11-10",
-        "2026-11-11"
-      ],
-      "volume": 3940217,
-      "currency": "USD",
-      "state": "CLOSED",
-      "market": "US",
-      "fundamentals": {
-        "high52w": 93.7,
-        "low52w": 67.06,
-        "volume": 3940217
-      },
-      "investorFlow": null,
-      "consensus": null
-    },
-    "051910": {
-      "name": "LG화학",
-      "px": 237000,
-      "dayChange": -3.47,
-      "periodChange": -9.02,
-      "prices": [
-        260500,
-        262000,
-        267500,
-        252000,
-        254000,
-        275500,
-        252500,
-        255500,
-        238000,
-        229000,
-        225000,
-        228500,
-        236000,
-        234000,
-        235000,
-        240500,
-        237500,
-        247000,
-        246000,
-        232000,
-        220000,
-        238000,
-        245500,
-        237000
+        88.9,
+        88.86
       ],
       "dates": [
         "2026-10-12",
@@ -517,16 +383,154 @@
         "2026-11-11",
         "2026-11-12"
       ],
-      "volume": 88058,
+      "volume": 41023,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 93.7,
+        "low52w": 67.06,
+        "volume": 41023
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "TSLA": {
+      "name": "테슬라",
+      "px": 388.41,
+      "dayChange": -0.62,
+      "periodChange": 2.75,
+      "prices": [
+        378.03,
+        375.23,
+        367.16,
+        362.44,
+        354.72,
+        368.06,
+        373.71,
+        386.47,
+        374.58,
+        372.22,
+        391.62,
+        407.46,
+        404.22,
+        403.3,
+        399.81,
+        403.82,
+        398.5,
+        385.19,
+        343.69,
+        358.22,
+        378.05,
+        379.78,
+        390.84,
+        388.41
+      ],
+      "dates": [
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
+      ],
+      "volume": 963858,
+      "currency": "USD",
+      "state": "CLOSED",
+      "market": "US",
+      "fundamentals": {
+        "high52w": 498.83,
+        "low52w": 297.38,
+        "volume": 963858
+      },
+      "investorFlow": null,
+      "consensus": null
+    },
+    "051910": {
+      "name": "LG화학",
+      "px": 241500,
+      "dayChange": -1.63,
+      "periodChange": -7.29,
+      "prices": [
+        260500,
+        262000,
+        267500,
+        252000,
+        254000,
+        275500,
+        252500,
+        255500,
+        238000,
+        229000,
+        225000,
+        228500,
+        236000,
+        234000,
+        235000,
+        240500,
+        237500,
+        247000,
+        246000,
+        232000,
+        220000,
+        238000,
+        245500,
+        241500
+      ],
+      "dates": [
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12"
+      ],
+      "volume": 365934,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "16조 6,598억",
+        "marketCap": "16조 9,775억",
         "per": "N/A",
-        "pbr": "0.52배",
-        "cnsPer": "-33.00배",
-        "divYield": "0.85%",
+        "pbr": "0.53배",
+        "cnsPer": "-33.63배",
+        "divYield": "0.83%",
         "foreignRatio": "36.20%",
         "high52w": "437,500",
         "low52w": "218,000",
@@ -542,6 +546,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261112",
+            "foreigner": -44081,
+            "institution": 36964,
+            "individual": 6984,
+            "foreignRatio": "36.14%"
+          },
           {
             "date": "20261111",
             "foreigner": 16812,
@@ -604,31 +615,24 @@
             "institution": 38793,
             "individual": -17359,
             "foreignRatio": "36.05%"
-          },
-          {
-            "date": "20261029",
-            "foreigner": -27333,
-            "institution": 16563,
-            "individual": 10105,
-            "foreignRatio": "36.08%"
           }
         ],
         "sum5d": {
-          "foreigner": 57876,
-          "institution": -9391
+          "foreigner": 6959,
+          "institution": 12060
         },
         "sum10d": {
-          "foreigner": 8633,
-          "institution": 78378
+          "foreigner": -8115,
+          "institution": 98779
         }
       },
       "consensus": null
     },
     "006400": {
       "name": "삼성SDI",
-      "px": 464500,
-      "dayChange": -2.93,
-      "periodChange": -17.2,
+      "px": 473000,
+      "dayChange": -1.15,
+      "periodChange": -15.69,
       "prices": [
         561000,
         560000,
@@ -653,7 +657,7 @@
         415000,
         456000,
         478500,
-        464500
+        473000
       ],
       "dates": [
         "2026-10-12",
@@ -681,15 +685,15 @@
         "2026-11-11",
         "2026-11-12"
       ],
-      "volume": 427374,
+      "volume": 888411,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "37조 1,096억",
-        "per": "1,005.46배",
-        "pbr": "1.49배",
-        "cnsPer": "45.71배",
+        "marketCap": "37조 5,931억",
+        "per": "1,018.56배",
+        "pbr": "1.51배",
+        "cnsPer": "46.31배",
         "divYield": "N/A",
         "foreignRatio": "24.55%",
         "high52w": "820,000",
@@ -706,6 +710,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261112",
+            "foreigner": -10697,
+            "institution": 19716,
+            "individual": -8845,
+            "foreignRatio": "24.53%"
+          },
           {
             "date": "20261111",
             "foreigner": 66910,
@@ -768,22 +779,15 @@
             "institution": 173427,
             "individual": -105506,
             "foreignRatio": "24.48%"
-          },
-          {
-            "date": "20261029",
-            "foreigner": -150892,
-            "institution": 100956,
-            "individual": 49040,
-            "foreignRatio": "24.55%"
           }
         ],
         "sum5d": {
-          "foreigner": -11625,
-          "institution": -91527
+          "foreigner": -24325,
+          "institution": -45132
         },
         "sum10d": {
-          "foreigner": -402738,
-          "institution": 154355
+          "foreigner": -262543,
+          "institution": 73115
         }
       },
       "consensus": null
@@ -838,7 +842,7 @@
       -16.84,
       -13.19,
       -10.94,
-      -11.9
+      -11.48
     ],
     "sp500": [
       0,
@@ -869,9 +873,9 @@
   "etfs": {
     "305540": {
       "name": "TIGER SECONDARY CELL",
-      "px": 15940,
-      "dayChange": -2.72,
-      "periodChange": -17.04,
+      "px": 16145,
+      "dayChange": -1.47,
+      "periodChange": -15.98,
       "prices": [
         19215,
         19440,
@@ -896,7 +900,7 @@
         14760,
         15840,
         16385,
-        15940
+        16145
       ],
       "dates": [
         "2026-10-12",
@@ -924,7 +928,7 @@
         "2026-11-11",
         "2026-11-12"
       ],
-      "volume": 331141,
+      "volume": 369228,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -935,6 +939,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261112",
+            "foreigner": 29938,
+            "institution": -1092,
+            "individual": -30959,
+            "foreignRatio": "1.15%"
+          },
           {
             "date": "20261111",
             "foreigner": -28156,
@@ -997,31 +1008,24 @@
             "institution": -9688,
             "individual": 5988,
             "foreignRatio": "1.11%"
-          },
-          {
-            "date": "20261029",
-            "foreigner": -31926,
-            "institution": 38608,
-            "individual": -6780,
-            "foreignRatio": "1.10%"
           }
         ],
         "sum5d": {
-          "foreigner": 2925,
-          "institution": -130122
+          "foreigner": -51491,
+          "institution": 35908
         },
         "sum10d": {
-          "foreigner": -35152,
-          "institution": -169880
+          "foreigner": 26712,
+          "institution": -209580
         }
       },
       "consensus": null
     },
     "305720": {
       "name": "KODEX Secondary Battery Industr",
-      "px": 12705,
-      "dayChange": -2.64,
-      "periodChange": -16.14,
+      "px": 12860,
+      "dayChange": -1.46,
+      "periodChange": -15.12,
       "prices": [
         15150,
         15375,
@@ -1046,7 +1050,7 @@
         11715,
         12465,
         13050,
-        12705
+        12860
       ],
       "dates": [
         "2026-10-12",
@@ -1074,7 +1078,7 @@
         "2026-11-11",
         "2026-11-12"
       ],
-      "volume": 2932002,
+      "volume": 3642176,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
@@ -1085,6 +1089,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261112",
+            "foreigner": -312827,
+            "institution": 290613,
+            "individual": 21941,
+            "foreignRatio": "0.21%"
+          },
           {
             "date": "20261111",
             "foreigner": 85814,
@@ -1147,31 +1158,24 @@
             "institution": 65373,
             "individual": -48950,
             "foreignRatio": "0.20%"
-          },
-          {
-            "date": "20261029",
-            "foreigner": -238884,
-            "institution": 219659,
-            "individual": 13556,
-            "foreignRatio": "0.21%"
           }
         ],
         "sum5d": {
-          "foreigner": 116785,
-          "institution": -300587
+          "foreigner": -185909,
+          "institution": 189918
         },
         "sum10d": {
-          "foreigner": 76206,
-          "institution": -461262
+          "foreigner": 2263,
+          "institution": -390308
         }
       },
       "consensus": null
     },
     "LIT": {
       "name": "Global X Lithium & Battery Tech",
-      "px": 61.07,
-      "dayChange": 1.82,
-      "periodChange": -10.68,
+      "px": 59.53,
+      "dayChange": -2.58,
+      "periodChange": -12.93,
       "prices": [
         68.37,
         67.65,
@@ -1195,7 +1199,8 @@
         60.91,
         61.35,
         59.98,
-        61.07
+        61.07,
+        59.53
       ],
       "dates": [
         "2026-10-12",
@@ -1220,16 +1225,17 @@
         "2026-11-06",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ],
-      "volume": 139694,
+      "volume": 9057,
       "currency": "USD",
       "state": "CLOSED",
       "market": "US",
       "fundamentals": {
         "high52w": 91.98,
         "low52w": 59,
-        "volume": 139694
+        "volume": 9057
       },
       "investorFlow": null,
       "consensus": null

@@ -1,130 +1,114 @@
 {
-  "updatedAt": "2026-11-19T22:47:23.288Z",
+  "updatedAt": "2026-11-20T03:54:29.385Z",
   "count": 40,
   "stats": {
-    "today": 22,
-    "yesterday": 7,
-    "weekAvg": 5.7,
-    "sources": 17,
-    "heat": "hot"
+    "today": 7,
+    "yesterday": 11,
+    "weekAvg": 5,
+    "sources": 19,
+    "heat": "warm"
   },
   "items": [
     {
+      "s": "전자신문",
+      "t": "모레, 차세대 AI 추론 최적화 프레임워크 'TIDE' 공개…처리량 1.66배 향상",
+      "d": "모레는 미국 시카고에서 진행되는 '슈퍼컴퓨팅 2026(SC26)'에서 대규모 언어모델(LLM)의 추론 성능과 효율을 높이는 자기 개선형 추론 프레임워크 'TIDE(Temporal Incremental Draft Engine)'를 첫 공개했다고 20일 밝혔다. 최근 생성형 AI와 추론형 AI의 활용이 확대되면서 대규모 언어모델의 추론 효율은 AI 서비스 경쟁력을 좌우하는 핵심 요소로 부상하고 있다. 모레가 개발한 TIDE는 추론 과정의 비효율을",
+      "u": "https://www.etnews.com/20261120000159",
+      "m": "11. 20. AM 02:43",
+      "ts": 1795142629000,
+      "fullText": "AI·SW SW 모레, 차세대 AI 추론 최적화 프레임워크 'TIDE' 공개…처리량 1.66배 향상 발행일 : 2026-11-20 11:43 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 미국 시카고에서 진행되는 '슈퍼컴퓨팅 2026(SC26)'에 마련된 모레 부스 (모레 제공) 모레는 미국 시카고에서 진행되는 '슈퍼컴퓨팅 2026(SC26)'에서 대규모 언어모델(LLM)의 추론 성능과 효율을 높이는 자기 개선형 추론 프레임워크 'TIDE(Temporal Incremental Draft Engine)'를 첫 공개했다고 20일 밝혔다. 최근 생성형 AI와 추론형 AI의 활용이 확대되면서 대규모 언어모델의 추론 효율은 AI 서비스 경쟁력을 좌우하는 핵심 요소로 부상하고 있다. 모레가 개발한 TIDE는 추론 과정의 비효율을 개선하기 위해 '추측 디코딩' 기술을 활용한다. 추측 디코딩은 상대적으로 작은 보조 모델이 먼저 여러 개의 토큰을 예측하면, 대형 모델이 이를 한꺼번에 검증해 답변 생성 속도를 높이는 방식이다. 기존 방식은 보조 모델이 실제 사용자 요청과 다른 패턴으로 학습돼 있을 경우 예측 정확도가 떨어지고 오히려 추론 성능이 저하될 수 있다는 한계가 있었다. TIDE는 대형 모델이 실제 추론을 수행하는 과정에서 생성하는 내부 정보인 '중간 은닉 상태'를 재활용해 보조 모델을 점진적으로 학습시킨다. 별도로 대형 모델을 다시 실행해 학습 데이터를 생성할 필요가 없어 추가적인 연산 부담을 줄이면서 실제 서비스 환경에 맞춰 보조 모델의 예측 정확도를 높일 수 있다고 회사는 설명했다. SC26에서 발표한 연구 결과에 따르면 TIDE는 추측 디코딩을 적용하지 않은 기존 추론 방식 대비 AI 추론 처리량을 최대 1.66배 향상시켰다. 또 대형 모델의 추론 과정에서 생성되는 내부 정보를 별도의 학습 데이터 생성 과정 없이 재활용해 기존 온라인 학습 방식보다 보조 모델의 학습 시간을 최대 3.02배 단축했다. 조강원 모레 대표는 “AI 인프라 경쟁력은 단순히 고성능 GPU를 얼마나 많이 확보하느냐를 넘어 주어진 컴퓨팅 자원을 얼마나 효율적으로 활용해 더 많은 AI 연산을 처리할 수 있느냐에 달려 있다”며 “앞으로도 다양한 GPU 환경에서 AI 추론 성능과 자원 활용 효율을 극대화할 수 있는 소프트웨어 기술을 지속 개발해 나갈 것”이라고 말했다. 모레는 엔비디아·AMD 등 서로 다른 제조사의 GPU를 통합 운영하고 AI 추론 효율을 높이는 인프라 소프트웨어 전문기업이다. 최근에는 이기종 AI 가속기의 연산 자원을 최적으로 배분해 데이터센터의 토큰 생산 효율을 높이는 '토큰 팩토리 OS' 개발에 주력하고 있다. 정현정 기자 iam@etnews.com"
+    },
+    {
       "s": "Bloomberg Tech",
-      "t": "Anthropic Shares Jump 17% After $107.3 Billion IPO Breaks Record",
-      "d": "Anthropic made its debut as a public company today — the first AI frontier lab to do so. Shares soared 17% above their IPO price in the biggest offering on record, raising $107.3 billion despite signs of growing caution around the artificial intelligence trade. Ed Ludlow explains what comes next (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-ipo-breaks-record-video",
-      "m": "11. 19. PM 10:41",
-      "ts": 1795128066000,
+      "t": "Asian Chip Stocks Slide as Anthropic IPO Fails to Dispel AI Woes",
+      "d": "Asia’s chip-related shares resumed their selloff on Friday despite Anthropic PBC’s blockbuster listing, a sign that concerns about the artificial intelligence trade, which have been building for months, continue to dominate investor sentiment.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-20/asian-chip-stocks-slide-as-anthropic-ipo-fails-to-dispel-ai-woes",
+      "m": "11. 20. AM 01:49",
+      "ts": 1795139395000,
       "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "If You Want To Trade Like Anthropic, You Better Look Like Anthropic, Says Buyer",
-      "d": "Lise Buyer, Founder of Class V Group and one of the chief architects of Google’s 2004 auction IPO, discusses Anthropic’s stronger-than-expected IPO demand, share count and pricing after reports had suggested a possible downsizing. She cautioned investors not to rely on market chatter, emphasizing that a company’s value is ultimately what investors are willing to pay. She speaks with Romaine Bostic",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/nothing-is-going-to-stop-ai-trade-lise-buyer-video",
-      "m": "11. 19. PM 10:32",
-      "ts": 1795127572000,
+      "t": "Minotaur's Rosenberg: Anthropic IPO Fuels Wider AI Trade",
+      "d": "Minotaur Capital Co-Founder and Portfolio Manager Armina Rosenberg says Anthropic’s initial public offering supports confidence in the broader artificial intelligence trade despite near-term volatility. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-20/minotaur-s-rosenberg-anthropic-ipo-fuels-wider-ai-trade-video",
+      "m": "11. 20. AM 01:08",
+      "ts": 1795136907000,
       "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Menlo Makes First-Ever IPO Investment With Anthropic",
-      "d": "Menlo Ventures Partner Matt Murphy explains why Anthropic became the first IPO the venture firm has ever invested in, calling it an “exceptional opportunity.” He discusses Anthropic’s compute strategy, the disruptive potential of Claude Code and the idea that the company is ultimately “selling intelligence” and the ability to innovate. Murphy also says Anthropic’s longstanding emphasis on trust an",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/menlo-makes-first-ever-ipo-investment-with-anthropic-video-mwo4hdqb",
-      "m": "11. 19. PM 10:29",
-      "ts": 1795127361000,
+      "t": "Japanese Shares Slide as AI Concerns Overshadow Anthropic Debut",
+      "d": "Japanese equities slumped with tech-related shares hammered as concerns around the artificial intelligence trade linger despite the strong debut of Anthropic’s listing on the stock market.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-20/japanese-shares-slide-amid-uncertainty-around-the-ai-trade-mwo9cqcj",
+      "m": "11. 20. AM 12:45",
+      "ts": 1795135542000,
       "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Robinhood CIO on Retail Access to Anthropic’s IPO",
-      "d": "Stephanie Guild, CIO over at Robinhood Markets, discusses the record breaking IPO of Anthropic and what it says for the AI Trade. She also says customers have continued to buy Nvidia on a net basis on days the stock has fallen following recent news, even as it remains one of the platform’s highest-volume stocks and some customers sell. She speaks with Romaine Bostick & Ed Ludlow on \"The Close.\" (S",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/robinhood-cio-on-retail-access-to-anthropic-s-ipo-video",
-      "m": "11. 19. PM 10:24",
-      "ts": 1795127051000,
+      "t": "Anthropic Slumps 5% Post-Market After Record $107.3 Billion IPO",
+      "d": "Anthropic PBC shares were down about 5% in post-market trading as the artificial intelligence developer wrapped up its first day as a public company after a record-setting $107.3 billion offering.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-shares-drop-post-market-on-apple-s-ai-agent-plans",
+      "m": "11. 20. AM 12:40",
+      "ts": 1795135204000,
+      "fullText": ""
+    },
+    {
+      "s": "CNBC Tech",
+      "t": "Anthropic breaks record with IPO",
+      "d": "After the first day of trading, AI company Anthropic is worth more than $1.7 trillion. NBC News’ Christine Romans reports how today’s IPO means the company’s seven co-founders are now each worth more than $23 billion.",
+      "u": "https://www.nbcnews.com/nightly-news/video/anthropic-breaks-record-with-ipo-273864773628",
+      "m": "11. 20. AM 12:23",
+      "ts": 1795134234000,
+      "fullText": "Top Story &#x27;Grand Theft Auto VI&#x27; is here, and it’s already made billions"
+    },
+    {
+      "s": "데이터넷",
+      "t": "아이티센클로잇, ‘에이전트고’ 기반 제약·바이오 AX 사업 확대",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXTk94dUk3TmRGX0E1bFdZZXotekh3eDY4UXhmNFM5SV8yNFJJT19POUlSZzVpMl8wbHVtT2lZVzZDZjZHTmU4aS1BMDNZaV96VWZpdUN6UHVSS0hueU9MVU9xVy0zd1BKU1pFQg?oc=5",
+      "m": "11. 20. AM 12:13",
+      "ts": 1795133637000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "The City at the Center of AI",
+      "d": "Anthropic’s record-setting IPO is expected to make many of its employees rich, and other AI companies may be next. At the center of this modern gold rush is San Francisco, a city used to booms and busts – but never at this scale.\n\n (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-19/the-city-at-the-center-of-ai-video",
+      "m": "11. 19. PM 11:46",
+      "ts": 1795131992000,
       "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Investor GIC Says Anthropic Is Building Intelligence Factories",
-      "d": "GIC is staying invested in Anthropic after backing the AI company through multiple private rounds and its blockbuster IPO. Chris Emanuel, head of the technology investment group at GIC, discusses why it sees Anthropic as part of a broader “reindustrialization” built around intelligence, why it's betting big on Anthropic and why GIC views itself as a life-cycle investor that backs category-defining",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/gic-anthropic-is-building-intelligence-factories-video",
-      "m": "11. 19. PM 10:12",
-      "ts": 1795126346000,
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "앤스로픽 상장하자 기존 기술주 팔아치웠다…美증시 급락",
-      "d": "미국 뉴욕증시가 19일(현지시간) 3대 주요 지수 모두 2% 넘게 급락하며 마감했다. 인공지능(AI) 기업 앤스로픽(Anthropic)이 약 813억 달러를 조달하는 역대 최대 규모의 기업공개(IPO)를 통해 나스닥 시장에 성공적으로 입성했지만, 상장 직후 기존 AI·기술주 전반에서 차익실현 매물이 대거 쏟아지고 미국 연방준비제도(Fed·연준)의 추가 기준금리 인상 우려까지 겹치면서 시장 전반에 투매 심리가 확산했다.이날 뉴욕증권거래소(NYSE)에서 다우존스30산업평균지수는 전장보다 1101.11포인트(2.19%) 내린 4만 9097.06에 거래를 마쳤다. 다우지수가 종가 기준으로 5만 선 아래로 밀려난 것은 올 6월 이후 약 5개월 만이다. 스탠더드앤드푸어스(S&P)500지수는 147.80포인트(2.02%",
-      "u": "https://www.donga.com/news/Inter/article/all/20261120/135058203/1",
-      "m": "11. 19. PM 10:01",
-      "ts": 1795125660000,
-      "fullText": "김형민 기자 구독"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Lightspeed’s Duesterhoeft on Anthropic and the Next AI Race",
-      "d": "Lightspeed Venture Partners’ Sebastian Duesterhoeft reflects on how the firm adapted to the rapid rise of generative AI - and why backing Anthropic became one of its boldest bets. He discusses the lessons from the DeepSeek moment, Anthropic’s focus on developing AI safely, and why competition among multiple leading AI models could ultimately strengthen the industry. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/lightspeed-s-duesterhoeft-on-anthropic-next-ai-race-video",
-      "m": "11. 19. PM 09:40",
-      "ts": 1795124410000,
+      "t": "Propagate Co-CEO on New Sam Bankman-Fried Docuseries",
+      "d": "Ben SIlverman, Propagate Co-CEO & Chairman, discusses Sam Bankman-Fried’s early investment in Anthropic, which he could not benefit from after FTX and Alameda Research were forced to sell their reported $500 million stake before FTX’s collapse. As Anthropic made its trading debut, executive producer Ben Silverman said the IPO reinforced that Bankman-Fried had a strong investing thesis, but compare",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-19/propagate-co-ceo-on-new-sam-bankman-fried-docuseries-video",
+      "m": "11. 19. PM 11:04",
+      "ts": 1795129490000,
       "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding",
-      "d": "Apple Inc. is developing its own autonomous artificial intelligence agent that can get things done on behalf of users, looking to enter a fast-growing market already being pursued by OpenAI, Anthropic PBC, Meta Platforms Inc. and others.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
-      "m": "11. 19. PM 09:37",
-      "ts": 1795124250000,
+      "t": "Anthropic’s Historic IPO Debuts",
+      "d": "The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Class V Group Founder Lise Buyer, Menlo Ventures Partner Matt Murphy, GIC Head of Technology Investment Group Chris Emanuel, Goldman Sachs Chief Credit Strategist Amanda Lynam, Robinhood Markets CIO Stephanie Guild, Warrington College of",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-19/the-close-11-19-2026-video",
+      "m": "11. 19. PM 11:02",
+      "ts": 1795129351000,
       "fullText": ""
     },
     {
-      "s": "Bloomberg Tech",
-      "t": "Claude Users Excited to Invest in Anthropic, Says Ann Berry",
-      "d": "Ann Berry, founder and managing partner of Threadneedle, said that the ability to turn user behavior into an investment opportunity creates a 'different kind of buzz' for Anthropic. Berry said that she sees the AI company and its Claude model continuing to grab share from tech companies like Microsoft and shift users from traditional search engines.  (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/claude-users-excited-to-invest-in-anthropic-says-berry-video",
-      "m": "11. 19. PM 09:01",
-      "ts": 1795122111000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Anthropic Sets Record With $107.3 Billion IPO",
-      "d": "Anthropic makes history. The artificial intelligence company finally went public with shares trading on the Nasdaq. The $107.3 billion debut broke SpaceX's record for the biggest-ever offering. Wall street experts and investors react on Bloomberg Television. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-sets-record-with-107-3-billion-ipo-video",
-      "m": "11. 19. PM 08:53",
-      "ts": 1795121601000,
-      "fullText": ""
-    },
-    {
-      "s": "동아일보",
-      "t": "앤스로픽, 813억달러 역대 최대 상장… 스페이스X 넘어섰다",
-      "d": "인공지능(AI) 모델 ‘클로드’를 개발한 미국 앤스로픽이 기본 공모액 813억4000만 달러(약 108조 원)로 세계 최대 규모 기업공개(IPO) 기록을 세웠다. 앤스로픽은 19일(현지 시간) 미국 나스닥에 종목코드 ‘ANT’로 상장했다. 상장 공모 때의 투자 열기가 상장 이후에도 이어질지 주목되는 가운데, 앤스로픽의 주가와 실적이 향후 AI 사업 수익성의 ‘가늠자’가 될 것이란 관측이 나온다.● AI 모델로 돈 벌 수 있나… 오픈AI도 주목앤스로픽은 18일(현지 시간) 희망 범위(70∼78달러)를 10달러가량 웃돈 주당 83달러(약 11만 원)로 공모가를 확정하고, 공모 물량도 8억2500만 주에서 9억8000만 주로 늘렸다. 블룸버그통신에 따르면 투자자 주문은 공모 물량의 7배에 가까웠다. 기본 공모액은",
-      "u": "https://www.donga.com/news/Economy/article/all/20261120/135057814/2",
-      "m": "11. 19. PM 07:30",
-      "ts": 1795116600000,
-      "fullText": "전혜진 기자 구독"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Retail Investors Dive Into Both Sides of the Anthropic Trade",
-      "d": "Retail traders rushed to buy — and sell — Anthropic PBC shares in one of the busiest market debuts on record Thursday.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-19/retail-investors-dive-into-both-sides-of-the-anthropic-trade",
-      "m": "11. 19. PM 07:27",
-      "ts": 1795116440000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Anthropic Makes History on Wall Street",
-      "d": "Get a jump start on the US trading day with \"Bloomberg Open Interest.\" Anthropic makes history on Wall Street. Shares jump 21% after a record $107 billion IPO, valuing the AI giant at roughly $1.8 trillion. We’ll hear from Anthropic CFO Krishna Rao on what comes next, from its massive compute spending to how the company plans to stay disciplined as it scales. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/open-interest-11-19-2026-video",
-      "m": "11. 19. PM 06:14",
-      "ts": 1795112081000,
-      "fullText": ""
+      "s": "지티티코리아",
+      "t": "AI 에이전트에 과도한 권한 부여...기업 72% 보안 사고 경험",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xUEFRTHdUWG5PME5pbm9TYmwzMHY2Tk1HUzA5WDVnY1pRSUY4NVVSalBqZE84aEt3SmxWVjVvUUtyUENvNl80U2VDZTN0eFBuOUFMNEpCd2FVX3R3NFdyVEFJZDV2ZnJfU1E?oc=5",
+      "m": "11. 19. PM 09:00",
+      "ts": 1795122000000,
+      "_policy": true,
+      "fullText": "Google News"
     },
     {
       "s": "CNBC Tech",
@@ -133,7 +117,7 @@
       "u": "https://www.nbcnews.com/video/college-student-reacts-to-anthropic-ipo-launch-and-grand-theft-auto-drop-on-the-same-day-273822277955",
       "m": "11. 19. PM 05:51",
       "ts": 1795110690000,
-      "fullText": "Gamers worldwide celebrate release of GTA VI"
+      "fullText": "Top Story &#x27;Grand Theft Auto VI&#x27; is here, and it’s already made billions"
     },
     {
       "s": "NVIDIA공식",
@@ -142,7 +126,7 @@
       "u": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "m": "11. 19. PM 05:00",
       "ts": 1795107635000,
-      "fullText": ""
+      "fullText": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements. November 19, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through natural-language instructions, review results and guide changes. Omniverse libraries provide GPU-accelerated physics, rendering and sensor simulation capabilities. Explore the projects below to see frontier AI models such as GPT-6 Astra at work, and check back for new examples from NVIDIA teams and developers across the ecosystem. Physical AI Paves the Path to Autonomous Industrial Operations 🔗 https://blogs.nvidia.com/wp-content/uploads/2026/11/Nyhamna_footage_take5_30s.mp4 AI agents powered by frontier models pave the way to autonomous operations. They use industrial tools and engineering data to help engineers build digital twins that test plans and processes and evaluate operational decisions. Falkor, a KONGSBERG company, shows how this works in practice. The company’s Falkor Surface platform lets customers turn their computer-aided design and engineering data into facility-scale digital twins using the GPT-6 Astra model. The platform uses NVIDIA Omniverse libraries and NVIDIA RTX PRO 6000 Server Edition GPUs on Microsoft Azure to enable advanced physics simulation. AI agents built on Falkor’s agentic engine understand dense technical documenta"
     },
     {
       "s": "Unite.AI",
@@ -155,6 +139,15 @@
       "fullText": "Google News"
     },
     {
+      "s": "한경 경제",
+      "t": "AI혁명 4년만에 뒤집힌 판도…앤스로픽,오픈AI 넘어섰다",
+      "d": "",
+      "u": "https://www.hankyung.com/article/202611198587i",
+      "m": "11. 19. PM 12:58",
+      "ts": 1795093127000,
+      "fullText": "글로벌 시장 브리핑 AI혁명 4년만에 뒤집힌 판도…앤스로픽,오픈AI 넘어섰다 입력 2026.11.19 21:58 수정 2026.11.19 21:58 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김정아 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 인공지능(AI) 개발사 앤스로픽이 클로드 코드의 흥행과 폭발적인 매출 성장을 바탕으로 나스닥 상장을 앞두고 기업가치 및 실적 면에서 경쟁사인 오픈AI를 추월한 것으로 나타났습니다. 기업가치 2천조원 육박,오픈AI보다 20% 높아 기업시장 파고든 클로드,소비자 선점한 챗GPT 추월 앤스로픽의 폭발적 매출에 오픈AI 매출과 이익 뒤져 지난 2022년 11월말, 챗GPT 라는 인공지능(AI) 모델이 세상에 등장했을 때 이 모델을 내놓은 오픈AI라는 AI연구소는 AI혁명의 선구자라는 찬사를 받았다. 이후 여러 AI연구소와 기업들이 다양한 AI모델을 내놓을면서 AI 모델간 경쟁이 심화됐다. 오픈AI의 연구 담당 부사장을 그만 두고 나온 다리오 아모데이 등이 2021년에 설립한 앤스로픽이 첫 AI모델 클로드를 내놓은 것은 2023년 3월이다. 챗GPT보다 4개월 뒤다. 앤스로픽은 올해 상반기까지도 펀딩 라운드에서 오픈AI에 다소 못미치는 기업가치로 평가받았다. 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 김정아 객원기자 기자로 14년, 자본시장에서 18년 일했습니다. 글로벌 기업과 자본시장을 주시하고 있습니다. 관련 뉴스"
+    },
+    {
       "s": "CNBC Tech",
       "t": "Anthropic to Price Stock at $83 a Share, Valuing it Above $1 Trillion",
       "d": "Anthropic, known for its Claude AI chatbot, is going public Thursday morning and will appear on the NASDAQ as ANT. The company is pricing its shares at $83 apiece, which could skyrocket Anthropic’s value to a jaw-dropping $1.5 trillion. NBC’s Christine Romans joins TODAY to discuss all the hype surrounding the potential record-breaking IPO debut.",
@@ -162,15 +155,6 @@
       "m": "11. 19. PM 12:19",
       "ts": 1795090744000,
       "fullText": "Steals & Deals: Up to 86% Off Leather Totes, Jewelry, More Gifts for Her IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Gifts We Love Gifts We Love Magazine Black Friday 2026 Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Sign Out Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic to Price Stock at $83 a Share, Valuing it Above $1 Trillion Nov. 19, 2026 02:15 Cincinnati Zoo Shakes Things Up to Help Beloved Fiona the Hippo 00:30 New Space Simulator Allows Researchers to Visit Moon and Mars 03:52 Susan Smith Faces Second Parole Hearing for Drowning of 2 Sons 02:11 Donald Trump, Xi"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Bitcoin Spikes Lower as Anthropic Fails to Sustain Risk Appetite",
-      "d": "Bitcoin fell to the lowest level in more than four months after Anthropic PBC’s market debut failed to sustain enthusiasm for the artificial-intelligence trade, weighing on most riskier assets.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-19/bitcoin-bounces-back-into-green-ahead-of-anthropic-ipo",
-      "m": "11. 19. AM 11:31",
-      "ts": 1795087904000,
-      "fullText": ""
     },
     {
       "s": "코인리더스",
@@ -183,34 +167,13 @@
       "fullText": "Google News"
     },
     {
-      "s": "CEO경제신문",
-      "t": "더존비즈온, Private AI 전략 제시… 행정 AI 에이전트 시연에 공공기관 관심",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xWXpTM1ViY0NNWl9VdDM3T0FoV3JFQVBmRC1PRV9CYndBZWdvUEZybmI1YlZnS0xIVjdEbU9PcHJsYnlPd3M4YXhidVY4UHp4Sko1T25NQ1JhbXpGdkRIZUY1aG9uZGkwUW1MbA?oc=5",
-      "m": "11. 19. AM 08:30",
-      "ts": 1795077000000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "Daily NTN",
-      "t": "더존비즈온, 공공기관 겨냥 Private AI 전략 공개…구매·계약 업무 AI로 자동화",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1SHJ0OE9jalppUzV3TmI4ZDlHQ25RYTFGRTJKUVRrNFJMcHBSd3Q2ZU9FQk9jUS1nYmpOc1VVclE2SVk3cWN4VktkMGstYzdLYk0xV2ZFTWFULTgxb3pGSUZIMVowMzVwNmc?oc=5",
-      "m": "11. 19. AM 06:38",
-      "ts": 1795070311000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "정보통신신문",
-      "t": "더존비즈온, 폐쇄망 기반 AI 에이전트로 공공 행정 혁신 공략",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDWGFhbjZlTVd4V1FNSnByMjhacGpzYzBubFltNjl1bnBkQlFRZ2JhemttM0VJS1JYUU9BN1lKNTQ5S2ZYOTllM3hsMmdBNF9ZMlhpalRRZHNWaW5CR2xORXZhYmhVVTJF0gFsQVVfeXFMT0wwdGNndnNhVDJoV2JhQTVzeUJ5eVZtclJKamJFZzk4Tl9VLW82WVlRX0dDTkZmVEpSVmMxWVVycE5GbGdUM2lUdnV4cE5tRTVVZWZrcS1lcHAwTC1vc05NN044U3oySzgwaU1k?oc=5",
-      "m": "11. 19. AM 06:12",
-      "ts": 1795068749000,
-      "_policy": true,
-      "fullText": "Google News"
+      "s": "Bloomberg Tech",
+      "t": "The Biggest Winners in Anthropic’s Landmark Public Offering",
+      "d": "Anthropic PBC’s record-breaking initial public offering on Thursday is expected to bring billions of dollars in returns to several financial firms that have bet the house on the Claude chatbot maker.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-19/the-biggest-winners-in-anthropic-s-landmark-public-offering",
+      "m": "11. 19. AM 12:59",
+      "ts": 1795049974000,
+      "fullText": ""
     },
     {
       "s": "지티티코리아",
@@ -261,22 +224,12 @@
       "fullText": "Google News"
     },
     {
-      "s": "보험저널",
-      "t": "GA가 만든 'AI 에이전트', 개발해도 못 쓴다…보험광고 규제에 발목",
+      "s": "CoinDesk",
+      "t": "코인베이스 CEO, 향후 10년 내 AI 에이전트가 '99.9%'의 거래를 차지할 것이라고 밝혀",
       "d": "",
-      "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzZV9kblFrSDNqRVFLVTYwQWtpNTRrUE1QN2p0WXozQkFHNVRnMEFqWDJfMlRWVnJkbXdYWVFmc3NGS3BaSEZQbEk3Wmt2b3B5cmlXeTYtUUJhY01iUFpYRXgtbWZkVzhCcFU2b2FMZw?oc=5",
-      "m": "11. 18. AM 06:52",
-      "ts": 1794984728000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "MS, 클로드 코드·코덱스 등 AI 60종 실시간 통제…\"폭주하는 AI 에이전트 막는다\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80ZHVRQnoxbHR4SmtVWm9JYzM2enI4RVR5TFdDSXlNeC1ySUtFOWlNUUdLblZzQVZrUFU2QWQ4dzFYODdNeWtvcndVZC1GMHJwdkMtRXhn?oc=5",
-      "m": "11. 18. AM 01:54",
-      "ts": 1794966854000,
+      "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLWw3Ujl2a0pzQWR4d2d4NVIzbGllT19Jb2ROU2V0ay1UeDcwVW5sTWNVWFd0UEV5R3lQRThrOGVQOW5yMXF2Z1ZoR096bkhwXzVveVZuVS1GRTU3TUxVakhEcW1qVmp0VFlIREllbVBHZmM2MkFGY0ZTclB0UlhaMmdWQ2Qya3paSmE5eXQtbEtLSFVjZUhYNlBXcFlFQzFmUDB2LTJ6aEhhaUUtWnF1UG81anQ3enBhaTRvM18zbVN6TUJMcUhj?oc=5",
+      "m": "11. 17. PM 07:54",
+      "ts": 1794945280000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -290,32 +243,12 @@
       "fullText": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents At SC26, NVIDIA’s VP of Hyperscale and HPC laid out how researchers can combine simulation, AI and agents to accelerate scientific discovery. November 17, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science , the Rubin HPC GPU and an expanded Vera CPU platform for high-performance computing . He also detailed a new collaboration in quantum computing with IBM and Fermi National Accelerator Laboratory . “The frontier of computing and the new scientific stack is going to be simulation, as always, but combined with AI and the future of quantum,” said Buck, vice president of hyperscale and high-performance computing at NVIDIA. Buck opened the talk by looking back to his first public talk on CUDA, at an SC06 tutorial in Tampa, Florida, 20 years ago. NVIDIA now offers more than 1,000 CUDA-X libraries , he said. Open Models for Science Agents “[Agents] have been just a game changer in how we interface with our supercomputers, with our devices, our instruments and how we can do the research,” Buck said. Simulation remains the foundation of scientific computing, “which will always be on the top,” Buck said, with AI, quantum and now agents working alongside it. Nemotron for Science combines the Nemotron 3.5 Super VL open model with a new open chemistry dataset and post-training recipes for life sciences and chemistry, Buck explained. Researchers can run it locally on a DGX Spark, a workstation or their own supercomputer. At Argonne National Laboratory, Buck said, an agent built with the toolkit took a single prompt, planned and tested hypotheses, chose which simulations to run and identified "
     },
     {
-      "s": "CoinDesk",
-      "t": "연방준비제도 이사 마이클 바르는 AI 에이전트가 몇 분 만에 은행 대량 인출을 촉발할 수 있다고 경고",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUHFSRUF4XzJwRzlBNWtZSmE2cENVaGloeFJyVUw4TzlkS0ZQa2VmMUN4SDNuVWZFZ04zOVJRdFV4Z0lwYldMYjVuQ0d1T24zcVhJQzVUZFBraFZpblNvWFQ1bzZkUzFUZENHWkstUjJVV0dnMk83MkVrWmhGX1ZLSWZSSHI0bDQ4VUhUMkRqMkFnN0lDOHdSZWE2aklJc3VRdjdMWm1qdThyY3JKWUd4SHYwbk4yaHhYX3Qyak5neThkUQ?oc=5",
-      "m": "11. 17. PM 01:08",
-      "ts": 1794920938000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "블루밍비트",
       "t": "美 연준 이사 \"AI 에이전트, 수분 내 뱅크런 유발 가능\"…스테이블코인 확산에 경고",
       "d": "",
       "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9icGRBd2xLaTJESlVwM0NwR2sxa2pURG9jSmU5Uzk2bUlGY0FhTjlHQXF6bHctZkJteWJiS0V4VVloVlY1dnhBcTNZNGpONnZB?oc=5",
       "m": "11. 17. AM 11:47",
       "ts": 1794916077000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지티티코리아",
-      "t": "AI 에이전트 비용 폭증 막는다...예산 초과 전 모델 자동 전환·실시간 지출 통제",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51Q2ttRHFjQkZYTzBPTFlHUWV6VmZJUWpuclpnNFE4TU8xVm0wOVJXam5xdEU4dlJiVHJlYmhpMkpSa0sxTzBSOU9rMTRZS0pVRllFQzB2WkxrLS1Pck1JNUpfRXN3dmo3SHc?oc=5",
-      "m": "11. 16. PM 10:00",
-      "ts": 1794866400000,
       "_policy": true,
       "fullText": "Google News"
     },
@@ -384,6 +317,75 @@
       "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBxcUxUZGxhcWpkWkRWVHFoa29yVHIwUTNKTDJSdDRZV19JMUVPVTR5dUlMZl81R293ZE5sUV9VWmxnNkVFa295T0t3?oc=5",
       "m": "11. 16. AM 07:01",
       "ts": 1794812509000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "전자신문",
+      "t": "[ET단상] AI 에이전트 시대, 기업의 속도를 결정하는 것은 '엔진'이 아닌 '브레이크'",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15TFcwS1pIUWNBaW5GZ2hMZmRoSEhmOC1jVm5MMWl2QjN1NXI4Y2tUajhUcVhkOEFCU0Q5RklidTBMUk1hWXZIRkFpTlVsZw?oc=5",
+      "m": "11. 16. AM 07:00",
+      "ts": 1794812400000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "NVIDIA공식",
+      "t": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "d": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai [&#8230;]",
+      "u": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+      "m": "11. 16. AM 12:00",
+      "ts": 1794787228000,
+      "fullText": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities November 15, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai Motor Group, LG Electronics and SK Group — as well as startups like Real World and Luda Robotics — using NVIDIA platforms to bring general-purpose robotics into the real world. Jonathan Cohen, vice president of applied research at NVIDIA, showed how enterprises can build agents they own and control. Breakout sessions featured speakers from Coupang Intelligent Cloud, Doosan Robotics, LG AI Research, LG Electronics, NAVER Cloud, SK Telecom and Upstage. “It was a genuinely enjoyable time to have candid conversations,” said Hyunho Yang, research engineer for omnimodal foundation models at SK Telecom. “Seeing the passion of fellow AI developers was a real source of inspiration for me.” Community leaders share how they build with open models and tools at AI Day Seoul. The Agentic AI 10x Bootcamp Community Day brought together Pseudo Lab, Python Korea, PyTorchKR, HAERAE, Hugging Face KREW, Graph User Group, Womxn Who Code Korea, Dnol (Datayanolja) and other developer communities. Five finalists from the Hangul Day hackathon, co-hosted with Fastcampus, built agents trained on the Korean language and culture with the OpenShell runtime. The winning team, FlyGate, received an NVIDIA DGX Spark system. More than 500 developers also took part in full-day NVIDIA Deep Learning Institute workshops and NVIDIA Certification exams in Korean. Workshops covered deploying and optimizing AI inference at scale, building end-to-end robotics wo"
+    },
+    {
+      "s": "인공지능신문",
+      "t": "한국인공지능검증원, 오스트리아 AIT와 AI 신뢰성 검증 플랫폼 개발…AI 에이전트까지 평가 확대",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53SUN6RTE3M3VBRXYweFk2Nmxyb0NjZU0tb19Sb19vN2ItMExFZkl5ZmxrMkVkSHBFRG5aVzdXWWNSVC02dTR3dFBlcFg4aVVoLWdFN3BVNTkzSjMzTmxZc0xwNXlYTGs?oc=5",
+      "m": "11. 12. PM 11:23",
+      "ts": 1794525788000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "KDI 경제교육·정보센터",
+      "t": "AI 에이전트 시대 금융보안 관련 정책과제",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1bkVsZjRlUmxoclNQN2wzQWxmVnNoVXZzRU55MGRTMVVmay1INUkxN1l0MjhveHZjbEJzYXJKVVR2N2lzbDNxa2NtaG01Y01HSnQ1SXNKeTBEcm9LblFXbzB6b2lpUF8yZ3BR?oc=5",
+      "m": "11. 12. PM 08:09",
+      "ts": 1794514181000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "뉴시스",
+      "t": "방미통위, 'AI 이용자 보호 컨퍼런스' 개최…AI 에이전트 책임·규제 논의",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYamlfeVVWSlUyLTMwQUdKWjgzNENZTjNfT2pnNld0ZS1sSVkwbmRCUzVjd09aRUtPQms2Rmc1SDRlVGJ0dkZCMkZBLXV3eHBQV2tDTFhHM2wwYmxzM3o2bNIBeEFVX3lxTE9WandTUm5vazlvOURPT2dnSFhyMkVGRFJSeXJJMzdnOUF2ZTNnb2FNa2Y2WU1vVzZtbG8tNUxHTmI0TnFFUnJpM1pNQURBNEJRWC1vcjdjNDhfLXd6YjdtelQ0UUlPNGVRbFdnN1c4aUZmVmh0TDhyQg?oc=5",
+      "m": "11. 12. AM 05:30",
+      "ts": 1794461403000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "Chosunbiz",
+      "t": "아톤, 금융권 AI 에이전트 인증 시장 진출… AI 에이전트사인 출시",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclM1UlhkYXJaNkk0NVhiR3BrYm5PVVJNSkthYkxIVkdYSUpCbXFrUnlhc0ZGdjlRNE1Fb0Rkelhja2dyX3FhSU96WVpWOTBmWm5WLXVrNGxSdzdrb1FyUkd4RGFmYUtQd0ZCRlI5SmVIQ1p4LVpscmdjSEp2a2Zna2NB0gGWAUFVX3lxTE5tTmVvMmdQTFhhdS04dkl2ajU3R1RNcC1pY2l5WkVUWFpIdHg5c05iOS1fNWEtUHc1dTZLUjVweEh4eGtMWXBrTVZEaDg2dmY5MklTZTc1aE5ielctNUZCOE5HRC1PRk9oSVhXdE9XQVhYbHJCdFE1akFLbHdHZ0pBTjUxRDBXSGp3dVd2dVRFUUlGNXo2dw?oc=5",
+      "m": "11. 12. AM 01:35",
+      "ts": 1794447300000,
+      "_policy": true,
+      "fullText": "Google News"
+    },
+    {
+      "s": "인공지능신문",
+      "t": "AI 에이전트가 정부 시스템 무단 침입…호주, AI 사고 신고 의무화·독립 규제기관 신설 추진",
+      "d": "",
+      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfQnkzVGQyNGRiZWt0THJrbTl0WDF3c2xKX0VfUHIyd1ZKcWxvYk00Uk5tNlU0UVdQSWxRaWpyazhaSGdBRzdUQzZMVzl2dVdVWjZiOElTMC0yeVZEWmhtXzcyYU01VXM?oc=5",
+      "m": "11. 10. AM 08:00",
+      "ts": 1794297600000,
       "_policy": true,
       "fullText": "Google News"
     }

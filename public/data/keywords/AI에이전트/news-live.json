@@ -1,27 +1,72 @@
 {
-  "updatedAt": "2026-11-20T03:54:29.385Z",
-  "count": 40,
+  "updatedAt": "2026-11-20T12:29:54.167Z",
+  "count": 18,
   "stats": {
-    "today": 7,
-    "yesterday": 11,
-    "weekAvg": 5,
-    "sources": 19,
+    "today": 9,
+    "yesterday": 3,
+    "weekAvg": 2.6,
+    "sources": 5,
     "heat": "warm"
   },
   "items": [
     {
-      "s": "전자신문",
-      "t": "모레, 차세대 AI 추론 최적화 프레임워크 'TIDE' 공개…처리량 1.66배 향상",
-      "d": "모레는 미국 시카고에서 진행되는 '슈퍼컴퓨팅 2026(SC26)'에서 대규모 언어모델(LLM)의 추론 성능과 효율을 높이는 자기 개선형 추론 프레임워크 'TIDE(Temporal Incremental Draft Engine)'를 첫 공개했다고 20일 밝혔다. 최근 생성형 AI와 추론형 AI의 활용이 확대되면서 대규모 언어모델의 추론 효율은 AI 서비스 경쟁력을 좌우하는 핵심 요소로 부상하고 있다. 모레가 개발한 TIDE는 추론 과정의 비효율을",
-      "u": "https://www.etnews.com/20261120000159",
-      "m": "11. 20. AM 02:43",
-      "ts": 1795142629000,
-      "fullText": "AI·SW SW 모레, 차세대 AI 추론 최적화 프레임워크 'TIDE' 공개…처리량 1.66배 향상 발행일 : 2026-11-20 11:43 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 미국 시카고에서 진행되는 '슈퍼컴퓨팅 2026(SC26)'에 마련된 모레 부스 (모레 제공) 모레는 미국 시카고에서 진행되는 '슈퍼컴퓨팅 2026(SC26)'에서 대규모 언어모델(LLM)의 추론 성능과 효율을 높이는 자기 개선형 추론 프레임워크 'TIDE(Temporal Incremental Draft Engine)'를 첫 공개했다고 20일 밝혔다. 최근 생성형 AI와 추론형 AI의 활용이 확대되면서 대규모 언어모델의 추론 효율은 AI 서비스 경쟁력을 좌우하는 핵심 요소로 부상하고 있다. 모레가 개발한 TIDE는 추론 과정의 비효율을 개선하기 위해 '추측 디코딩' 기술을 활용한다. 추측 디코딩은 상대적으로 작은 보조 모델이 먼저 여러 개의 토큰을 예측하면, 대형 모델이 이를 한꺼번에 검증해 답변 생성 속도를 높이는 방식이다. 기존 방식은 보조 모델이 실제 사용자 요청과 다른 패턴으로 학습돼 있을 경우 예측 정확도가 떨어지고 오히려 추론 성능이 저하될 수 있다는 한계가 있었다. TIDE는 대형 모델이 실제 추론을 수행하는 과정에서 생성하는 내부 정보인 '중간 은닉 상태'를 재활용해 보조 모델을 점진적으로 학습시킨다. 별도로 대형 모델을 다시 실행해 학습 데이터를 생성할 필요가 없어 추가적인 연산 부담을 줄이면서 실제 서비스 환경에 맞춰 보조 모델의 예측 정확도를 높일 수 있다고 회사는 설명했다. SC26에서 발표한 연구 결과에 따르면 TIDE는 추측 디코딩을 적용하지 않은 기존 추론 방식 대비 AI 추론 처리량을 최대 1.66배 향상시켰다. 또 대형 모델의 추론 과정에서 생성되는 내부 정보를 별도의 학습 데이터 생성 과정 없이 재활용해 기존 온라인 학습 방식보다 보조 모델의 학습 시간을 최대 3.02배 단축했다. 조강원 모레 대표는 “AI 인프라 경쟁력은 단순히 고성능 GPU를 얼마나 많이 확보하느냐를 넘어 주어진 컴퓨팅 자원을 얼마나 효율적으로 활용해 더 많은 AI 연산을 처리할 수 있느냐에 달려 있다”며 “앞으로도 다양한 GPU 환경에서 AI 추론 성능과 자원 활용 효율을 극대화할 수 있는 소프트웨어 기술을 지속 개발해 나갈 것”이라고 말했다. 모레는 엔비디아·AMD 등 서로 다른 제조사의 GPU를 통합 운영하고 AI 추론 효율을 높이는 인프라 소프트웨어 전문기업이다. 최근에는 이기종 AI 가속기의 연산 자원을 최적으로 배분해 데이터센터의 토큰 생산 효율을 높이는 '토큰 팩토리 OS' 개발에 주력하고 있다. 정현정 기자 iam@etnews.com"
+      "s": "Bloomberg Tech",
+      "t": "Anthropic Slumps as AI Selloff Deepens",
+      "d": "Anthropic shares fell in premarket trading as a broad market selloff and doubts about the AI trade overshadowed the optimism that had fueled a rally on its record-setting debut.\n\nApple is developing its own autonomous AI agent that can get things done on behalf of users, looking to enter a fast-growing market already being pursued by OpenAI, Anthropic, Meta and others.\n\nA gauge of global stocks is",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-20/the-pulse-with-francine-lacqua-11-20-2026-video",
+      "m": "11. 20. AM 11:29",
+      "ts": 1795174190000,
+      "fullText": ""
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Asian Chip Stocks Slide as Anthropic IPO Fails to Dispel AI Woes",
-      "d": "Asia’s chip-related shares resumed their selloff on Friday despite Anthropic PBC’s blockbuster listing, a sign that concerns about the artificial intelligence trade, which have been building for months, continue to dominate investor sentiment.",
+      "t": "Anthropic’s Record IPO Isn’t Enough to Save the AI Trade",
+      "d": "Investors are still worried after the first public market debut of a frontier AI lab",
+      "u": "https://www.bloomberg.com/news/newsletters/2026-11-20/anthropic-s-record-ipo-isn-t-enough-to-save-the-ai-trade",
+      "m": "11. 20. AM 11:28",
+      "ts": 1795174081000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Morgan Stanley Sees Telecoms Using Muse-Style AI to Fight Rivals",
+      "d": "Phone and internet providers are starting to use AI agents to try to beat their rivals to a promising consumer market also targeted by Meta Platforms Inc., according to Morgan Stanley.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-20/morgan-stanley-sees-telecoms-using-muse-style-ai-to-fight-rivals",
+      "m": "11. 20. AM 11:25",
+      "ts": 1795173941000,
+      "fullText": ""
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "Anthropic Slumps in Premarket Trading",
+      "d": "Anthropic shares fell on their second day of trading. The Claude chatbot maker tumbled in premarket trading as a broad market selloff and doubts about the AI trade overshadowed the optimism that had fueled a rally on its IPO day. Bloomberg Intelligence Matthew Bloxham has more. (Source: Bloomberg)",
+      "u": "https://www.bloomberg.com/news/videos/2026-11-20/anthropic-slumps-in-premarket-trading-video",
+      "m": "11. 20. AM 09:59",
+      "ts": 1795168751000,
+      "fullText": ""
+    },
+    {
+      "s": "동아일보",
+      "t": "증권 앱 내 AI로 CES 2027 혁신상 수상··· 한국투자증권이 선택한 에이전틱 AI ‘스키퍼’",
+      "d": "AI 에이전트와 모델 콘텍스트 프로토콜(MCP)의 등장은 기존의 IT 업계 전반의 격을 한층 더 높이고 있다. 기존에 인력으로 수행하거나 수동으로 구성해야했던 과정들이 자동화하고, 서로 다른 서비스들 간에도 유기적으로 연결되면서 수행할 수 있는 작업과 성과가 극적으로 향상된 것이다. 이를 가장 빠르게 받아들인 분야는 금융권이다. 금융권은 숫자라는 정형 데이터를 중심으로 이뤄진 분야다보니 핵심 분야를 제외한 일반 활용 환경에서는 빠르게 AI를 받아들였다.특히 증권사들은 MCP와 오픈 API 플랫폼을 결합해 치열하게 경쟁하고 있다. 국내에서는 토스증권, NH투자증권, KB증권 등이 오픈 API 경쟁을 벌이고 있고 해외에서는 이미 AI가 실제 주식을 연결하는 단계에 진입했다. 그럼에도 불구하고 ‘지금 이 주식이 ",
+      "u": "https://www.donga.com/news/It/article/all/20261120/135062896/1",
+      "m": "11. 20. AM 09:02",
+      "ts": 1795165350000,
+      "fullText": "공유하기 공유하기 SNS 퍼가기 카카오톡으로 공유하기 페이스북으로 공유하기 트위터로 공유하기 URL 복사 창 닫기"
+    },
+    {
+      "s": "전자신문",
+      "t": "성안당, 일잘러 되는 실무용 '코덱스 바이브 코딩' 출간",
+      "d": "도서출판 성안당은 코딩 경험이 전혀 없어도 오픈AI의 인공지능(AI) 코딩 에이전트 '코덱스(Codex)'로 말(프롬프트나 명령어)로 지시하는 것만으로 필요한 도구를 만들 수 있는 바이브 코딩 실무서 '코덱스 바이브 코딩'을 출간했다. 특히 직장인들이라면 누구나 꼭 필요로 하는 점심 메뉴 추천 앱과 아파트 실거래가 앱, 주식 시세 대시보드 앱 등 생활 감각 있는 예제를 바이브 코딩으로 만들어 흥미를 끈다. 이 책에서는 채팅 창에서 코드를 받아도",
+      "u": "https://www.etnews.com/20261120000317",
+      "m": "11. 20. AM 08:49",
+      "ts": 1795164569000,
+      "fullText": "전국 성안당, 일잘러 되는 실무용 '코덱스 바이브 코딩' 출간 발행일 : 2026-11-20 17:49 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) X(트위터) --> 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 코덱스 바이브 코딩 표지. 도서출판 성안당은 코딩 경험이 전혀 없어도 오픈AI의 인공지능(AI) 코딩 에이전트 '코덱스(Codex)'로 말(프롬프트나 명령어)로 지시하는 것만으로 필요한 도구를 만들 수 있는 바이브 코딩 실무서 '코덱스 바이브 코딩'을 출간했다. 특히 직장인들이라면 누구나 꼭 필요로 하는 점심 메뉴 추천 앱과 아파트 실거래가 앱, 주식 시세 대시보드 앱 등 생활 감각 있는 예제를 바이브 코딩으로 만들어 흥미를 끈다. 이 책에서는 채팅 창에서 코드를 받아도 어디에 붙여넣고 어떻게 실행해야 할지 막막했던 독자를 위해 코덱스가 답변을 내놓는 데 그치지 않고 사용자 컴퓨터의 작업 폴더에서 파일을 직접 만들고, 고치고, 실행한다. 또 익숙한 ChatGPT 데스크톱 앱에서 코덱스를 먼저 써 본 뒤 'Codex CLI'로 자연스럽게 넘어가도록 구성해 터미널이 낯선 독자도 흐름을 놓치지 않게 했다. 총 3부 18장과 부록 구성으로, 1부에서는 '오늘 점심을 골라 주는 앱'을 한 문장 요청으로 만들며 '요청하고, 만들어지고, 실행하고, 고치는' 기본 흐름을 익힌다. 2부에서는 아파트 실거래가 조회 앱을 설계부터 완성까지 키운다. 제품 요구사항 문서(PRD)와 계획 기능(/plan)으로 범위를 먼저 정하고, 코덱스가 지킬 규칙을 AGENTS.md 파일에 남기며, 샌드박스·승인 정책으로 작업 경계를 정한다. 이어 공공데이터포털 API를 연결해 실제 거래 데이터를 불러오고, 긴 작업 세션 관리와 서브 에이전트 활용법까지 다룬다. 3부에서는 국내 주식 시장 흐름을 보여 주는 대시보드를 실제 서비스 수준으로 완성한다. 실 시세 데이터 수집, MCP를 통한 데이터베이스(Supabase) 연결, Vercel 배포, 훅(Hook)을 이용한 자동 검증과 인증 키 보호, 반복 점검을 묶은 'Skill' 제작, 깃 워크트리를 활용한 동시 개발, 다음 작업자를 위한 인수인계 문서 작성까지 담았다. 부록으로는 HyperFrames와 Remotion으로 '내 아이디어에 예고편 붙이는 영상 만들기'를 수록했다. 책 전체를 관통하는 기준인 “Vibe로 만들었지만, Vibe로 믿지는 않는다.”에 맞게 코덱스가 “완료했다.”고 답하더라도 독자가 직접 프로그램을 실행하고, 화면에 나온 숫자가 어디서 온 값인지 따지고, 조건을 바꿔도 결과가 맞는지 확인하도록 안내한다. 저자 5인은 금융권과 인터넷 기업에서 서비스를 개발해 온 현직 개발자로, 앞서 '클로드 코드 바이브 코딩'을 함께 썼으며 실제 업무에서 매일 코덱스를 쓰며 얻은 경험을 책에 녹였다. 저자들은 서문에서 “'이런 것이 있으면 좋겠다.'는 생각이 들 때 작게 만들어 보고 직접 확인하는 습관을 이 책에서 얻었으면 한다.”고 밝혔다. 전남광주=김한식 기자 hskim@etnews.com"
+    },
+    {
+      "s": "Bloomberg Tech",
+      "t": "AI Trade Buckles as Anthropic Bets Fizzle After Record IPO",
+      "d": "Anthropic PBC’s blockbuster initial public offering is becoming a catalyst for a savage selloff across artificial intelligence stocks.",
       "u": "https://www.bloomberg.com/news/articles/2026-11-20/asian-chip-stocks-slide-as-anthropic-ipo-fails-to-dispel-ai-woes",
       "m": "11. 20. AM 01:49",
       "ts": 1795139395000,
@@ -29,26 +74,8 @@
     },
     {
       "s": "Bloomberg Tech",
-      "t": "Minotaur's Rosenberg: Anthropic IPO Fuels Wider AI Trade",
-      "d": "Minotaur Capital Co-Founder and Portfolio Manager Armina Rosenberg says Anthropic’s initial public offering supports confidence in the broader artificial intelligence trade despite near-term volatility. (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-20/minotaur-s-rosenberg-anthropic-ipo-fuels-wider-ai-trade-video",
-      "m": "11. 20. AM 01:08",
-      "ts": 1795136907000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Japanese Shares Slide as AI Concerns Overshadow Anthropic Debut",
-      "d": "Japanese equities slumped with tech-related shares hammered as concerns around the artificial intelligence trade linger despite the strong debut of Anthropic’s listing on the stock market.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-20/japanese-shares-slide-amid-uncertainty-around-the-ai-trade-mwo9cqcj",
-      "m": "11. 20. AM 12:45",
-      "ts": 1795135542000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Anthropic Slumps 5% Post-Market After Record $107.3 Billion IPO",
-      "d": "Anthropic PBC shares were down about 5% in post-market trading as the artificial intelligence developer wrapped up its first day as a public company after a record-setting $107.3 billion offering.",
+      "t": "Anthropic Drops After IPO Pop as AI Slump Engulfs Markets",
+      "d": "Anthropic PBC shares fell on their second day of trading as the unwinding of the global AI trade overshadowed the optimism that had fueled a rally on its record-setting debut.",
       "u": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-shares-drop-post-market-on-apple-s-ai-agent-plans",
       "m": "11. 20. AM 12:40",
       "ts": 1795135204000,
@@ -61,54 +88,7 @@
       "u": "https://www.nbcnews.com/nightly-news/video/anthropic-breaks-record-with-ipo-273864773628",
       "m": "11. 20. AM 12:23",
       "ts": 1795134234000,
-      "fullText": "Top Story &#x27;Grand Theft Auto VI&#x27; is here, and it’s already made billions"
-    },
-    {
-      "s": "데이터넷",
-      "t": "아이티센클로잇, ‘에이전트고’ 기반 제약·바이오 AX 사업 확대",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXTk94dUk3TmRGX0E1bFdZZXotekh3eDY4UXhmNFM5SV8yNFJJT19POUlSZzVpMl8wbHVtT2lZVzZDZjZHTmU4aS1BMDNZaV96VWZpdUN6UHVSS0hueU9MVU9xVy0zd1BKU1pFQg?oc=5",
-      "m": "11. 20. AM 12:13",
-      "ts": 1795133637000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "The City at the Center of AI",
-      "d": "Anthropic’s record-setting IPO is expected to make many of its employees rich, and other AI companies may be next. At the center of this modern gold rush is San Francisco, a city used to booms and busts – but never at this scale.\n\n (Source: Bloomberg)",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/the-city-at-the-center-of-ai-video",
-      "m": "11. 19. PM 11:46",
-      "ts": 1795131992000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Propagate Co-CEO on New Sam Bankman-Fried Docuseries",
-      "d": "Ben SIlverman, Propagate Co-CEO & Chairman, discusses Sam Bankman-Fried’s early investment in Anthropic, which he could not benefit from after FTX and Alameda Research were forced to sell their reported $500 million stake before FTX’s collapse. As Anthropic made its trading debut, executive producer Ben Silverman said the IPO reinforced that Bankman-Fried had a strong investing thesis, but compare",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/propagate-co-ceo-on-new-sam-bankman-fried-docuseries-video",
-      "m": "11. 19. PM 11:04",
-      "ts": 1795129490000,
-      "fullText": ""
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "Anthropic’s Historic IPO Debuts",
-      "d": "The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Class V Group Founder Lise Buyer, Menlo Ventures Partner Matt Murphy, GIC Head of Technology Investment Group Chris Emanuel, Goldman Sachs Chief Credit Strategist Amanda Lynam, Robinhood Markets CIO Stephanie Guild, Warrington College of",
-      "u": "https://www.bloomberg.com/news/videos/2026-11-19/the-close-11-19-2026-video",
-      "m": "11. 19. PM 11:02",
-      "ts": 1795129351000,
-      "fullText": ""
-    },
-    {
-      "s": "지티티코리아",
-      "t": "AI 에이전트에 과도한 권한 부여...기업 72% 보안 사고 경험",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xUEFRTHdUWG5PME5pbm9TYmwzMHY2Tk1HUzA5WDVnY1pRSUY4NVVSalBqZE84aEt3SmxWVjVvUUtyUENvNl80U2VDZTN0eFBuOUFMNEpCd2FVX3R3NFdyVEFJZDV2ZnJfU1E?oc=5",
-      "m": "11. 19. PM 09:00",
-      "ts": 1795122000000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "&#x27;Jeopardy!&#x27; announces three-day fan convention"
     },
     {
       "s": "CNBC Tech",
@@ -117,7 +97,7 @@
       "u": "https://www.nbcnews.com/video/college-student-reacts-to-anthropic-ipo-launch-and-grand-theft-auto-drop-on-the-same-day-273822277955",
       "m": "11. 19. PM 05:51",
       "ts": 1795110690000,
-      "fullText": "Top Story &#x27;Grand Theft Auto VI&#x27; is here, and it’s already made billions"
+      "fullText": "&#x27;Jeopardy!&#x27; announces three-day fan convention"
     },
     {
       "s": "NVIDIA공식",
@@ -129,61 +109,13 @@
       "fullText": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements. November 19, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through natural-language instructions, review results and guide changes. Omniverse libraries provide GPU-accelerated physics, rendering and sensor simulation capabilities. Explore the projects below to see frontier AI models such as GPT-6 Astra at work, and check back for new examples from NVIDIA teams and developers across the ecosystem. Physical AI Paves the Path to Autonomous Industrial Operations 🔗 https://blogs.nvidia.com/wp-content/uploads/2026/11/Nyhamna_footage_take5_30s.mp4 AI agents powered by frontier models pave the way to autonomous operations. They use industrial tools and engineering data to help engineers build digital twins that test plans and processes and evaluate operational decisions. Falkor, a KONGSBERG company, shows how this works in practice. The company’s Falkor Surface platform lets customers turn their computer-aided design and engineering data into facility-scale digital twins using the GPT-6 Astra model. The platform uses NVIDIA Omniverse libraries and NVIDIA RTX PRO 6000 Server Edition GPUs on Microsoft Azure to enable advanced physics simulation. AI agents built on Falkor’s agentic engine understand dense technical documenta"
     },
     {
-      "s": "Unite.AI",
-      "t": "EU AI법은 에이전트형 AI도 규제합니다—그 방식은 다음과 같습니다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpczYzeE02eWZmOGlyX0JVa3lrbXJoWXlVcFdLczhHY09xejh0NXd1bUlJX0VjVUhrb0J0aU92RmxNZERBY0ZvNUJib1R4QV9QVmJVRlVnQ3lUSElGMlBiNFRtTkx3NS10YTl5OGlWTFM?oc=5",
-      "m": "11. 19. PM 03:51",
-      "ts": 1795103481000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "한경 경제",
-      "t": "AI혁명 4년만에 뒤집힌 판도…앤스로픽,오픈AI 넘어섰다",
-      "d": "",
-      "u": "https://www.hankyung.com/article/202611198587i",
-      "m": "11. 19. PM 12:58",
-      "ts": 1795093127000,
-      "fullText": "글로벌 시장 브리핑 AI혁명 4년만에 뒤집힌 판도…앤스로픽,오픈AI 넘어섰다 입력 2026.11.19 21:58 수정 2026.11.19 21:58 기사 스크랩 기사 스크랩 댓글 댓글 기사 공유 공유 글자크기 조절 글자크기 프린트 프린트 김정아 기자 구독하기 구글 검색 선호 출처로 추가 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. AI 기사요약 인공지능(AI) 개발사 앤스로픽이 클로드 코드의 흥행과 폭발적인 매출 성장을 바탕으로 나스닥 상장을 앞두고 기업가치 및 실적 면에서 경쟁사인 오픈AI를 추월한 것으로 나타났습니다. 기업가치 2천조원 육박,오픈AI보다 20% 높아 기업시장 파고든 클로드,소비자 선점한 챗GPT 추월 앤스로픽의 폭발적 매출에 오픈AI 매출과 이익 뒤져 지난 2022년 11월말, 챗GPT 라는 인공지능(AI) 모델이 세상에 등장했을 때 이 모델을 내놓은 오픈AI라는 AI연구소는 AI혁명의 선구자라는 찬사를 받았다. 이후 여러 AI연구소와 기업들이 다양한 AI모델을 내놓을면서 AI 모델간 경쟁이 심화됐다. 오픈AI의 연구 담당 부사장을 그만 두고 나온 다리오 아모데이 등이 2021년에 설립한 앤스로픽이 첫 AI모델 클로드를 내놓은 것은 2023년 3월이다. 챗GPT보다 4개월 뒤다. 앤스로픽은 올해 상반기까지도 펀딩 라운드에서 오픈AI에 다소 못미치는 기업가치로 평가받았다. 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다. 무료 열람 혜택으로 기사를 읽으셨습니다. 한경 프리미엄9을 구독하고 무제한으로 만나보세요. 구독하기 AI 뉴스 Q&A 더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요. 인공지능(AI)을 활용해 생성되었으며, 일부 내용에 오류가 있을 수 있습니다. AI 포인트 뷰 이전 분석 종목 다음 분석 종목 본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다. 좋아요 싫어요 후속기사 원해요 김정아 객원기자 기자로 14년, 자본시장에서 18년 일했습니다. 글로벌 기업과 자본시장을 주시하고 있습니다. 관련 뉴스"
-    },
-    {
       "s": "CNBC Tech",
       "t": "Anthropic to Price Stock at $83 a Share, Valuing it Above $1 Trillion",
       "d": "Anthropic, known for its Claude AI chatbot, is going public Thursday morning and will appear on the NASDAQ as ANT. The company is pricing its shares at $83 apiece, which could skyrocket Anthropic’s value to a jaw-dropping $1.5 trillion. NBC’s Christine Romans joins TODAY to discuss all the hype surrounding the potential record-breaking IPO debut.",
       "u": "https://www.today.com/video/anthropic-to-price-stock-at-83-a-share-valuing-it-above-1-trillion-273799749786",
       "m": "11. 19. PM 12:19",
       "ts": 1795090744000,
-      "fullText": "Steals & Deals: Up to 86% Off Leather Totes, Jewelry, More Gifts for Her IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Gifts We Love Gifts We Love Magazine Black Friday 2026 Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Sign Out Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic to Price Stock at $83 a Share, Valuing it Above $1 Trillion Nov. 19, 2026 02:15 Cincinnati Zoo Shakes Things Up to Help Beloved Fiona the Hippo 00:30 New Space Simulator Allows Researchers to Visit Moon and Mars 03:52 Susan Smith Faces Second Parole Hearing for Drowning of 2 Sons 02:11 Donald Trump, Xi"
-    },
-    {
-      "s": "코인리더스",
-      "t": "[AI 디지털보안] 정부 포털 뚫은 AI 에이전트…호주, 규제 칼 빼들었다",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE16WEFQakNfZklrQ0xETGxCd1pTNzJHM1JBbENZXzVzMHVsdks3dWp2dFoya2hNQzRCbmIwcHFBbXZNY2VZdG9IMDFn?oc=5",
-      "m": "11. 19. AM 09:36",
-      "ts": 1795080993000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "Bloomberg Tech",
-      "t": "The Biggest Winners in Anthropic’s Landmark Public Offering",
-      "d": "Anthropic PBC’s record-breaking initial public offering on Thursday is expected to bring billions of dollars in returns to several financial firms that have bet the house on the Claude chatbot maker.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-19/the-biggest-winners-in-anthropic-s-landmark-public-offering",
-      "m": "11. 19. AM 12:59",
-      "ts": 1795049974000,
-      "fullText": ""
-    },
-    {
-      "s": "지티티코리아",
-      "t": "AI 에이전트 무단 실행 통제...기업 규칙으로 작업 허용·차단·승인 결정",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqNWdoazBtLXdrLXh0aW5GUC1NRUVYVzZQa2VPZDA3b3BFX0l6RmxNN0xJSk5Nanh2OFMxa2I1YkpOTkpKdWx5NjRsWDRPN2h2R2J6UTNMdDJfNTJnRW1xYzhUX1hQUFg4UVE?oc=5",
-      "m": "11. 18. PM 09:30",
-      "ts": 1795037400000,
-      "_policy": true,
-      "fullText": "Google News"
+      "fullText": "Steals & Deals: Up to 86% Off Leather Totes, Jewelry, More Gifts for Her IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Today Logo On the Show About TODAY Show Video 3rd Hour of TODAY Jenna & Sheinelle Saturday TODAY Sunday TODAY Shop the Show Podcasts TODAY Plaza Citi Concert Series on TODAY From the Archives Shop Shop the Show Gifts We Love Gifts We Love Magazine Black Friday 2026 Product Finder Gift Guides Shop TODAY Savings Ranked by Shop TODAY Steals & Deals Stuff We Love Newsletter Add Us To Google Award Winners Step Into Style Health Start TODAY Expert Tip of the Day Women&#39;s Health Fitness Diet & Nutrition Mental Health Sleep Start TODAY Parents Baby Names Kids Health Family Babies Parenting Tips LOL Food Recipes on the Show Most Popular Recipes All Recipes Food News Life Astrology Holidays Quotes Jokes Trivia Sign up / Sign in Hi Search Share this &mdash; TODAY Dashboard My Saved Newsletters Profile Start TODAY Subscription Steals & Deals, Boxes & Last Chance Market Purchased Order History Sign Out Search Today Search Sections Health & Wellness Parenting Food Shop Pop Culture News Life Style Shows TODAY 3rd Hour of TODAY TODAY with Jenna & Sheinelle Saturday TODAY Sunday TODAY with Willie Geist Watch Full Episodes More News Life Books Trending Recipes Read With Jenna Astrology Inspirational Holidays Relationships TODAY Recipes Newsletters Start TODAY TODAY Archives Shop TODAY Awards Citi Concert Series Podcasts About Follow today More Brands NBC News Logo Facebook Pinterest Email SMS Blue Sky Print Whatsapp Reddit Flipboard Twitter Linkedin On the Show Shop Health Start TODAY Parents Food Life Anthropic to Price Stock at $83 a Share, Valuing it Above $1 Trillion Nov. 19, 2026 02:15 Russia Strikes Ukraine Just Hours After Summit With US, China 01:40 Trump to Hold Press Conference Friday Following Asia Trip 04:48 Heavy Rain Soaks Both Coasts, Causing Flooding and Evacuations 03:43 Cincinnati Zoo Shakes "
     },
     {
       "s": "CNBC Tech",
@@ -204,36 +136,6 @@
       "fullText": "NVIDIA RTX Spark Compact Desktops Out Now Systems from ASUS, Dell and MSI are now available — with more from Acer, GIGABYTE, HP and Microsoft on the way — bringing RTX acceleration and up to 128GB of unified memory to local AI, development and creative workflows. November 18, 2026 by Justin Walker 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks running while a laptop travels or handles other work. Alongside the new desktops, an expanding software ecosystem brings more creative and development workflows to RTX Spark laptops and compact desktops. Native Windows on Arm applications from Adobe, the NVIDIA DLSS Ray Reconstruction feature in Blender and local generation workflows in ComfyUI expand what creators and developers can do on RTX Spark — all on one Windows PC. A Windows PC Built for Local AI As workflows expand to include local AI models and agents, more work can continue beyond an active editing session — from generating assets to processing long renders or scheduled tasks. RTX Spark compact desktops give developers, creators and AI enthusiasts a dedicated Windows PC for local models and always-on agents. They bring together image and video generation, model fine-tuning, creative applications and development tools in one compact system. Running supported models locally keeps locally processed code and files on the PC and avoids per-token cloud application programming interface (API) charges for those tasks. RTX Spark compact desktops like the ASUS ProArt GR1X mini PC are built to run personal AI agents 24/7. RTX Spark de"
     },
     {
-      "s": "Unite.AI",
-      "t": "AI 에이전트 전반에 정책을 적용하기 위해 Vero Security, 1,100만 달러 규모의 시드 투자 유치",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUXprbkhTTjkzRnA3QUdnT3NPVk42S29DdVNYaTEtbm81NzF6M1FoalpwVmRtcnpYTlFEVHYwWFEtV0JXQXMyUk9DZ2gwRi1fR0JzOU50S3k0U24xVDdOaEt1eEI5TWpDcE1fLU81M0diQ0F1YVJGUXhLbG1XN0RRZ0N0aEQ?oc=5",
-      "m": "11. 18. PM 01:00",
-      "ts": 1795006800000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "\"GPU 확보 경쟁은 1막\"…AI 에이전트 시대, 산업·제도 혁신 시급",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQQlhEV1hRWHNia2s4bEtlOGpORlZVbXNlamRVT0RFOUw3NGduNVRWa1FwZGpiS3ZUNlJ6UU1sWmVjMmE1aGg0SmVNcFp5elNpV09PdnFR?oc=5",
-      "m": "11. 18. AM 08:52",
-      "ts": 1794991971000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "CoinDesk",
-      "t": "코인베이스 CEO, 향후 10년 내 AI 에이전트가 '99.9%'의 거래를 차지할 것이라고 밝혀",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLWw3Ujl2a0pzQWR4d2d4NVIzbGllT19Jb2ROU2V0ay1UeDcwVW5sTWNVWFd0UEV5R3lQRThrOGVQOW5yMXF2Z1ZoR096bkhwXzVveVZuVS1GRTU3TUxVakhEcW1qVmp0VFlIREllbVBHZmM2MkFGY0ZTclB0UlhaMmdWQ2Qya3paSmE5eXQtbEtLSFVjZUhYNlBXcFlFQzFmUDB2LTJ6aEhhaUUtWnF1UG81anQ3enBhaTRvM18zbVN6TUJMcUhj?oc=5",
-      "m": "11. 17. PM 07:54",
-      "ts": 1794945280000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
       "d": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance [&#8230;]",
@@ -241,16 +143,6 @@
       "m": "11. 17. PM 02:00",
       "ts": 1794924010000,
       "fullText": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents At SC26, NVIDIA’s VP of Hyperscale and HPC laid out how researchers can combine simulation, AI and agents to accelerate scientific discovery. November 17, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science , the Rubin HPC GPU and an expanded Vera CPU platform for high-performance computing . He also detailed a new collaboration in quantum computing with IBM and Fermi National Accelerator Laboratory . “The frontier of computing and the new scientific stack is going to be simulation, as always, but combined with AI and the future of quantum,” said Buck, vice president of hyperscale and high-performance computing at NVIDIA. Buck opened the talk by looking back to his first public talk on CUDA, at an SC06 tutorial in Tampa, Florida, 20 years ago. NVIDIA now offers more than 1,000 CUDA-X libraries , he said. Open Models for Science Agents “[Agents] have been just a game changer in how we interface with our supercomputers, with our devices, our instruments and how we can do the research,” Buck said. Simulation remains the foundation of scientific computing, “which will always be on the top,” Buck said, with AI, quantum and now agents working alongside it. Nemotron for Science combines the Nemotron 3.5 Super VL open model with a new open chemistry dataset and post-training recipes for life sciences and chemistry, Buck explained. Researchers can run it locally on a DGX Spark, a workstation or their own supercomputer. At Argonne National Laboratory, Buck said, an agent built with the toolkit took a single prompt, planned and tested hypotheses, chose which simulations to run and identified "
-    },
-    {
-      "s": "블루밍비트",
-      "t": "美 연준 이사 \"AI 에이전트, 수분 내 뱅크런 유발 가능\"…스테이블코인 확산에 경고",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9icGRBd2xLaTJESlVwM0NwR2sxa2pURG9jSmU5Uzk2bUlGY0FhTjlHQXF6bHctZkJteWJiS0V4VVloVlY1dnhBcTNZNGpONnZB?oc=5",
-      "m": "11. 17. AM 11:47",
-      "ts": 1794916077000,
-      "_policy": true,
-      "fullText": "Google News"
     },
     {
       "s": "NVIDIA공식",
@@ -271,66 +163,6 @@
       "fullText": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery November 16, 2026 by Kibibi Moseley 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries faster than ever. Read All NVIDIA Announcements From SC26 Bringing Black Holes Into Focus Seeing a black hole takes a telescope the size of Earth. The Event Horizon Telescope links radio dishes worldwide, generating petabytes of data that can take months to process. With NVIDIA cuPhoton.xBeam, a module within the cuPhoton Toolkit , black hole observations from the Event Horizon Telescope can now be correlated orders of magnitude faster than ever. Analysis that once took over a month now takes eight minutes. By combining global radio dishes into Earth-sized aperture, cuPhoton delivers unprecedented astronomical imaging resolution. cuPhoton successfully correlated observations of powerful black hole jets J1924 and 3C279 in the night sky — making it a reality to reconstruct a Messier 87* black hole galaxy in real time. The entire pipeline, from data loading and processing to visualization, runs on distributed multi-GPU systems or a compact NVIDIA DGX Spark system, helping scientists study how gas spirals inward under a black hole’s powerful gravitational pull. Steering Fusion Simulations Sustaining plasma at millions of degrees is essential to achieving stable, continuous fusion energy. But simulating its behavior is costly: on petascale systems, a single time step can take days, with simulations running for weeks. Experiments also generate data faster than traditional pipelines can process i"
     },
     {
-      "s": "디지털데일리",
-      "t": "“먼저 출시했다가 매 맞을라…韓 AI 에이전트 서비스, 규제 위기감 고조”",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04WHZRRWVjN2JiTmdELWxyWTBERm5vN3plckVZYjJiUjY0QUYyUFBtTDFVemZXRmRQZ1o2ci1wNTFVRUZldVlRemllTFNteGFSeXZPakxnYnRNMDREZktkY0hR?oc=5",
-      "m": "11. 16. PM 03:01",
-      "ts": 1794841260000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "지디넷코리아",
-      "t": "AI 생성물 표시, 유통 플랫폼 책임은 공백…”별도 법률로 규율해야\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuUXdLSWtpWUNHbEZrdmgzQmlsTFNiV3VUaGFMeW9ucVk4VzhKQzRTTFVldTN4OEU1VEp1dDRHazJ6OUp1eWJjY1VWQm9HRzVieWszSXpB?oc=5",
-      "m": "11. 16. AM 09:24",
-      "ts": 1794821052000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "시사저널e",
-      "t": "\"먼저 출시하면 먼저 맞을 뿐\"···AI 규제에 눈치 보는 韓기업들",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9td1NlOTFyQzMzM0UyenM4SHBtMTAyQ3Bad3NVNHZiQkVjdkFUU3BTM1RrOG5JSG5JakRYbUI0V0FfZlo1LVhOT2V0aFNQVjNzNGt3VEVsRkdGZF9naTNNclppcDZKbzNjQ1dYZFVpUEx2QQ?oc=5",
-      "m": "11. 16. AM 08:15",
-      "ts": 1794816906000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "아시아경제",
-      "t": "사람 대신 행동하는 에이전트 확산에…\"규제 범위·책임 기준 명확히 해야\"",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qVm1MaVRfNElpUmxidVFINGVPTVBNcmJfZWloQlE1Z1p3cTRHTVhJTnoxRkNUYm5YWEVCQTh2QXNWeE13ODRtR0Jyb0lwbW85S3dRbndaRW5iLTdXQlNVbw?oc=5",
-      "m": "11. 16. AM 07:52",
-      "ts": 1794815572000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "코인리더스",
-      "t": "[AI 보안] 정부 포털 뚫은 AI 에이전트… 호주, 규제기관 신설로 맞대응",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBxcUxUZGxhcWpkWkRWVHFoa29yVHIwUTNKTDJSdDRZV19JMUVPVTR5dUlMZl81R293ZE5sUV9VWmxnNkVFa295T0t3?oc=5",
-      "m": "11. 16. AM 07:01",
-      "ts": 1794812509000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "전자신문",
-      "t": "[ET단상] AI 에이전트 시대, 기업의 속도를 결정하는 것은 '엔진'이 아닌 '브레이크'",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15TFcwS1pIUWNBaW5GZ2hMZmRoSEhmOC1jVm5MMWl2QjN1NXI4Y2tUajhUcVhkOEFCU0Q5RklidTBMUk1hWXZIRkFpTlVsZw?oc=5",
-      "m": "11. 16. AM 07:00",
-      "ts": 1794812400000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
       "s": "NVIDIA공식",
       "t": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
       "d": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai [&#8230;]",
@@ -338,56 +170,6 @@
       "m": "11. 16. AM 12:00",
       "ts": 1794787228000,
       "fullText": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities November 15, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai Motor Group, LG Electronics and SK Group — as well as startups like Real World and Luda Robotics — using NVIDIA platforms to bring general-purpose robotics into the real world. Jonathan Cohen, vice president of applied research at NVIDIA, showed how enterprises can build agents they own and control. Breakout sessions featured speakers from Coupang Intelligent Cloud, Doosan Robotics, LG AI Research, LG Electronics, NAVER Cloud, SK Telecom and Upstage. “It was a genuinely enjoyable time to have candid conversations,” said Hyunho Yang, research engineer for omnimodal foundation models at SK Telecom. “Seeing the passion of fellow AI developers was a real source of inspiration for me.” Community leaders share how they build with open models and tools at AI Day Seoul. The Agentic AI 10x Bootcamp Community Day brought together Pseudo Lab, Python Korea, PyTorchKR, HAERAE, Hugging Face KREW, Graph User Group, Womxn Who Code Korea, Dnol (Datayanolja) and other developer communities. Five finalists from the Hangul Day hackathon, co-hosted with Fastcampus, built agents trained on the Korean language and culture with the OpenShell runtime. The winning team, FlyGate, received an NVIDIA DGX Spark system. More than 500 developers also took part in full-day NVIDIA Deep Learning Institute workshops and NVIDIA Certification exams in Korean. Workshops covered deploying and optimizing AI inference at scale, building end-to-end robotics wo"
-    },
-    {
-      "s": "인공지능신문",
-      "t": "한국인공지능검증원, 오스트리아 AIT와 AI 신뢰성 검증 플랫폼 개발…AI 에이전트까지 평가 확대",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53SUN6RTE3M3VBRXYweFk2Nmxyb0NjZU0tb19Sb19vN2ItMExFZkl5ZmxrMkVkSHBFRG5aVzdXWWNSVC02dTR3dFBlcFg4aVVoLWdFN3BVNTkzSjMzTmxZc0xwNXlYTGs?oc=5",
-      "m": "11. 12. PM 11:23",
-      "ts": 1794525788000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "KDI 경제교육·정보센터",
-      "t": "AI 에이전트 시대 금융보안 관련 정책과제",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1bkVsZjRlUmxoclNQN2wzQWxmVnNoVXZzRU55MGRTMVVmay1INUkxN1l0MjhveHZjbEJzYXJKVVR2N2lzbDNxa2NtaG01Y01HSnQ1SXNKeTBEcm9LblFXbzB6b2lpUF8yZ3BR?oc=5",
-      "m": "11. 12. PM 08:09",
-      "ts": 1794514181000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "뉴시스",
-      "t": "방미통위, 'AI 이용자 보호 컨퍼런스' 개최…AI 에이전트 책임·규제 논의",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYamlfeVVWSlUyLTMwQUdKWjgzNENZTjNfT2pnNld0ZS1sSVkwbmRCUzVjd09aRUtPQms2Rmc1SDRlVGJ0dkZCMkZBLXV3eHBQV2tDTFhHM2wwYmxzM3o2bNIBeEFVX3lxTE9WandTUm5vazlvOURPT2dnSFhyMkVGRFJSeXJJMzdnOUF2ZTNnb2FNa2Y2WU1vVzZtbG8tNUxHTmI0TnFFUnJpM1pNQURBNEJRWC1vcjdjNDhfLXd6YjdtelQ0UUlPNGVRbFdnN1c4aUZmVmh0TDhyQg?oc=5",
-      "m": "11. 12. AM 05:30",
-      "ts": 1794461403000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "Chosunbiz",
-      "t": "아톤, 금융권 AI 에이전트 인증 시장 진출… AI 에이전트사인 출시",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclM1UlhkYXJaNkk0NVhiR3BrYm5PVVJNSkthYkxIVkdYSUpCbXFrUnlhc0ZGdjlRNE1Fb0Rkelhja2dyX3FhSU96WVpWOTBmWm5WLXVrNGxSdzdrb1FyUkd4RGFmYUtQd0ZCRlI5SmVIQ1p4LVpscmdjSEp2a2Zna2NB0gGWAUFVX3lxTE5tTmVvMmdQTFhhdS04dkl2ajU3R1RNcC1pY2l5WkVUWFpIdHg5c05iOS1fNWEtUHc1dTZLUjVweEh4eGtMWXBrTVZEaDg2dmY5MklTZTc1aE5ielctNUZCOE5HRC1PRk9oSVhXdE9XQVhYbHJCdFE1akFLbHdHZ0pBTjUxRDBXSGp3dVd2dVRFUUlGNXo2dw?oc=5",
-      "m": "11. 12. AM 01:35",
-      "ts": 1794447300000,
-      "_policy": true,
-      "fullText": "Google News"
-    },
-    {
-      "s": "인공지능신문",
-      "t": "AI 에이전트가 정부 시스템 무단 침입…호주, AI 사고 신고 의무화·독립 규제기관 신설 추진",
-      "d": "",
-      "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfQnkzVGQyNGRiZWt0THJrbTl0WDF3c2xKX0VfUHIyd1ZKcWxvYk00Uk5tNlU0UVdQSWxRaWpyazhaSGdBRzdUQzZMVzl2dVdVWjZiOElTMC0yeVZEWmhtXzcyYU01VXM?oc=5",
-      "m": "11. 10. AM 08:00",
-      "ts": 1794297600000,
-      "_policy": true,
-      "fullText": "Google News"
     }
   ]
 }

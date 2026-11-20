@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-20T03:52:32.299Z",
+  "updatedAt": "2026-11-20T12:28:24.601Z",
   "data": {
     "377300": {
       "name": "카카오페이",
-      "px": 34000,
-      "dayChange": -0.88,
-      "periodChange": -5.03,
+      "px": 33750,
+      "dayChange": -1.6,
+      "periodChange": -5.73,
       "prices": [
         35800,
         35400,
@@ -30,7 +30,7 @@
         32200,
         33100,
         34300,
-        34000
+        33750
       ],
       "dates": [
         "2026-10-20",
@@ -58,15 +58,15 @@
         "2026-11-19",
         "2026-11-20"
       ],
-      "volume": 90315,
+      "volume": 157140,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "4조 6,148억",
-        "per": "44.58배",
-        "pbr": "2.34배",
-        "cnsPer": "35.93배",
+        "marketCap": "4조 5,269억",
+        "per": "43.73배",
+        "pbr": "2.29배",
+        "cnsPer": "35.25배",
         "divYield": "N/A",
         "foreignRatio": "28.31%",
         "high52w": "80,800",
@@ -83,6 +83,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261120",
+            "foreigner": -26906,
+            "institution": -3292,
+            "individual": 27081,
+            "foreignRatio": "28.29%"
+          },
           {
             "date": "20261119",
             "foreigner": 9915,
@@ -145,22 +152,15 @@
             "institution": 19422,
             "individual": -5023,
             "foreignRatio": "28.14%"
-          },
-          {
-            "date": "20261106",
-            "foreigner": 44166,
-            "institution": -34665,
-            "individual": -8231,
-            "foreignRatio": "28.16%"
           }
         ],
         "sum5d": {
-          "foreigner": 11224,
-          "institution": 43931
+          "foreigner": -19960,
+          "institution": 35722
         },
         "sum10d": {
-          "foreigner": 60126,
-          "institution": 42540
+          "foreigner": -10946,
+          "institution": 73913
         }
       },
       "consensus": null
@@ -301,9 +301,9 @@
     },
     "035420": {
       "name": "NAVER",
-      "px": 162700,
-      "dayChange": -3.33,
-      "periodChange": -8.6,
+      "px": 161600,
+      "dayChange": -3.98,
+      "periodChange": -9.21,
       "prices": [
         178000,
         179500,
@@ -328,7 +328,7 @@
         170000,
         170300,
         168300,
-        162700
+        161600
       ],
       "dates": [
         "2026-10-20",
@@ -356,19 +356,19 @@
         "2026-11-19",
         "2026-11-20"
       ],
-      "volume": 334496,
+      "volume": 788909,
       "currency": "KRW",
       "state": "CLOSED",
       "market": "KR",
       "fundamentals": {
-        "marketCap": "24조 8,575억",
-        "per": "15.03배",
-        "pbr": "0.89배",
-        "cnsPer": "14.18배",
-        "divYield": "1.61%",
+        "marketCap": "24조 4,619억",
+        "per": "14.79배",
+        "pbr": "0.87배",
+        "cnsPer": "13.95배",
+        "divYield": "1.64%",
         "foreignRatio": "36.25%",
         "high52w": "308,500",
-        "low52w": "162,100",
+        "low52w": "160,700",
         "consensus": {
           "targetMean": 292048,
           "targetHigh": null,
@@ -381,6 +381,13 @@
       },
       "investorFlow": {
         "items": [
+          {
+            "date": "20261120",
+            "foreigner": -70450,
+            "institution": -60469,
+            "individual": 144872,
+            "foreignRatio": "36.20%"
+          },
           {
             "date": "20261119",
             "foreigner": -32330,
@@ -443,22 +450,15 @@
             "institution": 168922,
             "individual": -178454,
             "foreignRatio": "36.16%"
-          },
-          {
-            "date": "20261106",
-            "foreigner": 161919,
-            "institution": 427453,
-            "individual": -576131,
-            "foreignRatio": "36.09%"
           }
         ],
         "sum5d": {
-          "foreigner": -103636,
-          "institution": -472402
+          "foreigner": -115300,
+          "institution": -185010
         },
         "sum10d": {
-          "foreigner": 294324,
-          "institution": -20932
+          "foreigner": 61955,
+          "institution": -508854
         }
       },
       "consensus": null
@@ -513,7 +513,7 @@
       -13.38,
       -11.65,
       -10.42,
-      -14.67
+      -15.09
     ],
     "sp500": [
       0,
@@ -546,7 +546,7 @@
       "name": "Global X FinTech ETF",
       "px": 21.89,
       "dayChange": -3.57,
-      "periodChange": -7.98,
+      "periodChange": -11.34,
       "prices": [
         24.69,
         24.94,
@@ -569,7 +569,8 @@
         24.09,
         23.55,
         22.95,
-        22.72
+        22.72,
+        21.89
       ],
       "dates": [
         "2026-10-20",
@@ -593,7 +594,8 @@
         "2026-11-13",
         "2026-11-16",
         "2026-11-17",
-        "2026-11-18"
+        "2026-11-18",
+        "2026-11-19"
       ],
       "volume": 108255,
       "currency": "USD",
